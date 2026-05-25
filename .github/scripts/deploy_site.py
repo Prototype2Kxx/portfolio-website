@@ -46,11 +46,18 @@ def deploy():
     # Repo root is two levels up from this script (.github/scripts/)
     local_base = Path(__file__).resolve().parent.parent.parent
 
+    # Remote base directory on IONOS (the webroot folder)
+    webroot = os.environ.get('IONOS_WEBROOT', 'site').strip('/')
+
     print(f"Connecting to {host}…")
+    print(f"Deploying to remote folder: /{webroot}/")
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     client.connect(host, port=22, username=user, password=password, timeout=30)
     sftp = client.open_sftp()
+
+    # Ensure the webroot folder exists
+    sftp_mkdir_p(sftp, webroot)
 
     uploaded = 0
     skipped  = 0
@@ -67,7 +74,7 @@ def deploy():
             continue
 
         rel_path    = local_path.relative_to(local_base)
-        remote_path = str(rel_path).replace('\\', '/')
+        remote_path = webroot + '/' + str(rel_path).replace('\\', '/')
         remote_dir  = '/'.join(remote_path.split('/')[:-1])
 
         # Ensure the remote directory exists

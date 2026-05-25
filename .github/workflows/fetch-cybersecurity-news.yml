@@ -44,9 +44,7 @@ jobs:
           FTP_HOST:          ${{ secrets.FTP_HOST }}
           FTP_USER:          ${{ secrets.FTP_USER }}
           FTP_PASS:          ${{ secrets.FTP_PASS }}
-          # Path on the IONOS server where news.json should be saved
-          # Example: /georgecomdrea.com/data/news.json
-          FTP_REMOTE_PATH:   ${{ secrets.FTP_REMOTE_PATH }}
+          FTP_REMOTE_PATH: site/data/news.json
         run: python .github/scripts/fetch_news.py
 
       # 5. Commit the updated news.json back to the repo

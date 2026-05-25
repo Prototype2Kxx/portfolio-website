@@ -29,7 +29,8 @@ jobs:
 
       - name: Deploy to IONOS
         env:
-          FTP_HOST: ${{ secrets.FTP_HOST }}
-          FTP_USER: ${{ secrets.FTP_USER }}
-          FTP_PASS: ${{ secrets.FTP_PASS }}
+          FTP_HOST:      ${{ secrets.FTP_HOST }}
+          FTP_USER:      ${{ secrets.FTP_USER }}
+          FTP_PASS:      ${{ secrets.FTP_PASS }}
+          IONOS_WEBROOT: site
         run: python .github/scripts/deploy_site.py
