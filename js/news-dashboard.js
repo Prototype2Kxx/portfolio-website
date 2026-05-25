@@ -86,8 +86,13 @@ function buildCard(article) {
   col.dataset.severity = article.severity || '';
   col.dataset.date     = article.publishedDate || '';
 
+  // Safe image URL — only allow http/https to prevent javascript: injection
+  const imgUrl = article.image && /^https?:\/\//i.test(article.image)
+    ? escapeHtml(article.image) : '';
+
   col.innerHTML = `
     <div class="news-card ${sevClass} h-100">
+      ${imgUrl ? `<div class="card-thumb-wrap"><img src="${imgUrl}" class="card-thumbnail" alt="" loading="lazy" onerror="this.closest('.card-thumb-wrap').remove()"></div>` : ''}
       <div class="card-inner">
 
         <!-- Badges -->

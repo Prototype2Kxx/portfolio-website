@@ -184,43 +184,43 @@
                 <div class="workflow-diagram" aria-label="Workflow diagram">RSS / API Sources → GitHub Actions (Python) → Claude AI → data/news.json → Website Dashboard
 
 Step-by-step:
-  1. Schedule Trigger  — GitHub Actions runs at 07:00 and 19:00 UTC daily
-  2. Fetch RSS Feeds   — Python reads 5 trusted cybersecurity feeds
-  3. Deduplicate       — Skip articles already stored in data/news.json
-  4. AI Processing     — Each new article sent to Claude Haiku API:
-                         • 2–4 sentence summary
-                         • Category classification
-                         • Severity rating (Low / Medium / High / Critical)
-                         • 3–6 tags
-                         • "Why this matters" explanation
-  5. Store             — Updated data/news.json committed to GitHub repo
-  6. Deploy            — File FTP-uploaded to IONOS automatically
-  7. Display           — This page reads the JSON and renders the cards</div>
+  1. Schedule Trigger  │  GitHub Actions runs at 07:00 and 19:00 UTC daily
+  2. Fetch RSS Feeds   │  Python reads 5 trusted cybersecurity feeds
+  3. Deduplicate       │  Skip articles already stored in data/news.json
+  4. AI Processing     │  Each new article sent to Claude Haiku API:
+                            • 2–4 sentence summary
+                            • Category classification
+                            • Severity rating (Low / Medium / High / Critical)
+                            • 3–6 tags
+                            • "Why this matters" explanation
+  5. Store             │  Updated data/news.json committed to GitHub repo
+  6. Deploy            │  File uploaded to IONOS via SFTP automatically
+  7. Display           │  This page reads the JSON and renders the cards</div>
 
-                <h5 class="text-light mt-4 mb-3">How It Works — Step by Step</h5>
+                <h5 class="text-light mt-4 mb-3">How It Works, Step by Step</h5>
                 <ol style="line-height:1.9; color: var(--text-secondary);">
                   <li>
                     <strong class="text-light">GitHub Actions</strong> runs a scheduled Python script
-                    at 7 am and 7 pm UTC every day — no server required.
+                    at 7 am and 7 pm UTC every day. No server required.
                   </li>
                   <li>
-                    <strong class="text-light">RSS Feed Collection</strong> — the script fetches
+                    <strong class="text-light">RSS Feed Collection:</strong> the script fetches
                     articles from five cybersecurity feeds (The Hacker News, BleepingComputer,
                     Krebs on Security, Dark Reading, NCSC UK).
                   </li>
                   <li>
-                    <strong class="text-light">Deduplication</strong> — article URLs are compared
+                    <strong class="text-light">Deduplication:</strong> article URLs are compared
                     against those already in storage so nothing is processed twice.
                   </li>
                   <li>
-                    <strong class="text-light">AI Summarisation</strong> — each new article is sent
+                    <strong class="text-light">AI Summarisation:</strong> each new article is sent
                     to Claude Haiku with a structured prompt requesting a summary, category, severity,
                     tags, and a "why it matters" explanation.
                   </li>
                   <li>
-                    <strong class="text-light">Storage &amp; Deployment</strong> — the updated
+                    <strong class="text-light">Storage and Deployment:</strong> the updated
                     <code>data/news.json</code> is committed back to the GitHub repository and
-                    FTP-uploaded to the live IONOS server automatically.
+                    uploaded to the live IONOS server via SFTP automatically.
                   </li>
                 </ol>
               </div>
@@ -267,11 +267,11 @@ Step-by-step:
 
                 <h5 class="text-light mt-4 mb-3">Ethics &amp; Attribution</h5>
                 <ul class="ethics-list">
-                  <li>No website scraping — RSS feeds and public APIs only</li>
+                  <li>No website scraping; RSS feeds and public APIs only</li>
                   <li>Every article links back to the original source</li>
                   <li>Summaries are AI-generated and clearly labelled</li>
                   <li>No full articles are reproduced or rehosted</li>
-                  <li>API keys stored in GitHub Secrets — never in code</li>
+                  <li>API keys stored in GitHub Secrets, never in code</li>
                   <li>All feed content is HTML-escaped before display</li>
                 </ul>
 

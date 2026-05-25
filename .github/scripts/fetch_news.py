@@ -93,6 +93,38 @@ def strip_html(text: str) -> str:
     return re.sub(r"<[^>]+>", " ", text or "").strip()
 
 
+def get_image_from_entry(entry) -> str | None:
+    """Try to extract a thumbnail image URL from a feedparser entry."""
+    # 1. media:thumbnail — most common (The Hacker News, BleepingComputer)
+    thumbnails = getattr(entry, "media_thumbnail", [])
+    if thumbnails and thumbnails[0].get("url"):
+        return thumbnails[0]["url"]
+
+    # 2. media:content with image type or medium
+    for m in getattr(entry, "media_content", []):
+        if m.get("medium") == "image" or str(m.get("type", "")).startswith("image/"):
+            if m.get("url"):
+                return m["url"]
+
+    # 3. Enclosures
+    for enc in getattr(entry, "enclosures", []):
+        if str(enc.get("type", "")).startswith("image/") and enc.get("href"):
+            return enc["href"]
+
+    # 4. First <img> tag in the summary HTML
+    summary_html = getattr(entry, "summary", "") or ""
+    if "<img" in summary_html:
+        m = re.search(
+            r'<img[^>]+src=["\']([^"\']+\.(?:jpe?g|png|webp|gif))["\']',
+            summary_html,
+            re.IGNORECASE,
+        )
+        if m:
+            return m.group(1)
+
+    return None
+
+
 def parse_entry_date(entry) -> str:
     """Return ISO date string from a feedparser entry, falling back to today."""
     for attr in ("published_parsed", "updated_parsed"):
@@ -172,6 +204,7 @@ def fetch_rss_feeds(existing_urls: set) -> list:
                 elif hasattr(entry, "content") and entry.content:
                     content = strip_html(entry.content[0].get("value", ""))
                 content = content[:CONTENT_SNIPPET_LEN]
+                image_url = get_image_from_entry(entry)
 
                 new_articles.append({
                     "title":   (entry.get("title") or "Untitled").strip(),
@@ -179,6 +212,7 @@ def fetch_rss_feeds(existing_urls: set) -> list:
                     "source":  feed_info["name"],
                     "date":    parse_entry_date(entry),
                     "content": content,
+                    "image":   image_url,
                 })
                 existing_urls.add(url)
                 count += 1
@@ -240,7 +274,7 @@ def process_with_ai(client: anthropic.Anthropic, article: dict) -> dict | None:
             "severity":      severity,
             "tags":          tags,
             "whyItMatters":  str(ai.get("whyItMatters", ""))[:400],
-            "image":         None,
+            "image":         article.get("image"),
             "processedAt":   datetime.now(timezone.utc).isoformat(),
         }
 
