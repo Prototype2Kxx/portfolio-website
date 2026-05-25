@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>About George Condrea | Chef Turned Cybersecurity Student</title>
+  <meta name="description" content="Learn about George Condrea, a former chef now studying Cybersecurity at Bournemouth University. Read about his journey, skills, and background.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f2f2f2;
+    }
+    .section-box {
+      background: #fff;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+    .rounded-square {
+      border-radius: 0.5rem;
+    }
+    .gallery-item:hover {
+      transform: scale(1.03);
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .gallery-item {
+      transition: transform 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="cybersecurity-news.html">Security News</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+  <div class="section-box">
+    <div class="row align-items-center">
+      <div class="col-md-4 mb-3">
+        <img src="img/me.jpg" alt="George Condrea" class="img-fluid rounded-square shadow">
+      </div>
+      <div class="col-md-8">
+        <h2>About Me</h2>
+        <p> Hello, I’m George Condrea, an aspiring software and cybersecurity professional based in Swanage, Dorset. I’ll be starting a degree in Cybersecurity and Digital Forensics in September 2025, and I’ve recently completed an Access to Higher Education Diploma in Computing. This portfolio showcases the work I’ve done so far, including personal projects, skills I’ve developed, and my career progression into software and security.</p>
+        <p> I started my career in professional kitchen environments, where I spent close to ten years honing my creativity, discipline, and pressure-testing skills. I enjoyed working in the kitchen and was successful on my own level, but I couldn’t help feeling drawn to new horizons—something that involved problem-solving and working with technology. That's how I shifted into computing and cybersecurity. It's been tough but well worth it, and I am excited about where it's going. </p>
+        <p> Although my work is not completely AI-free, I employ tools such as ChatGPT or Copilot to refine a good solution into something more efficient, polished, or creative. It is a method of improving my work, not substituting the learning or problem-solving process that goes into it.</p>
+        <p> For instance, my Scamazon site uses JavaScript to handle stuff like product modals, the search box, the breadcrumbs, and the checkout form. I don’t yet have the skills necessary to write all of that on my own, but I am actively learning.</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="section-box">
+      <h3>Skills</h3>
+      <p>These technologies were introduced and practiced during my one-year Access to Higher Education Diploma in Computing. I have basic knowledge and experience with the following tools and systems:</p>
+      <ul>
+        <li>HTML, CSS, Bootstrap</li>
+        <li>Python</li>
+        <li>MS Access, Office Suite</li>
+        <li>Tiled Map Editor</li>
+        <li>Cisco Packet Tracer</li>
+        <li>System design & analysis</li>
+      </ul>
+    </div>
+
+    <div class="section-box">
+      <h3>My Culinary Journey</h3>
+      <p>Here are some moments from my time working in professional kitchens, including events and dishes I've been proud to be part of.</p>
+      <div class="row g-4">
+        <!-- Pig on the Beach -->
+        <div class="col-sm-6 col-md-4">
+          <h6 class="text-center">The Pig on the Beach</h6>
+          <img src="img/pig/restaurant.webp" alt="The Pig on the Beach kitchen"
+               class="gallery-equal clickable" data-bs-toggle="modal" data-bs-target="#modalPig">
+
+        </div>
+        <!-- Pasta Class -->
+        <div class="col-sm-6 col-md-4">
+          <h6 class="text-center">Pasta Class – Rome</h6>
+          <img src="img/pasta-class/rome.jpg" alt="Pasta Cooking Course - Rome, Italy"
+               class="gallery-equal clickable" data-bs-toggle="modal" data-bs-target="#modalPasta">
+
+        </div>
+        <!-- Fish Festival Video -->
+        <div class="col-sm-6 col-md-4">
+          <h6 class="text-center">Fish Festival Catering</h6>
+          <img src="img/fish-festival/preview.png" alt="Fish Festival Catering"
+               class="gallery-equal clickable" data-bs-toggle="modal" data-bs-target="#modalFish">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modals -->
+    <!-- Pig Modal -->
+    <div class="modal fade" id="modalPig" tabindex="-1" aria-labelledby="modalPigLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <img src="img/pig/restaurant.webp" alt="The Pig on the Beach kitchen" class="img-fluid w-100">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pasta Modal -->
+    <div class="modal fade" id="modalPasta" tabindex="-1" aria-labelledby="modalPastaLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <img src="img/pasta-class/rome.jpg" alt="Pasta Cooking Course - Rome, Italy" class="img-fluid w-100">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fish Festival Modal -->
+    <div class="modal fade" id="modalFish" tabindex="-1" aria-labelledby="modalFishLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-body p-0">
+            <video class="w-100" controls poster="img/fish-festival/preview.png">
+              <source src="img/fish-festival/fish-festival.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      .clickable:hover {
+                        cursor: pointer;
+                        opacity: 0.85;
+                        transition: 0.3s;
+                      }
+
+      .gallery-equal {
+                        aspect-ratio: 3 / 4;
+                        object-fit: cover;
+                        height: 100%;
+                        width: 100%;
+                        border-radius: 0.5rem;
+                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+                      }
+    </style>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <canvas id="liquid-bg"></canvas>
+
+  <!-- Liquid Ether library -->
+  <script src="https://cdn.jsdelivr.net/npm/@reactbits/liquid-ether"></script>
+
+  <!-- Your script -->
+  <script src="background-script.js"></script>
+
+</body>
+</html>

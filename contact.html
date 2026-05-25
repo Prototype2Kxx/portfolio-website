@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Contact George Condrea | Portfolio Enquiries &amp; Opportunities</title>
+  <meta name="description" content="Get in touch with George Condrea for work opportunities, project collaborations, or general enquiries. Reach out via email or the contact form.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <style>
+    .contact-box {
+      background-color: #f8f9fa;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    }
+    .form-label {
+      font-weight: 500;
+    }
+    #confirmationMessage {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="cybersecurity-news.html">Security News</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="py-5">
+    <div class="container contact-box">
+      <h2 class="text-center mb-4">Let's Get in Touch</h2>
+      <p class="text-center mb-5">Have a question, opportunity, or just want to say hello? Fill out the form below or use the contact info to reach me directly.</p>
+
+      <div class="row">
+        <!-- Contact Info -->
+        <div class="col-md-5 mb-4">
+          <h5 class="mb-3">Contact Information</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bi bi-envelope-fill me-2 text-primary"></i><strong>Email:</strong> contact@george-condrea.com</li>
+            <li class="mb-2"><i class="bi bi-telephone-fill me-2 text-primary"></i><strong>Phone:</strong> 07516 906738</li>
+            <li><i class="bi bi-geo-alt-fill me-2 text-primary"></i><strong>Location:</strong> Swanage, Dorset</li>
+          </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-md-7">
+          <form id="contactForm" action="https://formspree.io/f/your_form_id" method="POST" class="needs-validation" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" name="name" id="name" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" name="email" id="email" required>
+              <div class="invalid-feedback">Please enter a valid email address.</div>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" name="message" id="message" rows="5" required></textarea>
+              <div class="invalid-feedback">Please enter your message.</div>
+            </div>
+            <button type="submit" class="btn btn-primary"><i class="bi bi-send-fill me-1"></i> Send Message</button>
+          </form>
+          <div id="confirmationMessage" class="alert alert-success mt-4" role="alert">
+            Thank you! Your message has been sent successfully.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Bootstrap form validation
+    (() => {
+      'use strict';
+      const forms = document.querySelectorAll('.needs-validation');
+      Array.from(forms).forEach(form => {
+        form.addEventListener('submit', event => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      });
+    })();
+
+    // Redirect to home page after successful submission
+    const form = document.getElementById('contactForm');
+    form.addEventListener('submit', function (e) {
+      if (form.checkValidity()) {
+        e.preventDefault();
+        document.getElementById('confirmationMessage').style.display = 'block';
+        setTimeout(() => {
+          window.location.href = 'index.html';
+        }, 2000); // Redirect after 2 seconds
+      }
+    });
+  </script>
+</body>
+</html>

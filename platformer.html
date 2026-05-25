@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Knight in the Night at Night | George Condrea Pygame Game</title>
+  <meta name="description" content="Knight in the Night at Night is a 2D Pygame platformer featuring combat, skill trees, inventory, enemy AI, and handcrafted maps. Built with Python.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .feature-section {
+      padding: 4rem 0;
+    }
+    .feature-img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    }
+    .game-title {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link" href="cybersecurity-news.html">Security News</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h1 class="game-title">Knight in the Night at Night</h1>
+      <p class="lead">A 2D platformer adventure filled with action, style, and challenge.</p>
+    </div>
+  </header>
+
+  <!-- Feature 1 -->
+  <section class="feature-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/platformer/unique-design.png" alt="Player Sprite and Level Design" class="feature-img">
+        </div>
+        <div class="col-md-6">
+          <h3>Unique Character Design</h3>
+          <p>The main character, a valiant knight, is animated with a full sprite sheet including idle, run, jump, and multiple attack moves. Special effects like landing dust puffs and smoke trails enhance gameplay immersion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 2 -->
+  <section class="feature-section bg-light">
+    <div class="container">
+      <div class="row align-items-center flex-md-row-reverse">
+        <div class="col-md-6">
+          <img src="img/platformer/dynamic-ai.png" alt="Enemies and Combat System" class="feature-img">
+        </div>
+        <div class="col-md-6">
+          <h3>Dynamic Enemy AI</h3>
+          <p>Enemies like Orc Warriors and Skeleton Archers use state-based AI for patrolling, searching, and attacking. The archer features a vector-based ranged attack system, while all combat interactions are enhanced with floating damage text for real-time feedback.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 3 -->
+  <section class="feature-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/platformer/inventory.png" alt="Inventory and Equipment System" class="feature-img">
+        </div>
+        <div class="col-md-6">
+          <h3>Inventory & Item System</h3>
+          <p>A Diablo-style inventory lets players drag and equip items with tooltips that display rarity and stats. Equipped gear directly affects the knight’s attributes, offering tactical flexibility in combat and exploration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 4 -->
+  <section class="feature-section bg-light">
+    <div class="container">
+      <div class="row align-items-center flex-md-row-reverse">
+        <div class="col-md-6">
+          <img src="img/platformer/progression-system.png" alt="Progression and Attributes" class="feature-img">
+        </div>
+        <div class="col-md-6">
+          <h3>Progression System</h3>
+          <p>Defeating enemies rewards XP, which can be used to level up and gain attribute points. Players can invest in health, stamina, attack power, and more to customize their build as they progress.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 5 -->
+  <section class="feature-section">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <img src="img/platformer/skills.png" alt="Skill Tree Unlocks" class="feature-img">
+        </div>
+        <div class="col-md-6">
+          <h3>Skill Tree</h3>
+          <p>As players level up, they unlock skill points to spend on a structured skill tree. Each passive skill enhances attributes even further, offering bonuses like dodge chance, lifesteal, XP gain, and critical damage multipliers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature 6 -->
+<section class="feature-section bg-light">
+  <div class="container">
+    <div class="row align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <div id="shopCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/platformer/shop1.png" class="d-block w-100" alt="Shop Interface 1">
+            </div>
+            <div class="carousel-item">
+              <img src="img/platformer/shop2.png" class="d-block w-100" alt="Shop Interface 2">
+            </div>
+            <div class="carousel-item">
+              <img src="img/platformer/shop3.png" class="d-block w-100" alt="Shop Interface 3">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Shop System</h3>
+        <p>Enemies drop gold that can be spent at in-game shops to purchase new gear. Items come with detailed stat bonuses, and players can also sell unwanted equipment for half its value, creating a rewarding in-game economy.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Feature 7 - Auto-Rotating Carousel -->
+<section class="feature-section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div id="mapCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/platformer/map1.png" class="d-block w-100" alt="Tiled Map Overview">
+            </div>
+            <div class="carousel-item">
+              <img src="img/platformer/map2.png" class="d-block w-100" alt="Parallax Example">
+            </div>
+            <div class="carousel-item">
+              <img src="img/platformer/map3.png" class="d-block w-100" alt="Save Point Area">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Handcrafted Map with Tiled</h3>
+        <p>Level is built using Tiled, supporting layered environments, animated tiles, and interactive objects like save points. Parallax backgrounds and smooth camera tracking create a rich and immersive world for players to explore.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="container my-5">
+  <h2 class="text-center mb-4">Play Knight in the Night</h2>
+  <div class="ratio ratio-16x9">
+    <iframe 
+      src="https://animated-unicorn-2bde72.netlify.app" 
+      allowfullscreen 
+      style="border: none;">
+    </iframe>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <div class="container">
+      &copy; 2025 George Condrea | Knight in the Night at Night
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

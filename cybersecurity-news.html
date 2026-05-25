@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Cybersecurity News | George Condrea Portfolio</title>
+  <meta name="description" content="A live cybersecurity intelligence dashboard. AI-summarised news from trusted RSS feeds, automatically categorised by topic and severity.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/news-dashboard.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVBAR
+════════════════════════════════════════════ -->
+<nav class="navbar navbar-expand-lg navbar-dark news-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">George Condrea</a>
+    <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="cybersecurity-news.html">Security News</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════
+     HERO
+════════════════════════════════════════════ -->
+<section class="news-hero">
+  <div class="container">
+    <h1>Cybersecurity Intelligence Dashboard</h1>
+    <p class="hero-intro">
+      Automated daily news from trusted cybersecurity sources — AI-summarised,
+      categorised by topic, and rated by severity.
+    </p>
+    <div class="last-updated-pill">
+      <span class="pulse-dot" aria-hidden="true"></span>
+      Last updated: <strong id="lastUpdated">Loading…</strong>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     STATS BAR  (quick-filter chips)
+════════════════════════════════════════════ -->
+<div class="stats-bar">
+  <div class="container">
+    <div class="d-flex flex-wrap align-items-center gap-2">
+      <span class="stats-label">Quick filter:</span>
+
+      <button id="chipAll" class="stat-chip chip-total" aria-label="Show all articles">
+        📰 All &nbsp;<span class="chip-count" id="statTotal">–</span>
+      </button>
+
+      <button class="stat-chip chip-critical" data-sev="Critical" aria-label="Filter Critical">
+        🔴 Critical &nbsp;<span class="chip-count" id="statCritical">–</span>
+      </button>
+
+      <button class="stat-chip chip-high" data-sev="High" aria-label="Filter High">
+        🟠 High &nbsp;<span class="chip-count" id="statHigh">–</span>
+      </button>
+
+      <button class="stat-chip chip-medium" data-sev="Medium" aria-label="Filter Medium">
+        🟡 Medium &nbsp;<span class="chip-count" id="statMedium">–</span>
+      </button>
+
+      <button class="stat-chip chip-low" data-sev="Low" aria-label="Filter Low">
+        🔵 Low &nbsp;<span class="chip-count" id="statLow">–</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     CONTROLS BAR  (search / filter / sort)
+════════════════════════════════════════════ -->
+<div class="controls-bar">
+  <div class="container">
+    <div class="row g-2 align-items-center">
+
+      <!-- Search -->
+      <div class="col-12 col-md-4">
+        <div class="search-wrap">
+          <i class="bi bi-search search-icon" aria-hidden="true"></i>
+          <input type="search" id="searchInput" class="form-control"
+                 placeholder="Search articles, tags, sources…" aria-label="Search articles">
+        </div>
+      </div>
+
+      <!-- Category -->
+      <div class="col-6 col-md-3">
+        <select id="categoryFilter" class="form-select" aria-label="Filter by category">
+          <option value="">All Categories</option>
+          <!-- Populated by JS from data -->
+        </select>
+      </div>
+
+      <!-- Severity -->
+      <div class="col-6 col-md-2">
+        <select id="severityFilter" class="form-select" aria-label="Filter by severity">
+          <option value="">All Severities</option>
+          <option value="Critical">Critical</option>
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+      </div>
+
+      <!-- Sort -->
+      <div class="col-6 col-md-2">
+        <select id="sortFilter" class="form-select" aria-label="Sort order">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+        </select>
+      </div>
+
+      <!-- Reset -->
+      <div class="col-6 col-md-1">
+        <button id="resetBtn" class="btn-reset" aria-label="Reset all filters">Reset</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     ARTICLES GRID
+════════════════════════════════════════════ -->
+<section class="articles-section" aria-label="News articles">
+  <div class="container">
+    <div class="results-bar">
+      <span class="results-count" id="resultsCount">Loading articles…</span>
+    </div>
+    <div class="row" id="articlesGrid">
+      <!-- Cards injected by news-dashboard.js -->
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     PORTFOLIO EXPLANATION
+════════════════════════════════════════════ -->
+<section class="portfolio-section" aria-label="Portfolio explanation">
+  <div class="container">
+    <p class="section-heading">About this dashboard</p>
+
+    <div class="accordion" id="portfolioAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#portfolioBody"
+                  aria-expanded="false" aria-controls="portfolioBody">
+            🎓 How This Dashboard Works — Portfolio Project Explanation
+          </button>
+        </h2>
+        <div id="portfolioBody" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <div class="row g-5">
+
+              <!-- Left column: description + diagram -->
+              <div class="col-lg-7">
+                <h5 class="text-light mb-3">What Is This?</h5>
+                <p>
+                  This Cybersecurity News Dashboard is a portfolio project that combines automation,
+                  AI, and front-end development to create a functional security intelligence tool.
+                  It automatically collects articles from trusted cybersecurity RSS feeds, sends each
+                  one to an AI model for processing, and displays the results in a clean,
+                  filterable dashboard — updated twice daily without any manual intervention.
+                </p>
+
+                <h5 class="text-light mt-4 mb-3">System Architecture</h5>
+                <div class="workflow-diagram" aria-label="Workflow diagram">RSS / API Sources → GitHub Actions (Python) → Claude AI → data/news.json → Website Dashboard
+
+Step-by-step:
+  1. Schedule Trigger  — GitHub Actions runs at 07:00 and 19:00 UTC daily
+  2. Fetch RSS Feeds   — Python reads 5 trusted cybersecurity feeds
+  3. Deduplicate       — Skip articles already stored in data/news.json
+  4. AI Processing     — Each new article sent to Claude Haiku API:
+                         • 2–4 sentence summary
+                         • Category classification
+                         • Severity rating (Low / Medium / High / Critical)
+                         • 3–6 tags
+                         • "Why this matters" explanation
+  5. Store             — Updated data/news.json committed to GitHub repo
+  6. Deploy            — File FTP-uploaded to IONOS automatically
+  7. Display           — This page reads the JSON and renders the cards</div>
+
+                <h5 class="text-light mt-4 mb-3">How It Works — Step by Step</h5>
+                <ol style="line-height:1.9; color: var(--text-secondary);">
+                  <li>
+                    <strong class="text-light">GitHub Actions</strong> runs a scheduled Python script
+                    at 7 am and 7 pm UTC every day — no server required.
+                  </li>
+                  <li>
+                    <strong class="text-light">RSS Feed Collection</strong> — the script fetches
+                    articles from five cybersecurity feeds (The Hacker News, BleepingComputer,
+                    Krebs on Security, Dark Reading, NCSC UK).
+                  </li>
+                  <li>
+                    <strong class="text-light">Deduplication</strong> — article URLs are compared
+                    against those already in storage so nothing is processed twice.
+                  </li>
+                  <li>
+                    <strong class="text-light">AI Summarisation</strong> — each new article is sent
+                    to Claude Haiku with a structured prompt requesting a summary, category, severity,
+                    tags, and a "why it matters" explanation.
+                  </li>
+                  <li>
+                    <strong class="text-light">Storage &amp; Deployment</strong> — the updated
+                    <code>data/news.json</code> is committed back to the GitHub repository and
+                    FTP-uploaded to the live IONOS server automatically.
+                  </li>
+                </ol>
+              </div>
+
+              <!-- Right column: tech stack + skills + ethics -->
+              <div class="col-lg-5">
+
+                <h5 class="text-light mb-3">Technologies Used</h5>
+
+                <p style="font-size:0.73rem;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:.5rem;">Frontend</p>
+                <div class="mb-3">
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">JavaScript (ES6+)</span>
+                  <span class="skill-tag">Bootstrap 5</span>
+                </div>
+
+                <p style="font-size:0.73rem;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:.5rem;">Automation</p>
+                <div class="mb-3">
+                  <span class="skill-tag">GitHub Actions</span>
+                  <span class="skill-tag">Python 3</span>
+                  <span class="skill-tag">RSS / feedparser</span>
+                  <span class="skill-tag">Cron scheduling</span>
+                </div>
+
+                <p style="font-size:0.73rem;text-transform:uppercase;letter-spacing:.1em;color:var(--text-muted);margin-bottom:.5rem;">AI &amp; Data</p>
+                <div class="mb-3">
+                  <span class="skill-tag">Anthropic Claude API</span>
+                  <span class="skill-tag">JSON</span>
+                  <span class="skill-tag">FTP (IONOS)</span>
+                </div>
+
+                <h5 class="text-light mt-4 mb-3">Skills Demonstrated</h5>
+                <ul style="color:var(--text-secondary);font-size:.87rem;line-height:1.9;">
+                  <li>Cybersecurity threat awareness</li>
+                  <li>Workflow automation &amp; scheduling</li>
+                  <li>AI API integration</li>
+                  <li>RSS feed parsing &amp; data processing</li>
+                  <li>Front-end development</li>
+                  <li>CI/CD with GitHub Actions</li>
+                  <li>Secure secret management</li>
+                  <li>Ethical use of external content</li>
+                </ul>
+
+                <h5 class="text-light mt-4 mb-3">Ethics &amp; Attribution</h5>
+                <ul class="ethics-list">
+                  <li>No website scraping — RSS feeds and public APIs only</li>
+                  <li>Every article links back to the original source</li>
+                  <li>Summaries are AI-generated and clearly labelled</li>
+                  <li>No full articles are reproduced or rehosted</li>
+                  <li>API keys stored in GitHub Secrets — never in code</li>
+                  <li>All feed content is HTML-escaped before display</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+════════════════════════════════════════════ -->
+<footer class="news-footer">
+  <div class="container">
+    <p>&copy; 2025 George Condrea &mdash; Cybersecurity News Dashboard</p>
+    <p style="font-size:0.75rem;">
+      Article summaries are AI-generated from RSS feeds and are clearly labelled as such.
+      Always read the original source for full context.
+      This site does not reproduce or rehost full articles.
+    </p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/news-dashboard.js"></script>
+</body>
+</html>
