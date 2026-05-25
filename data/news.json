@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-05-25T09:15:00Z",
-  "totalArticles": 8,
+  "lastUpdated": "2026-05-25T22:00:14.074259+00:00",
+  "totalArticles": 18,
   "articles": [
+    {
+      "id": "art-8b76804c",
+      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+      "summary": "This week's cybersecurity landscape saw multiple critical threats emerge, including vulnerabilities in Linux systems, zero-day exploits affecting Windows Defender, and botnet attacks on routers. Companies discovered they had neglected to patch systems for years, while phishing attacks became more sophisticated and harder to detect. Supply chain compromises added another layer of risk as malicious code infiltrated development tools.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "linux-vulnerabilities",
+        "zero-day-exploits",
+        "botnet-attacks",
+        "supply-chain-security",
+        "phishing-campaigns",
+        "patching-failures"
+      ],
+      "whyItMatters": "This recap highlights the convergence of multiple attack vectors—unpatched legacy systems, zero-days in security tools, and compromised development environments—that create compounding risks for organizations. The trend of phishing becoming more targeted and the discovery of years-old unpatched systems demonstrates that both cyber attackers and defenders are racing against organizational complacen",
+      "image": null,
+      "processedAt": "2026-05-25T21:59:49.719689+00:00"
+    },
+    {
+      "id": "art-e72e18fb",
+      "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
+      "summary": "Attackers are actively exploiting a critical SQL injection flaw (CVE-2026-26980) in Ghost CMS to compromise over 700 websites. The vulnerability allows unauthenticated users to extract sensitive data and inject malicious JavaScript code. These compromised sites are then used to launch ClickFix attacks, a social engineering technique that tricks users into performing harmful actions.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sql-injection",
+        "ghost-cms",
+        "cve-2026-26980",
+        "clickfix-attacks",
+        "active-exploitation",
+        "patch-urgently"
+      ],
+      "whyItMatters": "With over 700 sites already compromised and active exploitation ongoing, this represents an immediate threat to website owners and users. The combination of unauthenticated access, widespread vulnerable deployments, and secondary attack chains (ClickFix) demonstrates how a single critical vulnerability can cascade into large-scale harm across the internet.",
+      "image": null,
+      "processedAt": "2026-05-25T21:59:52.270721+00:00"
+    },
+    {
+      "id": "art-ba6f3ace",
+      "title": "The Alert Firehose Finally Meets Its Match",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
+      "summary": "Network Detection and Response (NDR) systems have historically been criticized for generating excessive alerts and noise, making them difficult for security teams to use effectively. Modern NDR solutions now incorporate artificial intelligence capabilities that enable faster threat detection, more efficient alert triage, and significantly fewer false positives. This evolution suggests that NDR technology is finally becoming a practical and valuable tool for cybersecurity professionals rather than a source of overwhelming data.",
+      "category": "Network Security",
+      "severity": "Medium",
+      "tags": [
+        "network-detection-and-response",
+        "agentic-ai",
+        "alert-management",
+        "threat-detection",
+        "false-positive-reduction"
+      ],
+      "whyItMatters": "AI-enhanced NDR tools directly address a critical pain point in security operations—alert fatigue and false positives—which enables security teams to respond more effectively to genuine threats. Organizations investing in modern NDR solutions with AI capabilities can improve their threat hunting capabilities and reduce mean time to detection (MTTD), ultimately strengthening their defensive posture",
+      "image": null,
+      "processedAt": "2026-05-25T21:59:55.023984+00:00"
+    },
+    {
+      "id": "art-75bc9899",
+      "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
+      "summary": "The Lazarus Group, a North Korean-linked hacking organization, has been using a sophisticated malware called RemotePE to attack financial and cryptocurrency companies. RemotePE operates in memory only, making it harder to detect, and is deployed through a multi-stage attack chain involving specialized loaders like DPAPILoader and RemotePELoader. This cross-platform threat demonstrates how advanced threat actors target high-value sectors with stealthy, hard-to-detect techniques.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "lazarus-group",
+        "remote-pe",
+        "memory-only-malware",
+        "financial-sector",
+        "cryptocurrency",
+        "advanced-persistent-threat"
+      ],
+      "whyItMatters": "Financial and crypto organizations are prime targets for nation-state actors seeking to steal funds or disrupt operations, and memory-only malware like RemotePE evades traditional detection methods, making this threat particularly dangerous. Understanding how Lazarus deploys this malware helps security teams recognize similar attack patterns and implement stronger defenses against sophisticated ad",
+      "image": null,
+      "processedAt": "2026-05-25T21:59:57.797349+00:00"
+    },
+    {
+      "id": "art-e9016876",
+      "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+      "summary": "Attackers launched a coordinated campaign called TrapDoor that distributed credential-stealing malware through 34 malicious packages across popular package managers: npm (JavaScript), PyPI (Python), and Crates.io (Rust). The attack began on May 22, 2026, and spread across hundreds of package versions in waves, targeting developers who unknowingly downloaded infected code. This multi-ecosystem attack highlights how supply chain threats can compromise multiple programming communities simultaneously.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-distribution",
+        "credential-stealing",
+        "npm",
+        "pypi",
+        "package-manager-compromise"
+      ],
+      "whyItMatters": "This attack is critical because it compromises trusted package repositories that millions of developers rely on daily, potentially affecting countless downstream applications and organizations. The cross-ecosystem nature means attackers infiltrated multiple major programming communities simultaneously, increasing the attack surface exponentially. Developers who used these packages without verifica",
+      "image": null,
+      "processedAt": "2026-05-25T22:00:00.718798+00:00"
+    },
+    {
+      "id": "art-19a90892",
+      "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+      "summary": "Anthropic is preparing to publicly release its Mythos model through Claude Code, a restricted AI model that was previously announced in April. The model has been flagged as potentially posing significant security risks to both private and public software systems. This rollout could expose vulnerabilities if proper safeguards are not implemented.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "anthropic-claude",
+        "model-release",
+        "software-risk",
+        "security-controls"
+      ],
+      "whyItMatters": "The public rollout of a restricted AI model with known security risks requires careful consideration of how malicious actors could exploit it to attack software systems. Organizations using Claude Code need to understand these risks and implement appropriate security measures to protect their applications and data. This highlights the growing challenge of securing powerful AI tools in production e",
+      "image": null,
+      "processedAt": "2026-05-25T22:00:03.136449+00:00"
+    },
+    {
+      "id": "art-7bbd09d3",
+      "title": "FBI warns of Kali365 phishing service targeting Microsoft 365 accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-kali365-phishing-service-targeting-microsoft-365-accounts/",
+      "summary": "The FBI has issued a warning about Kali365, a phishing service that criminals use to steal Microsoft 365 accounts. This service exploits OAuth device code authentication to bypass multi-factor authentication and capture session tokens, giving attackers unauthorized access to business email and cloud services.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "phishing-as-a-service",
+        "microsoft-365",
+        "mfa-bypass",
+        "oauth-abuse",
+        "account-hijacking",
+        "cloud-security"
+      ],
+      "whyItMatters": "This threat is critical because it targets widely-used Microsoft 365 accounts and can bypass MFA protections that organizations rely on for security. Attackers can gain persistent access to corporate email and sensitive cloud data, making this a serious risk for businesses of all sizes.",
+      "image": null,
+      "processedAt": "2026-05-25T22:00:05.425234+00:00"
+    },
+    {
+      "id": "art-93b9bb88",
+      "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+      "summary": "Attackers are actively exploiting a critical SQL injection vulnerability in Ghost CMS to inject malicious code that initiates ClickFix social engineering attacks. This large-scale campaign demonstrates how vulnerabilities in popular content management systems can be weaponized to compromise multiple websites simultaneously. Users of Ghost CMS are at immediate risk of having their sites hijacked to distribute malware or conduct phishing attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sql-injection",
+        "ghost-cms",
+        "cve-2026-26980",
+        "clickfix",
+        "active-exploitation",
+        "malicious-javascript"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat because it is actively being exploited in the wild at scale, affecting a widely-used CMS platform. Organizations running Ghost CMS need to patch urgently to prevent their sites from being compromised and used as attack vectors. The combination of SQL injection and ClickFix attacks creates a multi-stage threat that can lead to system compromise and socia",
+      "image": null,
+      "processedAt": "2026-05-25T22:00:08.439728+00:00"
+    },
+    {
+      "id": "art-fd979832",
+      "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "summary": "Attackers compromised the Laravel Lang localization packages on GitHub and used manipulated version tags to distribute malicious code through Composer, a popular PHP package manager. Developers who installed these tainted packages unknowingly exposed their systems to credential-stealing malware. This supply chain attack demonstrates how exploiting trusted software repositories can put thousands of developers at risk simultaneously.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware",
+        "composer-packages",
+        "credential-theft",
+        "github-compromise",
+        "laravel"
+      ],
+      "whyItMatters": "This attack highlights a critical vulnerability in the software supply chain where attackers target widely-used open-source packages to distribute malware at scale. Developers relying on automatic dependency updates or package managers may have unknowingly installed compromised code, making this a widespread threat affecting numerous applications. Organizations must implement stricter dependency v",
+      "image": null,
+      "processedAt": "2026-05-25T22:00:11.138405+00:00"
+    },
+    {
+      "id": "art-55b38d35",
+      "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+      "summary": "Italian law enforcement shut down the CINEMAGOAL piracy application, which was illegally distributing access to popular streaming services like Netflix, Disney+, and Spotify by stealing authentication credentials. The operation dismantled a significant piracy network that compromised user accounts across multiple platforms. This takedown highlights how criminals exploit stolen login information to distribute unauthorized access at scale.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "credential-theft",
+        "piracy",
+        "account-compromise",
+        "streaming-fraud",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This case demonstrates the real-world consequences of weak password practices and account credential theft, reminding users that stolen login information can be weaponized for large-scale piracy operations. It also shows that law enforcement agencies are actively targeting organized cybercrime ecosystems, which may deter future similar ventures but underscores the ongoing risk of account compromis",
+      "image": null,
+      "processedAt": "2026-05-25T22:00:14.074126+00:00"
+    },
     {
       "id": "art-001",
       "title": "Critical Zero-Day Actively Exploited in Ivanti Connect Secure VPN Appliances",
@@ -11,7 +218,14 @@
       "summary": "A critical zero-day vulnerability has been discovered in Ivanti Connect Secure VPN appliances, allowing unauthenticated remote code execution. Threat actors believed to be state-sponsored are actively exploiting this flaw to establish persistence inside corporate networks. Ivanti has released an emergency patch and strongly recommends all customers apply it immediately alongside a full factory reset of affected devices.",
       "category": "Zero-Day Exploits",
       "severity": "Critical",
-      "tags": ["zero-day", "ivanti", "vpn", "rce", "state-sponsored", "patch-now"],
+      "tags": [
+        "zero-day",
+        "ivanti",
+        "vpn",
+        "rce",
+        "state-sponsored",
+        "patch-now"
+      ],
       "whyItMatters": "VPN appliances are the front door to corporate networks. An unauthenticated RCE flaw means attackers can fully compromise an organisation without valid credentials. Because exploitation is active and attributed to nation-state actors, any unpatched device should be treated as already breached.",
       "image": null,
       "processedAt": "2026-05-25T09:00:00Z"
@@ -25,7 +239,15 @@
       "summary": "A critical remote code execution vulnerability in Apache OFBiz (CVSS 9.8) has been confirmed as actively exploited and added to the CISA Known Exploited Vulnerabilities catalogue. The flaw requires no authentication and could allow a complete server takeover. Organisations running OFBiz are urged to upgrade to the latest patched release immediately.",
       "category": "Vulnerabilities",
       "severity": "Critical",
-      "tags": ["apache", "ofbiz", "rce", "cisa-kev", "erp", "cvss-9.8", "unauthenticated"],
+      "tags": [
+        "apache",
+        "ofbiz",
+        "rce",
+        "cisa-kev",
+        "erp",
+        "cvss-9.8",
+        "unauthenticated"
+      ],
       "whyItMatters": "ERP systems hold the most sensitive business data — financials, HR records, and customer information. A CVSS 9.8 unauthenticated RCE flaw on a business-critical platform is as serious as vulnerabilities get. CISA's KEV listing means federal agencies must patch within days, and all organisations should treat it equally urgently.",
       "image": null,
       "processedAt": "2026-05-25T09:01:00Z"
@@ -39,7 +261,14 @@
       "summary": "Several NHS Trusts in England were hit by a coordinated ransomware attack attributed to the Medusa group, disrupting patient appointment systems, internal communications, and clinical records access. The attackers claim to have exfiltrated over 1.5 TB of patient and staff data. NHS England has activated its major incident response protocol and is working with the NCSC to contain the breach.",
       "category": "Ransomware",
       "severity": "High",
-      "tags": ["ransomware", "medusa", "nhs", "healthcare", "data-exfiltration", "uk"],
+      "tags": [
+        "ransomware",
+        "medusa",
+        "nhs",
+        "healthcare",
+        "data-exfiltration",
+        "uk"
+      ],
       "whyItMatters": "Ransomware attacks on healthcare are life-threatening, not just financially damaging. Disrupted appointment systems and inaccessible patient records can delay critical care and put lives at risk. Exfiltrated patient data also triggers serious UK GDPR obligations and could result in significant regulatory fines.",
       "image": null,
       "processedAt": "2026-05-25T09:02:00Z"
@@ -53,7 +282,15 @@
       "summary": "A major European retailer disclosed a data breach affecting approximately 50 million customers after attackers exploited an unsecured third-party API endpoint. Exposed data includes names, email addresses, physical addresses, and hashed passwords. The breach went undetected for over three months, highlighting the risks of poor third-party security monitoring.",
       "category": "Data Breaches",
       "severity": "High",
-      "tags": ["data-breach", "api-security", "third-party", "pii", "gdpr", "retail", "supply-chain"],
+      "tags": [
+        "data-breach",
+        "api-security",
+        "third-party",
+        "pii",
+        "gdpr",
+        "retail",
+        "supply-chain"
+      ],
       "whyItMatters": "With 50 million records exposed and a three-month detection gap, this breach illustrates how third-party API risk is frequently underestimated in supply chain security assessments. Under GDPR, the retailer faces fines of up to 4% of global annual turnover, and affected customers are at elevated risk of phishing and credential stuffing attacks.",
       "image": null,
       "processedAt": "2026-05-25T09:03:00Z"
@@ -67,7 +304,15 @@
       "summary": "Researchers have identified LummaC3, a new infostealer variant that abuses legitimate kernel drivers to disable endpoint detection and response tools before executing its payload. The malware spreads through malvertising campaigns disguised as popular software installers. Once active, it silently exfiltrates browser credentials, session cookies, and cryptocurrency wallet data.",
       "category": "Malware",
       "severity": "High",
-      "tags": ["infostealer", "lumma", "edr-bypass", "malvertising", "credentials", "kernel-driver", "cookie-theft"],
+      "tags": [
+        "infostealer",
+        "lumma",
+        "edr-bypass",
+        "malvertising",
+        "credentials",
+        "kernel-driver",
+        "cookie-theft"
+      ],
       "whyItMatters": "EDR bypass capabilities significantly raise the cost of defence. Stolen session cookies allow attackers to hijack authenticated sessions and bypass MFA entirely, meaning victims can be compromised even with strong passwords and two-factor authentication. The malvertising delivery method also means any user searching for software downloads could encounter it.",
       "image": null,
       "processedAt": "2026-05-25T09:04:00Z"
@@ -81,7 +326,15 @@
       "summary": "Researchers have documented a significant increase in QR code phishing attacks, known as quishing, targeting enterprise Microsoft 365 users. Attackers embed malicious QR codes into PDF attachments sent from convincing corporate-looking senders. When scanned on a personal device, the codes redirect users to fake Microsoft login pages that capture credentials and MFA tokens in real time.",
       "category": "Phishing",
       "severity": "Medium",
-      "tags": ["phishing", "quishing", "qr-code", "microsoft-365", "mfa-bypass", "enterprise", "mobile"],
+      "tags": [
+        "phishing",
+        "quishing",
+        "qr-code",
+        "microsoft-365",
+        "mfa-bypass",
+        "enterprise",
+        "mobile"
+      ],
       "whyItMatters": "QR codes are much harder for email security gateways to analyse than traditional URLs, giving attackers an effective evasion method. The technique is particularly dangerous because employees often scan QR codes on personal phones with fewer corporate security controls, and real-time phishing proxies can capture MFA tokens before users notice anything is wrong.",
       "image": null,
       "processedAt": "2026-05-25T09:05:00Z"
@@ -95,7 +348,15 @@
       "summary": "A publicly accessible Amazon Web Services S3 bucket belonging to a US healthcare provider was discovered by a security researcher, exposing over 200,000 patient records including names, dates of birth, diagnoses, and insurance details. The bucket has since been secured, but it is unknown how long the data was exposed or whether malicious actors accessed it before disclosure.",
       "category": "Cloud Security",
       "severity": "Medium",
-      "tags": ["aws", "s3", "misconfiguration", "healthcare", "hipaa", "cloud-security", "cspm"],
+      "tags": [
+        "aws",
+        "s3",
+        "misconfiguration",
+        "healthcare",
+        "hipaa",
+        "cloud-security",
+        "cspm"
+      ],
       "whyItMatters": "Cloud misconfigurations remain one of the most common and avoidable causes of data breaches. Healthcare records are among the most sensitive and regulated data types, with HIPAA violations carrying significant penalties. This incident is a reminder that cloud storage permissions must be reviewed regularly using CSPM tools, not just at initial deployment.",
       "image": null,
       "processedAt": "2026-05-25T09:06:00Z"
@@ -109,7 +370,15 @@
       "summary": "The UK National Cyber Security Centre has released updated multi-factor authentication guidance for organisations, emphasising phishing-resistant methods such as hardware security keys (FIDO2/WebAuthn) and passkeys over SMS-based one-time passwords. SMS OTPs remain vulnerable to SIM-swapping, SS7 interception, and real-time phishing proxy attacks.",
       "category": "Security Awareness",
       "severity": "Low",
-      "tags": ["mfa", "fido2", "passkeys", "ncsc", "authentication", "best-practices", "sms-otp"],
+      "tags": [
+        "mfa",
+        "fido2",
+        "passkeys",
+        "ncsc",
+        "authentication",
+        "best-practices",
+        "sms-otp"
+      ],
       "whyItMatters": "MFA is one of the most effective controls against account takeover, but not all MFA methods offer equal protection. Many organisations still rely on SMS OTPs that modern attacks can bypass. This NCSC guidance helps security teams choose authentication methods that genuinely resist current attack techniques like real-time phishing and SIM-swapping.",
       "image": null,
       "processedAt": "2026-05-25T09:07:00Z"
