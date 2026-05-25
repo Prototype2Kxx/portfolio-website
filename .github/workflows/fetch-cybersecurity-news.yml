@@ -36,7 +36,19 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser anthropic paramiko
 
-      # 4. Run the news-fetching script
+      # 4. Verify secrets are present (safe — does not reveal values)
+      - name: Check secrets are set
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "❌ ANTHROPIC_API_KEY is EMPTY or NOT SET in GitHub Secrets"
+            exit 1
+          else
+            echo "✅ ANTHROPIC_API_KEY is set (length: ${#ANTHROPIC_API_KEY} chars)"
+          fi
+
+      # 5. Run the news-fetching script
       #    Secrets are set in: GitHub repo → Settings → Secrets → Actions
       - name: Fetch and process news articles
         env:
