@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Cybersecurity News Dashboard | George Condrea Portfolio Project</title>
+  <meta name="description" content="A deep-dive into how George Condrea built a fully automated cybersecurity news dashboard using GitHub Actions, Python, Claude AI, and SFTP deployment to IONOS.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    .feature-section {
+      padding: 4rem 0;
+    }
+    .project-title {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-top: 2rem;
+    }
+    .tech-badge {
+      display: inline-block;
+      background: #e7f3ff;
+      border: 1px solid #90c2ff;
+      color: #0d6efd;
+      padding: 0.25rem 0.7rem;
+      border-radius: 5px;
+      font-size: 0.82rem;
+      margin: 0.2rem;
+      font-weight: 500;
+    }
+    .step-number {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.2rem;
+      height: 2.2rem;
+      background: #0d6efd;
+      color: #fff;
+      border-radius: 50%;
+      font-weight: 700;
+      font-size: 0.9rem;
+      flex-shrink: 0;
+    }
+    .step-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .step-content h5 {
+      margin-bottom: 0.3rem;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .step-content p {
+      margin: 0;
+      color: #495057;
+      font-size: 0.93rem;
+      line-height: 1.65;
+    }
+    .workflow-box {
+      background: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      padding: 1.5rem 1.75rem;
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 0.8rem;
+      color: #495057;
+      white-space: pre;
+      overflow-x: auto;
+      line-height: 1.75;
+    }
+    .card-demo {
+      background: #1a1f2e;
+      border-radius: 10px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+    .demo-card {
+      background: rgba(255,255,255,0.07);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+    }
+    .demo-badge {
+      display: inline-block;
+      font-size: 0.62rem;
+      font-weight: 700;
+      padding: 0.1rem 0.45rem;
+      border-radius: 10px;
+      margin-right: 0.35rem;
+    }
+    .demo-title { color: #e2e8f0; font-size: 0.8rem; font-weight: 600; margin: 0.3rem 0 0.2rem; }
+    .demo-summary { color: #94a3b8; font-size: 0.72rem; line-height: 1.45; margin: 0; }
+    .demo-caption { color: #6c757d; font-size: 0.65rem; font-style: italic; text-align: center; margin-top: 0.5rem; }
+    .section-intro {
+      font-size: 1.05rem;
+      color: #495057;
+      line-height: 1.75;
+    }
+    .highlight-box {
+      background: #f0f7ff;
+      border: 1px solid #cce3ff;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+    }
+    .highlight-box h5 { color: #0d6efd; margin-bottom: 0.6rem; }
+    .highlight-box p  { margin: 0; color: #495057; font-size: 0.93rem; line-height: 1.65; }
+    .check-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .check-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      padding: 0.35rem 0;
+      font-size: 0.93rem;
+      color: #495057;
+    }
+    .check-list li::before {
+      content: '✓';
+      color: #28a745;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">My Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <span class="badge mb-3" style="background:#198754;font-size:0.8rem;letter-spacing:0.06em;">LIVE PROJECT</span>
+      <h1 class="project-title">Cybersecurity News Dashboard</h1>
+      <p class="lead" style="color:#adb5bd;max-width:640px;margin:0.75rem auto 1.5rem;">
+        A fully automated security intelligence feed — RSS feeds, AI summarisation, and zero-server deployment, all stitched together with GitHub Actions.
+      </p>
+      <a href="cybersecurity-news.html" class="btn btn-success me-2"><i class="bi bi-arrow-up-right-square me-1"></i>View Live Dashboard</a>
+      <a href="projects.html" class="btn btn-outline-light">← All Projects</a>
+    </div>
+  </header>
+
+  <!-- Overview -->
+  <section class="feature-section">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h2 class="mb-3">What Is This Project?</h2>
+          <p class="section-intro">
+            The Cybersecurity News Dashboard automatically collects articles from five trusted security
+            sources, sends each one to the <strong>Claude Haiku AI model</strong> for processing, and
+            publishes the results to a searchable, filterable card-based dashboard — updated
+            <strong>twice every day</strong> without any manual work.
+          </p>
+          <p class="section-intro">
+            There's no backend server. Everything runs on <strong>free GitHub Actions</strong> infrastructure.
+            The pipeline fetches, processes, and stores articles in a static JSON file, which the browser
+            reads directly. Deployment to IONOS shared hosting happens automatically via SFTP.
+          </p>
+          <div class="mt-4">
+            <p class="text-muted mb-2" style="font-size:0.75rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;">Technologies Used</p>
+            <div>
+              <span class="tech-badge">Python 3</span>
+              <span class="tech-badge">GitHub Actions</span>
+              <span class="tech-badge">Claude Haiku API</span>
+              <span class="tech-badge">feedparser (RSS)</span>
+              <span class="tech-badge">paramiko (SFTP)</span>
+              <span class="tech-badge">HTML5 / CSS3</span>
+              <span class="tech-badge">Bootstrap 5</span>
+              <span class="tech-badge">Vanilla JavaScript</span>
+              <span class="tech-badge">JSON</span>
+              <span class="tech-badge">IONOS Hosting</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <!-- Live card mockup -->
+          <div class="card-demo">
+            <div class="demo-card" style="border-left:4px solid #6f42c1;">
+              <div>
+                <span class="demo-badge" style="background:#f5e8ff;color:#6f42c1;border:1px solid #d8b4fe;">CRITICAL</span>
+                <span class="demo-badge" style="background:rgba(255,255,255,0.12);color:#a8b5c8;">Vulnerabilities</span>
+              </div>
+              <p class="demo-title">Zero-Day Exploit Found in Widely-Used VPN Client</p>
+              <p class="demo-summary">Researchers disclosed a critical remote-code-execution flaw affecting millions of enterprise devices. Patches are expected within 48 hours…</p>
+            </div>
+            <div class="demo-card" style="border-left:4px solid #fd7e14;">
+              <div>
+                <span class="demo-badge" style="background:#fff3cd;color:#c9530a;border:1px solid #fd7e14;">HIGH</span>
+                <span class="demo-badge" style="background:rgba(255,255,255,0.12);color:#a8b5c8;">Ransomware</span>
+              </div>
+              <p class="demo-title">LockBit Variant Targets NHS Trusts Across England</p>
+              <p class="demo-summary">A new LockBit offshoot is encrypting patient records and demanding £2 million in cryptocurrency from affected health trusts…</p>
+            </div>
+            <div class="demo-card" style="border-left:4px solid #0d6efd;">
+              <div>
+                <span class="demo-badge" style="background:#e7f3ff;color:#0d6efd;border:1px solid #90c2ff;">LOW</span>
+                <span class="demo-badge" style="background:rgba(255,255,255,0.12);color:#a8b5c8;">Policy</span>
+              </div>
+              <p class="demo-title">NCSC Releases Updated Secure-by-Design Guidance</p>
+              <p class="demo-summary">The UK's National Cyber Security Centre published revised principles for manufacturers of connected devices and critical software…</p>
+            </div>
+            <p class="demo-caption">↑ Representative example of live AI-generated article cards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="feature-section bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">How the Automation Pipeline Works</h2>
+      <div class="row g-5 align-items-start">
+
+        <div class="col-lg-6">
+          <div class="step-row">
+            <span class="step-number">1</span>
+            <div class="step-content">
+              <h5>Scheduled Trigger — GitHub Actions</h5>
+              <p>A cron job fires the workflow at <strong>07:00 and 19:00 UTC every day</strong>. No server needed — GitHub's free CI infrastructure runs the whole pipeline automatically.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <span class="step-number">2</span>
+            <div class="step-content">
+              <h5>RSS Feed Collection</h5>
+              <p>A Python script uses the <code>feedparser</code> library to pull the latest articles from <strong>five trusted cybersecurity sources</strong>: The Hacker News, BleepingComputer, Krebs on Security, Dark Reading, and NCSC UK.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <span class="step-number">3</span>
+            <div class="step-content">
+              <h5>Deduplication</h5>
+              <p>Article URLs are checked against what's already stored in <code>data/news.json</code>. Anything already processed is skipped, so the AI is only called for genuinely new articles — keeping API costs minimal.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <span class="step-number">4</span>
+            <div class="step-content">
+              <h5>Claude AI Processing</h5>
+              <p>Each new article's title and snippet are sent to <strong>Claude Haiku</strong> via the Anthropic API. The model returns a structured JSON response with a 2–4 sentence summary, category, severity rating (Low → Critical), up to six tags, and a "why it matters" explanation.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <span class="step-number">5</span>
+            <div class="step-content">
+              <h5>Storage &amp; Git Commit</h5>
+              <p>New articles are prepended to the existing list (capped at 50 total) and written back to <code>data/news.json</code>. The workflow then commits and pushes this file to the GitHub repository automatically.</p>
+            </div>
+          </div>
+          <div class="step-row">
+            <span class="step-number">6</span>
+            <div class="step-content">
+              <h5>SFTP Deployment to IONOS</h5>
+              <p>The updated JSON file is uploaded via <code>paramiko</code> (Python SFTP library) to the live IONOS web server. The website immediately serves the new articles with no manual intervention.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <h5 class="mb-3 text-muted" style="font-size:0.75rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700;">Pipeline Architecture</h5>
+          <div class="workflow-box">RSS / API Sources → GitHub Actions (Python)
+  → Claude Haiku AI → data/news.json
+  → IONOS SFTP → Live Website
+
+Step 1  │ 07:00 + 19:00 UTC cron trigger
+Step 2  │ feedparser reads 5 RSS feeds
+Step 3  │ Deduplicate against stored URLs
+Step 4  │ Claude Haiku API per new article:
+        │   • 2–4 sentence summary
+        │   • Category classification
+        │   • Severity (Low/Med/High/Critical)
+        │   • 3–6 topic tags
+        │   • "Why this matters" note
+Step 5  │ news.json updated → git push
+Step 6  │ paramiko SFTP upload to IONOS</div>
+
+          <div class="mt-4 highlight-box">
+            <h5><i class="bi bi-shield-check me-2"></i>Security &amp; Ethics</h5>
+            <p>
+              No website scraping is used — only public RSS feeds and APIs. Every card links to the
+              original article. AI summaries are clearly labelled. API credentials are stored exclusively
+              in GitHub Secrets, never in code or version history.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Front-End Features -->
+  <section class="feature-section">
+    <div class="container">
+      <h2 class="text-center mb-2">Front-End Dashboard Features</h2>
+      <p class="text-center text-muted mb-5" style="max-width:560px;margin-left:auto;margin-right:auto;">
+        The dashboard is a pure HTML/CSS/JS page — no framework, no build step. All filtering and rendering happens client-side.
+      </p>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3" style="font-size:1.8rem;">🔍</div>
+              <h5 class="card-title">Live Search</h5>
+              <p class="card-text text-muted">Search across article titles, summaries, tags, and sources in real time — results update as you type.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3" style="font-size:1.8rem;">🎛️</div>
+              <h5 class="card-title">Severity &amp; Category Filters</h5>
+              <p class="card-text text-muted">Quick-filter chips and dropdowns let you isolate Critical threats, filter by topic (Ransomware, Privacy, etc.), and sort by date.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3" style="font-size:1.8rem;">🤖</div>
+              <h5 class="card-title">AI-Generated Summaries</h5>
+              <p class="card-text text-muted">Every card shows a concise summary, a "why it matters" explanation, and relevant tags — all produced by Claude Haiku.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3" style="font-size:1.8rem;">🕐</div>
+              <h5 class="card-title">Last-Updated Timestamp</h5>
+              <p class="card-text text-muted">A live-pulsing indicator in the hero shows exactly when the data was last refreshed, so you always know how fresh it is.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3" style="font-size:1.8rem;">🔒</div>
+              <h5 class="card-title">XSS-Safe Rendering</h5>
+              <p class="card-text text-muted">All dynamic content is sanitised with an <code>escapeHtml()</code> helper before rendering. No raw feed data is ever injected via innerHTML.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm border-0">
+            <div class="card-body">
+              <div class="mb-3" style="font-size:1.8rem;">📱</div>
+              <h5 class="card-title">Fully Responsive</h5>
+              <p class="card-text text-muted">Cards reflow from three columns on desktop to a single column on mobile. The controls bar sticks below the navbar so filters are always accessible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Demonstrated -->
+  <section class="feature-section bg-light">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <h2 class="mb-4">Skills Demonstrated</h2>
+          <ul class="check-list">
+            <li>Cybersecurity threat awareness and source evaluation</li>
+            <li>Workflow automation &amp; cron scheduling (GitHub Actions)</li>
+            <li>AI API integration (Anthropic Claude)</li>
+            <li>RSS feed parsing &amp; structured data processing</li>
+            <li>Python scripting (feedparser, paramiko, json, os)</li>
+            <li>Secure secret management (GitHub Secrets)</li>
+            <li>SFTP file deployment to shared hosting</li>
+            <li>CI/CD pipeline design</li>
+            <li>Front-end development (HTML, CSS, Vanilla JS)</li>
+            <li>Client-side search, filtering, and sorting logic</li>
+            <li>XSS prevention and secure content rendering</li>
+            <li>Responsive layout with Bootstrap 5</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h2 class="mb-4">Challenges &amp; Solutions</h2>
+          <div class="mb-3">
+            <h6 class="fw-bold">No server budget</h6>
+            <p class="text-muted" style="font-size:0.93rem;">Solved by using GitHub Actions (free for public repos) for all compute. The website is fully static — it just reads a JSON file.</p>
+          </div>
+          <div class="mb-3">
+            <h6 class="fw-bold">IONOS uses SFTP, not FTP</h6>
+            <p class="text-muted" style="font-size:0.93rem;">The initial deployment used Python's <code>ftplib</code> for FTPS, but IONOS requires SFTP. Switched to <code>paramiko</code> with an SSH client and key-based host acceptance.</p>
+          </div>
+          <div class="mb-3">
+            <h6 class="fw-bold">Files landing in wrong directory</h6>
+            <p class="text-muted" style="font-size:0.93rem;">IONOS's SFTP root isn't the webroot — files go to <code>/site/</code>. Fixed by adding an <code>IONOS_WEBROOT</code> environment variable and prefixing all upload paths.</p>
+          </div>
+          <div class="mb-3">
+            <h6 class="fw-bold">Keeping API costs low</h6>
+            <p class="text-muted" style="font-size:0.93rem;">Using Claude Haiku (the most cost-efficient model), capping at 10 new articles per run, and deduplicating by URL before any API call is made. Estimated cost: pennies per month.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="feature-section text-center">
+    <div class="container">
+      <h2 class="mb-3">See It Live</h2>
+      <p class="text-muted mb-4" style="max-width:500px;margin-left:auto;margin-right:auto;">
+        The dashboard updates automatically — check it out to see the latest cybersecurity news, processed and categorised by AI.
+      </p>
+      <a href="cybersecurity-news.html" class="btn btn-success btn-lg me-2"><i class="bi bi-arrow-up-right-square me-1"></i>Open Dashboard</a>
+      <a href="projects.html" class="btn btn-outline-secondary btn-lg">← All Projects</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <div class="container">
+      &copy; 2025 George Condrea | Cybersecurity News Dashboard Project
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

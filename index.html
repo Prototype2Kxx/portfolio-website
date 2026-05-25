@@ -28,7 +28,7 @@
           </ul>
         </li>
         <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
-        <li class="nav-item"><a class="nav-link" href="cybersecurity-news.html">Security News</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
     </div>
@@ -130,6 +130,53 @@
             <h5 class="card-title">Personal Finance Management System</h5>
             <p class="card-text">A web-based personal finance tool for tracking income, expenses, and budgets. Built as my first year CiB web project, it provides clear visual summaries to help manage and understand your financial health.</p>
             <a href="/pfms/index.html" class="btn btn-primary" target="_blank">View Live</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Cybersecurity News Dashboard -->
+    <div class="card mb-5 shadow-sm overflow-hidden">
+      <div class="d-flex flex-column flex-md-row" style="height: 500px; margin: 0;">
+
+        <!-- Text Column (left this time for variety) -->
+        <div class="d-flex align-items-center justify-content-center w-100 w-md-50" style="flex: 1; padding: 2rem;">
+          <div>
+            <span class="badge mb-2" style="background:#198754;font-size:0.7rem;letter-spacing:.05em;">LIVE</span>
+            <h5 class="card-title">Cybersecurity News Dashboard</h5>
+            <p class="card-text">A fully automated security intelligence feed built with GitHub Actions, Python, and the Claude AI API. Cybersecurity articles are fetched from five trusted RSS sources twice daily, processed by Claude Haiku for summaries, severity ratings, and categorisation, then displayed in a searchable, filterable dashboard — no server required.</p>
+            <a href="cybersecurity-news.html" class="btn btn-primary me-2">View Dashboard</a>
+            <a href="cybersecurity-news-project.html" class="btn btn-outline-secondary">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Screenshot Column -->
+        <div class="w-100 w-md-50" style="flex: 1; margin: 0; padding: 0; background:#1a1f2e;">
+          <div style="width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.6rem;padding:1.5rem;">
+            <!-- Mini dashboard mockup -->
+            <div style="width:100%;background:rgba(255,255,255,0.07);border-radius:8px;padding:0.75rem 1rem;border-left:4px solid #6f42c1;">
+              <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.3rem;">
+                <span style="background:#f5e8ff;color:#6f42c1;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:10px;border:1px solid #d8b4fe;">CRITICAL</span>
+                <span style="background:rgba(255,255,255,0.15);color:#a8b5c8;font-size:0.6rem;padding:0.1rem 0.4rem;border-radius:10px;">Vulnerabilities</span>
+              </div>
+              <p style="color:#e2e8f0;font-size:0.72rem;margin:0;line-height:1.4;">Zero-day exploit targets unpatched systems across enterprise environments…</p>
+            </div>
+            <div style="width:100%;background:rgba(255,255,255,0.07);border-radius:8px;padding:0.75rem 1rem;border-left:4px solid #fd7e14;">
+              <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.3rem;">
+                <span style="background:#fff3cd;color:#c9530a;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:10px;border:1px solid #fd7e14;">HIGH</span>
+                <span style="background:rgba(255,255,255,0.15);color:#a8b5c8;font-size:0.6rem;padding:0.1rem 0.4rem;border-radius:10px;">Malware</span>
+              </div>
+              <p style="color:#e2e8f0;font-size:0.72rem;margin:0;line-height:1.4;">New ransomware strain evades major endpoint detection solutions…</p>
+            </div>
+            <div style="width:100%;background:rgba(255,255,255,0.07);border-radius:8px;padding:0.75rem 1rem;border-left:4px solid #ffc107;">
+              <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.3rem;">
+                <span style="background:#fff8e1;color:#856404;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:10px;border:1px solid #ffc107;">MEDIUM</span>
+                <span style="background:rgba(255,255,255,0.15);color:#a8b5c8;font-size:0.6rem;padding:0.1rem 0.4rem;border-radius:10px;">Privacy</span>
+              </div>
+              <p style="color:#e2e8f0;font-size:0.72rem;margin:0;line-height:1.4;">Data breach exposes user credentials at a major cloud provider…</p>
+            </div>
+            <p style="color:#6c757d;font-size:0.65rem;margin:0.3rem 0 0;font-style:italic;">↑ Live AI-generated cards — updated automatically twice daily</p>
           </div>
         </div>
 
