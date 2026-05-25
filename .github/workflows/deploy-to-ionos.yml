@@ -1,0 +1,35 @@
+name: Deploy Site to IONOS
+
+# ─── Triggers ──────────────────────────────────────────────────
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/news.json'   # News-only updates don't need a full redeploy
+  workflow_dispatch:        # Allow manual trigger from the Actions tab
+
+# ─── Job ───────────────────────────────────────────────────────
+jobs:
+  deploy:
+    name: Upload site files to IONOS via SFTP
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install paramiko
+
+      - name: Deploy to IONOS
+        env:
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: python .github/scripts/deploy_site.py
