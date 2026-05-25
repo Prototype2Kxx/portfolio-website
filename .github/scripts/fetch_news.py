@@ -22,11 +22,10 @@ import re
 import sys
 import traceback
 from datetime import datetime, timezone
-from ftplib import FTP_TLS, error_perm
-from email.utils import parsedate_to_datetime
 
 import feedparser
 import anthropic
+import paramiko
 
 # ─── Configuration ──────────────────────────────────────────────
 MAX_ARTICLES_STORED = 50   # Maximum articles kept in news.json
@@ -253,31 +252,35 @@ def process_with_ai(client: anthropic.Anthropic, article: dict) -> dict | None:
     return None
 
 
-# ─── FTP upload ──────────────────────────────────────────────────
+# ─── SFTP upload ─────────────────────────────────────────────────
 
-def ftp_upload(json_bytes: bytes):
-    """Upload news.json to IONOS via FTP over TLS."""
-    host      = os.environ["FTP_HOST"]
-    user      = os.environ["FTP_USER"]
-    password  = os.environ["FTP_PASS"]
-    remote    = os.environ.get("FTP_REMOTE_PATH", "/data/news.json")
+def sftp_upload(json_bytes: bytes):
+    """Upload news.json to IONOS via SFTP (SSH File Transfer Protocol)."""
+    host     = os.environ["FTP_HOST"]
+    user     = os.environ["FTP_USER"]
+    password = os.environ["FTP_PASS"]
+    remote   = os.environ.get("FTP_REMOTE_PATH", "/data/news.json")
 
-    log(f"Connecting to FTP: {host}")
-    ftp = FTP_TLS(host)
-    ftp.login(user, password)
-    ftp.prot_p()  # Switch to encrypted data connection
+    log(f"Connecting via SFTP: {host}")
+
+    client = paramiko.SSHClient()
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    client.connect(host, port=22, username=user, password=password, timeout=30)
+
+    sftp = client.open_sftp()
 
     # Ensure the remote directory exists
     remote_dir = "/".join(remote.split("/")[:-1])
     if remote_dir:
         try:
-            ftp.mkd(remote_dir)
-        except error_perm:
+            sftp.mkdir(remote_dir)
+        except OSError:
             pass  # Directory already exists
 
-    ftp.storbinary(f"STOR {remote}", io.BytesIO(json_bytes))
-    ftp.quit()
-    log(f"✓ FTP upload complete → {remote}")
+    sftp.putfo(io.BytesIO(json_bytes), remote)
+    sftp.close()
+    client.close()
+    log(f"✓ SFTP upload complete → {remote}")
 
 
 # ─── Main ────────────────────────────────────────────────────────
@@ -320,12 +323,12 @@ def main():
     # Save to disk
     updated_data = save_articles(existing_articles)
 
-    # FTP upload to IONOS
+    # SFTP upload to IONOS
     json_bytes = json.dumps(updated_data, indent=2, ensure_ascii=False).encode("utf-8")
     try:
-        ftp_upload(json_bytes)
+        sftp_upload(json_bytes)
     except Exception as e:
-        log(f"ERROR: FTP upload failed: {e}")
+        log(f"ERROR: SFTP upload failed: {e}")
         traceback.print_exc()
         sys.exit(1)  # Fail the GitHub Action so it appears as a red ✗
 
