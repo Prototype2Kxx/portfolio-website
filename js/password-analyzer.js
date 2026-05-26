@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
   applyPremiumState();
   updateStripeLink();
   bindEvents();
+  initGenerator();
 });
 
 function cacheDom() {
@@ -1047,4 +1048,256 @@ function esc(str) {
   return String(str)
     .replace(/&/g,'&amp;').replace(/</g,'&lt;')
     .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+/* ════════════════════════════════════════════════════════════
+   PASSWORD GENERATOR
+   ════════════════════════════════════════════════════════════ */
+
+/* ~300 memorable words for passphrase mode */
+const GEN_WORDS = [
+  'alpine','amber','anchor','arctic','atlas','autumn','azure','bamboo','beacon',
+  'blossom','boulder','breeze','bronze','canyon','cascade','cedar','citrus',
+  'cliff','cobalt','comet','compass','copper','coral','cosmic','crater','crystal',
+  'current','cypress','delta','desert','diamond','dusk','eclipse','ember','epoch',
+  'estuary','falcon','fern','fjord','flint','forest','frost','galaxy','garnet',
+  'geyser','glacier','granite','grove','gust','harbor','harvest','haven','horizon',
+  'hunter','iceberg','ignite','impact','jaguar','jungle','lantern','lava','lemon',
+  'leopard','lotus','lynx','magnet','mammoth','maple','marble','marsh','meadow',
+  'meteor','midnight','monsoon','moose','mosaic','mountain','mystic','nebula',
+  'noble','nomad','obsidian','onyx','orbit','orchid','osprey','ozone','pebble',
+  'phantom','pillar','pine','planet','plasma','plateau','polaris','prism','pulse',
+  'quartz','quest','raven','rapid','reef','rhythm','ridge','river','rocket','rogue',
+  'ruby','saddle','sage','salmon','sapphire','saturn','scarlet','shadow','shark',
+  'sierra','silver','slate','solar','spark','spiral','spruce','stellar','stone',
+  'storm','summit','swift','sword','thorn','thunder','tiger','topaz','torch',
+  'tornado','trident','tundra','turquoise','typhoon','ultra','urchin','valley',
+  'vapor','vector','velvet','viper','vista','volcano','vortex','voyager','walrus',
+  'warrior','willow','winter','wolf','xenon','zenith','zephyr','zodiac','acorn',
+  'agate','alder','basalt','beaver','birch','bison','blizzard','bloom','bolt',
+  'bramble','brine','brook','cinder','citadel','condor','cove','dagger','dawn',
+  'depth','dingo','dome','dragon','drift','dune','eagle','echo','elder','emerald',
+  'empire','engine','ether','fang','ferret','fissure','flare','flood','foam','fog',
+  'forge','fossil','fountain','fuel','gale','glade','gleam','gorge','gravel',
+  'grizzly','hazel','heath','herald','hive','hollow','holly','hyena','inlet',
+  'javelin','jewel','kestrel','knot','lancer','larch','lightning','loch','mantle',
+  'marvel','mineral','moray','mortar','nettle','nickel','nightfall','nimbus',
+  'north','notch','nova','nymph','oasis','ocean','oracle','oxide','paddle',
+  'parrot','patrol','peak','pelican','pitch','pluton','pommel','prophet',
+  'quarry','rampart','rapids','raptor','relic','remnant','rime','ritual',
+  'robin','rowan','rune','russet','sable','sandstone','seraph','shale','signal',
+  'siren','skyline','sleek','sleet','snowfield','solstice','sparrow','spire',
+  'squall','stalker','steppe','strata','strider','sundial','surge','swallow',
+  'sycamore','talon','tangle','tempest','terrain','thatch','timber','titan',
+  'torrent','tracker','trail','trawler','trench','trinket','triton','truffle',
+  'tusk','twilight','umbra','upland','vanguard','venom','venture','verdant',
+  'vesper','vine','warden','wasp','watershed','whirlpool','whisper','wildfire',
+  'wraith','yarrow','yonder','zeolite','abyssal','aegis','aerith','aglow',
+  'alloy','almandine','aloft','amethyst','anvil','arch','ardent','argent',
+  'ascent','aspect','astral','azure','ballast','bastion','bedrock','bellows',
+  'beryl','blaze','blight','brine','bulwark','burnish','caldera','carbon',
+  'cassock','catalyst','catacomb','chalice','charcoal','chasm','chrome',
+  'circuit','cobblestone','codex','coinage','conduit','crest','crimson',
+  'crucible','culminate','cyclone','darkstone','daybreak','debris','deepwater',
+];
+
+let genState = {
+  mode:      'random',
+  length:    16,
+  upper:     true,
+  digits:    true,
+  symbols:   true,
+  wordCount: 5,
+};
+
+let DG           = {};
+let lastGenerated = '';
+
+function initGenerator() {
+  const g = id => document.getElementById(id);
+  DG = {
+    output:      g('psa-gen-output'),
+    copyBtn:     g('psa-gen-copy'),
+    useBtn:      g('psa-gen-use'),
+    regenBtn:    g('psa-gen-regen'),
+    lengthWrap:  g('psa-gen-length-wrap'),
+    wordWrap:    g('psa-gen-word-wrap'),
+    lengthSlider:g('psa-gen-length'),
+    lengthVal:   g('psa-gen-length-val'),
+    wordSlider:  g('psa-gen-words'),
+    wordVal:     g('psa-gen-words-val'),
+    upperCb:     g('psa-gen-upper'),
+    digitsCb:    g('psa-gen-digits'),
+    symbolsCb:   g('psa-gen-symbols'),
+    charOpts:    g('psa-gen-char-opts'),
+    modeBtns:    document.querySelectorAll('.psa-gen-mode-btn'),
+    strFill:     g('psa-gen-str-fill'),
+    strLabel:    g('psa-gen-str-label'),
+    strEntropy:  g('psa-gen-entropy'),
+  };
+  if (!DG.output) return;
+
+  DG.modeBtns.forEach(btn => btn.addEventListener('click', () => {
+    genState.mode = btn.dataset.mode;
+    DG.modeBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    syncGenOptions();
+    regenerate();
+  }));
+
+  if (DG.lengthSlider) DG.lengthSlider.addEventListener('input', () => {
+    genState.length = +DG.lengthSlider.value;
+    if (DG.lengthVal) DG.lengthVal.textContent = genState.length;
+    regenerate();
+  });
+
+  if (DG.wordSlider) DG.wordSlider.addEventListener('input', () => {
+    genState.wordCount = +DG.wordSlider.value;
+    if (DG.wordVal) DG.wordVal.textContent = genState.wordCount;
+    regenerate();
+  });
+
+  [['upperCb','upper'],['digitsCb','digits'],['symbolsCb','symbols']].forEach(([k,p]) => {
+    if (DG[k]) DG[k].addEventListener('change', () => { genState[p] = DG[k].checked; regenerate(); });
+  });
+
+  if (DG.regenBtn) DG.regenBtn.addEventListener('click', regenerate);
+  if (DG.copyBtn)  DG.copyBtn.addEventListener('click', copyGenerated);
+  if (DG.useBtn)   DG.useBtn.addEventListener('click', useGenerated);
+
+  syncGenOptions();
+  regenerate();
+}
+
+function syncGenOptions() {
+  const isPhrase = genState.mode === 'passphrase';
+  if (DG.lengthWrap) DG.lengthWrap.style.display = isPhrase ? 'none' : 'flex';
+  if (DG.wordWrap)   DG.wordWrap.style.display   = isPhrase ? 'flex' : 'none';
+  if (DG.charOpts)   DG.charOpts.style.display   = isPhrase ? 'none' : 'flex';
+}
+
+function regenerate() {
+  let pwd;
+  if      (genState.mode === 'passphrase') pwd = generatePassphrase(genState.wordCount);
+  else if (genState.mode === 'memorable')  pwd = generateMemorable(genState.length, genState);
+  else                                     pwd = generateRandom(genState);
+  lastGenerated = pwd;
+  renderGenerated(pwd);
+}
+
+/* Cryptographically random char password */
+function generateRandom(opts) {
+  const LOWER   = 'abcdefghijkmnpqrstuvwxyz';
+  const UPPER   = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
+  const DIGITS  = '23456789';
+  const SYMBOLS = '!@#$%^&*_+-=?';
+
+  let pool     = LOWER;
+  const needed = [genRandChar(LOWER)];
+
+  if (opts.upper)   { pool += UPPER;   needed.push(genRandChar(UPPER));   }
+  if (opts.digits)  { pool += DIGITS;  needed.push(genRandChar(DIGITS));  }
+  if (opts.symbols) { pool += SYMBOLS; needed.push(genRandChar(SYMBOLS)); }
+
+  while (needed.length < opts.length) needed.push(genRandChar(pool));
+  return genShuffle(needed).slice(0, opts.length).join('');
+}
+
+/* Word-based passphrase */
+function generatePassphrase(wordCount) {
+  const sep   = genState.symbols ? '-' : ' ';
+  const words = [];
+  for (let i = 0; i < wordCount; i++) {
+    let w = GEN_WORDS[Math.floor(genSecureRandom() * GEN_WORDS.length)];
+    if (genState.upper && genSecureRandom() > 0.55) w = w[0].toUpperCase() + w.slice(1);
+    words.push(w);
+  }
+  let out = words.join(sep);
+  if (genState.digits) out += String(Math.floor(genSecureRandom() * 90) + 10);
+  return out;
+}
+
+/* Pronounceable / memorable password */
+function generateMemorable(length, opts) {
+  const V = 'aeiou';
+  const C = 'bcdfghjklmnprstvwz';
+  const result = [];
+
+  const pairs = Math.ceil((length + 2) / 2);
+  for (let i = 0; i < pairs; i++) {
+    const c = genRandChar(C);
+    const v = genRandChar(V);
+    result.push(opts.upper && i % 2 === 0 ? c.toUpperCase() : c, v);
+  }
+
+  // trim to fit, then append number + symbol
+  let base = result.join('').slice(0, length - (opts.digits ? 1 : 0) - (opts.symbols ? 1 : 0));
+  if (opts.digits)  base += genRandChar('23456789');
+  if (opts.symbols) base += genRandChar('!@#$_-');
+  return base.slice(0, length);
+}
+
+/* Crypto helpers */
+function genSecureRandom() {
+  const arr = new Uint32Array(1);
+  crypto.getRandomValues(arr);
+  return arr[0] / (0xFFFFFFFF + 1);
+}
+
+function genRandChar(str) {
+  const max = Math.floor(256 / str.length) * str.length;
+  let v;
+  const arr = new Uint8Array(1);
+  do { crypto.getRandomValues(arr); v = arr[0]; } while (v >= max);
+  return str[v % str.length];
+}
+
+function genShuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(genSecureRandom() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/* Render generated password + mini strength */
+function renderGenerated(pwd) {
+  if (!DG.output) return;
+  DG.output.textContent = pwd;
+
+  const a = analyzePassword(pwd);
+  if (DG.strFill)   { DG.strFill.style.width = a.level.pct + '%'; DG.strFill.style.background = a.level.color; }
+  if (DG.strLabel)  { DG.strLabel.textContent = a.threat.label; DG.strLabel.style.color = a.threat.color; }
+  if (DG.strEntropy){ DG.strEntropy.textContent = `${a.entropy.toFixed(1)} bits`; }
+}
+
+function copyGenerated() {
+  if (!lastGenerated) return;
+  navigator.clipboard.writeText(lastGenerated).then(() => {
+    if (!DG.copyBtn) return;
+    const orig = DG.copyBtn.innerHTML;
+    DG.copyBtn.innerHTML = '<i class="bi bi-check-lg me-1"></i>Copied!';
+    DG.copyBtn.style.cssText += ';background:rgba(48,209,88,0.18);border-color:rgba(48,209,88,0.4);';
+    setTimeout(() => { DG.copyBtn.innerHTML = orig; DG.copyBtn.style.cssText = ''; }, 2000);
+  }).catch(() => {
+    // Fallback: select text
+    try {
+      const range = document.createRange();
+      range.selectNode(DG.output);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+    } catch {}
+  });
+}
+
+function useGenerated() {
+  if (!lastGenerated || !D.input) return;
+  D.input.value = lastGenerated;
+  D.input.type  = 'text';
+  if (D.toggleVis) D.toggleVis.innerHTML = '<i class="bi bi-eye-slash"></i>';
+  const inputSection = document.querySelector('.psa-input-section');
+  if (inputSection) inputSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  scanDone = false;
+  onPasswordInput();
 }
