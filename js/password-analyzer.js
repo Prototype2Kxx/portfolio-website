@@ -413,7 +413,7 @@ function getCommonMistakes(pwd, comp, patterns, isCommon) {
   }
 
   // BAD: ends with digits (word+numbers pattern)
-  if (/[a-zA-Z]\d{1,4}$/.test(pwd) && comp.letter !== pwd.length) {
+  if (/[a-zA-Z]\d{1,4}$/.test(pwd) && (comp.upper + comp.lower) > 0) {
     findings.push({ cls:'bad', icon:'bi-x-circle-fill', msg:'Ends with numbers', detail:"Appending digits to a word (e.g. word123) is one of the first mutations attackers try." });
   }
 
@@ -1101,6 +1101,9 @@ const GEN_WORDS = [
   'crucible','culminate','cyclone','darkstone','daybreak','debris','deepwater',
 ];
 
+/* ════════════════════════════════════════════════════════════
+   GENERATOR STATE
+   ════════════════════════════════════════════════════════════ */
 let genState = {
   mode:      'random',
   length:    16,
@@ -1110,194 +1113,227 @@ let genState = {
   wordCount: 5,
 };
 
-let DG           = {};
+let DG            = {};
 let lastGenerated = '';
 
-function initGenerator() {
-  const g = id => document.getElementById(id);
-  DG = {
-    output:      g('psa-gen-output'),
-    copyBtn:     g('psa-gen-copy'),
-    useBtn:      g('psa-gen-use'),
-    regenBtn:    g('psa-gen-regen'),
-    lengthWrap:  g('psa-gen-length-wrap'),
-    wordWrap:    g('psa-gen-word-wrap'),
-    lengthSlider:g('psa-gen-length'),
-    lengthVal:   g('psa-gen-length-val'),
-    wordSlider:  g('psa-gen-words'),
-    wordVal:     g('psa-gen-words-val'),
-    upperCb:     g('psa-gen-upper'),
-    digitsCb:    g('psa-gen-digits'),
-    symbolsCb:   g('psa-gen-symbols'),
-    charOpts:    g('psa-gen-char-opts'),
-    modeBtns:    document.querySelectorAll('.psa-gen-mode-btn'),
-    strFill:     g('psa-gen-str-fill'),
-    strLabel:    g('psa-gen-str-label'),
-    strEntropy:  g('psa-gen-entropy'),
-  };
-  if (!DG.output) return;
+/* ════════════════════════════════════════════════════════════
+   CRYPTO HELPERS
+   ════════════════════════════════════════════════════════════ */
 
-  DG.modeBtns.forEach(btn => btn.addEventListener('click', () => {
-    genState.mode = btn.dataset.mode;
-    DG.modeBtns.forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    syncGenOptions();
-    regenerate();
-  }));
-
-  if (DG.lengthSlider) DG.lengthSlider.addEventListener('input', () => {
-    genState.length = +DG.lengthSlider.value;
-    if (DG.lengthVal) DG.lengthVal.textContent = genState.length;
-    regenerate();
-  });
-
-  if (DG.wordSlider) DG.wordSlider.addEventListener('input', () => {
-    genState.wordCount = +DG.wordSlider.value;
-    if (DG.wordVal) DG.wordVal.textContent = genState.wordCount;
-    regenerate();
-  });
-
-  [['upperCb','upper'],['digitsCb','digits'],['symbolsCb','symbols']].forEach(([k,p]) => {
-    if (DG[k]) DG[k].addEventListener('change', () => { genState[p] = DG[k].checked; regenerate(); });
-  });
-
-  if (DG.regenBtn) DG.regenBtn.addEventListener('click', regenerate);
-  if (DG.copyBtn)  DG.copyBtn.addEventListener('click', copyGenerated);
-  if (DG.useBtn)   DG.useBtn.addEventListener('click', useGenerated);
-
-  syncGenOptions();
-  regenerate();
-}
-
-function syncGenOptions() {
-  const isPhrase = genState.mode === 'passphrase';
-  if (DG.lengthWrap) DG.lengthWrap.style.display = isPhrase ? 'none' : 'flex';
-  if (DG.wordWrap)   DG.wordWrap.style.display   = isPhrase ? 'flex' : 'none';
-  if (DG.charOpts)   DG.charOpts.style.display   = isPhrase ? 'none' : 'flex';
-}
-
-function regenerate() {
-  let pwd;
-  if      (genState.mode === 'passphrase') pwd = generatePassphrase(genState.wordCount);
-  else if (genState.mode === 'memorable')  pwd = generateMemorable(genState.length, genState);
-  else                                     pwd = generateRandom(genState);
-  lastGenerated = pwd;
-  renderGenerated(pwd);
-}
-
-/* Cryptographically random char password */
-function generateRandom(opts) {
-  const LOWER   = 'abcdefghijkmnpqrstuvwxyz';
-  const UPPER   = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
-  const DIGITS  = '23456789';
-  const SYMBOLS = '!@#$%^&*_+-=?';
-
-  let pool     = LOWER;
-  const needed = [genRandChar(LOWER)];
-
-  if (opts.upper)   { pool += UPPER;   needed.push(genRandChar(UPPER));   }
-  if (opts.digits)  { pool += DIGITS;  needed.push(genRandChar(DIGITS));  }
-  if (opts.symbols) { pool += SYMBOLS; needed.push(genRandChar(SYMBOLS)); }
-
-  while (needed.length < opts.length) needed.push(genRandChar(pool));
-  return genShuffle(needed).slice(0, opts.length).join('');
-}
-
-/* Word-based passphrase */
-function generatePassphrase(wordCount) {
-  const sep   = genState.symbols ? '-' : ' ';
-  const words = [];
-  for (let i = 0; i < wordCount; i++) {
-    let w = GEN_WORDS[Math.floor(genSecureRandom() * GEN_WORDS.length)];
-    if (genState.upper && genSecureRandom() > 0.55) w = w[0].toUpperCase() + w.slice(1);
-    words.push(w);
-  }
-  let out = words.join(sep);
-  if (genState.digits) out += String(Math.floor(genSecureRandom() * 90) + 10);
-  return out;
-}
-
-/* Pronounceable / memorable password */
-function generateMemorable(length, opts) {
-  const V = 'aeiou';
-  const C = 'bcdfghjklmnprstvwz';
-  const result = [];
-
-  const pairs = Math.ceil((length + 2) / 2);
-  for (let i = 0; i < pairs; i++) {
-    const c = genRandChar(C);
-    const v = genRandChar(V);
-    result.push(opts.upper && i % 2 === 0 ? c.toUpperCase() : c, v);
-  }
-
-  // trim to fit, then append number + symbol
-  let base = result.join('').slice(0, length - (opts.digits ? 1 : 0) - (opts.symbols ? 1 : 0));
-  if (opts.digits)  base += genRandChar('23456789');
-  if (opts.symbols) base += genRandChar('!@#$_-');
-  return base.slice(0, length);
-}
-
-/* Crypto helpers */
-function genSecureRandom() {
-  const arr = new Uint32Array(1);
-  crypto.getRandomValues(arr);
-  return arr[0] / (0xFFFFFFFF + 1);
-}
-
-function genRandChar(str) {
-  const max = Math.floor(256 / str.length) * str.length;
+/** Unbiased random integer in [0, max) using rejection sampling */
+function randInt(max) {
+  const arr   = new Uint32Array(1);
+  const limit = Math.floor(0x100000000 / max) * max;
   let v;
-  const arr = new Uint8Array(1);
-  do { crypto.getRandomValues(arr); v = arr[0]; } while (v >= max);
-  return str[v % str.length];
+  do { crypto.getRandomValues(arr); v = arr[0]; } while (v >= limit);
+  return v % max;
 }
 
-function genShuffle(arr) {
-  const a = [...arr];
+/** Random character from a non-empty string */
+function randChar(str) {
+  return str[randInt(str.length)];
+}
+
+/** Fisher-Yates shuffle (returns a new array) */
+function shuffle(arr) {
+  const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(genSecureRandom() * (i + 1));
+    const j = randInt(i + 1);
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
 }
 
-/* Render generated password + mini strength */
-function renderGenerated(pwd) {
+/* ════════════════════════════════════════════════════════════
+   GENERATOR FUNCTIONS
+   ════════════════════════════════════════════════════════════ */
+
+function genRandom(opts) {
+  const LOWER   = 'abcdefghijkmnpqrstuvwxyz';
+  const UPPER   = 'ABCDEFGHJKLMNPQRSTUVWXYZ';
+  const DIGITS  = '23456789';
+  const SYMBOLS = '!@#$%^&*_+-=?';
+
+  let pool   = LOWER;
+  const chars = [ randChar(LOWER) ]; // guarantee one lowercase
+
+  if (opts.upper)   { pool += UPPER;   chars.push(randChar(UPPER));   }
+  if (opts.digits)  { pool += DIGITS;  chars.push(randChar(DIGITS));  }
+  if (opts.symbols) { pool += SYMBOLS; chars.push(randChar(SYMBOLS)); }
+
+  while (chars.length < opts.length) chars.push(randChar(pool));
+  return shuffle(chars).slice(0, opts.length).join('');
+}
+
+function genPassphrase(wordCount) {
+  const sep   = genState.symbols ? '-' : ' ';
+  const words = [];
+  for (let i = 0; i < wordCount; i++) {
+    let w = GEN_WORDS[randInt(GEN_WORDS.length)];
+    if (genState.upper && randInt(2) === 0) w = w[0].toUpperCase() + w.slice(1);
+    words.push(w);
+  }
+  let out = words.join(sep);
+  if (genState.digits) out += (randInt(90) + 10).toString();
+  return out;
+}
+
+function genMemorable(length, opts) {
+  const vowels     = 'aeiou';
+  const consonants = 'bcdfghjklmnprstvwz';
+  const chars = [];
+  let pair = 0;
+  while (chars.length < length + 4) {
+    const c = randChar(consonants);
+    const v = randChar(vowels);
+    chars.push(opts.upper && pair % 2 === 0 ? c.toUpperCase() : c, v);
+    pair++;
+  }
+  const reserve = (opts.digits ? 1 : 0) + (opts.symbols ? 1 : 0);
+  let base = chars.join('').slice(0, length - reserve);
+  if (opts.digits)  base += randChar('23456789');
+  if (opts.symbols) base += randChar('!@#$_-');
+  return base.slice(0, length);
+}
+
+/* ════════════════════════════════════════════════════════════
+   GENERATOR UI
+   ════════════════════════════════════════════════════════════ */
+
+function initGenerator() {
+  DG.output    = document.getElementById('psa-gen-output');
+  DG.copyBtn   = document.getElementById('psa-gen-copy');
+  DG.regenBtn  = document.getElementById('psa-gen-regen');
+  DG.useBtn    = document.getElementById('psa-gen-use');
+  DG.lenWrap   = document.getElementById('psa-gen-length-wrap');
+  DG.wordWrap  = document.getElementById('psa-gen-word-wrap');
+  DG.lenSlider = document.getElementById('psa-gen-length');
+  DG.lenVal    = document.getElementById('psa-gen-length-val');
+  DG.wrdSlider = document.getElementById('psa-gen-words');
+  DG.wrdVal    = document.getElementById('psa-gen-words-val');
+  DG.cbUpper   = document.getElementById('psa-gen-upper');
+  DG.cbDigits  = document.getElementById('psa-gen-digits');
+  DG.cbSymbols = document.getElementById('psa-gen-symbols');
+  DG.charOpts  = document.getElementById('psa-gen-char-opts');
+  DG.modeBtns  = document.querySelectorAll('.psa-gen-mode-btn');
+  DG.strFill   = document.getElementById('psa-gen-str-fill');
+  DG.strLabel  = document.getElementById('psa-gen-str-label');
+  DG.strEnt    = document.getElementById('psa-gen-entropy');
+
+  if (!DG.output) return; // section absent from DOM
+
+  // Mode buttons
+  DG.modeBtns.forEach(btn => btn.addEventListener('click', () => {
+    genState.mode = btn.dataset.mode;
+    DG.modeBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    syncGenUI();
+    doRegenerate();
+  }));
+
+  // Length slider
+  if (DG.lenSlider) DG.lenSlider.addEventListener('input', () => {
+    genState.length = +DG.lenSlider.value;
+    if (DG.lenVal) DG.lenVal.textContent = genState.length;
+    doRegenerate();
+  });
+
+  // Word count slider
+  if (DG.wrdSlider) DG.wrdSlider.addEventListener('input', () => {
+    genState.wordCount = +DG.wrdSlider.value;
+    if (DG.wrdVal) DG.wrdVal.textContent = genState.wordCount;
+    doRegenerate();
+  });
+
+  // Checkboxes
+  if (DG.cbUpper)   DG.cbUpper.addEventListener('change',   () => { genState.upper   = DG.cbUpper.checked;   doRegenerate(); });
+  if (DG.cbDigits)  DG.cbDigits.addEventListener('change',  () => { genState.digits  = DG.cbDigits.checked;  doRegenerate(); });
+  if (DG.cbSymbols) DG.cbSymbols.addEventListener('change', () => { genState.symbols = DG.cbSymbols.checked; doRegenerate(); });
+
+  // Action buttons
+  if (DG.regenBtn) DG.regenBtn.addEventListener('click', doRegenerate);
+  if (DG.copyBtn)  DG.copyBtn.addEventListener('click',  doCopy);
+  if (DG.useBtn)   DG.useBtn.addEventListener('click',   doUse);
+
+  syncGenUI();
+  doRegenerate();
+}
+
+function syncGenUI() {
+  const isPhrase = genState.mode === 'passphrase';
+  if (DG.lenWrap)  DG.lenWrap.style.display  = isPhrase ? 'none' : 'flex';
+  if (DG.wordWrap) DG.wordWrap.style.display  = isPhrase ? 'flex' : 'none';
+  if (DG.charOpts) DG.charOpts.style.display  = isPhrase ? 'none' : 'flex';
+}
+
+function doRegenerate() {
+  try {
+    let pwd;
+    switch (genState.mode) {
+      case 'passphrase': pwd = genPassphrase(genState.wordCount); break;
+      case 'memorable':  pwd = genMemorable(genState.length, genState); break;
+      default:           pwd = genRandom(genState); break;
+    }
+    lastGenerated = pwd;
+    doRender(pwd);
+  } catch (err) {
+    if (DG.output) DG.output.textContent = 'Error — click Regenerate to retry';
+  }
+}
+
+function doRender(pwd) {
   if (!DG.output) return;
   DG.output.textContent = pwd;
 
-  const a = analyzePassword(pwd);
-  if (DG.strFill)   { DG.strFill.style.width = a.level.pct + '%'; DG.strFill.style.background = a.level.color; }
-  if (DG.strLabel)  { DG.strLabel.textContent = a.threat.label; DG.strLabel.style.color = a.threat.color; }
-  if (DG.strEntropy){ DG.strEntropy.textContent = `${a.entropy.toFixed(1)} bits`; }
+  try {
+    const a = analyzePassword(pwd);
+    if (DG.strFill) {
+      DG.strFill.style.width      = a.level.pct + '%';
+      DG.strFill.style.background = a.level.color;
+    }
+    if (DG.strLabel) {
+      DG.strLabel.textContent = a.threat.label;
+      DG.strLabel.style.color = a.threat.color;
+    }
+    if (DG.strEnt) {
+      DG.strEnt.textContent = a.entropy.toFixed(1) + ' bits';
+    }
+  } catch (e) { /* strength bar update failed silently */ }
 }
 
-function copyGenerated() {
+function doCopy() {
   if (!lastGenerated) return;
   navigator.clipboard.writeText(lastGenerated).then(() => {
     if (!DG.copyBtn) return;
     const orig = DG.copyBtn.innerHTML;
-    DG.copyBtn.innerHTML = '<i class="bi bi-check-lg me-1"></i>Copied!';
-    DG.copyBtn.style.cssText += ';background:rgba(48,209,88,0.18);border-color:rgba(48,209,88,0.4);';
-    setTimeout(() => { DG.copyBtn.innerHTML = orig; DG.copyBtn.style.cssText = ''; }, 2000);
+    DG.copyBtn.innerHTML = '<i class="bi bi-check-lg"></i> Copied!';
+    DG.copyBtn.style.background   = 'rgba(48,209,88,0.18)';
+    DG.copyBtn.style.borderColor  = 'rgba(48,209,88,0.4)';
+    setTimeout(() => {
+      if (DG.copyBtn) {
+        DG.copyBtn.innerHTML     = orig;
+        DG.copyBtn.style.background  = '';
+        DG.copyBtn.style.borderColor = '';
+      }
+    }, 2000);
   }).catch(() => {
-    // Fallback: select text
+    // Fallback: select the output text
     try {
       const range = document.createRange();
       range.selectNode(DG.output);
       window.getSelection().removeAllRanges();
       window.getSelection().addRange(range);
-    } catch {}
+    } catch (_) {}
   });
 }
 
-function useGenerated() {
+function doUse() {
   if (!lastGenerated || !D.input) return;
   D.input.value = lastGenerated;
   D.input.type  = 'text';
   if (D.toggleVis) D.toggleVis.innerHTML = '<i class="bi bi-eye-slash"></i>';
-  const inputSection = document.querySelector('.psa-input-section');
-  if (inputSection) inputSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  const sec = document.querySelector('.psa-input-section');
+  if (sec) sec.scrollIntoView({ behavior: 'smooth', block: 'center' });
   scanDone = false;
   onPasswordInput();
 }
