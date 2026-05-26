@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Cybersecurity Tools | George Condrea</title>
+  <meta name="description" content="Free and premium cybersecurity tools built by George Condrea. Coming soon.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+    }
+    .tools-hero {
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a1f2e 60%, #0d2137 100%);
+      color: #fff;
+      padding: 6rem 0 5rem;
+      text-align: center;
+    }
+    .tools-hero h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    .tools-hero p.lead {
+      color: #a8b5c8;
+      max-width: 580px;
+      margin: 0 auto 2rem;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+    .coming-soon-badge {
+      display: inline-block;
+      background: rgba(61,214,140,0.15);
+      color: #3dd68c;
+      border: 1px solid rgba(61,214,140,0.35);
+      border-radius: 50px;
+      padding: 0.3rem 1rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin-bottom: 1.5rem;
+    }
+    .tool-placeholder-card {
+      background: #fff;
+      border: 1px solid #e9ecef;
+      border-radius: 1rem;
+      padding: 2rem 1.75rem;
+      text-align: center;
+      height: 100%;
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .tool-placeholder-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #0d6efd, #3dd68c);
+    }
+    .tool-placeholder-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+    }
+    .tool-icon {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin: 0 auto 1.25rem;
+    }
+    .tool-placeholder-card h5 { font-weight: 700; margin-bottom: 0.5rem; }
+    .tool-placeholder-card p { color: #6c757d; font-size: 0.92rem; line-height: 1.6; margin: 0; }
+    .free-badge {
+      background: #d1fae5;
+      color: #065f46;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      border: 1px solid #a7f3d0;
+    }
+    .paid-badge {
+      background: #fef3c7;
+      color: #92400e;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 0.15rem 0.5rem;
+      border-radius: 10px;
+      border: 1px solid #fde68a;
+    }
+    .blur-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(255,255,255,0.6);
+      backdrop-filter: blur(2px);
+      border-radius: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #6c757d;
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+    }
+    @media (max-width: 575px) {
+      .tools-hero h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link active" href="tools.html">Tools</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Donate</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="tools-hero">
+  <div class="container">
+    <div class="coming-soon-badge">COMING SOON</div>
+    <h1>Cybersecurity Tools</h1>
+    <p class="lead">
+      A growing collection of practical security tools, built for students, enthusiasts, and professionals.
+      Some will be free, some will require a one-time payment.
+    </p>
+    <div class="d-flex justify-content-center gap-3 flex-wrap">
+      <span class="d-inline-flex align-items-center gap-2" style="color:#a8b5c8;font-size:0.9rem;">
+        <i class="bi bi-unlock-fill" style="color:#3dd68c;"></i> Free tools available
+      </span>
+      <span class="d-inline-flex align-items-center gap-2" style="color:#a8b5c8;font-size:0.9rem;">
+        <i class="bi bi-key-fill" style="color:#ffc107;"></i> One-time payment tools
+      </span>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">What's Coming</h2>
+      <p class="text-muted" style="max-width:520px;margin:0.5rem auto 0;">
+        Tools are currently in development. Here's a preview of what's planned.
+      </p>
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="tool-placeholder-card" style="position:relative;">
+          <div class="tool-icon" style="background:#e8f4fd;">
+            <i class="bi bi-shield-lock-fill" style="color:#0d6efd;"></i>
+          </div>
+          <div class="d-flex justify-content-center gap-2 mb-2">
+            <span class="free-badge">FREE</span>
+          </div>
+          <h5>Password Strength Checker</h5>
+          <p>Analyse how strong your password is and get actionable tips to improve it, all locally in your browser.</p>
+          <div class="blur-overlay">In Development</div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="tool-placeholder-card" style="position:relative;">
+          <div class="tool-icon" style="background:#fff0f0;">
+            <i class="bi bi-search" style="color:#dc3545;"></i>
+          </div>
+          <div class="d-flex justify-content-center gap-2 mb-2">
+            <span class="free-badge">FREE</span>
+          </div>
+          <h5>Header Inspector</h5>
+          <p>Check any URL's HTTP security headers and see which are missing or misconfigured.</p>
+          <div class="blur-overlay">In Development</div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="tool-placeholder-card" style="position:relative;">
+          <div class="tool-icon" style="background:#f0fff4;">
+            <i class="bi bi-hash" style="color:#198754;"></i>
+          </div>
+          <div class="d-flex justify-content-center gap-2 mb-2">
+            <span class="free-badge">FREE</span>
+          </div>
+          <h5>File Hash Generator</h5>
+          <p>Generate MD5, SHA-1, and SHA-256 hashes for files directly in your browser. No upload required.</p>
+          <div class="blur-overlay">In Development</div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="tool-placeholder-card" style="position:relative;">
+          <div class="tool-icon" style="background:#fff8e1;">
+            <i class="bi bi-envelope-exclamation-fill" style="color:#e67e00;"></i>
+          </div>
+          <div class="d-flex justify-content-center gap-2 mb-2">
+            <span class="paid-badge">ONE-TIME</span>
+          </div>
+          <h5>Phishing Email Analyser</h5>
+          <p>Paste an email header or body and get an AI-powered breakdown of phishing indicators and risk level.</p>
+          <div class="blur-overlay">In Development</div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="tool-placeholder-card" style="position:relative;">
+          <div class="tool-icon" style="background:#f3e8ff;">
+            <i class="bi bi-terminal-fill" style="color:#6f42c1;"></i>
+          </div>
+          <div class="d-flex justify-content-center gap-2 mb-2">
+            <span class="paid-badge">ONE-TIME</span>
+          </div>
+          <h5>OSINT Lookup Tool</h5>
+          <p>Aggregate public intelligence on domains, IPs, and emails from multiple sources in one clean report.</p>
+          <div class="blur-overlay">In Development</div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4">
+        <div class="tool-placeholder-card" style="position:relative;">
+          <div class="tool-icon" style="background:#e8f4fd;">
+            <i class="bi bi-person-bounding-box" style="color:#0d6efd;"></i>
+          </div>
+          <div class="d-flex justify-content-center gap-2 mb-2">
+            <span class="free-badge">FREE</span>
+          </div>
+          <h5>Base64 Encoder / Decoder</h5>
+          <p>Quickly encode or decode Base64 strings, useful for CTF challenges, JWT inspection, and general analysis.</p>
+          <div class="blur-overlay">In Development</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-5">
+      <p class="text-muted mb-4" style="max-width:480px;margin-left:auto;margin-right:auto;">
+        Want to be notified when tools launch? Check back here, or follow progress on GitHub.
+      </p>
+      <div class="d-flex justify-content-center gap-3 flex-wrap">
+        <a href="contact.html" class="btn btn-primary">
+          <i class="bi bi-bell-fill me-2"></i>Get in Touch
+        </a>
+        <a href="https://github.com/Prototype2Kxx" target="_blank" rel="noopener" class="btn btn-outline-secondary">
+          <i class="bi bi-github me-2"></i>GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+    &copy; 2025 George Condrea. All rights reserved.
+  </div>
+</footer>
+
+<a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
+   title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
+  ☕ <span class="kofi-fab-text">Donate</span>
+</a>
+<style>
+.kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:#FF5E5B;color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,94,91,.4);transition:transform .2s,box-shadow .2s}
+.kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,94,91,.55);color:#fff}
+@media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
