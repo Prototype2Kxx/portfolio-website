@@ -11,3 +11,22 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # ─── Security ──────────────────────────────────────────────────
 # Prevent directory listings
 Options -Indexes
+
+# ─── HTTP Security Headers ─────────────────────────────────────
+<IfModule mod_headers.c>
+  # Prevent your site being embedded in iframes on other domains (clickjacking)
+  Header always set X-Frame-Options "SAMEORIGIN"
+
+  # Stop browsers guessing file types (MIME sniffing attacks)
+  Header always set X-Content-Type-Options "nosniff"
+
+  # Only send the domain (no path/query) as referrer to external sites
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Disable access to sensitive browser features this site doesn't need
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=()"
+
+  # Tell browsers to remember HTTPS for 1 year (HSTS)
+  # Only active over HTTPS — safe to include here
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
