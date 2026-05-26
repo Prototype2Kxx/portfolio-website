@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <title>Support My Work | George Condrea</title>
+  <meta name="description" content="Support George Condrea's portfolio, AI-powered cybersecurity news dashboard, and future projects via Ko-fi. Every coffee helps keep this site running.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; }
+
+    /* Hero */
+    .donate-hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: #fff;
+      padding: 5rem 0 4rem;
+      text-align: center;
+    }
+    .donate-hero h1 { font-size: 2.8rem; font-weight: 800; margin-bottom: 1rem; }
+    .donate-hero p.lead { color: #c8d0e7; max-width: 620px; margin: 0 auto 2rem; font-size: 1.1rem; line-height: 1.7; }
+
+    /* Ko-fi CTA button (hero) */
+    .kofi-btn-main {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      background: #FF5E5B;
+      color: #fff;
+      padding: 0.85rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      box-shadow: 0 6px 24px rgba(255,94,91,0.45);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .kofi-btn-main:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 32px rgba(255,94,91,0.6);
+      color: #fff;
+    }
+
+    /* Fund cards */
+    .fund-card {
+      border: 1px solid #e9ecef;
+      border-radius: 1rem;
+      padding: 2rem 1.75rem;
+      text-align: center;
+      height: 100%;
+      transition: transform 0.2s, box-shadow 0.2s;
+      background: #fff;
+    }
+    .fund-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.1);
+    }
+    .fund-icon {
+      width: 3.5rem;
+      height: 3.5rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin: 0 auto 1.25rem;
+    }
+    .fund-card h5 { font-weight: 700; margin-bottom: 0.75rem; }
+    .fund-card p { color: #6c757d; font-size: 0.95rem; line-height: 1.65; margin: 0; }
+
+    /* Transparency section */
+    .transparency-box {
+      background: #f8f9fa;
+      border-left: 4px solid #FF5E5B;
+      border-radius: 0 0.5rem 0.5rem 0;
+      padding: 1.5rem 1.75rem;
+    }
+
+    /* Ko-fi official button wrapper */
+    .kofi-official-wrap {
+      background: #fff;
+      border: 2px solid #ffe0df;
+      border-radius: 1rem;
+      padding: 2.5rem;
+      text-align: center;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .kofi-official-wrap h3 { font-weight: 700; margin-bottom: 0.5rem; }
+    .kofi-official-wrap p { color: #6c757d; font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .kofi-official-wrap .note { font-size: 0.82rem; color: #adb5bd; margin-top: 1rem; }
+
+    /* Ko-fi Floating Button */
+    .kofi-fab {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: #FF5E5B;
+      color: #fff;
+      padding: 0.6rem 1.1rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.875rem;
+      box-shadow: 0 4px 18px rgba(255,94,91,0.4);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .kofi-fab:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 26px rgba(255,94,91,0.55);
+      color: #fff;
+    }
+    @media (max-width: 576px) {
+      .kofi-fab-text { display: none; }
+      .kofi-fab { padding: 0.75rem; font-size: 1.1rem; }
+      .donate-hero h1 { font-size: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold active" href="donate.html" style="color:#FF5E5B!important;" aria-current="page">☕ Support</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="donate-hero">
+  <div class="container">
+    <div class="mb-3">
+      <span style="background:rgba(255,94,91,0.2);color:#ff8a88;font-size:0.8rem;font-weight:700;letter-spacing:0.1em;padding:0.35rem 0.9rem;border-radius:50px;border:1px solid rgba(255,94,91,0.35);">KO-FI SUPPORT</span>
+    </div>
+    <h1>Support My Work ☕</h1>
+    <p class="lead">
+      This portfolio and everything on it — including the AI-powered cybersecurity news dashboard —
+      runs on real tools that have real costs. If you've found value here, a coffee goes a long way.
+    </p>
+    <a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener" class="kofi-btn-main">
+      <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="" width="22" height="22" style="filter:brightness(0) invert(1);">
+      Buy Me a Coffee on Ko-fi
+    </a>
+    <p style="color:#8892a4;font-size:0.82rem;margin-top:1rem;">No account needed · One-off or recurring · 100% goes to me</p>
+  </div>
+</section>
+
+<!-- What Your Support Funds -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">What Your Support Funds</h2>
+      <p class="text-muted" style="max-width:520px;margin:0.5rem auto 0;">Every donation directly covers the real costs of keeping this site running and growing.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Card 1: Hosting -->
+      <div class="col-md-4">
+        <div class="fund-card">
+          <div class="fund-icon" style="background:#e8f4fd;">
+            <i class="bi bi-cloud-fill" style="color:#0d6efd;"></i>
+          </div>
+          <h5>Website &amp; Hosting</h5>
+          <p>
+            This portfolio is hosted on IONOS. Keeping a custom domain and reliable hosting
+            live requires an annual subscription. Your support helps cover server costs
+            so the site stays fast and always accessible.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2: AI News -->
+      <div class="col-md-4">
+        <div class="fund-card">
+          <div class="fund-icon" style="background:#fff0f0;">
+            <i class="bi bi-robot" style="color:#FF5E5B;"></i>
+          </div>
+          <h5>AI-Powered News Dashboard</h5>
+          <p>
+            The <a href="cybersecurity-news.html" class="text-decoration-none">Cybersecurity News Dashboard</a>
+            uses the <strong>Claude AI API</strong> to summarise, categorise, and rate cybersecurity
+            articles automatically — twice every day. Each API call has a cost, and those
+            add up over time. Your support keeps the AI running.
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 3: Future Projects -->
+      <div class="col-md-4">
+        <div class="fund-card">
+          <div class="fund-icon" style="background:#f0fff4;">
+            <i class="bi bi-rocket-takeoff-fill" style="color:#198754;"></i>
+          </div>
+          <h5>Future Projects</h5>
+          <p>
+            I'm always working on new ideas — tools, games, security projects, and more.
+            Donations give me the freedom to invest time and resources into building
+            things I'm genuinely excited about and sharing them here for free.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Ko-fi CTA Section -->
+<section class="py-5">
+  <div class="container">
+    <div class="kofi-official-wrap shadow-sm">
+      <div style="font-size:2.5rem;margin-bottom:0.75rem;">☕</div>
+      <h3>Ready to Support?</h3>
+      <p>
+        Head over to my Ko-fi page to leave a donation. You can give as little or as much as
+        you like — even a single coffee makes a difference and is genuinely appreciated.
+      </p>
+      <a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener" class="kofi-btn-main">
+        <img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="" width="22" height="22" style="filter:brightness(0) invert(1);">
+        Support on Ko-fi
+      </a>
+      <p class="note">Ko-fi is secure and powered by Stripe · No account required to donate</p>
+    </div>
+  </div>
+</section>
+
+<!-- Transparency Section -->
+<section class="py-5 bg-light">
+  <div class="container" style="max-width:740px;">
+    <h3 class="fw-bold mb-4">A Note on Transparency</h3>
+    <div class="transparency-box mb-4">
+      <p class="mb-0" style="color:#495057;line-height:1.75;">
+        I built this portfolio as a student transitioning into cybersecurity, and I share
+        everything here openly — projects, code, and write-ups — completely free. The AI news
+        dashboard runs on real API credits that cost money every single day. Donations are
+        never expected, but they genuinely help me keep things running and keep building.
+      </p>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-sm-6">
+        <div class="d-flex align-items-start gap-3 p-3 bg-white rounded border">
+          <i class="bi bi-check-circle-fill text-success mt-1" style="font-size:1.1rem;flex-shrink:0;"></i>
+          <div>
+            <strong class="d-block" style="font-size:0.9rem;">100% goes to running costs</strong>
+            <span class="text-muted" style="font-size:0.82rem;">Hosting, domains, and AI API credits</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="d-flex align-items-start gap-3 p-3 bg-white rounded border">
+          <i class="bi bi-check-circle-fill text-success mt-1" style="font-size:1.1rem;flex-shrink:0;"></i>
+          <div>
+            <strong class="d-block" style="font-size:0.9rem;">No pressure, ever</strong>
+            <span class="text-muted" style="font-size:0.82rem;">Everything on this site is free to explore</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="d-flex align-items-start gap-3 p-3 bg-white rounded border">
+          <i class="bi bi-check-circle-fill text-success mt-1" style="font-size:1.1rem;flex-shrink:0;"></i>
+          <div>
+            <strong class="d-block" style="font-size:0.9rem;">Stripe-secured payments</strong>
+            <span class="text-muted" style="font-size:0.82rem;">Ko-fi uses Stripe — your payment is safe</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="d-flex align-items-start gap-3 p-3 bg-white rounded border">
+          <i class="bi bi-check-circle-fill text-success mt-1" style="font-size:1.1rem;flex-shrink:0;"></i>
+          <div>
+            <strong class="d-block" style="font-size:0.9rem;">Helps me build more</strong>
+            <span class="text-muted" style="font-size:0.82rem;">Surplus funds go towards new projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <p class="text-muted mb-3" style="font-size:0.9rem;">Thank you for visiting — and even more so if you choose to support. 🙏</p>
+      <a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener" class="kofi-btn-main" style="font-size:0.95rem;padding:0.7rem 1.6rem;">
+        ☕ Buy Me a Coffee
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3 mt-0">
+  <div class="container">
+    &copy; 2025 George Condrea. All rights reserved.
+  </div>
+</footer>
+
+<!-- Ko-fi Floating Button -->
+<a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
+   title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
+  ☕ <span class="kofi-fab-text">Support Me</span>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -34,6 +34,7 @@ Each page is a self-contained HTML file. There are **no shared templates or comp
 | `scamazon-website.html` | Scamazon project detail page with feature demo videos |
 | `platformer.html` | Knight platformer detail page; game embedded via `<iframe>` |
 | `project-form.html` | Interactive Scamazon account form demo (dodging button JS trick) |
+| `donate.html` | Ko-fi donations page — explains what support funds (hosting, AI API, future projects) |
 
 ### JavaScript
 - `background-script.js` — configures LiquidEther on the canvas `#liquid-bg` in `about.html`. Colors, speed, and resolution are set here.
@@ -69,3 +70,4 @@ The Python script requires: `pip install feedparser anthropic`. GitHub Secrets n
 - **Navbar brand inconsistency**: `index.html` uses "George Condrea" as the brand; all other pages use "My Portfolio".
 - **No CSS file**: All custom styles are inline per-page. When adding styles that need to appear on multiple pages, they must be duplicated manually.
 - **Platformer game iframe**: `platformer.html` embeds the game via `<iframe src="https://animated-unicorn-2bde72.netlify.app">` — this is an external Netlify deployment and is not part of this repository.
+- **Ko-fi floating button**: Every page has an inline `<style>` block defining `.kofi-fab` for the fixed-position bottom-right button. If this style needs changing, it must be updated on each page individually (no shared CSS). Ko-fi username: `georgecondrea`.
