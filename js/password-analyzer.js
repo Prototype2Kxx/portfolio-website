@@ -31,7 +31,7 @@
    ════════════════════════════════════════════════════════════ */
 const PSA_CONFIG = {
   STRIPE_LINK:     'https://buy.stripe.com/dRm28r38y9jS1POa7P7kc00',
-  KOFI_CODE_HASH:  'YOUR_SHA256_HASH_HERE',           // ← paste SHA-256 of your code here
+  KOFI_CODE_HASH:  '3b5d8d1d94d8f209639d835e25d1c5f838cbfeb6aa232d1dbf76101c3abec69b',
   LS_KEY:          'psa_premium',
   PRICE_DISPLAY:   '£2.99',
 };
