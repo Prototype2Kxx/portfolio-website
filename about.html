@@ -13,6 +13,11 @@
       font-family: 'Segoe UI', sans-serif;
       background-color: #f2f2f2;
     }
+    /* Mobile: section-box full-width padding */
+    @media (max-width: 575px) {
+      .section-box { padding: 1.25rem; }
+      .gallery-equal { aspect-ratio: 4 / 3; }
+    }
     .section-box {
       background: #fff;
       padding: 2rem;
@@ -49,7 +54,7 @@
           <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
           <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Support</a></li>
+          <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Donate</a></li>
         </ul>
       </div>
     </div>
@@ -87,21 +92,21 @@
       <h3>My Culinary Journey</h3>
       <p>Here are some moments from my time working in professional kitchens, including events and dishes I've been proud to be part of.</p>
       <div class="row g-4">
-        <!-- Pig on the Beach -->
+        
         <div class="col-sm-6 col-md-4">
           <h6 class="text-center">The Pig on the Beach</h6>
           <img src="img/pig/restaurant.webp" alt="The Pig on the Beach kitchen"
                class="gallery-equal clickable" data-bs-toggle="modal" data-bs-target="#modalPig">
 
         </div>
-        <!-- Pasta Class -->
+        
         <div class="col-sm-6 col-md-4">
           <h6 class="text-center">Pasta Class – Rome</h6>
           <img src="img/pasta-class/rome.jpg" alt="Pasta Cooking Course - Rome, Italy"
                class="gallery-equal clickable" data-bs-toggle="modal" data-bs-target="#modalPasta">
 
         </div>
-        <!-- Fish Festival Video -->
+        
         <div class="col-sm-6 col-md-4">
           <h6 class="text-center">Fish Festival Catering</h6>
           <img src="img/fish-festival/preview.png" alt="Fish Festival Catering"
@@ -111,8 +116,8 @@
     </div>
   </div>
 
-  <!-- Modals -->
-    <!-- Pig Modal -->
+  
+    
     <div class="modal fade" id="modalPig" tabindex="-1" aria-labelledby="modalPigLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -126,7 +131,7 @@
       </div>
     </div>
 
-    <!-- Pasta Modal -->
+    
     <div class="modal fade" id="modalPasta" tabindex="-1" aria-labelledby="modalPastaLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -140,7 +145,7 @@
       </div>
     </div>
 
-    <!-- Fish Festival Modal -->
+    
     <div class="modal fade" id="modalFish" tabindex="-1" aria-labelledby="modalFishLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -174,11 +179,9 @@
                       }
     </style>
 
-
-<!-- Ko-fi Floating Button -->
 <a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
    title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
-  ☕ <span class="kofi-fab-text">Support Me</span>
+  ☕ <span class="kofi-fab-text">Donate</span>
 </a>
 <style>
 .kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:#FF5E5B;color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,94,91,.4);transition:transform .2s,box-shadow .2s}
@@ -190,10 +193,10 @@
 
   <canvas id="liquid-bg"></canvas>
 
-  <!-- Liquid Ether library -->
+  
   <script src="https://cdn.jsdelivr.net/npm/@reactbits/liquid-ether"></script>
 
-  <!-- Your script -->
+  
   <script src="background-script.js"></script>
 
 </body>

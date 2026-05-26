@@ -12,9 +12,6 @@
 </head>
 <body>
 
-<!-- ═══════════════════════════════════════════
-     NAVBAR
-════════════════════════════════════════════ -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
     <a class="navbar-brand" href="index.html">George Condrea</a>
@@ -31,15 +28,12 @@
         <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
         <li class="nav-item"><a class="nav-link active fw-semibold" aria-current="page" href="cybersecurity-news.html">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Support</a></li>
+        <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Donate</a></li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!-- ═══════════════════════════════════════════
-     HERO
-════════════════════════════════════════════ -->
 <header class="bg-dark text-white news-hero">
   <div class="container">
     <h1 class="display-5 fw-bold">Cybersecurity News Dashboard</h1>
@@ -53,9 +47,6 @@
   </div>
 </header>
 
-<!-- ═══════════════════════════════════════════
-     STATS BAR  (quick-filter chips)
-════════════════════════════════════════════ -->
 <div class="stats-bar">
   <div class="container">
     <div class="d-flex flex-wrap align-items-center gap-2">
@@ -84,14 +75,11 @@
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════
-     CONTROLS BAR  (search / filter / sort)
-════════════════════════════════════════════ -->
 <div class="controls-bar">
   <div class="container">
     <div class="row g-2 align-items-center">
 
-      <!-- Search -->
+      
       <div class="col-12 col-md-4">
         <div class="search-wrap">
           <i class="bi bi-search search-icon" aria-hidden="true"></i>
@@ -100,15 +88,15 @@
         </div>
       </div>
 
-      <!-- Category -->
+      
       <div class="col-6 col-md-3">
         <select id="categoryFilter" class="form-select" aria-label="Filter by category">
           <option value="">All Categories</option>
-          <!-- Populated by JS from data -->
+          
         </select>
       </div>
 
-      <!-- Severity -->
+      
       <div class="col-6 col-md-2">
         <select id="severityFilter" class="form-select" aria-label="Filter by severity">
           <option value="">All Severities</option>
@@ -119,7 +107,7 @@
         </select>
       </div>
 
-      <!-- Sort -->
+      
       <div class="col-6 col-md-2">
         <select id="sortFilter" class="form-select" aria-label="Sort order">
           <option value="newest">Newest First</option>
@@ -127,7 +115,7 @@
         </select>
       </div>
 
-      <!-- Reset -->
+      
       <div class="col-6 col-md-1">
         <button id="resetBtn" class="btn-reset" aria-label="Reset all filters">Reset</button>
       </div>
@@ -136,23 +124,17 @@
   </div>
 </div>
 
-<!-- ═══════════════════════════════════════════
-     ARTICLES GRID
-════════════════════════════════════════════ -->
 <section class="articles-section" aria-label="News articles">
   <div class="container">
     <div class="results-bar">
       <span class="results-count" id="resultsCount">Loading articles…</span>
     </div>
     <div class="row" id="articlesGrid">
-      <!-- Cards injected by news-dashboard.js -->
+      
     </div>
   </div>
 </section>
 
-<!-- ═══════════════════════════════════════════
-     FOOTER
-════════════════════════════════════════════ -->
 <footer class="bg-dark text-white text-center py-3">
   <div class="container">
     <p class="mb-1">&copy; 2025 George Condrea. All rights reserved.</p>
@@ -165,10 +147,9 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/news-dashboard.js"></script>
 
-<!-- Ko-fi Floating Button -->
 <a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
    title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
-  ☕ <span class="kofi-fab-text">Support Me</span>
+  ☕ <span class="kofi-fab-text">Donate</span>
 </a>
 <style>
 .kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:#FF5E5B;color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,94,91,.4);transition:transform .2s,box-shadow .2s}
