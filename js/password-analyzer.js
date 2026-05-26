@@ -30,7 +30,7 @@
    CONFIG  —  update these before going live
    ════════════════════════════════════════════════════════════ */
 const PSA_CONFIG = {
-  STRIPE_LINK:     'YOUR_STRIPE_PAYMENT_LINK_URL',   // ← paste Stripe Payment Link here
+  STRIPE_LINK:     'https://buy.stripe.com/dRm28r38y9jS1POa7P7kc00',
   KOFI_CODE_HASH:  'YOUR_SHA256_HASH_HERE',           // ← paste SHA-256 of your code here
   LS_KEY:          'psa_premium',
   PRICE_DISPLAY:   '£2.99',
