@@ -1,0 +1,13 @@
+# ─── Force HTTPS ──────────────────────────────────────────────
+# Redirect all HTTP traffic to HTTPS.
+# Two conditions are checked to handle both direct Apache HTTPS
+# and HTTPS terminated at an IONOS load balancer/proxy.
+
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ─── Security ──────────────────────────────────────────────────
+# Prevent directory listings
+Options -Indexes
