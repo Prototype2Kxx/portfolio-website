@@ -302,7 +302,7 @@ async function loadNews() {
     </div>`;
 
   try {
-    const res = await fetch('data/news.json');
+    const res = await fetch(`data/news.json?v=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
