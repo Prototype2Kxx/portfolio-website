@@ -63,6 +63,10 @@ docs/cybersecurity-news-setup.md           ← Step-by-step setup guide
 
 The Python script requires: `pip install feedparser anthropic`. GitHub Secrets needed: `ANTHROPIC_API_KEY`, `FTP_HOST`, `FTP_USER`, `FTP_PASS`, `FTP_REMOTE_PATH`. See `docs/cybersecurity-news-setup.md` for full instructions.
 
+## Writing Style Rules
+
+- **No em dashes**: Do not use em dashes (`—`, `&mdash;`, `&#8212;`) anywhere in HTML content, copy, labels, descriptions, or any user-facing text. Use a comma, a colon, parentheses, or restructure the sentence instead. This applies to all pages and any text added going forward.
+
 ## Known Issues / Things to Be Aware Of
 
 - **Formspree placeholder**: `contact.html` action is `https://formspree.io/f/your_form_id` — the `your_form_id` part must be replaced with a real Formspree endpoint before the form actually submits.

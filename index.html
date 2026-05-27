@@ -55,12 +55,7 @@
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Projects</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="projects.html">All Projects</a></li>
-          </ul>
-        </li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
         <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
         <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -92,6 +87,339 @@
     </div>
   </div>
 </section>
+
+<!-- ─── What You Will Find ──────────────────────────────────── -->
+<section class="py-5" style="background:#f8f9fa;">
+  <div class="container">
+    <h2 class="text-center mb-2">What You Will Find Here</h2>
+    <p class="text-center text-muted mb-4" style="max-width:520px;margin-left:auto;margin-right:auto;font-size:0.95rem;">
+      A snapshot of everything this portfolio has to offer. Pick a category to explore.
+    </p>
+
+    <!-- Tab card -->
+    <div class="wyf-card mx-auto">
+
+      <!-- Tab strip -->
+      <div class="wyf-tabs" role="tablist">
+        <button class="wyf-tab active" data-tab="projects"    role="tab" aria-selected="true">
+          <span class="wyf-tab-icon">&#128187;</span> Projects
+        </button>
+        <button class="wyf-tab"        data-tab="security"   role="tab" aria-selected="false">
+          <span class="wyf-tab-icon">&#128274;</span> Security
+        </button>
+        <button class="wyf-tab"        data-tab="skills"     role="tab" aria-selected="false">
+          <span class="wyf-tab-icon">&#9881;&#65039;</span> Skills
+        </button>
+        <button class="wyf-tab"        data-tab="background" role="tab" aria-selected="false">
+          <span class="wyf-tab-icon">&#128218;</span> Background
+        </button>
+      </div>
+
+      <!-- Panels -->
+      <div class="wyf-body">
+
+        <!-- Projects -->
+        <div class="wyf-panel active" id="wyf-projects">
+          <div class="wyf-panel-inner">
+            <h5 class="wyf-panel-title">Coding Projects</h5>
+            <p class="wyf-panel-lead">From e-commerce sites to Python games and finance tools, each project was built to solve a real problem or sharpen a specific skill.</p>
+            <div class="wyf-items">
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#0d6efd;"></span>
+                <div>
+                  <strong>Scamazon</strong> - A fully functional mock e-commerce storefront with cart, search, and checkout built in vanilla HTML, CSS and JavaScript.
+                </div>
+              </div>
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#6f42c1;"></span>
+                <div>
+                  <strong>Knight in the Night</strong> - A 2D side-scrolling platformer written in Python with Pygame, featuring combat, enemy waves, XP, and parallax backgrounds.
+                </div>
+              </div>
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#198754;"></span>
+                <div>
+                  <strong>Personal Finance Manager</strong> - A browser-based budgeting tool with income and expense tracking and visual breakdowns.
+                </div>
+              </div>
+            </div>
+            <a href="projects.html" class="wyf-cta">View all projects &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Security -->
+        <div class="wyf-panel" id="wyf-security">
+          <div class="wyf-panel-inner">
+            <h5 class="wyf-panel-title">Cybersecurity Work</h5>
+            <p class="wyf-panel-lead">Security is my academic focus at Bournemouth University. This portfolio reflects that through live tools and automated intelligence feeds.</p>
+            <div class="wyf-items">
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#198754;"></span>
+                <div>
+                  <strong>Security News Dashboard</strong> - Fully automated pipeline using GitHub Actions, Python, and the Claude AI API. Fetches and analyses articles from five trusted RSS feeds twice daily.
+                </div>
+              </div>
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#0a84ff;"></span>
+                <div>
+                  <strong>Password Security Analyzer</strong> - A browser-based tool that checks entropy, crack times, attack simulation, pattern detection, and NIST compliance. Entirely offline, nothing transmitted.
+                </div>
+              </div>
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#6f42c1;"></span>
+                <div>
+                  <strong>More tools planned</strong> - Additional defensive security tools are in development as part of ongoing study and personal projects.
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-wrap gap-2 mt-3">
+              <a href="cybersecurity-news.html" class="wyf-cta">News Dashboard &rarr;</a>
+              <a href="tools.html" class="wyf-cta" style="background:rgba(10,132,255,0.08);color:#0a84ff;border-color:rgba(10,132,255,0.25);">Security Tools &rarr;</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="wyf-panel" id="wyf-skills">
+          <div class="wyf-panel-inner">
+            <h5 class="wyf-panel-title">Technical Skills</h5>
+            <p class="wyf-panel-lead">A mix of languages, frameworks, and tools picked up through university, self-study, and building real projects from scratch.</p>
+            <div class="wyf-skills-grid">
+              <div class="wyf-skill-group">
+                <div class="wyf-skill-label">Languages</div>
+                <div class="wyf-pills">
+                  <span class="wyf-pill">HTML</span>
+                  <span class="wyf-pill">CSS</span>
+                  <span class="wyf-pill">JavaScript</span>
+                  <span class="wyf-pill">Python</span>
+                  <span class="wyf-pill">SQL</span>
+                </div>
+              </div>
+              <div class="wyf-skill-group">
+                <div class="wyf-skill-label">Frameworks / Libraries</div>
+                <div class="wyf-pills">
+                  <span class="wyf-pill">Bootstrap 5</span>
+                  <span class="wyf-pill">Pygame</span>
+                  <span class="wyf-pill">jsPDF</span>
+                </div>
+              </div>
+              <div class="wyf-skill-group">
+                <div class="wyf-skill-label">Tools and Platforms</div>
+                <div class="wyf-pills">
+                  <span class="wyf-pill">Git / GitHub</span>
+                  <span class="wyf-pill">GitHub Actions</span>
+                  <span class="wyf-pill">Claude AI API</span>
+                  <span class="wyf-pill">VS Code</span>
+                  <span class="wyf-pill">IONOS Hosting</span>
+                </div>
+              </div>
+              <div class="wyf-skill-group">
+                <div class="wyf-skill-label">Security</div>
+                <div class="wyf-pills">
+                  <span class="wyf-pill">Digital Forensics</span>
+                  <span class="wyf-pill">NIST Guidelines</span>
+                  <span class="wyf-pill">HIBP API</span>
+                  <span class="wyf-pill">Cryptography basics</span>
+                </div>
+              </div>
+            </div>
+            <a href="curriculum-vitae.html" class="wyf-cta mt-3 d-inline-block">Full CV &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Background -->
+        <div class="wyf-panel" id="wyf-background">
+          <div class="wyf-panel-inner">
+            <h5 class="wyf-panel-title">My Journey</h5>
+            <p class="wyf-panel-lead">I took an unconventional route into tech. Understanding that story gives context to the discipline and creativity behind everything on this site.</p>
+            <div class="wyf-items">
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#fd7e14;"></span>
+                <div>
+                  <strong>Professional Chef</strong> - Spent years in professional kitchens, developing precision, time management, and composure under pressure. Skills that transfer directly to software development.
+                </div>
+              </div>
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#0d6efd;"></span>
+                <div>
+                  <strong>Access to Higher Education</strong> - Completed an Access Diploma in Computing, bridging the gap between industries and proving that career changes are absolutely achievable.
+                </div>
+              </div>
+              <div class="wyf-item">
+                <span class="wyf-item-dot" style="background:#198754;"></span>
+                <div>
+                  <strong>Bournemouth University</strong> - Currently studying BSc Cybersecurity with Digital Forensics, focusing on offensive and defensive security, forensic investigation, and applied computing.
+                </div>
+              </div>
+            </div>
+            <a href="about.html" class="wyf-cta">Full story &rarr;</a>
+          </div>
+        </div>
+
+      </div><!-- /wyf-body -->
+    </div><!-- /wyf-card -->
+  </div>
+</section>
+
+<style>
+/* ─── What You Will Find ──────────────────────────────────────── */
+.wyf-card {
+  max-width: 820px;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+  border: 1px solid #e2e8f0;
+  background: #fff;
+}
+
+/* Tab strip */
+.wyf-tabs {
+  display: flex;
+  background: #f1f3f5;
+  border-bottom: 1px solid #e2e8f0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.wyf-tabs::-webkit-scrollbar { display: none; }
+
+.wyf-tab {
+  flex: 1;
+  min-width: 120px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  padding: 0.85rem 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #6c757d;
+  cursor: pointer;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+}
+.wyf-tab:hover { color: #212529; background: rgba(0,0,0,0.03); }
+.wyf-tab.active {
+  color: #0d6efd;
+  border-bottom-color: #0d6efd;
+  background: #fff;
+}
+.wyf-tab-icon { font-size: 1rem; line-height: 1; }
+
+/* Body / panels */
+.wyf-body { position: relative; }
+
+.wyf-panel {
+  display: none;
+  animation: wyfFadeIn 0.22s ease;
+}
+.wyf-panel.active { display: block; }
+
+@keyframes wyfFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+
+.wyf-panel-inner { padding: 1.75rem 2rem; }
+@media (max-width: 575px) { .wyf-panel-inner { padding: 1.25rem 1.1rem; } }
+
+.wyf-panel-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #212529;
+  margin-bottom: 0.4rem;
+}
+.wyf-panel-lead {
+  color: #6c757d;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  margin-bottom: 1.25rem;
+}
+
+/* Bullet items */
+.wyf-items { display: flex; flex-direction: column; gap: 0.75rem; }
+.wyf-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  font-size: 0.85rem;
+  color: #495057;
+  line-height: 1.6;
+}
+.wyf-item-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+/* Skills grid */
+.wyf-skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1.5rem;
+}
+@media (max-width: 575px) { .wyf-skills-grid { grid-template-columns: 1fr; } }
+
+.wyf-skill-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #6c757d;
+  margin-bottom: 0.4rem;
+}
+.wyf-pills { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+.wyf-pill {
+  background: #f1f3f5;
+  border: 1px solid #dee2e6;
+  border-radius: 20px;
+  padding: 0.2rem 0.65rem;
+  font-size: 0.75rem;
+  color: #495057;
+  font-weight: 500;
+}
+
+/* CTA link */
+.wyf-cta {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.25rem;
+  background: rgba(13,110,253,0.07);
+  border: 1px solid rgba(13,110,253,0.22);
+  color: #0d6efd;
+  padding: 0.42rem 1rem;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.18s, box-shadow 0.18s;
+}
+.wyf-cta:hover {
+  background: rgba(13,110,253,0.13);
+  box-shadow: 0 2px 10px rgba(13,110,253,0.15);
+  color: #0d6efd;
+}
+</style>
+
+<script>
+(function () {
+  const tabs   = document.querySelectorAll('.wyf-tab');
+  const panels = document.querySelectorAll('.wyf-panel');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+      panels.forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected','true');
+      const target = document.getElementById('wyf-' + tab.dataset.tab);
+      if (target) target.classList.add('active');
+    });
+  });
+})();
+</script>
 
 <section class="py-5 bg-light">
   <div class="container">

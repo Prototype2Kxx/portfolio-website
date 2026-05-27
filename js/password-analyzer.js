@@ -11,10 +11,9 @@
    CONFIG
    ════════════════════════════════════════════════════════════ */
 const PSA_CONFIG = {
-  STRIPE_LINK:    'https://buy.stripe.com/dRm28r38y9jS1POa7P7kc00',
-  KOFI_CODE_HASH: '3b5d8d1d94d8f209639d835e25d1c5f838cbfeb6aa232d1dbf76101c3abec69b',
+  KOFI_CODE_HASH: '2dbfdc244a78fe3428a024872141965d9db6aad94d3a39300f018790851d5a4f',
   LS_KEY:         'psa_premium',
-  PRICE_DISPLAY:  '£2.99',
+  HIBP_API_KEY:   '',   // optional — add your key from haveibeenpwned.com/API/Key to enable email checks
 };
 
 /* ════════════════════════════════════════════════════════════
@@ -76,6 +75,19 @@ const COMMON_PASSWORDS = new Set([
   'pppppppp','zzzzzzzz','xxxxxxxx','vvvvvvvv','nnnnnnn','hhhhhhh',
   'realmadrid','liverp00l','m@nchester','ch3lsea','guns','roses',
 ]);
+
+/* ════════════════════════════════════════════════════════════
+   TOP-50 RANKED PASSWORDS  (in approximate frequency order)
+   ════════════════════════════════════════════════════════════ */
+const RANKED_PASSWORDS = [
+  '123456','password','123456789','12345','12345678','qwerty','1234567',
+  '111111','1234567890','123123','000000','1234','dragon','master','pass',
+  'qwertyuiop','monkey','letmein','login','football','abc123','iloveyou',
+  'trustno1','sunshine','princess','shadow','baseball','superman','batman',
+  'welcome','admin','password1','qwerty123','solo','starwars','hello',
+  'charlie','donald','654321','123321','666666','888888','555555','lovely',
+  'test','mustang','michael','jessica','computer','jessica1',
+];
 
 /* ════════════════════════════════════════════════════════════
    DOM CACHE & STATE
@@ -145,10 +157,39 @@ function cacheDom() {
     kofiError:       g('psa-kofi-error'),
     hibpBtn:         g('psa-hibp-btn'),
     hibpResult:      g('psa-hibp-result'),
+    hibpEmail:       g('psa-hibp-email'),
+    hibpEmailBtn:    g('psa-hibp-email-btn'),
+    hibpEmailResult: g('psa-hibp-email-result'),
     pdfBtn:          g('psa-pdf-btn'),
-    compareSection:  g('psa-compare-section'),
-    compareInput:    g('psa-compare-input'),
-    compareOut:      g('psa-compare-out'),
+    compareSection:      g('psa-compare-section'),
+    compareInput:        g('psa-compare-input'),
+    compareOut:          g('psa-compare-out'),
+    // premium new features
+    timeTravelSection:   g('psa-timetravel'),
+    ttTimeline:          g('psa-tt-timeline'),
+    dictAttackSection:   g('psa-dictattack'),
+    daResults:           g('psa-da-results'),
+    daRunBtn:            g('psa-da-run'),
+    scorecardSection:    g('psa-scorecard'),
+    scGrid:              g('psa-sc-grid'),
+    bulkSection:         g('psa-bulk'),
+    bulkInput:           g('psa-bulk-input'),
+    bulkRunBtn:          g('psa-bulk-run'),
+    bulkCount:           g('psa-bulk-count'),
+    bulkResults:         g('psa-bulk-results'),
+    policySection:       g('psa-policy'),
+    policyCheck:         g('psa-policy-check'),
+    policyRegex:         g('psa-policy-regex'),
+    polCopyBtn:          g('psa-pol-copy-regex'),
+    obituarySection:     g('psa-obit'),
+    obituaryCard:        g('psa-obit-card'),
+    certSection:         g('psa-cert'),
+    certCanvas:          g('psa-cert-canvas'),
+    certDownload:        g('psa-cert-download'),
+    famousSection:       g('psa-famous'),
+    famousBadge:         g('psa-famous-badge'),
+    famousBar:           g('psa-famous-bar'),
+    famousDesc:          g('psa-famous-desc'),
   };
 }
 
@@ -164,10 +205,19 @@ function updateStripeLink() {
 function bindEvents() {
   D.input.addEventListener('input', onPasswordInput);
   D.toggleVis.addEventListener('click', toggleVisibility);
-  if (D.kofiSubmit)  D.kofiSubmit.addEventListener('click', onKofiSubmit);
-  if (D.hibpBtn)     D.hibpBtn.addEventListener('click', onHIBPCheck);
-  if (D.pdfBtn)      D.pdfBtn.addEventListener('click', onGeneratePDF);
+  if (D.kofiSubmit)   D.kofiSubmit.addEventListener('click', onKofiSubmit);
+  if (D.hibpBtn)       D.hibpBtn.addEventListener('click', onHIBPCheck);
+  if (D.hibpEmailBtn)  D.hibpEmailBtn.addEventListener('click', onHIBPEmailCheck);
+  if (D.pdfBtn)       D.pdfBtn.addEventListener('click', onGeneratePDF);
   if (D.compareInput) D.compareInput.addEventListener('input', onCompareInput);
+  if (D.daRunBtn)     D.daRunBtn.addEventListener('click', runDictAttack);
+  if (D.bulkRunBtn)   D.bulkRunBtn.addEventListener('click', runBulkAudit);
+  if (D.polCopyBtn)   D.polCopyBtn.addEventListener('click', copyPolicyRegex);
+  if (D.certDownload) D.certDownload.addEventListener('click', downloadCertificate);
+  document.querySelectorAll('#psa-policy input').forEach(el => {
+    el.addEventListener('change', onPolicyChange);
+    el.addEventListener('input',  onPolicyChange);
+  });
 }
 
 function onPasswordInput() {
@@ -569,6 +619,14 @@ function renderAll(a) {
   renderTips(a.tips);
   renderNIST(a.nist);
   if (isPremium() && D.compareInput && D.compareInput.value) onCompareInput();
+  if (isPremium()) {
+    renderTimeTravelSection(a.entropy);
+    renderScorecardSection(a);
+    updatePolicyDisplay();
+    renderObituarySection(a);
+    renderCertificateSection(a);
+    renderFamousSection(a);
+  }
 }
 
 function renderMeter(lv) {
@@ -776,7 +834,9 @@ function showResults() {
 }
 
 function hideResults() {
-  [D.resultsSection, D.attackSection, D.mistakesSection, D.tipsSection, D.nistSection].forEach(el => {
+  [D.resultsSection, D.attackSection, D.mistakesSection, D.tipsSection, D.nistSection,
+   D.timeTravelSection, D.scorecardSection,
+   D.obituarySection, D.certSection, D.famousSection].forEach(el => {
     if (el) el.classList.add('d-none');
   });
   if (D.meterFill)    D.meterFill.style.width    = '0%';
@@ -793,9 +853,13 @@ function isPremium() { return !!localStorage.getItem(PSA_CONFIG.LS_KEY); }
 function applyPremiumState() {
   if (!isPremium()) return;
   D.premiumCards.forEach(c => c.classList.add('unlocked'));
-  if (D.unlockPanel)     D.unlockPanel.style.display     = 'none';
-  if (D.alreadyUnlocked) D.alreadyUnlocked.style.display = 'flex';
-  if (D.compareSection)  D.compareSection.style.display  = 'block';
+  if (D.unlockPanel)       D.unlockPanel.style.display       = 'none';
+  if (D.alreadyUnlocked)   D.alreadyUnlocked.style.display   = 'flex';
+  if (D.compareSection)    D.compareSection.style.display    = 'block';
+  if (D.dictAttackSection) D.dictAttackSection.classList.remove('d-none');
+  if (D.bulkSection)       D.bulkSection.classList.remove('d-none');
+  if (D.policySection)     D.policySection.classList.remove('d-none');
+  updatePolicyDisplay();
 }
 
 function checkStripeReturn() {
@@ -875,6 +939,64 @@ async function runHIBPCheck(pwd) {
     if (s === suffix) return { found: true, count: parseInt(cnt, 10) };
   }
   return { found: false, count: 0 };
+}
+
+async function onHIBPEmailCheck() {
+  if (!isPremium() || !D.hibpEmailResult) return;
+  const email = D.hibpEmail?.value?.trim() || '';
+  if (!email) {
+    D.hibpEmailResult.className = 'psa-hibp-result show';
+    D.hibpEmailResult.style.background = '';
+    D.hibpEmailResult.innerHTML = `<i class="bi bi-info-circle"></i><span>Enter an email address first.</span>`;
+    return;
+  }
+  if (!PSA_CONFIG.HIBP_API_KEY) {
+    D.hibpEmailResult.className = 'psa-hibp-result show';
+    D.hibpEmailResult.style.background = 'rgba(255,255,255,0.03)';
+    D.hibpEmailResult.innerHTML = `<i class="bi bi-key-fill" style="flex-shrink:0;"></i>
+      <span>Email breach checking requires a HaveIBeenPwned API key.
+      <a href="https://haveibeenpwned.com/API/Key" target="_blank" rel="noopener"
+         style="color:#3dd68c;">Get one free at haveibeenpwned.com</a> and add it to
+      <code style="font-size:0.75rem;color:#a8d8ea;">PSA_CONFIG.HIBP_API_KEY</code>.</span>`;
+    return;
+  }
+  D.hibpEmailResult.className  = 'psa-hibp-result loading show';
+  D.hibpEmailResult.style.background = '';
+  D.hibpEmailResult.innerHTML  = `<i class="bi bi-arrow-repeat psa-spin"></i><span>Checking breach database…</span>`;
+  if (D.hibpEmailBtn) D.hibpEmailBtn.disabled = true;
+  try {
+    const resp = await fetch(
+      `https://haveibeenpwned.com/api/v3/breachedaccount/${encodeURIComponent(email)}`,
+      { headers: { 'hibp-api-key': PSA_CONFIG.HIBP_API_KEY } }
+    );
+    if (resp.status === 404) {
+      D.hibpEmailResult.className = 'psa-hibp-result safe show';
+      D.hibpEmailResult.innerHTML = `
+        <i class="bi bi-shield-check-fill" style="font-size:1.1rem;flex-shrink:0;margin-top:0.1rem;"></i>
+        <div><strong>No breaches found</strong><br>
+        <span>This email address has not appeared in any known data breach.</span></div>`;
+    } else if (resp.ok) {
+      const breaches = await resp.json();
+      const names    = breaches.slice(0, 6).map(b => esc(b.Name)).join(', ')
+                     + (breaches.length > 6 ? ` and ${breaches.length - 6} more` : '');
+      D.hibpEmailResult.className = 'psa-hibp-result breached show';
+      D.hibpEmailResult.innerHTML = `
+        <i class="bi bi-exclamation-triangle-fill" style="font-size:1.1rem;flex-shrink:0;margin-top:0.1rem;"></i>
+        <div><strong>Found in ${breaches.length} breach${breaches.length > 1 ? 'es' : ''}!</strong><br>
+        <span>${names}</span></div>`;
+    } else if (resp.status === 401) {
+      D.hibpEmailResult.className = 'psa-hibp-result show';
+      D.hibpEmailResult.style.background = 'rgba(255,255,255,0.03)';
+      D.hibpEmailResult.innerHTML = `<i class="bi bi-key-fill"></i><span>Invalid API key. Check <code style="font-size:0.75rem;">PSA_CONFIG.HIBP_API_KEY</code>.</span>`;
+    } else {
+      throw new Error('Unexpected status ' + resp.status);
+    }
+  } catch {
+    D.hibpEmailResult.className = 'psa-hibp-result show';
+    D.hibpEmailResult.style.background = 'rgba(255,255,255,0.03)';
+    D.hibpEmailResult.innerHTML = `<i class="bi bi-wifi-off"></i><span>Could not reach breach database. Check your connection.</span>`;
+  }
+  if (D.hibpEmailBtn) D.hibpEmailBtn.disabled = false;
 }
 
 /* ════════════════════════════════════════════════════════════
@@ -1018,6 +1140,651 @@ function renderComparison(a, b) {
         </span>
       </div>
     </div>`).join('');
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 4 - Time Travel Crack Times
+   ════════════════════════════════════════════════════════════ */
+function renderTimeTravelSection(entropy) {
+  if (!isPremium() || !D.timeTravelSection || !D.ttTimeline) return;
+  D.timeTravelSection.classList.remove('d-none');
+
+  const BASE_SPEED = 1e12;
+  const BASE_YEAR  = 2025;
+  const combos     = Math.pow(2, entropy);
+  const years      = [2025, 2030, 2035, 2040, 2045];
+
+  D.ttTimeline.innerHTML = years.map(year => {
+    const doublings  = (year - BASE_YEAR) / 2;
+    const multiplier = Math.pow(2, doublings);
+    const seconds    = combos / (BASE_SPEED * multiplier);
+    const time       = formatTime(seconds);
+    const isToday    = year === BASE_YEAR;
+
+    const isSafe    = seconds > 3.156e9;
+    const isWarning = seconds > 3.156e7 && !isSafe;
+    const color     = isSafe ? '#30d158' : isWarning ? '#ffd60a' : '#ff2d55';
+    const status    = isSafe ? 'SAFE'    : isWarning ? 'AT RISK' : 'CRACKED';
+    const icon      = isSafe ? 'bi-shield-fill-check' : isWarning ? 'bi-shield-half' : 'bi-shield-x';
+    const multLabel = isToday ? 'Baseline today'
+      : multiplier >= 1000 ? `${Math.round(multiplier/1000).toLocaleString()}k x faster`
+      : `${Math.round(multiplier)} x faster`;
+
+    return `<div class="psa-tt-card${isToday ? ' psa-tt-today' : ''}" style="--tt-color:${color};">
+      <div class="psa-tt-year" style="color:${color};">${year}</div>
+      <div class="psa-tt-time">${esc(time)}</div>
+      <div class="psa-tt-mult">${esc(multLabel)}</div>
+      <div class="psa-tt-status" style="color:${color};"><i class="bi ${icon} me-1"></i>${status}</div>
+    </div>`;
+  }).join('');
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 5 - Personal Dictionary Attack Simulator
+   ════════════════════════════════════════════════════════════ */
+function runDictAttack() {
+  if (!isPremium()) return;
+  const resultsEl = document.getElementById('psa-da-results');
+  if (!resultsEl) return;
+
+  if (!lastAnalysis || !lastAnalysis.pwd) {
+    resultsEl.innerHTML = '<p class="psa-da-hint">Type a password in the analyzer above first.</p>';
+    return;
+  }
+
+  const pwd    = lastAnalysis.pwd;
+  const inputs = [
+    { label:'Name',         val:(document.getElementById('psa-da-name')?.value  ||'').trim() },
+    { label:'Pet/family',   val:(document.getElementById('psa-da-pet')?.value   ||'').trim() },
+    { label:'Year',         val:(document.getElementById('psa-da-year')?.value  ||'').trim() },
+    { label:'Team/band',    val:(document.getElementById('psa-da-fave')?.value  ||'').trim() },
+    { label:'City/country', val:(document.getElementById('psa-da-city')?.value  ||'').trim() },
+  ].filter(i => i.val.length > 0);
+
+  if (!inputs.length) {
+    resultsEl.innerHTML = '<p class="psa-da-hint">Enter at least one personal detail above to run the simulation.</p>';
+    return;
+  }
+
+  const pwdLower = pwd.toLowerCase();
+  const normLeet = s => s.toLowerCase()
+    .replace(/@/g,'a').replace(/3/g,'e').replace(/1/g,'i')
+    .replace(/0/g,'o').replace(/\$/g,'s').replace(/5/g,'s')
+    .replace(/7/g,'t').replace(/4/g,'a').replace(/!/g,'i');
+
+  const suffixes = ['','1','12','123','1234','12345','!','!!','@','#','$',
+                    '2023','2024','2025','123!','1!','01','99','00'];
+  const prefixes = ['','1','my','the','i'];
+  const findings = [];
+
+  for (const inp of inputs) {
+    const raw   = inp.val;
+    const base  = raw.toLowerCase();
+    const title = raw.charAt(0).toUpperCase() + raw.slice(1).toLowerCase();
+    const upper = raw.toUpperCase();
+    const vars  = new Set();
+    [base, title, upper].forEach(b => {
+      vars.add(b);
+      suffixes.forEach(s => vars.add(b + s));
+      prefixes.forEach(p => vars.add(p + b));
+    });
+    let hit = null;
+    for (const v of vars) {
+      if (v.length < 2) continue;
+      if (pwd === v || pwdLower === v.toLowerCase()) {
+        hit = { severity:'critical', type:'Exact match', matched:v }; break;
+      }
+      if (v.length >= 3 && pwdLower.includes(v.toLowerCase())) {
+        hit = { severity:'high', type:'Found inside password', matched:v }; break;
+      }
+      if (v.length >= 4 && normLeet(pwd) === normLeet(v)) {
+        hit = { severity:'high', type:'Leet substitution match', matched:v }; break;
+      }
+      if (v.length >= 4 && normLeet(pwd).includes(normLeet(v))) {
+        hit = { severity:'medium', type:'Leet variant inside password', matched:v }; break;
+      }
+    }
+    if (hit) findings.push({ ...hit, label:inp.label, input:raw });
+  }
+
+  for (let i = 0; i < inputs.length; i++) {
+    for (let j = 0; j < inputs.length; j++) {
+      if (i === j) continue;
+      const combo  = inputs[i].val.toLowerCase() + inputs[j].val.toLowerCase();
+      const comboT = (inputs[i].val.charAt(0).toUpperCase() + inputs[i].val.slice(1).toLowerCase()) + inputs[j].val;
+      if ((pwdLower === combo || pwd === comboT) && !findings.some(f => f.type.includes('Combined'))) {
+        findings.push({
+          severity:'critical', type:'Combined personal details',
+          matched:combo, label:`${inputs[i].label} + ${inputs[j].label}`,
+          input:`${inputs[i].val} + ${inputs[j].val}`,
+        });
+      }
+    }
+  }
+
+  if (!findings.length) {
+    resultsEl.innerHTML = `
+      <div class="psa-da-result-safe">
+        <i class="bi bi-shield-fill-check"></i>
+        <div>
+          <strong>Resistant to targeted attack</strong>
+          <p>None of your ${inputs.length} personal detail${inputs.length>1?'s':''} (or their common variations) appeared in your password. A targeted attacker using this information would fail.</p>
+        </div>
+      </div>`;
+  } else {
+    resultsEl.innerHTML = `
+      <div class="psa-da-result-vuln">
+        <i class="bi bi-exclamation-triangle-fill"></i>
+        <div>
+          <strong>Vulnerable to targeted attack</strong>
+          <p>${findings.length} personal link${findings.length>1?'s':''} found in your password. An attacker who knows you would crack this directly.</p>
+        </div>
+      </div>
+      <div class="psa-da-findings">
+        ${findings.map(f => {
+          const col = f.severity==='critical'?'#ff2d55':f.severity==='high'?'#ff6b35':'#ffd60a';
+          return `<div class="psa-da-finding" style="border-left-color:${col};">
+            <div class="psa-da-f-type" style="color:${col};">${esc(f.type)}</div>
+            <div class="psa-da-f-row"><span class="psa-da-f-lbl">Source:</span> <strong>${esc(f.input)}</strong> <span class="psa-da-f-lbl">(${esc(f.label)})</span></div>
+            <div class="psa-da-f-row"><span class="psa-da-f-lbl">Matched:</span> <code>${esc(f.matched)}</code></div>
+          </div>`;
+        }).join('')}
+      </div>`;
+  }
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 6 - Password Health Scorecard
+   ════════════════════════════════════════════════════════════ */
+function renderScorecardSection(a) {
+  if (!isPremium() || !D.scorecardSection || !D.scGrid) return;
+  D.scorecardSection.classList.remove('d-none');
+  const grades = [
+    scGradeLength(a.comp.length),
+    scGradeEntropy(a.entropy),
+    scGradeVariety(a.comp),
+    scGradePatterns(a.patterns, a.isCommon),
+    scGradeOriginality(a.isCommon, a.patterns),
+  ];
+  grades.push(scCalcOverall(grades));
+  D.scGrid.innerHTML = grades.map((g, i) => {
+    const isOverall = i === grades.length - 1;
+    return `<div class="psa-sc-card${isOverall?' psa-sc-overall':''}">
+      <div class="psa-sc-grade" style="color:${g.color};border-color:${g.color}40;">${g.grade}</div>
+      <div class="psa-sc-label">${esc(g.dimension)}</div>
+      <div class="psa-sc-detail">${esc(g.detail)}</div>
+    </div>`;
+  }).join('');
+}
+
+function scGradeLength(len) {
+  const d = len>=20?`${len} chars - excellent`:len>=16?`${len} chars - good`:len>=12?`${len} chars - acceptable`:len>=8?`${len} chars - below ideal`:`${len} chars - too short`;
+  if (len>=20) return {grade:'A',color:'#30d158',dimension:'Length',  detail:d};
+  if (len>=16) return {grade:'B',color:'#0a84ff',dimension:'Length',  detail:d};
+  if (len>=12) return {grade:'C',color:'#ffd60a',dimension:'Length',  detail:d};
+  if (len>=8)  return {grade:'D',color:'#ff6b35',dimension:'Length',  detail:d};
+               return {grade:'F',color:'#ff2d55',dimension:'Length',  detail:d};
+}
+function scGradeEntropy(bits) {
+  const b = Math.round(bits);
+  if (bits>=100) return {grade:'A',color:'#30d158',dimension:'Entropy',detail:`${b} bits - military grade`  };
+  if (bits>=80)  return {grade:'B',color:'#0a84ff',dimension:'Entropy',detail:`${b} bits - highly resistant`};
+  if (bits>=60)  return {grade:'C',color:'#ffd60a',dimension:'Entropy',detail:`${b} bits - moderate`        };
+  if (bits>=40)  return {grade:'D',color:'#ff6b35',dimension:'Entropy',detail:`${b} bits - low`             };
+                 return {grade:'F',color:'#ff2d55',dimension:'Entropy',detail:`${b} bits - critically low`  };
+}
+function scGradeVariety(comp) {
+  const t = (comp.upper>0?1:0)+(comp.lower>0?1:0)+(comp.digit>0?1:0)+(comp.symbol>0?1:0);
+  if (t===4) return {grade:'A',color:'#30d158',dimension:'Variety',detail:'All 4 character types' };
+  if (t===3) return {grade:'B',color:'#0a84ff',dimension:'Variety',detail:'3 of 4 character types'};
+  if (t===2) return {grade:'C',color:'#ffd60a',dimension:'Variety',detail:'2 of 4 character types'};
+  if (t===1&&comp.length>=16) return {grade:'D',color:'#ff6b35',dimension:'Variety',detail:'1 type, compensated by length'};
+             return {grade:'F',color:'#ff2d55',dimension:'Variety',detail:'Only 1 character type'  };
+}
+function scGradePatterns(patterns, isCommon) {
+  if (isCommon)            return {grade:'F',color:'#ff2d55',dimension:'Patterns',detail:'Known common password'            };
+  if (patterns.length===0) return {grade:'A',color:'#30d158',dimension:'Patterns',detail:'No patterns detected'             };
+  if (patterns.length===1) return {grade:'C',color:'#ffd60a',dimension:'Patterns',detail:'1 pattern detected'               };
+  if (patterns.length<=3)  return {grade:'D',color:'#ff6b35',dimension:'Patterns',detail:`${patterns.length} patterns found`};
+                           return {grade:'F',color:'#ff2d55',dimension:'Patterns',detail:`${patterns.length} patterns found`};
+}
+function scGradeOriginality(isCommon, patterns) {
+  if (isCommon) return {grade:'F',color:'#ff2d55',dimension:'Originality',detail:'In top-1000 password list'        };
+  const hasLeet = patterns.some(p=>p.includes('substitution'));
+  const hasYear = patterns.some(p=>p.includes('Year'));
+  if (!hasLeet&&!hasYear&&patterns.length===0) return {grade:'A',color:'#30d158',dimension:'Originality',detail:'Fully original'              };
+  if (patterns.length<=1) return {grade:'B',color:'#0a84ff',dimension:'Originality',detail:'Minor predictable element'  };
+  if (patterns.length<=2) return {grade:'C',color:'#ffd60a',dimension:'Originality',detail:'Some predictable elements'  };
+                          return {grade:'D',color:'#ff6b35',dimension:'Originality',detail:'Multiple predictable elements'};
+}
+function scCalcOverall(grades) {
+  const val={A:4,B:3,C:2,D:1,F:0}, ord=['F','D','C','B','A'];
+  const lbl={A:'Excellent security',B:'Good security',C:'Moderate security',D:'Poor security',F:'Critical risk'};
+  const col={A:'#30d158',B:'#0a84ff',C:'#ffd60a',D:'#ff6b35',F:'#ff2d55'};
+  const avg   = grades.reduce((s,g)=>s+val[g.grade],0)/grades.length;
+  const worst = grades.reduce((w,g)=>val[g.grade]<val[w.grade]?g:w).grade;
+  const avgG  = avg>=3.5?'A':avg>=2.5?'B':avg>=1.5?'C':avg>=0.5?'D':'F';
+  const final = ord[Math.max(0,Math.min(ord.indexOf(avgG),ord.indexOf(worst)+1))];
+  return {grade:final,color:col[final],dimension:'Overall',detail:lbl[final]};
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 7 - Bulk Password Auditor
+   ════════════════════════════════════════════════════════════ */
+function runBulkAudit() {
+  if (!isPremium() || !D.bulkInput || !D.bulkResults) return;
+  const lines = D.bulkInput.value.split('\n')
+    .map(l => l.trim()).filter(l => l.length > 0).slice(0, 20);
+  if (D.bulkCount) D.bulkCount.textContent = `${lines.length} password${lines.length !== 1 ? 's' : ''}`;
+  if (!lines.length) {
+    D.bulkResults.innerHTML = '<p class="psa-bulk-hint">No passwords entered yet.</p>';
+    return;
+  }
+  const results = lines.map((pwd, idx) => ({ idx, pwd, a: analyzePassword(pwd) }));
+  results.sort((x, y) => x.a.entropy - y.a.entropy);
+
+  // Flag duplicates and near-identical (same base word after stripping leading/trailing digits+symbols)
+  const seen    = new Map();
+  const nearMap = new Map();
+  const getBase = pwd => pwd.toLowerCase().replace(/^[\W\d]+|[\W\d]+$/g, '');
+  results.forEach(r => {
+    const norm = r.pwd.toLowerCase();
+    const base = getBase(r.pwd);
+    if (seen.has(norm)) { r.isDuplicate = true; } else { seen.set(norm, r.idx); }
+    if (base.length > 2 && nearMap.has(base) && !r.isDuplicate) {
+      r.isNearDup = true;
+    } else if (base.length > 2 && !r.isDuplicate) {
+      nearMap.set(base, r.idx);
+    }
+  });
+
+  const total = results.length;
+  D.bulkResults.innerHTML = `
+    <table class="psa-bulk-table">
+      <thead><tr>
+        <th>Rank</th><th>Password</th><th>Strength</th><th>Entropy</th><th>Flags</th>
+      </tr></thead>
+      <tbody>${results.map((r, i) => {
+        const isLast  = i === total - 1;
+        const rankCls = i === 0 ? 'rank-1' : i === 1 ? 'rank-2' : i === 2 ? 'rank-3' : isLast ? 'rank-last' : '';
+        const flags   = [];
+        if (r.a.isCommon)  flags.push('<span class="psa-bulk-flag common">COMMON</span>');
+        if (r.isDuplicate) flags.push('<span class="psa-bulk-flag duplicate">DUPLICATE</span>');
+        if (r.isNearDup)   flags.push('<span class="psa-bulk-flag near-dup">NEAR-IDENTICAL</span>');
+        return `<tr>
+          <td><span class="psa-bulk-rank ${rankCls}">${isLast ? '▼' : i === 0 ? '▲' : ''} #${i+1}</span></td>
+          <td><span class="psa-bulk-pwd">${esc(maskBulkPwd(r.pwd))}</span></td>
+          <td><span style="color:${r.a.level.color};font-weight:600;font-size:0.78rem;">${esc(r.a.level.label)}</span></td>
+          <td style="color:#6c757d;font-family:monospace;font-size:0.8rem;">${r.a.entropy.toFixed(1)}b</td>
+          <td>${flags.join('') || '<span style="color:#2d3748;font-size:0.73rem;">none</span>'}</td>
+        </tr>`;
+      }).join('')}</tbody>
+    </table>`;
+}
+
+function maskBulkPwd(pwd) {
+  if (pwd.length <= 4) return '*'.repeat(pwd.length);
+  return pwd.slice(0, 2) + '*'.repeat(Math.min(pwd.length - 3, 6)) + pwd.slice(-1);
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 8 - Custom Policy Builder
+   ════════════════════════════════════════════════════════════ */
+function onPolicyChange() {
+  updatePolicyDisplay();
+}
+
+function getPolicySettings() {
+  const g = id => document.getElementById(id);
+  return {
+    useMinLen: g('psa-pol-minlen')?.checked  ?? true,
+    minLen:    parseInt(g('psa-pol-minlen-val')?.value ?? '12', 10),
+    useMaxLen: g('psa-pol-maxlen')?.checked  ?? false,
+    maxLen:    parseInt(g('psa-pol-maxlen-val')?.value ?? '64', 10),
+    upper:     g('psa-pol-upper')?.checked   ?? true,
+    lower:     g('psa-pol-lower')?.checked   ?? true,
+    digit:     g('psa-pol-digit')?.checked   ?? true,
+    symbol:    g('psa-pol-symbol')?.checked  ?? true,
+    noCommon:  g('psa-pol-nocommon')?.checked ?? false,
+    noSpaces:  g('psa-pol-nospaces')?.checked ?? false,
+  };
+}
+
+function updatePolicyDisplay() {
+  if (!D.policySection) return;
+  const pol = getPolicySettings();
+  const minWrap = document.getElementById('psa-pol-minlen-wrap');
+  const maxWrap = document.getElementById('psa-pol-maxlen-wrap');
+  if (minWrap) minWrap.style.display = pol.useMinLen ? 'flex' : 'none';
+  if (maxWrap) maxWrap.style.display = pol.useMaxLen ? 'flex' : 'none';
+  const minNum = document.getElementById('psa-pol-minlen-num');
+  const maxNum = document.getElementById('psa-pol-maxlen-num');
+  if (minNum) minNum.textContent = pol.minLen;
+  if (maxNum) maxNum.textContent = pol.maxLen;
+  if (D.policyRegex) D.policyRegex.textContent = buildPolicyRegex(pol);
+  renderPolicyCheck(pol);
+}
+
+function renderPolicyCheck(pol) {
+  if (!D.policyCheck) return;
+  const pwd = lastAnalysis?.pwd || '';
+  if (!pwd) {
+    D.policyCheck.innerHTML = '<p class="psa-policy-hint">Type a password in the analyser above to check it against this policy.</p>';
+    return;
+  }
+  const rules   = checkPolicyRules(pwd, pol);
+  const allPass = rules.every(r => r.pass);
+  D.policyCheck.innerHTML = `
+    <div style="margin-bottom:0.5rem;font-size:0.8rem;color:${allPass ? '#30d158' : '#ff6b35'};font-weight:700;">
+      <i class="bi ${allPass ? 'bi-shield-fill-check' : 'bi-shield-x'} me-1"></i>
+      ${allPass ? 'Password meets this policy' : 'Password does not meet this policy'}
+    </div>
+    ${rules.map(r => `
+      <div class="psa-pol-check-row ${r.pass ? 'psa-pol-check-pass' : 'psa-pol-check-fail'}">
+        <i class="bi ${r.pass ? 'bi-check-circle-fill' : 'bi-x-circle-fill'}" style="flex-shrink:0;margin-top:0.1rem;"></i>
+        <span>${esc(r.label)}</span>
+      </div>`).join('')}`;
+}
+
+function checkPolicyRules(pwd, pol) {
+  const rules = [];
+  if (pol.useMinLen) rules.push({ label: `Minimum ${pol.minLen} characters (has ${pwd.length})`,  pass: pwd.length >= pol.minLen });
+  if (pol.useMaxLen) rules.push({ label: `Maximum ${pol.maxLen} characters (has ${pwd.length})`,  pass: pwd.length <= pol.maxLen });
+  if (pol.upper)     rules.push({ label: 'Contains uppercase letter (A-Z)',                        pass: /[A-Z]/.test(pwd)       });
+  if (pol.lower)     rules.push({ label: 'Contains lowercase letter (a-z)',                        pass: /[a-z]/.test(pwd)       });
+  if (pol.digit)     rules.push({ label: 'Contains digit (0-9)',                                   pass: /[0-9]/.test(pwd)       });
+  if (pol.symbol)    rules.push({ label: 'Contains symbol (!@#$...)',                              pass: /[^A-Za-z0-9]/.test(pwd)});
+  if (pol.noSpaces)  rules.push({ label: 'No spaces',                                              pass: !/ /.test(pwd)          });
+  if (pol.noCommon)  rules.push({ label: 'Not a commonly-used password',                           pass: !COMMON_PASSWORDS.has(pwd.toLowerCase()) });
+  return rules;
+}
+
+function buildPolicyRegex(pol) {
+  let p = '^';
+  if (pol.upper)  p += '(?=.*[A-Z])';
+  if (pol.lower)  p += '(?=.*[a-z])';
+  if (pol.digit)  p += '(?=.*[0-9])';
+  if (pol.symbol) p += '(?=.*[^A-Za-z0-9])';
+  const min = pol.useMinLen ? pol.minLen : 1;
+  const max = pol.useMaxLen ? pol.maxLen : '';
+  p += pol.noSpaces ? `[^\\s]{${min},${max}}` : `.{${min},${max}}`;
+  p += '$';
+  return p;
+}
+
+function copyPolicyRegex() {
+  const regex = D.policyRegex?.textContent || '';
+  if (!regex) return;
+  navigator.clipboard.writeText(regex).then(() => {
+    if (!D.polCopyBtn) return;
+    const orig = D.polCopyBtn.innerHTML;
+    D.polCopyBtn.innerHTML  = '<i class="bi bi-check-lg me-1"></i> Copied!';
+    D.polCopyBtn.style.color = '#3dd68c';
+    setTimeout(() => {
+      if (D.polCopyBtn) { D.polCopyBtn.innerHTML = orig; D.polCopyBtn.style.color = ''; }
+    }, 2000);
+  });
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 9 - Password Obituary
+   ════════════════════════════════════════════════════════════ */
+function renderObituarySection(a) {
+  if (!isPremium() || !D.obituarySection || !D.obituaryCard) return;
+  if (a.entropy >= 50 && !a.isCommon) {
+    D.obituarySection.classList.add('d-none');
+    return;
+  }
+  D.obituarySection.classList.remove('d-none');
+
+  const cod    = getObituaryCOD(a);
+  const tod    = a.times[4]?.time || a.times[0]?.time || 'instantly';
+  const year   = new Date().getFullYear();
+  const eulogy = getObitEulogy(cod.cause, a);
+  const name   = obscureForObit(a.pwd);
+
+  D.obituaryCard.innerHTML = `
+    <div class="psa-obit-title">In Loving Memory</div>
+    <div class="psa-obit-name">${esc(name)}</div>
+    <div class="psa-obit-dates">Born: Unknown &nbsp;|&nbsp; Died: ${year}</div>
+    <hr class="psa-obit-divider">
+    <div class="psa-obit-cod-label">Cause of Death</div>
+    <div class="psa-obit-cod"><i class="bi ${esc(cod.icon)} me-1"></i>${esc(cod.cause)}</div>
+    <div class="psa-obit-tod">Time of passing: ${esc(tod)}</div>
+    <hr class="psa-obit-divider">
+    <div class="psa-obit-eulogy">${esc(eulogy)}</div>
+    <div class="psa-obit-rip">R.I.P.</div>`;
+}
+
+function obscureForObit(pwd) {
+  if (pwd.length <= 3) return '*'.repeat(pwd.length);
+  return pwd[0] + '*'.repeat(Math.min(pwd.length - 2, 8)) + pwd[pwd.length - 1];
+}
+
+function getObituaryCOD(a) {
+  if (a.isCommon) return { cause: 'Dictionary Attack', icon: 'bi-book-fill' };
+  const has = term => a.patterns.some(p => p.toLowerCase().includes(term));
+  if (has('keyboard'))   return { cause: 'Keyboard Walk Pattern',         icon: 'bi-keyboard-fill'       };
+  if (has('repeat'))     return { cause: 'Repetition Pattern',            icon: 'bi-arrow-repeat'        };
+  if (has('sequence') || has('sequential')) return { cause: 'Sequential Pattern', icon: 'bi-sort-numeric-down' };
+  if (has('year'))       return { cause: 'Year-Based Guess',              icon: 'bi-calendar-fill'       };
+  if (has('leet'))       return { cause: 'Leet-Speak Substitution',       icon: 'bi-type'                };
+  if (!a.comp.symbol && !a.comp.digit) return { cause: 'Rainbow Table Lookup', icon: 'bi-table'          };
+  if (a.entropy < 28)   return { cause: 'Instant Brute Force',           icon: 'bi-lightning-charge-fill'};
+  return                         { cause: 'GPU Brute Force Attack',       icon: 'bi-cpu-fill'            };
+}
+
+function getObitEulogy(cause, a) {
+  const map = {
+    'Dictionary Attack':       `Tragically, this password spent its entire life on a list, nestled between "password123" and "qwerty". Security researchers estimate it had appeared in over three billion breach records before it ever had a chance. It will not be missed by penetration testers.`,
+    'Keyboard Walk Pattern':   `A creature of habit, this password simply walked from one key to the next, never straying from the comfortable path of the keyboard. Automated cracking tools found it on their first attempt.`,
+    'Repetition Pattern':      `Its final years were marked by repetition. And repetition. And repetition. Hashing algorithms noted its unusual predictability. It expired before any serious attacker broke a sweat.`,
+    'Sequential Pattern':      `This password believed in order above all else. It lived a predictable life and died a predictable death. Pattern-matching scripts found it in milliseconds.`,
+    'Year-Based Guess':        `Much like attaching a birthday to a padlock, this password leaned heavily on a four-digit year. Attackers, who own calendars, cracked it without incident.`,
+    'Leet-Speak Substitution': `This password thought replacing letters with symbols would fool modern crackers. It did not. Leet-normalisation dictionaries have been standard since 2007. A valiant but futile effort.`,
+    'Rainbow Table Lookup':    `Composed entirely of simple characters, this password placed its faith in obscurity. Pre-computed rainbow tables found it faster than it took to type.`,
+    'Instant Brute Force':     `Survived fewer milliseconds than this sentence takes to read. Consumer hardware cracked it before the attacker could reach for their coffee. A brief, unremarkable existence.`,
+    'GPU Brute Force Attack':  `Put up a modest fight, but modern GPUs process billions of guesses per second. With an entropy of just ${a.entropy.toFixed(1)} bits, this password was not quite ready for that level of scrutiny.`,
+  };
+  return map[cause] || `This password struggled against the harsh realities of modern cryptography. With an entropy of just ${a.entropy.toFixed(1)} bits, it stood little chance against determined adversaries.`;
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 10 - Strength Certificate
+   ════════════════════════════════════════════════════════════ */
+function renderCertificateSection(a) {
+  if (!isPremium() || !D.certSection || !D.certCanvas) return;
+  D.certSection.classList.remove('d-none');
+  drawCertificate(a);
+}
+
+function drawCertificate(a) {
+  const canvas = D.certCanvas;
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const W = 700, H = 490;
+  canvas.width = W; canvas.height = H;
+
+  // Background
+  ctx.fillStyle = '#0b0d14';
+  ctx.fillRect(0, 0, W, H);
+
+  // Outer gold border
+  ctx.strokeStyle = '#c9a227';
+  ctx.lineWidth   = 3;
+  ctx.strokeRect(14, 14, W - 28, H - 28);
+
+  // Inner gold border
+  ctx.strokeStyle = 'rgba(201,162,39,0.3)';
+  ctx.lineWidth   = 1;
+  ctx.strokeRect(22, 22, W - 44, H - 44);
+
+  // Header gradient bar
+  const hdr = ctx.createLinearGradient(0, 0, W, 0);
+  hdr.addColorStop(0,   'rgba(201,162,39,0.06)');
+  hdr.addColorStop(0.5, 'rgba(201,162,39,0.13)');
+  hdr.addColorStop(1,   'rgba(201,162,39,0.06)');
+  ctx.fillStyle = hdr;
+  ctx.fillRect(28, 28, W - 56, 66);
+
+  // Title text
+  ctx.fillStyle  = '#c9a227';
+  ctx.font       = 'bold 12px Consolas, monospace';
+  ctx.textAlign  = 'center';
+  ctx.fillText('CERTIFICATE OF PASSWORD STRENGTH', W / 2, 56);
+  ctx.fillStyle  = 'rgba(201,162,39,0.4)';
+  ctx.font       = '9px monospace';
+  ctx.fillText('george-condrea.com/tools  |  All analysis performed locally in-browser', W / 2, 74);
+
+  // Compute overall grade
+  const overall = scCalcOverall([
+    scGradeLength(a.comp.length),
+    scGradeEntropy(a.entropy),
+    scGradeVariety(a.comp),
+    scGradePatterns(a.patterns, a.isCommon),
+    scGradeOriginality(a.isCommon, a.patterns),
+  ]);
+  const gradeColor  = overall.color;
+  const gradeLetter = overall.grade;
+
+  // Grade circle
+  ctx.beginPath();
+  ctx.arc(W / 2, 192, 68, 0, Math.PI * 2);
+  ctx.fillStyle = 'rgba(0,0,0,0.4)';
+  ctx.fill();
+  ctx.shadowColor = gradeColor;
+  ctx.shadowBlur  = 18;
+  ctx.strokeStyle = gradeColor;
+  ctx.lineWidth   = 3;
+  ctx.stroke();
+  ctx.shadowBlur  = 0;
+
+  // Grade letter
+  ctx.fillStyle      = gradeColor;
+  ctx.font           = 'bold 76px Arial, sans-serif';
+  ctx.textAlign      = 'center';
+  ctx.textBaseline   = 'middle';
+  ctx.fillText(gradeLetter, W / 2, 192);
+
+  // Grade sub-label
+  ctx.fillStyle    = 'rgba(201,162,39,0.5)';
+  ctx.font         = '9px monospace';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText('OVERALL GRADE', W / 2, 284);
+
+  // Stats boxes
+  const stats = [
+    { label: 'ENTROPY',  value: a.entropy.toFixed(1) + ' bits' },
+    { label: 'LENGTH',   value: a.comp.length + ' chars'       },
+    { label: 'STRENGTH', value: a.level.label                  },
+    { label: 'THREAT',   value: a.threat.label                 },
+  ];
+  const boxY  = 308;
+  const boxH  = 58;
+  const colW  = (W - 80) / stats.length;
+  stats.forEach((s, i) => {
+    const bx = 40 + colW * i + 5;
+    const cx = bx + (colW - 10) / 2;
+    ctx.fillStyle   = 'rgba(255,255,255,0.03)';
+    ctx.strokeStyle = 'rgba(201,162,39,0.15)';
+    ctx.lineWidth   = 1;
+    ctx.fillRect(bx, boxY, colW - 10, boxH);
+    ctx.strokeRect(bx, boxY, colW - 10, boxH);
+    ctx.fillStyle    = '#e2e8f0';
+    ctx.font         = 'bold 13px Arial, sans-serif';
+    ctx.textAlign    = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText(s.value, cx, boxY + 28);
+    ctx.fillStyle    = 'rgba(201,162,39,0.45)';
+    ctx.font         = '8px monospace';
+    ctx.textBaseline = 'alphabetic';
+    ctx.fillText(s.label, cx, boxY + 50);
+  });
+
+  // Footer crack time + date
+  const crackTime = a.times[4]?.time || a.times[0]?.time || 'instant';
+  ctx.fillStyle    = 'rgba(255,255,255,0.2)';
+  ctx.font         = '9px monospace';
+  ctx.textAlign    = 'center';
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillText(`GPU Crack Time: ${crackTime}   |   Generated: ${new Date().toLocaleDateString()}`, W / 2, H - 36);
+}
+
+function downloadCertificate() {
+  if (!D.certCanvas || !lastAnalysis) return;
+  drawCertificate(lastAnalysis);
+  const link    = document.createElement('a');
+  link.download = 'password-strength-certificate.png';
+  link.href     = D.certCanvas.toDataURL('image/png');
+  link.click();
+}
+
+/* ════════════════════════════════════════════════════════════
+   PREMIUM FEATURE 11 - How Famous Is Your Password?
+   ════════════════════════════════════════════════════════════ */
+function renderFamousSection(a) {
+  if (!isPremium() || !D.famousSection) return;
+  D.famousSection.classList.remove('d-none');
+
+  const pwd = a.pwd.toLowerCase();
+  let tier, color, pct, pillText, desc;
+
+  const rankIdx = RANKED_PASSWORDS.indexOf(pwd);
+  if (rankIdx !== -1) {
+    tier     = `Ranked #${rankIdx + 1} of All Passwords`;
+    color    = '#ff2d55'; pct = 100; pillText = 'LEGENDARY';
+    desc     = `Congratulations: your password ranked #${rankIdx + 1} on the world's most-used list. It appears in virtually every breach database ever compiled and would be cracked in milliseconds. Please change it immediately.`;
+  } else if (COMMON_PASSWORDS.has(pwd)) {
+    tier     = 'Top 1,000 Most-Used';
+    color    = '#ff2d55'; pct = 92; pillText = 'NOTORIOUS';
+    desc     = 'Your password features in the top 1,000 most commonly-used passwords worldwide. Attackers try these first in every breach attempt.';
+  } else if (a.entropy < 20) {
+    tier     = 'Estimated Top 10,000';
+    color    = '#ff6b35'; pct = 78; pillText = 'FAMOUS';
+    desc     = `With only ${a.entropy.toFixed(1)} bits of entropy, your password would likely appear in an extended dictionary covering the 10,000 most common passwords.`;
+  } else if (a.entropy < 30) {
+    tier     = 'Estimated Top 100,000';
+    color    = '#ffd60a'; pct = 60; pillText = 'WELL KNOWN';
+    desc     = `This password's low entropy (${a.entropy.toFixed(1)} bits) places it in territory covered by extended wordlists used in offline cracking attacks.`;
+  } else if (a.entropy < 40) {
+    tier     = 'Estimated Top 1 Million';
+    color    = '#ffd60a'; pct = 44; pillText = 'RECOGNISED';
+    desc     = `Your password has a modest level of uniqueness, but dedicated offline attacks using million-entry wordlists could still find it.`;
+  } else if (a.entropy < 50) {
+    tier     = 'Estimated Top 10 Million';
+    color    = '#0a84ff'; pct = 25; pillText = 'UNCOMMON';
+    desc     = `Good news: your password falls outside typical wordlists. A basic dictionary attack would not find it, though GPU brute-force with enough time remains a concern.`;
+  } else if (a.entropy < 80) {
+    tier     = 'One in a Billion';
+    color    = '#30d158'; pct = 10; pillText = 'RARE';
+    desc     = `Your password is highly unlikely to appear in any wordlist. Only dedicated brute-force with significant computing resources could crack it.`;
+  } else {
+    tier     = 'Virtually Unique';
+    color    = '#bf5af2'; pct = 3; pillText = 'UNIQUE';
+    desc     = `Outstanding. Your password has ${a.entropy.toFixed(1)} bits of entropy. Even nation-state attackers with cutting-edge hardware would struggle to crack it in a lifetime.`;
+  }
+
+  if (D.famousBadge) {
+    D.famousBadge.innerHTML = `
+      <span class="psa-famous-rank-pill" style="background:${color}18;color:${color};border:1px solid ${color}44;">
+        ${esc(pillText)}
+      </span>
+      <div style="font-size:1.1rem;font-weight:700;color:${color};margin-top:0.3rem;">${esc(tier)}</div>`;
+  }
+  if (D.famousBar) {
+    D.famousBar.innerHTML = `
+      <div class="psa-famous-bar-labels">
+        <span>Most Famous (Top 1K)</span><span>Virtually Unique</span>
+      </div>
+      <div class="psa-famous-bar-track">
+        <div class="psa-famous-bar-fill" id="psa-famous-bar-fill" style="width:0%;background:${color};"></div>
+      </div>`;
+    setTimeout(() => {
+      const fill = document.getElementById('psa-famous-bar-fill');
+      if (fill) fill.style.width = pct + '%';
+    }, 60);
+  }
+  if (D.famousDesc) D.famousDesc.textContent = desc;
 }
 
 /* ════════════════════════════════════════════════════════════
