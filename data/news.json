@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-05-28T10:14:19.545835+00:00",
+  "lastUpdated": "2026-05-28T20:01:58.989071+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-23387d8d",
+      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+      "summary": "Gogs, a self-hosted Git service, has a critical flaw that lets logged-in users run malicious code on affected systems. The vulnerability scores 9.4 on the CVSS scale, indicating severe risk, though it currently lacks a CVE identifier. This means any person with legitimate access to a Gogs instance could potentially take over the entire system.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gogs",
+        "remote-code-execution",
+        "rce",
+        "authenticated-attack",
+        "cvss-9.4",
+        "self-hosted-git"
+      ],
+      "whyItMatters": "Organizations using Gogs for internal repositories face immediate risk since attackers only need valid credentials to exploit this flaw, making it a serious threat to development environments and sensitive source code. The high CVSS score and lack of a CVE suggests this vulnerability could be actively exploited before a patch is widely available, requiring urgent attention from all Gogs users.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqRd_3DDSSASg_YzvuUEqv3elhvFWSjk56bXPoqJeNIWVo-K0giuJ3TNEXV-aYpnuVfOv00_VM428vIFVaMiuZzfL0dQdQvz0_xMNFq4CtrppgTZu5dupV0asq1wZjPW3FoMgUnyGMR_RgBpWT2oTnJFuhaldo3Cd3eNP-MOlDNhP9Uu2KDRiDpYHdoeq/s1600/exploit-meta.jpg",
+      "processedAt": "2026-05-28T20:01:32.311427+00:00"
+    },
+    {
+      "id": "art-3751c515",
+      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "summary": "Hackers are actively exploiting a critical vulnerability in FortiClient Endpoint Management Server (EMS) that has already been patched by Fortinet. The attackers are abusing the legitimate management system to distribute credential-stealing malware across protected endpoints by disguising the malicious payload as authentic Fortinet software. This campaign demonstrates how trusted security tools can become attack vectors if vulnerabilities aren't promptly patched.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "fortinet",
+        "endpoint-management",
+        "credential-stealer",
+        "active-exploitation",
+        "patch-required",
+        "malware-delivery"
+      ],
+      "whyItMatters": "This attack exploits the trust relationship between organizations and their security infrastructure, making it particularly dangerous since employees expect legitimate updates from management systems. Organizations using FortiClient EMS must immediately apply available patches to prevent credential theft and unauthorized access to their networks. The incident highlights how attackers target the se",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg",
+      "processedAt": "2026-05-28T20:01:35.460556+00:00"
+    },
+    {
+      "id": "art-011a2d18",
+      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+      "summary": "Microsoft is advocating for responsible disclosure practices where security researchers privately share vulnerability details with vendors before public release, rather than immediately disclosing zero-days. This stance emerged after a researcher publicly revealed multiple unpatched vulnerabilities and had their GitHub account removed. The company emphasizes that coordinated disclosure gives vendors time to develop and deploy fixes, reducing the window of exploitation.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "vulnerability-disclosure",
+        "coordinated-disclosure",
+        "responsible-disclosure",
+        "github-researcher"
+      ],
+      "whyItMatters": "This incident highlights the ongoing tension between security researchers and major tech companies over disclosure practices. Understanding coordinated vulnerability disclosure is critical because premature public disclosure of zero-days significantly increases exploitation risk and puts users at immediate danger, making responsible disclosure a fundamental cybersecurity practice.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMDR_KVt17sFMXeEhMvDYHLwBX_Aix1bz3y0izMs7PsVIuGSQhOLX_khN3Ckl_eRm9OEMAlVmBxPHhQvCGDJB5wXJ2rtOT8uQAiWCWCZwc7dvOfbWyuZ0BpNFAKohIpLUq9KR76XvZ3eT0TpltWDHUWQY-nUJzJflA1y5l7q_UXsjVtAMPhwVAULZZScp/s1600/github-ms.png",
+      "processedAt": "2026-05-28T20:01:38.113519+00:00"
+    },
+    {
+      "id": "art-113ea41a",
+      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+      "summary": "This bulletin covers multiple emerging threats including a Claude security plugin vulnerability, Azure privilege escalation issues, an MFA bypass affecting Kali365, and FIFA-related scams, alongside 15 other security incidents. The article highlights how attackers continue using low-effort tactics like malicious loaders and fake installers while researchers discover techniques that can escalate minor system compromises into complete account takeovers. The coverage demonstrates the ongoing tension between attackers using recycled social-engineering methods and defenders discovering critical pri",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "privilege-escalation",
+        "mfa-bypass",
+        "cloud-security",
+        "vulnerability-disclosure",
+        "threat-bulletin",
+        "social-engineering"
+      ],
+      "whyItMatters": "Multiple critical vulnerabilities affecting widely-used platforms (Azure, Claude) and authentication systems (Kali365 MFA) represent urgent risks that could enable widespread account compromise and lateral movement. The mention of privilege escalation techniques converting minor footholds into full account control highlights how even seemingly limited vulnerabilities can cascade into severe breach",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg",
+      "processedAt": "2026-05-28T20:01:42.243571+00:00"
+    },
+    {
+      "id": "art-d93abd3b",
+      "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
+      "summary": "A new LayerX Security report reveals that enterprise AI risks are not evenly distributed across organizations but are concentrated among a small group of power users. Most organizations lack visibility into where their actual AI exposure originates, creating a significant security blind spot. The research highlights that companies need to identify and monitor these high-risk AI users more closely to reduce their vulnerability.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "enterprise-risk",
+        "visibility-gap",
+        "power-users",
+        "ai-exposure"
+      ],
+      "whyItMatters": "Understanding that AI risks concentrate among specific power users allows organizations to implement targeted security controls rather than spreading resources evenly. This insight is critical because companies with poor visibility into AI usage patterns cannot effectively protect their most vulnerable access points, potentially exposing sensitive data and systems to compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXxB1vzDMiskZRwzcQojV8rDdalRXWpzXieLES5nUD0bXfnbXrUwsV00RsMmRFdd-Zd3up_9wAGsvfzTDmWi4MLp70XlajlgakXsuCfdWmOe0uQuy0yIwxC4-fevqlb0Rs3AR_eqInGT1scQfa5oiGqY-TRmswOwkY4Zg2ikCYxlsBF2FQTEGA216b_NF8/s1600/apples.jpg",
+      "processedAt": "2026-05-28T20:01:44.778476+00:00"
+    },
+    {
+      "id": "art-0d671293",
+      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
+      "summary": "Scammers are creating fake FIFA websites to deceive World Cup fans ahead of the 2026 tournament. These fraudulent sites trick people into revealing personal and financial details, purchasing counterfeit tickets and hospitality packages, and falling victim to event-related scams. The FBI has issued a warning to alert the public about this growing threat during the lead-up to the major sporting event.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "fraud",
+        "fake-websites",
+        "social-engineering",
+        "financial-theft",
+        "identity-theft"
+      ],
+      "whyItMatters": "This attack demonstrates how criminals exploit major global events to target large numbers of victims through convincing impersonation tactics. Users need practical awareness to verify website authenticity and recognize phishing attempts, as these scams directly compromise both financial and personal data at scale.",
+      "image": null,
+      "processedAt": "2026-05-28T20:01:47.853095+00:00"
+    },
+    {
+      "id": "art-a301fc02",
+      "title": "Hackers exploit FortiClient EMS flaw to push infostealer malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-forticlient-ems-flaw-to-push-infostealer-malware/",
+      "summary": "Attackers are taking advantage of a security flaw in FortiClient Enterprise Management Server that bypasses authentication controls to install a credential-stealing malware named EKZ. This vulnerability allows unauthorized access to a widely-used endpoint management tool, putting organizations at risk of having their login credentials compromised. The malware can harvest sensitive information from affected systems, potentially leading to broader network compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "fortinet",
+        "authentication-bypass",
+        "credential-stealer",
+        "active-exploitation",
+        "endpoint-management",
+        "cve-2026-35616"
+      ],
+      "whyItMatters": "FortiClient EMS is deployed across many enterprises to manage security on employee devices, making this vulnerability a high-impact target for attackers. The combination of an easy-to-exploit flaw and credential-stealing malware creates an immediate risk for widespread data theft and unauthorized network access. Organizations using FortiClient need to patch urgently to prevent their security infra",
+      "image": null,
+      "processedAt": "2026-05-28T20:01:51.229343+00:00"
+    },
+    {
+      "id": "art-21f98ef8",
+      "title": "New Gogs zero-day flaw lets hackers get remote code execution",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/",
+      "summary": "A previously unknown vulnerability has been discovered in Gogs, a popular self-hosted Git service, that could allow attackers to execute code remotely on affected systems. This zero-day flaw poses a significant risk to organizations running exposed Gogs instances on the internet. Until a patch is released, administrators should take immediate steps to secure their deployments.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "gogs",
+        "remote-code-execution",
+        "rce",
+        "self-hosted",
+        "git-service"
+      ],
+      "whyItMatters": "Zero-day vulnerabilities in widely-used infrastructure tools like Gogs can be exploited before patches are available, giving attackers a window to compromise systems at scale. Organizations relying on self-hosted Git services need to act quickly to mitigate exposure, making this a pressing operational security concern for development teams and DevOps professionals.",
+      "image": null,
+      "processedAt": "2026-05-28T20:01:53.698878+00:00"
+    },
+    {
+      "id": "art-c5834822",
+      "title": "How SIEM helps MSPs reduce noise and stop threats faster",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-siem-helps-msps-reduce-noise-and-stop-threats-faster/",
+      "summary": "Managed Service Providers (MSPs) generate massive amounts of security data but struggle to distinguish genuine threats from false alarms. SIEM (Security Information and Event Management) tools help MSPs cut through alert noise by correlating data and prioritizing real threats, enabling faster response times and reducing alert fatigue among security teams.",
+      "category": "Network Security",
+      "severity": "Medium",
+      "tags": [
+        "siem",
+        "alert-fatigue",
+        "threat-detection",
+        "msp-security",
+        "visibility"
+      ],
+      "whyItMatters": "MSPs protect thousands of client networks but can be overwhelmed by excessive alerts, causing them to miss actual threats. Implementing effective SIEM solutions directly improves an MSP's ability to respond to real incidents quickly while reducing operational burnout, which is critical for maintaining strong client security posture.",
+      "image": null,
+      "processedAt": "2026-05-28T20:01:56.125274+00:00"
+    },
+    {
+      "id": "art-2d6d677f",
+      "title": "Romanian gets 5 years in prison for hacking Oregon govt network",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/romanian-gets-5-years-in-prison-for-hacking-oregon-govt-network/",
+      "summary": "A Romanian hacker was sentenced to over four years in federal prison for infiltrating an Oregon state government network and conducting cyberattacks against numerous other U.S. targets. This case demonstrates the serious legal consequences for conducting large-scale hacking operations against government and civilian infrastructure. International cybercriminals can face significant prison time when prosecuted in the United States.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "hacking",
+        "cybercrime",
+        "government-networks",
+        "prosecution",
+        "international-cybercriminal",
+        "infrastructure-attack"
+      ],
+      "whyItMatters": "This prosecution highlights that law enforcement agencies actively pursue and successfully prosecute international cybercriminals, serving as a deterrent for large-scale attacks on government networks. It underscores the real-world criminal penalties for hacking activities and demonstrates coordinated efforts between international authorities to combat cyber threats targeting critical U.S. infrast",
+      "image": null,
+      "processedAt": "2026-05-28T20:01:58.988907+00:00"
+    },
     {
       "id": "art-1dc317ba",
       "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
@@ -825,210 +1032,6 @@
       "whyItMatters": "This breach exposes critical infrastructure at the highest levels of U.S. cybersecurity defense, compromising the very agency responsible for protecting national systems. Leaked AWS credentials and agency secrets could enable attackers to access government cloud infrastructure, and the incident demonstrates that insider threats from trusted contractors pose a significant risk even within security-",
       "image": null,
       "processedAt": "2026-05-27T06:46:31.330454+00:00"
-    },
-    {
-      "id": "art-cf442b81",
-      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-      "summary": "MuddyWater, an Iranian hacking group, launched a widespread espionage campaign in early 2026 targeting at least nine organizations across multiple countries using DLL side-loading techniques. The attack affected organizations in critical sectors including manufacturing, education, government, finance, and professional services across four continents. This campaign demonstrates the group's continued focus on stealing sensitive information from high-value targets rather than deploying ransomware.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "muddywater",
-        "dll-side-loading",
-        "espionage",
-        "iran-linked",
-        "multi-sector",
-        "threat-actor"
-      ],
-      "whyItMatters": "DLL side-loading is a sophisticated attack technique that exploits legitimate processes to avoid detection, making it harder for traditional security tools to identify the threat. Organizations in critical infrastructure and government sectors need to understand this specific attack vector to implement proper defensive measures and monitor for suspicious DLL loading behavior.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkb692n4xA8jDUKZCkwPSIXqiyTaEk_bQhrNaZj33tRhusSP40-iwlk5x7iblb9M63WKWVbj8Gm6oPJZY3bm602-qFyLLnRXuCKsl40iAZG_5-ehqlQ4CYaO442hgo4FBKrspLCO4r_ET1U4U3fPCKCYOc7DFuDn_mv7ZzbzH_IC0NAt2HVVSxwIBNOruk/s1600/cyber-espionage.jpg",
-      "processedAt": "2026-05-26T19:51:30.083964+00:00"
-    },
-    {
-      "id": "art-b07c7f29",
-      "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
-      "summary": "Cybercriminals are increasingly leveraging artificial intelligence to enhance their attack capabilities, making DDoS attacks more sophisticated and difficult to defend against. AI tools enable attackers to identify system vulnerabilities faster and automate the discovery of weaknesses at scale. This shift represents a significant escalation in the threat landscape as attackers move beyond manual methods to AI-powered assault techniques.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-attacks",
-        "ddos",
-        "artificial-intelligence",
-        "network-security",
-        "attack-detection"
-      ],
-      "whyItMatters": "Understanding how adversaries weaponize AI is critical for security teams to adapt their defense strategies and detection mechanisms. As attacks become more automated and intelligent, traditional static defenses become increasingly ineffective, making this a pressing concern for organizations of all sizes.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiphaRoHMD4mkIzApkJZumEOEdIR0c_RxQrvmjv5qM6Kgo8MBnKrIAxicsojC-CdXhcOfRR9t0DxQeyEMXjXtER-bkSqe97zvFr7mfz3HjwA-79JjLWg0IwhZFTulr__kB02fXgX09tOpLWUjqy-fFmQbfvCZG-2uLLAhJpFAFrPo5d9H0PVZHEaSvmZKFE/s1600/ddossss.jpg",
-      "processedAt": "2026-05-26T19:51:32.551617+00:00"
-    },
-    {
-      "id": "art-06cb8c8a",
-      "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "summary": "Microsoft released security updates to fix CVE-2026-45659, a remote code execution vulnerability in SharePoint that requires no special conditions to exploit. The flaw, which involves unsafe deserialization of untrusted data, has been rated with a CVSS score of 8.8 and marked as important severity. Organizations running affected SharePoint server versions need to apply these patches promptly to prevent potential attacks.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "sharepoint-rce",
-        "cve-2026-45659",
-        "microsoft-patch",
-        "deserialization-flaw",
-        "remote-code-execution"
-      ],
-      "whyItMatters": "This vulnerability poses a significant risk because it allows attackers to execute arbitrary code on SharePoint servers without any special requirements, making it an attractive target for widespread attacks. Organizations that delay patching expose their infrastructure to potential compromise, data theft, or system takeover. Prompt patching is critical given SharePoint's widespread use in enterpr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi34meakbjhvY3-jNVG7Q8tPJ5Xk1a-vtGSeKgfVDApX6pn88G7gYhK2oz34my6QeWHsldmSJuV4o8tlBOmw-9Ul32EJYhC-aFmExZvn6ibinw10_4DhBf6pHmIum2Ha_HggakezqS_uKiOPJzrIdwioMru5Oj74p87z_ZbQt_c-bH8kQl6jEXYycod7Vrw/s1600/sharepoint.png",
-      "processedAt": "2026-05-26T19:51:35.222311+00:00"
-    },
-    {
-      "id": "art-2d275a30",
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "summary": "Multi-factor authentication (MFA) is being undermined by a new attack technique called MFA prompt bombing, where attackers trick users into approving login requests rather than stealing the second factor itself. This method exploits human behavior and social engineering to bypass what many organizations consider their strongest security defense. The attack demonstrates that even strong technical controls can fail when users are manipulated into voluntarily compromising them.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "mfa-security",
-        "social-engineering",
-        "prompt-bombing",
-        "authentication-attack",
-        "identity-security"
-      ],
-      "whyItMatters": "Organizations relying on MFA as their primary security control may have a false sense of protection if users can be socially engineered into approving unauthorized login attempts. This threat requires immediate user training and implementation of additional safeguards like location-based verification or challenge-response mechanisms alongside standard MFA.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtums9LZoPXx5AzbNIYmdrNPI6vAAWAnYGfW6NzZ4DkICva0wX2GjMPvmYoq4EVuhvWUc6FyLrgJJ0Hvh8w0TBJ4MLkQplbffUwg89oiQxoJhV-93mboD0D2rdkrrhsblZ2tLJv-auc2GBNjIMsg8wGUCYOkZHNDHaQoqhDbLXrFC3-rD3cz0pI12U7rR2/s1600/prompt-1.jpg",
-      "processedAt": "2026-05-26T19:51:37.991252+00:00"
-    },
-    {
-      "id": "art-d9792672",
-      "title": "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
-      "summary": "India's CERT-In has released new security guidelines requiring organizations to patch critical vulnerabilities in internet-facing systems within 12 hours when possible. The mandate responds to increasing threats from cybercriminals using artificial intelligence and language models to automate and accelerate vulnerability exploitation. These stricter timelines aim to reduce the window of opportunity for attackers to compromise exposed systems.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patching",
-        "vulnerability-management",
-        "ai-assisted-attacks",
-        "internet-facing-systems",
-        "incident-response",
-        "critical-infrastructure"
-      ],
-      "whyItMatters": "Organizations must now drastically compress their patch cycles from traditional timelines to 12 hours for critical internet-exposed vulnerabilities, requiring significant operational changes and automation investments. The advisory highlights how AI-powered exploitation is accelerating threat actor capabilities, making rapid patching essential to prevent large-scale breaches. This guidance sets a ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9yN2AliOVdy0oCCMNYXnnrLjE6yWRz_eXVGFhiIw9vxnia2BMUxqhMrI8Q23Y2hHcF-hjqbw4aIqJTvO4zDD1k_WlKzEqx_FZ7P45mn8RiQ1UEqNUgqXv4DqrkzyyjjjgjKcPnNjzKHTTX8NIelTf4L_Cbx4XyYK6piDr1oPFfSmtk-59NCbU3cGCQEcQ/s1600/indian-cert.jpg",
-      "processedAt": "2026-05-26T19:51:40.690239+00:00"
-    },
-    {
-      "id": "art-2e695238",
-      "title": "Charter confirms data breach after ShinyHunters extortion threat",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/",
-      "summary": "Charter Communications, a major U.S. telecommunications provider, confirmed that it experienced a data breach after the ShinyHunters extortion group threatened to release the stolen information unless a ransom was paid. This incident highlights how large infrastructure companies remain attractive targets for cybercriminals using extortion tactics. The breach exposes the personal information of potentially millions of customers who rely on Charter for internet, TV, and phone services.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "extortion",
-        "ransomware-group",
-        "charter-communications",
-        "customer-data",
-        "cyber-threat"
-      ],
-      "whyItMatters": "Breaches at major telecommunications providers directly affect millions of customers and can compromise sensitive personal information used for identity theft and fraud. This case demonstrates how extortion-based attacks on critical infrastructure continue to escalate, setting a concerning precedent for other large service providers. Understanding these threats helps individuals and organizations ",
-      "image": null,
-      "processedAt": "2026-05-26T19:51:43.458446+00:00"
-    },
-    {
-      "id": "art-6c84fb9d",
-      "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
-      "summary": "Varonis Atlas is integrating Anthropic's Claude Compliance API to enhance AI governance within enterprise environments. The integration enables organizations to monitor how AI tools access and interact with sensitive business data, helping them investigate potential risks and maintain compliance standards. This approach provides better visibility into AI tool usage patterns across the organization.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-governance",
-        "data-monitoring",
-        "compliance-automation",
-        "enterprise-security",
-        "claude-api"
-      ],
-      "whyItMatters": "As AI tools become increasingly embedded in enterprise workflows, understanding how they access sensitive data is critical for risk management and regulatory compliance. This integration addresses a growing security gap by providing visibility into AI-data interactions, helping organizations prevent unauthorized access and maintain compliance with data protection regulations.",
-      "image": null,
-      "processedAt": "2026-05-26T19:51:45.497215+00:00"
-    },
-    {
-      "id": "art-7d691d87",
-      "title": "Microsoft Defender can now automatically isolate hacked endpoints",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-defender-can-now-automatically-isolate-hacked-endpoints/",
-      "summary": "Microsoft is developing a new feature for Defender for Endpoint that will automatically isolate compromised devices from the network when they are detected as hacked. This automatic isolation stops attackers from using an infected computer to spread laterally and attack other systems on the same network. The capability is currently in testing and represents an improvement in how organizations can respond quickly to security threats.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "endpoint-protection",
-        "threat-isolation",
-        "lateral-movement",
-        "automated-response",
-        "microsoft-defender"
-      ],
-      "whyItMatters": "Automatic isolation of compromised endpoints significantly reduces the time attackers have to move through a network and infect other systems, which is a critical phase in most major cyber attacks. This feature can help organizations minimize damage and contain breaches faster than manual intervention alone. Implementing automated response mechanisms like this strengthens overall network defense a",
-      "image": null,
-      "processedAt": "2026-05-26T19:51:48.305904+00:00"
-    },
-    {
-      "id": "art-fb7ede16",
-      "title": "Webinar: Too many tools are slowing network incident response",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-too-many-tools-are-slowing-network-incident-response/",
-      "summary": "During network incidents, IT teams waste valuable time switching between multiple separate tools like monitoring dashboards, ticketing systems, and communication platforms. This webinar discusses how automation and AI-powered workflows can streamline incident response by reducing manual handoffs and coordination overhead. By consolidating tools and automating repetitive tasks, organizations can respond to security incidents faster and more effectively.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "incident-response",
-        "automation",
-        "ai-workflows",
-        "security-operations",
-        "tool-consolidation"
-      ],
-      "whyItMatters": "Tool fragmentation directly slows incident response times, which is critical because every minute of delay increases damage potential during active security incidents. Implementing automation and AI-assisted workflows can significantly reduce mean time to respond (MTTR), helping organizations contain threats before they escalate into major breaches or widespread compromise.",
-      "image": null,
-      "processedAt": "2026-05-26T19:51:50.410311+00:00"
-    },
-    {
-      "id": "art-14bb2bd1",
-      "title": "CISA orders feds to patch actively exploited Drupal vulnerability",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/",
-      "summary": "The U.S. government agency CISA has mandated that federal agencies patch a critical SQL injection vulnerability in Drupal, a widely-used content management system, by Wednesday evening. This vulnerability is currently being actively exploited by attackers in the wild. The urgent deadline reflects the serious and immediate threat this flaw poses to government systems and infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sql-injection",
-        "drupal",
-        "patch-now",
-        "actively-exploited",
-        "government-systems",
-        "cisa-mandate"
-      ],
-      "whyItMatters": "Active exploitation combined with a federal mandate indicates this vulnerability poses an immediate, widespread risk to critical infrastructure and government operations. SQL injection vulnerabilities can allow attackers to steal, modify, or delete sensitive data, making this a priority threat that organizations must address urgently to prevent compromise.",
-      "image": null,
-      "processedAt": "2026-05-26T19:51:52.883827+00:00"
     }
   ]
 }
