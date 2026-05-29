@@ -1,4 +1,4 @@
-"""
+﻿"""
 Deploy portfolio site to IONOS via SFTP.
 Uploads all website files, skipping developer/git files.
 
@@ -21,6 +21,7 @@ EXCLUDE = {
     'CLAUDE.md',
     '.gitignore',
     '__pycache__',
+    'data',        # news.json is managed by the fetch-cybersecurity-news workflow
 }
 
 
