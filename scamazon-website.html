@@ -1,168 +1,260 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <title>Scamazon | George Condrea's Mock E-Commerce Web Project</title>
   <meta name="description" content="Scamazon is a responsive mock e-commerce site built with HTML, CSS, and JavaScript, featuring a working cart, product search, modals, and checkout.">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    .feature-section {
-      padding: 4rem 0;
+    :root{
+      --bg:#08090d;--bg-surface:#0f1117;--bg-raised:#151821;
+      --accent:#c8f560;--accent-dim:rgba(200,245,96,0.1);
+      --flame:#ff6b35;--flame-dim:rgba(255,107,53,0.12);
+      --text:#e8e8ec;--muted:#6b7280;--faint:#3d4451;
+      --border:rgba(255,255,255,0.07);--border-lit:rgba(200,245,96,0.28);
+      --f-display:'Syne',sans-serif;--f-body:'DM Sans',sans-serif;--f-mono:'JetBrains Mono',monospace
     }
-    .feature-img {
-      width: 100%;
-      height: auto;
-      border-radius: 0.5rem;
-      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--f-body);line-height:1.6;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}
+    img,video{max-width:100%;height:auto;display:block}
+
+    /* nav */
+    .site-nav{position:sticky;top:0;z-index:1000;background:rgba(8,9,13,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;height:58px;display:flex;align-items:center;gap:2rem}
+    .nav-brand{font-family:var(--f-display);font-size:1.1rem;font-weight:800;color:var(--accent);text-decoration:none;letter-spacing:-0.02em;white-space:nowrap}
+    .nav-links{display:flex;align-items:center;gap:0.25rem;list-style:none;margin:0 0 0 auto;padding:0}
+    .nav-links a{font-family:var(--f-body);font-size:0.875rem;font-weight:500;color:var(--muted);text-decoration:none;padding:0.4rem 0.7rem;border-radius:6px;transition:color .2s,background .2s;white-space:nowrap}
+    .nav-links a:hover,.nav-links a.active{color:var(--text);background:rgba(255,255,255,0.06)}
+    .nav-live{color:var(--accent)!important;display:inline-flex;align-items:center;gap:0.4rem}
+    .live-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;animation:pulse-dot 2s infinite}
+    @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+    .nav-donate{color:var(--flame)!important;font-weight:700!important}
+    .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+    .nav-toggle span{display:block;width:22px;height:2px;background:var(--text);transition:transform .3s,opacity .3s}
+    .has-dropdown{position:relative}
+    .nav-dropdown{display:none;position:absolute;top:100%;left:0;min-width:180px;background:var(--bg-raised);border:1px solid var(--border);border-radius:8px;padding:0.5rem 0;list-style:none;margin:0;z-index:100}
+    .has-dropdown:hover .nav-dropdown{display:block}
+    .nav-dropdown li a{display:block;padding:0.4rem 1rem;color:var(--muted);font-size:0.83rem;border-radius:0}
+    .nav-dropdown li a:hover{color:var(--text);background:rgba(255,255,255,0.05)}
+    @media(max-width:900px){
+      .nav-toggle{display:flex}
+      .nav-links{display:none;flex-direction:column;position:absolute;top:58px;left:0;right:0;background:rgba(8,9,13,0.97);padding:1rem;gap:0.25rem;align-items:flex-start}
+      .nav-links.open{display:flex}
+      .nav-links a{padding:0.6rem 0.75rem;width:100%}
     }
-    .project-title {
-      font-size: 3rem;
-      font-weight: 700;
-      margin-top: 2rem;
+
+    /* hero */
+    .page-hero{position:relative;padding:5rem 1.5rem 4rem;overflow:hidden;text-align:center;background:var(--bg-surface)}
+    .page-hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,245,96,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,245,96,0.04) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
+    .page-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 50% 0%,rgba(255,107,53,0.12),transparent 70%);pointer-events:none}
+    .hero-inner{position:relative;z-index:1;max-width:800px;margin:0 auto}
+    .hero-eyebrow{display:inline-flex;align-items:center;gap:0.5rem;font-family:var(--f-mono);font-size:0.75rem;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--muted);background:var(--bg-raised);border:1px solid var(--border);border-radius:50px;padding:0.35rem 1rem;margin-bottom:1.5rem}
+    .hero-eyebrow .dot{width:6px;height:6px;border-radius:50%;background:var(--flame);flex-shrink:0}
+    .page-hero h1{font-family:var(--f-display);font-size:clamp(2.2rem,5vw,3.5rem);font-weight:800;line-height:1.1;letter-spacing:-0.03em;color:var(--text);margin-bottom:1rem}
+    .page-hero h1 em{font-style:normal;color:var(--accent)}
+    .page-hero .lead{font-size:1.05rem;color:var(--muted);max-width:580px;margin:0 auto 2rem;line-height:1.7}
+    .tech-pills{display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;margin-bottom:2rem}
+    .tech-pill{font-family:var(--f-mono);font-size:0.72rem;color:var(--muted);background:var(--bg-raised);border:1px solid var(--border);border-radius:4px;padding:0.25rem 0.6rem}
+    .hero-actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+    .btn-ghost{display:inline-flex;align-items:center;gap:0.5rem;background:transparent;color:var(--muted);font-family:var(--f-body);font-weight:500;font-size:0.9rem;padding:0.75rem 1.75rem;border-radius:8px;border:1px solid var(--border);text-decoration:none;transition:color .2s,border-color .2s}
+    .btn-ghost:hover{color:var(--text);border-color:var(--border-lit)}
+
+    /* feature sections */
+    .feature{padding:5rem 1.5rem}
+    .feature:nth-child(even){background:var(--bg-surface)}
+    .feature-inner{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:4rem}
+    .feature-inner.flip{direction:rtl}
+    .feature-inner.flip > *{direction:ltr}
+    .feat-media{border-radius:12px;overflow:hidden;border:1px solid var(--border);background:var(--bg-raised)}
+    .feat-media video{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}
+    .feat-eyebrow{font-family:var(--f-mono);font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:0.75rem}
+    .feat-title{font-family:var(--f-display);font-size:1.8rem;font-weight:800;letter-spacing:-0.02em;line-height:1.2;margin-bottom:1rem}
+    .feat-body{color:var(--muted);font-size:0.95rem;line-height:1.75}
+
+    /* scroll reveal */
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
+    .reveal.visible{opacity:1;transform:none}
+
+    /* footer */
+    .site-footer{background:var(--bg-surface);border-top:1px solid var(--border);padding:2rem 1.5rem}
+    .footer-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .footer-brand{font-family:var(--f-display);font-size:0.95rem;color:var(--accent)}
+    .footer-copy{font-size:0.83rem;color:var(--muted)}
+    .footer-links{display:flex;gap:1.5rem}
+    .footer-links a{font-size:0.83rem;color:var(--muted);transition:color .2s}
+    .footer-links a:hover{color:var(--text)}
+
+    /* kofi fab */
+    .kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:var(--flame);color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,107,53,.4);transition:transform .2s,box-shadow .2s}
+    .kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,107,53,.55);color:#fff}
+    @media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
+
+    @media(max-width:768px){
+      .feature-inner{grid-template-columns:1fr;gap:2.5rem}
+      .feature-inner.flip{direction:ltr}
     }
   </style>
 </head>
 <body>
-  
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">My Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
-          <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
-          <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Donate</a></li>
+
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">George Condrea</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="has-dropdown">
+        <a href="projects.html" class="active">Projects</a>
+        <ul class="nav-dropdown">
+          <li><a href="scamazon-website.html">Scamazon</a></li>
+          <li><a href="platformer.html">Platformer</a></li>
+          <li><a href="cybersecurity-news-project.html">Security News</a></li>
         </ul>
-      </div>
-    </div>
-  </nav>
+      </li>
+      <li><a href="curriculum-vitae.html">CV</a></li>
+      <li><a href="tools.html">Tools</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cybersecurity-news.html" class="nav-live">Security News <span class="live-dot"></span></a></li>
+      <li><a href="donate.html" class="nav-donate">&#9749; Donate</a></li>
+    </ul>
+  </div>
+</nav>
 
-  
-  <header class="bg-dark text-white text-center py-5">
-    <div class="container">
-      <h1 class="project-title">Scamazon E-Commerce Website</h1>
-      <p class="lead">A fully responsive e-commerce prototype featuring a full shopping experience and interactive UI.</p>
+<header class="page-hero">
+  <div class="hero-inner">
+    <div class="hero-eyebrow"><span class="dot"></span> Project Showcase</div>
+    <h1><em>Scamazon</em> E-Commerce Website</h1>
+    <p class="lead">A fully responsive mock e-commerce prototype featuring a complete shopping experience, live cart, product modals, smart search, and a checkout flow.</p>
+    <div class="tech-pills">
+      <span class="tech-pill">HTML5</span>
+      <span class="tech-pill">CSS3</span>
+      <span class="tech-pill">JavaScript</span>
+      <span class="tech-pill">Bootstrap 5</span>
+      <span class="tech-pill">localStorage</span>
     </div>
-  </header>
+    <div class="hero-actions">
+      <a href="projects.html" class="btn-ghost">&#8592; All Projects</a>
+    </div>
+  </div>
+</header>
 
-  
-  <section class="feature-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <video class="feature-video w-100" autoplay loop muted playsinline>
-            <source src="img/scamazon/engaging-homepage.mkv" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="col-md-6">
-          <h3>Engaging Homepage</h3>
-          <p>The homepage features a hero video banner, category previews, and a sleek product carousel to showcase top items.</p>
-        </div>
-      </div>
+<section class="feature">
+  <div class="feature-inner reveal">
+    <div class="feat-media">
+      <video autoplay loop muted playsinline>
+        <source src="img/scamazon/engaging-homepage.mkv" type="video/mp4">
+      </video>
     </div>
-  </section>
+    <div>
+      <div class="feat-eyebrow">Feature 01</div>
+      <h2 class="feat-title">Engaging Homepage</h2>
+      <p class="feat-body">The homepage features a hero video banner, category previews, and a sleek product carousel to showcase top items. First impressions matter, and this one delivers.</p>
+    </div>
+  </div>
+</section>
 
-  
-  <section class="feature-section bg-light">
-    <div class="container">
-      <div class="row align-items-center flex-md-row-reverse">
-        <div class="col-md-6">
-          <video class="feature-video w-100" autoplay loop muted playsinline>
-            <source src="img/scamazon/product-modals.mkv" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="col-md-6">
-          <h3>Interactive Product Modals</h3>
-          <p>Clicking on a product opens a detailed modal with images, specifications, and an option to add to cart.</p>
-        </div>
-      </div>
+<section class="feature">
+  <div class="feature-inner flip reveal">
+    <div class="feat-media">
+      <video autoplay loop muted playsinline>
+        <source src="img/scamazon/product-modals.mkv" type="video/mp4">
+      </video>
     </div>
-  </section>
+    <div>
+      <div class="feat-eyebrow">Feature 02</div>
+      <h2 class="feat-title">Interactive Product Modals</h2>
+      <p class="feat-body">Clicking on a product opens a detailed modal with images, specifications, and an option to add to cart. Clean, focused, and distraction-free by design.</p>
+    </div>
+  </div>
+</section>
 
-  
-  <section class="feature-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <video class="feature-video w-100" autoplay loop muted playsinline>
-            <source src="img/scamazon/shopping-cart.mkv" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="col-md-6">
-          <h3>Functional Shopping Cart</h3>
-          <p>The site includes a live updating shopping cart UI, powered by JavaScript and stored with localStorage to persist across pages.</p>
-        </div>
-      </div>
+<section class="feature">
+  <div class="feature-inner reveal">
+    <div class="feat-media">
+      <video autoplay loop muted playsinline>
+        <source src="img/scamazon/shopping-cart.mkv" type="video/mp4">
+      </video>
     </div>
-  </section>
+    <div>
+      <div class="feat-eyebrow">Feature 03</div>
+      <h2 class="feat-title">Functional Shopping Cart</h2>
+      <p class="feat-body">A live-updating shopping cart powered by JavaScript and persisted with localStorage across pages. Add, remove, and adjust quantities with instant feedback.</p>
+    </div>
+  </div>
+</section>
 
-  
-  <section class="feature-section bg-light">
-    <div class="container">
-      <div class="row align-items-center flex-md-row-reverse">
-        <div class="col-md-6">
-          <video class="feature-video w-100" autoplay loop muted playsinline>
-            <source src="img/scamazon/checkout-flow.mkv" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="col-md-6">
-          <h3>Simple Checkout Flow</h3>
-          <p>Scamazon features a clean and intuitive checkout page for submitting customer information and completing a mock order.</p>
-        </div>
-      </div>
+<section class="feature">
+  <div class="feature-inner flip reveal">
+    <div class="feat-media">
+      <video autoplay loop muted playsinline>
+        <source src="img/scamazon/checkout-flow.mkv" type="video/mp4">
+      </video>
     </div>
-  </section>
+    <div>
+      <div class="feat-eyebrow">Feature 04</div>
+      <h2 class="feat-title">Simple Checkout Flow</h2>
+      <p class="feat-body">A clean and intuitive checkout page for submitting customer information and completing a mock order. Minimal steps, maximum clarity.</p>
+    </div>
+  </div>
+</section>
 
-  
-  <section class="feature-section">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <video class="feature-video w-100" autoplay loop muted playsinline>
-            <source src="img/scamazon/search-bar.mkv" type="video/mp4">
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div class="col-md-6">
-          <h3>Smart Search Bar</h3>
-          <p>The search bar offers live suggestions and matches across categories, helping users quickly find relevant products.</p>
-        </div>
-      </div>
+<section class="feature">
+  <div class="feature-inner reveal">
+    <div class="feat-media">
+      <video autoplay loop muted playsinline>
+        <source src="img/scamazon/search-bar.mkv" type="video/mp4">
+      </video>
     </div>
-  </section>
+    <div>
+      <div class="feat-eyebrow">Feature 05</div>
+      <h2 class="feat-title">Smart Search Bar</h2>
+      <p class="feat-body">The search bar offers live suggestions and matches across categories, helping users quickly find relevant products. No page reload, just instant results.</p>
+    </div>
+  </div>
+</section>
 
-  
-  <footer class="bg-dark text-white text-center py-3 mt-5">
-    <div class="container">
-      &copy; 2025 George Condrea | Scamazon Website Project
-    </div>
-  </footer>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="footer-brand">George Condrea</span>
+    <span class="footer-copy">&copy; 2025 George Condrea | Scamazon Website Project</span>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</footer>
 
 <a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
    title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
-  ☕ <span class="kofi-fab-text">Donate</span>
+  &#9749; <span class="kofi-fab-text">Donate</span>
 </a>
-<style>
-.kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:#FF5E5B;color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,94,91,.4);transition:transform .2s,box-shadow .2s}
-.kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,94,91,.55);color:#fff}
-@media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
-</style>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+(function(){
+  var t=document.getElementById('navToggle'),l=document.getElementById('navLinks');
+  t.addEventListener('click',function(){l.classList.toggle('open')});
+})();
+</script>
+<script>
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});
+  },{threshold:0.12});
+  els.forEach(function(el){io.observe(el)});
+})();
+</script>
+
 </body>
 </html>

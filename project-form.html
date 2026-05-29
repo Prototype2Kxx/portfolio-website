@@ -1,87 +1,169 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <title>Scamazon Account Form | Interactive JavaScript Form Demo</title>
   <meta name="description" content="An interactive Scamazon account creation form with real-time password strength checking and a button that dodges the cursor for weak passwords.">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding-top: 60px;
-      position: relative;
-      height: 100vh;
+    :root{
+      --bg:#08090d;--bg-surface:#0f1117;--bg-raised:#151821;
+      --accent:#c8f560;--accent-dim:rgba(200,245,96,0.1);
+      --flame:#ff6b35;--flame-dim:rgba(255,107,53,0.12);
+      --text:#e8e8ec;--muted:#6b7280;--faint:#3d4451;
+      --border:rgba(255,255,255,0.07);--border-lit:rgba(200,245,96,0.28);
+      --f-display:'Syne',sans-serif;--f-body:'DM Sans',sans-serif;--f-mono:'JetBrains Mono',monospace
     }
-
-    .form-container {
-      max-width: 500px;
-      margin: auto;
-      padding: 2rem;
-      background-color: #f8f9fa;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-      position: relative;
+    *,*::before,*::after{box-sizing:border-box}
+    body{
+      font-family:var(--f-body);
+      background:var(--bg);
+      color:var(--text);
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      position:relative;
+      margin:0;
     }
-
-    #createBtn {
-      position: absolute;
-      bottom: 20px;
-      left: 200px;
-      transition: left 0.1s ease-in-out;
+    /* nav */
+    .site-nav{position:sticky;top:0;z-index:1000;background:rgba(8,9,13,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;height:58px;display:flex;align-items:center;gap:2rem}
+    .nav-brand{font-family:var(--f-display);font-size:1.1rem;font-weight:800;color:var(--accent);text-decoration:none;letter-spacing:-0.02em;white-space:nowrap}
+    .nav-links{display:flex;align-items:center;gap:0.25rem;list-style:none;margin:0 0 0 auto;padding:0}
+    .nav-links a{font-family:var(--f-body);font-size:0.875rem;font-weight:500;color:var(--muted);text-decoration:none;padding:0.4rem 0.7rem;border-radius:6px;transition:color .2s,background .2s;white-space:nowrap}
+    .nav-links a:hover{color:var(--text);background:rgba(255,255,255,0.06)}
+    .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+    .nav-toggle span{display:block;width:22px;height:2px;background:var(--text);transition:transform .3s,opacity .3s}
+    @media(max-width:900px){
+      .nav-toggle{display:flex}
+      .nav-links{display:none;flex-direction:column;position:absolute;top:58px;left:0;right:0;background:rgba(8,9,13,0.97);padding:1rem;gap:0.25rem;align-items:flex-start}
+      .nav-links.open{display:flex}
+      .nav-links a{padding:0.6rem 0.75rem;width:100%}
     }
-
-    .strength-indicator {
-      font-weight: bold;
+    /* main content */
+    .page-main{flex:1;display:flex;align-items:center;justify-content:center;padding:3rem 1.5rem;position:relative}
+    .page-main::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,245,96,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(200,245,96,0.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
+    /* form container */
+    .form-container{
+      max-width:480px;
+      width:100%;
+      padding:2.5rem;
+      background:var(--bg-raised);
+      border:1px solid var(--border);
+      border-radius:16px;
+      position:relative;
+      min-height:340px;
+      box-shadow:0 8px 40px rgba(0,0,0,0.4);
+      z-index:1;
     }
-
+    .form-container::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),rgba(200,245,96,0.3));border-radius:16px 16px 0 0}
+    .form-title{font-family:var(--f-display);font-size:1.4rem;font-weight:800;letter-spacing:-0.02em;margin-bottom:0.4rem;color:var(--text)}
+    .form-sub{font-size:0.85rem;color:var(--muted);margin-bottom:2rem}
+    .form-label{font-size:0.85rem;font-weight:600;color:var(--muted);margin-bottom:0.4rem;display:block}
+    .form-control{
+      background:rgba(255,255,255,0.05)!important;
+      border:1px solid var(--border)!important;
+      color:var(--text)!important;
+      border-radius:8px!important;
+      font-family:var(--f-body)!important;
+    }
+    .form-control:focus{border-color:var(--border-lit)!important;box-shadow:0 0 0 3px var(--accent-dim)!important;outline:none!important}
+    .form-control::placeholder{color:var(--faint)!important}
+    .strength-indicator{font-family:var(--f-mono);font-size:0.78rem;font-weight:600;margin-top:0.4rem;min-height:1.2em}
+    #createBtn{
+      position:absolute;
+      bottom:2rem;
+      left:2.5rem;
+      background:var(--accent);
+      color:#08090d;
+      font-family:var(--f-body);
+      font-weight:700;
+      font-size:0.875rem;
+      border:none;
+      border-radius:8px;
+      padding:0.6rem 1.4rem;
+      cursor:pointer;
+      transition:left 0.1s ease-in-out,opacity .2s;
+    }
+    #createBtn:hover{opacity:.88}
+    .demo-label{font-family:var(--f-mono);font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--faint);text-align:center;margin-top:0.5rem}
     @keyframes jump {
       0% { transform: translateY(0); }
       50% { transform: translateY(-10px); }
       100% { transform: translateY(0); }
     }
-
-    #dodging {
-      animation: jump 0.2s ease;
-    }
+    .dodging { animation: jump 0.2s ease; }
+    /* footer */
+    .site-footer{background:var(--bg-surface);border-top:1px solid var(--border);padding:1.5rem;text-align:center}
+    .site-footer span{font-size:0.83rem;color:var(--faint)}
+    /* kofi fab */
+    .kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:var(--flame);color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,107,53,.4);transition:transform .2s,box-shadow .2s}
+    .kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,107,53,.55);color:#fff}
+    @media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
   </style>
 </head>
 <body>
 
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">My Portfolio</a>
-    </div>
-  </nav>
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">George Condrea</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="scamazon-website.html">Scamazon</a></li>
+    </ul>
+  </div>
+</nav>
 
-  
+<main class="page-main">
   <div class="form-container">
-    <h2 class="text-center mb-4">Create Your Scamazon Account</h2>
+    <h2 class="form-title">Create Your Scamazon Account</h2>
+    <p class="form-sub">Try entering a weak password, then hover over the button.</p>
     <form>
       <div class="mb-3">
         <label for="username" class="form-label">Username</label>
         <input type="text" class="form-control" id="username" placeholder="e.g. scamazon_user">
       </div>
-      <div class="mb-3">
+      <div class="mb-4">
         <label for="password" class="form-label">Password</label>
         <input type="password" class="form-control" id="password" placeholder="Enter a secure password">
-        <div id="strength" class="form-text strength-indicator mt-1">Strength: </div>
+        <div id="strength" class="strength-indicator mt-1"></div>
       </div>
-      <button type="button" id="createBtn" class="btn btn-success">Create Account</button>
     </form>
+    <button type="button" id="createBtn">Create Account</button>
+    <p class="demo-label">Interactive JS Demo</p>
   </div>
+</main>
 
-  <script>
+<footer class="site-footer">
+  <span>&copy; 2025 George Condrea | Scamazon Account Form Demo</span>
+</footer>
+
+<a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
+   title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
+  &#9749; <span class="kofi-fab-text">Donate</span>
+</a>
+
+<script>
   const passwordInput = document.getElementById("password");
   const strengthText = document.getElementById("strength");
   const createBtn = document.getElementById("createBtn");
   const formContainer = document.querySelector(".form-container");
 
+  const colors = { Weak: '#ff6b35', Medium: '#ffd60a', Strong: '#c8f560', 'Very Strong': '#3dd68c' };
   let currentStrength = "Weak";
-  let direction = 1; // 1 = right, -1 = left
-  let currentLeft = 200; // track left manually
+  let direction = 1;
+  let currentLeft = 40;
 
   function getStrength(password) {
     let score = 0;
@@ -89,7 +171,6 @@
     if (/[A-Z]/.test(password)) score++;
     if (/\d/.test(password)) score++;
     if (/[^A-Za-z0-9]/.test(password)) score++;
-
     if (password.length < 6) return "Weak";
     if (score === 1) return "Weak";
     if (score === 2) return "Medium";
@@ -100,56 +181,35 @@
 
   passwordInput.addEventListener("input", () => {
     currentStrength = getStrength(passwordInput.value);
-    strengthText.textContent = `Strength: ${currentStrength}`;
+    strengthText.textContent = passwordInput.value ? "Strength: " + currentStrength : "";
+    strengthText.style.color = colors[currentStrength] || '#6b7280';
   });
 
   formContainer.addEventListener("mousemove", (e) => {
     if (["Strong", "Very Strong"].includes(currentStrength)) return;
-
     const mouseX = e.clientX;
     const btnRect = createBtn.getBoundingClientRect();
-    const formRect = formContainer.getBoundingClientRect();
     const distance = Math.abs(mouseX - btnRect.left);
-
     if (distance < 100) {
-      const maxLeft = formContainer.clientWidth - createBtn.offsetWidth - 10;
-      const minLeft = 10;
-
-      // Move directionally
+      const maxLeft = formContainer.clientWidth - createBtn.offsetWidth - 20;
+      const minLeft = 20;
       currentLeft += direction * 80;
-
-      // Flip direction if hitting bounds
-      if (currentLeft >= maxLeft) {
-        currentLeft = maxLeft;
-        direction = -1;
-      } else if (currentLeft <= minLeft) {
-        currentLeft = minLeft;
-        direction = 1;
-      }
-
-      createBtn.style.left = `${currentLeft}px`;
-
+      if (currentLeft >= maxLeft) { currentLeft = maxLeft; direction = -1; }
+      else if (currentLeft <= minLeft) { currentLeft = minLeft; direction = 1; }
+      createBtn.style.left = currentLeft + "px";
       createBtn.classList.add("dodging");
-      createBtn.id = "dodging";
-      setTimeout(() => {
-        createBtn.classList.remove("dodging");
-        createBtn.id = "";
-      }, 200);
+      setTimeout(() => createBtn.classList.remove("dodging"), 200);
     }
   });
 </script>
 
-<a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
-   title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
-  ☕ <span class="kofi-fab-text">Donate</span>
-</a>
-<style>
-.kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:#FF5E5B;color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,94,91,.4);transition:transform .2s,box-shadow .2s}
-.kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,94,91,.55);color:#fff}
-@media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
-</style>
+<script>
+(function(){
+  var t=document.getElementById('navToggle'),l=document.getElementById('navLinks');
+  if(t&&l)t.addEventListener('click',function(){l.classList.toggle('open')});
+})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-

@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Deployment
+
+**Always deploy by uploading files directly to IONOS** via FTP or the IONOS File Manager. Do not use GitHub Pages, GitHub Actions deploy workflows, or any CI/CD push-to-host pipeline. The repository exists for version control only — publishing to production is a manual upload step.
+
 ## Running the Site
 
 This is a **static HTML site with no build step**. To preview it:

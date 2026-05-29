@@ -1,0 +1,574 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview Image Generator</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #1a1a2e;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+    }
+    .controls {
+      margin-bottom: 1.5rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+    .download-btn {
+      background: #3dd68c;
+      color: #0f1117;
+      border: none;
+      padding: 0.75rem 2rem;
+      border-radius: 50px;
+      font-weight: 800;
+      font-size: 1rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: 0 4px 18px rgba(61,214,140,0.4);
+    }
+    .download-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 26px rgba(61,214,140,0.55); }
+    .download-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+    .hint { color: #8892a4; font-size: 0.82rem; }
+
+    /* ═══════════════════════════════════════
+       THE GRAPHIC — 1270 × 952px
+       ═══════════════════════════════════════ */
+    #graphic {
+      width: 1270px;
+      height: 952px;
+      background: linear-gradient(135deg, #0a0d14 0%, #0f1117 40%, #0d1f35 100%);
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    /* Background grid lines */
+    #graphic::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(61,214,140,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(61,214,140,0.04) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+
+    /* Glow orbs */
+    .orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(80px);
+      pointer-events: none;
+    }
+    .orb-1 { width: 500px; height: 500px; background: rgba(13,110,253,0.12); top: -150px; left: -100px; }
+    .orb-2 { width: 400px; height: 400px; background: rgba(61,214,140,0.08); bottom: -100px; right: -50px; }
+    .orb-3 { width: 300px; height: 300px; background: rgba(255,94,91,0.06); top: 200px; right: 200px; }
+
+    /* Top bar */
+    .top-bar {
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #3dd68c, #0d6efd, #FF5E5B);
+    }
+
+    /* Site label */
+    .site-label {
+      position: absolute;
+      top: 28px;
+      left: 60px;
+      color: #4a5568;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .site-dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #3dd68c;
+      box-shadow: 0 0 8px #3dd68c;
+    }
+
+    /* Shield icon area */
+    .shield-wrap {
+      position: absolute;
+      top: 70px;
+      left: 60px;
+      width: 72px;
+      height: 72px;
+      background: rgba(13,110,253,0.15);
+      border: 1px solid rgba(13,110,253,0.3);
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      color: #3dd68c;
+    }
+
+    /* Main heading */
+    .main-title {
+      position: absolute;
+      top: 72px;
+      left: 152px;
+      font-size: 38px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+    }
+    .main-title span { color: #3dd68c; }
+    .main-subtitle {
+      position: absolute;
+      top: 156px;
+      left: 152px;
+      color: #8892a4;
+      font-size: 15px;
+      line-height: 1.6;
+      max-width: 500px;
+    }
+
+    /* Free badge strip */
+    .badge-row {
+      position: absolute;
+      top: 76px;
+      right: 60px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-end;
+    }
+    .badge-free {
+      background: rgba(61,214,140,0.12);
+      color: #3dd68c;
+      border: 1px solid rgba(61,214,140,0.3);
+      border-radius: 50px;
+      padding: 5px 16px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+    }
+    .badge-premium {
+      background: rgba(255,94,91,0.12);
+      color: #ff8a88;
+      border: 1px solid rgba(255,94,91,0.3);
+      border-radius: 50px;
+      padding: 5px 16px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+    }
+
+    /* ── FREE features column ── */
+    .col-free {
+      position: absolute;
+      top: 230px;
+      left: 60px;
+      width: 380px;
+    }
+    .col-header {
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .col-header-free  { color: #3dd68c; }
+    .col-header-paid  { color: #ff8a88; }
+    .col-header-line  { flex: 1; height: 1px; }
+    .col-header-line-free { background: rgba(61,214,140,0.25); }
+    .col-header-line-paid { background: rgba(255,94,91,0.25); }
+
+    .feat-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .feat-icon-free  { color: #3dd68c; font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+    .feat-icon-paid  { color: #ff8a88; font-size: 14px; margin-top: 1px; flex-shrink: 0; }
+    .feat-text {}
+    .feat-name  { color: #e2e8f0; font-size: 13px; font-weight: 700; display: block; }
+    .feat-desc  { color: #6c757d; font-size: 11px; line-height: 1.4; }
+
+    /* ── PREMIUM features column ── */
+    .col-paid {
+      position: absolute;
+      top: 230px;
+      left: 460px;
+      width: 340px;
+    }
+
+    /* ── Mock UI panel ── */
+    .mock-ui {
+      position: absolute;
+      top: 200px;
+      right: 44px;
+      width: 380px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+    .mock-ui-header {
+      background: rgba(255,255,255,0.06);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .mock-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .mock-input-bar {
+      margin: 14px 16px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 8px;
+      padding: 10px 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .mock-input-text { color: #4a5568; font-size: 12px; letter-spacing: 0.08em; }
+    .mock-eye { color: #4a5568; font-size: 13px; }
+    .mock-meter-wrap { margin: 0 16px 8px; }
+    .mock-meter-track { height: 6px; background: rgba(255,255,255,0.08); border-radius: 10px; overflow: hidden; }
+    .mock-meter-fill { height: 100%; border-radius: 10px; background: linear-gradient(90deg, #0d6efd, #3dd68c); width: 80%; }
+    .mock-meter-meta { display: flex; justify-content: space-between; margin-top: 4px; }
+    .mock-meter-label { color: #3dd68c; font-size: 10px; font-weight: 700; }
+    .mock-meter-pct { color: #4a5568; font-size: 10px; }
+    .mock-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 8px 16px 14px; }
+    .mock-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 8px;
+      padding: 10px;
+    }
+    .mock-card-label { color: #6c757d; font-size: 9px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 4px; }
+    .mock-card-val { font-weight: 800; font-size: 18px; line-height: 1; }
+    .mock-card-unit { color: #6c757d; font-size: 8px; margin-top: 2px; }
+    .mock-card-row { margin-bottom: 5px; }
+    .mock-card-row-label { color: #6c757d; font-size: 8px; }
+    .mock-card-row-val { color: #e2e8f0; font-size: 8px; font-weight: 700; float: right; }
+    .mock-card-bar { height: 3px; background: rgba(255,255,255,0.08); border-radius: 3px; margin-top: 2px; overflow: hidden; }
+    .mock-card-bar-fill { height: 100%; border-radius: 3px; }
+
+    /* Divider */
+    .v-divider {
+      position: absolute;
+      top: 230px;
+      left: 818px;
+      width: 1px;
+      height: 460px;
+      background: linear-gradient(180deg, transparent, rgba(255,255,255,0.07) 30%, rgba(255,255,255,0.07) 70%, transparent);
+    }
+
+    /* Bottom bar */
+    .bottom-bar {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 64px;
+      background: rgba(0,0,0,0.35);
+      border-top: 1px solid rgba(255,255,255,0.06);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 60px;
+    }
+    .bottom-url {
+      color: #4a5568;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .bottom-url i { color: #3dd68c; font-size: 14px; }
+    .bottom-tags { display: flex; gap: 8px; }
+    .bottom-tag {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px;
+      padding: 3px 10px;
+      color: #6c757d;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+    }
+    .bottom-price {
+      background: rgba(99,91,255,0.15);
+      border: 1px solid rgba(99,91,255,0.3);
+      border-radius: 50px;
+      padding: 5px 18px;
+      color: #a5b4fc;
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.04em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="controls">
+    <button class="download-btn" id="dlBtn" onclick="downloadPNG()">
+      <i class="bi bi-download"></i> Download as PNG (1270 × 952)
+    </button>
+    <span class="hint">Opens the image in a new tab if html2canvas is blocked — right-click → Save image.</span>
+  </div>
+
+  <!-- ═══ THE GRAPHIC ═══ -->
+  <div id="graphic">
+    <div class="top-bar"></div>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+
+    <!-- Site label -->
+    <div class="site-label">
+      <div class="site-dot"></div>
+      george-condrea.com / tools
+    </div>
+
+    <!-- Shield + title -->
+    <div class="shield-wrap">🔒</div>
+    <div class="main-title">Password <span>Security</span><br>Analyzer</div>
+    <div class="main-subtitle">
+      Entropy scoring, crack-time estimates, pattern detection,<br>
+      NIST SP 800-63B compliance — all 100% in your browser.
+    </div>
+
+    <!-- Badges -->
+    <div class="badge-row">
+      <span class="badge-free">✓ FREE FEATURES</span>
+      <span class="badge-premium">★ PREMIUM UNLOCK</span>
+    </div>
+
+    <!-- FREE features column -->
+    <div class="col-free">
+      <div class="col-header col-header-free">
+        Free
+        <div class="col-header-line col-header-line-free"></div>
+      </div>
+
+      <div class="feat-item">
+        <span class="feat-icon-free">◉</span>
+        <div class="feat-text">
+          <span class="feat-name">Real-time Strength Meter</span>
+          <span class="feat-desc">Animated colour gradient — Very Weak to Very Strong</span>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon-free">◉</span>
+        <div class="feat-text">
+          <span class="feat-name">Shannon Entropy Score</span>
+          <span class="feat-desc">Bits of entropy calculated from charset and length</span>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon-free">◉</span>
+        <div class="feat-text">
+          <span class="feat-name">5 Crack-Time Scenarios</span>
+          <span class="feat-desc">From throttled online attacks to 100B/s GPU clusters</span>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon-free">◉</span>
+        <div class="feat-text">
+          <span class="feat-name">Pattern Detection</span>
+          <span class="feat-desc">Keyboard walks, sequences, leet speak, year patterns</span>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon-free">◉</span>
+        <div class="feat-text">
+          <span class="feat-name">NIST SP 800-63B Compliance</span>
+          <span class="feat-desc">Modern password standard pass/fail check</span>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon-free">◉</span>
+        <div class="feat-text">
+          <span class="feat-name">Top-1000 Common Password Check</span>
+          <span class="feat-desc">Instant detection, no network call needed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PREMIUM features column -->
+    <div class="col-paid">
+      <div class="col-header col-header-paid">
+        Premium — one-time unlock
+        <div class="col-header-line col-header-line-paid"></div>
+      </div>
+
+      <div class="feat-item">
+        <span class="feat-icon-paid">★</span>
+        <div class="feat-text">
+          <span class="feat-name">HaveIBeenPwned Breach Check</span>
+          <span class="feat-desc">k-anonymity model — password never leaves your browser</span>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon-paid">★</span>
+        <div class="feat-text">
+          <span class="feat-name">PDF Security Report</span>
+          <span class="feat-desc">Branded downloadable report with full analysis</span>
+        </div>
+      </div>
+      <div class="feat-item">
+        <span class="feat-icon-paid">★</span>
+        <div class="feat-text">
+          <span class="feat-name">Password Comparison Mode</span>
+          <span class="feat-desc">Side-by-side analysis with winner badges per metric</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vertical divider -->
+    <div class="v-divider"></div>
+
+    <!-- Mock UI -->
+    <div class="mock-ui">
+      <div class="mock-ui-header">
+        <div class="mock-dot" style="background:#ff5f57;"></div>
+        <div class="mock-dot" style="background:#ffbd2e;"></div>
+        <div class="mock-dot" style="background:#28c840;"></div>
+        <span style="color:#4a5568;font-size:10px;margin-left:6px;letter-spacing:0.04em;">password-analyzer.html</span>
+      </div>
+      <div class="mock-input-bar">
+        <span class="mock-input-text">••••••••••••••</span>
+        <span class="mock-eye">👁</span>
+      </div>
+      <div class="mock-meter-wrap">
+        <div class="mock-meter-track"><div class="mock-meter-fill"></div></div>
+        <div class="mock-meter-meta">
+          <span class="mock-meter-label">Strong</span>
+          <span class="mock-meter-pct">80%</span>
+        </div>
+      </div>
+      <div class="mock-cards">
+        <!-- Entropy card -->
+        <div class="mock-card">
+          <div class="mock-card-label">Entropy</div>
+          <div class="mock-card-val" style="color:#0d6efd;">72.3</div>
+          <div class="mock-card-unit">bits</div>
+        </div>
+        <!-- Composition card -->
+        <div class="mock-card">
+          <div class="mock-card-label">Composition</div>
+          <div class="mock-card-row">
+            <span class="mock-card-row-label">Uppercase</span>
+            <span class="mock-card-row-val" style="color:#6f42c1;">3</span>
+            <div class="mock-card-bar"><div class="mock-card-bar-fill" style="width:60%;background:#6f42c1;"></div></div>
+          </div>
+          <div class="mock-card-row">
+            <span class="mock-card-row-label">Lowercase</span>
+            <span class="mock-card-row-val" style="color:#0d6efd;">5</span>
+            <div class="mock-card-bar"><div class="mock-card-bar-fill" style="width:78%;background:#0d6efd;"></div></div>
+          </div>
+          <div class="mock-card-row">
+            <span class="mock-card-row-label">Digits</span>
+            <span class="mock-card-row-val" style="color:#fd7e14;">2</span>
+            <div class="mock-card-bar"><div class="mock-card-bar-fill" style="width:40%;background:#fd7e14;"></div></div>
+          </div>
+          <div class="mock-card-row">
+            <span class="mock-card-row-label">Symbols</span>
+            <span class="mock-card-row-val" style="color:#198754;">2</span>
+            <div class="mock-card-bar"><div class="mock-card-bar-fill" style="width:40%;background:#198754;"></div></div>
+          </div>
+        </div>
+        <!-- Crack time card -->
+        <div class="mock-card" style="grid-column:1/-1;">
+          <div class="mock-card-label">Crack Times</div>
+          <div style="display:flex;justify-content:space-between;margin-top:4px;">
+            <span style="color:#6c757d;font-size:9px;">Online throttled</span>
+            <span style="color:#198754;font-size:9px;font-weight:700;">3 centuries</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;margin-top:3px;">
+            <span style="color:#6c757d;font-size:9px;">Offline MD5</span>
+            <span style="color:#0d6efd;font-size:9px;font-weight:700;">14 years</span>
+          </div>
+          <div style="display:flex;justify-content:space-between;margin-top:3px;">
+            <span style="color:#6c757d;font-size:9px;">GPU cluster</span>
+            <span style="color:#e8a800;font-size:9px;font-weight:700;">51 days</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom bar -->
+    <div class="bottom-bar">
+      <div class="bottom-url">
+        <i class="bi bi-shield-lock-fill"></i>
+        george-condrea.com/password-analyzer.html
+      </div>
+      <div class="bottom-tags">
+        <span class="bottom-tag">100% PRIVATE</span>
+        <span class="bottom-tag">NO SIGNUP</span>
+        <span class="bottom-tag">BROWSER-ONLY</span>
+      </div>
+      <div class="bottom-price">One-time unlock · £2.99</div>
+    </div>
+  </div>
+
+  <!-- html2canvas for PNG download -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script>
+    async function downloadPNG() {
+      const btn = document.getElementById('dlBtn');
+      btn.disabled = true;
+      btn.innerHTML = '<i class="bi bi-hourglass-split"></i> Generating…';
+
+      try {
+        const canvas = await html2canvas(document.getElementById('graphic'), {
+          scale: 1,
+          useCORS: true,
+          allowTaint: true,
+          backgroundColor: null,
+          width: 1270,
+          height: 952,
+          logging: false,
+        });
+
+        // Try direct download
+        const link = document.createElement('a');
+        link.download = 'password-analyzer-preview.png';
+        link.href = canvas.toDataURL('image/png');
+        link.click();
+
+        btn.disabled = false;
+        btn.innerHTML = '<i class="bi bi-check-circle-fill"></i> Downloaded!';
+        setTimeout(() => {
+          btn.innerHTML = '<i class="bi bi-download"></i> Download as PNG (1270 × 952)';
+        }, 3000);
+      } catch (err) {
+        // Fallback: open in new tab
+        btn.disabled = false;
+        btn.innerHTML = '<i class="bi bi-download"></i> Download as PNG (1270 × 952)';
+        alert('Direct download blocked — opening image in new tab. Right-click → Save image as.');
+        const canvas = await html2canvas(document.getElementById('graphic'), { scale:1, width:1270, height:952 });
+        window.open(canvas.toDataURL('image/png'));
+      }
+    }
+  </script>
+</body>
+</html>

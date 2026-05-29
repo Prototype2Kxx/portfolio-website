@@ -1,295 +1,298 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <title>Cybersecurity Tools | George Condrea</title>
   <meta name="description" content="Free and premium cybersecurity tools built by George Condrea. Coming soon.">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@800&family=DM+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f8f9fa;
+    :root{
+      --bg:#08090d;--bg-surface:#0f1117;--bg-raised:#151821;
+      --accent:#c8f560;--accent-dim:rgba(200,245,96,0.1);
+      --flame:#ff6b35;--flame-dim:rgba(255,107,53,0.12);
+      --text:#e8e8ec;--muted:#6b7280;--faint:#3d4451;
+      --border:rgba(255,255,255,0.07);--border-lit:rgba(200,245,96,0.28);
+      --f-display:'Syne',sans-serif;--f-body:'DM Sans',sans-serif;--f-mono:'JetBrains Mono',monospace
     }
-    .tools-hero {
-      background: linear-gradient(135deg, #0f0f1a 0%, #1a1f2e 60%, #0d2137 100%);
-      color: #fff;
-      padding: 6rem 0 5rem;
-      text-align: center;
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--f-body);line-height:1.6;overflow-x:hidden}
+    a{color:inherit;text-decoration:none}
+
+    /* nav */
+    .site-nav{position:sticky;top:0;z-index:1000;background:rgba(8,9,13,0.85);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:1200px;margin:0 auto;padding:0 1.5rem;height:58px;display:flex;align-items:center;gap:2rem}
+    .nav-brand{font-family:var(--f-display);font-size:1.1rem;font-weight:800;color:var(--accent);text-decoration:none;letter-spacing:-0.02em;white-space:nowrap}
+    .nav-links{display:flex;align-items:center;gap:0.25rem;list-style:none;margin:0 0 0 auto;padding:0}
+    .nav-links a{font-family:var(--f-body);font-size:0.875rem;font-weight:500;color:var(--muted);text-decoration:none;padding:0.4rem 0.7rem;border-radius:6px;transition:color .2s,background .2s;white-space:nowrap}
+    .nav-links a:hover,.nav-links a.active{color:var(--text);background:rgba(255,255,255,0.06)}
+    .nav-live{color:var(--accent)!important;display:inline-flex;align-items:center;gap:0.4rem}
+    .live-dot{width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;animation:pulse-dot 2s infinite}
+    @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(1.3)}}
+    .nav-donate{color:var(--flame)!important;font-weight:700!important}
+    .nav-toggle{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+    .nav-toggle span{display:block;width:22px;height:2px;background:var(--text);transition:transform .3s,opacity .3s}
+    .has-dropdown{position:relative}
+    .nav-dropdown{display:none;position:absolute;top:100%;left:0;min-width:180px;background:var(--bg-raised);border:1px solid var(--border);border-radius:8px;padding:0.5rem 0;list-style:none;margin:0;z-index:100}
+    .has-dropdown:hover .nav-dropdown{display:block}
+    .nav-dropdown li a{display:block;padding:0.4rem 1rem;color:var(--muted);font-size:0.83rem;border-radius:0}
+    .nav-dropdown li a:hover{color:var(--text);background:rgba(255,255,255,0.05)}
+    @media(max-width:900px){
+      .nav-toggle{display:flex}
+      .nav-links{display:none;flex-direction:column;position:absolute;top:58px;left:0;right:0;background:rgba(8,9,13,0.97);padding:1rem;gap:0.25rem;align-items:flex-start}
+      .nav-links.open{display:flex}
+      .nav-links a{padding:0.6rem 0.75rem;width:100%}
     }
-    .tools-hero h1 {
-      font-size: 2.8rem;
-      font-weight: 800;
-      margin-bottom: 1rem;
-    }
-    .tools-hero p.lead {
-      color: #a8b5c8;
-      max-width: 580px;
-      margin: 0 auto 2rem;
-      font-size: 1.05rem;
-      line-height: 1.7;
-    }
-    .coming-soon-badge {
-      display: inline-block;
-      background: rgba(61,214,140,0.15);
-      color: #3dd68c;
-      border: 1px solid rgba(61,214,140,0.35);
-      border-radius: 50px;
-      padding: 0.3rem 1rem;
-      font-size: 0.8rem;
-      font-weight: 700;
-      letter-spacing: 0.1em;
-      margin-bottom: 1.5rem;
-    }
-    .tool-placeholder-card {
-      background: #fff;
-      border: 1px solid #e9ecef;
-      border-radius: 1rem;
-      padding: 2rem 1.75rem;
-      text-align: center;
-      height: 100%;
-      transition: transform 0.2s, box-shadow 0.2s;
-      position: relative;
-      overflow: hidden;
-    }
-    .tool-placeholder-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, #0d6efd, #3dd68c);
-    }
-    .tool-placeholder-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 32px rgba(0,0,0,0.08);
-    }
-    .tool-icon {
-      width: 3.5rem;
-      height: 3.5rem;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.4rem;
-      margin: 0 auto 1.25rem;
-    }
-    .tool-placeholder-card h5 { font-weight: 700; margin-bottom: 0.5rem; }
-    .tool-placeholder-card p { color: #6c757d; font-size: 0.92rem; line-height: 1.6; margin: 0; }
-    .free-badge {
-      background: #d1fae5;
-      color: #065f46;
-      font-size: 0.65rem;
-      font-weight: 700;
-      padding: 0.15rem 0.5rem;
-      border-radius: 10px;
-      border: 1px solid #a7f3d0;
-    }
-    .paid-badge {
-      background: #fef3c7;
-      color: #92400e;
-      font-size: 0.65rem;
-      font-weight: 700;
-      padding: 0.15rem 0.5rem;
-      border-radius: 10px;
-      border: 1px solid #fde68a;
-    }
-    .blur-overlay {
-      position: absolute;
-      inset: 0;
-      background: rgba(255,255,255,0.6);
-      backdrop-filter: blur(2px);
-      border-radius: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 700;
-      color: #6c757d;
-      font-size: 0.9rem;
-      letter-spacing: 0.05em;
-    }
-    @media (max-width: 575px) {
-      .tools-hero h1 { font-size: 2rem; }
-    }
+
+    /* hero */
+    .tools-hero{position:relative;padding:5.5rem 1.5rem 4.5rem;overflow:hidden;text-align:center;background:var(--bg-surface)}
+    .tools-hero::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(200,245,96,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(200,245,96,0.04) 1px,transparent 1px);background-size:40px 40px;pointer-events:none}
+    .tools-hero::after{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 60% at 50% 0%,rgba(200,245,96,0.07),transparent 70%);pointer-events:none}
+    .hero-inner{position:relative;z-index:1;max-width:720px;margin:0 auto}
+    .hero-badge{display:inline-flex;align-items:center;gap:0.5rem;font-family:var(--f-mono);font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:var(--accent);background:var(--accent-dim);border:1px solid var(--border-lit);border-radius:50px;padding:0.35rem 1rem;margin-bottom:1.5rem}
+    .hero-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--accent);flex-shrink:0;animation:pulse-dot 2s infinite}
+    .tools-hero h1{font-family:var(--f-display);font-size:clamp(2.4rem,5vw,3.8rem);font-weight:800;line-height:1.1;letter-spacing:-0.03em;margin-bottom:1rem}
+    .tools-hero h1 em{font-style:normal;color:var(--accent)}
+    .tools-hero .lead{font-size:1.05rem;color:var(--muted);max-width:560px;margin:0 auto 2rem;line-height:1.7}
+    .hero-meta{display:flex;align-items:center;justify-content:center;gap:2rem;flex-wrap:wrap}
+    .hero-meta-item{display:flex;align-items:center;gap:0.5rem;font-size:0.88rem;color:var(--muted)}
+    .hero-meta-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+
+    /* tools section */
+    .tools-section{padding:5rem 1.5rem}
+    .section-inner{max-width:1100px;margin:0 auto}
+    .section-header{text-align:center;margin-bottom:3.5rem}
+    .section-eyebrow{font-family:var(--f-mono);font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--accent);margin-bottom:0.75rem}
+    .section-title{font-family:var(--f-display);font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;letter-spacing:-0.02em;margin-bottom:0.75rem}
+
+    /* tool grid */
+    .tool-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1.5rem}
+    .tool-card{background:var(--bg-raised);border:1px solid var(--border);border-radius:14px;padding:1.75rem;position:relative;overflow:hidden;transition:border-color .25s,transform .25s}
+    .tool-card.live{border-color:rgba(200,245,96,0.2);cursor:pointer}
+    .tool-card.live:hover{border-color:var(--border-lit);transform:translateY(-4px)}
+    .tool-card.live::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--accent),rgba(200,245,96,0.3))}
+    .tool-icon{width:3rem;height:3rem;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:1.25rem}
+    .tool-badges{display:flex;gap:0.4rem;margin-bottom:0.75rem;flex-wrap:wrap}
+    .badge-free{font-family:var(--f-mono);font-size:0.62rem;font-weight:700;padding:0.15rem 0.55rem;border-radius:50px;background:rgba(200,245,96,0.1);color:var(--accent);border:1px solid rgba(200,245,96,0.25)}
+    .badge-premium{font-family:var(--f-mono);font-size:0.62rem;font-weight:700;padding:0.15rem 0.55rem;border-radius:50px;background:rgba(200,245,96,0.06);color:var(--accent);border:1px solid rgba(200,245,96,0.15)}
+    .badge-paid{font-family:var(--f-mono);font-size:0.62rem;font-weight:700;padding:0.15rem 0.55rem;border-radius:50px;background:rgba(255,214,10,0.1);color:#ffd60a;border:1px solid rgba(255,214,10,0.25)}
+    .tool-card h5{font-family:var(--f-display);font-size:1.05rem;font-weight:800;margin-bottom:0.5rem}
+    .tool-card p{color:var(--muted);font-size:0.88rem;line-height:1.6;margin:0 0 1.25rem}
+    .tool-launch{display:inline-flex;align-items:center;gap:0.4rem;background:var(--accent);color:#08090d;font-family:var(--f-body);font-weight:700;font-size:0.82rem;padding:0.5rem 1.1rem;border-radius:6px;transition:opacity .2s}
+    .tool-launch:hover{opacity:.85}
+
+    /* dev overlay */
+    .dev-overlay{position:absolute;inset:0;background:rgba(8,9,13,0.7);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);border-radius:14px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.5rem}
+    .dev-badge{font-family:var(--f-mono);font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);background:var(--bg-raised);border:1px solid var(--border);border-radius:50px;padding:0.35rem 1rem}
+    .dev-sub{font-family:var(--f-mono);font-size:0.68rem;color:var(--faint)}
+
+    /* bottom CTA */
+    .bottom-cta{padding:4rem 1.5rem;text-align:center;border-top:1px solid var(--border);background:var(--bg-surface)}
+    .bottom-cta-inner{max-width:520px;margin:0 auto}
+    .bottom-cta p{color:var(--muted);margin-bottom:1.5rem;line-height:1.7}
+    .cta-btn-row{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap}
+    .btn-accent{display:inline-flex;align-items:center;gap:0.5rem;background:var(--accent);color:#08090d;font-family:var(--f-body);font-weight:700;font-size:0.9rem;padding:0.7rem 1.5rem;border-radius:8px;text-decoration:none;transition:opacity .2s,transform .2s}
+    .btn-accent:hover{opacity:.88;transform:translateY(-2px)}
+    .btn-ghost{display:inline-flex;align-items:center;gap:0.5rem;background:transparent;color:var(--muted);font-family:var(--f-body);font-weight:500;font-size:0.9rem;padding:0.7rem 1.5rem;border-radius:8px;border:1px solid var(--border);text-decoration:none;transition:color .2s,border-color .2s}
+    .btn-ghost:hover{color:var(--text);border-color:var(--border-lit)}
+
+    /* scroll reveal */
+    .reveal{opacity:0;transform:translateY(28px);transition:opacity .6s ease,transform .6s ease}
+    .reveal.visible{opacity:1;transform:none}
+
+    /* footer */
+    .site-footer{background:var(--bg-surface);border-top:1px solid var(--border);padding:2rem 1.5rem}
+    .footer-inner{max-width:1100px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+    .footer-brand{font-family:var(--f-display);font-size:0.95rem;color:var(--accent)}
+    .footer-copy{font-size:0.83rem;color:var(--muted)}
+    .footer-links{display:flex;gap:1.5rem}
+    .footer-links a{font-size:0.83rem;color:var(--muted);transition:color .2s}
+    .footer-links a:hover{color:var(--text)}
+
+    /* kofi fab */
+    .kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:var(--flame);color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,107,53,.4);transition:transform .2s,box-shadow .2s}
+    .kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,107,53,.55);color:#fff}
+    @media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
+    @media(max-width:640px){.tool-grid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">My Portfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
+<nav class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">George Condrea</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
-        <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        <li class="nav-item"><a class="nav-link active" href="tools.html">Tools</a></li>
-        <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Donate</a></li>
-      </ul>
-    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li class="has-dropdown">
+        <a href="projects.html">Projects</a>
+        <ul class="nav-dropdown">
+          <li><a href="scamazon-website.html">Scamazon</a></li>
+          <li><a href="platformer.html">Platformer</a></li>
+          <li><a href="cybersecurity-news-project.html">Security News</a></li>
+        </ul>
+      </li>
+      <li><a href="curriculum-vitae.html">CV</a></li>
+      <li><a href="tools.html" class="active">Tools</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cybersecurity-news.html" class="nav-live">Security News <span class="live-dot"></span></a></li>
+      <li><a href="donate.html" class="nav-donate">&#9749; Donate</a></li>
+    </ul>
   </div>
 </nav>
 
 <section class="tools-hero">
-  <div class="container">
-    <div class="coming-soon-badge">1 LIVE &bull; MORE COMING</div>
-    <h1>Cybersecurity Tools</h1>
-    <p class="lead">
-      A growing collection of practical security tools, built for students, enthusiasts, and professionals.
-      Some are free, some require a one-time payment.
-    </p>
-    <div class="d-flex justify-content-center gap-3 flex-wrap">
-      <span class="d-inline-flex align-items-center gap-2" style="color:#a8b5c8;font-size:0.9rem;">
-        <i class="bi bi-unlock-fill" style="color:#3dd68c;"></i> Free tools available
-      </span>
-      <span class="d-inline-flex align-items-center gap-2" style="color:#a8b5c8;font-size:0.9rem;">
-        <i class="bi bi-key-fill" style="color:#ffc107;"></i> One-time payment tools
-      </span>
-    </div>
-  </div>
-</section>
-
-<section class="py-5">
-  <div class="container">
-    <div class="text-center mb-5">
-      <h2 class="fw-bold">What's Coming</h2>
-      <p class="text-muted" style="max-width:520px;margin:0.5rem auto 0;">
-        Tools are currently in development. Here's a preview of what's planned.
-      </p>
-    </div>
-
-    <div class="row g-4">
-
-      <div class="col-sm-6 col-lg-4">
-        <a href="password-analyzer.html" class="text-decoration-none">
-        <div class="tool-placeholder-card" style="position:relative;cursor:pointer;border-color:#90c2ff;">
-          <div class="tool-icon" style="background:#e8f4fd;">
-            <i class="bi bi-shield-lock-fill" style="color:#0d6efd;"></i>
-          </div>
-          <div class="d-flex justify-content-center gap-2 mb-2">
-            <span class="free-badge">FREE</span>
-            <span style="background:#e7f3ff;color:#0d6efd;font-size:0.65rem;font-weight:700;padding:0.15rem 0.5rem;border-radius:10px;border:1px solid #90c2ff;">+ PREMIUM</span>
-          </div>
-          <h5 style="color:#212529;">Password Security Analyzer</h5>
-          <p style="color:#6c757d;">Entropy score, crack times, pattern detection, NIST compliance and more. All 100% local.</p>
-          <div class="mt-3">
-            <span class="btn btn-primary btn-sm">Launch Tool <i class="bi bi-arrow-right ms-1"></i></span>
-          </div>
-        </div>
-        </a>
+  <div class="hero-inner">
+    <div class="hero-badge"><span class="dot"></span> 1 Live &bull; More Coming</div>
+    <h1>Cybersecurity<br><em>Tools</em></h1>
+    <p class="lead">A growing collection of practical security tools, built for students, enthusiasts, and professionals. Some are free, some require a one-time payment.</p>
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <span class="hero-meta-dot" style="background:var(--accent)"></span>
+        Free tools available
       </div>
-
-      <div class="col-sm-6 col-lg-4">
-        <div class="tool-placeholder-card" style="position:relative;">
-          <div class="tool-icon" style="background:#fff0f0;">
-            <i class="bi bi-search" style="color:#dc3545;"></i>
-          </div>
-          <div class="d-flex justify-content-center gap-2 mb-2">
-            <span class="free-badge">FREE</span>
-          </div>
-          <h5>Header Inspector</h5>
-          <p>Check any URL's HTTP security headers and see which are missing or misconfigured.</p>
-          <div class="blur-overlay">In Development</div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-4">
-        <div class="tool-placeholder-card" style="position:relative;">
-          <div class="tool-icon" style="background:#f0fff4;">
-            <i class="bi bi-hash" style="color:#198754;"></i>
-          </div>
-          <div class="d-flex justify-content-center gap-2 mb-2">
-            <span class="free-badge">FREE</span>
-          </div>
-          <h5>File Hash Generator</h5>
-          <p>Generate MD5, SHA-1, and SHA-256 hashes for files directly in your browser. No upload required.</p>
-          <div class="blur-overlay">In Development</div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-4">
-        <div class="tool-placeholder-card" style="position:relative;">
-          <div class="tool-icon" style="background:#fff8e1;">
-            <i class="bi bi-envelope-exclamation-fill" style="color:#e67e00;"></i>
-          </div>
-          <div class="d-flex justify-content-center gap-2 mb-2">
-            <span class="paid-badge">ONE-TIME</span>
-          </div>
-          <h5>Phishing Email Analyser</h5>
-          <p>Paste an email header or body and get an AI-powered breakdown of phishing indicators and risk level.</p>
-          <div class="blur-overlay">In Development</div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-4">
-        <div class="tool-placeholder-card" style="position:relative;">
-          <div class="tool-icon" style="background:#f3e8ff;">
-            <i class="bi bi-terminal-fill" style="color:#6f42c1;"></i>
-          </div>
-          <div class="d-flex justify-content-center gap-2 mb-2">
-            <span class="paid-badge">ONE-TIME</span>
-          </div>
-          <h5>OSINT Lookup Tool</h5>
-          <p>Aggregate public intelligence on domains, IPs, and emails from multiple sources in one clean report.</p>
-          <div class="blur-overlay">In Development</div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-4">
-        <div class="tool-placeholder-card" style="position:relative;">
-          <div class="tool-icon" style="background:#e8f4fd;">
-            <i class="bi bi-person-bounding-box" style="color:#0d6efd;"></i>
-          </div>
-          <div class="d-flex justify-content-center gap-2 mb-2">
-            <span class="free-badge">FREE</span>
-          </div>
-          <h5>Base64 Encoder / Decoder</h5>
-          <p>Quickly encode or decode Base64 strings, useful for CTF challenges, JWT inspection, and general analysis.</p>
-          <div class="blur-overlay">In Development</div>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="text-center mt-5">
-      <p class="text-muted mb-4" style="max-width:480px;margin-left:auto;margin-right:auto;">
-        Want to be notified when tools launch? Check back here, or follow progress on GitHub.
-      </p>
-      <div class="d-flex justify-content-center gap-3 flex-wrap">
-        <a href="contact.html" class="btn btn-primary">
-          <i class="bi bi-bell-fill me-2"></i>Get in Touch
-        </a>
-        <a href="https://github.com/Prototype2Kxx" target="_blank" rel="noopener" class="btn btn-outline-secondary">
-          <i class="bi bi-github me-2"></i>GitHub
-        </a>
+      <div class="hero-meta-item">
+        <span class="hero-meta-dot" style="background:#ffd60a"></span>
+        One-time payment tools
       </div>
     </div>
   </div>
 </section>
 
-<footer class="bg-dark text-white text-center py-3">
-  <div class="container">
-    &copy; 2025 George Condrea. All rights reserved.
+<section class="tools-section">
+  <div class="section-inner">
+    <div class="section-header">
+      <div class="section-eyebrow">The Toolkit</div>
+      <h2 class="section-title">What's Available and What's Coming</h2>
+    </div>
+    <div class="tool-grid reveal">
+
+      <!-- Live: Password Analyzer -->
+      <a href="password-analyzer.html" class="tool-card live" style="text-decoration:none;color:inherit;display:block">
+        <div class="tool-icon" style="background:rgba(200,245,96,0.1)">&#128274;</div>
+        <div class="tool-badges">
+          <span class="badge-free">FREE</span>
+          <span class="badge-premium">+ PREMIUM</span>
+        </div>
+        <h5>Password Security Analyzer</h5>
+        <p>Entropy score, crack times, pattern detection, NIST compliance, attack simulation and more. All 100% local in your browser.</p>
+        <span class="tool-launch">Launch Tool &#8594;</span>
+      </a>
+
+      <!-- Dev: Header Inspector -->
+      <div class="tool-card" style="position:relative">
+        <div class="tool-icon" style="background:rgba(255,107,53,0.1)">&#128270;</div>
+        <div class="tool-badges"><span class="badge-free">FREE</span></div>
+        <h5>Header Inspector</h5>
+        <p>Check any URL's HTTP security headers and see which are missing or misconfigured.</p>
+        <div class="dev-overlay">
+          <span class="dev-badge">In Development</span>
+          <span class="dev-sub">Coming soon</span>
+        </div>
+      </div>
+
+      <!-- Dev: File Hash Generator -->
+      <div class="tool-card" style="position:relative">
+        <div class="tool-icon" style="background:rgba(200,245,96,0.08)">#</div>
+        <div class="tool-badges"><span class="badge-free">FREE</span></div>
+        <h5>File Hash Generator</h5>
+        <p>Generate MD5, SHA-1, and SHA-256 hashes for files directly in your browser. No upload required.</p>
+        <div class="dev-overlay">
+          <span class="dev-badge">In Development</span>
+          <span class="dev-sub">Coming soon</span>
+        </div>
+      </div>
+
+      <!-- Dev: Phishing Analyser -->
+      <div class="tool-card" style="position:relative">
+        <div class="tool-icon" style="background:rgba(255,214,10,0.08)">&#128140;</div>
+        <div class="tool-badges"><span class="badge-paid">ONE-TIME</span></div>
+        <h5>Phishing Email Analyser</h5>
+        <p>Paste an email header or body and get an AI-powered breakdown of phishing indicators and risk level.</p>
+        <div class="dev-overlay">
+          <span class="dev-badge">In Development</span>
+          <span class="dev-sub">Coming soon</span>
+        </div>
+      </div>
+
+      <!-- Dev: OSINT Lookup -->
+      <div class="tool-card" style="position:relative">
+        <div class="tool-icon" style="background:rgba(191,90,242,0.08)">&#128203;</div>
+        <div class="tool-badges"><span class="badge-paid">ONE-TIME</span></div>
+        <h5>OSINT Lookup Tool</h5>
+        <p>Aggregate public intelligence on domains, IPs, and emails from multiple sources in one clean report.</p>
+        <div class="dev-overlay">
+          <span class="dev-badge">In Development</span>
+          <span class="dev-sub">Coming soon</span>
+        </div>
+      </div>
+
+      <!-- Dev: Base64 -->
+      <div class="tool-card" style="position:relative">
+        <div class="tool-icon" style="background:rgba(10,132,255,0.08)">64</div>
+        <div class="tool-badges"><span class="badge-free">FREE</span></div>
+        <h5>Base64 Encoder / Decoder</h5>
+        <p>Quickly encode or decode Base64 strings, useful for CTF challenges, JWT inspection, and general analysis.</p>
+        <div class="dev-overlay">
+          <span class="dev-badge">In Development</span>
+          <span class="dev-sub">Coming soon</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<div class="bottom-cta">
+  <div class="bottom-cta-inner reveal">
+    <p>Want to be notified when tools launch? Check back here, or follow progress on GitHub.</p>
+    <div class="cta-btn-row">
+      <a href="contact.html" class="btn-accent">Get in Touch</a>
+      <a href="https://github.com/Prototype2Kxx" target="_blank" rel="noopener" class="btn-ghost">GitHub &#8599;</a>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="footer-brand">George Condrea</span>
+    <span class="footer-copy">&copy; 2025 George Condrea. All rights reserved.</span>
+    <nav class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </div>
 </footer>
 
 <a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
    title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
-  ☕ <span class="kofi-fab-text">Donate</span>
+  &#9749; <span class="kofi-fab-text">Donate</span>
 </a>
-<style>
-.kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:#FF5E5B;color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,94,91,.4);transition:transform .2s,box-shadow .2s}
-.kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,94,91,.55);color:#fff}
-@media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
-</style>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+(function(){
+  var t=document.getElementById('navToggle'),l=document.getElementById('navLinks');
+  t.addEventListener('click',function(){l.classList.toggle('open')});
+})();
+</script>
+<script>
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});
+  },{threshold:0.1});
+  els.forEach(function(el){io.observe(el)});
+})();
+</script>
+
 </body>
 </html>

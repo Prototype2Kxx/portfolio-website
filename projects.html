@@ -4,210 +4,263 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <title>Projects | George Condrea | Web &amp; Software Development</title>
   <meta name="description" content="Explore George Condrea's development projects including Scamazon e-commerce, Knight in the Night platformer game, and a Personal Finance Management System.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <style>
-    /* Carousel images need an explicit height; the parent col has no height when stacked on mobile */
-    @media (max-width: 767px) {
-      .carousel, .carousel-inner, .carousel-item { min-height: 240px; }
-      .carousel-item img, .carousel-item video { height: 240px; width: 100%; object-fit: cover; }
-      .card-body { padding: 1.25rem; }
+    :root{--bg:#08090d;--bg-surface:#0f1117;--bg-raised:#151821;--accent:#c8f560;--accent-dim:rgba(200,245,96,0.1);--flame:#ff6b35;--flame-dim:rgba(255,107,53,0.12);--text:#e8e8ec;--muted:#6b7280;--faint:#3d4451;--border:rgba(255,255,255,0.07);--border-lit:rgba(200,245,96,0.28);--f-display:'Syne',sans-serif;--f-body:'DM Sans',sans-serif;--f-mono:'JetBrains Mono',monospace}
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{background:var(--bg);color:var(--text);font-family:var(--f-body);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased;margin:0}
+    ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:var(--bg)}::-webkit-scrollbar-thumb{background:var(--faint);border-radius:4px}
+    a{color:inherit;text-decoration:none}
+    img,video{max-width:100%}
+
+    .site-nav{position:sticky;top:0;z-index:200;background:rgba(8,9,13,0.88);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom:1px solid var(--border)}
+    .nav-inner{max-width:1240px;margin:0 auto;padding:0 2rem;height:58px;display:flex;align-items:center;justify-content:space-between;gap:1rem}
+    .nav-brand{font-family:var(--f-display);font-weight:800;font-size:1.05rem;color:var(--text)}
+    .nav-brand em{font-style:normal;color:var(--accent)}
+    .nav-links{display:flex;align-items:center;list-style:none;gap:.1rem;padding:0;margin:0}
+    .nav-links a{display:block;padding:.35rem .7rem;font-size:.82rem;font-weight:500;color:var(--muted);border-radius:6px;transition:color .18s,background .18s;white-space:nowrap}
+    .nav-links a:hover,.nav-links a.active{color:var(--text);background:var(--border)}
+    .nav-live{color:#4ade80!important}.nav-live:hover{background:rgba(74,222,128,.08)!important}
+    .nav-donate{color:var(--flame)!important;font-weight:600!important}.nav-donate:hover{background:var(--flame-dim)!important}
+    .nav-toggle{display:none;background:none;border:1px solid var(--border);border-radius:6px;color:var(--muted);padding:.45rem .65rem;cursor:pointer;font-size:1rem;line-height:1}
+    @media(max-width:920px){.nav-toggle{display:block}.nav-links{display:none;position:absolute;top:58px;left:0;right:0;background:rgba(8,9,13,.97);border-bottom:1px solid var(--border);flex-direction:column;align-items:stretch;padding:.5rem 1rem 1rem}.nav-links.open{display:flex}.nav-links a{padding:.65rem .8rem;font-size:.9rem}}
+
+    .site-footer{border-top:1px solid var(--border);padding:1.75rem 0}
+    .footer-inner{max-width:1240px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.75rem}
+    .footer-brand{font-family:var(--f-display);font-weight:700;font-size:.9rem;color:var(--muted)}
+    .footer-brand em{font-style:normal;color:var(--accent)}
+    .footer-copy{font-size:.77rem;color:var(--faint)}
+
+    .kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:var(--flame);color:#fff;padding:.6rem 1.1rem;border-radius:50px;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,107,53,.4);transition:transform .2s,box-shadow .2s;text-decoration:none}
+    .kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,107,53,.55);color:#fff}
+    @media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
+
+    @keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+    @keyframes pulseDot{0%,100%{opacity:1}50%{opacity:.4;transform:scale(1.4)}}
+    .reveal{opacity:0;transform:translateY(26px);transition:opacity .6s ease,transform .6s ease}
+    .reveal.visible{opacity:1;transform:none}
+
+    /* Page hero */
+    .page-hero{position:relative;padding:5rem 0 4rem;overflow:hidden;min-height:42vh;display:flex;flex-direction:column;justify-content:center;border-bottom:1px solid var(--border)}
+    .ph-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);background-size:48px 48px;pointer-events:none}
+    .ph-glow{position:absolute;top:-20%;left:-5%;width:55%;height:80%;background:radial-gradient(ellipse,rgba(200,245,96,.05) 0%,transparent 60%);pointer-events:none}
+    .ph-inner{position:relative;z-index:2;max-width:1240px;margin:0 auto;padding:0 2rem}
+
+    .hero-kicker{font-family:var(--f-mono);font-size:.7rem;color:var(--accent);letter-spacing:.2em;text-transform:uppercase;display:flex;align-items:center;gap:.65rem;margin-bottom:1.2rem;opacity:0;animation:fadeUp .65s ease .1s forwards}
+    .hero-kicker::before{content:'';display:inline-block;width:28px;height:1px;background:var(--accent);flex-shrink:0}
+    .page-title{font-family:var(--f-display);font-weight:800;font-size:clamp(2.8rem,5.5vw,5rem);line-height:1.0;letter-spacing:-.025em;color:var(--text);margin-bottom:.6rem;opacity:0;animation:fadeUp .65s ease .22s forwards}
+    .page-sub{font-size:.975rem;color:var(--muted);line-height:1.8;max-width:480px;opacity:0;animation:fadeUp .65s ease .36s forwards}
+
+    /* Project cards */
+    .projects-list{max-width:1240px;margin:0 auto;padding:4rem 2rem;display:flex;flex-direction:column;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:14px;overflow:hidden;margin-top:3rem}
+    .proj-wrap{max-width:1240px;margin:4rem auto 5rem;padding:0 2rem}
+
+    .proj-card{background:var(--bg);display:grid;grid-template-columns:1fr 1fr;transition:background .22s}
+    .proj-card:hover{background:var(--bg-surface)}
+    .proj-card.flip{direction:rtl}
+    .proj-card.flip > *{direction:ltr}
+
+    /* Carousel inside card */
+    .proj-carousel-wrap{overflow:hidden;position:relative;min-height:340px}
+    .carousel,.carousel-inner,.carousel-item{height:100%}
+    .carousel-item img,.carousel-item video{width:100%;height:340px;object-fit:cover;display:block}
+
+    /* Dark carousel controls */
+    .carousel-control-prev,.carousel-control-next{width:2.5rem;background:rgba(8,9,13,.6)}
+    .carousel-indicators [data-bs-target]{background-color:var(--accent);opacity:.5}
+    .carousel-indicators .active{opacity:1}
+
+    .proj-info{padding:3rem 2.75rem;display:flex;flex-direction:column;justify-content:center}
+    .proj-num{font-family:var(--f-mono);font-size:.62rem;color:var(--faint);letter-spacing:.2em;margin-bottom:1rem}
+    .proj-tag{display:inline-flex;align-items:center;gap:.35rem;font-family:var(--f-mono);font-size:.63rem;letter-spacing:.07em;color:var(--accent);background:var(--accent-dim);border:1px solid rgba(200,245,96,.2);padding:.22rem .65rem;border-radius:20px;width:fit-content;margin-bottom:1.1rem}
+    .proj-tag.live::before{content:'';width:5px;height:5px;background:var(--accent);border-radius:50%;flex-shrink:0;animation:pulseDot 1.5s ease-in-out infinite}
+    .proj-title{font-family:var(--f-display);font-weight:800;font-size:clamp(1.2rem,2vw,1.65rem);line-height:1.15;letter-spacing:-.015em;color:var(--text);margin-bottom:.85rem}
+    .proj-desc{font-size:.875rem;color:var(--muted);line-height:1.78;margin-bottom:1.85rem}
+    .proj-links{display:flex;flex-wrap:wrap;gap:.75rem}
+
+    .btn-lime{display:inline-flex;align-items:center;gap:.4rem;background:var(--accent);color:#060700;font-family:var(--f-body);font-weight:700;font-size:.875rem;padding:.72rem 1.5rem;border-radius:7px;transition:background .2s,transform .2s,box-shadow .2s;text-decoration:none}
+    .btn-lime:hover{background:#d9ff6e;color:#060700;transform:translateY(-2px);box-shadow:0 8px 28px rgba(200,245,96,.28)}
+    .btn-ghost{display:inline-flex;align-items:center;gap:.4rem;background:transparent;color:var(--text);font-family:var(--f-body);font-weight:500;font-size:.875rem;padding:.72rem 1.5rem;border-radius:7px;border:1px solid var(--border);transition:border-color .2s,background .2s,transform .2s;text-decoration:none}
+    .btn-ghost:hover{border-color:var(--border-lit);background:var(--accent-dim);color:var(--text);transform:translateY(-2px)}
+
+    /* News mockup */
+    .news-mockup{width:100%;height:340px;background:#060c18;display:flex;flex-direction:column;justify-content:center;gap:.7rem;padding:1.75rem}
+    .news-card{background:rgba(255,255,255,.04);border-radius:8px;padding:.8rem 1rem;border-left:3px solid transparent}
+    .nc-crit{border-left-color:#ef4444}.nc-high{border-left-color:#f97316}.nc-live{border-left-color:var(--accent)}
+    .news-badge{display:inline-block;font-family:var(--f-mono);font-size:.58rem;padding:.12rem .42rem;border-radius:3px;letter-spacing:.06em;margin-bottom:.35rem}
+    .b-crit{background:rgba(239,68,68,.14);color:#ef4444}.b-high{background:rgba(249,115,22,.14);color:#f97316}.b-live{background:var(--accent-dim);color:var(--accent)}
+    .news-text{font-family:var(--f-mono);font-size:.68rem;color:#94a3b8;line-height:1.5;margin:0}
+
+    @media(max-width:760px){
+      .proj-card{grid-template-columns:1fr;direction:ltr!important}
+      .proj-carousel-wrap{min-height:230px}
+      .carousel-item img,.carousel-item video{height:230px}
+      .proj-info{padding:1.75rem 1.5rem}
+      .news-mockup{height:230px}
     }
-    @media (min-width: 768px) {
-      .carousel, .carousel-inner { height: 340px; }
-      .carousel-item img, .carousel-item video { height: 340px; object-fit: cover; }
-    }
+
+    .s-eyebrow{font-family:var(--f-mono);font-size:.65rem;color:var(--faint);letter-spacing:.22em;text-transform:uppercase;margin-bottom:.55rem}
+    .s-eyebrow em{font-style:normal;color:var(--accent)}
+    .s-heading{font-family:var(--f-display);font-weight:800;font-size:clamp(1.6rem,3.5vw,2.5rem);line-height:1.1;letter-spacing:-.02em;color:var(--text);margin-bottom:2rem}
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">My Portfolio</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="curriculum-vitae.html">CV</a></li>
-        <li class="nav-item"><a class="nav-link fw-semibold" href="cybersecurity-news.html" style="color:#3dd68c!important;">Security News <span class="badge rounded-pill ms-1" style="background:#198754;font-size:0.58rem;vertical-align:middle;">LIVE</span></a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="tools.html">Tools</a></li>
-        <li class="nav-item"><a class="nav-link fw-semibold" href="donate.html" style="color:#FF5E5B!important;">☕ Donate</a></li>
-      </ul>
-    </div>
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">George<em>.</em></a>
+    <button class="nav-toggle" id="navToggle">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html" class="active">Projects</a></li>
+      <li><a href="curriculum-vitae.html">CV</a></li>
+      <li><a href="cybersecurity-news.html" class="nav-live">Security News <small style="font-size:.58rem;background:#14532d;color:#86efac;padding:.1rem .38rem;border-radius:3px;margin-left:2px;vertical-align:middle;font-family:'JetBrains Mono',monospace;">LIVE</small></a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="tools.html">Tools</a></li>
+      <li><a href="donate.html" class="nav-donate">&#9749; Donate</a></li>
+    </ul>
   </div>
 </nav>
 
-<div class="container py-5">
-  <h2 class="text-center mb-5">My Projects</h2>
+<section class="page-hero">
+  <div class="ph-grid"></div>
+  <div class="ph-glow"></div>
+  <div class="ph-inner">
+    <p class="hero-kicker">My Work</p>
+    <h1 class="page-title">Projects.</h1>
+    <p class="page-sub">A collection of real projects built to solve real problems, sharpen specific skills, and explore new technologies.</p>
+  </div>
+</section>
 
-  
-  <div class="card mb-5 shadow-sm overflow-hidden">
-    <div class="row g-0">
-      <div class="col-md-6">
+<div class="proj-wrap">
+  <div class="reveal">
+    <p class="s-eyebrow"><em>01</em> / all projects</p>
+    <h2 class="s-heading">Everything I've Built.</h2>
+  </div>
+
+  <div style="display:flex;flex-direction:column;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:14px;overflow:hidden;" class="reveal" style="transition-delay:.1s">
+
+    <!-- Scamazon -->
+    <div class="proj-card">
+      <div class="proj-carousel-wrap">
         <div id="scamazonCarousel" class="carousel slide h-100" data-bs-ride="carousel">
           <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100">
-              <img src="img/scamazon/preview-1.png" class="d-block w-100 h-100 object-fit-cover" alt="Scamazon Screenshot 1">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/scamazon/preview-2.png" class="d-block w-100 h-100 object-fit-cover" alt="Scamazon Screenshot 2">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/scamazon/preview-3.png" class="d-block w-100 h-100 object-fit-cover" alt="Scamazon Screenshot 3">
-            </div>
+            <div class="carousel-item active h-100"><img src="img/scamazon/preview-1.png" alt="Scamazon Screenshot 1"></div>
+            <div class="carousel-item h-100"><img src="img/scamazon/preview-2.png" alt="Scamazon Screenshot 2"></div>
+            <div class="carousel-item h-100"><img src="img/scamazon/preview-3.png" alt="Scamazon Screenshot 3"></div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 d-flex align-items-center">
-        <div class="card-body">
-          <h5 class="card-title">Scamazon E-Commerce Website</h5>
-          <p class="card-text">A fully responsive mock e-commerce site built with HTML, CSS, and JavaScript. It features a working cart, product search, modals, and a checkout process.</p>
-          <a href="scamazon-website.html" class="btn btn-primary">Learn More</a>
+      <div class="proj-info">
+        <div class="proj-num">Project 01</div>
+        <div class="proj-tag">HTML / CSS / JS</div>
+        <h3 class="proj-title">Scamazon E-Commerce Website</h3>
+        <p class="proj-desc">A fully responsive mock e-commerce site with a working cart, product search, modals, and a complete checkout process. Built with vanilla HTML, CSS, and JavaScript.</p>
+        <div class="proj-links">
+          <a href="scamazon-website.html" class="btn-lime">Learn More &rarr;</a>
+          <a href="https://prototype2kxx.github.io/scamazon-website/" class="btn-ghost" target="_blank">View Live</a>
         </div>
       </div>
     </div>
-  </div>
 
-  
-  <div class="card mb-5 shadow-sm overflow-hidden">
-    <div class="row g-0">
-      <div class="col-md-6">
+    <!-- Knight platformer -->
+    <div class="proj-card flip">
+      <div class="proj-carousel-wrap">
         <div id="platformerCarousel" class="carousel slide h-100" data-bs-ride="carousel">
           <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100">
-              <img src="img/platformer/dynamic-ai.png" class="d-block w-100 h-100 object-fit-cover" alt="Dynamic AI">
-            </div>
-            <div class="carousel-item h-100">
-              <video autoplay loop muted playsinline class="d-block w-100 h-100 object-fit-cover">
-                <source src="img/platformer/gameplay.mp4" type="video/mp4">
-              </video>
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/inventory.png" class="d-block w-100 h-100 object-fit-cover" alt="Inventory">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/map1.png" class="d-block w-100 h-100 object-fit-cover" alt="Map 1">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/map2.png" class="d-block w-100 h-100 object-fit-cover" alt="Map 2">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/map3.png" class="d-block w-100 h-100 object-fit-cover" alt="Map 3">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/progression-system.png" class="d-block w-100 h-100 object-fit-cover" alt="Progression System">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/shop1.png" class="d-block w-100 h-100 object-fit-cover" alt="Shop 1">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/shop2.png" class="d-block w-100 h-100 object-fit-cover" alt="Shop 2">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/shop3.png" class="d-block w-100 h-100 object-fit-cover" alt="Shop 3">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/skills.png" class="d-block w-100 h-100 object-fit-cover" alt="Skills">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/platformer/unique-design.png" class="d-block w-100 h-100 object-fit-cover" alt="Unique Design">
-            </div>
+            <div class="carousel-item active h-100"><img src="img/platformer/dynamic-ai.png" alt="Dynamic AI"></div>
+            <div class="carousel-item h-100"><video autoplay loop muted playsinline style="height:340px;width:100%;object-fit:cover;display:block;"><source src="img/platformer/gameplay.mp4" type="video/mp4"></video></div>
+            <div class="carousel-item h-100"><img src="img/platformer/inventory.png" alt="Inventory"></div>
+            <div class="carousel-item h-100"><img src="img/platformer/map1.png" alt="Map 1"></div>
+            <div class="carousel-item h-100"><img src="img/platformer/progression-system.png" alt="Progression System"></div>
+            <div class="carousel-item h-100"><img src="img/platformer/skills.png" alt="Skills"></div>
+            <div class="carousel-item h-100"><img src="img/platformer/shop1.png" alt="Shop"></div>
+            <div class="carousel-item h-100"><img src="img/platformer/unique-design.png" alt="Unique Design"></div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 d-flex align-items-center">
-        <div class="card-body">
-          <h5 class="card-title">Knight in the Night at Night</h5>
-          <p class="card-text">A 2D platformer game developed with Pygame. It includes combat mechanics, skill trees, animated UI, shop systems, and more.</p>
-          <a href="platformer.html" class="btn btn-primary">Learn More</a>
+      <div class="proj-info">
+        <div class="proj-num">Project 02</div>
+        <div class="proj-tag">Python / Pygame</div>
+        <h3 class="proj-title">Knight in the Night at Night</h3>
+        <p class="proj-desc">A 2D platformer game developed with Pygame. Features combat mechanics, skill trees, animated UI, shop systems, inventory, and dynamic enemy AI.</p>
+        <div class="proj-links">
+          <a href="platformer.html" class="btn-lime">Learn More &rarr;</a>
         </div>
       </div>
     </div>
-  </div>
 
-  
-  <div class="card mb-5 shadow-sm overflow-hidden">
-    <div class="row g-0">
-      <div class="col-md-6">
+    <!-- PFMS -->
+    <div class="proj-card">
+      <div class="proj-carousel-wrap">
         <div id="pfmsCarousel" class="carousel slide h-100" data-bs-ride="carousel">
           <div class="carousel-inner h-100">
-            <div class="carousel-item active h-100">
-              <img src="img/pfms/preview-1.png" class="d-block w-100 h-100 object-fit-cover" alt="PFMS Screenshot 1">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/pfms/preview-2.png" class="d-block w-100 h-100 object-fit-cover" alt="PFMS Screenshot 2">
-            </div>
-            <div class="carousel-item h-100">
-              <img src="img/pfms/preview-3.png" class="d-block w-100 h-100 object-fit-cover" alt="PFMS Screenshot 3">
-            </div>
+            <div class="carousel-item active h-100"><img src="img/pfms/preview-1.png" alt="PFMS Screenshot 1"></div>
+            <div class="carousel-item h-100"><img src="img/pfms/preview-2.png" alt="PFMS Screenshot 2"></div>
+            <div class="carousel-item h-100"><img src="img/pfms/preview-3.png" alt="PFMS Screenshot 3"></div>
           </div>
         </div>
       </div>
-      <div class="col-md-6 d-flex align-items-center">
-        <div class="card-body">
-          <h5 class="card-title">Personal Finance Management System</h5>
-          <p class="card-text">A web-based personal finance tool for tracking income, expenses, and budgets. Built as my first year CiB web project, it provides clear visual summaries to help manage and understand your financial health.</p>
-          <a href="/pfms/index.html" target="_blank" class="btn btn-primary">View Project</a>
+      <div class="proj-info">
+        <div class="proj-num">Project 03</div>
+        <div class="proj-tag">HTML / CSS / JS</div>
+        <h3 class="proj-title">Personal Finance Management System</h3>
+        <p class="proj-desc">A web-based personal finance tool for tracking income, expenses, and budgets. Built as my first-year CiB web project, it provides clear visual summaries to help manage financial health.</p>
+        <div class="proj-links">
+          <a href="/pfms/index.html" class="btn-lime" target="_blank">View Project &rarr;</a>
         </div>
       </div>
     </div>
-  </div>
-  
-  <div class="card mb-5 shadow-sm overflow-hidden">
-    <div class="row g-0">
-      <div class="col-md-6" style="background:#1a1f2e;min-height:280px;display:flex;align-items:center;justify-content:center;padding:1.5rem;flex-direction:column;gap:0.6rem;">
-        <div style="width:100%;background:rgba(255,255,255,0.07);border-radius:8px;padding:0.75rem 1rem;border-left:4px solid #6f42c1;">
-          <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.3rem;">
-            <span style="background:#f5e8ff;color:#6f42c1;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:10px;border:1px solid #d8b4fe;">CRITICAL</span>
-            <span style="background:rgba(255,255,255,0.15);color:#a8b5c8;font-size:0.6rem;padding:0.1rem 0.4rem;border-radius:10px;">Vulnerabilities</span>
-          </div>
-          <p style="color:#e2e8f0;font-size:0.72rem;margin:0;line-height:1.4;">Zero-day exploit targets unpatched systems across enterprise environments…</p>
-        </div>
-        <div style="width:100%;background:rgba(255,255,255,0.07);border-radius:8px;padding:0.75rem 1rem;border-left:4px solid #fd7e14;">
-          <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.3rem;">
-            <span style="background:#fff3cd;color:#c9530a;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:10px;border:1px solid #fd7e14;">HIGH</span>
-            <span style="background:rgba(255,255,255,0.15);color:#a8b5c8;font-size:0.6rem;padding:0.1rem 0.4rem;border-radius:10px;">Malware</span>
-          </div>
-          <p style="color:#e2e8f0;font-size:0.72rem;margin:0;line-height:1.4;">New ransomware strain evades major endpoint detection solutions…</p>
-        </div>
-        <div style="width:100%;background:rgba(255,255,255,0.07);border-radius:8px;padding:0.75rem 1rem;border-left:4px solid #0d6efd;">
-          <div style="display:flex;gap:0.5rem;align-items:center;margin-bottom:0.3rem;">
-            <span style="background:#e7f3ff;color:#0d6efd;font-size:0.6rem;font-weight:700;padding:0.1rem 0.4rem;border-radius:10px;border:1px solid #90c2ff;">LOW</span>
-            <span style="background:rgba(255,255,255,0.15);color:#a8b5c8;font-size:0.6rem;padding:0.1rem 0.4rem;border-radius:10px;">Policy &amp; Governance</span>
-          </div>
-          <p style="color:#e2e8f0;font-size:0.72rem;margin:0;line-height:1.4;">NCSC publishes updated guidance on secure software development practices…</p>
-        </div>
-      </div>
-      <div class="col-md-6 d-flex align-items-center">
-        <div class="card-body">
-          <span class="badge mb-2" style="background:#198754;font-size:0.7rem;">LIVE</span>
-          <h5 class="card-title">Cybersecurity News Dashboard</h5>
-          <p class="card-text">A fully automated security intelligence feed. GitHub Actions runs a Python script twice daily to fetch articles from five trusted RSS sources, processes each one with the Claude AI API, and publishes the results to a live filterable dashboard. No server required.</p>
-          <a href="cybersecurity-news-project.html" class="btn btn-primary me-2">Learn More</a>
-          <a href="cybersecurity-news.html" class="btn btn-outline-secondary">View Dashboard</a>
-        </div>
-      </div>
-    </div>
-  </div>
 
+    <!-- Cybersecurity News -->
+    <div class="proj-card flip">
+      <div class="proj-carousel-wrap">
+        <div class="news-mockup">
+          <div class="news-card nc-crit"><span class="news-badge b-crit">CRITICAL</span><p class="news-text">Zero-day exploit targets unpatched enterprise systems across multiple sectors...</p></div>
+          <div class="news-card nc-high"><span class="news-badge b-high">HIGH</span><p class="news-text">New ransomware strain evades major endpoint detection solutions...</p></div>
+          <div class="news-card nc-live"><span class="news-badge b-live">LIVE FEED</span><p class="news-text">Updated automatically via GitHub Actions twice daily using Claude AI</p></div>
+        </div>
+      </div>
+      <div class="proj-info">
+        <div class="proj-num">Project 04</div>
+        <div class="proj-tag live">LIVE / Automated</div>
+        <h3 class="proj-title">Cybersecurity News Dashboard</h3>
+        <p class="proj-desc">A fully automated security intelligence feed using GitHub Actions, Python, and the Claude AI API. Articles fetched from five trusted RSS sources twice daily, processed by AI, then displayed in a searchable, filterable dashboard. No server required.</p>
+        <div class="proj-links">
+          <a href="cybersecurity-news-project.html" class="btn-lime">Learn More &rarr;</a>
+          <a href="cybersecurity-news.html" class="btn-ghost">View Dashboard</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
 </div>
 
-<a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener"
-   title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">
-  ☕ <span class="kofi-fab-text">Donate</span>
-</a>
-<style>
-.kofi-fab{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;display:flex;align-items:center;gap:.4rem;background:#FF5E5B;color:#fff;padding:.6rem 1.1rem;border-radius:50px;text-decoration:none;font-weight:700;font-size:.875rem;box-shadow:0 4px 18px rgba(255,94,91,.4);transition:transform .2s,box-shadow .2s}
-.kofi-fab:hover{transform:translateY(-3px);box-shadow:0 8px 26px rgba(255,94,91,.55);color:#fff}
-@media(max-width:576px){.kofi-fab-text{display:none}.kofi-fab{padding:.75rem;font-size:1.1rem}}
-</style>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">George<em>.</em></div>
+    <div class="footer-copy">&copy; 2025 George Condrea. All rights reserved.</div>
+  </div>
+</footer>
+
+<a href="https://ko-fi.com/georgecondrea" target="_blank" rel="noopener" title="Support me on Ko-fi" aria-label="Support me on Ko-fi" class="kofi-fab">&#9749; <span class="kofi-fab-text">Donate</span></a>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks  = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  document.addEventListener('click', e => { if (!navToggle.contains(e.target) && !navLinks.contains(e.target)) navLinks.classList.remove('open'); });
+  const io = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } }); }, { threshold: 0.1 });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
 </body>
 </html>
