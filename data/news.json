@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-05-30T08:34:42.001698+00:00",
+  "lastUpdated": "2026-05-30T18:55:52.440715+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-70363aa2",
+      "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-27",
+      "originalUrl": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+      "summary": "Two separate banking trojan campaigns are actively targeting users in Latin America and Europe with malware designed to compromise both Windows computers and Android smartphones. Security researchers from WatchGuard and ESET identified Grandoreiro and BTMOB malware being deployed against businesses in Spain, Portugal, and Mexico, as well as mobile users in Brazil. These trojans are specifically designed to steal financial information and compromise banking credentials from multiple device types simultaneously.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "banking-trojan",
+        "grandoreiro",
+        "btmob",
+        "android-malware",
+        "windows-malware",
+        "latin-america"
+      ],
+      "whyItMatters": "This multi-platform campaign demonstrates how sophisticated threat actors are simultaneously targeting both desktop and mobile endpoints to maximize financial theft and compromise across entire organizations. Organizations and individuals in affected regions need immediate awareness and protective measures, as banking trojans directly threaten financial assets and sensitive account credentials. Th",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLrxY3dAls7M9XrbkVjdGZELLj2DQ4eGof0qKdWXJLGqQgVgcbszD-mSmcUi6ljJEPyuM5qbIzFD2CAkjQMkwdznWW5nXnJpPUOxuLP87xIATaxqvIKByQr0ddq8GnYTJy_O6VX5Z0cv_S9AYbwVUzzMeKM3UoPGGJ3Bzei5FluxHchhuekfAiKxUnBmaa/s1600/android-malware.jpg",
+      "processedAt": "2026-05-30T18:55:29.164926+00:00"
+    },
+    {
+      "id": "art-8d4e207e",
+      "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-27",
+      "originalUrl": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+      "summary": "Researchers discovered a malicious npm package called \"mouse5212-super-formatter\" that was designed to steal files from a directory used by Anthropic's Claude AI tool. The package had data-stealing capabilities and targeted the \"/mnt/user-data\" directory where Claude processes user uploads and outputs. This highlights how open-source package repositories can be exploited to compromise AI tools and user data.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "npm",
+        "supply-chain-attack",
+        "ai-security",
+        "data-theft",
+        "claude"
+      ],
+      "whyItMatters": "This incident demonstrates a critical vulnerability in the software supply chain where malicious packages in public registries can directly target AI tools and steal sensitive user files. Organizations using Claude and other AI tools need to audit their dependencies and implement stricter package vetting processes to prevent similar attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlezHawmKBTFBZSgR52vL_EBxfwIlMa0i4LdDK2xC_c8nw704KQHbRNSHYAy8TY4ShZMFwAJoZKUBSDJBCVnwbORTlz7iE0JI9f9ORbQQ-RB5lA_b9VbUzAsjpVeW2oJ94hdfzOeCWN3zd5Li7zWanNx3s07cF8IRlWuVrLqBNaY0sobbJww1Pa_o2t4JN/s1600/npm-ai.jpg",
+      "processedAt": "2026-05-30T18:55:31.479912+00:00"
+    },
+    {
+      "id": "art-14b1fdf3",
+      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-27",
+      "originalUrl": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
+      "summary": "Many employees use multiple AI tools daily without IT approval or security review, creating potential risks for organizations. The article discusses how to balance employee productivity with proper management of these shadow AI applications. Organizations need strategies to monitor and control unauthorized AI tool usage while maintaining workforce efficiency.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "shadow-ai",
+        "ai-security",
+        "unauthorized-tools",
+        "it-governance",
+        "employee-productivity",
+        "risk-management"
+      ],
+      "whyItMatters": "Unmanaged AI tools in enterprise environments can expose sensitive data, introduce security vulnerabilities, and create compliance issues while remaining invisible to security teams. Understanding how to govern shadow AI without hindering productivity is critical as AI adoption accelerates across organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6kyKLwKpVhYgitj4fm1vRuvXJPKSpYpf_WcR-b0_8CVkNeFLtcxO158cmOS_GAVNi7G1xTrDOLVcVqBXKW-rI31rDAVXhN-A3Q1g11l_17bAKuedJx_meh5Pf4hoRVLwx55EECim9EGrI0xRCsq2Dx-8nBNlNwIVqEApy16ZBm48DuqDq2Q7BtRKm3AA/s1600/shadow.jpg",
+      "processedAt": "2026-05-30T18:55:34.177453+00:00"
+    },
+    {
+      "id": "art-9121e676",
+      "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-27",
+      "originalUrl": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+      "summary": "Security researchers from CrowdStrike, Google, and the Shadowserver Foundation have successfully shut down the command-and-control infrastructure used by GlassWorm, a malware campaign that has been attacking software developers since early 2025. GlassWorm distributed malicious packages and extensions designed to compromise the software supply chain. This coordinated takedown disrupts the attackers' ability to control and communicate with infected systems.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-takedown",
+        "developer-targeting",
+        "command-and-control",
+        "malicious-packages"
+      ],
+      "whyItMatters": "Supply chain attacks targeting developers are particularly dangerous because they can affect thousands of downstream users and organizations that depend on legitimate software projects. Disrupting GlassWorm's infrastructure prevents further compromise of development tools and packages, reducing risk across the entire software ecosystem. This takedown demonstrates the importance of coordinated inte",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZssmt_sAQM7Hi8SpkOQnmc9tKVqlTyjMclO_ptRmn45_cDzz3KANdtBi4xzzuf7neoeylx39D4BZN_Wys34O8lCM9KP8qytxEq_QT4tQ_FTHBeRV75qVTNfzQg7UGa0IJGO3tuJBZGiDjNfB401rG6hPvu78_5H_Sp8UeYk9c74KlCr-CaVX1rg-Slxc6/s1600/botnet-down.jpg",
+      "processedAt": "2026-05-30T18:55:36.666715+00:00"
+    },
+    {
+      "id": "art-7fbd9e94",
+      "title": "3 SOC Steps that Shut Down Incident Risks Early",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-27",
+      "originalUrl": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
+      "summary": "Modern cyberattacks often bypass traditional perimeter defenses by disguising themselves as normal activity and accumulating risk gradually rather than forcing a dramatic breach. Organizations need to shift from a fortress-based security model to a more proactive approach that detects threats hiding within legitimate processes. The article argues that Security Operations Centers (SOCs) must change their strategy to identify and stop incidents before they become critical problems.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "soc-operations",
+        "incident-detection",
+        "threat-hunting",
+        "defense-strategy",
+        "risk-management"
+      ],
+      "whyItMatters": "Most organizations still rely on outdated defensive models that focus on blocking external attacks, but today's threats operate inside the network disguised as normal traffic. Understanding how to detect and shut down incidents early can prevent significant security breaches and reduce the time attackers spend in systems. This directly impacts how security teams should operate and invest in detect",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5SbPsI2Ip_2s2JkLJSNNO05Qfn3zFQTpOSmRmqTreVUxDWTgZXSUgEtIwEvu5bQ8wGM24s68ikCnVLdKujVhF8j-TxTM5lr38lAdKkEummRkZxVnB5P1CQWNYqY-Oswvf6FHz4gWhFSAbrokC_3bnFksFvzGSC-0Fh5YUUJSNS2jlKrOJt4RCRJlYoJ4/s1600/iocc.jpg",
+      "processedAt": "2026-05-30T18:55:39.598988+00:00"
+    },
+    {
+      "id": "art-ec1e4908",
+      "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+      "summary": "Palo Alto Networks has confirmed that attackers are actively exploiting a critical authentication bypass vulnerability in their GlobalProtect VPN software, identified as CVE-2026-0257. This flaw allows hackers to bypass login protections and gain unauthorized access to corporate networks. Organizations using PAN-OS are at immediate risk and need to take urgent action to secure their systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "palo-alto",
+        "globalprotect",
+        "vpn",
+        "authentication-bypass",
+        "cve-2026-0257",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This vulnerability is critical because VPN systems are essential security gateways for remote access, and an authentication bypass means attackers can enter corporate networks without valid credentials. Active exploitation in the wild makes this an immediate threat requiring emergency patching and monitoring by all affected organizations.",
+      "image": null,
+      "processedAt": "2026-05-30T18:55:41.868816+00:00"
+    },
+    {
+      "id": "art-fd9eb46e",
+      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+      "summary": "Researchers discovered a critical vulnerability in the Linux kernel called CIFSwitch that allows local attackers to escalate their privileges to root level. The flaw enables attackers to manipulate CIFS authentication keys and exploit the kernel's key request system. This vulnerability affects multiple Linux distributions, making it a widespread threat.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "privilege-escalation",
+        "local-exploit",
+        "cifs",
+        "root-access",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability is critical because any local user on an affected Linux system can gain root privileges without authentication, giving attackers complete system control. System administrators across multiple Linux distributions need to apply patches immediately to prevent unauthorized access and potential data compromise.",
+      "image": null,
+      "processedAt": "2026-05-30T18:55:43.989996+00:00"
+    },
+    {
+      "id": "art-8e7a2a72",
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-18",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "summary": "A CISA contractor accidentally left a public GitHub repository containing sensitive AWS GovCloud credentials and internal system documentation exposed to the internet. The leaked materials included detailed information about CISA's software development and deployment processes, representing a significant security breach of U.S. government infrastructure. The repository was discovered and removed over the weekend, but the incident highlights how critical credentials can be compromised through careless code repository management.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "credential-exposure",
+        "cloud-security",
+        "github-leak",
+        "aws-govcloud",
+        "government-breach",
+        "access-control"
+      ],
+      "whyItMatters": "This incident demonstrates that even government cybersecurity agencies are vulnerable to basic security mistakes like exposing credentials in public repositories, which could allow attackers to access highly privileged cloud infrastructure and internal systems. The leak of CISA's development processes provides adversaries with detailed intelligence about U.S. government security practices. Organiz",
+      "image": null,
+      "processedAt": "2026-05-30T18:55:47.279942+00:00"
+    },
+    {
+      "id": "art-2f49d44d",
+      "title": "Patch Tuesday, May 2026 Edition",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-12",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+      "summary": "Major software companies like Apple, Google, Microsoft, Mozilla, and Oracle are releasing record numbers of security patches in May 2026, driven in part by AI systems' improved ability to identify vulnerabilities in code. While AI platforms can be manipulated through social engineering, they are proving effective at discovering security flaws that human developers might miss. This surge in patch releases reflects both the power of AI-assisted security research and the growing volume of bugs being found in widely-used software.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "patch-tuesday",
+        "ai-security",
+        "vulnerability-discovery",
+        "software-updates",
+        "security-patches"
+      ],
+      "whyItMatters": "The rapid identification and patching of vulnerabilities by AI tools demonstrates both an opportunity and a risk in modern cybersecurity—organizations must stay current with patches from major vendors to avoid exploitation of newly discovered flaws. High patch volumes from major software makers indicate an evolving threat landscape where attackers and defenders are in an accelerating arms race, ma",
+      "image": null,
+      "processedAt": "2026-05-30T18:55:50.088814+00:00"
+    },
+    {
+      "id": "art-77245fdc",
+      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+      "summary": "Hackers launched a coordinated attack on Canvas, an education platform used by thousands of schools and universities, disrupting classes nationwide. The attackers defaced the login page with a ransom demand and claimed to have stolen data from 275 million students and faculty members. This incident highlights how critical education infrastructure can be targeted and how data breaches can affect millions of people across multiple institutions.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "data-extortion",
+        "education-sector",
+        "widespread-breach",
+        "critical-infrastructure"
+      ],
+      "whyItMatters": "This attack demonstrates that large-scale critical infrastructure serving education can be compromised, affecting learning continuity for millions of students and exposing sensitive personal data of minors and educators. Organizations must prioritize security for platforms handling educational data and prepare incident response plans for widespread service disruptions.",
+      "image": null,
+      "processedAt": "2026-05-30T18:55:52.440565+00:00"
+    },
     {
       "id": "art-c9961a1a",
       "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
@@ -829,213 +1035,6 @@
       "whyItMatters": "This prosecution highlights that law enforcement agencies actively pursue and successfully prosecute international cybercriminals, serving as a deterrent for large-scale attacks on government networks. It underscores the real-world criminal penalties for hacking activities and demonstrates coordinated efforts between international authorities to combat cyber threats targeting critical U.S. infrast",
       "image": null,
       "processedAt": "2026-05-28T20:01:58.988907+00:00"
-    },
-    {
-      "id": "art-1dc317ba",
-      "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-      "summary": "A previously unknown threat actor group called JINX-0164 launched targeted attacks against cryptocurrency companies using fake job recruitment messages to distribute custom malware designed for macOS systems. The campaign aimed to steal digital assets by combining social engineering tactics with malware and attacks on software development infrastructure. This represents a sophisticated, multi-layered approach specifically designed to compromise high-value targets in the crypto industry.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "cryptocurrency-targeting",
-        "macos-malware",
-        "social-engineering",
-        "recruitment-lures",
-        "digital-asset-theft",
-        "supply-chain-attack"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors are combining highly convincing social engineering with custom malware to target financial assets in the cryptocurrency sector. Organizations need to strengthen recruitment verification processes and implement robust endpoint protection for macOS systems, as this threat shows adversaries are willing to invest significant resources in targeting high-value ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhyRUE7TEns58pfRrpwegQH6tBvGORrdclhPKKI7B7l9eNy5bMA1_ra6HAyGPUC_NKD8ZTnpVt7z88AII1Sd8QpA-sqZ7ONKZGwEVFB0u8gNvsBVRtfJuTsvWM4q6V_9MXVj7fX4ug_7mel-x1i2l7qm1GY94gVA1AbyCrvRQA8JcaDmhF1i_tM22NF_RPX/s1600/crypto-hacks.jpg",
-      "processedAt": "2026-05-28T10:13:50.937434+00:00"
-    },
-    {
-      "id": "art-7f098467",
-      "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-27",
-      "originalUrl": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-      "summary": "A security flaw in Gitea, a popular open-source version control platform, allows attackers to download private container images without logging in or providing any credentials. The vulnerability (CVE-2026-27771) has a high severity score of 8.2 and impacts all Gitea versions before 1.26.2. This means sensitive code and data stored in private repositories could be exposed to unauthorized access.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "gitea",
-        "container-security",
-        "authentication-bypass",
-        "cve-2026-27771",
-        "patch-now",
-        "private-data-exposure"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate risk to organizations using Gitea because attackers can steal proprietary code and sensitive container images without any credentials, potentially exposing intellectual property and application secrets. Companies must urgently update to version 1.26.2 or later to prevent unauthorized access to their private repositories. The ease of exploitation—requiring no a",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtYSLWixSGb7jW2drND6NlHzXB4eHO0QyZNOovK9iVyaHGS6fSN4eqhWkijIhevhInH56hv03c29ziWCZiH58kY5EBbfuZloLfMP9yGJuFVtIaoJqj31KVFNeImMNVnLGrRHbhcGw7IMVZ8FEH2tK-Bit50KzXfe0F9jEQAO9iy5PNprbqJzgRB2WkI-0i/s1600/gitea-main.jpg",
-      "processedAt": "2026-05-28T10:13:53.819918+00:00"
-    },
-    {
-      "id": "art-a3db3808",
-      "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-25",
-      "originalUrl": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-      "summary": "This week's cybersecurity recap highlights multiple critical issues: compromised developer tools led to widespread infections, old vulnerabilities resurfaced due to delayed patching, and security software itself contained exploitable flaws. Additionally, phishing attacks have become more sophisticated and targeted, while many organizations discovered unpatched legacy systems that should have been secured long ago.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "supply-chain-attack",
-        "zero-day",
-        "patching-neglect",
-        "phishing-evolution",
-        "legacy-systems",
-        "security-tools-vulnerable"
-      ],
-      "whyItMatters": "The convergence of unpatched systems, compromised development tools, and sophisticated phishing represents a multi-vector threat landscape where organizations face risks from both external attackers and their own security tools. Companies must prioritize patch management and inventory control of legacy systems, as attackers actively exploit the gap between vulnerability disclosure and remediation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8B3KNTIZROmtfiYkIEINzg34cq_-I4prGGMjQ8F8oHbOcrNNB0FyCuQq-bb9ChCEtkO5TxGqm_5YRrG7r3IJAkcsX_eC3vmpR1Va-b3NOfEQynjPDmOm2A_uJ15IZk5VPnrmZzOKKjzA6_kjUFNbUkFHKsEk_Ts92DfPZXa3x4r8o8UQkOpMmNUfBwGxx/s1600/rere.jpg",
-      "processedAt": "2026-05-28T10:13:56.650365+00:00"
-    },
-    {
-      "id": "art-03d8e621",
-      "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-25",
-      "originalUrl": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-      "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious code into over 700 websites. This SQL injection flaw in Ghost's Content API allows attackers without authentication to access sensitive data and inject JavaScript for ClickFix attacks, a social engineering tactic that tricks users into visiting malicious sites. The widespread exploitation demonstrates how quickly critical vulnerabilities can be weaponized at scale across the internet.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sql-injection",
-        "ghost-cms",
-        "cve-2026-26980",
-        "active-exploitation",
-        "clickfix-attacks",
-        "code-injection"
-      ],
-      "whyItMatters": "This represents an active, large-scale attack exploiting an unpatched critical vulnerability affecting hundreds of live websites. Organizations running Ghost CMS need immediate patching to prevent unauthorized data access and malicious code injection. The incident illustrates how SQL injection vulnerabilities remain dangerous attack vectors despite being well-known, and how quickly threat actors w",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5bYCvN_MmCGXVH5raR8wqJQv52CST3mK7UBfLXVnqRRL_rHkhJpSOBjdPyR5oXmPsSB-X3-Sib6-eVToqi4UXB218ESR2uFdczESGAM5i4ZkxQyE7AkQteCFCasknPz262ceUOFccS3xcUbaQdvUGoRw0kJE7QQMSbeP2OAQVfY9lFYTj7ZhzCL_GdkuM/s1600/check-cf.jpg",
-      "processedAt": "2026-05-28T10:13:59.466028+00:00"
-    },
-    {
-      "id": "art-58d786d3",
-      "title": "The Alert Firehose Finally Meets Its Match",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-25",
-      "originalUrl": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
-      "summary": "Network Detection and Response (NDR) tools have historically been criticized for generating excessive alerts and noise, making them difficult for security teams to use effectively. However, newer NDR solutions incorporating artificial intelligence and agentic capabilities are changing this dynamic by enabling faster threat detection, quicker triage of alerts, and significantly reducing false positives. These advancements suggest that NDR is becoming a more practical and valuable tool for modern cybersecurity operations.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "network-detection-response",
-        "ai-security",
-        "threat-detection",
-        "alert-management",
-        "false-positives"
-      ],
-      "whyItMatters": "As security teams struggle with alert fatigue from traditional NDR systems, AI-enhanced solutions offer a practical path to improve detection efficiency and response times. This evolution directly impacts organizations' ability to identify and respond to threats faster, reducing the window of opportunity for attackers and improving overall security posture.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhULc1VvUr1LQ1qZPTiw_sPmN3JbNIk0OSlxHRT0MFdY2kM5Z7psdZtrctiSOybvu8i1sCwcMeSUtXxHb0xBkQ2lCUt2l_kKmhp93ydvN4-E-qObRkmiFK2s-jOPqipBTGfBnv4o-d9nLuPIL2JMGO6FhCFsFV2NkBlARzWW9ScqccGvAVHzM9o-6MDwn4/s1600/corelight-main.jpg",
-      "processedAt": "2026-05-28T10:14:02.110804+00:00"
-    },
-    {
-      "id": "art-1e0eecb9",
-      "title": "Sextortionist sentenced to 33 years for targeting 145 children",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sextortionist-sentenced-to-33-years-for-targeting-145-children/",
-      "summary": "A Canadian man received a 33-year prison sentence after admitting to extorting over 145 children in the United States through sextortion schemes spanning eight years, with some victims as young as six years old. This case highlights the serious criminal consequences for those who exploit minors online and demonstrates law enforcement's commitment to prosecuting digital predators. The lengthy sentence serves as a deterrent for potential offenders engaging in child exploitation crimes.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "sextortion",
-        "child-exploitation",
-        "cybercrime",
-        "extortion",
-        "predator",
-        "online-safety"
-      ],
-      "whyItMatters": "This case demonstrates that law enforcement agencies actively investigate and prosecute online child exploitation, providing accountability and protection for vulnerable populations. Understanding the real-world consequences of sextortion helps organizations and parents recognize warning signs and implement safeguarding measures to protect children from digital predators. The case reinforces the i",
-      "image": null,
-      "processedAt": "2026-05-28T10:14:04.741078+00:00"
-    },
-    {
-      "id": "art-ff7f3d93",
-      "title": "GPU mining malware spreads via SEO poisoning, AI chatbots",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-27",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/",
-      "summary": "Cybercriminals are using GPU mining malware to hijack powerful computers and steal their processing power for cryptocurrency generation. The attackers spread this malware through a coordinated strategy that involves manipulating search engine results (SEO poisoning) and exploiting AI chatbot recommendations to trick users into downloading infected software. This campaign specifically targets systems with high-performance graphics cards, making organizations with such equipment particularly vulnerable.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "cryptojacking",
-        "gpu-mining",
-        "seo-poisoning",
-        "ai-chatbot-abuse",
-        "malware-distribution"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors are combining multiple social engineering techniques (SEO manipulation and AI chatbot exploitation) to distribute malware at scale, making detection harder for traditional security measures. Organizations running high-performance computing systems need to monitor for unauthorized GPU usage and educate users about verifying software sources, as these attac",
-      "image": null,
-      "processedAt": "2026-05-28T10:14:07.276996+00:00"
-    },
-    {
-      "id": "art-1f36d2ce",
-      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-04-30",
-      "originalUrl": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "summary": "A Brazilian anti-DDoS security company was discovered to be operating a botnet that launched major DDoS attacks against competing network operators in the country. The company's leadership claims the malicious activity resulted from a security breach at their own firm, potentially orchestrated by competitors. This incident exposes how security-focused companies can themselves become vectors for attacks when their infrastructure is compromised.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ddos-attacks",
-        "botnet",
-        "network-security",
-        "brazil",
-        "infrastructure-compromise"
-      ],
-      "whyItMatters": "This case demonstrates that even companies specializing in security defense can be weaponized against their industry peers if their own systems are breached, highlighting the critical importance of securing security providers themselves. It also illustrates how compromised infrastructure at trusted firms can enable large-scale attacks and undermine confidence in the security ecosystem.",
-      "image": null,
-      "processedAt": "2026-05-28T10:14:09.811871+00:00"
-    },
-    {
-      "id": "art-b22813f7",
-      "title": "‘Scattered Spider’ Member ‘Tylerb’ Pleads Guilty",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-04-21",
-      "originalUrl": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
-      "summary": "Tyler Robert Buchanan, a 24-year-old British cybercriminal and senior member of the hacking group 'Scattered Spider,' has pleaded guilty to wire fraud and identity theft charges. In summer 2022, Buchanan and his group executed text-message phishing attacks that compromised at least a dozen major technology companies and stole tens of millions of dollars in cryptocurrency. His guilty plea represents a significant takedown of a high-profile cybercrime organization responsible for sophisticated social engineering tactics.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "wire-fraud",
-        "scattered-spider",
-        "social-engineering",
-        "cryptocurrency-theft",
-        "cybercriminal-prosecution"
-      ],
-      "whyItMatters": "This case demonstrates that senior members of major cybercrime groups face serious federal consequences, and shows how phishing remains one of the most effective attack vectors for compromising large technology companies. The successful prosecution also provides law enforcement with intelligence on Scattered Spider's methods and organizational structure, helping protect future targets.",
-      "image": null,
-      "processedAt": "2026-05-28T10:14:12.512403+00:00"
-    },
-    {
-      "id": "art-5f386326",
-      "title": "Patch Tuesday, April 2026 Edition",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-04-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-      "summary": "Microsoft released patches for 167 security vulnerabilities across Windows and related products in April 2026, including a previously unknown SharePoint Server flaw and a Windows Defender issue called BlueHammer. Additionally, Google Chrome fixed its fourth zero-day vulnerability of the year, and Adobe released an emergency update for a critical flaw in Reader that attackers are actively exploiting. These coordinated updates highlight the ongoing wave of security threats affecting major software platforms.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "patch-tuesday",
-        "zero-day",
-        "actively-exploited",
-        "windows-defender",
-        "sharepoint",
-        "adobe-reader"
-      ],
-      "whyItMatters": "This patch cycle addresses multiple critical vulnerabilities including actively exploited flaws, making timely installation essential to prevent immediate compromise. Organizations using Microsoft, Google, and Adobe products must prioritize these updates to close security gaps before attackers can leverage them, especially given the public disclosure and active exploitation mentioned.",
-      "image": null,
-      "processedAt": "2026-05-28T10:14:19.545660+00:00"
     }
   ]
 }
