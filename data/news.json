@@ -1,7 +1,211 @@
 {
-  "lastUpdated": "2026-05-31T08:54:00.471426+00:00",
+  "lastUpdated": "2026-05-31T18:59:31.977244+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-5b616cfc",
+      "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-31",
+      "originalUrl": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
+      "summary": "Dutch law enforcement and the National Cyber Security Center successfully dismantled a large botnet that had compromised at least 17 million devices worldwide, including computers, smartphones, tablets, and IoT devices. The operation targeted over 200 servers located in the Netherlands that were being used to orchestrate malicious attacks across the infected network. This takedown represents a significant disruption to cybercriminals' infrastructure and demonstrates international coordination in fighting large-scale botnet operations.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "botnet-takedown",
+        "malware",
+        "iot-security",
+        "infrastructure-disruption",
+        "law-enforcement"
+      ],
+      "whyItMatters": "Botnets of this scale pose widespread threats to individuals and organizations by facilitating distributed attacks, data theft, and system compromise across millions of devices. The successful takedown demonstrates the importance of international law enforcement collaboration and provides insight into how authorities identify and dismantle major cybercriminal infrastructure. Understanding botnet o",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU44Ejz__EFKfpIrEypTxhK3KW7XV3oiEIJEWAC-_PyhbhUvOZzmv3SCAmiuGZdFNdzYIDR2GLwOAhX9nIaAoOD4iFXucpEpB4Ym2vMAqvayyi1JkYyqj2uEYAXPGbXe5dzYNw5a__5KnXvrnJsEVtwnJJs6v_zBlfl3sKo0J83QwylgCL1A2Vck1HktJ8/s1600/botnet.png",
+      "processedAt": "2026-05-31T18:59:04.164618+00:00"
+    },
+    {
+      "id": "art-10b79a96",
+      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+      "summary": "Gogs, a widely-used self-hosted Git service, has a critical vulnerability that enables any user with login credentials to run arbitrary code on affected systems. Rated 9.4 on the CVSS scale by Rapid7, this flaw poses a serious risk to organizations relying on Gogs for version control. Currently, the vulnerability lacks a CVE identifier, making it harder to track across security databases.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gogs-rce",
+        "arbitrary-code-execution",
+        "authenticated-attack",
+        "critical-vulnerability",
+        "cvss-9.4",
+        "patch-required"
+      ],
+      "whyItMatters": "This vulnerability is critical because it requires only basic authentication to trigger remote code execution, meaning any insider or compromised account can fully compromise a Gogs server. Organizations using Gogs must prioritize patching immediately, as the high CVSS score reflects potential for complete system takeover. The lack of a CVE identifier may delay security awareness and coordinated r",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqRd_3DDSSASg_YzvuUEqv3elhvFWSjk56bXPoqJeNIWVo-K0giuJ3TNEXV-aYpnuVfOv00_VM428vIFVaMiuZzfL0dQdQvz0_xMNFq4CtrppgTZu5dupV0asq1wZjPW3FoMgUnyGMR_RgBpWT2oTnJFuhaldo3Cd3eNP-MOlDNhP9Uu2KDRiDpYHdoeq/s1600/exploit-meta.jpg",
+      "processedAt": "2026-05-31T18:59:06.876083+00:00"
+    },
+    {
+      "id": "art-9f79f7d7",
+      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
+      "summary": "Cybercriminals are actively exploiting a critical vulnerability in Fortinet's FortiClient Endpoint Management Server (EMS) to distribute a credential-stealing malware called EKZ Infostealer. By compromising this trusted management tool, attackers can spread malware directly to all devices managed by the system, making it a particularly effective attack vector. Even though Fortinet has released patches, threat actors continue to target unpatched systems to steal login credentials and other sensitive information.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "endpoint-management",
+        "credential-stealer",
+        "active-exploitation",
+        "fortinet",
+        "supply-chain-attack",
+        "patching-required"
+      ],
+      "whyItMatters": "This attack is critical because it exploits legitimate enterprise management tools that organizations trust to protect their infrastructure, creating a backdoor to compromise entire networks at once. Organizations using vulnerable FortiClient EMS deployments face immediate risk of credential theft and potential lateral movement across their environment. Prompt patching and verification of endpoint",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg",
+      "processedAt": "2026-05-31T18:59:10.480840+00:00"
+    },
+    {
+      "id": "art-31e3cbff",
+      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
+      "summary": "Microsoft is advocating for Coordinated Vulnerability Disclosure (CVD), a responsible practice where security researchers notify vendors privately before publicly revealing vulnerabilities. This stance comes after a researcher called Chaotic Eclipse disclosed details about multiple zero-day vulnerabilities, prompting Microsoft to emphasize the importance of giving companies time to develop fixes before details go public.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "coordinated-disclosure",
+        "vulnerability-management",
+        "responsible-disclosure",
+        "security-research"
+      ],
+      "whyItMatters": "The tension between public disclosure and coordinated vulnerability reporting directly affects how quickly patches reach users and how long systems remain at risk. When zero-day details are released publicly without vendor preparation, attackers can exploit unpatched systems at scale, making this debate critical for protecting infrastructure and end-users.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMDR_KVt17sFMXeEhMvDYHLwBX_Aix1bz3y0izMs7PsVIuGSQhOLX_khN3Ckl_eRm9OEMAlVmBxPHhQvCGDJB5wXJ2rtOT8uQAiWCWCZwc7dvOfbWyuZ0BpNFAKohIpLUq9KR76XvZ3eT0TpltWDHUWQY-nUJzJflA1y5l7q_UXsjVtAMPhwVAULZZScp/s1600/github-ms.png",
+      "processedAt": "2026-05-31T18:59:12.953464+00:00"
+    },
+    {
+      "id": "art-d48f0228",
+      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+      "summary": "This bulletin covers multiple critical security threats including a Claude security plugin vulnerability, Azure privilege escalation flaw, Kali365 MFA bypass technique, and FIFA-related scams. The report highlights how attackers continue using low-effort but effective tactics like malicious loaders, fake installers, and social engineering while researchers discover techniques that can escalate minor access into complete account compromise. The article emphasizes the ongoing gap between security best practices and real-world deployment vulnerabilities across various platforms and services.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "privilege-escalation",
+        "mfa-bypass",
+        "cloud-security",
+        "malware-distribution",
+        "social-engineering",
+        "ai-security"
+      ],
+      "whyItMatters": "This roundup exposes active exploitation paths across widely-used platforms (Azure, Kali365) and emerging AI tools (Claude), meaning attackers have multiple entry points to compromise organizations. The prevalence of MFA bypass techniques and privilege escalation methods demonstrates that even standard security controls are being defeated, requiring immediate security reviews and patching. Organiz",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg",
+      "processedAt": "2026-05-31T18:59:16.319655+00:00"
+    },
+    {
+      "id": "art-ee9ecfb5",
+      "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-31",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
+      "summary": "Attackers are exploiting a security flaw in the WP Maps Pro WordPress plugin to gain unauthorized administrative access to websites. The vulnerability allows hackers to create admin accounts without needing valid login credentials, giving them complete control over affected sites. This poses a significant threat to any WordPress installation using the vulnerable version of this plugin.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress-plugin",
+        "privilege-escalation",
+        "authentication-bypass",
+        "wp-maps-pro",
+        "unauthenticated-access",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows attackers to take full administrative control of WordPress sites without authentication, enabling data theft, malware injection, and site defacement. Any website running the vulnerable WP Maps Pro version is at immediate risk of compromise. Site owners must update the plugin urgently to prevent unauthorized access and potential business disruption.",
+      "image": null,
+      "processedAt": "2026-05-31T18:59:18.703014+00:00"
+    },
+    {
+      "id": "art-8c21db98",
+      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-05-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
+      "summary": "The FBI is alerting the public about fraudulent websites that impersonate FIFA to exploit World Cup fans in 2026. These fake sites trick people into sharing personal and financial information, purchasing counterfeit tickets and hospitality packages, and falling for other scams tied to the event. Criminals are taking advantage of the excitement around the World Cup to steal money and sensitive data from unsuspecting victims.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "fraud",
+        "fake-websites",
+        "event-fraud",
+        "social-engineering",
+        "financial-scam"
+      ],
+      "whyItMatters": "Large-scale events like the World Cup attract millions of potential victims searching online for legitimate services, making them ideal targets for cybercriminals. Users need to verify website authenticity and avoid clicking suspicious links to protect themselves from financial loss and identity theft. This warning demonstrates how organized fraud campaigns exploit public events and highlights the",
+      "image": null,
+      "processedAt": "2026-05-31T18:59:21.127745+00:00"
+    },
+    {
+      "id": "art-16050d8e",
+      "title": "Asia's Cyber Insurance Market Shows Signs of Life",
+      "source": "Dark Reading",
+      "publishedDate": "2026-05-29",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/asias-cyber-insurance-market-signs-of-life",
+      "summary": "Cyber insurance adoption across Asia has been limited historically, but recent developments suggest the market is beginning to expand. The growth of digital infrastructure and increasing cyber threats in the region are driving greater interest in insurance coverage. This shift could help Asian organizations better manage financial risks associated with cyber incidents.",
+      "category": "Other",
+      "severity": "Medium",
+      "tags": [
+        "cyber-insurance",
+        "asia-pacific",
+        "risk-management",
+        "market-growth"
+      ],
+      "whyItMatters": "Cyber insurance is a critical component of comprehensive cybersecurity risk management, particularly as Asia's digital economy expands. Organizations without adequate coverage face severe financial consequences from breaches, making insurance adoption essential for business resilience. Understanding regional insurance trends helps businesses plan their security and financial strategies in emerging",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb9e3fbe8c75eb597/6a19745b69143b73c43502c5/Blue_globe_Asia_Jimmie_Tolliver_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "processedAt": "2026-05-31T18:59:23.611825+00:00"
+    },
+    {
+      "id": "art-1f237cba",
+      "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
+      "source": "Dark Reading",
+      "publishedDate": "2026-05-29",
+      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
+      "summary": "Security researchers uncovered a dangerous vulnerability chain in a popular automation service that exploits cloud misconfigurations. The attack combines excessive user permissions, exposed secrets, and compromised non-human identities to gain unauthorized access. This discovery highlights how small configuration errors in cloud environments can cascade into major security breaches.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "cloud-security",
+        "privilege-escalation",
+        "secrets-management",
+        "identity-security",
+        "misconfiguration"
+      ],
+      "whyItMatters": "This vulnerability demonstrates a critical real-world risk for organizations using cloud automation tools—misconfigured permissions and exposed credentials can create a complete exploitation pathway. Security teams must urgently audit their cloud role assignments, secrets storage, and non-human identity management to prevent similar compromise chains in their own environments.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt33ea1925a9f97ba7/6a18a8b047696a7d03d6ca07/rube-goldberg-machine-complexity-T_N_Sursock-shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "processedAt": "2026-05-31T18:59:26.141261+00:00"
+    },
+    {
+      "id": "art-55367171",
+      "title": "'The Com' Cyberattacks Support Violence &amp; Sexploitation",
+      "source": "Dark Reading",
+      "publishedDate": "2026-05-29",
+      "originalUrl": "https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation",
+      "summary": "A criminal gang with neo-Nazi connections is using cyberattacks to fund violent crimes and sexual exploitation. The article emphasizes that organizational security failures don't just hurt the targeted company—they enable criminals to finance broader illegal activities. This highlights how cybersecurity breaches have cascading real-world consequences beyond data loss.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "cybercrime",
+        "criminal-gangs",
+        "violence-financing",
+        "organizational-responsibility",
+        "security-failure"
+      ],
+      "whyItMatters": "This article underscores that cybersecurity isn't just about protecting data—weak defenses directly enable criminal financing of human trafficking and violence. Organizations failing to implement proper security controls bear responsibility for the downstream harms their breaches facilitate, making security investments a moral and legal imperative.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltdf36383b6981cdfc/6a189af651a3babba50e026a/Hooded_crowd-John_Williams_RF-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+      "processedAt": "2026-05-31T18:59:31.977095+00:00"
+    },
     {
       "id": "art-b63d2fd9",
       "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
@@ -827,213 +1031,6 @@
       "whyItMatters": "Session cookie theft is a common attack vector used by cybercriminals to bypass traditional authentication and gain unauthorized access to user accounts. This rollout provides automatic protection for millions of Chrome users without requiring additional action, meaningfully reducing the attack surface for account compromise. As phishing and credential theft remain widespread threats, this proacti",
       "image": null,
       "processedAt": "2026-05-29T20:05:00.520020+00:00"
-    },
-    {
-      "id": "art-0020748f",
-      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-      "summary": "Kimsuky, a North Korean state-sponsored hacking group, has launched new cyber attacks against South Korean military and corporate targets using a toolkit that includes a malware called HTTPSpy along with tools like HelloDoor and VS Code Tunnels. The group used sophisticated social engineering techniques, including fake security software pages and fraudulent meeting invitations, to trick victims into compromising their systems. This campaign demonstrates how nation-state actors continuously evolve their attack methods to maintain access to sensitive organizations.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored",
-        "north-korea",
-        "social-engineering",
-        "malware-deployment",
-        "military-targeting",
-        "kimsuky"
-      ],
-      "whyItMatters": "Nation-state actors like Kimsuky represent a persistent, well-resourced threat that uses custom malware and sophisticated social engineering to breach critical infrastructure and military networks. Understanding their evolving tactics and tools helps defenders recognize similar attack patterns and strengthen defenses against targeted campaigns. The use of legitimate tools like VS Code Tunnels for ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfUl1K-os1XyLN-SBt6PgMia_jFG03ArRa3H0FI2hsiUqNa3lqSWY2NJcvOhY33TArSKJxeookUpkATdERUpEwKw-IUi6iv9ZVuUq4c1A99mLwgQB4ibCxBx4MBR1XXmM98zH7v-QWDO7bhh1AONQ8Op0htvwHhuivwI1Cch9rgLPO-zSGCjjQbvXdDte/s1600/north-korea.png",
-      "processedAt": "2026-05-29T10:02:54.473698+00:00"
-    },
-    {
-      "id": "art-3e329f2c",
-      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-      "summary": "The Iranian hacking group MuddyWater has launched a widespread espionage campaign using DLL side-loading techniques to target at least nine organizations across multiple continents in early 2026. The attack affected various sectors including manufacturing, education, government, finance, and professional services. This campaign demonstrates the group's continued evolution and ability to conduct coordinated attacks on a global scale.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "muddywater",
-        "dll-side-loading",
-        "espionage",
-        "iran-linked",
-        "multi-sector",
-        "advanced-persistent-threat"
-      ],
-      "whyItMatters": "DLL side-loading is a sophisticated technique that allows attackers to bypass security controls by exploiting legitimate application processes, making detection more difficult for organizations. This campaign's targeting of critical sectors including government and finance indicates a serious threat to national security and economic stability. Understanding this attack method helps security teams ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkb692n4xA8jDUKZCkwPSIXqiyTaEk_bQhrNaZj33tRhusSP40-iwlk5x7iblb9M63WKWVbj8Gm6oPJZY3bm602-qFyLLnRXuCKsl40iAZG_5-ehqlQ4CYaO442hgo4FBKrspLCO4r_ET1U4U3fPCKCYOc7DFuDn_mv7ZzbzH_IC0NAt2HVVSxwIBNOruk/s1600/cyber-espionage.jpg",
-      "processedAt": "2026-05-29T10:02:57.120507+00:00"
-    },
-    {
-      "id": "art-f90affd1",
-      "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
-      "summary": "Cybercriminals are increasingly leveraging artificial intelligence to enhance their attacks, making DDoS assaults more sophisticated and difficult to defend against. AI tools are helping attackers identify system vulnerabilities more quickly and efficiently than traditional methods. This webinar addresses the emerging threat of AI-powered attacks and provides strategies for organizations to strengthen their defenses.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-ddos-attacks",
-        "artificial-intelligence",
-        "ddos",
-        "attack-detection",
-        "network-defense",
-        "cyber-threats"
-      ],
-      "whyItMatters": "As attackers gain access to AI capabilities, their ability to discover and exploit system weaknesses accelerates exponentially, requiring organizations to adopt more intelligent and adaptive defense mechanisms. Understanding how AI is weaponized in DDoS attacks is critical for security teams to implement proactive countermeasures before threats become widespread.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiphaRoHMD4mkIzApkJZumEOEdIR0c_RxQrvmjv5qM6Kgo8MBnKrIAxicsojC-CdXhcOfRR9t0DxQeyEMXjXtER-bkSqe97zvFr7mfz3HjwA-79JjLWg0IwhZFTulr__kB02fXgX09tOpLWUjqy-fFmQbfvCZG-2uLLAhJpFAFrPo5d9H0PVZHEaSvmZKFE/s1600/ddossss.jpg",
-      "processedAt": "2026-05-29T10:02:59.992521+00:00"
-    },
-    {
-      "id": "art-4df59ac7",
-      "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-      "summary": "Microsoft released security patches for CVE-2026-45659, a critical remote code execution vulnerability affecting SharePoint server versions. The flaw involves unsafe deserialization of untrusted data and carries a CVSS score of 8.8, meaning attackers could exploit it without special conditions. Organizations using SharePoint should apply these updates immediately to prevent potential compromise.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "sharepoint-rce",
-        "cve-2026-45659",
-        "remote-code-execution",
-        "deserialization-flaw",
-        "microsoft-patch",
-        "high-cvss"
-      ],
-      "whyItMatters": "This vulnerability poses a critical risk because it allows unauthenticated remote code execution on SharePoint systems without requiring special conditions, making it highly exploitable for widespread attacks. Organizations must prioritize patching to prevent attackers from gaining complete control of their SharePoint infrastructure and accessing sensitive business data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi34meakbjhvY3-jNVG7Q8tPJ5Xk1a-vtGSeKgfVDApX6pn88G7gYhK2oz34my6QeWHsldmSJuV4o8tlBOmw-9Ul32EJYhC-aFmExZvn6ibinw10_4DhBf6pHmIum2Ha_HggakezqS_uKiOPJzrIdwioMru5Oj74p87z_ZbQt_c-bH8kQl6jEXYycod7Vrw/s1600/sharepoint.png",
-      "processedAt": "2026-05-29T10:03:03.720541+00:00"
-    },
-    {
-      "id": "art-066346ef",
-      "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-      "summary": "Multi-factor authentication (MFA) is being undermined by a social engineering attack called MFA prompt bombing, where attackers trick users into approving login attempts rather than stealing the second factor directly. Even though MFA adds a security layer beyond passwords, cybercriminals have discovered they can simply pressure or deceive users into providing the authentication code themselves. This vulnerability highlights that technology alone cannot protect accounts if attackers can manipulate human behavior.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "mfa-attacks",
-        "social-engineering",
-        "prompt-bombing",
-        "phishing",
-        "identity-security",
-        "user-manipulation"
-      ],
-      "whyItMatters": "MFA prompt bombing represents a critical gap in current security practices because it bypasses a widely-trusted defense mechanism by exploiting human psychology rather than technical flaws. Organizations relying on MFA as their primary security control may have a false sense of protection, making security awareness training and behavioral defenses essential complements to authentication technology",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtums9LZoPXx5AzbNIYmdrNPI6vAAWAnYGfW6NzZ4DkICva0wX2GjMPvmYoq4EVuhvWUc6FyLrgJJ0Hvh8w0TBJ4MLkQplbffUwg89oiQxoJhV-93mboD0D2rdkrrhsblZ2tLJv-auc2GBNjIMsg8wGUCYOkZHNDHaQoqhDbLXrFC3-rD3cz0pI12U7rR2/s1600/prompt-1.jpg",
-      "processedAt": "2026-05-29T10:03:06.751409+00:00"
-    },
-    {
-      "id": "art-871ec7a3",
-      "title": "Charter Communications data breach affects 4.9 million accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-      "summary": "Charter Communications, a major U.S. telecommunications company, suffered a significant data breach in early April that exposed personal information belonging to 4.9 million customer accounts. The ShinyHunters extortion gang is responsible for the attack and stole sensitive data from the company's systems. This breach was discovered and reported through the Have I Been Pwned data breach notification service.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "extortion",
-        "charter-communications",
-        "shinyhunters",
-        "personal-information",
-        "telecom"
-      ],
-      "whyItMatters": "This breach affects millions of customers of a major telecom provider, putting their personal information at risk of identity theft and fraud. The involvement of an extortion gang suggests potential ransom demands and ongoing threats to affected individuals. Customers should monitor their accounts for suspicious activity and consider freezing their credit to prevent unauthorized access.",
-      "image": null,
-      "processedAt": "2026-05-29T10:03:09.107205+00:00"
-    },
-    {
-      "id": "art-3a4e414a",
-      "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
-      "summary": "Anthropic has announced plans to release its advanced Mythos-class AI models to the general public, following a previous delay due to security concerns. The company had postponed the rollout to address potential risks these powerful models could pose to both public and private software systems. This release represents a significant milestone in making cutting-edge AI technology more widely accessible while attempting to manage associated security challenges.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "model-deployment",
-        "risk-management",
-        "public-release",
-        "anthropic"
-      ],
-      "whyItMatters": "The rollout of more powerful AI models to the general public introduces both opportunities and risks—attackers could potentially misuse advanced AI capabilities for malicious purposes, while defenders gain access to stronger tools. Organizations and individuals need to understand the security implications of deploying and using these models, and Anthropic's approach to mitigating risks sets preced",
-      "image": null,
-      "processedAt": "2026-05-29T10:03:11.824697+00:00"
-    },
-    {
-      "id": "art-213031a3",
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-      "summary": "A Russian-linked hacking group called GreyVibe is launching cyberattacks against Ukrainian targets using AI tools like ChatGPT and Gemini to create convincing fake messages and lures. The attackers are combining these AI-generated deception tactics with custom-built malware to compromise their victims. This represents a new approach where sophisticated threat actors are weaponizing publicly available AI technology to make their attacks more effective.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-generated-malware",
-        "phishing-lures",
-        "ukrainian-targets",
-        "russian-threat-actor",
-        "chatgpt-abuse",
-        "gemini-misuse"
-      ],
-      "whyItMatters": "This demonstrates how threat actors are rapidly adopting AI tools to scale social engineering attacks and bypass traditional security awareness training by creating highly personalized and convincing lures. Organizations need to understand that defenders can no longer rely solely on detecting obvious phishing indicators, as AI-generated content can be significantly more sophisticated and harder to",
-      "image": null,
-      "processedAt": "2026-05-29T10:03:14.731970+00:00"
-    },
-    {
-      "id": "art-4ae02303",
-      "title": "BTMOB Android malware service generates custom phishing payloads",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/btmob-android-malware-service-generates-custom-phishing-payloads/",
-      "summary": "BTMOB is an Android remote access trojan being sold as a malware-as-a-service offering that allows cybercriminals to easily create customized phishing payloads through a builder interface. This tool lowers the technical barrier for attackers by automating the creation of tailored malicious apps designed to trick users into downloading them. The availability of such weaponized services demonstrates how organized cybercriminal operations are streamlining mobile malware attacks.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "malware-as-a-service",
-        "phishing",
-        "remote-access-trojan",
-        "mobile-security"
-      ],
-      "whyItMatters": "This threat is significant because malware-as-a-service platforms democratize sophisticated Android attacks, making them accessible to less-skilled criminals and increasing infection rates across mobile devices. Organizations and users need to be aware that phishing attacks targeting Android devices are becoming more customizable and professional, requiring stronger defenses and user education aro",
-      "image": null,
-      "processedAt": "2026-05-29T10:03:18.769316+00:00"
-    },
-    {
-      "id": "art-29e4f866",
-      "title": "Webinar: Why network incidents take too long to resolve",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-why-network-incidents-take-too-long-to-resolve/",
-      "summary": "Organizations often struggle to resolve network incidents quickly because investigations and coordination processes create bottlenecks, even when initial detection is fast. This webinar discusses how automation and artificial intelligence can streamline IT team workflows to eliminate delays and speed up incident response times. By implementing smarter tools and processes, companies can significantly reduce the time needed to fully resolve security incidents.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "incident-response",
-        "automation",
-        "ai-workflows",
-        "network-monitoring",
-        "operational-efficiency"
-      ],
-      "whyItMatters": "Slow incident resolution increases the window of exposure and potential damage from security threats, making response speed a critical competitive advantage. Understanding how automation and AI can accelerate investigation and coordination processes helps organizations build more effective incident response programs that minimize business impact.",
-      "image": null,
-      "processedAt": "2026-05-29T10:03:21.293720+00:00"
     }
   ]
 }
