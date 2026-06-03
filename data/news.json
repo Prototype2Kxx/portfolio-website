@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-06-03T11:10:19.888044+00:00",
+  "lastUpdated": "2026-06-03T20:44:46.141479+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-9e3cf701",
+      "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+      "summary": "A vulnerability in Google Gemini's voice assistant on Android could allow attackers to hijack the app through malicious notifications from popular messaging platforms like WhatsApp, Slack, or Signal, without requiring any malicious app installation. An attacker exploiting this flaw could perform harmful actions such as opening windows, sending fake messages, initiating video calls, or manipulating the assistant's memory. This threat demonstrates how notification systems can be weaponized to compromise voice assistant functionality and user privacy.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "voice-assistant",
+        "android-vulnerability",
+        "notification-hijacking",
+        "ai-security",
+        "gemini",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows remote attackers to compromise a widely-used AI assistant without requiring malware installation or user interaction beyond receiving a notification. The ability to manipulate voice assistants and access connected devices creates significant risks for unauthorized actions, data theft, and privacy violations at scale.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCJpW9I-QTgQOkP7AV3rwUtEOEs96ek2ySR06Go-xq5AThZV84qY3mDN1Dkh0oQ-94jZHc7zB21ax9ljU0dW2LtsSW5p7xuuX9ARsvoIZQTGaMSkESGxTjl-PgTy8hrnsI8ucVZpENLEuMa9QzoUYVmfp4aug4OnEZq3XeL3ZELNZVELSegpS398l8vKg/s1600/gemini-prompt.jpg",
+      "processedAt": "2026-06-03T20:44:19.669871+00:00"
+    },
+    {
+      "id": "art-4ee9cf07",
+      "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
+      "summary": "Attackers are exploiting Google's DoubleClick domain, a trusted Google-owned service, to disguise malicious links in spam emails. By routing victims through DoubleClick before delivering them to attacker infrastructure, cybercriminals are bypassing security tools that typically trust legitimate Google domains. The campaign ultimately infects victims with DesckVB RAT, a remote access trojan that gives attackers control over compromised systems.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malspam",
+        "rat-malware",
+        "google-doubleclick",
+        "evasion",
+        "remote-access-trojan"
+      ],
+      "whyItMatters": "This campaign demonstrates how attackers abuse legitimate, trusted services to evade security filters—a technique that traditional email and web security tools may struggle to detect. Organizations need to monitor suspicious activity even from trusted domains and educate users to verify unexpected links, since brand reputation alone is no longer a reliable security indicator.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpQ6QXxFH4zkfeHGdcm1WXVcNXMpyJm-1dlZLbFCdp6rKDRhuwICzYaKaR-rCpn61qod6A1F98PZejZbmYuxaUXPJLXQffoaniCkqgyqR1-p7gClpj4PYibjzIDHk8_Vw4ag00EYPCM3Nz1G0Hvzuf6wBV-HzDFoSiYDEEdjPU45Bk_rIlGk9dJ_MMVuue/s1600/ad-malware.jpg",
+      "processedAt": "2026-06-03T20:44:23.806388+00:00"
+    },
+    {
+      "id": "art-f79ad2a7",
+      "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+      "summary": "This webinar featuring Metasploit creator HD Moore challenges the traditional approach of patching vulnerabilities quickly, arguing that organizations should instead focus on network architecture and containment strategies. Moore emphasizes that since zero-day exploits are inevitable and AI-accelerated attacks outpace patch cycles, teams should prioritize limiting what an attacker can access once they breach the network rather than trying to prevent all breaches. The key insight is that controlling network topology and segmentation is more achievable than winning a race to patch every vulnerab",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "network-segmentation",
+        "breach-assumption",
+        "defense-strategy",
+        "metasploit"
+      ],
+      "whyItMatters": "This perspective shift from prevention-only to containment-focused security is critical for modern defense strategies, as zero-day exploits and AI-driven attacks are becoming faster than patch cycles can handle. Organizations that redesign their networks to assume breach and limit lateral movement can significantly reduce the impact of inevitable compromises, making this architectural approach a p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzZPASJ7ymlBpeDWq_d-byWp58FpBR6tdX6QfLJFFoGRHK9xB5mTbx0guIcMFKFYV87inRtJyM-cKJXI0Td5fVtpC1ITBFmp2myS2wBynVSF3rZP2jZWH6uR-_14ZEalErJASiKWVDJ_TD551AC0pN5A3Mu8y-Z1zW5mKvFMOmdLzrdWnhYCif0FR1lOE/s1600/hd.jpg",
+      "processedAt": "2026-06-03T20:44:27.159498+00:00"
+    },
+    {
+      "id": "art-a65219a5",
+      "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+      "summary": "Microsoft 365 Android apps contained a leftover debug flag in production that allowed any app on a device to request and obtain a signed-in user's authentication token without permission or user interaction. Once obtained, malicious apps could impersonate the user to access email, files, calendar, and send messages. This vulnerability essentially bypassed all security controls that normally restrict token sharing to trusted Microsoft applications only.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "mobile-security",
+        "authentication-bypass",
+        "microsoft-365",
+        "android-vulnerability",
+        "token-theft",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects widely-used productivity apps and requires no user action, password, or explicit permission to exploit. Any malicious app on an Android device could silently steal full account access, making it a severe supply-chain and device-compromise risk that impacts millions of Microsoft 365 mobile users globally.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_pEYWDRVadGL0WYM3iSY6jqFgBez8snXgoyeyAzcXNmxiytv-FgiKoBJX3aPivuYhSJjXp4o_zO1dQSIPUfduaAlB-rvSti7pFhdDZSrAa-ennBdfdVpe1Xo0dMxKATB8te61pyJAf60x5CP6OJzjzmtpFIg_qHQqA7VP-rUnEpaT37Z0qBOmbZ52BfM/s1600/ms-android.jpg",
+      "processedAt": "2026-06-03T20:44:29.946490+00:00"
+    },
+    {
+      "id": "art-bc6edc6d",
+      "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+      "summary": "Redis, a widely-used database system, contained a critical use-after-free vulnerability that allowed authenticated attackers to execute arbitrary commands on the hosting server. The flaw, identified as CVE-2026-23479, existed undetected for over two years since its introduction in Redis 7.2.0 and was discovered by an autonomous AI security tool. Redis released patches in May 2026 to address this serious vulnerability across all affected stable branches.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "redis",
+        "rce",
+        "use-after-free",
+        "authentication-required",
+        "patching",
+        "ai-discovery"
+      ],
+      "whyItMatters": "This vulnerability demonstrates that critical flaws can persist undetected in widely-deployed open-source projects for extended periods, putting numerous systems at risk of compromise. The discovery by an autonomous AI tool highlights the growing importance of machine learning in vulnerability research and suggests organizations must prioritize patching Redis installations immediately to prevent p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTV6zPqD9KC3Rc5Mz9c8XENLiJntboDT6LIoD3L2FXlTUVC3rsWZ_3YLfe_jmhhyphenhyphenjb5RCwkTsdoyypD9VXxYgj_2GYaAupNMlOyZkycm94qr7XiarmBCpYQdZDN_Gwq6KrOmomzx1dmbz4hpUkw4OZparqEbydJneNKaWQI0fcP5tctpKxsZ7kFP5FCv0/s1600/redis-db.png",
+      "processedAt": "2026-06-03T20:44:32.691150+00:00"
+    },
+    {
+      "id": "art-b922ddf9",
+      "title": "The U.S. sanctions Nobitex crypto exchange used by ransomware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-us-sanctions-nobitex-crypto-exchange-used-by-ransomware/",
+      "summary": "The U.S. Treasury's OFAC has imposed sanctions on Nobitex, Iran's biggest cryptocurrency exchange, because it was being used to process payments connected to terrorist activities and ransomware operations. This action targets a key financial infrastructure that cybercriminals were exploiting to launder money and fund illegal activities. The sanctions aim to disrupt the financial channels that enable ransomware groups and terrorists to move and hide their funds.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ransomware-finance",
+        "sanctions",
+        "cryptocurrency-exchange",
+        "terrorist-funding",
+        "iran",
+        "money-laundering"
+      ],
+      "whyItMatters": "This demonstrates how governments are actively targeting the financial infrastructure that enables ransomware attacks and cybercriminal operations. Understanding these enforcement actions helps organizations recognize that disrupting payment channels is a key strategy in combating ransomware and cybercrime at scale.",
+      "image": null,
+      "processedAt": "2026-06-03T20:44:35.947210+00:00"
+    },
+    {
+      "id": "art-fd72b3c6",
+      "title": "CISA warns of cyberattacks targeting fuel tank monitoring systems",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-targeting-fuel-tank-monitoring-systems/",
+      "summary": "U.S. government agencies including CISA, FBI, and NSA are alerting critical infrastructure operators about cyberattacks targeting automatic tank gauge (ATG) systems that monitor fuel and liquid storage tanks. These internet-exposed systems are vulnerable to compromise across various essential sectors. The warning emphasizes the need for organizations to secure these monitoring systems against unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "critical-infrastructure",
+        "iot-security",
+        "atg-systems",
+        "fuel-monitoring",
+        "network-exposure",
+        "cisa-warning"
+      ],
+      "whyItMatters": "ATG systems control critical fuel and liquid storage across essential infrastructure, making them attractive targets for attackers seeking to disrupt supply chains or cause physical damage. Compromised tank monitoring systems could lead to environmental disasters, operational shutdowns, or safety hazards. This coordinated government warning signals an active threat requiring immediate attention fr",
+      "image": null,
+      "processedAt": "2026-06-03T20:44:38.328799+00:00"
+    },
+    {
+      "id": "art-12bbc5e9",
+      "title": "New 'HTTP/2 Bomb' DoS attack crashes web servers in under a minute",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-http-2-bomb-dos-attack-crashes-web-servers-in-under-a-minute/",
+      "summary": "Researchers have discovered a new denial-of-service attack called HTTP/2 Bomb that can disable web servers in seconds using just a single attacker machine. This attack exploits weaknesses in how HTTP/2 protocol handles certain requests, allowing minimal resources to cause maximum disruption. Web server administrators need to be aware of this threat and take defensive measures to protect their infrastructure.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "dos-attack",
+        "http2",
+        "web-server",
+        "network-security",
+        "denial-of-service"
+      ],
+      "whyItMatters": "This attack is critical because it enables even small-scale attackers to take down web services with minimal resources and effort, posing an immediate threat to web infrastructure worldwide. Organizations running HTTP/2-enabled servers need urgent visibility into this vulnerability and should implement protective measures or workarounds to prevent rapid service disruptions.",
+      "image": null,
+      "processedAt": "2026-06-03T20:44:40.863360+00:00"
+    },
+    {
+      "id": "art-d89d29d9",
+      "title": "CISA warns of active attacks exploiting Android, Linux bugs",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-active-attacks-exploiting-android-linux-bugs/",
+      "summary": "U.S. cybersecurity officials at CISA have reported that attackers are actively exploiting security vulnerabilities found in both the Linux kernel and Android operating system. These bugs are being weaponized in real-world attacks against systems and devices. Users and organizations running these platforms need to be aware of the threat and take protective measures.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "android-vulnerability",
+        "active-exploitation",
+        "patch-urgent",
+        "cisa-warning",
+        "operating-system"
+      ],
+      "whyItMatters": "Linux and Android power millions of devices globally, from servers to smartphones, making vulnerabilities in these systems a widespread threat. Active exploitation means attackers are already leveraging these bugs, creating immediate risk for unpatched systems. Organizations and individuals must prioritize patching to prevent compromise of critical infrastructure and personal devices.",
+      "image": null,
+      "processedAt": "2026-06-03T20:44:43.440234+00:00"
+    },
+    {
+      "id": "art-d828af65",
+      "title": "What 345 Days of Untested Exposure Looks Like at a Bank",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/what-345-days-of-untested-exposure-looks-like-at-a-bank/",
+      "summary": "A two-week penetration test leaves banks exposed to real-world threats for the remaining 345 days of the year, according to Sprocket Security. Since attack surfaces are constantly evolving, one-time or infrequent security tests fail to catch new vulnerabilities that emerge between assessments. The article highlights why continuous and ongoing security testing is essential for modern banking institutions.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "penetration-testing",
+        "continuous-security",
+        "vulnerability-assessment",
+        "banking-security",
+        "exposure-management"
+      ],
+      "whyItMatters": "Banks and financial institutions rely on periodic penetration tests, but this approach leaves massive gaps in security coverage as threats evolve daily. Organizations must shift from static testing schedules to continuous monitoring and validation to maintain effective defenses against attackers who operate year-round.",
+      "image": null,
+      "processedAt": "2026-06-03T20:44:46.141309+00:00"
+    },
     {
       "id": "art-03d18e21",
       "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
@@ -822,211 +1028,6 @@
       "whyItMatters": "Active exploitation of a critical RCE vulnerability means attackers are actively compromising systems right now, making immediate patching essential for all organizations. Netlogon is a core Windows component used for network authentication, so this vulnerability could allow attackers to move laterally across networks and gain administrative access. Organizations that delay patching are at immedia",
       "image": null,
       "processedAt": "2026-06-01T21:19:53.820055+00:00"
-    },
-    {
-      "id": "art-571d4530",
-      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-      "summary": "A malicious npm package called codexui-android, which posed as a legitimate web interface for OpenAI Codex, was discovered stealing authentication tokens from developers. The package accumulated over 29,000 weekly downloads before being identified as part of a supply chain attack. Attackers compromised developer credentials by distributing this fake tool through popular software repositories.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-malware",
-        "credential-theft",
-        "ai-security",
-        "authentication-tokens"
-      ],
-      "whyItMatters": "This attack demonstrates how malicious packages can infiltrate trusted software repositories and compromise developer credentials at scale, potentially giving attackers access to sensitive AI services and downstream applications. Supply chain attacks like this are particularly dangerous because they exploit developer trust and can affect numerous organizations indirectly through infected dependenc",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4veBAmEJHF2nXN_nIgXeWxVSxlTDBc6uWiLwVCYNUqGMF9ZtPre3zF_CXmGnAxX2rbqfwgm_Au0tXvYwv1oTGim1STiGCeVOyMXglUTd-3LeJEN3q718Fdlck9mbQ6aUUYP0NM9S7bakZ4_XF5HHYH-cz2QmKBlge6xNMxbbEjDjZQ4wd1maPKnjgKrsu/s1600/codex.png",
-      "processedAt": "2026-06-01T11:46:03.704549+00:00"
-    },
-    {
-      "id": "art-5dca02bf",
-      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-      "summary": "A critical security vulnerability in WP Maps Pro, a popular WordPress plugin with over 15,000 sales, is being actively exploited by attackers to create unauthorized administrator accounts on vulnerable websites. The flaw allows threat actors to gain full control over affected WordPress sites. Website owners using this plugin need to take immediate action to protect their sites from compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress-plugin",
-        "privilege-escalation",
-        "admin-account-creation",
-        "active-exploitation",
-        "patch-now",
-        "wp-maps-pro"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe threat because attackers are actively exploiting it to gain administrative access to WordPress sites, which can lead to complete site compromise, data theft, and malware distribution. Website administrators using WP Maps Pro must patch or disable the plugin urgently to prevent unauthorized access. The widespread adoption of the plugin (15,000+ sales",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR5AZVDVlhPdPOYO4FsyfLsBmtohzgdjmh688BLU6VRpwi-MaKq4XYgE5-ygnQtcUDMKcR8R4-f9IrfiSFpCodN01gveAWlDpu4Jg4AI9DMKQG50zMr5M1QhqjVAjyuYJQ-vF849bn3jkkDJuBRahpyUwAz8libDqBIwh08wgQNsfmchLwqRUqiYKRDkMT/s1600/wordpress-2.jpg",
-      "processedAt": "2026-06-01T11:46:06.517844+00:00"
-    },
-    {
-      "id": "art-7525acbf",
-      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-      "summary": "North Korean hacker group Kimsuky launched sophisticated attacks against South Korean military and businesses in early 2026 using deceptive tactics like fake security software pages and fraudulent video conference invitations. The group expanded its toolkit with new malware including HTTPSpy, HelloDoor, and VS Code Tunnels to compromise targets. These coordinated social engineering campaigns demonstrate how state-sponsored actors use targeted deception to gain access to sensitive defense and corporate networks.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "north-korean-apt",
-        "state-sponsored",
-        "social-engineering",
-        "malware-deployment",
-        "military-targeting",
-        "httpspy"
-      ],
-      "whyItMatters": "This demonstrates an active and escalating threat from a capable nation-state actor targeting critical infrastructure and military assets using evolving techniques that evade traditional defenses. Organizations in similar sectors need to strengthen email security, security awareness training, and network segmentation to prevent compromise from sophisticated phishing campaigns combined with novel m",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfUl1K-os1XyLN-SBt6PgMia_jFG03ArRa3H0FI2hsiUqNa3lqSWY2NJcvOhY33TArSKJxeookUpkATdERUpEwKw-IUi6iv9ZVuUq4c1A99mLwgQB4ibCxBx4MBR1XXmM98zH7v-QWDO7bhh1AONQ8Op0htvwHhuivwI1Cch9rgLPO-zSGCjjQbvXdDte/s1600/north-korea.png",
-      "processedAt": "2026-06-01T11:46:09.399776+00:00"
-    },
-    {
-      "id": "art-bac548af",
-      "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
-      "summary": "A new LayerX Security report reveals that enterprise AI risks are not evenly spread across organizations, but instead concentrated among a small number of power users. Most companies lack visibility into where their actual AI security exposures originate, creating a significant blind spot in their security posture. The research highlights that organizations need to better understand and monitor how their employees are using AI tools to effectively manage risk.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "enterprise-risk",
-        "visibility-gap",
-        "power-users",
-        "ai-exposure",
-        "security-awareness"
-      ],
-      "whyItMatters": "Understanding where AI risks concentrate helps organizations prioritize their security efforts and monitoring resources more effectively. This insight is critical because companies may be over-allocating defenses broadly while missing concentrated risks among key users. Identifying and controlling AI usage among power users can significantly reduce enterprise vulnerability to data leaks, unauthori",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXxB1vzDMiskZRwzcQojV8rDdalRXWpzXieLES5nUD0bXfnbXrUwsV00RsMmRFdd-Zd3up_9wAGsvfzTDmWi4MLp70XlajlgakXsuCfdWmOe0uQuy0yIwxC4-fevqlb0Rs3AR_eqInGT1scQfa5oiGqY-TRmswOwkY4Zg2ikCYxlsBF2FQTEGA216b_NF8/s1600/apples.jpg",
-      "processedAt": "2026-06-01T11:46:12.225195+00:00"
-    },
-    {
-      "id": "art-91eec626",
-      "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-26",
-      "originalUrl": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-      "summary": "The Iranian hacking group MuddyWater conducted a coordinated espionage campaign in early 2026 targeting at least nine organizations across multiple countries using DLL side-loading techniques. The attacks affected businesses and institutions in industrial manufacturing, electronics, education, government, finance, and professional services sectors. This campaign demonstrates how advanced threat actors continue to evolve their methods to compromise high-value targets globally.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "dll-side-loading",
-        "muddywater",
-        "espionage",
-        "iran-linked",
-        "multi-country",
-        "advanced-threat-actor"
-      ],
-      "whyItMatters": "DLL side-loading remains an effective persistence technique that can bypass traditional security controls, making it critical for organizations to understand this attack vector. The targeting of critical sectors like finance, manufacturing, and government indicates that enterprises should prioritize monitoring for suspicious DLL loading behaviors and validate the integrity of legitimate applicatio",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkb692n4xA8jDUKZCkwPSIXqiyTaEk_bQhrNaZj33tRhusSP40-iwlk5x7iblb9M63WKWVbj8Gm6oPJZY3bm602-qFyLLnRXuCKsl40iAZG_5-ehqlQ4CYaO442hgo4FBKrspLCO4r_ET1U4U3fPCKCYOc7DFuDn_mv7ZzbzH_IC0NAt2HVVSxwIBNOruk/s1600/cyber-espionage.jpg",
-      "processedAt": "2026-06-01T11:46:15.544544+00:00"
-    },
-    {
-      "id": "art-08417de5",
-      "title": "Microsoft confirms outage affecting MFA, My Sign-Ins platform",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-outage-affecting-mfa-my-sign-ins-platform/",
-      "summary": "Microsoft experienced a service outage that disrupted its multi-factor authentication (MFA) and My Sign-Ins platform, preventing users from setting up or accessing these critical security features. The outage affected customers' ability to strengthen their account protection through MFA, which is a fundamental security control. Microsoft's support team was actively working to restore full functionality to both services.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "microsoft",
-        "mfa-outage",
-        "authentication-failure",
-        "service-disruption",
-        "account-security"
-      ],
-      "whyItMatters": "MFA is a essential security defense that protects accounts from unauthorized access, so an outage preventing its setup leaves users vulnerable during the downtime. Service disruptions affecting authentication platforms can cascade across organizations and delay security implementations. This incident highlights how dependencies on cloud services create risk when core security features become unava",
-      "image": null,
-      "processedAt": "2026-06-01T11:46:18.430896+00:00"
-    },
-    {
-      "id": "art-f1de3f5d",
-      "title": "Microsoft fixes KB5089549 Windows security update install issues",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/",
-      "summary": "Microsoft has fixed a problem that was preventing users from successfully installing the May 2026 Windows 11 security update (KB5089549), which was causing error code 0x800f0922. The resolution ensures that systems can now receive critical security patches without installation failures. This fix is important because keeping Windows systems updated is essential for protecting against cyber threats.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "windows-update",
-        "kb5089549",
-        "security-patch",
-        "installation-fix"
-      ],
-      "whyItMatters": "Update failures can leave systems vulnerable to attacks if users cannot install security patches. By resolving this issue, Microsoft ensures organizations and individual users can maintain their security posture without technical obstacles blocking critical updates.",
-      "image": null,
-      "processedAt": "2026-06-01T11:46:20.422257+00:00"
-    },
-    {
-      "id": "art-6de50009",
-      "title": "Charter Communications data breach affects 4.9 million accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/charter-communications-data-breach-affects-49-million-accounts/",
-      "summary": "Charter Communications, a major U.S. telecommunications company, fell victim to a cyberattack by the ShinyHunters extortion gang in early April, resulting in the theft of personal information from approximately 4.9 million customer accounts. The breach was discovered and documented by the Have I Been Pwned data breach notification service. This incident demonstrates how large infrastructure providers remain attractive targets for cybercriminals seeking to steal and extort sensitive customer data.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "extortion",
-        "personal-information",
-        "telecom",
-        "shiny-hunters",
-        "account-compromise"
-      ],
-      "whyItMatters": "This breach affects millions of customers of a major telecom provider, exposing personal information that can be used for identity theft, fraud, and further social engineering attacks. The involvement of an extortion gang indicates potential ransom demands and public exposure of stolen data, creating urgent risks for affected individuals. Organizations and individuals should monitor their accounts",
-      "image": null,
-      "processedAt": "2026-06-01T11:46:23.151599+00:00"
-    },
-    {
-      "id": "art-6961388b",
-      "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
-      "summary": "Anthropic has announced plans to release its advanced Claude Mythos-class AI models to the general public, following a previous delay caused by security concerns. The company postponed the rollout because these powerful models posed potential risks to both public and private software systems. This release represents a significant step in making cutting-edge AI technology more widely available while attempting to address earlier safety considerations.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "model-deployment",
-        "public-release",
-        "safety-considerations",
-        "anthropic"
-      ],
-      "whyItMatters": "The rollout of advanced AI models to the public has direct cybersecurity implications, as more accessible powerful AI systems can be misused for creating sophisticated attacks, generating malware, or automating social engineering campaigns. Understanding how major AI developers balance innovation with security safeguards is critical for organizations preparing to defend against AI-enabled threats.",
-      "image": null,
-      "processedAt": "2026-06-01T11:46:25.580349+00:00"
-    },
-    {
-      "id": "art-61eb59f1",
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-      "summary": "A Russian hacker group called GreyVibe is launching cyberattacks against Ukrainian organizations by using AI tools like ChatGPT and Gemini to create convincing fake messages and deploy custom-built malware. This campaign combines the persuasiveness of artificial intelligence-generated content with sophisticated malware to trick targets into compromising their security. The attacks highlight how threat actors are leveraging publicly available AI technology to make their campaigns more effective and harder to detect.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-powered-attacks",
-        "phishing-lures",
-        "custom-malware",
-        "threat-actor",
-        "ukraine",
-        "social-engineering"
-      ],
-      "whyItMatters": "This demonstrates how cybercriminals are weaponizing legitimate AI tools to enhance attack effectiveness, making it increasingly difficult for organizations to distinguish genuine communications from malicious ones. The fusion of AI-generated social engineering with advanced malware represents an evolving threat that requires both technical and human-awareness defenses. Organizations need to under",
-      "image": null,
-      "processedAt": "2026-06-01T11:46:28.972341+00:00"
     }
   ]
 }
