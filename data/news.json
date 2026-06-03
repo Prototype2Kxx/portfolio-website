@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-06-02T20:32:54.726442+00:00",
+  "lastUpdated": "2026-06-03T11:10:19.888044+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-03d18e21",
+      "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+      "summary": "A newly discovered vulnerability in Windows Search's URI handler could allow attackers to steal NTLMv2 hashes from users' systems without requiring a patch. This issue is similar to a previous flaw found in the Windows Snipping Tool, suggesting a pattern of security weaknesses in URI handlers across Windows components. The vulnerability exposes sensitive authentication credentials that attackers could potentially use to compromise user accounts.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "windows-vulnerability",
+        "ntlm-hash-theft",
+        "uri-handler",
+        "credential-exposure",
+        "unpatched"
+      ],
+      "whyItMatters": "NTLMv2 hash theft is a serious threat because attackers can use captured hashes for credential stuffing, offline cracking, or relay attacks to gain unauthorized access to systems and networks. Since this vulnerability remains unpatched, it poses an immediate risk to Windows users who cannot currently mitigate the threat through official updates. Understanding this attack vector helps organizations",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9Y4FY1kH_mrU4oH2X7TPrnmPdf9Ib4UZ4Xgud4Qgjie69on9qP9D1OU8i3ol3THTISUTy8OBJzPXzbUTyHwx1xF8cWuYvb9r-_7r_g-gFXyW62phdyaEAd41PI5cfduXxd084XQdwhxQ40Ti5n7SvkhIbZRktqP8G9bhufjlrxzxHYWpFTAXAfSSWstwc/s1600/NTLM.jpg",
+      "processedAt": "2026-06-03T11:09:50.657929+00:00"
+    },
+    {
+      "id": "art-5f660666",
+      "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+      "summary": "Researchers discovered a critical remote denial-of-service vulnerability affecting major web servers like NGINX, Apache, Microsoft IIS, Envoy, and Cloudflare Pingora. Called the HTTP/2 Bomb, this flaw exploits default HTTP/2 configurations to crash or overwhelm these servers. The vulnerability was uncovered through automated security analysis and poses an immediate risk to widely-used web infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "http2-vulnerability",
+        "dos-attack",
+        "web-servers",
+        "nginx",
+        "apache",
+        "remote-exploit"
+      ],
+      "whyItMatters": "This vulnerability affects the backbone infrastructure of the internet—web servers that power countless websites and services. Organizations running affected software face immediate risk of service disruption without patching, making this a widespread and urgent cybersecurity threat requiring immediate action across the industry.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhP07q0cgsa0a9VyTU6oPpxqvoZ5Gg2spx-ClmUIzn9LjYzDfuKNxnLXNuXMexiMB8GjKewhk7CnAL5HXgpCL_wq5eaU8VK2mTxxcKJHAZ9eLBskg516sBn4SV5XHWOuZIozDzBD_0MUCAMcVpGyqOEWITNKi2mQFxFLl9gqg_3UxPlwmXCkRfm2JERftyN/s1600/http2.gif",
+      "processedAt": "2026-06-03T11:09:57.165500+00:00"
+    },
+    {
+      "id": "art-11697ac8",
+      "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+      "summary": "A malware campaign called Weedhack is targeting Minecraft players through YouTube videos by disguising itself as legitimate game clients and mods. The malware-as-a-service operation, active since January 2026, has already infected approximately 3,820 users and gives attackers control over victims' computers. This attack demonstrates how popular gaming platforms and trusted modification sources can be weaponized to distribute malware at scale.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-as-a-service",
+        "gaming-targeted",
+        "youtube-distribution",
+        "minecraft-threat",
+        "credential-theft",
+        "system-compromise"
+      ],
+      "whyItMatters": "This campaign highlights a critical vulnerability in how users obtain game mods and clients, making it a significant risk for the large gaming community. Attackers are leveraging the trust users place in popular gaming platforms to distribute malware, making this a practical threat that could affect hundreds of thousands more players. The use of legitimate-looking impersonations means traditional ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBhPg_oWS3s5XgNMW4vuwq3Pwrnsw3l3FyzGwoYkQ7AwCuU6VXH6sOv03o04S4jw-7pkVzAsccuFCxzMX1tg8JbB8D9k5onrVg0-D7HBQduN4pAHq2FOH9a-tSeokVqGIyJS-hStrL7fs5I9u67yp2gRKjOYuTYF_xUrsJnIWL3GdTZ7bLiU6u1vObezoD/s1600/hacker-pirate.jpg",
+      "processedAt": "2026-06-03T11:10:00.336204+00:00"
+    },
+    {
+      "id": "art-6f096f40",
+      "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-29",
+      "originalUrl": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
+      "summary": "Employees are increasingly building and deploying AI-generated applications directly to production systems without involving security or IT teams, creating a new shadow IT problem. This practice, revealed in analysis of 2,000 exposed applications, significantly expands the attack surface and introduces unvetted code into critical business infrastructure. Organizations are struggling to maintain security visibility and control over these unauthorized deployments.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "shadow-ai",
+        "ai-security",
+        "cloud-security",
+        "application-security",
+        "unauthorized-deployment",
+        "risk-management"
+      ],
+      "whyItMatters": "As AI tools become more accessible, the ability to rapidly build and deploy applications bypasses traditional security controls, creating blind spots for defenders. Organizations need to understand and address this emerging risk pattern or face exposure of sensitive data and compromised systems running unvetted code in production environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9_WTd_LhWXwvu2jTcVVVgE_IpLISA8vfn0awG8fVwVv_vxx1LvLU7XOxFCtSLMbiP6JKPQfFMdpA7cRJy0Phlu-RWtKH8m57ZMUwRI-tz0C-cAiASKIFS2Fytms6DnCCEif9l-CYN0drhFUEbrt71isM3LmzuA8Guqmhn6iiRqrTROcX-9tniNTQsglc/s1600/red.jpg",
+      "processedAt": "2026-06-03T11:10:03.172233+00:00"
+    },
+    {
+      "id": "art-61987192",
+      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-05-29",
+      "originalUrl": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
+      "summary": "Researchers found a malicious NuGet package pretending to be a legitimate C# SDK for Sicoob, a major Brazilian financial cooperative. The fake package was designed to steal sensitive banking credentials, including client IDs and PFX certificates used for secure authentication. Versions 2.0.0 through 2.0.4 of 'Sicoob.Sdk' contained this malicious code that could compromise financial systems and user data.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "credential-theft",
+        "banking-malware",
+        "nuget-compromise",
+        "financial-fraud",
+        "certificate-theft"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors can poison legitimate software repositories to target financial institutions and their clients at scale. Developers who unknowingly used this package could have exposed critical banking credentials and authentication certificates, putting entire financial systems at risk. Organizations must verify package authenticity and monitor for malicious dependencie",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUbmZyAOVZRXrWddG8PMuXbVyex9s5HPD2cH8rDjYP6EHuVadkyj72NdN9PreAnGX9iOCVGxWI2YmSLu818VmdLGEcPkb60qPIUgBYh5oBHsA4KKYufsHbFGhAQDD7SjpZU0In0TPiHN4TxCR4THBwmKa4Bus98vBgx5mO3QTQRpTM5RERk8bFWi4psF7d/s1600/sdk.jpg",
+      "processedAt": "2026-06-03T11:10:06.060737+00:00"
+    },
+    {
+      "id": "art-384b91aa",
+      "title": "Police dismantles 9 crime groups in illegal streaming crackdown",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crime-groups-in-illegal-streaming-crackdown/",
+      "summary": "Law enforcement agencies across Europe and internationally have successfully shut down nine criminal organizations involved in illegal streaming operations and arrested 29 suspects. This coordinated effort demonstrates the growing enforcement action against cybercriminals who profit from copyright infringement and unlicensed content distribution. The operation highlights how organized crime groups use streaming platforms as a revenue source for broader illegal activities.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "illegal-streaming",
+        "organized-crime",
+        "law-enforcement",
+        "copyright-infringement",
+        "cybercrime-operations"
+      ],
+      "whyItMatters": "This demonstrates that cybercriminals operating illegal streaming services face real legal consequences and coordinated international enforcement. Organizations and individuals should understand that participating in or supporting illegal streaming networks exposes them to criminal liability and supports organized crime infrastructure. The takedown shows the effectiveness of international cooperat",
+      "image": null,
+      "processedAt": "2026-06-03T11:10:09.132922+00:00"
+    },
+    {
+      "id": "art-0391d021",
+      "title": "Google adds Android protection against AI deepfake scam calls",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+      "summary": "Google is rolling out a new Android security feature designed to protect users from AI-powered deepfake phone scams where criminals use artificial intelligence to impersonate people's contacts. The feature will automatically detect and alert users when incoming calls are likely using AI voice cloning technology. This protective measure addresses a growing threat as scammers become more sophisticated in their social engineering tactics.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-deepfake",
+        "voice-cloning",
+        "social-engineering",
+        "android-security",
+        "fraud-prevention",
+        "scam-detection"
+      ],
+      "whyItMatters": "As AI voice synthesis technology becomes more accessible, deepfake phone scams pose a significant financial and emotional risk to users who may be tricked into transferring money or sharing sensitive information. This proactive Android feature represents an important defensive measure by a major platform provider to combat an emerging threat before it becomes widespread. Users need native protecti",
+      "image": null,
+      "processedAt": "2026-06-03T11:10:12.081769+00:00"
+    },
+    {
+      "id": "art-ffa105c2",
+      "title": "VS Code zero-day lets hackers steal GitHub tokens in one click",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/vs-code-zero-day-lets-hackers-steal-github-tokens-in-one-click/",
+      "summary": "A zero-day vulnerability in Visual Studio Code has been discovered that enables attackers to steal GitHub authentication tokens through a simple click-based attack. Researchers have already released working exploit code, making the threat active and immediate. Users who fall victim to this attack could have their GitHub credentials compromised, potentially leading to unauthorized access to repositories and sensitive code.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "vs-code",
+        "github-tokens",
+        "token-theft",
+        "active-exploitation",
+        "developer-threat"
+      ],
+      "whyItMatters": "This vulnerability directly targets developers and poses an immediate risk because exploit code is already public and the attack requires minimal user interaction. Compromised GitHub tokens could allow attackers to steal proprietary code, inject malicious commits, or gain access to critical infrastructure repositories. Developers need to take urgent action to protect their credentials and update V",
+      "image": null,
+      "processedAt": "2026-06-03T11:10:15.262715+00:00"
+    },
+    {
+      "id": "art-8028311d",
+      "title": "Microsoft's Coreutils project brings Linux commands to Windows",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-02",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsofts-coreutils-project-brings-linux-commands-to-windows/",
+      "summary": "Microsoft has released Coreutils for Windows, a new tool that brings popular Linux command-line utilities to Windows systems as native applications. This was announced at Microsoft's Build 2026 developer conference. The software allows Windows users to access Linux commands without needing separate virtualization or emulation layers.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "windows-tools",
+        "linux-compatibility",
+        "developer-tools",
+        "cross-platform"
+      ],
+      "whyItMatters": "While this is primarily a developer productivity feature, it expands the Windows attack surface by introducing new command-line utilities that could potentially be exploited if not properly secured. Security teams should monitor how these Linux tools integrate with Windows security policies and ensure proper access controls are in place for critical systems.",
+      "image": null,
+      "processedAt": "2026-06-03T11:10:17.420910+00:00"
+    },
+    {
+      "id": "art-bd3e14d1",
+      "title": "OpenAI upgrades GPT-5.5, as it plans to retire legacy ChatGPT models",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-02",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-upgrades-gpt-55-as-it-plans-to-retire-legacy-chatgpt-models/",
+      "summary": "OpenAI is releasing an improved version of its GPT-5.5 Instant model while preparing to discontinue several older models, including o3. This update represents the company's ongoing efforts to modernize its AI infrastructure and retire outdated systems. The transition highlights how rapidly AI technology evolves and requires careful management of legacy systems.",
+      "category": "Patching and Updates",
+      "severity": "Low",
+      "tags": [
+        "ai-updates",
+        "model-deprecation",
+        "openai",
+        "legacy-systems",
+        "version-upgrade"
+      ],
+      "whyItMatters": "Organizations relying on older OpenAI models need to plan migration strategies before deprecated models become unavailable, ensuring business continuity and security. Understanding AI platform updates and lifecycle management is increasingly critical as enterprises integrate AI tools into their operations.",
+      "image": null,
+      "processedAt": "2026-06-03T11:10:19.887867+00:00"
+    },
     {
       "id": "art-1f554aff",
       "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
@@ -822,210 +1027,6 @@
       "whyItMatters": "This demonstrates how cybercriminals are weaponizing legitimate AI tools to enhance attack effectiveness, making it increasingly difficult for organizations to distinguish genuine communications from malicious ones. The fusion of AI-generated social engineering with advanced malware represents an evolving threat that requires both technical and human-awareness defenses. Organizations need to under",
       "image": null,
       "processedAt": "2026-06-01T11:46:28.972341+00:00"
-    },
-    {
-      "id": "art-5b616cfc",
-      "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-31",
-      "originalUrl": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-      "summary": "Dutch law enforcement and the National Cyber Security Center successfully dismantled a large botnet that had compromised at least 17 million devices worldwide, including computers, smartphones, tablets, and IoT devices. The operation targeted over 200 servers located in the Netherlands that were being used to orchestrate malicious attacks across the infected network. This takedown represents a significant disruption to cybercriminals' infrastructure and demonstrates international coordination in fighting large-scale botnet operations.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "botnet-takedown",
-        "malware",
-        "iot-security",
-        "infrastructure-disruption",
-        "law-enforcement"
-      ],
-      "whyItMatters": "Botnets of this scale pose widespread threats to individuals and organizations by facilitating distributed attacks, data theft, and system compromise across millions of devices. The successful takedown demonstrates the importance of international law enforcement collaboration and provides insight into how authorities identify and dismantle major cybercriminal infrastructure. Understanding botnet o",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU44Ejz__EFKfpIrEypTxhK3KW7XV3oiEIJEWAC-_PyhbhUvOZzmv3SCAmiuGZdFNdzYIDR2GLwOAhX9nIaAoOD4iFXucpEpB4Ym2vMAqvayyi1JkYyqj2uEYAXPGbXe5dzYNw5a__5KnXvrnJsEVtwnJJs6v_zBlfl3sKo0J83QwylgCL1A2Vck1HktJ8/s1600/botnet.png",
-      "processedAt": "2026-05-31T18:59:04.164618+00:00"
-    },
-    {
-      "id": "art-10b79a96",
-      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-      "summary": "Gogs, a widely-used self-hosted Git service, has a critical vulnerability that enables any user with login credentials to run arbitrary code on affected systems. Rated 9.4 on the CVSS scale by Rapid7, this flaw poses a serious risk to organizations relying on Gogs for version control. Currently, the vulnerability lacks a CVE identifier, making it harder to track across security databases.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "gogs-rce",
-        "arbitrary-code-execution",
-        "authenticated-attack",
-        "critical-vulnerability",
-        "cvss-9.4",
-        "patch-required"
-      ],
-      "whyItMatters": "This vulnerability is critical because it requires only basic authentication to trigger remote code execution, meaning any insider or compromised account can fully compromise a Gogs server. Organizations using Gogs must prioritize patching immediately, as the high CVSS score reflects potential for complete system takeover. The lack of a CVE identifier may delay security awareness and coordinated r",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaqRd_3DDSSASg_YzvuUEqv3elhvFWSjk56bXPoqJeNIWVo-K0giuJ3TNEXV-aYpnuVfOv00_VM428vIFVaMiuZzfL0dQdQvz0_xMNFq4CtrppgTZu5dupV0asq1wZjPW3FoMgUnyGMR_RgBpWT2oTnJFuhaldo3Cd3eNP-MOlDNhP9Uu2KDRiDpYHdoeq/s1600/exploit-meta.jpg",
-      "processedAt": "2026-05-31T18:59:06.876083+00:00"
-    },
-    {
-      "id": "art-9f79f7d7",
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "summary": "Cybercriminals are actively exploiting a critical vulnerability in Fortinet's FortiClient Endpoint Management Server (EMS) to distribute a credential-stealing malware called EKZ Infostealer. By compromising this trusted management tool, attackers can spread malware directly to all devices managed by the system, making it a particularly effective attack vector. Even though Fortinet has released patches, threat actors continue to target unpatched systems to steal login credentials and other sensitive information.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "endpoint-management",
-        "credential-stealer",
-        "active-exploitation",
-        "fortinet",
-        "supply-chain-attack",
-        "patching-required"
-      ],
-      "whyItMatters": "This attack is critical because it exploits legitimate enterprise management tools that organizations trust to protect their infrastructure, creating a backdoor to compromise entire networks at once. Organizations using vulnerable FortiClient EMS deployments face immediate risk of credential theft and potential lateral movement across their environment. Prompt patching and verification of endpoint",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLo8Mb8UwcN2lkMlnUi-l3a8DXNNL2_dW0VcATt8d34xxXX-kQN8HMolrIuw8ty0WZmpURI7hyphenhyphenDrvCAiKAarvJU1__tzxaKMxX3U4ZJbuwydE2zGoyFmutxDtid410NLBq_wi7fv_QFMdmkHGqRPwVcLY8xfeJ1PSb46o0RpCA4ubLLl8_LlLg-Id7ceU8/s1600/fort.jpg",
-      "processedAt": "2026-05-31T18:59:10.480840+00:00"
-    },
-    {
-      "id": "art-31e3cbff",
-      "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-      "summary": "Microsoft is advocating for Coordinated Vulnerability Disclosure (CVD), a responsible practice where security researchers notify vendors privately before publicly revealing vulnerabilities. This stance comes after a researcher called Chaotic Eclipse disclosed details about multiple zero-day vulnerabilities, prompting Microsoft to emphasize the importance of giving companies time to develop fixes before details go public.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "coordinated-disclosure",
-        "vulnerability-management",
-        "responsible-disclosure",
-        "security-research"
-      ],
-      "whyItMatters": "The tension between public disclosure and coordinated vulnerability reporting directly affects how quickly patches reach users and how long systems remain at risk. When zero-day details are released publicly without vendor preparation, attackers can exploit unpatched systems at scale, making this debate critical for protecting infrastructure and end-users.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIMDR_KVt17sFMXeEhMvDYHLwBX_Aix1bz3y0izMs7PsVIuGSQhOLX_khN3Ckl_eRm9OEMAlVmBxPHhQvCGDJB5wXJ2rtOT8uQAiWCWCZwc7dvOfbWyuZ0BpNFAKohIpLUq9KR76XvZ3eT0TpltWDHUWQY-nUJzJflA1y5l7q_UXsjVtAMPhwVAULZZScp/s1600/github-ms.png",
-      "processedAt": "2026-05-31T18:59:12.953464+00:00"
-    },
-    {
-      "id": "art-d48f0228",
-      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "summary": "This bulletin covers multiple critical security threats including a Claude security plugin vulnerability, Azure privilege escalation flaw, Kali365 MFA bypass technique, and FIFA-related scams. The report highlights how attackers continue using low-effort but effective tactics like malicious loaders, fake installers, and social engineering while researchers discover techniques that can escalate minor access into complete account compromise. The article emphasizes the ongoing gap between security best practices and real-world deployment vulnerabilities across various platforms and services.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "privilege-escalation",
-        "mfa-bypass",
-        "cloud-security",
-        "malware-distribution",
-        "social-engineering",
-        "ai-security"
-      ],
-      "whyItMatters": "This roundup exposes active exploitation paths across widely-used platforms (Azure, Kali365) and emerging AI tools (Claude), meaning attackers have multiple entry points to compromise organizations. The prevalence of MFA bypass techniques and privilege escalation methods demonstrates that even standard security controls are being defeated, requiring immediate security reviews and patching. Organiz",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBnLTRREuP8t8AoMRlakMDVRNoOYCA18IuBTWxA_nms12GdQaSfaU1kgpLSrgUvFFH1goJ_-NOIerDAnZxlD86Oafg_b6QdecLrT4UJdb3_qfmgtxdjrhF8GioeuEZbyZBTVL4cXUcpWqZujpLoI4zBm9y7XvFUjYR5cjF0GmmU_TXlmX0W7zsxlcvV9mW/s1600/tbb.jpg",
-      "processedAt": "2026-05-31T18:59:16.319655+00:00"
-    },
-    {
-      "id": "art-ee9ecfb5",
-      "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-31",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
-      "summary": "Attackers are exploiting a security flaw in the WP Maps Pro WordPress plugin to gain unauthorized administrative access to websites. The vulnerability allows hackers to create admin accounts without needing valid login credentials, giving them complete control over affected sites. This poses a significant threat to any WordPress installation using the vulnerable version of this plugin.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress-plugin",
-        "privilege-escalation",
-        "authentication-bypass",
-        "wp-maps-pro",
-        "unauthenticated-access",
-        "active-exploitation"
-      ],
-      "whyItMatters": "This vulnerability is critical because it allows attackers to take full administrative control of WordPress sites without authentication, enabling data theft, malware injection, and site defacement. Any website running the vulnerable WP Maps Pro version is at immediate risk of compromise. Site owners must update the plugin urgently to prevent unauthorized access and potential business disruption.",
-      "image": null,
-      "processedAt": "2026-05-31T18:59:18.703014+00:00"
-    },
-    {
-      "id": "art-8c21db98",
-      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-05-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-fake-fifa-websites-running-world-cup-fraud-schemes/",
-      "summary": "The FBI is alerting the public about fraudulent websites that impersonate FIFA to exploit World Cup fans in 2026. These fake sites trick people into sharing personal and financial information, purchasing counterfeit tickets and hospitality packages, and falling for other scams tied to the event. Criminals are taking advantage of the excitement around the World Cup to steal money and sensitive data from unsuspecting victims.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "fraud",
-        "fake-websites",
-        "event-fraud",
-        "social-engineering",
-        "financial-scam"
-      ],
-      "whyItMatters": "Large-scale events like the World Cup attract millions of potential victims searching online for legitimate services, making them ideal targets for cybercriminals. Users need to verify website authenticity and avoid clicking suspicious links to protect themselves from financial loss and identity theft. This warning demonstrates how organized fraud campaigns exploit public events and highlights the",
-      "image": null,
-      "processedAt": "2026-05-31T18:59:21.127745+00:00"
-    },
-    {
-      "id": "art-16050d8e",
-      "title": "Asia's Cyber Insurance Market Shows Signs of Life",
-      "source": "Dark Reading",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/asias-cyber-insurance-market-signs-of-life",
-      "summary": "Cyber insurance adoption across Asia has been limited historically, but recent developments suggest the market is beginning to expand. The growth of digital infrastructure and increasing cyber threats in the region are driving greater interest in insurance coverage. This shift could help Asian organizations better manage financial risks associated with cyber incidents.",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "cyber-insurance",
-        "asia-pacific",
-        "risk-management",
-        "market-growth"
-      ],
-      "whyItMatters": "Cyber insurance is a critical component of comprehensive cybersecurity risk management, particularly as Asia's digital economy expands. Organizations without adequate coverage face severe financial consequences from breaches, making insurance adoption essential for business resilience. Understanding regional insurance trends helps businesses plan their security and financial strategies in emerging",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb9e3fbe8c75eb597/6a19745b69143b73c43502c5/Blue_globe_Asia_Jimmie_Tolliver_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "processedAt": "2026-05-31T18:59:23.611825+00:00"
-    },
-    {
-      "id": "art-1f237cba",
-      "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
-      "source": "Dark Reading",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
-      "summary": "Security researchers uncovered a dangerous vulnerability chain in a popular automation service that exploits cloud misconfigurations. The attack combines excessive user permissions, exposed secrets, and compromised non-human identities to gain unauthorized access. This discovery highlights how small configuration errors in cloud environments can cascade into major security breaches.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "privilege-escalation",
-        "secrets-management",
-        "identity-security",
-        "misconfiguration"
-      ],
-      "whyItMatters": "This vulnerability demonstrates a critical real-world risk for organizations using cloud automation tools—misconfigured permissions and exposed credentials can create a complete exploitation pathway. Security teams must urgently audit their cloud role assignments, secrets storage, and non-human identity management to prevent similar compromise chains in their own environments.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt33ea1925a9f97ba7/6a18a8b047696a7d03d6ca07/rube-goldberg-machine-complexity-T_N_Sursock-shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "processedAt": "2026-05-31T18:59:26.141261+00:00"
-    },
-    {
-      "id": "art-55367171",
-      "title": "'The Com' Cyberattacks Support Violence &amp; Sexploitation",
-      "source": "Dark Reading",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation",
-      "summary": "A criminal gang with neo-Nazi connections is using cyberattacks to fund violent crimes and sexual exploitation. The article emphasizes that organizational security failures don't just hurt the targeted company—they enable criminals to finance broader illegal activities. This highlights how cybersecurity breaches have cascading real-world consequences beyond data loss.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "cybercrime",
-        "criminal-gangs",
-        "violence-financing",
-        "organizational-responsibility",
-        "security-failure"
-      ],
-      "whyItMatters": "This article underscores that cybersecurity isn't just about protecting data—weak defenses directly enable criminal financing of human trafficking and violence. Organizations failing to implement proper security controls bear responsibility for the downstream harms their breaches facilitate, making security investments a moral and legal imperative.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltdf36383b6981cdfc/6a189af651a3babba50e026a/Hooded_crowd-John_Williams_RF-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "processedAt": "2026-05-31T18:59:31.977095+00:00"
     }
   ]
 }
