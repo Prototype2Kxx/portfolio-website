@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-06-04T10:04:39.505586+00:00",
+  "lastUpdated": "2026-06-04T19:52:38.711850+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-15617688",
+      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+      "summary": "Cisco has released a patch for CVE-2026-20230, a server-side request forgery vulnerability in Unified Communications Manager that allows unauthenticated attackers to write files and escalate privileges to root. Public exploit code is now available, significantly reducing the window before widespread exploitation occurs. Although no active attacks have been reported yet, the availability of proof-of-concept code makes this a critical concern for organizations using this platform.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "server-side-request-forgery",
+        "privilege-escalation",
+        "unified-communications",
+        "cisco",
+        "public-exploit",
+        "patch-urgent"
+      ],
+      "whyItMatters": "The combination of unauthenticated remote access, root-level privilege escalation, and publicly available exploit code creates an immediate and severe risk for Cisco Unified CM deployments. Organizations must patch immediately to prevent attackers from gaining complete control of critical communication infrastructure. This demonstrates how the release of PoC code transforms a theoretical vulnerabi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6_xkmI_c8KreZ4cr2oC9gHJERU9xWsLGDrCNCaB11IQVGmJ-r0MYUjqGllvOFc0IVwGYBqnzLJl96WBTSVXUr5Z8KRym9SsnoUlNN6oEditbTFqW3kTfOhujPEPN-KIzGJmxaJGh9mCvY1TadCVfJJfIBoTjbXn2TCcbQE8NHsKhe8ld53YHYsG5MTYg/s1600/cisco-flaw.jpg",
+      "processedAt": "2026-06-04T19:52:13.834556+00:00"
+    },
+    {
+      "id": "art-76d5cb48",
+      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+      "summary": "A vulnerability in Anthropic's Claude Code GitHub Action allowed attackers to compromise public repositories by simply opening a malicious GitHub issue. The flaw was serious enough that it could have been exploited to inject malicious code directly into Anthropic's own action repository, potentially affecting all downstream projects that use it.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "github-action",
+        "supply-chain-attack",
+        "code-injection",
+        "repository-hijacking",
+        "ai-security"
+      ],
+      "whyItMatters": "This vulnerability demonstrates a critical supply chain risk where a single flaw in a widely-used GitHub Action could compromise thousands of downstream repositories and projects. The ability to inject malicious code through minimal interaction (just opening an issue) shows how automation tools require strict input validation, and highlights the cascading impact when security tools themselves beco",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiaBF9jAklPh1ncr_eVPGnV229BSTNgAjkScVm-yTXAn4IcBjjZoLIglasRdu1XEPafCxJhqVZrC3zkNWilyAhN-6Ox8z2HBRjNg2D4aqJsDiRDg02BgAy4zgwU2100ZLIO8yTOtarI0Vxa3AGUQk0GZq1_zKSFQOhNiNoyVsP2AldJZoW8ZJ1rY936ZI/s1600/claude-code-hack.jpg",
+      "processedAt": "2026-06-04T19:52:16.421738+00:00"
+    },
+    {
+      "id": "art-862af7fd",
+      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
+      "summary": "An unauthorized group reportedly gained access to Anthropic's Claude Mythos agentic AI model within hours of its limited technical preview release to organizations. The incident highlights how rapidly frontier AI systems in defense networks can be targeted and compromised if IT infrastructure lacks adequate security measures. This raises critical questions about protecting advanced AI tools that could be leveraged for defensive purposes.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "agentic-ai",
+        "unauthorized-access",
+        "defense-networks",
+        "infrastructure-security",
+        "claude-mythos"
+      ],
+      "whyItMatters": "As organizations increasingly deploy agentic AI for defensive cybersecurity purposes, rapid unauthorized access to these systems demonstrates that robust IT infrastructure and access controls are essential. Compromised AI models could be manipulated to undermine defense operations or provide attackers with valuable insights into defensive strategies. This incident underscores that the security of ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6i36LXqSESJrnuYOf6ULo2Hijp9l8i9UTGbRzCLuWImPpfPJ6cKQgBFGhS8yx3_qn8IoM0MgY0pmL4mZfzegatvhQWDKV5OQ3MfOWvPzYIokXaFDUvBM3EYsMOqtQoxx0AmeiakeocpBIlaNeCiBkPcnK1OW8abfIz0_8zuybqKQvWuriVC97Ir259Sw/s1600/agentic-ai.jpg",
+      "processedAt": "2026-06-04T19:52:18.991195+00:00"
+    },
+    {
+      "id": "art-d0e655cc",
+      "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
+      "summary": "This bulletin covers multiple emerging cybersecurity threats including AI agents being exploited maliciously, command-and-control tools used by attackers, ClickFix social engineering campaigns, and JavaScript-based backdoors. The article highlights how cybercriminals are increasingly leveraging automation and AI while exploiting outdated systems and weak security practices across the internet.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ai-threats",
+        "c2-infrastructure",
+        "clickfix",
+        "javascript-backdoors",
+        "social-engineering",
+        "malware-trends"
+      ],
+      "whyItMatters": "This collection of threat vectors demonstrates how attackers are combining multiple attack techniques—automation, social engineering, and legitimate-looking tools—to compromise systems at scale. Understanding these emerging patterns helps organizations prioritize defenses against AI-powered attacks and recognize disguised malicious tools before deployment.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjOsPH2SzhBWTxhXi2KCJw0YY29azn2hLkDQwQhyrjmwaRIXQfCAPNIjej3_TBd6VJm1JqWSs2EoI2jiWyVHENmhtd1alqSEqlJC8WxUk4b5zWUqszQ8akhGzRmCHf8OL7wMTZiWLYZDzHRXY8unPcsh2QMTfyTH0XeRszrwCunK2DazuZIF9oNKQUFxlqN/s1600/thh.jpg",
+      "processedAt": "2026-06-04T19:52:21.731398+00:00"
+    },
+    {
+      "id": "art-0c43020e",
+      "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
+      "summary": "A Chinese cybercriminal group called TA4922 has expanded its phishing campaign to target organizations across the United Kingdom, Germany, Italy, and South Africa. The group is using multiple malware tools including ValleyRAT and Atlas RAT as part of their attack strategy. This expansion shows how threat actors are becoming more active and constantly updating their techniques to hit new regions.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "malware",
+        "china-linked",
+        "cybercrime",
+        "ta4922",
+        "international-targeting"
+      ],
+      "whyItMatters": "Organizations in multiple countries now face active threats from a sophisticated group with evolving malware capabilities, making it essential for businesses to strengthen email security and employee training. Understanding the geographic expansion and malware arsenal of TA4922 helps security teams anticipate attacks and implement appropriate defenses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq_JkP80d1IA8rz-SoYEBmuGqK_K7OpGrqiki4vB1ShMW5mFBVSMvl8H5MnYylZMl3AWeqdAmp19oZIL_7amYErNxBGiUAJqrOqGO0zjHH2jxCKCNdiGH_nqjHlksD9dlu4QGCq9KzMRfnWAi7YnPQQ86pnCypNupFDn_h-hSJdfhWT0Y4s01w6Cw-s6Od/s1600/phishing-hook.jpg",
+      "processedAt": "2026-06-04T19:52:24.448773+00:00"
+    },
+    {
+      "id": "art-40214909",
+      "title": "DentaQuest data breach  exposed info of 2.6 million accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
+      "summary": "DentaQuest, a major dental benefits administrator, suffered a data breach that compromised sensitive information belonging to 2.6 million account holders. This incident represents a significant exposure of personal data that could affect millions of individuals' privacy and security. The breach highlights vulnerabilities in healthcare-adjacent organizations that handle large volumes of sensitive customer information.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "dentaquest",
+        "personal-data-exposure",
+        "healthcare-sector",
+        "large-scale-incident",
+        "account-compromise"
+      ],
+      "whyItMatters": "Breaches affecting millions of accounts in the healthcare and benefits administration sector can lead to identity theft, fraud, and unauthorized access to sensitive personal and financial information. Organizations handling healthcare data must implement robust security measures, and individuals should monitor their accounts for suspicious activity. This incident underscores the need for stronger ",
+      "image": null,
+      "processedAt": "2026-06-04T19:52:27.295666+00:00"
+    },
+    {
+      "id": "art-d7b386d4",
+      "title": "UN food agency discloses breach affecting 600,000 Gaza households",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/",
+      "summary": "The United Nations' World Food Programme, a major humanitarian organization, experienced a security breach in its self-registration application used for Palestine operations. The breach compromised personal information of approximately 600,000 households in Gaza. This incident highlights how critical infrastructure serving vulnerable populations can be targeted and how data exposure affects both individuals and humanitarian operations.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "humanitarian-organizations",
+        "gaza",
+        "registration-system",
+        "mass-exposure",
+        "un-agencies"
+      ],
+      "whyItMatters": "Breaches affecting humanitarian organizations compromise sensitive data of vulnerable populations and can disrupt essential aid operations. This incident demonstrates that even UN agencies managing critical humanitarian systems face significant cybersecurity risks, requiring stronger security measures to protect beneficiary information and maintain trust in aid distribution networks.",
+      "image": null,
+      "processedAt": "2026-06-04T19:52:30.065438+00:00"
+    },
+    {
+      "id": "art-f7003ce0",
+      "title": "New IronWorm malware hits 36 packages in npm supply-chain attack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/",
+      "summary": "Attackers have compromised 36 packages on npm (a popular code repository for JavaScript developers) by injecting malicious software called IronWorm that steals sensitive information. This supply-chain attack demonstrates how threats can spread rapidly through widely-used software libraries, potentially affecting thousands of applications and users who unknowingly download the infected packages. Developers who use npm packages need to verify the integrity of their dependencies and stay alert to suspicious activity.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "npm-packages",
+        "infostealer",
+        "malware",
+        "dependency-security"
+      ],
+      "whyItMatters": "Supply-chain attacks on package repositories like npm are particularly dangerous because they can compromise countless applications downstream, affecting both developers and end-users at scale. This incident highlights the critical need for robust dependency management, code verification, and monitoring of third-party libraries to prevent malware from entering production environments.",
+      "image": null,
+      "processedAt": "2026-06-04T19:52:33.198916+00:00"
+    },
+    {
+      "id": "art-7cefef08",
+      "title": "Hackers Are After the Gaps in Your Vulnerability Program: Here's Their Playbook",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-are-after-the-gaps-in-your-vulnerability-program-heres-their-playbook/",
+      "summary": "Cybercriminals are actively sharing knowledge through underground tutorials to teach newcomers how to identify and exploit security weaknesses in target systems. These educational materials reveal the tactics and workflows that modern attackers use to find vulnerable infrastructure and monetize their discoveries. Understanding these threat actor playbooks helps organizations recognize and defend against the methods being used to compromise their systems.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "vulnerability-exploitation",
+        "threat-actor-education",
+        "attack-workflows",
+        "vulnerability-gaps",
+        "cybercrime",
+        "security-awareness"
+      ],
+      "whyItMatters": "This article exposes how attackers systematically train new recruits using real-world exploitation techniques, which lowers the barrier to entry for cybercriminals and increases the volume of organized attacks. Organizations need to understand these attacker methodologies to properly prioritize vulnerability management and close the gaps that criminals actively exploit. The disclosure of these und",
+      "image": null,
+      "processedAt": "2026-06-04T19:52:36.169784+00:00"
+    },
+    {
+      "id": "art-84baf768",
+      "title": "Microsoft blames unexpected Windows driver updates on caching issue",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-unexpected-windows-driver-updates-on-caching-issue/",
+      "summary": "Microsoft resolved a technical issue where Windows systems were automatically installing driver updates even when users had disabled auto-update settings. The problem was caused by a caching mechanism that bypassed the configured policies. This fix ensures that user preferences regarding driver updates are now properly respected across affected devices.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-updates",
+        "driver-updates",
+        "auto-update",
+        "policy-bypass",
+        "caching-issue"
+      ],
+      "whyItMatters": "This issue highlights the importance of proper update controls in enterprise and personal environments, where organizations rely on update policies to maintain stability and compatibility. When systems ignore user-configured settings, it can lead to unexpected downtime, compatibility problems, or conflicts with critical applications, making this a significant concern for IT administrators managing",
+      "image": null,
+      "processedAt": "2026-06-04T19:52:38.711724+00:00"
+    },
     {
       "id": "art-cc2c437b",
       "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
@@ -828,212 +1035,6 @@
       "whyItMatters": "This incident demonstrates that older, known vulnerabilities remain dangerous when not properly patched across all systems—attackers actively exploit gaps in patch management. CISA's urgent order signals that this flaw poses an immediate national security risk, making it critical for all organizations, not just government agencies, to verify their systems are fully updated. The two-year timeline s",
       "image": null,
       "processedAt": "2026-06-02T20:32:54.726292+00:00"
-    },
-    {
-      "id": "art-53f5c2f4",
-      "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-02",
-      "originalUrl": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
-      "summary": "A Pakistani hacker group called SideCopy launched a targeted phishing campaign against Afghanistan's Ministry of Finance using a malicious file disguised with a Pashto-language name. The attack involved sending a ZIP archive containing a harmful shortcut file (LNK file) designed to trick recipients into opening it. Once opened, the file deployed Xeno RAT, a remote access tool that gives attackers control over infected computers.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "spear-phishing",
-        "xeno-rat",
-        "sidecopy",
-        "malware-delivery",
-        "government-targeting",
-        "remote-access-trojan"
-      ],
-      "whyItMatters": "This attack demonstrates how nation-state aligned groups use culturally tailored phishing tactics to target government agencies, making generic security awareness training insufficient. The use of Xeno RAT allows attackers complete system control, putting sensitive financial data and national infrastructure at serious risk. Understanding these targeted campaigns helps organizations defend against ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiilTEadDjLrLdKByKVP6n_zfNSbhTTutHu-9BbbIDTBotobmqmIOI7fDdGGHZQQB7wTo00L66NAKZBA3iRBLQpSf_NgH9hKe9Xd-WUoijt7y-CUbdZore_qSZpTmuBhExaAxeXn39EPCVPYugMnJ85c15e161ttOMRmbSAv7NcbUlYrqDV4NnbzHZvw0A5/s1600/paki.gif",
-      "processedAt": "2026-06-02T10:45:39.867641+00:00"
-    },
-    {
-      "id": "art-fd22ba2b",
-      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-02",
-      "originalUrl": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
-      "summary": "Password manager Dashlane disclosed that attackers used brute-force techniques to bypass two-factor authentication on certain user accounts, resulting in the unauthorized download of encrypted vaults from fewer than 20 personal plan subscribers. An external threat actor conducted the attack on May 31, 2026, targeting the additional security layer that protects user accounts. Although the vaults were encrypted, the incident highlights vulnerabilities in account access controls even when 2FA is implemented.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "brute-force-attack",
-        "two-factor-authentication-bypass",
-        "password-manager",
-        "account-compromise",
-        "data-exposure"
-      ],
-      "whyItMatters": "This incident demonstrates that even security-focused services with encryption and 2FA can be targeted through brute-force attacks, reminding users that strong, unique passwords and additional account protections remain critical. For enterprises relying on password managers, understanding these vulnerabilities is essential for assessing third-party security risks and implementing proper access con",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMY3oQNaqfV2_sMYMZJ_EbUA90VD_t0w342aOV-tTDXEui63NgSB0SPYPhGVW9e5i8ZcEk7P5uudw6PJOi5od9rdsq9GzG0npc8FiqXuQ33r-zg81AMHW53prz_ovs2YbKrjaNfOOAp1tpmjhE3ADsjVymKPDGf4TyikPb1z18MOWk2YH-BteUQ6EUqYFI/s1600/dashlane.png",
-      "processedAt": "2026-06-02T10:45:42.756562+00:00"
-    },
-    {
-      "id": "art-65ccfe25",
-      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-30",
-      "originalUrl": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-      "summary": "Palo Alto Networks has revealed that CVE-2026-0257, a medium-severity authentication bypass flaw affecting PAN-OS and Prisma Access, is currently being actively exploited by attackers. This vulnerability allows bad actors to bypass authentication and establish unauthorized VPN connections without proper credentials. Organizations using these widely-deployed platforms are at immediate risk and should prioritize patching.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "authentication-bypass",
-        "pan-os",
-        "vpn-security",
-        "active-exploitation",
-        "patch-urgent",
-        "prisma-access"
-      ],
-      "whyItMatters": "Active exploitation of an authentication bypass in VPN infrastructure poses an immediate risk to organizations, as attackers can gain unauthorized network access without credentials. PAN-OS and Prisma Access are used by enterprises globally, making this a widespread threat requiring immediate patching. This type of vulnerability is particularly dangerous because it directly undermines access contr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkaW0i4ALAlpWQ_cOjfhoqUlNgMlZysJA6ay0qPViGI_KxEEG-Hh0KdtWLqBXDH42ZBGSONs0ZJuzOqdRF7vbx6Xa9J8HlP60lY45JHy0ivdRQs0exe4wZT2lI3TW4oDO-XXPVz2pek2M3izLqT3ONwq2iuHPN31ZZvK3jl0zIDq_h5XF1CTRk7fUPzjEQ/s1600/panos.jpg",
-      "processedAt": "2026-06-02T10:45:45.195758+00:00"
-    },
-    {
-      "id": "art-bdaf2712",
-      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-      "summary": "An attacker exploited CVE-2026-39987 in Marimo, a publicly accessible notebook application, to break into a system and steal cloud credentials. The threat actor then used an AI-powered language model agent to automate post-compromise activities, demonstrating how attackers are combining traditional exploitation techniques with advanced AI tools to expand their control and extract sensitive data.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "llm-agent",
-        "cve-2026-39987",
-        "marimo-exploit",
-        "cloud-credentials",
-        "post-exploitation",
-        "ai-threats"
-      ],
-      "whyItMatters": "This incident highlights an emerging threat where attackers leverage AI agents for automated post-compromise activities, making attacks faster and harder to detect. The combination of vulnerable internet-exposed applications with AI-driven lateral movement represents a significant evolution in attack sophistication that organizations must prepare for through vulnerability management and advanced t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi20dgnD8cZh6NCcPM9Xa3fzLgNygU4O6AmBUmN1w6KwsDMJ8_jkpZPk77r8phf3MX-cXOlVxke-ypIuj2xh3AB3dy1HSuIa4YYFlgH8Odm1jCRVESBGqxgiDoRbQEG4L_QrKOoH8TSvLLKZxnBfPEemz4kaqWto4t_3cZCmWW44NX-Q1aWakBWVDhAza7T/s1600/marimo.png",
-      "processedAt": "2026-06-02T10:45:47.888431+00:00"
-    },
-    {
-      "id": "art-b2b4d135",
-      "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-05-29",
-      "originalUrl": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
-      "summary": "A new Russian-linked threat group called GREYVIBE has been conducting persistent cyberattacks against Ukraine and Ukrainian organizations since August 2025, utilizing AI-powered techniques to enhance their capabilities. Security researchers at WithSecure have identified the group as Russian-speaking actors operating within Russian time zones whose activities align with state-level interests. This represents an evolution in state-sponsored cyber threats that combine advanced automation with geopolitical objectives.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "russia-linked",
-        "ukraine-targeted",
-        "ai-powered-attacks",
-        "state-sponsored",
-        "persistent-threat",
-        "greyvibe"
-      ],
-      "whyItMatters": "This threat demonstrates how nation-states are integrating AI capabilities into cyberattacks to increase scale and sophistication, particularly against critical infrastructure and government entities. Organizations supporting or operating in Ukraine need immediate awareness and defensive measures against this emerging threat actor. The use of AI-powered techniques signals an escalation in state-sp",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzJ8u1-LKZwf1FFeVF2K2D2pupLFnsW_zsTumbLXt6eRSNY5NYPuBVxyacqbH-WZRBmTpGmnB0pulEcGex16O8u6812DC7RjtV5fBtVmRG55MdKOdmX2B5m1AtcgfZLCGnH_wNVxrdpfvRR70-MjsT7fzuS8wasEGhnDKmavU02xE6HjMg6FLpv3dvSFi7/s1600/russia-ai-cyberattacks.jpg",
-      "processedAt": "2026-06-02T10:45:51.274405+00:00"
-    },
-    {
-      "id": "art-270f43bf",
-      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
-      "summary": "A threat group named DriveSurge has compromised thousands of websites to distribute malware using deceptive techniques called ClickFix and FakeUpdates. These attacks trick users into downloading harmful software by making fake browser notifications appear legitimate. This widespread campaign demonstrates how attackers exploit compromised sites to reach a large number of victims at scale.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware-distribution",
-        "clickfix",
-        "fake-updates",
-        "compromised-sites",
-        "social-engineering",
-        "drivesurge"
-      ],
-      "whyItMatters": "This campaign affects thousands of websites and puts millions of users at risk through deceptive attack methods that are difficult to distinguish from legitimate software updates. Organizations need to monitor for signs of compromise and users must learn to recognize fake update prompts, as these techniques bypass traditional security awareness.",
-      "image": null,
-      "processedAt": "2026-06-02T10:45:53.883858+00:00"
-    },
-    {
-      "id": "art-884f0c4c",
-      "title": "Red Hat npm packages compromised to steal developer credentials",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
-      "summary": "Attackers compromised over 30 npm packages belonging to Red Hat's '@redhat-cloud-services' namespace in a supply-chain attack. The compromised packages distributed a new malware variant called 'Miasma,' which is designed to steal developer credentials from affected users. This attack highlights how threats can spread through trusted software repositories to target developers and their organizations.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-packages",
-        "credential-stealing",
-        "malware",
-        "red-hat",
-        "developer-security"
-      ],
-      "whyItMatters": "Supply-chain attacks through package repositories pose a widespread risk because developers trust official namespaces, making malicious code distribution difficult to detect. Compromised developer credentials can grant attackers access to source code repositories, internal systems, and customer environments, amplifying the damage far beyond the initial infection. Organizations using these Red Hat ",
-      "image": null,
-      "processedAt": "2026-06-02T10:45:59.472260+00:00"
-    },
-    {
-      "id": "art-9b242bbd",
-      "title": "Spain arrests doxer leaking sensitive data of govt employees",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
-      "summary": "Spanish law enforcement arrested an individual accused of doxing and leaking sensitive personal information about government employees, including staff from Spain's National Cybersecurity Institute (INCIBE). The arrest highlights how attackers target state organizations to expose and embarrass officials. This case demonstrates the real-world consequences of data exposure incidents affecting government agencies.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "doxing",
-        "data-exposure",
-        "government-breach",
-        "privacy-violation",
-        "law-enforcement"
-      ],
-      "whyItMatters": "Doxing attacks against government employees create serious security and safety risks, potentially compromising national cybersecurity operations and putting officials at personal risk. This arrest shows that law enforcement is actively pursuing perpetrators, but it also signals an ongoing threat to sensitive government data and the need for stronger data protection practices across state organizat",
-      "image": null,
-      "processedAt": "2026-06-02T10:46:07.153688+00:00"
-    },
-    {
-      "id": "art-b0c3e319",
-      "title": "Webinar tomorrow: From alert to resolution in network incident response",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
-      "summary": "This webinar focuses on improving network incident response by reducing the time between detection and resolution. The session will explore how automation and AI-powered tools can streamline investigation workflows and coordination among IT teams. Attendees will learn practical strategies to speed up their incident response processes.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "incident-response",
-        "automation",
-        "network-security",
-        "ai-assisted-workflows",
-        "threat-mitigation"
-      ],
-      "whyItMatters": "Fast incident response is critical to minimizing damage from security breaches, and many organizations struggle with investigation delays even when threats are detected promptly. Learning how automation and AI can accelerate resolution helps security teams reduce dwell time and limit the impact of network incidents on business operations.",
-      "image": null,
-      "processedAt": "2026-06-02T10:46:09.533731+00:00"
-    },
-    {
-      "id": "art-5cd77ebf",
-      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
-      "summary": "Microsoft experienced a service outage that prevented users from setting up multi-factor authentication (MFA) and accessing the My Sign-Ins platform. This incident disrupted an important security feature that helps protect user accounts from unauthorized access. The company worked to resolve the issue to restore these critical authentication services.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "mfa-outage",
-        "microsoft-services",
-        "authentication",
-        "cloud-security",
-        "service-disruption"
-      ],
-      "whyItMatters": "MFA is a fundamental security control that protects accounts from compromise, so any outage preventing its setup weakens organizational and individual security posture. This incident highlights how cloud service dependencies can create widespread security gaps when core authentication infrastructure becomes unavailable. Organizations relying on Microsoft's authentication services need to understan",
-      "image": null,
-      "processedAt": "2026-06-02T10:46:12.016754+00:00"
     }
   ]
 }
