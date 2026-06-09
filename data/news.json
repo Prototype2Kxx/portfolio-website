@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-06-09T09:55:32.057109+00:00",
+  "lastUpdated": "2026-06-09T19:53:29.653228+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-c8d52c39",
+      "title": "Meta to Use Off-Site Business Data for Feed and AI Personalization",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://thehackernews.com/2026/06/meta-to-use-off-site-business-data-for.html",
+      "summary": "Meta announced it will expand its use of business data beyond targeted advertising to personalize user feeds and AI chatbot responses. The company collects information about user activity on third-party websites and apps shared by businesses, and now plans to leverage this data for broader personalization purposes. This represents a significant expansion of data usage scope that affects user privacy across Meta's platforms.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "data-privacy",
+        "user-tracking",
+        "ai-personalization",
+        "data-collection",
+        "third-party-data"
+      ],
+      "whyItMatters": "This expansion of data usage without explicit opt-in consent raises serious privacy concerns and demonstrates how personal information can be repurposed beyond its original collection intent. Organizations and users need to understand that data shared for advertising purposes may now be used in AI systems, potentially creating new risks for manipulation and profiling.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpQhSgYELKe_2HC7BB5NcjkNvIdsBgzfzSoH7tF0EmyFq9_vXEMFYWH9cczwGUWAxITkKt0TCwTLTyeIz82mfdCBmT1Hez5SO6z5zNEmx-laLfzVEy323arr0yCMHhTWv7igdUMtmriAIGIcIcjhaXfId5iCpwUSQxEaFMP0DqA5Oov8KyEFqoWWKgh21d/s1600/facebook.jpg",
+      "processedAt": "2026-06-09T19:53:02.983652+00:00"
+    },
+    {
+      "id": "art-13c6b551",
+      "title": "Veeam Backup & Replication RCE Flaw Lets Domain Users Run Remote Code",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
+      "summary": "Veeam has released patches for a critical vulnerability in its Backup & Replication software that allows authenticated domain users to execute remote code on the backup server. The flaw, identified as CVE-2026-44963, has a high CVSS score of 9.4, indicating it poses a serious security risk. This vulnerability could enable attackers with domain credentials to compromise backup infrastructure, potentially leading to data loss or system takeover.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "veeam",
+        "rce",
+        "backup-security",
+        "patch-available",
+        "domain-users",
+        "critical-flaw"
+      ],
+      "whyItMatters": "Backup systems are high-value targets for attackers because compromising them can lead to data destruction, ransomware deployment, or complete infrastructure failure. With a CVSS of 9.4 and the ability for domain users to exploit it, organizations running Veeam should prioritize patching immediately to prevent potential catastrophic attacks on their backup infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaIM_y_SajgbuzxJeP8uc2J0ZdX_6Izzhyphenhypheny9PANPhj_Ci0ylC6gnMhvvgeCzMT_AGAQDcAaKpyj_auV5wD8iTtvcfKocAwD61XRdHarhEVyMi9qlmE4aN1wgPOBFP8dH2SWiQh2OPuXY1kAajjypM-Jr1UUpJ_e6L9NInsVJ1qK4nlUFV0zJlR6kn9clw4/s1600/veeam.jpg",
+      "processedAt": "2026-06-09T19:53:05.560974+00:00"
+    },
+    {
+      "id": "art-efc6db8e",
+      "title": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
+      "summary": "Microsoft discovered a security incident affecting 73 of its open-source projects hosted on GitHub, where attackers injected malicious code designed to steal information. In response, Microsoft temporarily took down some repositories to protect users and investigate the breach, while keeping others offline as the investigation continues. This incident highlights the risks that compromised code repositories pose to the broader software development ecosystem.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "github-compromise",
+        "supply-chain-attack",
+        "information-stealer",
+        "open-source-security",
+        "code-injection",
+        "incident-response"
+      ],
+      "whyItMatters": "Compromised open-source repositories can distribute malware to thousands of developers and applications downstream, making this a supply-chain attack with ecosystem-wide impact. Organizations using affected Microsoft projects face immediate risk of embedding malicious code into their own systems. This underscores the critical importance of verifying code integrity and monitoring dependencies, espe",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS-7rxJRihxTgaEj0a_mk4hVtMdwpHB8Gfd5ZgctcXcjOdEnSEJr9Qao5B5kpk2QBpumULMvNi1ZPptGJnA3NhAres2k9CGwhCQTfMciEcl2otHHvKxU9j9AkTyAgANeYS_CCY9WOip8lBCi6cq8JgPr_oqnuw-lpp53u881dYUrH8KzU8xLNPK6Lube-x/s1600/ms-worm.jpg",
+      "processedAt": "2026-06-09T19:53:08.794578+00:00"
+    },
+    {
+      "id": "art-d99f96bd",
+      "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+      "summary": "Russian-aligned hacking groups are actively exploiting a known vulnerability in WinRAR to attack Ukrainian organizations, even though security patches have been available for nearly a year. The flaw, tracked as CVE-2025-8088, is a path traversal issue that allows attackers to deploy malware designed to steal sensitive information. Two specific groups, Earth Dahu and SHADOW-EARTH-066, have been identified as responsible for these ongoing campaigns.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "winrar",
+        "cve-2025-8088",
+        "path-traversal",
+        "ukraine",
+        "malware-deployment",
+        "russia-aligned"
+      ],
+      "whyItMatters": "This demonstrates that known vulnerabilities remain exploitable long after patches are released, particularly when users fail to update their software promptly. The targeting of Ukrainian organizations by state-aligned groups highlights how unpatched systems become entry points for strategic cyber attacks. Organizations must prioritize applying available security patches to prevent exploitation by",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpdAzGyUad4rioCXpoCvPwiGqto_MgCesTBLTn-1uBtWpWAXB99KN0xiE1oIqwDbVi_vkFDnn05XOxwH3WYjLkPNDykxieuftfe-wLFibGL1o8iiUuGfhiG5yYS7KXBV3gvdIYk5PFCurpn0-L77hajka35iE_a-JxWCaYeKc2Yej1gQrkcrQ61ijTm4HS/s1600/winrar-exploit.jpg",
+      "processedAt": "2026-06-09T19:53:11.925316+00:00"
+    },
+    {
+      "id": "art-c2ff4977",
+      "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+      "summary": "Researchers at the University of Toronto have created a self-replicating AI worm that uses locally hosted language models to independently navigate networks, customize attacks for different targets, and spread without human control or reliance on external commercial AI services. This proof-of-concept demonstrates that attackers no longer need cloud-based AI systems to launch sophisticated, autonomous cyber threats. The worm's ability to reason through attack strategies entirely offline represents a significant shift in how malware could operate in the future.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-worm",
+        "self-replicating-malware",
+        "autonomous-attack",
+        "open-weight-models",
+        "network-threat",
+        "ai-security"
+      ],
+      "whyItMatters": "This research reveals a critical vulnerability in cybersecurity assumptions—that local AI models cannot be weaponized at scale without external infrastructure. The existence of self-replicating, reasoning-capable malware that operates entirely offline eliminates a key detection and control mechanism defenders previously relied on, forcing organizations to rethink network isolation and AI model sec",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2H1xd7_K6KgUGsDu0E9YGBOLVgXF4DX0rDhf_pUhDRujatedeTJFwy0e_JxsMGGpQB80HOn4wTXRSxCB2DrxNo0nHYVUJC2ehyphenhyphenum_Cyjg-5bVXOIuGahdDFIIa9NBleTGfYDXQuqf005BOME3HAXVxVQw1OXNJNZwpZ4Tgke2qUK2TITR0qFMgaAH8Mf9/s1600/worm.gif",
+      "processedAt": "2026-06-09T19:53:15.377080+00:00"
+    },
+    {
+      "id": "art-3191b824",
+      "title": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/",
+      "summary": "SAP released security patches for 15 vulnerabilities in June 2026, with four of them rated as critical and affecting widely-used enterprise software like NetWeaver and Commerce Cloud. These critical flaws could potentially allow attackers to compromise business systems if left unpatched. Organizations using SAP products need to apply these updates promptly to protect their infrastructure.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "sap-patches",
+        "netweaver",
+        "commerce-cloud",
+        "critical-vulnerabilities",
+        "enterprise-security"
+      ],
+      "whyItMatters": "SAP products are core enterprise systems used by thousands of organizations worldwide, so critical vulnerabilities in them pose widespread risk to business operations and data security. Prompt patching is essential because attackers actively target known SAP flaws once patches are released. Delayed updates could leave companies vulnerable to exploitation and potential data theft or system compromi",
+      "image": null,
+      "processedAt": "2026-06-09T19:53:18.101592+00:00"
+    },
+    {
+      "id": "art-be717d79",
+      "title": "Microsoft releases Windows 10 KB5094127 extended security update",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5094127-extended-security-update/",
+      "summary": "Microsoft released the Windows 10 KB5094127 security update to address vulnerabilities discovered in June 2026. The update also introduces new monitoring tools to help track the deployment of replacement Secure Boot certificates, as the existing ones are expiring this month. This patch is part of Microsoft's regular monthly security maintenance to protect Windows 10 systems from known threats.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-10",
+        "security-update",
+        "patch-tuesday",
+        "secure-boot",
+        "vulnerability-fix",
+        "certificate-expiration"
+      ],
+      "whyItMatters": "Timely patching is critical to preventing exploitation of known vulnerabilities in widely-used systems like Windows 10. The addition of Secure Boot certificate monitoring tools helps organizations manage certificate lifecycle and maintain system integrity during the transition period. Delaying this update could leave systems exposed to attacks targeting the June vulnerabilities.",
+      "image": null,
+      "processedAt": "2026-06-09T19:53:21.410551+00:00"
+    },
+    {
+      "id": "art-5a79d4f1",
+      "title": "Microsoft June 2026 Patch Tuesday fixes 3 zero-day, 200 flaws",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/",
+      "summary": "Microsoft released its June 2026 Patch Tuesday update addressing 200 security flaws, including three zero-day vulnerabilities that were already publicly disclosed. This large-scale patch release represents a significant security update that organizations need to prioritize for their systems. The inclusion of actively exploited zero-days makes immediate patching critical to prevent potential attacks.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "patch-tuesday",
+        "zero-day",
+        "microsoft-updates",
+        "vulnerability-patch",
+        "security-update"
+      ],
+      "whyItMatters": "Organizations must apply these patches urgently because the three zero-day flaws are already publicly known and likely being exploited by threat actors. Delaying these updates significantly increases the risk of compromise across systems running affected Microsoft software. The large number of patched vulnerabilities (200) demonstrates the ongoing need for regular patch management as part of a rob",
+      "image": null,
+      "processedAt": "2026-06-09T19:53:24.357309+00:00"
+    },
+    {
+      "id": "art-6de287b8",
+      "title": "Windows 11 KB5094126 & KB5093998 cumulative updates released",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5094126-and-kb5093998-cumulative-updates-released/",
+      "summary": "Microsoft has released two cumulative updates for Windows 11 across different versions to address security vulnerabilities and software bugs. These patches cover versions 25H2/24H2 with KB5094126 and version 23H2 with KB5093998, alongside various feature improvements. Regular installation of these updates is essential for maintaining system security and stability.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-11",
+        "cumulative-update",
+        "patch-release",
+        "security-fixes",
+        "vulnerability-patching"
+      ],
+      "whyItMatters": "Timely installation of Windows cumulative updates closes security gaps that attackers actively exploit to compromise systems. Organizations and individual users who delay patching expose their devices to known vulnerabilities that could lead to malware infection, data theft, or system compromise. Regular patching cycles are a fundamental cybersecurity control that significantly reduces attack surf",
+      "image": null,
+      "processedAt": "2026-06-09T19:53:27.109725+00:00"
+    },
+    {
+      "id": "art-42720bbc",
+      "title": "XBOW tests Anthropic's Mythos Preview for offensive security",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/xbow-tests-anthropics-mythos-preview-for-offensive-security/",
+      "summary": "Anthropic tested its Mythos Preview AI model for offensive security applications, demonstrating strong capabilities in identifying potential vulnerabilities within source code analysis. The research evaluated the model's performance across multiple security domains including exploit discovery, reverse engineering, and real-world validation.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "vulnerability-research",
+        "code-analysis",
+        "exploit-discovery",
+        "reverse-engineering",
+        "anthropic"
+      ],
+      "whyItMatters": "As AI models become more capable at security analysis tasks, understanding their effectiveness at finding vulnerabilities is crucial for both defensive and offensive contexts. This research highlights the dual-use potential of advanced AI systems and informs organizations about emerging tools that could be used in attacks or security testing.",
+      "image": null,
+      "processedAt": "2026-06-09T19:53:29.652992+00:00"
+    },
     {
       "id": "art-05e467c4",
       "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
@@ -831,213 +1037,6 @@
       "whyItMatters": "Supply chain attacks targeting NPM represent a critical threat because compromised packages can automatically infect thousands of applications and users who depend on them. When attackers steal developer credentials, they gain the ability to distribute malware at scale, making this type of attack particularly dangerous for the entire software ecosystem.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt705e8d4cc3766735/6a21e18d9f92ca732208c2ed/supplychain_Efkaysim_shutterstock.jpg?width=1280&auto=webp&quality=80&disable=upscale",
       "processedAt": "2026-06-07T19:02:40.651190+00:00"
-    },
-    {
-      "id": "art-f08c6993",
-      "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-04",
-      "originalUrl": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
-      "summary": "Attackers are creating fake websites that impersonate legitimate open-source software projects and rank highly in Google search results to trick users into downloading malware. These fraudulent sites use a Traffic Distribution System to redirect visitors and deliver dangerous malware like Remus Stealer and AnimateClipper. The fake sites are designed to look professional and credible, making them difficult for average users to spot.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware-distribution",
-        "phishing",
-        "social-engineering",
-        "supply-chain-attack",
-        "search-engine-abuse",
-        "tds"
-      ],
-      "whyItMatters": "This campaign demonstrates how attackers exploit user trust in open-source software and search engine rankings to achieve mass malware distribution. Users seeking legitimate development tools are being systematically redirected to malicious sites, creating a significant risk for developers and organizations that rely on open-source projects. Understanding this threat helps security teams educate u",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM7j9PG_c741so0RmX7eIB48xO-ndyZSF0pIU5j2anTqxJNj8A3XVstoIjq3iMnuQxhgyhl3LKP5laenFIj7IT0V8SOJ0lK7-Ywdsr5yBioNKF60SegkvR3SkfaSkPqZxN3rak0J-sZbvjxGDozCupAP3wraZjk0XU6-ZA590Q42cPaHXrdg7PJFGk1Ss/s1600/site.jpg",
-      "processedAt": "2026-06-07T09:23:28.168252+00:00"
-    },
-    {
-      "id": "art-db62e0dd",
-      "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-04",
-      "originalUrl": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
-      "summary": "Attackers gained unauthorized access to an executive's Outlook mailbox at a major stock exchange and monitored it for over five months, systematically copying emails in small increments. The stolen data was exfiltrated through legitimate cloud services like Dropbox and OneDrive to avoid detection. Security researchers from Symantec and Carbon Black identified the breach and attributed it to espionage rather than financial theft.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-exfiltration",
-        "cloud-security",
-        "espionage",
-        "email-compromise",
-        "advanced-persistent-threat",
-        "insider-access"
-      ],
-      "whyItMatters": "This breach demonstrates how attackers can maintain long-term access to high-value targets by disguising malicious activity as normal cloud traffic, making detection extremely difficult. Organizations handling sensitive financial and market information must implement robust email security, multi-factor authentication, and activity monitoring to prevent similar insider threats and espionage campaig",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpg8pBdHkENT_CKClsSR7f4Rb7BQpM27ynGrkRdJg-bbUfI2NIHQ_rFmkOVHjK8RggTD-XMvVdGGI_qrYyIx-Ml1sfwbRkbjaNo8Fz40cWg8wFWK8h5-f-FaB58HryMM5AYlUHI2uO7x12VFvAB6N3w1gobWmzGgp8xXqHfWMERFh7hVS9lBHxfdu71Xs/s1600/stock-emails.jpg",
-      "processedAt": "2026-06-07T09:23:30.566526+00:00"
-    },
-    {
-      "id": "art-f6fca0da",
-      "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-04",
-      "originalUrl": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
-      "summary": "The U.S. Department of Justice successfully disrupted cryptocurrency fraud networks operating in Southeast Asia, freezing $3.8 million in criminal assets as part of a coordinated 'Disruption Week' operation that began in May 2026. The action involved shutting down millions of fraudulent social media, email, and internet accounts used by international criminals to target American victims. This enforcement action demonstrates coordinated efforts between government agencies and private sector partners to combat transnational cybercrime.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "cryptocurrency-fraud",
-        "southeast-asia",
-        "account-takedown",
-        "law-enforcement",
-        "transnational-crime",
-        "asset-seizure"
-      ],
-      "whyItMatters": "This operation illustrates the growing threat of organized international fraud networks targeting U.S. citizens through compromised digital accounts and cryptocurrency schemes. The successful disruption and asset recovery demonstrate that coordinated law enforcement and private sector action can effectively combat transnational cybercrime, providing reassurance that authorities are actively pursui",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTf5wAHnoXtVauiln2MwlVvLc4LxcL8SBTLuW648LfFhUd8QyuOUfjmg0Hd91QlksmWF2u-PQhxHDTDmseMIG64V4Fo2I2lXXGO1o0BncbL_UTeBrGztErg66yXAm0trYlWxqGbE-sKb5VjXjqeyNiCMkxbdcxwX1BDRGexhP-b0s3dZl0lNRpY9u6nsTQ/s1600/police-crypto.jpg",
-      "processedAt": "2026-06-07T09:23:33.504277+00:00"
-    },
-    {
-      "id": "art-fdad90f1",
-      "title": "Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-03",
-      "originalUrl": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
-      "summary": "Microsoft has patched a critical vulnerability in Visual Studio Code that allowed attackers to steal GitHub OAuth tokens with just a single click. The flaw exploited GitHub's web-based editor feature and could grant attackers read and write access to repositories, including private ones. This type of attack demonstrates how seamlessly integrated development tools can become attack vectors if security isn't carefully implemented.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "oauth-token-theft",
-        "vs-code",
-        "github-security",
-        "one-click-attack",
-        "web-based-editor",
-        "patch-available"
-      ],
-      "whyItMatters": "This vulnerability is critical because developers commonly use VS Code and GitHub, making this attack highly relevant to a large user base. Stolen GitHub tokens provide attackers with legitimate access to code repositories and could lead to supply chain attacks, data theft, and code manipulation. The one-click nature of the exploit means users could be compromised without any obvious signs of mali",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeHvqmNHvAhdxgoBLbfFWsFBMdvH5SbJovunxx8AYHRkq7HOQ2l6I_ZaJGi_PF5WHKOlHEQHK4HyPBhmzOpYNhPS4HJSna2uLVlEwUV9i2j5YuRqGOLUqgKIrhx2ndFm1OSME7usiLk_ohtIBYyR5Xpq5Pzc2eHAjCK0OA_89JwPNxVrrBVDbTDRVbRG6e/s1600/github.jpg",
-      "processedAt": "2026-06-07T09:23:37.598123+00:00"
-    },
-    {
-      "id": "art-c06b5021",
-      "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-03",
-      "originalUrl": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
-      "summary": "CISA has added CVE-2026-45247, a critical remote code execution vulnerability in the Mirasvit Cache Warmer extension for Magento, to its Known Exploited Vulnerabilities catalog. The flaw, which involves unsafe deserialization of untrusted data and carries a CVSS score of 9.8, is already being actively exploited by attackers in the wild. Organizations using this popular Magento extension need to apply patches immediately to prevent compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "magento-rce",
-        "deserialization-flaw",
-        "active-exploitation",
-        "patch-urgently",
-        "cisa-kev"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe threat because it is actively being exploited by threat actors and affects a widely-used Magento caching extension used by e-commerce businesses. The addition to CISA's KEV catalog signals that this is a priority threat requiring urgent patching. Organizations running Mirasvit Cache Warmer must update immediately to avoid remote code execution and p",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8P5o_wfJsxsTaxY4OONIm2y5N5x9heoFeLchfLU13YA36tGQGJtu00tOCQSKhCTBFobAAWfhXLtNGMu8ZCG7ozeLVggi1tnQVRK_1mJHd6eq1YSb5AlRZq5eDp3rGDL2Uli_b3aBPMBsLfMJ5QEm_XW1MF43_dcCf64rSbVrhsUakhaOAn5-GOmuLiq0s/s1600/mag.jpg",
-      "processedAt": "2026-06-07T09:23:40.318327+00:00"
-    },
-    {
-      "id": "art-da8c8530",
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "summary": "Attackers exploited Meta's AI support assistant to reset passwords and take over high-profile Instagram accounts, including those of the Obama White House and U.S. Space Force leadership. Instructions for the attack were shared on Telegram, allowing hackers to bypass normal security procedures. The compromised accounts were used to post pro-Iranian content before being recovered.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "account-takeover",
-        "social-engineering",
-        "meta-instagram",
-        "password-reset",
-        "vulnerability"
-      ],
-      "whyItMatters": "This incident demonstrates how AI support systems can be manipulated to circumvent authentication controls, exposing even government accounts to compromise. The public availability of exploitation instructions on Telegram shows the vulnerability could be weaponized at scale. Organizations relying on AI chatbots for account recovery must implement stronger verification mechanisms to prevent similar",
-      "image": null,
-      "processedAt": "2026-06-07T09:23:42.884295+00:00"
-    },
-    {
-      "id": "art-4f12b8ae",
-      "title": "Patch Tuesday, April 2026 Edition",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-04-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
-      "summary": "Microsoft released patches for 167 security vulnerabilities across Windows and related products, including a zero-day in SharePoint Server and a flaw called \"BlueHammer\" in Windows Defender. In the same update cycle, Google Chrome addressed its fourth zero-day vulnerability of 2026, and Adobe released an emergency fix for an actively exploited Reader vulnerability that allows remote code execution. This coordinated patch release highlights the ongoing pressure on users to keep their systems updated against multiple critical threats.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "patch-tuesday",
-        "zero-day",
-        "windows-defender",
-        "sharepoint",
-        "remote-code-execution",
-        "chrome"
-      ],
-      "whyItMatters": "The combination of multiple zero-day exploits being actively targeted across major software platforms (Windows, Chrome, Adobe) creates urgent risk for organizations and individuals worldwide. Users and IT teams must prioritize deploying these patches immediately to prevent potential compromise, especially given the active exploitation of the Adobe Reader vulnerability and the public disclosure of ",
-      "image": null,
-      "processedAt": "2026-06-07T09:23:45.744523+00:00"
-    },
-    {
-      "id": "art-62fc3cc5",
-      "title": "Exposed Fuel Tank Gauges Under Attack in the US",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-05",
-      "originalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us",
-      "summary": "Cybercriminals are exploiting tank gauges at gas stations that are connected to the internet without proper security protections. By gaining unauthorized access to these exposed devices, attackers can disrupt fuel distribution systems and potentially cause operational chaos at gas stations across the United States. This vulnerability highlights how industrial control systems in critical infrastructure can become targets when connected online without adequate security measures.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "iot-security",
-        "industrial-control-systems",
-        "gas-stations",
-        "critical-infrastructure",
-        "exposed-devices",
-        "network-security"
-      ],
-      "whyItMatters": "This attack vector demonstrates how everyday connected devices at critical infrastructure sites can become entry points for disruption if not properly secured. Gas station compromises could lead to fuel supply chain disruptions affecting businesses and consumers, making this a real-world example of why industrial IoT security and network segmentation are essential in protecting essential services.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt638e463ae5f7293b/6a231e099ba4ae078482ebfa/Fire_industrial_site-Yauhen_Akulich-Getty.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "processedAt": "2026-06-07T09:23:48.443678+00:00"
-    },
-    {
-      "id": "art-725f543b",
-      "title": "Adaptive, Agentic AI Worms Loom as Next Enterprise Threat",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-05",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/adaptive-agentic-ai-worms-enterprise-cyber-threat",
-      "summary": "Researchers warn that AI-powered worms represent an emerging threat to enterprise security. These intelligent malware variants can automatically adapt to new systems, identify security weaknesses, and propagate independently without human intervention. Experts predict such attacks could occur within the next year, combining the self-replicating nature of traditional worms with advanced artificial intelligence capabilities.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-worms",
-        "adaptive-malware",
-        "enterprise-threat",
-        "autonomous-attacks",
-        "emerging-threat"
-      ],
-      "whyItMatters": "AI-enhanced worms represent a fundamental shift in malware sophistication—moving from scripted attacks to intelligent systems that can independently discover vulnerabilities and adjust tactics in real-time. Organizations need to urgently rethink their detection and response strategies, as traditional signature-based defenses will be ineffective against self-modifying, intelligent threats.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt790ebbb60992f6b8/6a21d38a9f92caaf2208c2d5/AI-worm-spread-map-UoT.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "processedAt": "2026-06-07T09:23:50.921033+00:00"
-    },
-    {
-      "id": "art-703b79eb",
-      "title": "Trump AI Order Seeks Voluntary Frontier Model Testing",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-05",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/trump-ai-order-seeks-voluntary-frontier-model-testing",
-      "summary": "The White House has issued an executive order that creates a voluntary framework allowing the federal government early access to frontier artificial intelligence models for testing purposes. This initiative also includes investments in strengthening federal cybersecurity infrastructure. The voluntary approach aims to balance AI innovation with security considerations at the government level.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "government-policy",
-        "frontier-models",
-        "voluntary-framework",
-        "federal-security"
-      ],
-      "whyItMatters": "As AI systems become increasingly powerful and integrated into critical infrastructure, establishing early government access and testing protocols helps identify security risks before widespread deployment. This proactive approach can prevent adversaries from exploiting vulnerabilities in advanced AI models that could impact national security and public safety.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt35b8e66ce856430b/6a21d4c69f92ca3dfa08c2dd/RMTrump_Signs_Executive_Order-Kevin_Dietsch-getty-2279671771.jpg?width=1280&auto=webp&quality=80&disable=upscale",
-      "processedAt": "2026-06-07T09:23:53.348748+00:00"
     }
   ]
 }
