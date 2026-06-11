@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-06-11T10:47:15.153159+00:00",
+  "lastUpdated": "2026-06-11T20:06:58.956330+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-76e2e34c",
+      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+      "summary": "Security researchers from Imperva and Varonis discovered that OpenClaw, a popular self-hosted AI agent, can be manipulated into executing malicious code or leaking sensitive information through seemingly harmless inputs like contact cards and location data. The attacks work by embedding hidden instructions within ordinary files that the AI agent processes without alerting users. These findings highlight a critical vulnerability in how AI agents handle and interpret untrusted data from external sources.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "code-execution",
+        "prompt-injection",
+        "data-leakage",
+        "openclaw",
+        "self-hosted-ai"
+      ],
+      "whyItMatters": "This vulnerability affects organizations deploying OpenClaw as an autonomous agent, potentially allowing attackers to execute arbitrary code or steal secrets through normal business operations. The use of innocuous-looking files as attack vectors makes this particularly dangerous since users may not suspect malicious intent, and the widespread adoption of AI agents makes this a significant risk ac",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6r68iB-MZv_eNGG3y0evEVbk7WXNkMzcKno1phHiSyOwfKd0G7bv8VCCrxQgmZOutmZdP1Nz-Xr1mxxUIx_rV8imT0-Ifk0e0FL525Z2v0C94GWgeo-wUpTk39rDdilNC_K20uqw0JipHlT7XmyTHn786UIAe_z3H2VXT1cYNAIEbKSwn2qYc_9MXzpbi/s1600/openclaw-hacks.jpg",
+      "processedAt": "2026-06-11T20:06:31.743068+00:00"
+    },
+    {
+      "id": "art-73c567fc",
+      "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+      "summary": "A security researcher discovered a new exploit called GreatXML that can bypass Windows BitLocker encryption by exploiting XML files in the recovery partition. The researcher found this vulnerability accidentally in just 4 hours, demonstrating a significant weakness in Windows security. This comes shortly after the same researcher published an exploit targeting Microsoft Defender, raising concerns about multiple critical Windows security gaps.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "bitlocker-bypass",
+        "windows-security",
+        "encryption-vulnerability",
+        "zero-day",
+        "recovery-partition",
+        "xml-exploit"
+      ],
+      "whyItMatters": "BitLocker is a fundamental Windows security feature that encrypts entire drives to protect sensitive data. A publicly disclosed bypass technique puts millions of Windows users at immediate risk of data theft, especially in corporate environments where BitLocker is relied upon for compliance and data protection. The ease of exploitation (4 hours to discover) and public availability of the exploit c",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqKyNLbT9WYm7m6ZsvIgv0mNbGJCrgEjUUXLbRZV9mmQUVi7jT9IiwlXh2kYKiMOrsCnJ-ZaoAK9GnL9jy6RHJELISIGFuLSZgsSYuclWFcPmItYL04pTVeA7cl_jy8L6RU4CVPypa6u24OH8hCwPL1g1tEVRczTV1YjZ5KUFGZc6DVw8Pdo_CFGXRTS-d/s1600/windows-bitlocker.jpg",
+      "processedAt": "2026-06-11T20:06:34.505193+00:00"
+    },
+    {
+      "id": "art-1d430ad9",
+      "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+      "summary": "The Gentlemen ransomware operation has infected 478 victims by functioning as an affiliate group that conducts double extortion attacks using resources from major ransomware-as-a-service platforms like LockBit, Qilin, and Medusa. This threat group demonstrates the ability to spread like a worm, making it particularly dangerous compared to traditional ransomware. The analysis reveals how cybercriminals are leveraging existing RaaS infrastructure to amplify their attack capabilities and financial gains.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "double-extortion",
+        "raas",
+        "worm-like-propagation",
+        "threat-group",
+        "lockbit"
+      ],
+      "whyItMatters": "The Gentlemen's worm-like spreading capability combined with its exploitation of multiple RaaS platforms represents a significant escalation in ransomware threats, as it enables rapid victim proliferation beyond traditional attack vectors. Organizations must understand that modern ransomware can spread autonomously across networks, requiring stronger segmentation, monitoring, and incident response",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT390XWb8ahl36RgVGzdXiIpEJ43hxHfayY1i2C_rBLbVyu5A2Q-uOFptUFJL33Ehedvbx97RiUV2NivTy-FxxFCNiIKekiqeljYrI3kThk9Sko4wQlFniMDjIfNqgiP-BaN3JYFjAbo2EfP7EBuEDe_p00RtrAmdUl_lsbgzQgV-M7CM_u3Vi7AtqgbSS/s1600/ransomware.jpg",
+      "processedAt": "2026-06-11T20:06:37.589160+00:00"
+    },
+    {
+      "id": "art-76a96cf4",
+      "title": "Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
+      "summary": "The 2026 Cybersecurity Stars Awards recognized excellence across 95 subcategories and four main award categories, celebrating the often-invisible work of security professionals and teams. The awards highlight products, incident response teams, and companies that solve real security problems and prevent breaches that typically go unnoticed by the public. This annual recognition aims to shine a light on critical cybersecurity contributions that are essential but rarely acknowledged.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "cybersecurity-awards",
+        "industry-recognition",
+        "security-excellence",
+        "professional-acknowledgment"
+      ],
+      "whyItMatters": "Industry awards like these motivate cybersecurity professionals, highlight best practices, and help organizations identify leading security solutions and vendors. Recognition of effective security work encourages continued innovation and talent retention in a field critical to protecting digital infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSZHAWbb4vxxCvcuKVVx_cF20NdH25LsT22W5ftwdgoPt9RSB_6g399zuxnBqiClQMbMTVTlZ5w2uZ7LoZnhySiv2rdRpu_992csHQmBaTqzkBAB3jkpru_Ofvli3RzA6r2kYxapez3lqhW02JPzqtJcDd2DGnZC62u72F59zUJbsS3CujuYH_mpj9lhk/s1600/winners.jpg",
+      "processedAt": "2026-06-11T20:06:40.638535+00:00"
+    },
+    {
+      "id": "art-8afbd03d",
+      "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+      "summary": "A significant week in cybersecurity saw multiple serious threats emerge, including leaked worm code in public repositories, a sophisticated $5,000/month remote access trojan that can clone browsers, and research demonstrating that AI agents can be manipulated into revealing real credentials. The concerning trend is that these threats are becoming increasingly polished and professionalized, with criminal operations now operating like legitimate software-as-a-service businesses.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "worm-leak",
+        "ai-security",
+        "rat-malware",
+        "credential-theft",
+        "browser-cloning"
+      ],
+      "whyItMatters": "This bulletin highlights a critical convergence of threats: leaked malware code accelerates attack capabilities, AI vulnerabilities create new attack vectors against machine learning systems, and the professionalization of criminal infrastructure (mule networks operating as SaaS) indicates cybercriminals are scaling operations efficiently. Organizations must urgently patch AI systems, monitor for ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRILGY9KcqTFlus6q7_YKlkzrx_LNXb7KS96PijLOM63YqrZIcvxXaf9j0i-sJhst_yL59b7pq32rwcHSSByX7dzVRXSv_dRnrAYqn0Hpps_G7odqCYu8BEonGPMlUkCAz-d0q2No-ojqaZou-b06UwZxzq0oV5CthkgjmTdTBU1JEkWRLV28PwRR5UW7/s1600/tt.png",
+      "processedAt": "2026-06-11T20:06:43.860726+00:00"
+    },
+    {
+      "id": "art-3b6c39fc",
+      "title": "Oracle mitigates PeopleSoft zero-day exploited in data theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/",
+      "summary": "Oracle has identified and is working to fix a critical zero-day vulnerability in PeopleSoft Suite (CVE-2026-35273) that lets attackers execute code remotely without needing to log in. This flaw is currently being exploited by attackers associated with ShinyHunter to steal data from organizations using the software. Companies running PeopleSoft need to be aware of this active threat and apply security updates as soon as Oracle releases them.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "cve-2026-35273",
+        "peoplesoft",
+        "remote-code-execution",
+        "active-exploitation",
+        "data-theft"
+      ],
+      "whyItMatters": "This zero-day is actively being exploited in real-world attacks, making it an immediate threat to any organization using Oracle PeopleSoft. The ability to execute code without authentication means attackers can potentially gain full system access and steal sensitive business data. Rapid patching and monitoring are essential for affected organizations to prevent data breaches and unauthorized syste",
+      "image": null,
+      "processedAt": "2026-06-11T20:06:46.869217+00:00"
+    },
+    {
+      "id": "art-6e65e632",
+      "title": "Authorities dismantle 'AudiA6' ransomware crypto-laundering service",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/legal/authorities-dismantle-audia6-ransomware-crypto-laundering-service/",
+      "summary": "Law enforcement agencies successfully shut down the 'AudiA6' cryptocurrency service, which was a key tool used by ransomware gangs and other cybercriminals to hide money laundered through illicit activities. The service had facilitated the movement of over $380 million in criminal proceeds. This takedown represents a significant disruption to the financial infrastructure that makes ransomware attacks profitable.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "cryptocurrency-laundering",
+        "law-enforcement",
+        "financial-crime",
+        "money-laundering"
+      ],
+      "whyItMatters": "Dismantling crypto-laundering services directly impacts the profitability and sustainability of ransomware operations, making it harder for criminals to monetize attacks and potentially deterring future campaigns. Understanding how criminal money flows through these services helps organizations and law enforcement identify and prevent ransomware-funded activities. This case demonstrates the growin",
+      "image": null,
+      "processedAt": "2026-06-11T20:06:49.530065+00:00"
+    },
+    {
+      "id": "art-2b3b5c48",
+      "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
+      "summary": "Artificial intelligence-powered attacks are revealing weaknesses in how managed service providers (MSPs) organize and deploy their security tools, particularly when systems aren't well-integrated and response processes are slow. According to Kaseya, companies need to move toward unified security solutions that combine automation capabilities and recovery options to better defend against these sophisticated threats. The article highlights that fragmented security approaches are no longer sufficient against modern, AI-driven attack methods.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-driven-attacks",
+        "msp-security",
+        "security-automation",
+        "threat-response",
+        "integrated-security"
+      ],
+      "whyItMatters": "MSPs manage security for thousands of small and medium-sized businesses, making their defensive capabilities critical to the broader security landscape. If MSP security stacks are inadequate against AI-driven threats, the downstream impact affects all their clients simultaneously. Understanding these gaps helps organizations evaluate their own security architecture and whether their providers can ",
+      "image": null,
+      "processedAt": "2026-06-11T20:06:52.755606+00:00"
+    },
+    {
+      "id": "art-a4f96cc7",
+      "title": "Coupang hit with record $409 million data breach fine in Korea",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/south-korea-hits-coupang-with-record-409-million-fine-over-data-breach/",
+      "summary": "South Korea's data protection regulator imposed a record fine of $409 million against e-commerce company Coupang following a data breach that exposed personal information of over 37 million customers. This penalty represents the largest enforcement action by the Personal Information Protection Commission (PIPC) and underscores the severe consequences companies face for failing to protect customer data. The case demonstrates how major data incidents can result in substantial financial penalties alongside potential reputational and operational damage.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "coupang",
+        "south-korea",
+        "regulatory-fine",
+        "privacy-violation",
+        "customer-data"
+      ],
+      "whyItMatters": "This record-breaking fine signals that data protection regulators worldwide are enforcing strict penalties for large-scale breaches, making cybersecurity investment and incident response planning essential business priorities. Organizations handling customer data must recognize that regulatory fines can exceed breach remediation costs, creating significant financial and legal liability. The case i",
+      "image": null,
+      "processedAt": "2026-06-11T20:06:56.281645+00:00"
+    },
+    {
+      "id": "art-b874e236",
+      "title": "CISA tells govt agencies to patch critical exploited flaws in 3 days",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-tells-govt-agencies-to-patch-critical-exploited-flaws-in-3-days/",
+      "summary": "CISA has issued a new mandatory directive requiring U.S. federal government agencies to apply security patches for critical vulnerabilities that are actively being exploited within just 3 days. This urgent requirement reflects the serious risk posed by known exploits targeting government systems. The directive aims to reduce the window of exposure before attackers can compromise federal networks.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "cisa-directive",
+        "critical-patch",
+        "federal-agencies",
+        "vulnerability-management",
+        "exploit-active",
+        "urgent-update"
+      ],
+      "whyItMatters": "This directive sets a strict compliance deadline that forces organizations to prioritize speed in patch deployment, demonstrating that actively exploited vulnerabilities pose an immediate national security threat. For any organization managing critical infrastructure or government contracts, this establishes a new standard for emergency response timelines that could become industry-wide expectatio",
+      "image": null,
+      "processedAt": "2026-06-11T20:06:58.956165+00:00"
+    },
     {
       "id": "art-25711f48",
       "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
@@ -826,214 +1032,6 @@
       "whyItMatters": "As AI models become more capable at security analysis tasks, understanding their effectiveness at finding vulnerabilities is crucial for both defensive and offensive contexts. This research highlights the dual-use potential of advanced AI systems and informs organizations about emerging tools that could be used in attacks or security testing.",
       "image": null,
       "processedAt": "2026-06-09T19:53:29.652992+00:00"
-    },
-    {
-      "id": "art-05e467c4",
-      "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-09",
-      "originalUrl": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-      "summary": "A high-severity vulnerability in BerriAI LiteLLM (CVE-2026-42271) is being actively exploited in the wild and has been added to CISA's official list of known exploited flaws. The command injection flaw allows authenticated users to execute arbitrary commands on affected systems, posing a significant risk to organizations using this software. With a CVSS score of 8.7, this vulnerability requires immediate patching to prevent unauthorized system compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "litellm",
-        "command-injection",
-        "cisa-kev",
-        "active-exploitation",
-        "arbitrary-code-execution",
-        "patch-required"
-      ],
-      "whyItMatters": "This vulnerability is already being exploited by attackers in real-world attacks, making it an immediate threat to any organization using LiteLLM. CISA's inclusion in the KEV catalog signals that this is a priority target for threat actors, requiring urgent patching. Organizations must prioritize updating LiteLLM to prevent unauthorized access and command execution on their systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGMn_z7P9hbHMRzYk9OL9_kLaqTo4GucKa1of13sGhpNvKkSBDrhZSrcG53FJsPKJguHNThZK130Ku7Fjz6i1eFXP4Hx__9KoHxiv0gBT1LAomQr0exe44OnZkJjyIhv2X5hIA-rZAiu1AFLSUXAJSjb6DhF3DqQGx-XBkup8rwwonKFLCeWbNHrS3r2rm/s1600/lite.png",
-      "processedAt": "2026-06-09T09:55:03.916687+00:00"
-    },
-    {
-      "id": "art-1a4100f6",
-      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-08",
-      "originalUrl": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
-      "summary": "A critical Linux kernel vulnerability (CVE-2026-23111) in the nf_tables packet-filtering code has been publicly exploited, allowing unprivileged users to gain root access and escape containers. Although the flaw was patched in February 2026, security researchers at Exodus Intelligence released a full working exploit in June, making it accessible to potential attackers. This represents a significant risk to unpatched Linux systems, particularly those running containerized applications.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "kernel-vulnerability",
-        "privilege-escalation",
-        "container-escape",
-        "use-after-free",
-        "linux-security",
-        "public-exploit"
-      ],
-      "whyItMatters": "Public exploit code for a kernel vulnerability dramatically increases the attack surface, especially for systems that haven't applied the February patch. Organizations running Linux servers and containerized workloads face immediate risk of complete system compromise and must prioritize patching to prevent unauthorized root access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA8UsvPZqRGiHkumM_jxIGyax3NmK9lBR-XAaVK3Stujz8_bExONh9gAroIEXnLQo9KaXb2MpyZsqb2kcfaUxNJJtFhiSpCZjHDzOtgt-sZczb2rx2eRi-rqMiqFtfs0lq6iqJd74J3aoFRN-azg51ZhnQq84Ve1y_-AMXudSuiePM0mi1UHwTh0MHtIE/s1600/linux.jpg",
-      "processedAt": "2026-06-09T09:55:06.718304+00:00"
-    },
-    {
-      "id": "art-044aaaf5",
-      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-06",
-      "originalUrl": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "summary": "An AI-powered security agent discovered 21 previously unknown vulnerabilities in FFmpeg, a widely-used media library found in countless applications that handle video. In the same week, Google released Chrome 149 with patches for 429 security bugs, marking the largest single-release patch effort on record. These discoveries highlight both the growing capability of AI in threat detection and the scale of security issues present in critical software.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "ffmpeg",
-        "ai-security",
-        "chrome-patches",
-        "vulnerability-disclosure",
-        "patch-now"
-      ],
-      "whyItMatters": "FFmpeg's presence in nearly all video-handling applications means these 21 zero-days pose an immediate widespread risk to millions of users and systems. The discovery demonstrates that AI agents can now autonomously identify critical vulnerabilities at scale, fundamentally changing threat landscape dynamics. Organizations using FFmpeg or Chrome must prioritize patching to avoid exploitation of the",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiyg1vRQART17ZjJXANnrQ8Vtn7h_tM5IihGJ4LnxbGTDFL1QSvR_lEDmVm7bsO84br04_oM-RM9ZgX-6b5yVQnEOTwKgk3KzImrhPBrI91GIYmQ-n09hq3vjF3tPVnNqVhHbV22BIxXg9zhGg4b2s4kATPjtnqGWldHRw29GexKQbEcX6HxG46vPfvo26l/s1600/chrome-update.jpg",
-      "processedAt": "2026-06-09T09:55:09.921126+00:00"
-    },
-    {
-      "id": "art-5e127d29",
-      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-06",
-      "originalUrl": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "summary": "A self-replicating malware called Miasma has compromised 73 Microsoft repositories across multiple GitHub organizations, including Azure and Microsoft's official accounts. This supply chain attack demonstrates how malicious code can spread through widely-used development platforms, potentially affecting thousands of developers and users who rely on these repositories. GitHub has disabled access to the affected repositories as part of the response.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "github-compromise",
-        "malware",
-        "self-replicating",
-        "microsoft",
-        "developer-tools"
-      ],
-      "whyItMatters": "Supply chain attacks through trusted development platforms like GitHub pose an enormous risk because compromised code can be integrated into countless software projects before detection, affecting millions of downstream users and applications. When major organizations like Microsoft are targeted, the attack surface expands exponentially, making this a critical incident for software security and de",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG8k6LtHNQ3cHl_X1AZbXRn6LZCNZ6lMLjy-9HG7-_OQekMOhCQKkktrnMqVteXfmGHBMMlbTv3v9Rl6kKjXlNQBSHUVybmD_IBVvMDT7IsMGV49OMSfF5V8bMFVW4ZwFjlg_gddyYtiiQqmdpYIJjuKLTZz_rxooZZQQye7omBEOjyxMFFjAaiZuc6Non/s1600/azure-npm.jpg",
-      "processedAt": "2026-06-09T09:55:13.991323+00:00"
-    },
-    {
-      "id": "art-9256f661",
-      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-06",
-      "originalUrl": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "summary": "Cisco has disclosed that CVE-2026-20245, a high-severity vulnerability in Catalyst SD-WAN Manager with a CVSS score of 7.8, is currently being actively exploited in the wild. The flaw affects multiple deployment types including on-premises systems and various cloud-based versions. Currently, no patch is available to address this vulnerability.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day-exploit",
-        "sd-wan",
-        "cisco",
-        "active-exploitation",
-        "unpatched-vulnerability",
-        "network-security"
-      ],
-      "whyItMatters": "Organizations using Cisco SD-WAN Manager are facing immediate risk since attackers are actively exploiting this vulnerability while no patch exists, leaving systems exposed and requiring urgent defensive measures. This impacts network infrastructure across enterprise and government deployments, potentially compromising critical WAN management capabilities.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYckKvOFV_Xz1o-nUKCcjlMQmOxdFC6FMzIjMnE4GSPPJ9kQxDLqOmK9WhofViemB5grKkMJDV_KPnQAuLci5RtV3sCOei2Fzk31qOdIk3Jeroj_6NVxoa0VX0Bw5nwwzffBp4o3hoDysRntjOxTR7akhfDV_1ZIpmcQKFMsxdvb00KYypSv7daJTqYHXb/s1600/cisco-exploit.jpg",
-      "processedAt": "2026-06-09T09:55:17.398451+00:00"
-    },
-    {
-      "id": "art-620c9182",
-      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-      "summary": "The U.S. cybersecurity agency CISA has ordered federal government agencies to immediately patch a critical vulnerability in Check Point VPN software that hackers are actively exploiting. The vulnerability, which affects both Remote Access VPN and Mobile Access services, is being used by Qilin ransomware groups to breach government systems. Agencies have been given only 3 days to apply the security fix before the deadline.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "check-point",
-        "vpn",
-        "ransomware",
-        "government-systems",
-        "patch-emergency"
-      ],
-      "whyItMatters": "This represents an active, weaponized vulnerability targeting U.S. government infrastructure with a compressed patching timeline, making it a critical priority for IT teams. VPN gateways are common entry points for attackers, and ransomware groups actively exploiting this weakness pose an immediate threat to sensitive government operations and data. Organizations using Check Point VPN should treat",
-      "image": null,
-      "processedAt": "2026-06-09T09:55:20.686224+00:00"
-    },
-    {
-      "id": "art-baa71bf0",
-      "title": "Google patches new Chrome zero-day flaw exploited in the wild",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-patches-fifth-chrome-zero-day-bug-exploited-in-attacks-this-year/",
-      "summary": "Google has released urgent updates to fix another Chrome zero-day vulnerability that attackers are already exploiting in real-world attacks. This is the fifth zero-day flaw patched in Chrome since the beginning of the year, showing an ongoing pattern of critical security issues. Users should update their Chrome browsers immediately to protect themselves from potential attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "chrome",
-        "patch-now",
-        "active-exploitation",
-        "browser-security",
-        "emergency-update"
-      ],
-      "whyItMatters": "Active exploitation of zero-day vulnerabilities means attackers are already using this flaw to compromise systems, making immediate patching essential. Chrome's widespread use across billions of devices means this vulnerability poses a massive risk to general users and organizations alike. The frequency of zero-day patches in Chrome demonstrates the need for users to maintain automatic updates and",
-      "image": null,
-      "processedAt": "2026-06-09T09:55:23.446661+00:00"
-    },
-    {
-      "id": "art-1196bfb3",
-      "title": "NFCShare Android malware spreads via fake banking app updates on GitHub",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/",
-      "summary": "Cybercriminals are distributing new versions of NFCShare Android malware by disguising it as legitimate updates for banking applications on GitHub. Users downloading these fake updates believe they are installing security patches or newer versions of trusted banking apps, but instead receive malicious software. This attack exploits the trust users place in official-looking app updates to compromise sensitive financial information.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "android-malware",
-        "nfcshare",
-        "banking-fraud",
-        "fake-updates",
-        "github-abuse",
-        "financial-threat"
-      ],
-      "whyItMatters": "This threat is critical because it targets financial apps that handle sensitive banking credentials and payment data, exploiting users' trust in legitimate-looking update mechanisms. The use of GitHub as a distribution platform makes the malware appear credible and harder to detect than traditional malware sources. Mobile banking users worldwide could be at immediate risk of account takeover and f",
-      "image": null,
-      "processedAt": "2026-06-09T09:55:26.718201+00:00"
-    },
-    {
-      "id": "art-d6693866",
-      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
-      "summary": "SoFi's Hong Kong subsidiary experienced a data breach when attackers gained unauthorized access to a third-party vendor's database containing customer information. This incident highlights how security weaknesses at external service providers can directly expose customer data held by major financial institutions. Even companies with strong internal security can be compromised through vulnerabilities in their supply chain and third-party integrations.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "financial-services",
-        "customer-data",
-        "supply-chain-security"
-      ],
-      "whyItMatters": "This breach underscores the critical importance of third-party risk management in cybersecurity. Financial institutions must thoroughly vet and monitor their vendors' security practices, as attackers often exploit weaker links in the supply chain. Organizations need robust vendor assessment frameworks and data segmentation strategies to minimize exposure when third-party systems are compromised.",
-      "image": null,
-      "processedAt": "2026-06-09T09:55:29.642465+00:00"
-    },
-    {
-      "id": "art-c506a631",
-      "title": "New Apple feature automatically changes your compromised passwords",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
-      "summary": "Apple has unveiled a new AI-powered feature coming with iOS 27 that automatically detects and replaces weak or compromised passwords in Safari. This intelligent security tool leverages Apple Intelligence to help users maintain stronger account security without manual intervention. The feature addresses a common security challenge where users struggle to manage and update vulnerable credentials across their accounts.",
-      "category": "Security Awareness",
-      "severity": "Low",
-      "tags": [
-        "password-management",
-        "apple-intelligence",
-        "ios-27",
-        "account-security",
-        "automated-protection"
-      ],
-      "whyItMatters": "Automated password remediation significantly reduces the window of vulnerability for compromised credentials by eliminating delays between detection and correction. This feature empowers average users to maintain better security hygiene without requiring technical knowledge, making credential protection more accessible across Apple's ecosystem.",
-      "image": null,
-      "processedAt": "2026-06-09T09:55:32.056950+00:00"
     }
   ]
 }
