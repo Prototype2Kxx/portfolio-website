@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-06-16T11:21:58.704397+00:00",
+  "lastUpdated": "2026-06-16T20:38:06.074746+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-9253cd4a",
+      "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+      "summary": "Google's Vertex AI SDK for Python contained a vulnerability that allowed attackers to intercept and hijack machine learning model uploads without needing access to a victim's cloud project. Researchers at Palo Alto Networks discovered this flaw, dubbed 'Pickle in the Middle,' which could enable attackers to execute malicious code within Google's infrastructure. Although the vulnerability has been reported through Google's bug bounty program, there have been no known attacks exploiting it in the wild.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "cloud-security",
+        "vulnerability",
+        "google-cloud",
+        "machine-learning",
+        "code-execution",
+        "bucket-squatting"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how supply chain attacks can target AI/ML development pipelines, affecting developers who use popular cloud SDKs. The ability to hijack model uploads and execute arbitrary code in Google's infrastructure poses significant risks to enterprises relying on Vertex AI for production systems. Organizations using the affected SDK should prioritize patching to prevent poten",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpiAGZTnvo43enaVYkna4ZSp217mwwW5kW8kZOhaSiLAxicjvHQY-3d8rdLN47bsRvxUIj6R0h_Ttr8NcIJrgz6k_mbcx94KLuPD29KdhFcYQsrV8htgg_iDYMV9aXbr21kv6BdYTzLNOOqQLpsCfpDC4XxDPnu77uVQ3oCYbIUfIpUKdmqx-rZZWj6P0/s1600/Google-Vertex-AI.jpg",
+      "processedAt": "2026-06-16T20:37:33.366621+00:00"
+    },
+    {
+      "id": "art-e7a47ea7",
+      "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+      "summary": "Cybersecurity researchers have discovered multiple ClickFix campaigns using fake update prompts to distribute three different malware loaders: BabaDeda Loader, Lorem Ipsum Loader, and Potemkin. These attacks have primarily targeted education and financial organizations since April 2026. The campaigns represent an evolution in malware delivery tactics, leveraging social engineering to trick users into installing malicious software.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-loader",
+        "clickfix-campaigns",
+        "fake-updates",
+        "social-engineering",
+        "education-sector",
+        "financial-sector"
+      ],
+      "whyItMatters": "ClickFix's expansion into multiple loader variants demonstrates how attackers are scaling and diversifying their malware distribution methods, making it increasingly difficult to detect and block. Organizations in education and finance are prime targets due to their valuable data and network access, making this a significant operational security concern. Understanding these attack patterns helps s",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEilHq1gG2gCazQF6_B9H-W3ck6nmgu3L4IPuzaMg9RMEAbpHyVqfYmFOquQ9_ldT1kG2r1kYUqt-WlpWWvD3DA4vNH6S-lv6fbsDbSCkB55NP3TtRJA4l5lLCMzosdM1OJiDOatfx4zG284ftwuE9ahYlGfcIpnAy1PkVSfWloFY0zD9Cbh3CkHhNQHgqwF/s1600/clickfix-attacks.jpg",
+      "processedAt": "2026-06-16T20:37:38.006599+00:00"
+    },
+    {
+      "id": "art-5438c3ed",
+      "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
+      "summary": "Researchers have discovered Rokarolla, a dangerous Android banking trojan that can compromise over 200 banking and cryptocurrency applications. This malware gives attackers extensive control over infected phones, allowing them to steal PINs, intercept SMS codes, redirect cryptocurrency transactions, and disable security features. The threat is particularly severe because it combines multiple attack vectors that together can lead to complete financial fraud.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "android-malware",
+        "banking-trojan",
+        "cryptocurrency-theft",
+        "credential-stealing",
+        "remote-access"
+      ],
+      "whyItMatters": "Rokarolla represents a critical threat to mobile users because it targets both traditional banking and cryptocurrency assets simultaneously, bypassing multiple layers of security including SMS-based two-factor authentication. The malware's 137 remote commands and broad app targeting mean that a single infection could result in complete financial compromise for victims. Organizations and users need",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjF_U2JZgjmQGUfV3q90DEMUgqHK2kqloGQR5lBYn_8UUC2DUIFpJPpCnETlOUh1IldJXcWdr9YZ5hA3yUtZETvviRousyQt7En5mNSjwoJiD_gJ9_kjS7L8ujw_y6CN3NeygZWa-sXCEG1zo5PBmuB5CkSP-EYxBWsUEtUq4iYJ3AYXHVM_TscyngMwPU/s1600/android-banking-trojan.jpg",
+      "processedAt": "2026-06-16T20:37:41.676039+00:00"
+    },
+    {
+      "id": "art-a9067a65",
+      "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
+      "summary": "A recent survey reveals that 94% of security incidents involve anonymized or obfuscated infrastructure, making it difficult for security teams to identify attackers despite having access to vast amounts of IP data and threat intelligence. Organizations continue to struggle with being reactive rather than proactive in their security posture, unable to effectively filter through the noise of available information to understand threat actors. This indicates a critical gap between data availability and actionable intelligence in modern cybersecurity operations.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "anonymized-infrastructure",
+        "ip-obfuscation",
+        "threat-intelligence",
+        "incident-response",
+        "reactive-security"
+      ],
+      "whyItMatters": "Understanding how attackers hide their infrastructure is essential for security teams to improve detection and attribution capabilities. The widespread use of anonymization techniques by threat actors undermines traditional network-based defenses, requiring organizations to rethink their investigative approaches and invest in better threat intelligence analysis tools. This finding highlights why r",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIjJejsRU4njToU8avtW_XwlouRy_HhUCWBUzgTtjb0e-LWzIO6zQprJ_tRqq6KO0Dvn64NNH35d6lYYadq7WSWAjn4jG_onOHYaJYrdg5CgUeVxyXBQJu7LUIAeVrEhFziJvlITCbj4kN9GSi9vp4ZpRpVwnxYCHKskOjUiFf-KIue9JlZzAJqJZUsxE/s1600/Spur-IP-Intel-Study-Feature.png",
+      "processedAt": "2026-06-16T20:37:44.692431+00:00"
+    },
+    {
+      "id": "art-af5ca588",
+      "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-15",
+      "originalUrl": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
+      "summary": "A Chinese espionage group infiltrated medical, academic, and military research networks across North America and remained undetected for over a year. Attackers used a backdoor in REDCap research servers to steal login credentials, then exploited Google Workspace email rules to automatically copy and exfiltrate sensitive messages. This sophisticated approach allowed them to steal valuable research and defense information without triggering typical security alerts.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-exfiltration",
+        "espionage",
+        "cloud-security",
+        "credential-theft",
+        "research-targeting",
+        "google-workspace"
+      ],
+      "whyItMatters": "This attack demonstrates how adversaries can weaponize legitimate cloud features to bypass traditional security monitoring and maintain persistent access to highly sensitive organizations. The long dwell time and targeting of defense-related research highlights the need for stronger authentication, email security controls, and monitoring of cloud configuration changes in high-value institutions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE7EMoBrh5-6_V336v7LMFfChDVp-Sux8RX-UY5zhONtACR6kiz2w_VQ9o7e8nuqaWCqbxrvzPgSrruvEXN0jw_zKnaeVl73yDnfqbVqTPDnjHDPJPuBLd9vhGCJIl1BuqSblleOG9zG9YgbriqE7oiCuTEBQRDadsFOgQdN9PjdOglDeI_y2ZV5-Ehbo/s1600/google-china.jpg",
+      "processedAt": "2026-06-16T20:37:48.785386+00:00"
+    },
+    {
+      "id": "art-25e4454e",
+      "title": "New Rokarolla Android malware targets 217 banking, crypto apps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/",
+      "summary": "Security researchers discovered Rokarolla, a dangerous Android banking trojan that can attack 217 different banking and cryptocurrency applications. The malware uses 137 different commands to steal financial data and compromise user accounts. This represents a significant threat to mobile banking users who may unknowingly install the infected app.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "android-malware",
+        "banking-trojan",
+        "cryptocurrency-threat",
+        "mobile-security",
+        "financial-fraud"
+      ],
+      "whyItMatters": "Rokarolla poses an immediate and widespread risk to millions of mobile users who rely on banking and cryptocurrency apps for financial transactions. Its large command set and broad target range make it a sophisticated threat capable of causing significant financial damage to individuals and institutions. Understanding this threat is essential for users to protect their devices and adopt defensive ",
+      "image": null,
+      "processedAt": "2026-06-16T20:37:52.407951+00:00"
+    },
+    {
+      "id": "art-4a090943",
+      "title": "Steam Workshop abused to spread malware via Wallpaper Engine app",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/steam-workshop-abused-to-spread-malware-via-wallpaper-engine-app/",
+      "summary": "Criminals are exploiting Steam Workshop, a popular platform for sharing game content, to distribute malware disguised as wallpaper packages for the Wallpaper Engine application. Users who download these seemingly innocent wallpapers unknowingly install malicious software onto their computers. This attack demonstrates how attackers misuse trusted platforms to reach a large audience of unsuspecting users.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-distribution",
+        "steam-workshop",
+        "supply-chain-attack",
+        "trojanized-content",
+        "user-deception"
+      ],
+      "whyItMatters": "This attack highlights the risk of trusting user-generated content on major platforms, even those operated by reputable companies like Valve. It shows how attackers exploit the convenience and perceived safety of official marketplaces to bypass traditional security measures and infect large numbers of users. Understanding these tactics helps users practice better judgment when downloading communit",
+      "image": null,
+      "processedAt": "2026-06-16T20:37:55.238685+00:00"
+    },
+    {
+      "id": "art-94235849",
+      "title": "UK to require ID or face scan before you can make social media accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/uk-to-require-id-or-face-scan-before-you-can-make-social-media-accounts/",
+      "summary": "The UK government is implementing an age verification requirement for social media accounts, mandating users prove they're at least 16 years old through ID uploads or facial recognition scans starting spring 2027. While intended to protect minors, cybersecurity experts have flagged that these verification methods are vulnerable to circumvention and introduce significant data breach risks by centralizing sensitive personal information.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "age-verification",
+        "facial-recognition",
+        "data-breach-risk",
+        "privacy",
+        "identity-verification",
+        "regulatory-compliance"
+      ],
+      "whyItMatters": "This policy creates a large centralized repository of sensitive biometric and identity data, making it an attractive target for cybercriminals while offering limited actual security benefit if the verification methods are easily bypassed. Organizations handling this data face substantial compliance and liability risks, and users' personal information exposure increases significantly with minimal c",
+      "image": null,
+      "processedAt": "2026-06-16T20:37:58.729323+00:00"
+    },
+    {
+      "id": "art-aa45a4a1",
+      "title": "GhostTree Attack Abused Recursive Windows Junctions to Hide Malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/",
+      "summary": "GhostTree is an attack technique that exploits recursive NTFS junctions in Windows to create massive numbers of file paths, which can overwhelm security tools like Microsoft Defender. By causing antivirus folder scans to hang or never complete, attackers can hide malware on infected systems without detection. This highlights a vulnerability in how Windows file scanning works when faced with specially crafted directory structures.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "windows-security",
+        "ntfs-junctions",
+        "malware-evasion",
+        "defender-bypass",
+        "detection-avoidance"
+      ],
+      "whyItMatters": "This attack demonstrates a practical method for evading mainstream security tools, putting any Windows system at risk if antivirus scans fail to complete properly. Organizations relying on Microsoft Defender need to understand this evasion technique and implement additional monitoring layers to catch threats that standard scans might miss.",
+      "image": null,
+      "processedAt": "2026-06-16T20:38:01.429476+00:00"
+    },
+    {
+      "id": "art-b6580097",
+      "title": "FTC warns of record $3.5 billion losses to imposter scams in 2025",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ftc-warns-of-record-35-billion-losses-to-imposter-scams-in-2025/",
+      "summary": "The FTC reported that Americans lost a record $3.5 billion to imposter scams during 2025, representing a troubling trend of nearly tripling losses since 2020. These scams, where criminals impersonate trusted figures or organizations to deceive victims, continue to grow as a major financial threat. The warning highlights how social engineering and fraud remain highly profitable criminal activities despite increased awareness efforts.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "imposter-scams",
+        "social-engineering",
+        "fraud",
+        "financial-loss",
+        "ftc-warning",
+        "scam-prevention"
+      ],
+      "whyItMatters": "Imposter scams represent a significant financial and security risk affecting millions of people, indicating that technical security alone is insufficient without strong user awareness and verification practices. Understanding the scale and methods of these scams helps organizations and individuals implement better identity verification and communication protocols to reduce vulnerability.",
+      "image": null,
+      "processedAt": "2026-06-16T20:38:06.074578+00:00"
+    },
     {
       "id": "art-d40713bf",
       "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
@@ -830,212 +1035,6 @@
       "whyItMatters": "Network segmentation is a critical defense layer for OT environments, but this article highlights a real-world implementation gap: security controls fail without continuous oversight and operational discipline. Organizations must recognize that strong technical controls paired with poor operational practices leave systems vulnerable to attacks.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt66e63404f64fc223/6a2ae36e50e5a268a265c05a/GettyImages-2260705467.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-06-14T19:04:39.506564+00:00"
-    },
-    {
-      "id": "art-7fefdc20",
-      "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
-      "summary": "OceanLotus, a Vietnam-linked threat group, launched coordinated attacks against Vietnamese investors and infrastructure companies using a backdoor called SPECTRALVIPER. The campaigns included a long-term espionage operation targeting a construction corporation and a supply chain attack, demonstrating the group's persistence and sophistication. These attacks highlight ongoing threats to critical sectors and financial entities in Southeast Asia.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "oceanlotus",
-        "backdoor",
-        "espionage",
-        "supply-chain-attack",
-        "vietnam",
-        "spectralviper"
-      ],
-      "whyItMatters": "This attack demonstrates how nation-state actors target critical infrastructure and financial markets to conduct long-term espionage, posing significant risks to national security and investor confidence. Organizations in Southeast Asia and those with regional operations need to strengthen detection capabilities for sophisticated backdoors and supply chain compromises. Understanding OceanLotus tac",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2WExeCWTOdaaW7iQfV9dxGz0_rzPShImjBUQfoeRsJeTLg09lrGsSEgA2k05q-weIqQaQ_VVP25lTObup7E0xtcnxj3AtK1HHkNIAkI_hykxraL74qXTPwCRlRCdTB3S5QJO-e2j5zPGxgvCBg9SyRFl9QD2gwVtOqgg3eNF7_ZXGI9JgFSE4LGPjwoS3/s1600/cyberattacks.jpg",
-      "processedAt": "2026-06-14T09:44:12.784277+00:00"
-    },
-    {
-      "id": "art-2cefe25d",
-      "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
-      "summary": "GitHub is implementing a significant change to npm version 12 that will disable install scripts by default, preventing malicious code from automatically executing when developers run npm install commands. This update targets a common supply chain attack vector where threat actors exploit npm lifecycle hooks to inject harmful code into software projects. By making this security feature the default, GitHub aims to reduce the risk of widespread software contamination through compromised package installations.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "supply-chain-attack",
-        "npm-security",
-        "malware-prevention",
-        "software-dependencies",
-        "security-update"
-      ],
-      "whyItMatters": "Supply chain attacks through compromised npm packages pose a massive risk because they can affect thousands of downstream projects automatically. By disabling install scripts by default, GitHub reduces the attack surface significantly, forcing malicious actors to use more detectable methods while protecting developers who may not realize the dangers of untrusted dependencies. This proactive change",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_yyoUTLr71Ug2Ge0R7qFSnlGjB3TzlrQ-2NDR5jpPSBjivUSxhxRV1eCg5E6Af15RbJLZpqg9Ohp9ZW9YC9D2oc3VcHrNYQetavvvarn-Pn1P4VWnMw2C-hXbFgplFW9O8pe-zSP9ABGkkR-LM8hhu370dXMgeV-TGQT2p9N7hd7Friim3UkdK5FfyHHp/s1600/npm-github.jpg",
-      "processedAt": "2026-06-14T09:44:15.943161+00:00"
-    },
-    {
-      "id": "art-18e77763",
-      "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-10",
-      "originalUrl": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
-      "summary": "Automated penetration testing tools often miss critical vulnerabilities because they plateau after initial runs, making security reports appear cleaner than they actually are. Organizations risk confusing stable test results with genuine security, allowing real threats to persist while security teams slow their efforts. A webinar by The Hacker News and Picus Security aims to bridge this gap by highlighting the limitations of automated pentesting and what human-led security assessments can uncover.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "penetration-testing",
-        "automated-security",
-        "vulnerability-assessment",
-        "security-testing",
-        "risk-management"
-      ],
-      "whyItMatters": "Organizations relying solely on automated pentesting may develop false confidence in their security posture while real vulnerabilities remain undetected. Understanding the limitations of automated tools is critical for implementing comprehensive security strategies that combine automation with expert manual review, directly impacting an organization's ability to identify and remediate actual explo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD1olwyKxwxfkuyKu0JAUMudQZs0lycGOkWf3zBrMSYzJ_fuP7vUHclJrsZipKMxe1ldNNHE3llOH4B26Hk4f-noIzZnQMdBy9IGT_MkD903KCxvP0jOUr_AO2IBGZz-W-p-MLnoxDUVAz1myBaOUWeOpYQtlEYgdArjxpkxg6imCLUB9brmL3b6Vk1L4/s1600/picus-webinar.jpg",
-      "processedAt": "2026-06-14T09:44:18.520170+00:00"
-    },
-    {
-      "id": "art-5234203e",
-      "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-10",
-      "originalUrl": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
-      "summary": "Microsoft released patches for 206 security vulnerabilities, marking a record number in a single update. The fixes address three zero-day flaws and include 39 critical issues, with remote code execution and privilege escalation being the most common vulnerability types. This massive patch release highlights the widespread security challenges across Microsoft's product ecosystem.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-patch",
-        "zero-day",
-        "remote-code-execution",
-        "privilege-escalation",
-        "critical-vulnerabilities",
-        "patch-management"
-      ],
-      "whyItMatters": "A record number of vulnerabilities—especially three zero-days and 56 RCE flaws—poses immediate exploitation risk across millions of Microsoft users and enterprises worldwide. Organizations must prioritize applying these patches urgently to prevent attackers from leveraging unpatched systems, particularly the critical and zero-day flaws that could enable widespread compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDOIX9PorKjXDciuKmL8xLL9vrOVtBou5tBhn4T-u7cgllDKei3HRDr8vsXGM-MllL1eb6E_pdEID5s_sRUxbjHiA6AhlLUQLFi6vDXM5v0Mq0hM43eWSh8Pc_qdYtcjqushm7Wl-S64w6qEGg5P6ETD_o9l5VGGoflzGo3VpgFqmL9NhIe2RUuilVAB0c/s1600/windows-patch.jpg",
-      "processedAt": "2026-06-14T09:44:21.874433+00:00"
-    },
-    {
-      "id": "art-b2d297b4",
-      "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-10",
-      "originalUrl": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
-      "summary": "Security researchers discovered six vulnerabilities in protobuf.js, a popular JavaScript library used to handle Protocol Buffers data. These flaws could allow attackers to execute arbitrary code or crash Node.js applications by sending malicious protobuf schemas or crafted payloads. Developers using protobuf.js in their applications face immediate risk and should prioritize applying security updates.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "protobuf",
-        "rce",
-        "denial-of-service",
-        "node.js",
-        "proto6",
-        "patch-now"
-      ],
-      "whyItMatters": "These vulnerabilities affect a widely-used library in the Node.js ecosystem, making them a serious risk to production applications. RCE vulnerabilities allow attackers complete control over affected servers, while DoS attacks can disrupt critical services, making this a high-priority issue for any organization relying on protobuf.js.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJXkAy-j0jwPWQiC9bJinbwINT6pxRmO7CJ_df4bkbAP3VD-xU8oblGB5ZBBR1oLMN0uqf_lBb5al4KSR82lU1kZsXu14TAMaXi6kIjcp5xxk5yLKnOCTloqgZd6w_PuzPxTxNROksgp9pld0D9HoxceBwprkC5cDXEvoSP64bzC_UZyZthInrECAReAeH/s1600/protobuf.jpg",
-      "processedAt": "2026-06-14T09:44:24.301085+00:00"
-    },
-    {
-      "id": "art-92d0fbe4",
-      "title": "Ex-school district employee jailed for hacks on former employer",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
-      "summary": "An ex-IT employee at an Iowa school district was sentenced to 21 months in prison for launching cyberattacks against his former workplace. The attacks disrupted classes, deleted user accounts, and caused tens of thousands of dollars in damage. This case shows the serious legal consequences for insider threats and malicious activity by former employees with system access.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "insider-threat",
-        "disgruntled-employee",
-        "account-deletion",
-        "school-district",
-        "network-disruption",
-        "criminal-prosecution"
-      ],
-      "whyItMatters": "This case demonstrates that former employees with IT access pose a significant insider threat risk and that such malicious activity carries serious federal penalties. Organizations must implement proper access controls, monitoring, and offboarding procedures to prevent former staff from causing operational and financial harm.",
-      "image": null,
-      "processedAt": "2026-06-14T09:44:26.711097+00:00"
-    },
-    {
-      "id": "art-0a71c16a",
-      "title": "Patch Tuesday, May 2026 Edition",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-12",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "summary": "Major software companies like Apple, Google, Microsoft, Mozilla, and Oracle are releasing patches for unusually high numbers of security vulnerabilities this month. Artificial intelligence tools have become effective at identifying bugs in computer code, even though AI itself can be vulnerable to social engineering attacks. These companies are accelerating their patch release schedules to address the surge in discovered security flaws.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patch-tuesday",
-        "vulnerability-fixes",
-        "ai-security-detection",
-        "software-updates",
-        "security-patches"
-      ],
-      "whyItMatters": "The combination of AI-enhanced vulnerability discovery and record patch volumes means security threats are being identified and addressed faster than ever, but users must stay vigilant about applying updates promptly. Organizations need to prioritize patch management processes to keep pace with the accelerated release schedule and reduce exposure windows.",
-      "image": null,
-      "processedAt": "2026-06-14T09:44:29.230058+00:00"
-    },
-    {
-      "id": "art-9fad3c5c",
-      "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-08",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
-      "summary": "A cybercriminal group launched a data extortion attack against Canvas, a popular learning platform used by thousands of schools and universities nationwide. The attackers defaced Canvas's login page with a ransom message and threatened to expose personal information belonging to approximately 275 million students and faculty members. This attack disrupted classes and coursework across the United States, affecting nearly 9,000 educational institutions.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "data-extortion",
-        "education-sector",
-        "widespread-attack",
-        "ransom-demand",
-        "data-breach"
-      ],
-      "whyItMatters": "This attack demonstrates how critical infrastructure in the education sector is vulnerable to large-scale extortion campaigns that can disrupt learning for millions of students. The threat to expose data on 275 million individuals highlights the serious privacy and financial risks educational institutions face, and serves as a stark reminder that even widely-trusted platforms require robust securi",
-      "image": null,
-      "processedAt": "2026-06-14T09:44:31.687100+00:00"
-    },
-    {
-      "id": "art-0b06e064",
-      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-04-30",
-      "originalUrl": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
-      "summary": "A Brazilian anti-DDoS protection company was discovered to be operating a botnet that launched massive DDoS attacks against competing Brazilian internet service providers. The firm's leadership claims the attacks were caused by a security breach at their own company, possibly orchestrated by a rival competitor to damage their reputation. This case reveals a serious conflict of interest where a network security vendor may have weaponized its own infrastructure against clients in the same market.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ddos-attacks",
-        "botnet",
-        "network-security",
-        "insider-threat",
-        "competitive-sabotage"
-      ],
-      "whyItMatters": "This incident demonstrates that even security vendors can become vectors for attacks and highlights the risks of trusting protective services when internal controls are compromised. Organizations must implement strong vendor vetting processes and network segmentation to prevent malicious actors—whether external competitors or compromised insiders—from abusing privileged access to critical infrastr",
-      "image": null,
-      "processedAt": "2026-06-14T09:44:34.343299+00:00"
-    },
-    {
-      "id": "art-1bea3531",
-      "title": "ShinyHunters Uses Oracle Zero-Day to Rampage Higher Ed",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-12",
-      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/shinyhunters-oracle-zero-day-higher-ed",
-      "summary": "Hackers associated with ShinyHunters exploited a previously unknown vulnerability in Oracle's ERP software to target American universities and steal sensitive data. The zero-day flaw had a disproportionate impact on higher education institutions, which rely heavily on Oracle systems for managing student and financial records. This incident demonstrates how enterprise software vulnerabilities can be weaponized against critical institutions with widespread consequences.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "oracle-erp",
-        "higher-education",
-        "data-breach",
-        "shinyhunters",
-        "enterprise-vulnerability"
-      ],
-      "whyItMatters": "This attack highlights the severe risk that unpatched zero-day vulnerabilities pose to large institutional targets, particularly those in education where student data and research information are highly valuable. Organizations must prioritize vulnerability management and consider compensating controls when patches are unavailable, as waiting for official updates is not always an option during acti",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt31e3255d2f669774/6a2c5022812b3c9f6a8ed16c/Oracle-mtcurado-Getty.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-14T09:44:37.110979+00:00"
     }
   ]
 }
