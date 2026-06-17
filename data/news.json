@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-06-16T20:38:06.074746+00:00",
+  "lastUpdated": "2026-06-17T11:07:15.202511+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-6750eb29",
+      "title": "The Top 10 Attack Surface Exposures in 2026",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-17",
+      "originalUrl": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
+      "summary": "Many cyber attacks don't require sophisticated zero-day exploits—exposed admin panels and reused credentials from past breaches are often enough to compromise systems. However, when critical vulnerabilities like MongoBleed are discovered, they create immediate risks for any internet-facing service, as attackers can exploit them to steal sensitive data such as credentials and session tokens directly from server memory.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "attack-surface",
+        "exposed-credentials",
+        "vulnerability-exploitation",
+        "mongobleed",
+        "internet-facing-systems",
+        "time-to-exploit"
+      ],
+      "whyItMatters": "Organizations often overlook basic security hygiene like securing admin panels and rotating credentials, yet these weaknesses enable breaches just as effectively as zero-days. Understanding that critical vulnerabilities can be exploited rapidly after disclosure emphasizes the need for aggressive patch management and continuous monitoring of exposed assets.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM2DfFAWIuQ6v6hyh32CXcT_wKU72aTUxixyWIcnjW04ydv40r8RtVXjDrxKJzksW6zzqYciPMxgYAwcDGRz8kahhZVZXoi0FySWg5o8LpWo_KkHdX4wRX4Qgk6ONxHqyb7_cF5TN5qQp-9B4hOQpB3WljI8sDbHMlOh6n2jyTjV30kxC-ccJVJHu4bTs/s1600/INTRUDER.jpg",
+      "processedAt": "2026-06-17T11:06:45.215077+00:00"
+    },
+    {
+      "id": "art-9e469db1",
+      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-17",
+      "originalUrl": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+      "summary": "Researchers discovered a coordinated attack with 15 malicious plugins on the JetBrains Marketplace disguised as AI coding assistants. These fake plugins were designed to steal API keys from popular AI services like DeepSeek and other language models. The attack shows how criminals are exploiting developer tools to gain unauthorized access to valuable AI credentials and services.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malicious-plugins",
+        "api-key-theft",
+        "developer-tools",
+        "supply-chain-attack",
+        "ai-security",
+        "credential-theft"
+      ],
+      "whyItMatters": "This attack directly targets software developers who rely on JetBrains tools, making it a supply-chain threat that could compromise numerous organizations through stolen AI API keys. Compromised AI credentials can lead to unauthorized access to cloud services, data exfiltration, and significant financial costs. The coordinated nature of the campaign suggests sophisticated threat actors actively hu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2aRb82ydrk_lAXr6Yy-GmrPfQSaIuCNYTtB8dFm02DZWhJVj3bmjB3WLhWDUtiFmrGC3lHdeLfA2NtC6oHKJDAdW7ot4f3HQDyLw2Ep3q49BnOkuBWOPP2OuN1I1HNFknxPyQNpEZEnEt-8KhV2nx_HcaEiBm8Rdh7blevc3I1GjuBMLL1xOpJThFuJpE/s1600/hi.jpg",
+      "processedAt": "2026-06-17T11:06:47.988351+00:00"
+    },
+    {
+      "id": "art-0a8e68a1",
+      "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-17",
+      "originalUrl": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+      "summary": "A hacker compromised a single npm contributor account and used it to publish malicious code across 144 software packages in the Mastra namespace, which is a popular framework for building AI applications. This supply chain attack, called easy-day-js, was discovered by multiple security firms including JFrog, SafeDep, Socket, and StepSecurity. The incident demonstrates how targeting one account can affect thousands of developers who depend on these packages.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "npm-security",
+        "malware-distribution",
+        "account-compromise",
+        "ai-framework"
+      ],
+      "whyItMatters": "This attack highlights a critical vulnerability in open-source software distribution where a single compromised account can distribute malicious code to hundreds of packages simultaneously, affecting all downstream developers and applications. Developers using Mastra packages need to immediately audit their dependencies and update to patched versions to prevent potential code execution in their AI",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKLWn0zHFuJ8rkb2bqILIyAGxt_-VJ13Ytmv1TRWtGJkI6Rva5Oag5LdLasE2rmenokuRvoEI2wH0Ayfe_P4_5q1Qc5FQ2MrQgUHrgD9wY6DTlYugAtj8CP7Fh0OPjKkU5LbeRKWvPEh0Ol0CmLTe4QVayeZiNlVFvU7MO5tWl-b8Lbn80hKd45q9Z1yOd/s1600/npms.jpg",
+      "processedAt": "2026-06-17T11:06:53.737512+00:00"
+    },
+    {
+      "id": "art-f79cbee0",
+      "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-17",
+      "originalUrl": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical vulnerability affecting Joomla's JCE plugin to its list of actively exploited flaws. The vulnerability, CVE-2026-48907, has a perfect severity score of 10.0 and involves improper access control that allows attackers to execute arbitrary PHP code. Because this flaw is already being exploited in the wild, organizations using Joomla with JCE need to apply patches immediately to prevent unauthorized access and system compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "joomla-vulnerability",
+        "cve-2026-48907",
+        "active-exploitation",
+        "patch-now",
+        "php-code-execution",
+        "access-control"
+      ],
+      "whyItMatters": "This vulnerability represents an immediate threat because attackers are already exploiting it in real-world attacks, making it a priority for any organization running Joomla with the JCE plugin. The perfect CVSS score and ability to execute arbitrary code means attackers can gain full control of affected systems. CISA's public warning and KEV listing ensure that organizations are aware they must p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisS71RYEu_1Sts3eqAt878RoohdLgeUzyTbRQgFqUYQcwBxzKB1ug6AvOBRXqZvWcChuLVj6KFbIt7nO9RX66ZJZyMEIADvIXe-fdNDrQIYXGtcMt3StDzbK4lF9ZLpF9pqCR1cGEa4lLkFFRVqIyD5w0JqwhVgr-C9ga7pZ6IQWpFmbsojcsGePBnzsGW/s1600/joomla.jpg",
+      "processedAt": "2026-06-17T11:06:56.677475+00:00"
+    },
+    {
+      "id": "art-9052778c",
+      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-13",
+      "originalUrl": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "summary": "Splunk discovered a critical vulnerability in Splunk Enterprise that allows attackers to execute code and perform file operations without needing to log in first. This flaw, identified as CVE-2026-20253 with a severity score of 9.8, affects older versions of the software and poses an immediate threat to organizations using vulnerable installations. Companies using Splunk Enterprise must update to version 10.2.4 or 10.0.7 or later to protect themselves from potential attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "splunk-enterprise",
+        "unauthenticated-access",
+        "remote-code-execution",
+        "cvss-9.8",
+        "patch-required",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows attackers to bypass authentication entirely and gain code execution on Splunk systems, which are often used for logging and monitoring in enterprise environments. An attacker exploiting this flaw could compromise an organization's entire security visibility and potentially move laterally through the network. Immediate patching is essential for any o",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7NRzSRKbGdsTj1TIWcks4nX5u6n1U2vl5hxJ8KKFZ-JCAKlMQPXQNHA1i0otd63wcKJoZbeEc3oVa9o4uYNTRkRyZaJsJVGV7JUmlqjY5mQkrOXFQJXmUT1kOIZPU6CRdlwx6X7lyi7Iffz7gUIC-nYc2N1dzmiuo2hyphenhyphenPURZ3nKdQcsbLACKidjOeTbRh/s1600/splunk.jpg",
+      "processedAt": "2026-06-17T11:06:59.782855+00:00"
+    },
+    {
+      "id": "art-3793e159",
+      "title": "CISA orders feds to patch max severity Joomla plugin flaw by Friday",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-joomla-plugin-flaw-by-friday/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent directive requiring federal agencies to patch a critical vulnerability in the Widget Factory Joomla Content Editor plugin by Friday. This maximum-severity flaw is currently being actively exploited by attackers in real-world attacks. The vulnerability poses an immediate threat to government systems and any organizations using the affected plugin.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "joomla",
+        "plugin-vulnerability",
+        "patch-now",
+        "active-exploitation",
+        "cisa-mandate",
+        "critical-flaw"
+      ],
+      "whyItMatters": "Active exploitation combined with a CISA enforcement mandate means attackers are already weaponizing this flaw, making it a race against time for all affected organizations to apply patches before compromise. Federal agencies are required to act immediately, and this signals to the broader private sector that the vulnerability poses a widespread and urgent threat. Unpatched systems remain highly v",
+      "image": null,
+      "processedAt": "2026-06-17T11:07:02.580291+00:00"
+    },
+    {
+      "id": "art-a0c628d1",
+      "title": "Microsoft working on Defender patch for RoguePlanet zero-day",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/",
+      "summary": "Microsoft has acknowledged a zero-day vulnerability called RoguePlanet in its Defender security software and is actively developing a patch to fix it. The vulnerability was publicly disclosed about a week before Microsoft's announcement, potentially exposing users to exploitation. The company is working to address this security gap to protect its millions of Defender users worldwide.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "patch-in-progress",
+        "rogue-planet",
+        "security-vulnerability"
+      ],
+      "whyItMatters": "A zero-day in Microsoft Defender is particularly critical because Defender is one of the most widely deployed endpoint protection solutions globally. Until the patch is released, organizations using Defender face active exploitation risk from threat actors who may leverage this vulnerability to bypass security protections and compromise systems.",
+      "image": null,
+      "processedAt": "2026-06-17T11:07:05.256585+00:00"
+    },
+    {
+      "id": "art-be9a15e4",
+      "title": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/",
+      "summary": "Kodak has confirmed that attackers breached its systems and accessed company data, with the ShinyHunters extortion gang claiming responsibility for the incident. The photography company is collaborating with external cybersecurity experts to investigate the scope and nature of the breach. This incident highlights how even established corporations remain targets for organized cybercriminal groups seeking to extort sensitive information.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "extortion",
+        "shinyhunters",
+        "incident-response",
+        "corporate-security"
+      ],
+      "whyItMatters": "This breach demonstrates that major corporations are vulnerable to organized extortion gangs and reinforces the importance of rapid breach detection and incident response. Companies must now consider whether their data was compromised and assess their exposure to potential extortion demands, making this a critical business continuity issue.",
+      "image": null,
+      "processedAt": "2026-06-17T11:07:08.571762+00:00"
+    },
+    {
+      "id": "art-c9e59f34",
+      "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
+      "summary": "Security researchers discovered at least 15 malicious plugins on the JetBrains Marketplace that were designed to steal AI API keys from developers. These compromised extensions could give attackers unauthorized access to developers' AI service credentials, potentially leading to account takeovers and unauthorized usage. The discovery highlights the risk of relying on third-party plugins without proper vetting in popular development tools.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malicious-plugins",
+        "api-key-theft",
+        "developer-tools",
+        "jetbrains",
+        "supply-chain",
+        "credential-theft"
+      ],
+      "whyItMatters": "Developers rely heavily on IDE plugins and marketplace extensions, making them a lucrative target for attackers seeking to steal valuable credentials like AI API keys. Compromised API keys can lead to unauthorized cloud service usage, data theft, and significant financial costs. This incident demonstrates the critical importance of verifying plugin sources and implementing strict access controls f",
+      "image": null,
+      "processedAt": "2026-06-17T11:07:11.082119+00:00"
+    },
+    {
+      "id": "art-de69da79",
+      "title": "DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/",
+      "summary": "The U.S. Department of Justice has seized two websites, CFAKE.com and SOCFAKE.com, that distributed nonconsensual AI-generated nude images and videos of women. This action marks the first major domain seizure under the TAKE IT DOWN Act, a law designed to combat illegal deepfake content. The seizure demonstrates law enforcement's growing ability to target platforms that exploit AI technology for abuse and harassment.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "deepfake",
+        "nonconsensual-content",
+        "law-enforcement",
+        "cybercrime",
+        "content-removal"
+      ],
+      "whyItMatters": "This case highlights how AI-generated deepfakes pose significant privacy and safety risks, particularly to women who face non-consensual intimate imagery. The successful enforcement action under TAKE IT DOWN demonstrates that authorities now have legal tools to shut down platforms hosting such content, setting an important precedent for future cases. Organizations and individuals should understand",
+      "image": null,
+      "processedAt": "2026-06-17T11:07:15.202317+00:00"
+    },
     {
       "id": "art-9253cd4a",
       "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
@@ -831,210 +1038,6 @@
       "whyItMatters": "This incident demonstrates that data security extends far beyond digital defenses—physical security lapses can expose millions of records just as effectively as cyber attacks. For critical infrastructure providers like energy companies, protecting customer data through comprehensive security (both physical and digital) is essential to maintain public trust and regulatory compliance.",
       "image": null,
       "processedAt": "2026-06-15T12:28:07.719495+00:00"
-    },
-    {
-      "id": "art-e9f7d8ef",
-      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
-      "summary": "Researchers from Imperva and Varonis discovered that OpenClaw, a self-hosted AI agent, can be manipulated through seemingly innocent inputs like contact information and location data to execute malicious code or expose confidential information. By hiding instructions within these ordinary-looking files, attackers can trick the AI agent into performing unauthorized actions without user awareness. This demonstrates a significant security risk for organizations relying on AI agents for operational tasks.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "code-execution",
-        "data-exfiltration",
-        "prompt-injection",
-        "self-hosted-ai",
-        "openclaw"
-      ],
-      "whyItMatters": "As AI agents become more integrated into business operations, understanding their vulnerabilities to indirect attacks is critical for preventing unauthorized code execution and data leaks. Organizations using OpenClaw or similar AI agents need immediate awareness of these attack vectors to implement protective measures. This research highlights the broader risk that AI systems can be compromised t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6r68iB-MZv_eNGG3y0evEVbk7WXNkMzcKno1phHiSyOwfKd0G7bv8VCCrxQgmZOutmZdP1Nz-Xr1mxxUIx_rV8imT0-Ifk0e0FL525Z2v0C94GWgeo-wUpTk39rDdilNC_K20uqw0JipHlT7XmyTHn786UIAe_z3H2VXT1cYNAIEbKSwn2qYc_9MXzpbi/s1600/openclaw-hacks.jpg",
-      "processedAt": "2026-06-14T19:04:12.877465+00:00"
-    },
-    {
-      "id": "art-a10df762",
-      "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
-      "summary": "A security researcher has discovered GreatXML, a new exploit that can bypass Windows BitLocker encryption by manipulating XML files in the Windows recovery partition. The vulnerability was found accidentally in just a few hours and represents a significant security flaw in how Windows handles its disk encryption protection. This discovery comes shortly after the same researcher released another exploit targeting Microsoft Defender.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "bitlocker-bypass",
-        "windows-security",
-        "encryption-vulnerability",
-        "privilege-escalation",
-        "recovery-partition",
-        "xml-exploit"
-      ],
-      "whyItMatters": "BitLocker is a critical Windows security feature that protects sensitive data through full-disk encryption. A functional bypass of this protection exposes millions of Windows users to potential data theft and unauthorized access, making this a critical issue that requires immediate attention from Microsoft and urgent patching for affected systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqKyNLbT9WYm7m6ZsvIgv0mNbGJCrgEjUUXLbRZV9mmQUVi7jT9IiwlXh2kYKiMOrsCnJ-ZaoAK9GnL9jy6RHJELISIGFuLSZgsSYuclWFcPmItYL04pTVeA7cl_jy8L6RU4CVPypa6u24OH8hCwPL1g1tEVRczTV1YjZ5KUFGZc6DVw8Pdo_CFGXRTS-d/s1600/windows-bitlocker.jpg",
-      "processedAt": "2026-06-14T19:04:15.427863+00:00"
-    },
-    {
-      "id": "art-067423b7",
-      "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
-      "summary": "The Gentlemen ransomware operation has affected 478 victims and operates as a financially motivated group that initially worked as an affiliate for various ransomware-as-a-service platforms including LockBit, Qilin, and Medusa. The threat group conducts double extortion attacks, combining encryption with data theft for additional leverage. A key concern is that The Gentlemen ransomware possesses worm-like capabilities, allowing it to spread automatically across networks without requiring individual infection vectors.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "double-extortion",
-        "raas",
-        "worm-propagation",
-        "lockbit",
-        "financial-cybercrime"
-      ],
-      "whyItMatters": "The worm-like spreading capability makes this ransomware particularly dangerous as it can propagate rapidly across entire networks, significantly expanding the attack surface beyond traditional ransomware which requires individual compromise vectors. Organizations need to understand that The Gentlemen's affiliation with established RaaS platforms means it has access to sophisticated tools and infr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT390XWb8ahl36RgVGzdXiIpEJ43hxHfayY1i2C_rBLbVyu5A2Q-uOFptUFJL33Ehedvbx97RiUV2NivTy-FxxFCNiIKekiqeljYrI3kThk9Sko4wQlFniMDjIfNqgiP-BaN3JYFjAbo2EfP7EBuEDe_p00RtrAmdUl_lsbgzQgV-M7CM_u3Vi7AtqgbSS/s1600/ransomware.jpg",
-      "processedAt": "2026-06-14T19:04:18.590048+00:00"
-    },
-    {
-      "id": "art-821ab5cf",
-      "title": "Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
-      "summary": "The 2026 Cybersecurity Stars Awards recognized excellence across 95 categories in four main award divisions, celebrating the often-invisible security work that protects organizations daily. The awards highlight products, teams, and companies that successfully prevent incidents and close critical security gaps without receiving public attention. This recognition program aims to shine a spotlight on cybersecurity professionals and solutions whose contributions typically go unnoticed.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "cybersecurity-awards",
-        "industry-recognition",
-        "security-excellence",
-        "best-practices"
-      ],
-      "whyItMatters": "Recognition programs like the Cybersecurity Stars Awards elevate awareness of effective security practices and solutions, helping organizations identify trusted tools and methodologies worth adopting. By celebrating incident prevention and vulnerability remediation work, the awards reinforce that proactive security measures are critical business priorities. This visibility can drive industry stand",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSZHAWbb4vxxCvcuKVVx_cF20NdH25LsT22W5ftwdgoPt9RSB_6g399zuxnBqiClQMbMTVTlZ5w2uZ7LoZnhySiv2rdRpu_992csHQmBaTqzkBAB3jkpru_Ofvli3RzA6r2kYxapez3lqhW02JPzqtJcDd2DGnZC62u72F59zUJbsS3CujuYH_mpj9lhk/s1600/winners.jpg",
-      "processedAt": "2026-06-14T19:04:21.323536+00:00"
-    },
-    {
-      "id": "art-da0e4b1a",
-      "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
-      "summary": "This week's cybersecurity landscape shows an alarming trend: sophisticated attack tools and techniques are becoming more accessible and polished. Leaked supply chain attack kits, expensive RATs that mimic browser behavior, and research demonstrating how AI agents can be manipulated into revealing real credentials highlight that cybercriminals are operating with increasing professionalism. The convergence of these threats suggests attackers are treating their operations like legitimate software services rather than one-off campaigns.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "rat-malware",
-        "ai-security",
-        "credential-theft",
-        "threat-infrastructure"
-      ],
-      "whyItMatters": "The professionalization and commoditization of attack infrastructure—from leaked exploit kits to subscription RATs—lowers the barrier to entry for cybercriminals and increases the scale and sophistication of potential threats. The demonstrated vulnerability of AI agents to social engineering and credential extraction represents an emerging attack surface that most organizations have not yet defend",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwRILGY9KcqTFlus6q7_YKlkzrx_LNXb7KS96PijLOM63YqrZIcvxXaf9j0i-sJhst_yL59b7pq32rwcHSSByX7dzVRXSv_dRnrAYqn0Hpps_G7odqCYu8BEonGPMlUkCAz-d0q2No-ojqaZou-b06UwZxzq0oV5CthkgjmTdTBU1JEkWRLV28PwRR5UW7/s1600/tt.png",
-      "processedAt": "2026-06-14T19:04:26.021228+00:00"
-    },
-    {
-      "id": "art-cdc16292",
-      "title": "FBI disrupts massive AI-powered phishing service using a million URLs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-14",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/",
-      "summary": "The FBI, in collaboration with Google and Black Lotus Labs, successfully shut down Outsider Enterprise, a large-scale Chinese phishing-as-a-service operation that used approximately one million URLs to conduct attacks. The criminal service was designed to steal sensitive information such as credit card numbers and passwords from victims through fraudulent websites. This coordinated international effort demonstrates how law enforcement and major tech companies can work together to dismantle sophisticated cybercrime operations.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing-as-a-service",
-        "ai-powered-attacks",
-        "law-enforcement",
-        "credential-theft",
-        "international-cybercrime",
-        "coordinated-disruption"
-      ],
-      "whyItMatters": "This takedown shows that even massive, well-organized phishing operations can be disrupted through international cooperation, which increases deterrence for cybercriminals. Understanding how phishing-as-a-service operations scale and operate helps organizations recognize and defend against similar threats. The use of AI in large-scale phishing campaigns represents an evolving threat that demands h",
-      "image": null,
-      "processedAt": "2026-06-14T19:04:29.270537+00:00"
-    },
-    {
-      "id": "art-6c613a6c",
-      "title": "Claude Fable 5 Doesn't Change the Mythos Security Story",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-12",
-      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/claude-fable-5-doesnt-change-mythos-security-story",
-      "summary": "Anthropic has released Claude Fable 5, an upgraded version of their AI model designed with enhanced security safeguards for mainstream use. While Mythos 5 represents a technical improvement over the earlier Mythos Preview, Fable 5 specifically prioritizes making the technology safer and more suitable for general audiences. The upgrade maintains the core capabilities while implementing additional security measures.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "anthropic-claude",
-        "model-safety",
-        "ai-governance",
-        "responsible-ai"
-      ],
-      "whyItMatters": "As AI models become more widely deployed, understanding the security architectures and safeguards built into production versions is critical for organizations evaluating AI tool adoption. The distinction between technical improvements and security-focused variants highlights how AI safety considerations should inform enterprise deployment decisions and risk assessments.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte968bc333f7d9aab/6a2b0449b2248a454686bdf2/Tortoise_and_Hare-Walter_B._McKenzie-Getty-200291947-001.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-14T19:04:31.811818+00:00"
-    },
-    {
-      "id": "art-451d8eaa",
-      "title": "Phishing Attack Volume Down 20%, But Risk Still Rising",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-12",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-analytics/phishing-volume-down-20-risk-rising",
-      "summary": "Phishing attack numbers have decreased by 20%, but cybercriminals are becoming more dangerous by using AI to create more sophisticated and targeted attacks. Instead of sending massive volumes of low-quality phishing emails, attackers are focusing on fewer, higher-quality campaigns that are harder to detect and more likely to succeed. This shift means organizations face a different threat landscape where advanced techniques pose greater risks than simple spam.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "ai-powered-attacks",
-        "threat-evolution",
-        "social-engineering",
-        "security-awareness"
-      ],
-      "whyItMatters": "Organizations may be falsely reassured by declining phishing numbers while overlooking that remaining attacks are significantly more effective and harder to stop. Security teams need to shift from volume-based detection strategies to behavioral analysis and AI-driven defense mechanisms to counter these advanced, precision-targeted campaigns.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt93b107611e96e744/6a2beaf16b9ea711f9a55d27/zenith-live26-zscaler.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-14T19:04:34.334709+00:00"
-    },
-    {
-      "id": "art-65045d2a",
-      "title": "Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours",
-      "summary": "A critical vulnerability in Ivanti systems was actively exploited by attackers within 24 hours of being publicly disclosed. Evidence indicates that threat actors had already conducted reconnaissance on target networks before the exploit details became available, allowing them to launch rapid attacks. This demonstrates how quickly sophisticated attackers can weaponize newly disclosed vulnerabilities against unprepared organizations.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "ivanti",
-        "zero-day",
-        "active-exploitation",
-        "patch-urgent",
-        "vulnerability-disclosure",
-        "rapid-response"
-      ],
-      "whyItMatters": "This incident highlights the critical importance of patch management and rapid vulnerability response. Organizations using Ivanti products face immediate risk, and the 24-hour exploitation window demonstrates that attackers actively monitor security disclosures and act with speed, making emergency patching a business-critical priority.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt93702e2124ff952d/6a2b02be878b01264829203a/vulnerability-gorodenkoff-Getty-817486068.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-14T19:04:36.960601+00:00"
-    },
-    {
-      "id": "art-cafc5959",
-      "title": "Segmentation Works for OT If Operators Are Paying Attention",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-11",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/segmentation-works-for-ot-if-operators-are-paying-attention",
-      "summary": "Network segmentation is an important security strategy for operational technology environments, but it only works effectively when operators actively monitor and maintain it. The article emphasizes that having a good segmentation plan means nothing if the people running the systems don't pay careful attention to what's happening on their networks. Organizations need both solid technical defenses and disciplined operational practices to keep their OT systems truly secure.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "network-segmentation",
-        "operational-technology",
-        "ot-security",
-        "security-operations",
-        "network-monitoring"
-      ],
-      "whyItMatters": "Network segmentation is a critical defense layer for OT environments, but this article highlights a real-world implementation gap: security controls fail without continuous oversight and operational discipline. Organizations must recognize that strong technical controls paired with poor operational practices leave systems vulnerable to attacks.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt66e63404f64fc223/6a2ae36e50e5a268a265c05a/GettyImages-2260705467.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-14T19:04:39.506564+00:00"
     }
   ]
 }
