@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-06-18T10:38:50.902891+00:00",
+  "lastUpdated": "2026-06-18T20:05:18.977428+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-9fddffe5",
+      "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
+      "summary": "F5 has released patches for two critical vulnerabilities in NGINX Open Source that could allow remote attackers to execute malicious code without authentication. One vulnerability (CVE-2026-42530) is a use-after-free flaw in the ngx_http_v3_module with a high severity score of 9.2. Organizations using NGINX should apply these security updates immediately to prevent potential system compromise.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "nginx",
+        "remote-code-execution",
+        "use-after-free",
+        "critical-patch",
+        "cve-2026-42530"
+      ],
+      "whyItMatters": "NGINX is one of the most widely deployed web servers globally, making these critical remote code execution flaws an urgent threat to countless web applications and infrastructure. Unpatched systems remain vulnerable to complete compromise without requiring user interaction or authentication, making immediate patching essential for any organization running affected NGINX versions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYclMMaAOBe1jlW_s0S1SfdX3sPrGB9MZ7R9Hfo2ktoF9DiLqPA5ZYmFAyGmzws5eNmqopdPw7bBV7TTO8KgS2C8CJU8cgHNXw0ERAvk8sGRLYXH7M98eqxDM9c-rQTU0Hlj8ISEmSWMCnw6OqJMyhgxxLHCFPwP1JugZ3bCJow7AfTZ40kOo8XpY3WdF/s1600/f5.jpg",
+      "processedAt": "2026-06-18T20:04:54.261403+00:00"
+    },
+    {
+      "id": "art-1e3a8366",
+      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+      "summary": "Many companies are deploying AI agents without proper oversight, creating orphaned agents and standing privileges that persist even after their creators leave the organization. This administrative debt creates significant security gaps because most enterprises cannot quickly identify who authorized access to sensitive intellectual property. The article highlights how rapid AI adoption has outpaced security controls, leaving networks vulnerable to unauthorized access.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "access-control",
+        "insider-risk",
+        "orphaned-agents",
+        "privilege-management",
+        "administrative-debt"
+      ],
+      "whyItMatters": "Unmonitored AI agents with standing privileges pose a direct threat to intellectual property and data integrity, especially since most organizations lack visibility into who authorized them or what they access. This represents a significant insider risk vector and compliance liability that organizations must address before AI adoption scales further. Without proper governance frameworks, enterpris",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nqjviAfaPP-eOuhtQKNwdvOGLaN-rOmxVnoQPMOruaJvDcw5rsCi-kIKxAhOpxjCggRXt7bfwyRAKMzVKdwIPlRAJpXLl4OReBnbVtOSZYGS4Bsf9EvU71bMIkWdpDwjydNWe22WCdjgqX6b_TrPtXptekJc3N8BH5m56-wauHl5KX0DePQmv2gIoNks/s1600/webinar.jpg",
+      "processedAt": "2026-06-18T20:04:57.194263+00:00"
+    },
+    {
+      "id": "art-6ccb3ffd",
+      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+      "summary": "This week's cybersecurity bulletin covers multiple attack vectors exploiting everyday internet tools and services. Threats include malicious browser extensions intercepting searches, AI chat platforms being weaponized for malware distribution, memory-resident macOS attacks, cloud automation tools being misused as attack vectors, and compromised npm packages. The article highlights how attackers are leveraging legitimate services and supply chains to conduct widespread campaigns.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "malware-delivery",
+        "supply-chain",
+        "cloud-security",
+        "browser-extensions",
+        "ai-abuse",
+        "npm-packages"
+      ],
+      "whyItMatters": "These attacks demonstrate how cybercriminals are systematizing exploitation across trusted platforms and development tools that users and organizations rely on daily. The combination of supply chain attacks, cloud misuse, and AI platform abuse means security teams must expand monitoring beyond traditional endpoints to include browser extensions, package repositories, and cloud services. Understand",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6k3CSWsyKHS6UdXmxX-w92fdsWjTSL7JR7xeaPBPh8d5G6rkZbMhmJHr9o3gxF5G2I2GojubOJnzhRqxjtKYxlXTrmlgrdRFRrmmyEEIi_zXAQXT3zpq5KNQqOFHrfGKhUFHzsMx1E2Eqs7S_jvTFfN3Jnz1YO58Ryvk0urKEDUZggoQgI07lKFWQDMfw/s1600/threatss.jpg",
+      "processedAt": "2026-06-18T20:05:00.544368+00:00"
+    },
+    {
+      "id": "art-3a6c2281",
+      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+      "summary": "Microsoft discovered a cryptocurrency clipper malware campaign that has been targeting Windows users since February 2026. The malware uses Windows Script Host and ActiveX components to connect to command-and-control servers through Tor, allowing attackers to intercept and steal cryptocurrency transactions. The campaign also employs USB-based LNK worm techniques to spread across infected systems and networks.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "cryptocurrency-clipper",
+        "windows-malware",
+        "tor-c2",
+        "usb-worm",
+        "lnk-exploit",
+        "script-host"
+      ],
+      "whyItMatters": "This campaign represents an active and evolving threat targeting cryptocurrency users with a multi-stage attack chain combining USB propagation and hidden command infrastructure. Organizations and individuals need to be aware of these clipper tactics and implement network controls to block Tor traffic and monitor for suspicious Windows Script Host activity. The USB-based propagation method makes t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvKWONrjyxy3cGsc9xfw7n-6izVRjMImK2DpiOv4JDrtutcENRgX6JxsFQhsEMHDhZx9fGfeoj_mAQSVk9SoJumNREvmLtbWOjWaTlYn3c25sH_paaeZk-Xw08k3ckerv19Ax9stFCURiV321W7vh0f6qQbrmSHnuvPeNBeW6Grb7o6TU4s5dhJNkXyIon/s1600/clipper-malware.jpg",
+      "processedAt": "2026-06-18T20:05:03.450053+00:00"
+    },
+    {
+      "id": "art-8a06f861",
+      "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+      "summary": "INC ransomware has rapidly grown into a major cybercrime threat, infecting over 830 victims since August 2023 by operating as a ransomware-as-a-service platform. The group capitalized on the disruption of other major ransomware operations like LockBit and BlackCat, attracting experienced affiliates looking for new platforms to conduct attacks. This expansion demonstrates how shutting down one ransomware operation can inadvertently redirect criminal activity toward emerging alternatives.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "raas-threat",
+        "ransomware-evolution",
+        "inc-ransomware",
+        "cybercrime-migration",
+        "affiliate-networks"
+      ],
+      "whyItMatters": "INC's rapid expansion into a major RaaS platform represents a critical and evolving threat landscape where shutting down one criminal operation creates opportunities for competitors to grow. Organizations need to understand that adversaries are actively consolidating onto new platforms, making defense strategies against emerging ransomware groups essential for 2026 and beyond.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2MOms1DiyvYE-L_zXvrgrL_4cDaNBZwrhVFPq7ee58uPMORAF9v60xW8_QZbjJ05C34E2F5u9xKXBal4_DbVvUjcg8aDAvQ9iKSgWss6vnvlk4f1tgLYwb3a5xNc6T3lbGeE1pcTf35vf320No6XzS4mkw_5dTTILKfc0w6VpcTHX5VitEodFJBKMWzjA/s1600/ransomware-malware.jpg",
+      "processedAt": "2026-06-18T20:05:06.106230+00:00"
+    },
+    {
+      "id": "art-3abc9947",
+      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "summary": "Nintendo of America confirmed that hackers stole survey data from TinyPulse, a third-party service the company used internally, though Nintendo's own systems were not breached. The incident highlights how even major companies can experience data theft through trusted third-party vendors. This situation demonstrates the risk that comes with relying on external tools and services for business operations.",
+      "category": "Data Breaches",
+      "severity": "Medium",
+      "tags": [
+        "third-party-breach",
+        "data-theft",
+        "supply-chain-risk",
+        "survey-data",
+        "vendor-security"
+      ],
+      "whyItMatters": "This incident underscores the importance of vendor risk management—even when a company's own systems are secure, attackers can still access sensitive data through trusted third-party services. Organizations must carefully evaluate and monitor the security practices of external tools and vendors they depend on, as breaches can affect multiple clients simultaneously.",
+      "image": null,
+      "processedAt": "2026-06-18T20:05:08.471763+00:00"
+    },
+    {
+      "id": "art-2f309d5d",
+      "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+      "summary": "Cybercriminals are using USB drives and Windows shortcut files to spread malware that steals cryptocurrency wallet information. This self-replicating malware can move from one computer to another automatically and uses the Tor network to hide the attackers' identities. The threat targets people with cryptocurrency holdings and represents a modern take on worm-style attacks combined with theft capabilities.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "usb-worm",
+        "crypto-stealing",
+        "clipboard-malware",
+        "self-spreading",
+        "windows-shortcut",
+        "tor-network"
+      ],
+      "whyItMatters": "This attack combines multiple dangerous techniques—USB-based spreading, self-replication, and cryptocurrency theft—making it a significant threat to both individuals and organizations. The use of common file types (Windows shortcuts) and removable media means the malware can spread quickly across disconnected systems, and the focus on cryptocurrency wallets indicates attackers are targeting high-v",
+      "image": null,
+      "processedAt": "2026-06-18T20:05:11.362680+00:00"
+    },
+    {
+      "id": "art-e12824d5",
+      "title": "Klue OAuth breach linked to 'Icarus' Salesforce data theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-linked-to-icarus-salesforce-data-theft-attacks/",
+      "summary": "Klue, a market intelligence platform, experienced an OAuth security breach that allowed the 'Icarus' threat group to gain unauthorized access to Salesforce CRM data belonging to multiple organizations. The attackers exploited this access as part of an ongoing extortion campaign, highlighting how third-party application vulnerabilities can compromise sensitive customer data across connected systems. This incident demonstrates the risks of OAuth-based authentication when not properly secured.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "oauth-breach",
+        "salesforce",
+        "data-theft",
+        "extortion",
+        "third-party-risk",
+        "threat-actors"
+      ],
+      "whyItMatters": "This breach shows how vulnerabilities in third-party platforms can cascade into larger organizational compromises, particularly when those platforms integrate with critical business tools like Salesforce. Organizations must monitor their OAuth applications and third-party integrations for unauthorized access, as attackers increasingly target these trust relationships as entry points to steal sensi",
+      "image": null,
+      "processedAt": "2026-06-18T20:05:13.861174+00:00"
+    },
+    {
+      "id": "art-35e402ae",
+      "title": "5 reasons Microsoft 365 backup isn’t enough for business data protection",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/5-reasons-microsoft-365-backup-isnt-enough-for-business-data-protection/",
+      "summary": "While Microsoft 365 provides backup services to maintain business continuity, organizations cannot rely solely on these built-in protections to safeguard their data. Acronis highlights five critical gaps in Microsoft 365's data protection capabilities that businesses need to address with additional security measures. Understanding these limitations is essential for developing a comprehensive data protection strategy.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "microsoft-365",
+        "data-protection",
+        "cloud-security",
+        "backup-strategy",
+        "business-continuity"
+      ],
+      "whyItMatters": "Many organizations mistakenly assume Microsoft 365's built-in backup features provide complete data protection, leaving them vulnerable to data loss from ransomware, malicious deletion, or compliance violations. Recognizing these gaps helps businesses implement layered defense strategies and third-party solutions to prevent costly data recovery scenarios and regulatory penalties.",
+      "image": null,
+      "processedAt": "2026-06-18T20:05:16.452466+00:00"
+    },
+    {
+      "id": "art-2d09ee36",
+      "title": "Police cleans nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/",
+      "summary": "International law enforcement agencies successfully dismantled a major operation by the SocGholish botnet and Evil Corp cybercrime group, cleaning approximately 15,000 compromised WordPress websites and shutting down over 100 servers. This coordinated effort represents a significant blow to a notorious Russian cybercrime organization known for deploying malware and conducting ransomware attacks. The operation demonstrates the effectiveness of international cooperation in combating organized cybercrime infrastructure.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "socgholish",
+        "evil-corp",
+        "botnet",
+        "malware",
+        "wordpress",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This takedown directly impacts website owners and users by removing active malware distribution infrastructure used by a major cybercrime group. Removing 15,000 infected sites reduces the attack surface available to criminals and demonstrates that coordinated law enforcement action can effectively disrupt large-scale cybercrime operations, which encourages similar international efforts.",
+      "image": null,
+      "processedAt": "2026-06-18T20:05:18.977266+00:00"
+    },
     {
       "id": "art-d98d4f3a",
       "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
@@ -820,216 +1026,6 @@
       "whyItMatters": "Imposter scams represent a significant financial and security risk affecting millions of people, indicating that technical security alone is insufficient without strong user awareness and verification practices. Understanding the scale and methods of these scams helps organizations and individuals implement better identity verification and communication protocols to reduce vulnerability.",
       "image": null,
       "processedAt": "2026-06-16T20:38:06.074578+00:00"
-    },
-    {
-      "id": "art-d40713bf",
-      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-      "summary": "Fortinet FortiSandbox is under active attack with hackers exploiting three security vulnerabilities, including one that was recently patched. The most critical vulnerability (CVE-2026-39813) has a CVSS score of 9.1 and involves a path traversal flaw in the JRPC API that allows unauthorized access. Organizations using FortiSandbox need to apply patches immediately to protect their security infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "fortinet",
-        "path-traversal",
-        "active-exploitation",
-        "patch-urgent",
-        "api-vulnerability",
-        "sandbox-security"
-      ],
-      "whyItMatters": "Active exploitation of high-severity vulnerabilities in security sandbox products is critical because these tools are foundational to malware detection and threat analysis. Compromised sandbox systems can be weaponized to bypass security controls or provide attackers with intelligence about defensive measures. Organizations must prioritize patching to prevent attackers from gaining foothold in the",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisozpc0YfCvHjGAyEZf7c1G10iEOgszA-mkIIrhG3A4VYcq8_Hih8U0hO66iBoDPPJZhfq7Dc3fGTsMLDiFiGSk6-xS7ltGORLe0_sC8VyhZHlfIkeGpOkMTcbQ0R7BeDtDmZFb-VB_GF3le8p0mx2ZMD-CLZb5eWlMJPiBhdu9ljzlh_E01hIon9dA-Y3/s1600/Fortinet.png",
-      "processedAt": "2026-06-16T11:21:33.952486+00:00"
-    },
-    {
-      "id": "art-c7b058cb",
-      "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-      "summary": "Researchers discovered two new Windows versions of the SprySOCKS backdoor, a malware previously thought to operate only on Linux systems. These Windows variants, called WIN_DRV and WIN_PLUS, use driver-based stealth techniques and include built-in command-and-control configurations that support multiple communication protocols. The backdoor's expansion to Windows represents a significant evolution of this China-linked threat.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "backdoor",
-        "windows-malware",
-        "driver-based-stealth",
-        "command-and-control",
-        "china-linked",
-        "cross-platform-threat"
-      ],
-      "whyItMatters": "SprySOCKS expanding to Windows with driver-level stealth capabilities means it can evade detection more effectively and compromise a much larger target base, since Windows is the dominant operating system globally. Organizations need to update their detection systems and monitoring tools to identify these new variants before they become widely exploited by threat actors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxym2hiE83TbiNOrIeH3s4QCF0wQ_BYcSYPKlC3m9LGSuJnH7UNicbkgIk4kQTbpPiLRul9dSxQ180XW656_9NPtlqWoTGivTamDVl24ZfUQFPgUleakZq6aZI5kZqszNz3GpVyJQnPiXis_kjlMqAxKBxGKZsDdAvb-rX20fxszdd0pCKRO9GqK3CSu-p/s1600/chinese-proxy.png",
-      "processedAt": "2026-06-16T11:21:36.596196+00:00"
-    },
-    {
-      "id": "art-d4c71cb0",
-      "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-      "summary": "The North Korean hacking group ScarCruft is using fake Microsoft security alerts in phishing emails to trick people into downloading NarwhalRAT malware. By impersonating legitimate Microsoft notifications, attackers create a false sense of urgency to manipulate victims into taking dangerous actions. This campaign demonstrates how state-sponsored groups exploit trust in well-known companies to distribute malware.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "malware",
-        "north-korea",
-        "apt37",
-        "social-engineering",
-        "state-sponsored"
-      ],
-      "whyItMatters": "This attack is significant because it combines trusted brand impersonation with sophisticated malware delivery, making it highly effective at bypassing user skepticism. State-sponsored actors like ScarCruft have substantial resources and targeting capabilities, putting both individual users and organizations at serious risk. Understanding this tactic helps security teams and end-users recognize si",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3Lf-lxaztGp4Ov5_hu7TmA6AEoqhh2oBADVLVEbA1HTzmsAyX9ePZtZvvBlBzNym1RiifCmOnb-pf604J7plqPdarQxnW-m6Ds0Wi-kT1Ytqm1KlGsf4hWmL8YPa17MXv4yxcEN0CwkA_9qwbEGn74XdX4Y0J4t1rR3oflfW5cpy2tXo65kVMFI3oRFxr/s1600/ms-alert.jpg",
-      "processedAt": "2026-06-16T11:21:39.321286+00:00"
-    },
-    {
-      "id": "art-d40cda46",
-      "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
-      "summary": "Cisco has released security patches for CVE-2026-20262, a medium-severity vulnerability in Catalyst SD-WAN Manager that allows authenticated attackers to create files on affected systems. The flaw is currently being actively exploited in real-world attacks, prompting Cisco to issue urgent updates. Organizations using this networking tool should apply patches immediately to prevent unauthorized file creation and potential further compromise.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "sd-wan-manager",
-        "active-exploitation",
-        "cve-2026-20262",
-        "cisco-patch",
-        "remote-attack",
-        "authentication-required"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability means attackers are already using it to compromise systems in the wild, making rapid patching critical for organizations relying on Cisco's SD-WAN Manager for network management. The ability to create files remotely could lead to further attacks, data theft, or lateral movement within corporate networks. Administrators must prioritize applying these securi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-vJIadGle0Cre1cNAxZIcD9ktkl1mPnUwtEtF1xuMbeH75BnvGq3twL0W2OowYW7ZZMxvzMjdbU-VMEZfEvV1q2pTIoG8VU_D0d_rpRqwlViZqUyb1WKcL6pM9Nklx_mISZR2BttoBxMq8w6Z87rf3Stm37ZbcRbAYM0SQeEJqg0T8dc2KsrX1a9l95B7/s1600/cisco-flaw.jpg",
-      "processedAt": "2026-06-16T11:21:42.074440+00:00"
-    },
-    {
-      "id": "art-be4ed925",
-      "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
-      "summary": "CISA has identified a critical vulnerability (CVE-2026-54420) in the LiteSpeed cPanel Plugin that allows attackers to gain root-level access to systems. This flaw is already being exploited in the wild, prompting CISA to add it to its Known Exploited Vulnerabilities catalog. Federal agencies must patch the vulnerability by June 18, 2026, to comply with security requirements.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "privilege-escalation",
-        "cisa-kev",
-        "litespeed-cpanel",
-        "root-access",
-        "active-exploitation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability enables attackers to gain complete control of affected systems through privilege escalation, making it a severe threat to any organization using the LiteSpeed cPanel Plugin. The fact that it's actively being exploited and mandated for immediate patching by federal agencies indicates widespread risk and the need for rapid remediation across all affected systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhweJrEaMuAEZCtL6h2H2XMxWOMGzKSktYq9kDvwXAGvIAt39-gz3irXruUA0KVSSupFdIh13o2F5quHfout07-tOHYK334xgNwRq5WcVbfyL5T1i-jYVCGLuVksBYExOncAm72ZuyRacuSG8a1ssx6jrxN8WcQ5Q91gYN3MYh-rWcY_86jVcbvZJbabPR1/s1600/litespeed.jpg",
-      "processedAt": "2026-06-16T11:21:45.078608+00:00"
-    },
-    {
-      "id": "art-41786c7d",
-      "title": "CISA warns of another cPanel plugin flaw exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/",
-      "summary": "CISA has warned U.S. government agencies about an actively exploited vulnerability (CVE-2026-54420) in the LiteSpeed cPanel plugin and given them three days to patch their systems. This flaw is being actively targeted by attackers in real-world attacks. Organizations using this plugin need to prioritize immediate remediation to prevent unauthorized access to their servers.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cpanel",
-        "litespeed-plugin",
-        "active-exploitation",
-        "cve-2026-54420",
-        "patch-urgently",
-        "government-agencies"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability poses an immediate threat to government infrastructure and any organization running the affected cPanel plugin, making rapid patching essential to prevent compromise. CISA's three-day deadline underscores the severity and the urgent need for organizations to identify and update vulnerable systems before attackers gain further access.",
-      "image": null,
-      "processedAt": "2026-06-16T11:21:47.601735+00:00"
-    },
-    {
-      "id": "art-6598b2d2",
-      "title": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/",
-      "summary": "The DragonForce ransomware gang deployed a custom malware called 'Backdoor.Turn' to disguise their command-and-control communications within Microsoft Teams relay networks. By hiding their malicious traffic inside legitimate Microsoft infrastructure, the attackers made their operations harder to detect and block. This technique demonstrates how criminals are exploiting trusted cloud services to evade traditional security monitoring.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "malware",
-        "command-and-control",
-        "cloud-abuse",
-        "microsoft-teams",
-        "evasion"
-      ],
-      "whyItMatters": "This attack highlights a critical gap in security: legitimate cloud services like Microsoft Teams can be weaponized by attackers to hide malicious activity, making detection extremely difficult for organizations. Security teams must now monitor not just external threats but also how attackers abuse trusted internal tools, requiring more sophisticated network monitoring and behavioral analysis stra",
-      "image": null,
-      "processedAt": "2026-06-16T11:21:50.074608+00:00"
-    },
-    {
-      "id": "art-7874e35f",
-      "title": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/",
-      "summary": "Fortinet's FortiSandbox platform, which is used to detect and analyze cyber threats, has multiple critical vulnerabilities that attackers are actively exploiting. According to threat intelligence firm Defused, these flaws are being used in real-world attacks against organizations relying on this security tool. Organizations using FortiSandbox need to apply patches urgently to protect their networks from compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "fortinet",
-        "fortisandbox",
-        "critical-vulnerability",
-        "active-exploitation",
-        "patch-urgent",
-        "threat-detection"
-      ],
-      "whyItMatters": "FortiSandbox is a key defensive tool trusted by organizations to identify malicious threats, so vulnerabilities in this platform directly weaken network security. Active exploitation means attackers are already leveraging these flaws, putting unpatched systems at immediate risk of compromise. Organizations must prioritize patching to restore the integrity of their threat detection capabilities.",
-      "image": null,
-      "processedAt": "2026-06-16T11:21:52.800461+00:00"
-    },
-    {
-      "id": "art-fd0d8c0d",
-      "title": "Windows version of SprySOCKS Linux malware used to attack govt orgs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/",
-      "summary": "A Linux malware called SprySOCKS has been adapted to run on Windows systems and is being used in coordinated attacks against government agencies across at least four countries. This cross-platform expansion shows attackers are broadening their targeting capabilities beyond Linux environments. The malware appears designed to establish persistent access and control over compromised government networks.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "government-targeting",
-        "cross-platform",
-        "sprysocks",
-        "advanced-persistent-threat",
-        "nation-state"
-      ],
-      "whyItMatters": "This demonstrates a significant escalation in threat sophistication—attackers have weaponized malware across multiple platforms to target critical infrastructure in government sectors. Organizations managing sensitive government systems must immediately assess their exposure and implement enhanced detection capabilities for both Linux and Windows variants of this malware. The multi-country targeti",
-      "image": null,
-      "processedAt": "2026-06-16T11:21:55.593478+00:00"
-    },
-    {
-      "id": "art-9f27caef",
-      "title": "iRhythm discloses data breach, says hackers stole patient info",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/",
-      "summary": "iRhythm Holdings, a digital healthcare company, experienced a data breach where attackers accessed patient personal and health information stored on third-party business applications. The incident highlights how healthcare organizations face risks not only from their own systems but also from external vendors and cloud service providers they rely on. This breach exposes sensitive medical records that could be misused for identity theft or fraud.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "healthcare",
-        "third-party-risk",
-        "patient-data",
-        "cloud-security",
-        "vendor-security"
-      ],
-      "whyItMatters": "Healthcare data breaches are particularly serious because stolen medical and personal information can enable identity theft, fraud, and targeted attacks on vulnerable patients. This incident demonstrates that organizations must audit and monitor third-party vendors' security practices, as outsourcing systems does not eliminate responsibility for protecting sensitive data. For healthcare providers ",
-      "image": null,
-      "processedAt": "2026-06-16T11:21:58.704210+00:00"
     }
   ]
 }
