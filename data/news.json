@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-06-21T09:57:38.267236+00:00",
+  "lastUpdated": "2026-06-21T19:10:06.071514+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-62c670b6",
+      "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
+      "summary": "F5 has released patches for two critical vulnerabilities in NGINX Open Source that allow remote attackers to execute code without authentication. One vulnerability (CVE-2026-42530) is a use-after-free flaw in the HTTP/3 module with a CVSS score of 9.2, making it a serious threat to web servers using affected NGINX versions. Organizations running NGINX Open Source need to apply these security updates immediately to prevent potential system compromise.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "nginx",
+        "remote-code-execution",
+        "critical-patch",
+        "use-after-free",
+        "web-server-security",
+        "cve-2026-42530"
+      ],
+      "whyItMatters": "NGINX is widely deployed across the internet as a critical web server and reverse proxy; these critical RCE vulnerabilities pose an immediate risk to thousands of organizations. The unauthenticated nature of the exploit means attackers can target vulnerable systems without credentials, making rapid patching essential. Delayed patching could result in widespread server compromises and potential dat",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxYclMMaAOBe1jlW_s0S1SfdX3sPrGB9MZ7R9Hfo2ktoF9DiLqPA5ZYmFAyGmzws5eNmqopdPw7bBV7TTO8KgS2C8CJU8cgHNXw0ERAvk8sGRLYXH7M98eqxDM9c-rQTU0Hlj8ISEmSWMCnw6OqJMyhgxxLHCFPwP1JugZ3bCJow7AfTZ40kOo8XpY3WdF/s1600/f5.jpg",
+      "processedAt": "2026-06-21T19:09:40.290423+00:00"
+    },
+    {
+      "id": "art-968c8a9c",
+      "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+      "summary": "Companies rushing to deploy AI tools have created significant security gaps through orphaned AI agents—autonomous systems left running after their creators leave the organization—and unchecked standing privileges that lack proper authorization tracking. Most enterprises cannot quickly identify who approved specific AI agents accessing sensitive intellectual property, creating a hidden vulnerability in their networks. This administrative oversight represents a major blind spot in modern cybersecurity defenses.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "access-control",
+        "insider-risk",
+        "orphaned-systems",
+        "privilege-management"
+      ],
+      "whyItMatters": "Unmonitored AI agents with standing privileges can provide attackers or malicious insiders with persistent, hidden access to critical business assets and intellectual property. Without proper authorization tracking and lifecycle management of AI tools, organizations cannot effectively detect or respond to unauthorized access or data exfiltration. This gap represents a critical control failure that",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nqjviAfaPP-eOuhtQKNwdvOGLaN-rOmxVnoQPMOruaJvDcw5rsCi-kIKxAhOpxjCggRXt7bfwyRAKMzVKdwIPlRAJpXLl4OReBnbVtOSZYGS4Bsf9EvU71bMIkWdpDwjydNWe22WCdjgqX6b_TrPtXptekJc3N8BH5m56-wauHl5KX0DePQmv2gIoNks/s1600/webinar.jpg",
+      "processedAt": "2026-06-21T19:09:43.233781+00:00"
+    },
+    {
+      "id": "art-a80b700a",
+      "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+      "summary": "This week's cybersecurity threats include multiple attack vectors exploiting common tools and services: malicious browser extensions stealing search data, AI chat platforms being weaponized for malware distribution, stealthy macOS in-memory attacks, compromised cloud agent tools, exposed network equipment, poisoned npm packages, and device-code phishing schemes. The variety and sophistication of these attacks demonstrate how attackers are leveraging legitimate services and supply chains to bypass traditional security measures. Organizations face threats across multiple fronts, from user endpoi",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "malware-delivery",
+        "supply-chain-attack",
+        "phishing",
+        "cloud-security",
+        "browser-security",
+        "ai-abuse"
+      ],
+      "whyItMatters": "This bulletin highlights emerging attack patterns that exploit trust in popular platforms and tools—browser extensions, AI services, cloud agents, and npm packages—making traditional perimeter defenses insufficient. Organizations and individuals need multi-layered protection including dependency scanning, endpoint monitoring, and user awareness training to defend against these distributed threats.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6k3CSWsyKHS6UdXmxX-w92fdsWjTSL7JR7xeaPBPh8d5G6rkZbMhmJHr9o3gxF5G2I2GojubOJnzhRqxjtKYxlXTrmlgrdRFRrmmyEEIi_zXAQXT3zpq5KNQqOFHrfGKhUFHzsMx1E2Eqs7S_jvTFfN3Jnz1YO58Ryvk0urKEDUZggoQgI07lKFWQDMfw/s1600/threatss.jpg",
+      "processedAt": "2026-06-21T19:09:46.672654+00:00"
+    },
+    {
+      "id": "art-be008cf7",
+      "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+      "summary": "Microsoft has identified a cryptocurrency theft campaign called CryptoBandits that has been active since February 2026, spreading malware through USB devices and Windows shortcuts. The malware intercepts clipboard contents to steal cryptocurrency by replacing wallet addresses and communicates with attackers through the Tor network to avoid detection. The campaign combines self-spreading capabilities with script-based execution to maximize its reach across infected systems.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "clipboard-hijacking",
+        "cryptocurrency-theft",
+        "usb-propagation",
+        "tor-c2",
+        "worm",
+        "windows-malware"
+      ],
+      "whyItMatters": "This campaign demonstrates a persistent threat to cryptocurrency users who may unknowingly have their wallet addresses replaced during transfers, resulting in direct financial loss. The self-spreading USB-based mechanism and use of Tor for command-and-control make detection and attribution difficult, requiring users to implement strict USB security practices and clipboard monitoring solutions. The",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvKWONrjyxy3cGsc9xfw7n-6izVRjMImK2DpiOv4JDrtutcENRgX6JxsFQhsEMHDhZx9fGfeoj_mAQSVk9SoJumNREvmLtbWOjWaTlYn3c25sH_paaeZk-Xw08k3ckerv19Ax9stFCURiV321W7vh0f6qQbrmSHnuvPeNBeW6Grb7o6TU4s5dhJNkXyIon/s1600/clipper-malware.jpg",
+      "processedAt": "2026-06-21T19:09:49.844946+00:00"
+    },
+    {
+      "id": "art-8c3be872",
+      "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+      "summary": "INC ransomware has rapidly grown into a major cybercrime threat since 2023, claiming over 830 victims by 2026. The group capitalized on the disruption of other major ransomware operations like LockBit and BlackCat, attracting affiliates seeking new platforms for attacks. This emergence highlights how shutting down one ransomware operation can inadvertently push criminals toward other active groups.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "ransomware-as-a-service",
+        "raas-threat",
+        "inc-ransomware",
+        "cybercrime-operations",
+        "affiliate-networks",
+        "ransomware-evolution"
+      ],
+      "whyItMatters": "Organizations need to understand that disrupting major ransomware groups doesn't eliminate the threat landscape—it redirects it. INC's rapid expansion demonstrates how quickly new or emerging ransomware operations can scale when experienced affiliates migrate, making it essential for defenders to monitor emerging RaaS platforms and adjust their incident response strategies accordingly.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2MOms1DiyvYE-L_zXvrgrL_4cDaNBZwrhVFPq7ee58uPMORAF9v60xW8_QZbjJ05C34E2F5u9xKXBal4_DbVvUjcg8aDAvQ9iKSgWss6vnvlk4f1tgLYwb3a5xNc6T3lbGeE1pcTf35vf320No6XzS4mkw_5dTTILKfc0w6VpcTHX5VitEodFJBKMWzjA/s1600/ransomware-malware.jpg",
+      "processedAt": "2026-06-21T19:09:52.575867+00:00"
+    },
+    {
+      "id": "art-56e1f3b4",
+      "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
+      "summary": "A newly discovered botnet called AryStinger has infected over 4,000 outdated D-Link routers globally, converting them into proxies that relay malicious traffic. This attack demonstrates how older networking devices with unpatched vulnerabilities remain attractive targets for cybercriminals. The compromised routers can be used to mask the origins of attacks and distribute malware across networks.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "router-security",
+        "d-link",
+        "network-compromise",
+        "malicious-proxies",
+        "legacy-devices"
+      ],
+      "whyItMatters": "This incident highlights the ongoing risk posed by outdated hardware in home and business networks—devices many users forget to update or replace. Compromised routers can intercept traffic, inject malware, and enable attackers to launch attacks while hiding their identity, making detection difficult for victims and defenders alike.",
+      "image": null,
+      "processedAt": "2026-06-21T19:09:55.366251+00:00"
+    },
+    {
+      "id": "art-6bcdebcc",
+      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
+      "summary": "Nintendo of America reported that hackers stole survey data from TinyPulse, a third-party service the company uses internally, but Nintendo's own systems were not compromised. The incident highlights how security breaches at vendor companies can expose data from major organizations even when their direct infrastructure remains protected. This serves as a reminder that companies are vulnerable through their supply chain and external service providers.",
+      "category": "Data Breaches",
+      "severity": "Medium",
+      "tags": [
+        "data-breach",
+        "third-party-risk",
+        "supply-chain",
+        "vendor-security",
+        "survey-data"
+      ],
+      "whyItMatters": "This incident demonstrates that organizations cannot control security solely within their own networks—breaches at trusted third-party vendors pose real risks to sensitive data and reputation. Companies must implement vendor security assessments and data-sharing restrictions to minimize exposure when external services are compromised.",
+      "image": null,
+      "processedAt": "2026-06-21T19:09:58.085768+00:00"
+    },
+    {
+      "id": "art-4b0fe008",
+      "title": "USB worm spreads crypto-stealing malware via Windows shortcut files",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/",
+      "summary": "Cybercriminals are spreading malware designed to steal cryptocurrency by infecting USB drives and using Windows shortcut files to execute the attack. The malware can copy itself to other USB devices and uses the Tor network to hide its communication with attackers. This self-spreading capability makes it particularly dangerous as it can rapidly distribute across multiple computers and devices.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "usb-worm",
+        "crypto-stealing",
+        "clipboard-malware",
+        "self-spreading",
+        "tor-network",
+        "windows-shortcuts"
+      ],
+      "whyItMatters": "This threat demonstrates how traditional attack vectors like USB devices remain effective for distributing sophisticated malware targeting high-value assets like cryptocurrency wallets. The self-replicating nature and use of obfuscation techniques make it harder to detect and contain, requiring users to practice better physical security and avoid untrusted USB devices.",
+      "image": null,
+      "processedAt": "2026-06-21T19:10:01.082668+00:00"
+    },
+    {
+      "id": "art-fd218077",
+      "title": "Operation Escaneo Signals Shift in LatAm Threat Landscape",
+      "source": "Dark Reading",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/operation-escaneo-signals-shift-latam-threat-landscape",
+      "summary": "Operation Escaneo reveals a concerning shift in Latin American cyber threats, where attackers are combining profit-driven activities with intelligence gathering operations. Unlike traditional threat groups with a single focus, this organization appears to run separate monetization and espionage efforts with minimal coordination between them. This hybrid approach suggests a more sophisticated and adaptable threat landscape in the region.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "latam-threats",
+        "operation-escaneo",
+        "threat-intelligence",
+        "cyber-espionage",
+        "threat-actor-evolution"
+      ],
+      "whyItMatters": "Understanding this dual-purpose threat model helps organizations recognize that attackers in LatAm may simultaneously conduct opportunistic attacks for profit while collecting sensitive data for intelligence purposes, requiring broader defensive strategies beyond traditional threat categories. This operational flexibility makes these groups harder to predict and counter using conventional threat p",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt88a9f0679bb37c41/6a342e3add6052e430952745/National_Palace_Mexico_City-stockcam-getty-171587268.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-06-21T19:10:03.538141+00:00"
+    },
+    {
+      "id": "art-c8ca5b7c",
+      "title": "FIFA Bug Exposes World Cup Streams to Remote Takeover",
+      "source": "Dark Reading",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://www.darkreading.com/application-security/fifa-bug-world-cup-streams-remote-takeover",
+      "summary": "FIFA's World Cup streaming infrastructure contained a critical vulnerability in Entra access controls that were not properly enforced, potentially allowing attackers to gain unauthorized remote access. This security gap could have enabled malicious actors to compromise the live broadcast, ranging from injecting pranks like 'Rickrolls' to more serious attacks on the global streaming platform. The vulnerability highlights the risks of inadequate identity and access management in high-profile, mission-critical systems.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "access-control",
+        "entra",
+        "infrastructure-attack",
+        "broadcast-security",
+        "remote-access"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how weak identity and access controls in cloud systems can expose critical infrastructure serving millions of users globally. Organizations managing large-scale public events must enforce strict Entra access policies to prevent unauthorized remote takeover of sensitive systems.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3e6c93c7d4c13e54/6a340108ef4a07d48bb3a950/Belgian_fans_soccer-Jasper_Juinen_Stringer-Getty.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-06-21T19:10:06.071381+00:00"
+    },
     {
       "id": "art-a6d541b6",
       "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
@@ -825,215 +1032,6 @@
       "whyItMatters": "This case demonstrates how legitimate-appearing companies can operate botnets at scale, affecting millions of devices and enabling multiple attack vectors simultaneously. The public company connection highlights regulatory and corporate accountability gaps in the proxy service industry, and shows that consumer IoT devices remain vulnerable to long-term compromise for profit-driven criminal activit",
       "image": null,
       "processedAt": "2026-06-19T19:21:50.656859+00:00"
-    },
-    {
-      "id": "art-dafec285",
-      "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-      "summary": "Salesforce disabled the Klue Battlecards app integration on its platform after a security incident exposed customer data through OAuth token abuse. The competitive intelligence company experienced a breach on June 11, 2026, that compromised the security of connected Salesforce accounts. Users will be unable to use this app integration until Salesforce resolves the underlying vulnerability and security concerns.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "oauth-abuse",
-        "cloud-security",
-        "app-integration",
-        "token-compromise",
-        "data-exposure"
-      ],
-      "whyItMatters": "This incident highlights how third-party app integrations can become attack vectors that compromise primary cloud platforms and customer data even when the main service (Salesforce) wasn't directly breached. Organizations must carefully vet and monitor the security posture of integrated applications, as weak OAuth implementations in connected apps can expose sensitive data across entire enterprise",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgI7q_DYP5ExkNSDd8Y10rOfYtTIs6sNXxdE6X55nsvKVllZZ14U9mqUY23nzGGPhXx515NVPMI5Btp4MM5qUx0V1lKDvURtKBICbblPPYuN1VSCN12-J0RmpBKCSM0veZc_9hNt1TnD9PdkNTQi8x337E9cPmLn7uyHOPw0_HshcbxKqVnmgOAjJHOOw6g/s1600/salesforce.jpg",
-      "processedAt": "2026-06-19T10:45:52.209318+00:00"
-    },
-    {
-      "id": "art-7d9d45f6",
-      "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-      "summary": "Apple released a security update for Beats Studio Buds to fix a serious vulnerability that allowed nearby attackers to connect to the earbuds without permission and potentially eavesdrop through the microphone. The flaw, identified as CVE-2025-20701 with a high severity score of 8.8, stems from an authorization error in the Bluetooth audio software that the earbuds use. This means someone close by could pair their device to your buds without your knowledge.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "bluetooth-vulnerability",
-        "beats-studio-buds",
-        "cve-2025-20701",
-        "unauthorized-pairing",
-        "microphone-eavesdropping",
-        "patching-and-updates"
-      ],
-      "whyItMatters": "This vulnerability affects a popular consumer device and demonstrates how authorization flaws in wireless protocols can enable physical eavesdropping attacks. Users need to install the patch promptly to prevent unauthorized access to their audio devices, and this highlights the importance of keeping IoT and audio devices updated with the latest security fixes.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhvlr0i44MWKmuHJKLS1V3uKSMse7tVsRFBTpyD1VGLaRZy24qq4bIb6K3Db1s0eKtuh3TkLCYFWn6eJ-uEkVnkO9CbPHHUlD3j8Z-SEFFr9A1X6ndd-fQd6UKTAyXO0DhUI2ZTe1sc4Eq7NLoGUyjQUkKmhHp99QGz3WTcFAnucAnfiioLDFiGaTbI8Wvx/s1600/apple.jpg",
-      "processedAt": "2026-06-19T10:45:55.570684+00:00"
-    },
-    {
-      "id": "art-001e1b90",
-      "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-18",
-      "originalUrl": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-      "summary": "Modern checkout pages load many third-party scripts like analytics tools, tag managers, and support widgets alongside payment processing, creating security risks under updated PCI DSS rules. The article discusses how any of these external scripts could potentially be compromised and access sensitive payment card data. A PCI assessor evaluated Reflectiz's ability to address these third-party script risks under the new compliance standards.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "pci-dss",
-        "payment-security",
-        "third-party-scripts",
-        "compliance",
-        "checkout-security",
-        "data-exposure"
-      ],
-      "whyItMatters": "E-commerce businesses must understand that third-party scripts on their checkout pages represent a significant compliance and security liability under PCI DSS requirements. A single compromised third-party script can expose customer payment card data, making this a critical issue for any organization handling credit card transactions. Organizations need to audit and control all scripts running on ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHJHzi-rQqSIiD4wXw_HQpgvXGNTNgvJnxt42OupMrchYSmQPyeXbtsuH62zLqPHDq3bywvirdcqKSq9VQ-pZyL02RAw2IYYh1f4qcpUH4NZu50XLSDsQSSYvyqMAEwSN-8PQMcpwXZMtLC_pVYzqZMYm7qkygfMQeZEIHVWpIkYfUifJvX3oUMSBs3w0/s1600/reflectiz.jpg",
-      "processedAt": "2026-06-19T10:45:59.537997+00:00"
-    },
-    {
-      "id": "art-266cacd6",
-      "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-18",
-      "originalUrl": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
-      "summary": "Hackers linked to the DragonForce ransomware group have deployed a custom backdoor called Backdoor.Turn to infiltrate a major U.S. services company. This malware uses Microsoft Teams relay infrastructure to hide its command-and-control communications, making it harder for security teams to detect. Symantec and Carbon Black researchers uncovered this sophisticated technique that abuses legitimate cloud services to disguise malicious activity.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "backdoor",
-        "command-and-control",
-        "microsoft-teams",
-        "custom-malware",
-        "cloud-abuse"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors are evolving their tactics to abuse trusted cloud services like Microsoft Teams for covert communications, making traditional network monitoring less effective. Organizations must implement enhanced monitoring of cloud collaboration platforms and adopt behavioral detection strategies to identify backdoors using legitimate infrastructure as cover. The use ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidEg1Q-FcDTwCPci3OMxGy0TghiI1dbWJoaJVc88gpGgO2ia6bgne18KfS3A9qAzBnMX2rGY9H78ewtofXQO22RRpzHxWXmvQJvRZ1nsvwj37aZBtLOXXltzd1KkNRKhu2N5LpIro5Fi0BBkftPqP_IO6B3HCKx5WPtFXZKA1bfbP3xV71CpEqpT7H6RPN/s1600/teams.jpg",
-      "processedAt": "2026-06-19T10:46:02.338104+00:00"
-    },
-    {
-      "id": "art-ee08fc3f",
-      "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-16",
-      "originalUrl": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-      "summary": "Fortinet FortiSandbox is currently under active attack, with threat researchers detecting exploitation of three security vulnerabilities within a 24-hour period. The most critical flaw is CVE-2026-39813, a path traversal vulnerability in the JRPC API with a high CVSS score of 9.1. One of the exploited vulnerabilities was only patched the previous week, indicating attackers are moving quickly to target unpatched systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "fortinet",
-        "path-traversal",
-        "active-exploitation",
-        "jrpc-api",
-        "patch-management",
-        "sandbox-security"
-      ],
-      "whyItMatters": "Active exploitation of multiple Fortinet vulnerabilities poses an immediate threat to organizations using FortiSandbox, as attackers are actively weaponizing these flaws in real-time. The rapid exploitation cycle—including a recently patched vulnerability—demonstrates the urgency for administrators to apply security updates immediately to prevent compromise. FortiSandbox is a critical security too",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisozpc0YfCvHjGAyEZf7c1G10iEOgszA-mkIIrhG3A4VYcq8_Hih8U0hO66iBoDPPJZhfq7Dc3fGTsMLDiFiGSk6-xS7ltGORLe0_sC8VyhZHlfIkeGpOkMTcbQ0R7BeDtDmZFb-VB_GF3le8p0mx2ZMD-CLZb5eWlMJPiBhdu9ljzlh_E01hIon9dA-Y3/s1600/Fortinet.png",
-      "processedAt": "2026-06-19T10:46:05.216155+00:00"
-    },
-    {
-      "id": "art-65645dfe",
-      "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
-      "summary": "A critical vulnerability in Splunk Enterprise is currently being exploited by attackers in the wild. CISA has issued an urgent directive requiring U.S. federal agencies to patch their systems by Sunday to prevent potential compromise. This active exploitation means hackers are already leveraging the flaw to gain unauthorized access to affected systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "splunk-enterprise",
-        "critical-vulnerability",
-        "active-exploitation",
-        "patch-urgent",
-        "cisa-alert",
-        "federal-systems"
-      ],
-      "whyItMatters": "Active exploitation of a critical vulnerability means the threat is real and immediate, not theoretical. Federal agencies managing sensitive data and critical infrastructure are at direct risk, and delays in patching could lead to data breaches or system compromise. The short deadline emphasizes the severity and the need for rapid incident response and vulnerability management practices.",
-      "image": null,
-      "processedAt": "2026-06-19T10:46:07.583342+00:00"
-    },
-    {
-      "id": "art-440f5d98",
-      "title": "NY man charged after harassing college student with AI-generated nudes",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-york-man-faces-cyberstalking-charge-after-sharing-ai-generated-nudes-online/",
-      "summary": "A New York resident was arrested and charged with cyberstalking after using AI-generated nude images and fabricated offensive messages to harass a Georgia college student through fake social media accounts. This case highlights how artificial intelligence tools can be misused to create realistic fake content for harassment and defamation purposes. The incident demonstrates the growing risk of deepfakes and synthetic media being weaponized against individuals.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-generated-content",
-        "cyberstalking",
-        "deepfakes",
-        "harassment",
-        "fake-profiles",
-        "synthetic-media"
-      ],
-      "whyItMatters": "This case illustrates emerging threats where AI-generated synthetic media is weaponized for targeted harassment and defamation, requiring awareness of both technical risks and legal consequences. It underscores the need for platforms to detect synthetic content and for individuals to understand how easily AI tools can be misused to cause real-world harm. As AI image generation becomes more accessi",
-      "image": null,
-      "processedAt": "2026-06-19T10:46:10.644003+00:00"
-    },
-    {
-      "id": "art-db7dd1d3",
-      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
-      "summary": "A significant data breach called 'FortiBleed' exposed nearly 74,000 credentials belonging to Fortinet firewall and VPN users. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning to all Fortinet customers to secure their devices immediately. This incident highlights the critical importance of protecting network infrastructure that millions of organizations rely on for security.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "fortinet",
-        "credential-leak",
-        "vpn-security",
-        "firewall-breach",
-        "data-exposure",
-        "infrastructure-risk"
-      ],
-      "whyItMatters": "Compromised firewall and VPN credentials can give attackers direct access to organizational networks, making this a critical threat to infrastructure security. Since Fortinet products protect sensitive networks across government and enterprise sectors, this breach could enable widespread unauthorized access and lateral movement. Organizations must immediately change credentials and implement addit",
-      "image": null,
-      "processedAt": "2026-06-19T10:46:13.113816+00:00"
-    },
-    {
-      "id": "art-a26f7b62",
-      "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
-      "summary": "Gentlemen, a ransomware-as-a-service operation, is actively developing multiple tools designed to disable endpoint detection and response (EDR) systems. These EDR killers are being distributed to affiliates to help them bypass security defenses during their attacks. This ongoing development shows how sophisticated ransomware groups are becoming at evading modern security solutions.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "edr-evasion",
-        "endpoint-security",
-        "raas",
-        "defense-evasion",
-        "threat-actor"
-      ],
-      "whyItMatters": "EDR systems are a critical layer of defense against ransomware attacks, so tools designed to disable them represent a major escalation in threat capability. Organizations relying on EDR as their primary defense mechanism may be at serious risk if these killers are deployed against them. Understanding this threat helps security teams strengthen their defense-in-depth strategies beyond EDR alone.",
-      "image": null,
-      "processedAt": "2026-06-19T10:46:15.943955+00:00"
-    },
-    {
-      "id": "art-b4934110",
-      "title": "ShapedPlugin update flow hacked to infect WordPress sites",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/",
-      "summary": "Attackers compromised multiple WordPress plugins from ShapedPlugin and used the vendor's official update system to distribute malicious code to customers. This supply chain attack is particularly dangerous because users who trusted the legitimate update mechanism unknowingly installed infected plugin versions. Organizations relying on these plugins may have been compromised without realizing it.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "wordpress",
-        "malware-distribution",
-        "plugin-compromise",
-        "update-system",
-        "vendor-compromise"
-      ],
-      "whyItMatters": "This attack demonstrates how compromising a vendor's update infrastructure can bypass traditional security defenses and directly infect thousands of organizations simultaneously. Users who regularly update their plugins to stay secure were actually exposed to malware, highlighting the need for code signing verification and additional monitoring beyond trusting official update channels.",
-      "image": null,
-      "processedAt": "2026-06-19T10:46:18.414246+00:00"
     }
   ]
 }
