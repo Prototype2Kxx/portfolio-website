@@ -1,7 +1,210 @@
 {
-  "lastUpdated": "2026-06-22T12:14:45.924287+00:00",
+  "lastUpdated": "2026-06-22T20:32:32.819819+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-d61b27e3",
+      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+      "summary": "Hackers infiltrated ShapedPlugin's build and distribution systems to inject malicious code into WordPress Pro plugins, which were then distributed to users through legitimate update channels. This supply chain attack demonstrates how attackers can compromise software at its source to reach a large number of unsuspecting users. The incident highlights the vulnerability of popular WordPress plugins and the trust users place in official update mechanisms.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "wordpress-plugins",
+        "malware-injection",
+        "compromised-updates",
+        "software-tampering"
+      ],
+      "whyItMatters": "Supply chain attacks are particularly dangerous because they bypass traditional security measures by compromising trusted software sources, affecting potentially thousands of WordPress websites simultaneously. Users who rely on automatic updates may unknowingly install backdoored versions, giving attackers persistent access to their systems and sensitive data. Organizations need to implement addit",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd4DchiVkQLBMvGHgWrojoZUdyk2SwEhEj5q6cOYzKCUWF1Lz3Mxeizurg1O-SLVi2jg319ib4SJsSoVWixAkl5WLPu4rL1cMoYXUM6EziOVyt42ESt1zmMo_iLEfHx9XSAXpsDd1FEtRSgKk4AhDzA7DjJN8c__pUgogxTQgaGjsxM04WNiesgRnbEVHN/s1600/wordpress-plugin.jpg",
+      "processedAt": "2026-06-22T20:31:54.392909+00:00"
+    },
+    {
+      "id": "art-33f91776",
+      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "summary": "Security researchers discovered four vulnerabilities in Dify, a popular open-source AI workflow platform with over 146,000 GitHub stars, that could allow attackers to read private AI conversations between other users without needing to log in. The flaws, collectively named DifyTap by Zafran Security, represent a serious multi-tenant isolation failure that exposes customer data across different applications. This discovery highlights how even popular open-source projects can have critical security gaps that put sensitive AI interactions at risk.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "dify",
+        "ai-security",
+        "multi-tenant-isolation",
+        "authentication-bypass",
+        "data-exposure",
+        "open-source"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows unauthenticated attackers to access sensitive AI conversations across multiple customer tenants, potentially exposing confidential business discussions, personal data, and proprietary information. Organizations using Dify for AI workflows need immediate awareness and patching to prevent active exploitation. The severity is heightened by the platform",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrjCumekV1hjkgdgebp4RqfYc_Yt9Swv4lG7ds3XMDHG9f-JxSuJSWY3UcWIoivJoJkJjdlBvtiQAHKy7NNgApCoD8ADtOpicXvKf9RJwAZT1DEGUkgX87bmSR8cO75Ss__mnLn8MyDEddnzhyphenhyphenRfcf_gWEtoLiKu53yXNQJtT0DP7nZufqBhB3P8VmvV48/s1600/dify.png",
+      "processedAt": "2026-06-22T20:31:59.037869+00:00"
+    },
+    {
+      "id": "art-db9856fd",
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "summary": "A vulnerability called Squidbleed in the Squid web proxy allows attackers to read other users' unencrypted HTTP requests, potentially exposing sensitive information like passwords and session tokens. The flaw stems from a heap over-read bug introduced in 1997 during FTP parsing code changes and remains present in Squid's default settings. Researchers from Calif.io discovered and disclosed the issue in June 2026, affecting any organization using Squid as a proxy server.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "squid-proxy",
+        "heap-over-read",
+        "credential-leakage",
+        "http-cleartext",
+        "legacy-vulnerability",
+        "patch-urgently"
+      ],
+      "whyItMatters": "This vulnerability is critical because it directly exposes sensitive credentials and session tokens to attackers already inside a network, undermining a key security layer that many organizations rely on. The 29-year-old bug remaining in default configurations means countless production systems may be vulnerable without administrators realizing it. Organizations using Squid must patch immediately ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA4IfKMjQxVhpOYdrcCC4ty0vlGBDg_qCZuuvSTvyVWXYPXQlli7qyCZkPdHHuGJp-HVH1s-HGmf_Zqn97o2Qz5JOHaZ-Mk1mecm4W4yUBiCaejJL5guczISx2Q8ZH7RvS_4fXiNdHemr1aWKwz0CcyBJI_4_jFjQhY5JedBz_-pSiSQ1eQCF_BPYEbRs/s1600/sq.jpg",
+      "processedAt": "2026-06-22T20:32:03.788394+00:00"
+    },
+    {
+      "id": "art-def239a9",
+      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+      "summary": "A new malware loader called OXLOADER has been discovered delivering a stealer called CastleStealer through malicious Google Ads. Researchers from Elastic Security Labs identified the campaign, which appears to be operated by Russian-speaking threat actors motivated by financial gain. This attack chain shows how legitimate advertising platforms can be weaponized to distribute harmful software to unsuspecting users.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-loader",
+        "google-ads-abuse",
+        "castlestealer",
+        "oxloader",
+        "credential-stealer",
+        "russian-threat-actor"
+      ],
+      "whyItMatters": "This demonstrates a sophisticated attack method that exploits trusted platforms like Google Ads to bypass user skepticism and distribute malware at scale. Organizations and users need awareness that legitimate-looking ads can deliver malware, making verification of ad sources critical. The use of commodity malware delivery infrastructure combined with a stealer payload poses significant risks to b",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8sz7SHbQd4E8HNEKbvGGSYhPpJrUydP_gCRt_mWYYTr6QHLmChyphenhyphenca6BXhLBXA4OyKw-eS9xbqRqpKcYWFqDp4HoLBYKjVdWzhF0K1pqjX2bPtB91y1P1PZ8gh5r7Bpp-PIeUJVi_Hki91Qf6YjFAtFmf-qh7V9gNzmbEh_A2lISCvCDnNMALAuiqAlkL_/s1600/loader.jpg",
+      "processedAt": "2026-06-22T20:32:08.538284+00:00"
+    },
+    {
+      "id": "art-883d0c59",
+      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+      "summary": "Google is implementing mandatory developer verification for Android apps starting September 30, 2026, beginning with Brazil, Indonesia, Singapore, and Thailand. On that date, certified Android devices in these countries will refuse to install apps from developers who haven't registered their identity with Google. This enforcement aims to improve app security and reduce the distribution of malicious applications through official channels.",
+      "category": "Security Awareness",
+      "severity": "Medium",
+      "tags": [
+        "android-security",
+        "developer-verification",
+        "app-store-security",
+        "malware-prevention"
+      ],
+      "whyItMatters": "This policy strengthens the Android ecosystem by creating friction for malicious actors attempting to distribute compromised apps, while legitimate developers must comply with registration requirements. The phased rollout in specific countries tests the approach before broader global implementation, making it a significant step toward reducing supply-chain app threats.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisV9q8kKe0eopbInTHgwScUvzjKlnPTpk74j7M6F-6BH46hVr9wcadvztA2RYJdKDQDzpV89bN4wH0hEL9qTfIh2_4f3FEIT1OWwSeYehcOb-sVNNkEshTBBC6qviBMlFuwMXQL2iG_VVVBaT6NoGnbdcVBfcMm61T6NosKLtOdMgIebKCRh7hukQxIOk/s1600/playstore.jpg",
+      "processedAt": "2026-06-22T20:32:13.540280+00:00"
+    },
+    {
+      "id": "art-d3e837bd",
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "summary": "A large-scale campaign called FortiBleed targeted Fortinet FortiGate firewalls by deploying custom sniffer tools to capture login credentials and authentication data from compromised devices. Security researchers at SOCRadar discovered that attackers used these specialized tools to harvest sensitive information directly from the firewalls themselves. This attack demonstrates how threat actors can exploit widely-used network devices to gain unauthorized access to protected systems and networks.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "fortigate",
+        "credential-theft",
+        "custom-malware",
+        "network-compromise",
+        "authentication-exploit"
+      ],
+      "whyItMatters": "FortiGate firewalls are critical infrastructure devices that protect entire networks, making them high-value targets for attackers. A successful compromise allows threat actors to intercept credentials and gain deep network access, potentially affecting thousands of organizations simultaneously. Organizations using FortiGate devices need immediate awareness and patching to prevent exploitation of ",
+      "image": null,
+      "processedAt": "2026-06-22T20:32:16.290139+00:00"
+    },
+    {
+      "id": "art-fdfd9d4a",
+      "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/",
+      "summary": "Microsoft has announced that Windows 11 version 26H2 is the upcoming feature update for the operating system. Users currently running Windows 11 24H2 and 25H2 will be able to upgrade through a streamlined process using a small enablement package rather than a full installation. This update approach aims to make the upgrade process faster and more efficient for Windows 11 users.",
+      "category": "Patching and Updates",
+      "severity": "Low",
+      "tags": [
+        "windows-11",
+        "software-update",
+        "patch-management",
+        "version-26h2"
+      ],
+      "whyItMatters": "Understanding the upgrade process for major Windows updates helps organizations plan their patch management strategies and ensures systems remain current with security fixes and features. Knowing that enablement packages provide a lighter-weight upgrade path can reduce deployment complexity and minimize system downtime across enterprise environments.",
+      "image": null,
+      "processedAt": "2026-06-22T20:32:21.406703+00:00"
+    },
+    {
+      "id": "art-bebb99f4",
+      "title": "Microsoft fixes AutoGen Studio flaw that enabled code execution",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+      "summary": "Microsoft discovered a vulnerability chain called AutoJack in AutoGen Studio that allows attackers to trick AI agents into running harmful commands on their host systems. By tricking users into visiting a malicious website, attackers could exploit this flaw to gain control and execute arbitrary code. Microsoft has released a fix to address this security issue.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "autogen-studio",
+        "code-execution",
+        "ai-security",
+        "microsoft",
+        "autojack",
+        "patch-available"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects AI agent systems that organizations are increasingly adopting, and exploiting it requires minimal user interaction—just visiting a webpage. The ability to execute arbitrary commands gives attackers full control over systems running AutoGen Studio, potentially compromising sensitive data and infrastructure. Organizations using this tool need to appl",
+      "image": null,
+      "processedAt": "2026-06-22T20:32:25.539666+00:00"
+    },
+    {
+      "id": "art-860f92f2",
+      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "summary": "Cybercriminals have created a specialized underground market where attackers can pay others to search through stolen credential databases for information about specific organizations and accounts, rather than manually sifting through massive data dumps themselves. This emerging service model makes credential theft more efficient and accessible by turning the process of targeting victims into a commoditized service. Organizations now face increased risk as threat actors can quickly identify compromised credentials relevant to their targets.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "credential-theft",
+        "stolen-data",
+        "underground-market",
+        "data-breaches",
+        "credential-targeting"
+      ],
+      "whyItMatters": "This development significantly lowers the barrier to entry for attackers by removing the need for technical expertise in searching credential databases, enabling more threat actors to conduct targeted attacks efficiently. Organizations must assume that their employees' credentials may be searchable in criminal markets, making credential monitoring and strong authentication controls essential defen",
+      "image": null,
+      "processedAt": "2026-06-22T20:32:29.633214+00:00"
+    },
+    {
+      "id": "art-0a2228fa",
+      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
+      "summary": "A data breach at a vendor serving the Texas Parks and Wildlife Department compromised personal information for over 3 million individuals, including driver's license data. The incident highlights how third-party vendors can become targets that put large numbers of people at risk, even when the government agency itself wasn't directly attacked. This type of breach exposes victims to identity theft and fraud if their sensitive credentials are misused.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "government",
+        "driver-licenses",
+        "third-party-risk",
+        "identity-theft",
+        "vendor-compromise"
+      ],
+      "whyItMatters": "This breach demonstrates the widespread impact when government systems and their vendors are compromised, affecting millions of citizens' most sensitive personal identifiers. Organizations must secure not only their own systems but also vet and monitor third-party vendors who handle critical data. The exposure of driver's licenses creates significant fraud and identity theft risks for affected ind",
+      "image": null,
+      "processedAt": "2026-06-22T20:32:32.819661+00:00"
+    },
     {
       "id": "art-7bc19c08",
       "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
@@ -829,211 +1032,6 @@
       "whyItMatters": "The combination of AI-accelerated vulnerability discovery and mass patch releases indicates both progress and urgency in fixing critical flaws across widely-used platforms. Organizations must prioritize applying these patches quickly, as the high volume suggests serious vulnerabilities are being addressed. This trend demonstrates that AI is fundamentally changing the pace and scale of security res",
       "image": null,
       "processedAt": "2026-06-20T19:05:50.550118+00:00"
-    },
-    {
-      "id": "art-c78c250c",
-      "title": "From Assistive to Agentic: The AI Shift That's Redefining Threat Management",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html",
-      "summary": "Modern enterprises deploy dozens of security tools that operate independently, creating alert fatigue and data silos rather than improving detection. Despite extensive visibility into networks and systems, security teams still struggle with long breach dwell times and analyst burnout from sorting through redundant alerts. The article suggests that shifting from assistive AI tools to agentic AI systems could help integrate these fragmented tools and enable faster, more intelligent threat response.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "threat-management",
-        "security-operations",
-        "alert-fatigue",
-        "automation",
-        "incident-response"
-      ],
-      "whyItMatters": "Security teams face a critical operational challenge: more tools and data don't translate to faster threat detection or response. Understanding how agentic AI can bridge tool fragmentation and reduce dwell time is essential for organizations to improve their security posture and reduce the human cost of manual alert triage.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaBfyINQL8sJZiLP4VnJgWMBOmH-8zY01vQ3E7OWZM9sdPvFQzOrFgaEpJOcRqODwrKDMXjt1HiKZmYYKF4pr22BBcbVBqx31coqBTKsgsf43CPEoW430X177toxpnfpVBTogjlrBMOrsLJgpERpCliEP4h5_2gyu3h2Dy_hJwiV6AI3nbKyp5NvNVgzQ/s1600/filigran-main.png",
-      "processedAt": "2026-06-20T09:26:27.580610+00:00"
-    },
-    {
-      "id": "art-9198ecde",
-      "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-      "summary": "Shadow AI has evolved from a data leakage problem into a significant access control threat within enterprises. Rather than employees simply exposing sensitive data through public AI tools, the real danger now involves unauthorized access and privilege escalation through unmanaged AI systems. Traditional security responses like usage policies and domain blocks are no longer sufficient to address this new threat landscape.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "shadow-ai",
-        "access-control",
-        "enterprise-security",
-        "ai-governance",
-        "unauthorized-access"
-      ],
-      "whyItMatters": "Organizations must shift their security strategies from preventing data leakage to controlling who can access systems and data through shadow AI applications. This represents a fundamental change in how security teams need to monitor, audit, and govern AI tool usage in the enterprise environment, requiring new technical and policy-based defenses.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6R48ZeaNtIzMVc6atNjuxbNYFUfiFCJ_cE1qE_85yGOOavsX0ijvQGdv9QZ2-4Lky8mTOPhrNIydUvLS2DtGkkFXYJFRTT99Vbb03s3Rtk9pTariHdQ2on2RGxiAsMQnySj7AJfxUtBxO1aJTupjkQvDvt5jp1klznY9_WHckqm64F-BbCtCR2UoJ968/s1600/tines-main.jpg",
-      "processedAt": "2026-06-20T09:26:29.956918+00:00"
-    },
-    {
-      "id": "art-738a4aeb",
-      "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-17",
-      "originalUrl": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-      "summary": "Cybersecurity researchers discovered a coordinated attack involving 15 malicious plugins on the JetBrains Marketplace that disguise themselves as AI coding assistants. These fake plugins are designed to steal API keys from popular AI services like DeepSeek and other language models. The malware pretends to offer legitimate development features such as code review and bug detection, making it difficult for developers to identify the threat.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware-campaign",
-        "supply-chain-attack",
-        "api-key-theft",
-        "developer-tools",
-        "ai-security",
-        "marketplace-compromise"
-      ],
-      "whyItMatters": "This attack directly targets developers who rely on JetBrains tools and AI services, putting sensitive API credentials and authentication tokens at risk. Compromised AI API keys can lead to unauthorized access to cloud services, financial fraud, and data exfiltration at scale. The use of legitimate marketplace channels makes this a dangerous supply-chain attack that requires immediate awareness am",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg2aRb82ydrk_lAXr6Yy-GmrPfQSaIuCNYTtB8dFm02DZWhJVj3bmjB3WLhWDUtiFmrGC3lHdeLfA2NtC6oHKJDAdW7ot4f3HQDyLw2Ep3q49BnOkuBWOPP2OuN1I1HNFknxPyQNpEZEnEt-8KhV2nx_HcaEiBm8Rdh7blevc3I1GjuBMLL1xOpJThFuJpE/s1600/hi.jpg",
-      "processedAt": "2026-06-20T09:26:32.646541+00:00"
-    },
-    {
-      "id": "art-4a553a30",
-      "title": "The Top 10 Attack Surface Exposures in 2026",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-17",
-      "originalUrl": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-      "summary": "The article discusses how security breaches often don't require sophisticated zero-day exploits, as attackers frequently exploit simpler weaknesses like exposed admin panels or reused credentials. When serious vulnerabilities like MongoBleed do emerge—which allowed unauthorized access to sensitive data from server memory—they create immediate and widespread risk across internet-facing systems. Understanding attack surface exposure is critical for defending against both opportunistic and targeted threats.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "attack-surface",
-        "exposure",
-        "credential-theft",
-        "vulnerability-exploitation",
-        "security-posture"
-      ],
-      "whyItMatters": "Organizations need to recognize that most breaches exploit common weaknesses rather than exotic exploits, making basic security hygiene and rapid patching essential. The dramatic reduction in time-to-exploit means defenders have shrinking windows to identify and remediate vulnerabilities before attackers weaponize them at scale.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM2DfFAWIuQ6v6hyh32CXcT_wKU72aTUxixyWIcnjW04ydv40r8RtVXjDrxKJzksW6zzqYciPMxgYAwcDGRz8kahhZVZXoi0FySWg5o8LpWo_KkHdX4wRX4Qgk6ONxHqyb7_cF5TN5qQp-9B4hOQpB3WljI8sDbHMlOh6n2jyTjV30kxC-ccJVJHu4bTs/s1600/INTRUDER.jpg",
-      "processedAt": "2026-06-20T09:26:35.190537+00:00"
-    },
-    {
-      "id": "art-267b7308",
-      "title": "145 Mastra npm Packages Compromised via Hijacked Contributor Account",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-17",
-      "originalUrl": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
-      "summary": "Attackers compromised a single npm contributor account and used it to distribute malicious code across 145 packages in the Mastra namespace, a framework for building AI applications. This supply chain attack, called easy-day-js, demonstrates how a single hijacked account can affect hundreds of open-source projects. Multiple security firms collaborated to identify and analyze the breach, highlighting the risks developers face when downloading dependencies from popular repositories.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-packages",
-        "account-hijacking",
-        "malware-distribution",
-        "open-source-security"
-      ],
-      "whyItMatters": "This attack shows how compromising one developer account can poison hundreds of downstream projects, potentially exposing millions of developers and applications to malicious code. Organizations relying on npm packages must verify the integrity of their dependencies and implement controls to detect compromised packages before they enter production environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKLWn0zHFuJ8rkb2bqILIyAGxt_-VJ13Ytmv1TRWtGJkI6Rva5Oag5LdLasE2rmenokuRvoEI2wH0Ayfe_P4_5q1Qc5FQ2MrQgUHrgD9wY6DTlYugAtj8CP7Fh0OPjKkU5LbeRKWvPEh0Ol0CmLTe4QVayeZiNlVFvU7MO5tWl-b8Lbn80hKd45q9Z1yOd/s1600/npms.jpg",
-      "processedAt": "2026-06-20T09:26:38.432382+00:00"
-    },
-    {
-      "id": "art-22826f1f",
-      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
-      "summary": "Market intelligence platform Klue suffered a security breach that exposed OAuth tokens, which attackers could use to gain unauthorized access to customers' Salesforce environments. A threat group calling themselves Icarus has publicly claimed responsibility for the attack and is now extorting the company. The incident highlights how compromised authentication tokens can create a cascading threat affecting multiple organizations connected through third-party platforms.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "oauth-tokens",
-        "salesforce-compromise",
-        "extortion-group",
-        "third-party-breach",
-        "account-takeover-risk"
-      ],
-      "whyItMatters": "This breach demonstrates how vulnerabilities in widely-used integration platforms can expose multiple organizations' sensitive systems at once. Customers' Salesforce environments are now at risk of unauthorized access, potentially compromising valuable business data and customer information. Organizations using Klue need to immediately rotate credentials and audit their Salesforce access logs.",
-      "image": null,
-      "processedAt": "2026-06-20T09:26:41.135525+00:00"
-    },
-    {
-      "id": "art-0e447513",
-      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
-      "summary": "Hackers are actively exploiting a security flaw in the Gravity SMTP WordPress plugin that allows unauthorized access to sensitive information. The vulnerability affects over 100,000 websites running this popular plugin. Since no authentication is required to trigger the bug, attackers can easily extract data from vulnerable sites.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "wordpress-plugin",
-        "information-disclosure",
-        "unauthenticated-access",
-        "gravity-smtp",
-        "active-exploitation"
-      ],
-      "whyItMatters": "With 100,000+ websites affected and active exploitation already occurring, this vulnerability poses an immediate threat to a large portion of WordPress users. The unauthenticated nature of the exploit means attackers need minimal effort to compromise sites, making rapid patching essential. Organizations using this plugin should prioritize updates to prevent unauthorized data exposure and potential",
-      "image": null,
-      "processedAt": "2026-06-20T09:26:43.550766+00:00"
-    },
-    {
-      "id": "art-fb937aee",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-25",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "summary": "Dutch authorities arrested two men who owned internet hosting companies that provided infrastructure for Russian cyberattacks and disinformation campaigns targeting Europe. The men had taken control of a sanctioned Russian internet service provider called Stark Industries Solutions, which was previously used by Russian intelligence agencies for cyber operations. Police seized approximately 800 servers as part of the investigation.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored-attacks",
-        "infrastructure-takedown",
-        "russia",
-        "disinformation",
-        "eu-sanctions",
-        "hosting-abuse"
-      ],
-      "whyItMatters": "This operation demonstrates how law enforcement can disrupt state-sponsored cyber infrastructure by targeting the hosting providers that enable attacks. The seizure of 800 servers and arrests signal that countries are actively pursuing individuals who knowingly support foreign intelligence operations, which raises the cost and complexity of conducting cyberattacks against critical targets in Europ",
-      "image": null,
-      "processedAt": "2026-06-20T09:26:46.174609+00:00"
-    },
-    {
-      "id": "art-936e0208",
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-22",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "summary": "A CISA contractor deliberately leaked sensitive agency secrets, including AWS GovCloud access keys, on a public GitHub repository. Congressional lawmakers are now demanding explanations from CISA as the agency works to contain the breach and revoke the exposed credentials. This incident highlights serious security lapses within a government cybersecurity agency itself.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "government-breach",
-        "credential-exposure",
-        "cloud-security",
-        "insider-threat",
-        "aws-govcloud",
-        "cisa"
-      ],
-      "whyItMatters": "When the organization responsible for protecting U.S. critical infrastructure experiences a major data breach involving exposed cloud credentials, it undermines public trust and creates immediate risk to government systems nationwide. The intentional nature of the leak raises questions about insider threats and access controls within federal agencies, making this a critical wake-up call for govern",
-      "image": null,
-      "processedAt": "2026-06-20T09:26:48.977047+00:00"
-    },
-    {
-      "id": "art-8cd4f0f9",
-      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-21",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "summary": "A 23-year-old Ottawa resident was arrested by Canadian authorities for allegedly creating and operating Kimwolf, a botnet that infected millions of Internet-of-Things devices to launch large-scale DDoS attacks over a six-month period. The suspect, previously identified as 'Dort,' faces criminal charges in both Canada and the United States after conducting DDoS attacks, doxing, and swatting campaigns against security researchers. This case demonstrates how individual cybercriminals can mobilize massive device networks to cause widespread disruption.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "botnet",
-        "iot-devices",
-        "ddos-attacks",
-        "cybercrime",
-        "international-prosecution",
-        "doxing-swatting"
-      ],
-      "whyItMatters": "This arrest showcases law enforcement's increasing ability to identify and prosecute botnet operators across borders, which is essential for disrupting infrastructure attacks at scale. The case highlights the real danger IoT devices pose when left unsecured, as millions can be weaponized by a single operator to launch devastating DDoS campaigns. Understanding how botnets operate and are dismantled",
-      "image": null,
-      "processedAt": "2026-06-20T09:26:52.485598+00:00"
     }
   ]
 }
