@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-06-22T20:32:32.819819+00:00",
+  "lastUpdated": "2026-06-23T09:52:53.497952+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-b5e3342d",
+      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+      "summary": "Researchers uncovered three malicious npm packages masquerading as PostCSS development tools that secretly deliver a Windows remote access trojan to unsuspecting developers. These packages, which had collectively received hundreds of downloads, were recently published by a single attacker to compromise developer machines. This attack demonstrates how threat actors exploit popular open-source repositories to distribute malware by using trustworthy-sounding package names.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "npm-supply-chain",
+        "malware-distribution",
+        "rat-trojan",
+        "open-source-compromise",
+        "developer-targeting"
+      ],
+      "whyItMatters": "This attack highlights a critical vulnerability in software supply chains where developers download packages from trusted repositories without verifying authenticity. Compromised developer machines can lead to widespread downstream attacks affecting all software and services those developers maintain. Organizations must implement strict dependency verification and package vetting procedures to pre",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiENcFC1DFPXKuRCT_WmSwq-wpzC8IcZUdZzu5IHi597n77W8LFs9qSUdDPCuMK9QzkRZEBMbBh4p2xhnI1OXZu4akIgR5suIv_yRA7AtEkojDcyXaU5x0UiZKRDRvTn0n0wy9HIQnhJj9zUO0rpemNOFNZEmMl4NQsCj5aDEpDrqXUkivsOX1QoLRqeKZh/s1600/npmm.jpg",
+      "processedAt": "2026-06-23T09:52:28.393378+00:00"
+    },
+    {
+      "id": "art-c5a897cb",
+      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+      "summary": "Attackers are using WhatsApp to send fake documents containing malicious VBScript files to trick users into installing legitimate Remote Monitoring and Management (RMM) software. This campaign, discovered by Kaspersky, primarily targets WhatsApp Desktop and Web users across multiple countries including Malaysia, Brazil, India, Mexico, and others. Once installed, the RMM tool can give attackers unauthorized remote access to victims' computers.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "whatsapp",
+        "vbscript",
+        "rmm-tool",
+        "social-engineering",
+        "malware-distribution",
+        "phishing"
+      ],
+      "whyItMatters": "This attack demonstrates how legitimate software can be weaponized when combined with social engineering tactics, making it harder for users to distinguish safe downloads from malicious ones. WhatsApp's widespread use means this campaign can reach millions of users globally, and successful RMM installation gives attackers persistent remote control over compromised systems. Organizations and users ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDqA3duB8U44C_MQ5PM061Wch2-j7uRvX_D52lK_2Dsm2lxcquuICTnFZ-dhQiQfxxKTnIJz4tf7ffCupdkoU1giCEGhHXLKJ0xC3dw7duptIHq15dD0E5XlkvB9JbKztGCTJOk2iJ53shzUQexv2So6rrFy8djOO1etfsolTM5UbvMUkKvNwNpHqFvS7V/s1600/whatsapp-main.jpg",
+      "processedAt": "2026-06-23T09:52:31.106185+00:00"
+    },
+    {
+      "id": "art-06f0431a",
+      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+      "summary": "OpenAI has released an improved version of GPT-5.5-Cyber, an AI model designed to help security defenders identify and fix software vulnerabilities more effectively. This new model, part of OpenAI's Daybreak initiative, can analyze large codebases in greater depth than previous versions. The tool aims to strengthen the defensive capabilities of security teams in detecting and patching flaws before they can be exploited.",
+      "category": "Vulnerabilities",
+      "severity": "Low",
+      "tags": [
+        "ai-security",
+        "vulnerability-detection",
+        "patch-management",
+        "defensive-tools",
+        "code-analysis"
+      ],
+      "whyItMatters": "AI-powered vulnerability detection tools can significantly accelerate the identification and remediation of security flaws, reducing the window of exposure for attacks. This technology helps defenders work more efficiently at scale, particularly important as codebases grow larger and more complex. Making such tools available to trusted defenders strengthens the overall security posture of organiza",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5t7SN4kPSfgifNku4Z0eWG5x1Dd8CIb99OAHuktz4ZGAeIrwDEnLwD9DUkRj8nStBQjzxOgWO2hfsGYI07Yp8gQGtXiSBIqlQXtzDTc3bkveScQ2gd-WbUmBA0L1xVDXhbrukUIuWdLaMPyiDZO-5-tWlq-kwFdImdd-h7YVkO7oGDN08bv25RJ2TRDt8/s1600/opne.jpg",
+      "processedAt": "2026-06-23T09:52:33.400296+00:00"
+    },
+    {
+      "id": "art-24d40050",
+      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+      "summary": "Many organizations are rapidly deploying AI agents without adequately securing them, creating a critical security gap. Attackers are exploiting this vulnerability by using outdated legacy infrastructure as an entry point to hijack and compromise AI systems. Security teams are falling behind in protecting these new AI technologies, leaving organizations exposed to sophisticated attacks that bypass traditional security measures.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "legacy-infrastructure",
+        "agent-hijacking",
+        "security-gap",
+        "attack-vectors"
+      ],
+      "whyItMatters": "As organizations rapidly adopt AI agents, legacy systems become an overlooked attack surface that defenders aren't adequately protecting. Understanding this vulnerability is essential for security teams to implement proper controls before attackers exploit these gaps at scale.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSdS_7552zEvsn5xVfDcVMG2u8ponFIE1E65j5A8Wx-qUroU49h-f6qF7FPCABA063IjNnw-JntL-L1iZjHpiuqATqkDv-2vpi6lCVG1idXkg_elRJkyoUgASk4uYCTJ95EHfVQLJngVLKOxM2H5zLkdeFY7kpzveHUuKFoks0_ujNo9tJNQxm7XVgYb4/s1600/xmcyber.jpg",
+      "processedAt": "2026-06-23T09:52:36.053065+00:00"
+    },
+    {
+      "id": "art-a5b4e27f",
+      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+      "summary": "This week's cybersecurity threats reveal a recurring pattern of attackers exploiting common vulnerabilities rather than discovering new ones. The threats include abused integrations, malicious browser extensions, compromised websites, ransomware targeting security tools, and mobile malware requesting excessive permissions. The article emphasizes that most attacks rely on weak credentials, unsafe downloads, and outdated security practices rather than sophisticated zero-day exploits.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "malware",
+        "browser-security",
+        "mobile-threats",
+        "edr-attacks",
+        "wordpress-compromise"
+      ],
+      "whyItMatters": "Understanding that attackers primarily exploit common, preventable security gaps—rather than sophisticated zero-days—helps organizations prioritize defenses effectively. This recap demonstrates that basic hygiene like strong credentials, safe browsing habits, and extension management remain critical first-line defenses against the majority of real-world threats.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWTle5JU3HMoV1yUzXt6nAYO-EtyfOp22bJldi9N4fwakWmzrwwjBKfQNkprStB3B9K5HyUchIUCoNpGs-Kn2EHwClO7xJOV-qZQeDKFllNQrZ-TYq6OiikJkwi65NdfFcR7XhMTuIpmwSdoglwRcMcI43rLGB1B462ZXhd7nkh-q-FNnpPKoeUyL7bUqs/s1600/recap-main.gif",
+      "processedAt": "2026-06-23T09:52:39.182320+00:00"
+    },
+    {
+      "id": "art-fff73c49",
+      "title": "WhatsApp phishing attack uses fake business docs to hack PCs",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs/",
+      "summary": "Cybercriminals are running a phishing campaign targeting WhatsApp users across multiple countries by sending fake business documents that actually contain malicious VBScript files. When users open these files, attackers gain remote access to their computers. This attack exploits users' trust in the messaging platform and their tendency to open file attachments from seemingly legitimate sources.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "whatsapp-phishing",
+        "vbscript-malware",
+        "remote-access",
+        "social-engineering",
+        "malicious-documents"
+      ],
+      "whyItMatters": "This threat demonstrates how attackers weaponize widely-used communication platforms and social engineering to bypass technical defenses. Users and organizations need to understand that legitimate-looking documents shared via messaging apps can deliver malware, making verification and caution essential security practices in everyday digital communication.",
+      "image": null,
+      "processedAt": "2026-06-23T09:52:41.615450+00:00"
+    },
+    {
+      "id": "art-31ffa3b1",
+      "title": "JaredFromSubway MEV bot hacked in $15 million crypto theft",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/jaredfromsubway-mev-bot-hacked-in-15-million-crypto-theft/",
+      "summary": "A cryptocurrency trading bot called JaredFromSubway, which operates on the Ethereum network to find profitable transactions, was compromised in a $15 million attack. The hacker exploited a weakness in the bot's logic that detects trading opportunities by creating fake trades to trick the system. This incident highlights how even sophisticated automated trading systems can be vulnerable to social engineering and logic manipulation attacks.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "cryptocurrency-theft",
+        "smart-contract-exploitation",
+        "mev-bot",
+        "ethereum-security",
+        "financial-fraud"
+      ],
+      "whyItMatters": "This attack demonstrates that Web3 and DeFi systems require robust validation of all inputs and opportunities, not just strong cryptography. The $15 million loss shows how attackers can target automated systems by exploiting their detection logic rather than breaking encryption, a lesson applicable to all algorithmic trading and automated decision-making systems in cybersecurity.",
+      "image": null,
+      "processedAt": "2026-06-23T09:52:44.908550+00:00"
+    },
+    {
+      "id": "art-a1710143",
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "summary": "FFmpeg, a widely used video processing library, contains a vulnerability called PixelSmash that could allow attackers to execute malicious code on Jellyfin servers or crash various popular applications including Kodi, Emby, Nextcloud, and OBS Studio. This flaw affects multiple platforms and services that rely on FFmpeg for video decoding, making it a significant threat across the software ecosystem. The vulnerability has been patched, but users of affected applications need to update promptly to protect their systems.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ffmpeg",
+        "pixelsmash",
+        "remote-code-execution",
+        "denial-of-service",
+        "patch-available",
+        "video-decoder"
+      ],
+      "whyItMatters": "FFmpeg is foundational software used by millions of applications and services worldwide, so a critical flaw in it creates widespread exposure across multiple platforms simultaneously. The ability to achieve remote code execution on servers like Jellyfin and denial-of-service attacks on consumer applications means both enterprise and individual users face real security risks until they patch. Organ",
+      "image": null,
+      "processedAt": "2026-06-23T09:52:48.129062+00:00"
+    },
+    {
+      "id": "art-e8838455",
+      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "summary": "Klue, a market intelligence platform, suffered a security breach where attackers stole OAuth tokens that grant access to customers' Salesforce environments. A threat group called Icarus has publicly claimed responsibility for the attack and is using it for extortion purposes. This incident exposes multiple organizations to unauthorized access through compromised authentication credentials.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "oauth-tokens",
+        "salesforce",
+        "extortion",
+        "credential-theft",
+        "supply-chain-risk",
+        "identity-compromise"
+      ],
+      "whyItMatters": "OAuth token theft enables attackers to gain legitimate-looking access to sensitive customer systems without needing passwords, making detection difficult and potentially affecting dozens of organizations simultaneously. The involvement of an extortion group adds urgency for affected companies to revoke compromised tokens and audit Salesforce access logs immediately. This demonstrates how breaches ",
+      "image": null,
+      "processedAt": "2026-06-23T09:52:51.132115+00:00"
+    },
+    {
+      "id": "art-420d87fc",
+      "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
+      "summary": "Attackers are actively exploiting a security flaw in the Gravity SMTP WordPress plugin that allows them to access sensitive information without needing to log in. This vulnerability affects approximately 100,000 websites using the plugin. The flaw enables unauthorized users to extract data that should be protected, creating a significant risk for affected site owners.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "wordpress-plugin",
+        "information-disclosure",
+        "unauthenticated-access",
+        "gravity-smtp",
+        "active-exploitation",
+        "patch-required"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to 100,000 websites because attackers can extract sensitive information without authentication, potentially exposing credentials, configuration details, or user data. The active exploitation means attackers are already targeting this flaw in the wild, making prompt patching essential for affected site administrators.",
+      "image": null,
+      "processedAt": "2026-06-23T09:52:53.497825+00:00"
+    },
     {
       "id": "art-d61b27e3",
       "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
@@ -826,212 +1031,6 @@
       "whyItMatters": "Leaked developer credentials like GitHub tokens can grant attackers direct access to source code, intellectual property, and deployment pipelines, potentially affecting software integrity across an organization's products. This case illustrates that treating secrets management as purely a technical tooling problem misses the broader identity governance failures that enable breaches. Organizations ",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta7151b99725c6823/6a342d9a0da29c8273ce5feb/novonordisk_gguy_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-06-21T09:57:38.267078+00:00"
-    },
-    {
-      "id": "art-70512d96",
-      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-20",
-      "originalUrl": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
-      "summary": "A security vulnerability in the Gravity SMTP WordPress plugin is being actively exploited by attackers to steal sensitive information like API keys and OAuth tokens from thousands of websites. The flaw, identified as CVE-2026-4020, allows unauthorized users to access configuration data without needing to log in. Although the plugin developers have released a patch, many of the approximately 100,000 sites using this plugin remain at risk if they haven't updated yet.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "wordpress-plugin",
-        "api-key-exposure",
-        "cve-2026-4020",
-        "information-disclosure",
-        "patch-available",
-        "mass-exploitation"
-      ],
-      "whyItMatters": "This vulnerability affects a large number of websites and exposes critical credentials that attackers can use to compromise email systems and gain further access to organizations. The active exploitation means websites are already under attack, making immediate patching essential for site owners to prevent data theft and potential account takeovers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjL1kN23KhnFjdjHcR0i-iySK1Zv-kkApPs6yBq11670ubXx0NiAbgDMoYSfwQNyq9asso5AG9KcPRXEL4LU8-BmcsC0Q_1YIYDfY89hIFd_hSNJ2yZJRAO5l6JaQbpItuI8cpwIvNDBOqNfc-0d1DMv_DOh04J5_2EvpEcxCtoQUziipbjfNod-tzdH1__/s1600/1000082862.jpg",
-      "processedAt": "2026-06-20T19:05:24.593654+00:00"
-    },
-    {
-      "id": "art-3baa280d",
-      "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-17",
-      "originalUrl": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-      "summary": "A threat actor is running a sophisticated crypto-stealing campaign that uses fake reviews, AI-generated narration, and deceptive promotion across legitimate platforms to distribute malware. The operation includes a WordPress phishing site as a command center, along with fake accounts on GitHub and SourceForge, plus a YouTube channel designed to build credibility and lure victims. This multi-platform approach shows how attackers exploit trust in legitimate services to spread financial theft malware.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "crypto-theft",
-        "phishing",
-        "malware-distribution",
-        "social-engineering",
-        "fake-reviews",
-        "credential-theft"
-      ],
-      "whyItMatters": "This campaign demonstrates an evolving threat where attackers combine legitimate platforms with AI and fake credentials to bypass security awareness, making it harder for users to distinguish legitimate from malicious content. The use of established services like GitHub, SourceForge, and YouTube for malware distribution shows attackers' ability to weaponize trusted platforms, requiring users and o",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbbJOofP7P7zruPGvktMERgtQqGnu5msB1iDGyfukJA9g72QHXmHx9eJNbQaF7VIGcUqB76e5bGpnBnfg9AE4-F5kJQnY2fKtfHoi9zggEgteLN6rpYJeYE2nPlHFHWfj58a_DmklTT0x0GcWmRAxJsVGeysX9CUadCIygZTpDzBxCWZ4HvrPqhPwQy6Ng/s1600/scam.jpg",
-      "processedAt": "2026-06-20T19:05:28.119825+00:00"
-    },
-    {
-      "id": "art-eda3c2c8",
-      "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-17",
-      "originalUrl": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
-      "summary": "Microsoft has identified a privilege escalation vulnerability in its Malware Protection Engine used by Microsoft Defender, assigned CVE-2026-50656 with a CVSS score of 7.8. The company has confirmed it is actively developing a patch to fix this zero-day flaw. This vulnerability could allow attackers to gain elevated system privileges on affected machines.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "privilege-escalation",
-        "microsoft-defender",
-        "cve-2026-50656",
-        "patch-development",
-        "malware-protection-engine"
-      ],
-      "whyItMatters": "This zero-day affects a critical security tool millions rely on for malware protection, making systems potentially vulnerable until patches are applied. Organizations need to prioritize deploying the patch once released to prevent attackers from exploiting this flaw to gain administrative access to defended systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy3ayOlDb3vsL747G9hStxxjTd3N5i2u8hegcT_hTs4RlNqylS_HyYH4mGLQEavD-QwH3G4l-p2tE5xrXoeK-Btj5YjbENpZcnqRZ7mXCjnJgqHKaoqyE3I3yqy3tYxafbDGNOMrDsvTnJ8UKkn7DDQ8PY_sQNZI6TsNTV0lOmSqs1uxUKm3pgpmkSDpeZ/s1600/ms-patch.jpg",
-      "processedAt": "2026-06-20T19:05:30.860992+00:00"
-    },
-    {
-      "id": "art-e535f0d7",
-      "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-17",
-      "originalUrl": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-      "summary": "A French-speaking attacker infiltrated a small French automotive company, stealing banking and email credentials after deploying a keylogger. Before his command-and-control server was taken offline, the attacker strategically installed OpenSSH and Tailscale on the victim's machine to maintain persistent access independent of the C2 infrastructure. This technique demonstrates how attackers create backup access methods to survive the failure or disruption of their primary communication channels.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "persistent-access",
-        "command-and-control",
-        "credential-theft",
-        "lateral-movement",
-        "backdoor-tactics"
-      ],
-      "whyItMatters": "This case illustrates an important post-compromise tactic where attackers establish redundant access methods before their primary infrastructure fails, making incident response and containment significantly harder. Understanding how attackers use legitimate tools like Tailscale and OpenSSH for backdoor purposes helps defenders identify and block these covert channels during investigations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN4ptzzF7u-dzNyOc4F1HsCUbEszvkkeD1ZVl7MHQNXXcUtgqb40Wgodu3aj61QDzaNsX0eJjRDGK1eNJLCbud-4iWHJjnpHPuCfTak2m9UydSW4DEJErr5L2V_KwD39P__6iVxgaOhH8mYtY2LhPFnyCavP8eJ_1N3QpGo4NkZaFJYVRc-LX0droem8Q/s1600/cyber.jpg",
-      "processedAt": "2026-06-20T19:05:33.386556+00:00"
-    },
-    {
-      "id": "art-ce8f0309",
-      "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-17",
-      "originalUrl": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
-      "summary": "Security teams face a critical challenge: they have plenty of visibility into potential threats, but struggle to determine which findings actually deserve immediate attention and resources. The real problem isn't finding vulnerabilities anymore—it's confidently prioritizing them when teams have incomplete information and limited time. Adversarial exposure validation helps teams validate their findings and make smarter decisions about where to focus their security efforts.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "vulnerability-prioritization",
-        "security-visibility",
-        "risk-validation",
-        "exposure-management",
-        "threat-assessment"
-      ],
-      "whyItMatters": "Alert fatigue and false positives waste security resources while potentially causing teams to miss genuine threats. By improving validation of security findings, organizations can focus limited team capacity on real risks rather than investigating every alert, directly improving both operational efficiency and actual security outcomes.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_8P-dioPWCAX94ha33KAWjvP0RvBHHCxI4ZAMnMHYY66XUQUFK_FZFkQJ3nW8XYlG6U5GxLL-o21CvZFNeOkZsHH41KlaVGYR3Ne26PZjeyK318yCFpZnxqFgp-e7qU1XitrcF7ODwc1znYAw2r2MioIePdJs4eQdHMmdBEmDqbq-YicStLUsU1_842g/s1600/breachlock.jpg",
-      "processedAt": "2026-06-20T19:05:36.176331+00:00"
-    },
-    {
-      "id": "art-d7a87d67",
-      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
-      "summary": "A new ransomware group called Prinz Eugen has emerged with a distinctive targeting strategy that focuses on encrypting recently modified files rather than entire systems. Unlike typical ransomware operations, this group does not leave a ransom note on infected systems, which may complicate victim identification and response. This approach suggests the attackers are using a selective encryption method, potentially to evade detection or speed up their attacks.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "prinz-eugen",
-        "file-encryption",
-        "recent-files",
-        "threat-intelligence"
-      ],
-      "whyItMatters": "Understanding Prinz Eugen's selective encryption approach helps defenders recognize a new attack pattern that may bypass traditional backup recovery strategies and detection systems. The absence of a ransom note makes attribution and incident response more difficult, requiring organizations to implement robust file integrity monitoring and backup strategies. This threat highlights the need for sec",
-      "image": null,
-      "processedAt": "2026-06-20T19:05:39.149836+00:00"
-    },
-    {
-      "id": "art-71cbaeb3",
-      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
-      "summary": "Microsoft discovered that North Korean hackers from the Sapphire Sleet group (also called BlueNoroff) launched a supply chain attack targeting the npm package ecosystem, compromising over 140 software packages. This attack demonstrates how threat actors are infiltrating popular code repositories to distribute malware to thousands of developers and applications. The incident highlights the growing risk of supply chain vulnerabilities where attackers target widely-used software components rather than individual organizations.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-packages",
-        "north-korea",
-        "sapphire-sleet",
-        "malware-distribution",
-        "software-security"
-      ],
-      "whyItMatters": "Supply chain attacks are particularly dangerous because a single compromised package can affect thousands of downstream users and applications across organizations globally. This incident shows that nation-state actors are actively targeting open-source repositories, making it critical for developers to verify package integrity and for organizations to implement strict dependency management practi",
-      "image": null,
-      "processedAt": "2026-06-20T19:05:42.250151+00:00"
-    },
-    {
-      "id": "art-978f6dae",
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "summary": "The Gentlemen ransomware group has rapidly become the second most active ransomware operation by targeting victim count, using an attractive affiliate model that offers 90% of ransom payments to incentivize skilled hackers to join their operation. The article investigates evidence that may reveal the real-world identity of the group's administrator, highlighting how financial incentives are driving recruitment in the cybercrime ecosystem.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "cybercrime",
-        "affiliate-model",
-        "threat-actor",
-        "extortion",
-        "recruitment"
-      ],
-      "whyItMatters": "Understanding how ransomware groups operate and attract talent helps organizations anticipate attack strategies and prepare defenses against increasingly sophisticated threat actors. The Gentlemen's aggressive growth and generous payout structure indicate a well-funded, serious threat that organizations need to monitor closely for potential targeting and compromise.",
-      "image": null,
-      "processedAt": "2026-06-20T19:05:44.910633+00:00"
-    },
-    {
-      "id": "art-b043c7fd",
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-18",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "summary": "A CISA contractor accidentally left a public GitHub repository containing sensitive AWS GovCloud credentials and internal documentation exposed to the internet. The leaked materials included details about CISA's software development, testing, and deployment processes, representing a significant security failure for a U.S. government cybersecurity agency. The repository was discovered and removed over the weekend, but the incident highlights how even high-profile organizations can make critical credential management mistakes.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "credential-exposure",
-        "cloud-security",
-        "github-leak",
-        "aws-govcloud",
-        "insider-threat",
-        "government-breach"
-      ],
-      "whyItMatters": "This breach demonstrates that privileged credentials and internal infrastructure details belonging to a top U.S. cybersecurity agency were publicly accessible, potentially compromising sensitive government systems and providing adversaries with detailed knowledge of CISA's operations. The incident underscores the critical importance of secret management tools, automated credential scanning in repo",
-      "image": null,
-      "processedAt": "2026-06-20T19:05:47.983284+00:00"
-    },
-    {
-      "id": "art-750a4798",
-      "title": "Patch Tuesday, May 2026 Edition",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-12",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "summary": "Major software companies including Apple, Google, Microsoft, Mozilla, and Oracle are releasing record-breaking numbers of security patches this month. AI systems have become surprisingly effective at identifying vulnerabilities in computer code, even though they can be manipulated through social engineering. This surge in bug fixes reflects the growing capability of artificial intelligence to detect security flaws that humans might miss.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patch-tuesday",
-        "ai-security",
-        "vulnerability-detection",
-        "software-updates",
-        "security-patches"
-      ],
-      "whyItMatters": "The combination of AI-accelerated vulnerability discovery and mass patch releases indicates both progress and urgency in fixing critical flaws across widely-used platforms. Organizations must prioritize applying these patches quickly, as the high volume suggests serious vulnerabilities are being addressed. This trend demonstrates that AI is fundamentally changing the pace and scale of security res",
-      "image": null,
-      "processedAt": "2026-06-20T19:05:50.550118+00:00"
     }
   ]
 }
