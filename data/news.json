@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-06-26T09:37:26.709569+00:00",
+  "lastUpdated": "2026-06-26T19:25:54.506261+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-6b4c7785",
+      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+      "summary": "Cybersecurity researchers at Kaspersky have identified a new malware loader called SharkLoader being used in a campaign dubbed StrikeShark to deliver Cobalt Strike Beacon onto compromised computers. The attacks have targeted diplomatic and government organizations in Indonesia and Taiwan. SharkLoader represents a notable threat because it's a previously unknown malware family designed specifically to deploy advanced attack tools on victim systems.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "sharkloader",
+        "cobalt-strike",
+        "malware-loader",
+        "government-targeting",
+        "asia-targeted"
+      ],
+      "whyItMatters": "This campaign demonstrates how threat actors are developing new malware loaders to deploy established post-exploitation frameworks like Cobalt Strike, making detection harder and attack chains more sophisticated. The targeting of government and diplomatic entities indicates state-level or well-funded threat actors with geopolitical interests. Organizations should monitor for SharkLoader indicators",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnAZNjHSEX7UtabbKNVn68uohH8pK5LKuU2CgckZTJowWHxYmEjx9ROquO9tFsThy-3_759_ko2TQEX4Wm3PI1Y-opfzyeAzW8Tni0-gz2YMtPMln9XQRzcKq1mviZSTW7MNShxVRhbuUXBSuNGTNStlwj_NCfFsyrptpXvkLNt5CUfARwENz0IshNDma/s1600/shark.jpg",
+      "processedAt": "2026-06-26T19:25:29.298913+00:00"
+    },
+    {
+      "id": "art-38520edf",
+      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+      "summary": "A Chinese-speaking hacking group known as CL-STA-1062 has created and deployed a new backdoor tool called TinyRCT to attack government agencies and critical infrastructure operators in Southeast Asia. The attacks specifically target state-owned energy companies and government entities, giving attackers remote control capabilities. This campaign highlights ongoing threats to essential services in the region and demonstrates how attackers develop custom tools to avoid detection.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "apt",
+        "backdoor",
+        "chinese-threat-actor",
+        "southeast-asia",
+        "critical-infrastructure",
+        "remote-access"
+      ],
+      "whyItMatters": "Attacks on critical infrastructure like energy sectors can have severe real-world consequences, from service disruptions to national security risks. The development of custom backdoors like TinyRCT shows adversaries are actively evolving their toolkits to bypass existing security measures. Organizations in Southeast Asia and similar regions must strengthen defenses and monitor for signs of this sp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsYcZgd4WIkN0k-b4_j7JxBgi0R0dzj0jSwSWVgItyIy88VoZK5z8BAiwjmYnou7YLrNuckCgQvnHXV2KYHoNS8WRZbjU1MP5HqvLKkIakvRVuJio7oZeUbi1XsgQVmJ-cDKKWeOzgGouUAzUtJrFRu8CtPQJG-eXCy7aSOx_fyCvGK2tRl12tBbPG7YC/s1600/tinyrct.jpg",
+      "processedAt": "2026-06-26T19:25:31.886723+00:00"
+    },
+    {
+      "id": "art-60e59b2e",
+      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+      "summary": "A critical Linux kernel vulnerability called CVE-2026-46331, or 'pedit COW,' allows unprivileged local users to gain root-level access by exploiting a flaw in the traffic-control subsystem. This out-of-bounds write vulnerability corrupts shared memory pages used by the system, and a working exploit was publicly released within a day of the CVE announcement. The flaw poses an immediate risk to Linux systems that haven't been patched.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "privilege-escalation",
+        "local-exploit",
+        "root-access",
+        "patch-urgent",
+        "memory-corruption"
+      ],
+      "whyItMatters": "This vulnerability is critical because any local user can exploit it to gain full system control without special privileges, making it a severe risk for multi-user systems and shared hosting environments. The rapid public availability of a working exploit means attackers can weaponize this flaw immediately, creating urgent pressure for system administrators to patch affected Linux systems before e",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBWN46D03nuGH8FWFxZD7Ax6T3Wvmf5bt3WrqjghU6ZJU65L6pfoPjt2fVw4-dGXfyEx8fkygfYUftIDlMpPaRcegTEH6eL58nSyiFvbbg5A0GxtFTIhwQUIj16DF-vIqiH2B6jnC7C3DebkJja3v6ayIjOF-eY5DoDL9qef319S3m4ny2lnodtc1WeE59/s1600/linux-cow.jpg",
+      "processedAt": "2026-06-26T19:25:34.843161+00:00"
+    },
+    {
+      "id": "art-aaa98b9d",
+      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "summary": "Amazon Q Developer contained a high-severity vulnerability that allowed malicious repositories to execute commands and steal developer credentials through improper handling of Model Context Protocol servers. The attack required minimal user interaction—a developer simply had to open a compromised repository and trust the workspace for the exploit to work. Amazon has already released a patch to fix the flaw, tracked as CVE-2026-12957.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "cloud-security",
+        "credential-theft",
+        "code-execution",
+        "patch-available"
+      ],
+      "whyItMatters": "This vulnerability highlights a critical risk in AI-assisted development tools where trusting a workspace can inadvertently grant malicious code access to sensitive cloud credentials. Developers using Amazon Q need to understand that repository trust decisions carry security implications beyond traditional code review, making this a practical reminder to verify source trustworthiness and apply sec",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg",
+      "processedAt": "2026-06-26T19:25:37.464903+00:00"
+    },
+    {
+      "id": "art-e69afb62",
+      "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+      "summary": "CISA has officially listed a critical remote code execution vulnerability affecting PTC Windchill PDMlink and PTC FlexPLM software in its Known Exploited Vulnerabilities catalog. This vulnerability is actively being exploited by attackers, who are using web shells to maintain unauthorized access to affected systems. Organizations using these enterprise product data management tools need to prioritize patching to prevent potential compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce-vulnerability",
+        "ptc-windchill",
+        "active-exploitation",
+        "web-shell-attacks",
+        "patch-urgent",
+        "cisa-kev"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat because it is actively exploited in real-world attacks with web shell persistence, meaning attackers can maintain long-term access to critical enterprise systems. Organizations running PTC Windchill or FlexPLM must treat this as a priority patch to prevent data theft, operational disruption, and supply chain compromise. The inclusion in CISA's KEV catal",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzGOpsiL9b-uwhocEgzazTFR251KJL6pnZAVCmzty7Nx0uR-vZ9r2-WP95IrRaKJtFoUxmBFbqrkt31Yn2MTmD0bZAaPFTlmDfHxRURuWSsRzeTWHmyZF93QR94AOrSkbLnBYEQtVGJxI5VlRinwq8cLnEVCmGWk6wCnL1zpW_LbbZ-3-yTSdAmZ-0tqO6/s1600/ptc.jpg",
+      "processedAt": "2026-06-26T19:25:40.271183+00:00"
+    },
+    {
+      "id": "art-a9f3b48d",
+      "title": "Polymarket customers lose $3 million in supply-chain attack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
+      "summary": "Polymarket, a cryptocurrency prediction platform, suffered a supply-chain attack where hackers compromised a third-party vendor and injected malicious code into the platform's frontend. The attack resulted in approximately $3 million in customer losses, though the company committed to reimbursing affected users. This incident highlights how attackers can exploit trusted vendors to gain access to high-value targets.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "supply-chain-attack",
+        "malware-injection",
+        "third-party-breach",
+        "frontend-compromise",
+        "cryptocurrency-security"
+      ],
+      "whyItMatters": "Supply-chain attacks are particularly dangerous because they exploit trust relationships and can affect numerous organizations through a single compromised vendor. This incident demonstrates that even financial platforms with security measures remain vulnerable if their trusted partners are compromised, making vendor security assessment critical for risk management.",
+      "image": null,
+      "processedAt": "2026-06-26T19:25:43.151185+00:00"
+    },
+    {
+      "id": "art-1d441423",
+      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
+      "summary": "Attackers are setting up fake OpenAI organization accounts that pretend to be real companies and then inviting employees to join them. The goal is to trick workers into sharing sensitive business information through chat conversations and collaborative projects on these fraudulent platforms. This social engineering attack exploits people's trust in well-known services like OpenAI.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "social-engineering",
+        "openai",
+        "impersonation",
+        "credential-theft",
+        "ai-security"
+      ],
+      "whyItMatters": "This threat demonstrates how attackers are weaponizing legitimate AI platforms to conduct targeted attacks against security-conscious organizations, making it a sophisticated social engineering risk that bypasses traditional security controls. Employees may lower their guard when interacting with what appears to be a trusted service, making data exfiltration easier. Organizations need to train sta",
+      "image": null,
+      "processedAt": "2026-06-26T19:25:46.185192+00:00"
+    },
+    {
+      "id": "art-a991fe74",
+      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
+      "summary": "This article explores how artificial intelligence can assist Governance, Risk, and Compliance (GRC) professionals by automating repetitive tasks rather than replacing them entirely. The author demonstrates building an AI agent that automatically monitors security controls, detects missing compliance evidence, and generates remediation tasks to improve organizational security posture. This approach helps GRC teams work more efficiently and focus on higher-level strategic decisions.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "grc-automation",
+        "ai-agents",
+        "compliance-monitoring",
+        "security-controls",
+        "remediation-tasks"
+      ],
+      "whyItMatters": "As organizations struggle with manual GRC processes, AI-powered automation can significantly reduce the time spent on routine compliance checks and evidence collection. This allows security teams to identify and address control gaps faster while freeing analysts to focus on complex risk assessment and strategic initiatives. Understanding how to leverage AI agents in GRC workflows is increasingly i",
+      "image": null,
+      "processedAt": "2026-06-26T19:25:48.917078+00:00"
+    },
+    {
+      "id": "art-3db87300",
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-01",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "summary": "Hackers exploited Meta's AI support assistant to reset passwords and take over high-profile Instagram accounts, including those belonging to the Obama White House and U.S. Space Force leadership. Instructions for this attack were shared on Telegram, allowing attackers to trick the AI bot into performing unauthorized account recovery actions. The compromised accounts were defaced with pro-Iranian content before being secured again.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "account-takeover",
+        "social-engineering",
+        "instagram",
+        "meta",
+        "authentication-bypass"
+      ],
+      "whyItMatters": "This attack demonstrates a critical vulnerability in AI-powered customer support systems that can be manipulated to bypass security controls, affecting even high-value government accounts. When attackers publicly share exploitation techniques, it enables widespread account takeovers affecting millions of users. Organizations must immediately audit AI support systems for social engineering vulnerab",
+      "image": null,
+      "processedAt": "2026-06-26T19:25:51.530775+00:00"
+    },
+    {
+      "id": "art-1e32a50a",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "summary": "Dutch authorities arrested two men who owned internet hosting companies that provided infrastructure for Russian cyberattacks and disinformation campaigns targeting the European Union. The companies had taken control of technical systems previously operated by a sanctioned Russian ISP. This operation resulted in the seizure of 800 servers used to support hostile cyber operations.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "state-sponsored-attacks",
+        "infrastructure-disruption",
+        "eu-security",
+        "russia-cyber-operations",
+        "hosting-abuse"
+      ],
+      "whyItMatters": "This case demonstrates how critical infrastructure providers can be exploited to enable state-sponsored cyberattacks and disinformation at scale. The seizure disrupts active Russian cyber operations and shows law enforcement's increasing ability to identify and prosecute those facilitating hostile state activities. Organizations should scrutinize their service providers and hosting partners to ens",
+      "image": null,
+      "processedAt": "2026-06-26T19:25:54.506114+00:00"
+    },
     {
       "id": "art-bfbfb07f",
       "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
@@ -820,211 +1025,6 @@
       "whyItMatters": "This case demonstrates how botnets can operate at scale while concealed within established commercial services, making it harder for consumers to identify compromised devices and for law enforcement to disrupt operations. The connection between a publicly-traded company and botnet infrastructure highlights risks in supply chains and the importance of vetting proxy services and connected devices fo",
       "image": null,
       "processedAt": "2026-06-24T19:23:45.688172+00:00"
-    },
-    {
-      "id": "art-b9e7e9f0",
-      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-      "summary": "The U.S. Department of Justice seized a cloud computing account belonging to Huione Group subsidiaries, which were allegedly used to launder money from cybercriminal activities. The Treasury also announced sanctions against nine individuals and 26 entities connected to the Prince Group. This action demonstrates how cloud services can be exploited for financial crime and the government's effort to disrupt money laundering networks that support cyber scams.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "money-laundering",
-        "cloud-security",
-        "law-enforcement",
-        "financial-crime",
-        "cybercriminal-networks"
-      ],
-      "whyItMatters": "This case highlights how legitimate cloud infrastructure can be compromised to facilitate money laundering for cybercriminals, making it a critical concern for cloud providers and users. It demonstrates that law enforcement is actively targeting the financial infrastructure supporting cyber scams, which can disrupt entire criminal ecosystems. Organizations should review their cloud account securit",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwWpkKj6KRX5Q7jeH07PFaANRRfRbl_CdrBEZ0cypjUg2UBsy49GSGNAOXF74dDez1H9xz_FXTMWh1lziO6f1Q0xrhjZRICtxmzQQJruQoQ8fk33kgTacTn5Y0BrNHmkHfLy3iC4s2oEL7H2CRCaBTcbLBqCbg3jcSFfHTSYiIa_RZV49sE58GCHOWorXJ/s1600/cybercrime.jpg",
-      "processedAt": "2026-06-24T09:39:47.111664+00:00"
-    },
-    {
-      "id": "art-c41672b5",
-      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
-      "summary": "Attackers are actively exploiting a critical vulnerability in Cisco's Unified Communications Manager that allows unauthenticated remote access through improper input validation in HTTP requests. The flaw, identified as CVE-2026-20230 with a CVSS score of 8.6, reportedly enables file-write operations that could lead to root-level access. This exploit demonstrates how quickly threat actors move to weaponize newly disclosed vulnerabilities affecting widely-used enterprise communication systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cve-2026-20230",
-        "cisco-unified-cm",
-        "remote-code-execution",
-        "unauthenticated-access",
-        "active-exploitation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Cisco Unified CM is a core infrastructure component in many organizations' communication systems, making this active exploitation a widespread threat to business continuity. The vulnerability's unauthenticated nature and root-access potential means organizations cannot rely on network perimeter controls alone, requiring immediate patching to prevent system compromise. The rapid weaponization demon",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivauBSNOsDqBHvUFSnF1NdlWJ8BAt2JVgIo_ZUQhBkVppSz0PvkEmrc9RP1hMf2-oFFRgr5PNm7pxLmPngAJHcxV6-F3e43bEqmdEg38013JmlUKDlGVOLQTj6bYbyk_R7WXBqbW3o2yPHdosqz7nncLivqDqXGAuiTFcHkPqiVPBJuDHlsvYWtEreVmk_/s1600/cc.jpg",
-      "processedAt": "2026-06-24T09:39:50.275112+00:00"
-    },
-    {
-      "id": "art-8c5098d3",
-      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-      "summary": "A Russian-speaking cybercriminal group has launched a massive credential-harvesting campaign called FortiBleed targeting over 430,000 FortiGate firewalls worldwide since February 2026. The attackers are collecting login credentials, scanning for exposed services, and using brute-force attacks to break into vulnerable systems. This operation has already compromised approximately 110 million credentials, making it a widespread threat to organizations relying on FortiGate security devices.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "credential-harvesting",
-        "fortigate",
-        "brute-force",
-        "initial-access-broker",
-        "large-scale-attack",
-        "network-security"
-      ],
-      "whyItMatters": "FortiGate firewalls are critical infrastructure components used by thousands of organizations globally, so a breach affecting 430,000+ devices represents an enormous attack surface. Harvested credentials can be used for lateral movement, data theft, and deploying ransomware, creating cascading risks across entire networks. Organizations must immediately audit their FortiGate systems for compromise",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJkhDD5qINhfAhBFXG2C13raQF6T6zAOmnHlArhnLUP5z0ifBzpyq6M_4n11cgynQfZW0mxJWnYU-TDYSpKQHYFHvXsZHCB7uoMFg0w02yZILY-JLMm2-uqm-CA_wIqZHhzl25FfO_lMd7dYm6VfprDP83bz_SoB3MWLEc059E4YCa554bba-qWHW5udHv/s1600/fortigate.jpg",
-      "processedAt": "2026-06-24T09:39:53.220270+00:00"
-    },
-    {
-      "id": "art-19dc36e2",
-      "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "summary": "Researchers at Paradigm Shift have released a working exploit called usbliter8 that allows attackers to run unauthorized code on Apple's A12 and A13 chips at the most fundamental level—the SecureROM burned into the silicon during manufacturing. Since this code is permanently embedded in the hardware, no software update can ever fix it, meaning affected iPhones and iPads will remain vulnerable for their entire lifetime. The exploit requires physical access, so it is not a remote attack but poses a serious threat to device security.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "apple-security",
-        "hardware-vulnerability",
-        "securerom",
-        "unpatchable",
-        "a12-a13-chips",
-        "physical-access"
-      ],
-      "whyItMatters": "This vulnerability is significant because it demonstrates a permanent flaw in Apple's hardware security architecture that cannot be remedied through updates, affecting millions of older iPhones and iPads indefinitely. While it requires physical device access, threat actors with direct access to affected devices can now bypass the SecureROM boot chain protections entirely. Understanding this vulner",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIM725Ni41-PBwM_6zXNdsydP1eZO7oSsWIlAqpwdOu9dOcZM6ZI1iaqwSsL3yZKT4lbFRM-eZVq3ARKDbLRnid1pJ0Us3XX135nD0tV71gb1lnADzig_vE9c6CAiJdlJ-Wco11InBKUyGX9V5nRFn9qZxuxeJKCzsCV4tQTfFIgU3F05Wnp2VfsxyTPs/s1600/apple-chip.jpg",
-      "processedAt": "2026-06-24T09:39:56.329130+00:00"
-    },
-    {
-      "id": "art-ea3507e5",
-      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-19",
-      "originalUrl": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "summary": "The Gentlemen ransomware group has developed an advanced framework called GentleKiller that targets and disables over 400 different security tools before launching ransomware attacks. This toolkit is distributed to their criminal affiliates to help them bypass endpoint defenses and increase the success rate of their attacks. The sophistication of this EDR-killing capability demonstrates how organized ransomware operations are becoming more advanced and coordinated.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware-as-a-service",
-        "edr-killer",
-        "gentlemen-raas",
-        "endpoint-defense",
-        "gentlekiller",
-        "ransomware-attack"
-      ],
-      "whyItMatters": "Organizations need to understand that standard EDR solutions may be actively targeted and disabled by sophisticated threat actors before ransomware deployment, making multi-layered defenses and backup strategies essential. The emergence of purpose-built EDR killers distributed through RaaS operations represents a significant escalation in the threat landscape that directly impacts the effectivenes",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjNWtaK_WkFnKnaLTIwg043i_I6YVi5XuZGVzh30SGeK-iutwr6t2Ed3S6Qk0V9uykYueDD5WETtQ4sW1QwG4jldPXW_IM2woF1Dk1PXcNxbwv6sgoprJ6m8pmogRc0vblucj3nf6Tox_ptxOX9bib6iO4bV4SXVVFoVzUGw0C8cSiJEvq3nDgUZ36G9xp/s1600/edr-killer.jpg",
-      "processedAt": "2026-06-24T09:39:59.317598+00:00"
-    },
-    {
-      "id": "art-26fa90f5",
-      "title": "Cisco Unified CM flaw CVE-2026-20230 now exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisco-unified-cm-sme-flaw-cve-2026-20230-now-exploited-in-attacks/",
-      "summary": "Cisco Unified Communications Manager Server has a serious security flaw called CVE-2026-20230 that allows attackers to bypass security controls and access systems they shouldn't be able to reach. This vulnerability is classified as high-severity and is actively being exploited by attackers in real-world attacks. Organizations using this software need to apply security updates immediately to protect their communication infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco",
-        "ssrf-vulnerability",
-        "active-exploitation",
-        "patch-required",
-        "unified-communications",
-        "infrastructure-threat"
-      ],
-      "whyItMatters": "Active exploitation of this SSRF vulnerability in Cisco Unified CM puts organizations at immediate risk of unauthorized access to their communication systems and potential lateral movement within networks. Rapid patching is essential because attackers are already weaponizing this flaw, making it a top priority for security teams managing enterprise communication infrastructure.",
-      "image": null,
-      "processedAt": "2026-06-24T09:40:01.965025+00:00"
-    },
-    {
-      "id": "art-b5bb4dd4",
-      "title": "Tata Electronics confirms cyberattack as hackers leak data",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/tata-electronics-confirms-cyberattack-as-hackers-leak-data/",
-      "summary": "Tata Electronics publicly acknowledged that attackers successfully compromised portions of its IT infrastructure and stole sensitive data. The company's confirmation came after evidence of the breach surfaced, indicating that hackers were able to access and exfiltrate company information. This incident highlights how large multinational technology firms remain vulnerable to coordinated cyber attacks despite their security investments.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "tata-electronics",
-        "incident-response",
-        "infrastructure-compromise",
-        "data-exfiltration"
-      ],
-      "whyItMatters": "This breach demonstrates that even established technology companies with substantial resources can fall victim to sophisticated cyberattacks, underscoring the need for continuous security vigilance and threat detection. The public data leak sets a precedent for accountability and transparency in breach reporting, which is critical for stakeholders and customers to assess their own risk exposure.",
-      "image": null,
-      "processedAt": "2026-06-24T09:40:04.920631+00:00"
-    },
-    {
-      "id": "art-2f1d61c0",
-      "title": "Windows 11 KB5095093 update rolls out new Point-in-Time restore feature",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5095093-update-rolls-out-new-point-in-time-restore-feature/",
-      "summary": "Microsoft has released a preview update (KB5095093) for Windows 11 that addresses multiple bugs and introduces a new Point-in-Time restore feature. This update is available for Windows 11 versions 24H2 and 25H2, allowing users to recover their systems to previous states more effectively. The new restore capability enhances system recovery options for users dealing with software conflicts or system failures.",
-      "category": "Patching and Updates",
-      "severity": "Low",
-      "tags": [
-        "windows-update",
-        "system-recovery",
-        "patch-release",
-        "point-in-time-restore"
-      ],
-      "whyItMatters": "Regular security patches and system updates are critical for maintaining Windows security and stability. New recovery features like Point-in-Time restore provide users with better protection against data loss and system corruption, reducing downtime and improving overall system resilience.",
-      "image": null,
-      "processedAt": "2026-06-24T09:40:07.199835+00:00"
-    },
-    {
-      "id": "art-0a4a1577",
-      "title": "Healthtech firm Xolis suffers data breach impacting 1.4 million people",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/healthtech-firm-xolis-suffers-data-breach-impacting-14-million-people/",
-      "summary": "Healthtech company Xolis experienced a significant data breach affecting approximately 1.4 million individuals through a phishing attack. Attackers used phishing tactics to gain unauthorized access to the company's network, compromising sensitive personal and healthcare information. This incident highlights how social engineering remains an effective entry point for large-scale data theft in the healthcare sector.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "data-breach",
-        "healthcare",
-        "social-engineering",
-        "credential-compromise"
-      ],
-      "whyItMatters": "This breach demonstrates how phishing attacks can bypass technical defenses to compromise millions of healthcare records, exposing individuals to identity theft and fraud. For organizations, it reinforces the critical need for robust email security, employee security awareness training, and network segmentation to limit attacker access even after successful credential compromise.",
-      "image": null,
-      "processedAt": "2026-06-24T09:40:09.538070+00:00"
-    },
-    {
-      "id": "art-5a6bc9f2",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their roles in an August 2024 cyberattack that disrupted London's public transport system. The guilty pleas on the first day of trial shortened what was expected to be a lengthy legal proceeding. This case demonstrates that law enforcement is successfully identifying and prosecuting members of sophisticated cybercrime organizations.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "scattered-spider",
-        "cybercrime",
-        "ransomware",
-        "critical-infrastructure",
-        "uk-prosecution",
-        "organized-cybercrime"
-      ],
-      "whyItMatters": "This prosecution shows that even members of sophisticated international cybercrime groups face real legal consequences, which can deter future attacks on critical infrastructure. The Scattered Spider group has been responsible for multiple high-profile attacks affecting essential services, making their prosecution important for public safety. Successful prosecutions also provide intelligence about",
-      "image": null,
-      "processedAt": "2026-06-24T09:40:12.569872+00:00"
     }
   ]
 }
