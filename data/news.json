@@ -1,7 +1,211 @@
 {
-  "lastUpdated": "2026-06-28T09:18:50.719821+00:00",
+  "lastUpdated": "2026-06-28T18:59:09.466483+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-89c27d46",
+      "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+      "summary": "A popular YouTube ad blocker extension with over 10 million Chrome users was found to contain hidden code that could execute malicious JavaScript commands. Despite appearing legitimate and even having a Featured badge on the Chrome Web Store, the extension harbors a dormant script injection capability that could be weaponized at any time. This discovery highlights how widely-trusted browser extensions can pose serious security risks even when they seem to serve a genuine purpose.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "browser-extension",
+        "script-injection",
+        "malware",
+        "chrome",
+        "supply-chain-attack"
+      ],
+      "whyItMatters": "Browser extensions with millions of users can be trusted entry points for attackers to compromise user systems at scale. This case demonstrates that even verified and featured extensions on official app stores can contain dormant malicious functionality, making it critical for users to audit their installed extensions and for platforms to strengthen extension vetting processes.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqtdBDQ0Y38i0JZmDwU6XKiZ1R6HJ0KHe59012E0krnPubG5pJgiTg6IUg4fHEzoW5jm7QyEk8fXOL9swj7FlpXdMcjyn0ltziMhQJD2pYPtzjXimsntV8DFg-c1erOgWkLl8du8eBvJYlukTCDDycp5jSmWNfwmv5WwGKlJRJvZt1GvUZZl24dP2HVDkn/s1600/adblocker.jpg",
+      "processedAt": "2026-06-28T18:58:39.611752+00:00"
+    },
+    {
+      "id": "art-1a041976",
+      "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+      "summary": "This week's cybersecurity threats include smart TV proxyware, a critical 24-year-old curl vulnerability, and AI-powered crime forums. The bulletin highlights multiple attack vectors including compromised credentials, malicious applications, browser-based exploits, and phishing campaigns using email workflows. These incidents demonstrate how attackers are exploiting common operational weaknesses rather than sophisticated zero-day exploits.",
+      "category": "Other",
+      "severity": "High",
+      "tags": [
+        "proxyware",
+        "curl-vulnerability",
+        "phishing",
+        "credential-compromise",
+        "ai-crime-forums",
+        "malware"
+      ],
+      "whyItMatters": "Organizations face threats across multiple attack surfaces—from IoT devices to fundamental open-source tools—using both old vulnerabilities and social engineering. The prevalence of reused credentials and compromised applications indicates that basic security hygiene remains the weakest link, making these attacks economical and effective for criminals despite lacking sophistication.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhO1f6pZmhVaPQd2FjrrAG-IbL0vMk7zHVZ6BqjzkzJS8qd7HlAtIJ-7chRUbqR7tZHPNqdZFbm0QL9O03mkW7YsOh0pVwW1_ogikaoxNX8dFd5-ZB4SwB7-tfpWmp9Hr22DJL6tzZgTdeFnCU4VwaZXSY_htGs2_xlaB8n0EOedrfe7wHuI30GXTF6Pofc/s1600/threatsday-june.jpg",
+      "processedAt": "2026-06-28T18:58:42.429260+00:00"
+    },
+    {
+      "id": "art-af802b6b",
+      "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
+      "summary": "Security teams often struggle to investigate incidents effectively despite having access to extensive telemetry and alert data. Richard Bejtlich argues that moving beyond simple alert-based triage is essential for understanding what actually happened during a security incident. The article discusses how organizations need better context and evidence collection to ensure they're seeing the complete picture during investigations.",
+      "category": "Digital Forensics",
+      "severity": "High",
+      "tags": [
+        "incident-investigation",
+        "security-operations",
+        "network-detection-response",
+        "telemetry",
+        "threat-hunting",
+        "evidence-collection"
+      ],
+      "whyItMatters": "Effective incident investigation is critical for understanding the true scope and impact of security breaches. Organizations that rely solely on alerts without deeper investigation and contextualization risk missing important details that could affect remediation and prevent future attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGC4Kd3HcSGw5TQ1GQNwgQST4imnVTlHZ4yW1dDr_kwUksDH1MHmlPUMzW8LhePZZTM1HszkIQwL8Ggm-cxlXRRMbUdcXbXfQ57FUfzbN4yj1OimJJxQy0XokmSC-lVr4XyFM5b3LqVQ8hMDIqr34xQXHpD0q8FnuR50Rdg19jXFC9xKKtn3Yap5BQhZg/s1600/corelight.jpg",
+      "processedAt": "2026-06-28T18:58:44.958997+00:00"
+    },
+    {
+      "id": "art-8c9a89d2",
+      "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+      "summary": "Security researchers have discovered a new macOS malware called Gaslight, written in Rust, that steals information and includes a novel defense mechanism. The malware embeds prompt injection code designed to manipulate AI-powered malware analysis tools into refusing or stopping their investigation. This represents a new attack strategy where malware developers actively target the AI tools that security analysts use to examine suspicious files.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-malware",
+        "prompt-injection",
+        "ai-security",
+        "information-stealer",
+        "rust-based",
+        "anti-analysis"
+      ],
+      "whyItMatters": "This threat demonstrates an emerging technique where attackers exploit vulnerabilities in AI systems themselves rather than just computer systems, potentially degrading a key defensive capability that analysts rely on. As organizations increasingly adopt AI-assisted security tools, malware designed to circumvent them could significantly delay threat detection and response.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbTrOy7FP80AfVcwyuiLtJx1T9YECQ6fxHaelQKUn3MNwSV9P3tiVq4_-pOB-gmU3lF9GpWnc5ebVSAbp0MZMZpHHZkdpTK_HX40hfg3KbusQS5bD0kRYjYVyRzffkUpWBsblvGULiZnnOj6e0NF-dg49It3Wn8p9WqD2TNEz0ruG1XrnqCckAXqsDAOTn/s1600/ai-full-disk.jpg",
+      "processedAt": "2026-06-28T18:58:47.878394+00:00"
+    },
+    {
+      "id": "art-6ef23535",
+      "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
+      "summary": "A Russian-speaking criminal group has been conducting a massive credential-stealing campaign called FortiBleed since February 2026, targeting over 430,000 FortiGate firewalls worldwide. The attackers harvest credentials, scan for exposed services, and use brute-force techniques to break into systems, potentially compromising over 110 million credentials. This operation demonstrates how critical network infrastructure devices are being systematically exploited for large-scale unauthorized access.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "fortigate",
+        "credential-harvesting",
+        "initial-access-broker",
+        "brute-force",
+        "network-security",
+        "large-scale-attack"
+      ],
+      "whyItMatters": "FortiGate firewalls are essential perimeter security devices protecting entire organizations, so compromising 430,000+ of them represents a massive threat to global infrastructure and countless businesses. Attackers obtaining credentials at this scale can establish persistent backdoor access, move laterally through networks, and launch follow-up attacks like ransomware or data theft. Organizations",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJkhDD5qINhfAhBFXG2C13raQF6T6zAOmnHlArhnLUP5z0ifBzpyq6M_4n11cgynQfZW0mxJWnYU-TDYSpKQHYFHvXsZHCB7uoMFg0w02yZILY-JLMm2-uqm-CA_wIqZHhzl25FfO_lMd7dYm6VfprDP83bz_SoB3MWLEc059E4YCa554bba-qWHW5udHv/s1600/fortigate.jpg",
+      "processedAt": "2026-06-28T18:58:51.098793+00:00"
+    },
+    {
+      "id": "art-a0fb4c50",
+      "title": "Data breach exposes up to 14.2 million email logins at six ISPs",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/",
+      "summary": "Japanese telecommunications company KDDI Corporation experienced a data breach affecting an email system that was shared with five other internet service providers in Japan. Threat actors obtained unauthorized access to the system, potentially exposing email login credentials for up to 14.2 million users. This incident highlights how a single compromised system at one major provider can have cascading impacts across multiple connected organizations.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "isp-compromise",
+        "email-credentials",
+        "multi-organization-impact",
+        "japan"
+      ],
+      "whyItMatters": "When a major telecommunications infrastructure provider is breached, the exposure extends far beyond one company to affect millions of users across multiple ISPs, potentially enabling widespread credential-based attacks and identity theft. Shared systems between providers create single points of failure that can amplify breach impact across entire regions or industries. Organizations should audit ",
+      "image": null,
+      "processedAt": "2026-06-28T18:58:58.093790+00:00"
+    },
+    {
+      "id": "art-c9e4c81a",
+      "title": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/",
+      "summary": "Microsoft has extended its free Extended Security Updates (ESU) program for Windows 10 consumers by one additional year, pushing the support deadline to October 12, 2027. This means users who enrolled in the free ESU program can continue receiving critical security patches for longer than originally planned. The extension gives consumers more time to transition away from Windows 10 before support fully ends.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-10",
+        "extended-security-updates",
+        "patch-management",
+        "esu-extension",
+        "system-updates"
+      ],
+      "whyItMatters": "This extension is practically important because it allows millions of Windows 10 users to maintain security coverage during their migration to newer operating systems, reducing the window of vulnerability for unpatched devices. Organizations and consumers relying on this free support need to know the updated timeline to plan their upgrade strategies effectively and avoid being left without securit",
+      "image": null,
+      "processedAt": "2026-06-28T18:59:01.048921+00:00"
+    },
+    {
+      "id": "art-c8ff6611",
+      "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+      "summary": "A new macOS malware called \"Gaslight\" has been discovered that specifically targets AI-powered malware analysis tools by embedding fake error messages and prompt injection code within itself. This sophisticated approach allows the malware to evade detection by confusing automated analysis systems that rely on artificial intelligence. The malware demonstrates how attackers are evolving their techniques to bypass modern security defenses.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-malware",
+        "ai-evasion",
+        "prompt-injection",
+        "analysis-evasion",
+        "advanced-threat"
+      ],
+      "whyItMatters": "This represents an emerging threat vector where attackers are actively developing countermeasures against AI-based security analysis tools, potentially undermining a key defense mechanism that organizations rely on for threat detection. As more security teams adopt AI-assisted analysis, malware designed to exploit or confuse these systems could significantly reduce detection rates and allow threat",
+      "image": null,
+      "processedAt": "2026-06-28T18:59:03.750995+00:00"
+    },
+    {
+      "id": "art-e121489a",
+      "title": "PirloTV sports piracy network disrupted as 44 domains seized",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/pirlotv-sports-piracy-network-disrupted-as-44-domains-seized/",
+      "summary": "Authorities shut down a major illegal sports streaming operation called PirloTV by seizing 44 domains associated with the piracy network. This enforcement action disrupted a significant cybercrime infrastructure that was distributing copyrighted sports content without permission. The takedown demonstrates ongoing efforts by law enforcement to combat organized digital piracy schemes.",
+      "category": "Cybercrime",
+      "severity": "Medium",
+      "tags": [
+        "piracy",
+        "domain-seizure",
+        "illegal-streaming",
+        "cybercrime",
+        "enforcement"
+      ],
+      "whyItMatters": "This case illustrates how coordinated law enforcement actions target large-scale cybercrime operations and demonstrates the real consequences of participating in organized piracy networks. Understanding how authorities identify and dismantle illegal streaming platforms is important for organizations protecting intellectual property and for users understanding the legal and security risks of unauth",
+      "image": null,
+      "processedAt": "2026-06-28T18:59:06.325347+00:00"
+    },
+    {
+      "id": "art-27f991d7",
+      "title": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/",
+      "summary": "Bluekit, a phishing-as-a-service platform, has significantly upgraded its capabilities by deploying browser-in-the-middle technology that intercepts and steals login credentials more effectively. The threat actors behind Bluekit have expanded their operation with approximately 70 new hostnames identified in just one week, indicating rapid growth and refinement of their attack infrastructure. This evolution allows attackers to capture sensitive authentication data by positioning themselves between users and legitimate websites.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing-kit",
+        "browser-in-the-middle",
+        "credential-theft",
+        "phishing-as-a-service",
+        "login-theft"
+      ],
+      "whyItMatters": "This development demonstrates how phishing attacks are becoming more sophisticated with man-in-the-middle capabilities, making traditional security awareness less effective against these threats. Organizations must implement multi-factor authentication and security monitoring to detect suspicious login patterns, as attackers can now harvest credentials even from users who believe they're accessing",
+      "image": null,
+      "processedAt": "2026-06-28T18:59:09.466320+00:00"
+    },
     {
       "id": "art-ff3b3772",
       "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
@@ -823,207 +1027,6 @@
       "whyItMatters": "This case demonstrates how critical infrastructure providers can be exploited to enable state-sponsored cyberattacks and disinformation at scale. The seizure disrupts active Russian cyber operations and shows law enforcement's increasing ability to identify and prosecute those facilitating hostile state activities. Organizations should scrutinize their service providers and hosting partners to ens",
       "image": null,
       "processedAt": "2026-06-26T19:25:54.506114+00:00"
-    },
-    {
-      "id": "art-bfbfb07f",
-      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
-      "summary": "Russian authorities used Cellebrite's UFED forensic software to access the iPhone of opposition activist Andrey Pivovarov in June 2021, despite Cellebrite announcing it would stop selling to Russia and Belarus three months earlier. The Citizen Lab discovered evidence of this tool use through forensic traces found on the device itself, raising concerns about Cellebrite's ability to enforce sales restrictions and prevent misuse of its powerful hacking capabilities.",
-      "category": "Digital Forensics",
-      "severity": "High",
-      "tags": [
-        "cellebrite",
-        "device-exploitation",
-        "export-controls",
-        "activist-targeting",
-        "forensic-tools",
-        "sanctions-evasion"
-      ],
-      "whyItMatters": "This incident demonstrates that commercial spyware and forensic tools can be used to suppress political opposition and violate human rights despite corporate sales restrictions, highlighting the need for stronger international controls on dual-use surveillance technology. It also reveals gaps in enforcement mechanisms when companies attempt to voluntarily comply with sanctions, underscoring risks ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSVw_gpnELsdqj1fhZXQ6Jm-ycv8RsT1-Q7vfNeyj0_Sd-keBXqrAA9w7Vz8qt0tKM3yXkVPknx8FtRKBGBShrelNUIlZbkoUDdDz4MEeWbStRxJt5ggHFA2LFTv5Lc2g-1VC9L7-HGtWY_8VZMTInbZrXa0UY_oZsu2GUeFDH8VsHnUekF4m64OET3U/s1600/iphone-hack.jpg",
-      "processedAt": "2026-06-26T09:36:59.080429+00:00"
-    },
-    {
-      "id": "art-92a1d9c8",
-      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "summary": "Google has identified a new .NET backdoor called STOCKSTAY deployed by the Russian state-sponsored group Turla against Ukrainian government and military targets, as well as organizations interested in Italian foreign policy. The malware is actively being developed and refined by the threat actor for ongoing espionage operations. This discovery highlights continued cyber threats from state-sponsored actors targeting critical infrastructure and government entities.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "turla",
-        "backdoor",
-        "state-sponsored",
-        "ukraine",
-        "espionage",
-        "dotnet-malware"
-      ],
-      "whyItMatters": "This threat is significant because it demonstrates active state-sponsored cyber espionage targeting critical government and military infrastructure in Ukraine during an ongoing conflict, with potential implications for NATO allies and European security. Organizations handling sensitive government or defense information need to understand this threat to implement appropriate detection and mitigatio",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9SthtlfUvEkaX0iZanYdYTAOV5hgm44yCwHu_3GCaoa11rO-GkO9oc0_qN9JGw2n86dsEsN_sdaYt2ra_4I_dQ57ja0kiUeYtkg1eY8ZJtu45oKtN-TqWLdKudnJPFQQFGPReCfu1xcfHGgfqgtLe8zyFlEoMnO2AwnsEsosf9LCZS9gJHq58Q8OcPlWP/s1600/STOCKSTAY.jpg",
-      "processedAt": "2026-06-26T09:37:01.818411+00:00"
-    },
-    {
-      "id": "art-3708fd22",
-      "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
-      "summary": "Researchers uncovered a series of malicious npm packages disguised as PostCSS development tools that secretly install a Windows remote access trojan on users' computers. These three deceptive packages accumulated hundreds of downloads before being identified, demonstrating how attackers exploit trusted software repositories to distribute malware. The attack highlights the growing risk of supply chain compromises targeting developers who rely on open-source package managers.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "npm-packages",
-        "supply-chain-attack",
-        "remote-access-trojan",
-        "malware-distribution",
-        "developer-security"
-      ],
-      "whyItMatters": "Software developers routinely install packages from npm without deep inspection, making malicious packages an effective attack vector that can compromise entire development environments and downstream applications. Supply chain attacks like this can affect thousands of projects and users, amplifying the impact far beyond initial downloads. Organizations must implement dependency scanning and verif",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiENcFC1DFPXKuRCT_WmSwq-wpzC8IcZUdZzu5IHi597n77W8LFs9qSUdDPCuMK9QzkRZEBMbBh4p2xhnI1OXZu4akIgR5suIv_yRA7AtEkojDcyXaU5x0UiZKRDRvTn0n0wy9HIQnhJj9zUO0rpemNOFNZEmMl4NQsCj5aDEpDrqXUkivsOX1QoLRqeKZh/s1600/npmm.jpg",
-      "processedAt": "2026-06-26T09:37:07.475380+00:00"
-    },
-    {
-      "id": "art-5f0e93c5",
-      "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-      "summary": "Cybercriminals are using WhatsApp to send fake documents disguised as legitimate files that actually contain malicious VBScript code. When users run these scripts, they unknowingly install ManageEngine RMM software, giving attackers remote access to their computers. This campaign is actively targeting WhatsApp Desktop and Web users across multiple countries including Malaysia, Brazil, India, and others.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "whatsapp-attack",
-        "vbscript-malware",
-        "remote-access-tool",
-        "social-engineering",
-        "credential-theft"
-      ],
-      "whyItMatters": "This attack demonstrates how legitimate administrative tools can be weaponized when combined with social engineering through popular messaging platforms, making it difficult for users to distinguish dangerous files from safe ones. RMM software in attacker hands provides complete remote control over victim machines, enabling data theft, further malware deployment, and system compromise at scale.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDqA3duB8U44C_MQ5PM061Wch2-j7uRvX_D52lK_2Dsm2lxcquuICTnFZ-dhQiQfxxKTnIJz4tf7ffCupdkoU1giCEGhHXLKJ0xC3dw7duptIHq15dD0E5XlkvB9JbKztGCTJOk2iJ53shzUQexv2So6rrFy8djOO1etfsolTM5UbvMUkKvNwNpHqFvS7V/s1600/whatsapp-main.jpg",
-      "processedAt": "2026-06-26T09:37:10.081116+00:00"
-    },
-    {
-      "id": "art-83ac9020",
-      "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
-      "summary": "OpenAI has released an improved version of its GPT-5.5-Cyber model to trusted security defenders as part of the Daybreak initiative. This updated AI model is designed to identify software vulnerabilities and assist with patching by analyzing large codebases more thoroughly than previous versions. The tool aims to strengthen defensive cybersecurity capabilities by leveraging advanced AI to find and remediate security flaws before attackers can exploit them.",
-      "category": "Vulnerabilities",
-      "severity": "Low",
-      "tags": [
-        "ai-security",
-        "vulnerability-detection",
-        "patching-and-updates",
-        "defensive-security",
-        "ai-assisted-defense"
-      ],
-      "whyItMatters": "AI-powered vulnerability detection tools like GPT-5.5-Cyber can significantly accelerate the identification and remediation of security flaws in software, reducing the window of exposure for attackers. This technology helps defenders stay ahead of vulnerabilities by automating complex code analysis that would otherwise require extensive manual effort. Making such tools available to trusted securit",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5t7SN4kPSfgifNku4Z0eWG5x1Dd8CIb99OAHuktz4ZGAeIrwDEnLwD9DUkRj8nStBQjzxOgWO2hfsGYI07Yp8gQGtXiSBIqlQXtzDTc3bkveScQ2gd-WbUmBA0L1xVDXhbrukUIuWdLaMPyiDZO-5-tWlq-kwFdImdd-h7YVkO7oGDN08bv25RJ2TRDt8/s1600/opne.jpg",
-      "processedAt": "2026-06-26T09:37:14.232021+00:00"
-    },
-    {
-      "id": "art-00951e1f",
-      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
-      "summary": "Anthropic is developing mobile support for Claude Cowork, a feature that enables users to manage long-running Claude AI tasks directly from their smartphones. This expansion brings desktop-level functionality to mobile devices, allowing users to monitor and control AI-driven work processes on the go. The testing phase suggests the company is working to make AI task management more accessible across different platforms and devices.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "ai-security",
-        "mobile-applications",
-        "cloud-services",
-        "api-access"
-      ],
-      "whyItMatters": "As AI tools become more integrated into mobile workflows, understanding their capabilities and limitations is important for organizations managing sensitive tasks. This development highlights the growing intersection of mobile computing and AI services, which raises questions about mobile device security and access controls for long-running processes.",
-      "image": null,
-      "processedAt": "2026-06-26T09:37:16.491722+00:00"
-    },
-    {
-      "id": "art-2f66f1c9",
-      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
-      "summary": "Polish authorities arrested four members of an organized cybercrime group responsible for SIM-swapping attacks that resulted in millions of dollars in cryptocurrency theft. The criminals breached telecommunications companies and hijacked email accounts to gain control of victims' phone numbers, allowing them to access cryptocurrency wallets and other sensitive accounts. This case highlights how coordinated attacks on telecom infrastructure can lead to significant financial losses.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "sim-swapping",
-        "cryptocurrency-theft",
-        "account-hijacking",
-        "organized-cybercrime",
-        "telecom-breach"
-      ],
-      "whyItMatters": "SIM-swapping is a particularly dangerous attack vector because it exploits the weakest link in two-factor authentication by compromising the phone number itself, not just the account. This case demonstrates that law enforcement is actively targeting organized cybercrime groups behind large-scale attacks, which is important for deterrence. Organizations and individuals must recognize that phone num",
-      "image": null,
-      "processedAt": "2026-06-26T09:37:19.132206+00:00"
-    },
-    {
-      "id": "art-4f43bcef",
-      "title": "Order-tracking app Shop abused to push callback phishing attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
-      "summary": "Cybercriminals are exploiting Shopify's Shop order-tracking app by injecting fraudulent purchase receipts into users' accounts. These fake receipts are designed to deceive users into revealing personal information or downloading malware that grants remote access to their devices. This attack leverages trust in a legitimate app to compromise user security.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "mobile-app-security",
-        "fake-receipts",
-        "social-engineering",
-        "callback-attacks"
-      ],
-      "whyItMatters": "This attack targets a widely-used legitimate application, making it harder for users to identify threats through normal security awareness. The abuse of a trusted brand reduces skepticism and increases the likelihood of users falling for the scam, potentially leading to credential theft or device compromise at scale.",
-      "image": null,
-      "processedAt": "2026-06-26T09:37:21.556983+00:00"
-    },
-    {
-      "id": "art-07561612",
-      "title": "Webinar: Why account takeovers remain one of the hardest threats to stop",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-why-account-takeovers-remain-one-of-the-hardest-threats-to-stop/",
-      "summary": "Account takeover attacks are difficult to defend against because attackers use legitimate credentials and trusted services to gain access, making detection challenging. A webinar discusses how behavioral artificial intelligence can help security teams recognize compromised accounts more quickly and automate defensive responses. This approach addresses a critical gap in security operations by using machine learning to spot unusual account activity patterns.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "account-takeover",
-        "behavioral-ai",
-        "threat-detection",
-        "credential-compromise",
-        "incident-response"
-      ],
-      "whyItMatters": "Account takeovers are a persistent threat because attackers blend into legitimate user activity, bypassing traditional security controls that focus on external threats. Understanding how AI-driven behavioral analysis can identify compromised accounts faster is essential for security teams to reduce breach dwell time and minimize damage. This knowledge directly improves an organization's ability to",
-      "image": null,
-      "processedAt": "2026-06-26T09:37:23.981419+00:00"
-    },
-    {
-      "id": "art-a73bc41b",
-      "title": "A Record-Breaking Patch Tuesday for June 2026",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-09",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "summary": "Microsoft released an unprecedented number of security updates in June 2026, fixing nearly 200 vulnerabilities across Windows and related software. Among these fixes, approximately 30 were classified as critical, and some weaknesses already have public exploit code available. This record-breaking patch cycle highlights the ongoing need for organizations to prioritize rapid software updates to defend against active threats.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "patch-tuesday",
-        "microsoft-windows",
-        "critical-vulnerabilities",
-        "exploit-code-public",
-        "software-updates"
-      ],
-      "whyItMatters": "When exploit code becomes publicly available for critical vulnerabilities, attackers can weaponize these flaws immediately, putting millions of Windows users at severe risk until patches are applied. Organizations must prioritize deploying these updates urgently to prevent potential compromise of their systems and data. This record volume of fixes also reflects the growing complexity of modern sof",
-      "image": null,
-      "processedAt": "2026-06-26T09:37:26.709397+00:00"
     }
   ]
 }
