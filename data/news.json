@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-06-28T18:59:09.466483+00:00",
+  "lastUpdated": "2026-06-29T11:10:32.865480+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-50fd649b",
+      "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-29",
+      "originalUrl": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+      "summary": "Microsoft discovered and removed 119 malicious Edge browser extensions that were part of a sophisticated operation called StegoAd. These extensions used steganography techniques to hide malware inside innocent-looking image and font files, remaining dormant for days before stealing user credentials and committing ad fraud. The threat actor behind this campaign has been operating since at least 2021, demonstrating a long-term persistence threat.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "browser-extensions",
+        "steganography",
+        "credential-theft",
+        "ad-fraud",
+        "supply-chain",
+        "malware-distribution"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit legitimate software distribution channels to deliver malware at scale, affecting hundreds of thousands of users. The use of steganography to hide payloads makes detection difficult and shows the need for users to be cautious about installing browser extensions, even from official stores. Organizations and individuals must understand that trusted p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmbNHaJMqOcEeoUkaQeIZC_ilbUt8RpG-kyweNVY_fJ_3BQk19-pmJQXV_soXqZiHleBISNTwcYSqew2nzpc3eBEDULz52KaY1RNrJTb7u87f2oEtpJuTtmi4OL6Lc_HXP9WQcMDRco_w4U5mklzQ1QJj8ndNiBYVQRRUsevzc1P6hZe2N26_lyAhkQbsP/s1600/edge.jpg",
+      "processedAt": "2026-06-29T11:10:07.370574+00:00"
+    },
+    {
+      "id": "art-e56d7084",
+      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-29",
+      "originalUrl": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+      "summary": "A critical vulnerability in libssh2 (CVE-2026-55200) allows malicious SSH servers to corrupt memory and potentially execute code on connecting clients without requiring credentials or user interaction. A public proof-of-concept exploit is now available, affecting all versions up to 1.11.1 despite the relatively moderate CVSS score of 9.2. This client-side flaw poses a significant risk because attackers only need to compromise or control an SSH server to target vulnerable clients.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "libssh2",
+        "cve-2026-55200",
+        "ssh-vulnerability",
+        "memory-corruption",
+        "code-execution",
+        "public-poc"
+      ],
+      "whyItMatters": "The public release of a working exploit combined with the ease of exploitation—requiring only a malicious SSH server interaction—makes this an immediate threat to any organization or individual using libssh2. Developers and system administrators need to patch urgently to prevent potential remote code execution attacks, particularly in environments where SSH clients connect to untrusted or internet",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9yQyR_bCP0-I73R6EpwLjJtptGUvzeJD90oYzZvFZXVnM99EIvHFtIJlhZ2f4NSZkAyO7JWjJOy6Zd3lAtPz1Bbk2vmj7Ls8aMIZsFqiIVtIArSjypgJRIHJzlDN5BykKcZziAicpJiNE02Wg3Aheu5BIF1SvY3Pn09WYcdLtvWAT5giGf9mC_uY9GkG/s1600/ssh.jpg",
+      "processedAt": "2026-06-29T11:10:10.320415+00:00"
+    },
+    {
+      "id": "art-02dce759",
+      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-29",
+      "originalUrl": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+      "summary": "Attackers compromised npm and Go package repositories to distribute a Python-based information stealer targeting Windows, Linux, and macOS systems. The malicious packages use VS Code tasks to execute the malware, deliberately avoiding common npm security detection methods like lifecycle scripts. This supply chain attack demonstrates how threat actors are adapting techniques to evade existing security measures in popular development tools.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-distribution",
+        "package-hijacking",
+        "infostealer",
+        "npm-security",
+        "code-execution"
+      ],
+      "whyItMatters": "This attack directly threatens developers and organizations that rely on npm and Go packages, as compromised dependencies can inject malware into production environments at scale. The use of VS Code tasks as an execution vector demonstrates attackers are becoming more sophisticated in bypassing security controls, making dependency management and code review critical for development teams. The cros",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBjmO4haWCgXfALMAtSHKJXRWIlLfYqulkKflfK-3BSYON-8A4MjUNoZRxOyaLGc-4Bsj1eIfGDhdpJuKZrJORz4HZHx5iM7lj0-VlehqqZ6kaq5_ZWP08MviAchtNF1XORD_Fps-IWderGKNM18TT-Jgh_0LRFULqdMeOfv_FKDd8oWmHmv-iR1-_7XZP/s1600/gogo.jpg",
+      "processedAt": "2026-06-29T11:10:13.061128+00:00"
+    },
+    {
+      "id": "art-d820460a",
+      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+      "summary": "Russian authorities used Cellebrite's UFED forensic tools to access an iPhone belonging to detained opposition activist Andrey Pivovarov in June 2021, despite Cellebrite claiming it had stopped selling to Russia and Belarus three months earlier. The discovery was made by Citizen Lab through forensic evidence found on the phone and corroborated by official Russian records. This incident reveals a significant gap between corporate sales restrictions and actual enforcement, raising concerns about how surveillance tools are distributed and used globally.",
+      "category": "Digital Forensics",
+      "severity": "High",
+      "tags": [
+        "cellebrite",
+        "surveillance",
+        "forensic-tools",
+        "russia",
+        "activism",
+        "phone-exploitation"
+      ],
+      "whyItMatters": "This case demonstrates that corporate compliance measures and sales cutoffs may not prevent authoritarian regimes from accessing powerful forensic tools, directly impacting activists and dissidents. It highlights a critical vulnerability in the supply chain of digital surveillance technology where official restrictions fail in practice. Organizations and individuals must understand that their devi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSVw_gpnELsdqj1fhZXQ6Jm-ycv8RsT1-Q7vfNeyj0_Sd-keBXqrAA9w7Vz8qt0tKM3yXkVPknx8FtRKBGBShrelNUIlZbkoUDdDz4MEeWbStRxJt5ggHFA2LFTv5Lc2g-1VC9L7-HGtWY_8VZMTInbZrXa0UY_oZsu2GUeFDH8VsHnUekF4m64OET3U/s1600/iphone-hack.jpg",
+      "processedAt": "2026-06-29T11:10:16.246002+00:00"
+    },
+    {
+      "id": "art-614f9e5a",
+      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-26",
+      "originalUrl": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+      "summary": "Google researchers have uncovered a new backdoor called STOCKSTAY, developed by the Russian state-sponsored group Turla, which targets Ukrainian government and military organizations as well as entities involved in Italian foreign policy. This .NET-based backdoor is actively being refined and deployed in ongoing espionage campaigns. The discovery highlights Turla's continued sophistication in creating custom malware to infiltrate sensitive government networks.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "turla",
+        "backdoor",
+        "stockstay",
+        "ukraine",
+        "state-sponsored",
+        "government-targeting"
+      ],
+      "whyItMatters": "This threat is critical because it represents an active state-sponsored espionage campaign targeting government and military infrastructure, with a continuously evolving backdoor that could compromise sensitive national security information. Organizations in Ukraine and those involved in Italian foreign policy need immediate awareness and defensive measures. The attribution to Turla signals a soph",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9SthtlfUvEkaX0iZanYdYTAOV5hgm44yCwHu_3GCaoa11rO-GkO9oc0_qN9JGw2n86dsEsN_sdaYt2ra_4I_dQ57ja0kiUeYtkg1eY8ZJtu45oKtN-TqWLdKudnJPFQQFGPReCfu1xcfHGgfqgtLe8zyFlEoMnO2AwnsEsosf9LCZS9gJHq58Q8OcPlWP/s1600/STOCKSTAY.jpg",
+      "processedAt": "2026-06-29T11:10:19.415343+00:00"
+    },
+    {
+      "id": "art-0f69276b",
+      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
+      "summary": "Anthropic is developing mobile support for Claude Cowork, a feature that enables users to manage long-running AI tasks directly from their smartphones. This expansion brings desktop-level functionality to mobile devices, allowing for greater flexibility in how users interact with Claude's capabilities. The testing phase suggests the company is working to improve accessibility and usability across different platforms.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "claude",
+        "mobile-security",
+        "ai-tools",
+        "application-development"
+      ],
+      "whyItMatters": "While this is primarily a feature announcement rather than a security threat, it highlights the increasing integration of AI tools into everyday mobile workflows, which raises important considerations about data handling, authentication, and session management on mobile devices. Security teams should monitor how mobile-based AI task management affects organizational security policies and data prot",
+      "image": null,
+      "processedAt": "2026-06-29T11:10:22.179015+00:00"
+    },
+    {
+      "id": "art-098aa2fa",
+      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
+      "summary": "Polish authorities arrested four members of a cybercrime gang that specialized in SIM-swapping attacks targeting cryptocurrency holders. The criminals breached telecommunications companies and compromised email accounts to hijack phone numbers, gaining unauthorized access to victims' digital assets. This operation resulted in millions of dollars in cryptocurrency theft and demonstrates how attackers exploit weaknesses in telecom security.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "sim-swapping",
+        "cryptocurrency-theft",
+        "telecom-security",
+        "account-hijacking",
+        "organized-crime"
+      ],
+      "whyItMatters": "SIM-swapping is a highly effective attack vector that bypasses traditional two-factor authentication relying on SMS, making it a critical threat to cryptocurrency users and high-value targets. This case demonstrates that organized criminal groups are systematically exploiting telecom infrastructure vulnerabilities, highlighting the need for stronger authentication methods and telecom partner vetti",
+      "image": null,
+      "processedAt": "2026-06-29T11:10:25.177712+00:00"
+    },
+    {
+      "id": "art-f6c8e7eb",
+      "title": "Order-tracking app Shop abused to push callback phishing attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
+      "summary": "Attackers are exploiting Shopify's Shop app by inserting fake purchase receipts into users' order histories to deceive them into revealing sensitive information or downloading malicious remote access tools. This technique leverages the trust users have in legitimate order-tracking notifications to increase the effectiveness of their social engineering attacks. The scam demonstrates how cybercriminals are targeting popular shopping apps as vectors for credential theft and system compromise.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "shop-app",
+        "social-engineering",
+        "callback-scam",
+        "credential-theft",
+        "mobile-security"
+      ],
+      "whyItMatters": "This attack exploits user trust in legitimate e-commerce platforms, making it harder for individuals to distinguish real notifications from fraudulent ones. Organizations and users need to remain vigilant about verifying unexpected receipt notifications and avoid clicking links or downloading files from unsolicited messages, even when they appear to come from trusted apps.",
+      "image": null,
+      "processedAt": "2026-06-29T11:10:28.039744+00:00"
+    },
+    {
+      "id": "art-fd83507d",
+      "title": "The Four Elevations of Effective Fraud Prevention",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
+      "summary": "Fraudsters operate on multiple levels, targeting individual transactions, entire accounts, and whole platforms simultaneously. IPQS outlines four strategic layers of fraud prevention that organizations need to implement. By gaining broader visibility across these different levels, companies can detect and stop fraudulent activity more effectively.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "fraud-prevention",
+        "account-security",
+        "platform-protection",
+        "threat-detection",
+        "ecosystem-security"
+      ],
+      "whyItMatters": "Understanding the multi-layered nature of fraud attacks helps organizations implement defense strategies that go beyond single-transaction monitoring. Implementing comprehensive fraud prevention across all four elevation levels significantly reduces the attack surface and prevents criminals from exploiting gaps in detection systems.",
+      "image": null,
+      "processedAt": "2026-06-29T11:10:30.370006+00:00"
+    },
+    {
+      "id": "art-e9d65618",
+      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-10",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "summary": "The Gentlemen ransomware group has rapidly grown to become the second most active ransomware gang, recruiting skilled hackers through an enticing affiliate model that offers 90% of ransom payments. The article investigates clues that may reveal the real-world identity of the group's administrator, shedding light on who leads this emerging cybercriminal operation.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "cybercrime",
+        "affiliate-model",
+        "threat-actor",
+        "gang-recruitment",
+        "ransom"
+      ],
+      "whyItMatters": "Understanding the leadership and operational structure of major ransomware groups helps organizations and law enforcement track threats, predict attack patterns, and develop targeted defenses. The aggressive recruitment strategy and high payout rates indicate The Gentlemen is expanding capabilities and pose an escalating threat to businesses across industries.",
+      "image": null,
+      "processedAt": "2026-06-29T11:10:32.865326+00:00"
+    },
     {
       "id": "art-89c27d46",
       "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
@@ -822,211 +1028,6 @@
       "whyItMatters": "This arrest demonstrates that law enforcement can successfully identify and prosecute botnet operators, even those targeting security professionals. The case highlights the serious real-world consequences of IoT botnet operations and coordinated harassment campaigns, reinforcing that cybercriminals face international prosecution and significant criminal liability.",
       "image": null,
       "processedAt": "2026-06-27T08:43:16.400301+00:00"
-    },
-    {
-      "id": "art-6b4c7785",
-      "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-      "summary": "Cybersecurity researchers at Kaspersky have identified a new malware loader called SharkLoader being used in a campaign dubbed StrikeShark to deliver Cobalt Strike Beacon onto compromised computers. The attacks have targeted diplomatic and government organizations in Indonesia and Taiwan. SharkLoader represents a notable threat because it's a previously unknown malware family designed specifically to deploy advanced attack tools on victim systems.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "sharkloader",
-        "cobalt-strike",
-        "malware-loader",
-        "government-targeting",
-        "asia-targeted"
-      ],
-      "whyItMatters": "This campaign demonstrates how threat actors are developing new malware loaders to deploy established post-exploitation frameworks like Cobalt Strike, making detection harder and attack chains more sophisticated. The targeting of government and diplomatic entities indicates state-level or well-funded threat actors with geopolitical interests. Organizations should monitor for SharkLoader indicators",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsnAZNjHSEX7UtabbKNVn68uohH8pK5LKuU2CgckZTJowWHxYmEjx9ROquO9tFsThy-3_759_ko2TQEX4Wm3PI1Y-opfzyeAzW8Tni0-gz2YMtPMln9XQRzcKq1mviZSTW7MNShxVRhbuUXBSuNGTNStlwj_NCfFsyrptpXvkLNt5CUfARwENz0IshNDma/s1600/shark.jpg",
-      "processedAt": "2026-06-26T19:25:29.298913+00:00"
-    },
-    {
-      "id": "art-38520edf",
-      "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-      "summary": "A Chinese-speaking hacking group known as CL-STA-1062 has created and deployed a new backdoor tool called TinyRCT to attack government agencies and critical infrastructure operators in Southeast Asia. The attacks specifically target state-owned energy companies and government entities, giving attackers remote control capabilities. This campaign highlights ongoing threats to essential services in the region and demonstrates how attackers develop custom tools to avoid detection.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "apt",
-        "backdoor",
-        "chinese-threat-actor",
-        "southeast-asia",
-        "critical-infrastructure",
-        "remote-access"
-      ],
-      "whyItMatters": "Attacks on critical infrastructure like energy sectors can have severe real-world consequences, from service disruptions to national security risks. The development of custom backdoors like TinyRCT shows adversaries are actively evolving their toolkits to bypass existing security measures. Organizations in Southeast Asia and similar regions must strengthen defenses and monitor for signs of this sp",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHsYcZgd4WIkN0k-b4_j7JxBgi0R0dzj0jSwSWVgItyIy88VoZK5z8BAiwjmYnou7YLrNuckCgQvnHXV2KYHoNS8WRZbjU1MP5HqvLKkIakvRVuJio7oZeUbi1XsgQVmJ-cDKKWeOzgGouUAzUtJrFRu8CtPQJG-eXCy7aSOx_fyCvGK2tRl12tBbPG7YC/s1600/tinyrct.jpg",
-      "processedAt": "2026-06-26T19:25:31.886723+00:00"
-    },
-    {
-      "id": "art-60e59b2e",
-      "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-      "summary": "A critical Linux kernel vulnerability called CVE-2026-46331, or 'pedit COW,' allows unprivileged local users to gain root-level access by exploiting a flaw in the traffic-control subsystem. This out-of-bounds write vulnerability corrupts shared memory pages used by the system, and a working exploit was publicly released within a day of the CVE announcement. The flaw poses an immediate risk to Linux systems that haven't been patched.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "linux-kernel",
-        "privilege-escalation",
-        "local-exploit",
-        "root-access",
-        "patch-urgent",
-        "memory-corruption"
-      ],
-      "whyItMatters": "This vulnerability is critical because any local user can exploit it to gain full system control without special privileges, making it a severe risk for multi-user systems and shared hosting environments. The rapid public availability of a working exploit means attackers can weaponize this flaw immediately, creating urgent pressure for system administrators to patch affected Linux systems before e",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBWN46D03nuGH8FWFxZD7Ax6T3Wvmf5bt3WrqjghU6ZJU65L6pfoPjt2fVw4-dGXfyEx8fkygfYUftIDlMpPaRcegTEH6eL58nSyiFvbbg5A0GxtFTIhwQUIj16DF-vIqiH2B6jnC7C3DebkJja3v6ayIjOF-eY5DoDL9qef319S3m4ny2lnodtc1WeE59/s1600/linux-cow.jpg",
-      "processedAt": "2026-06-26T19:25:34.843161+00:00"
-    },
-    {
-      "id": "art-aaa98b9d",
-      "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
-      "summary": "Amazon Q Developer contained a high-severity vulnerability that allowed malicious repositories to execute commands and steal developer credentials through improper handling of Model Context Protocol servers. The attack required minimal user interaction—a developer simply had to open a compromised repository and trust the workspace for the exploit to work. Amazon has already released a patch to fix the flaw, tracked as CVE-2026-12957.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "cloud-security",
-        "credential-theft",
-        "code-execution",
-        "patch-available"
-      ],
-      "whyItMatters": "This vulnerability highlights a critical risk in AI-assisted development tools where trusting a workspace can inadvertently grant malicious code access to sensitive cloud credentials. Developers using Amazon Q need to understand that repository trust decisions carry security implications beyond traditional code review, making this a practical reminder to verify source trustworthiness and apply sec",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig3gygt20RdznayWN2yru6wSgNt8CSdr16F8I-naxtPn837cr6v0uV0bXdhz36P1XYrpnjmzDXTAtH0wa43Me8rqD2hvET-xQP0ndoX-ddXsypZCjSSNJUqmfl69g96R6yMiUqgXE_NGAL8bl2z6lYutrgKiY74tNIafz_xRsNsJQSB9s_9lSHiybX2kQ/s1600/aws.jpg",
-      "processedAt": "2026-06-26T19:25:37.464903+00:00"
-    },
-    {
-      "id": "art-e69afb62",
-      "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
-      "summary": "CISA has officially listed a critical remote code execution vulnerability affecting PTC Windchill PDMlink and PTC FlexPLM software in its Known Exploited Vulnerabilities catalog. This vulnerability is actively being exploited by attackers, who are using web shells to maintain unauthorized access to affected systems. Organizations using these enterprise product data management tools need to prioritize patching to prevent potential compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "rce-vulnerability",
-        "ptc-windchill",
-        "active-exploitation",
-        "web-shell-attacks",
-        "patch-urgent",
-        "cisa-kev"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat because it is actively exploited in real-world attacks with web shell persistence, meaning attackers can maintain long-term access to critical enterprise systems. Organizations running PTC Windchill or FlexPLM must treat this as a priority patch to prevent data theft, operational disruption, and supply chain compromise. The inclusion in CISA's KEV catal",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzGOpsiL9b-uwhocEgzazTFR251KJL6pnZAVCmzty7Nx0uR-vZ9r2-WP95IrRaKJtFoUxmBFbqrkt31Yn2MTmD0bZAaPFTlmDfHxRURuWSsRzeTWHmyZF93QR94AOrSkbLnBYEQtVGJxI5VlRinwq8cLnEVCmGWk6wCnL1zpW_LbbZ-3-yTSdAmZ-0tqO6/s1600/ptc.jpg",
-      "processedAt": "2026-06-26T19:25:40.271183+00:00"
-    },
-    {
-      "id": "art-a9f3b48d",
-      "title": "Polymarket customers lose $3 million in supply-chain attack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/",
-      "summary": "Polymarket, a cryptocurrency prediction platform, suffered a supply-chain attack where hackers compromised a third-party vendor and injected malicious code into the platform's frontend. The attack resulted in approximately $3 million in customer losses, though the company committed to reimbursing affected users. This incident highlights how attackers can exploit trusted vendors to gain access to high-value targets.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "supply-chain-attack",
-        "malware-injection",
-        "third-party-breach",
-        "frontend-compromise",
-        "cryptocurrency-security"
-      ],
-      "whyItMatters": "Supply-chain attacks are particularly dangerous because they exploit trust relationships and can affect numerous organizations through a single compromised vendor. This incident demonstrates that even financial platforms with security measures remain vulnerable if their trusted partners are compromised, making vendor security assessment critical for risk management.",
-      "image": null,
-      "processedAt": "2026-06-26T19:25:43.151185+00:00"
-    },
-    {
-      "id": "art-1d441423",
-      "title": "Cybersecurity firms targeted by fraudulent OpenAI organization invites",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/",
-      "summary": "Attackers are setting up fake OpenAI organization accounts that pretend to be real companies and then inviting employees to join them. The goal is to trick workers into sharing sensitive business information through chat conversations and collaborative projects on these fraudulent platforms. This social engineering attack exploits people's trust in well-known services like OpenAI.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "social-engineering",
-        "openai",
-        "impersonation",
-        "credential-theft",
-        "ai-security"
-      ],
-      "whyItMatters": "This threat demonstrates how attackers are weaponizing legitimate AI platforms to conduct targeted attacks against security-conscious organizations, making it a sophisticated social engineering risk that bypasses traditional security controls. Employees may lower their guard when interacting with what appears to be a trusted service, making data exfiltration easier. Organizations need to train sta",
-      "image": null,
-      "processedAt": "2026-06-26T19:25:46.185192+00:00"
-    },
-    {
-      "id": "art-a991fe74",
-      "title": "Your First GRC Agent: A Red Teamer's Walkthrough",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/your-first-grc-agent-a-red-teamers-walkthrough/",
-      "summary": "This article explores how artificial intelligence can assist Governance, Risk, and Compliance (GRC) professionals by automating repetitive tasks rather than replacing them entirely. The author demonstrates building an AI agent that automatically monitors security controls, detects missing compliance evidence, and generates remediation tasks to improve organizational security posture. This approach helps GRC teams work more efficiently and focus on higher-level strategic decisions.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "grc-automation",
-        "ai-agents",
-        "compliance-monitoring",
-        "security-controls",
-        "remediation-tasks"
-      ],
-      "whyItMatters": "As organizations struggle with manual GRC processes, AI-powered automation can significantly reduce the time spent on routine compliance checks and evidence collection. This allows security teams to identify and address control gaps faster while freeing analysts to focus on complex risk assessment and strategic initiatives. Understanding how to leverage AI agents in GRC workflows is increasingly i",
-      "image": null,
-      "processedAt": "2026-06-26T19:25:48.917078+00:00"
-    },
-    {
-      "id": "art-3db87300",
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "summary": "Hackers exploited Meta's AI support assistant to reset passwords and take over high-profile Instagram accounts, including those belonging to the Obama White House and U.S. Space Force leadership. Instructions for this attack were shared on Telegram, allowing attackers to trick the AI bot into performing unauthorized account recovery actions. The compromised accounts were defaced with pro-Iranian content before being secured again.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "account-takeover",
-        "social-engineering",
-        "instagram",
-        "meta",
-        "authentication-bypass"
-      ],
-      "whyItMatters": "This attack demonstrates a critical vulnerability in AI-powered customer support systems that can be manipulated to bypass security controls, affecting even high-value government accounts. When attackers publicly share exploitation techniques, it enables widespread account takeovers affecting millions of users. Organizations must immediately audit AI support systems for social engineering vulnerab",
-      "image": null,
-      "processedAt": "2026-06-26T19:25:51.530775+00:00"
-    },
-    {
-      "id": "art-1e32a50a",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-25",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "summary": "Dutch authorities arrested two men who owned internet hosting companies that provided infrastructure for Russian cyberattacks and disinformation campaigns targeting the European Union. The companies had taken control of technical systems previously operated by a sanctioned Russian ISP. This operation resulted in the seizure of 800 servers used to support hostile cyber operations.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored-attacks",
-        "infrastructure-disruption",
-        "eu-security",
-        "russia-cyber-operations",
-        "hosting-abuse"
-      ],
-      "whyItMatters": "This case demonstrates how critical infrastructure providers can be exploited to enable state-sponsored cyberattacks and disinformation at scale. The seizure disrupts active Russian cyber operations and shows law enforcement's increasing ability to identify and prosecute those facilitating hostile state activities. Organizations should scrutinize their service providers and hosting partners to ens",
-      "image": null,
-      "processedAt": "2026-06-26T19:25:54.506114+00:00"
     }
   ]
 }
