@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-06-30T09:49:59.159071+00:00",
+  "lastUpdated": "2026-06-30T19:28:36.552845+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-655dfaa5",
+      "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+      "summary": "Microsoft researchers discovered a new attack method where malicious actors can manipulate AI agent tool descriptions to trick the agents into leaking sensitive company data without triggering security alerts. The attack exploits the fact that each action the AI agent takes appears legitimate on its own, making detection difficult in standard security setups. This vulnerability highlights risks in how AI agents interpret and act on instructions from external or compromised sources.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "data-leakage",
+        "ai-agents",
+        "prompt-injection",
+        "tool-poisoning",
+        "agent-hijacking"
+      ],
+      "whyItMatters": "As organizations increasingly deploy AI agents to handle business operations, this attack vector represents a significant blind spot in current security architectures. Defenders cannot rely on traditional rule-based detection since the agent's actions remain individually compliant, making it essential to rethink how AI systems validate and execute instructions from third-party tools and descriptio",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbjfrraZ05p0kN5CedcQSOZYouoHGrdpCvi9TGxEZM_9zlXc_juWZ1F8VsvjV9c-iD7Ejgj0V6b0uYwOb9mLpb7ALcOVk53m2ppmg6mDI3qwANc8KZFMt3X7H7fT_Eym3OJijFmr0CZS6yJNTtf4kef0gOYtbx6A3LYa15PNzpzJuOg-nd6orLosZzfQ8/s1600/ms-ai.jpg",
+      "processedAt": "2026-06-30T19:28:09.791348+00:00"
+    },
+    {
+      "id": "art-8c84536c",
+      "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
+      "summary": "RustDuck is a new malware family that infects routers, IP cameras, Android boxes, and servers to build a botnet for launching DDoS attacks. Researchers at QiAnXin's XLab have been monitoring the threat since February 2026 and warn that the malware is evolving rapidly. The botnet coordinates compromised devices to overwhelm websites and online services with traffic.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "ddos-attacks",
+        "iot-security",
+        "router-compromise",
+        "network-security",
+        "rust-malware"
+      ],
+      "whyItMatters": "RustDuck demonstrates how attackers exploit poorly secured IoT devices and servers at scale to create powerful attack infrastructure, affecting both individual users and critical online services. The rapid evolution of this malware suggests attackers are actively improving their techniques, making it a significant threat to network administrators and organizations relying on these device types. Un",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2XzOOqoX4E_CfxUMxd0YAH9MRjvZ8-kBBiVhd2VvCvbie3zla8PA80fO2xZ4Ux3_gmreVKG7ANFrSGpDk1lsURfQZuVVapjqi565oGmkqImmFdiQsQFL5z7V9s7TTkH4KgmGbEFnpdAQz94DrXip4q8Qa-ec9K1B1cmeL3szEBWUq9nX-MWppatyug3A/s1600/RustDuck.jpg",
+      "processedAt": "2026-06-30T19:28:12.824794+00:00"
+    },
+    {
+      "id": "art-1953bfeb",
+      "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+      "summary": "Hackers are actively exploiting a critical vulnerability in Langflow, an AI application platform, to gain unauthorized access to exposed endpoints. The attackers are using this remote code execution flaw to install Monero cryptocurrency mining software on compromised systems. This demonstrates how unpatched AI infrastructure can become a target for cybercriminals seeking to monetize stolen computing resources.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce",
+        "langflow",
+        "cve-2026-33017",
+        "monero-miner",
+        "ai-security",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This represents an active, widespread exploitation campaign targeting a critical vulnerability with a 9.3 CVSS score, meaning organizations running exposed Langflow instances face immediate risk of system compromise and resource theft. The use of cryptocurrency miners indicates attackers are monetizing access, making this a pressing concern for any organization deploying Langflow without proper se",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA2GvsvmPnHZF-e1GDbhOVW4DxQZr79HzSMLp7-YKaA9DC-V2fVo6cmBig0bxUxWjK0Kz1mTm2Cmg6CrjaKgNhxC7xE6SsBxRx8DW5ljkMWPuJ0-7WUzxYbSrRWFdix8Nks8tobGkIY5cpNjczspeiKYyXYVSgoVct-7u1SFpWXB0mEi8AB5X-Wcp59Vca/s1600/Langflow.jpg",
+      "processedAt": "2026-06-30T19:28:16.432038+00:00"
+    },
+    {
+      "id": "art-d11436fe",
+      "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+      "summary": "Researchers at McAfee Labs discovered an active malicious browser extension campaign called Silent Swap that steals cryptocurrency by secretly replacing wallet addresses during transactions. The attackers distribute the malware through unsigned installers available in both .NET and Golang versions, targeting users who believe they're installing a legitimate Google Notes extension. This clipper malware intercepts clipboard data and substitutes victim wallet addresses with attacker-controlled ones, causing users to send funds to criminals instead of their intended recipients.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "crypto-clipper",
+        "malware",
+        "browser-extension",
+        "wallet-theft",
+        "silent-swap"
+      ],
+      "whyItMatters": "This threat directly targets cryptocurrency users with a deceptive distribution method that exploits trust in legitimate-sounding extensions, making it particularly dangerous for individuals unfamiliar with verifying software sources. The ability to silently modify transaction addresses means victims may not realize they've been compromised until funds are irretrievably lost, creating significant ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfz8WYO9wONzogh2V8g9VorZ8Ab_nAUZMD7rOM9xrVUhg3cbKGA5zc73PGQiAkbsNgY-qbm2AFAUjBdeMcpemGmDNWrvnpyjzKiqU8iJHMetkW68d20V_U-96mHOaHF6fff7VKBREN2v6fz1R_ahyIklq-Fd7ILYKxXck5ahL1BoFWC_CDQFrQZqQqg3hm/s1600/chrome-wallet.jpg",
+      "processedAt": "2026-06-30T19:28:19.194237+00:00"
+    },
+    {
+      "id": "art-589d0973",
+      "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
+      "summary": "Researchers at Adversa AI discovered a critical vulnerability called GuardFall that allows attackers to bypass safety mechanisms in AI coding agents by exploiting an old shell injection technique. The exploit successfully defeated security controls in 10 out of 11 popular open-source coding agents tested, with only the 'Continue' agent demonstrating proper defenses. This finding highlights how AI systems designed to automate code execution can be manipulated to run dangerous commands despite built-in safeguards.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "shell-injection",
+        "code-execution",
+        "bypass",
+        "open-source-risk",
+        "agent-vulnerability"
+      ],
+      "whyItMatters": "As AI coding agents become more widely adopted in development workflows, this vulnerability poses an immediate risk of unauthorized command execution and system compromise. Organizations deploying these tools need to understand that existing safety mechanisms can be circumvented, requiring urgent patches and alternative security strategies before widespread exploitation occurs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR59EidY6iMYv3s9bikjIxpj6_YTaUIesrZ3MyD9OqUbOk262aDW7bCArqr-IjT9CUQUSzE2F_knKKvs4bIJ2d9cuzZ-DKlmkW_Q3SO43HkA79kSVhCELVyKaStWliNZc9l1xxEGEFE5UmT1Abn6XMKTjk-rxBRTTtRAjb-jYDRKj-ODtIYy8dGQvbzDE/s1600/shell-ai.jpg",
+      "processedAt": "2026-06-30T19:28:21.906891+00:00"
+    },
+    {
+      "id": "art-f2e19547",
+      "title": "Fake Perplexity extension on Chrome Web Store tracked searches",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-perplexity-extension-on-chrome-web-store-tracked-searches/",
+      "summary": "A fake Perplexity AI extension was discovered on the Chrome Web Store that tricks users into installing it by impersonating the legitimate AI search tool. Once installed, the malicious extension secretly monitors and collects user search queries and browsing data. This highlights how attackers exploit the popularity of trusted services to distribute spyware through official app stores.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "chrome-extension",
+        "spyware",
+        "privacy-threat",
+        "supply-chain-attack",
+        "social-engineering"
+      ],
+      "whyItMatters": "This attack demonstrates a critical vulnerability in app store verification processes—malicious actors can bypass detection by impersonating legitimate services, putting millions of users at risk. Users who trust official stores are more likely to install seemingly authentic extensions, making this an effective vector for mass surveillance and data theft. Organizations must educate users to verify",
+      "image": null,
+      "processedAt": "2026-06-30T19:28:25.238510+00:00"
+    },
+    {
+      "id": "art-c5ac77d8",
+      "title": "Lessons from the Underground: How to Combat Business Email Compromise",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/lessons-from-the-underground-how-to-combat-business-email-compromise/",
+      "summary": "Business Email Compromise attacks are sophisticated criminal operations that go beyond simple email scams, involving stolen accounts, targeted financial research, and organized cash-out networks. Security researchers at Flare have analyzed underground forums to uncover how attackers plan and execute these coordinated BEC campaigns. Understanding these tactics helps organizations develop better defenses against this persistent threat.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "business-email-compromise",
+        "bec-attacks",
+        "financial-fraud",
+        "account-compromise",
+        "underground-forums",
+        "threat-intelligence"
+      ],
+      "whyItMatters": "BEC attacks result in billions of dollars in losses annually and require organizations to understand the full scope of attacker operations—from initial compromise to cash extraction—to implement effective prevention strategies. Insights from criminal forums reveal real attack methodologies, enabling security teams to better detect and prevent these multi-stage operations before financial damage oc",
+      "image": null,
+      "processedAt": "2026-06-30T19:28:28.318949+00:00"
+    },
+    {
+      "id": "art-6acd4e48",
+      "title": "Insurance giant Aflac discloses data breach after subsidiary hack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/",
+      "summary": "Aflac, a major American insurance company, suffered a data breach when attackers compromised systems at its Japan subsidiary and accessed personal information and bank account details. This incident highlights how large financial institutions can be targeted through their international operations. The breach exposed sensitive customer data that could be misused for fraud or identity theft.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "insurance",
+        "financial-data",
+        "subsidiary-attack",
+        "personal-information",
+        "bank-account-data"
+      ],
+      "whyItMatters": "This breach demonstrates that even large, established insurance companies with significant resources remain vulnerable to cyberattacks, particularly through their subsidiary operations. The theft of personal and banking information puts customers at direct risk of fraud and identity theft, making this a serious threat to customer trust and compliance with data protection regulations.",
+      "image": null,
+      "processedAt": "2026-06-30T19:28:30.687294+00:00"
+    },
+    {
+      "id": "art-310f64d5",
+      "title": "Microsoft adds smarter bot protection to Teams meetings",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-smarter-bot-protection-to-teams-meetings/",
+      "summary": "Microsoft has launched a new administrative control for Teams meetings that gives organizers the ability to block unauthorized third-party bots from entering their meetings. This feature requires bot access to be explicitly approved before participation, reducing the risk of unwanted automated accounts disrupting or monitoring meetings. The policy provides teams with stronger control over their meeting environments and who can participate.",
+      "category": "Cloud Security",
+      "severity": "Medium",
+      "tags": [
+        "cloud-security",
+        "access-control",
+        "teams-meetings",
+        "bot-protection",
+        "security-policy"
+      ],
+      "whyItMatters": "Unauthorized bots in enterprise meetings pose real risks including data theft, meeting disruption, and unauthorized recording or surveillance. By giving administrators granular control over bot participation, Microsoft helps organizations prevent attackers from using compromised or malicious bots to infiltrate sensitive business communications. This is a practical security improvement for organiza",
+      "image": null,
+      "processedAt": "2026-06-30T19:28:33.629254+00:00"
+    },
+    {
+      "id": "art-0ac6e992",
+      "title": "Hackers now exploit critical Oracle E-Business flaw in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-29",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-oracle-e-business-suite-flaw-now-exploited-in-attacks/",
+      "summary": "Cybercriminals are actively exploiting a critical vulnerability (CVE-2026-46817) discovered in Oracle's E-Business Suite, a widely-used financial application. Security researchers at Defused have identified these real-world attacks, indicating that the flaw poses an immediate threat to organizations relying on this software. Companies using Oracle EBS need to take urgent action to protect their financial systems and sensitive data.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "oracle-ebs",
+        "cve-2026-46817",
+        "active-exploitation",
+        "critical-vulnerability",
+        "financial-systems",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability is being actively exploited in the wild against a widely-deployed enterprise financial application, making it an immediate threat to organizations worldwide. Delays in patching could result in unauthorized access to sensitive financial data and business disruption. Organizations must prioritize applying patches and implementing mitigations to prevent compromise of their financia",
+      "image": null,
+      "processedAt": "2026-06-30T19:28:36.552724+00:00"
+    },
     {
       "id": "art-ad2ba818",
       "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
@@ -823,210 +1031,6 @@
       "whyItMatters": "This development demonstrates how phishing attacks are becoming more sophisticated with man-in-the-middle capabilities, making traditional security awareness less effective against these threats. Organizations must implement multi-factor authentication and security monitoring to detect suspicious login patterns, as attackers can now harvest credentials even from users who believe they're accessing",
       "image": null,
       "processedAt": "2026-06-28T18:59:09.466320+00:00"
-    },
-    {
-      "id": "art-ff3b3772",
-      "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
-      "summary": "A stealthy backdoor called Mistic (also known as MLTBackdoor) has been discovered targeting organizations in insurance, education, IT, and professional services sectors since April 2026. Security researchers from Symantec and Carbon Black have linked this malware to an initial access broker involved in other campaigns like ClickFix and ModeloRAT. The backdoor appears designed for financial gain and operates with advanced stealth capabilities.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "backdoor",
-        "mistic",
-        "initial-access-broker",
-        "financially-motivated",
-        "multi-sector",
-        "advanced-persistence"
-      ],
-      "whyItMatters": "This backdoor represents a serious threat to multiple critical sectors and demonstrates how sophisticated malware is being deployed through coordinated campaigns by professional threat actors. Organizations in targeted industries need to implement detection capabilities and harden their defenses against stealthy backdoors that can establish persistent unauthorized access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhC1-4l_iOC19z96Q7C7O_dZSKwEvMnMLhHyb7kpt2rpOzQmn3gKpz6_BaZmSpzgvyhTJf8BBQmBTx0Nvymxk1vfO5O5bE0nNGbYPHAcb5F8ZF_WjTyQe4AXSK71q6fESS9i5Rdpcfzt6ULab7eo21OZKRCYlqwU7G97mF4-AeVVANlT4YIbigdYxUJkwfy/s1600/clickattack.jpg",
-      "processedAt": "2026-06-28T09:18:20.870315+00:00"
-    },
-    {
-      "id": "art-6cad0855",
-      "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
-      "summary": "A critical vulnerability in Cisco Catalyst SD-WAN (CVE-2026-20245) was actively exploited by attackers at least two months before its public disclosure, according to Mandiant's investigation. The flaw allows authenticated local users to run commands with root-level privileges on affected systems. This zero-day attack demonstrates that sophisticated threat actors were already weaponizing the vulnerability while it remained unknown to the broader security community.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "cisco",
-        "sd-wan",
-        "privilege-escalation",
-        "active-exploitation",
-        "root-access"
-      ],
-      "whyItMatters": "This incident highlights the real-world danger of zero-day vulnerabilities in critical network infrastructure—attackers had a two-month head start to compromise systems before organizations even knew to patch. Companies relying on Cisco SD-WAN need immediate visibility into whether their systems were compromised during the pre-disclosure window, making this a pressing incident response and forensi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3UeGaI_Ej8KFu7-vQHTOuoohYdx04xIdI3W2B6JjCdaTSR6m-y1PAZ-aes-tH9nxtPGO2sFUiu1NwYkwT5s8bDPaHpG8nyN4t_mbZfVjf0nU8L11XujdqERtFUQlMZ85NV_nG6ZhqIQbGdAtyi8p1Oqq7TsBRs1IDn8HvOOnUPFEaL9_2cXrh9eovvaYz/s1600/cisco-20245.jpg",
-      "processedAt": "2026-06-28T09:18:23.679015+00:00"
-    },
-    {
-      "id": "art-c490fb88",
-      "title": "Dawn of the Apex Agentic Adversary",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
-      "summary": "The cybersecurity landscape is shifting from human-paced threat cycles to automated, AI-driven attacks that operate at machine speed. Traditional security models that relied on time gaps between vulnerability discovery and patch deployment are becoming obsolete. Organizations now face threats that can exploit weaknesses faster than humans can respond, marking a fundamental change in how cyber attacks unfold.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-threats",
-        "automated-attacks",
-        "threat-evolution",
-        "machine-speed-exploitation",
-        "apex-adversary"
-      ],
-      "whyItMatters": "This represents a paradigm shift in cybersecurity fundamentals—the traditional patch cycle and incident response timelines that organizations have relied on for years are no longer adequate against AI-powered automated threats. Security teams must rethink their entire defensive strategy, moving from reactive patching to proactive AI-aware defense systems that can match machine-speed threats.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuQ2GvCcnjBgMTXoXBXqazE9MU3nbNgeccOlWELBQOL9WcHHH4uXS1BKCrrmv6iWWAn6vu1LZJzpHl1MGetv8EfnylIM48MlBK91Gyiz5zCL6cMFr6sJd5x0qdSvjPkwm-V5ON79TgMNPHdOuGQIqSWwTdQcmBnEjehYuDoKMllm9Xray6dVy2uqexoas/s1600/apex.jpg",
-      "processedAt": "2026-06-28T09:18:26.182864+00:00"
-    },
-    {
-      "id": "art-8d2ef0d7",
-      "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-      "summary": "The U.S. Department of Justice seized a cloud computing account operated by subsidiaries of the Cambodia-based HuiOne Group that was allegedly being used to launder money from cyber scams. Simultaneously, the Treasury Department announced sanctions against nine individuals and 26 entities connected to Prince Group for their involvement in financial crimes. This action demonstrates coordinated law enforcement efforts to disrupt infrastructure supporting cybercriminal financial operations.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "money-laundering",
-        "cloud-security",
-        "law-enforcement",
-        "financial-crime",
-        "sanctions",
-        "cybercrime-infrastructure"
-      ],
-      "whyItMatters": "This case highlights how cybercriminals exploit legitimate cloud services to hide and move illicit proceeds, making cloud account monitoring and provider cooperation critical for law enforcement. Organizations need to understand that cloud providers can be weaponized in financial crime schemes, emphasizing the importance of robust identity verification and transaction monitoring. The coordinated i",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwWpkKj6KRX5Q7jeH07PFaANRRfRbl_CdrBEZ0cypjUg2UBsy49GSGNAOXF74dDez1H9xz_FXTMWh1lziO6f1Q0xrhjZRICtxmzQQJruQoQ8fk33kgTacTn5Y0BrNHmkHfLy3iC4s2oEL7H2CRCaBTcbLBqCbg3jcSFfHTSYiIa_RZV49sE58GCHOWorXJ/s1600/cybercrime.jpg",
-      "processedAt": "2026-06-28T09:18:33.134660+00:00"
-    },
-    {
-      "id": "art-ba57ff7a",
-      "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
-      "summary": "Attackers are actively exploiting a critical vulnerability in Cisco's Unified Communications Manager that allows unauthenticated remote users to write files and gain root-level access to systems. The flaw (CVE-2026-20230) stems from improper input validation in HTTP requests and has a high CVSS score of 8.6. This threat is particularly serious because it requires no authentication and has already moved from proof-of-concept to real-world attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-unified-cm",
-        "cve-2026-20230",
-        "remote-code-execution",
-        "active-exploitation",
-        "authentication-bypass",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Organizations using Cisco Unified CM face immediate risk since the vulnerability is being actively exploited by threat actors. An unauthenticated attacker can achieve root access without any credentials, potentially compromising entire communication infrastructure and sensitive business data. Immediate patching is critical to prevent unauthorized access and system compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivauBSNOsDqBHvUFSnF1NdlWJ8BAt2JVgIo_ZUQhBkVppSz0PvkEmrc9RP1hMf2-oFFRgr5PNm7pxLmPngAJHcxV6-F3e43bEqmdEg38013JmlUKDlGVOLQTj6bYbyk_R7WXBqbW3o2yPHdosqz7nncLivqDqXGAuiTFcHkPqiVPBJuDHlsvYWtEreVmk_/s1600/cc.jpg",
-      "processedAt": "2026-06-28T09:18:35.829800+00:00"
-    },
-    {
-      "id": "art-0582ccf9",
-      "title": "AI Decline? Confidence in Autonomous Penetration Testing Falls",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/ai-decline-confidence-autonomous-penetration-testing",
-      "summary": "Organizations are increasingly skeptical about relying on automated AI-powered penetration testing tools to identify security vulnerabilities. While companies continue to experiment with these autonomous systems, confidence in their effectiveness and trustworthiness appears to be declining. This shift suggests that businesses may prefer human-led security testing or hybrid approaches over fully automated AI solutions.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "penetration-testing",
-        "autonomous-systems",
-        "vulnerability-assessment",
-        "security-testing"
-      ],
-      "whyItMatters": "This trend reflects important concerns about AI reliability in critical security functions, as organizations question whether autonomous systems can adequately handle the complexity and nuance of modern penetration testing. Decision-makers need to understand these limitations when planning their security testing strategy and budget allocation. The declining confidence may also indicate emerging ga",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9cecfe428e15238b/6a3ea2dc74904e0996378e9c/collection-of-interlocking-gears-Asmaulna-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-28T09:18:38.457349+00:00"
-    },
-    {
-      "id": "art-91df0b91",
-      "title": "Cisco Adds NHI to Security Stack With Astrix, WideField Acquisitions",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.darkreading.com/identity-access-management-security/cisco-adds-nhi-security-stack-with-astrix-widefield",
-      "summary": "Cisco has acquired Astrix and WideField to strengthen its security platform with Native Human Identity (NHI) capabilities. The company is following an industry trend where identity management becomes the central control mechanism for securing autonomous AI agents and modern workforces. These acquisitions position Cisco to help organizations protect their systems as work becomes increasingly driven by artificial intelligence and automated agents.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "identity-management",
-        "ai-security",
-        "workforce-security",
-        "cisco-acquisition",
-        "cloud-security"
-      ],
-      "whyItMatters": "As organizations deploy more AI agents and automated systems, traditional security perimeters become less effective. Making identity the primary control plane—rather than networks or endpoints—is a strategic shift that helps enterprises manage security risks in environments where AI and human workers collaborate, making this acquisition significant for organizations modernizing their security infr",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf5ae2981cb5cbc98/67a6074e7dd6537daef9a0fa/robot-army-laurent-davoust-alamy.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-28T09:18:42.930261+00:00"
-    },
-    {
-      "id": "art-e96b83d6",
-      "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
-      "summary": "A new initiative called the Open Source Sustainability Initiative is being launched to help organizations manage and protect aging open source software projects. The program focuses on addressing security challenges in end-of-life open source components while helping companies stay compliant with regulations. This effort recognizes that many businesses still rely on outdated open source code that no longer receives active maintenance or security updates.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "open-source-security",
-        "end-of-life-software",
-        "vulnerability-management",
-        "software-maintenance",
-        "regulatory-compliance"
-      ],
-      "whyItMatters": "Organizations frequently depend on unmaintained open source libraries that contain unpatched vulnerabilities, creating significant security gaps. This initiative addresses a real-world problem where legacy open source code becomes a liability, potentially exposing companies to exploits and compliance violations. Proactive management of aging open source assets is critical for reducing attack surfa",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb28e347d4c1f6e89/678529a3a527d254da4ed749/open_source_(1800)_Wavebreakmedia_Ltd_FUS1407_Alamy.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-28T09:18:45.523674+00:00"
-    },
-    {
-      "id": "art-c2aaf0ac",
-      "title": "AI Won't Wipe-Out Entry-Level Cybersecurity Jobs",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/ai-wont-wipe-out-entry-level-cybersecurity-jobs",
-      "summary": "Artificial intelligence is not expected to eliminate entry-level cybersecurity positions. Instead, AI tools are opening new career opportunities for early-career professionals who possess strong analytical and decision-making abilities. The shift highlights the growing importance of human judgment in security roles, even as automation increases.",
-      "category": "AI Security",
-      "severity": "Low",
-      "tags": [
-        "ai-security",
-        "career-development",
-        "workforce-trends",
-        "human-decision-making"
-      ],
-      "whyItMatters": "This article reassures aspiring cybersecurity professionals that AI augmentation rather than replacement is the realistic outcome, encouraging talent pipeline growth in a field facing chronic skill shortages. Understanding how AI changes job roles helps organizations and candidates prepare for evolving security responsibilities and skill requirements.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta84710e2a296fb51/6a3d8492c8bfcb045af470b0/Graduates_Getty.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-28T09:18:47.779226+00:00"
-    },
-    {
-      "id": "art-3ce2caa3",
-      "title": "Meeting Trump's 2030 Quantum Deadline Will be Expensive, Complex",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/meeting-2030-quantum-deadline-expensive-complex",
-      "summary": "The United States is targeting quantum-resistant cryptography implementation by 2030, but achieving this goal will require significant investment and coordination across complex IT and OT environments. Organizations face substantial challenges including managing multiple vendors, coordinating software update schedules, and resolving interoperability issues that currently exist across their systems. Successfully transitioning to quantum-safe standards will demand careful planning and resources to maintain security during this critical shift.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "quantum-cryptography",
-        "post-quantum",
-        "encryption-migration",
-        "infrastructure-security",
-        "compliance-deadline",
-        "multivendor-environments"
-      ],
-      "whyItMatters": "As quantum computing technology advances, current encryption methods become vulnerable to potential decryption attacks. Meeting the 2030 deadline is critical for protecting sensitive government and organizational data, but the complexity of legacy systems and vendor dependencies means organizations must begin planning quantum-safe transitions immediately to avoid future compromise.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f96ce16a435deca/6a3d55be62f12d27e415ed3c/quantum_computer-Peter_Hansen-getty-2214879776.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-28T09:18:50.719673+00:00"
     }
   ]
 }
