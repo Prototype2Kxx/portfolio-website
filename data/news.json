@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-06-29T19:30:11.106596+00:00",
+  "lastUpdated": "2026-06-30T09:49:59.159071+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-ad2ba818",
+      "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+      "summary": "Researchers at LayerX discovered a new attack technique called BioShocking that exploits AI browsers by tricking them into thinking they're playing a game, causing them to leak user login credentials to attackers. The vulnerability affected six AI-powered tools including ChatGPT Atlas, Perplexity's Comet, and Anthropic's Claude browser extension. This demonstrates a critical gap in how AI assistants validate and protect sensitive user information.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "credential-theft",
+        "ai-browsers",
+        "social-engineering",
+        "authentication-bypass"
+      ],
+      "whyItMatters": "As AI browsers become increasingly integrated into daily workflows, this attack highlights a fundamental vulnerability in how they handle sensitive data like login credentials. Users may unknowingly expose their accounts to attackers through seemingly innocent interactions with AI assistants, making this a widespread risk across multiple popular platforms.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitNDarGF3uRKXTWC12cbM97uJW3DxiLuQwmplVLHEqdrUZJdzbkMz6Wc524z5Xu2GGSyNYhMT_m9kGqqGjRmIxDf0fy_ZXCx3f6G7JvvCFkcdga3PTnUR8XqfrPtIH_9_yrb9n7VaJZTqsLK4CznHRTcYZA1B84r2T_Jl5YYjnUbwUAvyGo4K05ckMnyYG/s1600/ai-prompt.jpg",
+      "processedAt": "2026-06-30T09:49:25.326682+00:00"
+    },
+    {
+      "id": "art-595edbb9",
+      "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+      "summary": "A critical vulnerability in Progress Kemp LoadMaster allows attackers to execute commands with root privileges without needing to authenticate first. The flaw, identified as CVE-2026-8037 with a CVSS score of 9.8, can be exploited by sending a specially crafted request to the device's API. Progress has released a patch, and organizations using LoadMaster with API access should update immediately to prevent unauthorized system compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "load-balancer",
+        "unauthenticated-rce",
+        "api-vulnerability",
+        "root-access",
+        "patch-available",
+        "kemp-loadmaster"
+      ],
+      "whyItMatters": "This vulnerability poses an extreme risk because attackers can gain complete control of load balancers without credentials, potentially compromising entire network infrastructures that rely on these devices for traffic management. Load balancers are critical infrastructure components, so their compromise could lead to widespread service disruption, data theft, or lateral movement into protected ne",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFZGtJwnGA8dQHmNpd8Pzgx4p0wSq_e2hyphenhyphen2bZwWBQEDK8QPAi2CEOR_Nbns5jhRw9mMSPv6RBe2IqRO1c9fIMvMlUAV14B3VQE7-csMvfMQK6Qr3THGlxQY3C9HiYW_TYHGzok-TWFmMoMkto0OA8fNsQuvADEaJNFQYdIrXXzHGJEhyqpKRC2IFCaRM6/s1600/loadmaster.jpg",
+      "processedAt": "2026-06-30T09:49:30.228353+00:00"
+    },
+    {
+      "id": "art-2b777ca1",
+      "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+      "summary": "Apple released security updates addressing over 30 vulnerabilities across iOS, macOS, and Safari, including four WebKit flaws discovered using AI-powered security tools. These vulnerabilities could potentially allow attackers to execute code or corrupt memory on affected devices. The use of AI tools like Claude and Codex to identify these bugs highlights a new approach to vulnerability discovery in modern cybersecurity.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "apple-patches",
+        "webkit-vulnerabilities",
+        "ios-security",
+        "macos-updates",
+        "ai-discovered-bugs",
+        "memory-corruption"
+      ],
+      "whyItMatters": "These patches address critical WebKit vulnerabilities that could enable remote code execution on millions of Apple devices worldwide, making timely updates essential for user protection. The discovery of these bugs through AI tools demonstrates both the growing capabilities of automated security research and the need for users to promptly apply security updates to minimize exploitation risk.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgEWbrJH-z_uAL6GFaOqplYF1ewSOBvFpaKD24W74VEBaSO-pW3sy0I0e57Bmc9yBKV4vb6zWYaVjd-oTSy2sSQNSubgQHcmFav_bp3HnySXcSGR-ocRiUfYcXgUXm44XZyrdNnIq2JqJxZQG5bnbui12eVoG3GPgVnGy9AE6vfDp3km5TTtf6rjPv6FZV/s1600/apple-updates-ai.jpg",
+      "processedAt": "2026-06-30T09:49:35.193479+00:00"
+    },
+    {
+      "id": "art-56cf0cd6",
+      "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+      "summary": "A critical vulnerability in Oracle E-Business Suite, identified as CVE-2026-46817, is currently being exploited by attackers in real-world scenarios. This flaw involves improper privilege management and authentication in Oracle Payments, allowing attackers to gain unauthorized control over affected systems. With a CVSS score of 9.8, the vulnerability poses an extreme risk to organizations using this widely-deployed enterprise software.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "oracle",
+        "cve-2026-46817",
+        "active-exploitation",
+        "privilege-escalation",
+        "e-business-suite",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Active exploitation of a critical vulnerability in widely-used enterprise software means organizations are at immediate risk of compromise and must prioritize patching. Oracle E-Business Suite is used by many large organizations, making this vulnerability a high-impact threat across multiple sectors. Defenders need to act quickly to identify, patch, and monitor their Oracle instances before attack",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYwCBjb2uPzIs-8BNIxo90ae4xRgxzM1av-ijebBJ32Y2DEvRUvM-jMd6S535UdnbPKrLtFHxm0k9Lo7GJgVjCWCrH-0RNFZukDv7shdA02IkDs1Iqx8C-uH2hOCyfpJ01tmNVGhrvQ-6FGlmdjnCP0nXrq7zl5KVL3XZ84I9QTImD5DM8HYoJbA0A1P3w/s1600/oracle.jpg",
+      "processedAt": "2026-06-30T09:49:37.956904+00:00"
+    },
+    {
+      "id": "art-13ab6499",
+      "title": "Why Post-Quantum Cryptography Starts With Credentials",
+      "source": "The Hacker News",
+      "publishedDate": "2026-06-29",
+      "originalUrl": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+      "summary": "Quantum computers will eventually break the public-key cryptography methods like RSA and elliptic curve encryption that currently protect sensitive data and credentials. Organizations need to prepare now by implementing post-quantum cryptography solutions, starting with protecting their most critical credentials. Although quantum computers capable of this don't exist yet, the threat is real enough that data captured today could be decrypted in the future.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "post-quantum-cryptography",
+        "quantum-computing",
+        "credentials",
+        "encryption",
+        "rsa",
+        "elliptic-curve"
+      ],
+      "whyItMatters": "This article highlights a long-term but inevitable threat to current encryption standards that protect sensitive data worldwide. Organizations that delay migration to post-quantum cryptography risk having their encrypted credentials and data compromised retroactively once quantum computers become powerful enough. Proactive adoption of post-quantum cryptographic methods is essential for maintaining",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgufw7UrtG2RgRTMvdhUaNVywdIBuSIRFLngtWMIY_3fzq7gzTZnlL7KMi_kzPhfpdny4vP5Rd9QVLpkX9xR5Vpk0cVvDV8Xsy4wljRyA5TjKvojsoBsYJt7yhhk1VK46OegGewBgqi-c41Z5mX5Ivos1PMrgrrmgLZKUJ8hqb4xl8o85sB7jQJLvI3gj0/s1600/keeper.jpg",
+      "processedAt": "2026-06-30T09:49:41.840751+00:00"
+    },
+    {
+      "id": "art-5c8f0df9",
+      "title": "Kali Linux 2026.2 released with 9 new tools, NetHunter updates",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/linux/kali-linux-20262-released-with-9-new-tools-nethunter-updates/",
+      "summary": "Kali Linux released version 2026.2, introducing 9 new security tools and significant improvements to Kali NetHunter, its mobile penetration testing platform. This update enhances the toolkit available to security professionals and ethical hackers for conducting authorized security assessments and research. The new tools and NetHunter enhancements expand capabilities for network testing, vulnerability analysis, and mobile security evaluation.",
+      "category": "Patching and Updates",
+      "severity": "Low",
+      "tags": [
+        "kali-linux",
+        "security-tools",
+        "penetration-testing",
+        "nethunter",
+        "update",
+        "security-software"
+      ],
+      "whyItMatters": "Regular updates to security testing frameworks like Kali Linux are essential for keeping penetration testers equipped with current tools to identify vulnerabilities before attackers exploit them. New tools and improvements help security professionals stay effective against evolving threats and assist organizations in strengthening their defensive posture through authorized assessments.",
+      "image": null,
+      "processedAt": "2026-06-30T09:49:45.366716+00:00"
+    },
+    {
+      "id": "art-7a3b38fa",
+      "title": "Blackfield ransomware asks Nidec Corporation for $2 million ransom",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/",
+      "summary": "The Blackfield ransomware gang has targeted Nidec Corporation, a major Japanese manufacturer of electronic components, demanding $2 million in ransom. This attack highlights how cybercriminals are increasingly targeting large industrial manufacturers that supply critical components to automotive and computing industries. The incident demonstrates the growing threat ransomware poses to essential supply chain providers.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "blackfield",
+        "nidec-corporation",
+        "supply-chain",
+        "extortion",
+        "manufacturing"
+      ],
+      "whyItMatters": "Attacks on major component manufacturers like Nidec have cascading effects across entire supply chains, potentially disrupting automotive and computing production globally. This case illustrates how ransomware gangs strategically target companies with high negotiation leverage due to their critical role in global industries. Organizations need to recognize that being a supplier makes them attracti",
+      "image": null,
+      "processedAt": "2026-06-30T09:49:47.937619+00:00"
+    },
+    {
+      "id": "art-8941dc0a",
+      "title": "CISA: Windows BlueHammer flaw now exploited by ransomware gangs",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/",
+      "summary": "A Windows vulnerability called BlueHammer that allows privilege escalation in Microsoft Defender is now being actively exploited by ransomware gangs. This flaw, which was previously used in targeted zero-day attacks, represents a significant escalation in threat activity. Organizations running vulnerable Windows systems are at immediate risk of compromise through this attack vector.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "bluehammer",
+        "privilege-escalation",
+        "ransomware",
+        "microsoft-defender",
+        "windows",
+        "zero-day"
+      ],
+      "whyItMatters": "Active exploitation of this flaw by organized ransomware groups means organizations cannot treat this as a theoretical threat—immediate patching is essential to prevent potential network compromise. The vulnerability's use in privilege escalation makes it particularly dangerous because attackers can gain administrative control even with limited initial access, enabling rapid ransomware deployment ",
+      "image": null,
+      "processedAt": "2026-06-30T09:49:52.058998+00:00"
+    },
+    {
+      "id": "art-be846c28",
+      "title": "Nissan discloses employee data breach linked to Oracle zero-day attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-29",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/",
+      "summary": "Nissan experienced a data breach affecting its current and former employees after hackers exploited an Oracle PeopleSoft zero-day vulnerability. The attack has been connected to the ShinyHunters group, known for extortion activities. This incident highlights how widely used enterprise software can become a target for large-scale data theft when unpatched vulnerabilities exist.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "oracle-peoplesoft",
+        "zero-day",
+        "data-breach",
+        "shiny-hunters",
+        "employee-data",
+        "exploitation"
+      ],
+      "whyItMatters": "This breach demonstrates that critical vulnerabilities in enterprise HR systems can expose sensitive employee information at major corporations, and threat actors actively exploit these weaknesses for extortion. Organizations relying on Oracle PeopleSoft must treat this as an urgent patching priority to prevent similar attacks.",
+      "image": null,
+      "processedAt": "2026-06-30T09:49:56.488575+00:00"
+    },
+    {
+      "id": "art-a8d310bd",
+      "title": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-06-29",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/",
+      "summary": "The National Association of Insurance Commissioners (NAIC) confirmed that the ShinyHunters group breached its systems by exploiting a zero-day vulnerability in Oracle PeopleSoft. According to NAIC, the attackers only accessed publicly available data, outdated logs, and configuration files rather than sensitive personal information. The incident highlights the risks posed by unpatched enterprise software vulnerabilities.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "peoplesoft",
+        "oracle",
+        "breach",
+        "shinyhunters",
+        "vulnerability-exploitation"
+      ],
+      "whyItMatters": "This incident demonstrates that even publicly available data can be weaponized by extortion groups, and zero-day exploits in widely-used enterprise systems like PeopleSoft pose significant risks to organizations. The breach underscores the importance of monitoring and securing legacy enterprise applications and implementing rapid patching procedures for critical vulnerabilities.",
+      "image": null,
+      "processedAt": "2026-06-30T09:49:59.158905+00:00"
+    },
     {
       "id": "art-adf52d01",
       "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
@@ -818,213 +1027,6 @@
       "whyItMatters": "As quantum computing technology advances, current encryption methods become vulnerable to potential decryption attacks. Meeting the 2030 deadline is critical for protecting sensitive government and organizational data, but the complexity of legacy systems and vendor dependencies means organizations must begin planning quantum-safe transitions immediately to avoid future compromise.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f96ce16a435deca/6a3d55be62f12d27e415ed3c/quantum_computer-Peter_Hansen-getty-2214879776.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-06-28T09:18:50.719673+00:00"
-    },
-    {
-      "id": "art-3c386487",
-      "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-27",
-      "originalUrl": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
-      "summary": "Russian intelligence services conducted a coordinated campaign targeting messaging accounts of Ukrainian and European officials, military personnel, and activists using fake support text messages to steal credentials. The Security Service of Ukraine and the FBI jointly uncovered this long-running operation that aimed to access sensitive information from high-value targets across multiple countries. This attack demonstrates how sophisticated threat actors use social engineering tactics like fake SMS messages to compromise secure communication channels.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "credential-theft",
-        "russian-apt",
-        "social-engineering",
-        "government-targeting",
-        "sms-spoofing"
-      ],
-      "whyItMatters": "This attack highlights how even government and military officials remain vulnerable to credential theft through convincing phishing tactics, exposing secure communications that could contain classified or sensitive strategic information. Organizations must implement multi-factor authentication, SMS security training, and credential monitoring to protect against similar campaigns targeting high-val",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL9wu_kGShq1lDTiDFjL3VdxF51l9aXdtW8vfE6Z0f3nLKXnr3WctY8jw3INV7FcO0FmLzv_EVCkfmsC4AmEaPih-SD_c24f8R_MJjjNT8OBdd6SuwVECGV3VdxnMDBs7ULHaVBFPPGkZZcruUhMcbmYE-RQu-QTZfn7rEWltSSSdFLhJeZKIZy4jZzl7L/s1600/cyberattack.jpg",
-      "processedAt": "2026-06-27T18:59:22.876574+00:00"
-    },
-    {
-      "id": "art-16f5bc5e",
-      "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-27",
-      "originalUrl": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-      "summary": "OpenAI has released a limited preview of three new AI models—GPT-5.6 Sol, Terra, and Luna—to select companies as part of a partnership with the U.S. government. These models represent different performance levels, with Sol being the most powerful and incorporating enhanced cybersecurity protections. The restricted rollout suggests careful consideration of risks associated with deploying advanced AI systems.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "model-deployment",
-        "safeguards",
-        "government-partnership",
-        "responsible-ai"
-      ],
-      "whyItMatters": "As AI systems become more powerful and widely integrated into critical infrastructure, understanding how developers implement security safeguards is essential for cybersecurity professionals. The restricted access model demonstrates industry recognition that advanced AI capabilities require controlled deployment and oversight to prevent misuse in cyberattacks or other malicious applications.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiweorWxmIvPG8uskOe44fLur9F5OJvqVdFLV1ejFqQozXruk70nzMhRaY58n4BuMhW1sbsdSvhTrlSxM8U5SLwPdaeRWNi4eQMUjEsFgmGV-37gTdnqk1NXLT4Ixadu4sq_pm0l_HVzuGHaIgcDnV_y092aZ1gCKkZ6lh2bp24PUBUfgsCSgvjlZiKRLMH/s1600/gpt.jpg",
-      "processedAt": "2026-06-27T18:59:25.360437+00:00"
-    },
-    {
-      "id": "art-a19f86b3",
-      "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
-      "summary": "CISA has alerted federal agencies about a critical vulnerability (CVE-2025-67038) in Lantronix EDS5000 Series devices that attackers are actively exploiting. This code injection flaw has a CVSS score of 9.8 and allows unauthorized command execution, posing a severe threat to critical infrastructure. Federal agencies have been instructed to apply patches immediately, with a deadline of June 26, 2026.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cve-2025-67038",
-        "code-injection",
-        "lantronix-eds5000",
-        "active-exploitation",
-        "patch-urgent",
-        "critical-infrastructure"
-      ],
-      "whyItMatters": "Active exploitation of critical vulnerabilities in industrial control devices like the Lantronix EDS5000 directly threatens essential services and infrastructure. The high CVSS score and government-mandated emergency patching deadline underscore the widespread risk and urgent need for organizations to prioritize immediate security updates. Delays in patching could expose sensitive systems to unaut",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjZtIkR9YS2fMY5MvIzgyEShmJAP1bgHqhBdU115iSY7WZ2EcBAbFKb1OQP6Nq8hoF4HlnRifxW890ztCcnezyAivPNWZjVsyJrhoNe8BVnZgSfcRo1Jbl4XilQM9bcQTU9nOeDgfWXSzh9sBru4RH6mDhwa1IijucDmj-l1gVI8NAiQRzu0IJ8d2AIVh9/s1600/1000085210.jpg",
-      "processedAt": "2026-06-27T18:59:27.884053+00:00"
-    },
-    {
-      "id": "art-b52e28e2",
-      "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
-      "summary": "Law enforcement agencies and cybersecurity companies including Bitdefender, ESET, and Microsoft successfully dismantled the criminal infrastructure behind Amadey and StealC malware, recovering 27 million stolen credentials in the process. This coordinated operation targeted the backend systems that cybercriminals use to distribute malware and launch ransomware, financial fraud, and critical infrastructure attacks. By shutting down these 'assembly lines,' authorities disrupted a major pathway for large-scale cyber attacks.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "malware-takedown",
-        "amadey",
-        "stealc",
-        "law-enforcement",
-        "credential-theft",
-        "ransomware-infrastructure"
-      ],
-      "whyItMatters": "This takedown demonstrates successful international cooperation against organized cybercrime and removes tools that criminals rely on for distributing ransomware and stealing credentials at scale. Organizations can benefit from understanding that major malware distribution networks are being disrupted, which may reduce attack volume temporarily but signals the need for continued vigilance. The rec",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBVSibdiZdJ1tNYJFrsHtZ8Vr1EG28rqKLY4E7HvAtuax2i3vgpcaMZjEAcGDRxUVu5aa_BHzCAahpw5l2RP2HNw9t7PF6zknNICdw0iuW5jozt5fzqsSfb3Lw55MIvStq2vh5W0139JychUhhJHvchyphenhyphenm7tT2oTS555CkVZrBYSkhmlMKWaXMLtO4OcSp6/s1600/cybercrime-ms.jpg",
-      "processedAt": "2026-06-27T18:59:31.010129+00:00"
-    },
-    {
-      "id": "art-972c59d5",
-      "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-24",
-      "originalUrl": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-      "summary": "Security researchers discovered a critical weakness in CI/CD workflows called Cordyceps that allows attackers to take control of software development pipelines and compromise open-source projects. This vulnerability pattern puts major technology companies like Microsoft, Google, and Apache at risk of supply-chain attacks. By exploiting these flaws, attackers could inject malicious code into software before it's released to millions of users.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "ci-cd-security",
-        "supply-chain-attack",
-        "github-repositories",
-        "workflow-hijacking",
-        "open-source-security"
-      ],
-      "whyItMatters": "Supply-chain attacks through CI/CD pipelines can affect countless downstream users and organizations, making this a critical infrastructure risk. When major tech companies like Microsoft and Google are vulnerable, the potential impact scales to affecting billions of devices and applications globally. Organizations need to immediately audit their CI/CD workflows and implement controls to prevent un",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjl_D6QzBWfQRZAXbjo9RhhLXSedzJR2Q2sUQoQYnDxpC7yETzJgn3KnpT8CcoqlfXdqkcnTCNcEpR1QKphy77NvG_9PIO57hHNF27x8pBb1pLf_4n3A6pTBs3qXQMsz81rvzpGIOqHZn7VqvJoJoB98o7COHOxi5wfkQvxhL4LcOxBkziY4MLxVCEOljX8/s1600/1000085115.jpg",
-      "processedAt": "2026-06-27T18:59:33.717852+00:00"
-    },
-    {
-      "id": "art-370499a4",
-      "title": "Clean GitHub repo tricks AI coding agents into running malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-27",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-      "summary": "Researchers discovered that AI coding agents can be tricked into executing malicious code hidden within seemingly legitimate GitHub repositories. The attack works because malware payloads can be concealed in ways that evade detection by security scanners, AI systems, and human code reviewers. This vulnerability exposes a critical weakness in automated development workflows that rely on AI to clone and set up project repositories.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "malware",
-        "github",
-        "code-execution",
-        "supply-chain-attack",
-        "ai-agents"
-      ],
-      "whyItMatters": "As organizations increasingly use AI coding agents for automation, this attack demonstrates a serious supply-chain vulnerability where trusted repositories can be weaponized to compromise development environments without detection. The ability to hide malicious payloads from both automated tools and human review significantly raises the risk for enterprises relying on AI-driven development practic",
-      "image": null,
-      "processedAt": "2026-06-27T18:59:36.600863+00:00"
-    },
-    {
-      "id": "art-9e563dbe",
-      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-18",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "summary": "A massive Android botnet called Popa has been operating for four years, infecting millions of consumer TV boxes and using them to conduct advertising fraud, steal user credentials, and scrape large amounts of data. Security researchers have now traced the botnet's operations back to NetNut, a residential proxy service run by Alarum Technologies Ltd, a publicly-traded Israeli company. This discovery reveals how legitimate-appearing companies may be operating malicious infrastructure at scale to enable cybercriminals.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "botnet",
-        "malware",
-        "android",
-        "advertising-fraud",
-        "account-takeover",
-        "residential-proxy"
-      ],
-      "whyItMatters": "This case demonstrates how botnets can compromise consumer devices at massive scale over extended periods while remaining connected to legitimate business entities, making detection and attribution difficult. The involvement of a publicly-traded company highlights how cybercriminal infrastructure can hide behind corporate legitimacy, warning organizations and consumers to scrutinize proxy services",
-      "image": null,
-      "processedAt": "2026-06-27T18:59:40.019017+00:00"
-    },
-    {
-      "id": "art-8a0babfb",
-      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-18",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
-      "summary": "A CISA contractor accidentally left a public GitHub repository containing highly privileged AWS GovCloud credentials and sensitive internal system documentation exposed to the internet. The leaked data included detailed information about how CISA develops, tests, and deploys its software, representing a major breach of government cybersecurity infrastructure. Security experts consider this one of the most serious government data leaks in recent years.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "credential-exposure",
-        "cloud-security",
-        "aws-govcloud",
-        "government-breach",
-        "github-leak",
-        "privileged-access"
-      ],
-      "whyItMatters": "This breach directly compromises the security agency responsible for protecting U.S. critical infrastructure, giving threat actors potential access to sensitive government systems and deployment processes. Exposed AWS GovCloud credentials can enable unauthorized access to classified or restricted government cloud environments. The leak of internal development and deployment information multiplies ",
-      "image": null,
-      "processedAt": "2026-06-27T18:59:43.285266+00:00"
-    },
-    {
-      "id": "art-46a45753",
-      "title": "Patch Tuesday, May 2026 Edition",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-12",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
-      "summary": "Major software companies including Apple, Google, Microsoft, Mozilla, and Oracle are releasing unusually high volumes of security patches this month as AI tools become increasingly effective at discovering vulnerabilities in code. While artificial intelligence systems can be manipulated through social engineering like humans, they are proving to be powerful allies in identifying security flaws before attackers do. This surge in patch releases reflects the growing capability of AI to strengthen software security.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patch-management",
-        "vulnerability-disclosure",
-        "ai-security",
-        "software-updates",
-        "security-patches"
-      ],
-      "whyItMatters": "The accelerated pace of patches from major software vendors indicates a significant shift in how vulnerabilities are discovered and addressed, with AI playing a crucial role in identifying bugs faster than traditional methods. Organizations must prioritize rapid deployment of these updates to protect against vulnerabilities that could otherwise be exploited by malicious actors. Understanding that ",
-      "image": null,
-      "processedAt": "2026-06-27T18:59:45.896910+00:00"
-    },
-    {
-      "id": "art-6d9e3c37",
-      "title": "Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk",
-      "source": "Dark Reading",
-      "publishedDate": "2026-06-27",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
-      "summary": "Educational institutions are facing increasing security risks from attacks on their third-party vendors, which can expose sensitive student data to ransomware and other cyber threats. Schools are struggling to defend against these indirect attacks since they often have limited control over their vendors' security practices. This trend highlights how organizations must carefully manage relationships with external service providers to protect their data.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "third-party-risk",
-        "vendor-security",
-        "ransomware",
-        "education-sector",
-        "data-protection",
-        "supply-chain-security"
-      ],
-      "whyItMatters": "Third-party breaches represent a critical vulnerability in the education sector's security posture because attackers can bypass direct defenses by targeting weaker external vendors. Schools must implement robust vendor risk management programs and contractual security requirements to prevent sensitive student data from being compromised through supply chain weaknesses. This issue is increasingly c",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2feed32bad3a1e85/6781341c966e6945d6fe1118/Education_(1800)_Aleksei_Gorodenkov_Alamy.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-06-27T18:59:48.572769+00:00"
     }
   ]
 }
