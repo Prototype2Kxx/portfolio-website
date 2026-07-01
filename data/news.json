@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-07-01T09:59:15.407032+00:00",
+  "lastUpdated": "2026-07-01T19:27:02.191738+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-7a5491c9",
+      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+      "summary": "Attackers are using fake websites disguised as legitimate software downloads to trick users into installing malicious packages. These compromised installers contain ScreenConnect, which is then used to deploy AsyncRAT malware onto victims' computers. Kaspersky discovered this is part of a widespread, coordinated campaign targeting multiple languages and regions by impersonating popular applications like OBS Studio and Bandicam.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-distribution",
+        "screenconnect-abuse",
+        "asyncrat",
+        "seo-poisoning",
+        "supply-chain-attack",
+        "social-engineering"
+      ],
+      "whyItMatters": "This campaign demonstrates a critical supply-chain attack vector where legitimate-looking software downloads become infection points for remote access trojans. Users need to verify download sources carefully, and organizations should educate employees about the risks of downloading software from unfamiliar websites, even if they appear to match official branding.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbKfADFEhazeaRztmVJkTBhFqZxALUDBwsOV_25bWjZ6Qm3pCBoSSawssWOOJC2ZQ7M6hrUDRXLfR5gcpWRkkaSdNtSPCz-FLrG5Dy4-Y-IzEMt_souSqJuc3JK9FNQ9p2-dT7Ojf3ufzPkWBpLNyDAVeeuYS7Ya-BJWT4MmAHz7OjHvwjMSCfF5Jvahyphenhyphenj/s1600/SEO-MALWARE.jpg",
+      "processedAt": "2026-07-01T19:26:34.399545+00:00"
+    },
+    {
+      "id": "art-6e57f789",
+      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+      "summary": "Researchers at Securonix discovered a sophisticated multi-stage malware campaign called VEIL#DROP that leverages Google Blogger pages and social engineering tactics to distribute PureLogs, an information stealing malware. The attack typically begins when users receive spear-phishing emails or accidentally visit compromised websites that redirect them to malicious Blogger pages hosting the malware payload. This method exploits the trust users often place in legitimate platforms and demonstrates how attackers repurpose popular services for malicious purposes.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "multi-stage-malware",
+        "information-stealer",
+        "phishing",
+        "blogger-abuse",
+        "social-engineering",
+        "purelogs"
+      ],
+      "whyItMatters": "This attack chain is significant because it demonstrates how threat actors exploit legitimate platforms like Blogger to evade detection and establish credibility, making it harder for users to identify malicious content. Understanding VEIL#DROP's delivery mechanisms helps organizations strengthen their email security, user training, and website monitoring to prevent similar compromises in their en",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3OuCh7SjXAd7hG_0Q0p__EmpV5MwYh0fOfMZHc1wxRHpsCN9qlonLr93NB6-iJMWJd6nv8VoMqSt9hWW34H7R7tpoGuhkn1mkEL8UgsiUIfNxh9L1Bh0Qpvt0xrX9Pqq6rw1vb-0CEC3KLAT5N7fdlgEHWnYVDyeuUHt2pD59vugSKLaC9n8-LBLoqV0Y/s1600/blogger.jpg",
+      "processedAt": "2026-07-01T19:26:37.374015+00:00"
+    },
+    {
+      "id": "art-ae88874a",
+      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
+      "summary": "Ousaban, a Brazilian banking trojan, is targeting Windows users in Spain and Portugal through phishing emails containing fake PDF attachments. The malware uses location verification to ensure victims are in the targeted countries and conceals its actual payload within an image file. Once installed, it aims to steal banking credentials and financial information from compromised systems.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "banking-trojan",
+        "phishing",
+        "windows",
+        "iberian-region",
+        "credential-theft",
+        "social-engineering"
+      ],
+      "whyItMatters": "This campaign demonstrates how attackers use geolocation targeting and sophisticated obfuscation techniques to evade detection while stealing sensitive financial information from specific regional banking users. Organizations and individuals in Spain and Portugal need heightened awareness of suspicious PDF attachments, and security teams should monitor for this trojan's command-and-control communi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GnjevIMTqO1nAZ7LWeRKAz2NCKGTKCC2ldSx5dsd2SShjh4pWcmddVJse4MP4QLhA_DOP1K_RajPwe8YR7rc57CqPUO0i9RDYoZQA0yRAokZt1r2hyphenhyphenccOjcFh2SgUTnyUjj-M-y7WUUXVF0rpSrcxTrjb5nPOnpnIP5YvdxzUaLXkubSTXFaj0RzxEvH/s1600/windows-trojan.jpg",
+      "processedAt": "2026-07-01T19:26:39.912382+00:00"
+    },
+    {
+      "id": "art-29939cfd",
+      "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
+      "summary": "Adobe released critical security patches for seven maximum-severity vulnerabilities affecting ColdFusion and Campaign Classic. These flaws could allow attackers to execute arbitrary code, escalate privileges, read files from systems, and bypass security protections. Organizations using these Adobe products need to apply the patches immediately to prevent potential exploitation.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "adobe-coldfusion",
+        "adobe-campaign-classic",
+        "critical-vulnerability",
+        "arbitrary-code-execution",
+        "privilege-escalation",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Maximum-severity vulnerabilities in widely-used Adobe products represent an immediate and widespread threat to enterprises. The ability to execute arbitrary code and bypass security features makes these flaws particularly dangerous, and attackers typically prioritize exploiting newly-disclosed critical vulnerabilities before patches are deployed. Organizations must prioritize applying these update",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2LpF3s-oL3WaiHtAZ9N33J120bvGnWDoQ39eE1fyToERHmJgkAtMzarRyW9-gOG0N4U1_nOEQmwg-3krYIZDcXXB6JYpurMezefSiM5-ygJd9CuuS1sS-gHNjoKgBRayO0wBow5GB1yaanR55TW2fwus6MQXwlqeXDJ2Xu7z2fiOGbPXo4qio4LpXZPO/s1600/adobe.jpg",
+      "processedAt": "2026-07-01T19:26:42.494597+00:00"
+    },
+    {
+      "id": "art-59759497",
+      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+      "summary": "Researchers at Cato AI Labs discovered two critical vulnerabilities in Cursor, an AI-powered code editor, that could allow attackers to bypass sandbox protections through specially crafted prompts. These flaws, named DuneSlide and tracked as CVE-2026-50548 and CVE-2026-50549, enable unauthorized command execution on a developer's machine without requiring any user interaction or approval. The vulnerabilities pose a significant risk to developers who use Cursor, as they could be exploited to compromise their systems.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "sandbox-escape",
+        "prompt-injection",
+        "code-editor-vulnerability",
+        "command-execution",
+        "duneslide"
+      ],
+      "whyItMatters": "This vulnerability is critical because it demonstrates how AI-assisted development tools can be weaponized through prompt injection to completely bypass security controls, putting developer machines at direct risk of compromise. Since developers often have elevated system access and handle sensitive code repositories, exploitation could lead to supply chain attacks, code theft, and system takeover",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItlLuWZZxw3YcKcnCVEsKn7HKF0QcPnXqFNjor23XT93Xp49dvLt4tZFYIbUApP4eABXQZ3pwnoidAp5GW1wm7ZfBA6vXRlX7i0Lbzw4KWlSkxayxjZQeoxg3TEAQWmLdGP9DePsYjoC1p07KGommOwATsJOHhRQ2zZatOaFRzHoKHVHcQW8K9s-Hd5w/s1600/cato.jpg",
+      "processedAt": "2026-07-01T19:26:45.448687+00:00"
+    },
+    {
+      "id": "art-ebcb4395",
+      "title": "DHS confirms hackers breached HSIN info-sharing platform",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
+      "summary": "The Department of Homeland Security disclosed a cyberattack that compromised HSIN, a critical platform used for sharing sensitive information among federal, state, local, and private-sector organizations. This breach exposed a system trusted by multiple levels of government and private partners to coordinate on security matters. The incident highlights vulnerabilities in infrastructure that protects national security communications.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "government-systems",
+        "critical-infrastructure",
+        "information-sharing",
+        "national-security",
+        "dhs"
+      ],
+      "whyItMatters": "A compromise of HSIN directly threatens the ability of government and private partners to securely share sensitive threat intelligence and coordinate on security responses. This breach could expose classified or sensitive operational details that adversaries can exploit, and it undermines trust in critical government information-sharing systems. Organizations relying on HSIN must assume their data",
+      "image": null,
+      "processedAt": "2026-07-01T19:26:51.031284+00:00"
+    },
+    {
+      "id": "art-99bdd09e",
+      "title": "Webinar: Why traditional email security is no longer enough",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+      "summary": "Attackers are increasingly using legitimate business identities and workflows to carry out phishing, business email compromise, and account takeover attacks that traditional email security tools struggle to detect. This webinar discusses how behavioral AI technology can help organizations automatically identify and respond to these sophisticated threats that exploit trusted communication channels.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "business-email-compromise",
+        "account-takeover",
+        "behavioral-ai",
+        "email-security",
+        "threat-detection"
+      ],
+      "whyItMatters": "As attackers evolve tactics to abuse legitimate business processes and trusted identities, organizations relying solely on traditional email filters face increasing risk of successful breaches. Understanding and implementing behavioral AI-driven detection is becoming essential for organizations to identify and prevent advanced email-based attacks that standard defenses miss.",
+      "image": null,
+      "processedAt": "2026-07-01T19:26:54.038642+00:00"
+    },
+    {
+      "id": "art-bc89d7a8",
+      "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
+      "summary": "Cybercriminals launched a large-scale password-spraying attack against Microsoft 365 accounts, attempting to log in over 81 million times within just two weeks. This type of attack tries many username and password combinations to gain unauthorized access to cloud-based business accounts. The campaign highlights how organizations relying on cloud services face constant threats from attackers seeking to compromise email, data, and corporate systems.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "password-spraying",
+        "microsoft-365",
+        "cloud-security",
+        "account-compromise",
+        "brute-force"
+      ],
+      "whyItMatters": "Password-spraying campaigns at this scale demonstrate that attackers are actively targeting widely-used cloud platforms and can execute massive attacks efficiently. Organizations must implement strong multi-factor authentication and monitor suspicious login attempts to prevent account takeovers that could lead to data theft, ransomware deployment, or business email compromise.",
+      "image": null,
+      "processedAt": "2026-07-01T19:26:56.561005+00:00"
+    },
+    {
+      "id": "art-2e67b56c",
+      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
+      "summary": "Criminal IP has integrated its threat intelligence capabilities into OpenCTI, a popular threat intelligence platform, to enhance how security teams analyze and act on threat indicators. The integration adds valuable context to raw threat data through risk scoring, infrastructure analysis, and phishing detection features. By combining these enriched insights, organizations can better understand threats and make more informed security decisions.",
+      "category": "Other",
+      "severity": "Medium",
+      "tags": [
+        "threat-intelligence",
+        "open-cti",
+        "risk-scoring",
+        "phishing-analysis",
+        "infrastructure-intelligence",
+        "security-tools"
+      ],
+      "whyItMatters": "Threat indicators are only actionable when security teams understand the context behind them. This integration helps organizations prioritize alerts more effectively and investigate threats faster by providing enriched data directly in their existing workflows, ultimately improving incident response efficiency.",
+      "image": null,
+      "processedAt": "2026-07-01T19:26:59.069617+00:00"
+    },
+    {
+      "id": "art-547fc22d",
+      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
+      "summary": "More than 900 Oracle E-Business Suite instances are publicly accessible online and currently under active attack from threat actors exploiting a critical vulnerability. This widespread exposure demonstrates how enterprise resource planning systems remain attractive targets for hackers seeking to compromise sensitive business data and operations. Organizations using Oracle EBS need to urgently assess their security posture and apply patches to prevent unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "oracle-ebs",
+        "critical-vulnerability",
+        "active-exploitation",
+        "enterprise-systems",
+        "patch-urgently",
+        "cloud-exposure"
+      ],
+      "whyItMatters": "This incident affects hundreds of organizations simultaneously, making it a widespread and immediate threat to business continuity and data security. The active exploitation of a critical flaw in commonly-used enterprise software means organizations must prioritize patching and network access controls to avoid compromise. The scale and ongoing nature of attacks highlight the importance of maintain",
+      "image": null,
+      "processedAt": "2026-07-01T19:27:02.191605+00:00"
+    },
     {
       "id": "art-118bba36",
       "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
@@ -824,212 +1033,6 @@
       "whyItMatters": "SimpleHelp is commonly used by IT teams and support departments, making this vulnerability a high-value target for attackers seeking broad access to sensitive networks. The combination of active exploitation, critical severity, and multi-platform capability means organizations need to patch immediately to prevent credential theft and system compromise. This highlights the importance of securing re",
       "image": null,
       "processedAt": "2026-06-29T19:30:11.106436+00:00"
-    },
-    {
-      "id": "art-50fd649b",
-      "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
-      "summary": "Microsoft discovered and removed 119 malicious Edge browser extensions that were part of a sophisticated operation called StegoAd. These extensions used steganography techniques to hide malware inside innocent-looking image and font files, remaining dormant for days before stealing user credentials and committing ad fraud. The threat actor behind this campaign has been operating since at least 2021, demonstrating a long-term persistence threat.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "browser-extensions",
-        "steganography",
-        "credential-theft",
-        "ad-fraud",
-        "supply-chain",
-        "malware-distribution"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors exploit legitimate software distribution channels to deliver malware at scale, affecting hundreds of thousands of users. The use of steganography to hide payloads makes detection difficult and shows the need for users to be cautious about installing browser extensions, even from official stores. Organizations and individuals must understand that trusted p",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmbNHaJMqOcEeoUkaQeIZC_ilbUt8RpG-kyweNVY_fJ_3BQk19-pmJQXV_soXqZiHleBISNTwcYSqew2nzpc3eBEDULz52KaY1RNrJTb7u87f2oEtpJuTtmi4OL6Lc_HXP9WQcMDRco_w4U5mklzQ1QJj8ndNiBYVQRRUsevzc1P6hZe2N26_lyAhkQbsP/s1600/edge.jpg",
-      "processedAt": "2026-06-29T11:10:07.370574+00:00"
-    },
-    {
-      "id": "art-e56d7084",
-      "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
-      "summary": "A critical vulnerability in libssh2 (CVE-2026-55200) allows malicious SSH servers to corrupt memory and potentially execute code on connecting clients without requiring credentials or user interaction. A public proof-of-concept exploit is now available, affecting all versions up to 1.11.1 despite the relatively moderate CVSS score of 9.2. This client-side flaw poses a significant risk because attackers only need to compromise or control an SSH server to target vulnerable clients.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "libssh2",
-        "cve-2026-55200",
-        "ssh-vulnerability",
-        "memory-corruption",
-        "code-execution",
-        "public-poc"
-      ],
-      "whyItMatters": "The public release of a working exploit combined with the ease of exploitation—requiring only a malicious SSH server interaction—makes this an immediate threat to any organization or individual using libssh2. Developers and system administrators need to patch urgently to prevent potential remote code execution attacks, particularly in environments where SSH clients connect to untrusted or internet",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD9yQyR_bCP0-I73R6EpwLjJtptGUvzeJD90oYzZvFZXVnM99EIvHFtIJlhZ2f4NSZkAyO7JWjJOy6Zd3lAtPz1Bbk2vmj7Ls8aMIZsFqiIVtIArSjypgJRIHJzlDN5BykKcZziAicpJiNE02Wg3Aheu5BIF1SvY3Pn09WYcdLtvWAT5giGf9mC_uY9GkG/s1600/ssh.jpg",
-      "processedAt": "2026-06-29T11:10:10.320415+00:00"
-    },
-    {
-      "id": "art-02dce759",
-      "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
-      "summary": "Attackers compromised npm and Go package repositories to distribute a Python-based information stealer targeting Windows, Linux, and macOS systems. The malicious packages use VS Code tasks to execute the malware, deliberately avoiding common npm security detection methods like lifecycle scripts. This supply chain attack demonstrates how threat actors are adapting techniques to evade existing security measures in popular development tools.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware-distribution",
-        "package-hijacking",
-        "infostealer",
-        "npm-security",
-        "code-execution"
-      ],
-      "whyItMatters": "This attack directly threatens developers and organizations that rely on npm and Go packages, as compromised dependencies can inject malware into production environments at scale. The use of VS Code tasks as an execution vector demonstrates attackers are becoming more sophisticated in bypassing security controls, making dependency management and code review critical for development teams. The cros",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBjmO4haWCgXfALMAtSHKJXRWIlLfYqulkKflfK-3BSYON-8A4MjUNoZRxOyaLGc-4Bsj1eIfGDhdpJuKZrJORz4HZHx5iM7lj0-VlehqqZ6kaq5_ZWP08MviAchtNF1XORD_Fps-IWderGKNM18TT-Jgh_0LRFULqdMeOfv_FKDd8oWmHmv-iR1-_7XZP/s1600/gogo.jpg",
-      "processedAt": "2026-06-29T11:10:13.061128+00:00"
-    },
-    {
-      "id": "art-d820460a",
-      "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
-      "summary": "Russian authorities used Cellebrite's UFED forensic tools to access an iPhone belonging to detained opposition activist Andrey Pivovarov in June 2021, despite Cellebrite claiming it had stopped selling to Russia and Belarus three months earlier. The discovery was made by Citizen Lab through forensic evidence found on the phone and corroborated by official Russian records. This incident reveals a significant gap between corporate sales restrictions and actual enforcement, raising concerns about how surveillance tools are distributed and used globally.",
-      "category": "Digital Forensics",
-      "severity": "High",
-      "tags": [
-        "cellebrite",
-        "surveillance",
-        "forensic-tools",
-        "russia",
-        "activism",
-        "phone-exploitation"
-      ],
-      "whyItMatters": "This case demonstrates that corporate compliance measures and sales cutoffs may not prevent authoritarian regimes from accessing powerful forensic tools, directly impacting activists and dissidents. It highlights a critical vulnerability in the supply chain of digital surveillance technology where official restrictions fail in practice. Organizations and individuals must understand that their devi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBSVw_gpnELsdqj1fhZXQ6Jm-ycv8RsT1-Q7vfNeyj0_Sd-keBXqrAA9w7Vz8qt0tKM3yXkVPknx8FtRKBGBShrelNUIlZbkoUDdDz4MEeWbStRxJt5ggHFA2LFTv5Lc2g-1VC9L7-HGtWY_8VZMTInbZrXa0UY_oZsu2GUeFDH8VsHnUekF4m64OET3U/s1600/iphone-hack.jpg",
-      "processedAt": "2026-06-29T11:10:16.246002+00:00"
-    },
-    {
-      "id": "art-614f9e5a",
-      "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-26",
-      "originalUrl": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
-      "summary": "Google researchers have uncovered a new backdoor called STOCKSTAY, developed by the Russian state-sponsored group Turla, which targets Ukrainian government and military organizations as well as entities involved in Italian foreign policy. This .NET-based backdoor is actively being refined and deployed in ongoing espionage campaigns. The discovery highlights Turla's continued sophistication in creating custom malware to infiltrate sensitive government networks.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "turla",
-        "backdoor",
-        "stockstay",
-        "ukraine",
-        "state-sponsored",
-        "government-targeting"
-      ],
-      "whyItMatters": "This threat is critical because it represents an active state-sponsored espionage campaign targeting government and military infrastructure, with a continuously evolving backdoor that could compromise sensitive national security information. Organizations in Ukraine and those involved in Italian foreign policy need immediate awareness and defensive measures. The attribution to Turla signals a soph",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9SthtlfUvEkaX0iZanYdYTAOV5hgm44yCwHu_3GCaoa11rO-GkO9oc0_qN9JGw2n86dsEsN_sdaYt2ra_4I_dQ57ja0kiUeYtkg1eY8ZJtu45oKtN-TqWLdKudnJPFQQFGPReCfu1xcfHGgfqgtLe8zyFlEoMnO2AwnsEsosf9LCZS9gJHq58Q8OcPlWP/s1600/STOCKSTAY.jpg",
-      "processedAt": "2026-06-29T11:10:19.415343+00:00"
-    },
-    {
-      "id": "art-0f69276b",
-      "title": "Anthropic is testing desktop-like Claude Cowork for mobile",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-is-testing-desktop-like-claude-cowork-for-mobile/",
-      "summary": "Anthropic is developing mobile support for Claude Cowork, a feature that enables users to manage long-running AI tasks directly from their smartphones. This expansion brings desktop-level functionality to mobile devices, allowing for greater flexibility in how users interact with Claude's capabilities. The testing phase suggests the company is working to improve accessibility and usability across different platforms.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "claude",
-        "mobile-security",
-        "ai-tools",
-        "application-development"
-      ],
-      "whyItMatters": "While this is primarily a feature announcement rather than a security threat, it highlights the increasing integration of AI tools into everyday mobile workflows, which raises important considerations about data handling, authentication, and session management on mobile devices. Security teams should monitor how mobile-based AI task management affects organizational security policies and data prot",
-      "image": null,
-      "processedAt": "2026-06-29T11:10:22.179015+00:00"
-    },
-    {
-      "id": "art-098aa2fa",
-      "title": "Poland busts SIM-swapping gang tied to millions in crypto theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/",
-      "summary": "Polish authorities arrested four members of a cybercrime gang that specialized in SIM-swapping attacks targeting cryptocurrency holders. The criminals breached telecommunications companies and compromised email accounts to hijack phone numbers, gaining unauthorized access to victims' digital assets. This operation resulted in millions of dollars in cryptocurrency theft and demonstrates how attackers exploit weaknesses in telecom security.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "sim-swapping",
-        "cryptocurrency-theft",
-        "telecom-security",
-        "account-hijacking",
-        "organized-crime"
-      ],
-      "whyItMatters": "SIM-swapping is a highly effective attack vector that bypasses traditional two-factor authentication relying on SMS, making it a critical threat to cryptocurrency users and high-value targets. This case demonstrates that organized criminal groups are systematically exploiting telecom infrastructure vulnerabilities, highlighting the need for stronger authentication methods and telecom partner vetti",
-      "image": null,
-      "processedAt": "2026-06-29T11:10:25.177712+00:00"
-    },
-    {
-      "id": "art-f6c8e7eb",
-      "title": "Order-tracking app Shop abused to push callback phishing attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/order-tracking-app-shop-abused-to-push-callback-phishing-attacks/",
-      "summary": "Attackers are exploiting Shopify's Shop app by inserting fake purchase receipts into users' order histories to deceive them into revealing sensitive information or downloading malicious remote access tools. This technique leverages the trust users have in legitimate order-tracking notifications to increase the effectiveness of their social engineering attacks. The scam demonstrates how cybercriminals are targeting popular shopping apps as vectors for credential theft and system compromise.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "shop-app",
-        "social-engineering",
-        "callback-scam",
-        "credential-theft",
-        "mobile-security"
-      ],
-      "whyItMatters": "This attack exploits user trust in legitimate e-commerce platforms, making it harder for individuals to distinguish real notifications from fraudulent ones. Organizations and users need to remain vigilant about verifying unexpected receipt notifications and avoid clicking links or downloading files from unsolicited messages, even when they appear to come from trusted apps.",
-      "image": null,
-      "processedAt": "2026-06-29T11:10:28.039744+00:00"
-    },
-    {
-      "id": "art-fd83507d",
-      "title": "The Four Elevations of Effective Fraud Prevention",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-four-elevations-of-effective-fraud-prevention/",
-      "summary": "Fraudsters operate on multiple levels, targeting individual transactions, entire accounts, and whole platforms simultaneously. IPQS outlines four strategic layers of fraud prevention that organizations need to implement. By gaining broader visibility across these different levels, companies can detect and stop fraudulent activity more effectively.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "fraud-prevention",
-        "account-security",
-        "platform-protection",
-        "threat-detection",
-        "ecosystem-security"
-      ],
-      "whyItMatters": "Understanding the multi-layered nature of fraud attacks helps organizations implement defense strategies that go beyond single-transaction monitoring. Implementing comprehensive fraud prevention across all four elevation levels significantly reduces the attack surface and prevents criminals from exploiting gaps in detection systems.",
-      "image": null,
-      "processedAt": "2026-06-29T11:10:30.370006+00:00"
-    },
-    {
-      "id": "art-e9d65618",
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "summary": "The Gentlemen ransomware group has rapidly grown to become the second most active ransomware gang, recruiting skilled hackers through an enticing affiliate model that offers 90% of ransom payments. The article investigates clues that may reveal the real-world identity of the group's administrator, shedding light on who leads this emerging cybercriminal operation.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "cybercrime",
-        "affiliate-model",
-        "threat-actor",
-        "gang-recruitment",
-        "ransom"
-      ],
-      "whyItMatters": "Understanding the leadership and operational structure of major ransomware groups helps organizations and law enforcement track threats, predict attack patterns, and develop targeted defenses. The aggressive recruitment strategy and high payout rates indicate The Gentlemen is expanding capabilities and pose an escalating threat to businesses across industries.",
-      "image": null,
-      "processedAt": "2026-06-29T11:10:32.865326+00:00"
     }
   ]
 }
