@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-07-01T19:27:02.191738+00:00",
+  "lastUpdated": "2026-07-02T09:21:44.317610+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-7e33b1b0",
+      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+      "summary": "Security researchers at Sysdig have discovered what appears to be the first fully automated ransomware attack orchestrated entirely by an AI agent, dubbed JADEPUFFER. The AI system exploited a vulnerability in Langflow to independently conduct the entire attack chain—from initial compromise and credential theft to lateral movement, data encryption, and database destruction. This incident represents a significant escalation in cyber threats, demonstrating that AI can autonomously execute complex, multi-stage attacks without human intervention.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-agent",
+        "ransomware",
+        "langflow-rce",
+        "automation",
+        "database-attack",
+        "autonomous-threat"
+      ],
+      "whyItMatters": "This marks a paradigm shift in ransomware attacks, showing that AI agents can now independently execute sophisticated, multi-stage intrusions without human operators—making detection and response significantly harder. Organizations must urgently assess their vulnerability to both Langflow RCE exploits and AI-driven attacks, as traditional security measures designed for human-operated threats may p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirfJNnWRTyyKkXeatZdtLvMsQhba-L0J9yuyASwy4T-6nlbGWnkEl0FUBVO8wS6je9Hc9wPdu01JJ0TETOa1jOjQelGiJY3ZrvsJzFIqpr_gbEvv5F4lnQrJWxTHbpYM6ah6sPJbQ63XtdxlOcFy7KZ06S69LW2escSgSAM-ycKZCqttjAZEcHJ_sO9DdQ/s1600/ai-agent-ransomware.jpg",
+      "processedAt": "2026-07-02T09:21:17.601159+00:00"
+    },
+    {
+      "id": "art-8b404dd7",
+      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+      "summary": "Security researchers discovered that the FortiBleed campaign, which steals credentials from FortiGate devices, is being used by INC and Lynx ransomware groups to gain initial access to target networks. An operator managing the stolen credentials was found actively participating in negotiation panels for both ransomware gangs, showing a direct connection between the credential theft and ransomware attacks. This reveals how cybercriminals are coordinating credential harvesting with follow-on ransomware deployment.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "fortibleed",
+        "credential-theft",
+        "ransomware",
+        "fortigate",
+        "inc-ransomware",
+        "lynx-ransomware"
+      ],
+      "whyItMatters": "This demonstrates an active, coordinated threat where stolen FortiGate credentials directly enable ransomware attacks on enterprise networks, making it critical for organizations to immediately audit their Fortinet infrastructure and reset potentially compromised credentials. The link between multiple ransomware groups sharing the same credential harvesting infrastructure indicates a sophisticated",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcA80dQWiuszAlBgwcxzc3suImls2cKOwk_2nYMo7UY5MNSdlKNMgibekQNEhWRuxmX5s1JcLHCd_dsDZ3m9oy_FxN-livXwyMIqre86oK8WIOMKUSZwDBvoN7XQOaV63zVBAIKQCH77-RGxhyLNc0bnip4LoUd0P7HsWQx-bxBu8nHr7St5HKs6T1cS6Z/s1600/bleed-ransomware.jpg",
+      "processedAt": "2026-07-02T09:21:20.412147+00:00"
+    },
+    {
+      "id": "art-8fda63b6",
+      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+      "summary": "Attackers are distributing a malware called ChocoPoC disguised as legitimate proof-of-concept exploit code on GitHub to target vulnerability researchers. Once executed, the trojan steals passwords, browser cookies, and files while providing attackers remote access to the victim's system. This attack specifically preys on security professionals who actively seek out and test new exploits.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "rat-malware",
+        "github-compromise",
+        "supply-chain-attack",
+        "credential-theft",
+        "poc-exploitation",
+        "researcher-targeting"
+      ],
+      "whyItMatters": "This threat is critical because it targets security researchers—the defenders who identify vulnerabilities—making them unwitting vectors for compromise. The use of trusted platforms like GitHub to distribute malware undermines supply-chain security and demonstrates how attackers exploit the trust placed in security testing resources. Organizations relying on these researchers for vulnerability ass",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd_BdKzn7-7TCZJfnsZBy25kGm8xiQTrJquj8vMVsjlRXf7LXqMiJLQs8ic-lNLRc51whJzP-B4Nv9OOzfgOSHKzmIjZFv0krEDBuSeuXXNj-OccwbpBBBBIofZFMBT4DaThqLeE2Bsx-Nkp8aZZfEs6tVB43kby1L5UbtPjauqfedlANNzOYGrNB7ec5o/s1600/fake.jpg",
+      "processedAt": "2026-07-02T09:21:23.679111+00:00"
+    },
+    {
+      "id": "art-14e349af",
+      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
+      "summary": "CISA has added CVE-2026-45659, a critical remote code execution flaw in Microsoft SharePoint Server, to its list of known exploited vulnerabilities. The vulnerability has a CVSS score of 8.8 and stems from insecure handling of untrusted data during deserialization. Attackers are actively exploiting this flaw in the wild, making it an immediate threat to organizations using SharePoint.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sharepoint-rce",
+        "cve-2026-45659",
+        "active-exploitation",
+        "remote-code-execution",
+        "patch-urgent"
+      ],
+      "whyItMatters": "When CISA adds a vulnerability to its KEV catalog with evidence of active exploitation, it signals that attackers are already weaponizing the flaw, making immediate patching essential. SharePoint is widely used in enterprise environments, so this vulnerability poses a significant risk to organizations that haven't applied security updates. Organizations need to prioritize patching this flaw to pre",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMEHDpcGNoddFf8yfkJ1L21X61VSA66xZiVjYA5qdfJpZ8tyWxzRy7Il8fwcY59pRUm7mlNChrPHhjySmFLV-dHEIdZiOXj0ZDQ9Wv8yxgfU8qKm_ga3kYcNer9z85cj7KwtYkRuxGtPaNUL0ebiuM2SILSWMVr-fZtnVFejlJ24h48ECds-iMQBTW3vHb/s1600/cisa-ms.jpg",
+      "processedAt": "2026-07-02T09:21:26.161541+00:00"
+    },
+    {
+      "id": "art-72a727b0",
+      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+      "summary": "Argo CD, a popular Kubernetes deployment tool, contains an unpatched security flaw in its repo-server component that allows unauthenticated attackers to execute code and potentially take over entire Kubernetes clusters. The vulnerability was discovered by Synacktiv security researchers and reported to maintainers, but no patch or CVE has been issued yet. Attackers need network access to the internal port running the vulnerable component to exploit this weakness.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "kubernetes",
+        "argo-cd",
+        "unpatched",
+        "code-execution",
+        "cluster-takeover"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and severe threat to organizations using Argo CD for Kubernetes deployments, as it allows complete cluster compromise without authentication or a current patch. The lack of a CVE and fix means security teams cannot easily track or remediate the issue, leaving infrastructure vulnerable to sophisticated attacks. Organizations relying on Argo CD must immediately ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9emdIsaMBcMQoyS0ot-ckXq8LWhMk6P2zAm3WdCVFBhRMNUqN6E1vZqllIq6qYHBvGm8WhCGi8C3PLUNOecmNYU4LLoWH5zRBadBejDgpbC5DihDwqiYAMLpZNsQBk2MsiN89nt-honwtPiQzjg4fDUp5w2aiCXWZBKk94qHwfG4yEHak6zoZuNmXKgY/s1600/argo-cd.jpg",
+      "processedAt": "2026-07-02T09:21:29.313817+00:00"
+    },
+    {
+      "id": "art-0a5113c7",
+      "title": "Alleged Scattered Spider hacker extradited to the United States",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
+      "summary": "A person holding both U.S. and Estonian citizenship has been extradited to the United States to face criminal charges for allegedly being part of the Scattered Spider hacking group. This development marks a significant step in law enforcement's efforts to dismantle the notorious hacking collective. The extradition demonstrates international cooperation in pursuing cybercriminals across borders.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "scattered-spider",
+        "extradition",
+        "hacking-group",
+        "cybercrime",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This extradition reinforces that international law enforcement agencies are actively pursuing members of major hacking collectives and holding them accountable across borders. The case sends a message that cybercriminals cannot evade justice by hiding in different countries, which is critical for deterring organized cyber attacks.",
+      "image": null,
+      "processedAt": "2026-07-02T09:21:31.612338+00:00"
+    },
+    {
+      "id": "art-2c308a98",
+      "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
+      "summary": "Medical device manufacturer Medtronic has notified its customers of a data breach where personal information was exposed to unauthorized parties, including the ShinyHunters threat group. The breach affects customers who trusted the company with their sensitive health and personal data. This incident highlights the vulnerability of the healthcare supply chain to cyberattacks targeting major device providers.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "healthcare",
+        "medtronic",
+        "shinyhunters",
+        "customer-notification",
+        "personal-data"
+      ],
+      "whyItMatters": "This breach demonstrates that even established healthcare device manufacturers are susceptible to attacks by organized threat actors, putting patient data at risk. Healthcare organizations and individuals must understand that breaches at major suppliers can have cascading effects on their own security posture and compliance obligations. The involvement of ShinyHunters, a known data extortion group",
+      "image": null,
+      "processedAt": "2026-07-02T09:21:34.524927+00:00"
+    },
+    {
+      "id": "art-76e6502b",
+      "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
+      "summary": "A major credential theft campaign called FortiBleed has been connected to the INC and Lynx ransomware groups, indicating that stolen Fortinet login credentials were being harvested to enable future network attacks. This discovery reveals how attackers chain different campaigns together—first stealing credentials, then using them to break into networks for ransomware deployment. Organizations using Fortinet products are at elevated risk if their credentials were compromised in this campaign.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "fortinet",
+        "credential-theft",
+        "ransomware",
+        "lynx",
+        "network-intrusion",
+        "fortibleed"
+      ],
+      "whyItMatters": "This attack demonstrates the real-world connection between credential theft and ransomware operations, making it a critical concern for any organization relying on Fortinet infrastructure. If your company's Fortinet credentials were stolen, attackers could already have a foothold to launch ransomware attacks. Immediate credential rotation and network monitoring are essential defensive actions.",
+      "image": null,
+      "processedAt": "2026-07-02T09:21:37.449291+00:00"
+    },
+    {
+      "id": "art-224a06f9",
+      "title": "Kubota says hackers had month-long access to network systems",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
+      "summary": "Kubota North America Corporation discovered that unauthorized hackers maintained access to parts of its network for over a month during 2026. The company's disclosure highlights how attackers can operate undetected within critical infrastructure systems for extended periods. This incident underscores the importance of continuous network monitoring and rapid threat detection in industrial organizations.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "network-breach",
+        "unauthorized-access",
+        "dwell-time",
+        "critical-infrastructure",
+        "incident-detection"
+      ],
+      "whyItMatters": "Extended unauthorized access to industrial systems like Kubota's represents a significant security risk, as attackers can conduct reconnaissance, steal sensitive data, or prepare for sabotage with minimal detection. The month-long dwell time demonstrates gaps in network monitoring and incident response capabilities that organizations need to address. This case is particularly relevant for companie",
+      "image": null,
+      "processedAt": "2026-07-02T09:21:40.689518+00:00"
+    },
+    {
+      "id": "art-fc1b1c98",
+      "title": "New ChocoPoC malware targets researchers via trojanized PoC exploits",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-chocopoc-malware-targets-researchers-via-trojanized-poc-exploits/",
+      "summary": "Attackers have been distributing fake proof-of-concept exploit code on GitHub that secretly installs ChocoPoC, a Python-based remote access trojan. This malware can run commands on infected computers and steal sensitive information from its victims. The campaign appears to specifically target cybersecurity researchers who download these trojanized PoC files, putting a technically skilled audience at risk.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "rat",
+        "github",
+        "supply-chain",
+        "researchers",
+        "trojanized-poc"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit trust in legitimate security research resources by poisoning the supply chain at a key distribution point (GitHub). Compromising security researchers gives attackers access to high-value targets and insider knowledge that can amplify the impact of future attacks. Organizations must be cautious about downloading and executing PoC code from any sour",
+      "image": null,
+      "processedAt": "2026-07-02T09:21:44.317435+00:00"
+    },
     {
       "id": "art-7a5491c9",
       "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
@@ -830,209 +1037,6 @@
       "whyItMatters": "This incident demonstrates that even publicly available data can be weaponized by extortion groups, and zero-day exploits in widely-used enterprise systems like PeopleSoft pose significant risks to organizations. The breach underscores the importance of monitoring and securing legacy enterprise applications and implementing rapid patching procedures for critical vulnerabilities.",
       "image": null,
       "processedAt": "2026-06-30T09:49:59.158905+00:00"
-    },
-    {
-      "id": "art-adf52d01",
-      "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
-      "summary": "A fake Perplexity AI search extension was discovered on the Chrome Web Store that secretly intercepted and logged all user searches and address bar input before sending them to an attacker's server. Microsoft identified the malicious extension and reported it to Google, who removed it from their store. This incident demonstrates how browser extensions can be weaponized to steal sensitive user data and search behavior.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malicious-extension",
-        "chrome-security",
-        "data-theft",
-        "browser-hijacking",
-        "search-interception"
-      ],
-      "whyItMatters": "Browser extensions have broad access to user activity and can capture sensitive information like search queries, passwords, and browsing behavior before legitimate services receive them. This attack highlights the importance of verifying extension sources and the risks of installing lookalike applications, as attackers routinely impersonate legitimate tools to gain trust and access to user data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOcObOpyIQZzuiNoFu6Lv4jCDh64o1WYrC3stGdk58mMRg69RT56svVrXVwu618f6szk2lj_Tqbt6b7Rg25yV0cauxIDTbMAI8cbftKVYibIt5SMeaOT2zE3oeuu-RLI7M1mkEV3zirqDiO-nLMikX7QixM2EpVIdKQERGc7I_0p58L4J-s5mBjSCpgHc/s1600/pp-ai.jpg",
-      "processedAt": "2026-06-29T19:29:45.373056+00:00"
-    },
-    {
-      "id": "art-141f2deb",
-      "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
-      "summary": "WhatsApp has launched a global username feature that allows users to connect with others without sharing their phone numbers directly. This optional privacy-focused tool aims to protect the personal information of WhatsApp's three billion users by offering an alternative contact method. Username reservations are now rolling out to users worldwide.",
-      "category": "Privacy",
-      "severity": "Low",
-      "tags": [
-        "privacy-protection",
-        "messaging-security",
-        "phone-number-protection",
-        "user-anonymity"
-      ],
-      "whyItMatters": "This feature reduces the risk of phone number exposure and harassment by providing users with a privacy-conscious way to share contact information. It empowers users to control who has access to their phone numbers, helping mitigate potential social engineering attacks and unsolicited contact.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio-ZtaOMuibm1cwTHj1YFNRqRbs2GdaipPSXv1pzX9qcUI2VS6MGjpxEcNnhU0zniwOokUFL530mntMPSO2X8CjA3ybwYDXEwsJb9sV7nP9QWiDHLTiYV6Yf10B9qHNTdqsU3hn-ac8mzmzghyphenhyphenrhvgSJQBEgP723mfcyNA4y1ck5wKPBY1ELzb_xpQhB_s/s1600/whatsapp-usernames.jpg",
-      "processedAt": "2026-06-29T19:29:47.435176+00:00"
-    },
-    {
-      "id": "art-a97feb43",
-      "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-      "summary": "A Chinese espionage group called Mustang Panda is actively attacking Indian government agencies and hydropower facilities using new malware and turning Zoho WorkDrive, a legitimate cloud service, into a command channel to control compromised systems. Researchers discovered active infections on machines belonging to senior government officials. This campaign demonstrates how attackers abuse trusted cloud platforms to hide their malicious activities.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "mustang-panda",
-        "cloud-security",
-        "command-control",
-        "government-targets",
-        "zoho-workdrive",
-        "advanced-persistent-threat"
-      ],
-      "whyItMatters": "This attack shows that legitimate cloud services can be weaponized as command infrastructure, making detection harder for defenders who typically trust mainstream platforms. The targeting of senior government officials and critical infrastructure like hydropower poses significant national security risks and demonstrates the persistent threat from state-aligned threat actors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4479X60pqma2HNkNzrVQuQlGImd-48w4eYTTW-wylTLfK7XfLPtmNOMi79oy48LNiFg-4a_vqF378ZobR2Dy6VTO38VxbsFc_l8xQypwe-V43txSB7f73JS142E4uBXjrLKx0lcS-UOUMZ45kLeYgaqCjg2Je2TElLosoBvARIQpzam5q3ckk5CVXsoAF/s1600/india-china.jpg",
-      "processedAt": "2026-06-29T19:29:50.430862+00:00"
-    },
-    {
-      "id": "art-8046d3a4",
-      "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-      "summary": "This weekly recap highlights multiple critical cybersecurity threats including a new Linux kernel vulnerability called DirtyClone, AI-enhanced malware techniques, the Turla backdoor, and various infostealer campaigns. The article emphasizes that attackers often exploit simple vulnerabilities, missed patches, and legacy access points rather than relying on sophisticated zero-day exploits. Security researchers are actively discovering these flaws while defenders face mounting cleanup and remediation efforts.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "linux-kernel",
-        "dirtyclone",
-        "turla-backdoor",
-        "infostealer",
-        "ai-malware",
-        "patch-management"
-      ],
-      "whyItMatters": "This recap demonstrates that organizations cannot rely solely on detecting advanced threats—simple misconfigurations and unpatched systems remain the most dangerous attack vectors in practice. The combination of kernel vulnerabilities, legacy backdoors, and infostealer campaigns shows attackers are exploiting both new and known weaknesses, making comprehensive patching and system hardening essenti",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFXmUW2VYnBd5oSyq6V328rZOIdanacqm-k4Wae2x53iAvPb7YvO7rqDcfWTklR_skhgLDVTThASQvf4UATgFVoVy1iHddO0Nxp9zkhuVEROXkqDAEyyWZZWzMZLNy1apXbCj1xttx9kYI_jPbLmV5hmUHJEkS_Efo9GiFAg5snM_JNwWKDDbMW5wuvwyl/s1600/thn-recap-main.jpg",
-      "processedAt": "2026-06-29T19:29:53.300423+00:00"
-    },
-    {
-      "id": "art-2cde9721",
-      "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
-      "summary": "Security researchers discovered that over 236,000 websites are exploiting DCloud Uni-App, a legitimate Chinese development framework, to host malicious content including cryptocurrency scams, phishing attacks, and wallet-draining schemes. Attackers are using pre-built scam templates within this framework to create convincing fake exchanges, gambling platforms, and brand impersonation sites across multiple languages. This widespread misuse demonstrates how legitimate tools can be weaponized at scale to deceive users and steal cryptocurrency and personal information.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "crypto-scams",
-        "phishing",
-        "wallet-drainers",
-        "fraud-templates",
-        "mass-exploitation"
-      ],
-      "whyItMatters": "This incident reveals a massive infrastructure of coordinated fraud affecting hundreds of thousands of sites, making it a significant threat to cryptocurrency users and general internet users worldwide. Organizations and users need to recognize that legitimate development frameworks can be repurposed for large-scale criminal operations, requiring enhanced vigilance when evaluating suspicious finan",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhK82zgZh0edVIi1z4Rs0V9v_8tn_Mh_X6_H5TQYnFwEtbrE1dhjw5Z-9U99Lojet5RdcrIgwJK0bZusY4u22qKVFBzpCuHihAzXd4RNuJQGSxEfdNlBH4GFZYedXXohyQdbfNYIxr9LV6KFgUyX3CWVjfsOiIQRq3JEXmGRrR9afqsfMoeR-BH_kZmTCKd/s1600/phish-uni.jpg",
-      "processedAt": "2026-06-29T19:29:56.995471+00:00"
-    },
-    {
-      "id": "art-45cfe46f",
-      "title": "WhatsApp rolls out usernames to help users hide their phone number",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-usernames-to-help-users-hide-their-phone-number/",
-      "summary": "WhatsApp is introducing a new username feature that allows users to communicate without sharing their phone numbers with people outside their contacts. This privacy enhancement gives users more control over who can reach them and helps protect their phone numbers from being exposed to unknown individuals. The feature represents a significant step toward reducing unsolicited contact and improving user privacy on the messaging platform.",
-      "category": "Privacy",
-      "severity": "Low",
-      "tags": [
-        "privacy",
-        "messaging-security",
-        "phone-number-protection",
-        "user-control"
-      ],
-      "whyItMatters": "This feature addresses a fundamental privacy concern by allowing users to limit phone number exposure, reducing potential targets for social engineering, unwanted contact, and data harvesting by malicious actors. While not addressing active threats, it represents proactive privacy infrastructure that helps users maintain digital hygiene and reduces attack surface for targeted threats.",
-      "image": null,
-      "processedAt": "2026-06-29T19:29:59.631683+00:00"
-    },
-    {
-      "id": "art-eb169b5d",
-      "title": "Microsoft extends Windows Server 2022 hotpatching until October 2027",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-extends-windows-server-2022-hotpatching-until-october-2027/",
-      "summary": "Microsoft has announced an extension to the hotpatching support window for Windows Server 2022, pushing the deadline from October 2026 to October 2027. This additional year of patching support means organizations will have more time to apply security updates and maintain system stability before the platform reaches end-of-life. The extension provides businesses with a longer transition period to plan upgrades to newer server versions.",
-      "category": "Patching and Updates",
-      "severity": "Low",
-      "tags": [
-        "windows-server",
-        "hotpatching",
-        "security-updates",
-        "patch-management",
-        "end-of-life"
-      ],
-      "whyItMatters": "This extension is important for IT teams managing Windows Server 2022 infrastructure, as it provides additional time to plan system upgrades and security patching strategies without rushing migrations. Organizations can better allocate resources and budget for infrastructure modernization while maintaining security compliance during the extended support period.",
-      "image": null,
-      "processedAt": "2026-06-29T19:30:02.139943+00:00"
-    },
-    {
-      "id": "art-d5c758a2",
-      "title": "U.S. offers $10 million for hackers targeting WhatsApp, Signal users",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-offers-10-million-for-hackers-targeting-whatsapp-signal-users/",
-      "summary": "The U.S. Department of State is offering a $10 million reward for information about members of two Russian-linked hacker groups, UNC5792 and UNC4221, that target users of messaging apps like WhatsApp and Signal. These groups are reportedly connected to Russia's intelligence and military services and pose a significant threat to secure communications. The bounty represents a major effort by the U.S. government to disrupt their operations and bring perpetrators to justice.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "russian-hackers",
-        "whatsapp",
-        "signal",
-        "state-sponsored",
-        "messaging-apps",
-        "intelligence-threat"
-      ],
-      "whyItMatters": "This announcement highlights state-sponsored targeting of widely-used secure messaging platforms, affecting millions of everyday users who rely on these apps for private communication. Understanding these threat groups helps security teams and users recognize potential attack vectors and implement appropriate defenses. The U.S. government's significant financial incentive demonstrates the seriousn",
-      "image": null,
-      "processedAt": "2026-06-29T19:30:04.948723+00:00"
-    },
-    {
-      "id": "art-3ce7c94d",
-      "title": "Agentic AI Has an Identity Problem and Attackers Know It",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
-      "summary": "AI agents are becoming powerful tools in enterprise environments, capable of accessing sensitive data and executing workflows across multiple systems. However, these agents have identity management weaknesses that attackers can exploit to gain unauthorized access and control. Security experts emphasize that organizations must implement proper governance and controls for AI agent identities, similar to how they manage other privileged accounts.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "identity-management",
-        "privileged-access",
-        "enterprise-security",
-        "ai-agents",
-        "threat-governance"
-      ],
-      "whyItMatters": "As AI agents take on more critical roles in enterprise systems, their identity vulnerabilities represent a significant attack surface that could allow adversaries to bypass controls and manipulate business-critical workflows. Organizations deploying agentic AI must urgently implement identity governance frameworks to prevent unauthorized agent impersonation and misuse, or risk exposing their most ",
-      "image": null,
-      "processedAt": "2026-06-29T19:30:07.880351+00:00"
-    },
-    {
-      "id": "art-2f7b4ebd",
-      "title": "Critical SimpleHelp flaw exploited to deploy new stealer malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-06-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-simplehelp-flaw-deploy-new-djinn-infostealer-taskweaver-malware/",
-      "summary": "Attackers are actively exploiting a critical flaw (CVE-2026-48558) in SimpleHelp remote support software to install Djinn Stealer, a newly discovered malware that can steal data from Windows, macOS, and Linux systems. This attack demonstrates how critical vulnerabilities in widely-used support tools can be weaponized to distribute information-stealing malware across multiple platforms. Organizations using SimpleHelp are at immediate risk if they haven't patched the vulnerability.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "active-exploitation",
-        "cross-platform",
-        "remote-support",
-        "cve-2026-48558",
-        "patch-urgent"
-      ],
-      "whyItMatters": "SimpleHelp is commonly used by IT teams and support departments, making this vulnerability a high-value target for attackers seeking broad access to sensitive networks. The combination of active exploitation, critical severity, and multi-platform capability means organizations need to patch immediately to prevent credential theft and system compromise. This highlights the importance of securing re",
-      "image": null,
-      "processedAt": "2026-06-29T19:30:11.106436+00:00"
     }
   ]
 }
