@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-07-03T18:57:40.806651+00:00",
+  "lastUpdated": "2026-07-04T08:44:44.782519+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-25de3f3e",
+      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-03",
+      "originalUrl": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "summary": "Security researchers at runZero discovered seven vulnerabilities in FatFs, a small filesystem library used in millions of embedded devices worldwide. FatFs enables devices like security cameras, drones, industrial controllers, and hardware wallets to read and write files on USB drives and SD cards. These unpatched flaws pose a significant risk because the affected software is deeply embedded in firmware across numerous device types, making widespread patching difficult.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "embedded-devices",
+        "unpatched-vulnerabilities",
+        "firmware-security",
+        "fatfs",
+        "iot-security",
+        "supply-chain-risk"
+      ],
+      "whyItMatters": "These vulnerabilities affect a foundational component embedded in millions of devices across critical sectors like security, industrial control, and finance, making them difficult to patch at scale. Attackers could potentially exploit these flaws to compromise devices through malicious files on USB drives or SD cards, affecting both consumer and enterprise security. The widespread nature of FatFs ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJGo3ti2B3O-v3XpxdiFLMhvMVB_Ee5mmTlis-Qls6K8auWLQtPb4DSLL4snqvuZSxEvYXbGVBiUvRH1wBiw53ovRi-KTpdb0WqPwkZMkA_eHTSkTQVPkexu02-I2u7wc7PKESGKFZxlKRjR1SAkgOK50kIfpqZ9wcEjZCYBWIh6u_L82tXa8WfgUIhmA/s1600/fatfs.jpg",
+      "processedAt": "2026-07-04T08:44:18.661115+00:00"
+    },
+    {
+      "id": "art-c54b104b",
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-03",
+      "originalUrl": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "summary": "A critical Linux kernel vulnerability named Bad Epoll (CVE-2026-46242) allows unprivileged users to gain root access and take complete control of affected systems. The flaw impacts Linux desktops, servers, and Android devices, though patches are already available. Interestingly, this bug was found in the same kernel code section where an AI model previously identified a different vulnerability, highlighting how both automated and manual security testing can miss critical issues.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "privilege-escalation",
+        "root-access",
+        "android",
+        "cve-2026-46242",
+        "patch-available"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows any unprivileged user to achieve root-level access on Linux and Android systems without any special permissions, making it a severe threat across multiple platforms. Organizations and individuals must prioritize applying available patches immediately to prevent unauthorized system compromise. The discovery also demonstrates that AI-assisted vulnerab",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggOXDckpE46PYIzBnXsx_kyHzFvlcB3l8qEr6feRNBhRQMKc2p5r2pQArl-NrsoB2z6vE917nXVHpuuMZOgZcRDMlwbVYC0ocK3uIsb-h59qed_kuvDKwvukQCAs-VDcE5Ail8mTRSPpnNfrPzKv5oAMQ9fJCDNE_2PpPrN9a9mOwGUIs0TnWq6_r58HM/s1600/root-linux.gif",
+      "processedAt": "2026-07-04T08:44:21.334819+00:00"
+    },
+    {
+      "id": "art-fddbbb9b",
+      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-03",
+      "originalUrl": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "summary": "Researchers have identified a new modular malware framework called Avalon that uses multi-stage phishing attacks to infiltrate systems and evade security defenses. This framework combines multiple attack capabilities including stealing credentials, moving laterally through networks, gaining remote access, disabling recovery systems, and deploying the CrownX ransomware. The integrated nature of Avalon makes it a particularly dangerous threat because it handles the entire attack chain from initial compromise to final ransomware deployment.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "avalon-malware",
+        "crownx-ransomware",
+        "phishing-attack",
+        "lateral-movement",
+        "modular-framework",
+        "ransomware-deployment"
+      ],
+      "whyItMatters": "Avalon represents a significant threat because it combines multiple attack stages into a single framework, making it more efficient and harder to stop than isolated threats. Organizations need to understand that this malware bypasses traditional security controls through phishing, so employee training and advanced email filtering are essential defenses. The framework's modular design means attacke",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5mmILhD28NLaA8Et883gOLxFJ1rWUi5CyqZ_kxNNLKCuHMAyw05kAFpUAduQrMQePiXa8j9hQkpBwkd4d6ZizYsIUWii41-htjXE10JEwfrMWA9LYeFj0CNm3yr91TZW2smhgUb-X7xTU5IBCOpgqSFhzlYbLhL3e_M7Gg_49-YiiqTOSwGytIMLKSPg7/s1600/crown-ransomware.jpg",
+      "processedAt": "2026-07-04T08:44:24.276419+00:00"
+    },
+    {
+      "id": "art-b0b8d208",
+      "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+      "summary": "Attackers are exploiting a new technique called phantom squatting, where they purchase fake domain names that AI language models have invented and hallucinated during responses. These attackers then set up phishing pages on these non-existent domains to trap users who follow the AI-generated links. Palo Alto Networks' Unit 42 has documented this attack happening in real-world scenarios, demonstrating a novel vulnerability in how people trust AI-generated information.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-hallucination",
+        "phishing",
+        "domain-squatting",
+        "malware-hosting",
+        "social-engineering",
+        "ai-abuse"
+      ],
+      "whyItMatters": "This attack vector exploits the growing trust users place in AI tools while leveraging a fundamental weakness in large language models that generate plausible-sounding but fictional information. As AI adoption increases across organizations and users rely on AI for research and navigation, phantom squatting represents a scalable threat that's difficult for users to detect without understanding AI'",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX2IWQhpupx-U0U70hWTg9afsBb41pslrGP733mXXdBKValODZrPoYD3UQqGVq1j9fSgmgf9rqDyxEAx1iKzblSnc_AcfO_CzQ-CA4G24vKEO5YC9P1vC_K_K01RfbMAvN1eaqgRjJUYRIyWZVLQjxYVleEsgcgD_Ifm04sjBCp08xk6W7QjbX4Rgm2vXp/s1600/ai-domains.jpg",
+      "processedAt": "2026-07-04T08:44:27.373292+00:00"
+    },
+    {
+      "id": "art-8439eff1",
+      "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-01",
+      "originalUrl": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+      "summary": "Anthropic has restored access to Claude Fable 5 worldwide after the U.S. Commerce Department lifted export controls that had been in place for about two and a half weeks. The AI model, which had been restricted due to jailbreak-related concerns, is now available again across all Claude platforms starting July 1. This decision reflects a balance between national security restrictions and making advanced AI tools accessible globally.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "export-controls",
+        "jailbreak-vulnerability",
+        "regulatory-compliance",
+        "model-restrictions"
+      ],
+      "whyItMatters": "This incident highlights the intersection of AI safety, regulatory enforcement, and geopolitical considerations in managing advanced AI systems. Understanding how governments regulate AI tool deployment based on security vulnerabilities helps organizations stay compliant and aware of potential restrictions affecting their AI infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2AmA92QCIqSJfXqC3z9I1jjdJGEkIvN4k-Oc5MlWZb4yZLPg5clokead6q8yXUfeI4DbdsKVn4qbd1sufvo47zyIy-Wcr15xK9oJJyet1vlFGiOKOU0ylMhgXWI0Duuztk7W_YURPKwdgfOyFsm2k3Rj1Db5tEVB9jzNi3xeYD0R_wfOaRKranmNj6kOy/s1600/claude-fable-5.jpg",
+      "processedAt": "2026-07-04T08:44:29.954529+00:00"
+    },
+    {
+      "id": "art-0076f128",
+      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-01",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "summary": "Attackers exploited Meta's AI support bot to reset passwords and take over high-profile Instagram accounts, including those of the Obama White House and the U.S. Space Force's Chief Master Sergeant. Instructions on how to manipulate the chatbot into bypassing security measures were shared on Telegram, allowing hackers to deface the accounts with pro-Iranian content. This incident demonstrates how AI-powered customer support systems can become a security vulnerability when not properly secured.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-vulnerability",
+        "account-takeover",
+        "social-media-security",
+        "authentication-bypass",
+        "meta-security"
+      ],
+      "whyItMatters": "This attack reveals a critical weakness in AI chatbot security that can be weaponized at scale to compromise accounts across any platform using similar systems. Organizations must recognize that customer support automation tools require the same security scrutiny as traditional authentication methods, and that exploitable AI behaviors can be quickly weaponized once disclosed online.",
+      "image": null,
+      "processedAt": "2026-07-04T08:44:32.764483+00:00"
+    },
+    {
+      "id": "art-be36e99c",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "summary": "Dutch authorities arrested two men who owned Internet hosting companies that provided infrastructure for Russian-backed cyberattacks and disinformation campaigns targeting the European Union. The seized servers and hosting services had been used to support a sanctioned ISP called Stark Industries Solutions, which was previously identified as a staging ground for Russian intelligence cyber operations. This enforcement action demonstrates international law enforcement efforts to disrupt the technical backbone that enables state-sponsored cyber threats.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "state-sponsored-attacks",
+        "infrastructure-disruption",
+        "international-enforcement",
+        "russia-cyber-operations",
+        "disinformation-campaigns",
+        "isp-sanctions"
+      ],
+      "whyItMatters": "This action disrupts critical infrastructure used by nation-states to conduct cyberattacks and influence operations, demonstrating that hosting providers can be held accountable for enabling malicious activities. Understanding how attackers rely on compromised or complicit hosting services helps organizations identify suspicious traffic origins and reinforces the importance of upstream threat inte",
+      "image": null,
+      "processedAt": "2026-07-04T08:44:35.974550+00:00"
+    },
+    {
+      "id": "art-0445a376",
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-22",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "summary": "A contractor working for CISA deliberately exposed sensitive agency secrets, including AWS GovCloud credentials, by uploading them to a public GitHub repository. Congressional lawmakers from both parties are now demanding explanations from CISA about how this breach occurred and what steps are being taken to secure the compromised keys. The agency is currently working to contain the damage and invalidate the leaked credentials to prevent unauthorized access.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "cloud-security",
+        "aws-govcloud",
+        "insider-threat",
+        "credential-exposure",
+        "cisa"
+      ],
+      "whyItMatters": "This incident reveals a critical vulnerability in how government cybersecurity infrastructure handles sensitive credentials and demonstrates the serious risks posed by insider threats, even within agencies responsible for national security. Exposed government cloud credentials could provide attackers with direct access to federal systems and classified information, making rapid containment and con",
+      "image": null,
+      "processedAt": "2026-07-04T08:44:39.125034+00:00"
+    },
+    {
+      "id": "art-31fea0df",
+      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "summary": "A 23-year-old from Ottawa was arrested by Canadian authorities for allegedly creating and operating Kimwolf, an IoT botnet that infected millions of devices and was used to launch major DDoS attacks. The suspect, identified online as 'Dort', also conducted harassment campaigns including DDoS attacks, doxing, and swatting against security researchers and journalists. He now faces criminal charges in both Canada and the United States for his role in the botnet operation.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "botnet",
+        "iot-security",
+        "ddos-attacks",
+        "cybercrime",
+        "doxing",
+        "swatting"
+      ],
+      "whyItMatters": "This arrest demonstrates that law enforcement can successfully identify and prosecute botnet operators, providing a deterrent to aspiring cybercriminals. The case highlights the serious legal consequences for building infrastructure used in large-scale attacks and harassment campaigns. Understanding how botnets like Kimwolf operate helps organizations better defend their IoT devices and network in",
+      "image": null,
+      "processedAt": "2026-07-04T08:44:41.701057+00:00"
+    },
+    {
+      "id": "art-85932968",
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-18",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "summary": "A CISA contractor accidentally exposed highly sensitive AWS GovCloud credentials and internal system details on a public GitHub repository until recently. The leaked information included documentation about CISA's software development, testing, and deployment processes, representing a significant government data breach. This incident highlights how even security-focused organizations can fall victim to credential exposure through misconfigured public repositories.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "aws-credentials",
+        "github-exposure",
+        "cloud-security",
+        "government-breach",
+        "credential-leak",
+        "data-exposure"
+      ],
+      "whyItMatters": "This breach exposes critical infrastructure security agency credentials and internal processes to potential attackers, creating immediate risk to government systems and national security. The incident demonstrates that credential management failures at high-level organizations can have widespread consequences and underscores the importance of secret scanning and repository access controls even for",
+      "image": null,
+      "processedAt": "2026-07-04T08:44:44.782352+00:00"
+    },
     {
       "id": "art-7ff8f0e8",
       "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
@@ -831,215 +1039,6 @@
       "whyItMatters": "This attack demonstrates how threat actors exploit trust in legitimate security research resources by poisoning the supply chain at a key distribution point (GitHub). Compromising security researchers gives attackers access to high-value targets and insider knowledge that can amplify the impact of future attacks. Organizations must be cautious about downloading and executing PoC code from any sour",
       "image": null,
       "processedAt": "2026-07-02T09:21:44.317435+00:00"
-    },
-    {
-      "id": "art-7a5491c9",
-      "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
-      "summary": "Attackers are using fake websites disguised as legitimate software downloads to trick users into installing malicious packages. These compromised installers contain ScreenConnect, which is then used to deploy AsyncRAT malware onto victims' computers. Kaspersky discovered this is part of a widespread, coordinated campaign targeting multiple languages and regions by impersonating popular applications like OBS Studio and Bandicam.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware-distribution",
-        "screenconnect-abuse",
-        "asyncrat",
-        "seo-poisoning",
-        "supply-chain-attack",
-        "social-engineering"
-      ],
-      "whyItMatters": "This campaign demonstrates a critical supply-chain attack vector where legitimate-looking software downloads become infection points for remote access trojans. Users need to verify download sources carefully, and organizations should educate employees about the risks of downloading software from unfamiliar websites, even if they appear to match official branding.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbKfADFEhazeaRztmVJkTBhFqZxALUDBwsOV_25bWjZ6Qm3pCBoSSawssWOOJC2ZQ7M6hrUDRXLfR5gcpWRkkaSdNtSPCz-FLrG5Dy4-Y-IzEMt_souSqJuc3JK9FNQ9p2-dT7Ojf3ufzPkWBpLNyDAVeeuYS7Ya-BJWT4MmAHz7OjHvwjMSCfF5Jvahyphenhyphenj/s1600/SEO-MALWARE.jpg",
-      "processedAt": "2026-07-01T19:26:34.399545+00:00"
-    },
-    {
-      "id": "art-6e57f789",
-      "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
-      "summary": "Researchers at Securonix discovered a sophisticated multi-stage malware campaign called VEIL#DROP that leverages Google Blogger pages and social engineering tactics to distribute PureLogs, an information stealing malware. The attack typically begins when users receive spear-phishing emails or accidentally visit compromised websites that redirect them to malicious Blogger pages hosting the malware payload. This method exploits the trust users often place in legitimate platforms and demonstrates how attackers repurpose popular services for malicious purposes.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "multi-stage-malware",
-        "information-stealer",
-        "phishing",
-        "blogger-abuse",
-        "social-engineering",
-        "purelogs"
-      ],
-      "whyItMatters": "This attack chain is significant because it demonstrates how threat actors exploit legitimate platforms like Blogger to evade detection and establish credibility, making it harder for users to identify malicious content. Understanding VEIL#DROP's delivery mechanisms helps organizations strengthen their email security, user training, and website monitoring to prevent similar compromises in their en",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3OuCh7SjXAd7hG_0Q0p__EmpV5MwYh0fOfMZHc1wxRHpsCN9qlonLr93NB6-iJMWJd6nv8VoMqSt9hWW34H7R7tpoGuhkn1mkEL8UgsiUIfNxh9L1Bh0Qpvt0xrX9Pqq6rw1vb-0CEC3KLAT5N7fdlgEHWnYVDyeuUHt2pD59vugSKLaC9n8-LBLoqV0Y/s1600/blogger.jpg",
-      "processedAt": "2026-07-01T19:26:37.374015+00:00"
-    },
-    {
-      "id": "art-ae88874a",
-      "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-      "summary": "Ousaban, a Brazilian banking trojan, is targeting Windows users in Spain and Portugal through phishing emails containing fake PDF attachments. The malware uses location verification to ensure victims are in the targeted countries and conceals its actual payload within an image file. Once installed, it aims to steal banking credentials and financial information from compromised systems.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "banking-trojan",
-        "phishing",
-        "windows",
-        "iberian-region",
-        "credential-theft",
-        "social-engineering"
-      ],
-      "whyItMatters": "This campaign demonstrates how attackers use geolocation targeting and sophisticated obfuscation techniques to evade detection while stealing sensitive financial information from specific regional banking users. Organizations and individuals in Spain and Portugal need heightened awareness of suspicious PDF attachments, and security teams should monitor for this trojan's command-and-control communi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3GnjevIMTqO1nAZ7LWeRKAz2NCKGTKCC2ldSx5dsd2SShjh4pWcmddVJse4MP4QLhA_DOP1K_RajPwe8YR7rc57CqPUO0i9RDYoZQA0yRAokZt1r2hyphenhyphenccOjcFh2SgUTnyUjj-M-y7WUUXVF0rpSrcxTrjb5nPOnpnIP5YvdxzUaLXkubSTXFaj0RzxEvH/s1600/windows-trojan.jpg",
-      "processedAt": "2026-07-01T19:26:39.912382+00:00"
-    },
-    {
-      "id": "art-29939cfd",
-      "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "summary": "Adobe released critical security patches for seven maximum-severity vulnerabilities affecting ColdFusion and Campaign Classic. These flaws could allow attackers to execute arbitrary code, escalate privileges, read files from systems, and bypass security protections. Organizations using these Adobe products need to apply the patches immediately to prevent potential exploitation.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "adobe-coldfusion",
-        "adobe-campaign-classic",
-        "critical-vulnerability",
-        "arbitrary-code-execution",
-        "privilege-escalation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Maximum-severity vulnerabilities in widely-used Adobe products represent an immediate and widespread threat to enterprises. The ability to execute arbitrary code and bypass security features makes these flaws particularly dangerous, and attackers typically prioritize exploiting newly-disclosed critical vulnerabilities before patches are deployed. Organizations must prioritize applying these update",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2LpF3s-oL3WaiHtAZ9N33J120bvGnWDoQ39eE1fyToERHmJgkAtMzarRyW9-gOG0N4U1_nOEQmwg-3krYIZDcXXB6JYpurMezefSiM5-ygJd9CuuS1sS-gHNjoKgBRayO0wBow5GB1yaanR55TW2fwus6MQXwlqeXDJ2Xu7z2fiOGbPXo4qio4LpXZPO/s1600/adobe.jpg",
-      "processedAt": "2026-07-01T19:26:42.494597+00:00"
-    },
-    {
-      "id": "art-59759497",
-      "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-      "summary": "Researchers at Cato AI Labs discovered two critical vulnerabilities in Cursor, an AI-powered code editor, that could allow attackers to bypass sandbox protections through specially crafted prompts. These flaws, named DuneSlide and tracked as CVE-2026-50548 and CVE-2026-50549, enable unauthorized command execution on a developer's machine without requiring any user interaction or approval. The vulnerabilities pose a significant risk to developers who use Cursor, as they could be exploited to compromise their systems.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "sandbox-escape",
-        "prompt-injection",
-        "code-editor-vulnerability",
-        "command-execution",
-        "duneslide"
-      ],
-      "whyItMatters": "This vulnerability is critical because it demonstrates how AI-assisted development tools can be weaponized through prompt injection to completely bypass security controls, putting developer machines at direct risk of compromise. Since developers often have elevated system access and handle sensitive code repositories, exploitation could lead to supply chain attacks, code theft, and system takeover",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjItlLuWZZxw3YcKcnCVEsKn7HKF0QcPnXqFNjor23XT93Xp49dvLt4tZFYIbUApP4eABXQZ3pwnoidAp5GW1wm7ZfBA6vXRlX7i0Lbzw4KWlSkxayxjZQeoxg3TEAQWmLdGP9DePsYjoC1p07KGommOwATsJOHhRQ2zZatOaFRzHoKHVHcQW8K9s-Hd5w/s1600/cato.jpg",
-      "processedAt": "2026-07-01T19:26:45.448687+00:00"
-    },
-    {
-      "id": "art-ebcb4395",
-      "title": "DHS confirms hackers breached HSIN info-sharing platform",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/dhs-confirms-hackers-breached-hsin-info-sharing-platform/",
-      "summary": "The Department of Homeland Security disclosed a cyberattack that compromised HSIN, a critical platform used for sharing sensitive information among federal, state, local, and private-sector organizations. This breach exposed a system trusted by multiple levels of government and private partners to coordinate on security matters. The incident highlights vulnerabilities in infrastructure that protects national security communications.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "government-systems",
-        "critical-infrastructure",
-        "information-sharing",
-        "national-security",
-        "dhs"
-      ],
-      "whyItMatters": "A compromise of HSIN directly threatens the ability of government and private partners to securely share sensitive threat intelligence and coordinate on security responses. This breach could expose classified or sensitive operational details that adversaries can exploit, and it undermines trust in critical government information-sharing systems. Organizations relying on HSIN must assume their data",
-      "image": null,
-      "processedAt": "2026-07-01T19:26:51.031284+00:00"
-    },
-    {
-      "id": "art-99bdd09e",
-      "title": "Webinar: Why traditional email security is no longer enough",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
-      "summary": "Attackers are increasingly using legitimate business identities and workflows to carry out phishing, business email compromise, and account takeover attacks that traditional email security tools struggle to detect. This webinar discusses how behavioral AI technology can help organizations automatically identify and respond to these sophisticated threats that exploit trusted communication channels.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "business-email-compromise",
-        "account-takeover",
-        "behavioral-ai",
-        "email-security",
-        "threat-detection"
-      ],
-      "whyItMatters": "As attackers evolve tactics to abuse legitimate business processes and trusted identities, organizations relying solely on traditional email filters face increasing risk of successful breaches. Understanding and implementing behavioral AI-driven detection is becoming essential for organizations to identify and prevent advanced email-based attacks that standard defenses miss.",
-      "image": null,
-      "processedAt": "2026-07-01T19:26:54.038642+00:00"
-    },
-    {
-      "id": "art-bc89d7a8",
-      "title": "Hackers target Microsoft 365 accounts with 81 million login attempts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-365-accounts-with-81-million-login-attempts/",
-      "summary": "Cybercriminals launched a large-scale password-spraying attack against Microsoft 365 accounts, attempting to log in over 81 million times within just two weeks. This type of attack tries many username and password combinations to gain unauthorized access to cloud-based business accounts. The campaign highlights how organizations relying on cloud services face constant threats from attackers seeking to compromise email, data, and corporate systems.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "password-spraying",
-        "microsoft-365",
-        "cloud-security",
-        "account-compromise",
-        "brute-force"
-      ],
-      "whyItMatters": "Password-spraying campaigns at this scale demonstrate that attackers are actively targeting widely-used cloud platforms and can execute massive attacks efficiently. Organizations must implement strong multi-factor authentication and monitor suspicious login attempts to prevent account takeovers that could lead to data theft, ransomware deployment, or business email compromise.",
-      "image": null,
-      "processedAt": "2026-07-01T19:26:56.561005+00:00"
-    },
-    {
-      "id": "art-2e67b56c",
-      "title": "Turning Indicators into Intelligence in OpenCTI with Criminal IP",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/turning-indicators-into-intelligence-in-opencti-with-criminal-ip/",
-      "summary": "Criminal IP has integrated its threat intelligence capabilities into OpenCTI, a popular threat intelligence platform, to enhance how security teams analyze and act on threat indicators. The integration adds valuable context to raw threat data through risk scoring, infrastructure analysis, and phishing detection features. By combining these enriched insights, organizations can better understand threats and make more informed security decisions.",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "threat-intelligence",
-        "open-cti",
-        "risk-scoring",
-        "phishing-analysis",
-        "infrastructure-intelligence",
-        "security-tools"
-      ],
-      "whyItMatters": "Threat indicators are only actionable when security teams understand the context behind them. This integration helps organizations prioritize alerts more effectively and investigate threats faster by providing enriched data directly in their existing workflows, ultimately improving incident response efficiency.",
-      "image": null,
-      "processedAt": "2026-07-01T19:26:59.069617+00:00"
-    },
-    {
-      "id": "art-547fc22d",
-      "title": "Over 900 Oracle E-Business instances exposed to ongoing attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/over-900-oracle-e-business-instances-exposed-to-ongoing-attacks/",
-      "summary": "More than 900 Oracle E-Business Suite instances are publicly accessible online and currently under active attack from threat actors exploiting a critical vulnerability. This widespread exposure demonstrates how enterprise resource planning systems remain attractive targets for hackers seeking to compromise sensitive business data and operations. Organizations using Oracle EBS need to urgently assess their security posture and apply patches to prevent unauthorized access.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "oracle-ebs",
-        "critical-vulnerability",
-        "active-exploitation",
-        "enterprise-systems",
-        "patch-urgently",
-        "cloud-exposure"
-      ],
-      "whyItMatters": "This incident affects hundreds of organizations simultaneously, making it a widespread and immediate threat to business continuity and data security. The active exploitation of a critical flaw in commonly-used enterprise software means organizations must prioritize patching and network access controls to avoid compromise. The scale and ongoing nature of attacks highlight the importance of maintain",
-      "image": null,
-      "processedAt": "2026-07-01T19:27:02.191605+00:00"
     }
   ]
 }
