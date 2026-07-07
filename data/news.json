@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-07-07T09:52:00.284526+00:00",
+  "lastUpdated": "2026-07-07T19:30:02.696117+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-bef8d29b",
+      "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+      "summary": "RedWing is a new Android malware service being sold as a subscription on Telegram that enables criminals to take control of victims' phones and steal banking credentials and one-time authentication codes. The malware appears to be a variant of Oblivion, a rental malware tool costing around $300 per month. This service-based approach makes sophisticated mobile banking fraud accessible to attackers with minimal technical skills.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "android-malware",
+        "bank-fraud",
+        "maas",
+        "telegram",
+        "oblivion-variant",
+        "mobile-banking"
+      ],
+      "whyItMatters": "RedWing democratizes mobile banking fraud by packaging advanced malware as an affordable rental service, lowering the barrier to entry for cybercriminals and increasing the scale of potential attacks against everyday banking users. The ability to bypass one-time authentication codes represents a significant escalation in account takeover capabilities. Organizations and individuals need to recogniz",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdqPEGRKkKA7pjGNpR8hijHzJLPvyPD1g1C8bTt91eLUOFdu6Jw99i8LFybvHG9SP3syQ8shdXpC6EhinlQoB9aTgBMtejiCWAzVhhTi0o3nCTKZeKNnwDY0J_Lbf9LGN-KIQIoJ7-GW2op-JUcBg64uz5Actwh7TsFEstwNx9fXnLj4SODskUpnX9TPE/s1600/android-trojan-telegram.jpg",
+      "processedAt": "2026-07-07T19:29:36.735710+00:00"
+    },
+    {
+      "id": "art-fcc1d50e",
+      "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+      "summary": "A critical vulnerability was discovered in Google's Dialogflow CX chatbot platform that could allow attackers with editing permissions on one chatbot to compromise other chatbots within the same Google Cloud project. Through this flaw, attackers could intercept user conversations, steal sensitive data, and manipulate bots into sending fraudulent messages such as fake password requests. Varonis security researchers identified this issue before it could be widely exploited.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "google-cloud",
+        "dialogflow",
+        "privilege-escalation",
+        "lateral-movement",
+        "chatbot-security",
+        "data-theft"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how a single compromised account or insider threat within a cloud project can cascade into multi-system compromise, putting all chatbot users' conversations and personal data at risk. Organizations relying on Dialogflow CX need to urgently review their access controls and apply patches to prevent attackers from pivoting between agents. The ability to inject attacker",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9i8xIVWZcplpj-QuKnJKGAJjGi0Xq-q2R_luyy-HYXWkpsAPTYASmVbm2w2DoNOQkA81fyu0OQsbflhLykcYQpv66UDBeRxU1v5-xq7kQDQMS0cmvsCFmZI36jfyGxh6xrroU4hNhH_8_nOyXV_WG07om2t4riI-HP4wzE3HJr2KJ3-sUnKxbTNhV84k/s1600/google-chatbots.jpg",
+      "processedAt": "2026-07-07T19:29:39.739891+00:00"
+    },
+    {
+      "id": "art-1b89095c",
+      "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+      "summary": "Attackers launched a phishing campaign targeting Microsoft 365 users by using fake collaboration-themed messages to trick them into the legitimate Microsoft device login flow. Rather than creating fake login pages, the campaign exploited Microsoft's own device code authentication process to compromise victim accounts. The attack occurred between late June and early July 2026 and was discovered by security researchers at ZeroBEC.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "m365-targeted",
+        "device-code-flow",
+        "account-takeover",
+        "social-engineering"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors can abuse legitimate Microsoft authentication mechanisms rather than relying on fake login pages, making the threat harder to detect with traditional phishing defenses. Organizations need to educate users about verifying unexpected authentication requests and monitor for suspicious device code login attempts to protect their cloud infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg__v7vicSomxW52wnr8HsJgQKf0vg3kdjUicmIUCMCDexaBZ68pLZzXKVSJxNEeBuBuEzueOldcd5GhtGQI-8eMqd9j0QWMqGScmbZpqBS9RFkXxXSfOZYhBSGqD8BBDfVUEn4RN86sKhgkl9xkJtYMl-7a2zsIU6LCC5j_U2BkupJGr3JqP9_GZCHfHtl/s1600/ms-device-code.jpg",
+      "processedAt": "2026-07-07T19:29:42.164493+00:00"
+    },
+    {
+      "id": "art-8a1cd58b",
+      "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+      "summary": "Researchers discovered that GitHub Agentic Workflows can be exploited through public repository issues to leak private data from organizations. An attacker can create a seemingly innocent issue on a public repo that tricks the workflow agent into exposing contents from private repositories, requiring no stolen credentials or special access. This vulnerability affects any organization that has granted the agent read permissions across their repositories.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "github-security",
+        "ai-agents",
+        "data-leakage",
+        "privilege-escalation",
+        "supply-chain-attack"
+      ],
+      "whyItMatters": "This vulnerability represents a critical risk for organizations using GitHub Agentic Workflows because attackers can bypass traditional access controls without needing credentials. The low barrier to entry—simply posting a public issue—combined with the potential to expose sensitive private repository data makes this an urgent threat requiring immediate mitigation. Organizations must review workfl",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj35Nf4KvfpGfbhGpq7fhtkXFhxKtTqAEFF5dX23th60tiUCMEYsuOXfiH-kIq1PRUWrRBMo92M6SCtE8chA882l0wCOO2gs1skw-h_sOqfA9jOcED6IYr2RVWkVzKohekZdvzOTZ9QpPnGDtOtJI9jYjWlPiAgvc1dG4Yuy-J02v8GA9rkweGIF000-lA/s1600/githubs.jpg",
+      "processedAt": "2026-07-07T19:29:45.191677+00:00"
+    },
+    {
+      "id": "art-b4f16e2d",
+      "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+      "summary": "Federal prosecutors used a persistent Windows device ID to identify and link a 19-year-old alleged hacker named Peter Stokes to a break-in at a luxury jewelry retailer in May 2025. The device ID, obtained from Microsoft records, tracked the attacker's account that was used to maintain access during the intrusion. This case demonstrates how digital forensics and device tracking can connect online criminal activity to real individuals.",
+      "category": "Digital Forensics",
+      "severity": "High",
+      "tags": [
+        "device-tracking",
+        "windows-forensics",
+        "hacking-investigation",
+        "cybercrime",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This case highlights how persistent device identifiers can be crucial evidence in cybercriminal investigations, showing that attackers cannot easily hide behind compromised accounts when device-level tracking is available. It demonstrates the practical value of Microsoft's logging and record-keeping for law enforcement, and serves as a reminder that even sophisticated hackers can be traced through",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRD_854zsswRvh7xWklnbEkAjmk7UZy_-dQzlueMbq1ib7deDs-QH0av7XRZ1WEq3vcX57cDDcioIdkebKCiF7qr8xC9Evw7GmFuDS0kQt3mnpXgb3Q2H62eHPIgCy3rk1Mj3uM-Mge0XTfMgSCGaumk3i5KatoyrFnu_PUhg8cZGY1ZAd185qsNqZ1jE/s1600/md-id.jpg",
+      "processedAt": "2026-07-07T19:29:48.315281+00:00"
+    },
+    {
+      "id": "art-cc2f037e",
+      "title": "Chinese hackers develop LONGLEASH malware to expand ORB network",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-develop-longleash-malware-to-expand-orb-network/",
+      "summary": "A Chinese hacking group called UAT-7810 has created a new malware called LONGLEASH to expand their ORB network by attacking internet-facing networking devices, particularly unpatched Ruckus routers. This malware allows attackers to establish a network of compromised devices that can be used for further attacks and data theft. The threat specifically targets organizations that have not installed security updates on their network equipment.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "network-security",
+        "ruckus-router",
+        "unpatched-devices",
+        "chinese-hackers",
+        "patching-updates"
+      ],
+      "whyItMatters": "This attack demonstrates how outdated networking equipment can become an entry point for sophisticated malware campaigns that build persistent command-and-control infrastructure. Organizations relying on Ruckus routers and other network devices must prioritize security patches to prevent their infrastructure from being weaponized as part of larger attack networks. The evolution of LONGLEASH shows ",
+      "image": null,
+      "processedAt": "2026-07-07T19:29:51.232793+00:00"
+    },
+    {
+      "id": "art-da6ac909",
+      "title": "Hidden backdoor in Tenda router firmware grants admin access",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hidden-backdoor-in-tenda-router-firmware-grants-admin-access/",
+      "summary": "Security researchers discovered a hidden backdoor in Tenda router firmware that could allow attackers to bypass authentication and gain administrative control over affected devices. This vulnerability affects multiple versions of Tenda router firmware, potentially putting thousands of users' home and small business networks at risk. An attacker exploiting this flaw could modify router settings, intercept network traffic, or use the device as an entry point to compromise connected devices.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "tenda-router",
+        "firmware-backdoor",
+        "admin-access",
+        "authentication-bypass",
+        "network-security",
+        "patch-now"
+      ],
+      "whyItMatters": "Routers are critical network entry points, and a backdoor granting admin access represents a severe threat to all connected devices and data. Users of affected Tenda devices need to update firmware immediately, as attackers could leverage this vulnerability to establish persistent network compromise. This highlights the importance of routinely checking for and applying firmware updates for network",
+      "image": null,
+      "processedAt": "2026-07-07T19:29:54.239463+00:00"
+    },
+    {
+      "id": "art-60a7b89a",
+      "title": "Spain arrests suspected member of pro-Russian hacktivist groups",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/",
+      "summary": "Spanish authorities arrested a suspected member of two pro-Russian hacktivist groups known as CyberArmy of Russia Reborn (CARR) and Z-Pentest. The arrest highlights ongoing efforts by law enforcement to identify and apprehend individuals involved in state-aligned cyber operations. This case demonstrates the growing coordination between hacktivist groups and their potential connection to geopolitical tensions.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "pro-russian-hacktivists",
+        "carr",
+        "z-pentest",
+        "cyber-operations",
+        "law-enforcement",
+        "state-aligned-threats"
+      ],
+      "whyItMatters": "This arrest underscores the real-world consequences of hacktivist group membership and shows that international law enforcement is actively tracking and prosecuting members of organized cyber threat groups. Organizations should recognize that pro-Russian hacktivist groups pose legitimate threats and remain vigilant against their attack campaigns and coordinated operations.",
+      "image": null,
+      "processedAt": "2026-07-07T19:29:57.799356+00:00"
+    },
+    {
+      "id": "art-d74fc34b",
+      "title": "The GitHub Actions Attack Pattern Your CI Security Scanners Miss",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-github-actions-attack-pattern-your-ci-security-scanners-miss/",
+      "summary": "GitHub Actions workflows can be exploited through attack chains that bypass conventional CI/CD security scanners, creating a false sense of protection for organizations. ActiveState demonstrates how attackers can evade detection mechanisms that organizations rely on to validate pipeline security. The article highlights that passing a security scan alone doesn't guarantee a safe CI/CD environment and calls for stronger governance practices.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "github-actions",
+        "ci-cd-security",
+        "supply-chain-attack",
+        "pipeline-security",
+        "security-scanner-evasion"
+      ],
+      "whyItMatters": "This exposes a critical gap in CI/CD security tooling that many organizations depend on for protecting their build pipelines and software supply chains. Attackers exploiting this blind spot could inject malicious code into releases affecting thousands of downstream users. Understanding these attack patterns is essential for teams to implement defense-in-depth strategies beyond automated scanning.",
+      "image": null,
+      "processedAt": "2026-07-07T19:30:00.393356+00:00"
+    },
+    {
+      "id": "art-887384ac",
+      "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+      "summary": "A forthcoming webinar will discuss how artificial intelligence and behavioral analysis can strengthen email security defenses against advanced threats like phishing and business email compromise attacks. The session will cover how automated investigation and response systems can help security teams reduce false alerts while catching sophisticated attacks more effectively.",
+      "category": "Security Awareness",
+      "severity": "Medium",
+      "tags": [
+        "phishing",
+        "email-security",
+        "behavioral-ai",
+        "threat-detection",
+        "incident-response"
+      ],
+      "whyItMatters": "Email remains a primary attack vector for sophisticated threats, and organizations struggle with both detection accuracy and alert fatigue. Understanding how AI-driven behavioral analysis can improve email defenses while automating response workflows is critical for security teams managing resource constraints and evolving attack complexity.",
+      "image": null,
+      "processedAt": "2026-07-07T19:30:02.695955+00:00"
+    },
     {
       "id": "art-1f7c971f",
       "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
@@ -821,211 +1026,6 @@
       "whyItMatters": "Active exploitation of a known vulnerability transforms it from a theoretical risk into an immediate threat. Organizations that have delayed patching their Unified CM systems face real danger of intrusion, and the confirmation of active attacks should trigger urgent remediation efforts across enterprise communication infrastructure.",
       "image": null,
       "processedAt": "2026-07-05T18:56:03.829287+00:00"
-    },
-    {
-      "id": "art-0a658e91",
-      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "summary": "Security researchers at Sysdig discovered what appears to be the first fully automated ransomware attack orchestrated entirely by an AI agent, dubbed JADEPUFFER. The AI-powered attacker exploited a vulnerability in Langflow to gain initial access, then independently conducted credential theft, lateral movement, and ultimately encrypted and destroyed a company's production database. This incident marks a significant escalation in ransomware tactics, moving from human-operated attacks to autonomous AI-driven operations.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-ransomware",
-        "langflow-rce",
-        "autonomous-attack",
-        "database-encryption",
-        "ai-agent",
-        "jadepuffer"
-      ],
-      "whyItMatters": "This represents a fundamental shift in ransomware threat landscape—attacks that previously required human coordination can now run autonomously, making detection harder and response slower. Organizations must now defend against adversaries that operate 24/7 without human limitations, and security teams need new detection and response strategies tailored to AI-driven threats. The use of LLMs to aut",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirfJNnWRTyyKkXeatZdtLvMsQhba-L0J9yuyASwy4T-6nlbGWnkEl0FUBVO8wS6je9Hc9wPdu01JJ0TETOa1jOjQelGiJY3ZrvsJzFIqpr_gbEvv5F4lnQrJWxTHbpYM6ah6sPJbQ63XtdxlOcFy7KZ06S69LW2escSgSAM-ycKZCqttjAZEcHJ_sO9DdQ/s1600/ai-agent-ransomware.jpg",
-      "processedAt": "2026-07-05T09:12:36.556178+00:00"
-    },
-    {
-      "id": "art-3d8c8a41",
-      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "summary": "A credential theft campaign called FortiBleed has been connected to two major ransomware groups, INC and Lynx, suggesting stolen FortiGate credentials were being harvested for follow-up attacks. Investigators found that an operator managing the stolen credentials was also actively involved in negotiation panels for both ransomware groups, directly linking large-scale credential theft to ransomware deployment operations.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "fortibleed",
-        "credential-theft",
-        "ransomware",
-        "fortinet",
-        "inc-ransomware",
-        "lynx-ransomware"
-      ],
-      "whyItMatters": "This demonstrates a coordinated attack pipeline where credential theft is weaponized for ransomware deployment, showing that FortiGate devices—widely used in enterprise networks—are actively targeted to gain initial access for ransomware attacks. Organizations using FortiGate appliances must treat compromised credentials as an immediate threat and assume potential follow-on ransomware activity.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcA80dQWiuszAlBgwcxzc3suImls2cKOwk_2nYMo7UY5MNSdlKNMgibekQNEhWRuxmX5s1JcLHCd_dsDZ3m9oy_FxN-livXwyMIqre86oK8WIOMKUSZwDBvoN7XQOaV63zVBAIKQCH77-RGxhyLNc0bnip4LoUd0P7HsWQx-bxBu8nHr7St5HKs6T1cS6Z/s1600/bleed-ransomware.jpg",
-      "processedAt": "2026-07-05T09:12:39.006467+00:00"
-    },
-    {
-      "id": "art-df1c5ecb",
-      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "summary": "Attackers have created a malware called ChocoPoC that disguises itself as legitimate exploit code in fake GitHub repositories targeting security researchers. When executed, the trojan steals passwords, browser cookies, and files while giving attackers remote access to the victim's system. This attack specifically preys on vulnerability researchers who are searching for proof-of-concept exploits for newly discovered CVEs.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "trojan",
-        "github-supply-chain",
-        "credential-theft",
-        "remote-access",
-        "vulnerability-researchers",
-        "social-engineering"
-      ],
-      "whyItMatters": "This attack directly targets security researchers—the people responsible for finding and reporting vulnerabilities—making it a critical supply chain threat that undermines trust in publicly shared exploit repositories. Compromising researcher systems gives attackers access to sensitive vulnerability intelligence and zero-day information before public disclosure. Organizations relying on GitHub for",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd_BdKzn7-7TCZJfnsZBy25kGm8xiQTrJquj8vMVsjlRXf7LXqMiJLQs8ic-lNLRc51whJzP-B4Nv9OOzfgOSHKzmIjZFv0krEDBuSeuXXNj-OccwbpBBBBIofZFMBT4DaThqLeE2Bsx-Nkp8aZZfEs6tVB43kby1L5UbtPjauqfedlANNzOYGrNB7ec5o/s1600/fake.jpg",
-      "processedAt": "2026-07-05T09:12:41.803982+00:00"
-    },
-    {
-      "id": "art-e4288eb8",
-      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "summary": "CISA has added CVE-2026-45659, a critical flaw in Microsoft SharePoint Server, to its list of actively exploited vulnerabilities. The vulnerability allows attackers to execute remote code by exploiting unsafe handling of untrusted data during deserialization. Organizations using SharePoint Server are at immediate risk and should prioritize patching to prevent compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sharepoint-rce",
-        "remote-code-execution",
-        "active-exploitation",
-        "patch-now",
-        "cisa-kev"
-      ],
-      "whyItMatters": "This vulnerability is actively being exploited in the wild and poses an immediate threat to organizations running SharePoint Server, making swift patching essential. The high CVSS score and remote code execution capability mean attackers can gain complete system control without authentication, putting sensitive business data and infrastructure at serious risk.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMEHDpcGNoddFf8yfkJ1L21X61VSA66xZiVjYA5qdfJpZ8tyWxzRy7Il8fwcY59pRUm7mlNChrPHhjySmFLV-dHEIdZiOXj0ZDQ9Wv8yxgfU8qKm_ga3kYcNer9z85cj7KwtYkRuxGtPaNUL0ebiuM2SILSWMVr-fZtnVFejlJ24h48ECds-iMQBTW3vHb/s1600/cisa-ms.jpg",
-      "processedAt": "2026-07-05T09:12:44.077381+00:00"
-    },
-    {
-      "id": "art-2738938e",
-      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "summary": "Argo CD, a popular Kubernetes deployment tool, contains an unpatched vulnerability in its repo-server component that allows unauthenticated attackers to execute code if they can access the internal network port. Security researchers at Synacktiv discovered this flaw could lead to complete takeover of Kubernetes clusters. Currently, there is no available patch or CVE assigned for this issue.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "kubernetes",
-        "argo-cd",
-        "unpatched",
-        "code-execution",
-        "cluster-takeover"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe threat to organizations running Argo CD in production environments, as attackers with network access to the repo-server can achieve full cluster compromise without authentication. The absence of a patch means organizations cannot immediately remediate the risk and must rely on network segmentation and access controls as interim protective measures. ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9emdIsaMBcMQoyS0ot-ckXq8LWhMk6P2zAm3WdCVFBhRMNUqN6E1vZqllIq6qYHBvGm8WhCGi8C3PLUNOecmNYU4LLoWH5zRBadBejDgpbC5DihDwqiYAMLpZNsQBk2MsiN89nt-honwtPiQzjg4fDUp5w2aiCXWZBKk94qHwfG4yEHak6zoZuNmXKgY/s1600/argo-cd.jpg",
-      "processedAt": "2026-07-05T09:12:46.616277+00:00"
-    },
-    {
-      "id": "art-2cfeb654",
-      "title": "Alleged Scattered Spider hacker extradited to the United States",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
-      "summary": "A person holding dual U.S. and Estonian citizenship has been extradited to the United States to stand trial for allegedly participating in the Scattered Spider hacking group. This development represents a significant step in international law enforcement efforts to prosecute members of organized cybercriminal collectives. The case demonstrates how authorities are working across borders to hold hackers accountable for their activities.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "scattered-spider",
-        "cybercrime",
-        "extradition",
-        "hacking-collective",
-        "international-law-enforcement"
-      ],
-      "whyItMatters": "This extradition illustrates that international cooperation in cybercrime prosecution is strengthening, making it harder for attackers to evade justice by hiding in other countries. Understanding how law enforcement pursues organized hacking groups helps organizations recognize that cyber threats come from coordinated criminal networks with real-world consequences. The case reinforces that partici",
-      "image": null,
-      "processedAt": "2026-07-05T09:12:49.081258+00:00"
-    },
-    {
-      "id": "art-a943bc85",
-      "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
-      "summary": "Medtronic, a major healthcare device manufacturer, has notified its customers that their personal data was exposed in a data breach linked to the ShinyHunters threat group. The incident compromised sensitive information belonging to affected users who relied on Medtronic's medical devices and services. This breach highlights the vulnerability of critical healthcare infrastructure to cyber attacks and the potential risks to patient privacy.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "healthcare",
-        "shinyhunters",
-        "patient-data",
-        "medtronic"
-      ],
-      "whyItMatters": "Breaches affecting healthcare device manufacturers pose dual risks: they compromise patient privacy and potentially expose data that could be used for targeted attacks on vulnerable individuals. When threat actors target critical infrastructure like medical device companies, it underscores the need for healthcare organizations to implement robust security controls and emphasizes why customers must",
-      "image": null,
-      "processedAt": "2026-07-05T09:12:51.632165+00:00"
-    },
-    {
-      "id": "art-0218a772",
-      "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
-      "summary": "Attackers behind the FortiBleed credential theft campaign have been identified as working with the INC and Lynx ransomware groups, indicating that stolen Fortinet login credentials are being weaponized for network break-ins. This connection reveals a coordinated effort where credential theft is being used as a stepping stone for larger ransomware operations. Organizations using Fortinet products are at heightened risk of network compromise if their credentials were exposed in this campaign.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "fortinet",
-        "credential-theft",
-        "ransomware",
-        "lynx",
-        "network-intrusion",
-        "incident-response"
-      ],
-      "whyItMatters": "This discovery demonstrates how credential theft campaigns directly enable ransomware attacks, making it a critical threat for any organization using Fortinet products. Companies must immediately audit Fortinet account access, reset credentials, and implement enhanced monitoring to prevent network intrusions before ransomware deployment occurs.",
-      "image": null,
-      "processedAt": "2026-07-05T09:12:54.117110+00:00"
-    },
-    {
-      "id": "art-b2bc526f",
-      "title": "Kubota says hackers had month-long access to network systems",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
-      "summary": "Kubota North America Corporation discovered that unauthorized hackers maintained access to portions of its network systems for over a month during 2026. The extended access period suggests a significant security gap in the company's detection and response capabilities. This incident highlights the risks faced by critical infrastructure and manufacturing companies that may be targeted for operational disruption or data theft.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "network-breach",
-        "prolonged-access",
-        "incident-detection",
-        "critical-infrastructure",
-        "access-control"
-      ],
-      "whyItMatters": "A month-long unauthorized access period demonstrates that attackers can evade detection for extended periods, allowing them time to exfiltrate sensitive data, plant persistent backdoors, or conduct reconnaissance on critical systems. For organizations like Kubota that serve agricultural and industrial sectors, such breaches can compromise proprietary technology, customer data, and operational cont",
-      "image": null,
-      "processedAt": "2026-07-05T09:12:57.332290+00:00"
-    },
-    {
-      "id": "art-781e12e0",
-      "title": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
-      "source": "Dark Reading",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
-      "summary": "Cybercriminals are running a ransomware scheme that impersonates Interpol to trick small businesses into paying ransom demands. The attack uses simple social engineering tactics and has affected organizations across multiple continents including North America, Europe, and the Middle East. By posing as a legitimate law enforcement agency, attackers exploit trust and fear to increase their success rate.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "social-engineering",
-        "impersonation",
-        "small-business",
-        "multi-region"
-      ],
-      "whyItMatters": "Small businesses often lack sophisticated security awareness training and may be more likely to fall for authority-based social engineering tactics, making them attractive targets. This campaign demonstrates how attackers leverage trust in well-known institutions to bypass skepticism, which is a critical vulnerability that organizations need to address through employee training and verification pr",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt788d90ba1818143b/6a4697d699a6c999ae9e947e/smb_Andrey_Popov_shutterstck.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-07-05T09:13:00.058397+00:00"
     }
   ]
 }
