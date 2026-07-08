@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-07-08T08:37:12.485238+00:00",
+  "lastUpdated": "2026-07-08T19:02:10.615567+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-81f5bacf",
+      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "summary": "Security researchers at Sophos discovered that AI coding agents like Claude Code, Cursor, and OpenAI Codex are triggering endpoint security detection rules designed to catch attackers. These tools aren't malicious, but they perform legitimate coding tasks that mimic suspicious attacker behavior, such as accessing browser credentials and Windows credential stores. This creates a challenge for security teams trying to distinguish between normal AI development activities and genuine threats.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-coding-agents",
+        "endpoint-detection",
+        "false-positives",
+        "behavioral-detection",
+        "security-operations"
+      ],
+      "whyItMatters": "As AI coding agents become more prevalent in development workflows, organizations must recalibrate their security detection rules to avoid blocking legitimate tools while maintaining protection against real threats. False positives from these tools can overwhelm security teams and create operational friction that may cause them to disable critical security controls.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEtVOCcf8-6_z0F4FVoPlTMQRFJ4CfHCbl-GvhT9EbRrfZgTJsNbBkzAq72212RbMT1Knk5GJsYDY8p5W7YO8x29vQ782QW6CRorl_oKVyAgOmS46Y9HyTPcdZOmMjOPtWjpAHH3C91EPVk4dnHqaAEX8QoaSvGzCbjMy0YhF7lJaIR6-T9Dq5jzZycIc/s1600/alarm.jpg",
+      "processedAt": "2026-07-08T19:01:42.811480+00:00"
+    },
+    {
+      "id": "art-885415b2",
+      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+      "summary": "Researchers discovered a new attack called HalluSquatting that exploits AI coding assistants' tendency to invent nonexistent package names. Attackers identify these fake names, register them as real packages, and trick the AI into recommending them to users, potentially delivering malware like botnets. This vulnerability highlights a critical gap between AI reliability and actual software security.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "malware",
+        "supply-chain",
+        "hallucination",
+        "coding-assistants",
+        "botnet"
+      ],
+      "whyItMatters": "As AI coding assistants become integral to developer workflows, this attack demonstrates how their inherent weaknesses can be weaponized at scale to distribute malware to potentially thousands of users. Organizations relying on these tools must implement verification practices and security teams need to monitor for malicious packages exploiting AI hallucinations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFLRfTvakP4spTkbT8iiV9ndUR4EwlHOmGkZrO4JdBl3QsmWS5zA_sx081fvr3R11VEnZcjHOFcirZAQ5eaqB3n8sFJQ7m64edzVHNONHsD9j9Obds8E_Z9VC08y42TCyJV_3zpWam1LTHhiZBLX5WCLNp-4tdR-AwYzlyoifh1Seu-ND4OKbnZOEhMks/s1600/ai-botnet.jpg",
+      "processedAt": "2026-07-08T19:01:45.470927+00:00"
+    },
+    {
+      "id": "art-e2dd960c",
+      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+      "summary": "Ubiquiti released security patches to fix multiple critical vulnerabilities affecting its UniFi product suite, including Connect, Talk, Access, Protect, and OS. These flaws could allow attackers to escalate privileges and execute arbitrary commands on affected systems. The most severe vulnerability, CVE-2026-50746, has a perfect CVSS score of 10.0, indicating an extremely dangerous flaw requiring immediate attention.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "ubiquiti",
+        "unifi",
+        "privilege-escalation",
+        "command-execution",
+        "patch-available",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "UniFi products are widely deployed in enterprise networks for connectivity and security management, making these critical flaws a significant risk to organizations worldwide. The perfect 10.0 CVSS score indicates these vulnerabilities pose an immediate and severe threat if exploited, demanding urgent patching across all affected deployments. Organizations using any UniFi products must prioritize a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx2TRa1CP7yIs67Wa1bxiFVW5yq1S7vtAaQHf_htjuDbpAETKv8tfw7rchtVvME0FsA8YJ_uQzRp_ZAV-nPhLyRUQw_NNdgN0zhjyVR_L3wzt1ZX08PknwSF2FBLeieIUIx7t4hLMF1sDnsRuFCzllq8auoKriKlGMdllY8IYG04bID6cgGzty0e9mVhoM/s1600/uu.jpg",
+      "processedAt": "2026-07-08T19:01:48.835787+00:00"
+    },
+    {
+      "id": "art-568bb970",
+      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+      "summary": "Cybercriminals are using a new \"ghost phishing\" technique called EvilTokens that hides malicious content until it activates inside a user's browser, bypassing traditional email security checks. This attack targets businesses across the US and Europe by exploiting a gap in how standard URL filtering works. The hidden nature of these attacks makes them difficult to detect before they compromise sensitive systems like Microsoft 365 accounts.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "ghost-phishing",
+        "email-security",
+        "eviltokens",
+        "malicious-urls",
+        "browser-based-attack",
+        "microsoft-365"
+      ],
+      "whyItMatters": "This attack reveals a critical weakness in existing email security defenses that rely on URL reputation checks—traditional tools cannot identify threats that remain dormant until execution. Organizations need to implement additional security layers beyond URL filtering, such as browser isolation or advanced email authentication, to protect against these evolving phishing techniques that directly t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl6gaxMQBH0Bjb1ZhuaOiM5gKEk-zuSf821eRfV33ogx6YWwENunjyOPF8VXHtgtHgIevENLfBV2O04QI4TtjtDe2PGGevWptQEEagmp6q-G4FqOankGokz70XzVtz7dmNbEZ5G7-pV0yINgd2-ima7ap8xeOxuhZBKw2WPoUo81wKmGrwsPxbzYkW5Wk/s1600/anyrun-main.jpg",
+      "processedAt": "2026-07-08T19:01:51.986660+00:00"
+    },
+    {
+      "id": "art-5d64ed52",
+      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+      "summary": "Cybercriminals are targeting Mexican banking customers, fintech users, and cryptocurrency exchange clients through deceptive ClickFix lures that trick victims into running malicious commands. The attack campaign, identified as REF6045 by Elastic Security Labs, uses fake CAPTCHA verification pages to distribute a PowerShell-based malware toolkit called SCMBANKER. This operation demonstrates how attackers exploit users' trust in common security verification processes to compromise financial accounts and sensitive data.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "banking-malware",
+        "clickfix-lure",
+        "phishing",
+        "powershell-toolkit",
+        "financial-fraud",
+        "mexico"
+      ],
+      "whyItMatters": "This threat directly targets financial institutions and payment systems in Mexico, making it a significant risk for both individual users and organizations in the fintech sector. The use of fake CAPTCHA pages represents an increasingly common social engineering technique that exploits legitimate security practices, making it difficult for users to distinguish between real and malicious verificatio",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguw-rOR8Masg2W1UVlfj5rr1nTNdwmhHfXvKG-8rLXWxkwDjtEy-O2ZCb40GEca78DPql7PPEPIrRL_tYt9Ob51ZW7_L-i7w-Ej7DzX2NtNGBrRHuorMowS0d89GxVjQW492-J1LansFJY7SqZgVCtBvcwhyphenhyphenpOcveL_9rNcsgyJm-cRSwnbwvFXKQuLMA9/s1600/clickfix-banking.jpg",
+      "processedAt": "2026-07-08T19:01:55.541090+00:00"
+    },
+    {
+      "id": "art-f2756b42",
+      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
+      "summary": "Attackers linked to China are actively exploiting security flaws in Roundcube email servers at universities in the U.S. and Canada to access user credentials and install backdoor malware. This campaign targets academic institutions, potentially compromising sensitive research and personal information stored on these systems. The attackers are leveraging unpatched vulnerabilities to establish persistent access to affected networks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "roundcube-exploit",
+        "credential-theft",
+        "backdoor-malware",
+        "academic-targets",
+        "active-exploitation",
+        "china-linked"
+      ],
+      "whyItMatters": "This represents an active, targeted attack on critical infrastructure (educational institutions) with confirmed credential theft and backdoor deployment, requiring immediate patching and incident response. Universities often store sensitive research data and personal information, making this a significant threat to national security and academic integrity. The active nature of the exploitation and",
+      "image": null,
+      "processedAt": "2026-07-08T19:01:59.298185+00:00"
+    },
+    {
+      "id": "art-a2474ca9",
+      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
+      "summary": "Attackers are using voice calls (vishing) to trick Microsoft 365 users into enrolling fake Entra passkeys, a social engineering tactic that bypasses traditional security awareness. These fraudulent requests impersonate legitimate security procedures, making them difficult for users to distinguish from genuine Microsoft communications. The campaign targets multiple business sectors, putting thousands of organizations at risk of account compromise.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "vishing",
+        "entra-passkey",
+        "microsoft-365",
+        "social-engineering",
+        "account-compromise",
+        "voice-phishing"
+      ],
+      "whyItMatters": "Passkeys are increasingly used as a strong authentication method, so attackers are now targeting their enrollment process to gain unauthorized access to high-value accounts. Organizations need to educate users that Microsoft will never request passkey enrollment via unsolicited phone calls, and implement additional verification procedures before allowing new device enrollments. This attack demonst",
+      "image": null,
+      "processedAt": "2026-07-08T19:02:02.398090+00:00"
+    },
+    {
+      "id": "art-fc7494be",
+      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
+      "summary": "Artificial intelligence is making it easier for attackers to impersonate legitimate service desk personnel, allowing them to conduct more convincing and targeted attacks at scale. The article from Specops Software highlights three primary ways AI enhances these social engineering attacks against organizations. The piece also provides practical recommendations for businesses to improve their identity verification processes and employee onboarding security.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "social-engineering",
+        "service-desk",
+        "identity-verification",
+        "phishing",
+        "attack-prevention"
+      ],
+      "whyItMatters": "Service desk impersonation attacks targeting employees are a common entry point for breaches, and AI-powered tools are lowering the barrier for attackers to execute these attacks convincingly. Understanding how AI amplifies these threats helps organizations implement stronger verification protocols and train employees to recognize sophisticated social engineering attempts before credentials or sen",
+      "image": null,
+      "processedAt": "2026-07-08T19:02:05.174688+00:00"
+    },
+    {
+      "id": "art-db88c0fa",
+      "title": "DuckDuckGo browser now blocks YouTube video ads",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/",
+      "summary": "DuckDuckGo has updated its browser to block video advertisements on YouTube, including pre-roll and mid-roll ads. This feature enhances user privacy and browsing experience by preventing ad-related tracking and data collection. The capability represents a growing trend of privacy-focused tools challenging major tech platforms' advertising models.",
+      "category": "Privacy",
+      "severity": "Low",
+      "tags": [
+        "privacy",
+        "ad-blocking",
+        "duckduckgo",
+        "browser-security",
+        "user-protection"
+      ],
+      "whyItMatters": "While this is a privacy enhancement rather than a security threat, it demonstrates the ongoing tension between user privacy expectations and data collection practices. Ad-blocking features reduce exposure to malicious ads and tracking mechanisms, which are common attack vectors in cybersecurity incidents.",
+      "image": null,
+      "processedAt": "2026-07-08T19:02:07.867530+00:00"
+    },
+    {
+      "id": "art-f26c5255",
+      "title": "Telco giant KDDI says data breach affects over 12 million people",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
+      "summary": "KDDI, a major Japanese telecommunications company, experienced a significant data breach affecting over 12 million people. Attackers compromised an email platform shared by five internet service providers, exposing sensitive user information including email addresses and passwords. This breach demonstrates how vulnerabilities in shared infrastructure can impact millions of customers across multiple organizations.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "telco-breach",
+        "credentials-exposed",
+        "mass-exposure",
+        "japan",
+        "isp"
+      ],
+      "whyItMatters": "Breaches of this scale affecting telecommunications infrastructure are critical because they compromise millions of users' identities and credentials, creating immediate risk for credential stuffing attacks and account takeovers. The exposure of email addresses and passwords gives attackers ready-made tools for further targeted attacks against victims. This incident underscores the importance of s",
+      "image": null,
+      "processedAt": "2026-07-08T19:02:10.615397+00:00"
+    },
     {
       "id": "art-af034221",
       "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
@@ -825,208 +1033,6 @@
       "whyItMatters": "This discovery demonstrates the industrialization of phishing attacks through organized PhaaS platforms, which lower barriers for attackers to compromise enterprise email systems. Organizations using Microsoft 365 should implement stronger authentication mechanisms and employee training to defend against these sophisticated credential-harvesting campaigns. Understanding the tactics of established ",
       "image": null,
       "processedAt": "2026-07-06T19:28:04.562662+00:00"
-    },
-    {
-      "id": "art-270a132d",
-      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-      "summary": "Researchers at Shandong University have discovered a novel attack method called TrojPix that can extract data from air-gapped computers (those completely isolated from networks) by manipulating video cable emissions. The technique works by making invisible pixel changes on the screen that cause the video cable to emit weak radio signals, which a nearby receiver can intercept and decode. While the attack requires malware to already be present on the target system, it demonstrates a new physical channel for stealing sensitive information from highly secure, isolated systems.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "air-gapped-systems",
-        "covert-channel",
-        "data-exfiltration",
-        "physical-security",
-        "trojan",
-        "electromagnetic-emissions"
-      ],
-      "whyItMatters": "This attack breaks the assumption that air-gapped systems are completely secure, showing that determined attackers with physical proximity can bypass network isolation through hardware side-channels. It highlights the need for defense-in-depth strategies that address not just network security but also physical emissions and supply chain integrity in highly sensitive environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLYJDaMKVJEwbsJA1eYJaguihQzJv2dpnIl512z5xBuWojpidgE7mvbGWz27QN-Dnwx74qvCYOYGQNY4h2K00TzF_hz8D6M9gNxWALh2f2bz6jrzwuKvTuuLsb6kwU1O72qPUIjQYHtRwGPCCUYt-TDFJEZ7frhvxvsQa4vWP7HkLRPtXCi0ovIACzurMP/s1600/TrojPix-attack.jpg",
-      "processedAt": "2026-07-06T10:47:54.946401+00:00"
-    },
-    {
-      "id": "art-77fc2ccd",
-      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
-      "summary": "Researchers have discovered QuimaRAT, a new remote access trojan written in Java that can infect Windows, Linux, and macOS computers. The malware is being sold as a service with subscription plans ranging from $150 per month to $1,200 for lifetime access, making it accessible to cybercriminals with varying budgets. This cross-platform capability makes it a significant threat because it can compromise systems across multiple operating systems simultaneously.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "java-based-rat",
-        "cross-platform-malware",
-        "malware-as-a-service",
-        "remote-access-trojan",
-        "multi-os-threat"
-      ],
-      "whyItMatters": "QuimaRAT's availability as a subscription-based service lowers the barrier for attackers to compromise systems across all major operating systems, increasing the likelihood of widespread attacks. Organizations using Windows, Linux, and macOS need to implement detection and prevention strategies that account for this multi-platform threat. The affordability and accessibility of this MaaS offering m",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVcOvCD8qFylCqOCpN8Rnl9cnxNkIeGxNbVKzlsKXY_7Nuw2xvYsckNEHKVM5ntvT2JAureArFIyApOvGLu52wpCG1xbHO8Y5xBmOAkSI3RoyEegmlNxs_gJip32Uzv_inXS7seOeRB1d3mw9SNIggoqgIApupRF2etBx5U_IFkuQz4_WNBL0Q1oi1l77q/s1600/javarat.jpg",
-      "processedAt": "2026-07-06T10:47:57.859977+00:00"
-    },
-    {
-      "id": "art-1247bcbc",
-      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
-      "summary": "A vulnerability in Opera GX allowed malicious websites to secretly install browser extensions that could steal sensitive data from pages users visit. Researchers demonstrated the flaw by extracting a user's full Gmail address without any user interaction. Opera has released a patch, and there is currently no evidence of active exploitation in the wild.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "opera-gx",
-        "browser-vulnerability",
-        "data-theft",
-        "privilege-escalation",
-        "patch-available"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how browser flaws can be weaponized to silently compromise user privacy and extract sensitive personal information without detection. The ability to auto-install extensions poses a significant risk to millions of Opera GX users, making timely patching critical to prevent data theft and unauthorized surveillance.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ_WItJUaS3rk5pAYa5yOsKuUt0Yovlv1T-jIz2GBBhcmMjToCgnWuEApyWfgDwngwAPcEGke0zwo_2DKKHaN9vzzHMAnd7Z3esepEvjSM022BzOdjo0sJW2bSMlslKXVv5Fg701ozva1HDgZPJV4Qya8Xevye-eT4dB0UmIJK9CKq-_wLnEGgNYigRLzh/s1600/opera-data-leak.jpg",
-      "processedAt": "2026-07-06T10:48:00.394613+00:00"
-    },
-    {
-      "id": "art-cc7f8f96",
-      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
-      "summary": "Researchers from Hong Kong University of Science and Technology have discovered a technique called SkillCloak that allows malicious AI agent skills to bypass security scanners through self-extracting packing methods. Their approach successfully evaded all tested scanners more than 90% of the time while keeping the malware fully functional. The team also developed a runtime checker capable of detecting most of these evasion attempts, highlighting both the threat and potential defense mechanisms.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "malware-evasion",
-        "static-analysis-bypass",
-        "ai-agents",
-        "packing-techniques",
-        "detection-evasion"
-      ],
-      "whyItMatters": "As AI coding agents become more widely deployed in development environments, the ability to hide malicious skills from standard security scanners represents a significant gap in enterprise defenses. Organizations relying on static analysis tools to vet AI agent add-ons may be leaving themselves vulnerable to sophisticated attacks that current scanners cannot reliably detect. Understanding these ev",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjw4ZKsU9PwSPcL_Vs2ZqYIh0ahMuSFSNcCv_Y5MiM7MRsUgeZCDa5XTSWVYQXjLg-ByFbm4cHoo-8SSeWrB7KSdYrl4A1Ioif-v8NLNA43asXEHtYjn6uad21Savnzi_1iJ0YQ44iuXECEIBbyc3l7lJ9l2pdofVvP7dM3n9Ji5OeUeuPDHX5sqBJreUUB/s1600/ai-skills.jpg",
-      "processedAt": "2026-07-06T10:48:03.292590+00:00"
-    },
-    {
-      "id": "art-0c4c4308",
-      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-03",
-      "originalUrl": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-      "summary": "PamStealer is a new macOS malware that disguises itself as Maccy, a popular clipboard manager, to trick users into downloading it. Once installed, this malicious program steals Mac login passwords by exploiting system authentication checks. Security researchers at Jamf Threat Labs discovered this threat, which highlights how attackers are increasingly targeting Mac users by impersonating legitimate software.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "macos-malware",
-        "credential-theft",
-        "fake-software",
-        "password-stealer",
-        "social-engineering"
-      ],
-      "whyItMatters": "This malware is particularly dangerous because it targets Mac users who may believe their systems are more secure than Windows, and it uses credential theft to gain unauthorized access to accounts. The attack method—impersonating legitimate software—is a common tactic that can fool even security-conscious users, making awareness and verification of software sources critical for defense.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEmcBMGUjTwe51gVQWP401twHYLMUOocwG9nYkgadlFV6cmGXrPS-3PeNTg_GJOaUVohWILNXgIC8ufSkPqXRbW1wIyvUr5JEKCrrMI3_hlN8uFtxpf-sBn743tQmlK2ipu_qWtY3k18cPkaQ6XGJnR7RPjuMOWkYwcmJ5XSnSNQHbNpkEgyyP29hJA6j2/s1600/macos-malware.jpg",
-      "processedAt": "2026-07-06T10:48:06.477602+00:00"
-    },
-    {
-      "id": "art-2ecbd2d3",
-      "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
-      "summary": "Anthropic announced that Claude Fable 5 will be temporarily unavailable through Claude subscriptions starting July 7, 2026. The company clarified this is not a permanent removal and expects to restore access to the model through alternative plans in the near future. This appears to be a service adjustment rather than a security incident or feature discontinuation.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "service-update",
-        "ai-model",
-        "subscription-change",
-        "anthropic"
-      ],
-      "whyItMatters": "While not a direct security threat, understanding changes to AI service availability helps organizations plan their AI tool dependencies and avoid disruptions to workflows relying on specific models. Transparency about temporary service changes demonstrates responsible communication practices in the evolving AI security landscape.",
-      "image": null,
-      "processedAt": "2026-07-06T10:48:09.258203+00:00"
-    },
-    {
-      "id": "art-4e80023e",
-      "title": "Claude Fable relaunch disappoints users with nerfed performance",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
-      "summary": "Claude Fable, a widely-used AI model, has been re-released to all users but is performing significantly worse than the original version. Users are reporting that the relaunched model lacks the capabilities and quality of its predecessor, raising concerns about potential security and reliability implications. This degradation in performance could affect organizations relying on the AI for sensitive tasks.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "model-degradation",
-        "supply-chain-risk",
-        "ai-reliability"
-      ],
-      "whyItMatters": "Degraded AI model performance can introduce security risks in organizations that depend on these systems for threat detection, code analysis, or security automation. When AI systems underperform, they may miss critical threats or provide unreliable outputs that weaken overall cybersecurity posture. This incident highlights the importance of vetting AI tools and monitoring their performance in secu",
-      "image": null,
-      "processedAt": "2026-07-06T10:48:12.016156+00:00"
-    },
-    {
-      "id": "art-6da4da02",
-      "title": "CISA: Microsoft SharePoint RCE flaw now actively exploited",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-rce-flaw-now-actively-exploited/",
-      "summary": "Microsoft patched a serious SharePoint vulnerability in May, but attackers have now started actively exploiting it in real-world attacks. CISA issued a warning to alert organizations about this ongoing threat. This means companies using SharePoint need to act quickly to protect their systems from hackers who are taking advantage of this flaw.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sharepoint",
-        "rce",
-        "microsoft",
-        "active-exploitation",
-        "patch-now",
-        "cisa-alert"
-      ],
-      "whyItMatters": "Active exploitation of a patched vulnerability means attackers are actively targeting unpatched systems right now, making this an urgent threat. Organizations that haven't applied the May patch are at immediate risk of remote code execution, which could lead to complete system compromise and data theft. CISA's warning signals that this is a widespread campaign requiring immediate patching to preve",
-      "image": null,
-      "processedAt": "2026-07-06T10:48:18.001921+00:00"
-    },
-    {
-      "id": "art-b7d7c19d",
-      "title": "Opera rolls out Paste Protect feature to fight ClickFix attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/opera-rolls-out-paste-protect-feature-to-fight-clickfix-attacks/",
-      "summary": "Opera browser has launched a new security feature called Paste Protect that defends users against ClickFix attacks, which are social engineering schemes designed to trick people into running harmful commands on their computers. This feature works by preventing malicious code from being automatically executed when users paste content into their browser. By adding this protection, Opera helps protect everyday users from a growing threat that exploits human error rather than software vulnerabilities.",
-      "category": "Security Awareness",
-      "severity": "Medium",
-      "tags": [
-        "clickfix-attacks",
-        "paste-protection",
-        "social-engineering",
-        "browser-security",
-        "user-protection"
-      ],
-      "whyItMatters": "ClickFix attacks are increasingly common because they target user behavior rather than technical weaknesses, making them effective against even security-conscious individuals. This feature demonstrates how browser developers are taking proactive steps to defend users from real-world threats. Organizations should recognize that employee awareness and tool-based protections both play critical roles ",
-      "image": null,
-      "processedAt": "2026-07-06T10:48:20.907673+00:00"
-    },
-    {
-      "id": "art-99f8d790",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "summary": "The FBI seized hundreds of domains belonging to NetNut, a residential proxy service operated by Israeli company Alarum Technologies, after security researchers linked it to the Popa botnet. The Popa botnet compromises at least two million devices without user knowledge or consent. This action represents a major law enforcement effort against infrastructure enabling large-scale cyber abuse.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "botnet",
-        "proxy-service",
-        "malware",
-        "law-enforcement",
-        "residential-proxies",
-        "popa-botnet"
-      ],
-      "whyItMatters": "This seizure demonstrates how legitimate-appearing services can mask botnet infrastructure used for large-scale attacks. Understanding how botnets operate and are dismantled helps organizations recognize compromised devices on their networks and implement stronger monitoring. The action also shows that even publicly-traded companies may face legal consequences for enabling cybercriminal activity a",
-      "image": null,
-      "processedAt": "2026-07-06T10:48:23.643903+00:00"
     }
   ]
 }
