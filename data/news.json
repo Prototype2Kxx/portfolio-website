@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-07-07T19:30:02.696117+00:00",
+  "lastUpdated": "2026-07-08T08:37:12.485238+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-af034221",
+      "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+      "summary": "A 15-year-old Linux kernel vulnerability called GhostLock (CVE-2026-43499) has been discovered that allows any logged-in user to gain root access and escape containers on unpatched systems. The flaw has been present in virtually all mainstream Linux distributions since 2011 and requires no special permissions or network access to exploit. Researchers at Nebula Security have disclosed this critical issue, highlighting the urgent need for system administrators to apply patches across their infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "privilege-escalation",
+        "container-escape",
+        "root-access",
+        "patch-urgent",
+        "widespread-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and severe risk because it affects nearly all Linux distributions deployed over the past 15 years and can be exploited by any local user without special privileges to gain complete system control. Organizations running unpatched Linux systems face critical exposure to unauthorized access and lateral movement within containerized environments. Immediate patchin",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid8ZRwAprNDN6zAPixm22IlrKWp03FJdQF0TxCV5v_jxckPLkOHRSzHQERbDNw_FZdnyluuhyphenhyphenGZ7pSX51cjBl-S8PrqhgARlAe8VfWPabk7t4hAy37ZSrRu6oXfRYlXP7s1x1OBYW9WHmgWobGS0wiC0mrO42xHWHrSI3ICLM5OFzsOA3tVCcs4_N1yPU/s1600/linux-root.gif",
+      "processedAt": "2026-07-08T08:36:45.669529+00:00"
+    },
+    {
+      "id": "art-13538369",
+      "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+      "summary": "CISA has identified and added four actively exploited security vulnerabilities to its Known Exploited Vulnerabilities catalog, including a critical flaw in Adobe ColdFusion with a perfect CVSS score of 10.0. These vulnerabilities affect popular software like Adobe ColdFusion, Joomla, and Langflow, meaning attackers are already using them in real-world attacks. Organizations using these affected products need to apply security patches immediately to prevent potential compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisa-kev",
+        "active-exploitation",
+        "adobe-coldfusion",
+        "patch-urgent",
+        "path-traversal",
+        "code-execution"
+      ],
+      "whyItMatters": "When CISA adds vulnerabilities to the KEV catalog with evidence of active exploitation, it signals that hackers are actively weaponizing these flaws in the wild, making immediate patching essential for any organization using affected software. A CVSS 10.0 vulnerability in widely-used software like Adobe ColdFusion represents an extreme risk that could lead to complete system compromise and require",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZn36WwWfaOwK7XCU9aKjVPS7QAyrnBKsKMXtVRyYbD2X30HI-ojl5F8ttD9VcbXB36anuKWq-JGEhzPq1fjwnEhKPKMjkPDMPAFe8OqR85N1dc0QZoZ7JCN9ziqGuQ8M4irelfxa_zca62EV-s9qBO9WI47ECtzM8Zi2X8T-MFfuRRbJQ8u48Y2RRt3UT/s1600/cisa-main.jpg",
+      "processedAt": "2026-07-08T08:36:48.464121+00:00"
+    },
+    {
+      "id": "art-5ed177b3",
+      "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+      "summary": "Researchers discovered a critical vulnerability in Writer, an enterprise AI platform, that could allow attackers to steal session tokens and gain unauthorized access across multiple customer accounts. The flaw, named WriteOut, required only a single click to exploit and could lead to complete takeover of any Writer AI instance. The vulnerability has since been patched by the company.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "session-isolation",
+        "cross-tenant",
+        "enterprise-vulnerability",
+        "patch-required"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how security flaws in multi-tenant AI platforms can have severe consequences, potentially affecting numerous enterprise customers simultaneously. Session token leakage across tenants is particularly dangerous because it bypasses authentication mechanisms and grants attackers direct access to sensitive systems and data. Organizations using Writer AI needed to priorit",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH0EnuZfnTZVOg-ACF0jKSHBB8TemRtJ6vlDerjpWy9giH2VsJTP_XiktA9SCytwnDcP95jn4gyQaPk2r92S-J-4EcB7FDvenxXiNwJKtg1VQkV_f564nT6mrS6S3wuMX3SC22kdd5nJM9y4IecNKJ3CRq569DtujHzUgaVOAwQDpfvCgkCrSrfeRjT1CQ/s1600/writerai.jpg",
+      "processedAt": "2026-07-08T08:36:51.539631+00:00"
+    },
+    {
+      "id": "art-532ff8d3",
+      "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+      "summary": "As artificial intelligence tools become integrated into software development pipelines, they introduce a new dimension to software supply chain security. Traditional supply chain risks focused on identifying vulnerable open-source dependencies, but AI-generated code adds complexity by creating code that may contain hidden security flaws or vulnerabilities that are harder to detect through conventional scanning methods. Organizations must now consider AI as both a tool in their build process and a potential source of risk that requires new security strategies.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "software-supply-chain",
+        "ai-generated-code",
+        "dependency-security",
+        "code-vulnerability",
+        "build-pipeline-security"
+      ],
+      "whyItMatters": "As AI-powered code generation becomes standard practice in development workflows, security teams face unprecedented challenges in vetting automatically generated code for vulnerabilities that traditional tools may miss. This fundamentally changes how organizations must approach supply chain security, requiring new detection methods and governance policies to prevent AI from becoming an unwitting v",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0OJ0wrmDju3vsLQqciy7DCza9juzf5jkuI6VPy8mXFoQ-2hVj7uNgqJD8ti8Pft2gayFWUH9TfOuIkqnKyduhjMP9-wqBxuvHPoyp39keS52R_MpsuO0bsKX03-fy2PA3V-gjqOaKuSKoOWaotAyzf9Tsc_zUGJpf4i81bHMrCJYhTo7AjtfsdN_OKuY/s1600/AI-WRITER.jpg",
+      "processedAt": "2026-07-08T08:36:54.472592+00:00"
+    },
+    {
+      "id": "art-dcb3ccb7",
+      "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-04",
+      "originalUrl": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+      "summary": "A U.S. government agency paid approximately $1 million to a group called Kairos to prevent the release of stolen data. Researchers analyzing blockchain records and leaked chat logs found that Kairos may not be a traditional ransomware gang, as there is no evidence they ever encrypted any systems. This case highlights a concerning trend where attackers extort payments by threatening to leak data without needing to deploy encryption.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "data-extortion",
+        "government-breach",
+        "ransomware-variant",
+        "blockchain-forensics",
+        "data-theft"
+      ],
+      "whyItMatters": "This case demonstrates that data-theft extortion is becoming a viable attack model without traditional ransomware deployment, making it harder to detect and defend against. When government entities pay extortion demands, it funds further criminal operations and sets a precedent that encourages more attacks. Understanding these evolving tactics helps organizations recognize threats beyond tradition",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEfi15-eigOUF4SV157a0LsEW4uNvhRyEIhWWYVNo8tn0tfMjuJ0Cr6zYUDeVh6VfzA-7MpWgIVX8sJgieRMD6e0KSBmB2zNmTU1ko1KPMbkBd-JHMBluVBUOjV06SebkYq4AKFssmEQ6DdGw4yy4X3qesVYJcwwgZSsQFUu4Wfy3un9alrX2Qy8IjacE/s1600/county-hacked.jpg",
+      "processedAt": "2026-07-08T08:36:57.969746+00:00"
+    },
+    {
+      "id": "art-ee0ac0ea",
+      "title": "Ubiquiti warns of new max severity  UniFi OS vulnerability",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/",
+      "summary": "Ubiquiti has released security updates to address seven critical vulnerabilities in its UniFi OS platform, with one flaw rated at maximum severity that allows attackers to execute arbitrary commands through command injection. These vulnerabilities could potentially allow attackers to compromise network infrastructure managed by UniFi systems. Organizations running UniFi OS should apply the released patches immediately to protect their networks from exploitation.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "ubiquiti",
+        "unifi-os",
+        "command-injection",
+        "critical-vulnerability",
+        "patch-now",
+        "network-infrastructure"
+      ],
+      "whyItMatters": "UniFi OS is widely deployed in enterprise and small business networks for managing network infrastructure, making these critical vulnerabilities a significant risk to organizations worldwide. Command injection vulnerabilities can lead to complete system compromise and lateral movement within networks if exploited. Immediate patching is essential to prevent active exploitation of these maximum-seve",
+      "image": null,
+      "processedAt": "2026-07-08T08:37:00.816179+00:00"
+    },
+    {
+      "id": "art-fb908a34",
+      "title": "CISA orders feds to patch max severity ColdFusion flaw by Friday",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent directive requiring all federal government agencies to patch a critical vulnerability in Adobe ColdFusion by Friday. The flaw has a maximum severity rating and is already being actively exploited by attackers in the wild. This emergency order highlights the serious threat posed by the vulnerability to government systems and infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisa-directive",
+        "adobe-coldfusion",
+        "active-exploitation",
+        "patch-urgent",
+        "maximum-severity",
+        "federal-mandate"
+      ],
+      "whyItMatters": "Active exploitation of a maximum-severity flaw in widely-used web development software creates immediate risk to critical government systems and services. CISA's emergency patching order underscores the threat level and sets a precedent for rapid response to exploited vulnerabilities across federal infrastructure.",
+      "image": null,
+      "processedAt": "2026-07-08T08:37:03.182663+00:00"
+    },
+    {
+      "id": "art-eaba5d4b",
+      "title": "Accenture confirms breach after hacker offers stolen data for sale",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/",
+      "summary": "Accenture, a major IT services company, confirmed that hackers stole approximately 35 GB of sensitive data including source code from their systems. A threat actor is now offering this stolen information for sale on the dark web. This breach highlights the vulnerability of even large enterprise security firms to cyberattacks.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "source-code-theft",
+        "accenture",
+        "threat-actor",
+        "enterprise-security",
+        "stolen-data"
+      ],
+      "whyItMatters": "When a major IT services provider like Accenture suffers a breach, it puts thousands of their clients at potential risk, as attackers may use stolen data to target downstream organizations. The theft of source code is particularly dangerous because it can reveal security weaknesses and intellectual property that affects multiple enterprise clients. This reinforces that no organization is too large",
+      "image": null,
+      "processedAt": "2026-07-08T08:37:06.086850+00:00"
+    },
+    {
+      "id": "art-06c20845",
+      "title": "New Januscape Linux flaw allows VM escape on Intel, AMD devices",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/",
+      "summary": "Researchers have discovered Januscape, a 16-year-old vulnerability in the Linux kernel that allows attackers to break out of virtual machines and run malicious code directly on the host system. This flaw affects both Intel and AMD processors, making it a widespread concern for organizations that rely on VM isolation for security. The vulnerability remained undetected for over a decade, highlighting how old code can harbor serious security risks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "vm-escape",
+        "virtualization",
+        "privilege-escalation",
+        "intel-amd",
+        "patch-urgent"
+      ],
+      "whyItMatters": "VM escape vulnerabilities are critical because virtual machines are a foundational security boundary in cloud computing and data centers. An attacker exploiting this flaw could compromise entire infrastructure by breaking out of isolated environments, affecting thousands of organizations. This demands immediate patching and highlights the importance of auditing older code for hidden security flaws",
+      "image": null,
+      "processedAt": "2026-07-08T08:37:08.955111+00:00"
+    },
+    {
+      "id": "art-e4eb8ba2",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their role in an August 2024 cyberattack that disrupted London's public transportation system. The guilty pleas occurred on the first day of trial, significantly shortening what was expected to be a lengthy legal proceeding. This case demonstrates that even sophisticated cybercriminals face serious legal consequences when caught, and highlights the real-world impact cyberattacks can have on critical infrastructure.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "scattered-spider",
+        "cybercrime",
+        "critical-infrastructure",
+        "ransomware-group",
+        "uk-prosecution",
+        "transport-attack"
+      ],
+      "whyItMatters": "This case reinforces that law enforcement agencies are actively pursuing and successfully prosecuting members of major cybercriminal organizations, potentially disrupting ongoing operations. Scattered Spider's attacks on critical infrastructure like public transportation pose serious risks to society, and successful prosecutions may deter future attacks or force the group to reorganize and become ",
+      "image": null,
+      "processedAt": "2026-07-08T08:37:12.485093+00:00"
+    },
     {
       "id": "art-bef8d29b",
       "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
@@ -820,212 +1027,6 @@
       "whyItMatters": "This seizure demonstrates how legitimate-appearing services can mask botnet infrastructure used for large-scale attacks. Understanding how botnets operate and are dismantled helps organizations recognize compromised devices on their networks and implement stronger monitoring. The action also shows that even publicly-traded companies may face legal consequences for enabling cybercriminal activity a",
       "image": null,
       "processedAt": "2026-07-06T10:48:23.643903+00:00"
-    },
-    {
-      "id": "art-4dcaa916",
-      "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-      "summary": "This week's security roundup highlights multiple vulnerabilities across browsers, AI systems, email platforms, and sandboxes that share a common theme: small gaps in permissions and weak security checks. Rather than featuring one massive breach, the stories reveal how attackers exploit minor oversights and legitimate system permissions to gain unauthorized access. These vulnerabilities demonstrate that threat actors don't always need dramatic exploits—they can slip through cracks in everyday tools and normal operations.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "email-vulnerability",
-        "browser-security",
-        "sandbox-bypass",
-        "ransomware",
-        "weak-permissions"
-      ],
-      "whyItMatters": "Understanding that security weaknesses often stem from small permission gaps and weak validation checks—rather than exotic zero-days—helps organizations prioritize defense strategies. This pattern shows attackers systematically testing normal system boundaries, making it critical for teams to audit permissions, implement stricter access controls, and validate every system input. Companies relying ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMzwXbN53zy07KSkFJL7uOzty4Pj7VgKS6lSwWWGSCppX0wEX5eY0ZLur2NiFcs-ByBBhbd1WZ270Y4VMMGL6WkvOIZ5MhyphenhyphenkDX2B45wiQue-W88oiF_-RZs0HxvrvcxCHI8Zhhv1-fqHDgnX-VLWk00gt463rQhyKY7Mzcd5STMCYeCUcyVri3aBSUpl2t/s1600/threatsday-board.jpg",
-      "processedAt": "2026-07-05T18:55:38.435816+00:00"
-    },
-    {
-      "id": "art-3e551223",
-      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-      "summary": "A threat actor group called ToddyCat has developed a new malware named Umbrij that exploits OAuth authentication to illegally access Gmail accounts through Google's API. Rather than targeting individual users, the attackers focused on compromising corporate email systems to steal sensitive business communications. This sophisticated approach bypasses traditional security measures by abusing legitimate authentication mechanisms.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "oauth-abuse",
-        "gmail-targeting",
-        "api-exploitation",
-        "corporate-email",
-        "toddycat"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors are evolving beyond password theft to abuse legitimate cloud authentication protocols, making detection harder for defenders. Corporate email systems are high-value targets containing sensitive business data, financial information, and strategic communications. Organizations must implement advanced monitoring for unusual API activity and enforce multi-fac",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMMnC-1ujLiZRcV1xgXbB3qFoIREcbSiGqLCFID8-G-z8GFI3YEY8VniprVEBW4b4TZKJUvoRDg27elntNJWL9S6JZUHMMe1Ie1JLf9w5Fzsgx2w9c94ja1NoED4m3G1pNngC2DDWOOQPgVGiKOd0uBpZkQSSpFOo60S2Tbl8j2VWKdhb70sIJzF8d93LM/s1600/gmail.jpg",
-      "processedAt": "2026-07-05T18:55:40.861544+00:00"
-    },
-    {
-      "id": "art-af173a5b",
-      "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-      "summary": "Traditional identity and access management systems were designed to manage human employees with clear organizational hierarchies and lifecycles, but AI agents operating autonomously in enterprises don't fit this model. As AI agents become more prevalent in business environments, existing IAM tools lack the governance mechanisms to properly detect and manage the unique security risks these autonomous systems present. Organizations need to rethink their identity management architecture to account for non-human principals that operate without traditional employment structures.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-agents",
-        "identity-management",
-        "access-control",
-        "governance",
-        "autonomous-systems",
-        "iam-tools"
-      ],
-      "whyItMatters": "As enterprises increasingly deploy AI agents, legacy identity and access management systems create significant security blind spots that could allow unauthorized access or privilege escalation by autonomous systems. Organizations must update their governance frameworks to properly monitor and control AI principals, or risk exposing critical systems and data to unmanaged threats. This represents a ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwwp0Bf4s6Xp_L13nlIV5Pf2D0awJsA5cDdev6yCr9f7nLVbmJmzqJ01cmdJkO4K0E3KEvdHhK10ZDai_tXV6gZDmgJqhnsARjEhVScA9gsWHKL4zzt64aQSSgPBImpeYxLuMiORSByYXgQunRUhYhymV8AQfvYf6qsBieuh82794N44iaJ9lEl8IS8Z0/s1600/Identity-Lifecycle-Management.jpg",
-      "processedAt": "2026-07-05T18:55:44.247644+00:00"
-    },
-    {
-      "id": "art-54321546",
-      "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-      "summary": "A 19-year-old dual U.S. and Estonian citizen named Peter Stokes has been extradited from Finland to the United States to face federal charges related to his alleged involvement with the Scattered Spider hacking group. He is accused of conspiracy, computer intrusion, and fraud, and was ordered held in custody after appearing in a Chicago federal court. This case highlights how international law enforcement cooperation targets organized cybercrime groups that operate across borders.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "scattered-spider",
-        "hacking-group",
-        "extradition",
-        "cybercrime",
-        "computer-intrusion",
-        "international-law-enforcement"
-      ],
-      "whyItMatters": "This extradition demonstrates that law enforcement agencies worldwide are actively pursuing members of organized hacking groups, even across international borders, which serves as a deterrent to cybercriminals. Scattered Spider is known for sophisticated attacks on critical infrastructure and financial institutions, so dismantling the group reduces real-world threats to organizations. The case als",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitCA6eGqIT2msGTmYh2Qr84lq5GYGvI4Y8FSzzNira0osd5SNIbnpLKZfLZLggblyWGxZ1ScIR_I06M-RoM5wM3he2KRkFCnwYxIKtGBDb9PA1JtoK1JM5f0vObSITDMGt4eeVV82LUF3DBNkYiHLhCTYNwnlOP3DlfCHYLkP6NfHjwRJDsHSMTHEGKAs/s1600/hacker-arrested.jpg",
-      "processedAt": "2026-07-05T18:55:47.175624+00:00"
-    },
-    {
-      "id": "art-26324301",
-      "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-01",
-      "originalUrl": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-      "summary": "Adobe released security patches for critical vulnerabilities affecting ColdFusion and Campaign Classic, with multiple flaws rated at the highest CVSS severity level. These vulnerabilities could allow attackers to execute arbitrary code, escalate privileges, read files without authorization, and bypass security protections. Organizations using these Adobe products need to apply patches immediately to prevent potential system compromise.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "adobe",
-        "coldufusion",
-        "campaign-classic",
-        "code-execution",
-        "privilege-escalation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "CVSS 10.0 vulnerabilities represent the most severe security threats possible, and widespread Adobe products make this a high-impact risk across enterprises. Attackers actively exploit unpatched Adobe software, making immediate patching essential to prevent data theft, system takeover, and operational disruption. Organizations that delay patching expose themselves to rapid compromise given the pop",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP2LpF3s-oL3WaiHtAZ9N33J120bvGnWDoQ39eE1fyToERHmJgkAtMzarRyW9-gOG0N4U1_nOEQmwg-3krYIZDcXXB6JYpurMezefSiM5-ygJd9CuuS1sS-gHNjoKgBRayO0wBow5GB1yaanR55TW2fwus6MQXwlqeXDJ2Xu7z2fiOGbPXo4qio4LpXZPO/s1600/adobe.jpg",
-      "processedAt": "2026-07-05T18:55:49.888131+00:00"
-    },
-    {
-      "id": "art-9a3fc692",
-      "title": "Flipper Zero firmware development continues with community help",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
-      "summary": "Flipper Devices has announced that Flipper Zero firmware development will continue with a reduced internal team, while increasingly depending on contributions from the community of developers and security researchers. This shift reflects a new development model that leverages open-source collaboration to maintain and improve the popular penetration testing device.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "flipper-zero",
-        "firmware-development",
-        "open-source",
-        "community-driven",
-        "penetration-testing"
-      ],
-      "whyItMatters": "This development strategy is important for security professionals and researchers who rely on Flipper Zero for authorized testing and learning. Community-driven firmware development can accelerate security improvements and feature additions, though it also requires monitoring for quality control and ensuring contributions maintain security standards.",
-      "image": null,
-      "processedAt": "2026-07-05T18:55:52.294946+00:00"
-    },
-    {
-      "id": "art-0da397e7",
-      "title": "Google loses final appeal to overturn €4.1 billion EU fine",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
-      "summary": "Google's final legal appeal against a €4.1 billion fine from the European Union has been rejected by the Court of Justice of the European Union. The fine was imposed because Google allegedly misused its Android operating system to unfairly promote its Chrome browser and search service. This ruling means Google must accept the penalty and cannot challenge it further in EU courts.",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "antitrust",
-        "regulatory-compliance",
-        "google",
-        "eu-enforcement",
-        "corporate-liability"
-      ],
-      "whyItMatters": "This case demonstrates how regulatory bodies enforce competition laws against major tech companies and sets precedent for holding corporations accountable for anti-competitive practices. Organizations should understand that regulatory fines can result from product bundling and monopolistic behavior, making compliance with antitrust laws an important business and legal risk management concern.",
-      "image": null,
-      "processedAt": "2026-07-05T18:55:54.905165+00:00"
-    },
-    {
-      "id": "art-e1a3e6c2",
-      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-      "summary": "ConsentFix and ClickFix are sophisticated attack techniques that compromise Microsoft 365 accounts by exploiting fake authentication prompts and OAuth authorization flows to steal user tokens within seconds. These attacks bypass multi-factor authentication by tricking users into granting permissions through convincing phishing interfaces rather than directly stealing credentials. Understanding these attack methods is essential for organizations relying on Microsoft 365 to protect their most critical assets.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-365",
-        "oauth-attacks",
-        "mfa-bypass",
-        "token-theft",
-        "phishing",
-        "cloud-security"
-      ],
-      "whyItMatters": "These attacks represent an active, rapid threat to Microsoft 365 users because they bypass traditional MFA protections and can compromise accounts in seconds, potentially giving attackers immediate access to sensitive business data and email systems. Organizations need to implement detection measures and user training immediately, as the speed and sophistication of these attacks make them particul",
-      "image": null,
-      "processedAt": "2026-07-05T18:55:57.694847+00:00"
-    },
-    {
-      "id": "art-76e1120d",
-      "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
-      "summary": "Microsoft resolved a technical issue that was causing Copilot Chat and Copilot buttons to disappear from Classic Outlook on Windows computers for users with basic Copilot licenses. The fix ensures that these AI assistant features are now properly displayed and accessible to affected users. This update restores functionality that users were expecting to have available in their email application.",
-      "category": "Patching and Updates",
-      "severity": "Low",
-      "tags": [
-        "microsoft-outlook",
-        "copilot",
-        "bug-fix",
-        "windows-update",
-        "software-patch"
-      ],
-      "whyItMatters": "While this is a minor functionality issue rather than a security threat, it demonstrates the importance of regular software updates and bug fixes in maintaining user experience and feature availability. Users relying on AI-assisted tools for productivity need these features to work reliably, and awareness of such patches helps IT teams manage deployments effectively.",
-      "image": null,
-      "processedAt": "2026-07-05T18:56:01.445331+00:00"
-    },
-    {
-      "id": "art-85012896",
-      "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
-      "summary": "Cisco has officially confirmed that threat actors are actively exploiting a vulnerability in Unified Communications Manager that was patched in early June. This means attackers have discovered how to weaponize the flaw despite the availability of security updates. Organizations running unpatched Unified CM systems are now at immediate risk of compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco",
-        "unified-communications-manager",
-        "active-exploitation",
-        "patch-urgent",
-        "vulnerability"
-      ],
-      "whyItMatters": "Active exploitation of a known vulnerability transforms it from a theoretical risk into an immediate threat. Organizations that have delayed patching their Unified CM systems face real danger of intrusion, and the confirmation of active attacks should trigger urgent remediation efforts across enterprise communication infrastructure.",
-      "image": null,
-      "processedAt": "2026-07-05T18:56:03.829287+00:00"
     }
   ]
 }
