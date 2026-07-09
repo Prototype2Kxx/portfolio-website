@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-07-08T19:02:10.615567+00:00",
+  "lastUpdated": "2026-07-09T09:54:27.078065+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-7e9eccc1",
+      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
+      "summary": "Meta has launched Muse Image, an AI tool that automatically uses public Instagram photos and videos to generate new AI-created content, with this feature enabled by default for all users. Users can also tag specific Instagram accounts to incorporate them into generated images. This raises significant concerns about consent and how personal content is being repurposed without explicit opt-in permission.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "privacy",
+        "consent",
+        "data-usage",
+        "default-enabled",
+        "instagram"
+      ],
+      "whyItMatters": "This represents a critical privacy issue where users' public content is being automatically enrolled in AI training and generation without explicit consent, creating potential for unauthorized use of personal likeness and imagery. The default-enabled nature of this feature means most users won't realize their content is being used this way, highlighting how AI tools can erode digital privacy at sc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsjiT58V2lRqaqYwo2AHkilx81c58T9dBHa_W5KiHgom4-UgZqV18Ax-zQb8_fN7p_OQpqi0b4nTzt4SpDnHW-RozKjIcgs-B8KN8HI_QnCMzIjDMmcg2grJEyP7r1ZNd_SRB5R1MDw-vo-jQ4v198ZDhMsWaBpFnXmShkouRZvXIXpu-32FQ_30h4HQrq/s1600/metaai.jpg",
+      "processedAt": "2026-07-09T09:54:00.948008+00:00"
+    },
+    {
+      "id": "art-2a1fb628",
+      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "summary": "Researchers at the AI Now Institute have discovered a vulnerability called 'Friendly Fire' that allows attackers to trick AI coding agents like Claude Code and OpenAI's Codex into executing malicious code instead of scanning it for security threats. When these AI tools operate autonomously, they can be manipulated into running attacker-controlled code on the user's machine, turning a security tool into a potential attack vector.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "code-execution",
+        "autonomous-agents",
+        "claude",
+        "codex",
+        "prompt-injection"
+      ],
+      "whyItMatters": "As organizations increasingly rely on AI agents for security scanning and code review, this vulnerability exposes a critical blind spot where defensive tools themselves become attack surfaces. Developers and security teams using autonomous AI agents need to understand that these tools cannot be fully trusted without additional safeguards, and attackers can weaponize legitimate security workflows a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynXsBDNXYgGgYPWB6cmy9zuZDStl-XaVvlwMQsqa6AxvNCvi7qI9Xq3h1vdk30Tv1u-fOAtB_OZ_Q-i5O0z5D0KL1Eh0joKyFmuhIoH4-7Z16ubplbIcNQpXJ7P7Sl2xju-z6ZvbhSeJbGKiL1gzx-I151GVMAp5jpCS27zvn791sC2WYQllTRT8ye-0/s1600/Friendly-Fire-AI-demo.gif",
+      "processedAt": "2026-07-09T09:54:03.568344+00:00"
+    },
+    {
+      "id": "art-59a53533",
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "summary": "Researchers discovered a symlink vulnerability affecting six popular AI coding assistants that allows malicious code repositories to trick developers into granting permissions. When a developer thinks they're authorizing edits to a harmless file, the flaw redirects the write operation to sensitive system files instead, potentially giving attackers control of the developer's machine. The vulnerable tools include Amazon Q Developer, Claude Code, Augment, Cursor, Google Antigravity, and Windsurf.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "symlink-attack",
+        "ai-coding-agents",
+        "privilege-escalation",
+        "code-injection",
+        "supply-chain-risk"
+      ],
+      "whyItMatters": "This vulnerability is critical because AI coding assistants are increasingly integrated into developer workflows with elevated system permissions, making them attractive targets for attackers. A successful exploit could grant attackers direct access to a developer's machine and potentially compromise the entire software supply chain. The widespread adoption of these tools across multiple vendors m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijymBd057efx1JbDRjjqh0RBYH7RA2pE75UYG8DDd7Vl2UyXMsMjXtgEaxoPyHt5wz8s0fT6B43ovQskxZBchyiYI9G34t7YjyC6_T0xwzs_0SOJaHnHI7vXfMTOqtDn1R6up52ol5UH_uT86b1dRjaJ-Bw6pa_lAX6igS_pFLV_z_0kRhyXuNo8Q2rFU/s1600/wiz-ai.jpg",
+      "processedAt": "2026-07-09T09:54:06.662496+00:00"
+    },
+    {
+      "id": "art-b507606a",
+      "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+      "summary": "A threat group called Lurking Lizard has been distributing fake 7-Zip installer files that secretly turn infected computers into residential proxy nodes for a malicious service. Operating since at least August 2022 using over 230 fake domains, this group has built a large network of compromised devices to conduct their proxy business. The campaign highlights how legitimate-looking software downloads can be weaponized to quietly compromise personal computers without users realizing they're participating in cyber attacks.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-distribution",
+        "residential-proxies",
+        "fake-installers",
+        "botnet",
+        "domain-spoofing",
+        "lurking-lizard"
+      ],
+      "whyItMatters": "This threat demonstrates a sophisticated supply-chain style attack where users downloading what appears to be legitimate software unknowingly become part of a criminal infrastructure. Compromised residential proxies are particularly valuable to attackers because they appear to come from real home networks, making them harder to detect and block. Users need to verify software authenticity before in",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0R7K2HuXIaXAr6VokIBdoRH5Zk8L2jJMM5abiDPtiOsT3DsQnI-FRSuTO02mekKGj2Cup9RBBYgAhyo92KHjyCTsMuctH8lYgwysOxpLpHp9uIuL7xBEuojc83nmWH7pcA1KRlu8W9-7b1caaoQMaNX2qATV_7e-CwoPSFk08VwjbRx2M-fgfMcjN3KeW/s1600/7-zip-malware.png",
+      "processedAt": "2026-07-09T09:54:10.210604+00:00"
+    },
+    {
+      "id": "art-2f0733c8",
+      "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+      "summary": "Researchers discovered a vulnerability in GitHub's commit verification system that allows attackers to create forged commits with the same content, author, and timestamp as legitimate signed commits while still receiving GitHub's 'Verified' badge. The forged commits have different hashes and valid signatures despite being created by someone without the original signing key. This undermines the integrity assurances that developers and code reviewers rely on when validating the authenticity of commits in version control systems.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "git-security",
+        "commit-forgery",
+        "signature-bypass",
+        "supply-chain-attack",
+        "github-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability threatens the integrity of software supply chains by allowing attackers to forge verified commits that pass visual inspection by human reviewers and automated systems. Developers worldwide depend on commit signatures and GitHub's verification badges to prevent malicious code injection, making this a significant risk for any organization accepting external contributions or relyin",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifE8OSGx2cVUZ1jiVnMC-LHyladj2cJ1FWw2-t0wDJEK4Icxrhk_bFReZr8jCiNkmpamFxdBGLpgruMJh1g7c687TCf4R76GG8xJEzB9kzPLTXo18DUZkT9_T5LHeikWsoEDeBm-gapabqgRUl2sAyhaPeYOWIs7Re0-jr2CMoKVn5AzlXdU1W6oWIy6mv/s1600/git-hash.jpg",
+      "processedAt": "2026-07-09T09:54:13.474334+00:00"
+    },
+    {
+      "id": "art-2a46297e",
+      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/",
+      "summary": "In a coordinated global effort, law enforcement agencies across 97 countries arrested over 5,800 fraud suspects and recovered $293 million in stolen assets. This large-scale operation demonstrates the international commitment to combating organized cybercrime and financial fraud networks. The crackdown shows how international cooperation can effectively disrupt criminal operations on a massive scale.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cybercrime",
+        "fraud",
+        "law-enforcement",
+        "international-cooperation",
+        "asset-recovery"
+      ],
+      "whyItMatters": "This operation highlights the growing sophistication of global fraud networks and the importance of international law enforcement collaboration in addressing cybercrime. It demonstrates that organized cybercriminal activities can be disrupted through coordinated efforts, which reinforces the need for businesses and individuals to strengthen their defenses against fraud schemes.",
+      "image": null,
+      "processedAt": "2026-07-09T09:54:15.542034+00:00"
+    },
+    {
+      "id": "art-86b2d9ba",
+      "title": "AssuranceAmerica data breach exposes records of 6.9 million drivers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/",
+      "summary": "AssuranceAmerica, a major U.S. insurance company, experienced a significant data breach that exposed personal information for approximately 6.9 million drivers. Attackers successfully infiltrated the company's systems earlier in 2026, gaining access to sensitive driver records. This incident highlights the vulnerability of large insurance databases that store extensive personal and financial information on millions of customers.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "insurance-industry",
+        "customer-data",
+        "identity-theft-risk",
+        "large-scale-breach"
+      ],
+      "whyItMatters": "This breach affects nearly 7 million individuals whose personal information is now at risk for identity theft and fraud, making it a critical incident with widespread consumer impact. Insurance companies are prime targets for attackers because they maintain comprehensive databases including names, addresses, social security numbers, and financial details. Victims need to monitor their accounts and",
+      "image": null,
+      "processedAt": "2026-07-09T09:54:18.462984+00:00"
+    },
+    {
+      "id": "art-0a1f7abe",
+      "title": "Microsoft patches RoguePlanet Defender zero-day vulnerability",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-rogueplanet-defender-zero-day-vulnerability/",
+      "summary": "Microsoft released a security update to fix a zero-day vulnerability in Windows Defender called RoguePlanet that was discovered after the June 2026 Patch Tuesday release. This vulnerability could potentially allow attackers to exploit Defender's security features, compromising the protection it offers to Windows users. Organizations and individuals using Microsoft Defender need to apply this patch promptly to close the security gap.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "patch-tuesday",
+        "vulnerability",
+        "windows-security",
+        "rogue-planet"
+      ],
+      "whyItMatters": "Vulnerabilities in security software like Windows Defender are particularly critical because they undermine the primary defense mechanism protecting systems. If attackers exploit this flaw, they could bypass antivirus protections and gain unauthorized access to systems. Timely patching is essential to prevent widespread exploitation across millions of Windows devices that rely on Defender for prot",
+      "image": null,
+      "processedAt": "2026-07-09T09:54:21.197560+00:00"
+    },
+    {
+      "id": "art-5fc49329",
+      "title": "Mount Royal University confirms breach as hackers claim attack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/mount-royal-university-confirms-breach-as-hackers-claim-attack/",
+      "summary": "Mount Royal University in Calgary fell victim to a cyber attack where hackers gained access to the university's network and stole data from file storage systems before deleting it. The breach has been confirmed by the university and publicly claimed by the attackers, raising concerns about the security of sensitive institutional information. This incident highlights the vulnerability of educational institutions to targeted cyber attacks.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "university-targeted",
+        "file-storage",
+        "network-compromise",
+        "data-deletion"
+      ],
+      "whyItMatters": "Universities store highly sensitive data including student records, research, and financial information, making them attractive targets for cybercriminals. This breach demonstrates that even established institutions can suffer significant data theft and destruction, emphasizing the need for robust backup systems, access controls, and incident response plans. The confirmed nature of the attack and ",
+      "image": null,
+      "processedAt": "2026-07-09T09:54:23.896505+00:00"
+    },
+    {
+      "id": "art-c366a76d",
+      "title": "Fake Paysafe, Skrill SDKs on NPM and PyPi steal credentials",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/",
+      "summary": "Attackers distributed malicious packages impersonating legitimate Paysafe, Skrill, and Neteller SDKs on npm and PyPI, two major software repositories used by developers worldwide. These fake packages contained stealer malware designed to harvest credentials and sensitive information from developers and end users. The attack demonstrates how supply chain vulnerabilities in package repositories can be exploited to distribute malware at scale to financial service users.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-distribution",
+        "credential-theft",
+        "npm-security",
+        "pypi-security",
+        "payment-applications"
+      ],
+      "whyItMatters": "This attack highlights a critical vulnerability in software supply chains where attackers can impersonate legitimate payment SDKs to reach thousands of developers and users. Organizations relying on these repositories must implement strict dependency verification and monitoring practices, as compromised packages can grant attackers direct access to financial credentials and user data at an unprece",
+      "image": null,
+      "processedAt": "2026-07-09T09:54:27.077914+00:00"
+    },
     {
       "id": "art-81f5bacf",
       "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
@@ -827,212 +1032,6 @@
       "whyItMatters": "This attack demonstrates how threat actors are weaponizing trusted internal communication platforms to gain initial network access, making it a critical concern for enterprise security. Employees are more likely to comply with requests from what appears to be legitimate IT staff, making this method highly effective at bypassing user awareness training. Organizations need immediate security control",
       "image": null,
       "processedAt": "2026-07-07T09:52:00.284376+00:00"
-    },
-    {
-      "id": "art-77d7c58a",
-      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
-      "summary": "A 16-year-old vulnerability in Linux's KVM hypervisor, called 'Januscape' (CVE-2026-53359), allows guest virtual machines to escape their isolation and compromise the host system on Intel and AMD processors. The flaw is a use-after-free bug in the shadow memory management code that can corrupt the host kernel's state. While current public exploits only crash the host, researchers claim to have a more dangerous unreleased version.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "kvm-hypervisor",
-        "vm-escape",
-        "use-after-free",
-        "cve-2026-53359",
-        "linux-kernel",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This vulnerability poses a critical threat to cloud infrastructure and virtualized environments, as attackers can break out of guest VMs to gain control of the underlying host system and potentially compromise other VMs. Organizations running Linux KVM on Intel and AMD systems must prioritize patching, as the long-standing nature of this flaw means it could already be exploited in the wild. The ex",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG42lgj1grtq5EQICr-9RYvPU59uHFRBluzVoZ3TZLXEXBcF5bOPerpb_Ck-e6oNz6P4MO1VAiqbBXuPbImhng1CoRnRYHWSZTGOloHmYB5khhpCK5wW348uMgqmWIjTQPnOwCGV7OiPXJoJDWV0n1IPGP80hADXD3AnmRKbTb8jxyGQenhlgIpvNo29I/s1600/linux-kvm.jpg",
-      "processedAt": "2026-07-06T19:27:36.698016+00:00"
-    },
-    {
-      "id": "art-db3df4d9",
-      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
-      "summary": "Hackers have started actively targeting a critical security flaw (CVE-2026-20896) in Gitea Docker images just two weeks after it was publicly disclosed and patched. The vulnerability, which has a near-perfect severity score of 9.8, allows attackers to bypass authentication by manipulating a header that the platform incorrectly trusts from any source. This demonstrates how quickly threat actors move to exploit newly discovered vulnerabilities before organizations can apply fixes.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cve-2026-20896",
-        "gitea-docker",
-        "active-exploitation",
-        "authentication-bypass",
-        "devops-security",
-        "patch-urgency"
-      ],
-      "whyItMatters": "This shows that critical vulnerabilities are exploited within days of disclosure, making rapid patching essential for organizations using Gitea. The authentication bypass nature of this flaw is particularly dangerous because attackers gain elevated access without credentials, potentially compromising entire development pipelines and repositories. Organizations must prioritize immediate updates to ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge0sNgi3moDw0JpFy3UdFB6bK0oxjaqc8ORZFecu5QqxA_wgpoWT1t56L9u2wScSkxYHP2aLO3N01yCPd8IkTBEyc_MvxIaG6BKzneB0LcXuwO_nEorvNvyvuEL3Krp003q6xOF0gePQCXN_bDswxBIhqV7q89_HY9mIxJ5ySShQwtU_jSa9FQnt0tq0RU/s1600/admin.jpg",
-      "processedAt": "2026-07-06T19:27:39.653297+00:00"
-    },
-    {
-      "id": "art-5ca8ccc8",
-      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-      "summary": "This week's cybersecurity incidents demonstrate how attackers exploited everyday devices and trusted systems through simple trust-based vulnerabilities. Common items like streaming boxes, code repositories, and browser features became entry points for botnets, ransomware, and malicious instructions targeting both users and AI systems. The recurring theme shows that security risks often hide in ordinary places we assume are safe.",
-      "category": "Other",
-      "severity": "High",
-      "tags": [
-        "proxy-botnets",
-        "browser-ransomware",
-        "ai-security",
-        "malware-threats",
-        "trust-exploitation",
-        "supply-chain-risk"
-      ],
-      "whyItMatters": "This article highlights a critical pattern where attackers abuse ordinary, trusted systems rather than targeting exotic infrastructure, making everyone vulnerable regardless of technical skill. Understanding that everyday devices like streaming boxes and common workflows can be compromised helps organizations and users implement better verification practices and reduce blind trust in familiar tool",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLyTSo2j_jLDBALDaJ6S4gpQf2xkxgGWRslJKuVLIrY-J7nsEG-zNgi02OKeABO5BNXCI1C05oTO1TdYYMtzjCHE7ugevubBOybwilFTXFY6wgXDBVkzMV3-cyYyZUfd-sfXmlfTtgyouay2kJYwxfclTk2M6PPOaLWdR-26P3TYuIm1l5wjQfoPVzk-ca/s1600/recapss.jpg",
-      "processedAt": "2026-07-06T19:27:42.500114+00:00"
-    },
-    {
-      "id": "art-1cd92601",
-      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
-      "summary": "This article guides security teams through evaluating AI-powered Security Operations Center (SOC) platforms by identifying six key capabilities that distinguish genuine AI solutions from basic add-ons to legacy systems. It explains that many vendors market similar products despite significant differences in architecture and functionality, ranging from simple chatbots attached to existing SIEM tools to independent agent platforms that handle detection, investigation, and response tasks. Organizations need to understand these distinctions to select a platform that will meaningfully improve their",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "soc-evaluation",
-        "ai-security",
-        "siem-platforms",
-        "security-tools",
-        "vendor-assessment"
-      ],
-      "whyItMatters": "Selecting the right SOC platform is a critical infrastructure investment that directly impacts a security team's ability to detect and respond to threats effectively. Understanding the difference between genuine AI-native solutions and bolted-on AI features helps organizations avoid costly purchases of tools that won't actually improve their security posture. This guidance is particularly relevant",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjeiJymlyu6GGdzNT0Fb3yi6rYZdNn_XCoDUKKV9zSD_p17gngK7FL-IDm5LLTYlGx6Rn2Em6v0TSDq7u_1lttLyp1b97z7YrjSrFK7MrYAG2k1YXI91fHRRTRoPV1xIQSukE1DwqRcHY6i6fIS0jC2CaKv18OhFWHi2fKvXRKmZ6MBgSoRMDWGxmQKlfTt/s1600/aisoc.jpg",
-      "processedAt": "2026-07-06T19:27:47.070267+00:00"
-    },
-    {
-      "id": "art-5e4c2b96",
-      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
-      "summary": "Hackers linked to China have launched a targeted campaign against Indian taxpayers and finance professionals using fake tax filing software to distribute a remote access trojan (DcRAT). The attack, named Operation DragonReturn, relies on phishing emails that appear to come from India's Income Tax Department to trick users into downloading malicious software. Once installed, the trojan can steal sensitive financial and personal data from victims' computers.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "malware",
-        "remote-access-trojan",
-        "spear-phishing",
-        "data-theft",
-        "state-sponsored"
-      ],
-      "whyItMatters": "This campaign demonstrates how nation-state actors use targeted phishing with legitimate-looking government impersonation to compromise high-value targets in the financial sector. Organizations and individuals handling tax data face direct risk of credential theft and financial fraud, making this threat immediately actionable for security awareness and email filtering.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0L8iGbVZ6lxBg26K2nsc6uYpFED8ZcgCtrh4C34U4oixLPC0OKHOWWpiPBfaSwe-tpOTbCqZfRZQTMoropayZXEm0GXTtKpyBuBPRk9zF-0WPRprknYiaI2DXLDZnQb8t70R7-0Fjl5G-NNCQFF-Ex40vQZMbUJmJ2JLyXJUjYdAVvgjl3_oBF5wbHrHl/s1600/income-tax.jpg",
-      "processedAt": "2026-07-06T19:27:49.613992+00:00"
-    },
-    {
-      "id": "art-834e3949",
-      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
-      "summary": "Vietnamese law enforcement arrested seven suspects accused of operating HiAnime, a major anime streaming platform used for piracy. The service was shut down in June before authorities took action against those responsible. This case demonstrates how international law enforcement agencies are targeting large-scale digital piracy operations and holding operators accountable.",
-      "category": "Cybercrime",
-      "severity": "Medium",
-      "tags": [
-        "piracy",
-        "intellectual-property",
-        "law-enforcement",
-        "streaming-fraud",
-        "cybercrime"
-      ],
-      "whyItMatters": "This case highlights the real-world consequences of operating illegal streaming services and shows that law enforcement is actively pursuing those who facilitate large-scale intellectual property theft. For organizations and security professionals, it reinforces the importance of monitoring and reporting piracy platforms that can expose users to malware and data theft risks.",
-      "image": null,
-      "processedAt": "2026-07-06T19:27:52.193968+00:00"
-    },
-    {
-      "id": "art-53b50107",
-      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
-      "summary": "As AI accelerates software development from concept to deployment, traditional security checkpoints are being bypassed or eliminated in the process. The article highlights that while technology evolves to remove friction in coding, security practices have not kept pace with this rapid development speed. This creates a significant gap where security decisions that once had dedicated time and attention are now overlooked or automated without proper human review.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-development",
-        "secure-coding",
-        "development-speed",
-        "security-gaps",
-        "software-safety"
-      ],
-      "whyItMatters": "As AI tools automate code generation, organizations risk deploying vulnerable applications if security is not actively integrated into the accelerated development pipeline. Without deliberate security practices embedded in AI-driven workflows, enterprises face increased exposure to vulnerabilities that would have been caught in slower, traditional development cycles.",
-      "image": null,
-      "processedAt": "2026-07-06T19:27:55.724802+00:00"
-    },
-    {
-      "id": "art-dc34657c",
-      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
-      "summary": "A critical vulnerability in Adobe ColdFusion identified as CVE-2026-48282 is currently being actively exploited by attackers in real-world attacks. According to KEVIntel, this maximum-severity flaw poses an immediate threat to organizations using the affected software. Organizations need to prioritize patching this vulnerability to prevent unauthorized access and potential system compromise.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "adobe-coldfusion",
-        "cve-2026-48282",
-        "active-exploitation",
-        "patch-urgent",
-        "maximum-severity",
-        "vulnerability"
-      ],
-      "whyItMatters": "Active exploitation of a maximum-severity vulnerability means attackers are already weaponizing this flaw against real targets, making immediate patching essential for any organization running ColdFusion. The urgency is heightened because the attack is ongoing, leaving systems vulnerable every moment a patch is delayed. This represents a critical window where security teams must act quickly to pre",
-      "image": null,
-      "processedAt": "2026-07-06T19:27:58.694696+00:00"
-    },
-    {
-      "id": "art-9a46ee43",
-      "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
-      "summary": "Google and partners successfully shut down NetNut, a major residential proxy network that had compromised approximately 2 million Android devices, including smart TVs and streaming boxes. This operation removed access to a large-scale botnet that cybercriminals were using to mask their online activities and conduct malicious operations. The disruption demonstrates coordinated efforts to dismantle infrastructure used for widespread device exploitation.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "botnet-disruption",
-        "android-malware",
-        "residential-proxy",
-        "device-compromise",
-        "law-enforcement"
-      ],
-      "whyItMatters": "This disruption is significant because residential proxy botnets enable various cybercrimes including credential stuffing, account takeover, and fraudulent activities at scale. The takedown of 2 million compromised devices removes a critical attack infrastructure and protects users from unknowingly participating in malicious campaigns. Understanding proxy botnet operations helps organizations reco",
-      "image": null,
-      "processedAt": "2026-07-06T19:28:01.894399+00:00"
-    },
-    {
-      "id": "art-485e59c1",
-      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
-      "summary": "Researchers have discovered ARToken, a phishing-as-a-service platform that works with the EvilTokens group to attack Microsoft 365 users. This toolkit provides cybercriminals with advanced tools to compromise corporate email accounts and steal credentials. The exposure of this operation reveals how organized phishing services are becoming more sophisticated and accessible to attackers.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-as-a-service",
-        "microsoft-365",
-        "credential-theft",
-        "eviltoken",
-        "cloud-security",
-        "threat-infrastructure"
-      ],
-      "whyItMatters": "This discovery demonstrates the industrialization of phishing attacks through organized PhaaS platforms, which lower barriers for attackers to compromise enterprise email systems. Organizations using Microsoft 365 should implement stronger authentication mechanisms and employee training to defend against these sophisticated credential-harvesting campaigns. Understanding the tactics of established ",
-      "image": null,
-      "processedAt": "2026-07-06T19:28:04.562662+00:00"
     }
   ]
 }
