@@ -1,7 +1,210 @@
 {
-  "lastUpdated": "2026-07-09T09:54:27.078065+00:00",
+  "lastUpdated": "2026-07-09T19:17:17.039691+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-af5e5762",
+      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+      "summary": "Attackers are using old or dormant GitHub accounts and stolen tokens to systematically scan corporate GitHub organizations, repositories, and user accounts through automated API calls. These 'ghost' accounts allow attackers to remain undetected while gathering intelligence about target organizations. The campaign, discovered by Datadog Security Labs, highlights how legitimate-looking activity can mask reconnaissance efforts against companies using GitHub for development.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "github-security",
+        "reconnaissance",
+        "api-abuse",
+        "account-compromise",
+        "supply-chain-risk"
+      ],
+      "whyItMatters": "This reconnaissance activity precedes targeted attacks on software development environments, which are critical infrastructure for most organizations. Companies need to monitor GitHub API activity and secure their OAuth tokens to prevent attackers from mapping their internal structure and identifying high-value targets. Understanding these enumeration tactics helps teams detect early-stage attacks",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDslymdYqhkFwIm3ZeaXVZweYVT_R1d6LCQhIm799y9-5hQ3C45cumIStxGYheFbwosbd_JtrB6FgOthR2KJgfe8PYs0k47eGV7263ATac5UR0t7OOaqOUGOf5DHAR4b0IaKTozk0UEiHJz5-nze3b1ureycPGqdPVlqrImWreOWwMpGxC8kgBvONCLGbH/s1600/github-ghost.jpg",
+      "processedAt": "2026-07-09T19:16:53.143776+00:00"
+    },
+    {
+      "id": "art-6d9fdd27",
+      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+      "summary": "Microsoft discovered GigaWiper, a dangerous Windows backdoor that combines three destructive attack tools into one package. The malware gives attackers multiple options to damage systems, including completely wiping disks, overwriting the Windows drive, or deploying fake ransomware that encrypts files with unrecoverable keys. This modular approach makes it flexible and difficult to defend against since it can cause destruction in different ways.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "windows-backdoor",
+        "disk-wiping",
+        "destructive-malware",
+        "ransomware-variant",
+        "multi-stage-attack"
+      ],
+      "whyItMatters": "GigaWiper represents a significant threat because it combines multiple destructive capabilities in one tool, giving attackers flexibility to cause maximum damage across different scenarios. Organizations need to implement robust endpoint detection, backup strategies, and access controls to prevent this backdoor from reaching critical systems, as its modular design makes it adaptable to various att",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJRuXh4y7zy8C81w_JgJgWFg_sgF0IYcsvqWEsYeHIHu7nWdOl1aIMQdnmmRQF-KJK_XdTGxzSIAr57yFkzMIZ_VK5Kzx12xR4oW8QOZcnsf9zmySIT3YRvpPvo2q-P92sZc2LqB4M-NSlktwLGU85I0JQbCVCjvJ130GLEF6eGknO8VzkK66kHjlgkBg/s1600/data-wiper-malware.jpg",
+      "processedAt": "2026-07-09T19:16:55.608933+00:00"
+    },
+    {
+      "id": "art-a8286b7c",
+      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "summary": "npm version 12 has been released with install scripts disabled by default, a security measure designed to reduce supply chain attack risks. The update also deprecates granular access tokens that could circumvent two-factor authentication protections. These changes make npm safer by requiring developers to actively opt-in to potentially risky automated scripts rather than running them automatically.",
+      "category": "Other",
+      "severity": "High",
+      "tags": [
+        "supply-chain-security",
+        "npm-security",
+        "install-scripts",
+        "two-factor-authentication",
+        "package-management"
+      ],
+      "whyItMatters": "Supply chain attacks through compromised npm packages pose a critical threat to developers and organizations worldwide. By disabling install scripts by default, npm significantly reduces the attack surface that malicious actors exploit to inject malicious code into development environments. This change directly protects countless projects that depend on npm packages, making it a practical security",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbP2w2lzNWbB041oSXvx2Nb1uOJaf81XNUBioDv_3K73S-JnzIU4OnUHfwG3Q3RLbf_p2wJBpHC0m2M4cQhCMfcSRRx1MY9n2vCVSNI4ddai3uJ3eE2Kb-d_ryU_HSEx_R2Rjoxz2D3TBcZCgLRWf-rOBf9k73Vi1Q04aWNG9Ux-A5AOf-v1HjSGD3YZcg/s1600/npm-security.jpg",
+      "processedAt": "2026-07-09T19:16:57.887908+00:00"
+    },
+    {
+      "id": "art-bbb7d6bd",
+      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+      "summary": "This week's security incidents highlight how common administrative oversights and small configuration mistakes lead to significant breaches and attacks. The article covers 20 security stories including cloud bucket hijacking, Windows privilege escalation chains, and a global fraud operation, demonstrating that major security failures often stem from routine actions like reused names and loose settings rather than sophisticated attacks. The piece emphasizes that these seemingly minor gaps can accumulate into substantial damage that only becomes apparent when financial or operational impact occu",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "cloud-security",
+        "privilege-escalation",
+        "admin-oversight",
+        "credential-misuse",
+        "misconfiguration",
+        "fraud-detection"
+      ],
+      "whyItMatters": "Understanding that most security breaches result from preventable administrative errors and configuration oversights is crucial for organizations to focus resources on securing basic practices rather than only pursuing sophisticated threat detection. The article underscores that bucket hijacking, privilege escalation chains, and fraud often exploit human negligence and trust decisions, making secu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAXvG0n7eiC50jtfO-3MYOPx-Z0iWiucBfHqzY2QNH-5fUyfWcGu3NME0yERr2qWKcAeg6rIYMtP_VEeRInpeghztHmnjDa4QyuXSbaktcOdHHK9sx8lurd2RmejcmBjSZIznBl0zKQ-mk4dcCsVdL29g4XPEwUdrlQgj5-GgxvVnolSJJfCJW7g4vosLe/s1600/ThreatsDay-main.jpg",
+      "processedAt": "2026-07-09T19:17:01.565481+00:00"
+    },
+    {
+      "id": "art-76707578",
+      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
+      "summary": "Artificial intelligence has dramatically accelerated cyberattacks, allowing attackers to complete in minutes what previously took days. Modern AI tools enable attackers to quickly craft personalized phishing messages, identify targets, and move laterally across networks before security teams can respond. Traditional security tools and response procedures were designed for slower, human-paced attacks and are now falling behind the speed of AI-driven threats.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-attacks",
+        "threat-acceleration",
+        "defense-gap",
+        "phishing",
+        "incident-response"
+      ],
+      "whyItMatters": "As AI-powered attacks outpace traditional security defenses, organizations face a critical window where existing tools cannot detect and respond quickly enough to prevent compromise. Understanding this speed differential is essential for security teams to redesign their incident response processes and invest in AI-capable detection systems before attackers establish deeper footholds in their netwo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVBCdd1YLOTAhXs53MgUBJHfid7uAH-uFr4vzULJu6BL5H7TDiBbZUDxS9RTwC1FH7q2HhEiI2BHLlymHQ7btIBDidvIohoiVJ2XH2uvQcan7Lio_iIh3Ku3J3LoM8SgaHrlAnyFeVLo77qE93hFykG4CJZUj1IsJb75jFMjAK9Q1V-akTkdagA_NLm4A/s1600/thn-webinar.jpg",
+      "processedAt": "2026-07-09T19:17:04.529020+00:00"
+    },
+    {
+      "id": "art-8f8bdf9c",
+      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
+      "summary": "A criminal group called Helix has emerged with a focus on stealing data from SharePoint environments using social engineering tactics. Their approach combines voice phishing calls, device code phishing, and attempts to bypass multi-factor authentication protections. This represents a growing threat to organizations that rely on cloud-based collaboration platforms.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "vishing",
+        "sharepoint",
+        "mfa-bypass",
+        "data-theft",
+        "social-engineering",
+        "cloud-security"
+      ],
+      "whyItMatters": "Organizations need to understand that attackers are increasingly targeting cloud collaboration tools like SharePoint through voice-based social engineering rather than traditional malware. MFA alone is not sufficient protection if users can be manipulated into granting attackers legitimate access, making this a critical concern for enterprises that store sensitive data in cloud environments.",
+      "image": null,
+      "processedAt": "2026-07-09T19:17:06.754366+00:00"
+    },
+    {
+      "id": "art-1c146611",
+      "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+      "summary": "Microsoft is using artificial intelligence to identify security vulnerabilities in Windows more effectively, which will lead to more frequent security updates for users. As AI tools become better at finding flaws in the codebase, Windows users should prepare for an increased pace of patches and updates. This shift represents Microsoft's proactive approach to addressing security issues before they can be exploited by attackers.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "windows-updates",
+        "vulnerability-detection",
+        "patch-management",
+        "proactive-defense"
+      ],
+      "whyItMatters": "This development is significant because AI-driven vulnerability discovery can catch security flaws earlier in the development cycle, potentially preventing exploits before they reach production systems. However, users need to stay on top of more frequent updates, which requires proper patch management strategies to avoid falling behind on security protections.",
+      "image": null,
+      "processedAt": "2026-07-09T19:17:09.415579+00:00"
+    },
+    {
+      "id": "art-69c9ba1b",
+      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
+      "summary": "A new phishing-as-a-service platform called Forg365 is targeting Microsoft 365 users by combining advanced attack techniques like adversary-in-the-middle (AiTM) and device code methods with AI-generated convincing lures. This service makes large-scale credential theft attacks more accessible and effective by automating the creation of realistic phishing messages. Organizations relying on Microsoft 365 face an increased risk from this emerging threat.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing-as-a-service",
+        "microsoft-365",
+        "ai-assisted-attacks",
+        "credential-theft",
+        "aitm",
+        "cloud-security"
+      ],
+      "whyItMatters": "This represents a significant operational threat because PhaaS platforms lower the barrier to entry for attackers while AI-generated lures make phishing more difficult to detect through traditional email filtering. Organizations need to strengthen authentication controls and user awareness training specifically for Microsoft 365, as successful compromises can lead to widespread data exfiltration a",
+      "image": null,
+      "processedAt": "2026-07-09T19:17:12.108607+00:00"
+    },
+    {
+      "id": "art-8367c952",
+      "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
+      "summary": "During summer months, IT teams often reduce staffing due to vacations, but cybersecurity threats don't take a break. Organizations can address this staffing gap by adopting AI-driven automation tools to maintain consistent security operations without relying solely on manual processes. This approach helps companies stay protected even when their IT resources are stretched thin.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "summer-staffing",
+        "ai-automation",
+        "security-operations",
+        "staffing-gaps",
+        "manual-processes"
+      ],
+      "whyItMatters": "Reduced IT staffing during vacation periods creates vulnerability windows that attackers actively exploit, making this a critical operational security issue. AI-driven automation can bridge the gap between reduced human resources and the continuous threat landscape, helping organizations maintain consistent security posture year-round. Understanding and planning for seasonal staffing challenges is",
+      "image": null,
+      "processedAt": "2026-07-09T19:17:14.426709+00:00"
+    },
+    {
+      "id": "art-1b69ba84",
+      "title": "Microsoft to retire the OWA Light client in Exchange Server",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
+      "summary": "Microsoft is discontinuing the OWA Light client, a simplified version of Outlook Web Access, in an upcoming Exchange Server update. This lightweight email interface will no longer be available as the company focuses development on the full-featured Outlook Web App. Organizations currently using OWA Light will need to migrate to alternative email clients before support ends.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "exchange-server",
+        "outlook-web-access",
+        "software-retirement",
+        "migration-required",
+        "client-deprecation"
+      ],
+      "whyItMatters": "Organizations relying on OWA Light must plan migration strategies to avoid service disruption and ensure business continuity. This retirement highlights the importance of tracking vendor support lifecycles and staying updated on deprecated products to prevent operational gaps in email infrastructure.",
+      "image": null,
+      "processedAt": "2026-07-09T19:17:17.039549+00:00"
+    },
     {
       "id": "art-7e9eccc1",
       "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
@@ -826,212 +1029,6 @@
       "whyItMatters": "Email remains a primary attack vector for sophisticated threats, and organizations struggle with both detection accuracy and alert fatigue. Understanding how AI-driven behavioral analysis can improve email defenses while automating response workflows is critical for security teams managing resource constraints and evolving attack complexity.",
       "image": null,
       "processedAt": "2026-07-07T19:30:02.695955+00:00"
-    },
-    {
-      "id": "art-1f7c971f",
-      "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-07",
-      "originalUrl": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-      "summary": "Hackers believed to be working for China are targeting universities in the U.S. and Canada by exploiting security holes in Roundcube, a popular webmail platform used by physics and engineering departments. They are using a critical vulnerability (CVE-2024-42009) to steal login credentials and access sensitive information. Although patches exist for these flaws, attackers continue to exploit unpatched systems at academic institutions.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "roundcube-exploit",
-        "china-aligned-hackers",
-        "credential-theft",
-        "universities-targeted",
-        "cve-2024-42009",
-        "patching-urgent"
-      ],
-      "whyItMatters": "This attack demonstrates that nation-state actors actively exploit known vulnerabilities in widely-used open-source software, particularly targeting academic institutions with research value. Universities and organizations using Roundcube must immediately apply available patches to prevent credential compromise and unauthorized access to sensitive research data. The targeting of physics and engine",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitErUXjxgvdr7CLGa67wtfentIJSFkobxbyIMtQNK4mzNTyf_3Mq9mckQNCGONMFqVaCvkvNKf7FqJfevWKstiWEOxt5wDlV_Fus-Ob3bo9vkMb3m5natJZjHhG-0r4FbH5UUBP4aiGtLcJ7mFIIwLw7IPIHOqw5ln1kAC_ZsiOvllGmVXws4bCXBGugBu/s1600/server-hacker.jpg",
-      "processedAt": "2026-07-07T09:51:20.494048+00:00"
-    },
-    {
-      "id": "art-7e5bb5cf",
-      "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-07",
-      "originalUrl": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-      "summary": "Tenda router firmware has been discovered to contain a hidden backdoor that allows attackers to gain admin access without needing a password. Tracked as CVE-2026-11405, this vulnerability affects multiple firmware versions and can be exploited to bypass security protections on the web management interface. The CERT Coordination Center has warned users about this serious flaw in the Chinese manufacturer's network devices.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "router-security",
-        "backdoor",
-        "authentication-bypass",
-        "tenda",
-        "cve-2026-11405",
-        "firmware-vulnerability"
-      ],
-      "whyItMatters": "Routers are critical network entry points, and a backdoor in firmware affects potentially millions of devices worldwide. Attackers exploiting this vulnerability could gain complete control over home and business networks, enabling data theft, malware distribution, or lateral movement to other connected devices. Users need immediate firmware updates to protect their networks from unauthorized acces",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEibED37Q9WinxGoPYaXltP_givD-Q30FneMyezHB4uftr5E4hy4fMm97v_UH34sQWEvlp688bYvMR6zDzy_C93ddbqNDfIVSX7swJgdTD38hOmKgu6ZLGjBW068gXHpsT4soRscJ1vWDxTz2z8xBDSb2QD2UWrR68nVytui4mo6Q0cXVh_GjK5FC6P4imvK/s1600/backdoor-admin.jpg",
-      "processedAt": "2026-07-07T09:51:26.520232+00:00"
-    },
-    {
-      "id": "art-296cfae0",
-      "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-07",
-      "originalUrl": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
-      "summary": "BeyondTrust has released security patches to fix two critical authentication bypass vulnerabilities in its Remote Support and Privileged Remote Access products. These flaws could allow attackers without valid credentials to gain control of affected systems. One vulnerability (CVE-2026-40138) has a CVSS score of 9.2, indicating a severe threat that requires immediate patching.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "beyondtrust",
-        "authentication-bypass",
-        "privileged-access",
-        "critical-vulnerability",
-        "patch-required",
-        "remote-support"
-      ],
-      "whyItMatters": "These vulnerabilities affect widely-used remote access tools that organizations rely on for IT support and privileged account management, making them attractive targets for attackers seeking unauthorized system access. The pre-authentication nature of the flaws means attackers don't need valid credentials, significantly lowering the barrier to exploitation and increasing the practical risk to ente",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim5I3ndx1DHNKSznD7AT_CM4ApiaXDfZcQAwsCSDnHq7u8dkGcOzway-IBZJ44bFJintaRMSry4yHbaacESRFOJsRC_UBV6N9l_K4ICcqWsZ2E4zQ5BGibAkxjxm0qPYiiLEvAvDizmPZVYwXC6jN9pgB5G-3xZ9ifiEWisKsZoi9rBjJN1mepJjPl61s9/s1600/bt.jpg",
-      "processedAt": "2026-07-07T09:51:29.932070+00:00"
-    },
-    {
-      "id": "art-b58f5e7d",
-      "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
-      "summary": "An Iranian hacking group connected to Iran's Ministry of Intelligence and Security has developed a new command-and-control tool called Cavern to attack Israeli organizations. The malware framework primarily targets IT service providers and government agencies. Researchers at Check Point have identified and tracked this previously unknown threat.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "iran-linked",
-        "c2-framework",
-        "malware",
-        "government-targeting",
-        "israel",
-        "advanced-persistent-threat"
-      ],
-      "whyItMatters": "This discovery highlights state-sponsored cyber threats targeting critical infrastructure and government entities, demonstrating adversaries' continued development of sophisticated custom tools. Organizations in targeted sectors must enhance monitoring and incident response capabilities to detect and counter similar C2 frameworks. Understanding nation-state attack infrastructure helps security tea",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj80nucNUGoxxOtE3SUY1SkDSu77qENrl96c2MUoLWdwAo3ZVoA4FS2QfOdM9c5bsZUJdX1ZxIsXgu7pvVfUzXz3GMZJHmblFTjv5C08dbxvLqXol72iHaD-zH950EZdXUCS-b7F2T-bn8SgqQb9nXA-uOPIaX5V0eaNNmKlQJfWHAKaPAhqsgNL0wTgJH6/s1600/cavern.jpg",
-      "processedAt": "2026-07-07T09:51:36.012191+00:00"
-    },
-    {
-      "id": "art-d86bed2a",
-      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-03",
-      "originalUrl": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-      "summary": "Security researchers at runZero discovered seven vulnerabilities in FatFs, a small filesystem library used by millions of embedded devices worldwide. FatFs enables devices like security cameras, drones, industrial controllers, and hardware crypto wallets to read and write files on USB drives and SD cards. These unpatched flaws create significant security risks across a broad range of commonly deployed hardware that many organizations and consumers rely on daily.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "embedded-devices",
-        "unpatched-vulnerabilities",
-        "fatfs",
-        "firmware",
-        "widespread-risk",
-        "iot-security"
-      ],
-      "whyItMatters": "FatFs is deeply embedded in millions of devices globally, meaning these vulnerabilities affect a massive attack surface across security cameras, industrial systems, and consumer electronics. Organizations cannot easily patch these devices once deployed in the field, making this a long-term systemic risk. Attackers can potentially exploit these flaws to compromise sensitive devices, particularly in",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJGo3ti2B3O-v3XpxdiFLMhvMVB_Ee5mmTlis-Qls6K8auWLQtPb4DSLL4snqvuZSxEvYXbGVBiUvRH1wBiw53ovRi-KTpdb0WqPwkZMkA_eHTSkTQVPkexu02-I2u7wc7PKESGKFZxlKRjR1SAkgOK50kIfpqZ9wcEjZCYBWIh6u_L82tXa8WfgUIhmA/s1600/fatfs.jpg",
-      "processedAt": "2026-07-07T09:51:39.397975+00:00"
-    },
-    {
-      "id": "art-1dfbb5db",
-      "title": "Microsoft to enable Windows settings backup by default for orgs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-07",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
-      "summary": "Microsoft is automatically enabling a Windows settings backup and restore feature for enterprise organizations using Microsoft Entra-joined or hybrid-joined systems after they upgrade to Windows 11 version 26H2. This built-in tool will help organizations protect and recover their system configurations more easily. The default enablement aims to improve business continuity and reduce recovery time after system failures or security incidents.",
-      "category": "Patching and Updates",
-      "severity": "Low",
-      "tags": [
-        "windows-11",
-        "backup-recovery",
-        "enterprise-security",
-        "entra-joined",
-        "system-hardening"
-      ],
-      "whyItMatters": "Automatic settings backup improves organizational resilience by ensuring configurations can be quickly restored, which is critical for minimizing downtime and maintaining security baselines after incidents. This default-enabled feature reduces the burden on IT teams to manually configure backups, strengthening overall enterprise security posture across the organization.",
-      "image": null,
-      "processedAt": "2026-07-07T09:51:45.716909+00:00"
-    },
-    {
-      "id": "art-17a13198",
-      "title": "BeyondTrust warns of critical flaws in remote access software",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-07",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/",
-      "summary": "BeyondTrust has identified two critical security vulnerabilities in its Remote Support and Privileged Remote Access software that could enable attackers to bypass authentication mechanisms. These flaws pose a significant risk to organizations relying on these tools for secure remote management and access control. The company is urging customers to apply patches immediately to prevent potential exploitation.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "beyondtrust",
-        "remote-access",
-        "authentication-bypass",
-        "patch-now",
-        "privileged-access",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "Remote access and privileged access management tools are critical infrastructure components trusted to protect sensitive systems and data; vulnerabilities in these tools directly undermine authentication security across entire organizations. Active exploitation of authentication bypasses could allow attackers to gain unauthorized access to mission-critical systems and sensitive data. Immediate pat",
-      "image": null,
-      "processedAt": "2026-07-07T09:51:48.451898+00:00"
-    },
-    {
-      "id": "art-fc09cf97",
-      "title": "Microsoft testing new Cloud Rebuild Windows 11 recovery feature",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-07",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-new-cloud-rebuild-windows-11-recovery-feature/",
-      "summary": "Microsoft is introducing a new Cloud Rebuild feature for Windows 11 that allows users to recover their systems through cloud-based restoration rather than traditional local recovery methods. This feature is currently being tested with users in the Windows 11 Insider Preview Experimental channel. The Cloud Rebuild capability aims to provide a more reliable and accessible recovery option when systems become corrupted or compromised.",
-      "category": "Patching and Updates",
-      "severity": "Low",
-      "tags": [
-        "windows-11",
-        "cloud-recovery",
-        "system-resilience",
-        "microsoft-testing"
-      ],
-      "whyItMatters": "This recovery feature enhances system resilience and disaster recovery capabilities, which are critical components of a comprehensive cybersecurity strategy. Having reliable cloud-based recovery options reduces downtime after security incidents and helps users quickly restore their systems to a known-good state without requiring physical media or local backups.",
-      "image": null,
-      "processedAt": "2026-07-07T09:51:54.471178+00:00"
-    },
-    {
-      "id": "art-07f846b4",
-      "title": "Phishing poses as big-brand job interview to steal Google accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
-      "summary": "Scammers are running a phishing campaign that pretends to be job interviews from major companies like Adobe, Netflix, Coca-Cola, and OpenAI. The attackers target marketing professionals and trick them into giving away their Google account login credentials. This attack shows how criminals use fake job opportunities to exploit people's career interests.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "credential-theft",
-        "social-engineering",
-        "google-accounts",
-        "job-impersonation"
-      ],
-      "whyItMatters": "This attack exploits a common human behavior—job seeking—making it highly effective at bypassing technical security measures. Compromised Google accounts give attackers access to email, documents, and connected services, potentially exposing sensitive business and personal information. Organizations need to educate employees about verifying job interview legitimacy and recognizing credential-steal",
-      "image": null,
-      "processedAt": "2026-07-07T09:51:57.134504+00:00"
-    },
-    {
-      "id": "art-ca5e952c",
-      "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
-      "summary": "Cybercriminals are using fake phone calls on Microsoft Teams to pose as IT support staff and convince employees to download EtherRAT malware. Once installed, this malware gives attackers access to corporate networks and sensitive data. This social engineering attack exploits employees' trust in internal communication tools to bypass traditional security defenses.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "social-engineering",
-        "malware",
-        "microsoft-teams",
-        "etherrat",
-        "initial-access",
-        "impersonation"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors are weaponizing trusted internal communication platforms to gain initial network access, making it a critical concern for enterprise security. Employees are more likely to comply with requests from what appears to be legitimate IT staff, making this method highly effective at bypassing user awareness training. Organizations need immediate security control",
-      "image": null,
-      "processedAt": "2026-07-07T09:52:00.284376+00:00"
     }
   ]
 }
