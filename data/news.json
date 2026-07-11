@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-07-10T19:12:28.272666+00:00",
+  "lastUpdated": "2026-07-11T08:04:12.760619+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-54fbdddb",
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-11",
+      "originalUrl": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "summary": "Zimbra has discovered a critical stored cross-site scripting (XSS) vulnerability in its Classic Web Client that allows attackers to embed malicious code in emails. When users open these specially crafted emails, the malicious scripts execute within their session, potentially giving attackers full control over the user's account and data. Zimbra is urging all customers to apply available updates immediately to patch this flaw.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "stored-xss",
+        "email-security",
+        "zimbra",
+        "patch-now",
+        "code-execution",
+        "web-client"
+      ],
+      "whyItMatters": "This vulnerability is critical because email is a primary attack vector and Zimbra is widely used in enterprise environments, making this flaw an attractive target for attackers. The ability to execute arbitrary code in user sessions means attackers could steal credentials, access sensitive emails, or compromise entire organizations without requiring user interaction beyond opening an email. Immed",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s1600/zimbra-email-hack.jpg",
+      "processedAt": "2026-07-11T08:03:47.177805+00:00"
+    },
+    {
+      "id": "art-ff098da2",
+      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+      "summary": "Security researchers discovered MODBEACON, a new remote access trojan written in Rust and linked to the Chinese cybercrime group Silver Fox. The malware uses advanced gRPC streaming technology to encrypt its command-and-control communications, making detection harder. Despite appearing to be an unsophisticated operation that spreads through fake software installers and search engine poisoning, the group demonstrates more technical capability than initially apparent.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "rat-trojan",
+        "modbeacon",
+        "c2-communication",
+        "rust-malware",
+        "silver-fox",
+        "grpc-encryption"
+      ],
+      "whyItMatters": "This threat demonstrates how adversaries are adopting legitimate technologies like gRPC to obfuscate malicious communications, making traditional detection methods less effective. Organizations need to monitor for unusual gRPC traffic patterns and understand that threat actors using SEO poisoning and fake installers can still possess sophisticated technical capabilities.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTCUzhkUq2Y7DPv0yS2FatrHQTcHfupRly6f5kSWyQU-So3FOjpC8pt_VKR4qo1SoUGR65ycOEQonbW5heKWj1g_A8qDy69YtWGZDO4m2t46Sip-jdPAlNs2fpRj-w1yd8WpyJpNFUpj1iTBO0X6fy3n9DJ4aEdsWaQz_tN-VV-PxDrufKZR9wkznmXJQ/s1600/MODBEACON.jpg",
+      "processedAt": "2026-07-11T08:03:49.713984+00:00"
+    },
+    {
+      "id": "art-c9035f47",
+      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+      "summary": "A critical vulnerability called XRING has been discovered in XQUIC, Alibaba's HTTP/3 library, that allows remote attackers to crash servers without authentication or special packets. The flaw stems from a single incorrect variable in the code and can be exploited using just 260 bytes of legitimate network traffic. Currently, there is no patch available for this vulnerability.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "http3",
+        "denial-of-service",
+        "xquic",
+        "xring",
+        "unpatched"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to any organization running XQUIC-based HTTP/3 servers, as attackers can easily crash services without authentication or detection. The lack of an available patch combined with the simplicity of exploitation makes this a pressing concern for infrastructure stability and service availability.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQHphr7bXE4J4-EmYSWy0cjHarUBibR2JrXpFbwDKMZnsWbiUsC9UE7g3x2r8WFDLB7BBZlH2kDJ3I9QqF8IIGLPiZda93wKUaDqJC8Nv11yrd7VPm9RmBOky0yRXGRhhcDqbwNCZvHiGTkKRb06XAwFiGl0juzUeFBn3LUDwFfxZVNlInVmXTNI4cMLI/s1600/XQUIC-demo.gif",
+      "processedAt": "2026-07-11T08:03:51.958840+00:00"
+    },
+    {
+      "id": "art-9264da91",
+      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+      "summary": "Lumen Technologies successfully expanded its asset inventory management from 17,000 to 1.1 million assets, addressing a critical gap in enterprise cybersecurity. The article highlights that most organizations fail to consolidate their asset and exposure data into a single view, with only 45% of security leaders doing so effectively. This fragmented approach undermines downstream security programs, making comprehensive exposure management essential for protecting modern enterprise infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "asset-management",
+        "exposure-management",
+        "inventory-consolidation",
+        "enterprise-security",
+        "vulnerability-tracking"
+      ],
+      "whyItMatters": "Organizations cannot protect what they cannot see. Lumen's case demonstrates that inaccurate or fragmented asset inventories create blind spots that attackers exploit, making proper asset discovery and consolidation a foundational requirement for any effective security program. This directly impacts an enterprise's ability to identify, prioritize, and remediate vulnerabilities at scale.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGplfQpPmwb3F3h_tdGW9-jNmpKBLd2DdhOw1nugXafk9rWwqxFwvD5xE1L1Qs0zvZvgi7Fx_jhj9kIn9PhOvWYuLMd9n7fOeXnfzujPanNBTqmMC4SKi__b_KFtpnmNkz-jtzB2tcjgO_ceckyR4Er4Gl3LASJKbyGvZVhkqP6m9Xdx12WO6xWROBzFk/s1600/million.jpg",
+      "processedAt": "2026-07-11T08:03:54.879328+00:00"
+    },
+    {
+      "id": "art-2f88e023",
+      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+      "summary": "A cybercriminal group accidentally left a server exposed online for three weeks, revealing their hacking infrastructure, tools, and logs that showed attempts to compromise over 1.4 million websites. The leaked data provided security researchers with rare insight into how mass WordPress site-hacking operations are organized and executed from the attacker's perspective. Although far fewer sites were actually successfully breached than targeted, the exposure highlighted the scale and sophistication of automated attack campaigns.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "wordpress-backdoor",
+        "mass-hacking",
+        "wp-shellstorm",
+        "exposed-server",
+        "malware-infrastructure",
+        "threat-intelligence"
+      ],
+      "whyItMatters": "This incident demonstrates how attackers operate at scale against WordPress sites and provides defenders with actual forensic evidence of attack methods, tools, and targeting strategies. Understanding the inner workings of these operations helps security teams better protect their own WordPress installations and detect similar backdoor attempts. The exposure also illustrates how operational securi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgruetcUTsay2-ledgCIdCPKK_bPRiTzuXzYeUiLR3xuazZgHTmxO4Gz6PyyuwdFUVoHHOCbq5PksEMW18dSsdzCJddBMr8vQ3TQO3PIqXExF_17RGVfKRD8cPltNjh6eV1fgXM-pYYlwZnWaZcf7oo50CahUBY5AWt8-IS1K7KxhlL9GFLDcAk1ruwMSI/s1600/hacker-server.jpg",
+      "processedAt": "2026-07-11T08:03:58.159444+00:00"
+    },
+    {
+      "id": "art-578fe05d",
+      "title": "New U-Boot flaws could enable stealthy firmware attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+      "summary": "Researchers have identified six security flaws in U-Boot, a bootloader used across millions of devices worldwide. These vulnerabilities could let attackers inject malicious code during the device startup process, allowing them to install hidden malware that survives restarts and bypasses security features. This type of firmware-level attack is particularly dangerous because it operates below the operating system level.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "u-boot",
+        "firmware-attacks",
+        "bootloader",
+        "malware",
+        "persistent-threat",
+        "patch-urgently"
+      ],
+      "whyItMatters": "U-Boot is fundamental software on billions of IoT devices, servers, and embedded systems, making these vulnerabilities a widespread risk. Firmware-level compromises are extremely difficult to detect and remove, potentially affecting device security for years. Organizations using affected devices need immediate patching to prevent stealthy, persistent attacks that traditional security tools cannot ",
+      "image": null,
+      "processedAt": "2026-07-11T08:04:01.030098+00:00"
+    },
+    {
+      "id": "art-2b839150",
+      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+      "summary": "AI agents are creating many new non-human identities in organizations, but companies often lack visibility into what these identities are, who manages them, and what permissions they have. This growth is expanding the attack surface and making it difficult for security teams to maintain proper identity governance. Without stronger visibility and control measures, these AI-generated identities could become targets for attackers or be misused to access sensitive systems.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-agents",
+        "identity-governance",
+        "attack-surface",
+        "non-human-identities",
+        "visibility-gap"
+      ],
+      "whyItMatters": "As organizations rapidly deploy AI agents, unmanaged identities create blind spots that attackers can exploit. Without proper identity and access controls for AI systems, companies risk unauthorized access to critical resources and data. This represents a critical gap in modern security strategies that many organizations have not yet addressed.",
+      "image": null,
+      "processedAt": "2026-07-11T08:04:03.427263+00:00"
+    },
+    {
+      "id": "art-06d47dd9",
+      "title": "Zimbra urges customers to patch critical web client XSS flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
+      "summary": "Zimbra has identified a critical cross-site scripting (XSS) vulnerability in its Classic Web Client, which is used to access the Zimbra Collaboration suite. The company is urging all customers to apply security patches immediately to prevent exploitation. This flaw could allow attackers to inject malicious code and compromise user sessions or steal sensitive information.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "xss-vulnerability",
+        "web-client",
+        "patch-now",
+        "zimbra",
+        "collaboration-suite",
+        "critical-flaw"
+      ],
+      "whyItMatters": "XSS vulnerabilities in widely-used email and collaboration platforms like Zimbra pose a significant risk because they can be exploited to steal credentials, session tokens, or sensitive business data from many users simultaneously. Prompt patching is essential to prevent active exploitation before attackers develop weaponized attacks targeting this flaw.",
+      "image": null,
+      "processedAt": "2026-07-11T08:04:05.923191+00:00"
+    },
+    {
+      "id": "art-8cc03e2a",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their roles in an August 2024 cyberattack that disrupted London's public transportation system. The guilty pleas occurred on the first day of trial, significantly shortening what was expected to be a six-week legal proceeding. This case demonstrates law enforcement's ability to identify and prosecute key members of sophisticated cybercrime organizations.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "scattered-spider",
+        "cybercrime",
+        "ransomware-attack",
+        "infrastructure-attack",
+        "law-enforcement",
+        "guilty-plea"
+      ],
+      "whyItMatters": "This case highlights that even sophisticated cybercriminals face serious legal consequences, which can deter similar attacks on critical infrastructure. The rapid identification and prosecution of Scattered Spider members demonstrates improved international law enforcement coordination against major cybercrime groups. Understanding how critical infrastructure targets are attacked and defended is e",
+      "image": null,
+      "processedAt": "2026-07-11T08:04:08.791401+00:00"
+    },
+    {
+      "id": "art-7aa7eebb",
+      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "summary": "A large Android botnet called Popa has been operating for four years, infecting millions of consumer TV boxes and using them to commit advertising fraud, account takeovers, and data scraping. Security researchers have traced the botnet's operations back to NetNut, a residential proxy service owned by Alarum Technologies Ltd, a publicly-traded Israeli company. This connection reveals how legitimate-appearing companies may be involved in coordinating cybercriminal activities at scale.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "botnet",
+        "android-malware",
+        "advertising-fraud",
+        "account-takeover",
+        "residential-proxy-abuse",
+        "iot-security"
+      ],
+      "whyItMatters": "This case demonstrates how botnets can persist undetected for years while causing widespread harm through fraud and data theft, and it exposes the concerning possibility that publicly-traded companies may facilitate or knowingly operate criminal infrastructure. Organizations need to monitor their network traffic for suspicious proxy usage patterns, and individuals should be aware that compromised ",
+      "image": null,
+      "processedAt": "2026-07-11T08:04:12.760448+00:00"
+    },
     {
       "id": "art-89985ac6",
       "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
@@ -822,214 +1030,6 @@
       "whyItMatters": "This attack highlights a critical vulnerability in software supply chains where attackers can impersonate legitimate payment SDKs to reach thousands of developers and users. Organizations relying on these repositories must implement strict dependency verification and monitoring practices, as compromised packages can grant attackers direct access to financial credentials and user data at an unprece",
       "image": null,
       "processedAt": "2026-07-09T09:54:27.077914+00:00"
-    },
-    {
-      "id": "art-81f5bacf",
-      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-      "summary": "Security researchers at Sophos discovered that AI coding agents like Claude Code, Cursor, and OpenAI Codex are triggering endpoint security detection rules designed to catch attackers. These tools aren't malicious, but they perform legitimate coding tasks that mimic suspicious attacker behavior, such as accessing browser credentials and Windows credential stores. This creates a challenge for security teams trying to distinguish between normal AI development activities and genuine threats.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-coding-agents",
-        "endpoint-detection",
-        "false-positives",
-        "behavioral-detection",
-        "security-operations"
-      ],
-      "whyItMatters": "As AI coding agents become more prevalent in development workflows, organizations must recalibrate their security detection rules to avoid blocking legitimate tools while maintaining protection against real threats. False positives from these tools can overwhelm security teams and create operational friction that may cause them to disable critical security controls.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEtVOCcf8-6_z0F4FVoPlTMQRFJ4CfHCbl-GvhT9EbRrfZgTJsNbBkzAq72212RbMT1Knk5GJsYDY8p5W7YO8x29vQ782QW6CRorl_oKVyAgOmS46Y9HyTPcdZOmMjOPtWjpAHH3C91EPVk4dnHqaAEX8QoaSvGzCbjMy0YhF7lJaIR6-T9Dq5jzZycIc/s1600/alarm.jpg",
-      "processedAt": "2026-07-08T19:01:42.811480+00:00"
-    },
-    {
-      "id": "art-885415b2",
-      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
-      "summary": "Researchers discovered a new attack called HalluSquatting that exploits AI coding assistants' tendency to invent nonexistent package names. Attackers identify these fake names, register them as real packages, and trick the AI into recommending them to users, potentially delivering malware like botnets. This vulnerability highlights a critical gap between AI reliability and actual software security.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "malware",
-        "supply-chain",
-        "hallucination",
-        "coding-assistants",
-        "botnet"
-      ],
-      "whyItMatters": "As AI coding assistants become integral to developer workflows, this attack demonstrates how their inherent weaknesses can be weaponized at scale to distribute malware to potentially thousands of users. Organizations relying on these tools must implement verification practices and security teams need to monitor for malicious packages exploiting AI hallucinations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFLRfTvakP4spTkbT8iiV9ndUR4EwlHOmGkZrO4JdBl3QsmWS5zA_sx081fvr3R11VEnZcjHOFcirZAQ5eaqB3n8sFJQ7m64edzVHNONHsD9j9Obds8E_Z9VC08y42TCyJV_3zpWam1LTHhiZBLX5WCLNp-4tdR-AwYzlyoifh1Seu-ND4OKbnZOEhMks/s1600/ai-botnet.jpg",
-      "processedAt": "2026-07-08T19:01:45.470927+00:00"
-    },
-    {
-      "id": "art-e2dd960c",
-      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "summary": "Ubiquiti released security patches to fix multiple critical vulnerabilities affecting its UniFi product suite, including Connect, Talk, Access, Protect, and OS. These flaws could allow attackers to escalate privileges and execute arbitrary commands on affected systems. The most severe vulnerability, CVE-2026-50746, has a perfect CVSS score of 10.0, indicating an extremely dangerous flaw requiring immediate attention.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "ubiquiti",
-        "unifi",
-        "privilege-escalation",
-        "command-execution",
-        "patch-available",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "UniFi products are widely deployed in enterprise networks for connectivity and security management, making these critical flaws a significant risk to organizations worldwide. The perfect 10.0 CVSS score indicates these vulnerabilities pose an immediate and severe threat if exploited, demanding urgent patching across all affected deployments. Organizations using any UniFi products must prioritize a",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx2TRa1CP7yIs67Wa1bxiFVW5yq1S7vtAaQHf_htjuDbpAETKv8tfw7rchtVvME0FsA8YJ_uQzRp_ZAV-nPhLyRUQw_NNdgN0zhjyVR_L3wzt1ZX08PknwSF2FBLeieIUIx7t4hLMF1sDnsRuFCzllq8auoKriKlGMdllY8IYG04bID6cgGzty0e9mVhoM/s1600/uu.jpg",
-      "processedAt": "2026-07-08T19:01:48.835787+00:00"
-    },
-    {
-      "id": "art-568bb970",
-      "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
-      "summary": "Cybercriminals are using a new \"ghost phishing\" technique called EvilTokens that hides malicious content until it activates inside a user's browser, bypassing traditional email security checks. This attack targets businesses across the US and Europe by exploiting a gap in how standard URL filtering works. The hidden nature of these attacks makes them difficult to detect before they compromise sensitive systems like Microsoft 365 accounts.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "ghost-phishing",
-        "email-security",
-        "eviltokens",
-        "malicious-urls",
-        "browser-based-attack",
-        "microsoft-365"
-      ],
-      "whyItMatters": "This attack reveals a critical weakness in existing email security defenses that rely on URL reputation checks—traditional tools cannot identify threats that remain dormant until execution. Organizations need to implement additional security layers beyond URL filtering, such as browser isolation or advanced email authentication, to protect against these evolving phishing techniques that directly t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgl6gaxMQBH0Bjb1ZhuaOiM5gKEk-zuSf821eRfV33ogx6YWwENunjyOPF8VXHtgtHgIevENLfBV2O04QI4TtjtDe2PGGevWptQEEagmp6q-G4FqOankGokz70XzVtz7dmNbEZ5G7-pV0yINgd2-ima7ap8xeOxuhZBKw2WPoUo81wKmGrwsPxbzYkW5Wk/s1600/anyrun-main.jpg",
-      "processedAt": "2026-07-08T19:01:51.986660+00:00"
-    },
-    {
-      "id": "art-5d64ed52",
-      "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
-      "summary": "Cybercriminals are targeting Mexican banking customers, fintech users, and cryptocurrency exchange clients through deceptive ClickFix lures that trick victims into running malicious commands. The attack campaign, identified as REF6045 by Elastic Security Labs, uses fake CAPTCHA verification pages to distribute a PowerShell-based malware toolkit called SCMBANKER. This operation demonstrates how attackers exploit users' trust in common security verification processes to compromise financial accounts and sensitive data.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "banking-malware",
-        "clickfix-lure",
-        "phishing",
-        "powershell-toolkit",
-        "financial-fraud",
-        "mexico"
-      ],
-      "whyItMatters": "This threat directly targets financial institutions and payment systems in Mexico, making it a significant risk for both individual users and organizations in the fintech sector. The use of fake CAPTCHA pages represents an increasingly common social engineering technique that exploits legitimate security practices, making it difficult for users to distinguish between real and malicious verificatio",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguw-rOR8Masg2W1UVlfj5rr1nTNdwmhHfXvKG-8rLXWxkwDjtEy-O2ZCb40GEca78DPql7PPEPIrRL_tYt9Ob51ZW7_L-i7w-Ej7DzX2NtNGBrRHuorMowS0d89GxVjQW492-J1LansFJY7SqZgVCtBvcwhyphenhyphenpOcveL_9rNcsgyJm-cRSwnbwvFXKQuLMA9/s1600/clickfix-banking.jpg",
-      "processedAt": "2026-07-08T19:01:55.541090+00:00"
-    },
-    {
-      "id": "art-f2756b42",
-      "title": "Hackers exploit Roundcube flaw to spy on academic researchers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/",
-      "summary": "Attackers linked to China are actively exploiting security flaws in Roundcube email servers at universities in the U.S. and Canada to access user credentials and install backdoor malware. This campaign targets academic institutions, potentially compromising sensitive research and personal information stored on these systems. The attackers are leveraging unpatched vulnerabilities to establish persistent access to affected networks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "roundcube-exploit",
-        "credential-theft",
-        "backdoor-malware",
-        "academic-targets",
-        "active-exploitation",
-        "china-linked"
-      ],
-      "whyItMatters": "This represents an active, targeted attack on critical infrastructure (educational institutions) with confirmed credential theft and backdoor deployment, requiring immediate patching and incident response. Universities often store sensitive research data and personal information, making this a significant threat to national security and academic integrity. The active nature of the exploitation and",
-      "image": null,
-      "processedAt": "2026-07-08T19:01:59.298185+00:00"
-    },
-    {
-      "id": "art-a2474ca9",
-      "title": "Entra passkey enrollment vishing targets Microsoft 365 users",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/",
-      "summary": "Attackers are using voice calls (vishing) to trick Microsoft 365 users into enrolling fake Entra passkeys, a social engineering tactic that bypasses traditional security awareness. These fraudulent requests impersonate legitimate security procedures, making them difficult for users to distinguish from genuine Microsoft communications. The campaign targets multiple business sectors, putting thousands of organizations at risk of account compromise.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "vishing",
-        "entra-passkey",
-        "microsoft-365",
-        "social-engineering",
-        "account-compromise",
-        "voice-phishing"
-      ],
-      "whyItMatters": "Passkeys are increasingly used as a strong authentication method, so attackers are now targeting their enrollment process to gain unauthorized access to high-value accounts. Organizations need to educate users that Microsoft will never request passkey enrollment via unsolicited phone calls, and implement additional verification procedures before allowing new device enrollments. This attack demonst",
-      "image": null,
-      "processedAt": "2026-07-08T19:02:02.398090+00:00"
-    },
-    {
-      "id": "art-fc7494be",
-      "title": "3 Ways AI Powers Service Desk Attacks and How to Prevent Them",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/",
-      "summary": "Artificial intelligence is making it easier for attackers to impersonate legitimate service desk personnel, allowing them to conduct more convincing and targeted attacks at scale. The article from Specops Software highlights three primary ways AI enhances these social engineering attacks against organizations. The piece also provides practical recommendations for businesses to improve their identity verification processes and employee onboarding security.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "social-engineering",
-        "service-desk",
-        "identity-verification",
-        "phishing",
-        "attack-prevention"
-      ],
-      "whyItMatters": "Service desk impersonation attacks targeting employees are a common entry point for breaches, and AI-powered tools are lowering the barrier for attackers to execute these attacks convincingly. Understanding how AI amplifies these threats helps organizations implement stronger verification protocols and train employees to recognize sophisticated social engineering attempts before credentials or sen",
-      "image": null,
-      "processedAt": "2026-07-08T19:02:05.174688+00:00"
-    },
-    {
-      "id": "art-db88c0fa",
-      "title": "DuckDuckGo browser now blocks YouTube video ads",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/software/duckduckgo-browser-now-blocks-youtube-video-ads/",
-      "summary": "DuckDuckGo has updated its browser to block video advertisements on YouTube, including pre-roll and mid-roll ads. This feature enhances user privacy and browsing experience by preventing ad-related tracking and data collection. The capability represents a growing trend of privacy-focused tools challenging major tech platforms' advertising models.",
-      "category": "Privacy",
-      "severity": "Low",
-      "tags": [
-        "privacy",
-        "ad-blocking",
-        "duckduckgo",
-        "browser-security",
-        "user-protection"
-      ],
-      "whyItMatters": "While this is a privacy enhancement rather than a security threat, it demonstrates the ongoing tension between user privacy expectations and data collection practices. Ad-blocking features reduce exposure to malicious ads and tracking mechanisms, which are common attack vectors in cybersecurity incidents.",
-      "image": null,
-      "processedAt": "2026-07-08T19:02:07.867530+00:00"
-    },
-    {
-      "id": "art-f26c5255",
-      "title": "Telco giant KDDI says data breach affects over 12 million people",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/",
-      "summary": "KDDI, a major Japanese telecommunications company, experienced a significant data breach affecting over 12 million people. Attackers compromised an email platform shared by five internet service providers, exposing sensitive user information including email addresses and passwords. This breach demonstrates how vulnerabilities in shared infrastructure can impact millions of customers across multiple organizations.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "telco-breach",
-        "credentials-exposed",
-        "mass-exposure",
-        "japan",
-        "isp"
-      ],
-      "whyItMatters": "Breaches of this scale affecting telecommunications infrastructure are critical because they compromise millions of users' identities and credentials, creating immediate risk for credential stuffing attacks and account takeovers. The exposure of email addresses and passwords gives attackers ready-made tools for further targeted attacks against victims. This incident underscores the importance of s",
-      "image": null,
-      "processedAt": "2026-07-08T19:02:10.615397+00:00"
     }
   ]
 }
