@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-07-11T18:41:19.426392+00:00",
+  "lastUpdated": "2026-07-12T08:24:56.320780+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-424f4e78",
+      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-11",
+      "originalUrl": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+      "summary": "A malicious version of the popular jscrambler npm package (version 8.14.0) was released that automatically executes an infostealer malware during installation. The attack used a preinstall hook to deploy and run native binaries designed for Windows, macOS, and Linux systems. Security researchers detected the compromised package within minutes of its publication, highlighting a significant supply chain attack targeting developers.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "npm-package",
+        "malware",
+        "infostealer",
+        "package-manager",
+        "preinstall-hook"
+      ],
+      "whyItMatters": "This demonstrates how attackers can compromise widely-used open-source packages to distribute malware at scale, putting thousands of developers at immediate risk of information theft. The incident underscores the danger of blind trust in package managers and the importance of monitoring package updates, as legitimate-looking installations can execute malicious code before developers realize it. Or",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhodiWPXDsex6YL7v4e2n_D5MJFMht76GRRmHTdiG61tfEmsoZyow4tkiS3ORACILDl2fNP27YQkw1XLSBKGcom-DhCVzzPDdkdSgeMGdxcVL_rgO70x5LqZcjxKAPTtFOquB8LwSBPWrSpflqCzns-cFZ_EVm0WZfV7wSoPM3S-7_IGtCT3AjxY0rfITU/s1600/npm-js.jpg",
+      "processedAt": "2026-07-12T08:24:30.755836+00:00"
+    },
+    {
+      "id": "art-64e61185",
+      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-11",
+      "originalUrl": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+      "summary": "Multiple threat actors believed to be linked to China and India conducted a sustained cyber espionage campaign against Pakistani law enforcement agencies, particularly targeting the Balochistan Police portal from February 2024 to April 2026. The attackers compromised critical servers that store sensitive police and citizen data, including criminal records and related information. This operation demonstrates how government infrastructure can be weaponized by state-aligned groups to gather intelligence and access personal data at scale.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "cyber-espionage",
+        "state-sponsored",
+        "law-enforcement",
+        "data-breach",
+        "pakistan",
+        "government-infrastructure"
+      ],
+      "whyItMatters": "This breach exposes how nation-state actors target law enforcement databases to steal sensitive citizen and criminal records, potentially enabling surveillance, blackmail, or intelligence operations. The extended duration of the compromise (over two years) highlights gaps in detection and incident response capabilities for critical government systems. Organizations worldwide should strengthen moni",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimRVwRIhs54UhNHyRll9YzVxICmTpgqwjAK1Sy7vYt6FAzb9oImcFpuM0J8dOWdtdjCdlROkternhP9r5jZD9HNvwVwcyRzhesdYgbVjUpJk7p4rxDDJSdEUibs1Gk-Ihy1bTcxs8fA7kgG49ImfTWEZO6068Ui-_X6sTTraCg8lFuucYJrUJi2RhdXyG2/s1600/pakistan.jpg",
+      "processedAt": "2026-07-12T08:24:33.749077+00:00"
+    },
+    {
+      "id": "art-17fe7a1c",
+      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
+      "summary": "Meta has launched a new AI image generation tool called Muse Image that automatically uses public Instagram photos and videos to create AI-generated content, with this feature enabled by default for all users. Users can even tag specific Instagram accounts to incorporate them into generated images. This raises significant concerns about consent and how personal images are being used without explicit opt-in from content creators.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "privacy-concern",
+        "consent-issue",
+        "data-usage",
+        "instagram",
+        "default-enabled"
+      ],
+      "whyItMatters": "This represents a systemic privacy risk where users' publicly shared content is being repurposed for AI training and generation without explicit informed consent, setting a concerning precedent for how tech companies can exploit user-generated content. The default-enabled status means most users are unaware their images are being used, making it a widespread privacy vulnerability affecting million",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsjiT58V2lRqaqYwo2AHkilx81c58T9dBHa_W5KiHgom4-UgZqV18Ax-zQb8_fN7p_OQpqi0b4nTzt4SpDnHW-RozKjIcgs-B8KN8HI_QnCMzIjDMmcg2grJEyP7r1ZNd_SRB5R1MDw-vo-jQ4v198ZDhMsWaBpFnXmShkouRZvXIXpu-32FQ_30h4HQrq/s1600/metaai.jpg",
+      "processedAt": "2026-07-12T08:24:36.409705+00:00"
+    },
+    {
+      "id": "art-956e90fe",
+      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "summary": "Security researchers at the AI Now Institute discovered a vulnerability called \"Friendly Fire\" that allows attackers to trick AI coding agents like Claude Code and OpenAI's Codex into executing malicious code instead of analyzing it for security threats. When these AI agents operate autonomously and approve their own actions, they can be manipulated through clever prompts to run attacker-controlled code on the user's machine. This attack demonstrates a critical gap in how AI tools handle untrusted code during security scanning operations.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "code-execution",
+        "prompt-injection",
+        "autonomous-agents",
+        "malicious-code"
+      ],
+      "whyItMatters": "This vulnerability is critical because security teams rely on AI coding agents to identify threats in open-source dependencies, making this attack a direct inversion of trust. Organizations using these tools for code scanning could unknowingly execute attacker code on their systems while believing they are performing security analysis. The finding exposes a fundamental weakness in autonomous AI de",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynXsBDNXYgGgYPWB6cmy9zuZDStl-XaVvlwMQsqa6AxvNCvi7qI9Xq3h1vdk30Tv1u-fOAtB_OZ_Q-i5O0z5D0KL1Eh0joKyFmuhIoH4-7Z16ubplbIcNQpXJ7P7Sl2xju-z6ZvbhSeJbGKiL1gzx-I151GVMAp5jpCS27zvn791sC2WYQllTRT8ye-0/s1600/Friendly-Fire-AI-demo.gif",
+      "processedAt": "2026-07-12T08:24:39.713034+00:00"
+    },
+    {
+      "id": "art-e89eef20",
+      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-09",
+      "originalUrl": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+      "summary": "Researchers discovered a critical vulnerability in six popular AI coding assistants that allows malicious code repositories to exploit symlink flaws and execute unauthorized code on developers' machines. The flaw tricks the assistant into requesting permission to modify a harmless file while actually writing to sensitive system locations. This vulnerability affects tools from major companies including Amazon, Anthropic, Google, and others, putting developers at significant risk when working with untrusted code repositories.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "symlink-vulnerability",
+        "code-execution",
+        "supply-chain-risk",
+        "developer-tools",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This vulnerability directly threatens developers' machines and development environments by allowing attackers to gain code execution through seemingly legitimate code review workflows in widely-used AI tools. The attack leverages social engineering combined with technical exploits, making it particularly dangerous since developers may trust AI assistants to safely interact with code repositories. ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijymBd057efx1JbDRjjqh0RBYH7RA2pE75UYG8DDd7Vl2UyXMsMjXtgEaxoPyHt5wz8s0fT6B43ovQskxZBchyiYI9G34t7YjyC6_T0xwzs_0SOJaHnHI7vXfMTOqtDn1R6up52ol5UH_uT86b1dRjaJ-Bw6pa_lAX6igS_pFLV_z_0kRhyXuNo8Q2rFU/s1600/wiz-ai.jpg",
+      "processedAt": "2026-07-12T08:24:42.943875+00:00"
+    },
+    {
+      "id": "art-bcb9ca17",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-25",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "summary": "Dutch authorities arrested two men who ran hosting companies that provided infrastructure used by Russian intelligence agencies to launch cyberattacks and disinformation campaigns against the European Union. The seized servers were linked to Stark Industries Solutions, an ISP previously sanctioned by the EU for facilitating Russian cyber operations. This takedown highlights how criminal enterprises can be dismantled when law enforcement targets the underlying infrastructure that enables attacks.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "infrastructure-takedown",
+        "russian-cyberattacks",
+        "disinformation",
+        "eu-sanctions",
+        "hosting-abuse",
+        "state-sponsored"
+      ],
+      "whyItMatters": "This case demonstrates that disrupting the physical and technical infrastructure behind cyberattacks is a critical law enforcement strategy against state-sponsored operations. By removing the hosting providers enabling Russian attacks, authorities can significantly disrupt ongoing campaigns targeting critical EU institutions and information systems. Understanding how attackers rely on complicit or",
+      "image": null,
+      "processedAt": "2026-07-12T08:24:45.910383+00:00"
+    },
+    {
+      "id": "art-f1697b95",
+      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-22",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
+      "summary": "A contractor working for CISA, the U.S. government's cybersecurity agency, intentionally leaked sensitive information including AWS cloud credentials on a public GitHub repository. Congressional lawmakers are now demanding explanations from CISA about how this breach occurred and what steps are being taken to secure the exposed credentials and other agency secrets.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "cloud-security",
+        "credentials-exposed",
+        "aws",
+        "government-security",
+        "insider-threat"
+      ],
+      "whyItMatters": "This breach exposes critical infrastructure security risks because compromised government cloud credentials could allow attackers to access sensitive national systems. The incident also highlights the dangers of insider threats and inadequate access controls at agencies responsible for defending the nation's cybersecurity, undermining public trust in critical infrastructure protection.",
+      "image": null,
+      "processedAt": "2026-07-12T08:24:48.144507+00:00"
+    },
+    {
+      "id": "art-296449ea",
+      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-05-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "summary": "A 23-year-old from Ottawa was arrested by Canadian authorities for allegedly creating and operating Kimwolf, a botnet that infected millions of Internet-of-Things devices and launched major DDoS attacks over six months. The suspect, identified online as 'Dort', faces criminal charges in both Canada and the United States after conducting DDoS attacks, doxing, and swatting campaigns against security researchers. This arrest demonstrates law enforcement's growing ability to track and prosecute botnet operators across international borders.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "iot-security",
+        "ddos-attacks",
+        "cybercrime",
+        "international-enforcement"
+      ],
+      "whyItMatters": "Botnet arrests like this show that operators face real legal consequences despite attempting anonymity, which may deter future botnet development. The Kimwolf case demonstrates the scale of IoT security risks and how millions of vulnerable devices can be weaponized for large-scale attacks. Understanding how botnets operate and are dismantled helps organizations better protect their IoT infrastruct",
+      "image": null,
+      "processedAt": "2026-07-12T08:24:51.258712+00:00"
+    },
+    {
+      "id": "art-42c3ff96",
+      "title": "Jen Ellis: Connecting Cyber Community With Political Machinery",
+      "source": "Dark Reading",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery",
+      "summary": "Jen Ellis, a prominent cybersecurity advocate, has been honored as a Member of the Order of the British Empire (MBE) for her work bridging the gap between security researchers and government policymakers. The article profiles her career and the key moments that drove her commitment to advocating for the security research community. Her efforts focus on ensuring that technical experts have a voice in shaping cyber policy and political decisions that affect the industry.",
+      "category": "Security Awareness",
+      "severity": "Low",
+      "tags": [
+        "cyber-advocacy",
+        "security-policy",
+        "industry-leadership",
+        "researcher-protection"
+      ],
+      "whyItMatters": "Ellis' advocacy work strengthens the relationship between cybersecurity practitioners and government, which is essential for developing effective cyber policies and protecting researchers who report vulnerabilities. Her recognition highlights the importance of having skilled security professionals involved in political and regulatory discussions that shape national cybersecurity strategy.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd0404c576a980a37/6a51584597c98ae9da9a9b59/jen-ellis-nextjensecurity.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-07-12T08:24:53.794345+00:00"
+    },
+    {
+      "id": "art-5c031b4e",
+      "title": "Cybercriminals Flock to Healthcare Businesses as Attacks Surge",
+      "source": "Dark Reading",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge",
+      "summary": "Cybercriminals are increasingly targeting healthcare service providers and businesses rather than hospitals and clinics directly. In the first half of 2026, attacks on healthcare service providers more than doubled while direct hospital attacks grew only modestly. This shift in targeting strategy suggests criminals are exploiting vulnerabilities in the broader healthcare ecosystem.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "healthcare-attacks",
+        "cybercrime-trends",
+        "service-provider-vulnerability",
+        "attack-surge",
+        "healthcare-security"
+      ],
+      "whyItMatters": "Healthcare service providers often have weaker security than major hospitals but handle sensitive patient data and critical systems, making them attractive targets. Understanding this shift in attacker tactics helps organizations prioritize defenses for vulnerable supply chain partners. The doubling of attacks on these businesses indicates an accelerating threat that requires immediate attention a",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1b6b2d15edbb34ff/6a501046f2ad521509a98709/UMMC-Childrens-Hospital-Jackson-Chad_Robertson_Media-shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-07-12T08:24:56.320624+00:00"
+    },
     {
       "id": "art-6f932bec",
       "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
@@ -828,209 +1033,6 @@
       "whyItMatters": "Proxy services like NetNut are critical infrastructure for attackers to evade detection and attribution; their seizure disrupts large-scale malicious operations and raises the cost of conducting hidden cyberattacks. This case highlights how legitimate-appearing services can be weaponized for botnet operations affecting millions of unwitting victims, making it relevant for both defenders and organi",
       "image": null,
       "processedAt": "2026-07-10T09:45:25.216128+00:00"
-    },
-    {
-      "id": "art-af5e5762",
-      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-      "summary": "Attackers are using old or dormant GitHub accounts and stolen tokens to systematically scan corporate GitHub organizations, repositories, and user accounts through automated API calls. These 'ghost' accounts allow attackers to remain undetected while gathering intelligence about target organizations. The campaign, discovered by Datadog Security Labs, highlights how legitimate-looking activity can mask reconnaissance efforts against companies using GitHub for development.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "github-security",
-        "reconnaissance",
-        "api-abuse",
-        "account-compromise",
-        "supply-chain-risk"
-      ],
-      "whyItMatters": "This reconnaissance activity precedes targeted attacks on software development environments, which are critical infrastructure for most organizations. Companies need to monitor GitHub API activity and secure their OAuth tokens to prevent attackers from mapping their internal structure and identifying high-value targets. Understanding these enumeration tactics helps teams detect early-stage attacks",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDslymdYqhkFwIm3ZeaXVZweYVT_R1d6LCQhIm799y9-5hQ3C45cumIStxGYheFbwosbd_JtrB6FgOthR2KJgfe8PYs0k47eGV7263ATac5UR0t7OOaqOUGOf5DHAR4b0IaKTozk0UEiHJz5-nze3b1ureycPGqdPVlqrImWreOWwMpGxC8kgBvONCLGbH/s1600/github-ghost.jpg",
-      "processedAt": "2026-07-09T19:16:53.143776+00:00"
-    },
-    {
-      "id": "art-6d9fdd27",
-      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "summary": "Microsoft discovered GigaWiper, a dangerous Windows backdoor that combines three destructive attack tools into one package. The malware gives attackers multiple options to damage systems, including completely wiping disks, overwriting the Windows drive, or deploying fake ransomware that encrypts files with unrecoverable keys. This modular approach makes it flexible and difficult to defend against since it can cause destruction in different ways.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "windows-backdoor",
-        "disk-wiping",
-        "destructive-malware",
-        "ransomware-variant",
-        "multi-stage-attack"
-      ],
-      "whyItMatters": "GigaWiper represents a significant threat because it combines multiple destructive capabilities in one tool, giving attackers flexibility to cause maximum damage across different scenarios. Organizations need to implement robust endpoint detection, backup strategies, and access controls to prevent this backdoor from reaching critical systems, as its modular design makes it adaptable to various att",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJRuXh4y7zy8C81w_JgJgWFg_sgF0IYcsvqWEsYeHIHu7nWdOl1aIMQdnmmRQF-KJK_XdTGxzSIAr57yFkzMIZ_VK5Kzx12xR4oW8QOZcnsf9zmySIT3YRvpPvo2q-P92sZc2LqB4M-NSlktwLGU85I0JQbCVCjvJ130GLEF6eGknO8VzkK66kHjlgkBg/s1600/data-wiper-malware.jpg",
-      "processedAt": "2026-07-09T19:16:55.608933+00:00"
-    },
-    {
-      "id": "art-a8286b7c",
-      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "summary": "npm version 12 has been released with install scripts disabled by default, a security measure designed to reduce supply chain attack risks. The update also deprecates granular access tokens that could circumvent two-factor authentication protections. These changes make npm safer by requiring developers to actively opt-in to potentially risky automated scripts rather than running them automatically.",
-      "category": "Other",
-      "severity": "High",
-      "tags": [
-        "supply-chain-security",
-        "npm-security",
-        "install-scripts",
-        "two-factor-authentication",
-        "package-management"
-      ],
-      "whyItMatters": "Supply chain attacks through compromised npm packages pose a critical threat to developers and organizations worldwide. By disabling install scripts by default, npm significantly reduces the attack surface that malicious actors exploit to inject malicious code into development environments. This change directly protects countless projects that depend on npm packages, making it a practical security",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbP2w2lzNWbB041oSXvx2Nb1uOJaf81XNUBioDv_3K73S-JnzIU4OnUHfwG3Q3RLbf_p2wJBpHC0m2M4cQhCMfcSRRx1MY9n2vCVSNI4ddai3uJ3eE2Kb-d_ryU_HSEx_R2Rjoxz2D3TBcZCgLRWf-rOBf9k73Vi1Q04aWNG9Ux-A5AOf-v1HjSGD3YZcg/s1600/npm-security.jpg",
-      "processedAt": "2026-07-09T19:16:57.887908+00:00"
-    },
-    {
-      "id": "art-bbb7d6bd",
-      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "summary": "This week's security incidents highlight how common administrative oversights and small configuration mistakes lead to significant breaches and attacks. The article covers 20 security stories including cloud bucket hijacking, Windows privilege escalation chains, and a global fraud operation, demonstrating that major security failures often stem from routine actions like reused names and loose settings rather than sophisticated attacks. The piece emphasizes that these seemingly minor gaps can accumulate into substantial damage that only becomes apparent when financial or operational impact occu",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "privilege-escalation",
-        "admin-oversight",
-        "credential-misuse",
-        "misconfiguration",
-        "fraud-detection"
-      ],
-      "whyItMatters": "Understanding that most security breaches result from preventable administrative errors and configuration oversights is crucial for organizations to focus resources on securing basic practices rather than only pursuing sophisticated threat detection. The article underscores that bucket hijacking, privilege escalation chains, and fraud often exploit human negligence and trust decisions, making secu",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAXvG0n7eiC50jtfO-3MYOPx-Z0iWiucBfHqzY2QNH-5fUyfWcGu3NME0yERr2qWKcAeg6rIYMtP_VEeRInpeghztHmnjDa4QyuXSbaktcOdHHK9sx8lurd2RmejcmBjSZIznBl0zKQ-mk4dcCsVdL29g4XPEwUdrlQgj5-GgxvVnolSJJfCJW7g4vosLe/s1600/ThreatsDay-main.jpg",
-      "processedAt": "2026-07-09T19:17:01.565481+00:00"
-    },
-    {
-      "id": "art-76707578",
-      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-      "summary": "Artificial intelligence has dramatically accelerated cyberattacks, allowing attackers to complete in minutes what previously took days. Modern AI tools enable attackers to quickly craft personalized phishing messages, identify targets, and move laterally across networks before security teams can respond. Traditional security tools and response procedures were designed for slower, human-paced attacks and are now falling behind the speed of AI-driven threats.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-attacks",
-        "threat-acceleration",
-        "defense-gap",
-        "phishing",
-        "incident-response"
-      ],
-      "whyItMatters": "As AI-powered attacks outpace traditional security defenses, organizations face a critical window where existing tools cannot detect and respond quickly enough to prevent compromise. Understanding this speed differential is essential for security teams to redesign their incident response processes and invest in AI-capable detection systems before attackers establish deeper footholds in their netwo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVBCdd1YLOTAhXs53MgUBJHfid7uAH-uFr4vzULJu6BL5H7TDiBbZUDxS9RTwC1FH7q2HhEiI2BHLlymHQ7btIBDidvIohoiVJ2XH2uvQcan7Lio_iIh3Ku3J3LoM8SgaHrlAnyFeVLo77qE93hFykG4CJZUj1IsJb75jFMjAK9Q1V-akTkdagA_NLm4A/s1600/thn-webinar.jpg",
-      "processedAt": "2026-07-09T19:17:04.529020+00:00"
-    },
-    {
-      "id": "art-8f8bdf9c",
-      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
-      "summary": "A criminal group called Helix has emerged with a focus on stealing data from SharePoint environments using social engineering tactics. Their approach combines voice phishing calls, device code phishing, and attempts to bypass multi-factor authentication protections. This represents a growing threat to organizations that rely on cloud-based collaboration platforms.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "vishing",
-        "sharepoint",
-        "mfa-bypass",
-        "data-theft",
-        "social-engineering",
-        "cloud-security"
-      ],
-      "whyItMatters": "Organizations need to understand that attackers are increasingly targeting cloud collaboration tools like SharePoint through voice-based social engineering rather than traditional malware. MFA alone is not sufficient protection if users can be manipulated into granting attackers legitimate access, making this a critical concern for enterprises that store sensitive data in cloud environments.",
-      "image": null,
-      "processedAt": "2026-07-09T19:17:06.754366+00:00"
-    },
-    {
-      "id": "art-1c146611",
-      "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
-      "summary": "Microsoft is using artificial intelligence to identify security vulnerabilities in Windows more effectively, which will lead to more frequent security updates for users. As AI tools become better at finding flaws in the codebase, Windows users should prepare for an increased pace of patches and updates. This shift represents Microsoft's proactive approach to addressing security issues before they can be exploited by attackers.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "windows-updates",
-        "vulnerability-detection",
-        "patch-management",
-        "proactive-defense"
-      ],
-      "whyItMatters": "This development is significant because AI-driven vulnerability discovery can catch security flaws earlier in the development cycle, potentially preventing exploits before they reach production systems. However, users need to stay on top of more frequent updates, which requires proper patch management strategies to avoid falling behind on security protections.",
-      "image": null,
-      "processedAt": "2026-07-09T19:17:09.415579+00:00"
-    },
-    {
-      "id": "art-69c9ba1b",
-      "title": "New Forg365 phishing platform uses AI to target Microsoft 365 accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-forg365-phishing-platform-uses-ai-to-target-microsoft-365-accounts/",
-      "summary": "A new phishing-as-a-service platform called Forg365 is targeting Microsoft 365 users by combining advanced attack techniques like adversary-in-the-middle (AiTM) and device code methods with AI-generated convincing lures. This service makes large-scale credential theft attacks more accessible and effective by automating the creation of realistic phishing messages. Organizations relying on Microsoft 365 face an increased risk from this emerging threat.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-as-a-service",
-        "microsoft-365",
-        "ai-assisted-attacks",
-        "credential-theft",
-        "aitm",
-        "cloud-security"
-      ],
-      "whyItMatters": "This represents a significant operational threat because PhaaS platforms lower the barrier to entry for attackers while AI-generated lures make phishing more difficult to detect through traditional email filtering. Organizations need to strengthen authentication controls and user awareness training specifically for Microsoft 365, as successful compromises can lead to widespread data exfiltration a",
-      "image": null,
-      "processedAt": "2026-07-09T19:17:12.108607+00:00"
-    },
-    {
-      "id": "art-8367c952",
-      "title": "The Hidden Security Risks of Reduced Summer IT Coverage",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-hidden-security-risks-of-reduced-summer-it-coverage/",
-      "summary": "During summer months, IT teams often reduce staffing due to vacations, but cybersecurity threats don't take a break. Organizations can address this staffing gap by adopting AI-driven automation tools to maintain consistent security operations without relying solely on manual processes. This approach helps companies stay protected even when their IT resources are stretched thin.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "summer-staffing",
-        "ai-automation",
-        "security-operations",
-        "staffing-gaps",
-        "manual-processes"
-      ],
-      "whyItMatters": "Reduced IT staffing during vacation periods creates vulnerability windows that attackers actively exploit, making this a critical operational security issue. AI-driven automation can bridge the gap between reduced human resources and the continuous threat landscape, helping organizations maintain consistent security posture year-round. Understanding and planning for seasonal staffing challenges is",
-      "image": null,
-      "processedAt": "2026-07-09T19:17:14.426709+00:00"
-    },
-    {
-      "id": "art-1b69ba84",
-      "title": "Microsoft to retire the OWA Light client in Exchange Server",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-owa-light-retirement-in-exchange-server/",
-      "summary": "Microsoft is discontinuing the OWA Light client, a simplified version of Outlook Web Access, in an upcoming Exchange Server update. This lightweight email interface will no longer be available as the company focuses development on the full-featured Outlook Web App. Organizations currently using OWA Light will need to migrate to alternative email clients before support ends.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "exchange-server",
-        "outlook-web-access",
-        "software-retirement",
-        "migration-required",
-        "client-deprecation"
-      ],
-      "whyItMatters": "Organizations relying on OWA Light must plan migration strategies to avoid service disruption and ensure business continuity. This retirement highlights the importance of tracking vendor support lifecycles and staying updated on deprecated products to prevent operational gaps in email infrastructure.",
-      "image": null,
-      "processedAt": "2026-07-09T19:17:17.039549+00:00"
     }
   ]
 }
