@@ -1,7 +1,211 @@
 {
-  "lastUpdated": "2026-07-13T09:37:07.280013+00:00",
+  "lastUpdated": "2026-07-13T19:08:09.177600+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-9ebea401",
+      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+      "summary": "CrashStealer is a new macOS information stealer malware written in native C++ that can extract sensitive data from infected computers. The malware uses a notarized dropper to bypass Apple's Gatekeeper security checks, making it appear legitimate to users. Unlike similar threats, CrashStealer validates passwords locally on victims' machines before stealing them.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-malware",
+        "information-stealer",
+        "gatekeeper-bypass",
+        "native-code",
+        "credential-theft"
+      ],
+      "whyItMatters": "This malware demonstrates how attackers are evolving techniques to bypass macOS security features by leveraging Apple's own notarization system, making detection harder for users. The C++ implementation and local password validation suggest a more sophisticated threat than typical AppleScript-based stealers, increasing the risk for macOS users who may assume notarized apps are safe.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZ5yNN1gA3Yzt-6i1sekVk3AFnHGEpas31-UowjFTXB9Rj4DhkS8H4cqjr655w9HCDKZIzcRAqn1NvLSmPLs_-oDDYpCteWgGlkUIpuyMkPIeXnfgxKCYRG54K8oV0j4vVaWj928DfJBsYJzR98e5BuZDp5OmoeFtDubZ90Qnz0a7G9VmukCII5kVE3rQ/s1600/macos-malware-1.jpg",
+      "processedAt": "2026-07-13T19:07:42.629758+00:00"
+    },
+    {
+      "id": "art-db07a37b",
+      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+      "summary": "Google and Microsoft removed ModHeader, a browser extension used by 1.6 million people, after security researchers discovered hidden code designed to collect browsing history. Although the data collection feature was inactive and there's no evidence it ever actually gathered or transmitted any information, the discovery highlighted a serious trust issue with widely-used browser extensions. This incident demonstrates how popular tools can contain suspicious functionality that users never know about.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "browser-extension",
+        "data-collection",
+        "privacy-violation",
+        "supply-chain-security",
+        "malicious-code"
+      ],
+      "whyItMatters": "This case shows how malicious or suspicious code can hide in legitimate, popular software that millions of users trust, making it a significant supply-chain security concern. It underscores the importance of security audits for browser extensions, which have direct access to sensitive user data like browsing history. Users should remain cautious about extension permissions and developers should ma",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvBtzUXyAbjgtvPJVS9zZ29ULkaIs0fMMa53ZKSip2pJbZ7_HMTGn3SV27X28JLwaq9atS1B_jvH_7qgfsjW0wyVDV_jGyqFSyO-z_vHuoigCy14xfb7DKuuWGIMUVeLiOhnap1yICNPEC2OUkA0d_e8RXtPs7oTo3BAz9I2DTxRwg67vgObResLQ7c4/s1600/browser-edge.jpg",
+      "processedAt": "2026-07-13T19:07:45.646206+00:00"
+    },
+    {
+      "id": "art-5899fa22",
+      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+      "summary": "This week highlights a critical cybersecurity paradox: the same automated tools that help security teams find and fix vulnerabilities are now being weaponized by attackers to discover exploits faster than patches can be deployed. The article covers multiple threats including ShareFile vulnerabilities, Citrix Bleed 2 ransomware, and AI-powered coding attacks, while emphasizing that many organizations remain vulnerable to previously discovered bugs due to delayed patching cycles.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "ransomware",
+        "patch-management",
+        "zero-day",
+        "citrix-bleed",
+        "vulnerability-disclosure"
+      ],
+      "whyItMatters": "Organizations face an accelerating threat landscape where attackers use AI and automated tools to find vulnerabilities faster than security teams can patch them, creating a dangerous window of exposure. Understanding this dual-use technology challenge and prioritizing rapid patch deployment is essential for defensive strategy in 2026.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuCIplQpj7CGra4jEeX4qO6DfR9_OazwL_c55clD60cy9pWK42qAsCmqrwe0YBUmPq0cg_6Gt52VlqoOGuigf4qwI8lazIdogbl8pjBDfprTbktGn96fxMbtCh06kyGFF9qCXg9PgMhSXu8V02QBxTmBArc-84ZI3jXwmoDQdj-SCp-_JY7z5XqrQR2IlP/s1600/monday-recap.jpg",
+      "processedAt": "2026-07-13T19:07:48.825619+00:00"
+    },
+    {
+      "id": "art-6f51184a",
+      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+      "summary": "A new attack called MemGhost allows attackers to inject false information into AI assistants through a single email, causing the AI to store fabricated facts about users. The attack is particularly dangerous because it hides the tampering and causes the assistant to provide misleading responses in future conversations without the user realizing they've been compromised. This demonstrates a critical vulnerability in AI systems that have memory and email access capabilities.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "memory-poisoning",
+        "email-attack",
+        "ai-agents",
+        "prompt-injection",
+        "persistent-threat"
+      ],
+      "whyItMatters": "This attack reveals that AI assistants with persistent memory are vulnerable to manipulation through common communication channels, making them unreliable for sensitive decisions. Organizations deploying AI agents with email integration and memory features must now consider whether their systems can be covertly corrupted, affecting trust in AI-generated information and decisions. The stealthy natu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_pk3JKY3zis-iTRVKpcttwfy-GP-gEzPE_NQQpqDEaMvVs65uqa3v_dG7pD_DmZWLHcwBQzjFtTYqob5wWSgO2F-0-KkwZaahqTUpGP1xbvyifaf2UnMDzI8j9pnP9EWyARmN2SHHl0eBo4UszZx3VZvicjU_MMFOEA8sjcLvzBFzAkNeFg3GIR2yncA/s1600/memghost.jpg",
+      "processedAt": "2026-07-13T19:07:52.475438+00:00"
+    },
+    {
+      "id": "art-c016760b",
+      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+      "summary": "Forg365 is a phishing service available on Telegram that attacks Microsoft 365 users by combining device code phishing with man-in-the-middle techniques and AI-generated lures. For $400 monthly or $3,800 yearly, attackers can gain access to corporate email accounts and perform unauthorized mailbox operations. This threat demonstrates how affordable, sophisticated phishing attacks are becoming and how they exploit trusted cloud platforms.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "phishing-as-a-service",
+        "microsoft-365",
+        "device-code-phishing",
+        "aitm-attack",
+        "credential-theft",
+        "cloud-security"
+      ],
+      "whyItMatters": "Forg365 represents an active, commercialized threat targeting enterprise Microsoft 365 environments with affordable pricing that lowers barriers to entry for attackers. The combination of device code phishing and AitM tactics defeats many traditional defenses, making it a significant risk to organizations of all sizes. This service demonstrates how phishing infrastructure is evolving to be more au",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlR-dy6ENZN5NKa1_sViQqXH6fEfEROkwjKV9vTowPmCu_nOALJ89JzGg-ueVJMCAqDHHozMZGd8oWbIlAQDTI8anEd6A2ZK0MdBN_FiShR3UoHGL6Cf0Gbhv8dY9RkVlZxpOCmks29u8Fnmx-JcytGZlnKC_9EuColvIMY4Y5IXH91aRaN5HOgjvvSPEo/s1600/ms-device-code1.jpg",
+      "processedAt": "2026-07-13T19:07:55.352914+00:00"
+    },
+    {
+      "id": "art-05240b42",
+      "title": "New CrashStealer malware poses as Apple crash reporting tool",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
+      "summary": "CrashStealer is a new malware targeting macOS users that disguises itself as Apple's official crash-reporting software. Once installed, it steals sensitive information including login credentials, keychain data, and cryptocurrency wallet information. This threat is particularly dangerous because users are likely to trust what appears to be a legitimate Apple tool.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-malware",
+        "credential-theft",
+        "social-engineering",
+        "crypto-theft",
+        "information-stealer"
+      ],
+      "whyItMatters": "This malware demonstrates how attackers exploit user trust in legitimate software vendors to bypass security awareness. Mac users who believe they are installing official Apple tools could unknowingly compromise their financial accounts, passwords, and cryptocurrency holdings, making this a significant personal security risk for a large user base.",
+      "image": null,
+      "processedAt": "2026-07-13T19:07:57.820374+00:00"
+    },
+    {
+      "id": "art-cc9a190d",
+      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
+      "summary": "CISA has issued a warning about active attacks exploiting security flaws in two Joomla extensions: iCagenda and Balbooa Forms. Hackers are using these vulnerabilities to upload malicious files and gain remote code execution on affected websites. This means attackers can take complete control of vulnerable Joomla sites to steal data, inject malware, or launch further attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "joomla",
+        "remote-code-execution",
+        "file-upload",
+        "active-exploitation",
+        "cisa-alert",
+        "web-application"
+      ],
+      "whyItMatters": "This threat is critical because attackers are already actively exploiting these vulnerabilities, meaning organizations running these Joomla extensions face immediate risk. Joomla powers millions of websites globally, so widespread exploitation could affect countless organizations if patches aren't applied quickly. Site administrators need to update these extensions urgently or disable them to prev",
+      "image": null,
+      "processedAt": "2026-07-13T19:08:00.851213+00:00"
+    },
+    {
+      "id": "art-efec4356",
+      "title": "Lidl discloses online shop breach after service provider hack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
+      "summary": "Lidl, a major European supermarket chain, discovered that attackers accessed customer personal information through a compromised service provider rather than Lidl's own systems. The breach affected customers in Germany, Belgium, and the Netherlands. This incident highlights how third-party vendors can become weak points in a company's security, putting millions of customers at risk even when the primary company's defenses are strong.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "third-party-risk",
+        "customer-data",
+        "supply-chain-security",
+        "incident-disclosure"
+      ],
+      "whyItMatters": "This breach demonstrates the critical importance of supply chain security and vendor risk management in cybersecurity. Organizations must monitor and secure their third-party service providers because attackers often target these weaker links to gain access to major companies' customer data. It also shows why customers should expect notifications and take protective steps like monitoring accounts ",
+      "image": null,
+      "processedAt": "2026-07-13T19:08:03.790212+00:00"
+    },
+    {
+      "id": "art-0390da64",
+      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
+      "summary": "Varonis has launched a free Capture the Flag (CTF) competition called Breach at the Beach that teaches cybersecurity defenders how to identify and respond to Entra ID attacks. The hands-on training exercise uses realistic attack scenarios to help participants understand how attackers abuse Microsoft's identity management platform. By participating in this CTF, defenders can develop practical skills in investigating Entra ID-based threats.",
+      "category": "Security Awareness",
+      "severity": "Low",
+      "tags": [
+        "entra-id",
+        "capture-the-flag",
+        "identity-security",
+        "hands-on-training",
+        "defender-education"
+      ],
+      "whyItMatters": "Entra ID (formerly Azure AD) is a critical attack surface that many organizations struggle to defend effectively, making educational resources like this CTF valuable for building defensive capabilities. Understanding real-world attack techniques through practical exercises helps security teams detect and respond to identity-based compromises before they cause significant damage.",
+      "image": null,
+      "processedAt": "2026-07-13T19:08:06.517039+00:00"
+    },
+    {
+      "id": "art-fecb861a",
+      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
+      "summary": "UK law enforcement has charged five individuals involved with Russian Coms, a platform that enabled criminals to spoof caller IDs and conduct large-scale scam operations. The investigation revealed the platform was used to make over 1.8 million fraudulent calls targeting victims. This takedown represents a significant enforcement action against infrastructure supporting organized cybercrime and phone-based fraud schemes.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "caller-id-spoofing",
+        "fraud-platform",
+        "law-enforcement",
+        "cybercrime",
+        "scam-infrastructure"
+      ],
+      "whyItMatters": "This case demonstrates successful international law enforcement coordination against criminal infrastructure and highlights how spoofing platforms enable massive-scale fraud operations. For organizations and individuals, it underscores the importance of implementing call verification systems and training employees to recognize spoofed calls as a critical social engineering vector.",
+      "image": null,
+      "processedAt": "2026-07-13T19:08:09.177452+00:00"
+    },
     {
       "id": "art-8a165e1a",
       "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
@@ -823,214 +1027,6 @@
       "whyItMatters": "This incident demonstrates a critical vulnerability in AI-powered customer support systems that can be manipulated to bypass authentication controls, potentially affecting millions of users. The targeting of government accounts shows how these weaknesses pose national security risks, and the public sharing of exploit instructions on Telegram indicates widespread threat availability and potential f",
       "image": null,
       "processedAt": "2026-07-11T18:41:19.426245+00:00"
-    },
-    {
-      "id": "art-54fbdddb",
-      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-11",
-      "originalUrl": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-      "summary": "Zimbra has discovered a critical stored cross-site scripting (XSS) vulnerability in its Classic Web Client that allows attackers to embed malicious code in emails. When users open these specially crafted emails, the malicious scripts execute within their session, potentially giving attackers full control over the user's account and data. Zimbra is urging all customers to apply available updates immediately to patch this flaw.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "stored-xss",
-        "email-security",
-        "zimbra",
-        "patch-now",
-        "code-execution",
-        "web-client"
-      ],
-      "whyItMatters": "This vulnerability is critical because email is a primary attack vector and Zimbra is widely used in enterprise environments, making this flaw an attractive target for attackers. The ability to execute arbitrary code in user sessions means attackers could steal credentials, access sensitive emails, or compromise entire organizations without requiring user interaction beyond opening an email. Immed",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s1600/zimbra-email-hack.jpg",
-      "processedAt": "2026-07-11T08:03:47.177805+00:00"
-    },
-    {
-      "id": "art-ff098da2",
-      "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
-      "summary": "Security researchers discovered MODBEACON, a new remote access trojan written in Rust and linked to the Chinese cybercrime group Silver Fox. The malware uses advanced gRPC streaming technology to encrypt its command-and-control communications, making detection harder. Despite appearing to be an unsophisticated operation that spreads through fake software installers and search engine poisoning, the group demonstrates more technical capability than initially apparent.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "rat-trojan",
-        "modbeacon",
-        "c2-communication",
-        "rust-malware",
-        "silver-fox",
-        "grpc-encryption"
-      ],
-      "whyItMatters": "This threat demonstrates how adversaries are adopting legitimate technologies like gRPC to obfuscate malicious communications, making traditional detection methods less effective. Organizations need to monitor for unusual gRPC traffic patterns and understand that threat actors using SEO poisoning and fake installers can still possess sophisticated technical capabilities.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTCUzhkUq2Y7DPv0yS2FatrHQTcHfupRly6f5kSWyQU-So3FOjpC8pt_VKR4qo1SoUGR65ycOEQonbW5heKWj1g_A8qDy69YtWGZDO4m2t46Sip-jdPAlNs2fpRj-w1yd8WpyJpNFUpj1iTBO0X6fy3n9DJ4aEdsWaQz_tN-VV-PxDrufKZR9wkznmXJQ/s1600/MODBEACON.jpg",
-      "processedAt": "2026-07-11T08:03:49.713984+00:00"
-    },
-    {
-      "id": "art-c9035f47",
-      "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-      "summary": "A critical vulnerability called XRING has been discovered in XQUIC, Alibaba's HTTP/3 library, that allows remote attackers to crash servers without authentication or special packets. The flaw stems from a single incorrect variable in the code and can be exploited using just 260 bytes of legitimate network traffic. Currently, there is no patch available for this vulnerability.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "http3",
-        "denial-of-service",
-        "xquic",
-        "xring",
-        "unpatched"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to any organization running XQUIC-based HTTP/3 servers, as attackers can easily crash services without authentication or detection. The lack of an available patch combined with the simplicity of exploitation makes this a pressing concern for infrastructure stability and service availability.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQHphr7bXE4J4-EmYSWy0cjHarUBibR2JrXpFbwDKMZnsWbiUsC9UE7g3x2r8WFDLB7BBZlH2kDJ3I9QqF8IIGLPiZda93wKUaDqJC8Nv11yrd7VPm9RmBOky0yRXGRhhcDqbwNCZvHiGTkKRb06XAwFiGl0juzUeFBn3LUDwFfxZVNlInVmXTNI4cMLI/s1600/XQUIC-demo.gif",
-      "processedAt": "2026-07-11T08:03:51.958840+00:00"
-    },
-    {
-      "id": "art-9264da91",
-      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
-      "summary": "Lumen Technologies successfully expanded its asset inventory management from 17,000 to 1.1 million assets, addressing a critical gap in enterprise cybersecurity. The article highlights that most organizations fail to consolidate their asset and exposure data into a single view, with only 45% of security leaders doing so effectively. This fragmented approach undermines downstream security programs, making comprehensive exposure management essential for protecting modern enterprise infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "asset-management",
-        "exposure-management",
-        "inventory-consolidation",
-        "enterprise-security",
-        "vulnerability-tracking"
-      ],
-      "whyItMatters": "Organizations cannot protect what they cannot see. Lumen's case demonstrates that inaccurate or fragmented asset inventories create blind spots that attackers exploit, making proper asset discovery and consolidation a foundational requirement for any effective security program. This directly impacts an enterprise's ability to identify, prioritize, and remediate vulnerabilities at scale.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGplfQpPmwb3F3h_tdGW9-jNmpKBLd2DdhOw1nugXafk9rWwqxFwvD5xE1L1Qs0zvZvgi7Fx_jhj9kIn9PhOvWYuLMd9n7fOeXnfzujPanNBTqmMC4SKi__b_KFtpnmNkz-jtzB2tcjgO_ceckyR4Er4Gl3LASJKbyGvZVhkqP6m9Xdx12WO6xWROBzFk/s1600/million.jpg",
-      "processedAt": "2026-07-11T08:03:54.879328+00:00"
-    },
-    {
-      "id": "art-2f88e023",
-      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "summary": "A cybercriminal group accidentally left a server exposed online for three weeks, revealing their hacking infrastructure, tools, and logs that showed attempts to compromise over 1.4 million websites. The leaked data provided security researchers with rare insight into how mass WordPress site-hacking operations are organized and executed from the attacker's perspective. Although far fewer sites were actually successfully breached than targeted, the exposure highlighted the scale and sophistication of automated attack campaigns.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "wordpress-backdoor",
-        "mass-hacking",
-        "wp-shellstorm",
-        "exposed-server",
-        "malware-infrastructure",
-        "threat-intelligence"
-      ],
-      "whyItMatters": "This incident demonstrates how attackers operate at scale against WordPress sites and provides defenders with actual forensic evidence of attack methods, tools, and targeting strategies. Understanding the inner workings of these operations helps security teams better protect their own WordPress installations and detect similar backdoor attempts. The exposure also illustrates how operational securi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgruetcUTsay2-ledgCIdCPKK_bPRiTzuXzYeUiLR3xuazZgHTmxO4Gz6PyyuwdFUVoHHOCbq5PksEMW18dSsdzCJddBMr8vQ3TQO3PIqXExF_17RGVfKRD8cPltNjh6eV1fgXM-pYYlwZnWaZcf7oo50CahUBY5AWt8-IS1K7KxhlL9GFLDcAk1ruwMSI/s1600/hacker-server.jpg",
-      "processedAt": "2026-07-11T08:03:58.159444+00:00"
-    },
-    {
-      "id": "art-578fe05d",
-      "title": "New U-Boot flaws could enable stealthy firmware attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
-      "summary": "Researchers have identified six security flaws in U-Boot, a bootloader used across millions of devices worldwide. These vulnerabilities could let attackers inject malicious code during the device startup process, allowing them to install hidden malware that survives restarts and bypasses security features. This type of firmware-level attack is particularly dangerous because it operates below the operating system level.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "u-boot",
-        "firmware-attacks",
-        "bootloader",
-        "malware",
-        "persistent-threat",
-        "patch-urgently"
-      ],
-      "whyItMatters": "U-Boot is fundamental software on billions of IoT devices, servers, and embedded systems, making these vulnerabilities a widespread risk. Firmware-level compromises are extremely difficult to detect and remove, potentially affecting device security for years. Organizations using affected devices need immediate patching to prevent stealthy, persistent attacks that traditional security tools cannot ",
-      "image": null,
-      "processedAt": "2026-07-11T08:04:01.030098+00:00"
-    },
-    {
-      "id": "art-2b839150",
-      "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
-      "summary": "AI agents are creating many new non-human identities in organizations, but companies often lack visibility into what these identities are, who manages them, and what permissions they have. This growth is expanding the attack surface and making it difficult for security teams to maintain proper identity governance. Without stronger visibility and control measures, these AI-generated identities could become targets for attackers or be misused to access sensitive systems.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-agents",
-        "identity-governance",
-        "attack-surface",
-        "non-human-identities",
-        "visibility-gap"
-      ],
-      "whyItMatters": "As organizations rapidly deploy AI agents, unmanaged identities create blind spots that attackers can exploit. Without proper identity and access controls for AI systems, companies risk unauthorized access to critical resources and data. This represents a critical gap in modern security strategies that many organizations have not yet addressed.",
-      "image": null,
-      "processedAt": "2026-07-11T08:04:03.427263+00:00"
-    },
-    {
-      "id": "art-06d47dd9",
-      "title": "Zimbra urges customers to patch critical web client XSS flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/zimbra-urges-customers-to-patch-critical-web-client-xss-flaw/",
-      "summary": "Zimbra has identified a critical cross-site scripting (XSS) vulnerability in its Classic Web Client, which is used to access the Zimbra Collaboration suite. The company is urging all customers to apply security patches immediately to prevent exploitation. This flaw could allow attackers to inject malicious code and compromise user sessions or steal sensitive information.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "xss-vulnerability",
-        "web-client",
-        "patch-now",
-        "zimbra",
-        "collaboration-suite",
-        "critical-flaw"
-      ],
-      "whyItMatters": "XSS vulnerabilities in widely-used email and collaboration platforms like Zimbra pose a significant risk because they can be exploited to steal credentials, session tokens, or sensitive business data from many users simultaneously. Prompt patching is essential to prevent active exploitation before attackers develop weaponized attacks targeting this flaw.",
-      "image": null,
-      "processedAt": "2026-07-11T08:04:05.923191+00:00"
-    },
-    {
-      "id": "art-8cc03e2a",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their roles in an August 2024 cyberattack that disrupted London's public transportation system. The guilty pleas occurred on the first day of trial, significantly shortening what was expected to be a six-week legal proceeding. This case demonstrates law enforcement's ability to identify and prosecute key members of sophisticated cybercrime organizations.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "scattered-spider",
-        "cybercrime",
-        "ransomware-attack",
-        "infrastructure-attack",
-        "law-enforcement",
-        "guilty-plea"
-      ],
-      "whyItMatters": "This case highlights that even sophisticated cybercriminals face serious legal consequences, which can deter similar attacks on critical infrastructure. The rapid identification and prosecution of Scattered Spider members demonstrates improved international law enforcement coordination against major cybercrime groups. Understanding how critical infrastructure targets are attacked and defended is e",
-      "image": null,
-      "processedAt": "2026-07-11T08:04:08.791401+00:00"
-    },
-    {
-      "id": "art-7aa7eebb",
-      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-18",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "summary": "A large Android botnet called Popa has been operating for four years, infecting millions of consumer TV boxes and using them to commit advertising fraud, account takeovers, and data scraping. Security researchers have traced the botnet's operations back to NetNut, a residential proxy service owned by Alarum Technologies Ltd, a publicly-traded Israeli company. This connection reveals how legitimate-appearing companies may be involved in coordinating cybercriminal activities at scale.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "botnet",
-        "android-malware",
-        "advertising-fraud",
-        "account-takeover",
-        "residential-proxy-abuse",
-        "iot-security"
-      ],
-      "whyItMatters": "This case demonstrates how botnets can persist undetected for years while causing widespread harm through fraud and data theft, and it exposes the concerning possibility that publicly-traded companies may facilitate or knowingly operate criminal infrastructure. Organizations need to monitor their network traffic for suspicious proxy usage patterns, and individuals should be aware that compromised ",
-      "image": null,
-      "processedAt": "2026-07-11T08:04:12.760448+00:00"
     }
   ]
 }
