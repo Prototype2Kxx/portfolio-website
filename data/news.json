@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-07-13T19:08:09.177600+00:00",
+  "lastUpdated": "2026-07-14T08:17:25.560466+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-6e11cd05",
+      "title": "Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Data Theft Across Three Paths",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+      "summary": "Attackers associated with ShinyHunters have conducted a year-long data theft campaign targeting Salesforce environments by exploiting trusted OAuth connections rather than platform vulnerabilities. Instead of finding security flaws, these threat actors abused the legitimate integrations that organizations had already set up between Salesforce and third-party applications. This approach demonstrates how attackers can bypass traditional security measures by taking advantage of the trust relationships already in place within business systems.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "oauth-abuse",
+        "salesforce-breach",
+        "data-exfiltration",
+        "supply-chain-attack",
+        "shinyhunters",
+        "trusted-connection-exploitation"
+      ],
+      "whyItMatters": "This attack pattern is particularly dangerous because organizations cannot simply patch their way to safety—the threat exploits legitimate functionality rather than software vulnerabilities. Security teams must now audit OAuth permissions and third-party integrations as critical security controls, not just convenience features. The year-long campaign timeline indicates these attacks are sophistica",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu2gmOSckwOqmlhqAYdrlHfRuTsOJIi7dr9cFZosLQAJeoJxcUVQ9PvibcfnCsBdPWvfJRRrxoS8nx9yTt9NtDNCwVCFavEt7tQT0viD7AwGvUjhu-_k0B2J4KBSAJ-5GUGFZHCTSyOuW4I082lHoUkbsbH33tsIeo3gm71_CkjMd_bcAN7i4xPvMnefA/s1600/salesforce-attack-path.jpg",
+      "processedAt": "2026-07-14T08:16:51.904325+00:00"
+    },
+    {
+      "id": "art-a1a0bbec",
+      "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+      "summary": "Meta has filed a patent for an AI system that continuously monitors users' voices throughout the day to analyze their emotional state based on vocal patterns. The technology would create timestamped logs linking emotional data to location, device usage, and activities, raising significant privacy concerns about persistent surveillance and personal data collection.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "ai-surveillance",
+        "privacy-violation",
+        "voice-monitoring",
+        "emotional-tracking",
+        "data-collection",
+        "meta"
+      ],
+      "whyItMatters": "This patent demonstrates how major tech companies are developing invasive monitoring capabilities that could normalize continuous behavioral tracking and emotional profiling without explicit user consent. The combination of constant audio monitoring, location tracking, and emotional inference creates unprecedented privacy risks and potential for misuse in targeted advertising, discrimination, or m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiElxdOUOnt8DZ-78o4IBYmmieJL3gm-RPGxQYpkPhzk8o-kMG_bWAGAHjVzPbVEGnkPmhF80RlbaRmvtgVLfABQSKApl6fsQ2RkhkWuZsxF9WR-HnsthEl_bfg4A6w_hMThqQoWAFimIXGTSZ0QLA6DSHprkHQTTp3WNwy-QmyaosOcs3ksJxy5lztSoc/s1600/meta-facebook.jpg",
+      "processedAt": "2026-07-14T08:16:54.189990+00:00"
+    },
+    {
+      "id": "art-3a328734",
+      "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
+      "summary": "A Fortune 50 company's CISO is exploring how to integrate AI agents into their Security Operations Center, having already connected Claude to detection tools with promising results in specific investigations. The article discusses the broader architectural considerations for deploying autonomous AI systems within SOC environments while maintaining analyst effectiveness. The piece suggests balancing autonomous AI capabilities with analyst copilots rather than choosing one approach exclusively.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-agents",
+        "soc-operations",
+        "security-automation",
+        "analyst-copilot",
+        "ai-integration"
+      ],
+      "whyItMatters": "As organizations increasingly deploy AI agents in security operations, understanding how to effectively combine autonomous systems with human analysts is critical for maximizing detection capabilities while maintaining human oversight and decision-making. This architectural balance directly impacts incident response speed and accuracy, making it essential for security leaders planning AI-driven SO",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgV-KJeaayQ7Le5oAYYddL3LmP0k3zaJOoLo9puHLF8y_fVAoBUcJba3ZyyCfJWdvvMBQTt__x0v8iggR1HfDgXOO1b5CD1xZUVr03ZnoO_1moKSeA9iNhOsPoLZMJXG9IwPJYO1NYYPNsWrBqmlx2FHM7tKF5pxRcLXLqSNtnLGP80Q4MxK5vGeB74tug/s1600/slow.jpg",
+      "processedAt": "2026-07-14T08:16:57.213203+00:00"
+    },
+    {
+      "id": "art-7e3ffed5",
+      "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+      "summary": "An unknown attacker used a suspected AI-generated PowerShell script to scan and map an organization's Active Directory environment, including domain controllers, user accounts, and computers. The script collected sensitive information and generated a report file, indicating reconnaissance activity typical of attackers preparing for deeper network intrusion. This incident highlights how attackers are increasingly using AI tools to automate and enhance their initial network exploration tactics.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "active-directory",
+        "powershell",
+        "ai-generated-malware",
+        "network-reconnaissance",
+        "threat-actor",
+        "enumeration"
+      ],
+      "whyItMatters": "Active Directory mapping is a critical early-stage attack technique that gives attackers a complete blueprint of an organization's network structure, user roles, and systems—essential information for planning lateral movement and privilege escalation attacks. The use of AI-generated scripts suggests attackers are evolving their methods to evade detection while improving efficiency, making traditio",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh43TJKqVkJoN7Q3donw2FnXp1IrJEr6vvDteFOBCSR-PptAc8fMXXCq07kvKWoDacCHo6gi5-eUoX9mIBHggv-KXsoH31yBi0-_MZBjxYbiYNlhvAu8V_xhjuKHgnQj43x5S2pORBIGONxE_yLZdZOnDCmcjMegQjhwZtHDThg_4nlhZqwSizsMRCfZFQW/s1600/ps-ai.jpg",
+      "processedAt": "2026-07-14T08:17:04.011780+00:00"
+    },
+    {
+      "id": "art-d309714d",
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-11",
+      "originalUrl": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "summary": "Zimbra has identified a critical security flaw in its Classic Web Client that allows attackers to embed malicious code into emails, which then executes automatically when users open them. This stored cross-site scripting (XSS) vulnerability could give attackers the ability to run arbitrary code within a user's email session, potentially compromising sensitive information or account access. The company is urging all customers to apply security patches immediately, though the vulnerability has not yet been assigned a CVE identifier.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "stored-xss",
+        "arbitrary-code-execution",
+        "email-security",
+        "patch-urgent",
+        "zimbra",
+        "web-client"
+      ],
+      "whyItMatters": "This vulnerability is critical because it targets email systems—a primary attack vector—and allows code execution without user awareness beyond opening a normal message. With Zimbra being widely used in enterprise environments, this flaw poses an immediate risk to organizations handling sensitive communications. Rapid patching is essential to prevent large-scale exploitation before attackers weapo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirVz95zYTg61VRro9unfJCWWwwUrv3pQdtyNT7rPL8iCg6n0S6bky4dqPiluQHfSvQMIO9cyYgrz-07ZCx8yG_qND_J9XJ_0BoUON9p3zj0etafNvjg45txAeu4uCDEMxGDNv2tIxNuqrC0OsKG_sWZp5QIlEkbqZ_g_EEcAdXUQbuo_EgsXwT3mERTTk/s1600/zimbra-email-hack.jpg",
+      "processedAt": "2026-07-14T08:17:07.350784+00:00"
+    },
+    {
+      "id": "art-fb0199c2",
+      "title": "Japan's largest taxi operator shuts systems after cyberattack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/",
+      "summary": "Nihon Kotsu, Japan's largest taxi company, experienced a cyberattack that compromised its systems and forced the organization to shut down critical infrastructure. This incident highlights how even major transportation services are vulnerable to cyber threats and can face significant operational disruptions. The attack demonstrates the real-world consequences of cybersecurity breaches on essential public services.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cyberattack",
+        "critical-infrastructure",
+        "transportation-security",
+        "operational-disruption",
+        "japan"
+      ],
+      "whyItMatters": "This incident demonstrates that large-scale infrastructure operators are attractive targets for cyberattackers and that successful breaches can disable essential services affecting thousands of users. Organizations managing critical services must implement robust security measures and incident response plans to minimize downtime and protect public operations.",
+      "image": null,
+      "processedAt": "2026-07-14T08:17:11.695451+00:00"
+    },
+    {
+      "id": "art-2b160c3e",
+      "title": "Hackers backdoor Jscrambler npm package with infostealer malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-jscrambler-npm-package-with-infostealer-malware/",
+      "summary": "A malicious version of the Jscrambler npm package was distributed by a threat actor, containing infostealer malware designed to steal sensitive information. The compromised package was downloaded nearly 1,500 times before being detected and removed. This incident highlights how popular open-source libraries can be weaponized to distribute malware to thousands of developers and their applications.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "npm-supply-chain",
+        "malware",
+        "infostealer",
+        "package-compromise",
+        "software-supply-chain"
+      ],
+      "whyItMatters": "Supply chain attacks targeting npm packages pose a critical risk because developers automatically trust and integrate these libraries into production systems, potentially exposing millions of end-users to malware. The widespread downloads mean this malware likely reached numerous organizations before detection, making it essential for developers to audit their dependencies and implement strict pac",
+      "image": null,
+      "processedAt": "2026-07-14T08:17:16.470288+00:00"
+    },
+    {
+      "id": "art-907795db",
+      "title": "EU sanctions Russian GRU military hackers over cyberattacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/",
+      "summary": "The European Union and United Kingdom have imposed sanctions against multiple Russian individuals and organizations associated with the GRU military intelligence agency for coordinating cyberattacks across Europe. This action represents a significant geopolitical response to Russia's state-sponsored hacking operations that have targeted various European nations. The sanctions target a network of hacking groups working together rather than isolated threat actors.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "state-sponsored",
+        "gru",
+        "russian-hackers",
+        "sanctions",
+        "geopolitical",
+        "infrastructure-attacks"
+      ],
+      "whyItMatters": "This demonstrates that nation-state cyberattacks have reached a level of severity warranting international sanctions, signaling increased consequences for state-sponsored cyber operations. Organizations across Europe should review their defenses against advanced persistent threats (APTs) linked to Russian military intelligence. Understanding the geopolitical dimensions of cybersecurity helps organ",
+      "image": null,
+      "processedAt": "2026-07-14T08:17:19.133695+00:00"
+    },
+    {
+      "id": "art-607e5319",
+      "title": "New U-Boot flaws could enable stealthy firmware attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+      "summary": "Researchers have identified six security flaws in U-Boot, a bootloader used across countless devices, that could let attackers inject harmful code during the startup process. These vulnerabilities are particularly dangerous because they can bypass security measures and install malware that persists even after reboots, making detection and removal extremely difficult. This type of low-level attack represents a serious threat to device integrity across industries.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "u-boot",
+        "firmware-attack",
+        "bootloader",
+        "privilege-escalation",
+        "persistent-malware",
+        "patch-urgent"
+      ],
+      "whyItMatters": "U-Boot is foundational software used in billions of IoT devices, embedded systems, and networking hardware worldwide, making these vulnerabilities a widespread risk. Firmware-level exploits are particularly dangerous because they operate below the operating system and can evade standard security tools, allowing attackers to maintain control even after software updates. Organizations must prioritiz",
+      "image": null,
+      "processedAt": "2026-07-14T08:17:22.128034+00:00"
+    },
+    {
+      "id": "art-a6b919a2",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "summary": "CISA experienced a significant security incident when a contractor accidentally exposed sensitive credentials, including AWS Govcloud keys, in a public GitHub repository for nearly half a year without detection. The agency has since published a postmortem analysis examining the failures in their incident response process. Security professionals can learn critical lessons from CISA's gaps in credential management and monitoring practices.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "credential-exposure",
+        "cloud-security",
+        "github-leak",
+        "aws-keys",
+        "incident-response",
+        "secrets-management"
+      ],
+      "whyItMatters": "This incident demonstrates that even government security agencies can fail at fundamental credential hygiene and monitoring, making it a critical wake-up call for organizations of all sizes. The six-month detection lag reveals dangerous gaps in secret scanning and repository monitoring that attackers could have exploited. Organizations must implement automated secret detection, access controls, an",
+      "image": null,
+      "processedAt": "2026-07-14T08:17:25.560314+00:00"
+    },
     {
       "id": "art-9ebea401",
       "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
@@ -821,212 +1028,6 @@
       "whyItMatters": "Healthcare service providers often have weaker security than major hospitals but handle sensitive patient data and critical systems, making them attractive targets. Understanding this shift in attacker tactics helps organizations prioritize defenses for vulnerable supply chain partners. The doubling of attacks on these businesses indicates an accelerating threat that requires immediate attention a",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1b6b2d15edbb34ff/6a501046f2ad521509a98709/UMMC-Childrens-Hospital-Jackson-Chad_Robertson_Media-shutterstock.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-07-12T08:24:56.320624+00:00"
-    },
-    {
-      "id": "art-6f932bec",
-      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "summary": "Researchers tested 281 popular free VPN apps from the Google Play Store and discovered that many fail to protect user privacy and security as intended. The problematic apps have been installed over 2.4 billion times and exhibit basic flaws such as traffic leaks and unencrypted data transmission. These issues represent fundamental failures in the core security features users expect from VPN applications.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "vpn-security",
-        "mobile-privacy",
-        "data-leakage",
-        "android-security",
-        "traffic-monitoring"
-      ],
-      "whyItMatters": "Billions of users rely on free VPN apps believing their traffic is protected, but this research reveals widespread failures in basic security functions. Users may unknowingly expose sensitive data and browsing activity despite using what they think is a privacy tool, making this a critical issue for consumer cybersecurity awareness and app store governance.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGJR5fh4xv_X2JER6SMxM62unaK2pucigiJwiE69bCR9n3fgVMqlH2zWpTsmiy4d936R46czjNmkAjDpU7yZgPMl6KFp7phz3kQ9sO1XaE3JHMW0VCUtwN3_zOqOcUfKdbJTJjWjahA44NPMXMif0JqnO_kzJDfuHT0HJvtOlndAvheFqNrpviHXVQ_DIb/s1600/android-vpn-security.jpg",
-      "processedAt": "2026-07-11T18:40:53.906464+00:00"
-    },
-    {
-      "id": "art-fccaffdb",
-      "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
-      "summary": "Attackers are using fake voice calls and phishing techniques to trick Microsoft 365 users into enrolling fake security keys (Entra passkeys), allowing them to gain unauthorized access to corporate accounts. The group, tracked as O-UNC-066, uses a sophisticated phishing kit controlled remotely to target the passkey enrollment process across multiple industries. Once they gain access, they attempt to extort data from the compromised organizations.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "microsoft-365",
-        "passkey-attacks",
-        "social-engineering",
-        "data-extortion",
-        "cloud-security"
-      ],
-      "whyItMatters": "This attack targets a modern security feature (passkeys) that organizations rely on for protection, showing that attackers are evolving their tactics to bypass newer defenses. The combination of voice-based social engineering with technical phishing makes this particularly dangerous, as it exploits both human psychology and technical weaknesses. Organizations need to immediately educate users abou",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1L4YdSw3-1jg88TMzYxjsqRmu3Bq-VkmyGg742mMsJaIyhyaBk5MBeEFOxagE4H6GFjfH8ey1114iqyT0LuKYFdu7ocZhOrA3WQCvtNZGBknEJ1wTdb5vJ-M8w5kLXaUoBi39TXducoH8jZVrQ1xQQsBtEf0rrGJGfappdR1CrSB3xvaJC8Dgos2XdC37/s1600/Microsoft-Entra-Passkey-Enrollment.jpg",
-      "processedAt": "2026-07-11T18:40:57.545763+00:00"
-    },
-    {
-      "id": "art-04c4dc9c",
-      "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
-      "summary": "Sophos discovered that AI coding agents like Claude Code, Cursor, and OpenAI Codex are triggering endpoint security detection rules designed to catch attackers, even though the AI tools themselves are not malicious. These agents perform legitimate development tasks such as accessing browser credentials and checking Windows credential stores, but their behavior patterns closely resemble malicious intrusion activity to security software. This creates a challenge for organizations trying to balance AI tool adoption with effective threat detection.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "endpoint-detection",
-        "false-positives",
-        "behavioral-analysis",
-        "security-tools"
-      ],
-      "whyItMatters": "Organizations increasingly deploying AI coding agents need to understand that these tools may trigger security alerts, risking either excessive false alarms that diminish security effectiveness or relaxed detection rules that could allow real threats. Security teams must recalibrate endpoint detection strategies to distinguish between legitimate AI agent activities and genuine malicious behavior, ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEtVOCcf8-6_z0F4FVoPlTMQRFJ4CfHCbl-GvhT9EbRrfZgTJsNbBkzAq72212RbMT1Knk5GJsYDY8p5W7YO8x29vQ782QW6CRorl_oKVyAgOmS46Y9HyTPcdZOmMjOPtWjpAHH3C91EPVk4dnHqaAEX8QoaSvGzCbjMy0YhF7lJaIR6-T9Dq5jzZycIc/s1600/alarm.jpg",
-      "processedAt": "2026-07-11T18:41:00.440352+00:00"
-    },
-    {
-      "id": "art-1e0ada71",
-      "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
-      "summary": "Researchers have discovered a new attack called HalluSquatting that exploits AI coding assistants' tendency to fabricate package names. Attackers identify fake names that AI systems commonly invent, register those names as legitimate packages, and trick the AI into installing malicious software on users' systems. This technique turns a known weakness of AI systems into a vector for delivering botnet malware.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "malware",
-        "supply-chain",
-        "coding-assistants",
-        "social-engineering"
-      ],
-      "whyItMatters": "As AI coding assistants become integral to development workflows, this attack demonstrates a critical gap between AI hallucinations and real-world security consequences. Organizations and developers relying on AI tools need to implement verification practices and understand that AI-generated suggestions can bypass traditional security checks, making this a significant emerging threat to software s",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFLRfTvakP4spTkbT8iiV9ndUR4EwlHOmGkZrO4JdBl3QsmWS5zA_sx081fvr3R11VEnZcjHOFcirZAQ5eaqB3n8sFJQ7m64edzVHNONHsD9j9Obds8E_Z9VC08y42TCyJV_3zpWam1LTHhiZBLX5WCLNp-4tdR-AwYzlyoifh1Seu-ND4OKbnZOEhMks/s1600/ai-botnet.jpg",
-      "processedAt": "2026-07-11T18:41:02.954656+00:00"
-    },
-    {
-      "id": "art-ea8d29e9",
-      "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
-      "summary": "Ubiquiti released security patches to fix multiple critical vulnerabilities affecting its UniFi product line, including Connect, Talk, Access, Protect, and OS platforms. These flaws could allow attackers to escalate their privileges and execute arbitrary commands on affected systems. The most severe vulnerability, CVE-2026-50746, has a perfect CVSS score of 10.0, indicating an extremely dangerous security issue.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "ubiquiti",
-        "unifi",
-        "privilege-escalation",
-        "arbitrary-code-execution",
-        "patch-critical",
-        "cve-2026-50746"
-      ],
-      "whyItMatters": "Ubiquiti UniFi products are widely deployed in enterprise networks and managed service environments, making these critical vulnerabilities a widespread risk if left unpatched. The perfect CVSS 10.0 score indicates immediate exploitability without authentication, requiring urgent patching across all affected deployments. Organizations using these products must prioritize applying updates to prevent",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgx2TRa1CP7yIs67Wa1bxiFVW5yq1S7vtAaQHf_htjuDbpAETKv8tfw7rchtVvME0FsA8YJ_uQzRp_ZAV-nPhLyRUQw_NNdgN0zhjyVR_L3wzt1ZX08PknwSF2FBLeieIUIx7t4hLMF1sDnsRuFCzllq8auoKriKlGMdllY8IYG04bID6cgGzty0e9mVhoM/s1600/uu.jpg",
-      "processedAt": "2026-07-11T18:41:05.783143+00:00"
-    },
-    {
-      "id": "art-ece4a46c",
-      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
-      "summary": "The Australian Cyber Security Centre has alerted the public about an ongoing global attack campaign that exploits weaknesses in content management systems and their plugins. Attackers are targeting CMS platforms to gain unauthorized access to websites and potentially steal data or deploy malicious code. Organizations running vulnerable CMS installations need to update their systems immediately to protect against this widespread threat.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "cms-vulnerability",
-        "content-management-systems",
-        "plugin-exploits",
-        "global-campaign",
-        "patch-required",
-        "website-security"
-      ],
-      "whyItMatters": "CMS platforms power millions of websites globally, so vulnerabilities in these systems create a massive attack surface that affects businesses, organizations, and individuals. Attackers can compromise websites to steal customer data, inject malware, or launch further attacks, making this a critical concern for web administrators and site owners. Timely patching and awareness of exploitation campai",
-      "image": null,
-      "processedAt": "2026-07-11T18:41:08.483937+00:00"
-    },
-    {
-      "id": "art-46ab5920",
-      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
-      "summary": "Researchers have discovered a technique called 'Ghostcommit' that embeds hidden prompt injection attacks within PNG image files to compromise AI code review tools and coding agents. When processed by AI systems, these poisoned images can trick automated tools into extracting sensitive information like repository secrets and credentials. The attack successfully bypassed popular AI code reviewers like CodeRabbit and Bugbot, demonstrating a significant gap in how AI agents validate and process different file types.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "prompt-injection",
-        "ai-security",
-        "code-security",
-        "supply-chain-risk",
-        "image-based-attack",
-        "credential-theft"
-      ],
-      "whyItMatters": "This attack highlights a critical vulnerability in AI-assisted development workflows where automated agents process files without proper validation. Organizations relying on AI code reviewers and agents for security need to understand that visual files can carry invisible threats, making this a practical concern for any development team using these tools. The ability to steal secrets through what ",
-      "image": null,
-      "processedAt": "2026-07-11T18:41:11.687577+00:00"
-    },
-    {
-      "id": "art-f06b3ffb",
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "summary": "The Gentlemen ransomware group has rapidly become the second most active ransomware operation by targeting victims, using an enticing recruitment model that offers affiliates 90% of ransom payments. The article investigates clues about the real-world identity of the group's administrator. This aggressive business model has allowed them to quickly attract skilled cybercriminals to their operation.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "cybercrime",
-        "affiliate-recruitment",
-        "extortion",
-        "threat-actor",
-        "gang-operations"
-      ],
-      "whyItMatters": "Understanding the leadership and operational structure of major ransomware groups helps organizations and law enforcement identify targets, predict attack patterns, and develop more effective defensive strategies. The high affiliate payout rate demonstrates how ransomware-as-a-service models have professionalized cybercrime and accelerated attacks against critical infrastructure and businesses.",
-      "image": null,
-      "processedAt": "2026-07-11T18:41:14.150645+00:00"
-    },
-    {
-      "id": "art-0d5e4b13",
-      "title": "A Record-Breaking Patch Tuesday for June 2026",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-09",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
-      "summary": "Microsoft released an unprecedented number of security updates in June 2026, fixing nearly 200 vulnerabilities across Windows and related software. About 30 of these bugs were classified as critical, and hackers have already developed working exploit code for at least three of them. This massive patch cycle highlights the growing complexity of modern software security and the urgent need for organizations to update their systems quickly.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "patch-tuesday",
-        "microsoft-windows",
-        "critical-vulnerabilities",
-        "exploit-code-available",
-        "security-updates",
-        "urgent-patching"
-      ],
-      "whyItMatters": "The availability of public exploit code for critical vulnerabilities means attackers can immediately weaponize these weaknesses, putting unpatched systems at severe risk of compromise. Organizations must prioritize deploying these updates rapidly to prevent widespread breaches, making this one of the most urgent patch cycles on record.",
-      "image": null,
-      "processedAt": "2026-07-11T18:41:16.782412+00:00"
-    },
-    {
-      "id": "art-5781d9d8",
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "summary": "Hackers exploited Meta's AI support assistant to reset passwords and take over high-profile Instagram accounts, including those belonging to the Obama White House and the U.S. Space Force. Instructions for this attack were shared on Telegram, allowing attackers to trick the bot into authorizing password resets. The compromised accounts were briefly used to post pro-Iranian content before being recovered.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "account-takeover",
-        "social-media",
-        "credential-reset",
-        "cybercrime"
-      ],
-      "whyItMatters": "This incident demonstrates a critical vulnerability in AI-powered customer support systems that can be manipulated to bypass authentication controls, potentially affecting millions of users. The targeting of government accounts shows how these weaknesses pose national security risks, and the public sharing of exploit instructions on Telegram indicates widespread threat availability and potential f",
-      "image": null,
-      "processedAt": "2026-07-11T18:41:19.426245+00:00"
     }
   ]
 }
