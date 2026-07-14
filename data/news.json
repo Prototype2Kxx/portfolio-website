@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-07-14T08:17:25.560466+00:00",
+  "lastUpdated": "2026-07-14T18:58:02.420854+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-f795ac34",
+      "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+      "summary": "Security researchers discovered LabubaRAT, a new remote access trojan written in Rust that disguises itself as legitimate NVIDIA software to avoid detection on Windows computers. Once installed, the malware can gather information about the infected system and establish persistent access for attackers to conduct further malicious activities. This threat demonstrates how cybercriminals use trusted brand names to trick users into running dangerous code.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "rat-malware",
+        "trojan",
+        "nvidia-impersonation",
+        "rust-based",
+        "windows-threat",
+        "remote-access"
+      ],
+      "whyItMatters": "This malware's use of legitimate software branding as a disguise makes it harder for users and security tools to detect, increasing the likelihood of successful infections. Organizations relying on NVIDIA software need to verify authenticity and implement endpoint detection measures to prevent LabubaRAT from establishing persistent control over their systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpSmSwv3hz6LMJIQCrVej_pophE9XNTZyveEV1GctCyQMSNoac_Mx3CfmAHLgYkpDkymvscLLY71u2Kq-7z-7bDemSeKHryPVH3h7FNxw9e64D3jTeoLOzmWW305j1Rctz5kdiwFV29lFNqo33TUZMGWCaZqtyKNPYARGtrrhZ0Bsc4LMLXhnRgzKXjKYb/s1600/NVIDIA-rat.jpg",
+      "processedAt": "2026-07-14T18:57:38.120470+00:00"
+    },
+    {
+      "id": "art-18d63c6c",
+      "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+      "summary": "Security researchers discovered two critical access control vulnerabilities in RabbitMQ, a widely-used message broker service. These flaws could allow attackers to steal OAuth authentication secrets and bypass security boundaries that separate different customer tenants. The vulnerabilities expose enterprise messaging systems to potential takeover and unauthorized access across multiple organizations.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rabbitmq",
+        "access-control",
+        "oauth-secrets",
+        "cross-tenant",
+        "message-broker",
+        "authentication-bypass"
+      ],
+      "whyItMatters": "RabbitMQ is fundamental infrastructure in many enterprise environments, so these vulnerabilities could affect numerous organizations simultaneously. Leaked OAuth secrets and cross-tenant access directly enable account takeover and data breaches at scale. Organizations using RabbitMQ need immediate patching to prevent attackers from compromising their messaging infrastructure and stealing sensitive",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhhRQ9rN4_5eYqXiJ7svWKwWY0dcPiiALZ6EkDG05ruFzTANJtwyw_w2Ht29dON1oFiLAkQkE0M75FYExbXmvFSr4jU0K0sNlwRxG3Q1rU51ouVIt3UtnrazRwhCer3coTHbU3So1dXx_8Frh1KhJKKXc7Lq2h5DZTGkBq35Y2ngnGVg6wAGubf8cVRx0F/s1600/rebbitmq.jpg",
+      "processedAt": "2026-07-14T18:57:40.846748+00:00"
+    },
+    {
+      "id": "art-9c22a14b",
+      "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+      "summary": "Researchers found 11 old Microsoft-signed UEFI applications that have security flaws and could be exploited to bypass Secure Boot, a critical firmware protection feature on most modern computers. An attacker exploiting these vulnerabilities could run malicious code during system startup, potentially installing dangerous firmware-level malware or bootkits that are extremely difficult to detect and remove. This discovery highlights a serious risk because these applications were previously trusted by Microsoft, meaning systems may not recognize them as threats.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "uefi-boot",
+        "secure-boot-bypass",
+        "firmware-vulnerability",
+        "microsoft-signed",
+        "bootkit-risk",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects the lowest level of system security (firmware/UEFI), making it nearly impossible for traditional antivirus software to detect or prevent attacks. Exploiting these flaws allows attackers to run malicious code before the operating system even loads, giving them complete control over the system and the ability to persist through OS reinstalls. Organiz",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzgVI5ZeWhnWkl-lXmJYMLjAOXmxw21Y3sgxeF9rrOS_JqjQ7k_yyV_2KU_ELhmsm3nA3qNV0farc_31WCAhPPZRq7iIrYm90R_24lvc1f68Gv-yZPsM3bwDiUuCaCBAzq-S8ymLrrD7dx349vEjlR0eID2LXm5SO3Ocq1sG8sWkhAEG9RWX07avTOu3dW/s1600/shim.gif",
+      "processedAt": "2026-07-14T18:57:44.348654+00:00"
+    },
+    {
+      "id": "art-76269af6",
+      "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+      "summary": "Researchers from KU Leuven analyzed 85 popular cryptocurrency wallet browser extensions and discovered serious privacy flaws that allow tracking of user activity. These wallet extensions leak information that can link multiple cryptocurrency addresses to the same person and enable cross-site tracking across the web. The vulnerabilities potentially expose users to surveillance and deanonymization, compromising the privacy that many crypto users depend on.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "crypto-wallet",
+        "privacy-leak",
+        "browser-extension",
+        "tracking",
+        "address-deanonymization",
+        "cryptocurrency-security"
+      ],
+      "whyItMatters": "Millions of people rely on crypto wallet extensions for managing digital assets, often assuming these tools provide privacy. This research reveals that popular wallet extensions have fundamental design flaws that undermine user anonymity and enable persistent tracking, putting users at risk of surveillance, targeted attacks, and financial exposure. The findings highlight the need for users to care",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLw92quWqf4LGudVaNPBRwhiCIP4ZEBpolIRqMKbQuG6hzrXUSx89QCQT1IjMWF_6v7GEkYGOi0kYoc-ES_fELZm6pg1P8lVpRxv5mYmpzAHQMm6A_XC_fXWSWlRVh1JfjFc8wXlqtyGWovxUOOhQn8HiG4XutLeKlyv5aLY2R4UKlHTcD2pgXANePlhBq/s1600/wallet-fingerprint.jpg",
+      "processedAt": "2026-07-14T18:57:47.261482+00:00"
+    },
+    {
+      "id": "art-3396c8c4",
+      "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+      "summary": "Pentera's new approach integrates AI security agents with comprehensive validation engines to address the fragmentation problem in security workflows. Instead of relying on scattered data from multiple tools like scanners and threat intelligence feeds, the platform consolidates risk signals into a unified system that mimics how attackers actually move through environments. This enables security teams to make faster, more informed remediation decisions based on complete context rather than isolated findings.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "risk-validation",
+        "security-workflows",
+        "threat-detection",
+        "remediation-automation"
+      ],
+      "whyItMatters": "As AI agents increasingly influence real security decisions, consolidating fragmented risk data becomes critical to prevent gaps in coverage that attackers can exploit. Organizations relying on disconnected security tools risk missing attack chains that attackers use to move laterally through environments. This validation approach helps teams reduce response time and improve decision-making accura",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBkjrecx65rZWCn-e7KyG-ScNo2HupwMwFl9-XIOcdW1Pls-d0g80WyhkIHPCHTszjYDoUBtmpV_ystgF4Lc6z_noxysLX2xs11QU1jNALxkVa8gW6_QkevNLJkr8mCqupKYHRZSv518HoHlmwpnaYV-qMVyciXNsoMQAS8RrH1rLT2BsLS2t3u52Lrf8/s1600/pentera-main.jpg",
+      "processedAt": "2026-07-14T18:57:49.930149+00:00"
+    },
+    {
+      "id": "art-5050da83",
+      "title": "Microsoft releases Windows 10 KB5099539 extended security update",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5099539-extended-security-update/",
+      "summary": "Microsoft released the KB5099539 extended security update for Windows 10 in July 2026, addressing over 570 vulnerabilities through its monthly Patch Tuesday release. This update provides critical security fixes to protect systems from various exploits and threats. Users running Windows 10 should apply this update promptly to maintain system security.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-10",
+        "patch-tuesday",
+        "security-update",
+        "vulnerability-fix",
+        "extended-support"
+      ],
+      "whyItMatters": "Regular patching is essential for cybersecurity defense, as unpatched systems are prime targets for attackers. With 570 vulnerabilities addressed, this update closes significant security gaps that could be exploited for malware distribution, data theft, or system compromise. Delaying patch installation increases organizational risk exposure.",
+      "image": null,
+      "processedAt": "2026-07-14T18:57:52.160619+00:00"
+    },
+    {
+      "id": "art-6d5aa552",
+      "title": "Microsoft July 2026 Patch Tuesday fixes massive 570 flaws, 3 zero-days",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-july-2026-patch-tuesday-fixes-massive-570-flaws-3-zero-days/",
+      "summary": "Microsoft released security patches for 570 vulnerabilities in July 2026, marking a record-breaking month for bug fixes. The update addresses three zero-day vulnerabilities, two of which are already being exploited in active attacks and one that has been publicly disclosed. This massive patch release underscores the ongoing challenge of maintaining security across Microsoft's vast software ecosystem.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "patch-tuesday",
+        "microsoft",
+        "active-exploitation",
+        "vulnerability-management",
+        "critical-updates"
+      ],
+      "whyItMatters": "The record number of patched vulnerabilities and active zero-day exploitation create an urgent need for organizations to apply these updates immediately to prevent compromise. Delayed patching significantly increases the risk of attackers leveraging known exploits to breach systems, making this month's updates particularly critical for enterprise security teams.",
+      "image": null,
+      "processedAt": "2026-07-14T18:57:54.900109+00:00"
+    },
+    {
+      "id": "art-8631ffd2",
+      "title": "Windows 11 KB5101650 & KB5099414 cumulative updates released",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101650-and-kb5099414-cumulative-updates-released/",
+      "summary": "Microsoft released two cumulative updates for Windows 11 across different versions to address security vulnerabilities, resolve existing bugs, and introduce new features. These updates (KB5101650 for versions 25H2/24H2 and KB5099414 for version 23H2) are essential maintenance releases that keep Windows systems protected against known threats. Users should prioritize installing these patches to maintain system security and stability.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-11",
+        "cumulative-updates",
+        "security-patches",
+        "vulnerability-fixes",
+        "patch-management"
+      ],
+      "whyItMatters": "Timely installation of Microsoft's cumulative updates is critical for closing security gaps that attackers actively exploit. Delaying these patches leaves systems vulnerable to known exploits, making this update release essential for organizations and individual users to protect against potential compromise and maintain system integrity.",
+      "image": null,
+      "processedAt": "2026-07-14T18:57:57.187832+00:00"
+    },
+    {
+      "id": "art-b80242b8",
+      "title": "Progress confirms ShareFile zero-day flaw behind Storage Zone shutdown",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/progress-confirms-sharefile-zero-day-flaw-behind-storage-zone-shutdown/",
+      "summary": "Progress Software discovered a serious zero-day vulnerability in ShareFile Storage Zone Controllers that forced an emergency shutdown of the service. The company has released security patches to fix this flaw, which posed a significant risk to users' stored data and system integrity. This incident highlights how critical cloud storage vulnerabilities can quickly escalate into widespread service disruptions.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "sharefile",
+        "progress-software",
+        "cloud-security",
+        "patch-available",
+        "storage-zone"
+      ],
+      "whyItMatters": "Zero-day vulnerabilities in widely-used enterprise tools like ShareFile can expose millions of users' sensitive files and data to attackers before patches exist. Organizations relying on ShareFile must immediately apply available updates to prevent potential exploitation and data theft. This demonstrates the importance of prompt vulnerability disclosure and rapid patching in maintaining cloud infr",
+      "image": null,
+      "processedAt": "2026-07-14T18:57:59.905406+00:00"
+    },
+    {
+      "id": "art-c7820e7b",
+      "title": "LastPass, Bitwarden users targeted with fake security alerts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/lastpass-bitwarden-users-targeted-with-fake-security-alerts/",
+      "summary": "LastPass and Bitwarden users are being targeted by attackers who send fake security alerts designed to trick them into visiting malicious websites. These phishing campaigns impersonate legitimate password manager companies to steal user credentials or install malware. Users should verify security notifications directly through official company channels rather than clicking links in unsolicited messages.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "fake-alerts",
+        "password-manager",
+        "credential-theft",
+        "social-engineering"
+      ],
+      "whyItMatters": "Password managers like LastPass and Bitwarden are critical security tools that users trust with their most sensitive data. When attackers target these users with convincing phishing campaigns, they bypass the security benefits of the tools themselves and gain access to entire credential vaults. This demonstrates that user awareness and verification practices are essential even when using reputable",
+      "image": null,
+      "processedAt": "2026-07-14T18:58:02.420700+00:00"
+    },
     {
       "id": "art-6e11cd05",
       "title": "Microsoft Maps Year-Long ShinyHunters-Linked Salesforce Data Theft Across Three Paths",
@@ -823,211 +1029,6 @@
       "whyItMatters": "As organizations increasingly adopt AI coding tools to accelerate development, understanding the full security and financial implications is critical for informed decision-making. Blindly deploying these tools without proper security controls and cost accounting can create a false economy where apparent productivity gains are offset by expensive remediation and technical debt. This directly impact",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfc206a4328894432/6a5003e314cb1e87db5d7a27/robot_hands_on_keyboard-Moor_Studio-Getty-2246656580.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-07-12T18:44:54.139604+00:00"
-    },
-    {
-      "id": "art-424f4e78",
-      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-11",
-      "originalUrl": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-      "summary": "A malicious version of the popular jscrambler npm package (version 8.14.0) was released that automatically executes an infostealer malware during installation. The attack used a preinstall hook to deploy and run native binaries designed for Windows, macOS, and Linux systems. Security researchers detected the compromised package within minutes of its publication, highlighting a significant supply chain attack targeting developers.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-package",
-        "malware",
-        "infostealer",
-        "package-manager",
-        "preinstall-hook"
-      ],
-      "whyItMatters": "This demonstrates how attackers can compromise widely-used open-source packages to distribute malware at scale, putting thousands of developers at immediate risk of information theft. The incident underscores the danger of blind trust in package managers and the importance of monitoring package updates, as legitimate-looking installations can execute malicious code before developers realize it. Or",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhodiWPXDsex6YL7v4e2n_D5MJFMht76GRRmHTdiG61tfEmsoZyow4tkiS3ORACILDl2fNP27YQkw1XLSBKGcom-DhCVzzPDdkdSgeMGdxcVL_rgO70x5LqZcjxKAPTtFOquB8LwSBPWrSpflqCzns-cFZ_EVm0WZfV7wSoPM3S-7_IGtCT3AjxY0rfITU/s1600/npm-js.jpg",
-      "processedAt": "2026-07-12T08:24:30.755836+00:00"
-    },
-    {
-      "id": "art-64e61185",
-      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-11",
-      "originalUrl": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-      "summary": "Multiple threat actors believed to be linked to China and India conducted a sustained cyber espionage campaign against Pakistani law enforcement agencies, particularly targeting the Balochistan Police portal from February 2024 to April 2026. The attackers compromised critical servers that store sensitive police and citizen data, including criminal records and related information. This operation demonstrates how government infrastructure can be weaponized by state-aligned groups to gather intelligence and access personal data at scale.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "cyber-espionage",
-        "state-sponsored",
-        "law-enforcement",
-        "data-breach",
-        "pakistan",
-        "government-infrastructure"
-      ],
-      "whyItMatters": "This breach exposes how nation-state actors target law enforcement databases to steal sensitive citizen and criminal records, potentially enabling surveillance, blackmail, or intelligence operations. The extended duration of the compromise (over two years) highlights gaps in detection and incident response capabilities for critical government systems. Organizations worldwide should strengthen moni",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimRVwRIhs54UhNHyRll9YzVxICmTpgqwjAK1Sy7vYt6FAzb9oImcFpuM0J8dOWdtdjCdlROkternhP9r5jZD9HNvwVwcyRzhesdYgbVjUpJk7p4rxDDJSdEUibs1Gk-Ihy1bTcxs8fA7kgG49ImfTWEZO6068Ui-_X6sTTraCg8lFuucYJrUJi2RhdXyG2/s1600/pakistan.jpg",
-      "processedAt": "2026-07-12T08:24:33.749077+00:00"
-    },
-    {
-      "id": "art-17fe7a1c",
-      "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
-      "summary": "Meta has launched a new AI image generation tool called Muse Image that automatically uses public Instagram photos and videos to create AI-generated content, with this feature enabled by default for all users. Users can even tag specific Instagram accounts to incorporate them into generated images. This raises significant concerns about consent and how personal images are being used without explicit opt-in from content creators.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "privacy-concern",
-        "consent-issue",
-        "data-usage",
-        "instagram",
-        "default-enabled"
-      ],
-      "whyItMatters": "This represents a systemic privacy risk where users' publicly shared content is being repurposed for AI training and generation without explicit informed consent, setting a concerning precedent for how tech companies can exploit user-generated content. The default-enabled status means most users are unaware their images are being used, making it a widespread privacy vulnerability affecting million",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsjiT58V2lRqaqYwo2AHkilx81c58T9dBHa_W5KiHgom4-UgZqV18Ax-zQb8_fN7p_OQpqi0b4nTzt4SpDnHW-RozKjIcgs-B8KN8HI_QnCMzIjDMmcg2grJEyP7r1ZNd_SRB5R1MDw-vo-jQ4v198ZDhMsWaBpFnXmShkouRZvXIXpu-32FQ_30h4HQrq/s1600/metaai.jpg",
-      "processedAt": "2026-07-12T08:24:36.409705+00:00"
-    },
-    {
-      "id": "art-956e90fe",
-      "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
-      "summary": "Security researchers at the AI Now Institute discovered a vulnerability called \"Friendly Fire\" that allows attackers to trick AI coding agents like Claude Code and OpenAI's Codex into executing malicious code instead of analyzing it for security threats. When these AI agents operate autonomously and approve their own actions, they can be manipulated through clever prompts to run attacker-controlled code on the user's machine. This attack demonstrates a critical gap in how AI tools handle untrusted code during security scanning operations.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "code-execution",
-        "prompt-injection",
-        "autonomous-agents",
-        "malicious-code"
-      ],
-      "whyItMatters": "This vulnerability is critical because security teams rely on AI coding agents to identify threats in open-source dependencies, making this attack a direct inversion of trust. Organizations using these tools for code scanning could unknowingly execute attacker code on their systems while believing they are performing security analysis. The finding exposes a fundamental weakness in autonomous AI de",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynXsBDNXYgGgYPWB6cmy9zuZDStl-XaVvlwMQsqa6AxvNCvi7qI9Xq3h1vdk30Tv1u-fOAtB_OZ_Q-i5O0z5D0KL1Eh0joKyFmuhIoH4-7Z16ubplbIcNQpXJ7P7Sl2xju-z6ZvbhSeJbGKiL1gzx-I151GVMAp5jpCS27zvn791sC2WYQllTRT8ye-0/s1600/Friendly-Fire-AI-demo.gif",
-      "processedAt": "2026-07-12T08:24:39.713034+00:00"
-    },
-    {
-      "id": "art-e89eef20",
-      "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
-      "summary": "Researchers discovered a critical vulnerability in six popular AI coding assistants that allows malicious code repositories to exploit symlink flaws and execute unauthorized code on developers' machines. The flaw tricks the assistant into requesting permission to modify a harmless file while actually writing to sensitive system locations. This vulnerability affects tools from major companies including Amazon, Anthropic, Google, and others, putting developers at significant risk when working with untrusted code repositories.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "symlink-vulnerability",
-        "code-execution",
-        "supply-chain-risk",
-        "developer-tools",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This vulnerability directly threatens developers' machines and development environments by allowing attackers to gain code execution through seemingly legitimate code review workflows in widely-used AI tools. The attack leverages social engineering combined with technical exploits, making it particularly dangerous since developers may trust AI assistants to safely interact with code repositories. ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijymBd057efx1JbDRjjqh0RBYH7RA2pE75UYG8DDd7Vl2UyXMsMjXtgEaxoPyHt5wz8s0fT6B43ovQskxZBchyiYI9G34t7YjyC6_T0xwzs_0SOJaHnHI7vXfMTOqtDn1R6up52ol5UH_uT86b1dRjaJ-Bw6pa_lAX6igS_pFLV_z_0kRhyXuNo8Q2rFU/s1600/wiz-ai.jpg",
-      "processedAt": "2026-07-12T08:24:42.943875+00:00"
-    },
-    {
-      "id": "art-bcb9ca17",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-25",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "summary": "Dutch authorities arrested two men who ran hosting companies that provided infrastructure used by Russian intelligence agencies to launch cyberattacks and disinformation campaigns against the European Union. The seized servers were linked to Stark Industries Solutions, an ISP previously sanctioned by the EU for facilitating Russian cyber operations. This takedown highlights how criminal enterprises can be dismantled when law enforcement targets the underlying infrastructure that enables attacks.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "infrastructure-takedown",
-        "russian-cyberattacks",
-        "disinformation",
-        "eu-sanctions",
-        "hosting-abuse",
-        "state-sponsored"
-      ],
-      "whyItMatters": "This case demonstrates that disrupting the physical and technical infrastructure behind cyberattacks is a critical law enforcement strategy against state-sponsored operations. By removing the hosting providers enabling Russian attacks, authorities can significantly disrupt ongoing campaigns targeting critical EU institutions and information systems. Understanding how attackers rely on complicit or",
-      "image": null,
-      "processedAt": "2026-07-12T08:24:45.910383+00:00"
-    },
-    {
-      "id": "art-f1697b95",
-      "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-22",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/",
-      "summary": "A contractor working for CISA, the U.S. government's cybersecurity agency, intentionally leaked sensitive information including AWS cloud credentials on a public GitHub repository. Congressional lawmakers are now demanding explanations from CISA about how this breach occurred and what steps are being taken to secure the exposed credentials and other agency secrets.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "cloud-security",
-        "credentials-exposed",
-        "aws",
-        "government-security",
-        "insider-threat"
-      ],
-      "whyItMatters": "This breach exposes critical infrastructure security risks because compromised government cloud credentials could allow attackers to access sensitive national systems. The incident also highlights the dangers of insider threats and inadequate access controls at agencies responsible for defending the nation's cybersecurity, undermining public trust in critical infrastructure protection.",
-      "image": null,
-      "processedAt": "2026-07-12T08:24:48.144507+00:00"
-    },
-    {
-      "id": "art-296449ea",
-      "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-05-21",
-      "originalUrl": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
-      "summary": "A 23-year-old from Ottawa was arrested by Canadian authorities for allegedly creating and operating Kimwolf, a botnet that infected millions of Internet-of-Things devices and launched major DDoS attacks over six months. The suspect, identified online as 'Dort', faces criminal charges in both Canada and the United States after conducting DDoS attacks, doxing, and swatting campaigns against security researchers. This arrest demonstrates law enforcement's growing ability to track and prosecute botnet operators across international borders.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "botnet",
-        "iot-security",
-        "ddos-attacks",
-        "cybercrime",
-        "international-enforcement"
-      ],
-      "whyItMatters": "Botnet arrests like this show that operators face real legal consequences despite attempting anonymity, which may deter future botnet development. The Kimwolf case demonstrates the scale of IoT security risks and how millions of vulnerable devices can be weaponized for large-scale attacks. Understanding how botnets operate and are dismantled helps organizations better protect their IoT infrastruct",
-      "image": null,
-      "processedAt": "2026-07-12T08:24:51.258712+00:00"
-    },
-    {
-      "id": "art-42c3ff96",
-      "title": "Jen Ellis: Connecting Cyber Community With Political Machinery",
-      "source": "Dark Reading",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/jen-ellis-connecting-cyber-community-political-machinery",
-      "summary": "Jen Ellis, a prominent cybersecurity advocate, has been honored as a Member of the Order of the British Empire (MBE) for her work bridging the gap between security researchers and government policymakers. The article profiles her career and the key moments that drove her commitment to advocating for the security research community. Her efforts focus on ensuring that technical experts have a voice in shaping cyber policy and political decisions that affect the industry.",
-      "category": "Security Awareness",
-      "severity": "Low",
-      "tags": [
-        "cyber-advocacy",
-        "security-policy",
-        "industry-leadership",
-        "researcher-protection"
-      ],
-      "whyItMatters": "Ellis' advocacy work strengthens the relationship between cybersecurity practitioners and government, which is essential for developing effective cyber policies and protecting researchers who report vulnerabilities. Her recognition highlights the importance of having skilled security professionals involved in political and regulatory discussions that shape national cybersecurity strategy.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd0404c576a980a37/6a51584597c98ae9da9a9b59/jen-ellis-nextjensecurity.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-07-12T08:24:53.794345+00:00"
-    },
-    {
-      "id": "art-5c031b4e",
-      "title": "Cybercriminals Flock to Healthcare Businesses as Attacks Surge",
-      "source": "Dark Reading",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.darkreading.com/threat-intelligence/cybercriminals-healthcare-businesses-attacks-surge",
-      "summary": "Cybercriminals are increasingly targeting healthcare service providers and businesses rather than hospitals and clinics directly. In the first half of 2026, attacks on healthcare service providers more than doubled while direct hospital attacks grew only modestly. This shift in targeting strategy suggests criminals are exploiting vulnerabilities in the broader healthcare ecosystem.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "healthcare-attacks",
-        "cybercrime-trends",
-        "service-provider-vulnerability",
-        "attack-surge",
-        "healthcare-security"
-      ],
-      "whyItMatters": "Healthcare service providers often have weaker security than major hospitals but handle sensitive patient data and critical systems, making them attractive targets. Understanding this shift in attacker tactics helps organizations prioritize defenses for vulnerable supply chain partners. The doubling of attacks on these businesses indicates an accelerating threat that requires immediate attention a",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1b6b2d15edbb34ff/6a501046f2ad521509a98709/UMMC-Childrens-Hospital-Jackson-Chad_Robertson_Media-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-07-12T08:24:56.320624+00:00"
     }
   ]
 }
