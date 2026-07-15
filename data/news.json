@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-07-14T18:58:02.420854+00:00",
+  "lastUpdated": "2026-07-15T08:22:55.122715+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-f231d534",
+      "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-15",
+      "originalUrl": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
+      "summary": "SonicWall has discovered two actively exploited zero-day vulnerabilities in its Secure Mobile Access (SMA) 1000 series appliances. One vulnerability, CVE-2026-15409 with a maximum severity score of 10.0, is a server-side request forgery flaw that could allow unauthenticated attackers to execute arbitrary commands on affected systems. Organizations using these appliances need to take immediate action as these flaws are already being weaponized in the wild.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "sonicwall",
+        "sma-1000",
+        "ssrf",
+        "remote-execution",
+        "active-exploitation"
+      ],
+      "whyItMatters": "Active zero-day exploits targeting widely-deployed VPN/remote access appliances pose an immediate threat to organizations' network perimeters and could lead to complete system compromise. The CVSS 10.0 score indicates maximum severity with no authentication required, making this a top priority for any organization running affected SonicWall equipment.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0n94FUIdljCnLvlh0SNz5l8xDWbdDqmk7OesE7HAKxrRAMUMIfXpppuMBoI-7F0Q1PB7eXPRjrfg9fgZTTVj3JY5jKsr1Ebheb2mU65p4MUVYbs59lCPPWCBQ4LVYZnoZ0o6nRkoBQitrwwnyLVQc2oYJ41zVjPS6_HchwIR-U8EuWrOdPpl1-Y9Rw1Lm/s1600/sonicwall-patches.jpg",
+      "processedAt": "2026-07-15T08:22:26.135506+00:00"
+    },
+    {
+      "id": "art-e0cb2ae1",
+      "title": "Microsoft Patches Record 622 Flaws, Including Two Zero-Days Under Active Attack",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/microsoft-patches-record-622-flaws.html",
+      "summary": "Microsoft released a record-breaking 622 security patches in its latest update, addressing more vulnerabilities than any previous month. Among these fixes are two zero-day exploits that attackers are already actively using in real-world attacks. This massive patch release highlights the critical importance of rapid security updates to protect systems from immediate threats.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "active-exploitation",
+        "patch-tuesday",
+        "microsoft",
+        "urgent-patching"
+      ],
+      "whyItMatters": "Active zero-day exploits mean attackers are currently weaponizing these vulnerabilities, making immediate patching essential to prevent compromise. The sheer volume of patches (622) represents an unprecedented security event that IT teams must prioritize to protect their Microsoft infrastructure from imminent threats.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi34s_9ywUXjSc5OtF7-fDiAqSa3H-UHpJfACXyULY5ziUlM67mCJHWee9tluTiGm7ZRhMy36SLal2CUjqwJHZ8vdHuFstRwJhPGLAXe49as-o3nRE-QAyRs2mx3og8eVdWdnzzr9LwGMXckMix80XOQPsWiE30xqqYGG3PNjjpVTCpLsnW77pCk_3MyKQ/s1600/ms=patch.jpg",
+      "processedAt": "2026-07-15T08:22:29.496082+00:00"
+    },
+    {
+      "id": "art-2131c6f2",
+      "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+      "summary": "SAP released security patches in July 2026 to fix a critical flaw in SAP NetWeaver Application Server ABAP. The vulnerability, CVE-2026-44747 with a CVSS score of 9.9, is an out-of-bounds write flaw that allows authenticated attackers to corrupt memory and potentially expose or modify sensitive data. This patch addresses a serious risk for organizations using SAP's enterprise software.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "sap-netweaver",
+        "memory-corruption",
+        "out-of-bounds-write",
+        "enterprise-software",
+        "authentication-required",
+        "patch-urgent"
+      ],
+      "whyItMatters": "A CVSS 9.9 vulnerability in SAP NetWeaver affects millions of enterprises worldwide that rely on this critical business application server. Organizations must apply these patches immediately to prevent attackers from corrupting memory, exposing confidential data, or manipulating business-critical information. The authenticated requirement provides only minimal protection since insiders or compromi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9rN4ge3zuUmonccBl2yC_AcOKiCQPKQFAV31BzB3DZk3JO7SxAjx1HdJlg1vBOMEj3cq2Mrg06ZU64I1fdkWCDRBsPhqpuyJwTxjbJHJXmzUoXF8KRDkupk6JxznlI9tjMXwU_hJqh4InVEOsiknPoszVZkQsqWSKfcD5Y90qz63Cv_pOHL8zO4CxGOop/s1600/sap-patch.jpg",
+      "processedAt": "2026-07-15T08:22:32.255214+00:00"
+    },
+    {
+      "id": "art-163dac83",
+      "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+      "summary": "Researchers discovered a vulnerability in Claude for Chrome that allows malicious browser extensions to trigger unauthorized actions on a user's Gmail, Google Docs, and Calendar accounts. The flaw exploits the extension's ability to run scripts on claude.ai, giving attackers access to sensitive Google services without explicit user permission. This vulnerability demonstrates a significant security gap in how browser extensions interact with AI tools and connected services.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "browser-extension",
+        "ai-security",
+        "gmail-access",
+        "privilege-escalation",
+        "claude-ai",
+        "google-services"
+      ],
+      "whyItMatters": "This vulnerability is practically important because millions of users rely on Chrome extensions and AI assistants daily, often without fully understanding the permissions they grant. A malicious extension could silently access and manipulate sensitive personal data across Gmail, documents, and calendar events, leading to privacy violations, data theft, or unauthorized communications. The incident ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6dKqmptCkoLw0bB5PV9wa9zqqfMmsIU0yrc4vQ2FdIFYClQBeZyUifVSr4wny1umoGovVKP57bzeh3-8RjmK8VktgN_y8TGTnkkw6Ua49L3xfWT_n8Ks6ob2NpIy78NSAV4-XU7HxfdmYqAZcKYz7DIjihqBI8OsQIgW3a4vca7taNTohCTDrqEamAk4/s1600/claude-chrome-flaw.jpg",
+      "processedAt": "2026-07-15T08:22:35.636919+00:00"
+    },
+    {
+      "id": "art-613564dc",
+      "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "summary": "Attackers are exploiting a technique called OAuth client ID spoofing to test stolen Microsoft Entra credentials without triggering security alerts. This evasion method allows threat actors to verify compromised passwords and identify valid user accounts while avoiding detection by defensive monitoring systems. At least two known threat groups have already adopted this approach in active cloud-based attacks.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "oauth-spoofing",
+        "microsoft-entra",
+        "credential-validation",
+        "cloud-attacks",
+        "evasion-technique",
+        "threat-actors"
+      ],
+      "whyItMatters": "This vulnerability directly undermines cloud security by allowing attackers to validate stolen credentials undetected, giving them a foothold before launching broader attacks. Organizations relying on Microsoft Entra ID need immediate visibility into this evasion technique to adjust their detection and response strategies. The active exploitation by multiple threat groups indicates this is already",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmB1bLC9cna7xlnvFdK0hUnsi8jeo6E7jMh20nj4XTvsF9ogpjbnlPCxx9QYQ1O2aS7JiSDQi4swIRNG6-Xjg2TGR4bn4Zn-KBkjsLTYcKUrXOD-rlGu4XYsvRx06eRqrT4duW0xwklKeYjZvRV1VSarJBKldBzN4DNhkWudVCGRdKPi9uVGrqEwL66mz5/s1600/OAuth-ClientID.jpg",
+      "processedAt": "2026-07-15T08:22:39.005847+00:00"
+    },
+    {
+      "id": "art-7cce9c17",
+      "title": "US charges alleged operators of Russian bulletproof hosting service",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-charges-alleged-russian-bulletproof-hosting-service-operators/",
+      "summary": "The U.S. government has charged three Russian nationals with operating a bulletproof hosting service that helped ransomware groups carry out attacks causing over $62 million in damages worldwide. Bulletproof hosting providers intentionally protect criminal infrastructure from law enforcement by resisting takedown attempts and providing anonymity. This case demonstrates ongoing efforts by federal prosecutors to disrupt the criminal ecosystem that enables large-scale ransomware operations.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "bulletproof-hosting",
+        "russian-cybercrime",
+        "infrastructure-disruption",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This prosecution targets a critical enabler of ransomware attacks rather than just individual gang operators, potentially disrupting the backend infrastructure that makes large-scale attacks possible. Understanding how bulletproof hosting services operate helps organizations and security teams recognize and defend against ransomware threats at their source. The case signals increased international",
+      "image": null,
+      "processedAt": "2026-07-15T08:22:42.117278+00:00"
+    },
+    {
+      "id": "art-0413bdb3",
+      "title": "SonicWall warns of SMA1000 flaws exploited in zero-day attacks, patch now",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+      "summary": "SonicWall has discovered that attackers are actively exploiting two previously unknown vulnerabilities in the SMA1000 appliance through zero-day attacks. The company has released security patches to address CVE-2026-15409 and CVE-2026-15410 and is urging all customers to update their systems immediately to protect against ongoing threats.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "sonicwall",
+        "sma1000",
+        "cve-2026-15409",
+        "cve-2026-15410",
+        "patch-now"
+      ],
+      "whyItMatters": "Active zero-day exploitation of network security appliances poses an immediate and widespread threat to organizations relying on SonicWall SMA1000 devices for remote access and network protection. Prompt patching is essential to prevent unauthorized access and potential lateral movement within vulnerable networks. This highlights the critical importance of applying security updates quickly when ve",
+      "image": null,
+      "processedAt": "2026-07-15T08:22:44.861683+00:00"
+    },
+    {
+      "id": "art-70df5437",
+      "title": "Spanish Police take down €140 million cyber fraud ring, arrest four",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/spanish-police-take-down-140-million-cyber-fraud-ring-arrest-four/",
+      "summary": "Spanish Police successfully dismantled a major cybercrime organization responsible for €140 million in fraudulent activity, including investment scams and business email compromise attacks. The operation resulted in four arrests and highlighted the scale of organized cyber fraud operations in Europe. This takedown demonstrates law enforcement's growing capability to track and dismantle complex money-laundering networks connected to cybercrime.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "business-email-compromise",
+        "investment-fraud",
+        "money-laundering",
+        "organized-cybercrime",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This case demonstrates that large-scale cyber fraud rings targeting businesses remain active and profitable, making BEC attacks and investment fraud ongoing threats that organizations must defend against. The successful prosecution shows law enforcement is developing expertise in pursuing cybercriminals, but the €140 million loss illustrates the significant financial impact these operations achiev",
+      "image": null,
+      "processedAt": "2026-07-15T08:22:48.851448+00:00"
+    },
+    {
+      "id": "art-bbe3ef68",
+      "title": "Nearly 300 GitHub repos pose as legit software to push malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/nearly-300-github-repos-pose-as-legit-software-to-push-malware/",
+      "summary": "A threat actor created nearly 300 fake GitHub repositories that impersonate popular legitimate software and security tools to trick developers into downloading infostealer malware. This supply chain attack targets developers who search for common tools, putting their credentials and sensitive data at risk. The malware steals information from infected systems, potentially compromising entire development environments and projects.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "supply-chain-attack",
+        "github-threat",
+        "infostealer",
+        "fake-repositories",
+        "developer-targeting"
+      ],
+      "whyItMatters": "This attack highlights how threat actors exploit developer trust in well-known platforms like GitHub, making it a critical supply chain vulnerability that could compromise thousands of developers and their projects. Organizations must educate developers to verify repository authenticity and implement strict dependency verification practices to avoid downloading malicious code.",
+      "image": null,
+      "processedAt": "2026-07-15T08:22:51.797238+00:00"
+    },
+    {
+      "id": "art-57f5c763",
+      "title": "You Don't Have to Run an Exploit to Know If You're Vulnerable",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/you-dont-have-to-run-an-exploit-to-know-if-youre-vulnerable/",
+      "summary": "Organizations often cannot safely test vulnerabilities on critical systems or when no working exploit exists. Picus describes a method called TTP chaining that allows security teams to assess whether a vulnerability can actually be exploited by validating the underlying attack techniques, without needing to run the exploit itself. This approach helps teams understand their real exposure without risking damage to essential infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Medium",
+      "tags": [
+        "vulnerability-assessment",
+        "exploit-validation",
+        "ttp-chaining",
+        "risk-evaluation",
+        "defensive-strategy"
+      ],
+      "whyItMatters": "This technique addresses a critical gap in vulnerability management: teams can now assess exploitability safely on production and critical systems where live exploit testing would be dangerous or impossible. Understanding which vulnerabilities are actually exploitable helps organizations prioritize remediation efforts and allocate security resources more effectively.",
+      "image": null,
+      "processedAt": "2026-07-15T08:22:55.122531+00:00"
+    },
     {
       "id": "art-f795ac34",
       "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
@@ -823,212 +1028,6 @@
       "whyItMatters": "This article exposes a major threat to cybersecurity infrastructure: criminal actors acquiring zero-day vulnerabilities for potentially malicious purposes rather than responsible disclosure. Organizations and researchers need awareness that vulnerability markets may be operated by bad actors, and the acquisition of exploits by questionable entities could lead to widespread exploitation before patc",
       "image": null,
       "processedAt": "2026-07-13T09:37:07.279871+00:00"
-    },
-    {
-      "id": "art-b4e7a55e",
-      "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
-      "summary": "Attackers are using old or dormant GitHub accounts to systematically scan corporate GitHub organizations, repositories, and user accounts without being detected. By leveraging fake-looking user agents and compromised tokens, these threat actors blend in with normal traffic while mapping out company infrastructure. Datadog Security Labs has identified multiple coordinated campaigns using automated tools to gather intelligence on target organizations.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "github-security",
-        "account-enumeration",
-        "api-abuse",
-        "cloud-reconnaissance",
-        "threat-intel"
-      ],
-      "whyItMatters": "This reconnaissance activity is a critical precursor to deeper attacks; by mapping organizational structure and code repositories, attackers can identify vulnerabilities, secrets, or high-value targets before launching exploitation campaigns. Companies using GitHub need to monitor API access patterns and detect unusual enumeration activities to prevent data exposure and maintain supply chain secur",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiDslymdYqhkFwIm3ZeaXVZweYVT_R1d6LCQhIm799y9-5hQ3C45cumIStxGYheFbwosbd_JtrB6FgOthR2KJgfe8PYs0k47eGV7263ATac5UR0t7OOaqOUGOf5DHAR4b0IaKTozk0UEiHJz5-nze3b1ureycPGqdPVlqrImWreOWwMpGxC8kgBvONCLGbH/s1600/github-ghost.jpg",
-      "processedAt": "2026-07-12T18:44:29.572489+00:00"
-    },
-    {
-      "id": "art-0454b35d",
-      "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
-      "summary": "Microsoft discovered GigaWiper, a dangerous Windows backdoor that combines three destructive attack tools into one package. Attackers can select from multiple destructive options: completely wiping a disk, overwriting the Windows drive, or deploying fake ransomware that encrypts files without storing the decryption key. This modular approach makes it a flexible weapon for causing maximum damage to targeted systems.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "windows-backdoor",
-        "disk-wiping",
-        "destructive-malware",
-        "fake-ransomware",
-        "spyware",
-        "multi-stage-attack"
-      ],
-      "whyItMatters": "GigaWiper represents a significant threat because it combines multiple destructive capabilities in one tool, giving attackers flexible options to either permanently destroy data or create confusion with fake ransomware attacks. Organizations need to understand this threat to strengthen detection systems and implement robust backup strategies, since traditional recovery methods may fail against suc",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJRuXh4y7zy8C81w_JgJgWFg_sgF0IYcsvqWEsYeHIHu7nWdOl1aIMQdnmmRQF-KJK_XdTGxzSIAr57yFkzMIZ_VK5Kzx12xR4oW8QOZcnsf9zmySIT3YRvpPvo2q-P92sZc2LqB4M-NSlktwLGU85I0JQbCVCjvJ130GLEF6eGknO8VzkK66kHjlgkBg/s1600/data-wiper-malware.jpg",
-      "processedAt": "2026-07-12T18:44:32.224929+00:00"
-    },
-    {
-      "id": "art-41d243be",
-      "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "summary": "npm version 12 has been released with install scripts disabled by default, a significant security improvement that reduces the risk of malicious code execution during package installation. Microsoft's GitHub also deprecated granular access tokens that could bypass two-factor authentication, strengthening account security. These changes make the npm ecosystem safer by requiring developers to explicitly opt-in to potentially risky automated behaviors rather than having them enabled automatically.",
-      "category": "Other",
-      "severity": "High",
-      "tags": [
-        "supply-chain-attack",
-        "package-manager-security",
-        "malware-prevention",
-        "authentication-hardening",
-        "npm-security"
-      ],
-      "whyItMatters": "Supply chain attacks through compromised npm packages pose a critical threat to software development, affecting thousands of projects downstream. By disabling install scripts by default, npm eliminates a common attack vector where malicious code could execute silently during package installation. This change significantly reduces the attack surface for millions of developers while the token deprec",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbP2w2lzNWbB041oSXvx2Nb1uOJaf81XNUBioDv_3K73S-JnzIU4OnUHfwG3Q3RLbf_p2wJBpHC0m2M4cQhCMfcSRRx1MY9n2vCVSNI4ddai3uJ3eE2Kb-d_ryU_HSEx_R2Rjoxz2D3TBcZCgLRWf-rOBf9k73Vi1Q04aWNG9Ux-A5AOf-v1HjSGD3YZcg/s1600/npm-security.jpg",
-      "processedAt": "2026-07-12T18:44:34.621818+00:00"
-    },
-    {
-      "id": "art-a4ea28d4",
-      "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
-      "summary": "This ThreatsDay security briefing highlights how common administrative oversights and misconfigurations create significant security vulnerabilities across organizations. The article emphasizes that major breaches often stem from simple mistakes like reused bucket names, loose security settings, and trusted but compromised tools rather than sophisticated attacks. The compilation covers 20 security incidents globally, including cloud bucket hijacking and Windows privilege escalation chains, demonstrating how everyday negligence can lead to substantial damage.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "misconfigurations",
-        "admin-oversight",
-        "privilege-escalation",
-        "bucket-hijacking",
-        "security-gaps"
-      ],
-      "whyItMatters": "Organizations often focus on defending against sophisticated attacks while overlooking routine administrative practices that create exploitable gaps. Understanding that most breaches result from common mistakes rather than advanced techniques helps security teams prioritize practical hardening measures like access controls, configuration audits, and employee training. This awareness is critical fo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAXvG0n7eiC50jtfO-3MYOPx-Z0iWiucBfHqzY2QNH-5fUyfWcGu3NME0yERr2qWKcAeg6rIYMtP_VEeRInpeghztHmnjDa4QyuXSbaktcOdHHK9sx8lurd2RmejcmBjSZIznBl0zKQ-mk4dcCsVdL29g4XPEwUdrlQgj5-GgxvVnolSJJfCJW7g4vosLe/s1600/ThreatsDay-main.jpg",
-      "processedAt": "2026-07-12T18:44:37.797550+00:00"
-    },
-    {
-      "id": "art-0e139355",
-      "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
-      "summary": "Artificial intelligence has dramatically accelerated cyber attacks, compressing what once took days into minutes. Attackers now use AI models to create personalized phishing content, identify targets, test effectiveness, and move laterally across networks faster than security teams can respond. Traditional security tools and processes are falling behind because they were designed for slower, human-paced attacks.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-attacks",
-        "phishing",
-        "automation",
-        "threat-detection",
-        "incident-response",
-        "security-speed"
-      ],
-      "whyItMatters": "This represents a fundamental shift in the threat landscape where AI-enhanced attacks outpace traditional security operations centers and manual response procedures. Organizations must adopt faster detection and automated response mechanisms or risk suffering breaches before their teams can even acknowledge initial alerts.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVBCdd1YLOTAhXs53MgUBJHfid7uAH-uFr4vzULJu6BL5H7TDiBbZUDxS9RTwC1FH7q2HhEiI2BHLlymHQ7btIBDidvIohoiVJ2XH2uvQcan7Lio_iIh3Ku3J3LoM8SgaHrlAnyFeVLo77qE93hFykG4CJZUj1IsJb75jFMjAK9Q1V-akTkdagA_NLm4A/s1600/thn-webinar.jpg",
-      "processedAt": "2026-07-12T18:44:40.923141+00:00"
-    },
-    {
-      "id": "art-a6ded847",
-      "title": "RedHook Android malware now uses Wireless ADB for shell access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/redhook-android-malware-now-uses-wireless-adb-for-shell-access/",
-      "summary": "RedHook Android malware has evolved to exploit Wireless ADB (Android Wireless Debugging), a legitimate Android feature, to gain shell-level access to infected devices without needing a physical computer connection. This new technique allows attackers to execute commands directly on compromised phones, significantly expanding their control capabilities. The malware's ability to bypass traditional connection requirements makes it more dangerous and harder to detect.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "wireless-adb",
-        "privilege-escalation",
-        "redhook",
-        "mobile-security",
-        "shell-access"
-      ],
-      "whyItMatters": "This attack demonstrates how malware developers weaponize legitimate OS features to gain dangerous capabilities while evading detection. The wireless approach eliminates the need for physical USB access, making the attack more practical and scalable for threat actors targeting large populations of Android users. Organizations and users need to monitor and restrict Wireless ADB settings to prevent ",
-      "image": null,
-      "processedAt": "2026-07-12T18:44:43.752826+00:00"
-    },
-    {
-      "id": "art-ec798d6b",
-      "title": "New Helix vishing group emerges in SharePoint data theft attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/",
-      "summary": "A new cybercriminal group called Helix has emerged with a focus on stealing data from SharePoint environments using identity-based attack methods. Their tactics include voice phishing (vishing), device code phishing, and exploiting multi-factor authentication systems to gain unauthorized access. This group represents a growing threat to organizations that rely on cloud-based collaboration platforms.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "vishing",
-        "sharepoint",
-        "mfa-abuse",
-        "data-theft",
-        "identity-focused-attacks",
-        "cloud-security"
-      ],
-      "whyItMatters": "SharePoint is widely used across enterprises for document storage and collaboration, making it an attractive target for data theft. The Helix group's focus on bypassing MFA—a critical security control—demonstrates an escalating threat that requires organizations to implement additional identity verification layers beyond standard MFA. Understanding these tactics helps security teams detect and pre",
-      "image": null,
-      "processedAt": "2026-07-12T18:44:46.274890+00:00"
-    },
-    {
-      "id": "art-4cb9dded",
-      "title": "Fresh ATM Crypto Software Bugs: Jackpot or Bust?",
-      "source": "Dark Reading",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/atm-crypto-software-bugs-jackpot-bust",
-      "summary": "Security vulnerabilities have been discovered in Microsoft BitLocker's software wrapper, potentially exposing ATMs and organizational systems to compromise. These flaws could allow attackers to bypass encryption protections that are critical for securing sensitive financial transactions and data. Organizations relying on BitLocker for security need to be aware of these risks and monitor for patches.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "bitlocker",
-        "atm-security",
-        "encryption-bypass",
-        "microsoft",
-        "financial-systems",
-        "patch-required"
-      ],
-      "whyItMatters": "BitLocker is widely trusted for protecting sensitive data in enterprise and financial environments, so vulnerabilities in this security wrapper directly threaten the confidentiality of protected information. ATMs are particularly critical infrastructure, and compromises could enable financial fraud or theft at scale. Organizations must prioritize understanding and patching these vulnerabilities to",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte0e54c7d31cab23e/6a5000c3376bd6f180079dbb/ATM-AM29-Getty.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-07-12T18:44:48.779361+00:00"
-    },
-    {
-      "id": "art-56434866",
-      "title": "More Countries Jump on the Social Media 'Ban Wagon'",
-      "source": "Dark Reading",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/more-countries-jump-on-the-social-media-ban-wagon",
-      "summary": "Multiple countries are implementing restrictions on social media platforms, particularly around age limits for account access. However, these regulatory measures are struggling because technology companies are having difficulty complying with the new laws while maintaining their user experience. The article suggests that age restrictions alone may not be sufficient solutions to the underlying concerns driving these bans.",
-      "category": "Privacy",
-      "severity": "Medium",
-      "tags": [
-        "social-media-regulation",
-        "age-restrictions",
-        "compliance",
-        "privacy-policy",
-        "digital-policy"
-      ],
-      "whyItMatters": "Regulatory enforcement against major tech platforms creates compliance challenges that affect cybersecurity practices, data handling policies, and user privacy protections globally. Organizations must understand how evolving social media regulations impact their security frameworks and data protection obligations.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltea14c9f0b9e9121d/6a50fb99c6689e7d0b90589b/GettyImages-2252881496.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-07-12T18:44:51.173078+00:00"
-    },
-    {
-      "id": "art-79a5b24a",
-      "title": "AI Coding: Do Security Risks Outweigh Productivity Gains?",
-      "source": "Dark Reading",
-      "publishedDate": "2026-07-10",
-      "originalUrl": "https://www.darkreading.com/application-security/ai-coding-security-risks-productivity-gains",
-      "summary": "AI coding assistants offer significant productivity improvements but introduce hidden costs through security scanning, vulnerability remediation, and false positives that organizations must account for. The monthly subscription fees range from $19 to $200 per user, but the actual total cost of ownership increases substantially when factoring in security overhead. Security teams need to evaluate whether the development speed gains justify the additional resources required to manage and fix security issues introduced by these tools.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "secure-coding",
-        "vulnerability-management",
-        "cost-analysis",
-        "developer-tools"
-      ],
-      "whyItMatters": "As organizations increasingly adopt AI coding tools to accelerate development, understanding the full security and financial implications is critical for informed decision-making. Blindly deploying these tools without proper security controls and cost accounting can create a false economy where apparent productivity gains are offset by expensive remediation and technical debt. This directly impact",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfc206a4328894432/6a5003e314cb1e87db5d7a27/robot_hands_on_keyboard-Moor_Studio-Getty-2246656580.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-07-12T18:44:54.139604+00:00"
     }
   ]
 }
