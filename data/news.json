@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-07-15T18:51:01.493127+00:00",
+  "lastUpdated": "2026-07-16T08:22:15.519239+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-3ced73e6",
+      "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-16",
+      "originalUrl": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
+      "summary": "Zoom has released security patches for a critical vulnerability in its Windows applications that could allow attackers to take over user accounts. The flaw, identified as CVE-2026-53412 with a CVSS score of 9.8, affects multiple Zoom products including the Desktop Client, VDI Client, and Meeting SDK for Windows. The vulnerability stems from improper input validation in these applications.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "zoom",
+        "windows",
+        "account-takeover",
+        "cve-2026-53412",
+        "critical-patch",
+        "input-validation"
+      ],
+      "whyItMatters": "With a CVSS score of 9.8, this vulnerability poses an immediate and severe risk to millions of Zoom users on Windows, making account takeover attacks feasible without user interaction. Organizations relying on Zoom for communications must prioritize applying these security updates to prevent unauthorized access to user accounts and potential data theft. The broad impact across multiple Zoom produc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPR-qLKvfH8KZydz4_DnqiB9bJDjgFi6KdfrbbCHNkywiDcR_1SILe12UqjuyM_1yQXEDBok-ZeYRX0hEjIZpx-Dz2hnIW2xXnwAqrmA3voWWfG_vnGMavgE4-E_DFzICLfizByiwAis02VEJqSoxQrEECCMibS0X27D5k0o08IPp1JR0tVCnXwpj2u3e2/s1600/zoom.jpg",
+      "processedAt": "2026-07-16T08:21:41.685842+00:00"
+    },
+    {
+      "id": "art-f2e972bf",
+      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-15",
+      "originalUrl": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
+      "summary": "Marketing tags approved by security teams can inadvertently load hidden third-party and fourth-party code that accesses sensitive customer data, forms, and payment pages without explicit authorization. This 'Approval Gap' represents a significant security vulnerability where legitimate-looking approved tools become vectors for unauthorized access. The webinar addresses how organizations can identify and close these gaps before attackers or auditors discover them.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "approval-gap",
+        "ad-tech",
+        "supply-chain-risk",
+        "data-exposure",
+        "third-party-risk",
+        "marketing-tags"
+      ],
+      "whyItMatters": "Organizations often approve marketing and analytics tags without fully understanding the downstream code execution and data access they enable, creating a blind spot in security controls. This gap can expose customer data and payment information to unauthorized parties, making it a critical concern for compliance and breach prevention. Understanding and closing this approval gap is essential for m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKYTg22vVssJ3SSHZzP0PtS8d5g8oCH2fU2IkXoBoIPOR4-XblNQ7Hg6S-qkO6bIB9JLC3yI4QdpQ4iNWsQsu9QnMpNbHdHzwHhRyX0zr-Vklk2DaCe3UlOd8M53pp5Uu_mfds265f_MsrF_RaQ-lnPEc3b5UoIVsTIV-On5qJ9DqMpk05AsKM3FhlgtXV/s1600/ref.jpg",
+      "processedAt": "2026-07-16T08:21:47.417284+00:00"
+    },
+    {
+      "id": "art-fc72b4d8",
+      "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-15",
+      "originalUrl": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
+      "summary": "Cursor, a code editor, has a critical flaw on Windows where it automatically executes any file named git.exe found in a project's root directory without user confirmation or warning. An attacker could exploit this by cloning a malicious repository that contains a disguised git.exe file, which would then run with the user's full privileges and access to sensitive resources like SSH keys and cloud tokens. The malicious executable continues running as long as the project remains open in Cursor.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cursor-vulnerability",
+        "windows-code-execution",
+        "malicious-repository",
+        "privilege-escalation",
+        "developer-tools"
+      ],
+      "whyItMatters": "This vulnerability directly threatens developers by allowing arbitrary code execution through a simple repository clone, bypassing all user consent mechanisms. An attacker could steal sensitive credentials and source code or compromise a developer's machine as an entry point to organizational networks and systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyFnrtjbcXdDBTEYOhVnUpFO4CSqhCGj5xdvaYlhih4oUCd3phzBQTjjMogZeFDlYqTiO8Xt2jaHevba5peaV76dT417Vq9W-DZFSpu2_cEbAMtGwz-mqKZJcYgAAXmZT_Rnkdc0f3jAW-eANKWd6XZZJvYfYCt6l5Pp-2ZKjlnn4zG7G6gS7ivWruzeU/s1600/git.png",
+      "processedAt": "2026-07-16T08:21:50.395707+00:00"
+    },
+    {
+      "id": "art-13e33d2c",
+      "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-15",
+      "originalUrl": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
+      "summary": "Four npm packages under the @asyncapi namespace were compromised and used to distribute a multi-stage botnet loader malware. Security researchers from OX Security, SafeDep, Socket, and StepSecurity identified the malicious versions affecting popular packages like generator, generator-helpers, generator-components, and specs. This attack highlights how widely-used open-source dependencies can become vectors for delivering sophisticated malware to developers worldwide.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "npm-supply-chain",
+        "malware",
+        "botnet",
+        "open-source-security",
+        "package-compromise",
+        "software-supply-chain"
+      ],
+      "whyItMatters": "This attack demonstrates a severe supply chain vulnerability where compromised npm packages can inject malware into thousands of development environments and downstream applications. Organizations relying on AsyncAPI packages may unknowingly distribute botnet malware to their users, making immediate dependency audits and updates essential for security teams.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXEluWW9TuNGlzu9wVHSDBzAeUuoRS9Om8kX9yzH-HwCjggh-N5ycLyuJ82oY3MP4Uvf9yF_PqwKhcZepDBEH_pOb3td4dPRuuGSWi5XndfpeuqiMipzKIq0Vofc-hOBGj4nWxmXbjMS7RvHkZCUSHloOpsS6m7jpwwFX-2KUkYwrQdt-ClrGXpt2C9TxC/s1600/async-npm.jpg",
+      "processedAt": "2026-07-16T08:21:53.274558+00:00"
+    },
+    {
+      "id": "art-5a7552bb",
+      "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
+      "summary": "xAI's Grok Build coding tool was found uploading entire Git repositories, including complete commit history, to xAI's cloud storage without user consent or awareness. A security researcher discovered that the tool uploaded far more data than necessary for its tasks, and could access files it was explicitly instructed not to touch. This raises serious concerns about what sensitive code and data xAI's AI system may have collected from developers.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-exfiltration",
+        "cloud-security",
+        "ai-security",
+        "privacy-violation",
+        "unauthorized-access",
+        "git-repositories"
+      ],
+      "whyItMatters": "This incident demonstrates how AI-powered development tools can silently collect far more sensitive information than intended, putting proprietary code and credentials at risk. The ability to bypass explicit restrictions on file access reveals a fundamental trust issue with third-party AI tools in enterprise development environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCYpkCY1h-DxV5yfxpkGspVFATaUS27q_vpRgQ2ebzGvc6YgSsYk81jDt3SkJQgxVCL8dWJqzDE3t6iUt4ceeTvA9LG8Z9cA65uBXC05Lkdv1xKLNBMH88dTa_6XCet3a0wf1VwfyxQsx_1AKc3lmHCxqiZHKTfvk9kJqvo0i15biGekBijFPNN16JHBM/s1600/grok.jpg",
+      "processedAt": "2026-07-16T08:21:56.111557+00:00"
+    },
+    {
+      "id": "art-7d366f97",
+      "title": "Dutch police bust investment fraud ring stealing over €100 million",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/dutch-police-bust-investment-fraud-ring-stealing-over-100-million/",
+      "summary": "Dutch police have arrested individuals involved in a large-scale investment fraud scheme that defrauded tens of thousands of victims of over €100 million. The international operation highlights how criminals use deceptive investment schemes to steal money from unsuspecting people. This case demonstrates the growing sophistication of fraud networks operating across borders.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "investment-fraud",
+        "international-cybercrime",
+        "financial-fraud",
+        "law-enforcement",
+        "fraud-ring"
+      ],
+      "whyItMatters": "This case demonstrates that cybercriminals are expanding beyond traditional hacking into elaborate financial fraud schemes that can devastate individual victims and organizations. Understanding how these fraud rings operate helps individuals and businesses recognize warning signs and protect themselves from similar schemes. Law enforcement successes in dismantling these networks provide important ",
+      "image": null,
+      "processedAt": "2026-07-16T08:22:00.408798+00:00"
+    },
+    {
+      "id": "art-1779149f",
+      "title": "Zoom warns of critical account takeover vulnerability",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+      "summary": "Zoom has identified a critical vulnerability affecting its Windows desktop client and SDK that allows attackers without authentication to take over user accounts. This flaw poses an immediate risk to millions of Zoom users worldwide who rely on the platform for communication. The vulnerability could enable unauthorized access to sensitive meetings and personal information if not promptly patched.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "zoom",
+        "account-takeover",
+        "windows-client",
+        "critical-vulnerability",
+        "patch-urgent",
+        "desktop-client"
+      ],
+      "whyItMatters": "Account takeover vulnerabilities in widely-used communication platforms like Zoom directly threaten the security of millions of users and organizations. An unauthenticated attack vector means attackers don't need valid credentials, making this a high-priority threat requiring immediate patching across all affected systems. This highlights the critical importance of promptly applying security updat",
+      "image": null,
+      "processedAt": "2026-07-16T08:22:03.046601+00:00"
+    },
+    {
+      "id": "art-5ab3a4da",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "summary": "Microsoft released an unprecedented 570 security patches in July 2026, nearly triple the number from the previous month's record-breaking update. The company attributed this dramatic increase to improved vulnerability detection powered by artificial intelligence tools. This massive patch deployment underscores both the expanding attack surface in modern software and the growing role of AI in identifying security weaknesses.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-patches",
+        "vulnerability-disclosure",
+        "windows-security",
+        "ai-detection",
+        "patch-tuesday",
+        "software-updates"
+      ],
+      "whyItMatters": "Record patch volumes indicate an accelerating pace of vulnerability discovery that demands immediate attention from IT teams managing Windows environments. Organizations must prioritize testing and deploying these 570 fixes quickly to prevent exploitation by threat actors who will actively probe for unpatched systems. The involvement of AI in vulnerability detection signals a fundamental shift in ",
+      "image": null,
+      "processedAt": "2026-07-16T08:22:05.877673+00:00"
+    },
+    {
+      "id": "art-11cb15a1",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "summary": "A cybersecurity startup that pays substantial sums for zero-day vulnerabilities is allegedly operated by convicted felons and far-right conspiracy theorists with histories of running fraudulent companies. The individuals behind the operation have previously managed fake intelligence firms and an AI lobbying platform using fake identities. This raises serious concerns about the legitimacy and trustworthiness of the vulnerability acquisition market.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "zero-day-exploitation",
+        "fraud",
+        "vulnerability-acquisition",
+        "criminal-operations",
+        "threat-intelligence"
+      ],
+      "whyItMatters": "This situation highlights critical risks in the vulnerability trading ecosystem where bad actors could acquire zero-days for malicious purposes rather than defensive security research. Organizations need to be cautious about vulnerability brokers they work with, as criminal operators in this space could weaponize exploits against targets. The story underscores the importance of vetting third parti",
+      "image": null,
+      "processedAt": "2026-07-16T08:22:09.281594+00:00"
+    },
+    {
+      "id": "art-5ed1a7b7",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "summary": "The FBI seized hundreds of domains belonging to NetNut, a residential proxy service operated by Israeli company Alarum Technologies, following evidence that the platform was connected to the Popa botnet. The Popa botnet compromises millions of devices without user consent to carry out malicious activities. This action represents a major law enforcement effort to dismantle infrastructure used for large-scale cybercrime.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "botnet",
+        "proxy-service",
+        "malware",
+        "law-enforcement",
+        "residential-proxy",
+        "compromised-devices"
+      ],
+      "whyItMatters": "This seizure demonstrates how legitimate-appearing services can be weaponized for cybercrime at massive scale, affecting millions of compromised devices. Understanding how botnets operate and how platforms facilitate them is essential for organizations protecting their networks and users from exploitation. The case shows that law enforcement is actively targeting infrastructure providers that enab",
+      "image": null,
+      "processedAt": "2026-07-16T08:22:15.519100+00:00"
+    },
     {
       "id": "art-866f65c0",
       "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
@@ -825,210 +1032,6 @@
       "whyItMatters": "This incident demonstrates that even government security agencies can fail at fundamental credential hygiene and monitoring, making it a critical wake-up call for organizations of all sizes. The six-month detection lag reveals dangerous gaps in secret scanning and repository monitoring that attackers could have exploited. Organizations must implement automated secret detection, access controls, an",
       "image": null,
       "processedAt": "2026-07-14T08:17:25.560314+00:00"
-    },
-    {
-      "id": "art-9ebea401",
-      "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-      "summary": "CrashStealer is a new macOS information stealer malware written in native C++ that can extract sensitive data from infected computers. The malware uses a notarized dropper to bypass Apple's Gatekeeper security checks, making it appear legitimate to users. Unlike similar threats, CrashStealer validates passwords locally on victims' machines before stealing them.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "macos-malware",
-        "information-stealer",
-        "gatekeeper-bypass",
-        "native-code",
-        "credential-theft"
-      ],
-      "whyItMatters": "This malware demonstrates how attackers are evolving techniques to bypass macOS security features by leveraging Apple's own notarization system, making detection harder for users. The C++ implementation and local password validation suggest a more sophisticated threat than typical AppleScript-based stealers, increasing the risk for macOS users who may assume notarized apps are safe.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZ5yNN1gA3Yzt-6i1sekVk3AFnHGEpas31-UowjFTXB9Rj4DhkS8H4cqjr655w9HCDKZIzcRAqn1NvLSmPLs_-oDDYpCteWgGlkUIpuyMkPIeXnfgxKCYRG54K8oV0j4vVaWj928DfJBsYJzR98e5BuZDp5OmoeFtDubZ90Qnz0a7G9VmukCII5kVE3rQ/s1600/macos-malware-1.jpg",
-      "processedAt": "2026-07-13T19:07:42.629758+00:00"
-    },
-    {
-      "id": "art-db07a37b",
-      "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-      "summary": "Google and Microsoft removed ModHeader, a browser extension used by 1.6 million people, after security researchers discovered hidden code designed to collect browsing history. Although the data collection feature was inactive and there's no evidence it ever actually gathered or transmitted any information, the discovery highlighted a serious trust issue with widely-used browser extensions. This incident demonstrates how popular tools can contain suspicious functionality that users never know about.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "browser-extension",
-        "data-collection",
-        "privacy-violation",
-        "supply-chain-security",
-        "malicious-code"
-      ],
-      "whyItMatters": "This case shows how malicious or suspicious code can hide in legitimate, popular software that millions of users trust, making it a significant supply-chain security concern. It underscores the importance of security audits for browser extensions, which have direct access to sensitive user data like browsing history. Users should remain cautious about extension permissions and developers should ma",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSvBtzUXyAbjgtvPJVS9zZ29ULkaIs0fMMa53ZKSip2pJbZ7_HMTGn3SV27X28JLwaq9atS1B_jvH_7qgfsjW0wyVDV_jGyqFSyO-z_vHuoigCy14xfb7DKuuWGIMUVeLiOhnap1yICNPEC2OUkA0d_e8RXtPs7oTo3BAz9I2DTxRwg67vgObResLQ7c4/s1600/browser-edge.jpg",
-      "processedAt": "2026-07-13T19:07:45.646206+00:00"
-    },
-    {
-      "id": "art-5899fa22",
-      "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-      "summary": "This week highlights a critical cybersecurity paradox: the same automated tools that help security teams find and fix vulnerabilities are now being weaponized by attackers to discover exploits faster than patches can be deployed. The article covers multiple threats including ShareFile vulnerabilities, Citrix Bleed 2 ransomware, and AI-powered coding attacks, while emphasizing that many organizations remain vulnerable to previously discovered bugs due to delayed patching cycles.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "ransomware",
-        "patch-management",
-        "zero-day",
-        "citrix-bleed",
-        "vulnerability-disclosure"
-      ],
-      "whyItMatters": "Organizations face an accelerating threat landscape where attackers use AI and automated tools to find vulnerabilities faster than security teams can patch them, creating a dangerous window of exposure. Understanding this dual-use technology challenge and prioritizing rapid patch deployment is essential for defensive strategy in 2026.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuCIplQpj7CGra4jEeX4qO6DfR9_OazwL_c55clD60cy9pWK42qAsCmqrwe0YBUmPq0cg_6Gt52VlqoOGuigf4qwI8lazIdogbl8pjBDfprTbktGn96fxMbtCh06kyGFF9qCXg9PgMhSXu8V02QBxTmBArc-84ZI3jXwmoDQdj-SCp-_JY7z5XqrQR2IlP/s1600/monday-recap.jpg",
-      "processedAt": "2026-07-13T19:07:48.825619+00:00"
-    },
-    {
-      "id": "art-6f51184a",
-      "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
-      "summary": "A new attack called MemGhost allows attackers to inject false information into AI assistants through a single email, causing the AI to store fabricated facts about users. The attack is particularly dangerous because it hides the tampering and causes the assistant to provide misleading responses in future conversations without the user realizing they've been compromised. This demonstrates a critical vulnerability in AI systems that have memory and email access capabilities.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "memory-poisoning",
-        "email-attack",
-        "ai-agents",
-        "prompt-injection",
-        "persistent-threat"
-      ],
-      "whyItMatters": "This attack reveals that AI assistants with persistent memory are vulnerable to manipulation through common communication channels, making them unreliable for sensitive decisions. Organizations deploying AI agents with email integration and memory features must now consider whether their systems can be covertly corrupted, affecting trust in AI-generated information and decisions. The stealthy natu",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_pk3JKY3zis-iTRVKpcttwfy-GP-gEzPE_NQQpqDEaMvVs65uqa3v_dG7pD_DmZWLHcwBQzjFtTYqob5wWSgO2F-0-KkwZaahqTUpGP1xbvyifaf2UnMDzI8j9pnP9EWyARmN2SHHl0eBo4UszZx3VZvicjU_MMFOEA8sjcLvzBFzAkNeFg3GIR2yncA/s1600/memghost.jpg",
-      "processedAt": "2026-07-13T19:07:52.475438+00:00"
-    },
-    {
-      "id": "art-c016760b",
-      "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
-      "summary": "Forg365 is a phishing service available on Telegram that attacks Microsoft 365 users by combining device code phishing with man-in-the-middle techniques and AI-generated lures. For $400 monthly or $3,800 yearly, attackers can gain access to corporate email accounts and perform unauthorized mailbox operations. This threat demonstrates how affordable, sophisticated phishing attacks are becoming and how they exploit trusted cloud platforms.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing-as-a-service",
-        "microsoft-365",
-        "device-code-phishing",
-        "aitm-attack",
-        "credential-theft",
-        "cloud-security"
-      ],
-      "whyItMatters": "Forg365 represents an active, commercialized threat targeting enterprise Microsoft 365 environments with affordable pricing that lowers barriers to entry for attackers. The combination of device code phishing and AitM tactics defeats many traditional defenses, making it a significant risk to organizations of all sizes. This service demonstrates how phishing infrastructure is evolving to be more au",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjlR-dy6ENZN5NKa1_sViQqXH6fEfEROkwjKV9vTowPmCu_nOALJ89JzGg-ueVJMCAqDHHozMZGd8oWbIlAQDTI8anEd6A2ZK0MdBN_FiShR3UoHGL6Cf0Gbhv8dY9RkVlZxpOCmks29u8Fnmx-JcytGZlnKC_9EuColvIMY4Y5IXH91aRaN5HOgjvvSPEo/s1600/ms-device-code1.jpg",
-      "processedAt": "2026-07-13T19:07:55.352914+00:00"
-    },
-    {
-      "id": "art-05240b42",
-      "title": "New CrashStealer malware poses as Apple crash reporting tool",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-crashstealer-malware-poses-as-apple-crash-reporting-tool/",
-      "summary": "CrashStealer is a new malware targeting macOS users that disguises itself as Apple's official crash-reporting software. Once installed, it steals sensitive information including login credentials, keychain data, and cryptocurrency wallet information. This threat is particularly dangerous because users are likely to trust what appears to be a legitimate Apple tool.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "macos-malware",
-        "credential-theft",
-        "social-engineering",
-        "crypto-theft",
-        "information-stealer"
-      ],
-      "whyItMatters": "This malware demonstrates how attackers exploit user trust in legitimate software vendors to bypass security awareness. Mac users who believe they are installing official Apple tools could unknowingly compromise their financial accounts, passwords, and cryptocurrency holdings, making this a significant personal security risk for a large user base.",
-      "image": null,
-      "processedAt": "2026-07-13T19:07:57.820374+00:00"
-    },
-    {
-      "id": "art-cc9a190d",
-      "title": "CISA warns of actively exploited RCE flaws in Joomla extensions",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-actively-exploited-rce-flaws-in-joomla-extensions/",
-      "summary": "CISA has issued a warning about active attacks exploiting security flaws in two Joomla extensions: iCagenda and Balbooa Forms. Hackers are using these vulnerabilities to upload malicious files and gain remote code execution on affected websites. This means attackers can take complete control of vulnerable Joomla sites to steal data, inject malware, or launch further attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "joomla",
-        "remote-code-execution",
-        "file-upload",
-        "active-exploitation",
-        "cisa-alert",
-        "web-application"
-      ],
-      "whyItMatters": "This threat is critical because attackers are already actively exploiting these vulnerabilities, meaning organizations running these Joomla extensions face immediate risk. Joomla powers millions of websites globally, so widespread exploitation could affect countless organizations if patches aren't applied quickly. Site administrators need to update these extensions urgently or disable them to prev",
-      "image": null,
-      "processedAt": "2026-07-13T19:08:00.851213+00:00"
-    },
-    {
-      "id": "art-efec4356",
-      "title": "Lidl discloses online shop breach after service provider hack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/",
-      "summary": "Lidl, a major European supermarket chain, discovered that attackers accessed customer personal information through a compromised service provider rather than Lidl's own systems. The breach affected customers in Germany, Belgium, and the Netherlands. This incident highlights how third-party vendors can become weak points in a company's security, putting millions of customers at risk even when the primary company's defenses are strong.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "customer-data",
-        "supply-chain-security",
-        "incident-disclosure"
-      ],
-      "whyItMatters": "This breach demonstrates the critical importance of supply chain security and vendor risk management in cybersecurity. Organizations must monitor and secure their third-party service providers because attackers often target these weaker links to gain access to major companies' customer data. It also shows why customers should expect notifications and take protective steps like monitoring accounts ",
-      "image": null,
-      "processedAt": "2026-07-13T19:08:03.790212+00:00"
-    },
-    {
-      "id": "art-0390da64",
-      "title": "Breach at the Beach: Play the Ultimate Entra ID CTF",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/breach-at-the-beach-play-the-ultimate-entra-id-ctf/",
-      "summary": "Varonis has launched a free Capture the Flag (CTF) competition called Breach at the Beach that teaches cybersecurity defenders how to identify and respond to Entra ID attacks. The hands-on training exercise uses realistic attack scenarios to help participants understand how attackers abuse Microsoft's identity management platform. By participating in this CTF, defenders can develop practical skills in investigating Entra ID-based threats.",
-      "category": "Security Awareness",
-      "severity": "Low",
-      "tags": [
-        "entra-id",
-        "capture-the-flag",
-        "identity-security",
-        "hands-on-training",
-        "defender-education"
-      ],
-      "whyItMatters": "Entra ID (formerly Azure AD) is a critical attack surface that many organizations struggle to defend effectively, making educational resources like this CTF valuable for building defensive capabilities. Understanding real-world attack techniques through practical exercises helps security teams detect and respond to identity-based compromises before they cause significant damage.",
-      "image": null,
-      "processedAt": "2026-07-13T19:08:06.517039+00:00"
-    },
-    {
-      "id": "art-fecb861a",
-      "title": "UK charges suspects linked to Russian Coms call spoofing platform",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/",
-      "summary": "UK law enforcement has charged five individuals involved with Russian Coms, a platform that enabled criminals to spoof caller IDs and conduct large-scale scam operations. The investigation revealed the platform was used to make over 1.8 million fraudulent calls targeting victims. This takedown represents a significant enforcement action against infrastructure supporting organized cybercrime and phone-based fraud schemes.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "caller-id-spoofing",
-        "fraud-platform",
-        "law-enforcement",
-        "cybercrime",
-        "scam-infrastructure"
-      ],
-      "whyItMatters": "This case demonstrates successful international law enforcement coordination against criminal infrastructure and highlights how spoofing platforms enable massive-scale fraud operations. For organizations and individuals, it underscores the importance of implementing call verification systems and training employees to recognize spoofed calls as a critical social engineering vector.",
-      "image": null,
-      "processedAt": "2026-07-13T19:08:09.177452+00:00"
     }
   ]
 }
