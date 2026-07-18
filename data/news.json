@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-07-17T18:48:48.163950+00:00",
+  "lastUpdated": "2026-07-18T08:00:21.694319+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-fa9a8813",
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "summary": "A critical vulnerability in WordPress core allows attackers to execute malicious code on vulnerable sites without needing login credentials. The flaw affects WordPress versions 6.9 and 7.0, meaning even a basic WordPress installation with no plugins can be compromised. A working proof-of-concept has been publicly released, making exploitation straightforward for attackers.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "wordpress",
+        "remote-code-execution",
+        "unauthenticated-attack",
+        "core-vulnerability",
+        "wp2shell",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects WordPress core—the foundation of millions of websites worldwide—and requires no authentication, meaning any attacker can exploit it remotely. With public proof-of-concept code available, the risk of widespread compromise is extremely high. All administrators running affected versions must patch immediately to prevent potential data theft, site take",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRULLT1q8L6AtUB7jgKywi_KSF8VGKkOF9yC3Snt81K1aD2XSEV1jgfIe331rXUWGqhmAyFgr1USssr4_CQmuE7HLAn0ShaQ0pHY_yvNYMjQdHtpV8i-vlk2ickhJSJDSN3amGox_DMR5hemMlrgXIk8kHoHlYKZncjpiV3ibF77ax1Yn0fEjxtgxy7tY/s1600/wordpress-core.jpg",
+      "processedAt": "2026-07-18T07:59:54.294355+00:00"
+    },
+    {
+      "id": "art-1605b037",
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "summary": "A vulnerability in OpenSSL called HollowByte allows attackers to send just 11 bytes in a TLS request to force unpatched servers to allocate up to 131 KB of memory that never gets released until the process restarts. This denial-of-service flaw was quietly patched by OpenSSL in June without a CVE number or public advisory, making it easy for system administrators to miss. Okta's security team discovered and named the vulnerability, highlighting how simple requests can exhaust server resources.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "openssl",
+        "denial-of-service",
+        "memory-exhaustion",
+        "tls",
+        "patch-management",
+        "server-security"
+      ],
+      "whyItMatters": "This vulnerability is dangerous because attackers can crash or severely degrade server performance with minimal effort, and the lack of public disclosure means many organizations remain unaware and unpatched. The stealth patching approach underscores the importance of monitoring security updates even when vendors don't announce them loudly, as overlooked fixes can leave critical infrastructure exp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhk66eU1Srifu4Rdpf7MZDjg3GdNMtQK6ZW-F283kxhZ7Z0W_8nWNJynZiQ7n0ov9OLNm315P4942h3-unMI0WZ1-LH8tdQ6sv2o6q0TxKT-bVKewzkQULKKXSJOee_oANuI3YquoDgSPHsPeXEdQcFRoy8czRQimH_f0sNHJ55-5LA153sQgUPkpBBEVE/s1600/openssl.jpg",
+      "processedAt": "2026-07-18T07:59:57.254074+00:00"
+    },
+    {
+      "id": "art-cfd6420a",
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "summary": "Researchers discovered seven malicious npm packages designed to target Vite, a popular frontend development tool, in a coordinated supply chain attack. These packages are part of a broader campaign called ChainVeil that uses an innovative blockchain-based command-and-control system to avoid detection and deliver a remote access trojan (RAT). The attack demonstrates how threat actors are leveraging legitimate package repositories and emerging technologies to compromise developer tools and potentially affect numerous downstream applications.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "npm-packages",
+        "remote-access-trojan",
+        "blockchain-c2",
+        "software-security",
+        "developer-tools"
+      ],
+      "whyItMatters": "This attack targets the npm ecosystem used by millions of developers worldwide, meaning compromised packages could infect countless applications and organizations. The use of blockchain-based C2 infrastructure represents an evolution in evasion tactics that traditional security tools may struggle to detect. Developers and organizations must immediately audit their dependencies and implement strict",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA07xA1INXGKM7Z2LQ6zk2IFE_Hb_aDQNHmSfPtJkZY5Gzo2U2_cyflorBsU76hbXK8SwKXR5AmkK5dAAd9uw0wRh6gYaC-5ZPjT6kEdvE7rO-5G0TxXm8a-eytoygZOMuSG-aOnYkC_zTVbnxSq7zxaIFYyLcegbQ59WVztRO-y3MHmce7XuDz2SdVsKA/s1600/vite-npm.jpg",
+      "processedAt": "2026-07-18T08:00:00.254107+00:00"
+    },
+    {
+      "id": "art-22eef096",
+      "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+      "summary": "Armenia detained a Russian tourist named Aleksandr Ermakov at the airport based on a U.S. extradition warrant for a REvil ransomware suspect with the same name. His lawyers and wife claim he is the wrong person and was arrested based solely on a photo match from his social media profile. The case raises concerns about mistaken identity in international cybercrime investigations and extradition procedures.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "revil-ransomware",
+        "extradition",
+        "mistaken-identity",
+        "international-law-enforcement",
+        "ransomware-investigation"
+      ],
+      "whyItMatters": "This case highlights the risks of using inadequate identification methods in cross-border cybercrime arrests, where innocent people can be detained based on name matches and social media photos. It demonstrates critical gaps in international law enforcement coordination and the potential for grave miscarriages of justice when investigating sophisticated cybercriminal operations. The incident under",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMuThPnDJrVLJe0_WqKVz_AE9vh2H5NFoGoYlcbqF99J6sjNeWxhrrAEZKsctTKWp4TaEQKQcsdejihH7wBzgS0eaiwJ9bp04rAo2H2d2C-aydo2wrPvhAQgRsP351HM-l0P3JBoHQkwwQPqKOSIaYLKQ4Dpb_F54BjqErS5AUa5Q9RAZttEZmK0Yvqwk/s1600/REvil-hacker.jpg",
+      "processedAt": "2026-07-18T08:00:03.122395+00:00"
+    },
+    {
+      "id": "art-d2fe6d05",
+      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+      "summary": "ACR Stealer is a malicious program that has been targeting businesses since 2024 by tricking users into running commands that give it access to sensitive data. Once installed, it steals browser passwords, active login sessions, Microsoft Office files, and data from cloud storage services like OneDrive and SharePoint. Microsoft security experts recently identified two different methods attackers use to deliver this threat to corporate networks.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "infostealer",
+        "browser-credentials",
+        "cloud-data-theft",
+        "microsoft-365",
+        "social-engineering",
+        "enterprise-threat"
+      ],
+      "whyItMatters": "ACR Stealer represents a serious threat to enterprise security because it compromises multiple critical assets—authentication tokens, cloud documents, and sensitive files—through relatively simple social engineering tactics. Organizations need to implement stronger controls around command execution and educate employees about suspicious prompts, as this threat actively targets business environment",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5a79jcbSLlpVrk_Tkl4E0wiB47Zu2a7V3UrYOddEgvO0bNMVU1VzwmLIK-Ac8I71znO7vmH7QSDdF9cg4-VeEzLo_7InYxfc5yaXG8Ziv-nVAK1qRCkTx73CVKtLOESbkL2yUF9srs53F9hLAkXt9hsiSTjntbS3ThRVi3ApZniyKapqVAgz9PEuW9o/s1600/clicks.png",
+      "processedAt": "2026-07-18T08:00:06.290980+00:00"
+    },
+    {
+      "id": "art-f13b091e",
+      "title": "Abbott probes two cyber incidents amid extortion claims",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+      "summary": "Abbott Laboratories is dealing with two separate cybersecurity breaches affecting different parts of its business. One incident involved unauthorized access to legacy systems used by its Cancer Diagnostics division (formerly Exact Sciences), while a second breach targeted the company's LabCentral portal, resulting in stolen data. The company is currently investigating both incidents amid claims that attackers are attempting extortion.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "extortion",
+        "unauthorized-access",
+        "legacy-systems",
+        "enterprise-security"
+      ],
+      "whyItMatters": "These breaches expose critical vulnerabilities in healthcare company infrastructure, particularly affecting cancer diagnostics and laboratory services that patients and medical professionals rely on. The extortion element suggests attackers may leverage sensitive healthcare data, making this a significant threat to patient privacy and organizational operations. Organizations in the healthcare sect",
+      "image": null,
+      "processedAt": "2026-07-18T08:00:08.994853+00:00"
+    },
+    {
+      "id": "art-1d8fec46",
+      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
+      "summary": "OkoBot is a dangerous new malware framework being used by attackers to distribute over 20 different malicious programs designed to steal valuable information from victims. The payloads specifically target cryptocurrency wallets, login credentials, and other sensitive personal data. This multi-payload approach makes OkoBot particularly effective at compromising systems from multiple angles simultaneously.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "malware-framework",
+        "cryptocurrency-theft",
+        "data-stealing",
+        "multi-payload",
+        "credential-theft",
+        "okobot"
+      ],
+      "whyItMatters": "OkoBot represents a significant threat to both individual users and organizations because its multi-payload design can compromise multiple security layers and steal critical assets like cryptocurrency and credentials in a single attack. The framework's distribution of 20+ payloads demonstrates sophisticated attack infrastructure that makes detection and remediation substantially more difficult. Or",
+      "image": null,
+      "processedAt": "2026-07-18T08:00:12.094944+00:00"
+    },
+    {
+      "id": "art-34328726",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "summary": "CISA experienced a significant security incident when a contractor accidentally exposed sensitive internal credentials, including AWS Govcloud keys, on a public GitHub repository for nearly six months before the agency was alerted. The incident prompted CISA to conduct a postmortem review that revealed critical gaps in how the agency detected and responded to the breach. Security experts highlight that the lessons from CISA's experience offer valuable insights for all organizations about credential management, monitoring, and incident response procedures.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "credentials-exposed",
+        "cloud-security",
+        "github-leak",
+        "aws-keys",
+        "incident-response",
+        "contractor-risk"
+      ],
+      "whyItMatters": "This incident demonstrates how even government cybersecurity agencies can fall victim to common mistakes like exposed credentials in public repositories, emphasizing that robust monitoring and rapid detection systems are essential regardless of organizational size or expertise. The six-month detection gap reveals dangerous blind spots in security operations and highlights the need for automated se",
+      "image": null,
+      "processedAt": "2026-07-18T08:00:15.055018+00:00"
+    },
+    {
+      "id": "art-47b667b5",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their involvement in an August 2024 cyberattack that disrupted London's public transport system. The guilty pleas occurred on the first day of their trial, significantly shortening what was expected to be a lengthy legal proceeding. This case demonstrates law enforcement's success in identifying and prosecuting members of a major cybercriminal organization.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "scattered-spider",
+        "cybercrime",
+        "ransomware-gang",
+        "critical-infrastructure",
+        "law-enforcement",
+        "guilty-plea"
+      ],
+      "whyItMatters": "This prosecution highlights that even sophisticated cybercriminals face serious legal consequences, and it demonstrates ongoing law enforcement efforts to dismantle prolific hacking groups targeting critical infrastructure. The case reinforces the importance of international cooperation in cybercrime investigations and shows that attackers operating critical infrastructure attacks will be pursued ",
+      "image": null,
+      "processedAt": "2026-07-18T08:00:18.751578+00:00"
+    },
+    {
+      "id": "art-5f4ce1e8",
+      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "summary": "Researchers have discovered that the Popa botnet, which has compromised millions of Android TV boxes over the past four years, is connected to NetNut, a residential proxy service operated by Alarum Technologies, a publicly-traded Israeli company. The botnet has been used to carry out advertising fraud, unauthorized account access, and large-scale data scraping. This revelation links a major cybercriminal operation to a legitimate business, raising serious questions about corporate accountability and infrastructure abuse.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "android-malware",
+        "advertising-fraud",
+        "residential-proxies",
+        "account-takeover",
+        "data-scraping"
+      ],
+      "whyItMatters": "This case demonstrates how legitimate companies can be weaponized for illegal activities at massive scale, affecting millions of consumer devices. It highlights the importance of supply chain scrutiny and the risks posed by proxy services that lack adequate abuse controls. Organizations and individuals using such services may inadvertently support criminal infrastructure, making vendor vetting cri",
+      "image": null,
+      "processedAt": "2026-07-18T08:00:21.694149+00:00"
+    },
     {
       "id": "art-14adfabd",
       "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
@@ -828,212 +1036,6 @@
       "whyItMatters": "This seizure demonstrates how legitimate-appearing services can be weaponized for cybercrime at massive scale, affecting millions of compromised devices. Understanding how botnets operate and how platforms facilitate them is essential for organizations protecting their networks and users from exploitation. The case shows that law enforcement is actively targeting infrastructure providers that enab",
       "image": null,
       "processedAt": "2026-07-16T08:22:15.519100+00:00"
-    },
-    {
-      "id": "art-866f65c0",
-      "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
-      "summary": "Researchers discovered TuxBot v3 Evolution, a new IoT botnet that appears to have been created with help from an AI language model. Despite the AI's assistance in generating the malicious code, the developers ignored safety warnings that the AI included, resulting in a flawed final product. This case highlights how threat actors are attempting to leverage AI tools to accelerate botnet development, even though the outcomes may be imperfect.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "iot-botnet",
-        "tuxbot",
-        "llm-assisted-malware",
-        "botnet-development",
-        "ai-security"
-      ],
-      "whyItMatters": "This demonstrates an emerging threat landscape where cybercriminals actively exploit AI tools to create malware, lowering the technical barrier for botnet development. Organizations managing IoT devices need to strengthen defenses as these AI-generated threats may evolve rapidly and become more sophisticated over time.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmKa1OIdUu8LgLPgZkc9qbOTzhARf1dEJa_fzyVt7vvSzidHy3Lrb-2R4hs2ryt9b4Aq3zOnJRtWVuQ8KHKUZ5x9Iv6Q0vGTVMPxNMLTdGaNsquyrL18QXk8TcMP2nEwFHE1snKt2aG6rEmyVMwRp7Fk4G_x_sXjk_4AmYWsH2JCvOe2Adut2PZbLVc4YI/s1600/tuxbot.jpg",
-      "processedAt": "2026-07-15T18:50:35.406620+00:00"
-    },
-    {
-      "id": "art-ebd182a1",
-      "title": "OkoBot Malware Framework Injects Seed Phrase Phishing Into Ledger and Trezor Apps",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html",
-      "summary": "OkoBot is a malware framework that has been infecting Windows computers since April 2025, with a specific module designed to steal cryptocurrency recovery phrases from hardware wallet users. The malware tricks victims by injecting fake seed phrase prompts directly into legitimate wallet applications like Ledger and Trezor, making the phishing attempt appear to come from the trusted software itself. This attack is particularly dangerous because it exploits the trust users place in their wallet software and can result in complete loss of cryptocurrency assets.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "cryptocurrency-theft",
-        "hardware-wallet-targeting",
-        "phishing-injection",
-        "seed-phrase-harvesting",
-        "windows-malware"
-      ],
-      "whyItMatters": "This threat directly targets cryptocurrency holders by compromising the security of legitimate wallet applications, potentially leading to complete financial loss without detection. The sophistication of injecting malicious prompts into trusted software represents an elevated attack method that bypasses traditional user awareness, making it a significant risk to both retail and institutional crypt",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwz558IbCLKi1RAJRcX_tLnJrGR3xjXSXfBJHnREqKc0aTs9Ie67rKN6xRHDV4g6JNByEH5Vr-x-14HOK8dSKj_B6HFn303OMiFrpr2wHf9PNUONqlUPn8IdMzr9QoZB9uWq14ElryYTydVAUXNeCARv-cN7KMmmwfb9FpMw_NCDIk8faF6QlSboXey08/s1600/seed.jpg",
-      "processedAt": "2026-07-15T18:50:38.213248+00:00"
-    },
-    {
-      "id": "art-1be7f0c6",
-      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-      "summary": "Mozilla released security updates for Firefox to patch two critical vulnerabilities in the JavaScript/WebAssembly and DOM navigation components. Both flaws have publicly available exploit code, making them actively dangerous to users. Chrome, Adobe, and VMware also released updates addressing multiple critical security issues across their products.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "firefox-vulnerability",
-        "patch-now",
-        "active-exploitation",
-        "critical-flaw",
-        "browser-security",
-        "zero-day"
-      ],
-      "whyItMatters": "When exploit code is publicly available for critical vulnerabilities, attackers can immediately weaponize the flaws to target unpatched systems. Firefox users must apply these updates urgently to prevent potential browser hijacking, data theft, or code execution. The simultaneous critical updates across multiple major vendors indicates a widespread security emergency requiring immediate patching.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjCjGBZhkRcB4m5BQu0Fcn-Qjs1_VPnfOlt3oFxu7CKMZ5Wc1JpvZEvhVSorBJW-AWV1pACLDkg4rFmCCcdH6vDk-pmD5ai0ZewlmPyeWPnfsmTcg-D3UJXdT902oUD32DjSm5CrBsnf2rcVTQPUo5o-LJRKUlsjOwPNfYMpN7kOfmNhnyw552cv-Gtqk/s1600/adobes.jpg",
-      "processedAt": "2026-07-15T18:50:40.672661+00:00"
-    },
-    {
-      "id": "art-48dd083c",
-      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "summary": "Traditional SASE (Secure Access Service Edge) solutions that rely on packet inspection are becoming less effective as modern work environments expand into cloud applications, browsers, and AI tools. The article highlights a critical gap in security monitoring: employees increasingly interact with unsanctioned tools and paste sensitive data into generative AI platforms, which standard network inspection cannot adequately protect. Organizations need to evolve their security strategies beyond basic traffic routing to address emerging risks in this new digital landscape.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "sase",
-        "ai-security",
-        "cloud-security",
-        "data-protection",
-        "security-gaps"
-      ],
-      "whyItMatters": "As enterprises shift to cloud-first and AI-integrated workflows, traditional packet-inspection-based security models fail to protect sensitive data being processed in browsers, SaaS applications, and generative AI tools. Understanding this limitation is critical for organizations to implement more comprehensive security strategies that address modern threats beyond network boundaries.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5qXcxZFGTQiQ1Sb-SHAyKnjOmjdz1fA1FEFMLTVXd7Xcyr9aSptzafuOwTnzCkzHCqZCOV-z_tPKKeoeS6Rd2kYWtAL_IWTRXFaZkr8V371LH2Rbq0JHlLwCbkuhO_D-hRv73LHSQgEW9tfI9Oxj9jmh9ROMZLOAZFZztDH1qzHvO2uc7EO6AlxPh8Cl/s1600/island.jpg",
-      "processedAt": "2026-07-15T18:50:43.667014+00:00"
-    },
-    {
-      "id": "art-4543ab72",
-      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "summary": "A security researcher publicly released a proof-of-concept exploit for a Windows zero-day vulnerability affecting the User Profile Service (ProfSvc), a critical system component that manages user accounts. The exploit, called LegacyHive, demonstrates how an attacker could escalate their privileges on a Windows system by manipulating user profile data. This disclosure comes shortly after Microsoft's monthly patch cycle, highlighting the ongoing risks of unpatched systems.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "windows-vulnerability",
-        "privilege-escalation",
-        "profiling-service",
-        "exploit-poc",
-        "patch-tuesday"
-      ],
-      "whyItMatters": "Public release of a working exploit significantly increases the risk of widespread attacks, as malicious actors can now easily weaponize this vulnerability against unpatched Windows systems. The User Profile Service is fundamental to Windows operations, meaning successful exploitation could grant attackers administrative-level access to compromise entire systems or networks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvtiVnhkF-YVsPEXyedqj9REY5pN1-KiSsf-rCeXK5yClGbAcsL1Tg7-9UDDA8VQg5RbM0uWkV23rDxqiFFIJ2RkpkY6cn90-5LPbZOC2oktF7_3FjD5La_FGkYdVBEKeXMJGiGRZfPvxmMBXd99tncWdEZ4HxX62hbxmWEnA02eu-LSVwZtmecjuykqDb/s1600/windows-0day.jpg",
-      "processedAt": "2026-07-15T18:50:46.515975+00:00"
-    },
-    {
-      "id": "art-939a29f7",
-      "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
-      "summary": "A Russian-speaking threat actor nicknamed 'bandcampro' exploited Google's open-source Gemini CLI tool to automate hacking activities and control a botnet. By abusing the AI tool, the attacker was able to streamline malicious operations without building custom infrastructure. This case demonstrates how legitimate AI tools can be repurposed by criminals for large-scale cyberattacks.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-abuse",
-        "botnet",
-        "threat-actor",
-        "malware-operations",
-        "gemini-cli",
-        "russian-cybercrime"
-      ],
-      "whyItMatters": "This incident reveals a critical vulnerability in how open-source AI tools can be weaponized by threat actors to amplify their capabilities and reduce detection risk. Organizations and developers need to implement stronger access controls and monitoring for AI tool usage to prevent similar abuse. The case highlights an emerging threat vector where generalist AI systems become force multipliers for",
-      "image": null,
-      "processedAt": "2026-07-15T18:50:49.526473+00:00"
-    },
-    {
-      "id": "art-1a48cf23",
-      "title": "AsyncAPI npm packages infected with credential-stealing malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/-asyncapi-npm-packages-infected-with-credential-stealing-malware/",
-      "summary": "Attackers uploaded five malicious versions of AsyncAPI packages to npm, a popular repository for JavaScript libraries. These infected packages contained malware designed to steal credentials and provide remote access to compromised systems. This supply-chain attack demonstrates how popular open-source repositories can be weaponized to distribute malware to thousands of developers and applications.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-packages",
-        "malware",
-        "credential-theft",
-        "remote-access-trojan",
-        "open-source-security"
-      ],
-      "whyItMatters": "Supply-chain attacks targeting package repositories like npm are particularly dangerous because they can affect thousands of projects and developers downstream, making detection and remediation extremely difficult. Organizations using AsyncAPI must immediately audit their dependencies and update to clean versions to prevent credential theft and unauthorized system access. This incident highlights ",
-      "image": null,
-      "processedAt": "2026-07-15T18:50:52.437460+00:00"
-    },
-    {
-      "id": "art-13d42d73",
-      "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
-      "summary": "A cybersecurity company called Intruder has developed an AI-powered system that automatically discovers software vulnerabilities by combining code analysis with large language models. This \"vulnerability vending machine\" successfully identified a previously unknown zero-day flaw in a WordPress plugin, demonstrating how AI can accelerate the discovery of complex security weaknesses. The findings have been responsibly disclosed, highlighting both the power and responsibility involved in automated vulnerability research.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "ai-vulnerabilities",
-        "zero-day-discovery",
-        "wordpress-security",
-        "automated-exploitation",
-        "responsible-disclosure",
-        "llm-security-risks"
-      ],
-      "whyItMatters": "This demonstrates that AI-driven vulnerability discovery is becoming a practical reality, which means attackers may soon have automated tools to find zero-days at scale. Organizations need to accelerate patching cycles and security testing, as traditional manual vulnerability detection will increasingly lag behind automated AI-powered methods used by both defenders and attackers.",
-      "image": null,
-      "processedAt": "2026-07-15T18:50:55.243051+00:00"
-    },
-    {
-      "id": "art-66f503ee",
-      "title": "CISA warns admins to patch actively exploited SharePoint flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-patch-actively-exploited-sharepoint-flaws/",
-      "summary": "CISA has alerted system administrators that three SharePoint Server vulnerabilities are being actively exploited in real-world attacks targeting publicly exposed on-premises installations. These flaws allow attackers to compromise SharePoint servers that are accessible from the internet. Organizations need to apply security patches immediately to protect their systems from ongoing threats.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sharepoint",
-        "active-exploitation",
-        "patch-now",
-        "cisa-alert",
-        "on-premises",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "Active exploitation of known vulnerabilities represents an immediate threat to organizations, especially when CISA publicly warns about them—attackers prioritize patching these flaws after disclosure. SharePoint servers often store sensitive business data, making compromised instances a direct path to data theft or lateral network movement. Delayed patching significantly increases the risk of succ",
-      "image": null,
-      "processedAt": "2026-07-15T18:50:58.182594+00:00"
-    },
-    {
-      "id": "art-c3d6984a",
-      "title": "Microsoft: Some Dell PCs shut down after recent Windows updates",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-some-dell-devices-shut-down-after-windows-update/",
-      "summary": "Microsoft has temporarily halted July 2026 Windows 11 security updates on certain Dell computers after discovering the patches were triggering unexpected shutdowns and degrading system performance. The company implemented a blocking measure to prevent further user disruption while engineers investigate the root cause of the compatibility issue. This situation highlights how security patches can sometimes introduce unintended consequences on specific hardware configurations.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "windows-update",
-        "dell-devices",
-        "system-stability",
-        "patch-rollback",
-        "hardware-compatibility"
-      ],
-      "whyItMatters": "This incident demonstrates that security updates can have significant operational impacts beyond their intended purpose, affecting system availability and user productivity. Organizations managing Dell PC fleets must carefully monitor patch deployment and have rollback procedures ready to mitigate similar issues that disrupt business operations while protecting against security vulnerabilities.",
-      "image": null,
-      "processedAt": "2026-07-15T18:51:01.492964+00:00"
     }
   ]
 }
