@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-07-19T18:45:09.227406+00:00",
+  "lastUpdated": "2026-07-20T09:24:05.346611+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-c84141fa",
+      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-20",
+      "originalUrl": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+      "summary": "Hugging Face, a major open-source AI platform, discovered that hackers used an autonomous AI agent to breach its production infrastructure and gain unauthorized access to internal datasets and credentials. The company detected the incident and responded to it within the same week. This attack highlights how even advanced technology companies can be targeted by sophisticated AI-driven attacks.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "data-breach",
+        "autonomous-agent",
+        "credential-compromise",
+        "infrastructure-attack"
+      ],
+      "whyItMatters": "This breach demonstrates that AI systems themselves can be weaponized to attack infrastructure, representing an emerging threat vector that traditional security measures may not fully address. The compromise of credentials at a major AI repository could allow attackers to inject malicious code into widely-used models, potentially affecting countless downstream users and applications.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s1600/huggingface.jpg",
+      "processedAt": "2026-07-20T09:23:39.391383+00:00"
+    },
+    {
+      "id": "art-6742c993",
+      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-20",
+      "originalUrl": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+      "summary": "Researchers discovered a supply chain attack called SleeperGem that compromised multiple packages in the Ruby ecosystem. Attackers uploaded malicious versions of popular gems like git_credential_manager and Dendreo to the official RubyGems repository to distribute additional harmful payloads to developer machines. This attack demonstrates how threat actors can exploit trusted software repositories to reach thousands of developers who unknowingly download infected code.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "ruby-ecosystem",
+        "malicious-packages",
+        "software-repository",
+        "developer-targeting",
+        "payload-delivery"
+      ],
+      "whyItMatters": "Developers rely on package repositories as trusted sources, making supply chain attacks particularly effective and dangerous. Compromised gems can execute arbitrary code on developer machines and build servers, potentially giving attackers access to source code, credentials, and internal systems across multiple organizations. This incident highlights the critical need for developers to verify pack",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-5_crP04CVdna-erTGX9yykCNwqzeIcMALrWcRvgKWkfk7bntEBg50PBtoLvTeACMEHisZ-m1FLMEa2x9nbsRpVdAyeQyBkEmexn8p6W4r6JKA7dxDGJ6BXCqR6RYC3hyRSw7_1Wm1Elv-UFHRfttZQB0HX60SQRGXnJ-4VySo4gY-yfaDhT2FHKHTFj9/s1600/ruby.jpg",
+      "processedAt": "2026-07-20T09:23:42.394588+00:00"
+    },
+    {
+      "id": "art-48185ffa",
+      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-19",
+      "originalUrl": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+      "summary": "F5 released patches for a critical nginx vulnerability (CVE-2026-42533) that allows unauthenticated attackers to crash or restart worker processes through specially crafted HTTP requests. The flaw exploits a heap buffer overflow in nginx and could potentially lead to remote code execution. Updates are available for nginx versions 1.30.4, 1.31.3, and NGINX Plus 37.0.3.1, and administrators should upgrade immediately.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "nginx",
+        "heap-buffer-overflow",
+        "remote-code-execution",
+        "cve-2026-42533",
+        "patch-now",
+        "denial-of-service"
+      ],
+      "whyItMatters": "NGINX is one of the most widely deployed web servers globally, making this vulnerability a high-priority threat affecting countless organizations. The ability for unauthenticated attackers to remotely crash services or potentially execute code poses immediate risk to web infrastructure and requires urgent patching across deployments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVv10OUCjBseEZieeN1rxtwm17pPCAoe6OC1jvCTXCumjIImhz5Y08lYWBpSIGBSkDJN-wBcGmUTmPEp8U74bgd2Cv3rwmSmtUDlmOYR7f-0Xs3xL_xkjpkNm8W8vzNvFNfmTNiqs9TNcNmT1bo8xWb9XGzPnuaByxKSl9_eOqg3yDbtAtYh0epFo-4Wg/s1600/nginx-rce-flaw.jpg",
+      "processedAt": "2026-07-20T09:23:45.015498+00:00"
+    },
+    {
+      "id": "art-8ab7e279",
+      "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
+      "summary": "CISA has added CVE-2026-58644, a critical remote code execution vulnerability in Microsoft SharePoint Server, to its list of actively exploited security flaws. The vulnerability has a CVSS score of 9.8 and involves a deserialization flaw that attackers are already exploiting in the wild. U.S. federal agencies are required to patch the vulnerability by July 19, 2026.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "cve-2026-58644",
+        "sharepoint-rce",
+        "zero-day",
+        "patch-urgent",
+        "federal-requirement",
+        "deserialization-flaw"
+      ],
+      "whyItMatters": "This vulnerability is critical because it's actively being exploited by threat actors and affects a widely-used collaboration platform. CISA's mandatory patching deadline for federal agencies underscores the severity and the immediate risk to government and potentially private sector systems. Organizations running SharePoint Server must prioritize patching immediately to prevent remote code execut",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1X7ZnvKsW37BBvjNfEzT4Imh9ZIRL4_2W1JaNVe_MyO3Q5H1MPsET-SASqznhlfOExRrLj4-6NzhgvGi76w4U5tSmlM-pJLIqO5jF3g9G1DR_FNhuwcatBFb8ARvD4PPMiQvMCFiTlEOlc13nQbQqCn5ZHf1J2ZOqDeG3_pmBiQ92hTfMErJKcjKbNtZ/s1600/sharepoint-cisa.jpg",
+      "processedAt": "2026-07-20T09:23:47.478750+00:00"
+    },
+    {
+      "id": "art-6907b4e0",
+      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-16",
+      "originalUrl": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
+      "summary": "A new malware called TELEPUZ has been actively spreading since April 2026 through websites using ClickFix social engineering tactics. Researchers describe the malware as modular and lightweight, designed to steal data and execute remote commands on infected systems. The threat is still developing, with attackers gradually expanding their command-and-control infrastructure.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "modular-malware",
+        "clickfix",
+        "command-and-control",
+        "data-theft",
+        "social-engineering",
+        "telepuz"
+      ],
+      "whyItMatters": "TELEPUZ represents an active, evolving threat that combines effective social engineering delivery methods with flexible malware capabilities, making it dangerous to both individual users and organizations. Understanding its distribution mechanism and modular nature helps security teams identify and block infections before attackers establish persistent access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv5Rn7Ccy_az1UqogtcMmy8m09NuHcnSuylWjVMecOfxDKbvUAt4FnqKIJp4uZUcOPUmnYGIywea1nJG-yiSqcQbPC-ULonG5US-gEbUnkEHbGN3cVnQdkqbxKGt0EY4We_j8V9RrH4NVgtbPFEfc5mdMxV9sTOWSx_p3ShB0LWleupJbo74xMVlGHistw/s1600/click-malware.jpg",
+      "processedAt": "2026-07-20T09:23:50.470475+00:00"
+    },
+    {
+      "id": "art-b3bfd12c",
+      "title": "US charges two over laundering $43 million from investment fraud",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+      "summary": "U.S. prosecutors charged two individuals from New York for laundering approximately $43 million in stolen funds from investment fraud schemes. The defendants were part of an organized crime operation that converted illegally obtained money through various laundering techniques. This case highlights how cybercriminals not only commit fraud but also work to hide their proceeds through financial networks.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "money-laundering",
+        "investment-fraud",
+        "cybercrime",
+        "financial-crimes",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This case demonstrates that cybercriminals face serious legal consequences when caught, serving as both a deterrent and a reminder that law enforcement actively pursues financial crime networks. Understanding how fraud proceeds are laundered helps organizations and financial institutions better detect suspicious activity and protect themselves from becoming unwitting participants in money launderi",
+      "image": null,
+      "processedAt": "2026-07-20T09:23:53.476157+00:00"
+    },
+    {
+      "id": "art-909e3cec",
+      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+      "summary": "CISA has issued an urgent directive requiring U.S. government agencies to immediately patch two security vulnerabilities in Fortinet's FortiSandbox platform that are currently being actively exploited by attackers. FortiSandbox is a critical threat detection tool used to identify and block malicious content, making these flaws a significant risk to organizational security. The agency's emergency order signals that these vulnerabilities pose an immediate and serious threat to federal systems and networks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "fortinet",
+        "patch-now",
+        "active-exploitation",
+        "government-mandate",
+        "threat-detection",
+        "cisa-alert"
+      ],
+      "whyItMatters": "Active exploitation of vulnerabilities in security tools like FortiSandbox is particularly dangerous because these platforms are trusted to protect networks—compromising them gives attackers direct access to bypass detection systems. A CISA mandate requiring immediate patching indicates the threat is widespread and severe enough to warrant emergency response from all federal agencies. Organization",
+      "image": null,
+      "processedAt": "2026-07-20T09:23:57.375562+00:00"
+    },
+    {
+      "id": "art-39b50db7",
+      "title": "New ClickLock macOS malware traps users into revealing login password",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+      "summary": "ClickLock is a new malware targeting macOS systems that tricks users into revealing their login passwords by shutting down all visible applications. The malware forces users to re-enter their credentials by making it appear that the system requires authentication. This represents a significant threat because it exploits user behavior and system trust rather than relying on technical vulnerabilities.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-malware",
+        "credential-theft",
+        "social-engineering",
+        "information-stealer",
+        "clicklock"
+      ],
+      "whyItMatters": "This attack is particularly dangerous because it manipulates users into voluntarily surrendering their login passwords through deception, bypassing many technical security controls. Since macOS credentials provide full system access, compromised passwords enable attackers to steal data, install additional malware, or maintain persistent access to affected devices.",
+      "image": null,
+      "processedAt": "2026-07-20T09:24:00.043627+00:00"
+    },
+    {
+      "id": "art-5521d109",
+      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+      "summary": "Coca-Cola's Fairlife dairy subsidiary fell victim to a ransomware attack that forced temporary shutdowns of US dairy production operations. The attack demonstrates how cybercriminals target major food and beverage companies to disrupt supply chains and demand ransom payments. This incident highlights the vulnerability of critical infrastructure in the food industry to organized cyber threats.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "supply-chain-attack",
+        "critical-infrastructure",
+        "food-industry",
+        "operational-disruption"
+      ],
+      "whyItMatters": "Ransomware attacks on major corporations like Coca-Cola demonstrate the real-world impact of cyber threats on consumer products and supply chains, affecting millions of customers. This incident shows that even large, well-resourced companies are vulnerable to attacks that can halt production and create widespread economic disruption. Organizations across all sectors should recognize that ransomwar",
+      "image": null,
+      "processedAt": "2026-07-20T09:24:02.759153+00:00"
+    },
+    {
+      "id": "art-d592c124",
+      "title": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
+      "source": "Dark Reading",
+      "publishedDate": "2026-07-17",
+      "originalUrl": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers",
+      "summary": "Google Cloud has integrated Wiz's security capabilities into an automated defense platform designed to detect and respond to threats faster than attackers can act. This new agentic defense system uses artificial intelligence to identify and remediate threats that leverage AI-based attack methods. By automating threat response, Google aims to close the gap between detection and response, reducing the window of vulnerability for organizations.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "agentic-ai",
+        "threat-detection",
+        "cloud-security",
+        "automated-response",
+        "ai-attacks"
+      ],
+      "whyItMatters": "As attackers increasingly leverage AI to accelerate and scale attacks, defensive automation becomes critical for organizations to keep pace. Google's investment in agentic defense represents a strategic shift toward proactive, autonomous security measures that can respond faster than human-led teams. This approach could significantly reduce dwell time and impact of sophisticated threats targeting ",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltce1b28d3805840ac/69b32c68d73e49322916d5a6/cloud-lightning-Athapet_Piruksa-shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-07-20T09:24:05.346448+00:00"
+    },
     {
       "id": "art-1e0d09eb",
       "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
@@ -831,214 +1036,6 @@
       "whyItMatters": "This case demonstrates how legitimate companies can be weaponized for illegal activities at massive scale, affecting millions of consumer devices. It highlights the importance of supply chain scrutiny and the risks posed by proxy services that lack adequate abuse controls. Organizations and individuals using such services may inadvertently support criminal infrastructure, making vendor vetting cri",
       "image": null,
       "processedAt": "2026-07-18T08:00:21.694149+00:00"
-    },
-    {
-      "id": "art-14adfabd",
-      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-      "summary": "A Go-based botnet named NadMesh has been discovered targeting exposed AI services and development tools to steal cloud credentials and authentication tokens. The malware automatically scans for vulnerable instances of popular AI platforms like ComfyUI, Ollama, and n8n, and the operator's dashboard shows it has already compromised over 3,800 AWS keys. This threat highlights how rapidly deployed AI tools without proper security controls create easy targets for credential theft.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "botnet",
-        "cloud-credentials",
-        "aws-keys",
-        "kubernetes-tokens",
-        "ai-services",
-        "exposed-services"
-      ],
-      "whyItMatters": "Stolen AWS and Kubernetes credentials give attackers direct access to cloud infrastructure and can lead to data exfiltration, resource hijacking, and lateral movement within enterprise environments. The botnet's focus on hastily deployed AI tools exploits a common real-world gap where development speed outpaces security practices, making this a widespread and immediately actionable threat for orga",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhm0yasBDyeN2fn4q4y7Zs2Y6FvTDTIrI3xi4iN2ZBBUIBoCxLshnVvYc8OPDOrpSuHiyUNO0MLi-50Kf05SxJSo3m1n-PDfKnM3ztP48lWYBz_2IDzR2gNQ0D3-AzQcR6ZJC9qvBgM5wX3RCIaw6mAA7zDh3xAWFFoHScqZuqKSifh-FUr8Qum5dYGQPw/s1600/botnet-malware.jpg",
-      "processedAt": "2026-07-17T18:48:19.462759+00:00"
-    },
-    {
-      "id": "art-9111b86d",
-      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-      "summary": "A Chinese cybercrime group called GoldenEyeDog, operating through a subgroup known as CylindricalCanine, was identified as responsible for breaching DigiCert in April 2026 and stealing code-signing certificates. This incident is significant because code-signing certificates are critical trust mechanisms that attackers can abuse to distribute malware while appearing legitimate. The breach highlights how threat actors target certificate authorities to compromise software supply chains and gain widespread access to organizations.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "digicert-breach",
-        "code-signing-certificate-theft",
-        "supply-chain-attack",
-        "apt-activity",
-        "chinese-threat-actor",
-        "certificate-authority"
-      ],
-      "whyItMatters": "Stolen code-signing certificates enable attackers to distribute malware with trusted signatures, bypassing security controls and affecting potentially millions of users across multiple organizations. This type of breach undermines the entire software supply chain ecosystem and requires immediate investigation by security teams to identify compromised software. Organizations relying on DigiCert cer",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixZDZh8TkRVQHu6QNFvHOayTdDxLn-JWDRkPmvVCNkvEL9vhyphenhyphensADIyUB0uXlhXmBhACxMotz-lU1B61HGsRPee80GkLfk-mypQd6Ba4Hr4K-2QCz7BtyRKFCiUYuiUlmPw71Wdn6YnNTjncnGDPQBJV-P0MyS7CjTmPd-p_aHKBCQJr0JA396lL-Yxd3A9/s1600/digicert-hack.jpg",
-      "processedAt": "2026-07-17T18:48:22.592259+00:00"
-    },
-    {
-      "id": "art-46677e9d",
-      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-      "summary": "North Korean hackers are running a deceptive campaign called Contagious Interview that tricks job seekers with fake coding challenges and job postings. They hide malicious code inside SVG image files using steganography, and when victims run the infected projects, they unknowingly install OtterCookie malware that steals browser credentials, cryptocurrency wallets, and files. This multi-stage attack demonstrates how threat actors exploit job search platforms and social engineering to distribute sophisticated stealing tools.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "steganography",
-        "north-korea",
-        "credential-theft",
-        "job-posting-scam",
-        "malware-distribution",
-        "social-engineering"
-      ],
-      "whyItMatters": "This attack targets job seekers during their most vulnerable moments, combining social engineering with advanced evasion techniques to steal sensitive financial and personal data. The use of steganography in image files shows how attackers bypass traditional security detection, making this a critical threat to individuals and organizations alike. Understanding this campaign helps security teams re",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizZ8fzXjkeMlk_f1TKWczz8e4GHbNGTRPmaXHDPi86v4Ep0BqvGpKpOtpP_mtnHihu7kbII2nMxqQnQbjAhQkv6lkemsoIlzzS925QJKqkU5tgFHTxtSuRBllSUeZ3gpkJa51TAcggrQanY873B173p_hA-ow4sgftGDp4UgD3Torp7KswNuBp93-YOre5/s1600/northkorean-hacker.jpg",
-      "processedAt": "2026-07-17T18:48:25.788985+00:00"
-    },
-    {
-      "id": "art-db48a704",
-      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-      "summary": "The European Commission has mandated that Google allow competing AI assistants to access the same Android device features that Google's Gemini currently enjoys, including camera, microphone, screen content, wake-word activation, and background app control. Google must implement these changes in Android 18 by August 1, 2027, as part of regulatory compliance to ensure fair competition in the AI market.",
-      "category": "Privacy",
-      "severity": "Medium",
-      "tags": [
-        "android-security",
-        "ai-assistants",
-        "eu-regulation",
-        "device-access",
-        "privacy-controls",
-        "competitive-fairness"
-      ],
-      "whyItMatters": "This ruling impacts how device permissions and data access are managed across competing AI platforms, raising important questions about user privacy, security vetting of third-party assistants, and whether equal access to sensitive hardware can be maintained without compromising security. Organizations must now consider how to implement secure hardware APIs while preventing malicious actors from e",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdUt3BtyXt68oBeDmMvhp3Sg9c8WNu5xCMYsjqNGGg1A84ykQQ3qpk3Kfsq-msZGxHxtu-gZjML5fDvgV7CoakS6D-_-h2oWAd4m8b4dIS9p1C_003gGvCmg1SDwE7HYc64tdglQW5JWq6XYfssJibuxnxwtd7pu7fbvvkzDIPqdBOQwguwPKAXC2zVOU/s1600/google-android.jpg",
-      "processedAt": "2026-07-17T18:48:28.675663+00:00"
-    },
-    {
-      "id": "art-119d3479",
-      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "summary": "Military organizations across the U.S., UK, and NATO are rapidly accelerating the deployment of autonomous systems and capabilities to stay competitive, driven by new funding and streamlined acquisition processes. This accelerated pace of development raises critical questions about whether security and information infrastructure can keep up with the speed of deployment. The challenge lies in ensuring that autonomous military systems are built on trustworthy foundations while maintaining the fast timelines demanded by modern defense strategies.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "autonomous-systems",
-        "military-cybersecurity",
-        "ai-security",
-        "defense-infrastructure",
-        "trusted-systems",
-        "acquisition-security"
-      ],
-      "whyItMatters": "As military organizations deploy autonomous systems at commercial speed, security vulnerabilities in these critical systems could have severe national and international consequences. The tension between rapid development and robust security testing creates significant risks if trusted information infrastructure cannot adequately validate and secure autonomous military capabilities before operation",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaAyl6VLjAoHLEWzLPM62KM5v2ZmVOpPaZ8aA6Vxg2Ujn9iFLG02jpev-qcB_S3eTwxQAHb7Sf3BJQAc8xs_o3-7UcgQy5N1-4EqnuBXZ31GKauhespgW1G0Fgg7CzaLWk-cOJx8Bm6lQFPZROumwK-URHjQvJsyYhxjiEHHeia-vCh3rqeNYo3p2L-fI/s1600/military.jpg",
-      "processedAt": "2026-07-17T18:48:31.636303+00:00"
-    },
-    {
-      "id": "art-b8db14d9",
-      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
-      "summary": "A vulnerability called HollowByte has been discovered that allows attackers to crash OpenSSL servers without needing to log in first. The dangerous part is that attackers only need to send an extremely small payload of just 11 bytes to trigger this denial-of-service attack. This flaw can cause OpenSSL servers to use excessive memory and become unavailable to legitimate users.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "openssl",
-        "denial-of-service",
-        "dos-attack",
-        "memory-exhaustion",
-        "hollowbyte",
-        "network-security"
-      ],
-      "whyItMatters": "This vulnerability is practically significant because it requires minimal attack sophistication—just 11 bytes—making it easy for attackers to exploit at scale without authentication. OpenSSL is fundamental infrastructure used across the internet, so widespread exploitation could disrupt critical services. Organizations running vulnerable OpenSSL versions need to prioritize patching to prevent serv",
-      "image": null,
-      "processedAt": "2026-07-17T18:48:34.683575+00:00"
-    },
-    {
-      "id": "art-c1e18aec",
-      "title": "Ernst & Young discloses data breach after support system hack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
-      "summary": "Ernst & Young experienced a data breach after attackers compromised a third-party support ticket system used by its IT team. The breach exposed customer data that was accessible through the compromised support platform. The company is now notifying affected customers about the incident.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "support-system",
-        "it-security",
-        "customer-notification"
-      ],
-      "whyItMatters": "This breach highlights the critical vulnerability of relying on third-party support systems and the cascade risks when IT infrastructure is compromised. Organizations must implement strict access controls and monitoring for third-party tools that handle sensitive customer data, as attackers increasingly target these less-protected entry points.",
-      "image": null,
-      "processedAt": "2026-07-17T18:48:38.677525+00:00"
-    },
-    {
-      "id": "art-b24ec8af",
-      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
-      "summary": "Cybercriminals are evolving their tactics to bypass fraud detection systems by using high-quality residential proxies combined with sophisticated identity spoofing techniques like browser fingerprinting and device profiles. Traditional residential proxies are no longer effective on their own, forcing attackers to adopt more advanced methods to conduct carding attacks undetected. Understanding these evasion strategies helps organizations strengthen their fraud prevention systems.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "residential-proxies",
-        "carding",
-        "fraud-detection-evasion",
-        "identity-spoofing",
-        "cybercriminal-tactics",
-        "proxy-abuse"
-      ],
-      "whyItMatters": "This article reveals how sophisticated fraud detection evasion techniques are becoming standard in carding operations, meaning organizations relying solely on basic proxy detection will likely fail to stop these attacks. Understanding the convergence of residential proxies, browser fingerprinting, and device profiling is critical for developing multi-layered fraud prevention strategies that can ad",
-      "image": null,
-      "processedAt": "2026-07-17T18:48:42.112385+00:00"
-    },
-    {
-      "id": "art-03e01175",
-      "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
-      "summary": "A security researcher discovered a new Windows zero-day vulnerability called LegacyHive that can be exploited to give attackers administrative privileges on fully updated Windows systems. This flaw bypasses normal security protections and allows unauthorized users to gain complete control over affected computers. The vulnerability poses an immediate threat to Windows users until Microsoft releases a patch to fix it.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "windows",
-        "privilege-escalation",
-        "admin-access",
-        "legacyhive",
-        "vulnerability"
-      ],
-      "whyItMatters": "This zero-day presents an immediate and widespread risk because it affects updated Windows systems and grants attackers administrative control, enabling them to install malware, steal data, or compromise entire networks. Organizations and individual users need to monitor for patches urgently and implement additional defensive measures while waiting for a fix. Active exploitation of privilege escal",
-      "image": null,
-      "processedAt": "2026-07-17T18:48:45.546266+00:00"
-    },
-    {
-      "id": "art-5a43a315",
-      "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-      "summary": "Microsoft's Windows Server 2022 will end its mainstream support phase in October 2026, after which it transitions to extended support for an additional five years. During the extended support period, the system will continue to receive security updates to protect against threats. Organizations still running this version need to plan their upgrade strategy before mainstream support ends.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "windows-server-2022",
-        "end-of-support",
-        "patch-management",
-        "lifecycle-planning",
-        "security-updates"
-      ],
-      "whyItMatters": "Organizations relying on Windows Server 2022 must plan migration or upgrade timelines to ensure continued security coverage. While extended support continues, mainstream support ending signals reduced priority for new features and faster response times, making proactive planning essential for maintaining a secure infrastructure.",
-      "image": null,
-      "processedAt": "2026-07-17T18:48:48.163782+00:00"
     }
   ]
 }
