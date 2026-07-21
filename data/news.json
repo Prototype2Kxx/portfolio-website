@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-07-21T08:37:01.549507+00:00",
+  "lastUpdated": "2026-07-21T19:00:25.194229+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-7d52caad",
+      "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+      "summary": "Researchers discovered a critical vulnerability in AWS Kiro, an AI-powered coding IDE, that allowed attackers to execute malicious code on developers' machines through hidden text embedded in web pages. When a developer simply asked Kiro to summarize a poisoned webpage, the tool would automatically rewrite its own configuration files and run the attacker's code without requiring any user approval. AWS has already released a patch to address this flaw.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "remote-code-execution",
+        "cloud-security",
+        "aws",
+        "vulnerability",
+        "patch-available"
+      ],
+      "whyItMatters": "This vulnerability highlights how AI agents with system access can become attack vectors if they lack proper validation and approval mechanisms. Developers using Kiro could unknowingly compromise their machines and environments simply by visiting malicious websites, making this a serious supply-chain and endpoint security risk for organizations using AWS tools.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJfMUQ_pVP5as41uM_4cR8oRUsCwuXPMLLG63jNd5Djqso9kJyQZLiZgQrMQzykhRaX8BQCydIMPokGoITYY30kc3dH-8iy4Bd-ux36RoIjyNYXtKwb1F1fPdP00hoHD-9Q9s5CGD30w58s5wfyzBGOQvnIxM8JlHkig881HSQQuu4Hk6GBiDJicUYE8o/s1600/AWS-Kiro.jpg",
+      "processedAt": "2026-07-21T18:59:58.011857+00:00"
+    },
+    {
+      "id": "art-008f0277",
+      "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+      "summary": "Google DeepMind has released Gemini 3.5 Flash Cyber, an AI model specifically designed to identify, validate, and fix software vulnerabilities automatically. This advanced tool will initially be available only to governments and trusted partners through a platform called CodeMender as part of a pilot program. The model represents a significant step forward in using artificial intelligence to strengthen software security by automating the vulnerability detection and patching process.",
+      "category": "Vulnerabilities",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "vulnerability-detection",
+        "patch-automation",
+        "threat-intelligence",
+        "software-security"
+      ],
+      "whyItMatters": "Automated vulnerability discovery and patching through AI can dramatically reduce the time between when security flaws are found and when they are fixed, minimizing the window of exposure for attackers. This technology, even in limited release, signals an industry shift toward AI-driven security responses that could eventually make software systems significantly more resilient. However, the restri",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEEErOjlKug3DfeSGwzEbvNrUSCkzDF0o7uAnDNHFuE5MWaTlnB8sSfYJ4VsQaG39Kv_-L50Zc5GOJrpLYvW_2i8TFFI1xAWMRnFa-M6smZrswwGgnUMmEe-F-FB5Hw3OQWxVdSfPAKCFidVnQODRBSDT9WbF4dZmfrOsvvvhHmIAnroCkyFmmhlc_YQyC/s1600/gemini-cyber-flash.jpg",
+      "processedAt": "2026-07-21T19:00:01.531500+00:00"
+    },
+    {
+      "id": "art-4e8eb77d",
+      "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+      "summary": "Microsoft's July 2026 Patch Tuesday included a fix for CVE-2026-50522, a critical SharePoint Server vulnerability with a CVSS score of 9.8 that allows attackers to execute code remotely. This flaw is now being actively exploited in the wild following the release of a public proof-of-concept, putting unpatched systems at immediate risk. The vulnerability involves unsafe deserialization of untrusted data, a common attack vector for gaining unauthorized access to enterprise systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sharepoint-rce",
+        "cve-2026-50522",
+        "active-exploitation",
+        "patch-tuesday",
+        "deserialization-attack",
+        "enterprise-risk"
+      ],
+      "whyItMatters": "SharePoint is widely deployed across organizations for document management and collaboration, making this RCE vulnerability a high-priority threat. Active exploitation combined with public proof-of-concept code means attackers have low barriers to entry, significantly increasing the risk window for organizations that haven't patched. Immediate patching is essential to prevent potential system comp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEiY-8bLYm125By8D7AuLG0iHjE5hB2_ysYdB1WkSc0wxB_virPrL19JZ0Ow8Nzsu0DkoTWboikIsKEyDs9393o1yaFJ0LZMFy64Hzk4XGzOqnpjJMgptlxVsHnmDm6twDSVhCkT1HFTFVmDW2zvlmz3qvQP9vftatDZFCw_GvauRT_2yEF-REvZlXyb_I/s1600/sharepoint.jpg",
+      "processedAt": "2026-07-21T19:00:04.928819+00:00"
+    },
+    {
+      "id": "art-a65fd246",
+      "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+      "summary": "Cybercriminals have been using a recently-patched security flaw in Palo Alto Networks PAN-OS to break into computer systems and install Qilin ransomware. Arctic Wolf Labs discovered multiple attacks in June 2026 that exploited CVE-2026-0257, a high-severity vulnerability that allows attackers to bypass authentication on portal and gateway systems. This demonstrates how attackers quickly weaponize known vulnerabilities to launch ransomware campaigns against unprepared organizations.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "pan-os",
+        "qilin-ransomware",
+        "authentication-bypass",
+        "cve-2026-0257",
+        "active-exploitation",
+        "patch-critical"
+      ],
+      "whyItMatters": "This attack pattern shows that threat actors actively hunt for and exploit known vulnerabilities before organizations can patch them, making timely security updates essential. Companies using Palo Alto Networks systems need immediate action to apply patches and verify their systems haven't been compromised, as ransomware deployment represents one of the most damaging cyber threats to business oper",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgP1HNhUk3hMm0HOAQBAVExGT5-PQfrxeAtKrKRpG_eaXz5qEtVKiuH4-nOVMVdbtZ5XVzfk-hM-eFwpS0IAZNpGkp2DmE4wiNauEA3GT-t1UtLNGjtyVuDRPezJSyj4jEw8zeNgoPnyloZe_6K_vM1-nfYYoehFdoWRgVzVnmJUF3wwfamG0BgDdN1BvMJ/s1600/ransomware-attack.jpg",
+      "processedAt": "2026-07-21T19:00:08.453126+00:00"
+    },
+    {
+      "id": "art-b6286d44",
+      "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+      "summary": "Zimbra released security patches for nine vulnerabilities in version 10.1.20, with the most serious being a command injection flaw in the SNMP monitoring component. The vulnerability allows attackers to execute arbitrary commands when SNMP notifications are enabled. Four additional cross-site scripting (XSS) vulnerabilities were also addressed in this update.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "zimbra",
+        "command-injection",
+        "snmp",
+        "xss",
+        "patch-available",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "Command injection vulnerabilities in network monitoring components pose immediate risk of system compromise and lateral movement within enterprise environments. Organizations using Zimbra with SNMP notifications enabled should apply these patches urgently to prevent unauthorized command execution and data exposure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih_Q67gFWBtG5q7zVuyna7iJj3lSm-UQRoMsami8jaf-WYMCXqQlVprQ_ifyXx-PqJg2chDHN3KrFppnZSvejTvSco4kN-P_S4U3vKQHNtvZ48g5wftlSILrMulX1WUMOeeybU4apJ5Iv8BM6ipceEVGSJucR7yRJZguIrfTUaCbbHqefGt6o2BkHrJqV0/s1600/zimbra.jpg",
+      "processedAt": "2026-07-21T19:00:10.532206+00:00"
+    },
+    {
+      "id": "art-f6ca2e42",
+      "title": "Anubis ransomware claims Coca-Cola Fairlife attack, threatens data leak",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/anubis-ransomware-claims-coca-cola-fairlife-attack-threatens-data-leak/",
+      "summary": "The Anubis ransomware group has claimed responsibility for attacking Coca-Cola's Fairlife dairy brand and is threatening to release stolen corporate data if a ransom is not paid. This attack demonstrates how major consumer brands remain vulnerable to ransomware operations that combine encryption with data theft extortion tactics. The incident highlights the growing trend of cybercriminals targeting well-known companies to maximize pressure and potential payment.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "anubis",
+        "data-extortion",
+        "corporate-attack",
+        "fairlife",
+        "coca-cola"
+      ],
+      "whyItMatters": "This attack on a major consumer brand shows that even large, well-resourced companies can fall victim to sophisticated ransomware operations, making it critical for organizations to strengthen their incident response and backup strategies. The dual-threat approach of encryption plus data exfiltration has become standard in modern ransomware attacks, requiring companies to implement both robust sec",
+      "image": null,
+      "processedAt": "2026-07-21T19:00:13.799950+00:00"
+    },
+    {
+      "id": "art-f51d69a7",
+      "title": "Critical wp2shell WordPress flaws exploited to install webshells",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-wp2shell-wordpress-flaws-exploited-to-install-webshells/",
+      "summary": "Attackers are actively exploiting two critical vulnerabilities in WordPress Core (CVE-2026-63030 and CVE-2026-60137) to compromise websites and install persistent webshells and malicious plugins. These flaws, collectively known as wp2shell, allow hackers to gain deep control over affected servers. Website administrators using vulnerable versions of WordPress are at immediate risk of being targeted by these attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress-vulnerability",
+        "webshell-deployment",
+        "active-exploitation",
+        "cve-2026-63030",
+        "cve-2026-60137",
+        "critical-patch"
+      ],
+      "whyItMatters": "WordPress powers a significant portion of the web, making these vulnerabilities a widespread threat to thousands of websites globally. Active exploitation means attackers are already using these flaws in real attacks, making immediate patching essential to prevent webshell installation and malicious plugin deployment that could lead to data theft or further compromise.",
+      "image": null,
+      "processedAt": "2026-07-21T19:00:16.359413+00:00"
+    },
+    {
+      "id": "art-d5e3e401",
+      "title": "Closing the Identity Gaps in Critical Infrastructure Security",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gaps-in-critical-infrastructure-security/",
+      "summary": "Critical infrastructure is frequently targeted through compromised user credentials, infected devices, and hijacked trusted accounts. The article advocates for implementing Zero Trust security architecture, which requires verification of both user identity and device trustworthiness before allowing access to essential systems. This approach aims to eliminate the assumption that entities inside a network are automatically trustworthy.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "zero-trust",
+        "critical-infrastructure",
+        "credential-compromise",
+        "device-trust",
+        "access-control",
+        "identity-verification"
+      ],
+      "whyItMatters": "Critical infrastructure attacks have severe real-world consequences affecting public services, utilities, and essential systems. By understanding and implementing Zero Trust principles, organizations can significantly reduce the attack surface that adversaries exploit through stolen credentials and compromised devices. This guidance is vital for protecting systems that society depends on daily.",
+      "image": null,
+      "processedAt": "2026-07-21T19:00:18.733515+00:00"
+    },
+    {
+      "id": "art-480a97c3",
+      "title": "US seizes over 1,000 websites in FIFA World Cup piracy crackdown",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-seizes-over-1-000-fifa-world-cup-illegal-streaming-domains/",
+      "summary": "The U.S. Justice Department shut down over 1,000 websites and blocked nearly 2,000 domains that were illegally streaming FIFA World Cup 2026 matches. This enforcement action targeted unauthorized streaming services that violated copyright laws and intellectual property rights. The operation demonstrates government efforts to combat large-scale online piracy operations.",
+      "category": "Cybercrime",
+      "severity": "Medium",
+      "tags": [
+        "piracy",
+        "intellectual-property",
+        "law-enforcement",
+        "domain-seizure",
+        "copyright-infringement",
+        "streaming-fraud"
+      ],
+      "whyItMatters": "While this seizure shows successful enforcement against piracy networks, it highlights how cybercriminals exploit major events to distribute illegal content and potentially distribute malware through fake streaming platforms. Understanding these enforcement actions helps users recognize that unauthorized streaming sites carry legal and security risks, including exposure to malicious software and d",
+      "image": null,
+      "processedAt": "2026-07-21T19:00:22.093285+00:00"
+    },
+    {
+      "id": "art-3c2a3fd7",
+      "title": "Critical Palo Alto VPN bug now exploited by Qilin ransomware gang",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/",
+      "summary": "A dangerous flaw in Palo Alto Networks PAN-OS GlobalProtect authentication system is being actively exploited by the Qilin ransomware group to gain unauthorized access to victim networks. This authentication bypass vulnerability allows attackers to break through security defenses without needing valid credentials. According to Arctic Wolf researchers, multiple organizations have already been targeted through this weakness.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "palo-alto",
+        "pan-os",
+        "authentication-bypass",
+        "ransomware",
+        "active-exploitation",
+        "globalprotect"
+      ],
+      "whyItMatters": "Active exploitation of a critical VPN authentication flaw by a known ransomware gang creates immediate risk for organizations using Palo Alto infrastructure. This represents a high-priority threat requiring urgent patching and network monitoring to prevent breaches. Organizations must assume their networks may already be under attack and should implement emergency security measures.",
+      "image": null,
+      "processedAt": "2026-07-21T19:00:25.194044+00:00"
+    },
     {
       "id": "art-37fc03db",
       "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
@@ -826,215 +1035,6 @@
       "whyItMatters": "As AI systems become more prevalent in critical infrastructure and business operations, coordinated vulnerability response frameworks are essential to prevent widespread exploitation. The Gold Eagle initiative signals government recognition of AI-related security challenges, but unclear implementation details could limit its effectiveness in protecting organizations from emerging threats.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta7d85c41efe582eb/6a592f51435d222e500b875b/golden_eagle-Javier_Fernandez_Sanchez-Getty-578118565.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-07-19T18:45:09.227264+00:00"
-    },
-    {
-      "id": "art-e7e25476",
-      "title": "Zoom Patches Critical Windows Flaw That Could Enable Account Takeover",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-16",
-      "originalUrl": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html",
-      "summary": "Zoom released security patches to fix a critical vulnerability in Zoom Workplace for Windows that could allow attackers to take over user accounts. The flaw, identified as CVE-2026-53412 with a severity score of 9.8, affects multiple versions of Zoom's Windows client and VDI software. Users are advised to update to the patched versions immediately to protect their accounts from unauthorized access.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "zoom-vulnerability",
-        "account-takeover",
-        "windows-security",
-        "patch-critical",
-        "cve-2026-53412",
-        "immediate-update"
-      ],
-      "whyItMatters": "Account takeover vulnerabilities in widely-used communication platforms like Zoom pose an immediate and serious risk to millions of users, potentially exposing sensitive meetings, data, and business communications. The critical CVSS score of 9.8 indicates this flaw is easily exploitable and requires urgent patching to prevent widespread compromise. Organizations relying on Zoom must prioritize dep",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPR-qLKvfH8KZydz4_DnqiB9bJDjgFi6KdfrbbCHNkywiDcR_1SILe12UqjuyM_1yQXEDBok-ZeYRX0hEjIZpx-Dz2hnIW2xXnwAqrmA3voWWfG_vnGMavgE4-E_DFzICLfizByiwAis02VEJqSoxQrEECCMibS0X27D5k0o08IPp1JR0tVCnXwpj2u3e2/s1600/zoom.jpg",
-      "processedAt": "2026-07-19T08:26:19.332940+00:00"
-    },
-    {
-      "id": "art-715e1fcf",
-      "title": "Firefox, Chrome, Adobe, and VMware Updates Fix Multiple Critical Security Flaws",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html",
-      "summary": "Mozilla released critical security updates for Firefox to patch two serious vulnerabilities in the JavaScript/WebAssembly and DOM Navigation components. Both flaws have publicly available exploit code, making them an immediate threat to users. Chrome, Adobe, and VMware have also issued updates addressing multiple critical security issues across their products.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "firefox-patches",
-        "critical-vulnerability",
-        "exploit-code-public",
-        "browser-security",
-        "patch-now",
-        "zero-day"
-      ],
-      "whyItMatters": "When exploit code becomes public for critical vulnerabilities, attackers can immediately weaponize these flaws to compromise systems at scale. Users must apply these patches urgently to prevent exploitation of their browsers and applications. The simultaneous disclosure across multiple major vendors (Mozilla, Chrome, Adobe, VMware) indicates a widespread threat landscape requiring immediate action",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMjCjGBZhkRcB4m5BQu0Fcn-Qjs1_VPnfOlt3oFxu7CKMZ5Wc1JpvZEvhVSorBJW-AWV1pACLDkg4rFmCCcdH6vDk-pmD5ai0ZewlmPyeWPnfsmTcg-D3UJXdT902oUD32DjSm5CrBsnf2rcVTQPUo5o-LJRKUlsjOwPNfYMpN7kOfmNhnyw552cv-Gtqk/s1600/adobes.jpg",
-      "processedAt": "2026-07-19T08:26:22.216916+00:00"
-    },
-    {
-      "id": "art-9cd3058d",
-      "title": "SASE Has An AI Blind Spot. Inspecting Packets Is No Longer Enough.",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/sase-has-ai-blind-spot-inspecting.html",
-      "summary": "Traditional SASE (Secure Access Service Edge) security tools that inspect network packets are becoming inadequate as enterprise work increasingly happens in cloud applications, browsers, and AI tools. The article highlights that current inspection models cannot effectively monitor risks from unsanctioned extensions, generative AI tools, and autonomous agents where employees may expose sensitive data. Modern security strategies need to evolve beyond basic packet inspection to address the complexities of today's distributed and AI-driven work environments.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "sase",
-        "ai-security",
-        "cloud-security",
-        "data-protection",
-        "enterprise-risk"
-      ],
-      "whyItMatters": "As enterprises adopt cloud-first and AI-integrated workflows, outdated security approaches create dangerous gaps where sensitive intellectual property can be exposed through legitimate-looking channels. Organizations relying solely on traditional SASE packet inspection are leaving themselves vulnerable to data exfiltration and insider risks that bypass conventional defenses.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgy5qXcxZFGTQiQ1Sb-SHAyKnjOmjdz1fA1FEFMLTVXd7Xcyr9aSptzafuOwTnzCkzHCqZCOV-z_tPKKeoeS6Rd2kYWtAL_IWTRXFaZkr8V371LH2Rbq0JHlLwCbkuhO_D-hRv73LHSQgEW9tfI9Oxj9jmh9ROMZLOAZFZztDH1qzHvO2uc7EO6AlxPh8Cl/s1600/island.jpg",
-      "processedAt": "2026-07-19T08:26:26.329745+00:00"
-    },
-    {
-      "id": "art-ff569319",
-      "title": "Researcher Drops New Windows Zero-Day PoC Hours After Microsoft Patch Tuesday",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html",
-      "summary": "A security researcher released a proof-of-concept exploit for a previously unknown Windows vulnerability affecting the User Profile Service (ProfSvc), which is responsible for managing user accounts and environments. This zero-day vulnerability allows attackers to escalate their privileges on affected Windows systems. The exploit was made public shortly after Microsoft's regular patch Tuesday update, creating an immediate security risk for unpatched systems.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "windows-vulnerability",
-        "privilege-escalation",
-        "poc-released",
-        "patch-tuesday",
-        "pprofsvc"
-      ],
-      "whyItMatters": "Public release of a working exploit for an unpatched vulnerability creates immediate danger, as attackers can now easily weaponize the flaw before users have time to apply fixes. The User Profile Service is a core Windows component, meaning the vulnerability affects virtually all Windows systems and could be exploited to gain elevated privileges. Organizations must prioritize patching immediately ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvtiVnhkF-YVsPEXyedqj9REY5pN1-KiSsf-rCeXK5yClGbAcsL1Tg7-9UDDA8VQg5RbM0uWkV23rDxqiFFIJ2RkpkY6cn90-5LPbZOC2oktF7_3FjD5La_FGkYdVBEKeXMJGiGRZfPvxmMBXd99tncWdEZ4HxX62hbxmWEnA02eu-LSVwZtmecjuykqDb/s1600/windows-0day.jpg",
-      "processedAt": "2026-07-19T08:26:29.613387+00:00"
-    },
-    {
-      "id": "art-889c71ca",
-      "title": "New Webinar: Closing the Approval Gap in AI-Era Ad Tech",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-15",
-      "originalUrl": "https://thehackernews.com/2026/07/new-webinar-closing-approval-gap-in-ai.html",
-      "summary": "Marketing tags and advertising technology can inadvertently load hidden third-party code that gives attackers access to sensitive customer information and business systems without security team approval. Organizations often fail to track and control what code actually runs behind approved marketing tools, creating a dangerous gap between what's been authorized and what's actually executing. This webinar explains how this approval gap develops and offers practical strategies to identify and close security gaps before attackers or regulators discover them.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "ad-tech-security",
-        "supply-chain-risk",
-        "third-party-code",
-        "data-protection",
-        "marketing-security",
-        "compliance-risk"
-      ],
-      "whyItMatters": "Organizations routinely approve marketing and analytics tools without visibility into the full chain of code they load, creating exploitable security gaps that bypass normal approval processes. Attackers can leverage these approved-but-unmonitored supply chains to access customer data, payment systems, and forms directly. Understanding and closing this approval gap is critical for preventing data ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKYTg22vVssJ3SSHZzP0PtS8d5g8oCH2fU2IkXoBoIPOR4-XblNQ7Hg6S-qkO6bIB9JLC3yI4QdpQ4iNWsQsu9QnMpNbHdHzwHhRyX0zr-Vklk2DaCe3UlOd8M53pp5Uu_mfds265f_MsrF_RaQ-lnPEc3b5UoIVsTIV-On5qJ9DqMpk05AsKM3FhlgtXV/s1600/ref.jpg",
-      "processedAt": "2026-07-19T08:26:32.969502+00:00"
-    },
-    {
-      "id": "art-e614c32f",
-      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-      "summary": "7-Zip released version 26.02 to patch a critical remote code execution vulnerability that could be triggered when users open specially crafted compressed files. Attackers could exploit this flaw to execute malicious code on a victim's system without requiring additional user interaction beyond opening the archive. This update addresses a significant security risk for the millions of users who rely on 7-Zip for file compression and extraction.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "rce-vulnerability",
-        "7-zip",
-        "patch-now",
-        "malicious-archives",
-        "code-execution",
-        "software-update"
-      ],
-      "whyItMatters": "This vulnerability is critical because 7-Zip is widely used globally, making it an attractive target for attackers seeking broad impact through a single exploit. Users who delay updating expose themselves to potential system compromise through a common and trusted application. Immediate patching is essential as malicious actors could leverage specially crafted files in phishing campaigns or wateri",
-      "image": null,
-      "processedAt": "2026-07-19T08:26:35.736762+00:00"
-    },
-    {
-      "id": "art-a50b0e97",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "summary": "Microsoft released updates addressing 570 security vulnerabilities across Windows and other products, nearly triple the number patched in the previous month's record release. The company credits artificial intelligence tools with helping identify this unprecedented volume of security flaws. This massive patch cycle highlights both the growing complexity of software security and the increasing role of AI in vulnerability discovery.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "microsoft-patches",
-        "vulnerability-fixes",
-        "windows-security",
-        "ai-detection",
-        "patch-tuesday",
-        "large-scale-patching"
-      ],
-      "whyItMatters": "The sheer number of vulnerabilities being discovered and patched indicates that security threats are multiplying rapidly, requiring organizations to prioritize applying updates immediately to avoid exploitation. The reliance on AI for vulnerability discovery signals a significant shift in how security flaws are identified, affecting the speed and scale of future patch releases. This trend undersco",
-      "image": null,
-      "processedAt": "2026-07-19T08:26:38.597188+00:00"
-    },
-    {
-      "id": "art-710581f7",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "summary": "A cybersecurity startup that pays millions for zero-day vulnerabilities is allegedly run by convicted felons and conspiracy theorists who have previously operated fraudulent intelligence companies and fake AI platforms under false identities. The operation raises serious concerns about the legitimacy and trustworthiness of organizations claiming to work in vulnerability research. This discovery highlights risks in the vulnerability acquisition ecosystem where bad actors may exploit legitimate-sounding business models.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "vulnerability-acquisition",
-        "fraud",
-        "cybercrime",
-        "threat-actors",
-        "ecosystem-risk"
-      ],
-      "whyItMatters": "Legitimate vulnerability markets are critical infrastructure for responsible disclosure, but when operated by criminals, they can become channels for weaponizing exploits and undermining cybersecurity. Organizations and researchers need to verify the legitimacy of vulnerability buyers to avoid inadvertently helping malicious actors acquire powerful exploits. This case demonstrates how criminal ent",
-      "image": null,
-      "processedAt": "2026-07-19T08:26:41.434581+00:00"
-    },
-    {
-      "id": "art-e99f5398",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "summary": "The FBI seized hundreds of domains belonging to NetNut, a residential proxy service operated by Israeli company Alarum Technologies, following evidence that it was connected to the Popa botnet. The Popa botnet comprises at least two million compromised devices that were infected with malicious software without users' knowledge or permission. This law enforcement action demonstrates efforts to disrupt infrastructure used for large-scale cybercrimes and proxy abuse.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "botnet",
-        "proxy-service",
-        "malware",
-        "law-enforcement",
-        "compromised-devices",
-        "infrastructure-seizure"
-      ],
-      "whyItMatters": "This seizure highlights how legitimate-appearing services can be weaponized to facilitate cybercriminal activity at massive scale, affecting millions of unknowing victims. Understanding the connection between proxy services and botnets helps organizations recognize and defend against distributed attack infrastructure. The FBI's coordinated action demonstrates increased law enforcement capability i",
-      "image": null,
-      "processedAt": "2026-07-19T08:26:43.882333+00:00"
-    },
-    {
-      "id": "art-977c0027",
-      "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-01",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-      "summary": "Attackers exploited Meta's AI support assistant to gain unauthorized access to high-profile Instagram accounts, including those of the Obama White House and U.S. Space Force leadership. Instructions for manipulating the chatbot into resetting account passwords were shared on Telegram, allowing hackers to deface these accounts with pro-Iranian content. The incident highlights how AI-powered customer support systems can become security vulnerabilities when not properly safeguarded.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "account-takeover",
-        "social-engineering",
-        "instagram",
-        "meta",
-        "credential-reset"
-      ],
-      "whyItMatters": "This attack demonstrates how AI support bots can be manipulated as attack vectors when insufficient safeguards exist, putting even high-profile government accounts at risk. Organizations relying on AI assistants for account recovery must implement stronger verification mechanisms and limit what information these systems can access. The public disclosure of exploit techniques on Telegram increases ",
-      "image": null,
-      "processedAt": "2026-07-19T08:26:46.587280+00:00"
     }
   ]
 }
