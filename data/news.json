@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-07-22T08:36:20.344892+00:00",
+  "lastUpdated": "2026-07-22T18:53:17.113272+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-fa4c8860",
+      "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+      "summary": "A serious vulnerability has been found in Ubuntu's snap-confine tool that allows regular users to gain administrator-level access on affected systems. This flaw affects popular Ubuntu Desktop versions and has been assigned a high severity rating. Users with vulnerable Ubuntu installations should apply security updates as soon as they become available to prevent unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "local-privilege-escalation",
+        "ubuntu",
+        "snap-confine",
+        "cve-2026-8933",
+        "patch-required"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows any regular user on an Ubuntu Desktop system to become root, giving them complete control over the machine and access to all data and system resources. Since it affects default installations of widely-used Ubuntu versions, many systems are potentially at risk and require immediate patching. Organizations and individuals running these Ubuntu versions",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEidNwrZh7WuJhViXJ0c2i53cRV82jkdqS1FS9vHeNyOd19AITMQIA03JOnpqLyp7eHJoqa8L_V-eimCMZQNyba09AUvDHQ_n1NdAzmMFOg5FPp7gSymlqtjMcJ5UdyHRtK67wQ9hhusynzExbC9AWstVxaR9koev6e0PhySMPElKOFVwmge25lODZfyQkVD/s1600/ubuntu.jpg",
+      "processedAt": "2026-07-22T18:52:51.634542+00:00"
+    },
+    {
+      "id": "art-04d18ddb",
+      "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+      "summary": "Researchers discovered a now-patched vulnerability chain in Adobe Acrobat's Chrome extension, which has over 314 million users worldwide. The flaw, called HermeticReader (CVE-2026-48294), could allow malicious websites to secretly access and steal WhatsApp Web data from affected users. Adobe has released a patch to fix this security issue.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "adobe-acrobat",
+        "chrome-extension",
+        "whatsapp-security",
+        "cve-2026-48294",
+        "data-theft",
+        "patch-available"
+      ],
+      "whyItMatters": "With 314 million users, vulnerabilities in widely-used browser extensions pose a massive risk surface for credential theft and unauthorized access to sensitive messaging platforms. This incident highlights how legitimate browser extensions can become attack vectors if not properly secured, making timely patching critical for users who rely on both Adobe Acrobat and WhatsApp Web.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf4tAo-p42ED3dQRVz6O7qldcTuY-ztwtPbNnnJFBHd-yJDm2dJmYNPtprB3IFhF9-7xExM_6jzqElcEotSZPEXwVYoiqG7Wh6isEjRAZkqzIyL4TYXUL3pK8hp53PdCHotDcUAZ9LVCJLDPX3PPZqDKIaFDlTnB5MbaRH0-ohMCzBAmdRDC_E6O5rGUtd/s1600/adobe.jpg",
+      "processedAt": "2026-07-22T18:52:54.324590+00:00"
+    },
+    {
+      "id": "art-1e69773c",
+      "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+      "summary": "A serious security flaw (CVE-2026-29059) in the open-source Windmill platform allows attackers to read sensitive server files without needing to log in. Hackers are already actively exploiting this vulnerability through an unauthenticated path traversal attack on the platform's log file endpoint. This flaw exposes confidential data and poses an immediate risk to organizations using Windmill.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "path-traversal",
+        "unauthenticated-access",
+        "windmill",
+        "cve-2026-29059",
+        "active-exploitation",
+        "arbitrary-file-read"
+      ],
+      "whyItMatters": "Active exploitation of unauthenticated vulnerabilities allows attackers to bypass security controls entirely and extract sensitive information without detection. Organizations running Windmill need to patch immediately, as this flaw enables attackers to access logs and potentially other server files that may contain credentials, API keys, or business-critical data. The lack of authentication requi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgnFuvwtbu7JlyR-HJX7Eyz41wIZYMuzDLiZ1XlV2ipWOE-d2aPRZkYZn8nCWJynhewu3iTAR8H15UaKqmeAMkb85_m2NpSjRyaNlp6gTgKwswcVtwzjQ8A6pQXESU-AIwRUf6qUkeVDewHfGovPjgN0lKC2lHBb3dkSJGs3NYhmv5_QawPER0P4xFGpHf/s1600/git.jpg",
+      "processedAt": "2026-07-22T18:52:57.789323+00:00"
+    },
+    {
+      "id": "art-0f45ff62",
+      "title": "The Fastest Path to AI Adoption Runs Through Security",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+      "summary": "Security leaders are increasingly becoming strategic partners within their organizations by enabling faster AI adoption while maintaining proper governance. The article highlights that 76 percent of employees now use AI at work, and effective security frameworks allow teams to balance innovation with visibility and control. CISOs who build clear pathways for AI adoption gain greater organizational influence and help their companies move forward confidently.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-adoption",
+        "security-governance",
+        "ciso-strategy",
+        "employee-enablement",
+        "organizational-risk"
+      ],
+      "whyItMatters": "As AI adoption accelerates in enterprises, security leaders must shift from blocking innovation to enabling it responsibly. Organizations that fail to balance AI governance with adoption speed risk creating shadow AI deployments or losing strategic influence, making this a critical leadership competency for modern CISOs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzhOo7Orml3Cc70jFGFxmIBeMgPE26To0_7N80uq7Ux9h7jIarD51mf18Ecq6bOfyaKpDTHp99pUmzrNECb2IklB0l0XdKjkszBLdhhgmw42OsYsqJQoxm74ci__fgn9n29j0YIr_HTlqT1-NyVyvbeB2t9pFRMVQT5GQlTMEOp-vkUFbha3SV-6cAXfYW/s1600/aa.jpg",
+      "processedAt": "2026-07-22T18:53:00.374214+00:00"
+    },
+    {
+      "id": "art-fdca1a94",
+      "title": "Why Modern SOCs Need Multi-Layered Detections",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
+      "summary": "Modern attackers using AI are increasingly bypassing traditional endpoint and malware detection systems, with nearly 80% of attacks now being malware-free. Security Operations Centers need to evolve beyond single-layer defenses and implement multi-layered detection strategies to catch sophisticated attacks that don't rely on malicious code. The traditional cycle of defense and adaptation has shifted in favor of attackers who can now outpace conventional security measures.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-driven-attacks",
+        "malware-free-attacks",
+        "soc-detection",
+        "multi-layered-defense",
+        "threat-detection"
+      ],
+      "whyItMatters": "As attackers increasingly use AI to conduct malware-free attacks that bypass traditional defenses, organizations must fundamentally rethink their detection strategies or face a widening security gap. SOCs relying solely on endpoint and malware-based detection are leaving their organizations vulnerable to the majority of modern attacks, making this a critical operational shift for any security team",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgA_BCT5VYzHAi2ZYmYF84NAe3JitSR-U0uk4JZeuJf-hgHgwMXRj1_44z0DfwmtHqFZMxeEYGHR4AlvuIe-_4oAGvQlVnCm9peV1-H0nZ__XbPIcKlz_7RxoPuR7C2IMBZ7B27ABzkk9Zv08DOaKAefwt72n8H0WBP8Z8TBajQwEzBt10hFwE3-70o0A5V/s1600/corelight.jpg",
+      "processedAt": "2026-07-22T18:53:03.371232+00:00"
+    },
+    {
+      "id": "art-fd1502f9",
+      "title": "Swiss rail giant Stadler rejects $12.3M ransom demand after cyberattack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/swiss-rail-giant-stadler-rejects-123m-ransom-demand-after-cyberattack/",
+      "summary": "Stadler Rail, a major Swiss train manufacturer, was targeted by the Everest ransomware gang after attackers breached a data-sharing platform used with one of their suppliers. The criminals demanded $12.3 million in ransom, but the company refused to pay. This incident highlights how supply chain vulnerabilities can expose large industrial organizations to significant cyber threats.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "supply-chain-attack",
+        "everest-gang",
+        "data-breach",
+        "industrial-target",
+        "extortion"
+      ],
+      "whyItMatters": "This attack demonstrates that ransomware gangs actively target critical infrastructure suppliers and exploit shared vendor platforms to maximize impact. Companies must recognize that their cybersecurity extends beyond their own networks to include third-party integrations, and that refusing ransom demands requires strong incident response and business continuity planning.",
+      "image": null,
+      "processedAt": "2026-07-22T18:53:05.770738+00:00"
+    },
+    {
+      "id": "art-ed94eeac",
+      "title": "How enterprise GenAI can amplify ransomware risk — and how to contain it",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-enterprise-genai-can-amplify-ransomware-risk-and-how-to-contain-it/",
+      "summary": "Enterprise AI systems can become a vulnerability when they gain too many permissions or are compromised, potentially speeding up ransomware attacks. Organizations can reduce this risk by implementing strong identity controls, proper governance frameworks, and least-privilege access principles. These safeguards help balance the benefits of secure AI adoption while protecting against AI-enabled threats.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "ransomware",
+        "identity-management",
+        "least-privilege-access",
+        "governance",
+        "enterprise-risk"
+      ],
+      "whyItMatters": "As enterprises rapidly deploy AI assistants and agents, these systems can become attack vectors if not properly secured, potentially giving attackers powerful tools to accelerate ransomware campaigns. Understanding how to apply identity controls and least-privilege principles to AI infrastructure is critical for organizations adopting AI without increasing their security risk profile.",
+      "image": null,
+      "processedAt": "2026-07-22T18:53:08.234431+00:00"
+    },
+    {
+      "id": "art-49cad702",
+      "title": "New InfraTrust report reveals infrastructure flaws admins should patch first",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-infratrust-report-reveals-infrastructure-flaws-admins-should-patch-first/",
+      "summary": "Eclypsium has released InfraTrust, a new cybersecurity resource that helps organizations identify and prioritize which vulnerabilities in infrastructure, firmware, networking, and edge devices to fix first. The platform includes a monthly InfraTrust Pulse report designed to guide IT administrators on patching strategies. This tool addresses a common challenge: knowing which of many potential vulnerabilities pose the greatest risk to critical systems.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "infrastructure-security",
+        "vulnerability-prioritization",
+        "firmware-security",
+        "patch-management",
+        "edge-devices"
+      ],
+      "whyItMatters": "Most organizations struggle to patch everything at once, so having clear guidance on which infrastructure vulnerabilities to address first reduces exposure to attacks targeting critical systems. This proactive approach to vulnerability management helps prevent breaches affecting networks, firmware, and connected devices before attackers can exploit them.",
+      "image": null,
+      "processedAt": "2026-07-22T18:53:11.286533+00:00"
+    },
+    {
+      "id": "art-72e423c1",
+      "title": "Adobe Chrome extension flaw let sites access private WhatsApp chats",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/adobe-chrome-extension-flaw-let-sites-access-private-whatsapp-chats/",
+      "summary": "A vulnerability in the Adobe Acrobat extension for Chrome allowed malicious websites to access private conversations and data from WhatsApp Web without requiring any user authentication or permission. This flaw exposed sensitive messaging content to unauthorized access through a commonly-used browser extension. The vulnerability highlights the security risks posed by browser extensions that have broad access to web content.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "browser-extension",
+        "chrome",
+        "whatsapp",
+        "authentication-bypass",
+        "privacy-breach",
+        "adobe-acrobat"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects millions of users who rely on both the Adobe Acrobat extension and WhatsApp Web, potentially exposing highly sensitive personal and business communications. The lack of required authentication means attackers could exploit this flaw simply by tricking users into visiting a malicious website, making it an easily exploitable threat. Organizations and",
+      "image": null,
+      "processedAt": "2026-07-22T18:53:14.446794+00:00"
+    },
+    {
+      "id": "art-4984bc15",
+      "title": "CISA orders urgent action on actively exploited Langflow RCE flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-langflow-rce-flaw/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent directive requiring government agencies to immediately patch a critical vulnerability in Langflow, a popular framework used to build AI agents. This flaw allows remote code execution and is currently being actively exploited by attackers in the wild. Organizations using Langflow need to apply patches as soon as possible to prevent unauthorized access and system compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "langflow",
+        "rce",
+        "active-exploitation",
+        "patch-urgent",
+        "ai-framework",
+        "government-directive"
+      ],
+      "whyItMatters": "Active exploitation of this vulnerability means attackers are already using it to compromise systems, making immediate patching essential to prevent breaches. CISA's urgent order indicates this is a widespread threat to critical infrastructure and government operations. Organizations relying on Langflow for AI development face immediate risk of remote code execution if they don't update quickly.",
+      "image": null,
+      "processedAt": "2026-07-22T18:53:17.113127+00:00"
+    },
     {
       "id": "art-b1212417",
       "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
@@ -831,211 +1037,6 @@
       "whyItMatters": "Out-of-band patches reveal that even thoroughly tested security updates can cause critical stability issues, making it essential for organizations to monitor patch releases and have rollback procedures ready. For Dell users specifically, this incident highlights the need to verify hardware compatibility before deploying monthly Windows updates across an organization. Understanding how patch failur",
       "image": null,
       "processedAt": "2026-07-20T19:20:55.276824+00:00"
-    },
-    {
-      "id": "art-c84141fa",
-      "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
-      "summary": "Hugging Face, a major open-source AI platform, discovered that hackers used an autonomous AI agent to breach its production infrastructure and gain unauthorized access to internal datasets and credentials. The company detected the incident and responded to it within the same week. This attack highlights how even advanced technology companies can be targeted by sophisticated AI-driven attacks.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "data-breach",
-        "autonomous-agent",
-        "credential-compromise",
-        "infrastructure-attack"
-      ],
-      "whyItMatters": "This breach demonstrates that AI systems themselves can be weaponized to attack infrastructure, representing an emerging threat vector that traditional security measures may not fully address. The compromise of credentials at a major AI repository could allow attackers to inject malicious code into widely-used models, potentially affecting countless downstream users and applications.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhehTKRdIydGsJI5vxP4R5baH5VrDh8ZNLg1RyLMhSnVOFr6cdDZRyqkKhazs4oBdZxw5YV7fNYKCcZ9tkKkTap2chfMR6XCdiG4GmUhv4S_tUVYTS7jvn8iZcTL3RuJ-3K0U1WJ0pKfq16pcJRZhAXTm1gk-xvzjzmdJ85PWEgnQ6oFK1eUPKRBiTRtEr1/s1600/huggingface.jpg",
-      "processedAt": "2026-07-20T09:23:39.391383+00:00"
-    },
-    {
-      "id": "art-6742c993",
-      "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
-      "summary": "Researchers discovered a supply chain attack called SleeperGem that compromised multiple packages in the Ruby ecosystem. Attackers uploaded malicious versions of popular gems like git_credential_manager and Dendreo to the official RubyGems repository to distribute additional harmful payloads to developer machines. This attack demonstrates how threat actors can exploit trusted software repositories to reach thousands of developers who unknowingly download infected code.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "ruby-ecosystem",
-        "malicious-packages",
-        "software-repository",
-        "developer-targeting",
-        "payload-delivery"
-      ],
-      "whyItMatters": "Developers rely on package repositories as trusted sources, making supply chain attacks particularly effective and dangerous. Compromised gems can execute arbitrary code on developer machines and build servers, potentially giving attackers access to source code, credentials, and internal systems across multiple organizations. This incident highlights the critical need for developers to verify pack",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-5_crP04CVdna-erTGX9yykCNwqzeIcMALrWcRvgKWkfk7bntEBg50PBtoLvTeACMEHisZ-m1FLMEa2x9nbsRpVdAyeQyBkEmexn8p6W4r6JKA7dxDGJ6BXCqR6RYC3hyRSw7_1Wm1Elv-UFHRfttZQB0HX60SQRGXnJ-4VySo4gY-yfaDhT2FHKHTFj9/s1600/ruby.jpg",
-      "processedAt": "2026-07-20T09:23:42.394588+00:00"
-    },
-    {
-      "id": "art-48185ffa",
-      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-19",
-      "originalUrl": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
-      "summary": "F5 released patches for a critical nginx vulnerability (CVE-2026-42533) that allows unauthenticated attackers to crash or restart worker processes through specially crafted HTTP requests. The flaw exploits a heap buffer overflow in nginx and could potentially lead to remote code execution. Updates are available for nginx versions 1.30.4, 1.31.3, and NGINX Plus 37.0.3.1, and administrators should upgrade immediately.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "nginx",
-        "heap-buffer-overflow",
-        "remote-code-execution",
-        "cve-2026-42533",
-        "patch-now",
-        "denial-of-service"
-      ],
-      "whyItMatters": "NGINX is one of the most widely deployed web servers globally, making this vulnerability a high-priority threat affecting countless organizations. The ability for unauthenticated attackers to remotely crash services or potentially execute code poses immediate risk to web infrastructure and requires urgent patching across deployments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVv10OUCjBseEZieeN1rxtwm17pPCAoe6OC1jvCTXCumjIImhz5Y08lYWBpSIGBSkDJN-wBcGmUTmPEp8U74bgd2Cv3rwmSmtUDlmOYR7f-0Xs3xL_xkjpkNm8W8vzNvFNfmTNiqs9TNcNmT1bo8xWb9XGzPnuaByxKSl9_eOqg3yDbtAtYh0epFo-4Wg/s1600/nginx-rce-flaw.jpg",
-      "processedAt": "2026-07-20T09:23:45.015498+00:00"
-    },
-    {
-      "id": "art-8ab7e279",
-      "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-      "summary": "CISA has added CVE-2026-58644, a critical remote code execution vulnerability in Microsoft SharePoint Server, to its list of actively exploited security flaws. The vulnerability has a CVSS score of 9.8 and involves a deserialization flaw that attackers are already exploiting in the wild. U.S. federal agencies are required to patch the vulnerability by July 19, 2026.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "cve-2026-58644",
-        "sharepoint-rce",
-        "zero-day",
-        "patch-urgent",
-        "federal-requirement",
-        "deserialization-flaw"
-      ],
-      "whyItMatters": "This vulnerability is critical because it's actively being exploited by threat actors and affects a widely-used collaboration platform. CISA's mandatory patching deadline for federal agencies underscores the severity and the immediate risk to government and potentially private sector systems. Organizations running SharePoint Server must prioritize patching immediately to prevent remote code execut",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH1X7ZnvKsW37BBvjNfEzT4Imh9ZIRL4_2W1JaNVe_MyO3Q5H1MPsET-SASqznhlfOExRrLj4-6NzhgvGi76w4U5tSmlM-pJLIqO5jF3g9G1DR_FNhuwcatBFb8ARvD4PPMiQvMCFiTlEOlc13nQbQqCn5ZHf1J2ZOqDeG3_pmBiQ92hTfMErJKcjKbNtZ/s1600/sharepoint-cisa.jpg",
-      "processedAt": "2026-07-20T09:23:47.478750+00:00"
-    },
-    {
-      "id": "art-6907b4e0",
-      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-16",
-      "originalUrl": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-      "summary": "A new malware called TELEPUZ has been actively spreading since April 2026 through websites using ClickFix social engineering tactics. Researchers describe the malware as modular and lightweight, designed to steal data and execute remote commands on infected systems. The threat is still developing, with attackers gradually expanding their command-and-control infrastructure.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "modular-malware",
-        "clickfix",
-        "command-and-control",
-        "data-theft",
-        "social-engineering",
-        "telepuz"
-      ],
-      "whyItMatters": "TELEPUZ represents an active, evolving threat that combines effective social engineering delivery methods with flexible malware capabilities, making it dangerous to both individual users and organizations. Understanding its distribution mechanism and modular nature helps security teams identify and block infections before attackers establish persistent access.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv5Rn7Ccy_az1UqogtcMmy8m09NuHcnSuylWjVMecOfxDKbvUAt4FnqKIJp4uZUcOPUmnYGIywea1nJG-yiSqcQbPC-ULonG5US-gEbUnkEHbGN3cVnQdkqbxKGt0EY4We_j8V9RrH4NVgtbPFEfc5mdMxV9sTOWSx_p3ShB0LWleupJbo74xMVlGHistw/s1600/click-malware.jpg",
-      "processedAt": "2026-07-20T09:23:50.470475+00:00"
-    },
-    {
-      "id": "art-b3bfd12c",
-      "title": "US charges two over laundering $43 million from investment fraud",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-      "summary": "U.S. prosecutors charged two individuals from New York for laundering approximately $43 million in stolen funds from investment fraud schemes. The defendants were part of an organized crime operation that converted illegally obtained money through various laundering techniques. This case highlights how cybercriminals not only commit fraud but also work to hide their proceeds through financial networks.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "money-laundering",
-        "investment-fraud",
-        "cybercrime",
-        "financial-crimes",
-        "law-enforcement"
-      ],
-      "whyItMatters": "This case demonstrates that cybercriminals face serious legal consequences when caught, serving as both a deterrent and a reminder that law enforcement actively pursues financial crime networks. Understanding how fraud proceeds are laundered helps organizations and financial institutions better detect suspicious activity and protect themselves from becoming unwitting participants in money launderi",
-      "image": null,
-      "processedAt": "2026-07-20T09:23:53.476157+00:00"
-    },
-    {
-      "id": "art-909e3cec",
-      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
-      "summary": "CISA has issued an urgent directive requiring U.S. government agencies to immediately patch two security vulnerabilities in Fortinet's FortiSandbox platform that are currently being actively exploited by attackers. FortiSandbox is a critical threat detection tool used to identify and block malicious content, making these flaws a significant risk to organizational security. The agency's emergency order signals that these vulnerabilities pose an immediate and serious threat to federal systems and networks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "fortinet",
-        "patch-now",
-        "active-exploitation",
-        "government-mandate",
-        "threat-detection",
-        "cisa-alert"
-      ],
-      "whyItMatters": "Active exploitation of vulnerabilities in security tools like FortiSandbox is particularly dangerous because these platforms are trusted to protect networks—compromising them gives attackers direct access to bypass detection systems. A CISA mandate requiring immediate patching indicates the threat is widespread and severe enough to warrant emergency response from all federal agencies. Organization",
-      "image": null,
-      "processedAt": "2026-07-20T09:23:57.375562+00:00"
-    },
-    {
-      "id": "art-39b50db7",
-      "title": "New ClickLock macOS malware traps users into revealing login password",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-      "summary": "ClickLock is a new malware targeting macOS systems that tricks users into revealing their login passwords by shutting down all visible applications. The malware forces users to re-enter their credentials by making it appear that the system requires authentication. This represents a significant threat because it exploits user behavior and system trust rather than relying on technical vulnerabilities.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "macos-malware",
-        "credential-theft",
-        "social-engineering",
-        "information-stealer",
-        "clicklock"
-      ],
-      "whyItMatters": "This attack is particularly dangerous because it manipulates users into voluntarily surrendering their login passwords through deception, bypassing many technical security controls. Since macOS credentials provide full system access, compromised passwords enable attackers to steal data, install additional malware, or maintain persistent access to affected devices.",
-      "image": null,
-      "processedAt": "2026-07-20T09:24:00.043627+00:00"
-    },
-    {
-      "id": "art-5521d109",
-      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
-      "summary": "Coca-Cola's Fairlife dairy subsidiary fell victim to a ransomware attack that forced temporary shutdowns of US dairy production operations. The attack demonstrates how cybercriminals target major food and beverage companies to disrupt supply chains and demand ransom payments. This incident highlights the vulnerability of critical infrastructure in the food industry to organized cyber threats.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "supply-chain-attack",
-        "critical-infrastructure",
-        "food-industry",
-        "operational-disruption"
-      ],
-      "whyItMatters": "Ransomware attacks on major corporations like Coca-Cola demonstrate the real-world impact of cyber threats on consumer products and supply chains, affecting millions of customers. This incident shows that even large, well-resourced companies are vulnerable to attacks that can halt production and create widespread economic disruption. Organizations across all sectors should recognize that ransomwar",
-      "image": null,
-      "processedAt": "2026-07-20T09:24:02.759153+00:00"
-    },
-    {
-      "id": "art-d592c124",
-      "title": "Google Bets 'Agentic Defense' Strategy Can Outpace Attackers",
-      "source": "Dark Reading",
-      "publishedDate": "2026-07-17",
-      "originalUrl": "https://www.darkreading.com/cloud-security/google-bets-agentic-defense-strategy-outpace-attackers",
-      "summary": "Google Cloud has integrated Wiz's security capabilities into an automated defense platform designed to detect and respond to threats faster than attackers can act. This new agentic defense system uses artificial intelligence to identify and remediate threats that leverage AI-based attack methods. By automating threat response, Google aims to close the gap between detection and response, reducing the window of vulnerability for organizations.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "agentic-ai",
-        "threat-detection",
-        "cloud-security",
-        "automated-response",
-        "ai-attacks"
-      ],
-      "whyItMatters": "As attackers increasingly leverage AI to accelerate and scale attacks, defensive automation becomes critical for organizations to keep pace. Google's investment in agentic defense represents a strategic shift toward proactive, autonomous security measures that can respond faster than human-led teams. This approach could significantly reduce dwell time and impact of sophisticated threats targeting ",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltce1b28d3805840ac/69b32c68d73e49322916d5a6/cloud-lightning-Athapet_Piruksa-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-07-20T09:24:05.346448+00:00"
     }
   ]
 }
