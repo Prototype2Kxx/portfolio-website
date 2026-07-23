@@ -1,7 +1,209 @@
 {
-  "lastUpdated": "2026-07-22T18:53:17.113272+00:00",
+  "lastUpdated": "2026-07-23T08:37:57.649989+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-a11bbe77",
+      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+      "summary": "Check Point has released patches for critical vulnerabilities in its Security Management and Multi-Domain Management products, including CVE-2026-16232, a severe authentication bypass in SmartConsole that is already being actively exploited by attackers. This flaw, with a CVSS score of 9.3, allows unauthorized users to bypass login protections and gain full administrative access to critical security infrastructure. Organizations using these products need to apply updates immediately to prevent unauthorized access to their security management systems.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "authentication-bypass",
+        "zero-day",
+        "patch-urgent",
+        "admin-access",
+        "check-point",
+        "actively-exploited"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects enterprise security management infrastructure and is already being exploited in active attacks, meaning attackers can gain complete control over an organization's security systems. Unpatched systems are at immediate risk of compromise, allowing attackers to manipulate security policies and disable protections across the entire network.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTBN3LZDMeKkPoMsoNtsGp_s0KYwVrmhhKHQsQtqgtAN1WAKeS7L-aN1hiehoBwnPi6f1gziIEecy5GlPdAVlWKPlzVprrqHLTLE3tcMZu4NK8QDoRxxS22HEFxfIpyrXnqr8O9b9akb1VVr9dmmmdwzHmhTFTVX4Cpv6WkFwSpz62tr6XKEDvKp5m0aUu/s1600/checkpoint.jpg",
+      "processedAt": "2026-07-23T08:37:25.685098+00:00"
+    },
+    {
+      "id": "art-358c531f",
+      "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
+      "summary": "GitHub is reducing its public bug bounty rewards by at least 50% starting July 27, 2026, with critical vulnerabilities dropping from $20,000-$30,000+ to a fixed $10,000. The company is consolidating higher payouts into an exclusive VIP program that offers $30,000 or more for invited researchers. Reports submitted before the deadline will keep the old payment structure.",
+      "category": "Vulnerabilities",
+      "severity": "Medium",
+      "tags": [
+        "bug-bounty",
+        "vulnerability-disclosure",
+        "incentive-changes",
+        "security-research"
+      ],
+      "whyItMatters": "This policy shift could discourage independent security researchers from reporting critical vulnerabilities to GitHub, potentially reducing the discovery and disclosure of serious bugs. The move may incentivize researchers to pursue other platforms or less responsible disclosure channels, impacting the overall security of GitHub's services and ecosystem.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj_hf7CZEiSANTI34m9Js55tSVk79YZVYvTHW2LwHyOCuvdK-9KWDu3R3eKJDlYJucrv7cUuf7ogDSakCE53IJ56483ktg8xGepMnB6NUGokxPqDsXEuIRXV3R_-d32GgrNI19Y-TrxvVAR3bnOlfgvcDVZYBGs-j5p-VouykZ517zpJ5kUOhtIf6R2sL3/s1600/github-bugbounty.jpg",
+      "processedAt": "2026-07-23T08:37:34.515853+00:00"
+    },
+    {
+      "id": "art-a984b146",
+      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
+      "summary": "Researchers discovered critical vulnerabilities in five open-source Android AI agent frameworks that allow malicious apps to manipulate AI agents through invisible text commands, potentially leading to unauthorized code execution on host PCs. By exploiting Android permissions like window overlay and shared storage access, attackers can create a chain of attacks that bridges mobile devices and desktop computers without any human awareness. This research identified seven distinct attack vectors against popular frameworks including AppAgent and AppAgentX.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-agents",
+        "android-vulnerabilities",
+        "mobile-security",
+        "code-execution",
+        "privilege-escalation",
+        "open-source-risks"
+      ],
+      "whyItMatters": "This vulnerability chain demonstrates how AI agents can become attack vectors that compromise not just mobile devices but also connected host systems, creating a significant supply-chain and automation risk. As AI-powered mobile automation becomes more widespread in business and personal use, these weaknesses could allow attackers to gain unauthorized access to desktop systems without user knowled",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgT3XQmerfsXoGV-Vs_zcpVZiX_i21tKtW9mTacpOvcEntMhycVftZ4f2vkREtq3W8PH9iQRLpOunN-hFf590FJNocxmsPla_WJ1uGJxtkpXnQim-T0-wa89EiJSZSrLHxhOcx_srjqzYcb2dW2MXAU4V2HWlL9rQa1YVEE4XEQ944I7a3glRwwjkgu0U/s1600/ai-android-agent.jpg",
+      "processedAt": "2026-07-23T08:37:38.795328+00:00"
+    },
+    {
+      "id": "art-b0c869d1",
+      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+      "summary": "When vendors release security patches, attackers can analyze the changes to understand the vulnerability and create exploits that target unpatched systems. This N-day exploitation window has become increasingly dangerous, shrinking from days to hours as attackers work faster to weaponize disclosed vulnerabilities. The article highlights that simply patching quickly may not be enough to protect against this accelerating threat landscape.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "n-day-exploitation",
+        "patch-management",
+        "vulnerability-disclosure",
+        "exploit-development",
+        "threat-acceleration"
+      ],
+      "whyItMatters": "Organizations face a critical timing problem: the window between patch release and widespread exploitation is collapsing, making delayed patching increasingly catastrophic. Understanding this vulnerability lifecycle is essential for security teams to prioritize patch deployment and implement compensating controls for systems that cannot be updated immediately.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s1600/pushsecurity.jpg",
+      "processedAt": "2026-07-23T08:37:41.593009+00:00"
+    },
+    {
+      "id": "art-e548453c",
+      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-21",
+      "originalUrl": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
+      "summary": "Researchers have discovered a new attack called Bit2Watt that allows cloud users with standard GPU access to manipulate data center power consumption rapidly enough to destabilize electrical grids. This threat requires no exploit or system compromise, only legitimate access to cloud computing resources. The attack was presented at CHES 2026, a major hardware security conference.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "cloud-security",
+        "power-grid-threat",
+        "gpu-attack",
+        "infrastructure-risk",
+        "data-center-security"
+      ],
+      "whyItMatters": "This attack demonstrates a critical vulnerability in cloud infrastructure where legitimate users can weaponize normal resources to cause physical damage to power grids without breaking any security controls. Organizations managing critical infrastructure and cloud providers need to implement resource-limiting safeguards immediately, as this represents a new category of insider threat that bypasses",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-R7kd2VdqaUw8SmCRinR_mJDH7qmw8_9h6IHAFVzVk0Oaec5zzxsTzyikFRO8ZlzSArsZ4vjQryaEwMCWcpnvOqlKIMiI6PCmxrjWrWCVI_ihUtqY17MSTWTgFcAwBCTdZMV8ihug0FuEBl5gJhYt2S2SMSua7s98eOuTf7maqc2T2vsXN7wGrkS4iH8/s1600/bit2watt.jpg",
+      "processedAt": "2026-07-23T08:37:44.058699+00:00"
+    },
+    {
+      "id": "art-6de73764",
+      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
+      "summary": "Check Point Software, an Israeli cybersecurity company, has disclosed a zero-day vulnerability in SmartConsole, their administrative control panel, that attackers are actively exploiting. The flaw allows unauthorized access to a critical management tool used by organizations to control their network security infrastructure. This vulnerability poses a significant risk because it could enable attackers to compromise entire security systems that organizations rely on for protection.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "check-point",
+        "smartconsole",
+        "active-exploitation",
+        "admin-panel",
+        "patch-urgent"
+      ],
+      "whyItMatters": "SmartConsole is a core administrative interface for Check Point's security products, meaning a compromise could give attackers control over an organization's entire security infrastructure. Since this zero-day is actively being exploited in the wild, administrators need immediate awareness and patching to prevent unauthorized access to their networks. Organizations using Check Point products shoul",
+      "image": null,
+      "processedAt": "2026-07-23T08:37:47.281799+00:00"
+    },
+    {
+      "id": "art-e2669e0d",
+      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
+      "summary": "Upbound Group, a fintech company, discovered that hackers who breached its systems used stolen data to fraudulently create $13 million worth of Acima leases. This incident demonstrates how stolen customer information can be weaponized to commit financial fraud beyond the initial data theft. The breach highlights the cascading financial damage that can result when sensitive personal and financial data falls into criminal hands.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "fraud",
+        "financial-crime",
+        "identity-theft",
+        "fintech-security",
+        "credential-misuse"
+      ],
+      "whyItMatters": "This case illustrates how data breaches extend beyond privacy violations—stolen credentials enable criminals to commit identity fraud and financial crimes that directly harm consumers and companies. Organizations must implement multi-factor authentication, transaction monitoring, and fraud detection systems to prevent attackers from weaponizing stolen data for unauthorized transactions.",
+      "image": null,
+      "processedAt": "2026-07-23T08:37:49.723367+00:00"
+    },
+    {
+      "id": "art-ba647eac",
+      "title": "South Korea discloses data breach impacting diplomats worldwide",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
+      "summary": "South Korea's National Diplomatic Academy experienced a significant data breach where attackers gained unauthorized access to its online education system for approximately ten months. During this extended breach, hackers stole personal information of current and former Ministry of Foreign Affairs employees, including diplomats stationed overseas. This incident highlights vulnerabilities in government digital infrastructure and poses potential risks to diplomatic operations and individual privacy.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "government-systems",
+        "diplomatic-security",
+        "personal-information-theft",
+        "credential-compromise"
+      ],
+      "whyItMatters": "Breaches targeting government diplomatic agencies can compromise sensitive personnel information, create espionage risks, and undermine national security operations worldwide. The ten-month duration indicates undetected persistence, revealing gaps in security monitoring and incident response capabilities for critical infrastructure. This incident emphasizes the need for enhanced endpoint detection",
+      "image": null,
+      "processedAt": "2026-07-23T08:37:52.636769+00:00"
+    },
+    {
+      "id": "art-b3bf71ec",
+      "title": "Stop renting storage space — this lifetime 2TB plan is yours for $59",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
+      "summary": "FileJump is offering a lifetime cloud storage plan with 2TB of storage for a one-time payment of $59, significantly undercutting traditional subscription-based cloud services that charge recurring monthly or annual fees. This deal eliminates the ongoing costs typically associated with cloud storage providers, allowing users to own their storage access permanently rather than renting it indefinitely.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "cloud-storage",
+        "data-protection",
+        "consumer-awareness",
+        "cost-comparison"
+      ],
+      "whyItMatters": "While primarily a consumer product announcement, this article highlights the importance of evaluating cloud storage options and understanding long-term data storage costs, which is relevant for individuals and organizations managing cybersecurity budgets and data protection strategies. Users should still evaluate the security practices and trustworthiness of any cloud provider before entrusting se",
+      "image": null,
+      "processedAt": "2026-07-23T08:37:55.303586+00:00"
+    },
+    {
+      "id": "art-79808def",
+      "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
+      "summary": "Microsoft is ending security updates for Exchange 2016 and 2019 versions through its Extended Security Update program in October. Organizations still using these older Exchange versions will no longer receive patches for newly discovered vulnerabilities after this deadline. This means businesses must either upgrade to a newer Exchange version or accept increased security risks from unpatched flaws.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "exchange-server",
+        "end-of-support",
+        "security-updates",
+        "patch-management",
+        "legacy-systems"
+      ],
+      "whyItMatters": "Unpatched Exchange servers are prime targets for cyberattacks and can be exploited for data theft, ransomware deployment, and network compromise. Organizations relying on Exchange 2016/2019 must plan migrations urgently to avoid operating vulnerable infrastructure in a threat-rich environment.",
+      "image": null,
+      "processedAt": "2026-07-23T08:37:57.649869+00:00"
+    },
     {
       "id": "art-fa4c8860",
       "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
@@ -831,212 +1033,6 @@
       "whyItMatters": "These sandbox escape vulnerabilities in AI coding assistants demonstrate a critical risk: attackers could use these tools to execute arbitrary code on developer machines, potentially leading to supply chain compromises and widespread system access. Developers relying on these tools need to update immediately, as the attacks exploit the very systems designed to assist with code generation.",
       "image": null,
       "processedAt": "2026-07-21T08:37:01.549365+00:00"
-    },
-    {
-      "id": "art-9f307760",
-      "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
-      "summary": "A cybersecurity researcher discovered an unprotected malware server operated by criminals using AI tools to craft phishing attacks and deploy infostealers. The toolkit contained over 1,000 files including templates, malware builders, and test files, with at least one active campaign targeting Windows users in Mexico through fake government websites. This exposure reveals the sophisticated infrastructure and AI-assisted techniques modern malware operators use to distribute harmful software.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "malware-distribution",
-        "ai-assisted-attacks",
-        "webdav",
-        "infostealer",
-        "exposed-server"
-      ],
-      "whyItMatters": "This incident demonstrates how threat actors leverage AI and exposed infrastructure to scale phishing campaigns and distribute malware at enterprise scale. Organizations need to understand these evolving attack methods and implement robust defenses against AI-assisted social engineering and WebDAV-based delivery mechanisms. The exposure of attacker toolkits provides defenders with valuable intelli",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJtNDirNuc1FHpVkk7dexa4KTcD8h3fSmxpGMZQeRtlzNpIhC5hOXVEu-aPc5tsCIi9-csPtQVmdoW9FeyyBytXkPWfbwYZEGSJrIiqSEqUsdQwGOepqr23C4pz6jnGWI5ledB7UC19S0ORrc_jyP6Lajqu0X4FsTX6ooTVJvJffKOjRmg2ndJLDj17-E/s1600/phishing-ai.jpg",
-      "processedAt": "2026-07-20T19:20:26.771313+00:00"
-    },
-    {
-      "id": "art-e65b2c00",
-      "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
-      "summary": "Researchers discovered HollowGraph, a malware that uses Microsoft 365 calendar events as a hidden command and control channel to receive instructions and exfiltrate stolen data. By disguising malicious activity as legitimate Microsoft Graph API traffic and dating events to 2050, the malware evades traditional security detection methods. This approach demonstrates how attackers can abuse trusted cloud services to communicate with compromised systems while remaining invisible to security tools.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware",
-        "command-and-control",
-        "cloud-security",
-        "microsoft-365",
-        "data-exfiltration",
-        "api-abuse"
-      ],
-      "whyItMatters": "This attack shows how legitimate cloud services can be weaponized to hide malicious activity, making detection significantly harder for organizations relying on standard network monitoring. The technique highlights a critical gap: defenders must now scrutinize trusted cloud APIs and calendar services, not just block suspicious external connections. Organizations using Microsoft 365 need enhanced m",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjho_D61rng1SKt_vyKBuuHeBlTm5uQ55-9SSSXuktMbO6iE0khzlKYA0mmaNLDVejgglz1kKnBkINCbI_KdqdH48UBw9bALf9l7ebuab84zp3aMnIHAbvm4OI62y4_QChmk-SnrUFN6AZ2bJgkvZasI4eApEFPX4M-94ZRO_MfQTjX52CaYQ-Ui2trHfs/s1600/ms365.jpg",
-      "processedAt": "2026-07-20T19:20:30.081188+00:00"
-    },
-    {
-      "id": "art-3a5b0b54",
-      "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
-      "summary": "This week's cybersecurity threats included multiple critical vulnerabilities across popular platforms like WordPress, SonicWall, and SharePoint that allowed attackers to execute malicious code with minimal effort. The incidents highlighted how seemingly simple vulnerabilities—such as exposed systems, inadequate input validation, outdated drivers, and social engineering—can lead to severe consequences including unauthorized code execution, credential theft, and security tool compromise. Many of these exploits were actively being used in the wild before patches became available, leaving organiza",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "rce",
-        "wordpress",
-        "sonicwall",
-        "sharepoint",
-        "active-exploitation"
-      ],
-      "whyItMatters": "These vulnerabilities demonstrate that attackers continue to exploit unpatched systems at scale, and several were weaponized before defensive patches were deployed. Organizations using WordPress, SonicWall firewalls, and SharePoint need immediate patching to prevent active compromise, making this a critical week for urgent security updates across widespread enterprise and small-business infrastruc",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjA-JVLR3XITNdsuoWZQFMu12z6UeqsAdKWjS4Iu6piGP-4Natjx3GZ4obTdwddY5YHPgNoYDJljFCpAh9YRUntTakZeiGikoJYjjgEcv2ZVPchuCuyIfRh_3aTJ64Ktke9RkdRxH7DalTVqGf0YgF3fDj2lHgvVyIDANaMn1KVy1d1CBXTZxAwyJBqEClL/s1600/cyberrecap.jpg",
-      "processedAt": "2026-07-20T19:20:33.396918+00:00"
-    },
-    {
-      "id": "art-8a485f25",
-      "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
-      "summary": "Russian intelligence services have been systematically hacking internet-connected security cameras across Europe and Ukraine to monitor military activity, including troop movements and weapons shipments. According to a July 10 advisory from Dutch intelligence agencies AIVD and MIVD, attackers are using compromised camera feeds to gather intelligence on NATO and Ukrainian military logistics. This represents a coordinated espionage campaign exploiting vulnerable IoT devices for surveillance purposes.",
-      "category": "Network Security",
-      "severity": "Critical",
-      "tags": [
-        "iot-security",
-        "network-compromise",
-        "espionage",
-        "camera-hacking",
-        "military-intelligence",
-        "vulnerability-exploitation"
-      ],
-      "whyItMatters": "This attack demonstrates how unsecured IoT devices can become force-multipliers for state-sponsored espionage, enabling adversaries to gather real-time military intelligence at scale. Organizations managing critical infrastructure and military operations must urgently audit and secure internet-facing cameras and similar devices, as this reflects an active, ongoing threat by a sophisticated nation-",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnZdcdM-XJQ9tmIQw7h4gqSDABg-Ip1mzizMoR9zRcyQmaG7OGlQSp1ad0RsZSflsvdKVn0bs4EXdPthnHgiC76as_RVG-W7vZ88AHvJ2HhCLEaQOlNukhrTl6NSq6sgAHGiGUXemDrbZePvUDIi2oxWb60rRX5lkxA5bsFBJplBkaVQTZ5R0EjOrJTaQ/s1600/ip-camera-hacking.jpg",
-      "processedAt": "2026-07-20T19:20:37.184119+00:00"
-    },
-    {
-      "id": "art-7a63ad0b",
-      "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
-      "summary": "After Anthropic's April 2026 reveal of Mythos, the cybersecurity industry initially focused on volume concerns—how many new vulnerabilities would be discovered and how quickly adversaries could exploit them. However, the article suggests that the real challenge extends beyond these immediate questions, pointing to organizational exposure windows as a critical factor in vulnerability management. The piece implies that security programs may be overlooking key operational and temporal vulnerabilities in their response capabilities.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "vulnerability-management",
-        "exposure-window",
-        "ai-driven-discovery",
-        "triage-capabilities",
-        "mythos",
-        "disclosure-risk"
-      ],
-      "whyItMatters": "Understanding the exposure window—the time between vulnerability discovery and remediation—is crucial for effective security posture. Organizations focusing only on CVE volume while ignoring their actual capacity to triage and patch vulnerabilities may face greater real-world risk, especially as AI tools accelerate vulnerability discovery at scale.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPz_r-By1h0xZL5FiBqJIALstL79CJXVbUweKybWr0EG7qKcLPYSo750ATDQjzd9tE6piMt4-TkFY4mT87Q58Jg_0jHMCveyydooFMjk5hKUk0jQA_Uxp6WamlMsFIjXcws2ighKsjC907P45OIhcimimpm-ECyQ_bq5erQ2MTvH7HGwzGgXrxQSIBBx0/s1600/xmcyber.jpg",
-      "processedAt": "2026-07-20T19:20:41.507483+00:00"
-    },
-    {
-      "id": "art-2a508b39",
-      "title": "New HollowGraph malware uses Microsoft Graph for stealthy C2 comms",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-hollowgraph-malware-uses-microsoft-graph-for-stealthy-c2-comms/",
-      "summary": "Researchers discovered HollowGraph, a malware component that exploits Microsoft 365 by using the calendar feature in compromised mailboxes as a hidden communication channel. Attackers use this method to send commands to infected systems and steal data without being easily detected. This approach is particularly dangerous because it hides malicious activity within legitimate cloud services that organizations typically trust.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "malware",
-        "cloud-security",
-        "microsoft-365",
-        "command-and-control",
-        "data-exfiltration",
-        "stealthy-attack"
-      ],
-      "whyItMatters": "This threat demonstrates how attackers are increasingly abusing legitimate cloud services like Microsoft 365 to hide malicious communications, making detection harder for security teams. Organizations relying on Microsoft 365 need to enhance monitoring of calendar activities and user behavior to identify compromised accounts early. The incident highlights the importance of implementing strong acce",
-      "image": null,
-      "processedAt": "2026-07-20T19:20:44.151407+00:00"
-    },
-    {
-      "id": "art-2b1f5e2e",
-      "title": "An AI SOC Evaluation Guide for Security Leaders",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/an-ai-soc-evaluation-guide-for-security-leaders/",
-      "summary": "Security leaders need practical guidance when selecting AI-powered Security Operations Center (SOC) platforms to ensure they work effectively in real-world environments. The article presents a framework for evaluating AI SOC solutions by testing accuracy, operational models, reliability, and readiness for production deployment. This approach helps organizations move beyond vendor demos to make informed decisions about which AI SOC platform will actually meet their security needs.",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "ai-soc",
-        "security-operations",
-        "platform-evaluation",
-        "threat-detection",
-        "security-tools"
-      ],
-      "whyItMatters": "As organizations increasingly adopt AI-driven security tools, having a structured evaluation framework prevents costly mistakes and ensures AI SOC platforms can handle real incidents effectively. Poor tool selection can lead to missed threats or operational inefficiencies, making this guidance critical for security teams making significant technology investments.",
-      "image": null,
-      "processedAt": "2026-07-20T19:20:46.555343+00:00"
-    },
-    {
-      "id": "art-27bb7361",
-      "title": "Hugging Face warns an autonomous AI agent hacked its network",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
-      "summary": "Hugging Face, a major AI repository platform, suffered a security breach where attackers exploited an autonomous AI agent to gain unauthorized access to the company's production infrastructure. The breach compromised internal datasets and sensitive credentials, raising serious questions about the security risks of deploying autonomous AI systems in critical infrastructure. This incident highlights the emerging threat landscape where AI tools themselves can become attack vectors rather than just defensive solutions.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-agent-attack",
-        "infrastructure-breach",
-        "credential-compromise",
-        "autonomous-ai-threat",
-        "dataset-exposure"
-      ],
-      "whyItMatters": "This breach demonstrates that autonomous AI agents pose a novel and serious security risk when deployed in production environments, potentially undermining trust in AI-driven infrastructure. Organizations relying on Hugging Face for AI models and datasets face potential exposure, and the incident establishes a precedent for attackers using AI systems as attack tools. This signals an urgent need fo",
-      "image": null,
-      "processedAt": "2026-07-20T19:20:49.733372+00:00"
-    },
-    {
-      "id": "art-d188ab14",
-      "title": "Microsoft confirms Windows Server Update Services sync delays",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-wsus-server-sync-delays-and-timeouts/",
-      "summary": "Microsoft is addressing a technical issue with Windows Server Update Services (WSUS) that has disrupted synchronization processes for over a week. This problem prevents servers from properly receiving and distributing critical security updates across organizations. The company is actively working on a fix to restore normal update distribution functionality.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "wsus",
-        "update-services",
-        "microsoft",
-        "patch-delivery",
-        "system-outage"
-      ],
-      "whyItMatters": "WSUS synchronization failures directly impact an organization's ability to deploy security patches across their Windows infrastructure, leaving systems vulnerable to known exploits during the outage period. Extended delays in patch distribution increase risk exposure significantly, making this a critical operational issue for IT teams managing Windows Server environments at scale.",
-      "image": null,
-      "processedAt": "2026-07-20T19:20:52.156163+00:00"
-    },
-    {
-      "id": "art-5658d061",
-      "title": "Windows KB5121767 OOB update fixes shutdowns on some Dell PCs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-bug-causing-some-dell-pcs-to-shut-down/",
-      "summary": "Microsoft released an emergency out-of-band update (KB5121767) to address a critical bug in July 2026 Windows 11 security patches that was causing Dell PCs to unexpectedly shut down. This hotfix was deployed outside the regular monthly update schedule to quickly resolve the widespread compatibility issue affecting Dell users. The update demonstrates how security patches can sometimes introduce unintended side effects that require rapid remediation.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patch-management",
-        "windows-update",
-        "dell-compatibility",
-        "system-stability",
-        "emergency-fix"
-      ],
-      "whyItMatters": "Out-of-band patches reveal that even thoroughly tested security updates can cause critical stability issues, making it essential for organizations to monitor patch releases and have rollback procedures ready. For Dell users specifically, this incident highlights the need to verify hardware compatibility before deploying monthly Windows updates across an organization. Understanding how patch failur",
-      "image": null,
-      "processedAt": "2026-07-20T19:20:55.276824+00:00"
     }
   ]
 }
