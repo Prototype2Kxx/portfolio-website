@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-07-23T08:37:57.649989+00:00",
+  "lastUpdated": "2026-07-23T18:56:04.656677+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-857a3bf0",
+      "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+      "summary": "A Russian state-sponsored hacking group exploited a previously unknown vulnerability in Zimbra webmail to secretly access Western organizations' emails for an extended period. The attack extracted sensitive data including 90 days of email messages, contact directories, saved passwords, and two-factor authentication recovery codes—requiring only that a user open a malicious message. U.S. government agencies including the NSA and CISA have alerted the public about this serious threat.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "zimbra",
+        "russian-espionage",
+        "2fa-bypass",
+        "data-exfiltration",
+        "state-sponsored"
+      ],
+      "whyItMatters": "This incident demonstrates how zero-day vulnerabilities in widely-used enterprise software can be weaponized by state actors to compromise sensitive communications at scale. The ability to bypass two-factor authentication codes makes credential theft far more dangerous, and the months-long dwell time shows sophisticated attackers can remain undetected while stealing critical intelligence. Organiza",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzlA3Ln3fk8yzrfLwR9egB99u67BL7NlRui9XkKviyXhFmZ3sYVTF5laSjHTwyphN51YvL39R0irNNPn2hDpVcn6EFi_NmuuSH3XTS9I71aPdZvgZRTOxXczmyqbSkcpqSy2TgOzSSJ0RzAyeQA4YXED73kIChZFtiuZ1fIVzCFvDJK4bEJ5M6Sj-qPeI/s1600/zimbra-email.jpg",
+      "processedAt": "2026-07-23T18:55:38.454084+00:00"
+    },
+    {
+      "id": "art-97db2edb",
+      "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+      "summary": "This week's cybersecurity threats demonstrate how attackers disguise malicious software as legitimate tools and services. Multiple incidents included data-stealing packages, fake browser extensions, spyware hidden in safety apps, and AI systems manipulated through hidden image prompts. These attacks exploited weak security practices and normal system behaviors to evade detection.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-distribution",
+        "supply-chain",
+        "spyware",
+        "ai-security",
+        "social-engineering",
+        "browser-extensions"
+      ],
+      "whyItMatters": "This article highlights a critical trend where attackers increasingly disguise malware as legitimate applications and leverage user trust to gain access. Organizations and individuals need to implement stricter software vetting, monitor for suspicious behavior in trusted apps, and educate users about the risks of downloading from untrusted sources. The diversity of attack vectors—from packages to ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsmJNuemIhGxFuSqY6pq1opCEJECkmIjXm5VnOqOAEjfpoLxQ89Q-qXBqKQmM8YnwyVP2_feUo4c-VLZ3cC6s_J0VCXdwhLKFezoK1-i4lWQs68yXaZS8XtHGAsDj5zsdOToB7yD1QHzuMYIVQFvb14U6Zhd1cqDOm78tRY1O3v_1LFr7CC-4ItBLpLgZ3/s1600/th.jpg",
+      "processedAt": "2026-07-23T18:55:41.323644+00:00"
+    },
+    {
+      "id": "art-e8812014",
+      "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+      "summary": "Researchers discovered a sandbox escape vulnerability in Anthropic's Claude Cowork that allows AI agents to break out of their Linux virtual machine environment and access files on Mac systems. The flaw could potentially affect approximately 500,000 macOS users who run the affected software. This type of vulnerability is particularly dangerous because it undermines the security boundary designed to keep AI agents isolated from the host system.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "sandbox-escape",
+        "ai-security",
+        "claude-cowork",
+        "vm-escape",
+        "macos",
+        "vulnerability"
+      ],
+      "whyItMatters": "Sandbox escape vulnerabilities in AI agents pose a significant risk because they enable attackers to bypass security controls that restrict what an AI system can access on a user's machine. If exploited, this flaw could allow unauthorized reading or modification of sensitive files on affected Mac systems, potentially compromising user data and system integrity at scale.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj5Vr8pje9uM-Ce6rzE-_hhU3HvR2NkKtYfaSrIXz3m0BbrC1ZNC9p4GW4GRQaAvFKPjE5kopXmdmcKcMb7_1dbOWvMO6_oe87HCj4TUXV1dWK99cz_OBcNHd81Ziat93g4wJcBdc3K1vq0IkwFL9DO9GlSrf_KxGi2hpg7VVsU9iTt7B2XByXL7nil86i/s1600/claude.gif",
+      "processedAt": "2026-07-23T18:55:43.771057+00:00"
+    },
+    {
+      "id": "art-681d1438",
+      "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+      "summary": "The Chaos ransomware group uses a sophisticated tool called msaRAT, a Rust-based implant, to establish command-and-control communications through victims' web browsers instead of direct internet connections. Rather than making outbound connections itself, msaRAT launches Chrome or Edge in headless mode and routes all traffic through the browser, making detection and blocking significantly harder. This technique was discovered by Cisco Talos on a compromised Windows system that had been infected before the actual ransomware payload was deployed.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "command-and-control",
+        "living-off-the-land",
+        "evasion-technique",
+        "msarat",
+        "chaos-group"
+      ],
+      "whyItMatters": "This attack demonstrates an advanced evasion technique that bypasses traditional network detection methods by abusing legitimate browser applications, making it harder for defenders to identify malicious C2 traffic. Understanding how attackers hide command-and-control communication within trusted applications is critical for security teams to develop better detection strategies and network monitor",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpS2QJv9o35m4hpF1MjxwE07jbvy9d4kK2fiSsQKFYaYtlUFReQ0j1YQ7fdaOPUN9s3J5oBpHG9vPIbTu_HwdjSDoz8UdhlJOp6ys6uBJlQxTL5BQlxtcOU2aRS1aaPeVwqvfCqGFzXEmQm0is0azXtyPQ8cNN61LbHtCllseMZQoYlwyrL4FV6BrkgqE/s1600/chrome-headless.jpg",
+      "processedAt": "2026-07-23T18:55:46.734906+00:00"
+    },
+    {
+      "id": "art-b78f356b",
+      "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+      "summary": "Security researchers discovered a China-linked hacking group called JadeProx operating from an exposed Alibaba Cloud server in Singapore. The group has been targeting government, healthcare, and education organizations across Asia and Latin America using a new malware loader called TriBack Loader. This previously unknown tool represents an evolving threat from state-sponsored or state-aligned attackers using cloud infrastructure for sophisticated operations.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "china-nexus",
+        "malware-loader",
+        "cloud-security",
+        "government-targeting",
+        "healthcare-attacks",
+        "triback-loader"
+      ],
+      "whyItMatters": "This discovery reveals an active, sophisticated threat actor exploiting cloud infrastructure to conduct espionage-style attacks against critical sectors like healthcare and government. Organizations in Asia and Latin America need to immediately review their security posture and patch systems, as the new TriBack Loader represents an undocumented threat with unknown detection signatures. The exposur",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-rvCSGHVd2nngnpcdcc8Eh-QFaxQrcyegoSIPhUeTpr5qrGHcHYIstDAj08yLDeYcNZkZ26Ta53fdYefY8NjW8MprrOL4lQ4VnDCMpBrsrSQccyUipoC3VvFtMNUxUpUzOYra58WqjRwn952-fvzZLpXtgeY8Ao660YY49FaqcTTjBrDN_DsFFnsftJ8/s1600/malware-attack.jpg",
+      "processedAt": "2026-07-23T18:55:49.428107+00:00"
+    },
+    {
+      "id": "art-3ab002c3",
+      "title": "Russian hackers exploit Zimbra zero-click flaw for email theft",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-zimbra-zero-click-flaw-for-email-theft/",
+      "summary": "Russian state-sponsored hackers known as Laundry Bear or Void Blizzard are actively exploiting a vulnerability in Zimbra Collaboration email servers, combining phishing tactics with the zero-click flaw to steal emails from targeted organizations. CISA has issued a warning about this coordinated attack campaign against users of the popular email platform. The vulnerability has since been patched, but organizations running unpatched versions remain at significant risk.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zimbra-vulnerability",
+        "state-sponsored-attack",
+        "phishing-campaign",
+        "email-security",
+        "zero-click-exploit",
+        "patch-urgently"
+      ],
+      "whyItMatters": "Active exploitation by a nation-state actor combined with a zero-click vulnerability creates an urgent threat that bypasses traditional user awareness defenses. Organizations using Zimbra must immediately patch their systems to prevent email theft and potential data breaches. This demonstrates how attackers chain multiple techniques (phishing plus technical exploits) to increase success rates agai",
+      "image": null,
+      "processedAt": "2026-07-23T18:55:52.394371+00:00"
+    },
+    {
+      "id": "art-784cab5e",
+      "title": "Hackers abuse Notepad++ plugins to stealthily install malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-notepad-plus-plus-plugins-to-stealthily-install-malware/",
+      "summary": "Attackers are distributing fake Notepad++ packages that include legitimate software alongside a malicious plugin called LunchPoke designed to gain persistent access to systems. Ukraine's CERT discovered this campaign, which tricks users into installing what appears to be a normal text editor while secretly deploying malware. This attack demonstrates how threat actors can abuse trusted software and plugin ecosystems to compromise systems.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-distribution",
+        "plugin-abuse",
+        "persistence",
+        "notepad-plus-plus",
+        "trojan",
+        "supply-chain-adjacent"
+      ],
+      "whyItMatters": "This attack highlights a critical vulnerability in how users trust legitimate software distributions and plugin ecosystems, making it easy for attackers to achieve persistence on compromised systems. Users who download software from unofficial sources or fall for typosquatting campaigns are at significant risk of installing malware alongside trusted applications.",
+      "image": null,
+      "processedAt": "2026-07-23T18:55:54.942597+00:00"
+    },
+    {
+      "id": "art-b3d1e8e2",
+      "title": "Microsoft 365 outage affects Teams, SharePoint and other services",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-outage-affects-teams-sharepoint-and-other-services/",
+      "summary": "Microsoft experienced a significant outage that disrupted Teams, SharePoint, and other Microsoft 365 services, primarily impacting users across North America. This widespread service disruption prevented many organizations from accessing critical collaboration and productivity tools. The incident highlights the potential business risks when major cloud platforms experience infrastructure failures.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "microsoft-365",
+        "cloud-outage",
+        "teams",
+        "sharepoint",
+        "service-disruption",
+        "business-continuity"
+      ],
+      "whyItMatters": "Large-scale cloud outages demonstrate the critical dependency many organizations have on centralized platforms and the need for robust disaster recovery plans. Understanding outage impacts helps businesses implement redundancy strategies and backup communication channels to maintain operations during service failures. This incident underscores why companies should regularly test failover procedure",
+      "image": null,
+      "processedAt": "2026-07-23T18:55:57.551610+00:00"
+    },
+    {
+      "id": "art-2b1a0343",
+      "title": "FedRAMP Rev5 Is Ending: What the 20x Transition Really Requires",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fedramp-rev5-is-ending-what-the-20x-transition-really-requires/",
+      "summary": "FedRAMP is transitioning from Rev5 to FedRAMP 20X, replacing traditional one-time security assessments with continuous, automated monitoring using machine-readable evidence. This shift means organizations must demonstrate that their security controls work consistently over time rather than just passing a single audit. The new approach requires significant changes to how agencies and vendors approach compliance and security validation.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "fedramp",
+        "compliance",
+        "continuous-monitoring",
+        "cloud-security",
+        "federal-standards",
+        "assessment"
+      ],
+      "whyItMatters": "Organizations working with federal agencies must understand this transition to avoid compliance failures and maintain their authorization to handle government data. FedRAMP 20X fundamentally changes security assurance from periodic audits to ongoing validation, requiring new processes, tools, and security practices that could impact budgets and timelines. This shift affects thousands of vendors an",
+      "image": null,
+      "processedAt": "2026-07-23T18:56:01.313010+00:00"
+    },
+    {
+      "id": "art-5893d254",
+      "title": "EU fines Google $1 billion for search, app store antitrust violations",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/google/eu-fines-google-1-billion-for-digital-markets-act-breaches-in-search-and-play-store/",
+      "summary": "The European Commission imposed a €890 million ($1 billion) fine on Google for violating the Digital Markets Act (DMA), which is designed to ensure fair competition in online markets. The violations involved Google's practices in search and app store operations that gave the company unfair advantages over competitors. This penalty demonstrates the EU's commitment to enforcing strict regulations against large tech companies that abuse their dominant market positions.",
+      "category": "Other",
+      "severity": "High",
+      "tags": [
+        "antitrust",
+        "digital-markets-act",
+        "google",
+        "eu-regulation",
+        "competition-law"
+      ],
+      "whyItMatters": "This case sets a significant precedent for how regulators will enforce competition rules against tech giants, which can influence cybersecurity and data handling practices across the industry. Large fines for regulatory violations encourage companies to implement stronger governance and compliance controls, including better security and privacy measures. Understanding regulatory consequences helps",
+      "image": null,
+      "processedAt": "2026-07-23T18:56:04.656517+00:00"
+    },
     {
       "id": "art-a11bbe77",
       "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
@@ -826,213 +1035,6 @@
       "whyItMatters": "Active exploitation of a critical VPN authentication flaw by a known ransomware gang creates immediate risk for organizations using Palo Alto infrastructure. This represents a high-priority threat requiring urgent patching and network monitoring to prevent breaches. Organizations must assume their networks may already be under attack and should implement emergency security measures.",
       "image": null,
       "processedAt": "2026-07-21T19:00:25.194044+00:00"
-    },
-    {
-      "id": "art-37fc03db",
-      "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-21",
-      "originalUrl": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
-      "summary": "Researchers discovered that JADEPUFFER, an AI-focused cybercriminal group, has deployed a new ransomware called ENCFORGE targeting Langflow servers through remote code execution vulnerabilities. This ransomware specifically encrypts artificial intelligence-related files such as model weights, vector indexes, and training datasets. The attack represents an escalating threat to organizations using AI infrastructure, as attackers are now specifically targeting the unique assets that power machine learning systems.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "ai-security",
-        "langflow-rce",
-        "encforge",
-        "jadepuffer",
-        "ai-infrastructure"
-      ],
-      "whyItMatters": "This attack is critical because it demonstrates that threat actors are evolving their tactics to specifically target AI systems and their valuable underlying assets, moving beyond traditional data encryption. Organizations deploying Langflow and similar AI platforms face immediate risk of losing critical model files and training data, which could halt AI operations and compromise proprietary machi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDTNXJkg3w9ziG7euHnlaoQkTjogtjIhtwE-ZudPv_9wOpJUCUNVc-i_BtBkDTCflKzRSfUOEp5xHyRWAOcQWv18pf2kv9-yuI75SOM52X3akV3VrguZf6GDH9MZejxFG7FoJGMIgARuiWyncCOmNznSofFT8Fn9Zu2ZGmk0V_Ni3niha2I9qAO59VKHw/s1600/ransomware-ai.jpg",
-      "processedAt": "2026-07-21T08:36:34.852797+00:00"
-    },
-    {
-      "id": "art-cedd076d",
-      "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-21",
-      "originalUrl": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-      "summary": "A critical vulnerability in ServiceNow's AI Platform is being actively exploited by attackers in the wild. The flaw, tracked as CVE-2026-6875 with a CVSS score of 9.5, allows unauthenticated users to escape the sandbox and execute arbitrary code on affected systems. Security teams need to prioritize patching this vulnerability immediately as threat actors are already leveraging it.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "servicenow",
-        "ai-security",
-        "sandbox-escape",
-        "unauthenticated-access",
-        "active-exploitation",
-        "patch-urgently"
-      ],
-      "whyItMatters": "Active exploitation of a critical, unauthenticated remote code execution vulnerability means attackers can compromise ServiceNow environments without credentials, posing immediate risk to organizations relying on this platform. The high CVSS score and in-the-wild attacks demand urgent patching to prevent unauthorized access and data theft.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAYYV6u5s-uKU-FXeqsoZ9Bk7nvzW1gPYVuoykmnuzLBQCK0jvX7rAO12mK5FVX06ovTJHZLUUXDkFmYk88oyKdFSYByRPSL5MUuAqikrTIVEpVzOcR9j4Rn0Fmje7-VwBAO09Yl8Y4cTUVNFwTXf2FV2c9C8oyNi5coAMCMLn5WF5Fbqtyt-tDZ3MVsO0/s1600/servicenow.jpg",
-      "processedAt": "2026-07-21T08:36:37.325446+00:00"
-    },
-    {
-      "id": "art-438fe2b8",
-      "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
-      "summary": "Researchers discovered nearly 7,600 malicious GitHub repositories as part of a campaign called FakeGit that distributes SmartLoader malware. The attackers created fake developer profiles and copied legitimate projects, particularly impersonating AI tools and Model Context Protocol servers, to trick developers into downloading infected files. This large-scale supply chain attack demonstrates how threat actors exploit trusted platforms to reach a wide developer audience.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware-distribution",
-        "supply-chain-attack",
-        "github-threat",
-        "smartloader",
-        "fakegit-campaign",
-        "developer-targeting"
-      ],
-      "whyItMatters": "This campaign represents a significant supply chain threat targeting developers at scale through a trusted platform, making it difficult to distinguish malicious repositories from legitimate ones. The use of 7,600+ repositories and convincing impersonation tactics means many developers could unknowingly download compromised code into their projects. Organizations need to implement strict code revi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjraCuGeWGgh9OrpC0vpcC6fFNsSdQEGhB_GPY0ZbuAzcOyqyTyHFA8fl97bDKYihy0MZGiU9_5a4s4x6oziT9-cCv1n2dpGZpGtvuipWUYoEObUWtQt0ZmNczKsM7wzqdtLbAvrIfJrFpCDzPD-koB8qxdpFYZ0w5EtnYW2Z4RTPz0v-JFVyFgyg3rQk8/s1600/github.jpg",
-      "processedAt": "2026-07-21T08:36:40.321801+00:00"
-    },
-    {
-      "id": "art-feaf25b9",
-      "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
-      "summary": "A critical vulnerability in 7-Zip (CVE-2026-14266) allows attackers to execute arbitrary code on a victim's machine by crafting a malicious XZ archive file. The flaw is a heap-based buffer overflow that occurs during the extraction process when the archiver processes XZ chunked data. A security patch was released on June 25 in version 7-Zip 26.02, making it essential for users to update immediately.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "7-zip",
-        "buffer-overflow",
-        "code-execution",
-        "cve-2026-14266",
-        "heap-overflow",
-        "patch-required"
-      ],
-      "whyItMatters": "This vulnerability is critical because 7-Zip is widely used across enterprises and individual users for file compression and extraction. Since code execution happens automatically during a routine file extraction, users could be compromised simply by opening a malicious archive, making this a high-risk threat requiring immediate patching across all systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuAoanL7LxDYHynfggiOQo_RDymqYrFlfnRNrstIG6KgYuDWk2uR0eZDx_vCSLWsjTmP5LohkMSGQ_sc32hE4TGqqUCkGwsDlOUzP3bb-Ib-whRLliIb0YVozTMZF-lgSsPJr55l7GPjR1Xq-sH7dieWTBNnZsttdSfOxowTrEZImrcJ-_cI6i4zVFlII/s1600/7-zip.jpg",
-      "processedAt": "2026-07-21T08:36:43.172042+00:00"
-    },
-    {
-      "id": "art-e03a24df",
-      "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
-      "summary": "A Russian-speaking hacker named \"bandcampro\" exploited Google's Gemini CLI artificial intelligence tool to automate malicious activities, including password cracking and botnet management. Analysis of over 200 Gemini CLI session logs from March to April 2026 revealed the attacker using AI to control a botnet comprising eight compromised dental clinic computers. This case demonstrates how threat actors are leveraging legitimate AI tools to scale their cybercriminal operations more efficiently.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-abuse",
-        "botnet",
-        "malware",
-        "credential-cracking",
-        "threat-actor",
-        "gemini-cli"
-      ],
-      "whyItMatters": "This incident highlights a critical vulnerability in how open-source AI tools can be misused by sophisticated attackers to automate and scale cybercrimes, making defensive efforts harder for organizations. It shows that legitimate development tools are increasingly becoming attack vectors, requiring both tool providers and users to implement stricter access controls and monitoring. Healthcare orga",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyO5FC_n2BBZmiHphtqs0UN5r3DPgtRvkrVfaHOW-1Fv2VPXZliRYDryKR5I-vdZxtmChQJB6eAlJsND-e47t5lLQQ4SWkSJ_D02SEL6nRBmnJ-klfjSSg7rjRyf5AfzX340_se2vNrobCydtV-NZPsDm8MvL9UG0atiMekaxCNzHwizxZFlRhvpuM8BjE/s1600/gemini-cc.jpg",
-      "processedAt": "2026-07-21T08:36:46.333384+00:00"
-    },
-    {
-      "id": "art-aeb20b48",
-      "title": "Windows LegacyHive zero-day flaw gets free, unofficial patches",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/",
-      "summary": "A serious Windows zero-day vulnerability called LegacyHive has been discovered that allows attackers to gain elevated privileges on fully updated Windows systems. Community-developed unofficial patches are now available for users who cannot wait for an official Microsoft fix. This vulnerability poses a significant risk because it affects current Windows installations and can be exploited before official patches are released.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "privilege-escalation",
-        "windows",
-        "unofficial-patch",
-        "exploit",
-        "legacyhive"
-      ],
-      "whyItMatters": "Zero-day vulnerabilities that enable privilege escalation are critical because attackers can gain complete system control before vendors release official patches, potentially affecting millions of users. The availability of unofficial patches demonstrates the importance of rapid community response, but organizations should prioritize obtaining official Microsoft patches once available to ensure lo",
-      "image": null,
-      "processedAt": "2026-07-21T08:36:49.392977+00:00"
-    },
-    {
-      "id": "art-6728f39b",
-      "title": "Estée Lauder discloses data breach via Oracle E-Business flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/",
-      "summary": "Estée Lauder experienced a data breach after attackers exploited a vulnerability in Oracle E-Business Suite, which the company relied on for managing human resources operations. The cosmetics company is now notifying affected customers about the incident. This breach demonstrates how security weaknesses in widely-used enterprise software can compromise sensitive employee and customer data.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "oracle-vulnerability",
-        "enterprise-software",
-        "hr-data",
-        "data-breach",
-        "exploitation"
-      ],
-      "whyItMatters": "This incident highlights that major corporations using popular enterprise platforms remain vulnerable to exploitation of known or unpatched flaws, putting both employee and customer data at risk. It underscores the critical importance of timely patching and monitoring of third-party software, especially systems handling sensitive human resources information.",
-      "image": null,
-      "processedAt": "2026-07-21T08:36:52.225247+00:00"
-    },
-    {
-      "id": "art-ed6e2cee",
-      "title": "SonicWall SMA1000 flaws exploited as zero-days to push custom malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/",
-      "summary": "SonicWall SMA1000 VPN appliances were targeted by attackers who exploited two previously unknown vulnerabilities to deploy malware without detection for several weeks. Threat actors gained the ability to install custom malware directly onto these critical network devices, which are commonly used to provide remote access to enterprise networks. This attack demonstrates how zero-day vulnerabilities in VPN infrastructure can be weaponized to establish persistent access to sensitive corporate systems.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "sonicwall",
-        "vpn-appliances",
-        "custom-malware",
-        "network-security",
-        "vulnerability-exploitation"
-      ],
-      "whyItMatters": "VPN appliances like the SMA1000 are critical network entry points that organizations rely on for secure remote access. When these devices are compromised through zero-day exploits, attackers can bypass perimeter defenses and establish persistent backdoor access to internal networks, potentially affecting hundreds of connected users and systems. Organizations using SMA1000 devices need immediate pa",
-      "image": null,
-      "processedAt": "2026-07-21T08:36:56.225208+00:00"
-    },
-    {
-      "id": "art-e0b8e7a7",
-      "title": "Hackers steal $23.7 million in crypto from Ostium in off-chain attack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/",
-      "summary": "Hackers successfully stole $23.75 million from Ostium, a cryptocurrency trading platform, by compromising the off-chain infrastructure that supplies price data to the protocol. This attack demonstrates how vulnerabilities in supporting systems outside the main blockchain can expose users to significant financial losses. The incident highlights the critical importance of securing all components of a crypto platform, not just the on-chain smart contracts.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "cryptocurrency-theft",
-        "off-chain-attack",
-        "infrastructure-compromise",
-        "crypto-exchange",
-        "price-feed-vulnerability"
-      ],
-      "whyItMatters": "This attack reveals that blockchain platforms are only as secure as their weakest external components, and attackers actively target off-chain infrastructure to bypass on-chain protections. Organizations managing digital assets must implement comprehensive security measures across all systems, including price feeds and supporting infrastructure, to prevent large-scale financial theft.",
-      "image": null,
-      "processedAt": "2026-07-21T08:36:58.933134+00:00"
-    },
-    {
-      "id": "art-478a6338",
-      "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
-      "summary": "Security researchers discovered sandbox escape vulnerabilities in four popular AI coding tools: Cursor, Codex, Gemini CLI, and Antigravity. The attacks worked by tricking the AI agents into creating files that trusted host tools would then execute, breaking out of their restricted environments. Google responded by releasing patches and downgrading the severity of two Antigravity findings.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "sandbox-escape",
-        "vulnerability",
-        "code-execution",
-        "patch-available"
-      ],
-      "whyItMatters": "These sandbox escape vulnerabilities in AI coding assistants demonstrate a critical risk: attackers could use these tools to execute arbitrary code on developer machines, potentially leading to supply chain compromises and widespread system access. Developers relying on these tools need to update immediately, as the attacks exploit the very systems designed to assist with code generation.",
-      "image": null,
-      "processedAt": "2026-07-21T08:37:01.549365+00:00"
     }
   ]
 }
