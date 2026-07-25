@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-07-25T08:13:17.252319+00:00",
+  "lastUpdated": "2026-07-25T18:45:23.969748+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-5f4c4ce8",
+      "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
+      "summary": "A critical vulnerability in Fastjson, a popular Java JSON library by Alibaba, is being actively exploited by attackers to execute arbitrary code on Spring Boot applications. The flaw, identified as CVE-2026-16723 with a CVSS score of 9.0, allows malicious JSON requests to run commands without requiring authentication. Currently, no patch has been released to fix this issue, leaving affected systems exposed to attack.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "fastjson",
+        "rce",
+        "java",
+        "zero-day",
+        "unpatched",
+        "spring-boot"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and widespread threat because it affects a commonly-used library, is actively being exploited in the wild, and lacks an available patch, leaving developers unable to quickly remediate the risk. Organizations running Fastjson must implement alternative mitigations or isolate affected systems until an official patch is released.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVdPXrvOB3xbf282jC7eawBsl-YwExczqZ471NiKOResjulD8TvOSelU5VGbgoHqVhNLaigBkE2N50AFtSqbOoXUQTtxgIHO05jYpTn5VyG4BPhlr1CbscCn4g8S3I4jdZ1_p67zSM91K25xq1X4-btuY3tFgVseyO-aLWlsdvZaNkwAhyphenhyphenafk4DH2l6Fs/s1600/fastjson.gif",
+      "processedAt": "2026-07-25T18:44:59.460128+00:00"
+    },
+    {
+      "id": "art-5f2cdee7",
+      "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
+      "summary": "A researcher published working exploit code for a GitLab vulnerability that was patched six weeks prior on June 10, 2026. The flaw allows any authenticated user with push access to execute arbitrary commands with git privileges on unpatched self-managed GitLab 18.11.3 servers. Attackers can exploit this by committing a specially crafted Jupyter notebook and viewing its diff to trigger the vulnerability.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "gitlab",
+        "rce",
+        "authenticated-attack",
+        "privilege-escalation",
+        "patch-required",
+        "self-managed"
+      ],
+      "whyItMatters": "This public exploit code significantly increases risk for organizations running unpatched GitLab instances, as it lowers the barrier for attackers to gain command execution. Internal threats from authenticated users with repository access become more dangerous, making timely patching critical for protecting code repositories and build systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIN1sheAdScq7AX9pLc07esRzQ18-0vBJ7hz9DlVhggVAImXrhYM_zxN0N6hJ2inDkBCnzRCXHR3Kv3I0QwyiVWkAMu7p949JSjgK611r48deMbrSN8iDD78aJdfxEeO_Jy6JFwOfPL_8M0RKEBl1RFO7ufvop1XG9-tdms7VRyvONXoteuCYp9Rg-FM/s1600/gitlab.gif",
+      "processedAt": "2026-07-25T18:45:01.823941+00:00"
+    },
+    {
+      "id": "art-2e94df15",
+      "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+      "summary": "Insurance companies are facing a new type of phishing threat where attackers no longer wait to exploit stolen credentials—they hijack accounts in real-time during the same phishing interaction. This shift from delayed account compromise to immediate takeover represents a significant evolution in how cybercriminals target financial institutions. Organizations need to update their defenses to detect and prevent instant account access attempts rather than just credential theft.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "account-hijacking",
+        "insurance-fraud",
+        "real-time-attacks",
+        "credential-theft"
+      ],
+      "whyItMatters": "This evolution means traditional phishing detection methods that focus on initial credential capture are becoming obsolete, as attackers now complete fraud within seconds of credential entry. Financial institutions and insurance companies must implement real-time anomaly detection and multi-factor authentication to prevent immediate account compromise. Understanding this tactical shift helps organ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH4zKTZ_Lk6D_VXZEKWwF1k02-iDwrNY9MH7zrX_sotEB_f9m7-qvQkAbfTvW5YQyBVlVdSS3D4_0ky60KOzTABlPuPKEpDXwpnWO3eTtud33d8oxf54HilW5EgDJPwo0ea4rktguzjfMBnRy0yLGch1l2vLdY4GnG12imJqBIdZzhYRb04XcVP67KaxPM/s1600/insuretrap.jpg",
+      "processedAt": "2026-07-25T18:45:04.566798+00:00"
+    },
+    {
+      "id": "art-0d9096e0",
+      "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+      "summary": "Threat actors associated with the Cl0p ransomware group are actively exploiting security flaws in PTC Windchill and FlexPLM software products to launch data extortion attacks. The attackers are chaining together multiple vulnerabilities—an information disclosure flaw in FlexPLM and an authentication bypass in Windchill—to gain unauthorized access to systems. This campaign targets organizations running these products on internet-facing servers without proper security controls.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "cl0p-ransomware",
+        "ptc-windchill",
+        "unauthenticated-rce",
+        "data-extortion",
+        "active-exploitation",
+        "internet-exposed-systems"
+      ],
+      "whyItMatters": "This represents an active, widespread threat to organizations using PTC products, with attackers actively exploiting unpatched systems to steal data and deploy ransomware. Unauthenticated remote code execution vulnerabilities chained together create a severe risk for any exposed deployment, requiring immediate patching and network segmentation. Organizations in manufacturing, engineering, and prod",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIGAlXgFCqm8atTe__HpWBiCWISmrPOazxOVBMF-_YNrP2goBbW_4PSwGzw1Ndyue4qrnQnqrQyAR4DTaAdaiJPlVUZi7M_iceb4fqofWK0sGRLO9CHnj0lngtxdlC-tKqrppqFaKIkct2vOtGn_o5kbNa4fj-dutt8PMjiO5TVBw895aLg0TOJb8TKKtv/s1600/cyberattack.jpg",
+      "processedAt": "2026-07-25T18:45:07.619581+00:00"
+    },
+    {
+      "id": "art-58ff1891",
+      "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+      "summary": "DevMan, a ransomware-as-a-service operation tracked as Funky Mantis by Swiss cybersecurity firm PRODAFT, operates a centralized web portal that enables its affiliates to generate attack payloads, track their earnings, and manage victim-related activities. This platform streamlines the entire criminal operation by consolidating multiple functions—payload creation, financial management, and victim oversight—into a single administrative interface. The existence of such an organized infrastructure demonstrates how sophisticated modern ransomware operations have become.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware-as-a-service",
+        "devman",
+        "funky-mantis",
+        "payload-generation",
+        "cybercrime-infrastructure"
+      ],
+      "whyItMatters": "This discovery reveals how ransomware operators are professionalizing their operations through centralized platforms that lower barriers to entry for affiliates and scale criminal activity efficiently. Understanding the structure and capabilities of RaaS portals helps defenders identify potential victims, trace attack patterns, and develop better detection strategies for ransomware campaigns.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCfK-jqRTN8rgDTTIOMahlXeGbBvgMLQqdUc4pcB1eXYGmbMfvzVLohoakIuE6nlS9k2G8ncIMwgaYcfLN1r90Obxd8IDHGo5UVz-iDNkBaEbzcDMJl5yzaCQ7VTSh5GFOy8O6CjHXvK7Sdo0WctNPRFBxxtWONllByeJ1EtphQ-sDRabRefeNuXxzdCzY/s1600/ransomware-hacker.jpg",
+      "processedAt": "2026-07-25T18:45:11.003471+00:00"
+    },
+    {
+      "id": "art-f697a957",
+      "title": "Malicious sites use JavaScript to build malware in browser memory",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/",
+      "summary": "Attackers are running a widespread malvertising campaign that tricks users into visiting fake versions of popular cryptocurrency and trading platforms. These fake sites contain malicious JavaScript code that assembles malware directly in the browser's memory, making it harder to detect and block. This technique allows cybercriminals to bypass traditional security tools that look for malware files on disk.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malvertising",
+        "javascript",
+        "malware",
+        "memory-based-attack",
+        "browser-exploit",
+        "cryptocurrency-fraud"
+      ],
+      "whyItMatters": "In-memory malware assembly is difficult to detect with conventional antivirus tools, making this attack vector particularly dangerous for users of financial platforms. Users who visit these malicious sites risk credential theft and financial loss, especially those trading cryptocurrencies. Organizations need to implement advanced threat detection and educate users about verifying URLs before enter",
+      "image": null,
+      "processedAt": "2026-07-25T18:45:13.804746+00:00"
+    },
+    {
+      "id": "art-82699cd6",
+      "title": "ShinyHunters data leaks fuel $2,000 sextortion email scam",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/",
+      "summary": "Cybercriminals are exploiting email addresses stolen from data breaches by the ShinyHunters group to launch sextortion scams. These fraudulent emails demand $2,000 in Bitcoin from victims under false pretenses. The incident demonstrates how leaked personal data from breaches can be weaponized for follow-up extortion attacks.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "sextortion",
+        "data-breach",
+        "extortion",
+        "phishing",
+        "shiny-hunters",
+        "bitcoin-scam"
+      ],
+      "whyItMatters": "This attack shows how data breaches have downstream consequences beyond the initial leak—stolen information becomes a tool for secondary crimes that directly target individuals. Understanding this chain of exploitation helps users recognize sextortion attempts and reinforces why protecting personal data and breach notification are critical security practices.",
+      "image": null,
+      "processedAt": "2026-07-25T18:45:16.302951+00:00"
+    },
+    {
+      "id": "art-890d5a3f",
+      "title": "OpenAI confirms ChatGPT is down worldwide",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-07-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-worldwide/",
+      "summary": "OpenAI's ChatGPT service experienced a widespread outage affecting users globally. The artificial intelligence chatbot became inaccessible due to connectivity problems. This incident highlights the importance of service availability and infrastructure reliability for widely-used AI platforms.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "service-outage",
+        "availability",
+        "chatgpt",
+        "cloud-infrastructure",
+        "incident-response"
+      ],
+      "whyItMatters": "Large-scale service outages of critical AI platforms impact millions of users and demonstrate the vulnerability of centralized cloud services to disruptions. Organizations relying on ChatGPT for business operations need to understand service reliability risks and develop contingency plans for when third-party tools become unavailable.",
+      "image": null,
+      "processedAt": "2026-07-25T18:45:18.350543+00:00"
+    },
+    {
+      "id": "art-89a7abbf",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "summary": "CISA experienced a significant security incident when a contractor accidentally exposed sensitive internal credentials, including AWS Govcloud keys, on a public GitHub repository for nearly half a year without detection. The agency's delayed response to the leak, only discovered after being contacted by a security journalist, highlighted critical gaps in CISA's monitoring and credential management practices. Security experts have identified important lessons from this incident that apply to all organizations handling sensitive infrastructure credentials.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "credential-exposure",
+        "cloud-security",
+        "github-leak",
+        "aws-keys",
+        "incident-response",
+        "infrastructure-security"
+      ],
+      "whyItMatters": "This incident demonstrates that even government cybersecurity agencies can fail at basic security hygiene, emphasizing the critical importance of automated secret scanning, credential rotation, and continuous monitoring. Organizations must learn from CISA's gaps to prevent similar exposures of cloud infrastructure keys that could enable unauthorized access to critical systems. The six-month detect",
+      "image": null,
+      "processedAt": "2026-07-25T18:45:21.338493+00:00"
+    },
+    {
+      "id": "art-eb634b22",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "summary": "A cybersecurity startup offering significant money for zero-day vulnerabilities is controlled by convicted felons and conspiracy theorists with histories of running fraudulent schemes. The operators have previously launched fake intelligence companies and defunct AI platforms under false identities. This raises serious concerns about the legitimacy and intentions of the vulnerability acquisition operation.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "zero-day-exploitation",
+        "vulnerability-markets",
+        "fraud",
+        "criminal-operators",
+        "threat-actors"
+      ],
+      "whyItMatters": "This highlights the dangers of unvetted vulnerability brokers who may acquire exploits for malicious purposes rather than legitimate security research. Organizations and researchers need to be cautious about selling vulnerabilities to unestablished entities, as these exploits could be weaponized against users and businesses. The involvement of criminal actors in the vulnerability supply chain repr",
+      "image": null,
+      "processedAt": "2026-07-25T18:45:23.969603+00:00"
+    },
     {
       "id": "art-ad570364",
       "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
@@ -829,208 +1035,6 @@
       "whyItMatters": "This case sets a significant precedent for how regulators will enforce competition rules against tech giants, which can influence cybersecurity and data handling practices across the industry. Large fines for regulatory violations encourage companies to implement stronger governance and compliance controls, including better security and privacy measures. Understanding regulatory consequences helps",
       "image": null,
       "processedAt": "2026-07-23T18:56:04.656517+00:00"
-    },
-    {
-      "id": "art-a11bbe77",
-      "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-23",
-      "originalUrl": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
-      "summary": "Check Point has released patches for critical vulnerabilities in its Security Management and Multi-Domain Management products, including CVE-2026-16232, a severe authentication bypass in SmartConsole that is already being actively exploited by attackers. This flaw, with a CVSS score of 9.3, allows unauthorized users to bypass login protections and gain full administrative access to critical security infrastructure. Organizations using these products need to apply updates immediately to prevent unauthorized access to their security management systems.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "authentication-bypass",
-        "zero-day",
-        "patch-urgent",
-        "admin-access",
-        "check-point",
-        "actively-exploited"
-      ],
-      "whyItMatters": "This vulnerability is critical because it affects enterprise security management infrastructure and is already being exploited in active attacks, meaning attackers can gain complete control over an organization's security systems. Unpatched systems are at immediate risk of compromise, allowing attackers to manipulate security policies and disable protections across the entire network.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTBN3LZDMeKkPoMsoNtsGp_s0KYwVrmhhKHQsQtqgtAN1WAKeS7L-aN1hiehoBwnPi6f1gziIEecy5GlPdAVlWKPlzVprrqHLTLE3tcMZu4NK8QDoRxxS22HEFxfIpyrXnqr8O9b9akb1VVr9dmmmdwzHmhTFTVX4Cpv6WkFwSpz62tr6XKEDvKp5m0aUu/s1600/checkpoint.jpg",
-      "processedAt": "2026-07-23T08:37:25.685098+00:00"
-    },
-    {
-      "id": "art-358c531f",
-      "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
-      "summary": "GitHub is reducing its public bug bounty rewards by at least 50% starting July 27, 2026, with critical vulnerabilities dropping from $20,000-$30,000+ to a fixed $10,000. The company is consolidating higher payouts into an exclusive VIP program that offers $30,000 or more for invited researchers. Reports submitted before the deadline will keep the old payment structure.",
-      "category": "Vulnerabilities",
-      "severity": "Medium",
-      "tags": [
-        "bug-bounty",
-        "vulnerability-disclosure",
-        "incentive-changes",
-        "security-research"
-      ],
-      "whyItMatters": "This policy shift could discourage independent security researchers from reporting critical vulnerabilities to GitHub, potentially reducing the discovery and disclosure of serious bugs. The move may incentivize researchers to pursue other platforms or less responsible disclosure channels, impacting the overall security of GitHub's services and ecosystem.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj_hf7CZEiSANTI34m9Js55tSVk79YZVYvTHW2LwHyOCuvdK-9KWDu3R3eKJDlYJucrv7cUuf7ogDSakCE53IJ56483ktg8xGepMnB6NUGokxPqDsXEuIRXV3R_-d32GgrNI19Y-TrxvVAR3bnOlfgvcDVZYBGs-j5p-VouykZ517zpJ5kUOhtIf6R2sL3/s1600/github-bugbounty.jpg",
-      "processedAt": "2026-07-23T08:37:34.515853+00:00"
-    },
-    {
-      "id": "art-a984b146",
-      "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-21",
-      "originalUrl": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-      "summary": "Researchers discovered critical vulnerabilities in five open-source Android AI agent frameworks that allow malicious apps to manipulate AI agents through invisible text commands, potentially leading to unauthorized code execution on host PCs. By exploiting Android permissions like window overlay and shared storage access, attackers can create a chain of attacks that bridges mobile devices and desktop computers without any human awareness. This research identified seven distinct attack vectors against popular frameworks including AppAgent and AppAgentX.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-agents",
-        "android-vulnerabilities",
-        "mobile-security",
-        "code-execution",
-        "privilege-escalation",
-        "open-source-risks"
-      ],
-      "whyItMatters": "This vulnerability chain demonstrates how AI agents can become attack vectors that compromise not just mobile devices but also connected host systems, creating a significant supply-chain and automation risk. As AI-powered mobile automation becomes more widespread in business and personal use, these weaknesses could allow attackers to gain unauthorized access to desktop systems without user knowled",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgT3XQmerfsXoGV-Vs_zcpVZiX_i21tKtW9mTacpOvcEntMhycVftZ4f2vkREtq3W8PH9iQRLpOunN-hFf590FJNocxmsPla_WJ1uGJxtkpXnQim-T0-wa89EiJSZSrLHxhOcx_srjqzYcb2dW2MXAU4V2HWlL9rQa1YVEE4XEQ944I7a3glRwwjkgu0U/s1600/ai-android-agent.jpg",
-      "processedAt": "2026-07-23T08:37:38.795328+00:00"
-    },
-    {
-      "id": "art-b0c869d1",
-      "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-21",
-      "originalUrl": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-      "summary": "When vendors release security patches, attackers can analyze the changes to understand the vulnerability and create exploits that target unpatched systems. This N-day exploitation window has become increasingly dangerous, shrinking from days to hours as attackers work faster to weaponize disclosed vulnerabilities. The article highlights that simply patching quickly may not be enough to protect against this accelerating threat landscape.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "n-day-exploitation",
-        "patch-management",
-        "vulnerability-disclosure",
-        "exploit-development",
-        "threat-acceleration"
-      ],
-      "whyItMatters": "Organizations face a critical timing problem: the window between patch release and widespread exploitation is collapsing, making delayed patching increasingly catastrophic. Understanding this vulnerability lifecycle is essential for security teams to prioritize patch deployment and implement compensating controls for systems that cannot be updated immediately.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRgv46Pyr5W2eivocnJG2MuDCYtUXj0fVas4afxPzJX2ZVXVCyjyWK_FtVCxKOaz9qwmR6EJLqgbrG448OtKTlv3X9coXsqr40xoNXrkXZbGiOO3ZHr-skaiYV3My_V-qI9YH3c3ScLO4tISLW_uI-2PD3_hdgUQW8cv_kMi6q994YyZn6JkF7gIhECC4/s1600/pushsecurity.jpg",
-      "processedAt": "2026-07-23T08:37:41.593009+00:00"
-    },
-    {
-      "id": "art-e548453c",
-      "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-21",
-      "originalUrl": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
-      "summary": "Researchers have discovered a new attack called Bit2Watt that allows cloud users with standard GPU access to manipulate data center power consumption rapidly enough to destabilize electrical grids. This threat requires no exploit or system compromise, only legitimate access to cloud computing resources. The attack was presented at CHES 2026, a major hardware security conference.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "power-grid-threat",
-        "gpu-attack",
-        "infrastructure-risk",
-        "data-center-security"
-      ],
-      "whyItMatters": "This attack demonstrates a critical vulnerability in cloud infrastructure where legitimate users can weaponize normal resources to cause physical damage to power grids without breaking any security controls. Organizations managing critical infrastructure and cloud providers need to implement resource-limiting safeguards immediately, as this represents a new category of insider threat that bypasses",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-R7kd2VdqaUw8SmCRinR_mJDH7qmw8_9h6IHAFVzVk0Oaec5zzxsTzyikFRO8ZlzSArsZ4vjQryaEwMCWcpnvOqlKIMiI6PCmxrjWrWCVI_ihUtqY17MSTWTgFcAwBCTdZMV8ihug0FuEBl5gJhYt2S2SMSua7s98eOuTf7maqc2T2vsXN7wGrkS4iH8/s1600/bit2watt.jpg",
-      "processedAt": "2026-07-23T08:37:44.058699+00:00"
-    },
-    {
-      "id": "art-6de73764",
-      "title": "Check Point warns of SmartConsole zero-day exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-patches-smartconsole-zero-day-exploited-in-attacks/",
-      "summary": "Check Point Software, an Israeli cybersecurity company, has disclosed a zero-day vulnerability in SmartConsole, their administrative control panel, that attackers are actively exploiting. The flaw allows unauthorized access to a critical management tool used by organizations to control their network security infrastructure. This vulnerability poses a significant risk because it could enable attackers to compromise entire security systems that organizations rely on for protection.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "check-point",
-        "smartconsole",
-        "active-exploitation",
-        "admin-panel",
-        "patch-urgent"
-      ],
-      "whyItMatters": "SmartConsole is a core administrative interface for Check Point's security products, meaning a compromise could give attackers control over an organization's entire security infrastructure. Since this zero-day is actively being exploited in the wild, administrators need immediate awareness and patching to prevent unauthorized access to their networks. Organizations using Check Point products shoul",
-      "image": null,
-      "processedAt": "2026-07-23T08:37:47.281799+00:00"
-    },
-    {
-      "id": "art-e2669e0d",
-      "title": "Upbound says hack caused $13 million in fraudulent Acima leases",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/upbound-says-hack-caused-13-million-in-fraudulent-acima-leases/",
-      "summary": "Upbound Group, a fintech company, discovered that hackers who breached its systems used stolen data to fraudulently create $13 million worth of Acima leases. This incident demonstrates how stolen customer information can be weaponized to commit financial fraud beyond the initial data theft. The breach highlights the cascading financial damage that can result when sensitive personal and financial data falls into criminal hands.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "fraud",
-        "financial-crime",
-        "identity-theft",
-        "fintech-security",
-        "credential-misuse"
-      ],
-      "whyItMatters": "This case illustrates how data breaches extend beyond privacy violations—stolen credentials enable criminals to commit identity fraud and financial crimes that directly harm consumers and companies. Organizations must implement multi-factor authentication, transaction monitoring, and fraud detection systems to prevent attackers from weaponizing stolen data for unauthorized transactions.",
-      "image": null,
-      "processedAt": "2026-07-23T08:37:49.723367+00:00"
-    },
-    {
-      "id": "art-ba647eac",
-      "title": "South Korea discloses data breach impacting diplomats worldwide",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/south-korea-discloses-data-breach-impacting-diplomats-worldwide/",
-      "summary": "South Korea's National Diplomatic Academy experienced a significant data breach where attackers gained unauthorized access to its online education system for approximately ten months. During this extended breach, hackers stole personal information of current and former Ministry of Foreign Affairs employees, including diplomats stationed overseas. This incident highlights vulnerabilities in government digital infrastructure and poses potential risks to diplomatic operations and individual privacy.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "government-systems",
-        "diplomatic-security",
-        "personal-information-theft",
-        "credential-compromise"
-      ],
-      "whyItMatters": "Breaches targeting government diplomatic agencies can compromise sensitive personnel information, create espionage risks, and undermine national security operations worldwide. The ten-month duration indicates undetected persistence, revealing gaps in security monitoring and incident response capabilities for critical infrastructure. This incident emphasizes the need for enhanced endpoint detection",
-      "image": null,
-      "processedAt": "2026-07-23T08:37:52.636769+00:00"
-    },
-    {
-      "id": "art-b3bf71ec",
-      "title": "Stop renting storage space — this lifetime 2TB plan is yours for $59",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/stop-renting-storage-space-this-lifetime-2tb-plan-is-yours-for-59/",
-      "summary": "FileJump is offering a lifetime cloud storage plan with 2TB of storage for a one-time payment of $59, significantly undercutting traditional subscription-based cloud services that charge recurring monthly or annual fees. This deal eliminates the ongoing costs typically associated with cloud storage providers, allowing users to own their storage access permanently rather than renting it indefinitely.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "cloud-storage",
-        "data-protection",
-        "consumer-awareness",
-        "cost-comparison"
-      ],
-      "whyItMatters": "While primarily a consumer product announcement, this article highlights the importance of evaluating cloud storage options and understanding long-term data storage costs, which is relevant for individuals and organizations managing cybersecurity budgets and data protection strategies. Users should still evaluate the security practices and trustworthiness of any cloud provider before entrusting se",
-      "image": null,
-      "processedAt": "2026-07-23T08:37:55.303586+00:00"
-    },
-    {
-      "id": "art-79808def",
-      "title": "Microsoft to stop Exchange 2016 / 2019 security updates in October",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-2016-and-2019-esu-program-ends-in-october/",
-      "summary": "Microsoft is ending security updates for Exchange 2016 and 2019 versions through its Extended Security Update program in October. Organizations still using these older Exchange versions will no longer receive patches for newly discovered vulnerabilities after this deadline. This means businesses must either upgrade to a newer Exchange version or accept increased security risks from unpatched flaws.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "exchange-server",
-        "end-of-support",
-        "security-updates",
-        "patch-management",
-        "legacy-systems"
-      ],
-      "whyItMatters": "Unpatched Exchange servers are prime targets for cyberattacks and can be exploited for data theft, ransomware deployment, and network compromise. Organizations relying on Exchange 2016/2019 must plan migrations urgently to avoid operating vulnerable infrastructure in a threat-rich environment.",
-      "image": null,
-      "processedAt": "2026-07-23T08:37:57.649869+00:00"
     }
   ]
 }
