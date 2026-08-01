@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-08-01T08:27:42.925660+00:00",
+  "lastUpdated": "2026-08-01T18:48:44.348874+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-57e817c6",
+      "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-01",
+      "originalUrl": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+      "summary": "Attackers exploited a firmware flaw in Coldcard hardware wallets to steal approximately 1,082.65 Bitcoin (worth $70.2 million) from over 1,196 addresses in just 41 minutes on July 30, 2026. The vulnerability stemmed from a March 2021 bug where the wallet's seed generation was incorrectly routed to a predictable software random number generator instead of a secure one. This means attackers could potentially predict the private keys needed to access and drain the wallets.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "hardware-wallet",
+        "bitcoin-theft",
+        "firmware-vulnerability",
+        "seed-generation-flaw",
+        "cryptographic-weakness",
+        "coldcard"
+      ],
+      "whyItMatters": "This incident demonstrates how even hardware wallets—considered the gold standard for cryptocurrency security—can be compromised by subtle firmware bugs, potentially affecting thousands of users with stored assets. The vulnerability highlights the critical importance of secure random number generation in cryptographic systems and underscores that hardware-based security is only as strong as its so",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiea5Kw_2TLtPI4Ts3s3anmPIQr3S8VxO0G9yL-UV1dSlRrW1Z_L41XoHcSFuk2ThCBDKLFy-xZl_y7DnA0FM2nWHk4G1TpV2iMx6-X6EDT3gK7s0pJu6e1wMUoEsuPifcXseXuqOIHL3W9voWoD_se5gKJPyii4X0mJY7sxJ3uOPlTWVfAyrKs4ixa-18/s1600/coldcard.jpg",
+      "processedAt": "2026-08-01T18:48:17.150567+00:00"
+    },
+    {
+      "id": "art-711e7ce5",
+      "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-01",
+      "originalUrl": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+      "summary": "Hackers compromised a JavaScript file from advertising company Adform and injected malicious code designed to replace cryptocurrency wallet addresses with attacker-controlled ones when users copied them. The attack targeted users visiting websites that used the affected Adform script on July 27, 2026. Adform discovered the breach the same day, removed the malicious code, and notified customers and authorities.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "supply-chain-attack",
+        "javascript-injection",
+        "cryptocurrency-theft",
+        "adware-malware",
+        "third-party-compromise"
+      ],
+      "whyItMatters": "This incident demonstrates how attackers can exploit trusted third-party services to distribute malware at scale, affecting multiple websites and users simultaneously. The attack directly threatened financial assets by targeting cryptocurrency transactions, showing how supply chain compromises in ad-tech can have serious economic consequences for end users. Organizations must monitor and verify sc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX-el4ovGAmKfllRfhupL0SzdEoZKlouDb1_YmhCOl3owxN1ks0Do-WphuD77rka_3ukbqvPxSmFYMdBKBirYyw0DJpvSxVP5riGBR_vd7wKwnpgZfNm0RFEDLTzsvzzQB7qGtawMvpccd700dfNM2zZeFTy9cyHf4oFyHSASKRU3gmxbMgTJRtDFsSNs/s1600/adform.jpg",
+      "processedAt": "2026-08-01T18:48:20.657700+00:00"
+    },
+    {
+      "id": "art-a772da3b",
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-29",
+      "originalUrl": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "summary": "A critical vulnerability in Ruby on Rails' Active Storage feature allows attackers without authentication to access sensitive files on servers by uploading specially crafted images. The flaw, identified as CVE-2026-66066 with a high severity score of 9.5, could expose confidential information like database passwords, encryption keys, and cloud storage credentials. Rails developers must apply the released security patches immediately to prevent unauthorized file access and potential system compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ruby-on-rails",
+        "active-storage",
+        "file-disclosure",
+        "authentication-bypass",
+        "patch-now",
+        "cve-2026-66066"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to countless web applications built with Rails because it allows unauthenticated attackers to bypass security controls and steal critical secrets needed to compromise entire systems. Organizations running affected Rails versions face rapid exploitation risk and must prioritize patching to prevent credential theft and further attacks. The exposure of mas",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjswJ2Clfk448ySFwyQiVVviqzKzT4B9iwnvVio4_dzvA1TXPnNuDJUI8MozBddPvdWmL2JH3jVvzTxg8A2Z6X9qNPYtxjuVx7RKQkMW8vNVBIEs0sgcrLfywQVufYMEKpxa0vgo2k24bNa_EJaudCFTsvlqQKqbT3jsuzRJdI26GR4pRJrkNKAFx_xiKk/s1600/rubyrails.jpg",
+      "processedAt": "2026-08-01T18:48:24.253345+00:00"
+    },
+    {
+      "id": "art-05b7c8a2",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-29",
+      "originalUrl": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "summary": "A critical vulnerability in Ruflo, an open-source tool used with AI coding assistants like Claude and Codex, allows attackers to run commands without authentication. The flaw, scored at maximum severity (CVSS 10.0), affects all versions before 3.16.3 and could enable attackers to compromise AI systems and manipulate their memory. Researchers from Noma Security have named this vulnerability RufRoot.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "remote-code-execution",
+        "authentication-bypass",
+        "open-source",
+        "patch-now",
+        "zero-day"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to organizations using Ruflo with AI coding assistants, as unauthenticated attackers can execute arbitrary commands and poison AI training data or memory. The maximum CVSS score and widespread impact across versions make urgent patching essential, particularly for development teams relying on these AI tools for code generation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCgiIKxPiETcU1yIlU2RFsHgjXg2uLgbzaJ-98y7sPuujYarFbc0FdMqSRLIKJ1hYrsGLCZTCf5k40RtQ2PgwmA2L6tLAidOymHNIduXN3vtU0u0BsI37PLgWK8gwla3oTYkdD8ggssjMfF_5PuC9-exVYpBcqjg9tvscJ7XNAaHJxeUmCj-WP8VttRSgy/s1600/mcp.jpg",
+      "processedAt": "2026-08-01T18:48:26.727299+00:00"
+    },
+    {
+      "id": "art-7b8e2c1b",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "source": "The Hacker News",
+      "publishedDate": "2026-07-29",
+      "originalUrl": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "summary": "Broadcom has released security patches for three critical vulnerabilities affecting VMware products including ESX, vCenter, Workstation, and Fusion. The most severe flaw, CVE-2026-59309 with a CVSS score of 9.8, is an authentication bypass in VMware vCenter that allows attackers with network access to gain unauthorized control. These vulnerabilities enable attackers to bypass security controls, execute malicious code, and potentially escape virtual machines.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "vmware",
+        "authentication-bypass",
+        "code-execution",
+        "vm-escape",
+        "patch-urgent",
+        "cve-2026-59309"
+      ],
+      "whyItMatters": "These critical VMware vulnerabilities pose an immediate threat to organizations running virtualized infrastructure, as attackers can bypass authentication and execute code remotely without credentials. Organizations must apply patches immediately, as these flaws affect core virtualization products used by enterprises worldwide and could lead to complete infrastructure compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLKz0u1mJIVvPAxiFFqsvkMVXxyXqS_paYhbtTRFLoIWyl5Q_FwIrJjruxEYH0LAdzJm38P48m_T_24ycKfjPs2bg6FUoy2IWVUxH7SpNtiSJuExOy3dDEAWprGwkvhY5005OPyFUzl2qJzAztAckgZNLVzqlp34s9HtQ3wrvq6lDCcXgYwfOXKF08wtdp/s1600/vmware.jpg",
+      "processedAt": "2026-08-01T18:48:29.416953+00:00"
+    },
+    {
+      "id": "art-9e0ebc1a",
+      "title": "Rails patches critical Active Storage flaw with RCE potential",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-01",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "summary": "Rails developers need to urgently patch a critical flaw in the Active Storage framework that puts applications at serious risk. An attacker without needing to log in could exploit this vulnerability to access sensitive files on the server and potentially gain complete control of the system. This represents a significant threat to any organization running affected Rails applications.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rails",
+        "active-storage",
+        "rce",
+        "patch-now",
+        "critical-vulnerability",
+        "unauthenticated-access"
+      ],
+      "whyItMatters": "This vulnerability is critical because unauthenticated attackers can exploit it remotely without needing valid credentials, making it an immediate threat to any unpatched Rails application. The potential for remote code execution means attackers could gain full server control, steal data, or pivot to other systems on the network. Immediate patching is essential to prevent active exploitation in th",
+      "image": null,
+      "processedAt": "2026-08-01T18:48:31.935177+00:00"
+    },
+    {
+      "id": "art-ef1a330a",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "summary": "CISA experienced a significant data leak when a contractor accidentally exposed sensitive credentials, including AWS Govcloud keys, on a public GitHub repository for nearly six months before discovery. The agency's delayed detection and response highlighted critical gaps in credential management and monitoring practices. Security experts emphasize that the lessons from this incident demonstrate the importance of automated secrets scanning and faster incident response protocols across all organizations.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "credential-exposure",
+        "cloud-security",
+        "github-leak",
+        "aws-keys",
+        "incident-response",
+        "secrets-management"
+      ],
+      "whyItMatters": "This breach of a major U.S. cybersecurity agency demonstrates that even security-focused organizations can fail at fundamental credential hygiene, making it a wake-up call for all teams. The six-month detection gap underscores the critical need for automated secrets scanning and continuous monitoring to catch exposed credentials before attackers exploit them. Organizations should learn from CISA's",
+      "image": null,
+      "processedAt": "2026-08-01T18:48:34.889948+00:00"
+    },
+    {
+      "id": "art-e83e47ef",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "summary": "The FBI seized hundreds of domains belonging to NetNut, a residential proxy service run by Israeli company Alarum Technologies, following reports that the platform was connected to the Popa botnet. The Popa botnet consists of at least two million compromised devices that were infected with malware without the knowledge or permission of their owners. This major law enforcement action highlights how legitimate-seeming services can be exploited for malicious purposes at massive scale.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "malware",
+        "proxy-service",
+        "law-enforcement",
+        "device-compromise"
+      ],
+      "whyItMatters": "This seizure demonstrates that even publicly-traded companies can operate infrastructure supporting large-scale botnets, affecting millions of everyday users. The case shows how cybercriminals abuse proxy services to mask their activities, making it harder for security researchers and law enforcement to detect and stop attacks. Understanding these tactics helps organizations better protect their n",
+      "image": null,
+      "processedAt": "2026-08-01T18:48:37.485600+00:00"
+    },
+    {
+      "id": "art-98785b12",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in UK court for their roles in a major cyberattack against London's public transport system in August 2024. The attack disrupted critical infrastructure that millions of people depend on daily. Their quick guilty pleas shortened what was expected to be a lengthy trial, demonstrating law enforcement's growing success in tracking and prosecuting sophisticated cybercriminals.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "scattered-spider",
+        "cybercrime",
+        "infrastructure-attack",
+        "uk-prosecution",
+        "public-transport",
+        "critical-infrastructure"
+      ],
+      "whyItMatters": "This case demonstrates that even sophisticated cybercriminal groups face real consequences through international law enforcement cooperation, which may deter future attacks on critical infrastructure. The successful prosecution of Scattered Spider members shows improved attribution and evidence-gathering capabilities against organized cybercrime groups. Understanding how authorities dismantle thes",
+      "image": null,
+      "processedAt": "2026-08-01T18:48:40.850249+00:00"
+    },
+    {
+      "id": "art-c338d34d",
+      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-18",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
+      "summary": "A massive Android botnet called Popa has been operating for four years, infecting millions of TV boxes and using them to commit advertising fraud, steal user accounts, and scrape data from the internet. Security researchers have now traced the botnet back to NetNut, a residential proxy service owned by Alarum Technologies Ltd, a publicly-traded Israeli company. This discovery reveals how legitimate-looking companies may be involved in large-scale cybercriminal activities affecting everyday consumers.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "android-malware",
+        "advertising-fraud",
+        "account-takeover",
+        "residential-proxy",
+        "iot-security"
+      ],
+      "whyItMatters": "This case demonstrates how botnets can hide behind seemingly legitimate corporate entities, making it harder to detect and stop cybercriminal operations. The involvement of a publicly-traded company raises questions about corporate oversight and accountability, while the four-year operational period shows how long sophisticated threats can persist undetected. Consumer devices like TV boxes remain ",
+      "image": null,
+      "processedAt": "2026-08-01T18:48:44.348732+00:00"
+    },
     {
       "id": "art-2c2698bb",
       "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
@@ -824,211 +1032,6 @@
       "whyItMatters": "This attack combines social engineering with ransomware deployment, making it particularly dangerous because employees may trust what appears to be legitimate IT support. Organizations need to implement strict verification procedures for remote access requests and train staff to recognize impersonation attempts, as these attacks directly impact business continuity and can result in significant fin",
       "image": null,
       "processedAt": "2026-07-30T19:05:47.172297+00:00"
-    },
-    {
-      "id": "art-54e09087",
-      "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-      "summary": "Russian hackers who previously exploited a Zimbra vulnerability are now targeting Microsoft Outlook Web Access (OWA) to breach U.S. and European government agencies and companies in telecommunications, finance, hospitality, and aerospace sectors. By exploiting this OWA flaw, attackers can maintain mailbox access even after victims change their credentials, making it difficult for organizations to fully remove intruders. The campaign began on July 22, 2026, and demonstrates how threat actors quickly pivot to new vulnerabilities to stay undetected.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "owa-vulnerability",
-        "credential-persistence",
-        "russian-hackers",
-        "government-targeting",
-        "active-exploitation",
-        "mailbox-compromise"
-      ],
-      "whyItMatters": "This represents an active, widespread threat to critical infrastructure and high-value sectors where email compromise can lead to espionage, data theft, and operational disruption. The attackers' ability to maintain access after credential rotation means standard incident response procedures may not fully evict intruders, requiring more sophisticated detection and remediation strategies. Organizat",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAHLuK9rcrkKZxWdmWf50USFH75iYP3nViQrL7sP_6gBJUipIQfUTU0XmA2xnOTR57ZCQWd83Y2joLatEV3XVV10ph4uQV7LrrYLzDCfW4dBiDyvVtpyhD3fgrGY7J2hFbNtCzzp4CGU7DxDYCxnuzJtgCJKCMFuRxloks-iW4dXJlZADetaMQK5rZiUKF/s1600/outlook.jpg",
-      "processedAt": "2026-07-30T08:35:01.654277+00:00"
-    },
-    {
-      "id": "art-89b9d144",
-      "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-      "summary": "The FCC has banned new foreign-made mobile robots and networked power inverters from being imported and sold in the United States due to cybersecurity concerns. While previously authorized models can still be sold and existing devices remain unaffected, this regulatory action reflects growing government focus on securing connected devices from potential cyber threats. The move aims to protect critical infrastructure and systems from vulnerabilities in foreign-produced equipment.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "supply-chain-security",
-        "iot-devices",
-        "regulatory-compliance",
-        "critical-infrastructure",
-        "device-authorization"
-      ],
-      "whyItMatters": "This FCC decision highlights the expanding regulatory landscape around cybersecurity and supply chain risk, particularly for IoT and critical infrastructure devices. Organizations importing or using such equipment need to understand compliance requirements and plan for equipment transitions before new models become unavailable.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipannhqI3vkI628-oBoMbtwDDVE4F2PpVmxVM9d10AE06EVVwZzrBde5sTZTddm_89YUCUkfopYwqVzuk2Y8I4g84Ete1SQLvrQ2gA8FVxyCt952gNJpTmXpReLiZZ6EIv33zLjDTFI-_KLydIHDGoIDkbv1ptGTXLdVf6NyeaKeWEEWX4yNsxx46-zyY/s1600/robots.jpg",
-      "processedAt": "2026-07-30T08:35:05.122007+00:00"
-    },
-    {
-      "id": "art-96ffc8a3",
-      "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-      "summary": "Amazon has identified North Korea's Sapphire Sleet group as responsible for hijacking two widely-used npm packages—debug and chalk—in September 2025, which went unattributed for months. Attackers phished a maintainer using a fake npm domain and injected malicious code into at least 18 packages that collectively receive over 2 billion weekly downloads. The incident initially appeared to be cryptocurrency theft but represents a significant supply chain attack affecting millions of developers and applications.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-hijacking",
-        "north-korea",
-        "malware-distribution",
-        "phishing",
-        "open-source-security"
-      ],
-      "whyItMatters": "This attack demonstrates how nation-state actors exploit open-source software infrastructure to distribute malware at massive scale, affecting billions of downloads and potentially compromising countless applications and organizations. The months-long delay in attribution highlights how difficult it is to detect and respond to sophisticated supply chain attacks, leaving developers and end-users at",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgWsCKCTbRf4kZF1zcu1cmfHaf-pPPKTo2q21iPUibGu2jsDaxT92LByZdMAi0d_luVH-yt263qlWE5uDFAh4Ue21dIUk_eu08YXHqwgHI_R9bziAK9nBUiht_lMbaL9bqBH800A0HtxNSYNISi1sZ4SKv1DanwxXBPj4rd6OFBk3ogNn9iTUmsiISve0/s1600/northkorean-npm.jpg",
-      "processedAt": "2026-07-30T08:35:08.455928+00:00"
-    },
-    {
-      "id": "art-c90ecc93",
-      "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
-      "summary": "Cisco has disclosed a zero-day vulnerability in its Firewall Management Center (FMC) software that attackers are actively exploiting in the wild. The flaw, tracked as CVE-2026-20316 with a CVSS score of 5.3, allows unauthenticated remote attackers to gain unauthorized access, potentially through static credentials. CISA has added this vulnerability to its Known Exploited Vulnerabilities catalog, signaling immediate risk to organizations using affected Cisco systems.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "cisco-fmc",
-        "active-exploitation",
-        "static-credentials",
-        "cisa-kev",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Active exploitation of firewall management systems puts critical network infrastructure at risk, allowing attackers direct access to security controls that protect entire organizational networks. Static credentials in such systems can provide a persistent backdoor, potentially exposing sensitive data and enabling lateral movement throughout the network. Organizations using Cisco FMC must prioritiz",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFSDmsE6q7010reBwpOwS1ESkJSxlBlgRBbtjEVAdeClQFAkRfpriRQWUpL0Br8xnFdF1mctv4Ttj1Nv77MMIKm9qlNehPtTLYzOQwcZAWR4Vw1HzjAvItevYjwQkUo_2JNRluc2_OeJ3vOZ-P8meai9NLLWBvothfh7GDqoOpMPmKpOO-hjAeY-Pxa-BV/s1600/cisco.jpg",
-      "processedAt": "2026-07-30T08:35:12.030425+00:00"
-    },
-    {
-      "id": "art-183564ff",
-      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-      "source": "The Hacker News",
-      "publishedDate": "2026-07-29",
-      "originalUrl": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
-      "summary": "The article discusses how AI tools like Mythos are accelerating the timeline from vulnerability discovery to active exploitation, forcing organizations to reconsider their vulnerability management strategies. Rather than simply asking if playbooks need updating, security teams should examine which fundamental practices they've been executing incorrectly. The piece emphasizes that the real challenge lies not in changing processes wholesale, but in identifying and fixing flaws in existing vulnerability management approaches.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "vulnerability-management",
-        "exploit-timelines",
-        "ai-threats",
-        "vulnerability-disclosure",
-        "patch-management",
-        "incident-response"
-      ],
-      "whyItMatters": "As AI accelerates the time between vulnerability discovery and exploitation, organizations that rely on outdated or poorly executed vulnerability management practices face significantly increased breach risk. This article highlights that teams need to audit their current processes critically rather than simply implementing new ones, making it essential for security leaders to reassess their defens",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0mieQQ57yqCRvM0amMKsszEvpX9AK9C4fSA6fyD6rx9VpNdjgYpiFk2D_AfSYT386yNTNuL1-ki2llA_LR-LXYw9r0p0nb2FZCnnP-u33sN2McktovTGN13k_n_i7HExGQdX6GcRSG0uKJAawc_6wusYkt37jY5sTvjz7k8kLa8RTIZM_NABBL64mbnY/s1600/meshs.jpg",
-      "processedAt": "2026-07-30T08:35:15.204949+00:00"
-    },
-    {
-      "id": "art-b74d32db",
-      "title": "Russian hackers exploit Exchange OWA zero-day for long-term mailbox access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-exchange-owa-zero-day-for-long-term-mailbox-access/",
-      "summary": "A Russian state-sponsored hacking group called Laundry Bear is actively exploiting a previously unknown vulnerability in Microsoft Exchange's Outlook Web Access to break into email systems. The attackers are using this security gap to install a backdoor called OWAReaper that gives them long-term access to victim mailboxes. This attack represents a serious threat because it targets a widely-used email platform and the vulnerability was unknown to defenders until now.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "exchange-owa",
-        "state-sponsored",
-        "backdoor",
-        "mailbox-access",
-        "laundry-bear"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and widespread risk because Exchange is used by many organizations worldwide, and the zero-day nature means defenders had no prior warning or patches available. The backdoor's capability to maintain long-term mailbox access could allow attackers to steal sensitive communications, credentials, and intellectual property. Organizations running vulnerable Exchange",
-      "image": null,
-      "processedAt": "2026-07-30T08:35:18.563976+00:00"
-    },
-    {
-      "id": "art-e7902da8",
-      "title": "Anthropic confirms Claude is down worldwide",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
-      "summary": "Anthropic's Claude AI service experienced a widespread outage affecting users globally, with the system returning \"529 Overloaded\" errors for many requests. The disruption impacted not only Claude itself but also third-party applications and services relying on Claude's API. Anthropic acknowledged the elevated error rates across multiple AI models during the incident.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "service-outage",
-        "api-disruption",
-        "cloud-availability",
-        "ai-infrastructure",
-        "incident-response"
-      ],
-      "whyItMatters": "This outage demonstrates the critical dependency many organizations and applications have on cloud-based AI services, highlighting risks to business continuity when major providers experience infrastructure failures. Understanding service reliability and having fallback plans is essential for organizations integrating third-party AI APIs into their operations.",
-      "image": null,
-      "processedAt": "2026-07-30T08:35:21.222154+00:00"
-    },
-    {
-      "id": "art-caa5a28b",
-      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
-      "summary": "Cisco has discovered that attackers are actively exploiting a high-severity vulnerability in Firewall Management Center (FMC) that involves hardcoded login credentials. This zero-day flaw, identified as CVE-2026-20316, allows hackers to bypass authentication and gain unauthorized access to affected firewall systems. Organizations using vulnerable FMC devices are at immediate risk and should prioritize patching or implementing workarounds.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "static-credentials",
-        "cisco-fmc",
-        "firewall",
-        "active-exploitation",
-        "vulnerability"
-      ],
-      "whyItMatters": "This vulnerability is critical because attackers are already exploiting it in the wild, meaning organizations face an immediate threat without adequate warning time. Firewalls are fundamental to network security, so compromised management systems can give attackers broad access to an organization's entire network infrastructure. The use of static credentials makes this flaw especially dangerous, a",
-      "image": null,
-      "processedAt": "2026-07-30T08:35:24.424022+00:00"
-    },
-    {
-      "id": "art-96bc405f",
-      "title": "These near-mint ASUS Chromebook refurbs are only $145",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
-      "summary": "This article discusses the growing trend of purchasing refurbished computers as a cost-effective alternative to new devices in 2026. The ASUS Chromebook CM30 mentioned is being sold at a significant discount as a refurbished unit in excellent condition. While refurbished tech offers good value, buyers should be aware of potential security risks associated with secondhand devices.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "refurbished-devices",
-        "hardware-security",
-        "consumer-awareness",
-        "device-purchasing"
-      ],
-      "whyItMatters": "Refurbished devices may carry hidden security risks if not properly wiped or verified by reputable sellers, making it important for consumers to understand the cybersecurity implications of buying used technology. Users purchasing refurbished hardware should ensure devices have been securely reset and request verification of data erasure to protect against potential data leakage or pre-installed m",
-      "image": null,
-      "processedAt": "2026-07-30T08:35:27.991296+00:00"
-    },
-    {
-      "id": "art-d2a4f48e",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "summary": "A cybersecurity startup that pays millions for zero-day vulnerabilities is allegedly operated by convicted felons and conspiracy theorists with a history of fraudulent ventures. The operators have previously run fake intelligence companies and a deceptive AI lobbying platform under false identities. This raises serious concerns about who controls access to critical security exploits and how they may be weaponized.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "cybercrime",
-        "fraud",
-        "vulnerability-exploitation",
-        "startup-fraud"
-      ],
-      "whyItMatters": "This situation highlights a critical supply chain risk where unvetted actors with criminal backgrounds could acquire and potentially weaponize zero-day vulnerabilities, creating widespread security threats. Organizations need to be cautious about vulnerability disclosure practices and understand who actually controls access to critical exploits in the security market.",
-      "image": null,
-      "processedAt": "2026-07-30T08:35:30.433895+00:00"
     }
   ]
 }
