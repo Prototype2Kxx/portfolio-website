@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-08-06T08:45:06.465745+00:00",
+  "lastUpdated": "2026-08-06T23:46:45.959623+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-c14addf7",
+      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+      "summary": "A new Linux kernel vulnerability called Zapscape (CVE-2026-64561) has been discovered that could allow an attacker with kernel-level access inside a guest virtual machine to break out of KVM isolation and gain control of the host system. This vulnerability specifically affects KVM's shadow memory management on x86 systems when nested virtualization is enabled for untrusted guests. An attacker exploiting this flaw could run malicious code directly on the underlying Linux host machine.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "kvm-escape",
+        "privilege-escalation",
+        "virtualization",
+        "linux-kernel",
+        "nested-vm",
+        "cve-2026-64561"
+      ],
+      "whyItMatters": "This vulnerability is critical for data center and cloud infrastructure operators because it breaks the fundamental security boundary between guest VMs and host systems, potentially compromising all workloads running on affected systems. Organizations using KVM with nested virtualization for multi-tenant environments face immediate risk of complete host compromise. Rapid patching is essential to p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif",
+      "processedAt": "2026-08-06T23:46:18.543286+00:00"
+    },
+    {
+      "id": "art-8600f2cb",
+      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+      "summary": "Cisco released security patches for 12 vulnerabilities affecting its Catalyst SD-WAN and IOS XE Software platforms, with three of these flaws rated at the critical 9.8 CVSS severity level. These bugs impact multiple device configurations and modes, requiring organizations to apply updates promptly. The vulnerabilities were identified during Cisco's internal security review process.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "cisco",
+        "sd-wan",
+        "ios-xe",
+        "critical-patch",
+        "network-security",
+        "cvss-9.8"
+      ],
+      "whyItMatters": "Cisco SD-WAN and IOS XE are widely deployed in enterprise networks for routing and connectivity, making these critical vulnerabilities an urgent threat to organizations worldwide. The high CVSS scores indicate severe exploitability that could lead to unauthorized access or system compromise if left unpatched. Administrators must prioritize applying these updates to prevent potential network breach",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzkSwdiUeH8rB-KgSkEXrT-oNL19IyghM7Ks8UDOedxPYB5czgwO8pXNf0YUt7OHqAbRRDJkRvJffzJ0lfpEdqfLn-w-Bc9pwOa_1FNJjJkrVbD-diaZu9HRFqAlOBWogXEsZ4sSFRDW-HYmsaUmVD98QGQoyq2rHep_dwDa5ueafTUO0Lh6zsA-Czd3he/s1600/cisco-flaws.jpg",
+      "processedAt": "2026-08-06T23:46:21.282826+00:00"
+    },
+    {
+      "id": "art-45c3ac28",
+      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+      "summary": "Researchers at MIT have discovered a new attack called INTERRUPT INJECTION that can bypass Spectre v2 security defenses on both Intel and AMD processors. The attack works by timing a hardware interrupt to poison the branch predictor after the kernel's defenses have already run, effectively undoing the protection. This vulnerability affects Linux systems with default Spectre v2 mitigations enabled, showing that current defenses may have critical gaps.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "spectre-v2",
+        "interrupt-injection",
+        "cpu-vulnerability",
+        "branch-predictor",
+        "linux-security",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This attack undermines existing defenses that organizations have relied on to protect against Spectre v2 exploits, meaning current security patches may not be fully effective. Unprivileged users can potentially exploit this to access sensitive kernel memory, requiring urgent security research and patching from both CPU manufacturers and operating system vendors.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s1600/place.jpg",
+      "processedAt": "2026-08-06T23:46:24.164389+00:00"
+    },
+    {
+      "id": "art-3a0f144c",
+      "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+      "summary": "This week's threat roundup highlights how attackers exploit simple attack vectors and trusted systems to gain access. Threats range from malicious code hidden in repositories and packages to deceptive PDFs and compromised default configurations. The common thread is that attackers leverage basic, low-effort techniques like exposed servers and repurposed vulnerabilities rather than sophisticated zero-day exploits.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "rce",
+        "supply-chain",
+        "malware-delivery",
+        "default-configurations",
+        "exposed-infrastructure",
+        "exploit-leverage"
+      ],
+      "whyItMatters": "This article demonstrates that attackers don't need complex exploits to succeed—they rely on common misconfigurations, trusted defaults, and overlooked security hygiene. Understanding these low-friction attack paths is critical for organizations to prioritize practical defenses like secure defaults, repository scanning, and infrastructure hardening. The breadth of attack vectors (30+ stories) show",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl0f74Tyvl6NQ4TAbPMIpgYWuHQN8THsYSQ77D9qmHuZdKsK2ZDrTLyWshLPV-UfSYW6Rbtfj866jP0X_D1QHmOFYIoEDZG90G3cy7JGFJrKsq0m7VeGqa0CCDygB9F3ttryPRQm-6MY50zIOsGFBdnwZZgAf31swGo5dOIa0noWuIoEk7rPrUkdfoddIj/s1600/threatsd.jpg",
+      "processedAt": "2026-08-06T23:46:27.155734+00:00"
+    },
+    {
+      "id": "art-3947198b",
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "summary": "A cybersecurity firm discovered over 4,400 Rockwell Automation programmable logic controllers (PLCs) exposed on the internet, with 22 of them located in US cities recently targeted by water utility cyberattacks. Although no confirmed compromises were detected, the finding highlights a critical vulnerability in industrial control systems, particularly since 19 of the exposed devices in affected cities shared the same mobile carrier network.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "industrial-control-systems",
+        "plc-exposure",
+        "water-utilities",
+        "critical-infrastructure",
+        "network-security",
+        "iot-vulnerability"
+      ],
+      "whyItMatters": "PLCs control essential infrastructure like water systems, and exposing them online creates direct pathways for attackers to disrupt vital services affecting public health and safety. The concentration of vulnerable devices in cities already targeted by cyberattacks suggests these systems are priority targets, making rapid remediation essential to prevent future attacks on critical infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzp-V2FqPXO6jQl0K2Qnn-2Ys6UG168FNhA0TcFv7CGHtBIgWuD66JsjhDiQhf_DkSTBo_YpVGTY3wcLe3SITSszBT0XAD01P6_nFLkXOHNNoKmp6VTsQ-zB9oKR6qYU2tCpf5RwHZ_u35lJiF41Sa3T7zuGfXujh_Ums9snpXTUAJIbcL6LfF9a5bIw/s1600/power.jpg",
+      "processedAt": "2026-08-06T23:46:29.900287+00:00"
+    },
+    {
+      "id": "art-39849c7f",
+      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+      "summary": "OpenAI has released an upgraded version of ChatGPT called GPT-5.6, with different tiers available to users. Paying subscribers (Plus and Pro) get access to GPT-5.6 Sol, which offers improved reliability, while free users can now enjoy unlimited text conversations using GPT-5.6 Luna. This update demonstrates OpenAI's strategy of providing enhanced AI capabilities across both premium and free service levels.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "ai-security",
+        "chatgpt-update",
+        "artificial-intelligence",
+        "user-access"
+      ],
+      "whyItMatters": "While this article focuses on feature updates rather than a direct security threat, it highlights the expanding capabilities and user base of AI tools like ChatGPT, which raises important considerations about how organizations should manage and monitor AI tool usage in their environments. Understanding the capabilities and distribution of popular AI systems helps security teams implement appropria",
+      "image": null,
+      "processedAt": "2026-08-06T23:46:32.846265+00:00"
+    },
+    {
+      "id": "art-aea63a42",
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+      "summary": "Attackers are using ClickFix campaigns to distribute a malicious Go-based program targeting macOS users that steals cryptocurrency, passwords stored in browsers, Apple Keychain credentials, and cached login information. This infostealer represents a sophisticated threat that compromises both digital assets and sensitive authentication data on Apple devices. The attack demonstrates how social engineering tactics can deliver financial theft malware to Mac users who may assume their systems are more secure than Windows machines.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-threat",
+        "infostealer",
+        "cryptocurrency-theft",
+        "clickfix",
+        "credential-theft",
+        "social-engineering"
+      ],
+      "whyItMatters": "This threat is significant because it combines social engineering with malware to target multiple high-value assets—cryptocurrency, passwords, and system credentials—on macOS systems, which users often consider more secure. The ability to extract Apple Keychain data is particularly dangerous as it provides attackers access to numerous stored secrets. Understanding this attack vector helps organiza",
+      "image": null,
+      "processedAt": "2026-08-06T23:46:36.610227+00:00"
+    },
+    {
+      "id": "art-3fca9f7e",
+      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+      "summary": "A criminal group called UNC6671, which has connections to the BlackFile ransomware operation, has been conducting a series of coordinated cyberattacks against hedge funds, private equity firms, and financial institutions. These attacks appear to be extortion-focused campaigns designed to steal sensitive data and pressure victims into paying ransom demands. The targeting of high-value financial organizations highlights how threat actors are increasingly focusing on sectors with significant resources and valuable information.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "extortion",
+        "hedge-funds",
+        "financial-sector",
+        "blackfile",
+        "unc6671",
+        "data-theft"
+      ],
+      "whyItMatters": "Financial organizations are critical infrastructure targets, and attacks on hedge funds and private equity firms can compromise billions of dollars in sensitive investment data and client information. Understanding the tactics and infrastructure of UNC6671 helps security teams recognize and defend against these specific threat actors. This demonstrates the real-world impact of extortion groups on ",
+      "image": null,
+      "processedAt": "2026-08-06T23:46:39.589759+00:00"
+    },
+    {
+      "id": "art-70718c95",
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+      "summary": "Hackers successfully breached Switzerland's federal IT office by exploiting vulnerabilities in Microsoft SharePoint servers, gaining unauthorized access to approximately 200 user accounts. This attack on a government agency's critical infrastructure demonstrates how security weaknesses in widely-used cloud platforms can expose sensitive data and compromise official systems. The breach highlights the importance of promptly identifying and patching vulnerabilities before attackers can exploit them.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "sharepoint-breach",
+        "government-hack",
+        "cloud-security",
+        "vulnerability-exploitation",
+        "account-compromise"
+      ],
+      "whyItMatters": "Breaches of government IT systems pose significant risks to national security and public trust, especially when they compromise multiple accounts. This incident demonstrates that even well-resourced organizations can fall victim to vulnerability exploitation, emphasizing the critical need for rapid patch management and security monitoring in cloud environments. Organizations should review their ow",
+      "image": null,
+      "processedAt": "2026-08-06T23:46:42.449130+00:00"
+    },
+    {
+      "id": "art-82849e10",
+      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+      "summary": "Security researchers have discovered a new attack called TONTOU that circumvents existing protections against Spectre v2, a known CPU vulnerability that exploits how processors predict and execute instructions. The attack successfully extracts sensitive data such as Linux password hashes from vulnerable systems, demonstrating that current security patches may not be fully effective. This finding suggests that older mitigation strategies need to be re-evaluated and improved to protect against evolving attack techniques.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "spectre-v2",
+        "cpu-vulnerability",
+        "side-channel-attack",
+        "linux-security",
+        "exploit",
+        "speculative-execution"
+      ],
+      "whyItMatters": "This vulnerability is critical because it bypasses existing security mitigations that organizations have already implemented, meaning patched systems could still be at risk. The ability to extract password hashes directly compromises user authentication and can lead to unauthorized access across Linux infrastructure. This discovery highlights the ongoing challenge of defending against hardware-lev",
+      "image": null,
+      "processedAt": "2026-08-06T23:46:45.959477+00:00"
+    },
     {
       "id": "art-ac45dda4",
       "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
@@ -827,215 +1034,6 @@
       "whyItMatters": "This vulnerability is critical because it affects a widely-used web framework and can be exploited by anyone on the internet without authentication, potentially exposing sensitive application data and allowing complete system compromise. Organizations running Rails applications must prioritize patching immediately to prevent exploitation.",
       "image": null,
       "processedAt": "2026-08-04T19:15:43.903619+00:00"
-    },
-    {
-      "id": "art-d26da087",
-      "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-04",
-      "originalUrl": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
-      "summary": "CISA added CVE-2026-18577, a high-severity flaw in N-able N-central, to its Known Exploited Vulnerabilities catalog after discovering active exploitation. This vulnerability represents incomplete patching of an earlier flaw (CVE-2026-18556), meaning that previous fix attempts left the software still exposed to attack. Organizations using N-able N-central need to apply updates immediately to protect their systems from ongoing threats.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "n-able-n-central",
-        "cve-2026-18577",
-        "known-exploited-vulnerability",
-        "patch-urgent",
-        "incomplete-patching",
-        "active-exploitation"
-      ],
-      "whyItMatters": "When CISA adds a vulnerability to its KEV catalog, it signals that attacks are already happening in the real world, making immediate patching essential for affected organizations. The fact that this is incomplete patching of a previous fix indicates vendors and users may have a false sense of security, increasing the risk of compromise. Companies managing remote systems through N-able N-central ar",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbA9omGpwD_xkaXsQD13QewwbHkZMx1FrBHBvsnFkbjkFTY6F679EEe_xtesc1R6ToZIZlHq4osq4AmGAI-74IHaagkIP7KhQp3X_QtlwaMx2ALTqs_sZTdtpmJNd1UHf_Mq2F9jfmz8viAlapY4gFUa5ZLAEtF_VjjzebWZApbU1VDElceFwS4sa2rR5C/s1600/cisa.png",
-      "processedAt": "2026-08-04T08:45:53.707586+00:00"
-    },
-    {
-      "id": "art-39cdee11",
-      "title": "Chinese Threat Actor Uses Leaked DarkSword Kit to Deploy GHOSTBLADE on iOS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-03",
-      "originalUrl": "https://thehackernews.com/2026/08/chinese-threat-actor-uses-leaked.html",
-      "summary": "A Chinese-speaking threat actor is actively targeting Apple iOS users by exploiting a publicly leaked DarkSword exploit kit. The attacker has set up over 100 fake AWS login pages to trick users into compromising their credentials. This campaign demonstrates how leaked hacking tools can be quickly weaponized by threat actors to launch large-scale phishing and malware distribution attacks.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "ios-threats",
-        "phishing-campaign",
-        "exploit-kit",
-        "credential-theft",
-        "apple-security",
-        "chinese-threat-actor"
-      ],
-      "whyItMatters": "This attack shows how widely available leaked exploit kits enable even less-sophisticated threat actors to conduct large-scale campaigns against millions of iOS users. The use of convincing fake login pages increases the risk of credential compromise, which can lead to account takeovers and data theft. Organizations and individuals need to remain vigilant about fake login pages and consider implem",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvbg0AbgcDL8IouGo4deahk3vOuegzB-hxhUxAok05EuI5uuYJUDP-mUVS1w-gr9Oedf6JzF9qEB3l8MWVnsFGkmZ4ZorInHavwKWrQ7toTmv64uc4EnJdoFDqGlDPQsgcTwnJo8rlZyfG9yFu60fNE51Di00aVdZoiv5YMIvobc6xuWZhT_cKDk3ikV-P/s1600/apple.jpg",
-      "processedAt": "2026-08-04T08:46:01.077674+00:00"
-    },
-    {
-      "id": "art-1a2803c1",
-      "title": "PNLD Breach Exposes U.K. Police and Government Contact Details on Dark Web",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-03",
-      "originalUrl": "https://thehackernews.com/2026/08/pnld-breach-exposes-uk-police-and.html",
-      "summary": "The Police National Legal Database (PNLD) in the UK suffered a significant data breach that exposed sensitive contact information of police officers, government staff, and justice professionals on the dark web. The compromised data included names, organizations, and work email addresses of law enforcement and government personnel. This incident was discovered on July 26 and represents a major security failure affecting critical public sector infrastructure.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "law-enforcement",
-        "government-sector",
-        "dark-web",
-        "personal-data",
-        "public-sector-security"
-      ],
-      "whyItMatters": "This breach compromises the safety and security of active law enforcement and government personnel by exposing their identities and contact details to criminal actors on the dark web. The exposure creates immediate risks for targeted harassment, physical threats, and social engineering attacks against officers and their families. Such breaches of critical public sector databases undermine public t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguFnLbEr199EuLksobp-I8Z6liAUmM4EKRi94ttPtanQN2aiwvNh1qHK_kkGhOBfWTzLzANlQ3jd6FmJOHWbdn8rFfg1sHvYqmBaVM5kfak1JxRhqPEfNR94zY_pibMdsbWMIx8gqcZZjoYLhKk03Gw3PrYKF6JQzrNLV6HiE5U7UtYPSwmH-OmDmjl8c/s1600/exfilsquad.jpg",
-      "processedAt": "2026-08-04T08:46:03.819296+00:00"
-    },
-    {
-      "id": "art-80cd6383",
-      "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-01",
-      "originalUrl": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
-      "summary": "Adobe has released security updates for a critical flaw in Campaign Classic, its marketing automation platform used by enterprises. The vulnerability, identified as CVE-2026-48449 with a perfect CVSS score of 10.0, stems from an authorization bypass that allows attackers to execute arbitrary code without needing user interaction. This means attackers could potentially take complete control of affected systems remotely.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "adobe-campaign",
-        "code-execution",
-        "cvss-10",
-        "authorization-bypass",
-        "patch-now",
-        "enterprise-risk"
-      ],
-      "whyItMatters": "A CVSS 10.0 vulnerability with no user interaction required represents an immediate and severe risk to all organizations using Adobe Campaign Classic, potentially allowing attackers to compromise marketing systems and access sensitive customer data. Organizations must apply security updates urgently to prevent exploitation before attackers leverage this flaw at scale.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgL4TR-PlW4MehiF4iAbWafpNUQrSuhhTuEZwgwba7Gi0mF-PfixGSlFmpsBm51WbJYfkA69ZYNjO2aWl8eE8tqdSPdJL7mvLOaYL9O6VWkfxw96YFF0Qxt1ggCurqVd2J2muf6SAjW0cCrt2UwnOO3rK76X-mBWHW1e8-2Mk6FERpS1yPrSVScImJ0TmKW/s1600/adobe-flaw.jpg",
-      "processedAt": "2026-08-04T08:46:06.344734+00:00"
-    },
-    {
-      "id": "art-f26f31f9",
-      "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-01",
-      "originalUrl": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
-      "summary": "Cybercriminals associated with a Russian-linked group called Storm-2945 have been hijacking hotel Wi-Fi networks to trick guests into downloading fake browser updates. These updates actually install CornFlake, a dangerous surveillance tool that can spy on users through their webcams, record audio from microphones, and capture everything they type. This attack highlights how public Wi-Fi in hotels can be weaponized to target travelers and steal sensitive personal information.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "hotel-wifi",
-        "malware",
-        "remote-access-trojan",
-        "fake-updates",
-        "surveillance",
-        "russian-threat-actor"
-      ],
-      "whyItMatters": "This attack method is particularly dangerous because it targets travelers in hotels where security awareness is often low and users trust the network they're connecting to. The malware's surveillance capabilities pose severe risks to business travelers, journalists, and anyone handling sensitive information while traveling. Understanding this threat is essential for travelers to recognize suspicio",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglJ30Q0_3tS3R4yrNdyR3sDdvBam1plVfmenBAFVPGmaVMErJ_oq_zXoIpeAjrFrkkFkudKUSHI-h82FGoiIJlkT2JghjQKrO2p7VmzpduPGv26gGgJ8I04b-U7eY1sihmIer0bGTtIof3CwH1vKmQOYLDvhNsYICoALOLhehhaLC65fPmAH_fpT0BrKk/s1600/hotel-wifi.jpg",
-      "processedAt": "2026-08-04T08:46:09.668928+00:00"
-    },
-    {
-      "id": "art-7bb35e1c",
-      "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-      "summary": "Russian hacking group Midnight Blizzard has launched a widespread attack targeting hotel Wi-Fi networks using custom malware designed to compromise Microsoft 365 accounts. The campaign exploits the open, shared nature of hotel networks to gain initial access and steal credentials from business travelers. This attack method is particularly dangerous because hotels are common places where professionals conduct work, making them valuable targets for credential theft.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "hotel-wifi",
-        "microsoft-365",
-        "midnight-blizzard",
-        "credential-theft",
-        "apt29",
-        "custom-malware"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors are targeting infrastructure that millions of travelers use daily, putting corporate accounts and sensitive business data at risk. Organizations need to warn employees about using hotel Wi-Fi for sensitive work and implement zero-trust security practices, as traditional network-based defenses may not protect against compromised Wi-Fi environments.",
-      "image": null,
-      "processedAt": "2026-08-04T08:46:12.667062+00:00"
-    },
-    {
-      "id": "art-f6c803e5",
-      "title": "New Pass-ta-key attacks let malware hijack Google-synced passkeys",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-pass-ta-key-attacks-let-malware-hijack-google-synced-passkeys/",
-      "summary": "Researchers discovered three new attacks called Pass-ta-key that exploit malware on Windows computers to compromise Google Password Manager's synced passkeys. These attacks allow threat actors to hijack user accounts, bypass security verification checks, and steal the private keys that protect passkeys. This vulnerability affects users who rely on Google's password management system for account protection.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "passkey-attacks",
-        "malware",
-        "google-password-manager",
-        "account-hijacking",
-        "windows-threat",
-        "credential-theft"
-      ],
-      "whyItMatters": "Passkeys are considered a more secure replacement for traditional passwords, so discovering ways to steal them undermines a key security improvement many organizations are adopting. Users with malware already present on their devices face account takeover risks even if they use supposedly stronger authentication methods. This highlights the importance of maintaining clean systems and understanding",
-      "image": null,
-      "processedAt": "2026-08-04T08:46:17.113516+00:00"
-    },
-    {
-      "id": "art-18908135",
-      "title": "New DOUBLECUP ClickFix service hides malware in browser cache images",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-doublecup-clickfix-service-hides-malware-in-browser-cache-images/",
-      "summary": "Cybercriminals are using a new Russian service called DOUBLECUP that disguises malware as image files cached in web browsers to infect computers. The attack tricks users into clicking malicious links, then sneaks harmful programs like CountLoader and DeviceManager onto both Windows and macOS devices. This represents an evolving technique that exploits how browsers store files, making the attack harder to detect through traditional security methods.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "loader-as-a-service",
-        "clickfix-attacks",
-        "browser-cache-exploitation",
-        "remote-access-trojan",
-        "cross-platform-malware"
-      ],
-      "whyItMatters": "This attack is significant because it combines social engineering with technical evasion by hiding malware in normal browser cache files, making it bypass traditional security tools that don't scrutinize cached images closely. The availability of DOUBLECUP as a service means many threat actors can easily launch these attacks, increasing the risk for both Windows and macOS users who may not recogni",
-      "image": null,
-      "processedAt": "2026-08-04T08:46:21.607758+00:00"
-    },
-    {
-      "id": "art-0d114837",
-      "title": "Fake Roblox Xeno script launcher pushes infostealer, RAT malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-roblox-xeno-script-launcher-pushes-infostealer-rat-malware/",
-      "summary": "Cybercriminals are distributing fake versions of the Xeno Executor, a popular script launcher used by Roblox players, to deliver infostealer and remote access trojan (RAT) malware. Players who download these counterfeit installers unknowingly install malicious software that can steal personal information and give attackers control over their devices. This attack specifically targets the gaming community, exploiting their desire for legitimate game modification tools.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware",
-        "infostealer",
-        "rat",
-        "gaming",
-        "social-engineering",
-        "credential-theft"
-      ],
-      "whyItMatters": "This attack demonstrates how cybercriminals weaponize legitimate-looking tools to target specific communities like gamers, combining data theft with remote access capabilities for maximum damage. Users who fall victim lose both personal credentials and device control, putting their accounts and systems at serious risk. Organizations and users need awareness that gaming tools are frequent malware d",
-      "image": null,
-      "processedAt": "2026-08-04T08:46:24.738533+00:00"
-    },
-    {
-      "id": "art-be8f04c8",
-      "title": "Amgen says cloud data breach exposed patient health, proprietary info",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-07-31",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
-      "summary": "Amgen, a major pharmaceutical company, experienced a significant data breach involving cloud systems managed by third-party vendors. Attackers gained unauthorized access to sensitive data including patient health information and proprietary corporate data. This incident highlights the risks companies face when storing critical information with external cloud service providers.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "cloud-security",
-        "patient-data",
-        "third-party-risk",
-        "healthcare",
-        "proprietary-information"
-      ],
-      "whyItMatters": "This breach demonstrates that even large, well-resourced companies remain vulnerable to cloud-based attacks, especially when relying on third-party providers. The exposure of patient health data and proprietary information creates regulatory, legal, and reputational consequences while underscoring the critical need for stronger cloud security controls and vendor risk management in healthcare and p",
-      "image": null,
-      "processedAt": "2026-08-04T08:46:28.569829+00:00"
     }
   ]
 }
