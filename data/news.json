@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-08-07T18:35:58.079291+00:00",
+  "lastUpdated": "2026-08-08T07:01:00.640843+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-50f34617",
+      "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+      "summary": "Researchers discovered approximately 800 malicious packages in the npm repository that use deceptive naming tactics to trick developers into installing them. These packages contain a powerful remote access tool (RAT) and information-stealing malware capable of compromising Windows, Mac, and Linux computers. The campaign demonstrates how attackers exploit popular open-source package repositories to distribute cross-platform threats at scale.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "npm-supply-chain",
+        "malware-campaign",
+        "rat-infostealer",
+        "typosquatting",
+        "cross-platform-threat",
+        "open-source-security"
+      ],
+      "whyItMatters": "This attack directly threatens developers and organizations that rely on npm packages, as malicious dependencies can compromise entire software projects and their downstream users. The large scale (800+ packages) and cross-platform capability indicate a sophisticated, well-resourced threat actor targeting the software supply chain. Developers must immediately audit their dependencies and implement",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIEXaa59LRblZ0rcBVbKDdH4w9Rszk27anNt20Onx7Li8D7FXbf3Ipod53uo3N2aa6Hj1QLJaNFDIBlrcgM3YZg0UJCsjI3maDKkFEdOeyhzis15St3QDg6WCXcYlbDRlw2WvgiOH-BL_v8I21QoSTE9kmJzzKqQwstqn11JWkAL1_9W41ZF04T-9ImaiL/s1600/npms.jpg",
+      "processedAt": "2026-08-08T07:00:35.163704+00:00"
+    },
+    {
+      "id": "art-c056cdbd",
+      "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+      "summary": "Cybercriminals are using ClickFix-style attack tactics to deliver a Go-based malware targeting macOS users. This malware can steal cryptocurrency from digital wallets, passwords stored in web browsers, and sensitive data from Apple's iCloud Keychain. The attack works by delivering a shell script that identifies the victim's computer and then downloads a customized malware payload designed for that specific CPU architecture.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "clickfix",
+        "macos-malware",
+        "crypto-theft",
+        "credential-stealing",
+        "financial-loss"
+      ],
+      "whyItMatters": "This attack directly threatens users' financial assets and personal data, particularly targeting cryptocurrency holdings which are difficult or impossible to recover once stolen. The sophisticated architecture-specific approach suggests organized threat actors with technical capability, making this a serious risk for macOS users who may believe their platform is inherently safer. Organizations and",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKQGTQ6AquoAvAeMWXXITPacYsdChgFUpg7MLwKkfb2AylEuwQTk9av5GqMSdgtsB_tr_6QC70DrJkEo02t-Wo67z1gumix6FKKlOPSWo4fLEUHCibBoTrf1zCdmn72ESzo5CzCKKEgyETZ0FeVD_3QLfCNit7vIwlMA7MmwGYg2JGbeYOBrjSHmOnfpWl/s1600/macos.jpg",
+      "processedAt": "2026-08-08T07:00:38.127405+00:00"
+    },
+    {
+      "id": "art-750a5f74",
+      "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+      "summary": "UNC6671, a data extortion group, is launching vishing attacks against employees in financial services, private equity, and professional services sectors. The attackers impersonate IT help desk staff and call workers on personal phones to trick them into revealing credentials or facilitating unauthorized access during fake security migrations. This social engineering approach bypasses traditional network defenses by targeting individuals directly rather than systems.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "vishing",
+        "social-engineering",
+        "voice-phishing",
+        "credential-theft",
+        "saas-targeting",
+        "data-extortion"
+      ],
+      "whyItMatters": "This attack pattern is particularly dangerous because it exploits personal devices and human trust rather than technical vulnerabilities, making it difficult to detect with standard security tools. Organizations cannot rely solely on email filters or network monitoring when attackers are manipulating employees through voice calls, requiring comprehensive security awareness training and stricter ve",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiL6-qu-cN6glV6XSy1IS7siHKdKPFmzqT3X8TQjGCa0RD33kfIQ8NfEBR5r8dbQvj1OS8L6T083igxfS1VO98xlg7MHIMysbfR_cVpdmPMcYibuMwDZ6SssIi3iryUznGL14zUByy7oRrTJe0AjgGMNti_Rcqezh7dtfyU31vyo-zft3fvR56SCsAfeHrm/s1600/vishing.jpg",
+      "processedAt": "2026-08-08T07:00:41.191401+00:00"
+    },
+    {
+      "id": "art-887cce08",
+      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
+      "summary": "PortSwigger's AI-assisted research tool called HTTP Terminator discovered new HTTP desynchronization attack techniques by analyzing 30,000 potential vectors, demonstrating how artificial intelligence can uncover previously unknown security flaws. The same research effort also revealed a zero-day vulnerability in Apache Traffic Server, highlighting the effectiveness of combining AI-driven testing with human expertise to identify critical web infrastructure weaknesses.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "http-desync",
+        "zero-day",
+        "apache-traffic-server",
+        "ai-security",
+        "web-security",
+        "vulnerability-research"
+      ],
+      "whyItMatters": "This discovery demonstrates that AI-powered security research can systematically find novel attack patterns that human researchers might miss, particularly in widely-used infrastructure like Apache Traffic Server. Organizations running affected web servers need to monitor for patches, and the broader cybersecurity community should recognize that HTTP desynchronization remains an evolving threat re",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgynSSg0CZ1sssmMR8F0u09LmQ82liuj5nt2aor3klmi-xPcKTmalo4JLFQ7jd2mU9Ycnltsrnw2MiVVjmlT-wcYR74Ob7NMN31KNnny14lqVRdrmj30r3yqTSxapzCmQPk9lPG7v9GDSVKQwE4ufB-jWfsx1lc2O5GNd0bHd5M6FbMNah3dcLzu2EAFXo/s1600/Desync.jpg",
+      "processedAt": "2026-08-08T07:00:43.733348+00:00"
+    },
+    {
+      "id": "art-c626b8b9",
+      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
+      "summary": "A cybersecurity researcher discovered that malware running on a Windows computer can secretly abuse Windows Hello for Business keys to gain unauthorized access to Microsoft Entra ID (Microsoft's cloud identity service). Once inside, attackers can create persistent cloud access, register fake devices, steal refresh tokens, and add more authentication methods to maintain long-term control without the victim's knowledge.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "windows-hello",
+        "entra-id",
+        "malware",
+        "cloud-access",
+        "authentication-bypass",
+        "persistent-threat"
+      ],
+      "whyItMatters": "This vulnerability is critical because it demonstrates how attackers can weaponize legitimate authentication features already present on compromised systems to breach cloud infrastructure, potentially affecting entire organizations through a single infected employee device. Once an attacker gains Entra ID access this way, they can operate undetected with legitimate credentials, making traditional ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj81b6_YckjrqqfRrJQNRdIf3nu4xfqLNScukFYEao4VeF5QNlt16sbEwrdutizdB9Q1nOWRQpqeSZg4gYZsL8cIhRSJ43XJqMKWKgdKF28oeTl19HQQ75dnOKVHsa6DtXr4zhlmIF43nbUWV5jyEh4D1TjIvBKjgoAX2MpUbjJH3cN4hd4zDvIu_t4Jec/s1600/windows-hello-keys.jpg",
+      "processedAt": "2026-08-08T07:00:46.165610+00:00"
+    },
+    {
+      "id": "art-1722ad4f",
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "summary": "Attackers discovered and exploited a previously unknown SQL injection vulnerability in Metabase, a popular data analytics tool, to steal customer data from affected instances. The zero-day flaw allowed unauthorized access to sensitive information stored in organizations using Metabase, with confirmed victims including Framework and Tally. This attack demonstrates how unpatched vulnerabilities in business intelligence tools can directly lead to data breaches affecting multiple companies.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "sql-injection",
+        "metabase",
+        "data-theft",
+        "active-exploitation",
+        "customer-breach"
+      ],
+      "whyItMatters": "This zero-day attack on Metabase is critical because it targets infrastructure used by many organizations to manage sensitive business and customer data. The active exploitation in the wild means thousands of Metabase instances are potentially at risk before patches become available, creating an urgent need for immediate mitigation. Organizations using Metabase should treat this as a priority secu",
+      "image": null,
+      "processedAt": "2026-08-08T07:00:49.497863+00:00"
+    },
+    {
+      "id": "art-a3d04533",
+      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+      "summary": "Unlimited Technology Systems, a healthcare software provider, disclosed that a data breach from October 2025 exposed personal information of 3.8 million individuals. This incident highlights the significant risk that healthcare organizations face when their software vendors experience security failures. The breach demonstrates how vulnerabilities in third-party healthcare systems can compromise the privacy of millions of patients.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "healthcare-breach",
+        "data-exposure",
+        "third-party-risk",
+        "patient-privacy",
+        "large-scale-incident"
+      ],
+      "whyItMatters": "Healthcare data breaches affecting millions of people pose critical risks including identity theft, medical fraud, and regulatory violations. This incident underscores the importance of vendor security assessments and the cascading impact that compromised healthcare software can have across entire patient populations. Organizations must implement stronger third-party risk management and breach det",
+      "image": null,
+      "processedAt": "2026-08-08T07:00:51.954626+00:00"
+    },
+    {
+      "id": "art-4e6634ad",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-30",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "Cheap TV streaming devices that claim to offer unlimited content through a one-time purchase are actually malicious tools that compromise user security in multiple ways. Beyond secretly renting out users' internet connections to third parties, these devices impersonate mobile phones to fraudulently click ads on fake websites, defrauding both online merchants and advertising networks. Consumers should be cautious when considering budget streaming solutions that seem too good to be true.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "streaming-device-fraud",
+        "malware",
+        "internet-abuse",
+        "ad-fraud",
+        "consumer-security",
+        "iot-threats"
+      ],
+      "whyItMatters": "This reveals a sophisticated supply chain attack affecting consumer devices in millions of homes, exposing users' networks to misuse while unknowingly participating in fraud schemes. Understanding these hidden risks helps consumers make informed purchasing decisions and recognize that bargain streaming devices often carry serious hidden costs to their security and privacy.",
+      "image": null,
+      "processedAt": "2026-08-08T07:00:55.122749+00:00"
+    },
+    {
+      "id": "art-8d2298aa",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "summary": "LG Electronics USA announced plans to ban apps from its webOS smart TV store that secretly convert televisions into residential proxy nodes, allowing third parties to route internet traffic through users' devices without consent. A recent security study revealed that over 42% of games and applications available on LG's platform contained this malicious capability. This action protects consumers from unknowingly turning their personal devices into tools for cybercriminal activity.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "residential-proxy",
+        "smart-tv-security",
+        "privacy-violation",
+        "iot-abuse",
+        "malicious-apps"
+      ],
+      "whyItMatters": "This situation highlights a critical IoT security risk where consumer devices can be weaponized for illegal activities like botnet operations or credential stuffing attacks without user knowledge. LG's response demonstrates the need for stronger app store security measures and user awareness about what permissions are being granted to downloaded applications. The high prevalence (42%) of affected ",
+      "image": null,
+      "processedAt": "2026-08-08T07:00:58.144985+00:00"
+    },
+    {
+      "id": "art-c51b624d",
+      "title": "AI-Generated Patches Fail Half the Time",
+      "source": "Dark Reading",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://www.darkreading.com/application-security/ai-generated-patches-fail-half-time",
+      "summary": "Researchers examined over 6,000 software patches and discovered that roughly half of them fail to work as intended. Even when patches successfully fix the original problem, they can inadvertently introduce new vulnerabilities, cause other systems to malfunction, or be bypassed entirely by attackers.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "patch-quality",
+        "ai-generated-code",
+        "bug-introduction",
+        "software-security",
+        "vulnerability-management"
+      ],
+      "whyItMatters": "This research highlights a critical gap in automated patch generation—organizations cannot blindly trust AI-generated fixes without thorough testing, as deploying flawed patches can create new security risks rather than eliminate them. For security teams, this underscores the need for rigorous validation processes before deploying patches to production systems.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt51cfa43c126c431d/6a75005453cbbc62a56894c9/patches-in-denim-nnattalli-shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-08-08T07:01:00.640688+00:00"
+    },
     {
       "id": "art-b9f16218",
       "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
@@ -823,212 +1029,6 @@
       "whyItMatters": "Organizations and security researchers considering selling zero-day vulnerabilities need to understand that the buyers may be fraudulent or malicious operators. The involvement of convicted felons and conspiracy theorists in vulnerability markets creates significant risks for information security ecosystems and highlights the importance of vetting acquisition platforms carefully. This demonstrates",
       "image": null,
       "processedAt": "2026-08-06T08:45:06.465587+00:00"
-    },
-    {
-      "id": "art-3731a092",
-      "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
-      "summary": "Cybercriminals running the ClickFix malware campaign have upgraded their tactics by deploying browser fingerprinting technology across over 250 domains to target macOS users specifically. This technique allows attackers to identify and deceive real users while blocking security researchers and automated systems from detecting the malicious content. The malware lures disguise themselves as legitimate software downloads, making them harder to identify through traditional detection methods.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "clickfix",
-        "macos-malware",
-        "browser-fingerprinting",
-        "social-engineering",
-        "threat-evasion",
-        "malware-distribution"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors are using sophisticated evasion techniques to bypass security detection systems and target specific user groups, making traditional sandbox and crawler-based defenses less effective. macOS users may feel falsely secure due to their operating system's reputation, making them prime targets for campaigns like this that exploit lower awareness levels.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzEMAtBAmz-q78zPppsCxMiU-EtelOA3FQy_T6Qzb9KpWEsc9wNMT1f_dDjf65q2W_nrioQ033KClusfHFXexSM8V30mReU5V3nbRY4W0_F3cg2ehG51P1nnWa1iKiGX3hJ_yUUYLF92TanEEE0HifpkzdqRQeqe8qFYXq0SPRx6pW9IrfS7sK_lPzWRM/s1600/mackos-finger.jpg",
-      "processedAt": "2026-08-05T19:08:48.908075+00:00"
-    },
-    {
-      "id": "art-b010d9a3",
-      "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-      "summary": "OpenAI discovered and shut down a scam network based in Cambodia that misused ChatGPT to run multiple fraudulent schemes including fake investment opportunities, romance scams, gambling fraud, and impersonation of law enforcement. The company banned numerous coordinated ChatGPT accounts linked to the city of Poipet in Southeast Asia that were orchestrating these criminal activities.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ai-abuse",
-        "fraud-schemes",
-        "chatgpt-misuse",
-        "scam-network",
-        "romance-scams",
-        "investment-fraud"
-      ],
-      "whyItMatters": "This incident demonstrates how AI tools like ChatGPT can be weaponized by criminal networks to scale social engineering attacks and fraud at lower cost and higher speed than traditional methods. Organizations and users need to recognize that AI systems can amplify existing cybercrime tactics, making awareness of AI-based scams critical for both businesses and consumers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmYzVApv7lLg_Qt67mGI-sC0vUGKZwkNmFsVgTykAPCHqVMsfGSSQRRaxVXuxx0RDd6wk18yEiVXXy3uPRpmLT_XLNMCI_0iuKbPtJ3z9CtuPtjBsIGDAsVTd5f8DE_z2yMfAsQFW66vvoe5MeQPWvfBM2CoSzi-xpgm_mTvXfqHERAr-1z9NYOUPGOgwP/s1600/chatgpt-scam.jpg",
-      "processedAt": "2026-08-05T19:08:51.652716+00:00"
-    },
-    {
-      "id": "art-3abfe699",
-      "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-      "summary": "Researchers discovered underground services selling unauthorized access to Anthropic's Claude AI models at discounted prices. One service called Poison Claude allows operators to view all customer prompts and interactions while providing illegal access to various Claude model versions. This represents a new threat vector where attackers monetize stolen or compromised AI model access while simultaneously harvesting sensitive user data.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "unauthorized-access",
-        "data-harvesting",
-        "cybercrime",
-        "api-abuse",
-        "privacy-breach"
-      ],
-      "whyItMatters": "This threat demonstrates how attackers are exploiting AI services to simultaneously gain profit and collect sensitive information from users, creating dual exposure for both businesses and individuals. Organizations relying on AI tools must verify legitimate access points and implement monitoring to detect unauthorized usage. The incident highlights emerging cybercrime business models targeting th",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhp3V9f5UsiH1E6dHfRvy0DEOYvcK14BatMbbLVfdPjLbu3PMInRmVXDi4xoGw-pSIuxUjZS1rdv4X7N1V9xRoV9RRVfaYdAWI6OTxKZzOhAlHYh6dKZNeAWCPkaPdGAvwgcOwFQ0atoRBUxKfE_KfhJpnm1yV1tXr5_Wv2yqND0vZCMMEfRB0V220SZbne/s1600/ai-access.jpg",
-      "processedAt": "2026-08-05T19:08:54.579526+00:00"
-    },
-    {
-      "id": "art-f55526db",
-      "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-      "summary": "Paperclip, an open-source platform for managing teams of AI agents, contains three security vulnerabilities that could allow attackers to execute commands on servers or developer machines through malicious agent imports. Two of these flaws enable direct command execution on vulnerable systems, while a third vulnerability exposes sensitive API data and control-plane information. These weaknesses highlight emerging security risks in AI agent management tools that developers rely on.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "command-injection",
-        "agent-compromise",
-        "api-vulnerability",
-        "open-source"
-      ],
-      "whyItMatters": "As AI agents become more prevalent in development workflows, vulnerabilities in agent orchestration platforms pose significant risks to both enterprise infrastructure and individual developer environments. The ability to execute arbitrary commands through malicious imports could allow attackers to compromise entire development pipelines or access sensitive systems used by development teams.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnNyDWyCEMrA99LxVQMqKNr188rBBjKa6Kg3nHdjVLxWCCVgfqa0cChHo_JWbHgbSLHgZVpcgWn0kw0FUySWhScczQi6LNme-wY9rkUAxE-IvoFLvfum-zWxEnppDBu6bAHBO0ObN39kCDwSK4jnsqdCAOhCPGG0FtoLX_2vvCi2DcoWPmzGUk6Hs_gB4/s1600/paperclipai.jpg",
-      "processedAt": "2026-08-05T19:08:57.249844+00:00"
-    },
-    {
-      "id": "art-127f38d7",
-      "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
-      "summary": "Three major software companies—HashiCorp, Veeam, and Django—have released patches for 11 vulnerabilities, with the most critical being a cross-tenant flaw in HashiCorp's Terraform MCP Server that allows attackers to reuse authentication tokens across different users. Veeam also patched a severe unauthenticated flaw that could expose managed agent credentials. Organizations using these widely-deployed tools need to apply updates urgently to prevent credential theft and unauthorized access.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "critical-vulnerabilities",
-        "credential-exposure",
-        "cross-tenant-attack",
-        "authentication-bypass",
-        "patch-urgency"
-      ],
-      "whyItMatters": "These vulnerabilities affect widely-used enterprise infrastructure tools—if left unpatched, they enable attackers to steal credentials and move laterally across managed systems without authentication. The cross-tenant flaw is particularly dangerous because it allows one legitimate user's access token to be weaponized against other organizations sharing the same platform, creating systemic risk acr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGDed_n3TJGLHvhq2MkwkQTsKgIv_rOw24MRfYCoHnHiOK7r-VbitMrwXXF9H_Gwbegba20Dla1FLyK70-OQRVxiHfikBFrz6jei3QK5u4ApbR4aYuLikQj1YHU2IzA1V4fnR7Wgcp8H1NoYzSeTTOUd4dNTuE71jNUNq-P4yk0H9FkW55wivMDdNe0nE/s1600/veeam.jpg",
-      "processedAt": "2026-08-05T19:09:00.268813+00:00"
-    },
-    {
-      "id": "art-26d90eb4",
-      "title": "COLDCARD security audit phishing attack installs remote access tool",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/coldcard-security-audit-phishing-attack-installs-remote-access-tool/",
-      "summary": "Cybercriminals are running a phishing campaign that takes advantage of recent security concerns about COLDCARD cryptocurrency wallets to trick users into downloading ScreenConnect remote access software. By posing as security warnings related to the COLDCARD vulnerability and the associated Bitcoin theft, attackers gain unauthorized remote access to victims' computers. This attack combines social engineering with legitimate-looking security alerts to compromise user systems.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "remote-access-tool",
-        "social-engineering",
-        "cryptocurrency",
-        "malware-distribution",
-        "credential-theft"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors weaponize legitimate security vulnerabilities and news to increase phishing credibility and trick users into installing remote access tools. Users managing cryptocurrency assets are especially vulnerable to such campaigns, as the combination of financial fear and urgent security messaging creates ideal conditions for exploitation. Organizations and indivi",
-      "image": null,
-      "processedAt": "2026-08-05T19:09:06.868615+00:00"
-    },
-    {
-      "id": "art-82d4d3f5",
-      "title": "CISA warns of hackers exploiting Langflow, N-central, Apache Tomcat flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-langflow-n-central-apache-tomcat-flaws/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent warning about active cyberattacks exploiting vulnerabilities in three widely-used software products: IBM Langflow, N-central, and Apache Tomcat. Federal agencies have been given a tight three-day deadline to patch these flaws to prevent compromise. These vulnerabilities are already being weaponized by hackers in real-world attacks, making immediate action critical.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "active-exploitation",
-        "patch-now",
-        "federal-agencies",
-        "cisa-alert",
-        "software-vulnerabilities",
-        "langflow-ncentral-tomcat"
-      ],
-      "whyItMatters": "This alert represents an imminent threat since attackers are actively exploiting these flaws rather than just discovering them theoretically. Organizations using these popular software platforms face immediate risk of compromise if they don't patch quickly. The three-day deadline from CISA underscores the urgency and signals that these vulnerabilities pose a significant risk to critical infrastruc",
-      "image": null,
-      "processedAt": "2026-08-05T19:09:10.239491+00:00"
-    },
-    {
-      "id": "art-03f76499",
-      "title": "Google Blogger locks hundreds of blogs in malware false positive",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/google/google-blogger-locks-hundreds-of-blogs-in-malware-false-positive/",
-      "summary": "Google's automated malware detection system incorrectly flagged and locked hundreds of legitimate Blogger websites, mistakenly claiming they violated policies against malicious content. Some affected blogs were even permanently deleted from the platform due to this false positive error. This incident highlights how automated security systems can sometimes cause collateral damage to innocent users when detection algorithms misfire.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "false-positive",
-        "content-moderation",
-        "platform-security",
-        "automated-systems",
-        "account-lockdown"
-      ],
-      "whyItMatters": "This incident demonstrates that overly aggressive automated security systems can harm legitimate users and their livelihoods when detection algorithms fail. Organizations and users relying on cloud platforms must understand that even well-intentioned security measures can have false positives, emphasizing the need for proper appeals processes and human review mechanisms in automated enforcement sy",
-      "image": null,
-      "processedAt": "2026-08-05T19:09:12.760874+00:00"
-    },
-    {
-      "id": "art-2cf031b8",
-      "title": "How AI-powered phishing killed blocklists for good",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-ai-powered-phishing-killed-blocklists-for-good/",
-      "summary": "Attackers are using AI to generate temporary phishing websites and constantly evolving attack tools faster than traditional blocklists can identify and block them. Traditional security approaches that rely on blocking known-bad domains and signatures are becoming ineffective against this rapidly changing threat landscape. Security experts recommend shifting to browser-level, behavior-based detection methods that can identify phishing attacks based on suspicious techniques rather than relying solely on identifying malicious domains.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "ai-powered-attacks",
-        "phishing",
-        "blocklist-evasion",
-        "threat-detection",
-        "browser-security"
-      ],
-      "whyItMatters": "This article highlights a fundamental shift in phishing attack tactics that renders legacy security controls obsolete, forcing organizations to rethink their defense strategies. Understanding that AI-generated disposable infrastructure can bypass traditional blocklists is critical for security teams evaluating their current detection capabilities and planning future investments in behavior-based d",
-      "image": null,
-      "processedAt": "2026-08-05T19:09:17.464099+00:00"
-    },
-    {
-      "id": "art-07bb1d9b",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "summary": "Microsoft released updates to fix 570 security vulnerabilities across its Windows operating systems and other products, nearly triple the number patched in the previous month. The company attributes this surge in discovered flaws to improvements in vulnerability detection powered by artificial intelligence. This massive patch release highlights both the growing complexity of software security and the increasing role of AI in identifying security weaknesses.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patch-tuesday",
-        "microsoft-windows",
-        "vulnerability-disclosure",
-        "ai-detection",
-        "security-updates",
-        "operating-systems"
-      ],
-      "whyItMatters": "A record number of unpatched vulnerabilities represents significant risk exposure across millions of Windows users and Microsoft software installations worldwide. Organizations must prioritize applying these patches quickly to prevent exploitation, as cybercriminals actively target known vulnerabilities. The trend also demonstrates how AI is becoming essential for discovering security flaws at sca",
-      "image": null,
-      "processedAt": "2026-08-05T19:09:20.949418+00:00"
     }
   ]
 }
