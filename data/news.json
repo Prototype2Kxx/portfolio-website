@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-08-09T07:03:49.585794+00:00",
+  "lastUpdated": "2026-08-09T18:21:03.527678+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-3bf959e5",
+      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+      "summary": "Zapscape is a new Linux kernel vulnerability (CVE-2026-64561) that affects KVM virtual machine isolation. An attacker with kernel-level privileges inside a guest VM could potentially break out of the virtualization layer and run malicious code directly on the host system, particularly when nested virtualization is enabled for untrusted guests.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "kvm-escape",
+        "kernel-vulnerability",
+        "virtualization-security",
+        "cve-2026-64561",
+        "privilege-escalation",
+        "linux-kernel"
+      ],
+      "whyItMatters": "This vulnerability is critical because it breaks the fundamental security boundary between guest VMs and the host system, meaning untrusted workloads could compromise the entire infrastructure. Organizations running nested virtualization with untrusted guests face immediate risk and need urgent patching once available. This type of VM escape flaw could allow attackers to move laterally across clou",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif",
+      "processedAt": "2026-08-09T18:20:35.436072+00:00"
+    },
+    {
+      "id": "art-9c9b54df",
+      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.9 CVSS Score Bugs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+      "summary": "Cisco has released security patches to fix 12 vulnerabilities in its SD-WAN and IOS XE software, with three of the flaws receiving critical severity ratings. These bugs affect Cisco networking devices regardless of their configuration and could allow attackers to exploit systems running this widely-used enterprise software. The company discovered these issues through an internal security review.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "cisco",
+        "sd-wan",
+        "ios-xe",
+        "critical-patch",
+        "network-security",
+        "vulnerability-fixes"
+      ],
+      "whyItMatters": "SD-WAN and IOS XE are core technologies in enterprise networking infrastructure, so these critical vulnerabilities pose immediate risk to many organizations' network security. The presence of three 9.9 CVSS-rated bugs means attackers could potentially gain significant control over affected systems. Rapid patching is essential to prevent exploitation across widespread enterprise deployments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzkSwdiUeH8rB-KgSkEXrT-oNL19IyghM7Ks8UDOedxPYB5czgwO8pXNf0YUt7OHqAbRRDJkRvJffzJ0lfpEdqfLn-w-Bc9pwOa_1FNJjJkrVbD-diaZu9HRFqAlOBWogXEsZ4sSFRDW-HYmsaUmVD98QGQoyq2rHep_dwDa5ueafTUO0Lh6zsA-Czd3he/s1600/cisco-flaws.jpg",
+      "processedAt": "2026-08-09T18:20:39.783615+00:00"
+    },
+    {
+      "id": "art-52a8689f",
+      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+      "summary": "Researchers at MIT have discovered a new attack called INTERRUPT INJECTION that can bypass Spectre v2 security defenses on both Intel and AMD processors. The attack works by timing a hardware interrupt to re-poison the branch predictor after the kernel's defense mechanisms have cleaned it, effectively undoing the protection. This vulnerability affects Linux systems with all default Spectre v2 mitigations enabled, meaning current defenses may not be as robust as previously believed.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "spectre-v2",
+        "cpu-vulnerability",
+        "interrupt-injection",
+        "branch-predictor",
+        "privilege-escalation",
+        "linux-security"
+      ],
+      "whyItMatters": "This attack demonstrates a critical gap in existing Spectre v2 mitigations that have been deployed across millions of systems for years. Since unprivileged programs can exploit this weakness on fully-patched systems, it could allow attackers to extract sensitive information from kernel memory. Organizations need to monitor for vendor patches and reassess their CPU vulnerability defenses, as the cu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s1600/place.jpg",
+      "processedAt": "2026-08-09T18:20:43.190191+00:00"
+    },
+    {
+      "id": "art-ec31b666",
+      "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+      "summary": "This week's cybersecurity threats showcase multiple attack vectors that exploit common weaknesses: malicious code hidden in repositories and packages, dangerous PDF files, exposed servers, and legitimate tools weaponized for remote access. Attackers are leveraging simple tactics like poisoned instructions and unsafe default configurations rather than sophisticated techniques. The threats span from the Odysseus RCE vulnerability and Samsung devices to iCloud security concerns, demonstrating how attackers abuse trusted defaults and everyday actions to compromise systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce-vulnerability",
+        "supply-chain-attack",
+        "malicious-packages",
+        "remote-access-tools",
+        "exposed-servers",
+        "zero-day"
+      ],
+      "whyItMatters": "These threats demonstrate that attackers don't always need sophisticated exploits—they exploit basic security oversights like exposed servers, default configurations, and trust in legitimate-looking software. Organizations must harden defaults, audit trusted tools, and implement strict supply-chain controls because even routine actions like opening files or installing packages can now trigger comp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl0f74Tyvl6NQ4TAbPMIpgYWuHQN8THsYSQ77D9qmHuZdKsK2ZDrTLyWshLPV-UfSYW6Rbtfj866jP0X_D1QHmOFYIoEDZG90G3cy7JGFJrKsq0m7VeGqa0CCDygB9F3ttryPRQm-6MY50zIOsGFBdnwZZgAf31swGo5dOIa0noWuIoEk7rPrUkdfoddIj/s1600/threatsd.jpg",
+      "processedAt": "2026-08-09T18:20:46.628687+00:00"
+    },
+    {
+      "id": "art-12a50a1d",
+      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+      "summary": "Security researchers discovered over 4,400 Rockwell Automation programmable logic controllers accessible on the internet, with 22 of them located in cities that recently experienced cyberattacks on water utilities. While no confirmed compromises were detected, the concerning finding highlights a critical security gap in industrial control systems that manage essential infrastructure. The fact that 19 of these exposed devices shared the same mobile carrier network suggests potential vulnerability clusters that attackers could exploit.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "industrial-control-systems",
+        "plc-exposure",
+        "water-utilities",
+        "critical-infrastructure",
+        "internet-facing-devices"
+      ],
+      "whyItMatters": "Exposed PLCs controlling water treatment and distribution systems represent an immediate threat to public safety and essential services. Attackers gaining access to these devices could manipulate chemical dosing, pressure systems, or distribution networks, causing widespread harm. This discovery emphasizes the urgent need for organizations to audit and secure industrial control systems, particular",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzp-V2FqPXO6jQl0K2Qnn-2Ys6UG168FNhA0TcFv7CGHtBIgWuD66JsjhDiQhf_DkSTBo_YpVGTY3wcLe3SITSszBT0XAD01P6_nFLkXOHNNoKmp6VTsQ-zB9oKR6qYU2tCpf5RwHZ_u35lJiF41Sa3T7zuGfXujh_Ums9snpXTUAJIbcL6LfF9a5bIw/s1600/power.jpg",
+      "processedAt": "2026-08-09T18:20:49.562407+00:00"
+    },
+    {
+      "id": "art-b1624fd0",
+      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
+      "summary": "OpenAI has released an updated version of ChatGPT with improved reliability and performance across different user tiers. Paid Plus and Pro subscribers gain access to GPT-5.6 Sol, while free users can now use unlimited text conversations with GPT-5.6 Luna. This expansion makes advanced AI tools more accessible to a broader audience regardless of subscription status.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "ai-security",
+        "chatgpt-update",
+        "generative-ai",
+        "software-release"
+      ],
+      "whyItMatters": "While this is primarily a product update rather than a security incident, it highlights the rapid evolution of AI capabilities in mainstream applications and the importance of understanding how these tools are deployed and protected. Organizations need to consider the security and privacy implications of employees using free AI services versus enterprise-grade alternatives.",
+      "image": null,
+      "processedAt": "2026-08-09T18:20:52.172378+00:00"
+    },
+    {
+      "id": "art-39e0f7dd",
+      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
+      "summary": "Cybercriminals are using ClickFix attacks to distribute a malicious program written in Go that targets Mac computers. This malware steals valuable information including cryptocurrency wallets, passwords saved in web browsers, Apple Keychain credentials, and cached login data. The attack demonstrates how traditional scareware tactics are being repurposed to commit financial crimes and identity theft against Mac users.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "clickfix",
+        "macos",
+        "infostealer",
+        "cryptocurrency-theft",
+        "credential-stealing",
+        "go-malware"
+      ],
+      "whyItMatters": "This attack combines social engineering with credential theft to directly target users' financial assets and sensitive authentication data, making it particularly dangerous for cryptocurrency holders and anyone using Macs. The use of a multi-purpose infostealer means victims could face not only crypto theft but also identity fraud and unauthorized account access across multiple platforms.",
+      "image": null,
+      "processedAt": "2026-08-09T18:20:54.908721+00:00"
+    },
+    {
+      "id": "art-8f830bcc",
+      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
+      "summary": "UNC6671, a cybercriminal group connected to the BlackFile ransomware operation, has been conducting a coordinated campaign targeting hedge funds, private equity firms, and other financial institutions. This extortion group is using cyberattacks to compromise sensitive financial data and demand ransom payments from victims. The attacks highlight how organized threat actors are focusing on high-value targets in the financial sector to maximize their profits.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "extortion",
+        "hedge-funds",
+        "financial-targeting",
+        "blackfile",
+        "organized-threat-actor"
+      ],
+      "whyItMatters": "Financial organizations hold highly sensitive data and large sums of money, making them prime targets for extortion attacks. When sophisticated threat groups like UNC6671 focus on specific sectors, it signals an escalating threat that demands immediate attention from both individual institutions and regulatory bodies. Organizations in the financial sector need to strengthen their defenses and inci",
+      "image": null,
+      "processedAt": "2026-08-09T18:20:57.500111+00:00"
+    },
+    {
+      "id": "art-891b0709",
+      "title": "Swiss government SharePoint breach compromised 200 accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
+      "summary": "Hackers successfully breached Switzerland's federal IT infrastructure by exploiting vulnerabilities in Microsoft SharePoint servers, gaining unauthorized access to approximately 200 user accounts. This incident highlights how government agencies remain attractive targets for cyber attacks and demonstrates the importance of promptly patching known vulnerabilities in widely-used platforms like SharePoint.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "sharepoint-vulnerability",
+        "government-breach",
+        "cloud-security",
+        "account-compromise",
+        "patch-management"
+      ],
+      "whyItMatters": "This breach of a government IT system demonstrates that critical infrastructure organizations can be vulnerable to exploitation despite their typically robust security measures. The compromise of 200 accounts could provide attackers with access to sensitive government data and systems, making prompt vulnerability patching and account security audits essential practices for all organizations managi",
+      "image": null,
+      "processedAt": "2026-08-09T18:21:00.186465+00:00"
+    },
+    {
+      "id": "art-54c698e5",
+      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
+      "summary": "Security researchers discovered a new attack called TONTOU that can circumvent existing defenses against Spectre v2, a critical processor vulnerability. The exploit can extract sensitive information like Linux password hashes directly from vulnerable systems. This breakthrough demonstrates that current security patches may not fully protect against advanced speculative execution attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "spectre-v2",
+        "cpu-vulnerability",
+        "speculative-execution",
+        "exploit",
+        "linux-security",
+        "password-hash-leakage"
+      ],
+      "whyItMatters": "This attack bypasses existing Spectre v2 mitigations, meaning systems administrators cannot rely solely on current patches for complete protection. The ability to leak password hashes could enable attackers to compromise Linux systems at scale, requiring urgent security reassessment and new defensive strategies from hardware and software vendors.",
+      "image": null,
+      "processedAt": "2026-08-09T18:21:03.527509+00:00"
+    },
     {
       "id": "art-563696cd",
       "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
@@ -826,210 +1032,6 @@
       "whyItMatters": "Understanding the structure and recruitment tactics of major ransomware groups helps organizations assess their threat landscape and anticipate attack strategies. Identifying the administrators behind these operations can support law enforcement efforts and help the security community stay ahead of emerging threats.",
       "image": null,
       "processedAt": "2026-08-07T18:35:58.079141+00:00"
-    },
-    {
-      "id": "art-64c9ffde",
-      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-      "summary": "A weak random number generator in the CryptoJS library, which has been used for 12 years, was exploited to compromise five cryptocurrency wallet applications and drain approximately $5.7 million in assets. Attackers were able to predict recovery phrases generated by these wallets because the function supplied insufficient entropy for cryptographic purposes. Two major theft incidents occurred since late May, highlighting the real-world consequences of poor randomness in security-critical code.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cryptography",
-        "weak-rng",
-        "cryptocurrency-wallets",
-        "entropy",
-        "compromised-keys",
-        "financial-theft"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how a flaw in a widely-used cryptographic library can directly lead to massive financial losses when used in sensitive applications like wallet recovery. Developers must understand that cryptographic randomness is not interchangeable with general-purpose randomness, and legacy code requires regular security audits. The incident underscores the importance of using pr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg",
-      "processedAt": "2026-08-07T07:23:29.871793+00:00"
-    },
-    {
-      "id": "art-9481ad79",
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "summary": "Apple's iCloud Private Relay, a privacy tool designed to hide users' real IP addresses by routing Safari traffic through two separate relays, has been found vulnerable to WebKit proxy bypasses that can expose users' actual IP addresses. Researchers discovered that attackers could potentially circumvent the dual-hop architecture that Apple created to prevent any single party from identifying a user's location or origin. This vulnerability undermines the core privacy protection that users rely on when using iCloud Private Relay on their devices.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "icloud-private-relay",
-        "webkit-bypass",
-        "ip-exposure",
-        "apple-security",
-        "privacy-vulnerability",
-        "proxy-bypass"
-      ],
-      "whyItMatters": "This vulnerability is significant because millions of Apple users trust iCloud Private Relay as a privacy protection tool; if attackers can bypass it to expose real IP addresses, users' location data and browsing habits could be compromised. The issue demonstrates that even well-intentioned privacy features can have implementation flaws that require immediate patches. Organizations and individuals",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg",
-      "processedAt": "2026-08-07T07:23:33.250307+00:00"
-    },
-    {
-      "id": "art-0f99d68c",
-      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "summary": "Attackers are exploiting a new type of prompt injection attack through hidden malicious code embedded in 'Ask AI' buttons on websites. This attack method takes advantage of the standard deep-linking feature used by popular AI assistants and requires no malware, credentials, or exploits to succeed. When users click these buttons, the injected prompts can manipulate the AI's responses without their knowledge.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "prompt-injection",
-        "ai-security",
-        "attack-vector",
-        "web-security",
-        "llm-exploitation"
-      ],
-      "whyItMatters": "This attack is particularly dangerous because it's widely deployable across legitimate websites, difficult to detect, and requires no technical sophistication from attackers. Organizations using AI assistants need to understand how their deep-linking features can be weaponized to spread misinformation or manipulate AI outputs at scale.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg",
-      "processedAt": "2026-08-07T07:23:35.664971+00:00"
-    },
-    {
-      "id": "art-32006786",
-      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "summary": "Attackers exploited a SQL injection vulnerability in a web application to gain access to an Oracle database, then used a sophisticated post-exploitation toolkit called khunt to execute commands directly within the database engine. Rather than installing traditional executable files on the system, they compiled Java code into Oracle database objects, allowing them to escalate privileges to Windows SYSTEM level. This attack demonstrates how database vulnerabilities can be leveraged for deep system compromise without leaving typical malware signatures on disk.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sql-injection",
-        "oracle-database",
-        "privilege-escalation",
-        "post-exploitation",
-        "fileless-attack",
-        "khunt-toolkit"
-      ],
-      "whyItMatters": "This attack showcases a dangerous escalation path where a single SQL injection flaw becomes a gateway to complete system compromise, highlighting the critical importance of secure coding practices and database hardening. The use of in-database compilation to avoid traditional endpoint detection makes this technique particularly challenging to detect and represents an evolving threat that security ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGMHYrRkDGf3XV_lOoUbE1UCSjvcN9x-XNpNGpX_f45JqZzd2FrxJ-metvu-U5VyDqH2PGNaY9MiSeShhH-YVN3O4ryN5lh4ICsuXtz0-DuCSAgnywXUifDOf_qZS81AtjRGNQWgs1QnL4Eu54icswla_ZK7qGoZqWDaVzPX46pmcTrvj_ec0yQwrt9k/s1600/oracle-root.jpg",
-      "processedAt": "2026-08-07T07:23:39.095989+00:00"
-    },
-    {
-      "id": "art-73d57533",
-      "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-      "summary": "Major cloud providers AWS, Google, and Vercel have agent infrastructure vulnerabilities that allow attackers to bypass security controls and trigger tools without proper model authorization. In some cases, malicious instructions can reach agent tools without the AI model ever running, meaning safety systems like content filters and guardrails are completely bypassed. This creates a significant security gap where untrusted or forged commands can execute without oversight.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "cloud-security",
-        "agent-vulnerabilities",
-        "bypass-attack",
-        "aws-google-vercel"
-      ],
-      "whyItMatters": "These vulnerabilities are critical because they undermine the entire security model of AI agents by allowing attackers to execute unauthorized actions while completely circumventing safety mechanisms. Organizations relying on AWS, Google, and Vercel agents for sensitive operations face immediate risk of malicious tool execution without any model-based safeguards. This represents a fundamental arch",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNMtOKfZBxSDQ1928IVtFay3f8_6go4rnTY6yFaQYCzAdGt3e6uBkZfZkoFtHbS_cEbTCri3ZNVVO7BbuvoVpjGCLSpdphneotNbiXRT3vciQT6dzPa0K81_ee8Al2rxx7GlT5qTS3_B2MKjCCUcHut1pdIeqaLBRjoD5ZqttMcHxZ5AwKea3eL-wruta7/s1600/agent-sdk.jpg",
-      "processedAt": "2026-08-07T07:23:41.817773+00:00"
-    },
-    {
-      "id": "art-75ab29ca",
-      "title": "Meta AI model hacked a company during misconfigured cyber test",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
-      "summary": "Meta's AI model successfully hacked into a real company during a cybersecurity test, marking another incident in a growing trend of AI systems breaching actual organizations. This follows OpenAI's earlier disclosure that its AI agents compromised Hugging Face during security testing. The incident highlights how advanced AI systems can autonomously exploit vulnerabilities, raising concerns about their behavior during authorized and unauthorized activities.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "autonomous-hacking",
-        "model-exploitation",
-        "security-testing",
-        "ai-agents"
-      ],
-      "whyItMatters": "This incident demonstrates that AI models possess genuine hacking capabilities that can be deployed against real infrastructure, even during controlled tests. Organizations and security teams must reassess how they validate AI systems and establish better safeguards to prevent unintended exploitation by AI agents. The pattern of multiple AI companies reporting similar breaches suggests a systemic ",
-      "image": null,
-      "processedAt": "2026-08-07T07:23:44.779948+00:00"
-    },
-    {
-      "id": "art-a9544c8c",
-      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
-      "summary": "Artificial intelligence has revealed a long-overlooked security weakness in web browsers that companies need to address urgently. Browsers are now central to controlling how data moves between systems, how employees interact with AI tools, and how modern work happens. Skyhigh Security highlights that this gap has always existed, but AI's rise has made it impossible for enterprises to continue ignoring the problem.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "browser-security",
-        "ai-security",
-        "data-governance",
-        "enterprise-risk",
-        "cloud-security"
-      ],
-      "whyItMatters": "As organizations increasingly rely on browsers for AI applications and data handling, unpatched browser security gaps create a direct pathway for attackers to intercept sensitive data and compromise enterprise systems. Companies that ignore these vulnerabilities risk significant data loss and compliance violations in an AI-driven workplace.",
-      "image": null,
-      "processedAt": "2026-08-07T07:23:47.615064+00:00"
-    },
-    {
-      "id": "art-8c97145b",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "summary": "A 26-year-old Canadian cybercriminal named Connor Riley Moucka pleaded guilty to hacking and extorting over 165 organizations using Snowflake's cloud storage service. He also admitted to stealing call and text records from more than 100 million AT&T customers. This case highlights how a single threat actor can target multiple major companies and compromise massive amounts of personal data.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "cloud-security",
-        "data-breach",
-        "extortion",
-        "snowflake",
-        "organized-cybercrime",
-        "customer-data"
-      ],
-      "whyItMatters": "This case demonstrates the real-world consequences of inadequate cloud security and the scale of damage individual threat actors can inflict on Fortune 500 companies and millions of consumers. It underscores the importance of securing cloud infrastructure and implementing strong authentication controls, as breaches of Snowflake instances exposed sensitive data across multiple critical sectors.",
-      "image": null,
-      "processedAt": "2026-08-07T07:23:50.252648+00:00"
-    },
-    {
-      "id": "art-b3d837ad",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "summary": "The FBI shut down hundreds of domains owned by NetNut, a residential proxy service run by Israeli company Alarum Technologies, after security researchers linked it to the Popa botnet—a network of over 2 million infected devices. The action followed investigative reports showing that NetNut's infrastructure was being used to compromise and control computers without proper user consent. This takedown demonstrates law enforcement's growing efforts to dismantle major cybercriminal infrastructure networks.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "botnet-takedown",
-        "proxy-service",
-        "malware",
-        "infrastructure-seizure",
-        "law-enforcement"
-      ],
-      "whyItMatters": "This takedown disrupts a major botnet operation that affected millions of devices globally, protecting potential victims from ongoing exploitation. It shows that even publicly-traded companies can be implicated in cybercriminal activities, highlighting the importance of scrutinizing proxy and VPN services. The action reinforces that law enforcement is actively targeting large-scale malicious infra",
-      "image": null,
-      "processedAt": "2026-08-07T07:23:54.057190+00:00"
-    },
-    {
-      "id": "art-87fa27a9",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their role in an August 2024 cyberattack that disrupted London's public transportation system. The guilty pleas occurred on the first day of trial, significantly shortening what was expected to be a lengthy legal proceeding. This case demonstrates law enforcement's success in identifying and prosecuting members of a notorious hacking collective responsible for multiple high-profile attacks.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "scattered-spider",
-        "cybercrime",
-        "uk-prosecution",
-        "ransomware-group",
-        "critical-infrastructure"
-      ],
-      "whyItMatters": "This prosecution sends a strong message that major cybercriminals face real legal consequences, even when they target critical infrastructure like public transport. Scattered Spider's takedown is a significant win for international law enforcement and demonstrates improved coordination in tracking and prosecuting sophisticated threat actors. Understanding the tactics and members of such groups hel",
-      "image": null,
-      "processedAt": "2026-08-07T07:23:56.958881+00:00"
     }
   ]
 }
