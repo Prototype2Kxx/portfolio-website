@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-08-08T18:18:34.008090+00:00",
+  "lastUpdated": "2026-08-09T07:03:49.585794+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-563696cd",
+      "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+      "summary": "Researchers at Novee Security discovered critical vulnerabilities in coding agents from Anthropic, Google, and OpenAI that allowed attackers to execute arbitrary code and access sensitive CI/CD secrets using only a GitHub issue—without needing repository access. By exploiting default configurations in these vendors' own repositories, the attacks demonstrated how insecure agent setups could lead to complete compromise of CI runners and workflow hijacking. These findings were presented at Black Hat USA, highlighting serious risks in how AI coding agents interact with development environments.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "ci-cd-vulnerability",
+        "code-execution",
+        "secrets-exposure",
+        "privilege-escalation",
+        "github-workflow"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects major AI vendors' own infrastructure and demonstrates how default configurations of AI coding agents can provide attackers with direct access to CI/CD systems and sensitive secrets without authentication. The ability to execute code and hijack workflows puts source code, build artifacts, and deployment credentials at immediate risk across organizat",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguukj-eRhx9RtAq9X96hAxHi0IU3ZWgM_W5XkdWhF8ezevuBQygkpv-ku5PSri9Gt5hRkNVxe6HmJJr5Mg33X_PhOGziqaho9bwm-mkRZSBl2jo94XF3jRwTZOb_PocueKWJkEtvl7kG_YqmbVfUxNht8_ODzLOERIqQteMdPxnWpobM-c9-fHhn0cLMQ/s1600/claude-github.jpg",
+      "processedAt": "2026-08-09T07:03:18.054651+00:00"
+    },
+    {
+      "id": "art-e8873ccb",
+      "title": "TeamPCP Linked To Redis Attacks Dating Back To 2020 And Later Supply Chain Campaign",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-07",
+      "originalUrl": "https://thehackernews.com/2026/08/teampcp-linked-to-redis-attacks-dating.html",
+      "summary": "Security researchers discovered that TeamPCP, a cybercriminal group, has been operating since at least 2020, initially targeting internet-facing systems like Redis servers before expanding into supply chain attacks. The group's long operational history and sophisticated infrastructure suggest they are a persistent and evolving threat. Investigators linked the group's activities through shared domains, malware signatures, and backend systems across multiple campaigns.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "threat-actor",
+        "redis-attacks",
+        "supply-chain",
+        "infrastructure-compromise",
+        "long-term-campaign"
+      ],
+      "whyItMatters": "Understanding TeamPCP's multi-year operational timeline and attack progression helps organizations identify potential compromises dating back years and recognize patterns in how criminal groups evolve from infrastructure targeting to supply chain attacks. This intelligence is critical for threat hunting, incident response, and securing both direct systems and upstream software dependencies.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicYXbdZUBG2jW8962nmphGWa0sWoq3jKe6HAT9wa6qlZdPPYBZRdw-uWjUbUv15BxaRgugcEAPXPZ2rMYx3RzM_vLVH18F6oTwwAklstzIRehnPJXwBs9b-d6NKjJZVhO5n1SRnBTlweRonaWCFogLrbJkyzs-F9K3lffy0tfqf2Vownwe9lj06rEe8Nn2/s1600/TeamPCP.jpg",
+      "processedAt": "2026-08-09T07:03:20.706105+00:00"
+    },
+    {
+      "id": "art-10d0e7cb",
+      "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+      "summary": "Researchers discovered that Chinese router manufacturer Zbtlink has shipped at least 20 router models with hidden backdoors pre-installed from the factory. These backdoors automatically activate and attempt to communicate with external servers, potentially giving attackers unauthorized remote access to affected devices. The vulnerability appears across multiple firmware versions spanning over two years of the company's product releases.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "router-backdoor",
+        "supply-chain-attack",
+        "hardware-compromise",
+        "unauthorized-access",
+        "chinese-routers",
+        "network-security"
+      ],
+      "whyItMatters": "Factory-installed backdoors represent a supply-chain compromise affecting potentially thousands of users worldwide, as these routers become entry points for attackers to penetrate home and business networks without any action by users. This threat is critical because affected devices are difficult to patch or identify without firmware updates from the manufacturer, leaving users vulnerable indefin",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3VqhMa79pNymspvzHhSpHG4HCDAGn4nAD-7ZwQgDuSOELhM0xxHASqfnd2ThEv8XJ0tM58bPsGPHcobfoaEEWW4Am9H-Wd9bpb-QqYRQfFcFKrvbLjwEGYu0VfIAclBcVn9PpMWS02ZAtOa7hhwg8e45cYcgYYX0C1_yQptZh7-ZvqFHpf-9uqq5csbCj/s1600/router-hacking.jpg",
+      "processedAt": "2026-08-09T07:03:23.862473+00:00"
+    },
+    {
+      "id": "art-5b8b18cd",
+      "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+      "summary": "Maksim Silnikau, the creator of Ransom Cartel, was sentenced to 16 years in prison for operating a ransomware-as-a-service platform that attacked at least 18 companies across the United States and internationally between 2021 and 2023. This case demonstrates law enforcement's ability to prosecute major cybercriminals and dismantle illegal ransomware operations. The conviction sends a strong message that creating and profiting from ransomware schemes carries serious legal consequences.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "ransomware-as-a-service",
+        "cybercrime",
+        "law-enforcement",
+        "prosecution",
+        "criminal-justice"
+      ],
+      "whyItMatters": "This prosecution demonstrates that authorities can identify, locate, and successfully prosecute operators of major ransomware-as-a-service platforms, which may deter future cybercriminals. The case reinforces that businesses need robust defenses against ransomware attacks since these operations target multiple sectors and can cause significant financial and operational damage. Understanding how th",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsIRDdzzjtJRcq3kiouQy7I8wwCFvWIKA5VHAKEVdGC2OJL3WCGnKPZUvAHUi-Jrz9yLN5pfTtS0QI8MRUuSbGOlbg_3jNktHGZSb4wsOKvjcwehZYqL671hB0UgjVjUPnKju5QFDO4BXhjePhJuvGDw_mJs1scXXI_veItNxCej7uEwjKfTHzc9Nkm90/s1600/Ransom-Cartel.jpg",
+      "processedAt": "2026-08-09T07:03:26.924104+00:00"
+    },
+    {
+      "id": "art-901c63dc",
+      "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+      "summary": "JetBrains TeamCity on-premise installations are under active attack due to a critical flaw (CVE-2026-63077) that allows unauthenticated attackers to execute code remotely. CISA has warned that this deserialization vulnerability, which scores 9.8 on the CVSS scale, is already being exploited in the wild. Organizations running affected TeamCity versions need to apply patches immediately to protect their systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce",
+        "active-exploitation",
+        "deserialization",
+        "patch-urgently",
+        "jetbrains-teamcity",
+        "cisa-alert"
+      ],
+      "whyItMatters": "This vulnerability is critical because it's actively exploited by attackers and requires no authentication, making any exposed TeamCity instance an easy target for compromise. Organizations must prioritize patching immediately, as attackers can gain complete control over TeamCity servers and potentially the entire development pipeline. Delayed action significantly increases the risk of code tamper",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaatZ2xKx3CMoWOXqKbIp1Sd-rMbET1_QE2Lh10XAVc_g_Z18UUlW_RyR8BR0Nj-gqy9SZhnEq0ZBv_z63FfCBu-XGfH5yEzUsKBLicrlfXK2-iMsgZYkDDTW-HiEPV29TEjFSFF1PYXyDkZcyfe6LuUKkgu2nRe4E_XFNPOcxSrBmUZwi3tX_GgHafeZ9/s1600/cisa-teamcity.jpg",
+      "processedAt": "2026-08-09T07:03:34.000171+00:00"
+    },
+    {
+      "id": "art-b2eef76d",
+      "title": "Ransom Cartel ransomware creator sentenced to 16 years in prison",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-05",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ransom-cartel-ransomware-creator-sentenced-to-16-years-in-prison/",
+      "summary": "Maksim Silnikau, who created and ran the Ransom Cartel ransomware operation, received a 16-year prison sentence for orchestrating attacks on at least 18 companies around the globe. This conviction demonstrates that law enforcement agencies are actively pursuing and prosecuting cybercriminals responsible for ransomware campaigns. The case highlights the serious legal consequences facing those who develop and deploy ransomware tools.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "cybercrime",
+        "law-enforcement",
+        "cartel",
+        "prosecution",
+        "extortion"
+      ],
+      "whyItMatters": "This conviction sends a strong message that ransomware operators face significant criminal liability, potentially deterring future threat actors from developing or operating ransomware services. Understanding how law enforcement identifies and prosecutes ransomware creators helps organizations recognize that cybercriminals can be held accountable, reinforcing the importance of reporting attacks an",
+      "image": null,
+      "processedAt": "2026-08-09T07:03:37.349888+00:00"
+    },
+    {
+      "id": "art-ee5bbae6",
+      "title": "Canadian pleads guilty to Snowflake cloud data-theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-05",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/canadian-pleads-guilty-to-snowflake-cloud-data-theft-attacks/",
+      "summary": "A Canadian man pleaded guilty to orchestrating a major data theft scheme targeting Snowflake, a popular cloud storage service. He gained unauthorized access to company accounts and stole sensitive data from over 165 organizations, attempting to extort millions of dollars from the victims. This case highlights how attackers exploit cloud platform vulnerabilities to compromise multiple businesses at scale.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "data-breach",
+        "extortion",
+        "snowflake",
+        "account-compromise",
+        "cybercrime"
+      ],
+      "whyItMatters": "This case demonstrates that cloud platforms remain high-value targets for attackers seeking to compromise numerous organizations simultaneously. The scale of the breach (165+ victims) and extortion scheme underscores the importance of multi-factor authentication, access monitoring, and incident response planning for cloud services. Organizations using Snowflake and similar platforms should review ",
+      "image": null,
+      "processedAt": "2026-08-09T07:03:40.270620+00:00"
+    },
+    {
+      "id": "art-0b313fb7",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "summary": "CISA experienced a significant security incident where a contractor accidentally exposed sensitive credentials, including AWS Govcloud keys, on a public GitHub repository. The credentials remained exposed for nearly six months before security researchers discovered and reported the breach. The agency's postmortem analysis revealed critical gaps in credential management and incident response procedures that offer valuable lessons for all organizations.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "credential-exposure",
+        "cloud-security",
+        "github-leak",
+        "aws-keys",
+        "incident-response",
+        "secrets-management"
+      ],
+      "whyItMatters": "This incident demonstrates how even government cybersecurity agencies can fail to detect exposed credentials in public repositories, highlighting the importance of automated secret scanning and rapid incident detection. Organizations must implement proper credential management practices and monitoring systems to prevent similar exposure of sensitive AWS keys and other authentication material that ",
+      "image": null,
+      "processedAt": "2026-08-09T07:03:42.932664+00:00"
+    },
+    {
+      "id": "art-13146dd3",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "summary": "A cybersecurity startup offering large sums of money to purchase zero-day vulnerabilities is allegedly operated by convicted felons and conspiracy theorists with a history of fraudulent schemes. The operators have previously run fake intelligence companies and a defunct AI lobbying platform under false identities. This raises serious concerns about who controls access to critical security exploits and how they may be misused.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "zero-day-exploits",
+        "vulnerability-markets",
+        "cybercrime",
+        "fraud",
+        "exploitation-risk"
+      ],
+      "whyItMatters": "This situation highlights dangerous gaps in zero-day vulnerability markets where bad actors can accumulate critical exploits without proper vetting. Organizations selling vulnerabilities to such entities risk enabling attacks against their own customers and infrastructure. Understanding these threats helps security professionals recognize illegitimate vulnerability acquisition channels and the cri",
+      "image": null,
+      "processedAt": "2026-08-09T07:03:45.832949+00:00"
+    },
+    {
+      "id": "art-efada1cb",
+      "title": "From Bobmojis to Bobbleheads: How the Democratic Party Built a Security-First Culture",
+      "source": "Dark Reading",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/from-bobmojis-to-bobbleheads-how-the-democratic-party-built-a-security-first-culture",
+      "summary": "Two former Democratic National Committee security leaders discuss how to establish a security-focused culture within large organizations. They emphasize that successful security initiatives require strong backing from executive leadership and can benefit from creative, engaging approaches to make security practices more memorable and accessible to staff.",
+      "category": "Security Awareness",
+      "severity": "Medium",
+      "tags": [
+        "security-culture",
+        "executive-leadership",
+        "organizational-security",
+        "security-awareness",
+        "best-practices"
+      ],
+      "whyItMatters": "Building a security-first culture is foundational to defending against cyber threats; without buy-in from leadership and employee engagement, even the best technical controls fail. This article provides practical insights into how large, high-value targets like political organizations can transform security from a compliance checkbox into an integral part of organizational identity, which is appli",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta9b29fb5e05ae54b/6a74db9f0045cd127fea0cc4/Image_(11).jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-08-09T07:03:49.585620+00:00"
+    },
     {
       "id": "art-db8af920",
       "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
@@ -823,213 +1030,6 @@
       "whyItMatters": "This prosecution sends a strong message that major cybercriminals face real legal consequences, even when they target critical infrastructure like public transport. Scattered Spider's takedown is a significant win for international law enforcement and demonstrates improved coordination in tracking and prosecuting sophisticated threat actors. Understanding the tactics and members of such groups hel",
       "image": null,
       "processedAt": "2026-08-07T07:23:56.958881+00:00"
-    },
-    {
-      "id": "art-c14addf7",
-      "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
-      "summary": "A new Linux kernel vulnerability called Zapscape (CVE-2026-64561) has been discovered that could allow an attacker with kernel-level access inside a guest virtual machine to break out of KVM isolation and gain control of the host system. This vulnerability specifically affects KVM's shadow memory management on x86 systems when nested virtualization is enabled for untrusted guests. An attacker exploiting this flaw could run malicious code directly on the underlying Linux host machine.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "kvm-escape",
-        "privilege-escalation",
-        "virtualization",
-        "linux-kernel",
-        "nested-vm",
-        "cve-2026-64561"
-      ],
-      "whyItMatters": "This vulnerability is critical for data center and cloud infrastructure operators because it breaks the fundamental security boundary between guest VMs and host systems, potentially compromising all workloads running on affected systems. Organizations using KVM with nested virtualization for multi-tenant environments face immediate risk of complete host compromise. Rapid patching is essential to p",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5BBX-j7uA7NqPF9tVWhx3y09F3whJ3zweRoWGyI2kJDxhW6ymOG1oumq5Oz0sZWtCAKSCALcd9TTl7Kf5Mo3aqE3aWKH8jfKWt2uUD-CUa6tmid-3MvMTM08EAEhg5iLQ2mlEgFkVeuVKv1QkRqr2T0Ya9JcNtMYheggInGndCG0n-N7BPjyH9vbKCg8/s1600/Zapscape.gif",
-      "processedAt": "2026-08-06T23:46:18.543286+00:00"
-    },
-    {
-      "id": "art-8600f2cb",
-      "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
-      "summary": "Cisco released security patches for 12 vulnerabilities affecting its Catalyst SD-WAN and IOS XE Software platforms, with three of these flaws rated at the critical 9.8 CVSS severity level. These bugs impact multiple device configurations and modes, requiring organizations to apply updates promptly. The vulnerabilities were identified during Cisco's internal security review process.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "cisco",
-        "sd-wan",
-        "ios-xe",
-        "critical-patch",
-        "network-security",
-        "cvss-9.8"
-      ],
-      "whyItMatters": "Cisco SD-WAN and IOS XE are widely deployed in enterprise networks for routing and connectivity, making these critical vulnerabilities an urgent threat to organizations worldwide. The high CVSS scores indicate severe exploitability that could lead to unauthorized access or system compromise if left unpatched. Administrators must prioritize applying these updates to prevent potential network breach",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzkSwdiUeH8rB-KgSkEXrT-oNL19IyghM7Ks8UDOedxPYB5czgwO8pXNf0YUt7OHqAbRRDJkRvJffzJ0lfpEdqfLn-w-Bc9pwOa_1FNJjJkrVbD-diaZu9HRFqAlOBWogXEsZ4sSFRDW-HYmsaUmVD98QGQoyq2rHep_dwDa5ueafTUO0Lh6zsA-Czd3he/s1600/cisco-flaws.jpg",
-      "processedAt": "2026-08-06T23:46:21.282826+00:00"
-    },
-    {
-      "id": "art-45c3ac28",
-      "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
-      "summary": "Researchers at MIT have discovered a new attack called INTERRUPT INJECTION that can bypass Spectre v2 security defenses on both Intel and AMD processors. The attack works by timing a hardware interrupt to poison the branch predictor after the kernel's defenses have already run, effectively undoing the protection. This vulnerability affects Linux systems with default Spectre v2 mitigations enabled, showing that current defenses may have critical gaps.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "spectre-v2",
-        "interrupt-injection",
-        "cpu-vulnerability",
-        "branch-predictor",
-        "linux-security",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This attack undermines existing defenses that organizations have relied on to protect against Spectre v2 exploits, meaning current security patches may not be fully effective. Unprivileged users can potentially exploit this to access sensitive kernel memory, requiring urgent security research and patching from both CPU manufacturers and operating system vendors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA_BgCPUTlxOgmh4ljCoOazIkcoSA_BHUGZmfAuhxD8TiUzui2nhB5b5KV_lv50ocFWI14FG5RIe8rqrm6D8ZC8ACR7mY1bXE4JADKcTRIY1bfIeXtnYs07yXk2T9Jsv0-vcxPkKbl6FuNXxXylv5BQQQLTDSpJ2XSyqxvIsxYy5d2X1Kwt_2CSJegj9Tv/s1600/place.jpg",
-      "processedAt": "2026-08-06T23:46:24.164389+00:00"
-    },
-    {
-      "id": "art-3a0f144c",
-      "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
-      "summary": "This week's threat roundup highlights how attackers exploit simple attack vectors and trusted systems to gain access. Threats range from malicious code hidden in repositories and packages to deceptive PDFs and compromised default configurations. The common thread is that attackers leverage basic, low-effort techniques like exposed servers and repurposed vulnerabilities rather than sophisticated zero-day exploits.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "rce",
-        "supply-chain",
-        "malware-delivery",
-        "default-configurations",
-        "exposed-infrastructure",
-        "exploit-leverage"
-      ],
-      "whyItMatters": "This article demonstrates that attackers don't need complex exploits to succeed—they rely on common misconfigurations, trusted defaults, and overlooked security hygiene. Understanding these low-friction attack paths is critical for organizations to prioritize practical defenses like secure defaults, repository scanning, and infrastructure hardening. The breadth of attack vectors (30+ stories) show",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl0f74Tyvl6NQ4TAbPMIpgYWuHQN8THsYSQ77D9qmHuZdKsK2ZDrTLyWshLPV-UfSYW6Rbtfj866jP0X_D1QHmOFYIoEDZG90G3cy7JGFJrKsq0m7VeGqa0CCDygB9F3ttryPRQm-6MY50zIOsGFBdnwZZgAf31swGo5dOIa0noWuIoEk7rPrUkdfoddIj/s1600/threatsd.jpg",
-      "processedAt": "2026-08-06T23:46:27.155734+00:00"
-    },
-    {
-      "id": "art-3947198b",
-      "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
-      "summary": "A cybersecurity firm discovered over 4,400 Rockwell Automation programmable logic controllers (PLCs) exposed on the internet, with 22 of them located in US cities recently targeted by water utility cyberattacks. Although no confirmed compromises were detected, the finding highlights a critical vulnerability in industrial control systems, particularly since 19 of the exposed devices in affected cities shared the same mobile carrier network.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "industrial-control-systems",
-        "plc-exposure",
-        "water-utilities",
-        "critical-infrastructure",
-        "network-security",
-        "iot-vulnerability"
-      ],
-      "whyItMatters": "PLCs control essential infrastructure like water systems, and exposing them online creates direct pathways for attackers to disrupt vital services affecting public health and safety. The concentration of vulnerable devices in cities already targeted by cyberattacks suggests these systems are priority targets, making rapid remediation essential to prevent future attacks on critical infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUzp-V2FqPXO6jQl0K2Qnn-2Ys6UG168FNhA0TcFv7CGHtBIgWuD66JsjhDiQhf_DkSTBo_YpVGTY3wcLe3SITSszBT0XAD01P6_nFLkXOHNNoKmp6VTsQ-zB9oKR6qYU2tCpf5RwHZ_u35lJiF41Sa3T7zuGfXujh_Ums9snpXTUAJIbcL6LfF9a5bIw/s1600/power.jpg",
-      "processedAt": "2026-08-06T23:46:29.900287+00:00"
-    },
-    {
-      "id": "art-39849c7f",
-      "title": "OpenAI rolls out a major ChatGPT upgrade, even if you don’t pay for it",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-rolls-out-a-major-chatgpt-upgrade-even-if-you-dont-pay-for-it/",
-      "summary": "OpenAI has released an upgraded version of ChatGPT called GPT-5.6, with different tiers available to users. Paying subscribers (Plus and Pro) get access to GPT-5.6 Sol, which offers improved reliability, while free users can now enjoy unlimited text conversations using GPT-5.6 Luna. This update demonstrates OpenAI's strategy of providing enhanced AI capabilities across both premium and free service levels.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "ai-security",
-        "chatgpt-update",
-        "artificial-intelligence",
-        "user-access"
-      ],
-      "whyItMatters": "While this article focuses on feature updates rather than a direct security threat, it highlights the expanding capabilities and user base of AI tools like ChatGPT, which raises important considerations about how organizations should manage and monitor AI tool usage in their environments. Understanding the capabilities and distribution of popular AI systems helps security teams implement appropria",
-      "image": null,
-      "processedAt": "2026-08-06T23:46:32.846265+00:00"
-    },
-    {
-      "id": "art-aea63a42",
-      "title": "ClickFix attack pushes macOS infostealer for crypto theft attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/clickfix-attack-pushes-macos-infostealer-for-crypto-theft-attacks/",
-      "summary": "Attackers are using ClickFix campaigns to distribute a malicious Go-based program targeting macOS users that steals cryptocurrency, passwords stored in browsers, Apple Keychain credentials, and cached login information. This infostealer represents a sophisticated threat that compromises both digital assets and sensitive authentication data on Apple devices. The attack demonstrates how social engineering tactics can deliver financial theft malware to Mac users who may assume their systems are more secure than Windows machines.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "macos-threat",
-        "infostealer",
-        "cryptocurrency-theft",
-        "clickfix",
-        "credential-theft",
-        "social-engineering"
-      ],
-      "whyItMatters": "This threat is significant because it combines social engineering with malware to target multiple high-value assets—cryptocurrency, passwords, and system credentials—on macOS systems, which users often consider more secure. The ability to extract Apple Keychain data is particularly dangerous as it provides attackers access to numerous stored secrets. Understanding this attack vector helps organiza",
-      "image": null,
-      "processedAt": "2026-08-06T23:46:36.610227+00:00"
-    },
-    {
-      "id": "art-3fca9f7e",
-      "title": "Hedge fund cyberattacks tied to BlackFile-linked UNC6671 extortion group",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hedge-fund-cyberattacks-tied-to-blackfile-linked-unc6671-extortion-group/",
-      "summary": "A criminal group called UNC6671, which has connections to the BlackFile ransomware operation, has been conducting a series of coordinated cyberattacks against hedge funds, private equity firms, and financial institutions. These attacks appear to be extortion-focused campaigns designed to steal sensitive data and pressure victims into paying ransom demands. The targeting of high-value financial organizations highlights how threat actors are increasingly focusing on sectors with significant resources and valuable information.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "extortion",
-        "hedge-funds",
-        "financial-sector",
-        "blackfile",
-        "unc6671",
-        "data-theft"
-      ],
-      "whyItMatters": "Financial organizations are critical infrastructure targets, and attacks on hedge funds and private equity firms can compromise billions of dollars in sensitive investment data and client information. Understanding the tactics and infrastructure of UNC6671 helps security teams recognize and defend against these specific threat actors. This demonstrates the real-world impact of extortion groups on ",
-      "image": null,
-      "processedAt": "2026-08-06T23:46:39.589759+00:00"
-    },
-    {
-      "id": "art-70718c95",
-      "title": "Swiss government SharePoint breach compromised 200 accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/",
-      "summary": "Hackers successfully breached Switzerland's federal IT office by exploiting vulnerabilities in Microsoft SharePoint servers, gaining unauthorized access to approximately 200 user accounts. This attack on a government agency's critical infrastructure demonstrates how security weaknesses in widely-used cloud platforms can expose sensitive data and compromise official systems. The breach highlights the importance of promptly identifying and patching vulnerabilities before attackers can exploit them.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "sharepoint-breach",
-        "government-hack",
-        "cloud-security",
-        "vulnerability-exploitation",
-        "account-compromise"
-      ],
-      "whyItMatters": "Breaches of government IT systems pose significant risks to national security and public trust, especially when they compromise multiple accounts. This incident demonstrates that even well-resourced organizations can fall victim to vulnerability exploitation, emphasizing the critical need for rapid patch management and security monitoring in cloud environments. Organizations should review their ow",
-      "image": null,
-      "processedAt": "2026-08-06T23:46:42.449130+00:00"
-    },
-    {
-      "id": "art-82849e10",
-      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-      "summary": "Security researchers have discovered a new attack called TONTOU that circumvents existing protections against Spectre v2, a known CPU vulnerability that exploits how processors predict and execute instructions. The attack successfully extracts sensitive data such as Linux password hashes from vulnerable systems, demonstrating that current security patches may not be fully effective. This finding suggests that older mitigation strategies need to be re-evaluated and improved to protect against evolving attack techniques.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "spectre-v2",
-        "cpu-vulnerability",
-        "side-channel-attack",
-        "linux-security",
-        "exploit",
-        "speculative-execution"
-      ],
-      "whyItMatters": "This vulnerability is critical because it bypasses existing security mitigations that organizations have already implemented, meaning patched systems could still be at risk. The ability to extract password hashes directly compromises user authentication and can lead to unauthorized access across Linux infrastructure. This discovery highlights the ongoing challenge of defending against hardware-lev",
-      "image": null,
-      "processedAt": "2026-08-06T23:46:45.959477+00:00"
     }
   ]
 }
