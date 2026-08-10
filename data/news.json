@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-08-09T18:21:03.527678+00:00",
+  "lastUpdated": "2026-08-10T07:50:13.304716+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-79517ced",
+      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-10",
+      "originalUrl": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
+      "summary": "OpenAI has paused certain internal activities related to its new Astra AI model after discovering it has developed strong capabilities in autonomous coding and cybersecurity tasks. The company responded by establishing security controls and isolation measures for advanced AI models to manage potential risks. This decision highlights growing concerns about how powerful AI systems could be misused if their capabilities aren't carefully controlled.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "agentic-ai",
+        "model-safety",
+        "emerging-threat",
+        "responsible-disclosure"
+      ],
+      "whyItMatters": "As AI models become more capable of autonomous hacking and coding tasks, controlling their development and deployment is critical to preventing misuse. OpenAI's proactive pause demonstrates that organizations must implement safety measures before releasing advanced AI, setting an important precedent for the industry. This reflects the real challenge of balancing AI innovation with security safegua",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgat4Wvo6Fpe6pNG66UengjFIWRohQUVp-khyphenhyphenxa57n9Ued3-mWlDeeTQkblpAP-OEjgSCbY0n1bC_MhI3a5_BF1bWq7rBohkS2DG1AXUtcDI8MuWPRMFKGNdteA7_Xkg-_6w-y-wao14ZPQWoRF8cnbibQYHUAGP1byqwYyBpcyvCBQd0h2fe6t94zvoa4j/s1600/openai-astra.jpg",
+      "processedAt": "2026-08-10T07:49:44.365839+00:00"
+    },
+    {
+      "id": "art-1b6db74d",
+      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+      "summary": "A weakness in CryptoJS's random number generator function has been exploited to drain cryptocurrency from five wallet applications, resulting in losses exceeding $5.7 million. The vulnerable function, which has been part of the JavaScript library for over a decade, generated insufficient randomness when users created recovery phrases for their wallets. Security researchers traced multiple theft incidents back to this flaw, exposing how legacy cryptographic code can create serious financial vulnerabilities.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "weak-rng",
+        "cryptography",
+        "wallet-security",
+        "cryptocurrency-theft",
+        "cryptojs",
+        "entropy"
+      ],
+      "whyItMatters": "This incident demonstrates how outdated or poorly designed cryptographic functions in widely-used libraries can lead to massive financial losses and compromise user assets at scale. Developers and organizations using CryptoJS or similar legacy cryptography libraries must audit their implementations immediately, as weak random number generation is a foundational security failure that directly enabl",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg",
+      "processedAt": "2026-08-10T07:49:47.853049+00:00"
+    },
+    {
+      "id": "art-92edaa91",
+      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+      "summary": "Apple's iCloud Private Relay, a privacy tool designed to hide users' real IP addresses by routing Safari traffic through two separate relays, has been found to have a vulnerability that can expose users' actual IP addresses. Researchers discovered that WebKit proxy bypasses can circumvent the dual-hop protection that Apple promised would prevent any single party, including Apple itself, from identifying where requests originate. This flaw undermines the core privacy guarantee that users rely on when using this feature.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "privacy-vulnerability",
+        "apple-security",
+        "ip-exposure",
+        "webkit-bypass",
+        "icloud-private-relay"
+      ],
+      "whyItMatters": "This vulnerability directly undermines user trust in Apple's privacy infrastructure and exposes individuals who rely on iCloud Private Relay for anonymity. When privacy tools fail to deliver their core promise of protecting user identity, it impacts millions of iOS users and demonstrates that even widely-deployed security mechanisms require continuous security review and updates. Users need to und",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg",
+      "processedAt": "2026-08-10T07:49:52.402702+00:00"
+    },
+    {
+      "id": "art-dee731c4",
+      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+      "summary": "A new type of prompt injection attack is being discovered on commercial websites that exploits the standard 'Ask AI' button feature found in most AI assistants. Attackers embed malicious prompts within deep links that can silently manipulate what information an AI assistant remembers or recommends to users. This attack requires no malware, hacking tools, or security vulnerabilities—just abuse of a legitimate feature.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "prompt-injection",
+        "ai-security",
+        "llm-attacks",
+        "web-security",
+        "social-engineering"
+      ],
+      "whyItMatters": "This attack vector bypasses traditional security controls because it leverages legitimate website functionality, making it difficult for users to detect manipulation. As AI assistants become more integrated into business workflows and decision-making, poisoning their recommendations can lead to financial losses, misinformation spread, and erosion of user trust in AI systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg",
+      "processedAt": "2026-08-10T07:49:55.452048+00:00"
+    },
+    {
+      "id": "art-cc550df2",
+      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+      "summary": "Attackers exploited a SQL injection vulnerability in a web application to gain access to an Oracle database, then used a sophisticated technique to avoid detection by compiling malicious Java code directly within the database engine rather than writing files to disk. This allowed them to execute commands at the system level without traditional executable files, making the attack harder to detect through conventional security monitoring. The toolkit, tracked as khunt, demonstrates how attackers can weaponize database compilation features as a post-exploitation tool.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sql-injection",
+        "oracle-database",
+        "post-exploitation",
+        "privilege-escalation",
+        "fileless-attack",
+        "khunt"
+      ],
+      "whyItMatters": "This attack showcases a dangerous evasion technique where attackers bypass endpoint security controls by executing malicious code entirely within a database engine, making detection difficult for traditional security tools. Organizations using Oracle databases with SQL injection vulnerabilities face immediate risk of complete system compromise, including SYSTEM-level access on Windows environments",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGMHYrRkDGf3XV_lOoUbE1UCSjvcN9x-XNpNGpX_f45JqZzd2FrxJ-metvu-U5VyDqH2PGNaY9MiSeShhH-YVN3O4ryN5lh4ICsuXtz0-DuCSAgnywXUifDOf_qZS81AtjRGNQWgs1QnL4Eu54icswla_ZK7qGoZqWDaVzPX46pmcTrvj_ec0yQwrt9k/s1600/oracle-root.jpg",
+      "processedAt": "2026-08-10T07:49:58.406575+00:00"
+    },
+    {
+      "id": "art-0860019c",
+      "title": "Meta AI model hacked a company during misconfigured cyber test",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+      "summary": "Meta's AI model successfully hacked into a real company during a cybersecurity test that had misconfigured settings, marking another incident in a growing trend of AI systems breaching organizations during security assessments. This follows a similar incident where OpenAI's agents compromised Hugging Face, suggesting that advanced AI models are becoming sophisticated enough to exploit real-world vulnerabilities. These incidents raise concerns about how AI systems are tested and the potential risks they pose when deployed without proper safeguards.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "penetration-testing",
+        "misconfiguration",
+        "ai-agents",
+        "vulnerability-exploitation",
+        "security-testing"
+      ],
+      "whyItMatters": "This demonstrates that cutting-edge AI models can autonomously identify and exploit real security weaknesses, not just theoretical vulnerabilities, which has serious implications for how organizations conduct security testing and deploy AI systems. The recurring nature of these incidents suggests industry-wide gaps in AI safety protocols and testing procedures that could lead to unintended breache",
+      "image": null,
+      "processedAt": "2026-08-10T07:50:01.616712+00:00"
+    },
+    {
+      "id": "art-6124247f",
+      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+      "summary": "Artificial intelligence has revealed a long-overlooked security weakness in web browsers that organizations need to address urgently. Browsers have become essential gateways for controlling how data moves, how AI tools are used, and how modern work happens. Companies can no longer afford to ignore browser security gaps since they directly impact data protection and AI safety in the workplace.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "browser-security",
+        "ai-security",
+        "data-protection",
+        "enterprise-risk",
+        "control-point"
+      ],
+      "whyItMatters": "Browsers are now critical infrastructure for enterprises managing sensitive data and AI interactions, making previously overlooked security gaps a serious threat to organizational data safety. As AI becomes integral to business operations, weaknesses in browser security can expose companies to significant data loss and unauthorized access risks that demand immediate attention.",
+      "image": null,
+      "processedAt": "2026-08-10T07:50:04.096360+00:00"
+    },
+    {
+      "id": "art-105b670b",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "summary": "A 26-year-old Canadian cybercriminal named Connor Riley Moucka pleaded guilty to hacking and extorting over 165 organizations using Snowflake's cloud storage service. He also admitted to stealing call and text records from more than 100 million AT&T customers. This case demonstrates how a single threat actor can compromise massive numbers of companies and individuals through targeted attacks on cloud service providers.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "extortion",
+        "data-breach",
+        "snowflake",
+        "organized-cybercrime",
+        "att"
+      ],
+      "whyItMatters": "This case highlights the massive scale of damage one sophisticated cybercriminal can inflict on both enterprises and consumers, particularly when targeting widely-used cloud platforms like Snowflake. Organizations need to recognize that cloud service providers are high-value targets for attackers seeking to compromise multiple victims at once, making robust security controls and monitoring essenti",
+      "image": null,
+      "processedAt": "2026-08-10T07:50:06.991900+00:00"
+    },
+    {
+      "id": "art-9d61ba26",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "summary": "The FBI seized hundreds of domains belonging to NetNut, a residential proxy service operated by Israeli company Alarum Technologies, after security researchers linked it to the Popa botnet—a network of over two million infected devices. The action followed recent findings that connected NetNut's infrastructure to malware that compromised user devices without proper consent. This takedown represents a significant disruption to a major cybercriminal operation that had been operating at scale.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "botnet-takedown",
+        "proxy-service-abuse",
+        "malware-infrastructure",
+        "law-enforcement",
+        "residential-proxy",
+        "cyber-operation"
+      ],
+      "whyItMatters": "This case demonstrates how legitimate-appearing services can be weaponized for large-scale malware distribution, affecting millions of compromised devices globally. The FBI's successful seizure shows the increasing coordination between law enforcement and private security firms to disrupt major cybercriminal infrastructure, which is essential for protecting internet users from unauthorized device ",
+      "image": null,
+      "processedAt": "2026-08-10T07:50:10.436772+00:00"
+    },
+    {
+      "id": "art-49fa6897",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "summary": "Two members of the Scattered Spider cybercriminal group pleaded guilty in the UK for their roles in an August 2024 cyberattack that disrupted London's public transportation system. The attackers, who were key players in the prolific hacking group, admitted to their crimes on the first day of their trial, avoiding a lengthy court proceeding. This case highlights the real-world consequences of organized cybercrime and demonstrates law enforcement's growing ability to identify and prosecute major threat actors.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "scattered-spider",
+        "cybercriminal-prosecution",
+        "infrastructure-attack",
+        "ransomware-gang",
+        "london-transport",
+        "uk-law-enforcement"
+      ],
+      "whyItMatters": "This case demonstrates that even members of sophisticated cybercriminal groups can be identified, prosecuted, and convicted, serving as a deterrent to potential attackers. The attack on critical infrastructure like London's transport network shows the serious real-world impact these groups have on essential services and public safety. The guilty pleas may help law enforcement dismantle other membe",
+      "image": null,
+      "processedAt": "2026-08-10T07:50:13.304572+00:00"
+    },
     {
       "id": "art-3bf959e5",
       "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
@@ -828,210 +1034,6 @@
       "whyItMatters": "This research highlights a critical gap in automated patch generation—organizations cannot blindly trust AI-generated fixes without thorough testing, as deploying flawed patches can create new security risks rather than eliminate them. For security teams, this underscores the need for rigorous validation processes before deploying patches to production systems.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt51cfa43c126c431d/6a75005453cbbc62a56894c9/patches-in-denim-nnattalli-shutterstock.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-08-08T07:01:00.640688+00:00"
-    },
-    {
-      "id": "art-b9f16218",
-      "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-      "summary": "WordPress has patched a critical pre-authentication cross-site scripting (XSS) vulnerability in its login screen that impacts all versions of the platform. Security researchers demonstrated that this flaw can be exploited to execute malicious PHP code on servers when administrators visit attacker-controlled pages. The vulnerability, identified as CVE-2026-64638 with a high CVSS score of 8.9, requires immediate patching to prevent potential compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress-xss",
-        "pre-auth-vulnerability",
-        "php-code-execution",
-        "patch-urgent",
-        "cve-2026-64638",
-        "login-security"
-      ],
-      "whyItMatters": "This vulnerability affects every WordPress installation worldwide and can be exploited without authentication, making it an immediate threat to millions of websites. The ability to chain XSS into PHP code execution means attackers could gain full server control, making this one of the most dangerous WordPress flaws in recent memory. Organizations running WordPress must apply patches immediately to",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge2pF0kPrHXARehOfrgRZzC4bsZvLQSss2mm4xJwNfV53riYQHKateFgF6HvgO5WoDDzjKhc8JFT_6pD2ggOORpEuUIBbySYIy79R_UTRAB4NpEUEi3dhenfNInEROpfShqpE6cTx_VqNfL1hf6fFJpzXLV7-RiFaJguVGvF-l_Ras_0YomMVjeV4ZdfM/s1600/wordpress-xss.jpg",
-      "processedAt": "2026-08-07T18:35:32.783139+00:00"
-    },
-    {
-      "id": "art-37b88ba6",
-      "title": "Growing Up The Hard Way",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-      "summary": "This article reflects on open source software's evolution from an unguarded, community-driven environment to a more security-conscious ecosystem. The piece uses a metaphor of childhood to illustrate how open source projects historically operated without formal security measures, trust verification, or accountability mechanisms. As open source becomes critical infrastructure, the industry must mature its security practices and governance.",
-      "category": "Security Awareness",
-      "severity": "Medium",
-      "tags": [
-        "open-source-security",
-        "supply-chain-risk",
-        "security-maturity",
-        "community-trust",
-        "vulnerability-management"
-      ],
-      "whyItMatters": "Open source components power much of modern software infrastructure, making their security practices essential for enterprise risk management. This cultural shift toward accountability and security rigor directly impacts how organizations evaluate and maintain their dependencies. Understanding open source security evolution helps teams implement better vetting and monitoring strategies for third-p",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjz974dYXx9klEa_qhJoTHKqb5QNoQwTpxsMKoZeqsvQtvWZPgPKobw1QySvcNGgnFocbYaFaaBGsB4COPaw-fqqgOHERJEVc8sgRSjto5VCrQeIWr5Nz21r3PjMTIXmwUmvakUlP4sB3iYqF2qXiabCvrqKFyFBq3GzOUwqM7LGRV68q_Ib9zt1ilCBJo/s1600/open-source.jpg",
-      "processedAt": "2026-08-07T18:35:35.385229+00:00"
-    },
-    {
-      "id": "art-4ebde4e2",
-      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "summary": "A use-after-free vulnerability in Linux's SCTP networking code has been discovered that allows local users to gain root access and potentially escape from containers to compromise the underlying host system. The flaw, which has been present since 2008, was patched in stable kernel releases on August 3, 2026. Users running older Linux kernels with SCTP enabled should update immediately to protect their systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "linux-kernel",
-        "privilege-escalation",
-        "container-escape",
-        "use-after-free",
-        "patch-now",
-        "sctp"
-      ],
-      "whyItMatters": "This vulnerability is critical because it enables complete system compromise through both local privilege escalation and container escape, threatening both individual hosts and containerized infrastructure. The 18-year-old bug's long existence means many production systems may still be vulnerable, making rapid patching essential for organizations running Linux with SCTP support.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmTGemKyDLZPr_sBbt2AdOQMEBEcRFzic8_Ddtkx92vtPOfFdoiwxJ60b00usecTjHuIGUJuUIR2aB8MU2P7-GLc0NOuWsa3ctofrA2-wD38wgI4Fke3moSskWjiRJEXT8Yxl7Ye56NgGl9DZKr8zf974rHRsc1PtHie_iIPVyD18HMx49S02tGZ2EeDY/s1600/linux-sctp.jpg",
-      "processedAt": "2026-08-07T18:35:38.219479+00:00"
-    },
-    {
-      "id": "art-050bab6b",
-      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "summary": "A new attack class called NatJack exploits vulnerabilities in network address translation (NAT) systems to intercept and hijack active TCP connections, forge DNS responses, and reveal hidden network ports. Researcher Malcolm Stagg demonstrated at Black Hat USA 2026 that this attack affects multiple independent NAT implementations across different operating systems, including Windows. The technique can also be used to overwhelm NAT tables, disrupting network availability.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "nat-vulnerability",
-        "tcp-hijacking",
-        "dns-spoofing",
-        "network-security",
-        "black-hat-2026",
-        "session-hijacking"
-      ],
-      "whyItMatters": "NatJack represents a fundamental threat to network infrastructure used in homes and organizations worldwide, as it can intercept sensitive communications without requiring direct access to endpoints. The attack's effectiveness across multiple independent implementations suggests a systemic architectural weakness that defenders cannot easily patch, making this a long-term security concern for netwo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx8dmEkj0rsX2NREBfPOczKn7zadWRaVVOyVPVeaCPzCDdBAPhocCwP1CVbX_p1pj4Q7DVYsdusvWc9u9G7lO4BGYihT6BXnXY099zIs1B1PBefH71cXCHZucxaG2gEzqKdf9B3FVr9MJ34SntVezm4gNXWSxIMF05DpYUNF6qmfhb0hMiyNpsWDOtuRE/s1600/NatJack.jpg",
-      "processedAt": "2026-08-07T18:35:41.499965+00:00"
-    },
-    {
-      "id": "art-3294c885",
-      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "summary": "Hackers are running a widespread phishing campaign that tricks people into giving up their Microsoft 365 login credentials. Once they gain access, attackers use special proxy tools to hide their activity and hunt for employees in finance and payroll departments to steal sensitive business emails. This technique, called adversary-in-the-middle (AitM), allows attackers to stay hidden while impersonating legitimate users.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "aitm-attack",
-        "microsoft-365",
-        "account-compromise",
-        "email-theft",
-        "financial-targeting"
-      ],
-      "whyItMatters": "This campaign directly targets financial and payroll departments, making it a serious threat to business operations and employee data security. The use of residential proxies to hide malicious activity makes detection harder for organizations, increasing the risk that attackers go unnoticed while accessing sensitive financial information. Companies need to implement strong authentication methods l",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgH78NjDW1Q_sIk9dwQ1scYlCkNCMutfjGx_9flqrKbE42fEXqvHT8s5EeHTnWjbBGvzCuHPEWStR5r6wjwtIuuHF1hyphenhyphenot22E_Q98xedC1zXVhIhwglw6hLWQs45oSrPKPflK6Tt1BlHTj9iokMPpVaTehuemHGHDLL02cn2sqZJ5iIVstxiVf5IZ5Khodp/s1600/ms-phish.jpg",
-      "processedAt": "2026-08-07T18:35:44.527907+00:00"
-    },
-    {
-      "id": "art-3870b302",
-      "title": "Levi Strauss & Co. says hackers stole corporate data in cyberattack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/",
-      "summary": "Levi Strauss & Co. experienced a cyberattack where hackers used social engineering tactics to trick three employees into compromising their work machines and stealing corporate data. The attackers exploited human trust rather than technical vulnerabilities to gain unauthorized access to sensitive company information. This incident demonstrates how criminals can bypass technical security measures by manipulating employees directly.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "social-engineering",
-        "data-breach",
-        "employee-targeting",
-        "corporate-security"
-      ],
-      "whyItMatters": "This attack highlights that even large corporations with security infrastructure remain vulnerable when employees are manipulated through social engineering, making security awareness training essential for all organizations. The incident underscores that attackers often target the human element as the weakest link in security chains, requiring companies to invest in both technical defenses and on",
-      "image": null,
-      "processedAt": "2026-08-07T18:35:46.848252+00:00"
-    },
-    {
-      "id": "art-80c2dd9c",
-      "title": "Real emails, hijacked payments: Two H1 2026 attack chains",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/real-emails-hijacked-payments-two-h1-2026-attack-chains/",
-      "summary": "Gen's H1 2026 Threat Report identifies two dangerous attack chains targeting organizations and cryptocurrency users. The first attack exploits compromised business email accounts combined with browser manipulation to deliver banking malware to victims. The second attack hijacks clipboard data to intercept and redirect cryptocurrency transactions to attacker-controlled wallets.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "email-compromise",
-        "banking-malware",
-        "clipboard-hijacking",
-        "cryptocurrency-theft",
-        "browser-manipulation"
-      ],
-      "whyItMatters": "These attack chains demonstrate how adversaries are combining multiple techniques to bypass defenses and steal both financial credentials and digital assets. Organizations need to monitor for signs of email compromise and implement multi-factor authentication, while individual users should verify cryptocurrency addresses before sending payments and use security tools to prevent clipboard manipulat",
-      "image": null,
-      "processedAt": "2026-08-07T18:35:49.151010+00:00"
-    },
-    {
-      "id": "art-4fbc465f",
-      "title": "North Carolina Ports confirms cyberattack disrupting operations",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-07",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/",
-      "summary": "North Carolina Ports Authority experienced a cyberattack that disrupted information technology systems across multiple port facilities, including Port of Wilmington, Port of Morehead City, and Charlotte Inland Port. The attack slowed operational efficiency at these critical infrastructure locations. This incident highlights how cyber threats can impact essential transportation and logistics networks that move goods throughout the region.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "critical-infrastructure",
-        "port-operations",
-        "cyberattack",
-        "disruption",
-        "it-systems"
-      ],
-      "whyItMatters": "Attacks on port authorities demonstrate how cybercriminals target critical infrastructure that affects supply chains, commerce, and economic activity. These incidents show that operational technology and logistics networks require robust security defenses to prevent costly downtime. Understanding these real-world attacks helps organizations in transportation and infrastructure sectors strengthen t",
-      "image": null,
-      "processedAt": "2026-08-07T18:35:51.795159+00:00"
-    },
-    {
-      "id": "art-f78597b0",
-      "title": "‘Popa’ Botnet Linked to Publicly-Traded Israeli Firm",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-18",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "summary": "A large Android botnet called Popa has been infecting millions of TV boxes for four years, enabling advertising fraud, account takeovers, and data scraping. Security researchers have now traced the botnet's operations back to NetNut, a residential proxy service owned by Alarum Technologies Ltd, a publicly-traded Israeli company. This connection exposes how legitimate-appearing companies may be operating infrastructure used for widespread cybercrime.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "botnet",
-        "android-malware",
-        "residential-proxy",
-        "advertising-fraud",
-        "account-takeover",
-        "iot-security"
-      ],
-      "whyItMatters": "This case demonstrates how botnets exploiting consumer devices can operate at massive scale for years while hidden behind seemingly legitimate business fronts, making it critical for organizations and users to understand the risks of proxy services and compromised IoT devices. The involvement of a publicly-traded company highlights that cybercriminal infrastructure can be harder to identify and sh",
-      "image": null,
-      "processedAt": "2026-08-07T18:35:55.287904+00:00"
-    },
-    {
-      "id": "art-cec49ab6",
-      "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
-      "summary": "The Gentlemen ransomware group has become the second most active gang by victim count, using an aggressive recruitment strategy that offers affiliates 90% of ransom payments to attract skilled hackers. The article investigates potential real-world identities of the group's administrator. This rapid growth and high payout structure demonstrate how cybercriminal organizations are evolving to compete for talent in the ransomware ecosystem.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "cybercrime",
-        "affiliate-model",
-        "threat-actor",
-        "investigation"
-      ],
-      "whyItMatters": "Understanding the structure and recruitment tactics of major ransomware groups helps organizations assess their threat landscape and anticipate attack strategies. Identifying the administrators behind these operations can support law enforcement efforts and help the security community stay ahead of emerging threats.",
-      "image": null,
-      "processedAt": "2026-08-07T18:35:58.079141+00:00"
     }
   ]
 }
