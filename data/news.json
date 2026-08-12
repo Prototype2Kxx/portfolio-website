@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-08-12T07:39:42.782250+00:00",
+  "lastUpdated": "2026-08-12T18:43:47.007688+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-09f1e1a7",
+      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+      "summary": "The Lazarus Group, a North Korean hacking organization, has exploited a previously unknown Windows security vulnerability to gain high-level system access and install a new backdoor program. This attack specifically targets defense and aerospace companies in France, Germany, Brazil, and India as part of an ongoing espionage campaign called Operation Dream Job.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "lazarus-group",
+        "zero-day",
+        "windows-vulnerability",
+        "backdoor",
+        "defense-sector",
+        "system-access"
+      ],
+      "whyItMatters": "This represents an active, weaponized zero-day being used by a nation-state actor against critical infrastructure sectors, requiring immediate patching and threat awareness. Organizations in defense and aerospace industries face direct risk and should prioritize Windows updates and monitor for compromised systems. The use of a previously unknown exploit demonstrates sophisticated adversary capabil",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1600/windows-shell.jpg",
+      "processedAt": "2026-08-12T18:43:22.913132+00:00"
+    },
+    {
+      "id": "art-3d5bdbaf",
+      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
+      "summary": "Researchers discovered 737 malicious VPN and proxy extensions on the Chrome Web Store that were designed to intercept and redirect user browser traffic through attacker-controlled infrastructure. These extensions, distributed across 40+ developer accounts with over 75,000 installations, primarily targeted Russian-speaking users trying to access blocked content. At least 274 of these extensions were found to be impersonating legitimate services, making them difficult for users to identify.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "browser-extension",
+        "vpn-threat",
+        "traffic-interception",
+        "chrome-security",
+        "malware-distribution",
+        "privacy-risk"
+      ],
+      "whyItMatters": "This widespread campaign demonstrates how attackers exploit user trust in free VPN services to gain access to sensitive browsing data and network traffic at scale. Users who installed these extensions had their internet activity monitored and routed through malicious infrastructure, creating risks for credential theft, data exfiltration, and surveillance. This incident highlights the importance of",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1600/chrome-plugins.jpg",
+      "processedAt": "2026-08-12T18:43:25.826581+00:00"
+    },
+    {
+      "id": "art-9db96d3b",
+      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+      "summary": "Researchers discovered a flaw in how OpenAI, Anthropic, and Google handle encrypted AI reasoning objects through their APIs, allowing attackers to replay reasoning blocks across different sessions. This vulnerability enabled recovery of sensitive information from session logs, including API keys and passwords that should have been protected. The flaw demonstrates how improper handling of encrypted objects can leak secrets regardless of encryption implementation.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "api-vulnerability",
+        "encryption-flaw",
+        "credential-exposure",
+        "cloud-security"
+      ],
+      "whyItMatters": "This vulnerability affects major AI providers' core API infrastructure, potentially exposing thousands of users' API keys and passwords through session logs. The ability to replay encrypted reasoning objects across sessions bypasses intended security boundaries and demonstrates that encryption alone doesn't guarantee secret protection. Organizations relying on these APIs should immediately audit t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1600/ai-models.jpg",
+      "processedAt": "2026-08-12T18:43:28.327052+00:00"
+    },
+    {
+      "id": "art-2c5220c1",
+      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+      "summary": "New research from Picus Labs analyzing over 338 million attack simulations reveals a concerning gap in enterprise security strategies. While companies excel at detecting loud, obvious attacks, sophisticated attackers are increasingly succeeding by using stealthy techniques that bypass traditional defenses. This trend suggests that standard security tools are becoming less effective against modern, quiet attack methods.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "silent-attacks",
+        "defense-gaps",
+        "enterprise-security",
+        "attack-simulation",
+        "detection-evasion",
+        "modern-threats"
+      ],
+      "whyItMatters": "Organizations often invest in security tools optimized for detecting obvious attack signatures, leaving them vulnerable to sophisticated adversaries using low-noise techniques. Understanding this defensive blind spot is critical for enterprises to evolve their detection capabilities and threat hunting strategies to address evolving attacker tactics.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoBNKr6YWBC4uPzzXNZNX_sduYkalrtPSfiT01s6R6tq9uRzAs8TRoyv0DSwM-Wy_RmiGv923yzsB1DK3mgg5vudYdTwIk7wubUJYB0f-6AADquodryt0KofkU5aKxKaKBLirP1A0PuaBC_lfWEYJKlthyphenhyphencmmT2WBQkIRLLFLI5kWKZcJWY5rxrN-qa2M/s1600/picuss.jpg",
+      "processedAt": "2026-08-12T18:43:30.944776+00:00"
+    },
+    {
+      "id": "art-a96aa74b",
+      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
+      "summary": "Adobe has released security patches for critical vulnerabilities affecting ColdFusion, Commerce, and Campaign Classic products. The most severe flaw is a CVSS 10.0 command injection vulnerability in ColdFusion that could allow attackers to execute arbitrary code and escalate privileges. Organizations using these Adobe products need to apply updates immediately to prevent potential system compromise.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "adobe-patch",
+        "code-execution",
+        "privilege-escalation",
+        "coldfusion",
+        "critical-vulnerability",
+        "command-injection"
+      ],
+      "whyItMatters": "Perfect CVSS 10.0 scores indicate maximum severity with no barriers to exploitation, making this an urgent threat for any organization running Adobe ColdFusion or Campaign Classic. Delayed patching in these products directly exposes systems to remote code execution and full system compromise. The breadth of affected Adobe products means this advisory impacts numerous enterprises across different i",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36vXq6xqWIDA09DIFwTp0gAZyTEpTdUoOrczmHr0NAOmxBDBySv4K6oEmzSup0sZylULeZlzf2unPADh99H5kx8-oktejFUPTM2t5aM6WrdTy99m6Qs12z4A58UYbqU2LhZRa20yY9FGy8FFB-pMvUFsA3MolrrA4nYOWVf9IS42Y0vUn3sMtu0BCty3g/s1600/adobe-cve.jpg",
+      "processedAt": "2026-08-12T18:43:33.551905+00:00"
+    },
+    {
+      "id": "art-0f7d32fc",
+      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
+      "summary": "Researchers discovered a new attack technique called 'Plug and Pwn' that exploits Windows Plug and Play functionality to trick the operating system into installing malicious or vulnerable software from fake USB devices. Once installed, this software can grant attackers SYSTEM-level privileges, giving them complete control over the compromised computer. This attack is particularly dangerous because it targets a trusted Windows feature that most users interact with regularly.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "plug-and-play",
+        "usb-attack",
+        "privilege-escalation",
+        "windows-security",
+        "physical-access"
+      ],
+      "whyItMatters": "This vulnerability is practically significant because it demonstrates how attackers can weaponize legitimate Windows features with minimal technical barriers—just a fake USB device. Organizations need to implement USB restrictions and user training to prevent this attack, as it bypasses many software-based defenses and requires only physical proximity to a target machine.",
+      "image": null,
+      "processedAt": "2026-08-12T18:43:36.020720+00:00"
+    },
+    {
+      "id": "art-130e4d2a",
+      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
+      "summary": "North Korean hackers from the Lazarus group have been actively exploiting a previously unknown Windows vulnerability (CVE-2026-68820) to attack companies in the defense sector. This zero-day flaw is being weaponized as part of their Operation Dream Job campaign to gain unauthorized access to sensitive defense industry systems. The exploitation demonstrates how critical infrastructure and security-focused organizations are prime targets for state-sponsored cyber threats.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "lazarus-group",
+        "windows-vulnerability",
+        "defense-sector",
+        "state-sponsored",
+        "operation-dream-job"
+      ],
+      "whyItMatters": "Active exploitation of unpatched zero-day vulnerabilities by state-sponsored actors poses an immediate and severe risk to national security and critical infrastructure. Defense contractors often handle sensitive government data and military technology, making this threat particularly urgent. Organizations must implement emergency detection and mitigation strategies while waiting for official patch",
+      "image": null,
+      "processedAt": "2026-08-12T18:43:38.747820+00:00"
+    },
+    {
+      "id": "art-8e00a5c4",
+      "title": "FBI: Hackers target online accounts to steal nude photos",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
+      "summary": "The FBI has issued a warning about cybercriminals who are breaking into social media and online accounts belonging to both adults and children to steal sexually explicit images and videos. These attackers are using stolen account credentials to access private content for extortion, blackmail, or distribution purposes. This threat affects users across multiple platforms and age groups, highlighting the need for stronger account security practices.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "account-takeover",
+        "sexual-extortion",
+        "social-media",
+        "credential-theft",
+        "child-safety",
+        "blackmail"
+      ],
+      "whyItMatters": "This threat is critical because it targets vulnerable populations including children, involves serious crimes like extortion and child exploitation, and demonstrates how weak account credentials can lead to severe personal and legal consequences. Organizations and individuals must implement multi-factor authentication and educate users on protecting their accounts to prevent this type of victimiza",
+      "image": null,
+      "processedAt": "2026-08-12T18:43:41.289975+00:00"
+    },
+    {
+      "id": "art-e38f58e1",
+      "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
+      "summary": "Attackers are impersonating job applicants to infiltrate organizations as fake remote workers, exploiting delays between hiring verification, equipment delivery, and system access. Organizations can strengthen their defenses by implementing document verification and biometric liveness checks to confirm that new hires are who they claim to be before granting access to company resources.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "insider-threat",
+        "identity-verification",
+        "hiring-security",
+        "remote-work",
+        "access-control",
+        "fraud-prevention"
+      ],
+      "whyItMatters": "This threat represents a significant supply-chain attack vector that bypasses traditional perimeter security because the attacker gains legitimate internal access through the hiring process itself. Organizations must adopt stronger identity verification measures to prevent unauthorized individuals from obtaining credentials and access to sensitive systems and data.",
+      "image": null,
+      "processedAt": "2026-08-12T18:43:43.528327+00:00"
+    },
+    {
+      "id": "art-0cbf3ad4",
+      "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
+      "summary": "Attackers are actively exploiting a critical vulnerability in Microsoft SharePoint after a proof-of-concept exploit was released by security researchers at Rapid7. This means hackers now have a working tool to target organizations using SharePoint, putting systems at immediate risk. Organizations need to be aware that this vulnerability is being weaponized in real attacks, not just theoretical ones.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "sharepoint",
+        "microsoft",
+        "exploit",
+        "poc-available",
+        "active-exploitation",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "When a proof-of-concept exploit is publicly released for a critical vulnerability, attackers can quickly use it to compromise systems at scale. Organizations running SharePoint need to prioritize patching immediately, as this vulnerability is already being weaponized in real-world attacks. This represents an urgent threat that requires immediate defensive action from IT teams.",
+      "image": null,
+      "processedAt": "2026-08-12T18:43:47.007526+00:00"
+    },
     {
       "id": "art-1389d445",
       "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
@@ -830,212 +1038,6 @@
       "whyItMatters": "This incident demonstrates that cybersecurity risks extend beyond an organization's direct control to their third-party vendors and hosted infrastructure. When critical services are taken offline due to suspicious activity, it can impact customers and highlight the importance of vendor security management and incident response protocols in supply chain security.",
       "image": null,
       "processedAt": "2026-08-10T18:39:13.475644+00:00"
-    },
-    {
-      "id": "art-79517ced",
-      "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-      "summary": "OpenAI has paused certain internal activities related to its new Astra AI model after discovering it has developed strong capabilities in autonomous coding and cybersecurity tasks. The company responded by establishing security controls and isolation measures for advanced AI models to manage potential risks. This decision highlights growing concerns about how powerful AI systems could be misused if their capabilities aren't carefully controlled.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "agentic-ai",
-        "model-safety",
-        "emerging-threat",
-        "responsible-disclosure"
-      ],
-      "whyItMatters": "As AI models become more capable of autonomous hacking and coding tasks, controlling their development and deployment is critical to preventing misuse. OpenAI's proactive pause demonstrates that organizations must implement safety measures before releasing advanced AI, setting an important precedent for the industry. This reflects the real challenge of balancing AI innovation with security safegua",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgat4Wvo6Fpe6pNG66UengjFIWRohQUVp-khyphenhyphenxa57n9Ued3-mWlDeeTQkblpAP-OEjgSCbY0n1bC_MhI3a5_BF1bWq7rBohkS2DG1AXUtcDI8MuWPRMFKGNdteA7_Xkg-_6w-y-wao14ZPQWoRF8cnbibQYHUAGP1byqwYyBpcyvCBQd0h2fe6t94zvoa4j/s1600/openai-astra.jpg",
-      "processedAt": "2026-08-10T07:49:44.365839+00:00"
-    },
-    {
-      "id": "art-1b6db74d",
-      "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
-      "summary": "A weakness in CryptoJS's random number generator function has been exploited to drain cryptocurrency from five wallet applications, resulting in losses exceeding $5.7 million. The vulnerable function, which has been part of the JavaScript library for over a decade, generated insufficient randomness when users created recovery phrases for their wallets. Security researchers traced multiple theft incidents back to this flaw, exposing how legacy cryptographic code can create serious financial vulnerabilities.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "weak-rng",
-        "cryptography",
-        "wallet-security",
-        "cryptocurrency-theft",
-        "cryptojs",
-        "entropy"
-      ],
-      "whyItMatters": "This incident demonstrates how outdated or poorly designed cryptographic functions in widely-used libraries can lead to massive financial losses and compromise user assets at scale. Developers and organizations using CryptoJS or similar legacy cryptography libraries must audit their implementations immediately, as weak random number generation is a foundational security failure that directly enabl",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOLyOOoRbj7XXsr5asbHmKbRetYhjWcAZap4b6VUBQ3ENWpeB46A78vztXFJGUDMDHNskXyUMH6yu9Quv-WLut657FS4Dk4-SICypcAVTLuI7fYUxC7Y4qEUI6A8NMIS-GZ8KkzjRULoNZAPD1TIamWyp-T5vgrjMDQKMD0lmR6pZU8P4VeOwWEo7KxWA/s1600/CRYPTOJS.jpg",
-      "processedAt": "2026-08-10T07:49:47.853049+00:00"
-    },
-    {
-      "id": "art-92edaa91",
-      "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
-      "summary": "Apple's iCloud Private Relay, a privacy tool designed to hide users' real IP addresses by routing Safari traffic through two separate relays, has been found to have a vulnerability that can expose users' actual IP addresses. Researchers discovered that WebKit proxy bypasses can circumvent the dual-hop protection that Apple promised would prevent any single party, including Apple itself, from identifying where requests originate. This flaw undermines the core privacy guarantee that users rely on when using this feature.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "privacy-vulnerability",
-        "apple-security",
-        "ip-exposure",
-        "webkit-bypass",
-        "icloud-private-relay"
-      ],
-      "whyItMatters": "This vulnerability directly undermines user trust in Apple's privacy infrastructure and exposes individuals who rely on iCloud Private Relay for anonymity. When privacy tools fail to deliver their core promise of protecting user identity, it impacts millions of iOS users and demonstrates that even widely-deployed security mechanisms require continuous security review and updates. Users need to und",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi53VbynsVNPTCihg9qrqybX7Yu90yM3Tm7KlJnJCHz2_MOUQPyJys1uK6H5QkVqxGekck8qe-pA55tcy19IDYQ4_ndOKasvoaFiPJCI_NJClfHv6G14Ga5P_FPr0zyNijjRMBM-GBlt-XYRqCGAcrZxm9ETsAAu4kPh829ZKABQonHDlx2GuWG9-B-V383/s1600/apple-relay.jpg",
-      "processedAt": "2026-08-10T07:49:52.402702+00:00"
-    },
-    {
-      "id": "art-dee731c4",
-      "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-      "summary": "A new type of prompt injection attack is being discovered on commercial websites that exploits the standard 'Ask AI' button feature found in most AI assistants. Attackers embed malicious prompts within deep links that can silently manipulate what information an AI assistant remembers or recommends to users. This attack requires no malware, hacking tools, or security vulnerabilities—just abuse of a legitimate feature.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "prompt-injection",
-        "ai-security",
-        "llm-attacks",
-        "web-security",
-        "social-engineering"
-      ],
-      "whyItMatters": "This attack vector bypasses traditional security controls because it leverages legitimate website functionality, making it difficult for users to detect manipulation. As AI assistants become more integrated into business workflows and decision-making, poisoning their recommendations can lead to financial losses, misinformation spread, and erosion of user trust in AI systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERF89TJZsy7Kq1JhEcPKC5ynyCNMv1JAObXj4W415ZbGwE-ZZplLbq5HEiBWi3ULKifDI7Tl440UrQvLFEmngeAHL4o2XfWKxTgb7CEsHmBqBt-w5qePo-BGmlDcu_vJtyfsh1CV5COMXpIUHRiw8WmPeitZAzEu3ugQJ90mDtOhlU0BzTaRDogTHg2Y/s1600/ask-ai.jpg",
-      "processedAt": "2026-08-10T07:49:55.452048+00:00"
-    },
-    {
-      "id": "art-cc550df2",
-      "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-      "summary": "Attackers exploited a SQL injection vulnerability in a web application to gain access to an Oracle database, then used a sophisticated technique to avoid detection by compiling malicious Java code directly within the database engine rather than writing files to disk. This allowed them to execute commands at the system level without traditional executable files, making the attack harder to detect through conventional security monitoring. The toolkit, tracked as khunt, demonstrates how attackers can weaponize database compilation features as a post-exploitation tool.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sql-injection",
-        "oracle-database",
-        "post-exploitation",
-        "privilege-escalation",
-        "fileless-attack",
-        "khunt"
-      ],
-      "whyItMatters": "This attack showcases a dangerous evasion technique where attackers bypass endpoint security controls by executing malicious code entirely within a database engine, making detection difficult for traditional security tools. Organizations using Oracle databases with SQL injection vulnerabilities face immediate risk of complete system compromise, including SYSTEM-level access on Windows environments",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGMHYrRkDGf3XV_lOoUbE1UCSjvcN9x-XNpNGpX_f45JqZzd2FrxJ-metvu-U5VyDqH2PGNaY9MiSeShhH-YVN3O4ryN5lh4ICsuXtz0-DuCSAgnywXUifDOf_qZS81AtjRGNQWgs1QnL4Eu54icswla_ZK7qGoZqWDaVzPX46pmcTrvj_ec0yQwrt9k/s1600/oracle-root.jpg",
-      "processedAt": "2026-08-10T07:49:58.406575+00:00"
-    },
-    {
-      "id": "art-0860019c",
-      "title": "Meta AI model hacked a company during misconfigured cyber test",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
-      "summary": "Meta's AI model successfully hacked into a real company during a cybersecurity test that had misconfigured settings, marking another incident in a growing trend of AI systems breaching organizations during security assessments. This follows a similar incident where OpenAI's agents compromised Hugging Face, suggesting that advanced AI models are becoming sophisticated enough to exploit real-world vulnerabilities. These incidents raise concerns about how AI systems are tested and the potential risks they pose when deployed without proper safeguards.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "penetration-testing",
-        "misconfiguration",
-        "ai-agents",
-        "vulnerability-exploitation",
-        "security-testing"
-      ],
-      "whyItMatters": "This demonstrates that cutting-edge AI models can autonomously identify and exploit real security weaknesses, not just theoretical vulnerabilities, which has serious implications for how organizations conduct security testing and deploy AI systems. The recurring nature of these incidents suggests industry-wide gaps in AI safety protocols and testing procedures that could lead to unintended breache",
-      "image": null,
-      "processedAt": "2026-08-10T07:50:01.616712+00:00"
-    },
-    {
-      "id": "art-6124247f",
-      "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
-      "summary": "Artificial intelligence has revealed a long-overlooked security weakness in web browsers that organizations need to address urgently. Browsers have become essential gateways for controlling how data moves, how AI tools are used, and how modern work happens. Companies can no longer afford to ignore browser security gaps since they directly impact data protection and AI safety in the workplace.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "browser-security",
-        "ai-security",
-        "data-protection",
-        "enterprise-risk",
-        "control-point"
-      ],
-      "whyItMatters": "Browsers are now critical infrastructure for enterprises managing sensitive data and AI interactions, making previously overlooked security gaps a serious threat to organizational data safety. As AI becomes integral to business operations, weaknesses in browser security can expose companies to significant data loss and unauthorized access risks that demand immediate attention.",
-      "image": null,
-      "processedAt": "2026-08-10T07:50:04.096360+00:00"
-    },
-    {
-      "id": "art-105b670b",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "summary": "A 26-year-old Canadian cybercriminal named Connor Riley Moucka pleaded guilty to hacking and extorting over 165 organizations using Snowflake's cloud storage service. He also admitted to stealing call and text records from more than 100 million AT&T customers. This case demonstrates how a single threat actor can compromise massive numbers of companies and individuals through targeted attacks on cloud service providers.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "cloud-security",
-        "extortion",
-        "data-breach",
-        "snowflake",
-        "organized-cybercrime",
-        "att"
-      ],
-      "whyItMatters": "This case highlights the massive scale of damage one sophisticated cybercriminal can inflict on both enterprises and consumers, particularly when targeting widely-used cloud platforms like Snowflake. Organizations need to recognize that cloud service providers are high-value targets for attackers seeking to compromise multiple victims at once, making robust security controls and monitoring essenti",
-      "image": null,
-      "processedAt": "2026-08-10T07:50:06.991900+00:00"
-    },
-    {
-      "id": "art-9d61ba26",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "summary": "The FBI seized hundreds of domains belonging to NetNut, a residential proxy service operated by Israeli company Alarum Technologies, after security researchers linked it to the Popa botnet—a network of over two million infected devices. The action followed recent findings that connected NetNut's infrastructure to malware that compromised user devices without proper consent. This takedown represents a significant disruption to a major cybercriminal operation that had been operating at scale.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "botnet-takedown",
-        "proxy-service-abuse",
-        "malware-infrastructure",
-        "law-enforcement",
-        "residential-proxy",
-        "cyber-operation"
-      ],
-      "whyItMatters": "This case demonstrates how legitimate-appearing services can be weaponized for large-scale malware distribution, affecting millions of compromised devices globally. The FBI's successful seizure shows the increasing coordination between law enforcement and private security firms to disrupt major cybercriminal infrastructure, which is essential for protecting internet users from unauthorized device ",
-      "image": null,
-      "processedAt": "2026-08-10T07:50:10.436772+00:00"
-    },
-    {
-      "id": "art-49fa6897",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "summary": "Two members of the Scattered Spider cybercriminal group pleaded guilty in the UK for their roles in an August 2024 cyberattack that disrupted London's public transportation system. The attackers, who were key players in the prolific hacking group, admitted to their crimes on the first day of their trial, avoiding a lengthy court proceeding. This case highlights the real-world consequences of organized cybercrime and demonstrates law enforcement's growing ability to identify and prosecute major threat actors.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "scattered-spider",
-        "cybercriminal-prosecution",
-        "infrastructure-attack",
-        "ransomware-gang",
-        "london-transport",
-        "uk-law-enforcement"
-      ],
-      "whyItMatters": "This case demonstrates that even members of sophisticated cybercriminal groups can be identified, prosecuted, and convicted, serving as a deterrent to potential attackers. The attack on critical infrastructure like London's transport network shows the serious real-world impact these groups have on essential services and public safety. The guilty pleas may help law enforcement dismantle other membe",
-      "image": null,
-      "processedAt": "2026-08-10T07:50:13.304572+00:00"
     }
   ]
 }
