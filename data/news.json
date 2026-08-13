@@ -1,7 +1,217 @@
 {
-  "lastUpdated": "2026-08-12T18:43:47.007688+00:00",
+  "lastUpdated": "2026-08-13T07:41:49.490280+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-6d125b18",
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-13",
+      "originalUrl": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "summary": "Microsoft SharePoint users are under active threat from attackers exploiting CVE-2026-55040, a critical authentication bypass vulnerability that was patched in July 2026. Hackers began targeting the flaw shortly after a proof-of-concept code was publicly released, allowing unauthorized access to systems. This vulnerability has a high severity score of 9.1, making it a significant risk for organizations using SharePoint.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sharepoint",
+        "authentication-bypass",
+        "cve-2026-55040",
+        "proof-of-concept",
+        "active-exploitation",
+        "patch-tuesday"
+      ],
+      "whyItMatters": "Public PoC releases dramatically accelerate exploitation timelines, turning theoretical vulnerabilities into real-world threats within hours or days. Organizations that haven't applied the July 2026 patch are likely already compromised or actively targeted, making immediate patching a business-critical priority. This incident demonstrates why security teams must treat authentication bypass vulnera",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1600/poc.jpg",
+      "processedAt": "2026-08-13T07:41:23.883441+00:00"
+    },
+    {
+      "id": "art-d13756ee",
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+      "summary": "Attackers are actively exploiting a critical vulnerability (CVE-2026-59310) in VMware vCenter that allows them to execute arbitrary code and gain persistent remote access to systems. This directory-traversal flaw has a severity score of 9.8, making it extremely dangerous for any organization using affected vCenter servers. Broadcom has released patches, but the active exploitation underscores the urgent need for rapid patching across enterprise environments.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "vmware-vcenter",
+        "cve-2026-59310",
+        "remote-code-execution",
+        "patch-urgently",
+        "directory-traversal",
+        "persistent-access"
+      ],
+      "whyItMatters": "Active exploitation of a 9.8 CVSS vulnerability in a widely-deployed virtualization platform poses an immediate threat to thousands of organizations. Successful attacks could give adversaries complete control over critical infrastructure, making rapid patching and vulnerability management essential defensive priorities.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuo4K_GT6YrQhFiPQrrf58NN4PQM0_aYVTxWXeaJ1KsqjBJ69c746Hj6DyhGH-uzhZvEowVR8YMbITHBpOcT3OQevcTJg36qwJ1WfPtFZySMVg_B2JVBE763_JVHh3gn563WAYxf72bnd1g9QC2tkWd6Bbm9_TWXPhMxk1vnk6gxnUM4eDQNxXouVEtJ9i/s1600/vmware.jpg",
+      "processedAt": "2026-08-13T07:41:26.471335+00:00"
+    },
+    {
+      "id": "art-01e9b47f",
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "summary": "Attackers compromised two versions of the popular LiteLLM Python package on PyPI and hosted malicious code for approximately 40 minutes in March that could steal sensitive credentials like cloud keys, SSH keys, and database passwords. Security researchers discovered that the attackers collected roughly 434,000 files from systems that downloaded the infected packages, potentially exposing over 2,100 organizations to credential theft.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "credential-theft",
+        "pypi-compromise",
+        "cloud-security",
+        "malware",
+        "data-exposure"
+      ],
+      "whyItMatters": "This attack demonstrates how compromised open-source packages can rapidly distribute malware to thousands of organizations, making supply chain security a critical vulnerability. Organizations using LiteLLM need to immediately audit their systems for unauthorized access, rotate compromised credentials, and verify package integrity—highlighting the ongoing risk of relying on third-party dependencie",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjTLayRrpqM-bUGPU8pmWZIGJ_TCnkLLvykLv9Z_-R-QFmC1f6nIxSff2TTqZ77xC1n-l7Y44qKhUVdvRX9bUgNjVcGhF7A0vkRGnumHe6-bUoCFNH4PAb11zHkdjq3Xd2kF1jiGi8quRW4WFOy-0I_CRCorkQGuh9D2K8KhDAFxzsA7a0yxp2VkM-uGo/s1600/llmhack.jpg",
+      "processedAt": "2026-08-13T07:41:29.331912+00:00"
+    },
+    {
+      "id": "art-e90c58b4",
+      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+      "summary": "Zoom's annotation tool contained a critical vulnerability that allowed meeting participants to take control of other attendees' computers without any user interaction. Both screen sharers and viewers could potentially hijack each other's devices, making it a serious risk for anyone using Zoom's collaborative features. The flaw required no victim action like clicking links or downloading files, making it particularly dangerous.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "zoom",
+        "annotation-tool",
+        "remote-code-execution",
+        "video-conferencing",
+        "privilege-escalation",
+        "zero-interaction"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how widely-used communication platforms can harbor serious security flaws that enable unauthorized system access with no user awareness or involvement. For organizations relying on Zoom for meetings, this represents a significant risk to endpoint security and highlights the need for immediate patching of collaborative software tools.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIX-dcsP7VVws3iI-g-myaz7Wyt8fgrlR9U3CtweEsSriOayyy8r9uyB_1mVcMhSBPyulDXj47SOLsWhl7XQjgMpLYGSjF79fiMTw7zEVOAceKqtAlHCVAMs38paehT0bmDN1zdAyMjHgvdUfYzqRCGEU1StMPyrYW5xIkJzG6DIHh9R9gemNCus_Mwlc/s1600/zoomsday.jpg",
+      "processedAt": "2026-08-13T07:41:32.161565+00:00"
+    },
+    {
+      "id": "art-669a02d7",
+      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+      "summary": "Russian nation-state actors linked to Sandworm are running a targeted social engineering campaign against Ukrainian IT workers, posing as recruiters to distribute malware. The threat group UAC-0145 uses fake job interview offers to trick victims into installing a malicious VPN that grants attackers command execution capabilities. This campaign demonstrates how state-sponsored groups exploit job-seeking behavior to compromise high-value targets in critical sectors.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "sandworm",
+        "social-engineering",
+        "nation-state",
+        "malware-distribution",
+        "targeted-attack",
+        "ukraine"
+      ],
+      "whyItMatters": "This attack is critical because it targets IT workers—individuals with network access and elevated privileges—making successful compromises extremely damaging. The use of legitimate-appearing recruitment channels lowers user suspicion and increases infection rates, while the command-capable VPN provides attackers persistent remote access to organizational networks. Organizations must train employe",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP9vK0AfjfbpQDa7i5il113N22qO5N-mxuOw7qoNVnvUOnQIYRjhuKA8rxdRhaZ13t0r5jZtsj1bjQQatdbdxi3L1Fso99wsDJIAKkw6NVklb6S2PBfipUtUm6qNdGofjKrmSAHUc0P4qgPRK2tDoGftkwyD17KQHQm6cYP80rT4dUH-tg0rnd5SSfQBJl/s1600/interview.jpg",
+      "processedAt": "2026-08-13T07:41:35.279688+00:00"
+    },
+    {
+      "id": "art-a4740543",
+      "title": "\"City-Forum\" data-theft attacks target Salesforce, ServiceNow portals",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/city-forum-data-theft-attacks-target-salesforce-servicenow-portals/",
+      "summary": "Attackers are running a campaign called 'City-Forum' that exploits publicly accessible portals on Salesforce Experience Cloud and ServiceNow to steal sensitive data. The attackers use custom tools to target information that has been exposed to anonymous users through these business platforms. This ongoing threat demonstrates how misconfigured cloud portals can become entry points for large-scale data theft.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-theft",
+        "salesforce",
+        "servicenow",
+        "cloud-security",
+        "portal-exposure",
+        "custom-malware"
+      ],
+      "whyItMatters": "Many organizations use Salesforce and ServiceNow portals to serve customers but may not realize that misconfigured access settings can expose sensitive data to attackers. This campaign shows that threat actors are actively targeting these widely-used platforms, making it critical for security teams to audit portal permissions and data visibility settings to prevent unauthorized access.",
+      "image": null,
+      "processedAt": "2026-08-13T07:41:37.840461+00:00"
+    },
+    {
+      "id": "art-82a58ea1",
+      "title": "Android malware combo takes out loans and relays victims' credit cards",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/android-malware-combo-takes-out-loans-and-relays-victims-credit-cards/",
+      "summary": "Cybercriminals are using a combination of two Android malware tools—WindRelay and SpyNote—to compromise mobile devices and steal financial information in real time. WindRelay uses NFC (near-field communication) relay technology to intercept credit card data, while SpyNote gives attackers remote control of infected phones to execute unauthorized transactions like taking out loans. This coordinated attack demonstrates how malware is evolving to target mobile payment systems and financial accounts simultaneously.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "android-malware",
+        "financial-theft",
+        "nfc-relay",
+        "mobile-security",
+        "remote-access-trojan",
+        "credit-card-fraud"
+      ],
+      "whyItMatters": "This attack represents a critical threat to mobile banking security because it combines real-time card theft with remote device control, allowing criminals to bypass traditional fraud detection and commit unauthorized financial transactions before victims can respond. The use of NFC relay technology adds a new attack vector that most Android users are unaware of, making this particularly dangerous",
+      "image": null,
+      "processedAt": "2026-08-13T07:41:40.871714+00:00"
+    },
+    {
+      "id": "art-43aeb2e9",
+      "title": "Hackers exploit critical Adobe Commerce flaw to hijack customer accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-adobe-commerce-flaw-to-hijack-customer-accounts/",
+      "summary": "A critical vulnerability in Adobe Commerce and Magento platforms is being actively exploited by attackers to gain unauthorized access to customer accounts. This flaw, identified as CVE-2026-71362, poses an immediate threat to e-commerce businesses and their customers. Organizations using these platforms need to take urgent action to protect their systems and user data.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "adobe-commerce",
+        "magento",
+        "account-hijacking",
+        "cve-2026-71362",
+        "active-exploitation",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability directly threatens e-commerce operations and customer data security, with active exploitation already underway. Organizations using Adobe Commerce or Magento must prioritize patching immediately to prevent account takeovers and potential financial losses. The widespread use of these platforms means a large number of businesses and millions of customers could be at risk.",
+      "image": null,
+      "processedAt": "2026-08-13T07:41:43.364386+00:00"
+    },
+    {
+      "id": "art-47a474eb",
+      "title": "Hundreds of fake Chrome VPN extensions route traffic through a proxy",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hundreds-of-fake-chrome-vpn-extensions-route-traffic-through-a-proxy/",
+      "summary": "Cybercriminals distributed over 737 fake VPN and proxy extensions on the Chrome Web Store that impersonated legitimate services. These malicious extensions deceived users into installing them by using trusted brand names, then redirected all their internet traffic through unauthorized SOCKS5 proxies controlled by a single operator. This scheme allowed attackers to intercept, monitor, and potentially manipulate users' online activity while masquerading as safe privacy tools.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "fake-extensions",
+        "chrome-store",
+        "vpn-impersonation",
+        "proxy-hijacking",
+        "browser-security",
+        "traffic-interception"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit trusted platforms like the Chrome Web Store to distribute malware at scale, affecting hundreds of thousands of potential users. Users installing these extensions believing they were getting privacy protection actually exposed their entire internet activity to attackers, creating a serious privacy and data theft risk. This highlights the critical n",
+      "image": null,
+      "processedAt": "2026-08-13T07:41:46.626392+00:00"
+    },
+    {
+      "id": "art-a0c13065",
+      "title": "Signal adds new security feature to thwart man-in-the-middle attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/signal-adds-new-security-feature-to-thwart-man-in-the-middle-attacks/",
+      "summary": "Signal has launched Automatic Key Verification, a new security feature designed to protect users from man-in-the-middle attacks on encrypted messages. This feature helps verify that encrypted conversations haven't been secretly intercepted or compromised. By automating the key verification process, Signal makes it easier for users to confirm the authenticity of their communications without requiring manual verification steps.",
+      "category": "Privacy",
+      "severity": "Medium",
+      "tags": [
+        "end-to-end-encryption",
+        "man-in-the-middle",
+        "key-verification",
+        "privacy",
+        "messaging-security",
+        "authentication"
+      ],
+      "whyItMatters": "Man-in-the-middle attacks remain a significant threat to encrypted communications, and automating key verification removes friction from security practices, encouraging more users to actively protect their conversations. This enhancement strengthens Signal's position as a privacy-focused messaging platform and sets a standard for how secure communication tools should operate. Practical adoption of",
+      "image": null,
+      "processedAt": "2026-08-13T07:41:49.490126+00:00"
+    },
     {
       "id": "art-09f1e1a7",
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
@@ -830,214 +1040,6 @@
       "whyItMatters": "LoadMaster is widely deployed in enterprise networks to manage traffic and ensure availability, making this vulnerability a serious threat to critical infrastructure. Active exploitation means attackers are already weaponizing this flaw, making immediate patching essential to prevent widespread compromise. Organizations delayed in applying fixes face direct risk of network takeover and potential d",
       "image": null,
       "processedAt": "2026-08-11T07:15:31.446321+00:00"
-    },
-    {
-      "id": "art-dd289bc3",
-      "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
-      "summary": "AI is dramatically accelerating software development, enabling teams to produce 10 to 50 times more code than before. However, security teams are struggling to keep pace with vulnerability reviews, dependency management, and risk control at traditional human speeds. The challenge now is ensuring security doesn't become a bottleneck or lose visibility over what gets deployed to production.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-development",
-        "secure-coding",
-        "vulnerability-management",
-        "dependency-control",
-        "dev-security",
-        "risk-management"
-      ],
-      "whyItMatters": "As AI-assisted development becomes mainstream, organizations face a critical gap between code generation speed and security review capacity. Without proper controls and automation, this speed advantage could introduce unvetted vulnerabilities at scale, making it essential for security teams to adopt AI-driven tools and processes to maintain oversight without slowing innovation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy3fcUJacnxspYO1ssk2-ESCQ9QYb5BBCB0-3Jk8UyWQFmKZxt8RCeYemwUlJ08y_hnkyVm4LaAq6a_oyz5BPmpuwkmephJ0K7iy6cFvPjAe-b3pQ4Q28jh3KzNqLhZ6qtecuG9jenDpeVsjpUrG9ZBEwe2WStxgh6RiOwhI_rlsxYelFv2BD31o9rhd8/s1600/chain-webinar.jpg",
-      "processedAt": "2026-08-10T18:38:47.225784+00:00"
-    },
-    {
-      "id": "art-a00cdeea",
-      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-      "summary": "A China-linked hacking group called Storm-1175 has started using a new ransomware called StormEncryptor instead of their previous Medusa ransomware. This ransomware is written in C++ and adds a .encrypted file extension to infected files. The group likely deployed this new tool through a vulnerability in N-central software.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "china-linked",
-        "stormencryptor",
-        "n-central-vulnerability",
-        "threat-actor",
-        "financially-motivated"
-      ],
-      "whyItMatters": "Organizations need to be aware that established threat actors are continuously evolving their tools and tactics, making it harder to defend against attacks. The exploitation of N-central vulnerabilities puts managed service providers and their clients at direct risk. Understanding these shifts in adversary behavior helps security teams update their detection rules and incident response plans.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s1600/strom-ransomware.jpg",
-      "processedAt": "2026-08-10T18:38:49.922136+00:00"
-    },
-    {
-      "id": "art-34359ec7",
-      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-      "summary": "This week's security recap highlights multiple critical threats including AI vulnerabilities, a Metabase zero-day flaw, supply-chain attacks through MCP, and router backdoors. The article emphasizes how simple, everyday actions like cloning repositories or using default settings are becoming entry points for attackers. Organizations continue to struggle with legacy vulnerabilities resurfacing alongside new sophisticated attack vectors.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "supply-chain-attacks",
-        "ai-security",
-        "metabase-vulnerability",
-        "router-backdoors",
-        "patch-urgency"
-      ],
-      "whyItMatters": "Multiple zero-day exploits and supply-chain attack vectors demand immediate attention, as they bypass traditional defenses and can compromise organizations through everyday operations. The convergence of AI vulnerabilities, unpatched flaws, and default configuration weaknesses creates a compounding risk that requires urgent patching and security posture reviews across infrastructure and dependenci",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s1600/recaps.jpg",
-      "processedAt": "2026-08-10T18:38:52.489326+00:00"
-    },
-    {
-      "id": "art-d5436f4a",
-      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-      "summary": "North Korea's Kimsuky hacking group has developed its own offline artificial intelligence system to enhance its cyberattacks, rather than relying on public chatbots. The group is using AI tools to improve phishing campaigns and automate malware creation by integrating machine learning components into their attack code. This represents a significant evolution in how state-sponsored hackers are weaponizing AI technology for espionage purposes.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "north-korea",
-        "kimsuky",
-        "ai-weaponization",
-        "phishing",
-        "malware-development",
-        "state-sponsored"
-      ],
-      "whyItMatters": "This demonstrates that sophisticated threat actors are moving beyond consumer AI tools and building independent AI capabilities to scale their attacks more effectively. The automation of malware development and phishing at this level represents a fundamental shift in the threat landscape, making attacks faster and harder to detect. Organizations must anticipate more targeted, AI-enhanced phishing ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDgatgimOxtzWBp5R0l6yiMeoFVAeLE-hn-RGePbOlgUMgb3Vj9cEKav3AadjZBcppLfoDs4o-oREZ0OimLYX9WDnIRwebA4P7nVa-wh8KwHW-z7HUALW_bj2B-53kotBjkGw-6QXx-Awo3OxBlhjIwEIuueFEXLOgpT7cPpz5e_MSlD4l_FHgJocN6QA/s1600/north.jpg",
-      "processedAt": "2026-08-10T18:38:55.792503+00:00"
-    },
-    {
-      "id": "art-ab90fc27",
-      "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-      "summary": "Researchers have discovered multiple attack methods that can compromise passkeys—a technology promoted as a secure alternative to passwords—by exploiting how they're stored and synced rather than breaking the underlying cryptography. The attacks include reusing exposed authentication data from Windows, stealing cloud-synced passkeys from compromised machines, and other techniques that bypass the phishing-resistant protections passkeys are supposed to provide. These findings suggest that while passkeys are more secure than traditional passwords, they're not immune to sophisticated threats when ",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "passkeys",
-        "authentication",
-        "mfa-bypass",
-        "phishing-resistant",
-        "cloud-security",
-        "credential-theft"
-      ],
-      "whyItMatters": "Passkeys are increasingly promoted as the future of authentication by major tech companies, so discovering these practical attack vectors is crucial for both security teams and vendors to understand real-world risks. Organizations rolling out passkey systems need to know these attacks exist to properly implement mitigations and avoid false confidence in their security posture.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWKCkGCqH-c6Yaqkd_NnzFQijViu34tjAEsdl9tl2CmZLHL4m1rLhezO76zF6XFRTGS9Sr4R3jhMD7z15QV0BMqG948bjg8SoZb_j6HtQajd0PUDR8Tmw06GMqDwS6VhAtH-ZNtD06lzb9KMhJsHi-Vvkps0n6bl6C8n6rSBHCldBuc1cMczr30h11N-8/s1600/passkeys.jpg",
-      "processedAt": "2026-08-10T18:38:58.923812+00:00"
-    },
-    {
-      "id": "art-c81e9502",
-      "title": "New StormEncryptor ransomware used by former Medusa affiliate",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-stormencryptor-ransomware-used-by-former-medusa-affiliate/",
-      "summary": "A cybercriminal who previously worked with the Medusa ransomware group has switched to using a new ransomware variant called StormEncryptor. This represents an evolution in the threat landscape as experienced attackers continue to develop and deploy new tools. Organizations need to be aware that known threat actors are actively creating updated malware to evade detection.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "stormencryptor",
-        "medusa",
-        "threat-actor",
-        "financially-motivated"
-      ],
-      "whyItMatters": "Understanding that seasoned cybercriminals are actively developing new ransomware variants helps organizations anticipate threats and improve their defensive strategies. The fact that established threat actors are evolving their tools indicates they remain operational and dangerous, making it critical for businesses to maintain robust backup systems and incident response plans.",
-      "image": null,
-      "processedAt": "2026-08-10T18:39:02.848224+00:00"
-    },
-    {
-      "id": "art-63d3ed01",
-      "title": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/",
-      "summary": "CISA has confirmed that criminal ransomware groups are actively exploiting two recently patched vulnerabilities in SonicWall SMA1000 devices, one of which is a critical server-side request forgery flaw. This means attackers are using these security weaknesses to compromise vulnerable systems before organizations can apply the necessary patches. Organizations using SonicWall SMA1000 devices must prioritize applying these security updates immediately to prevent ransomware attacks.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "sma1000",
-        "ssrf-vulnerability",
-        "ransomware-gang",
-        "active-exploitation",
-        "patch-urgent",
-        "cisa-alert"
-      ],
-      "whyItMatters": "This represents an immediate, active threat where ransomware gangs are weaponizing known vulnerabilities in real-world attacks. Organizations with unpatched SonicWall devices are at direct risk of compromise and should treat patching as an emergency priority. The confirmation of active exploitation elevates this from a theoretical risk to a confirmed, ongoing threat that demands urgent remediation",
-      "image": null,
-      "processedAt": "2026-08-10T18:39:05.555286+00:00"
-    },
-    {
-      "id": "art-75e17786",
-      "title": "When Credentials Are No Longer Enough: Device Trust in the AI Era",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/when-credentials-are-no-longer-enough-device-trust-in-the-ai-era/",
-      "summary": "As artificial intelligence makes phishing and credential theft increasingly sophisticated and effective, traditional security methods like passwords and multi-factor authentication are becoming easier to compromise. Organizations are recognizing that relying solely on credentials is no longer sufficient protection. The article discusses how adding device trust verification to Zero Trust security strategies can help organizations better verify that access requests are coming from legitimate, trustworthy devices rather than just authenticated users.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "device-trust",
-        "zero-trust-architecture",
-        "ai-threats",
-        "credential-compromise",
-        "authentication",
-        "phishing-prevention"
-      ],
-      "whyItMatters": "As AI-powered attacks become more effective at bypassing traditional authentication methods, organizations must evolve their security strategies beyond passwords and MFA. Device trust represents a critical additional verification layer that can prevent unauthorized access even when credentials are compromised, making it essential for modern cybersecurity defense.",
-      "image": null,
-      "processedAt": "2026-08-10T18:39:08.252480+00:00"
-    },
-    {
-      "id": "art-ffdd5b4b",
-      "title": "Member of The Com sent to prison for blackmail, sextortion",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/member-of-the-com-sent-to-prison-for-blackmail-sextortion/",
-      "summary": "A member of 'The Com,' an online cybercrime group targeting minors, was sentenced to two years in prison for blackmail and sextortion crimes affecting nearly 120 victims globally. This case highlights the serious legal consequences criminal groups face for exploiting and extorting children and teenagers online. Law enforcement continues to pursue members of this loose-knit collective to protect vulnerable populations from sexual exploitation.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "sextortion",
-        "child-exploitation",
-        "cybercrime",
-        "online-blackmail",
-        "extortion",
-        "vulnerable-minors"
-      ],
-      "whyItMatters": "This conviction demonstrates that law enforcement agencies are actively tracking and prosecuting members of organized cybercrime groups targeting children, deterring similar attacks. Understanding these tactics helps organizations and parents recognize sextortion schemes and implement protective measures for young people online. The case underscores the critical importance of digital safety educat",
-      "image": null,
-      "processedAt": "2026-08-10T18:39:11.332603+00:00"
-    },
-    {
-      "id": "art-789f4de6",
-      "title": "LexisNexis shuts down services after suspicious activity on servers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/",
-      "summary": "LexisNexis took multiple services offline after detecting suspicious activity on servers managed by a third-party vendor. The company shut down its Diligence, Metabase API, and Newsdesk services as a precautionary measure. This incident highlights how organizations can be vulnerable through their external vendor relationships and cloud infrastructure.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "third-party-vendor",
-        "server-compromise",
-        "service-outage",
-        "incident-response",
-        "cloud-infrastructure"
-      ],
-      "whyItMatters": "This incident demonstrates that cybersecurity risks extend beyond an organization's direct control to their third-party vendors and hosted infrastructure. When critical services are taken offline due to suspicious activity, it can impact customers and highlight the importance of vendor security management and incident response protocols in supply chain security.",
-      "image": null,
-      "processedAt": "2026-08-10T18:39:13.475644+00:00"
     }
   ]
 }
