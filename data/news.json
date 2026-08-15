@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-08-14T18:37:34.474277+00:00",
+  "lastUpdated": "2026-08-15T06:46:04.945869+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-fd79c2da",
+      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+      "summary": "SAP has released security patches for a critical vulnerability in its Commerce Cloud Data Hub Adapter that could allow attackers without authentication to execute arbitrary code on affected systems. The flaw, identified as CVE-2026-58231 with a perfect CVSS score of 10.0, stems from inadequate authorization checks and input validation in the platform. This vulnerability poses an immediate threat to organizations using SAP Commerce Cloud as it can be exploited remotely without any credentials.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sap-commerce-cloud",
+        "arbitrary-code-execution",
+        "cve-2026-58231",
+        "cloud-security",
+        "patch-critical",
+        "unauthenticated-attack"
+      ],
+      "whyItMatters": "This maximum-severity vulnerability requires immediate patching as it allows complete system compromise without authentication, making it a priority target for attackers. Organizations relying on SAP Commerce Cloud must apply updates urgently to prevent unauthorized code execution and potential data theft or service disruption.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbIbhajZdWb8FMAsUCcL8bufmUEbpuTCSFvKhvJgecxUZcO3rH1QV1bVNrOJ1W8oqge3sBIMwmHZxXR9l1PyrOGDEuAZZJkwFBmMlFGWwjU5-3CDmUQsz08HzrZ23kg9HSv3X7MrOryUe-T-PZCmpr8csna-nQcAg-b3RSeWiWsHuaBFAiJmjTrVI5WBQM/s1600/sap.jpg",
+      "processedAt": "2026-08-15T06:45:40.300427+00:00"
+    },
+    {
+      "id": "art-cbdd4358",
+      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+      "summary": "A cybersecurity researcher has released a proof-of-concept exploit for a Microsoft Defender vulnerability called ShieldBreak, which can bypass patches for CVE-2026-50656 (RoguePlanet). This zero-day flaw has a CVSS score of 7.8 and allows attackers to gain SYSTEM-level access on vulnerable Windows systems. The public release of this PoC makes the vulnerability immediately exploitable by malicious actors.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "patch-bypass",
+        "system-access",
+        "exploit-poc",
+        "cve-2026-50656"
+      ],
+      "whyItMatters": "The public availability of a working exploit for a patch bypass in Microsoft Defender creates an immediate and widespread risk for Windows users, as attackers can now leverage SYSTEM-level access to compromise systems before patches are applied. Organizations relying on Microsoft Defender as their primary security tool face urgent exposure, requiring immediate detection monitoring and mitigation s",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9fX7D-qoT4QD3pjSuUtavTiarjtyitt3-JMji-nzNa8XTKefzPp2QGMAR6FkLA8r8Ll9VVFHCMEJSKWgi5Gk0GOdYU4RA1itDyf8ZQc12IXczcxoGHKXcJ9GAWUv-fPaRhRXnDyFfxo9nhjQoJbBPxQQbixY9RxaR_Oz_NrHD2P_EMER6yKTV3nWCSAoq/s1600/zero-day.jpg",
+      "processedAt": "2026-08-15T06:45:43.517559+00:00"
+    },
+    {
+      "id": "art-dcc77189",
+      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+      "summary": "Cisco has disclosed a high-severity vulnerability (CVE-2026-20349) affecting its ASA and FTD firewall products that is already being actively exploited by attackers. The flaw stems from improper error handling when processing HTTP requests, allowing remote attackers to launch denial-of-service attacks without needing authentication. Organizations using these critical security appliances should prioritize patching to prevent potential service disruptions.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisco-asa",
+        "firewall-vulnerability",
+        "remote-dos",
+        "active-exploitation",
+        "patch-critical",
+        "cve-2026-20349"
+      ],
+      "whyItMatters": "This vulnerability is critical because firewalls are foundational security devices protecting entire networks, and active exploitation means attackers are already leveraging this flaw. An unauthenticated remote DoS attack could disable critical security infrastructure, leaving organizations exposed to further breaches. Organizations running Cisco ASA or FTD must apply patches immediately to restor",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIn51DQNDe2IfVEJzqiWXY9k8QyRhulSTcOh67As0Pj7Da1DCB5Lu1RBhjI55Y7_TF9PW9F9HOBn6moaPRNrpl0G_OGeMbC9z5BMfdOqtF6sHpd5tJLvQqnvlCd77R-4oCYiDVfFlUtRe4mp7W8cFDCHmJ8kz4TueVL06-jbGzpVdWasZF02YRwYyrZJc/s1600/cisco-powerhouse.jpg",
+      "processedAt": "2026-08-15T06:45:46.035953+00:00"
+    },
+    {
+      "id": "art-824d598a",
+      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+      "summary": "Microsoft released security updates addressing 398 vulnerabilities, including a critical Windows kernel driver flaw (CVE-2026-68820) that is currently being exploited in real-world attacks. This vulnerability allows attackers who already have code execution on a system to escalate their privileges to SYSTEM level, the highest permission level in Windows. The flaw affects a core driver responsible for network socket operations, making it a serious concern for system security.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "windows-kernel",
+        "privilege-escalation",
+        "active-exploitation",
+        "patch-critical",
+        "cve-2026-68820"
+      ],
+      "whyItMatters": "Active exploitation of this vulnerability means attackers are actively leveraging it in the wild, making immediate patching essential for organizations. Privilege escalation to SYSTEM level gives attackers complete control over affected machines, potentially enabling lateral movement, data theft, or deployment of persistent malware. The involvement of a core Windows driver means this affects a wid",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4HtkIdWjqoYaSkO4edq9d5ZotqTE-LNMM14UlVoPaVKw2hwBahFYrPkB3jttURH0gcBXxCDtyHhiGMAIrxCX74gYCb_ivX4INmfRzt7HRb-bPTNt1lV-nUQm_pHQQHrhUwx4JWS7DtAzOZ1etx-yjPAVrNJXGBltqXjHPSI5NcfnWQqYurz0LK-dRRMo/s1600/aug-ms-patch.jpg",
+      "processedAt": "2026-08-15T06:45:48.814068+00:00"
+    },
+    {
+      "id": "art-a0c4efd5",
+      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+      "summary": "Researchers discovered Kimwolf v7, an upgraded version of an Android and IoT botnet that can launch DDoS attacks while disguising malicious traffic as normal web browsing through HTTP/2. This new variant, found by Palo Alto Networks in early 2026, demonstrates improved resilience and evasion capabilities compared to earlier versions. The botnet's ability to blend attack traffic with legitimate user activity makes it harder for security tools to detect and block.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "android-botnet",
+        "iot-security",
+        "ddos-attacks",
+        "http2-evasion",
+        "kimwolf",
+        "traffic-obfuscation"
+      ],
+      "whyItMatters": "This botnet poses a significant threat because it can perform large-scale DDoS attacks while evading detection by mimicking legitimate HTTP/2 browsing traffic, making traditional security monitoring less effective. Organizations running Android devices and IoT infrastructure need to implement stronger endpoint protection and network monitoring to identify these sophisticated attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieGDZmdQhY70KqvppH4w5wMVhbs804WeageCN1UXtRK4KpFkYWNk-wkTeTv9CUSNGYQMsaZ04XYWimXsIQmfl0uYSFgNJe7uBbXsg1xPw-cukXwJY3O3TAHUpWiiYmleWgDpu4PLMRfjgIQtOxb6Wq2yFjvqyb6lpoCOcOyWOpZoURLpddzyGkmc8soRHe/s1600/android-botnet.jpg",
+      "processedAt": "2026-08-15T06:45:51.547899+00:00"
+    },
+    {
+      "id": "art-ebe0473b",
+      "title": "How Anthropic plans to watermark Claude's AI-generated text",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+      "summary": "Anthropic is developing watermarking technology to help identify text generated by Claude AI models. This technique aims to make it easier for people to detect AI-generated content across social media and other platforms. The watermarking approach could help combat misinformation and unauthorized use of AI-generated text.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-watermarking",
+        "content-authentication",
+        "ai-detection",
+        "generative-ai",
+        "deepfake-prevention"
+      ],
+      "whyItMatters": "Watermarking AI-generated content is crucial for maintaining trust in digital information and preventing malicious actors from using synthetic text to spread disinformation, commit fraud, or impersonate legitimate sources. This defensive measure helps organizations and individuals distinguish authentic human-generated content from AI outputs, reducing risks related to social engineering and misinf",
+      "image": null,
+      "processedAt": "2026-08-15T06:45:53.878694+00:00"
+    },
+    {
+      "id": "art-7d8cca71",
+      "title": "RingCentral data breach exposed info of 1.6 million accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+      "summary": "RingCentral, a widely-used communication platform, suffered a data breach in July 2026 that exposed personal information belonging to 1.6 million user accounts. The ShinyHunters extortion group was responsible for the attack and stole sensitive data from the compromised accounts. This incident highlights the vulnerability of major cloud-based communication services that many businesses rely on daily.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "shinyhunters",
+        "ringcentral",
+        "extortion",
+        "account-compromise",
+        "personal-data"
+      ],
+      "whyItMatters": "RingCentral serves millions of businesses globally, making this breach a widespread threat affecting employees and organizations across multiple industries. The involvement of an extortion group indicates ongoing criminal activity and potential secondary risks like ransomware or data sales. Users of RingCentral and related services should immediately monitor accounts for unauthorized access and en",
+      "image": null,
+      "processedAt": "2026-08-15T06:45:56.589225+00:00"
+    },
+    {
+      "id": "art-aab9762f",
+      "title": "Data analyst sent to prison for stealing data, extorting employer",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
+      "summary": "A former data analyst contractor at Brightly Software was sentenced to two years in prison after attempting to extort his employer for $2.5 million by stealing sensitive company data. The case demonstrates how insider threats from contractors with system access can lead to serious criminal charges and prison time. This incident highlights the importance of monitoring contractor activities and securing access to valuable company information.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "insider-threat",
+        "data-theft",
+        "extortion",
+        "contractor-security",
+        "employee-monitoring"
+      ],
+      "whyItMatters": "This case illustrates the real-world consequences of insider threats and shows that organizations must implement strict access controls and monitoring for contractors with data access. It also reinforces that extortion-based attacks on employers are serious federal crimes with severe penalties, serving as a deterrent to potential insider threats.",
+      "image": null,
+      "processedAt": "2026-08-15T06:45:59.274282+00:00"
+    },
+    {
+      "id": "art-6d176c45",
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "summary": "DecryptAds is a new free service that helps users discover which companies are tracking them through ads and data collection across websites and mobile apps. By aggregating and analyzing advertising technology data that was previously scattered and difficult to access, the tool makes it transparent who is responsible for showing targeted ads and harvesting personal information. This service empowers individuals to understand the extent of their digital tracking and the various entities involved in the adtech ecosystem.",
+      "category": "Privacy",
+      "severity": "Low",
+      "tags": [
+        "privacy",
+        "adtech-tracking",
+        "data-collection",
+        "digital-transparency",
+        "user-awareness"
+      ],
+      "whyItMatters": "Understanding who collects your data is fundamental to privacy awareness and informed digital hygiene. By making adtech tracking visible and accessible to everyday users, DecryptAds helps individuals recognize surveillance tactics and potentially take protective measures. This transparency also raises awareness about the pervasive nature of online tracking and encourages better personal cybersecur",
+      "image": null,
+      "processedAt": "2026-08-15T06:46:02.259926+00:00"
+    },
+    {
+      "id": "art-f49b30fb",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "summary": "Microsoft released security updates addressing nearly 400 vulnerabilities across its Windows operating systems and other software products. The update is particularly urgent because at least one of the vulnerabilities is already being exploited by attackers in the wild, and two others have already been publicly disclosed. Users and organizations need to prioritize installing these patches to protect their systems from active threats.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "microsoft-patch",
+        "windows-vulnerability",
+        "active-exploitation",
+        "security-update",
+        "urgent-patching"
+      ],
+      "whyItMatters": "Active exploitation of known vulnerabilities represents an immediate threat to systems that remain unpatched, making this update critical for all Microsoft users. The large number of vulnerabilities in a single release underscores the importance of maintaining regular patching schedules to minimize the window of exposure to attackers.",
+      "image": null,
+      "processedAt": "2026-08-15T06:46:04.945752+00:00"
+    },
     {
       "id": "art-40f52b9d",
       "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
@@ -833,214 +1039,6 @@
       "whyItMatters": "Man-in-the-middle attacks remain a significant threat to encrypted communications, and automating key verification removes friction from security practices, encouraging more users to actively protect their conversations. This enhancement strengthens Signal's position as a privacy-focused messaging platform and sets a standard for how secure communication tools should operate. Practical adoption of",
       "image": null,
       "processedAt": "2026-08-13T07:41:49.490126+00:00"
-    },
-    {
-      "id": "art-09f1e1a7",
-      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "summary": "The Lazarus Group, a North Korean hacking organization, has exploited a previously unknown Windows security vulnerability to gain high-level system access and install a new backdoor program. This attack specifically targets defense and aerospace companies in France, Germany, Brazil, and India as part of an ongoing espionage campaign called Operation Dream Job.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "lazarus-group",
-        "zero-day",
-        "windows-vulnerability",
-        "backdoor",
-        "defense-sector",
-        "system-access"
-      ],
-      "whyItMatters": "This represents an active, weaponized zero-day being used by a nation-state actor against critical infrastructure sectors, requiring immediate patching and threat awareness. Organizations in defense and aerospace industries face direct risk and should prioritize Windows updates and monitor for compromised systems. The use of a previously unknown exploit demonstrates sophisticated adversary capabil",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1600/windows-shell.jpg",
-      "processedAt": "2026-08-12T18:43:22.913132+00:00"
-    },
-    {
-      "id": "art-3d5bdbaf",
-      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-      "summary": "Researchers discovered 737 malicious VPN and proxy extensions on the Chrome Web Store that were designed to intercept and redirect user browser traffic through attacker-controlled infrastructure. These extensions, distributed across 40+ developer accounts with over 75,000 installations, primarily targeted Russian-speaking users trying to access blocked content. At least 274 of these extensions were found to be impersonating legitimate services, making them difficult for users to identify.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "browser-extension",
-        "vpn-threat",
-        "traffic-interception",
-        "chrome-security",
-        "malware-distribution",
-        "privacy-risk"
-      ],
-      "whyItMatters": "This widespread campaign demonstrates how attackers exploit user trust in free VPN services to gain access to sensitive browsing data and network traffic at scale. Users who installed these extensions had their internet activity monitored and routed through malicious infrastructure, creating risks for credential theft, data exfiltration, and surveillance. This incident highlights the importance of",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1600/chrome-plugins.jpg",
-      "processedAt": "2026-08-12T18:43:25.826581+00:00"
-    },
-    {
-      "id": "art-9db96d3b",
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "summary": "Researchers discovered a flaw in how OpenAI, Anthropic, and Google handle encrypted AI reasoning objects through their APIs, allowing attackers to replay reasoning blocks across different sessions. This vulnerability enabled recovery of sensitive information from session logs, including API keys and passwords that should have been protected. The flaw demonstrates how improper handling of encrypted objects can leak secrets regardless of encryption implementation.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "api-vulnerability",
-        "encryption-flaw",
-        "credential-exposure",
-        "cloud-security"
-      ],
-      "whyItMatters": "This vulnerability affects major AI providers' core API infrastructure, potentially exposing thousands of users' API keys and passwords through session logs. The ability to replay encrypted reasoning objects across sessions bypasses intended security boundaries and demonstrates that encryption alone doesn't guarantee secret protection. Organizations relying on these APIs should immediately audit t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1600/ai-models.jpg",
-      "processedAt": "2026-08-12T18:43:28.327052+00:00"
-    },
-    {
-      "id": "art-2c5220c1",
-      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
-      "summary": "New research from Picus Labs analyzing over 338 million attack simulations reveals a concerning gap in enterprise security strategies. While companies excel at detecting loud, obvious attacks, sophisticated attackers are increasingly succeeding by using stealthy techniques that bypass traditional defenses. This trend suggests that standard security tools are becoming less effective against modern, quiet attack methods.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "silent-attacks",
-        "defense-gaps",
-        "enterprise-security",
-        "attack-simulation",
-        "detection-evasion",
-        "modern-threats"
-      ],
-      "whyItMatters": "Organizations often invest in security tools optimized for detecting obvious attack signatures, leaving them vulnerable to sophisticated adversaries using low-noise techniques. Understanding this defensive blind spot is critical for enterprises to evolve their detection capabilities and threat hunting strategies to address evolving attacker tactics.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoBNKr6YWBC4uPzzXNZNX_sduYkalrtPSfiT01s6R6tq9uRzAs8TRoyv0DSwM-Wy_RmiGv923yzsB1DK3mgg5vudYdTwIk7wubUJYB0f-6AADquodryt0KofkU5aKxKaKBLirP1A0PuaBC_lfWEYJKlthyphenhyphencmmT2WBQkIRLLFLI5kWKZcJWY5rxrN-qa2M/s1600/picuss.jpg",
-      "processedAt": "2026-08-12T18:43:30.944776+00:00"
-    },
-    {
-      "id": "art-a96aa74b",
-      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "summary": "Adobe has released security patches for critical vulnerabilities affecting ColdFusion, Commerce, and Campaign Classic products. The most severe flaw is a CVSS 10.0 command injection vulnerability in ColdFusion that could allow attackers to execute arbitrary code and escalate privileges. Organizations using these Adobe products need to apply updates immediately to prevent potential system compromise.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "adobe-patch",
-        "code-execution",
-        "privilege-escalation",
-        "coldfusion",
-        "critical-vulnerability",
-        "command-injection"
-      ],
-      "whyItMatters": "Perfect CVSS 10.0 scores indicate maximum severity with no barriers to exploitation, making this an urgent threat for any organization running Adobe ColdFusion or Campaign Classic. Delayed patching in these products directly exposes systems to remote code execution and full system compromise. The breadth of affected Adobe products means this advisory impacts numerous enterprises across different i",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36vXq6xqWIDA09DIFwTp0gAZyTEpTdUoOrczmHr0NAOmxBDBySv4K6oEmzSup0sZylULeZlzf2unPADh99H5kx8-oktejFUPTM2t5aM6WrdTy99m6Qs12z4A58UYbqU2LhZRa20yY9FGy8FFB-pMvUFsA3MolrrA4nYOWVf9IS42Y0vUn3sMtu0BCty3g/s1600/adobe-cve.jpg",
-      "processedAt": "2026-08-12T18:43:33.551905+00:00"
-    },
-    {
-      "id": "art-0f7d32fc",
-      "title": "Plug and Pwn attack uses fake USB devices for Windows SYSTEM access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/plug-and-pwn-attack-uses-fake-usb-devices-for-windows-system-access/",
-      "summary": "Researchers discovered a new attack technique called 'Plug and Pwn' that exploits Windows Plug and Play functionality to trick the operating system into installing malicious or vulnerable software from fake USB devices. Once installed, this software can grant attackers SYSTEM-level privileges, giving them complete control over the compromised computer. This attack is particularly dangerous because it targets a trusted Windows feature that most users interact with regularly.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "plug-and-play",
-        "usb-attack",
-        "privilege-escalation",
-        "windows-security",
-        "physical-access"
-      ],
-      "whyItMatters": "This vulnerability is practically significant because it demonstrates how attackers can weaponize legitimate Windows features with minimal technical barriers—just a fake USB device. Organizations need to implement USB restrictions and user training to prevent this attack, as it bypasses many software-based defenses and requires only physical proximity to a target machine.",
-      "image": null,
-      "processedAt": "2026-08-12T18:43:36.020720+00:00"
-    },
-    {
-      "id": "art-130e4d2a",
-      "title": "Lazarus hackers exploited Windows zero-day to target defense firms",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/lazarus-hackers-exploited-windows-zero-day-to-target-defense-firms/",
-      "summary": "North Korean hackers from the Lazarus group have been actively exploiting a previously unknown Windows vulnerability (CVE-2026-68820) to attack companies in the defense sector. This zero-day flaw is being weaponized as part of their Operation Dream Job campaign to gain unauthorized access to sensitive defense industry systems. The exploitation demonstrates how critical infrastructure and security-focused organizations are prime targets for state-sponsored cyber threats.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "lazarus-group",
-        "windows-vulnerability",
-        "defense-sector",
-        "state-sponsored",
-        "operation-dream-job"
-      ],
-      "whyItMatters": "Active exploitation of unpatched zero-day vulnerabilities by state-sponsored actors poses an immediate and severe risk to national security and critical infrastructure. Defense contractors often handle sensitive government data and military technology, making this threat particularly urgent. Organizations must implement emergency detection and mitigation strategies while waiting for official patch",
-      "image": null,
-      "processedAt": "2026-08-12T18:43:38.747820+00:00"
-    },
-    {
-      "id": "art-8e00a5c4",
-      "title": "FBI: Hackers target online accounts to steal nude photos",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-hackers-targeting-online-accounts-to-steal-explicit-photos/",
-      "summary": "The FBI has issued a warning about cybercriminals who are breaking into social media and online accounts belonging to both adults and children to steal sexually explicit images and videos. These attackers are using stolen account credentials to access private content for extortion, blackmail, or distribution purposes. This threat affects users across multiple platforms and age groups, highlighting the need for stronger account security practices.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "account-takeover",
-        "sexual-extortion",
-        "social-media",
-        "credential-theft",
-        "child-safety",
-        "blackmail"
-      ],
-      "whyItMatters": "This threat is critical because it targets vulnerable populations including children, involves serious crimes like extortion and child exploitation, and demonstrates how weak account credentials can lead to severe personal and legal consequences. Organizations and individuals must implement multi-factor authentication and educate users on protecting their accounts to prevent this type of victimiza",
-      "image": null,
-      "processedAt": "2026-08-12T18:43:41.289975+00:00"
-    },
-    {
-      "id": "art-e38f58e1",
-      "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
-      "summary": "Attackers are impersonating job applicants to infiltrate organizations as fake remote workers, exploiting delays between hiring verification, equipment delivery, and system access. Organizations can strengthen their defenses by implementing document verification and biometric liveness checks to confirm that new hires are who they claim to be before granting access to company resources.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "insider-threat",
-        "identity-verification",
-        "hiring-security",
-        "remote-work",
-        "access-control",
-        "fraud-prevention"
-      ],
-      "whyItMatters": "This threat represents a significant supply-chain attack vector that bypasses traditional perimeter security because the attacker gains legitimate internal access through the hiring process itself. Organizations must adopt stronger identity verification measures to prevent unauthorized individuals from obtaining credentials and access to sensitive systems and data.",
-      "image": null,
-      "processedAt": "2026-08-12T18:43:43.528327+00:00"
-    },
-    {
-      "id": "art-0cbf3ad4",
-      "title": "Hackers leverage new Microsoft SharePoint exploit in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/hackers-leverage-new-microsoft-sharepoint-exploit-in-attacks/",
-      "summary": "Attackers are actively exploiting a critical vulnerability in Microsoft SharePoint after a proof-of-concept exploit was released by security researchers at Rapid7. This means hackers now have a working tool to target organizations using SharePoint, putting systems at immediate risk. Organizations need to be aware that this vulnerability is being weaponized in real attacks, not just theoretical ones.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "sharepoint",
-        "microsoft",
-        "exploit",
-        "poc-available",
-        "active-exploitation",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "When a proof-of-concept exploit is publicly released for a critical vulnerability, attackers can quickly use it to compromise systems at scale. Organizations running SharePoint need to prioritize patching immediately, as this vulnerability is already being weaponized in real-world attacks. This represents an urgent threat that requires immediate defensive action from IT teams.",
-      "image": null,
-      "processedAt": "2026-08-12T18:43:47.007526+00:00"
     }
   ]
 }
