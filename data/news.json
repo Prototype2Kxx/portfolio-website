@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-08-16T06:47:26.531851+00:00",
+  "lastUpdated": "2026-08-16T18:10:36.636622+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-0df28a1f",
+      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+      "summary": "Security researchers created a fake cryptocurrency startup and recruited people they suspected were North Korean operatives to study their tactics. The researchers monitored everything the hired workers did on company-issued virtual machines, capturing their methods and behaviors. The incident revealed suspicious patterns, such as contradictory location information and unusual banking details, that helped identify the infiltration attempt.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "north-korea",
+        "apt",
+        "social-engineering",
+        "digital-forensics",
+        "threat-intelligence",
+        "cryptocurrency"
+      ],
+      "whyItMatters": "This research demonstrates how nation-state actors actively target tech companies and cryptocurrency firms for espionage and potential attacks, making it critical for hiring teams to implement better vetting procedures. Organizations can learn from these identification methods to strengthen their own onboarding security and detect suspicious hiring patterns before malicious actors gain system acce",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGgelUshBcG56Nc5uWqBbhQwtUxWtNgSIRTCiJXZoJtkuTWeXEV0KiWRje-UhGGnrvf6wNOmmBGQ7yAxKNigAuJE00RicY4ris0k02Dd_1ch7_RcSM2aJtGvgf4miSazvFMNEqTmVDY3nlDT1zPwg5vkafqzMwbkFRZ1kO4xU2mzZgfxAEUTM0zObjGE/s1600/nk.jpg",
+      "processedAt": "2026-08-16T18:10:11.326360+00:00"
+    },
+    {
+      "id": "art-a57a812d",
+      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+      "summary": "Researchers discovered a critical vulnerability in Windows Plug and Play that allows attackers to abuse the auto-install feature to gain SYSTEM-level privileges on fully updated Windows 11 machines. By tricking the system into installing signed vendor software for a fake USB device, attackers can escalate their permissions to the highest level. The vulnerability can even be exploited remotely through Remote Desktop when USB redirection is enabled, eliminating the need for physical access to a device.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "windows-11",
+        "privilege-escalation",
+        "plug-and-play",
+        "usb-exploitation",
+        "remote-access"
+      ],
+      "whyItMatters": "This vulnerability is critical because it provides a direct path to complete system compromise on Windows 11 machines, even when fully patched, and can be exploited remotely without physical device access. Attackers gaining SYSTEM-level access can install malware, steal data, or take complete control of affected computers. Organizations using Remote Desktop or USB redirection need immediate awaren",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIoEoCsvghUx_eKGXl-WAFq7pyoOLwg_Sk9a5Ne8vX1Cb7l_DOib3wtO_5NwoogbHqFvU_VWJZd3ceL5ftpWOX5qNx5HNJCmD4_RR7GaiExk0ph2F3sp5eKPthiuTcmnDlJQyvUdkTMfxBUsIlXp_I9-qkSi4zxwVnLPb9bG-T3zFC7oFCI1Mps4VJf1s/s1600/pnp.gif",
+      "processedAt": "2026-08-16T18:10:14.366734+00:00"
+    },
+    {
+      "id": "art-ceec94c2",
+      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+      "summary": "Attackers can compromise AI coding assistants by connecting malicious tool servers that break harmful requests into smaller, innocent-looking fragments to steal sensitive data like SSH keys and source code. This technique works by distributing the malicious instructions across multiple communication channels that the AI already uses, making detection extremely difficult. Even when an AI assistant refuses a direct request for data theft, splitting it into routine-looking pieces allows the attack to succeed.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "mcp-servers",
+        "data-exfiltration",
+        "prompt-injection",
+        "ai-agents",
+        "supply-chain-attack"
+      ],
+      "whyItMatters": "This vulnerability demonstrates a novel attack vector against AI-powered development tools that developers increasingly rely on, enabling attackers to bypass safety mechanisms and steal secrets at scale. Organizations using AI coding assistants need immediate awareness that connecting external tool servers can introduce critical risks, as fragmented instruction techniques can evade both AI safegua",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2hJoWr0m-Mx1rwaqZpbsdsQa5iSVY8J_jAnt0zKgBUlynOrS-NgEcINm3asfWZR-Ypx9y1iw28BOVud8sfaOQbiq4lmrvSnaZHUBlrkmkH9KXSPy4AXQkklS-AxG83dzpV8sSMj_uUDyVvZTgKs68EpYd18qHJTWF8s2NRaQIF80mh0e7mok6y0SqFi4/s1600/mcp-agent.jpg",
+      "processedAt": "2026-08-16T18:10:17.632791+00:00"
+    },
+    {
+      "id": "art-40c64992",
+      "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+      "summary": "Gunra ransomware has emerged as a significant threat targeting critical infrastructure worldwide, with attacks documented by cybersecurity agencies from South Korea and the U.S. The malware exploits vulnerabilities in Fortinet FortiOS and FortiProxy to breach networks across healthcare, financial services, government, and nonprofit sectors. This represents another evolution in the ransomware landscape that poses serious risks to essential services globally.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "gunra-ransomware",
+        "fortinet-vulnerability",
+        "critical-infrastructure",
+        "healthcare-threat",
+        "government-sector",
+        "active-exploitation"
+      ],
+      "whyItMatters": "Gunra's targeting of critical infrastructure sectors like healthcare and government makes this an urgent threat that could disrupt essential services and endanger public safety. Organizations using Fortinet products need immediate awareness of these exploitable vulnerabilities to protect their networks from active attacks. The involvement of multiple government agencies in warning about this threa",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWQpuDbRsHV15EPHhEH-PxqwnIqhmhncYrLIhvelAhdTJaJL-b6Ro5jALTP-JmVpIsvqRL5VxXk4SYql9oOqliOv8FHZS8T1NN8mCqJWq5O4WMFbg2aQRBoEoGxCE6MNpb3-nWwvDH2UA3sAshkr8Ue_qBqXkDvj3jXgyAy5_0mfKXOBJWwyjTuh233V5b/s1600/fort.jpg",
+      "processedAt": "2026-08-16T18:10:20.222623+00:00"
+    },
+    {
+      "id": "art-4a526f42",
+      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
+      "summary": "Attackers infiltrated a Polish power plant's private cellular network and successfully shut down critical infrastructure including a steam turbine and water treatment system. The plant, which provides heating to approximately 50,000 residents, began recovery efforts while the attackers remained active on the network. Fortunately, residents did not experience service interruption during the incident.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "critical-infrastructure",
+        "network-compromise",
+        "private-cellular-network",
+        "turbine-shutdown",
+        "operational-technology"
+      ],
+      "whyItMatters": "This incident demonstrates that private cellular networks used for remote industrial control are vulnerable to breach and can lead to direct physical system disruption affecting thousands of people. It highlights the critical need for robust access controls, network segmentation, and monitoring in operational technology environments that impact public services.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s1600/power-plant.jpg",
+      "processedAt": "2026-08-16T18:10:22.555763+00:00"
+    },
+    {
+      "id": "art-93c7c9e5",
+      "title": "Large-scale DDoS attacks disrupted Threema secure messaging service",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/large-scale-ddos-attacks-disrupted-threema-secure-messaging-service/",
+      "summary": "Threema, a secure messaging platform, experienced multiple distributed denial-of-service (DDoS) attacks this week that significantly disrupted its service availability. DDoS attacks flood systems with traffic to overwhelm and disable them, preventing legitimate users from accessing the service. This incident highlights how even security-focused communication tools can be targeted and taken offline by attackers.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "ddos-attack",
+        "service-disruption",
+        "threema",
+        "network-security",
+        "availability"
+      ],
+      "whyItMatters": "DDoS attacks on secure messaging services demonstrate that availability is as critical as encryption in cybersecurity, as users cannot benefit from security features when the service is offline. Organizations and individuals relying on Threema for sensitive communications need contingency plans for service outages. This reinforces that defenders must implement robust DDoS mitigation strategies alo",
+      "image": null,
+      "processedAt": "2026-08-16T18:10:25.644616+00:00"
+    },
+    {
+      "id": "art-3ad5233d",
+      "title": "New AmnesiaStealer macOS malware hijacks browser sessions via remote control",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-16",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-amnesiastealer-macos-malware-hijacks-browser-sessions-via-remote-control/",
+      "summary": "AmnesiaStealer is a new malware targeting macOS users through ClickFix attacks, designed to steal information and allow attackers to remotely control victims' web browsers in real-time. Unlike typical malware that just steals data passively, this threat includes a streaming module that gives attackers interactive control over browsing sessions. This combination makes it particularly dangerous because attackers can hijack accounts, intercept sensitive information, and perform unauthorized actions while the user is online.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-malware",
+        "browser-hijacking",
+        "clickfix-attacks",
+        "information-stealing",
+        "remote-access",
+        "session-hijacking"
+      ],
+      "whyItMatters": "This malware represents an elevated threat because it combines information theft with real-time remote control capabilities, allowing attackers to compromise financial accounts, steal credentials, and perform fraudulent transactions interactively. macOS users often have lower security awareness regarding malware threats compared to Windows, making them vulnerable to ClickFix social engineering tac",
+      "image": null,
+      "processedAt": "2026-08-16T18:10:28.678767+00:00"
+    },
+    {
+      "id": "art-88fa2cde",
+      "title": "Hackers breach govt webmail while running parallel crypto fraud",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
+      "summary": "The Jewelbug hacker group has been identified conducting simultaneous espionage campaigns against government and military targets while also running cryptocurrency fraud schemes. This dual-operation approach demonstrates how sophisticated threat actors can balance multiple attack vectors to maximize both intelligence gathering and financial gain. The breach of government webmail systems exposes sensitive communications and potentially classified information.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "government-breach",
+        "espionage",
+        "crypto-fraud",
+        "state-sponsored",
+        "webmail-compromise",
+        "advanced-persistent-threat"
+      ],
+      "whyItMatters": "This incident reveals how elite hacker groups operate across multiple domains simultaneously—combining espionage with financial crimes—making them harder to track and more dangerous to national security. Organizations must recognize that sophisticated adversaries don't limit themselves to one attack type, requiring multi-layered defense strategies. The compromise of government webmail systems dire",
+      "image": null,
+      "processedAt": "2026-08-16T18:10:31.991388+00:00"
+    },
+    {
+      "id": "art-bd88357a",
+      "title": "Amid AI-Driven Bug-Hunt Tsunami, NIST Looks to … AI",
+      "source": "Dark Reading",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/ai-driven-bug-tsunami-nist-looks-to-ai",
+      "summary": "The number of discovered vulnerabilities is rapidly increasing due to AI-powered research tools and automated scanning systems. NIST is exploring whether artificial intelligence could help manage and address this growing volume of security vulnerabilities more effectively. This represents a shift toward using AI not just to find bugs, but potentially to prioritize and remediate them at scale.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ai-vulnerabilities",
+        "vulnerability-management",
+        "nist",
+        "automated-scanning",
+        "bug-detection"
+      ],
+      "whyItMatters": "As AI tools generate exponentially more vulnerability reports, organizations risk being overwhelmed and unable to prioritize patching efforts effectively. NIST's investigation into AI-driven solutions highlights the critical need for intelligent triage and remediation strategies to keep pace with discovery rates and reduce security gaps.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf82784f3cda996ab/6a7f597749a6b3967594a791/tsunami-John_Lund-Getty-114571378.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-08-16T18:10:34.589644+00:00"
+    },
+    {
+      "id": "art-e8110611",
+      "title": "Scottish Govt Suffers Potentially Widening Data Breach at Prosecutor's Office",
+      "source": "Dark Reading",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/scottish-govt-data-breach-prosecutors-office",
+      "summary": "A Scottish government agency, specifically the Prosecutor's Office, experienced a data breach involving a third-party service provider. The breach may extend beyond this single agency, as the compromised third party likely services multiple government organizations. This incident highlights how supply chain vulnerabilities can create cascading security risks across multiple public sector entities.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "supply-chain-attack",
+        "third-party-risk",
+        "government-agency",
+        "scotland"
+      ],
+      "whyItMatters": "Third-party service provider breaches pose critical risks to government operations because compromised vendors can expose sensitive data across multiple agencies simultaneously. This incident underscores the importance of vendor security assessments and supply chain risk management in protecting public sector infrastructure and citizen data.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt82eda035ca3e22ea/6a7f3bb6faf5c1cbf257cd7b/Edinburgh-StephenBridger-Getty.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-08-16T18:10:36.636479+00:00"
+    },
     {
       "id": "art-f6718899",
       "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
@@ -827,213 +1032,6 @@
       "whyItMatters": "Attacks on critical infrastructure companies like Shell pose risks to global supply chains and energy security. The Clop ransomware gang's continued targeting of major enterprises demonstrates that even well-resourced organizations need robust incident response plans and cybersecurity defenses. This incident underscores the importance of regular security audits, data protection strategies, and emp",
       "image": null,
       "processedAt": "2026-08-14T18:37:34.474144+00:00"
-    },
-    {
-      "id": "art-170e359c",
-      "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
-      "summary": "A supply chain attack compromised BdThemes, a WordPress plugin vendor, allowing attackers to inject malicious code that creates unauthorized admin accounts. Unlike typical supply chain attacks, the attackers did not modify source code in the official WordPress.org repository but found another way to poison the plugin distribution. WordPress has temporarily disabled downloads of affected BdThemes plugins to protect users from this threat.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "wordpress-plugin",
-        "malware-injection",
-        "admin-compromise",
-        "bdthemes"
-      ],
-      "whyItMatters": "This attack demonstrates a sophisticated supply chain compromise that bypassed traditional security checks by avoiding direct source code modification, making it harder to detect. Since WordPress plugins are widely trusted and automatically installed on millions of websites, a compromised plugin vendor can instantly affect large numbers of sites, creating rogue admin accounts that give attackers p",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh96gU64z_xM5LiLI39IXPndJ1felnUkfQmWxQ2sGfE9r_yYK6AKPLV3x6uVWeZxZoEsJwy0h7OUHILX1sAbwc6MYHpIeeTvCVeH52TnCInqqjjRPW4-Sx7gPPq4abN7ltCnClrjRhDDqyON8UBxcKFjoyubm7CeEgaZos3j4OCLJdRozfEOrDX1rPsnSoF/s1600/wordpress.jpg",
-      "processedAt": "2026-08-14T07:38:46.251083+00:00"
-    },
-    {
-      "id": "art-9be731ce",
-      "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
-      "summary": "AI tools are dramatically accelerating software development, enabling teams to produce 10 to 50 times more code than before. However, security teams struggle to keep pace with vulnerability reviews, dependency management, and risk control using traditional methods. The core challenge is preventing security from becoming a bottleneck or losing oversight of what gets deployed.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-development",
-        "vulnerability-management",
-        "secure-sdlc",
-        "code-review",
-        "risk-control",
-        "dependency-management"
-      ],
-      "whyItMatters": "As AI accelerates code production, security teams risk losing visibility and control over deployed software if processes aren't modernized. This represents a critical gap between development velocity and security capability that could lead to undetected vulnerabilities reaching production at scale. Organizations must rethink security workflows to match AI-driven development speeds or face signific",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy3fcUJacnxspYO1ssk2-ESCQ9QYb5BBCB0-3Jk8UyWQFmKZxt8RCeYemwUlJ08y_hnkyVm4LaAq6a_oyz5BPmpuwkmephJ0K7iy6cFvPjAe-b3pQ4Q28jh3KzNqLhZ6qtecuG9jenDpeVsjpUrG9ZBEwe2WStxgh6RiOwhI_rlsxYelFv2BD31o9rhd8/s1600/chain-webinar.jpg",
-      "processedAt": "2026-08-14T07:38:49.130058+00:00"
-    },
-    {
-      "id": "art-b373dd4b",
-      "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-      "summary": "A China-linked hacking group known as Storm-1175 has started using a new ransomware called StormEncryptor, marking a departure from their previous use of Medusa ransomware. This malware, written in C++, appears to have been deployed through vulnerabilities in N-central software. The shift to this new ransomware suggests the group is evolving their attack methods to potentially evade detection and increase their effectiveness.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "china-linked",
-        "storm-1175",
-        "stormencryptor",
-        "n-central-vulnerability",
-        "financially-motivated"
-      ],
-      "whyItMatters": "Organizations using N-central remote management software face immediate risk from this active exploitation campaign by a well-resourced threat actor. Understanding this ransomware's emergence and deployment methods helps security teams implement targeted defenses and patch vulnerable systems before becoming targets. This demonstrates how ransomware groups continuously adapt their toolkits, requiri",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNv5C82jT_6YlarerdXnoAR_tT3E8xP65ZWuJfpvOKU9baBT5UACUTb88XvDQgQA6RrYuqPK3FstaqwacR9gDjD0qwk3HUYl0wK848phyphenhyphenFuqRrOA1AqdISQaA6tpEqg0n2XJIA22NeNNbhei1bAgcyghnc2qaVfSvh4fd9J1oD4xVi-DQcNSOYWQovyUst/s1600/strom-ransomware.jpg",
-      "processedAt": "2026-08-14T07:38:52.520330+00:00"
-    },
-    {
-      "id": "art-6af1bf20",
-      "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-      "summary": "This week's security landscape reveals multiple critical threats including AI systems behaving unexpectedly, a Metabase zero-day vulnerability, supply-chain attacks targeting the Model Context Protocol, and backdoors discovered in network routers. The article emphasizes how attackers exploit routine actions like repository cloning and default configurations to compromise systems, highlighting the cyclical nature of security vulnerabilities.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "supply-chain-attack",
-        "metabase",
-        "router-backdoor",
-        "ai-security",
-        "vulnerability"
-      ],
-      "whyItMatters": "Multiple zero-day vulnerabilities and supply-chain attacks represent active exploitation threats that can compromise organizations across different infrastructure layers simultaneously. Understanding these attack vectors—from default configurations to software dependencies—is essential for developing layered defense strategies that address both new threats and recurring security blind spots.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtXmkUOPD6prrNPMK9N1Rhu2dm3QFGQ2DUTiu3xrj2WWbauZ_IK2HemME36-4WBIqGh01SFOkNJuutFeXLgS_ZMUBFn5ZDzIP5_IeNrwJWDfKcOPQgZl3spOFVS8R84Hbthy6o3sx9IWJ1yRo4FiW5acGYGBrf2nljmx6yvSd55LWRrkX6JhJ9b5bHJX0g/s1600/recaps.jpg",
-      "processedAt": "2026-08-14T07:38:55.052016+00:00"
-    },
-    {
-      "id": "art-259f51bb",
-      "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-10",
-      "originalUrl": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-      "summary": "North Korea's Kimsuky hacking group has developed its own offline AI infrastructure instead of relying on public chatbots, enabling them to process stolen documents and enhance their cyber operations. The group is integrating AI capabilities directly into their malware development and phishing campaigns, making their attacks more sophisticated and harder to detect. This represents a significant escalation in how state-sponsored actors are weaponizing artificial intelligence for espionage purposes.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored",
-        "north-korea",
-        "ai-weaponization",
-        "malware-development",
-        "phishing",
-        "offline-ai"
-      ],
-      "whyItMatters": "This demonstrates that advanced threat actors are moving beyond public AI tools to create independent AI systems that amplify their attack capabilities while reducing detection risk. Organizations now face more intelligent, automated, and persistent threats from adversaries who can leverage AI for both social engineering and malware creation at scale. This development signals a new era of AI-enhan",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDgatgimOxtzWBp5R0l6yiMeoFVAeLE-hn-RGePbOlgUMgb3Vj9cEKav3AadjZBcppLfoDs4o-oREZ0OimLYX9WDnIRwebA4P7nVa-wh8KwHW-z7HUALW_bj2B-53kotBjkGw-6QXx-Awo3OxBlhjIwEIuueFEXLOgpT7cPpz5e_MSlD4l_FHgJocN6QA/s1600/north.jpg",
-      "processedAt": "2026-08-14T07:38:57.775034+00:00"
-    },
-    {
-      "id": "art-a1a2284d",
-      "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
-      "summary": "Apple has begun sending 'Threat Notification' alerts to iPhone users who may be targeted by mercenary spyware attacks. These notifications warn users that their devices have been detected as targets of sophisticated, state-sponsored or commercial spyware designed to compromise their security. The alerts represent Apple's proactive approach to informing users of targeted threats beyond standard malware.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "spyware",
-        "ios-security",
-        "threat-notification",
-        "mobile-security",
-        "mercenary-spyware",
-        "targeted-attacks"
-      ],
-      "whyItMatters": "Mercenary spyware represents an escalating threat where well-funded actors specifically target individuals rather than launching broad campaigns. Apple's direct notification system helps users understand they may be individually targeted, enabling them to take defensive action and adjust security practices accordingly. This highlights the importance of device security awareness and the growing sop",
-      "image": null,
-      "processedAt": "2026-08-14T07:39:00.564771+00:00"
-    },
-    {
-      "id": "art-a43d322a",
-      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-      "summary": "Ukrainian authorities dismantled 94 fraudulent call centers that were operating investment scams and attempting to steal banking credentials from victims. The operation resulted in the seizure of millions in cash and represents a significant crackdown on organized cybercrime networks. These call centers used social engineering tactics to manipulate people into providing sensitive financial information or making fraudulent investments.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "fraud",
-        "call-center-scams",
-        "social-engineering",
-        "investment-fraud",
-        "banking-threats",
-        "cybercrime-enforcement"
-      ],
-      "whyItMatters": "This enforcement action demonstrates how large-scale social engineering operations can target financial systems and personal savings across entire regions. The seizure highlights the real financial impact of cybercrime and the importance of awareness training to help individuals recognize and resist manipulation tactics used by fraudulent operations.",
-      "image": null,
-      "processedAt": "2026-08-14T07:39:03.005320+00:00"
-    },
-    {
-      "id": "art-acc4d23c",
-      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-      "summary": "Hackers affiliated with the Akira ransomware group bypassed security protections by restarting a victim's computer into Safe Mode with Networking, which disabled the endpoint detection and response (EDR) system. While the attackers successfully stole data from the compromised system, they were unable to complete their encryption attack. This incident highlights a practical vulnerability in security defenses that criminals are actively exploiting.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "edr-bypass",
-        "safe-mode",
-        "data-theft",
-        "akira"
-      ],
-      "whyItMatters": "This attack demonstrates that adversaries have found ways to circumvent modern security tools by using legitimate Windows features, showing that organizations need multi-layered defenses beyond just EDR solutions. The fact that attackers successfully stole data despite failing to encrypt systems indicates that data exfiltration alone is becoming a viable extortion strategy, increasing risk even if",
-      "image": null,
-      "processedAt": "2026-08-14T07:39:05.533537+00:00"
-    },
-    {
-      "id": "art-fde15846",
-      "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
-      "summary": "AI coding tools can automatically pull in open source dependencies without proper security vetting, creating a speed mismatch between code generation and security review processes. Organizations struggle to keep up with the volume and quality of dependencies these tools introduce, potentially allowing vulnerable or malicious packages into their development pipelines. ActiveState highlights the need for package governance at the selection stage, before code enters production systems.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "open-source",
-        "supply-chain-risk",
-        "dependency-management",
-        "code-vetting",
-        "package-governance"
-      ],
-      "whyItMatters": "As AI coding assistants become mainstream development tools, they create new attack vectors by automatically incorporating unvetted dependencies at scale—outpacing traditional security review capabilities. Organizations must implement upstream package controls to prevent vulnerable or malicious open source components from entering their codebase, or risk significant supply chain compromises.",
-      "image": null,
-      "processedAt": "2026-08-14T07:39:08.169373+00:00"
-    },
-    {
-      "id": "art-f4ed9f08",
-      "title": "White House taps security firms for offensive hack-back operations",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
-      "summary": "The White House has issued a directive authorizing private security companies to apply for permission to conduct offensive cyberattacks against foreign cybercrime organizations. This initiative represents a significant shift in U.S. cyber policy by potentially allowing private firms to engage in offensive hack-back operations rather than relying solely on government agencies. The program would establish a formal approval process through the National Coordination Center to manage these private sector offensive activities.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "offensive-operations",
-        "government-policy",
-        "cyber-warfare",
-        "private-sector",
-        "international-cybercrime"
-      ],
-      "whyItMatters": "This policy creates new legal and operational frameworks for private cybersecurity firms that could fundamentally change how organizations respond to cyberattacks, but it also raises concerns about attribution, collateral damage, and unintended escalation of international cyber conflicts. Understanding these government-endorsed offensive capabilities is critical for organizations assessing their c",
-      "image": null,
-      "processedAt": "2026-08-14T07:39:10.738362+00:00"
     }
   ]
 }
