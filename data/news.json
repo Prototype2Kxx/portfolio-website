@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-08-15T18:10:49.109944+00:00",
+  "lastUpdated": "2026-08-16T06:47:26.531851+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-f6718899",
+      "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-13",
+      "originalUrl": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+      "summary": "Attackers are actively exploiting CVE-2026-55040, a critical Microsoft SharePoint vulnerability with a CVSS score of 9.1 that allows authentication bypass. The flaw was patched in July 2026, but public release of proof-of-concept code has accelerated real-world attacks. Organizations using SharePoint must prioritize applying the security update immediately to prevent unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sharepoint",
+        "authentication-bypass",
+        "cve-2026-55040",
+        "active-exploitation",
+        "patch-tuesday",
+        "microsoft"
+      ],
+      "whyItMatters": "Active exploitation of a critical vulnerability with publicly available PoC code represents an immediate threat to any organization running SharePoint. The authentication bypass nature of this flaw means attackers can gain unauthorized access without valid credentials, making rapid patching essential to prevent data breaches and system compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_e1WsuZlqC_AfMpdI4wXB0wzIA6nGpPb5ktYmwO5jRhFqH2t56eGghhYAV7he6u0qTqiPacKD-Wf3c1vXxUmBV159KAObOJUTEDGdDafl9B0makdRgyKTUwWHZ5qxLpGbWRg33JJl_0KaY0K0fiWLaV2xghWX4KqUSeaoNgD9Z5ql1Q5VesZQyH-1eO7W/s1600/poc.jpg",
+      "processedAt": "2026-08-16T06:47:00.441177+00:00"
+    },
+    {
+      "id": "art-c4a35b10",
+      "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+      "summary": "Attackers are actively exploiting a critical vulnerability (CVE-2026-59310) in VMware vCenter that allows remote code execution through directory traversal. This flaw, which has a CVSS score of 9.8, affects the vCenter server and can be exploited by anyone with network access. Organizations using VMware vCenter need to apply available patches immediately to protect their infrastructure from compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cve-2026-59310",
+        "vmware-vcenter",
+        "remote-code-execution",
+        "patch-urgent",
+        "directory-traversal",
+        "active-exploitation"
+      ],
+      "whyItMatters": "VMware vCenter is a critical infrastructure management tool used by thousands of organizations worldwide, making this active exploitation a widespread threat. The high CVSS score and remote code execution capability mean attackers can gain persistent access and control over entire virtualized environments without needing credentials. Organizations must prioritize patching this vulnerability immedi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhuo4K_GT6YrQhFiPQrrf58NN4PQM0_aYVTxWXeaJ1KsqjBJ69c746Hj6DyhGH-uzhZvEowVR8YMbITHBpOcT3OQevcTJg36qwJ1WfPtFZySMVg_B2JVBE763_JVHh3gn563WAYxf72bnd1g9QC2tkWd6Bbm9_TWXPhMxk1vnk6gxnUM4eDQNxXouVEtJ9i/s1600/vmware.jpg",
+      "processedAt": "2026-08-16T06:47:03.071105+00:00"
+    },
+    {
+      "id": "art-58f061c8",
+      "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-12",
+      "originalUrl": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+      "summary": "Two poisoned versions of the popular LiteLLM Python package were uploaded to PyPI in March and remained available for about 40 minutes before removal. These malicious releases contained code designed to steal sensitive information like cloud credentials, SSH keys, Kubernetes tokens, and database passwords from infected systems. Threat intelligence firm CloudSEK discovered that the attackers collected roughly 434,000 files, potentially affecting over 2,100 organizations.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "credential-theft",
+        "pypi-poisoning",
+        "cloud-keys",
+        "malware",
+        "software-integrity"
+      ],
+      "whyItMatters": "This incident demonstrates how attackers can compromise widely-used open-source packages to distribute credential-stealing malware at scale, affecting thousands of organizations simultaneously. Supply chain attacks through trusted repositories like PyPI pose a systemic risk because developers often install dependencies without intensive vetting, making it a particularly effective attack vector. Or",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjTLayRrpqM-bUGPU8pmWZIGJ_TCnkLLvykLv9Z_-R-QFmC1f6nIxSff2TTqZ77xC1n-l7Y44qKhUVdvRX9bUgNjVcGhF7A0vkRGnumHe6-bUoCFNH4PAb11zHkdjq3Xd2kF1jiGi8quRW4WFOy-0I_CRCorkQGuh9D2K8KhDAFxzsA7a0yxp2VkM-uGo/s1600/llmhack.jpg",
+      "processedAt": "2026-08-16T06:47:06.082637+00:00"
+    },
+    {
+      "id": "art-4a857a70",
+      "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+      "summary": "Zoom's annotation feature contained a critical vulnerability that allowed meeting participants to take control of each other's computers without any user interaction required. The flaw affected both screen sharers and viewers, with attackers able to hijack systems simply by being present in the same meeting. No additional actions like clicking links or downloading files were needed to exploit this vulnerability.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "zoom",
+        "annotation-tool",
+        "remote-code-execution",
+        "privilege-escalation",
+        "video-conferencing",
+        "zero-interaction"
+      ],
+      "whyItMatters": "This vulnerability is critical because it demonstrates how widely-used collaboration tools can contain severe flaws that bypass normal user security awareness. The zero-interaction nature of the exploit makes it particularly dangerous, as users cannot defend themselves through caution or skepticism. Organizations relying on Zoom for sensitive communications needed immediate patches to prevent unau",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIX-dcsP7VVws3iI-g-myaz7Wyt8fgrlR9U3CtweEsSriOayyy8r9uyB_1mVcMhSBPyulDXj47SOLsWhl7XQjgMpLYGSjF79fiMTw7zEVOAceKqtAlHCVAMs38paehT0bmDN1zdAyMjHgvdUfYzqRCGEU1StMPyrYW5xIkJzG6DIHh9R9gemNCus_Mwlc/s1600/zoomsday.jpg",
+      "processedAt": "2026-08-16T06:47:08.967157+00:00"
+    },
+    {
+      "id": "art-04f11062",
+      "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+      "summary": "Russian state-sponsored hackers linked to Sandworm are running a social engineering campaign targeting Ukrainian IT workers by impersonating recruiters. The attackers trick victims into installing a malicious VPN tool that can execute commands on compromised systems. This coordinated effort demonstrates how nation-state actors combine recruitment deception with malware delivery to infiltrate organizations.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "social-engineering",
+        "nation-state",
+        "sandworm",
+        "malware-distribution",
+        "credential-theft",
+        "ukraine"
+      ],
+      "whyItMatters": "This attack highlights how sophisticated threat actors exploit trust in hiring processes to bypass traditional security defenses and gain command execution capabilities on victim machines. IT workers are high-value targets, and fake job interviews are an effective social engineering vector that organizations must train employees to recognize and report. The malicious VPN tool's command execution c",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP9vK0AfjfbpQDa7i5il113N22qO5N-mxuOw7qoNVnvUOnQIYRjhuKA8rxdRhaZ13t0r5jZtsj1bjQQatdbdxi3L1Fso99wsDJIAKkw6NVklb6S2PBfipUtUm6qNdGofjKrmSAHUc0P4qgPRK2tDoGftkwyD17KQHQm6cYP80rT4dUH-tg0rnd5SSfQBJl/s1600/interview.jpg",
+      "processedAt": "2026-08-16T06:47:11.654275+00:00"
+    },
+    {
+      "id": "art-94cf8739",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "summary": "CISA experienced a significant security incident where a contractor accidentally exposed sensitive credentials, including AWS Govcloud keys, in a public GitHub repository for nearly half a year before detection. The agency has released a postmortem analysis examining the failures in their response procedures and credential management practices. Security experts highlight this case as a critical learning opportunity for all organizations to strengthen their credential handling and monitoring processes.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "credential-exposure",
+        "cloud-security",
+        "github-leak",
+        "aws-keys",
+        "incident-response",
+        "secrets-management"
+      ],
+      "whyItMatters": "This incident demonstrates how easily sensitive cloud credentials can be exposed through common development platforms and how long breaches can persist undetected. Organizations must implement automated secret scanning, credential rotation policies, and continuous monitoring to prevent similar exposures of AWS keys and other sensitive access tokens. The lessons from CISA's response gaps are direct",
+      "image": null,
+      "processedAt": "2026-08-16T06:47:14.375160+00:00"
+    },
+    {
+      "id": "art-f9de33b2",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "summary": "A cybersecurity startup that pays large sums for zero-day vulnerabilities in popular software is being operated by convicted felons and conspiracy theorists with a history of running fraudulent schemes. The operators have previously used fake identities to run fake intelligence companies and other ventures, raising serious concerns about the legitimacy and ethical implications of the operation. This discovery highlights potential risks in how vulnerability markets operate and who may be acquiring critical security flaws.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "vulnerability-market",
+        "cybercrime",
+        "fraud",
+        "exploit-acquisition"
+      ],
+      "whyItMatters": "This case demonstrates how criminal actors can infiltrate the legitimate vulnerability acquisition ecosystem, potentially acquiring zero-day exploits for malicious purposes rather than responsible disclosure. Organizations and security researchers need to be cautious about which vulnerability brokers they trust, as bad actors can exploit this market to obtain powerful exploits. The discovery under",
+      "image": null,
+      "processedAt": "2026-08-16T06:47:18.478758+00:00"
+    },
+    {
+      "id": "art-8ec24178",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-02",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "summary": "The FBI seized hundreds of domains belonging to NetNut, a residential proxy service run by Israeli company Alarum Technologies, following evidence that the platform was connected to the Popa botnet—a network of over 2 million compromised devices. This action highlights how legitimate-looking services can be exploited to distribute malware and conduct cyberattacks without users' knowledge or permission. The seizure demonstrates law enforcement's increased efforts to shut down infrastructure that enables large-scale cybercriminal activities.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "malware",
+        "proxy-abuse",
+        "law-enforcement",
+        "compromised-devices",
+        "infrastructure-takedown"
+      ],
+      "whyItMatters": "This case demonstrates how cybercriminals abuse proxy services to hide malicious activity and control millions of compromised devices at scale. Understanding these takedown operations helps organizations recognize which third-party services pose risks and reinforces the importance of monitoring for signs of device compromise. The incident also shows that even publicly-traded companies' services ca",
+      "image": null,
+      "processedAt": "2026-08-16T06:47:21.477384+00:00"
+    },
+    {
+      "id": "art-c38fb96f",
+      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-06-23",
+      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
+      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their roles in an August 2024 cyberattack that disrupted London's public transportation system. The guilty pleas occurred on the first day of trial, significantly shortening what was expected to be a lengthy legal proceeding. This case demonstrates law enforcement's growing success in identifying and prosecuting members of sophisticated cybercrime organizations.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "scattered-spider",
+        "cybercrime",
+        "uk-prosecution",
+        "critical-infrastructure",
+        "transport-attack"
+      ],
+      "whyItMatters": "This prosecution shows that even members of organized cybercrime groups face serious legal consequences, which may deter future attacks on critical infrastructure like transportation networks. The case illustrates how disruptions to public services impact entire cities and reinforces the importance of international law enforcement cooperation in combating organized cyber threats.",
+      "image": null,
+      "processedAt": "2026-08-16T06:47:24.111431+00:00"
+    },
+    {
+      "id": "art-3fc2801b",
+      "title": "Mission-Driven Security: Inside a Global Bank's Defense",
+      "source": "Dark Reading",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/mission-driven-security-inside-global-bank-defense",
+      "summary": "Standard Chartered's group CISO discusses how security leadership is evolving from purely technical roles to strategic business positions. The interview highlights that modern security executives must understand business operations alongside cybersecurity, and explores how artificial intelligence is transforming both defensive strategies and attack methods in the banking sector.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "banking-security",
+        "leadership",
+        "ciso-insights",
+        "ai-threats"
+      ],
+      "whyItMatters": "As financial institutions face increasingly sophisticated threats powered by AI, understanding how security leaders integrate business strategy with technical defense is critical for organizational resilience. The insights from a major global bank's CISO provide practical guidance on how security teams can adapt leadership structures and AI capabilities to counter evolving adversarial tactics.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltaf878ea5b4a138a7/6a7f5e48b01ed02ddabd5447/standardchartered1800_winhorse_GettyImages-1344776566.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-08-16T06:47:26.531692+00:00"
+    },
     {
       "id": "art-e43cb29d",
       "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
@@ -827,212 +1034,6 @@
       "whyItMatters": "This policy creates new legal and operational frameworks for private cybersecurity firms that could fundamentally change how organizations respond to cyberattacks, but it also raises concerns about attribution, collateral damage, and unintended escalation of international cyber conflicts. Understanding these government-endorsed offensive capabilities is critical for organizations assessing their c",
       "image": null,
       "processedAt": "2026-08-14T07:39:10.738362+00:00"
-    },
-    {
-      "id": "art-6d8e5fe5",
-      "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-      "summary": "Security researchers created a fake cryptocurrency startup and deliberately hired individuals they suspected were North Korean operatives to monitor their activities. The researchers tracked all virtual machines and systems provided to these employees, gathering evidence of potential state-sponsored cyber recruitment. The investigation revealed inconsistencies in the hired workers' background information, including conflicting location claims and documentation from different states.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "north-korea",
-        "apt",
-        "threat-intelligence",
-        "social-engineering",
-        "state-sponsored",
-        "cyber-recruitment"
-      ],
-      "whyItMatters": "This research demonstrates how state actors actively recruit IT talent through deceptive job postings and highlights the real threat of nation-state cyber operations. Understanding these recruitment tactics helps organizations strengthen their hiring security practices and recognize potential red flags in onboarding processes. The findings provide valuable intelligence on adversary methods that ca",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIGgelUshBcG56Nc5uWqBbhQwtUxWtNgSIRTCiJXZoJtkuTWeXEV0KiWRje-UhGGnrvf6wNOmmBGQ7yAxKNigAuJE00RicY4ris0k02Dd_1ch7_RcSM2aJtGvgf4miSazvFMNEqTmVDY3nlDT1zPwg5vkafqzMwbkFRZ1kO4xU2mzZgfxAEUTM0zObjGE/s1600/nk.jpg",
-      "processedAt": "2026-08-13T18:43:33.666986+00:00"
-    },
-    {
-      "id": "art-fee08da6",
-      "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-      "summary": "Researchers discovered a critical vulnerability in Windows Plug and Play that allows attackers to gain full system-level control on Windows 11 machines by abusing the auto-installation feature for USB devices. The attack works by tricking the system into fetching and executing signed vendor software with elevated privileges, effectively bypassing security controls. Notably, this attack can be triggered remotely through Remote Desktop without needing physical access to a USB port if certain features are enabled.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "windows-11",
-        "privilege-escalation",
-        "plug-and-play",
-        "system-takeover",
-        "usb-exploit",
-        "remote-attack"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe risk because it enables attackers to gain complete system control on fully patched Windows 11 machines through a built-in operating system feature. The ability to trigger the exploit remotely via Remote Desktop significantly expands the attack surface beyond just local physical access, making it a widespread threat to organizations and individual us",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIoEoCsvghUx_eKGXl-WAFq7pyoOLwg_Sk9a5Ne8vX1Cb7l_DOib3wtO_5NwoogbHqFvU_VWJZd3ceL5ftpWOX5qNx5HNJCmD4_RR7GaiExk0ph2F3sp5eKPthiuTcmnDlJQyvUdkTMfxBUsIlXp_I9-qkSi4zxwVnLPb9bG-T3zFC7oFCI1Mps4VJf1s/s1600/pnp.gif",
-      "processedAt": "2026-08-13T18:43:36.767271+00:00"
-    },
-    {
-      "id": "art-98d5c97b",
-      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-      "summary": "Attackers can compromise AI coding assistants by connecting malicious tool servers that break down harmful requests into innocent-looking fragments, allowing them to steal sensitive data like SSH keys and source code without triggering obvious security alarms. This technique works by distributing the malicious instructions across normal communication channels that the AI already uses, making detection difficult even when the complete theft operation would normally be rejected. The attack demonstrates a new attack vector against increasingly popular AI development tools that have access to crit",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "tool-compromise",
-        "data-exfiltration",
-        "ai-agents",
-        "instruction-splitting",
-        "secret-theft"
-      ],
-      "whyItMatters": "As AI coding assistants become integral to development workflows and gain access to sensitive credentials and source repositories, this attack method represents a critical vulnerability in the security model of these tools. Organizations relying on AI agents for coding tasks need to understand that traditional security controls may be ineffective against fragmented, obfuscated requests designed to",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2hJoWr0m-Mx1rwaqZpbsdsQa5iSVY8J_jAnt0zKgBUlynOrS-NgEcINm3asfWZR-Ypx9y1iw28BOVud8sfaOQbiq4lmrvSnaZHUBlrkmkH9KXSPy4AXQkklS-AxG83dzpV8sSMj_uUDyVvZTgKs68EpYd18qHJTWF8s2NRaQIF80mh0e7mok6y0SqFi4/s1600/mcp-agent.jpg",
-      "processedAt": "2026-08-13T18:43:40.123791+00:00"
-    },
-    {
-      "id": "art-06dfd322",
-      "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-      "summary": "Gunra ransomware is being used in coordinated attacks against critical infrastructure sectors worldwide, including healthcare, finance, and government organizations. The threat actors are exploiting known vulnerabilities in Fortinet FortiOS and FortiProxy products to gain network access. Security agencies from South Korea and the U.S. have issued joint warnings about this emerging ransomware variant.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "fortinet",
-        "critical-infrastructure",
-        "vulnerability-exploitation",
-        "nation-state-warning"
-      ],
-      "whyItMatters": "This threat is critical because it targets essential services like hospitals and government agencies with active exploitation of known Fortinet vulnerabilities. Organizations using FortiOS or FortiProxy must immediately patch these systems to prevent network compromise. The involvement of both U.S. and South Korean intelligence agencies indicates this is a significant geopolitical cyber threat req",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWQpuDbRsHV15EPHhEH-PxqwnIqhmhncYrLIhvelAhdTJaJL-b6Ro5jALTP-JmVpIsvqRL5VxXk4SYql9oOqliOv8FHZS8T1NN8mCqJWq5O4WMFbg2aQRBoEoGxCE6MNpb3-nWwvDH2UA3sAshkr8Ue_qBqXkDvj3jXgyAy5_0mfKXOBJWwyjTuh233V5b/s1600/fort.jpg",
-      "processedAt": "2026-08-13T18:43:42.501467+00:00"
-    },
-    {
-      "id": "art-8a33b515",
-      "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-      "summary": "Attackers infiltrated a Polish heating plant's private cellular network and disabled critical infrastructure including a steam turbine and water treatment system. The plant serves approximately 50,000 residents, but operators began recovery procedures while the attackers were still on the network, preventing service interruption. This incident demonstrates how industrial control systems remain vulnerable even when using dedicated private networks rather than public internet connections.",
-      "category": "Network Security",
-      "severity": "Critical",
-      "tags": [
-        "industrial-control-systems",
-        "critical-infrastructure",
-        "cellular-network",
-        "operational-technology",
-        "sabotage"
-      ],
-      "whyItMatters": "This breach shows that adversaries can compromise essential services affecting tens of thousands of civilians by targeting private cellular networks typically considered more secure than public internet. Organizations managing critical infrastructure must recognize that dedicated private networks alone are insufficient protection and require additional layers of authentication, monitoring, and acc",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS_4KcVdL2QogjCtjg4yqVFuDNgQ9a8SYCzjsxUKME896DBso0Zwpvb8gH9T5gMPOqM2LU-A-7IyKOqKpKiXgLWAdiABf4RrVvAq9nNpDDC2TNppKWt9RKVXmNr2-Z9Y1kIBNVi8fETA6Aj6K2s_gU0Hmc8CKDi1q1wbqD9G9uUP5cPpuwk5h88mfD9I0/s1600/power-plant.jpg",
-      "processedAt": "2026-08-13T18:43:45.638495+00:00"
-    },
-    {
-      "id": "art-e4af7211",
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-      "summary": "The Jewelbug hacker group has been identified conducting sophisticated espionage campaigns against government and military targets while simultaneously running cryptocurrency fraud schemes. This dual-operation approach demonstrates how criminal groups can balance intelligence gathering with financial crimes, making them particularly dangerous adversaries. The breach of government webmail systems indicates significant vulnerabilities in critical infrastructure security.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "government-breach",
-        "espionage",
-        "crypto-fraud",
-        "webmail-compromise",
-        "apt-activity",
-        "jewelbug"
-      ],
-      "whyItMatters": "This attack highlights that state-level targets face coordinated threats combining espionage with financial exploitation, indicating organized adversaries with substantial resources and capabilities. Government webmail compromise poses severe national security risks through potential access to classified communications and sensitive policy discussions. Organizations should recognize that sophistic",
-      "image": null,
-      "processedAt": "2026-08-13T18:43:49.278143+00:00"
-    },
-    {
-      "id": "art-bcb3514f",
-      "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-      "summary": "Microsoft released security patches to fix a Windows zero-day vulnerability called LegacyHive that was discovered after the July 2026 Patch Tuesday update. This vulnerability posed a significant risk to Windows users because it could be exploited before users were aware of the threat. The company acted quickly to provide patches and protect its users from potential attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "windows",
-        "patch-now",
-        "legacyhive",
-        "microsoft",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "Zero-day vulnerabilities are dangerous because attackers can exploit them before patches are available, potentially affecting millions of Windows users. Microsoft's rapid response demonstrates the importance of applying security updates immediately when they are released. Organizations and individuals must prioritize installing this patch to prevent exploitation by malicious actors.",
-      "image": null,
-      "processedAt": "2026-08-13T18:43:52.434539+00:00"
-    },
-    {
-      "id": "art-280be198",
-      "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-      "summary": "Following Anthropic's introduction of watermarks in Claude-generated text, numerous tools claiming to remove these watermarks have appeared online, including popular open-source projects and commercial detection-evasion services. However, none of these tools can actually verify their effectiveness since Anthropic has not released a public detector for the watermark technology. This situation highlights a gap between marketed capabilities and actual proof of functionality in the emerging market of AI security circumvention tools.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-watermarking",
-        "ai-detection-evasion",
-        "unverified-claims",
-        "content-authentication",
-        "anthropic-claude"
-      ],
-      "whyItMatters": "As AI-generated content becomes harder to distinguish from human-written text, watermarking is a critical safeguard for accountability and trust. The proliferation of unproven removal tools creates false confidence among users seeking to bypass detection, potentially accelerating harmful applications like academic fraud, misinformation, and plagiarism. Understanding which anti-watermarking claims ",
-      "image": null,
-      "processedAt": "2026-08-13T18:43:55.900510+00:00"
-    },
-    {
-      "id": "art-cba8f492",
-      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-      "summary": "A serious flaw in VMware vCenter Syslog Server (CVE-2026-59310) has been patched, but attackers are already using it to break into systems. Once inside, they're installing reverse SSH tools that give them hidden access and control over compromised infrastructure. This active attack campaign shows how quickly hackers exploit known vulnerabilities before organizations can patch their systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "vmware-exploit",
-        "rce-vulnerability",
-        "persistence-tool",
-        "reverse-ssh",
-        "active-exploitation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability demonstrates the critical window of danger between a patch release and widespread deployment—attackers are already weaponizing it to establish persistent backdoors. Organizations running VMware vCenter must prioritize patching immediately, as compromise of virtualized infrastructure can affect entire networks of hosted systems and virtual machines.",
-      "image": null,
-      "processedAt": "2026-08-13T18:43:58.745026+00:00"
-    },
-    {
-      "id": "art-6389c9c7",
-      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-      "summary": "Trezor, a popular hardware wallet company, experienced a data breach that exposed information for approximately 14,000 customers. The breach occurred not through Trezor's own systems, but through ShipMonk, a third-party shipping and logistics provider that handles their deliveries. This incident highlights how security risks can extend beyond a company's direct operations to affect their suppliers and customers.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "supply-chain",
-        "customer-data",
-        "hardware-wallet"
-      ],
-      "whyItMatters": "This breach demonstrates the critical importance of supply chain security and vendor risk management—even secure companies can expose customer data through compromised third-party partners. For cryptocurrency users, any data exposure involving hardware wallet customers poses risks of targeted social engineering, phishing, and physical security threats. Organizations must conduct thorough security ",
-      "image": null,
-      "processedAt": "2026-08-13T18:44:01.954781+00:00"
     }
   ]
 }
