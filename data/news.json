@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-08-17T07:04:34.976931+00:00",
+  "lastUpdated": "2026-08-17T18:18:47.173416+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-d8aded4c",
+      "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+      "summary": "This week's cybersecurity incidents revealed that attackers often exploited already-exposed services and old vulnerabilities rather than using sophisticated techniques. The attacks included VMware exploits, Windows zero-days, MCP-based attacks, and browser hijacking campaigns that spread through supply chains. The underlying pattern showed that many breaches succeeded because organizations overlooked basic security controls and failed to detect obvious intrusions.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "vmware-exploits",
+        "windows-zero-day",
+        "browser-hijacking",
+        "supply-chain-attacks",
+        "vulnerability-exploitation",
+        "exposed-services"
+      ],
+      "whyItMatters": "This article demonstrates that major security incidents don't require advanced techniques—attackers succeed by exploiting overlooked or unpatched vulnerabilities and poor access controls. Organizations must prioritize basic hygiene like patch management, service exposure audits, and monitoring for unusual access patterns to prevent these recurring attack vectors.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObgx3d_pR3qN3UrW69UfMgB-yM7RmfpKrQjvzqtAsNaQ3nVsIKNIiz5p0BsZCppmE4BWH9Wle92WombnIdCdT0BsHkv-_lDcEdIkYvsGrnch6OQHbAr3FUj-QjM8aDdKPNdnez6SXczT4sXNn8KX4QgmG6BiapFhq35I0cdZckWblyoaTVr7rjY5idp5V/s1600/cyber-recap.jpg",
+      "processedAt": "2026-08-17T18:18:19.465150+00:00"
+    },
+    {
+      "id": "art-083125be",
+      "title": "How MCP Servers Can Expose Enterprise Secrets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+      "summary": "MCP (Model Context Protocol) servers used by AI agents can unintentionally leak sensitive enterprise data through insecure configuration files, excessive access permissions, and prompt injection attacks. Organizations often deploy these servers without adequate security oversight, creating hidden vulnerabilities before security teams are even aware they exist. As AI agents become more integrated into business systems, these security gaps pose a growing risk to enterprise information protection.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "mcp-servers",
+        "ai-security",
+        "configuration-management",
+        "prompt-injection",
+        "access-control",
+        "enterprise-secrets"
+      ],
+      "whyItMatters": "As organizations rapidly adopt AI agents, MCP server misconfigurations represent an emerging blind spot that can bypass traditional security controls and expose confidential data before defenders can respond. The combination of plaintext credentials, over-permissioned access, and injection vulnerabilities creates multiple attack vectors that require immediate attention in AI infrastructure securit",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmy_mE0_W-wEeuppBUYhS19P_uTo6RifgrGEV5eLim_B6KkhI_BO5wSL930qS_NCD6aR7nL5mAizU4RAfinzkWhz-oq1wCnHszL6C25H0Sj_MahJIBsr7lw_wzJ7xZ4YF7-GVJJO0L1wxe8LQXv3rHuLV3vbuDUEQ9D7vXa6D4zK6ARD1aFmiQv4fka5Y/s1600/keeper.png",
+      "processedAt": "2026-08-17T18:18:22.930032+00:00"
+    },
+    {
+      "id": "art-e9c25db6",
+      "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+      "summary": "Security researchers discovered a two-stage exploit chain that allows attackers to gain complete control of Android kernel on devices using Unisoc modem firmware by initiating a VoLTE video call. The vulnerability, disclosed in August 2026, builds on an earlier remote code execution flaw found in March 2026, and currently has no patch available from the chipset manufacturer. This attack requires no user interaction beyond receiving a video call, making it a particularly dangerous threat vector.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "unisoc-modem",
+        "android-kernel",
+        "volte-attack",
+        "exploit-chain",
+        "zero-day",
+        "kernel-access"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and severe threat to millions of Android devices as it enables attackers to achieve kernel-level access through a common communication feature with no patch currently available. The exploit chain's ease of delivery via video calls means attackers can target victims without sophisticated social engineering, and kernel access allows complete device compromise in",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIqVuTpKFLy55ilEFObjJqUsVDu7qTrQCYAFsh7bbMcF4xv61h8I6tfue0tGw04yWGhDg_cZ-r0v9Jw-kjNmm5ZYpbebrvlgixiqID5pSUwXb8dQSg12cI5kFkR4BKK0mwc6rMP-9ULTHob-bi7rgfYxGBixmNhGy75tlqn5tlc6OXjpGGZemXbq0yHRY/s1600/android.jpg",
+      "processedAt": "2026-08-17T18:18:26.298088+00:00"
+    },
+    {
+      "id": "art-50e3db48",
+      "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+      "summary": "A new Linux botnet called Evooo1Bot has been discovered that builds upon the leaked Mirai source code to create a more advanced threat. Unlike traditional botnets focused solely on DDoS attacks, this malware converts compromised edge devices into SOCKS5 proxies, enabling attackers to route traffic through infected systems. By exploiting known vulnerabilities in internet-facing devices, this botnet demonstrates how legacy malware code continues to evolve into more dangerous variants.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "linux-botnet",
+        "mirai-variant",
+        "edge-devices",
+        "proxy-malware",
+        "socks5",
+        "ddos"
+      ],
+      "whyItMatters": "This botnet represents an escalation in threat sophistication by combining DDoS capabilities with proxy functionality, allowing attackers to hide their tracks and conduct additional attacks through compromised infrastructure. Organizations managing edge devices and IoT systems need to prioritize patching known vulnerabilities and network segmentation to prevent these devices from being weaponized ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIDrkyaW1magTuvTfLfkhtk_8stt1zYUxgonTZX1yaI_OGxsGMV9wCRE8bglbRubclVma7bkghEbmah6ku4T2ZVnpSngl6k5Cw0iCXgNNpuy6I2ZNPQOYYIfqKNgcVQxkqZdgvFLLM82bK1By0hrAm4i9slLnFQwQmwLmpR8I9eb8Paze2sf2UJMlol81Q/s1600/linux-botnet.jpg",
+      "processedAt": "2026-08-17T18:18:29.536770+00:00"
+    },
+    {
+      "id": "art-4dad0f8e",
+      "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+      "summary": "A suspected Chinese-linked hacking group is exploiting a critical vulnerability in VMware vCenter servers to deploy ransomware derived from the Babuk strain. The flaw (CVE-2026-59310) has a high severity rating and allows attackers to run malicious code on vulnerable systems. Organizations need to apply available patches immediately to protect their virtualization infrastructure from this active threat.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "vmware-vcentere",
+        "cve-2026-59310",
+        "ransomware",
+        "apt",
+        "china-nexus",
+        "patching"
+      ],
+      "whyItMatters": "VMware vCenter is a critical infrastructure component used by organizations worldwide to manage virtual environments, making this vulnerability a high-priority target. Active exploitation by a sophisticated threat actor means systems are already under attack, requiring urgent patching. The combination of a critical vulnerability with ransomware deployment creates immediate business continuity and ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5GzIjo1DOb9leWRsG7hi5zemNCi6kb_NBf-391nF9pphXhTgf8DZLMlk-fUyp-j4rT_cFv4coBpP821rfQkUc4ydAu5YQBcn9Y6nj-SeQGDNu10DmSN2JYDmWJTzLUSXsvDYPTBQ_cQkkCFAIkdMCyRgRv5YIPdMgkp62BtqaYE49b3aWnm4QbYM7YeK/s1600/vmware.jpg",
+      "processedAt": "2026-08-17T18:18:32.197953+00:00"
+    },
+    {
+      "id": "art-bfff640d",
+      "title": "Microsoft confirms GitHub is down worldwide",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-github-is-down-worldwide/",
+      "summary": "GitHub experienced a widespread global outage affecting multiple core services including the website, API, Actions, and Pull Requests. This disruption impacted developers and organizations worldwide who rely on the platform for code repositories, collaboration, and continuous integration workflows. Microsoft confirmed the outage was affecting users across all regions simultaneously.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "github-outage",
+        "cloud-service-disruption",
+        "api-downtime",
+        "service-availability",
+        "infrastructure-incident"
+      ],
+      "whyItMatters": "GitHub outages directly disrupt development pipelines, CI/CD processes, and team collaboration for millions of developers and organizations globally. Extended downtime can delay software releases, block deployments, and create cascading impacts across the software supply chain, making service availability a critical cybersecurity and business continuity concern.",
+      "image": null,
+      "processedAt": "2026-08-17T18:18:35.583258+00:00"
+    },
+    {
+      "id": "art-c9741a9c",
+      "title": "Certighost and the Privilege Hiding in Your Certificate Authority",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/certighost-and-the-privilege-hiding-in-your-certificate-authority/",
+      "summary": "A vulnerability identified as CVE-2026-54121 allows unprivileged domain users to escalate their access and compromise an Enterprise Certificate Authority, potentially promoting it to a Domain Controller. This flaw exposes a critical design gap in how organizations handle certificate infrastructure and trust relationships. The article emphasizes that patching alone is insufficient; organizations must rethink how they protect their PKI systems as core identity infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "privilege-escalation",
+        "certificate-authority",
+        "pki-security",
+        "domain-controller",
+        "cve-2026-54121",
+        "enterprise-security"
+      ],
+      "whyItMatters": "This vulnerability threatens the foundation of organizational security by compromising certificate authorities, which are Tier 0 infrastructure responsible for identity and trust. An attacker exploiting this could gain near-total control over an enterprise network, making this a critical risk that requires immediate patching and architectural review of PKI security practices.",
+      "image": null,
+      "processedAt": "2026-08-17T18:18:38.747901+00:00"
+    },
+    {
+      "id": "art-8f90b1d5",
+      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+      "summary": "Microsoft has notified IT administrators that Windows Server 2022 will reach the end of its mainstream support phase in October 2026, which is only 60 days away. After this date, the operating system will transition to extended support, meaning it will receive fewer updates and security patches. Organizations still running Windows Server 2022 need to plan their upgrade or migration strategy to avoid operating unsupported systems.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-server",
+        "end-of-support",
+        "lifecycle-management",
+        "patch-management",
+        "system-upgrade"
+      ],
+      "whyItMatters": "Running unsupported operating systems exposes organizations to significant security risks, as they will no longer receive timely security patches for newly discovered vulnerabilities. IT teams must proactively plan migrations to supported versions to maintain adequate security posture and compliance requirements.",
+      "image": null,
+      "processedAt": "2026-08-17T18:18:41.124695+00:00"
+    },
+    {
+      "id": "art-c547cc60",
+      "title": "Philips and GE investigating Clop ransomware data theft claims",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/philips-and-ge-investigating-clop-ransomware-data-theft-claims/",
+      "summary": "Major technology companies General Electric and Philips have disclosed that they are investigating potential data breaches linked to the Clop ransomware gang. The attackers reportedly stole sensitive data from both organizations' systems. These investigations highlight how even large, well-resourced companies remain vulnerable to sophisticated ransomware attacks.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "clop-gang",
+        "data-breach",
+        "ge-philips",
+        "industrial-systems"
+      ],
+      "whyItMatters": "Breaches at major industrial and healthcare equipment manufacturers like GE and Philips pose significant risks because their products support critical infrastructure and medical systems worldwide. When ransomware groups successfully target these companies, they may gain access to sensitive intellectual property, customer data, and system designs that could be leveraged for further attacks. This in",
+      "image": null,
+      "processedAt": "2026-08-17T18:18:44.294277+00:00"
+    },
+    {
+      "id": "art-6c82e0b1",
+      "title": "French tax authority data breach affects 678,000 individuals",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/french-tax-authority-data-breach-affects-678-000-individuals/",
+      "summary": "A cyber attack on France's tax authority, the General Directorate of Public Finances (DGFiP), resulted in unauthorized access to personal data affecting nearly 678,000 individuals. The attacker stole sensitive information from the ministry's systems, prompting the French government to disclose the breach. This incident highlights vulnerabilities in critical government infrastructure that handles confidential financial and personal records.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "government-breach",
+        "data-theft",
+        "tax-authority",
+        "france",
+        "critical-infrastructure",
+        "personal-data"
+      ],
+      "whyItMatters": "Breaches of government tax agencies pose widespread risks because they expose detailed financial and personal information on hundreds of thousands of citizens, potentially enabling identity theft, fraud, and targeted attacks. Such incidents demonstrate that even well-resourced government institutions can be compromised, raising concerns about the security posture of critical infrastructure handlin",
+      "image": null,
+      "processedAt": "2026-08-17T18:18:47.173265+00:00"
+    },
     {
       "id": "art-dd0bbe1f",
       "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
@@ -823,212 +1030,6 @@
       "whyItMatters": "Organizations must prioritize applying these 570 patches quickly to prevent exploitation of critical vulnerabilities in widely-used Microsoft products. The surge in patch volume demonstrates how AI is accelerating vulnerability discovery, requiring security teams to adapt their patch management strategies and resources. This underscores the importance of maintaining robust update processes to clos",
       "image": null,
       "processedAt": "2026-08-15T18:10:49.109778+00:00"
-    },
-    {
-      "id": "art-fd79c2da",
-      "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
-      "summary": "SAP has released security patches for a critical vulnerability in its Commerce Cloud Data Hub Adapter that could allow attackers without authentication to execute arbitrary code on affected systems. The flaw, identified as CVE-2026-58231 with a perfect CVSS score of 10.0, stems from inadequate authorization checks and input validation in the platform. This vulnerability poses an immediate threat to organizations using SAP Commerce Cloud as it can be exploited remotely without any credentials.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sap-commerce-cloud",
-        "arbitrary-code-execution",
-        "cve-2026-58231",
-        "cloud-security",
-        "patch-critical",
-        "unauthenticated-attack"
-      ],
-      "whyItMatters": "This maximum-severity vulnerability requires immediate patching as it allows complete system compromise without authentication, making it a priority target for attackers. Organizations relying on SAP Commerce Cloud must apply updates urgently to prevent unauthorized code execution and potential data theft or service disruption.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbIbhajZdWb8FMAsUCcL8bufmUEbpuTCSFvKhvJgecxUZcO3rH1QV1bVNrOJ1W8oqge3sBIMwmHZxXR9l1PyrOGDEuAZZJkwFBmMlFGWwjU5-3CDmUQsz08HzrZ23kg9HSv3X7MrOryUe-T-PZCmpr8csna-nQcAg-b3RSeWiWsHuaBFAiJmjTrVI5WBQM/s1600/sap.jpg",
-      "processedAt": "2026-08-15T06:45:40.300427+00:00"
-    },
-    {
-      "id": "art-cbdd4358",
-      "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
-      "summary": "A cybersecurity researcher has released a proof-of-concept exploit for a Microsoft Defender vulnerability called ShieldBreak, which can bypass patches for CVE-2026-50656 (RoguePlanet). This zero-day flaw has a CVSS score of 7.8 and allows attackers to gain SYSTEM-level access on vulnerable Windows systems. The public release of this PoC makes the vulnerability immediately exploitable by malicious actors.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "microsoft-defender",
-        "patch-bypass",
-        "system-access",
-        "exploit-poc",
-        "cve-2026-50656"
-      ],
-      "whyItMatters": "The public availability of a working exploit for a patch bypass in Microsoft Defender creates an immediate and widespread risk for Windows users, as attackers can now leverage SYSTEM-level access to compromise systems before patches are applied. Organizations relying on Microsoft Defender as their primary security tool face urgent exposure, requiring immediate detection monitoring and mitigation s",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9fX7D-qoT4QD3pjSuUtavTiarjtyitt3-JMji-nzNa8XTKefzPp2QGMAR6FkLA8r8Ll9VVFHCMEJSKWgi5Gk0GOdYU4RA1itDyf8ZQc12IXczcxoGHKXcJ9GAWUv-fPaRhRXnDyFfxo9nhjQoJbBPxQQbixY9RxaR_Oz_NrHD2P_EMER6yKTV3nWCSAoq/s1600/zero-day.jpg",
-      "processedAt": "2026-08-15T06:45:43.517559+00:00"
-    },
-    {
-      "id": "art-dcc77189",
-      "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
-      "summary": "Cisco has disclosed a high-severity vulnerability (CVE-2026-20349) affecting its ASA and FTD firewall products that is already being actively exploited by attackers. The flaw stems from improper error handling when processing HTTP requests, allowing remote attackers to launch denial-of-service attacks without needing authentication. Organizations using these critical security appliances should prioritize patching to prevent potential service disruptions.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-asa",
-        "firewall-vulnerability",
-        "remote-dos",
-        "active-exploitation",
-        "patch-critical",
-        "cve-2026-20349"
-      ],
-      "whyItMatters": "This vulnerability is critical because firewalls are foundational security devices protecting entire networks, and active exploitation means attackers are already leveraging this flaw. An unauthenticated remote DoS attack could disable critical security infrastructure, leaving organizations exposed to further breaches. Organizations running Cisco ASA or FTD must apply patches immediately to restor",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRIn51DQNDe2IfVEJzqiWXY9k8QyRhulSTcOh67As0Pj7Da1DCB5Lu1RBhjI55Y7_TF9PW9F9HOBn6moaPRNrpl0G_OGeMbC9z5BMfdOqtF6sHpd5tJLvQqnvlCd77R-4oCYiDVfFlUtRe4mp7W8cFDCHmJ8kz4TueVL06-jbGzpVdWasZF02YRwYyrZJc/s1600/cisco-powerhouse.jpg",
-      "processedAt": "2026-08-15T06:45:46.035953+00:00"
-    },
-    {
-      "id": "art-824d598a",
-      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
-      "summary": "Microsoft released security updates addressing 398 vulnerabilities, including a critical Windows kernel driver flaw (CVE-2026-68820) that is currently being exploited in real-world attacks. This vulnerability allows attackers who already have code execution on a system to escalate their privileges to SYSTEM level, the highest permission level in Windows. The flaw affects a core driver responsible for network socket operations, making it a serious concern for system security.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "windows-kernel",
-        "privilege-escalation",
-        "active-exploitation",
-        "patch-critical",
-        "cve-2026-68820"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability means attackers are actively leveraging it in the wild, making immediate patching essential for organizations. Privilege escalation to SYSTEM level gives attackers complete control over affected machines, potentially enabling lateral movement, data theft, or deployment of persistent malware. The involvement of a core Windows driver means this affects a wid",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4HtkIdWjqoYaSkO4edq9d5ZotqTE-LNMM14UlVoPaVKw2hwBahFYrPkB3jttURH0gcBXxCDtyHhiGMAIrxCX74gYCb_ivX4INmfRzt7HRb-bPTNt1lV-nUQm_pHQQHrhUwx4JWS7DtAzOZ1etx-yjPAVrNJXGBltqXjHPSI5NcfnWQqYurz0LK-dRRMo/s1600/aug-ms-patch.jpg",
-      "processedAt": "2026-08-15T06:45:48.814068+00:00"
-    },
-    {
-      "id": "art-a0c4efd5",
-      "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
-      "summary": "Researchers discovered Kimwolf v7, an upgraded version of an Android and IoT botnet that can launch DDoS attacks while disguising malicious traffic as normal web browsing through HTTP/2. This new variant, found by Palo Alto Networks in early 2026, demonstrates improved resilience and evasion capabilities compared to earlier versions. The botnet's ability to blend attack traffic with legitimate user activity makes it harder for security tools to detect and block.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-botnet",
-        "iot-security",
-        "ddos-attacks",
-        "http2-evasion",
-        "kimwolf",
-        "traffic-obfuscation"
-      ],
-      "whyItMatters": "This botnet poses a significant threat because it can perform large-scale DDoS attacks while evading detection by mimicking legitimate HTTP/2 browsing traffic, making traditional security monitoring less effective. Organizations running Android devices and IoT infrastructure need to implement stronger endpoint protection and network monitoring to identify these sophisticated attacks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieGDZmdQhY70KqvppH4w5wMVhbs804WeageCN1UXtRK4KpFkYWNk-wkTeTv9CUSNGYQMsaZ04XYWimXsIQmfl0uYSFgNJe7uBbXsg1xPw-cukXwJY3O3TAHUpWiiYmleWgDpu4PLMRfjgIQtOxb6Wq2yFjvqyb6lpoCOcOyWOpZoURLpddzyGkmc8soRHe/s1600/android-botnet.jpg",
-      "processedAt": "2026-08-15T06:45:51.547899+00:00"
-    },
-    {
-      "id": "art-ebe0473b",
-      "title": "How Anthropic plans to watermark Claude's AI-generated text",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
-      "summary": "Anthropic is developing watermarking technology to help identify text generated by Claude AI models. This technique aims to make it easier for people to detect AI-generated content across social media and other platforms. The watermarking approach could help combat misinformation and unauthorized use of AI-generated text.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-watermarking",
-        "content-authentication",
-        "ai-detection",
-        "generative-ai",
-        "deepfake-prevention"
-      ],
-      "whyItMatters": "Watermarking AI-generated content is crucial for maintaining trust in digital information and preventing malicious actors from using synthetic text to spread disinformation, commit fraud, or impersonate legitimate sources. This defensive measure helps organizations and individuals distinguish authentic human-generated content from AI outputs, reducing risks related to social engineering and misinf",
-      "image": null,
-      "processedAt": "2026-08-15T06:45:53.878694+00:00"
-    },
-    {
-      "id": "art-7d8cca71",
-      "title": "RingCentral data breach exposed info of 1.6 million accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-      "summary": "RingCentral, a widely-used communication platform, suffered a data breach in July 2026 that exposed personal information belonging to 1.6 million user accounts. The ShinyHunters extortion group was responsible for the attack and stole sensitive data from the compromised accounts. This incident highlights the vulnerability of major cloud-based communication services that many businesses rely on daily.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "shinyhunters",
-        "ringcentral",
-        "extortion",
-        "account-compromise",
-        "personal-data"
-      ],
-      "whyItMatters": "RingCentral serves millions of businesses globally, making this breach a widespread threat affecting employees and organizations across multiple industries. The involvement of an extortion group indicates ongoing criminal activity and potential secondary risks like ransomware or data sales. Users of RingCentral and related services should immediately monitor accounts for unauthorized access and en",
-      "image": null,
-      "processedAt": "2026-08-15T06:45:56.589225+00:00"
-    },
-    {
-      "id": "art-aab9762f",
-      "title": "Data analyst sent to prison for stealing data, extorting employer",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
-      "summary": "A former data analyst contractor at Brightly Software was sentenced to two years in prison after attempting to extort his employer for $2.5 million by stealing sensitive company data. The case demonstrates how insider threats from contractors with system access can lead to serious criminal charges and prison time. This incident highlights the importance of monitoring contractor activities and securing access to valuable company information.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "insider-threat",
-        "data-theft",
-        "extortion",
-        "contractor-security",
-        "employee-monitoring"
-      ],
-      "whyItMatters": "This case illustrates the real-world consequences of insider threats and shows that organizations must implement strict access controls and monitoring for contractors with data access. It also reinforces that extortion-based attacks on employers are serious federal crimes with severe penalties, serving as a deterrent to potential insider threats.",
-      "image": null,
-      "processedAt": "2026-08-15T06:45:59.274282+00:00"
-    },
-    {
-      "id": "art-6d176c45",
-      "title": "Who’s Tracking You? Use This New Service to Find Out",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "summary": "DecryptAds is a new free service that helps users discover which companies are tracking them through ads and data collection across websites and mobile apps. By aggregating and analyzing advertising technology data that was previously scattered and difficult to access, the tool makes it transparent who is responsible for showing targeted ads and harvesting personal information. This service empowers individuals to understand the extent of their digital tracking and the various entities involved in the adtech ecosystem.",
-      "category": "Privacy",
-      "severity": "Low",
-      "tags": [
-        "privacy",
-        "adtech-tracking",
-        "data-collection",
-        "digital-transparency",
-        "user-awareness"
-      ],
-      "whyItMatters": "Understanding who collects your data is fundamental to privacy awareness and informed digital hygiene. By making adtech tracking visible and accessible to everyday users, DecryptAds helps individuals recognize surveillance tactics and potentially take protective measures. This transparency also raises awareness about the pervasive nature of online tracking and encourages better personal cybersecur",
-      "image": null,
-      "processedAt": "2026-08-15T06:46:02.259926+00:00"
-    },
-    {
-      "id": "art-f49b30fb",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "summary": "Microsoft released security updates addressing nearly 400 vulnerabilities across its Windows operating systems and other software products. The update is particularly urgent because at least one of the vulnerabilities is already being exploited by attackers in the wild, and two others have already been publicly disclosed. Users and organizations need to prioritize installing these patches to protect their systems from active threats.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-patch",
-        "windows-vulnerability",
-        "active-exploitation",
-        "security-update",
-        "urgent-patching"
-      ],
-      "whyItMatters": "Active exploitation of known vulnerabilities represents an immediate threat to systems that remain unpatched, making this update critical for all Microsoft users. The large number of vulnerabilities in a single release underscores the importance of maintaining regular patching schedules to minimize the window of exposure to attackers.",
-      "image": null,
-      "processedAt": "2026-08-15T06:46:04.945752+00:00"
     }
   ]
 }
