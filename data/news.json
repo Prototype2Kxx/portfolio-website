@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-08-17T18:18:47.173416+00:00",
+  "lastUpdated": "2026-08-18T06:51:27.794437+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-37643a54",
+      "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+      "summary": "GitLab discovered a critical vulnerability (CVE-2026-19478) in both its Community and Enterprise versions that allows attackers without authentication to delete or modify public projects and user data. The flaw received a CVSS score of 9.4, indicating severe risk. GitLab has released security updates to address this issue.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gitlab",
+        "graphql",
+        "unauthenticated-access",
+        "cve-2026-19478",
+        "patch-now",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to GitLab users worldwide because unauthenticated attackers can exploit it to destroy projects and data without needing credentials. Organizations must patch urgently to prevent malicious actors from targeting their repositories and development infrastructure. The high CVSS score and ease of exploitation make this a priority security issue for any GitLa",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgLiZpsYdSdkh6GE1rDDV3XVwWiGdjWBlx3B1irY9V5RtHt1cv7sQYPaa16y78EJdluo3FTMr5Wq0O2ZCWZjRMdrewgLrGJS3Ii_NLOQKQKN18PEGHhDiSyJtvf8TpdFrrIplaynGWNVmUxdAkyL7E8h_GtKfog8EE_TV25SySHFqbQgK3ChyphenhyphenKaKktnUic/s1600/gitlab.jpg",
+      "processedAt": "2026-08-18T06:51:04.151336+00:00"
+    },
+    {
+      "id": "art-95dbb090",
+      "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+      "summary": "Researchers at Wiz discovered a workflow injection vulnerability in Snowflake's GitHub repository that could allow attackers to execute arbitrary commands by crafting malicious GitHub issues. The flaw exists in a workflow file that processes issues and has access to internal Jira credentials, potentially exposing sensitive authentication information. This vulnerability highlights how misconfigurations in CI/CD pipelines can create pathways for unauthorized access to internal systems and credentials.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "github-actions",
+        "workflow-injection",
+        "credential-exposure",
+        "supply-chain",
+        "ci-cd-security"
+      ],
+      "whyItMatters": "This vulnerability demonstrates a critical attack surface in modern development workflows where public repositories can be weaponized to access internal credentials and systems. Attackers could chain this vulnerability with other attacks to gain deeper access into Snowflake's infrastructure or customer environments. Organizations using GitHub Actions must carefully review workflow permissions and ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJW5BJKjwNfnH2t8RrvgW0wUO3_ZJWnw30aS6GlU9qoaOWMQcyoZ9ZOZmTgLo7hWAqHlKDK2b4MrtF23Jv_1-1Ffd6bo6VlR8exLvIISBANwjHnW3dv7wLgCtyCIDlndpJ67TajeEpN-Ww9eVVutmS4fTpcDPJtlAk_ZU0GLtnkDvYLlqWPv75uMH7ob__/s1600/snowflake.jpg",
+      "processedAt": "2026-08-18T06:51:06.904776+00:00"
+    },
+    {
+      "id": "art-4b04da19",
+      "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+      "summary": "A critical vulnerability in the Forminator Forms WordPress plugin, affecting over 600,000 active installations, allows attackers to upload malicious PHP files and execute arbitrary code on vulnerable websites without requiring authentication. The flaw, identified as CVE-2026-15748, has been assigned a CVSS score of 9.8, indicating a severe threat to website security and data integrity.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress-plugin",
+        "rce",
+        "unauthenticated-exploit",
+        "php-upload",
+        "cve-2026-15748",
+        "patch-urgent"
+      ],
+      "whyItMatters": "With over 600,000 active installations, this vulnerability poses an immediate and widespread risk to WordPress sites globally. Unauthenticated remote code execution allows attackers to gain complete control of affected servers, making prompt patching essential to prevent mass exploitation and data compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5Jfag1_E06odK7mkATjCOSPdD_fHy2kcYYHfi9fDNTsk0CRkV2yJD0Uz4MV82XjbMR5QNyK3Akw5Ysf0N7fDQ3DwApNb5Tf9R4axktScKF3UZlMVtrY3ulTzrYjFviMA8HmIUCBZhxmR59TtnJ7xf-B_iJtl3SWiBZAFbOfhUoldNdZX0sOStx6ULNMSZ/s1600/wordpress-flaw.jpg",
+      "processedAt": "2026-08-18T06:51:09.194656+00:00"
+    },
+    {
+      "id": "art-bcf509a4",
+      "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+      "summary": "Researchers at Kaspersky have discovered new components of the Cavern C2 framework, a command-and-control tool used by Iranian state-sponsored hackers to target Israeli entities. The malware uses DNS and Google Apps Script to hide its malicious communications within legitimate traffic, making it harder to detect. This evolution shows how sophisticated nation-state actors are becoming at evading traditional security detection methods.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "c2-framework",
+        "nation-state",
+        "dns-tunneling",
+        "command-control",
+        "iran-linked",
+        "evasion-tactics"
+      ],
+      "whyItMatters": "Understanding how advanced persistent threat actors like Iranian state groups adapt their tools helps organizations defend against sophisticated attacks that blend into normal network activity. The use of legitimate services like Google Apps Script demonstrates how attackers exploit trusted platforms to avoid detection, requiring defenders to monitor beyond traditional indicators of compromise. Th",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu-MyaPNuRr2_NJ_TMqLf7OYW5AzCqgHpQ6HMfxlc-qsMzwSkfWlZDbHfecZ3IRp639FVDelhMZgpbnN87Fdchoh-g08R-cAiXxr7RvfdGy_ihvMxg152HK-rbOTIOnEueRTnPT-wU0eID3vplpIN1GBClvJC5e0egCGpDb_H0ykwH1x6a4zOvpW8V-Ssy/s1600/google.jpg",
+      "processedAt": "2026-08-18T06:51:11.961437+00:00"
+    },
+    {
+      "id": "art-b865e8e8",
+      "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-15",
+      "originalUrl": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+      "summary": "SAP Commerce Cloud is under active attack due to a critical vulnerability (CVE-2026-58231) that allows unauthenticated attackers to bypass security controls using default authentication credentials. The flaw has a perfect CVSS score of 10.0 and involves weak authorization checks and input validation. Hackers are already exploiting this weakness just days after SAP released a patch, putting unpatched systems at immediate risk.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sap-commerce",
+        "cve-2026-58231",
+        "authentication-bypass",
+        "active-exploitation",
+        "patch-urgent",
+        "cloud-security"
+      ],
+      "whyItMatters": "Organizations running SAP Commerce Cloud face immediate compromise risk if they haven't applied the patch, as attackers are actively exploiting this flaw in the wild. The vulnerability's perfect CVSS score and unauthenticated attack vector make it one of the most dangerous threats currently circulating. Rapid patching is essential to prevent unauthorized access to sensitive business systems and cu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8_2sx5UM3v1F5xNjCrlFAeBp6t7ioSfSER_6yl7jFtH3NvB_wwrwdT2Njk21qvm5m_dh2UZ3u-3UnZOWSz9sawqkuPmg0FLwuOEeLYhMlqP8lWjeXhg7ETTrRx19wiPebTSCcGeqC-Gz3zpiYPZz69kKTlL2mWSO1xW_-RotwAT4poWJ8VhQ6yklDDebs/s1600/sap-flaw.jpg",
+      "processedAt": "2026-08-18T06:51:14.656449+00:00"
+    },
+    {
+      "id": "art-9175ae08",
+      "title": "Hacker claims 3.6 million Azure account records stolen from major companies",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hacker-claims-36-million-azure-account-records-stolen-from-major-companies/",
+      "summary": "A cybercriminal claims to have stolen employee databases containing 3.6 million records from major Fortune 500 companies by exploiting Microsoft Azure infrastructure. The attacker gained initial access using compromised credentials and is now attempting to sell the stolen data. This incident highlights how attackers can leverage legitimate cloud services to conduct large-scale corporate espionage when security practices are weak.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "azure-breach",
+        "credential-compromise",
+        "data-theft",
+        "cloud-security",
+        "fortune-500",
+        "employee-records"
+      ],
+      "whyItMatters": "This breach demonstrates that even enterprise-level organizations using major cloud providers remain vulnerable to credential-based attacks, putting millions of employees' personal information at risk. The incident underscores the importance of multi-factor authentication, credential hygiene, and continuous monitoring of cloud infrastructure access. For security professionals, this serves as a cri",
+      "image": null,
+      "processedAt": "2026-08-18T06:51:17.160529+00:00"
+    },
+    {
+      "id": "art-6586e58a",
+      "title": "Pokémon Center data breach exposes customer info, cancels some orders",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/pokemon-center-data-breach-exposes-customer-info-cancels-some-orders/",
+      "summary": "Pokémon Center experienced a data breach affecting customers in the United Kingdom and Germany after hackers compromised CEVA Logistics, a third-party logistics provider handling their orders. The attackers stole personal information and order details from affected customers, prompting Pokémon Center to notify victims and cancel some orders as a precaution. This incident highlights how companies can be vulnerable through their supply chain partners, not just their own systems.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "third-party-breach",
+        "supply-chain-attack",
+        "customer-data",
+        "logistics"
+      ],
+      "whyItMatters": "This breach demonstrates that companies must secure not only their own infrastructure but also their third-party service providers, as attackers often target weaker links in the supply chain. Customers whose personal and financial information was exposed face risks of identity theft and fraud. Organizations should implement strict vendor security requirements and monitoring to prevent similar inci",
+      "image": null,
+      "processedAt": "2026-08-18T06:51:19.662603+00:00"
+    },
+    {
+      "id": "art-f956412a",
+      "title": "Microsoft working on Defender patch for ShieldBreak zero-day",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-working-on-defender-patch-for-shieldbreak-zero-day/",
+      "summary": "Microsoft has discovered a serious security flaw called ShieldBreak (CVE-2026-69414) in its Defender software that was recently revealed by a security researcher. The company is actively developing a patch to fix this vulnerability before attackers can widely exploit it. This zero-day vulnerability poses a risk to organizations relying on Microsoft Defender for protection.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "shieldbreak",
+        "cve-2026-69414",
+        "patch-pending",
+        "vulnerability"
+      ],
+      "whyItMatters": "Since Microsoft Defender is a foundational security tool used by millions of organizations worldwide, a zero-day in this software directly compromises endpoint protection systems. Organizations need to prioritize applying the patch immediately once released to prevent potential exploitation by threat actors. This highlights the importance of keeping security tools themselves updated, as they are f",
+      "image": null,
+      "processedAt": "2026-08-18T06:51:22.123740+00:00"
+    },
+    {
+      "id": "art-1fbfe8db",
+      "title": "How Anthropic plans to watermark Claude's AI-generated text",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+      "summary": "Anthropic is developing watermarking technology to identify text generated by Claude, their AI model. This advancement aims to make it easier for people to detect AI-generated content across various platforms and contexts. The watermarking approach goes beyond obvious patterns typically seen on social media, offering a more reliable method for authentication and detection.",
+      "category": "AI Security",
+      "severity": "Low",
+      "tags": [
+        "ai-watermarking",
+        "content-authentication",
+        "ai-detection",
+        "claude",
+        "synthetic-content"
+      ],
+      "whyItMatters": "As AI-generated content becomes increasingly difficult to distinguish from human-created text, watermarking provides a crucial tool for maintaining trust and transparency online. This technology helps combat misinformation, fraud, and unauthorized use of AI systems while establishing standards for responsible AI deployment in society.",
+      "image": null,
+      "processedAt": "2026-08-18T06:51:24.627315+00:00"
+    },
+    {
+      "id": "art-0fed2e9e",
+      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+      "summary": "Law enforcement arrested four cybercriminals in Brazil and charged three others in Europe for exploiting a vulnerability in a service provider's system to steal over €30 million from Commerzbank customers. The attackers used the flaw to gain unauthorized access to bank accounts and illegally withdraw funds. This case demonstrates how vulnerabilities in third-party service providers can directly compromise major financial institutions and their customers.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "bank-fraud",
+        "service-provider-vulnerability",
+        "financial-theft",
+        "account-compromise",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This incident highlights the critical importance of securing third-party service providers, as vulnerabilities in their systems can directly expose millions of customers at major banks to financial theft. Organizations must implement strict vendor security assessments and monitoring to prevent attackers from using supply chain weaknesses as entry points. The scale of the fraud (€30M+) and multi-co",
+      "image": null,
+      "processedAt": "2026-08-18T06:51:27.794292+00:00"
+    },
     {
       "id": "art-d8aded4c",
       "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
@@ -826,210 +1032,6 @@
       "whyItMatters": "As financial institutions face increasingly sophisticated threats powered by AI, understanding how security leaders integrate business strategy with technical defense is critical for organizational resilience. The insights from a major global bank's CISO provide practical guidance on how security teams can adapt leadership structures and AI capabilities to counter evolving adversarial tactics.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltaf878ea5b4a138a7/6a7f5e48b01ed02ddabd5447/standardchartered1800_winhorse_GettyImages-1344776566.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-08-16T06:47:26.531692+00:00"
-    },
-    {
-      "id": "art-e43cb29d",
-      "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
-      "summary": "North Korea's Lazarus Group has exploited a previously unknown Windows security flaw to install a new backdoor on computers belonging to defense and aerospace companies in France, Germany, Brazil, and India. This attack is part of Operation Dream Job, an ongoing espionage campaign targeting sensitive industries. The vulnerability has since been patched by Microsoft, but organizations that haven't updated are still at risk.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "lazarus-group",
-        "windows-vulnerability",
-        "backdoor",
-        "defense-sector",
-        "nation-state"
-      ],
-      "whyItMatters": "This attack demonstrates how nation-state actors actively exploit unpatched vulnerabilities to target critical infrastructure and defense sectors, making immediate patching essential. Organizations in aerospace and defense industries need to prioritize security updates and monitor for backdoor installations. The use of a never-before-seen backdoor highlights the sophistication of state-sponsored t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1jrzxrBozKDsDhAGM8SBKcqbTE4M0zWSJqfp709iguQU21GwUzshBdYSvKkicSkfQD1bNsYhROcsx5p5vAT3jyM90H6w6p8imCjtLbHySKnpGKlsQqfSS-BhcdHNuwJKFPZfBiVkh49xDvJbRI-rvfBKePL6CeHYIWOpwvGG0T-ha3x__xznmdsYybs9v/s1600/windows-shell.jpg",
-      "processedAt": "2026-08-15T18:10:24.242253+00:00"
-    },
-    {
-      "id": "art-19bffb29",
-      "title": "737 Chrome VPN Extensions Caught Routing Traffic Through Proxies. Check If You Have One",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html",
-      "summary": "Researchers discovered 737 malicious VPN and proxy extensions on the Chrome Web Store that were designed to intercept and redirect user traffic through attacker-controlled proxies. These extensions, distributed across 40+ developer accounts with approximately 75,486 total installations, primarily targeted Russian-speaking users trying to bypass content restrictions. At least 274 of these extensions were found impersonating legitimate services.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "chrome-extension",
-        "vpn-malware",
-        "traffic-interception",
-        "proxy-hijacking",
-        "browser-security"
-      ],
-      "whyItMatters": "This incident demonstrates a widespread supply chain attack through official app stores, putting thousands of users at risk of having their web traffic monitored and manipulated. Users who installed these extensions may have had their browsing activity compromised, passwords intercepted, and sensitive data exposed through rogue proxy infrastructure. Organizations need to audit employee browser ext",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI8aMtoRcWh4THmHEumFrk1X_t6xuq3Z6RsJwVKoyozs0nuRDIc7ffcIFNr5dFuUgTeeKZ0KLdeFoeHRRSFgqcTvK4VaO54Js2FADwBztN4Qlf0L8viPKGCY7lVEHF50K2xOaopCphCPL0ooDKna2E3S_4R4UzOsuh9m8dK4XQMo98_b6GjKqHRi_lm38i/s1600/chrome-plugins.jpg",
-      "processedAt": "2026-08-15T18:10:27.704372+00:00"
-    },
-    {
-      "id": "art-60616af6",
-      "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
-      "summary": "Researchers discovered a critical flaw in the APIs of OpenAI, Anthropic, and Google that allows weaker AI models to decode the hidden reasoning of stronger models. The vulnerability affects encrypted reasoning objects that can be replayed across different sessions, potentially exposing sensitive information like API keys and passwords stored in session logs. This weakness undermines the security mechanisms these companies built to protect their advanced AI systems.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "api-vulnerability",
-        "data-exposure",
-        "encryption-flaw",
-        "cloud-security"
-      ],
-      "whyItMatters": "This vulnerability directly threatens the confidentiality of major AI service providers' systems and exposes user credentials and API keys that could enable unauthorized access. Organizations relying on these APIs for production workloads face immediate risk of session hijacking and credential theft, requiring urgent patching and credential rotation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZP21lJn1EY_0JXWBul8gpBgRD_ryI4ACYqFiu6icbKCgIMyta9UqjQrtnzjTkO1Yi9tdzTaQw6X949lzMwtQPKUPPIxA5_EwFjJqjMDwBtFSc56vaCyybwJNcsjVZMfMW4KHQ_VVCjz3AVeovFEtsI8ENZTQmQuc9rDIF5yd0n9uciJmwqlWS_EKf5mo/s1600/ai-models.jpg",
-      "processedAt": "2026-08-15T18:10:29.914945+00:00"
-    },
-    {
-      "id": "art-7985ad6e",
-      "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
-      "summary": "New research from Picus Labs reveals that while enterprise defenses are performing well at detecting obvious attacks, attackers are increasingly succeeding by using quieter, stealthier methods that bypass traditional security monitoring. The study analyzed over 338 million simulated attacks across real production environments and found that organizations are more vulnerable to sophisticated, low-noise threats than to conventional attack patterns. This highlights a critical gap: companies are defending against the threats that make a lot of noise while remaining exposed to subtle intrusions.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "threat-detection",
-        "defense-evasion",
-        "silent-attacks",
-        "enterprise-security",
-        "attack-simulation"
-      ],
-      "whyItMatters": "This research exposes a dangerous blind spot in enterprise security: traditional defenses optimized for noisy, obvious attacks leave organizations vulnerable to sophisticated adversaries using quiet infiltration techniques. Understanding this gap is critical for security teams to adjust detection strategies, invest in behavioral analytics, and reassess their security assumptions before attackers f",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoBNKr6YWBC4uPzzXNZNX_sduYkalrtPSfiT01s6R6tq9uRzAs8TRoyv0DSwM-Wy_RmiGv923yzsB1DK3mgg5vudYdTwIk7wubUJYB0f-6AADquodryt0KofkU5aKxKaKBLirP1A0PuaBC_lfWEYJKlthyphenhyphencmmT2WBQkIRLLFLI5kWKZcJWY5rxrN-qa2M/s1600/picuss.jpg",
-      "processedAt": "2026-08-15T18:10:32.743208+00:00"
-    },
-    {
-      "id": "art-fe3b3706",
-      "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-12",
-      "originalUrl": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
-      "summary": "Adobe has released security patches for critical vulnerabilities affecting ColdFusion, Commerce, and Campaign Classic products. The most severe flaw, CVE-2026-48362, has a perfect CVSS score of 10.0 and allows attackers to execute arbitrary commands on affected systems. These vulnerabilities could enable attackers to take complete control of systems or escalate their privileges if left unpatched.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "adobe-patch",
-        "coldfusion",
-        "code-execution",
-        "critical-vulnerability",
-        "cvss-10",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "CVSS 10.0 vulnerabilities represent the highest possible risk level and demand immediate patching to prevent active exploitation. Organizations using Adobe ColdFusion, Commerce, or Campaign Classic must apply these updates urgently, as attackers often develop exploits for perfect-score vulnerabilities within days of disclosure. Delayed patching could lead to complete system compromise and data the",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj36vXq6xqWIDA09DIFwTp0gAZyTEpTdUoOrczmHr0NAOmxBDBySv4K6oEmzSup0sZylULeZlzf2unPADh99H5kx8-oktejFUPTM2t5aM6WrdTy99m6Qs12z4A58UYbqU2LhZRa20yY9FGy8FFB-pMvUFsA3MolrrA4nYOWVf9IS42Y0vUn3sMtu0BCty3g/s1600/adobe-cve.jpg",
-      "processedAt": "2026-08-15T18:10:35.599759+00:00"
-    },
-    {
-      "id": "art-018e2775",
-      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
-      "summary": "Evooo1Bot is a new Linux-based botnet derived from the Mirai malware that specifically targets internet-facing routers and gateway devices. Once infected, these devices are converted into SOCKS5 proxy relay nodes, which attackers can use to anonymize their traffic and hide malicious activities. This modular design allows the malware to be updated with new capabilities, making it a flexible tool for cybercriminals.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "botnet",
-        "linux-malware",
-        "mirai-variant",
-        "router-targeting",
-        "network-security"
-      ],
-      "whyItMatters": "Routers and gateway devices are critical network infrastructure that many organizations and homes depend on; compromising them gives attackers a foothold to intercept traffic, launch attacks, or facilitate other cybercriminal activities. The modular nature of Evooo1Bot means it can evolve quickly to exploit new vulnerabilities or add dangerous features, requiring rapid detection and patching strat",
-      "image": null,
-      "processedAt": "2026-08-15T18:10:38.414913+00:00"
-    },
-    {
-      "id": "art-fd0dc765",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "summary": "A 26-year-old Canadian cybercriminal named Connor Riley Moucka has pleaded guilty to hacking and extorting over 165 organizations that used Snowflake's cloud storage platform. In addition to the extortion scheme, he admitted to stealing call and text records from more than 100 million AT&T customers. This case highlights how a single threat actor can compromise multiple major companies and compromise the personal data of millions of people.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "cloud-security",
-        "data-breach",
-        "extortion",
-        "snowflake",
-        "cybercriminal",
-        "mass-compromise"
-      ],
-      "whyItMatters": "This case demonstrates the severe risks that cloud platforms face from sophisticated threat actors and shows how a single criminal can impact hundreds of organizations and millions of individuals simultaneously. Organizations using Snowflake and similar cloud services need to strengthen access controls and monitoring to prevent unauthorized access and data theft at scale.",
-      "image": null,
-      "processedAt": "2026-08-15T18:10:41.083819+00:00"
-    },
-    {
-      "id": "art-925b7ca0",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "summary": "Generic TV streaming sticks marketed as unlimited content devices contain malware that exploits users in multiple ways: they illegally rent out users' internet connections to third parties and impersonate mobile phones to commit ad fraud against merchants and advertising networks. This research reveals a sophisticated criminal operation hidden within seemingly legitimate consumer electronics. Users purchasing these discounted devices unknowingly become victims and unwitting participants in large-scale fraud schemes.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware",
-        "iot-security",
-        "consumer-devices",
-        "fraud",
-        "privacy-violation",
-        "ad-fraud"
-      ],
-      "whyItMatters": "This demonstrates how malicious hardware sold to consumers can cause cascading harm—not just to individual users whose internet and identity are compromised, but to entire ecosystems including merchants and ad networks. Understanding these threats is critical for consumers making purchasing decisions and for security awareness, as legitimate-looking budget devices pose serious risks that typical a",
-      "image": null,
-      "processedAt": "2026-08-15T18:10:43.911406+00:00"
-    },
-    {
-      "id": "art-6c4f06e8",
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "summary": "LG Electronics USA has announced plans to ban apps from its webOS smart TV store that secretly turn televisions into residential proxy nodes, allowing third parties to route internet traffic through users' devices. Recent research revealed that over 42% of games and apps available on LG's platform contained this privacy-invasive capability, prompting the company to take action.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "residential-proxy",
-        "smart-tv-security",
-        "privacy-violation",
-        "iot-abuse",
-        "malicious-apps"
-      ],
-      "whyItMatters": "This situation highlights a critical vulnerability in smart home device ecosystems where malicious or compromised apps can repurpose consumer hardware for unauthorized activities without user knowledge. By addressing this widespread abuse vector, LG's ban sets an important precedent for IoT platform security and demonstrates the need for stricter app store vetting to protect users from becoming un",
-      "image": null,
-      "processedAt": "2026-08-15T18:10:46.452401+00:00"
-    },
-    {
-      "id": "art-fc8fea09",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "summary": "Microsoft released updates addressing 570 security vulnerabilities across Windows and other products, nearly triple the number patched in the previous month's record release. The company credits artificial intelligence tools with helping identify this unusually large volume of security flaws. This massive patch deployment highlights both the growing capabilities of AI in vulnerability detection and the expanding attack surface that organizations must defend.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patch-tuesday",
-        "microsoft-security",
-        "vulnerability-patching",
-        "ai-detection",
-        "windows-updates"
-      ],
-      "whyItMatters": "Organizations must prioritize applying these 570 patches quickly to prevent exploitation of critical vulnerabilities in widely-used Microsoft products. The surge in patch volume demonstrates how AI is accelerating vulnerability discovery, requiring security teams to adapt their patch management strategies and resources. This underscores the importance of maintaining robust update processes to clos",
-      "image": null,
-      "processedAt": "2026-08-15T18:10:49.109778+00:00"
     }
   ]
 }
