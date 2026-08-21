@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-08-20T18:19:41.034426+00:00",
+  "lastUpdated": "2026-08-21T06:55:16.649328+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-a0220036",
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "summary": "Microsoft discovered a critical security flaw in Entra ID (formerly Azure Active Directory) that allows attackers to execute code remotely. The vulnerability, rated with the highest possible severity score of 10.0, is already being exploited by criminals in real-world attacks. Microsoft stated that customers don't need to take immediate action, suggesting the company is addressing the issue on its end.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "entra-id",
+        "remote-code-execution",
+        "active-exploitation",
+        "cloud-security",
+        "cve-2026-69836",
+        "maximum-severity"
+      ],
+      "whyItMatters": "This vulnerability affects Microsoft's core cloud identity service used by millions of organizations worldwide, making it a widespread threat to enterprise security. Active exploitation in the wild means attackers are already weaponizing this flaw, putting any organization relying on Entra ID at immediate risk. The perfect CVSS 10.0 score underscores the severity and potential for large-scale comp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1600/entraid.jpg",
+      "processedAt": "2026-08-21T06:54:52.376156+00:00"
+    },
+    {
+      "id": "art-2afd9011",
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "summary": "Hackers compromised a maintainer account on crates.io and released malicious versions of three popular Rust libraries used by millions of developers. These fake versions included a sneaky dependency that downloaded and ran malicious code during the compilation process, making it difficult to detect. The Rust Project quickly identified and removed the malicious releases from their repository.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware",
+        "build-time-execution",
+        "typosquatting",
+        "account-compromise",
+        "rust-ecosystem"
+      ],
+      "whyItMatters": "This attack demonstrates a severe supply chain vulnerability where attackers can inject malware at build-time rather than runtime, bypassing traditional security checks and affecting hundreds of millions of downloads. Developers relying on these libraries could unknowingly compile malicious code into their projects, making this attack particularly dangerous for enterprises and critical infrastruct",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s1600/rust.jpg",
+      "processedAt": "2026-08-21T06:54:54.990679+00:00"
+    },
+    {
+      "id": "art-87bf5c64",
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "summary": "Russian-linked hacking groups are exploiting legitimate authentication features like Google OAuth and WhatsApp linking to gain unauthorized access to accounts belonging to high-value targets. Three threat clusters (UNC6293, UNC7005, and UNC5976) have been identified targeting individuals in academia, aerospace, defense, government, and think tanks across Europe and the United States. By abusing trusted services rather than using traditional malware, these attackers can bypass standard security measures and remain undetected longer.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "account-hijacking",
+        "oauth-abuse",
+        "russian-apt",
+        "espionage",
+        "authentication-abuse",
+        "social-engineering"
+      ],
+      "whyItMatters": "This attack technique is particularly dangerous because it exploits trust in legitimate platforms that users consider safe, making it harder to detect than traditional hacking methods. Organizations in sensitive sectors like defense and government face direct national security risks, and the adaptive nature of these groups means they continually evolve their tactics to evade detection.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1600/google-whatsapp.jpg",
+      "processedAt": "2026-08-21T06:54:57.798935+00:00"
+    },
+    {
+      "id": "art-7c0072e1",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "summary": "This week's cybersecurity threats involve multiple critical vulnerabilities and exploits, including remote code execution flaws in Gogs 10.0 and n8n workflow systems, alongside misuse of legitimate tools like signed drivers to bypass security defenses. Attackers are leveraging weak security checks, exposed systems, and AI-assisted techniques to lower the barrier for causing damage, while malware continues to hide within trusted applications.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce-vulnerabilities",
+        "gogs-exploit",
+        "n8n-security",
+        "signed-driver-abuse",
+        "ai-assisted-exploits",
+        "zero-day"
+      ],
+      "whyItMatters": "These vulnerabilities represent active exploitation vectors affecting widely-used development and workflow tools, combined with sophisticated techniques like signed driver abuse that bypass traditional defenses. Organizations must prioritize patching these systems immediately and monitor for misuse of legitimate tools, as attackers are actively lowering exploitation complexity through automation a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmpCA-Pjqqy5BQaFvVtYqPZocJNkI4XUD8bcD9KrGaBcLyKd3J-aWVUtB8HwTiVqrFSI8U5wtTPhtjowrBWukeoUwSM5Y0-YKY535m1iDdQCXLYbSlx-qS-2TzZUpWVghvC3b9qWHxPoY4b-d3uUn3E4jeeW6iPt6Klxte-iNHfbq7K4aUpKH-EfhZV69/s1600/threatsday-main.png",
+      "processedAt": "2026-08-21T06:55:00.584452+00:00"
+    },
+    {
+      "id": "art-379b1f10",
+      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "summary": "Researchers at UMass Amherst discovered a vulnerability in Visa contactless cards that allows attackers to reactivate expired cards by manipulating the expiration date displayed to payment terminals through NFC communication. The attack, called 'Zombie Card,' works without breaking the card's encryption and enables fraudulent in-store purchases using cards that should no longer be valid. This vulnerability affects the security of contactless payment systems that many people rely on daily.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "contactless-payments",
+        "visa-vulnerability",
+        "nfc-security",
+        "payment-fraud",
+        "card-security"
+      ],
+      "whyItMatters": "This vulnerability poses a real-world fraud risk since expired cards can be weaponized for unauthorized transactions without cryptographic barriers being broken. Millions of contactless Visa cards worldwide could be vulnerable, making this a significant concern for both cardholders and financial institutions. Understanding this attack highlights the importance of securing NFC-based payment systems",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg",
+      "processedAt": "2026-08-21T06:55:03.280843+00:00"
+    },
+    {
+      "id": "art-19fef4fc",
+      "title": "New Manic Android malware can exfiltrate data through nearby devices",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/",
+      "summary": "Researchers have discovered a new Android malware called Manic that is actively targeting users across multiple European countries. This malware has a unique ability to spread and exfiltrate stolen data by using nearby infected devices as intermediaries, making it harder to detect and track. This approach allows the malware to continue stealing information even if direct internet access is blocked.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "android-malware",
+        "data-exfiltration",
+        "manic",
+        "lateral-movement",
+        "european-threat"
+      ],
+      "whyItMatters": "This malware demonstrates an advanced evasion technique by using device-to-device communication for data theft, which traditional network monitoring may fail to detect. Organizations and users need to understand that malware can spread through local connections, not just the internet, making endpoint security and network segmentation critical defenses.",
+      "image": null,
+      "processedAt": "2026-08-21T06:55:05.712134+00:00"
+    },
+    {
+      "id": "art-834df7a0",
+      "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+      "summary": "A critical vulnerability in Zimbra Collaboration Suite is being actively exploited by attackers in real-world attacks. Polish cybersecurity authorities have issued a warning about this remote code execution flaw that allows hackers to compromise email and collaboration systems. Organizations using Zimbra need to take immediate action to protect their infrastructure from this ongoing threat.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "zimbra",
+        "rce",
+        "active-exploitation",
+        "critical-vulnerability",
+        "patch-required"
+      ],
+      "whyItMatters": "Active exploitation of a critical RCE flaw in widely-used email and collaboration software poses an immediate threat to organizations worldwide, potentially allowing attackers to gain full system control and access sensitive communications. This requires urgent patching and monitoring to prevent data breaches and system compromise across enterprise environments.",
+      "image": null,
+      "processedAt": "2026-08-21T06:55:08.377628+00:00"
+    },
+    {
+      "id": "art-73a244cb",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-30",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "Cheap TV streaming devices that claim to offer unlimited content for a low price contain serious security risks beyond previously known issues. These devices not only rent out users' internet connections to strangers but also impersonate mobile phones to fraudulently click ads on fake websites. This malicious activity helps scammers defraud online merchants and advertising networks while putting device owners at legal and financial risk.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "iot-security",
+        "malware",
+        "fraud",
+        "device-compromise",
+        "consumer-protection"
+      ],
+      "whyItMatters": "This demonstrates how consumer devices marketed with attractive pricing can become tools for cybercriminals, putting buyers at risk of legal liability and financial loss while unknowingly participating in ad fraud schemes. Understanding these threats helps users make informed purchasing decisions and recognize that suspiciously cheap streaming solutions often hide significant security and ethical ",
+      "image": null,
+      "processedAt": "2026-08-21T06:55:11.090022+00:00"
+    },
+    {
+      "id": "art-4ceb13a3",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "summary": "LG Electronics USA announced plans to ban applications from its webOS smart TV store that secretly convert televisions into residential proxy nodes for routing third-party internet traffic. Recent research revealed that over 42% of games and apps available on LG's platform contained this capability, allowing unknown parties to use home devices for potentially malicious purposes without user knowledge or consent.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "residential-proxies",
+        "iot-security",
+        "smart-tv",
+        "unauthorized-access",
+        "privacy-violation",
+        "app-store-security"
+      ],
+      "whyItMatters": "This situation highlights how consumer IoT devices can be weaponized for large-scale network attacks or illicit activities without users realizing their devices are compromised. The widespread prevalence of proxy-enabling apps demonstrates the need for stricter app store vetting processes and user awareness about what permissions they grant to applications on internet-connected home devices.",
+      "image": null,
+      "processedAt": "2026-08-21T06:55:13.729605+00:00"
+    },
+    {
+      "id": "art-0bf811a8",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "summary": "Microsoft released an unprecedented 570 security patches to fix vulnerabilities across Windows and other products, nearly triple the number from the previous month's record release. The company attributes this surge in discovered flaws to improvements in artificial intelligence-assisted vulnerability detection. This massive patch deployment reflects both growing security threats and better tools for identifying weaknesses before attackers can exploit them.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-patch",
+        "vulnerability-fixes",
+        "windows-security",
+        "ai-detection",
+        "patch-tuesday",
+        "security-updates"
+      ],
+      "whyItMatters": "Organizations must prioritize deploying these 570 patches urgently to prevent exploitation of critical vulnerabilities in widely-used Microsoft products. The exponential increase in patch volume demonstrates how AI is accelerating vulnerability discovery, meaning the security landscape is evolving faster than ever before. Delayed patching could leave systems exposed to attacks targeting any of the",
+      "image": null,
+      "processedAt": "2026-08-21T06:55:16.649191+00:00"
+    },
     {
       "id": "art-7a7f933b",
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
@@ -820,210 +1026,6 @@
       "whyItMatters": "This case demonstrates that even major cloud infrastructure providers and telecom giants are vulnerable to large-scale breaches and extortion campaigns. It highlights the critical importance of securing cloud environments and the real-world consequences of weak access controls, as compromised credentials allowed a single threat actor to target hundreds of organizations simultaneously. Organization",
       "image": null,
       "processedAt": "2026-08-19T06:52:12.951050+00:00"
-    },
-    {
-      "id": "art-37fd4838",
-      "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
-      "summary": "Researchers from Anthropic and EPFL discovered that malicious code can self-replicate and spread between AI agents by compromising the system prompt files that these agents use to store information between sessions. This technique, demonstrated in a controlled environment with multiple AI agents, shows how autonomous systems could become vectors for cross-agent infection. The findings highlight a previously underexplored attack surface in AI systems that operate collaboratively or sequentially.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "prompt-injection",
-        "agent-vulnerability",
-        "autonomous-systems",
-        "self-propagating-malware"
-      ],
-      "whyItMatters": "As AI agents become more autonomous and interconnected in real-world applications, understanding how they can be compromised through persistent state files is critical for securing enterprise systems. This research reveals that traditional cybersecurity boundaries between systems can dissolve in agent-based architectures, requiring new defensive strategies. Organizations deploying multi-agent AI s",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnswSsouQNTAo6sTmVePaIjeVawCruhIMYtwOXzzX0Qup-a8tWq6WsuiwxkhQxemYCsguvWzRqA5ILOcnEtQa2Xz2rpmU8aQ_c3zd5m82sqMjJa4ruVDS5JVH0P9trKFRwZY53P6cek06_5q-5Xz9TzuyL1TzKP_wnMY9_16AgwjoCXomphcu4p7Or1Kk/s1600/mindvirus.jpg",
-      "processedAt": "2026-08-18T18:18:55.469533+00:00"
-    },
-    {
-      "id": "art-61f2a606",
-      "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
-      "summary": "Researchers have discovered TWINLOOT, a sophisticated Python malware framework that exploits Microsoft SharePoint and Teams to steal credentials and infiltrate networks. This malware is designed to hide its command-and-control operations within legitimate Microsoft cloud services, making it harder to detect. The malware's use of PyArmor protection and its ability to move laterally across networks represents a significant threat to organizations relying on Microsoft collaboration tools.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "cloud-security",
-        "credential-theft",
-        "microsoft-teams",
-        "sharepoint",
-        "lateral-movement"
-      ],
-      "whyItMatters": "TWINLOOT demonstrates how attackers can weaponize trusted cloud services to evade detection and establish persistent access within organizations. Since the malware operates through legitimate Microsoft platforms, traditional network security measures may fail to catch it, requiring organizations to implement stronger cloud access controls and credential protection strategies.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIrQ96TUVfZUEVto7SlNlTp_8P2270tmrpifBbd-F8vo3gQz3Na40YH60oRh2dEazLOZInJzCGa66bxl9t85Usl30eG_Db_yjMWup2eOM3BmaPhILk_Ihs-yo6AdB-DWG99L7OXK9bdD8Jygu2imWU71-Ap3bPtYLOgqu-vO2Zbr5egp6A5HNcXDSaa0o2/s1600/windows-malware.jpg",
-      "processedAt": "2026-08-18T18:18:58.391740+00:00"
-    },
-    {
-      "id": "art-c89cf3d2",
-      "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
-      "summary": "A single attacker has been systematically extracting data from Salesforce and ServiceNow customer portals across multiple industries since 2025, using infrastructure traced to one server. Security researchers from Reco named this campaign 'City Forum' based on a domain associated with the attacker's IP address. This year-long operation demonstrates a coordinated effort to harvest sensitive information from widely-used enterprise platforms.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "salesforce",
-        "servicenow",
-        "cloud-security",
-        "data-scraping",
-        "multi-industry"
-      ],
-      "whyItMatters": "This attack highlights a critical vulnerability in how attackers can persistently target major SaaS platforms to steal data from multiple organizations simultaneously. Companies using Salesforce and ServiceNow need to immediately audit their access logs and implement stronger monitoring to detect similar scraping activities. The year-long undetected campaign underscores the importance of robust se",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijGpzrXApP6QuAgCJDVSMHyi1nEVE7liFsNRwcNTWzkwbjmzqv8vGi8qalq_aWVgtgrD2CC_ZT-qXCsj_Bkj8njgIFQExo0gg5PG_dVIQfo9-wW6lIBh6OLp6z4nBeephIQACe1GX_KOP6nzqe10CM4H8p7EwRIlWGImwXgXjsSIYKCCVlSB7Oe1LWAIQ/s1600/reco.gif",
-      "processedAt": "2026-08-18T18:19:01.216473+00:00"
-    },
-    {
-      "id": "art-9712ed3f",
-      "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
-      "summary": "Researchers discovered a typosquatting campaign targeting RubyGems users with malicious packages designed to steal browser credentials and cryptocurrency wallet data. The threat actor, tracked as StubMaker, created at least 16 fake packages with names similar to legitimate libraries to trick developers into downloading the malware. This Windows-based information stealer highlights the ongoing risk of supply chain attacks against popular package repositories.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "typosquatting",
-        "supply-chain-attack",
-        "malware",
-        "rubygems",
-        "credential-theft",
-        "information-stealer"
-      ],
-      "whyItMatters": "Typosquatting attacks on package repositories directly compromise developer environments and can propagate malicious code across multiple organizations through infected dependencies. Stealing credentials and crypto wallets represents significant financial and security risk, making this a critical supply chain threat developers must watch for when installing packages.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9BsXf9I7m4IoC0hb3fSwYiBJsaB1_vSj9kGhfi0HsWGeR0xVl_W1O_Z0bd6IxvQ-vUQP5FDsj5mpiwUjv72JG3vNdViDwAKDG1uswOPDfb84xN_n8AgafhIP2sCx8x1Jd4L0mptrXuzCCGze-safV0V13WiWsFbKrKYvIC6CPBncYuhwgaDafyqSJx9Kv/s1600/ruby.jpg",
-      "processedAt": "2026-08-18T18:19:04.094253+00:00"
-    },
-    {
-      "id": "art-0836f4d8",
-      "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
-      "summary": "SafePal, a hardware wallet company, discovered a security flaw in its order-tracking plugin that leaked personal information from nearly 40,000 customers. The exposed data included names, emails, addresses, phone numbers, and purchase history. The company notified affected customers via email on August 16 about the vulnerability.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "authorization-flaw",
-        "hardware-wallet",
-        "customer-data-exposure",
-        "plugin-vulnerability"
-      ],
-      "whyItMatters": "This breach demonstrates how security flaws in third-party plugins can expose sensitive customer data at scale, particularly concerning for financial services like cryptocurrency wallet companies where user trust is critical. Organizations must implement strict access controls and regularly audit plugins to prevent unauthorized data exposure. Users of SafePal and similar services should monitor fo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFTKWlpW6A2F_jXpwDsCbJmaJ7-TnZPoCNsW0BG5pa4F8X8I1zzCRAMefU00NEQHKlqdqGchFbSTQ_aADgjlJeIHpUKswwnwNiP7WnbAftpciT_4FAFzPKi5NYnBtI0R0VEhP4JIHXFpm6hhyQFASu7IP1kFP2FmlLVejJDiG3Tgxf2ofz-J0Aq02AoF8/s1600/safe.jpg",
-      "processedAt": "2026-08-18T18:19:07.049470+00:00"
-    },
-    {
-      "id": "art-c2468887",
-      "title": "Clop created custom web shell for Windchill data theft attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/",
-      "summary": "The Clop ransomware group developed a specialized Java web shell designed to target PTC Windchill and FlexPLM servers used by many manufacturing and engineering companies. This malicious tool includes capabilities to decrypt stored credentials, search through file repositories, and extract sensitive data from these systems. The discovery reveals that attackers are creating purpose-built tools to maximize damage during targeted attacks on specific enterprise software platforms.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "clop-ransomware",
-        "web-shell",
-        "windchill",
-        "credential-theft",
-        "data-exfiltration",
-        "enterprise-targeting"
-      ],
-      "whyItMatters": "Organizations using PTC Windchill and FlexPLM face an elevated and immediate threat from a sophisticated threat actor with proven capabilities to breach, steal, and encrypt critical intellectual property and operational data. The custom-built nature of this web shell demonstrates that Clop is actively refining its attack methods for high-value targets, making this a critical concern for manufactur",
-      "image": null,
-      "processedAt": "2026-08-18T18:19:10.781680+00:00"
-    },
-    {
-      "id": "art-3deb2e1d",
-      "title": "Your Controls Block Known Attacks. What About the Behavior?",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/your-controls-block-known-attacks-what-about-the-behavior/",
-      "summary": "Security tools can successfully block common attack methods but may fail to detect alternative techniques that achieve the same malicious goals. A new report from Picus Security reveals that defense effectiveness varies significantly depending on the specific attack method used. Organizations need to go beyond just testing known attacks and should conduct behavioral testing to identify hidden vulnerabilities in their security controls.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "security-controls",
-        "attack-prevention",
-        "behavioral-testing",
-        "threat-detection",
-        "security-gaps"
-      ],
-      "whyItMatters": "Organizations often believe their security controls are adequate because they block known attacks, but this false confidence can leave them vulnerable to attackers using alternative methods. Behavioral testing helps identify gaps that standard threat detection misses, enabling teams to strengthen defenses against sophisticated attackers who adapt their techniques to bypass existing controls.",
-      "image": null,
-      "processedAt": "2026-08-18T18:19:13.055496+00:00"
-    },
-    {
-      "id": "art-c4556f1f",
-      "title": "Microsoft tests faster Windows File Explorer, new context menu",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-faster-windows-explorer-customizable-context-menu/",
-      "summary": "Microsoft is testing performance improvements to Windows File Explorer and redesigning the context menu in Windows 11 preview builds available to Insiders. The updates aim to make File Explorer faster and provide a cleaner, more customizable context menu experience. These changes are part of ongoing efforts to enhance the user interface and system responsiveness in Windows 11.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "windows-11",
-        "file-explorer",
-        "ui-improvements",
-        "preview-builds"
-      ],
-      "whyItMatters": "While not a security threat, improved File Explorer performance can enhance overall system efficiency and user productivity. Better-designed context menus may reduce user confusion and support safer file operations by making security-relevant options more accessible and visible.",
-      "image": null,
-      "processedAt": "2026-08-18T18:19:15.088320+00:00"
-    },
-    {
-      "id": "art-d3c171f7",
-      "title": "CISA: Windows Task Host flaw now exploited by ransomware gangs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-windows-task-host-flaw-now-exploited-by-ransomware-gangs/",
-      "summary": "CISA has confirmed that criminal ransomware groups are actively exploiting a serious vulnerability in Windows Task Host, which was first reported as being exploited back in April. This vulnerability allows attackers to compromise Windows systems and potentially deploy ransomware attacks. Organizations need to be aware that this flaw is no longer just a theoretical risk but is actively being weaponized by criminal gangs.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "windows-vulnerability",
-        "ransomware-exploitation",
-        "task-host",
-        "active-exploit",
-        "cisa-alert",
-        "patch-urgently"
-      ],
-      "whyItMatters": "This represents an immediate, real-world threat since ransomware gangs are already using this vulnerability in active attacks. Organizations running vulnerable Windows systems are at direct risk of compromise and data extortion. Timely patching and vulnerability management are now critical priorities rather than optional security measures.",
-      "image": null,
-      "processedAt": "2026-08-18T18:19:17.652790+00:00"
-    },
-    {
-      "id": "art-960af025",
-      "title": "Microsoft confirms outage affecting search in Microsoft 365 apps",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-to-fix-bug-behind-microsoft-365-search-issues/",
-      "summary": "Microsoft experienced a service outage affecting search functionality across multiple Microsoft 365 applications, including Outlook web and desktop versions, SharePoint Online, and OneDrive. This disruption prevented users from searching their emails, files, and documents within these commonly used enterprise tools. The outage demonstrates how critical cloud service reliability is for business continuity.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "microsoft-365",
-        "cloud-outage",
-        "service-disruption",
-        "outlook",
-        "sharepoint"
-      ],
-      "whyItMatters": "Search functionality is essential for productivity in enterprise environments; outages can significantly impact business operations and user efficiency. This incident highlights the importance of having backup search methods and understanding how cloud provider outages can cascade across multiple dependent applications. Organizations should review their incident response plans and communication st",
-      "image": null,
-      "processedAt": "2026-08-18T18:19:20.089346+00:00"
     }
   ]
 }
