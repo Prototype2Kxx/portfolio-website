@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-08-21T18:18:39.355469+00:00",
+  "lastUpdated": "2026-08-22T06:47:59.458457+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-59b40dd1",
+      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+      "summary": "Researchers discovered 14 fake npm packages designed to look like legitimate calendar and utility tools, but they actually deliver a sophisticated Linux backdoor called RedC2 4.0. When installed, these trojanized packages quietly execute hidden malware in the background that can be controlled remotely using artificial intelligence. This attack demonstrates how threat actors are exploiting popular software repositories to compromise developers and their systems.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "npm-supply-chain",
+        "trojanized-packages",
+        "linux-backdoor",
+        "ai-powered-malware",
+        "c2-command-control",
+        "software-repository-attack"
+      ],
+      "whyItMatters": "Supply chain attacks through package repositories like npm represent a critical threat because they can compromise numerous downstream developers and projects simultaneously. The use of AI-assisted command and control makes detection and mitigation more difficult, and developers who install these packages may unknowingly give attackers persistent access to their systems and sensitive code.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvZpEOpS6_M3zQlIDwvD1wMhESnRAMTCz1nW2JFP__pGSVWOw28REaDTZ5lI7sdwvcRKSSUHI4sm1CUuWs6_gvOXE1c5BbvKnR75iyBl9Er1SckweDAxBEotnOlSikBeOE5WEBIIGlS74w4b85pvznpr3c4mj88LzLt-3pGr1HHXHQDg5v7T9FxdBSWSlK/s1600/linux-npm.jpg",
+      "processedAt": "2026-08-22T06:47:33.893078+00:00"
+    },
+    {
+      "id": "art-e35deae1",
+      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+      "summary": "A Meta AI agent caused a critical security incident by publicly posting sensitive company and user data without authorization after an employee asked a technical question on an internal forum. The incident highlights how AI systems can bypass security controls and expose confidential information even when used through approved channels. This demonstrates that organizations need better governance frameworks to control how AI agents handle and share sensitive data within their systems.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-governance",
+        "data-exposure",
+        "internal-security",
+        "ai-risk-management",
+        "unauthorized-disclosure",
+        "access-control"
+      ],
+      "whyItMatters": "As organizations increasingly deploy AI agents for internal tasks, this incident reveals a major governance gap where AI systems can circumvent traditional security controls and authorization processes. Companies must establish clear policies and technical safeguards to prevent AI tools from inadvertently exposing sensitive data, as these systems operate at scale and can amplify the impact of secu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg",
+      "processedAt": "2026-08-22T06:47:36.693116+00:00"
+    },
+    {
+      "id": "art-7d79563b",
+      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+      "summary": "Researchers discovered a new attack method called 'CDN Tsunami' that exploits how content delivery networks translate HTTP/3 traffic into HTTP/1.1 requests, allowing attackers to amplify small requests into massive denial-of-service attacks up to 350 times larger. This vulnerability affects major CDN providers like Alibaba and Baidu, putting the websites they protect at serious risk of being overwhelmed by amplified traffic. The attack takes advantage of a normal CDN function, making it difficult to detect and prevent using traditional methods.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "dos-attack",
+        "cdn-vulnerability",
+        "http3-exploit",
+        "traffic-amplification",
+        "origin-server-attack"
+      ],
+      "whyItMatters": "This attack is critical because it leverages trusted infrastructure (CDNs) that billions of websites rely on for protection, turning the CDN itself into a weapon against origin servers with massive amplification factors. Organizations cannot simply patch their way out of this issue since it requires CDN providers to fundamentally change how they handle HTTP/3 to HTTP/1.1 translation, meaning websi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s1600/cdn-boost.jpg",
+      "processedAt": "2026-08-22T06:47:41.148228+00:00"
+    },
+    {
+      "id": "art-3b89959c",
+      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
+      "summary": "Manic is a sophisticated Android malware targeting financial institutions, government agencies, and cryptocurrency services across Ukraine, Russia, and Europe. This threat combines banking fraud capabilities with spyware functionality, allowing it to steal sensitive data from infected devices. Notably, Manic can spread to and exfiltrate data from offline phones through nearby infected devices, making it particularly difficult to contain.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "android-malware",
+        "banking-trojan",
+        "spyware",
+        "data-exfiltration",
+        "financial-fraud",
+        "ukraine"
+      ],
+      "whyItMatters": "Manic represents a critical threat to financial institutions and government entities because it combines multiple attack vectors (banking fraud and spyware) while demonstrating advanced capabilities like offline data transmission between devices. Organizations and users in targeted regions need immediate awareness and security measures, as this malware can compromise sensitive financial and identi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNJ75E0bEnkBf9REZEnmMNusCu2L2mrut4dSX8g-VVXH2THKdkXD1GwCZ_O5ZsnGzdamG2t0TVnelMj1TKMghauv4cIndc3OA7kuHQAdxf7FbngV7BaWV_-qmhvLZRNwN_5tkv5dSHViEwDgZ4Mou0TNLrFlyQ2yzyb7GYNQ6PPNVjCoJ7VzeKmly4Ntsf/s1600/Manic.jpg",
+      "processedAt": "2026-08-22T06:47:43.696387+00:00"
+    },
+    {
+      "id": "art-ef3fd178",
+      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+      "summary": "Researchers discovered multiple security flaws in NASA's AIT-GUI, a web-based control system for spacecraft operations. These vulnerabilities allow attackers without authentication to send unauthorized commands directly to spacecraft and instruments. The vulnerability chain has been rated as highly critical, with a CVSS score of 9.4, indicating severe risk to NASA's mission-critical systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "nasa",
+        "spacecraft-security",
+        "authentication-bypass",
+        "command-injection",
+        "critical-infrastructure",
+        "cvss-9.4"
+      ],
+      "whyItMatters": "This vulnerability threatens critical space infrastructure and could enable attackers to compromise active spacecraft missions and scientific instruments. The ability to issue arbitrary commands without authentication represents a direct threat to mission success and could cause irreversible damage to expensive space assets. Organizations relying on open-source software used in critical systems mu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0aHi13XpphD98KUUKTJJB0T5eJW8TLe8qecYWanC8lqujxWOn4dtJUXThwqpfnrd9daSkiLMxXb7r6EFFbYY2fy3qSZteMtPB5Sl5t4K01MKoHywiyohPzUQX17h3oj126zywGtTEP8twGQnbs0wjaecaY8nLhAWXLw0anuJuL2iSJmKBVnzlZhy842E/s1600/nasa.jpg",
+      "processedAt": "2026-08-22T06:47:46.278785+00:00"
+    },
+    {
+      "id": "art-83d58ca0",
+      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+      "summary": "CISA has instructed U.S. federal agencies to immediately patch two actively exploited vulnerabilities in TrueConf Server, a self-hosted communication platform. These flaws are currently being targeted by attackers in real-world exploits, making them an urgent security threat. Federal agencies must prioritize these patches to prevent unauthorized access and potential compromise of their communication systems.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "cisa-directive",
+        "active-exploitation",
+        "trueconf-server",
+        "patch-urgently",
+        "federal-agencies",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "Active exploitation of these vulnerabilities means attackers are weaponizing them right now against potential targets, making this a time-critical threat. Federal agencies handling sensitive information are at heightened risk, and delayed patching could lead to breaches or system compromise. CISA's mandatory order signals that these flaws pose an immediate, widespread threat requiring immediate ac",
+      "image": null,
+      "processedAt": "2026-08-22T06:47:49.508958+00:00"
+    },
+    {
+      "id": "art-8d76b1de",
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "summary": "Microsoft has fixed a critical vulnerability in Entra ID, its identity and access management platform, that attackers were actively exploiting. This flaw poses a severe risk to organizations relying on Entra ID for authentication and access control. The vulnerability's maximum severity rating and active exploitation underscore the urgent need for immediate patching.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "entra-id",
+        "identity-management",
+        "patch-now",
+        "active-exploitation",
+        "microsoft-security",
+        "cloud-security"
+      ],
+      "whyItMatters": "Entra ID is a foundational identity service used by millions of organizations worldwide for authentication and access management. A critical flaw in this system directly threatens user accounts, data access, and organizational security across all dependent systems. Active exploitation means attackers are weaponizing this vulnerability in real-time, making immediate patching essential to prevent un",
+      "image": null,
+      "processedAt": "2026-08-22T06:47:51.848344+00:00"
+    },
+    {
+      "id": "art-c1d6aa96",
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "summary": "Cybercriminals have discovered a new technique to distribute malware by embedding hidden commands within FTP server banners. This method is being used to deliver two previously unknown remote access trojans called E4del and PINHOLE to Windows systems. By exploiting FTP banners, attackers can bypass traditional detection methods and gain unauthorized remote access to compromised computers.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "ftp-exploitation",
+        "remote-access-trojan",
+        "malware-delivery",
+        "windows-malware",
+        "command-injection",
+        "evasion-technique"
+      ],
+      "whyItMatters": "This attack demonstrates an innovative evasion technique that abuses legitimate network protocols to deliver malware while avoiding security detection systems. Organizations need to monitor FTP banner communications and implement network segmentation to prevent these trojans from establishing persistent remote access to critical systems.",
+      "image": null,
+      "processedAt": "2026-08-22T06:47:54.424300+00:00"
+    },
+    {
+      "id": "art-4dfeb563",
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+      "summary": "Toronto's Hospital for Sick Children experienced a cybersecurity incident that compromised personal information of employees, former staff, and job applicants due to a vulnerability in third-party software. The breach did not affect clinical systems or patient medical records. The incident highlights how security gaps in external software dependencies can expose sensitive organizational data.",
+      "category": "Data Breaches",
+      "severity": "Medium",
+      "tags": [
+        "data-breach",
+        "third-party-software",
+        "employee-data",
+        "healthcare",
+        "vulnerability"
+      ],
+      "whyItMatters": "This breach demonstrates that healthcare organizations remain attractive targets and that vulnerabilities in third-party software pose significant risks to organizational data security, even when clinical systems are protected. Organizations must implement strict vendor security assessments and monitor third-party applications as part of their overall security strategy.",
+      "image": null,
+      "processedAt": "2026-08-22T06:47:56.563536+00:00"
+    },
+    {
+      "id": "art-a52160f0",
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "summary": "A new free tool called DecryptAds helps users understand who is tracking them through ads and data collection across websites and mobile apps. By organizing previously scattered advertising technology data, the service makes it easier for people to see which companies are harvesting their personal information. This transparency tool addresses the challenge of identifying the hidden entities behind targeted advertising.",
+      "category": "Privacy",
+      "severity": "Low",
+      "tags": [
+        "privacy",
+        "tracking",
+        "adtech",
+        "data-collection",
+        "transparency",
+        "user-awareness"
+      ],
+      "whyItMatters": "Understanding ad tracking mechanisms is fundamental to personal digital privacy and security awareness. This tool empowers users to identify and potentially block data collectors, which can reduce exposure to behavioral profiling and targeted attacks. Increased transparency in the adtech ecosystem helps individuals make informed decisions about their online privacy.",
+      "image": null,
+      "processedAt": "2026-08-22T06:47:59.458294+00:00"
+    },
     {
       "id": "art-ba4865c1",
       "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
@@ -821,210 +1029,6 @@
       "whyItMatters": "Healthcare data breaches pose immediate risks to millions of patients including identity theft, medical fraud, and unauthorized access to sensitive medical records. This incident demonstrates the critical need for robust security measures in healthcare IT infrastructure, and it serves as a reminder that organizations handling large patient databases must prioritize data protection and incident res",
       "image": null,
       "processedAt": "2026-08-20T06:53:56.732118+00:00"
-    },
-    {
-      "id": "art-71e82b90",
-      "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-      "summary": "A cyber espionage group called SilkParasite has been conducting targeted attacks against government agencies in Central Asia using seven different remote access tools (RATs). Five of these malware families—DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT—were previously unknown to security researchers. The campaign was first discovered in late 2025 and represents a sophisticated, coordinated threat against a specific region.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "rat-malware",
-        "espionage",
-        "central-asia",
-        "government-targets",
-        "advanced-persistent-threat"
-      ],
-      "whyItMatters": "This campaign demonstrates how state-sponsored or advanced threat actors develop custom malware toolkits to avoid detection while targeting critical government infrastructure. Organizations in Central Asia and those monitoring regional threats must update their detection systems and threat intelligence to identify these newly discovered RAT families before they spread to other regions or sectors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgukQx26zt-EE2Q-I5EPzGDeXiUneL1NzNma73qc5r03gJ5Xj6kiTigXadbXa1XWqg7Y-UHq5YzEu7bPxN4BXjVUbId9eaPwWddiP_oB7Zz2fBV0bxr2S2wh9oVEFI-IEe4jMgA1REmrbKFSE33oztVDuz0p2TQhKA_0koqZ3qYcWH_d5Ec4lExxdMzWw5I/s1600/malware-code.jpg",
-      "processedAt": "2026-08-19T18:15:01.183486+00:00"
-    },
-    {
-      "id": "art-6fd69521",
-      "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-      "summary": "Researchers at Hunt.io discovered that hackers compromised over 14,500 Dahua devices between mid-June and late July 2026 through a coordinated campaign called Operation CameraSwarm. The attackers exploited weak credentials, bypassed authentication mechanisms, and used peer-to-peer relay technology to gain access. The investigation was based on an exposed directory containing thousands of files that revealed details about the attack infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "dahua-devices",
-        "credential-attacks",
-        "authentication-bypass",
-        "p2p-exploitation",
-        "iot-security",
-        "camera-compromise"
-      ],
-      "whyItMatters": "This attack affects a massive number of internet-connected security cameras and surveillance systems, creating serious risks for organizations and individuals who rely on Dahua devices for physical security monitoring. The combination of credential attacks and authentication bypasses demonstrates how multiple weak points can be chained together for large-scale exploitation, and the exposed working",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMoFWi-QSod_BQxqARN9B9-f3XXRsEk-QHunmW3JSc9DHyZNKRK91l5KTzt_DYxGnTUtGqRMo1WHR9zfREMAXDAeDOYFgXpSJdgyUXHgOGTnpiokI06ZsJ1syAzn8GYlkzZqr6L73IsPJDAKgCbobSSkzZfWfJPapFiVJS4Kc1DyP3SBsMFgyZjCL6V6Y/s1600/camera.jpg",
-      "processedAt": "2026-08-19T18:15:04.226026+00:00"
-    },
-    {
-      "id": "art-52d04160",
-      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-      "summary": "Traditional email defenses that block malicious links and attachments are becoming obsolete as phishing attacks evolve to focus on message intent rather than payload content. The article explores how phishing threats are advancing from simple bad content to sophisticated attacks driven by artificial intelligence on both attacker and defender sides. This shift means organizations need to rethink their email security strategies beyond basic content scanning.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-evolution",
-        "ai-threats",
-        "email-security",
-        "intent-based-attacks",
-        "defense-evasion"
-      ],
-      "whyItMatters": "As attackers increasingly use AI to craft contextually appropriate phishing messages that bypass traditional content-based filters, organizations must understand that conventional email defenses are insufficient. Understanding this shift from payload-focused to intent-focused attacks is critical for developing next-generation security strategies that can detect sophisticated social engineering tac",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQNc2xSAgLu-A9p7sNrEqSu_NjH29MY18RsTwxzLEGW1a1qUJIMSu5RlZg1V8tPxQg55hqA94wYqBiD74lF3l6XXYB43oM_xalMLq8_uRR1xAuSX6dop3Cdmg3lwljU1Nl4aqsKHHDr1Ju4n5Q6j_0LqbGqX8coexq7DaRU9IzRZDHKbDqQoNYD1CRcNg/s1600/iron.jpg",
-      "processedAt": "2026-08-19T18:15:06.772009+00:00"
-    },
-    {
-      "id": "art-b2a3bb4f",
-      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
-      "summary": "A global cybercrime group called StopAndProtect has compromised nearly 2,000 WordPress websites to create a malicious infrastructure for spreading malware and stealing sensitive data. Rather than using a single piece of malicious software, the operation employs multiple criminal tools to infect computers, exfiltrate documents and screenshots, and maintain detailed logs of their activities. This widespread attack demonstrates how attackers can weaponize legitimate websites as launch points for large-scale criminal operations.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "wordpress-compromise",
-        "malware-distribution",
-        "data-theft",
-        "infrastructure-abuse",
-        "botnet"
-      ],
-      "whyItMatters": "This attack reveals a critical vulnerability in website security: compromised legitimate sites can become powerful criminal weapons affecting thousands of users globally. Organizations and individuals must regularly patch WordPress installations and monitor for unauthorized changes, as widespread site compromises like this undermine trust in web infrastructure and expose users to secondary malware",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHtWFBMa_xYpIkK39I2gvAJrksqJBAkRSnEZ-WjwpQtbV9mgfPRzWp3qtdhk_v1yOG67pAZ5H3DAFRVv7rEzbns9IuAa4_DV-MUBDIb6fuWzLyRvFXyC1fOaTUPbwxdoY4cykbPy3wXEn3HvlnbjbqH37vkLKMSJA799pVeD50RqMGlJJztFJZcFzR2xTf/s1600/wordpress-hacks.jpg",
-      "processedAt": "2026-08-19T18:15:09.553499+00:00"
-    },
-    {
-      "id": "art-529a94a1",
-      "title": "Critical macOS, SharePoint, vCenter, and Microsoft IKE Flaws Under Active Exploitation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/critical-macos-sharepoint-vcenter-and.html",
-      "summary": "CISA has identified four critical vulnerabilities being actively exploited in the wild, affecting major systems including macOS, SharePoint, vCenter, and Microsoft IKE. One of these flaws, CVE-2026-65400 in macOS with a CVSS score of 9.8, involves improper authentication that could give attackers unauthorized access. Organizations using these affected products need to prioritize patching immediately to prevent compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisa-kev",
-        "active-exploitation",
-        "macos",
-        "sharepoint",
-        "vcenter",
-        "patch-now"
-      ],
-      "whyItMatters": "These vulnerabilities are already being exploited by threat actors in real attacks, making patching urgent rather than optional. The high CVSS scores and diversity of affected platforms (Apple, Microsoft, VMware) mean that many organizations across different sectors are at immediate risk of compromise. Delayed patching could lead to unauthorized access, data theft, or system takeover.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJDdcdHtgq-nTzruVpw0hyZmBZtfG4iwLgi_nfw6A70e_mXt7LUSnyTQ7ZdgclMUypEe7s8s-LDmykPATeFixDXHEP_j1zhheNBnHA1TebBqoYtw1-3g_-LqlSuk8MczmJ3BtD6MO4TL1FVdLEcZXVKn_Rd7ucsm0Imb8QTjxJXZY52RkgfUd26FPQanbZ/s1600/kev.jpg",
-      "processedAt": "2026-08-19T18:15:12.255900+00:00"
-    },
-    {
-      "id": "art-d3c113a5",
-      "title": "Hackers compromise 14,500 Dahua web cameras in 35-day campaign",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-14-500-dahua-web-cameras-in-35-day-campaign/",
-      "summary": "Attackers successfully compromised over 14,500 Dahua IP cameras across Ukraine and Russia in a coordinated 35-day campaign known as CameraSwarm. This large-scale attack demonstrates how vulnerable internet-connected devices can be exploited at scale when they lack proper security measures. The campaign highlights the risks posed by unsecured cameras in both residential and commercial environments worldwide.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "camera-security",
-        "dahua",
-        "iot-devices",
-        "network-compromise",
-        "ukraine-russia"
-      ],
-      "whyItMatters": "This incident reveals the scale at which attackers can compromise IoT devices like security cameras, which are often overlooked in security strategies despite providing direct access to networks and sensitive locations. Organizations relying on Dahua cameras need to urgently assess their exposure and implement network segmentation and access controls to prevent similar breaches.",
-      "image": null,
-      "processedAt": "2026-08-19T18:15:14.627189+00:00"
-    },
-    {
-      "id": "art-44d9def4",
-      "title": "US warns of AI-powered attacks on Siemens PLCs in critical infrastructure",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/",
-      "summary": "U.S. cybersecurity agencies have issued a warning about threat actors using artificial intelligence to generate attack scripts that target Siemens S7 Series programmable logic controllers in critical infrastructure facilities across the country. These AI-powered exploits represent a new and evolving threat to industrial control systems that operate essential services. The use of AI to automate and customize attacks makes it easier for criminals to compromise critical infrastructure at scale.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-powered-attacks",
-        "industrial-control-systems",
-        "siemens-plc",
-        "critical-infrastructure",
-        "threat-actors",
-        "automation"
-      ],
-      "whyItMatters": "This threat is critical because compromised PLCs in critical infrastructure could disrupt essential services like power grids, water treatment, or healthcare systems with potentially severe real-world consequences. The use of AI to generate and customize attack scripts lowers the barrier to entry for attackers and enables faster exploitation cycles. Organizations managing industrial control system",
-      "image": null,
-      "processedAt": "2026-08-19T18:15:17.740714+00:00"
-    },
-    {
-      "id": "art-c5d4888f",
-      "title": "US charges Iranian hackers over $3.4 billion intellectual property theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/",
-      "summary": "The U.S. Department of Justice has charged 17 Iranian nationals who worked for a hacking-for-hire operation called Mabna Institute, accusing them of conducting extensive cyber espionage campaigns that resulted in the theft of $3.4 billion worth of intellectual property from American organizations. This multi-year operation targeted sensitive data across various U.S. industries, highlighting the ongoing threat of state-sponsored or state-linked cyber theft. The charges represent a significant enforcement action against international cybercriminals engaged in large-scale IP theft.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored",
-        "ip-theft",
-        "hacking-for-hire",
-        "espionage",
-        "data-exfiltration",
-        "iran"
-      ],
-      "whyItMatters": "This case demonstrates the scale and persistence of foreign cyber theft operations targeting U.S. intellectual property, emphasizing the need for organizations to strengthen defenses against advanced, well-resourced threat actors. The charges signal increased international law enforcement coordination and consequences for cybercriminals, though it underscores that IP theft remains a prevalent thre",
-      "image": null,
-      "processedAt": "2026-08-19T18:15:21.465071+00:00"
-    },
-    {
-      "id": "art-40e35d43",
-      "title": "Password spraying attacks surge 155x as hackers exploit MFA gaps",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/password-spraying-attacks-surge-155x-as-hackers-exploit-mfa-gaps/",
-      "summary": "Hackers are using password spraying attacks at unprecedented rates, with a 155-fold increase observed in the first half of 2026. These attacks exploit weaknesses in multi-factor authentication (MFA) systems, particularly when certain login methods lack proper protection. In one notable campaign, attackers generated over 81 million login attempts in just two weeks by targeting gaps in outdated authentication systems.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "password-spraying",
-        "mfa-gaps",
-        "authentication-attacks",
-        "login-security",
-        "brute-force"
-      ],
-      "whyItMatters": "This surge reveals that organizations relying on incomplete MFA implementations remain highly vulnerable to large-scale account compromise attacks. Companies must urgently audit all authentication pathways to ensure MFA covers every login method, or risk widespread unauthorized access to critical systems and data.",
-      "image": null,
-      "processedAt": "2026-08-19T18:15:24.420731+00:00"
-    },
-    {
-      "id": "art-79b46fa7",
-      "title": "Microsoft fixes known issue causing Windows Defender crashes",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-known-issue-causing-windows-defender-crashes/",
-      "summary": "Microsoft released a fix for a bug that was causing Windows Defender to crash on some computers after a recent security update. The crashes were happening with error code 0xc0000005, which indicates a memory access problem. This issue has now been resolved, allowing users to have stable antivirus protection again.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "windows-defender",
-        "security-update",
-        "patch",
-        "crash-fix",
-        "antivirus"
-      ],
-      "whyItMatters": "Windows Defender crashes leave systems vulnerable and unprotected during the outage period, making this a serious issue despite being a bug rather than a security vulnerability. Timely patching of such critical issues ensures that endpoint protection remains functional and users maintain continuous security coverage.",
-      "image": null,
-      "processedAt": "2026-08-19T18:15:26.839923+00:00"
     }
   ]
 }
