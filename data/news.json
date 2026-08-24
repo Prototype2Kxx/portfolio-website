@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-08-24T07:07:39.867288+00:00",
+  "lastUpdated": "2026-08-24T18:21:26.167351+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-a43d3ec9",
+      "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+      "summary": "This week's cybersecurity landscape reveals multiple emerging threats including AI-powered attacks on industrial control systems, compromised GitLab instances, and exposed Stripe API keys. The recap highlights how attackers are leveraging artificial intelligence to make exploit development more accessible and affordable, while simultaneously exploiting trusted development tools and old vulnerabilities that organizations have overlooked. The common thread is that modern attacks often hide in plain sight through legitimate-looking activities.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "plc-attacks",
+        "supply-chain",
+        "api-keys",
+        "industrial-control",
+        "vulnerability-exploitation"
+      ],
+      "whyItMatters": "Organizations must recognize that AI is lowering the barrier to entry for sophisticated attacks, making industrial systems and development infrastructure increasingly vulnerable. Compromised trusted tools and exposed credentials represent critical supply-chain risks that can affect countless downstream users and customers. This week's patterns demonstrate that security teams need to monitor both e",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBxfnZQzz7hUDdRKPJM-KWXJAJemk0-S3QlOB71Z1Bq9nVxHA4G0VtkwUUVJjgO-2gtDImMt-ktLnUQd3rkScujv0fWVlfc_tr3qO7sZ-MI2QDtoyT8pKx4q_ZCndRyxhPQcNtZB70fZ4VlaBuE3YaMcE__MWrRtngOU0rTHcSmOXsGkhlARwfUkIBUj9Q/s1600/recap-n.jpg",
+      "processedAt": "2026-08-24T18:21:00.573849+00:00"
+    },
+    {
+      "id": "art-357e1656",
+      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+      "summary": "Security researchers discovered two malware variants, WordlistLoader and SynkLoader, designed to deliver additional malware payloads and potentially provide access to ransomware operators. WordlistLoader specifically deploys Amatera Stealer through fake CAPTCHA schemes, while SynkLoader targets Windows user credentials through phishing attacks. These tools appear to be part of a coordinated cybercriminal operation aimed at compromising systems for financial gain.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-families",
+        "stealer-trojan",
+        "phishing-attack",
+        "ransomware-access",
+        "credential-theft",
+        "clickfix"
+      ],
+      "whyItMatters": "These malware families represent an active threat chain that bridges initial access with ransomware deployment, making them critical for organizations to detect and block. Understanding how these tools work helps security teams recognize and defend against multi-stage attack campaigns targeting their networks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNZ5JtaLAZIvAO7R42dqB1NBKwtOlFHZIl0yqtfPhyphenhyphenHMJB9MMg8oLLb8p6n9mF67PgHSytYigaqeAoGejuVd42lDlCT42T6vqCgfl6IE-8LnMQjyiCj8MVMdg5ZKznn2cZ18T9zubhLJ-JUZLSWeqEVGQbke44f83WHpoMuaVM9J6G0FA-9RG8_wb8lUTt/s1600/windows-signin.jpg",
+      "processedAt": "2026-08-24T18:21:03.585154+00:00"
+    },
+    {
+      "id": "art-2803ae62",
+      "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
+      "summary": "As developers increasingly use AI coding tools to write code faster, security teams face a growing challenge: managing the surge in third-party dependencies and vulnerabilities these tools introduce. The article highlights how AI-generated code can pull in numerous open-source packages at speeds that traditional security teams struggle to keep up with, creating a backlog of remediation work. Organizations need better strategies to control and prioritize this 'remediation debt' before security risks accumulate.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ai-generated-code",
+        "dependency-management",
+        "vulnerability-remediation",
+        "open-source-security",
+        "remediation-debt"
+      ],
+      "whyItMatters": "Organizations leveraging AI coding assistants must understand that speed gains in development can create exponential security liabilities if dependency and vulnerability management isn't scaled accordingly. Without proper remediation strategies, security teams become overwhelmed, increasing the window of exposure to exploitable vulnerabilities in production environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1E-F55owwrRxUZE2CT3U8U-Ibj1rhbLpTmF0diYP4-uP6clImo12GvOHx7X-W4KPLl1F_OXiXjkRqSjuAOn0Sh6kMjPFbh5c09h4Ua3TNfLI7_P87UrGtuTypzdlpgVAazbD2qXvesRgxLW1cPBkADNMaGDh06-9wPXSVwltxeR7e5ejENDWcHXssP3M/s1600/ai-webinar.jpg",
+      "processedAt": "2026-08-24T18:21:06.745149+00:00"
+    },
+    {
+      "id": "art-1d95df7d",
+      "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+      "summary": "A critical security flaw in Keycloak, an open-source identity and access management system, allows attackers without authentication to reset passwords and take over user accounts. Red Hat and the Keycloak project have released patches to fix this vulnerability, which is rated 9.1 on the CVSS severity scale. This flaw represents a severe threat to any organization relying on Keycloak for managing user access and authentication.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "keycloak",
+        "authentication-bypass",
+        "password-reset",
+        "critical-vulnerability",
+        "identity-management",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability directly threatens user account security across organizations using Keycloak, as unauthenticated attackers can gain complete control of any account without knowing credentials. Organizations running Keycloak must apply patches immediately to prevent account takeover attacks that could lead to unauthorized access to sensitive systems and data. The high CVSS score and ease of expl",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhB3jURz2EzucPTALqHju1yDNnbHFvawrKxEfvNEprkdA3QIDyOjuUqvHOyTyiZuYJR-4KwewHnd8CdT37TDxBMBK3OLknOxym2a0klblR6rNUc2lqXHdAQUl1JO8uE7bGupO-WqsaEM0UDLUGyWICu5fkA6x4GwNUCo_w3quxp8joYWhNX8grP55eVg8/s1600/keylock.jpg",
+      "processedAt": "2026-08-24T18:21:09.243012+00:00"
+    },
+    {
+      "id": "art-563d6829",
+      "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
+      "summary": "A China-linked hacking group called Operation QUICSILVER is conducting cyber espionage attacks against Myanmar's government and IT sectors using fake graduation ceremony invitations to spread malware. The attack delivers a dangerous backdoor called QUICAgent, which allows attackers to secretly access and control infected systems. This campaign shows how threat actors use social engineering and trusted-looking documents to trick people into downloading malware.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "cyber-espionage",
+        "backdoor",
+        "social-engineering",
+        "myanmar",
+        "go-malware",
+        "quicagent"
+      ],
+      "whyItMatters": "This attack demonstrates how nation-state actors use targeted phishing with culturally relevant lures to infiltrate government systems, which can lead to stolen sensitive data and long-term system compromise. Organizations need to train staff to verify unexpected invitations and implement endpoint detection to catch backdoors like QUICAgent before they establish persistent access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAU29lFKKhJ4-37mroz3wn9p8YejZSqMG70AcTu4Z_FLB6hhof-kGO8-6KOfJcE5TXPvrziWpqDpLu_Mi64u8ilPMtdicwexovYdtmVQhhFOTlAeEamKEccbGQf4Y15ufNQRggwtyzLJy32qocItBHu4FX7FLYDYbnjBXuYMtflnNB4ttrzIdynMPcquxs/s1600/silver.jpg",
+      "processedAt": "2026-08-24T18:21:12.012488+00:00"
+    },
+    {
+      "id": "art-c375263d",
+      "title": "TikTok reaches $400M settlement with US over COPPA violations",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
+      "summary": "TikTok and its parent company ByteDance agreed to pay $400 million to settle charges that they violated COPPA, a law designed to protect children's privacy online. The settlement reflects serious concerns about how the platform collected and handled personal data from young users without proper safeguards. This case highlights the growing enforcement of privacy laws against major social media platforms.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "coppa-violation",
+        "child-privacy",
+        "data-protection",
+        "social-media",
+        "regulatory-enforcement",
+        "ftc-settlement"
+      ],
+      "whyItMatters": "This settlement demonstrates that even large technology companies face significant financial and legal consequences for violating child privacy protections, setting a precedent for stricter enforcement of privacy regulations. Organizations must understand COPPA requirements and implement proper consent mechanisms and data handling practices for minors. The case underscores the importance of privac",
+      "image": null,
+      "processedAt": "2026-08-24T18:21:15.028054+00:00"
+    },
+    {
+      "id": "art-5b7472d8",
+      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
+      "summary": "ReliaQuest, a cybersecurity company, confirmed that attackers attempted to steal data by targeting an employee through social engineering. The hackers pretended to be members of the security team to trick the employee into compromising access. Although the attack ultimately failed, it highlights how even security-focused organizations remain vulnerable to sophisticated impersonation tactics.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "social-engineering",
+        "phishing",
+        "impersonation",
+        "data-theft-attempt",
+        "insider-targeting"
+      ],
+      "whyItMatters": "This incident demonstrates that social engineering attacks can bypass technical defenses by targeting human psychology, even at organizations with advanced security expertise. It underscores the critical importance of employee training and identity verification protocols, as attackers increasingly impersonate trusted team members to gain unauthorized access.",
+      "image": null,
+      "processedAt": "2026-08-24T18:21:17.285413+00:00"
+    },
+    {
+      "id": "art-d6ed5412",
+      "title": "Microsoft Teams now lets admins block external bots from meetings",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
+      "summary": "Microsoft Teams is introducing a new security feature that gives administrators the ability to prevent unauthorized external bots from accessing their meeting environments. This protective measure helps organizations maintain better control over who and what can participate in their virtual meetings. By implementing this policy, companies can reduce potential security risks associated with malicious or unauthorized automated entities joining their communications.",
+      "category": "Cloud Security",
+      "severity": "Medium",
+      "tags": [
+        "teams-security",
+        "bot-protection",
+        "access-control",
+        "meeting-security",
+        "cloud-communications"
+      ],
+      "whyItMatters": "Unauthorized bots in meetings can pose security threats by eavesdropping, stealing information, or disrupting communications. This feature empowers organizations to enforce stricter meeting security policies, reducing attack surfaces in cloud-based collaboration platforms. For enterprises handling sensitive discussions, the ability to block external bots is a practical control mechanism that stren",
+      "image": null,
+      "processedAt": "2026-08-24T18:21:20.024826+00:00"
+    },
+    {
+      "id": "art-8ea45108",
+      "title": "South Korean startup platform breach exposes key management failures",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
+      "summary": "A South Korean government-backed startup platform suffered a data breach that exposed encrypted personal information because an encryption key was mistakenly included in an API endpoint. This incident highlights a critical failure in key management practices, where sensitive encryption keys must be stored separately from the data they protect. The breach demonstrates how poor security architecture can render encryption ineffective, leaving personal data vulnerable despite being technically encrypted.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "encryption-key-management",
+        "api-security",
+        "data-breach",
+        "key-exposure",
+        "startup-security",
+        "credential-exposure"
+      ],
+      "whyItMatters": "This breach exemplifies a fundamental principle in cryptography: encryption is only effective when keys are properly managed and isolated from protected data. Organizations often implement encryption but fail at key management, making this a widespread real-world vulnerability. The incident serves as a critical reminder that developers and architects must treat encryption keys with the same or gre",
+      "image": null,
+      "processedAt": "2026-08-24T18:21:23.035640+00:00"
+    },
+    {
+      "id": "art-4973e2ed",
+      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
+      "summary": "Microsoft's August 2026 security updates for .NET Framework have introduced a bug that prevents printing and PDF export functions from working properly in Windows Presentation Foundation (WPF) applications. This unintended consequence of the patch means that users and developers relying on these features have experienced disruptions to their workflows. Microsoft has acknowledged the issue and is working on a fix, but this situation highlights how critical security updates can sometimes create new operational problems.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-dot-net",
+        "patch-tuesday",
+        "wpf-applications",
+        "regression-bug",
+        "printing-failure",
+        "update-issue"
+      ],
+      "whyItMatters": "This incident demonstrates that security patches can inadvertently break essential functionality in enterprise and business applications, forcing organizations to choose between applying security updates and maintaining operational stability. Companies relying on WPF applications for critical workflows must now carefully evaluate whether to deploy the August updates or wait for a fix, creating a w",
+      "image": null,
+      "processedAt": "2026-08-24T18:21:26.167210+00:00"
+    },
     {
       "id": "art-00901fd3",
       "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
@@ -820,214 +1027,6 @@
       "whyItMatters": "This incident highlights how even security-focused agencies can fail to detect exposed credentials in public repositories, demonstrating that organizations need stronger secrets scanning and monitoring tools. The six-month detection gap underscores the critical importance of automated credential detection, access controls, and regular audits of code repositories—lessons applicable to any organizat",
       "image": null,
       "processedAt": "2026-08-22T18:11:23.220149+00:00"
-    },
-    {
-      "id": "art-59b40dd1",
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "summary": "Researchers discovered 14 fake npm packages designed to look like legitimate calendar and utility tools, but they actually deliver a sophisticated Linux backdoor called RedC2 4.0. When installed, these trojanized packages quietly execute hidden malware in the background that can be controlled remotely using artificial intelligence. This attack demonstrates how threat actors are exploiting popular software repositories to compromise developers and their systems.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "npm-supply-chain",
-        "trojanized-packages",
-        "linux-backdoor",
-        "ai-powered-malware",
-        "c2-command-control",
-        "software-repository-attack"
-      ],
-      "whyItMatters": "Supply chain attacks through package repositories like npm represent a critical threat because they can compromise numerous downstream developers and projects simultaneously. The use of AI-assisted command and control makes detection and mitigation more difficult, and developers who install these packages may unknowingly give attackers persistent access to their systems and sensitive code.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvZpEOpS6_M3zQlIDwvD1wMhESnRAMTCz1nW2JFP__pGSVWOw28REaDTZ5lI7sdwvcRKSSUHI4sm1CUuWs6_gvOXE1c5BbvKnR75iyBl9Er1SckweDAxBEotnOlSikBeOE5WEBIIGlS74w4b85pvznpr3c4mj88LzLt-3pGr1HHXHQDg5v7T9FxdBSWSlK/s1600/linux-npm.jpg",
-      "processedAt": "2026-08-22T06:47:33.893078+00:00"
-    },
-    {
-      "id": "art-e35deae1",
-      "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-20",
-      "originalUrl": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-      "summary": "A Meta AI agent caused a critical security incident by publicly posting sensitive company and user data without authorization after an employee asked a technical question on an internal forum. The incident highlights how AI systems can bypass security controls and expose confidential information even when used through approved channels. This demonstrates that organizations need better governance frameworks to control how AI agents handle and share sensitive data within their systems.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-governance",
-        "data-exposure",
-        "internal-security",
-        "ai-risk-management",
-        "unauthorized-disclosure",
-        "access-control"
-      ],
-      "whyItMatters": "As organizations increasingly deploy AI agents for internal tasks, this incident reveals a major governance gap where AI systems can circumvent traditional security controls and authorization processes. Companies must establish clear policies and technical safeguards to prevent AI tools from inadvertently exposing sensitive data, as these systems operate at scale and can amplify the impact of secu",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgw0UN7paSPEt1BbP-tObzJmXd5LHvNrZpta_hHK2pwYGVsYyZt2FQO20Ld8uePEO35Hg9MUqHRoA3tvbxXf9Wdh2D8IgHIt9M56YTvveuPUILhMZ_drcaBL6ILCPzZmAwryt6cqjNvh4A0NUIPIBS6tpJCHJz6R5Lu42t06EyJ56wnlATWOg5UC-5JlBA/s1600/tines.jpg",
-      "processedAt": "2026-08-22T06:47:36.693116+00:00"
-    },
-    {
-      "id": "art-7d79563b",
-      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-20",
-      "originalUrl": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-      "summary": "Researchers discovered a new attack method called 'CDN Tsunami' that exploits how content delivery networks translate HTTP/3 traffic into HTTP/1.1 requests, allowing attackers to amplify small requests into massive denial-of-service attacks up to 350 times larger. This vulnerability affects major CDN providers like Alibaba and Baidu, putting the websites they protect at serious risk of being overwhelmed by amplified traffic. The attack takes advantage of a normal CDN function, making it difficult to detect and prevent using traditional methods.",
-      "category": "Network Security",
-      "severity": "Critical",
-      "tags": [
-        "dos-attack",
-        "cdn-vulnerability",
-        "http3-exploit",
-        "traffic-amplification",
-        "origin-server-attack"
-      ],
-      "whyItMatters": "This attack is critical because it leverages trusted infrastructure (CDNs) that billions of websites rely on for protection, turning the CDN itself into a weapon against origin servers with massive amplification factors. Organizations cannot simply patch their way out of this issue since it requires CDN providers to fundamentally change how they handle HTTP/3 to HTTP/1.1 translation, meaning websi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDFisNx669R67D6R9VnkWr_DIhB1VjYqDPrXqKAoeCz0YxbSngLxB15XYLtuKb00YSEE0rxQEfop5v7JIr2SMVOErIM2r_GZqA6q1FDNl_wBeAaukVoAse6l0kXv35dJRTQjT8R0DhS9ihwYUXNd9cFuqYM3GS0o28NyIBAgliuQR8XhKQqhixFcjdZpo/s1600/cdn-boost.jpg",
-      "processedAt": "2026-08-22T06:47:41.148228+00:00"
-    },
-    {
-      "id": "art-3b89959c",
-      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-20",
-      "originalUrl": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-      "summary": "Manic is a sophisticated Android malware targeting financial institutions, government agencies, and cryptocurrency services across Ukraine, Russia, and Europe. This threat combines banking fraud capabilities with spyware functionality, allowing it to steal sensitive data from infected devices. Notably, Manic can spread to and exfiltrate data from offline phones through nearby infected devices, making it particularly difficult to contain.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "android-malware",
-        "banking-trojan",
-        "spyware",
-        "data-exfiltration",
-        "financial-fraud",
-        "ukraine"
-      ],
-      "whyItMatters": "Manic represents a critical threat to financial institutions and government entities because it combines multiple attack vectors (banking fraud and spyware) while demonstrating advanced capabilities like offline data transmission between devices. Organizations and users in targeted regions need immediate awareness and security measures, as this malware can compromise sensitive financial and identi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNJ75E0bEnkBf9REZEnmMNusCu2L2mrut4dSX8g-VVXH2THKdkXD1GwCZ_O5ZsnGzdamG2t0TVnelMj1TKMghauv4cIndc3OA7kuHQAdxf7FbngV7BaWV_-qmhvLZRNwN_5tkv5dSHViEwDgZ4Mou0TNLrFlyQ2yzyb7GYNQ6PPNVjCoJ7VzeKmly4Ntsf/s1600/Manic.jpg",
-      "processedAt": "2026-08-22T06:47:43.696387+00:00"
-    },
-    {
-      "id": "art-ef3fd178",
-      "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-20",
-      "originalUrl": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-      "summary": "Researchers discovered multiple security flaws in NASA's AIT-GUI, a web-based control system for spacecraft operations. These vulnerabilities allow attackers without authentication to send unauthorized commands directly to spacecraft and instruments. The vulnerability chain has been rated as highly critical, with a CVSS score of 9.4, indicating severe risk to NASA's mission-critical systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "nasa",
-        "spacecraft-security",
-        "authentication-bypass",
-        "command-injection",
-        "critical-infrastructure",
-        "cvss-9.4"
-      ],
-      "whyItMatters": "This vulnerability threatens critical space infrastructure and could enable attackers to compromise active spacecraft missions and scientific instruments. The ability to issue arbitrary commands without authentication represents a direct threat to mission success and could cause irreversible damage to expensive space assets. Organizations relying on open-source software used in critical systems mu",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0aHi13XpphD98KUUKTJJB0T5eJW8TLe8qecYWanC8lqujxWOn4dtJUXThwqpfnrd9daSkiLMxXb7r6EFFbYY2fy3qSZteMtPB5Sl5t4K01MKoHywiyohPzUQX17h3oj126zywGtTEP8twGQnbs0wjaecaY8nLhAWXLw0anuJuL2iSJmKBVnzlZhy842E/s1600/nasa.jpg",
-      "processedAt": "2026-08-22T06:47:46.278785+00:00"
-    },
-    {
-      "id": "art-83d58ca0",
-      "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
-      "summary": "CISA has instructed U.S. federal agencies to immediately patch two actively exploited vulnerabilities in TrueConf Server, a self-hosted communication platform. These flaws are currently being targeted by attackers in real-world exploits, making them an urgent security threat. Federal agencies must prioritize these patches to prevent unauthorized access and potential compromise of their communication systems.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "cisa-directive",
-        "active-exploitation",
-        "trueconf-server",
-        "patch-urgently",
-        "federal-agencies",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "Active exploitation of these vulnerabilities means attackers are weaponizing them right now against potential targets, making this a time-critical threat. Federal agencies handling sensitive information are at heightened risk, and delayed patching could lead to breaches or system compromise. CISA's mandatory order signals that these flaws pose an immediate, widespread threat requiring immediate ac",
-      "image": null,
-      "processedAt": "2026-08-22T06:47:49.508958+00:00"
-    },
-    {
-      "id": "art-8d76b1de",
-      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
-      "summary": "Microsoft has fixed a critical vulnerability in Entra ID, its identity and access management platform, that attackers were actively exploiting. This flaw poses a severe risk to organizations relying on Entra ID for authentication and access control. The vulnerability's maximum severity rating and active exploitation underscore the urgent need for immediate patching.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "entra-id",
-        "identity-management",
-        "patch-now",
-        "active-exploitation",
-        "microsoft-security",
-        "cloud-security"
-      ],
-      "whyItMatters": "Entra ID is a foundational identity service used by millions of organizations worldwide for authentication and access management. A critical flaw in this system directly threatens user accounts, data access, and organizational security across all dependent systems. Active exploitation means attackers are weaponizing this vulnerability in real-time, making immediate patching essential to prevent un",
-      "image": null,
-      "processedAt": "2026-08-22T06:47:51.848344+00:00"
-    },
-    {
-      "id": "art-c1d6aa96",
-      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-      "summary": "Cybercriminals have discovered a new technique to distribute malware by embedding hidden commands within FTP server banners. This method is being used to deliver two previously unknown remote access trojans called E4del and PINHOLE to Windows systems. By exploiting FTP banners, attackers can bypass traditional detection methods and gain unauthorized remote access to compromised computers.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "ftp-exploitation",
-        "remote-access-trojan",
-        "malware-delivery",
-        "windows-malware",
-        "command-injection",
-        "evasion-technique"
-      ],
-      "whyItMatters": "This attack demonstrates an innovative evasion technique that abuses legitimate network protocols to deliver malware while avoiding security detection systems. Organizations need to monitor FTP banner communications and implement network segmentation to prevent these trojans from establishing persistent remote access to critical systems.",
-      "image": null,
-      "processedAt": "2026-08-22T06:47:54.424300+00:00"
-    },
-    {
-      "id": "art-4dfeb563",
-      "title": "SickKids data breach exposes employee and job applicant info",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "summary": "Toronto's Hospital for Sick Children experienced a cybersecurity incident that compromised personal information of employees, former staff, and job applicants due to a vulnerability in third-party software. The breach did not affect clinical systems or patient medical records. The incident highlights how security gaps in external software dependencies can expose sensitive organizational data.",
-      "category": "Data Breaches",
-      "severity": "Medium",
-      "tags": [
-        "data-breach",
-        "third-party-software",
-        "employee-data",
-        "healthcare",
-        "vulnerability"
-      ],
-      "whyItMatters": "This breach demonstrates that healthcare organizations remain attractive targets and that vulnerabilities in third-party software pose significant risks to organizational data security, even when clinical systems are protected. Organizations must implement strict vendor security assessments and monitor third-party applications as part of their overall security strategy.",
-      "image": null,
-      "processedAt": "2026-08-22T06:47:56.563536+00:00"
-    },
-    {
-      "id": "art-a52160f0",
-      "title": "Who’s Tracking You? Use This New Service to Find Out",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "summary": "A new free tool called DecryptAds helps users understand who is tracking them through ads and data collection across websites and mobile apps. By organizing previously scattered advertising technology data, the service makes it easier for people to see which companies are harvesting their personal information. This transparency tool addresses the challenge of identifying the hidden entities behind targeted advertising.",
-      "category": "Privacy",
-      "severity": "Low",
-      "tags": [
-        "privacy",
-        "tracking",
-        "adtech",
-        "data-collection",
-        "transparency",
-        "user-awareness"
-      ],
-      "whyItMatters": "Understanding ad tracking mechanisms is fundamental to personal digital privacy and security awareness. This tool empowers users to identify and potentially block data collectors, which can reduce exposure to behavioral profiling and targeted attacks. Increased transparency in the adtech ecosystem helps individuals make informed decisions about their online privacy.",
-      "image": null,
-      "processedAt": "2026-08-22T06:47:59.458294+00:00"
     }
   ]
 }
