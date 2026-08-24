@@ -1,7 +1,211 @@
 {
-  "lastUpdated": "2026-08-23T18:11:41.842327+00:00",
+  "lastUpdated": "2026-08-24T07:07:39.867288+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-00901fd3",
+      "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "summary": "Microsoft discovered a critical vulnerability in Entra ID with a maximum severity rating of 10.0 that could allow attackers to execute code remotely. The company initially reported that the flaw was being actively exploited, but later corrected this status to indicate no actual exploitation has occurred in the wild. Despite the correction, the vulnerability remains serious and requires immediate patching by organizations using Entra ID.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "entra-id",
+        "remote-code-execution",
+        "microsoft-patch",
+        "cvss-10",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "A CVSS 10.0 vulnerability in Microsoft Entra ID (a widely-used identity and access management service) poses extreme risk to organizations relying on it for authentication and authorization. Even though active exploitation hasn't been confirmed, the maximum severity rating means organizations must prioritize patching immediately to prevent potential breaches affecting sensitive corporate systems a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid22xatm4tPGWO1VA9heA8p7i0iK4au3br36QORRasXlUO2uY5836xkZe6gywLOId9oHICopC6jZ8J-di4JI9O3CPOSOGsqoOR4Ps4DrEbKCXSXwMxX_wOGo0fY3zaTW4By4nzbY6jldD58kLAlBYfFxMOEeZOglaQu8R0TtT23Q2jLbQjHwJSoS21pqu5/s1600/entraid.jpg",
+      "processedAt": "2026-08-24T07:07:00.381876+00:00"
+    },
+    {
+      "id": "art-bcc72b90",
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "summary": "A hacker compromised a maintainer account on crates.io and published malicious versions of three popular Rust libraries (arrayref, internment, and append-only-vec) that contained a typosquatted dependency. This dependency's build script automatically downloaded and ran harmful code during compilation, potentially affecting millions of developers. The Rust Project discovered and removed these malicious releases before widespread damage occurred.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware",
+        "rust-ecosystem",
+        "build-time-execution",
+        "account-compromise",
+        "dependency-hijacking"
+      ],
+      "whyItMatters": "Supply chain attacks through package repositories are particularly dangerous because they bypass traditional security controls and automatically execute during legitimate development workflows. With 245 million downloads across these libraries, this attack could have affected thousands of projects and organizations that trusted these commonly-used dependencies.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgshVe5DUMbByJkLQGRgak37eOf3HddCtrF6KCJfISPdm7l2ZwLFlnjQM3pN2mxPDpc9lWwSoH2fYfucYKBKk3vpuGAKdR5U685IZh8EFbMxWcyVenuRMyqIgvbFUa0_5Sx9pVl9Imu5omju6i7eRE0sKKxiCSKYEV1Say1LLhQHEufY10dgovzX0Nt7as/s1600/rust.jpg",
+      "processedAt": "2026-08-24T07:07:03.537581+00:00"
+    },
+    {
+      "id": "art-bc014ed8",
+      "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
+      "summary": "Russian cyber espionage groups are exploiting legitimate authentication methods like Google OAuth and WhatsApp linking to compromise accounts of people working in sensitive sectors including aerospace, defense, academia, and government. Three threat clusters—UNC6293, UNC7005, and UNC5976—are targeting individuals across Europe and the United States. By abusing trusted services rather than using malware, these attackers are able to evade traditional security defenses.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "account-hijacking",
+        "oauth-abuse",
+        "russian-threat-actors",
+        "espionage",
+        "social-engineering",
+        "authentication-abuse"
+      ],
+      "whyItMatters": "This attack method is particularly dangerous because it exploits trust in legitimate platforms that users depend on daily, making it harder to detect than traditional phishing. Organizations in critical sectors must implement additional authentication safeguards and monitor for suspicious account activity, as standard password-based defenses alone cannot prevent this type of compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEix5lAWOEf4I8fcz0CJYg-EBclOrTPnlbsf6tKT2-L8xsfQ4XqtjOq15iU6EBbIsWlqQq3e1-hIXrPe7MMg4JwSGj6mSwjSwG8V3UFMrfgYD-Lo9bKvncTGJ9lPbZoxq-1RNmKLyL_jZSiurWVgGuIxjgYYJeXW_wE51PRTDUhT7kRxp0MMpc3YflI9bntb/s1600/google-whatsapp.jpg",
+      "processedAt": "2026-08-24T07:07:06.584019+00:00"
+    },
+    {
+      "id": "art-41a665f5",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "summary": "This week's cybersecurity threats include multiple critical vulnerabilities affecting popular platforms like Gogs and n8n that can lead to remote code execution, alongside AI-powered exploit research making attacks easier to develop. Attackers are exploiting trusted tools such as signed drivers and legitimate applications to evade security defenses, while weak security checks in software create pathways for unauthorized code execution. A significant financial reward program has been announced, suggesting major security implications across the industry.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce-vulnerability",
+        "zero-day-exploit",
+        "ai-security",
+        "signed-driver-abuse",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Multiple remote code execution vulnerabilities in widely-used development and workflow tools pose immediate risk to organizations relying on these platforms. The convergence of trusted-tool abuse, AI-assisted exploit development, and weak validation checks creates a perfect storm where attackers can cause significant damage with minimal effort, making rapid patching and defense updates essential.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrmpCA-Pjqqy5BQaFvVtYqPZocJNkI4XUD8bcD9KrGaBcLyKd3J-aWVUtB8HwTiVqrFSI8U5wtTPhtjowrBWukeoUwSM5Y0-YKY535m1iDdQCXLYbSlx-qS-2TzZUpWVghvC3b9qWHxPoY4b-d3uUn3E4jeeW6iPt6Klxte-iNHfbq7K4aUpKH-EfhZV69/s1600/threatsday-main.png",
+      "processedAt": "2026-08-24T07:07:13.626553+00:00"
+    },
+    {
+      "id": "art-32747ead",
+      "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-20",
+      "originalUrl": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
+      "summary": "Researchers at the University of Massachusetts Amherst discovered a vulnerability in Visa contactless payment systems that allows attackers to reactivate expired credit cards for in-store purchases. By manipulating the expiration date data transmitted between the card and payment terminal via NFC, the attack bypasses security without breaking the card's cryptographic protections. This practical attack demonstrates a significant gap in contactless payment security that could enable fraud using discarded or stolen expired cards.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "contactless-payments",
+        "visa",
+        "nfc-security",
+        "payment-fraud",
+        "card-security",
+        "vulnerability"
+      ],
+      "whyItMatters": "This vulnerability exposes millions of Visa users to fraud risk since attackers can weaponize expired cards already in circulation without needing to crack encryption. The attack's practicality for real-world in-store transactions makes it immediately actionable for criminals and highlights a critical flaw in how payment terminals validate card expiration. Financial institutions and payment proces",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsJMUJluWegBU4C6RiZ4QHg6rTqhFHMt5JJt3RR2K7l06c3FOFlnq8gIVuBqVUX8qsJFiAh6KKAlDXpVAydAoC2rM0dUKUayta50sqRXoW36_V2OgSXJBKaaAFY4boBYhtHkqeyBaBZavbo7bz3S8otNwyb3NUmW9j88edph6zAfnyJikYhLBrAHuCdBA/s1600/visa.jpg",
+      "processedAt": "2026-08-24T07:07:26.560656+00:00"
+    },
+    {
+      "id": "art-88d54572",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-30",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "Generic TV streaming devices that promise cheap unlimited content are being used for multiple malicious purposes beyond just stealing internet bandwidth. These devices impersonate mobile phones to fraudulently click ads on fake websites and commit fraud against online retailers and advertising networks. This highlights serious security risks hidden within seemingly legitimate consumer electronics.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "streaming-devices",
+        "ad-fraud",
+        "iot-security",
+        "consumer-hardware",
+        "botnet"
+      ],
+      "whyItMatters": "Consumers often purchase these devices unaware they're installing malware that not only compromises their own network security but actively participates in fraud schemes. This illustrates how compromised IoT devices can be weaponized for multiple attack vectors simultaneously, making it critical for users to understand the hidden risks of untrusted hardware and for organizations to monitor for sig",
+      "image": null,
+      "processedAt": "2026-08-24T07:07:29.386635+00:00"
+    },
+    {
+      "id": "art-b5fb819d",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "summary": "LG Electronics USA announced plans to ban apps from its webOS smart TV store that secretly convert televisions into residential proxy nodes, allowing third parties to route internet traffic through users' devices without permission. Recent research revealed that over 42% of games and applications available on LG's platform contained this capability, exposing millions of users to potential misuse of their home networks.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "residential-proxies",
+        "smart-tv-security",
+        "privacy-violation",
+        "unauthorized-traffic-routing",
+        "app-store-security"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how consumer IoT devices can be weaponized to hijack home networks for illicit activities without user knowledge or consent. LG's corrective action highlights the critical need for app store security reviews and user awareness about what permissions applications request, as compromised devices can enable fraud, botnet participation, and other cybercriminal activitie",
+      "image": null,
+      "processedAt": "2026-08-24T07:07:32.045009+00:00"
+    },
+    {
+      "id": "art-1830e203",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "summary": "Microsoft released an unprecedented 570 security patches in July 2026, nearly triple the amount from the previous month's record-breaking update. The company credited artificial intelligence tools with helping identify these vulnerabilities more efficiently. This massive patch deployment represents a significant shift in how software security flaws are being discovered and addressed at scale.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "patch-tuesday",
+        "microsoft-updates",
+        "vulnerability-management",
+        "ai-security",
+        "windows-patching"
+      ],
+      "whyItMatters": "A record-breaking patch volume indicates both improved vulnerability detection capabilities and an expanding threat landscape that demands immediate attention from IT administrators and users. Organizations must prioritize testing and deploying these 570 patches quickly to minimize exposure windows, especially as AI-assisted vulnerability discovery may lead to similar large batches becoming routin",
+      "image": null,
+      "processedAt": "2026-08-24T07:07:35.125708+00:00"
+    },
+    {
+      "id": "art-01a1d6c6",
+      "title": "OpenAI Adds Controls That Should've Been There Already",
+      "source": "Dark Reading",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://www.darkreading.com/application-security/openai-adds-controls-already",
+      "summary": "OpenAI has implemented new security controls following a significant incident at Hugging Face last month. The article highlights that these protective measures should have been standard practice before advanced AI models became widely accessible. These additions aim to prevent unauthorized access and misuse of frontier AI systems.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "access-controls",
+        "model-protection",
+        "security-incident",
+        "frontier-models"
+      ],
+      "whyItMatters": "This demonstrates a critical gap in AI security infrastructure where essential controls were missing until after an incident occurred. Organizations relying on or building AI systems need to understand that security must be implemented proactively rather than reactively, and this incident shows the real-world consequences of insufficient safeguards around powerful AI models.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt21d988f2eb8aaa24/6a87514642723529ba68dda7/metal_guardrails-viti-GettyImages-897806150.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-08-24T07:07:37.366306+00:00"
+    },
+    {
+      "id": "art-731bf548",
+      "title": "Hardware Makers Implement Post-Quantum Cryptography as Security Threats Near",
+      "source": "Dark Reading",
+      "publishedDate": "2026-08-21",
+      "originalUrl": "https://www.darkreading.com/cyber-risk/hardware-makers-implement-post-quantum-cryptography",
+      "summary": "Quantum computers pose a future threat to current encryption methods, prompting hardware manufacturers to begin implementing post-quantum cryptography now. Organizations are upgrading their security defenses to protect against the potential for these powerful computers to break today's algorithms. This proactive approach ensures that sensitive data encrypted today will remain secure even when quantum computing becomes widely available.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "post-quantum-cryptography",
+        "encryption",
+        "quantum-threat",
+        "security-upgrades",
+        "future-proofing"
+      ],
+      "whyItMatters": "Adversaries are already harvesting encrypted data today with the intention of decrypting it once quantum computers become available, making immediate cryptographic upgrades essential for long-term data protection. Organizations that delay implementing post-quantum cryptography risk exposing sensitive information retroactively. This shift represents a critical infrastructure change that affects all",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt56d7eb4c7df48fbf/69cc3e534642d5f509411508/quantum_computing1800_jvphoto_alamy.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-08-24T07:07:39.867126+00:00"
+    },
     {
       "id": "art-25bfbe23",
       "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
@@ -824,208 +1028,6 @@
       "whyItMatters": "Understanding ad tracking mechanisms is fundamental to personal digital privacy and security awareness. This tool empowers users to identify and potentially block data collectors, which can reduce exposure to behavioral profiling and targeted attacks. Increased transparency in the adtech ecosystem helps individuals make informed decisions about their online privacy.",
       "image": null,
       "processedAt": "2026-08-22T06:47:59.458294+00:00"
-    },
-    {
-      "id": "art-ba4865c1",
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "summary": "Security researchers at Check Point discovered that Microsoft Defender's legitimate boot-time driver (BTR.sys) can be abused to perform unauthorized kernel-level operations on Windows systems without exploiting any actual vulnerability. Attackers could potentially weaponize this signed driver to delete security software or make other malicious changes during system startup across Windows 7 through Windows 11. The technique is particularly dangerous because it leverages Microsoft's own trusted software rather than requiring external malicious code.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "windows-security",
-        "kernel-exploitation",
-        "legitimate-tool-abuse",
-        "boot-time-attack",
-        "microsoft-defender",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This discovery represents a critical threat because attackers can disable security defenses using legitimate, signed system components that bypass normal detection mechanisms. Organizations cannot simply block or remove the driver without breaking Microsoft Defender functionality, forcing difficult security trade-offs. The technique affects all recent Windows versions, making this a widespread vul",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCbsmb6Wk8pQKWQmByAl5wnZQEVjS7ZYiHrlsHRM7VlcoPL7s30TaoTReoaQ4LI8Oy3KfKlIRHn9sN_7bjEKd_FWPHi1V0JR6LERepKBWSdJOk6cSUNgfIN2KVc6ydfbTILTy11owREYfpO7K11gFQV00l6qf1zl5rzF28jPhcN744yTvRAA-EjyDSBXs/s1600/windows.jpg",
-      "processedAt": "2026-08-21T18:18:14.974983+00:00"
-    },
-    {
-      "id": "art-c018ad37",
-      "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-      "summary": "Researchers at Kaspersky discovered a new malware family targeting Android-based vehicle head units made by DoFun. The malware exploits built-in software updaters to infiltrate devices and carries out ad fraud schemes while establishing a proxy botnet. This threat demonstrates how automotive systems can be compromised through update mechanisms to conduct illegal activities.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "vehicle-security",
-        "botnet",
-        "ad-fraud",
-        "firmware-exploitation",
-        "supply-chain"
-      ],
-      "whyItMatters": "This attack highlights a critical vulnerability in automotive IoT devices where legitimate update mechanisms become infection vectors, potentially affecting thousands of vehicles simultaneously. Compromised vehicle systems used for botnets and ad fraud can degrade user experience, drain resources, and create liability issues for manufacturers. The discovery underscores the need for stronger securi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1EQE-DqLXTzpjwGf3nQnM4CTnjibkKl_2ersn8abw3Gmqoc5MUaFC2LvkA7c6Xoa0XBPZeHL4wHHiXU7Pc9nGLcI1zTorwFTwvYXfww4Q68oSUrgcQhmBzQBNqYp-woIZFK_I1OOsnBNptiwA90VHhpE_hvlz3qdFomOmOMLreYe5YCenvR2CeawvRrMU/s1600/car.png",
-      "processedAt": "2026-08-21T18:18:17.497589+00:00"
-    },
-    {
-      "id": "art-aa069ff8",
-      "title": "Wazuh and AI For Enhanced SOC Workflows",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
-      "summary": "AI is transforming cybersecurity by helping organizations automate security tasks, detect hidden threats in large datasets, and make faster decisions to protect their systems. Security teams are increasingly adopting AI-powered tools like Wazuh to improve their Security Operations Center (SOC) workflows. While attackers also use AI to launch more sophisticated attacks, defenders can leverage these same technologies to stay ahead of evolving threats.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "soc-operations",
-        "threat-detection",
-        "automation",
-        "wazuh"
-      ],
-      "whyItMatters": "As AI becomes integral to both attack and defense strategies, understanding how to implement AI-enhanced security tools like Wazuh is critical for SOC teams to effectively manage growing threat complexity and scale. Organizations that fail to adopt AI-driven security solutions risk falling behind in detection speed and accuracy against increasingly automated adversarial tactics.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSZWG6Sgh8GPFwyz6pxs_gis36Lo0bAHyFSaNrybGElVQbCBkjPrypJ_abTOidSIKSaVJs574hUuDYvUPGymaq3qfnecNfbc-RMnwTuH8vr4jLcsnQCLnxjscJMSLEfITdwIvVt4Ax_wzwKe3MpD5Bm9vIW_f94MESP1p1qNpoxrkkDstHJ1lL7eljzB4/s1600/WAZUH.jpg",
-      "processedAt": "2026-08-21T18:18:20.170581+00:00"
-    },
-    {
-      "id": "art-19f7a5d4",
-      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-      "summary": "Cisco released security patches for nine vulnerabilities across its Crosswork and Secure Workload platforms, with five vulnerabilities rated as critical with a CVSS score of 10.0. These flaws affect multiple Crosswork products including the Data Gateway, Network Controller, and Planning tools across all device configurations. Organizations using these Cisco platforms need to apply these patches immediately to prevent potential exploitation.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "cisco-vulnerability",
-        "critical-patch",
-        "network-security",
-        "cvss-10.0",
-        "secure-workload"
-      ],
-      "whyItMatters": "Five vulnerabilities with a perfect CVSS score of 10.0 represent the highest severity threat level, meaning they are easily exploitable with no user interaction required and could lead to complete system compromise. Cisco Crosswork and Secure Workload are enterprise-grade infrastructure management tools, so vulnerabilities in these platforms could give attackers access to critical network operatio",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEis5Ujhq79PHPVr7VjuOjS0fOAyYm0aDTCJi9c5ieu-uya3FUM4Dh58yAT5U5J3VaXaGfNb4XowkyJ1lj3UTy8bOoF-u0O-5qdl-O7leomQjQw5jAI3m8WpZvC3se70f8mRP_KKIcScS0Nf9wJcsq4TWgiS_li3K6CSUbbG643IMhZBVGzW5XflwAbz0d1M/s1600/cisco.jpg",
-      "processedAt": "2026-08-21T18:18:23.130499+00:00"
-    },
-    {
-      "id": "art-228c2e3b",
-      "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-      "summary": "GitLab has released information about CVE-2026-19478, a critical code injection vulnerability with a CVSS score of 9.4 that allows attackers without authentication to modify or delete public GitLab projects. Security researchers at watchTowr discovered that this vulnerability is already being actively exploited in the wild just days after its public disclosure. This flaw poses a serious risk to organizations using GitLab because attackers can manipulate project data without needing valid credentials.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "code-injection",
-        "gitlab",
-        "active-exploitation",
-        "zero-day",
-        "patch-urgent",
-        "authentication-bypass"
-      ],
-      "whyItMatters": "This vulnerability is critical because it combines a high CVSS score with active real-world exploitation and affects a widely-used development platform. Organizations running GitLab must apply security patches immediately, as attackers are already leveraging this flaw to compromise public repositories. The lack of authentication requirements makes this particularly dangerous, as anyone on the inte",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jpyIqzuMd0vBKcxrQRj7eBbEebcRgNHLRFpx7YuxJlTPksUDEar7HPu4unQPNaOzpChBl1-dYyPHwuyjhgetrrh6PZ9OHPRqnc6nXeNdaX9f8AcSDe6gpmRecFfryf3-3BgsNoxvOyNc6xz703Qzsd7hJLuKbQt4Q6bgVxRZDGdpFzy8O2SByvUouC3J/s1600/gitlab-cve.jpg",
-      "processedAt": "2026-08-21T18:18:25.678375+00:00"
-    },
-    {
-      "id": "art-536b0103",
-      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/",
-      "summary": "Cybersecurity researchers have discovered a new malware called SynkLoader that is being distributed through phishing attacks on Microsoft Teams. The malware tricks users by displaying a fake lock screen to steal their login credentials. This threat highlights how attackers are increasingly targeting popular workplace communication platforms to compromise corporate accounts.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "malware",
-        "microsoft-teams",
-        "credential-theft",
-        "social-engineering"
-      ],
-      "whyItMatters": "This attack demonstrates how cybercriminals are exploiting trusted workplace tools like Microsoft Teams to bypass security awareness, making it a significant threat to organizations relying on cloud collaboration platforms. The use of fake lock screens is a sophisticated social engineering technique that can deceive even security-conscious employees, potentially leading to widespread credential co",
-      "image": null,
-      "processedAt": "2026-08-21T18:18:27.898970+00:00"
-    },
-    {
-      "id": "art-97db4f08",
-      "title": "Hundreds of leaked AWS keys give full control over corporate accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
-      "summary": "Over 9,300 Amazon Web Services access keys were publicly exposed between August 2022 and August 2026, and many of them remain active and valid. These leaked credentials could allow attackers to gain full administrative control over corporate AWS accounts without authorization. This represents a significant ongoing security risk because the keys continue to work, potentially giving threat actors access to sensitive cloud infrastructure and data.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "aws-keys",
-        "cloud-security",
-        "credential-exposure",
-        "active-threat",
-        "data-access-risk"
-      ],
-      "whyItMatters": "Active AWS access keys in the wild represent an immediate and severe threat because attackers can use them to compromise entire cloud environments, steal data, deploy malware, or cause operational disruption without needing to exploit vulnerabilities. Organizations using AWS must immediately audit their exposed credentials and rotate any compromised keys to prevent unauthorized account takeover. T",
-      "image": null,
-      "processedAt": "2026-08-21T18:18:31.306284+00:00"
-    },
-    {
-      "id": "art-20eccb11",
-      "title": "Microsoft blames Windows gaming issues on RGB lighting devices",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-blames-windows-gaming-issues-on-rgb-lighting-devices/",
-      "summary": "Microsoft has identified that RGB lighting peripherals may be responsible for gaming crashes and launch failures following the August 2026 Windows updates. The company is investigating the compatibility issue between certain hardware devices and the latest system patches. Users experiencing gaming problems should check their RGB device drivers and settings as a potential troubleshooting step.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "windows-update",
-        "hardware-compatibility",
-        "gaming-issues",
-        "rgb-devices",
-        "driver-compatibility"
-      ],
-      "whyItMatters": "This situation highlights how software updates can introduce unexpected hardware compatibility problems that disrupt user experience, particularly for gaming systems with specialized peripherals. Understanding these compatibility issues helps IT professionals and users manage patch deployment more carefully and troubleshoot system problems systematically rather than assuming security breaches or m",
-      "image": null,
-      "processedAt": "2026-08-21T18:18:33.823449+00:00"
-    },
-    {
-      "id": "art-12841eef",
-      "title": "Is Online Privacy Possible? How Digital Identities Can Help",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/is-online-privacy-possible-how-digital-identities-can-help/",
-      "summary": "Reusing the same email, phone number, and payment information across multiple services makes it easier for attackers and data brokers to track your behavior and exploit you. The article discusses how creating separate digital identities can help protect your privacy by preventing unauthorized profiling and limiting the damage from data breaches or identity theft.",
-      "category": "Privacy",
-      "severity": "Medium",
-      "tags": [
-        "digital-identity",
-        "privacy-protection",
-        "identity-theft",
-        "data-broker",
-        "breach-mitigation"
-      ],
-      "whyItMatters": "Understanding how to compartmentalize digital identities is a practical defense strategy that can significantly reduce personal risk from profiling, spam, and identity theft—especially important as data brokers increasingly commodify user information and breaches expose credentials at scale.",
-      "image": null,
-      "processedAt": "2026-08-21T18:18:36.150709+00:00"
-    },
-    {
-      "id": "art-e6a4da1e",
-      "title": "Microsoft rolls out Classic Outlook theme for New Outlook users",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-classic-outlook-theme-for-new-outlook-users/",
-      "summary": "Microsoft is introducing a Classic Outlook theme option for users transitioning to the new versions of Outlook on the web and Windows. This update allows users who prefer the traditional interface to customize their experience without being forced into the modern design. The rollout provides flexibility for organizations managing user adoption of the updated email platform.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "outlook",
-        "user-experience",
-        "microsoft-updates",
-        "email-client"
-      ],
-      "whyItMatters": "While this is primarily a feature update rather than a security issue, user interface customization can improve adoption rates and reduce support tickets during platform migrations. Familiar interfaces may also reduce user errors that could lead to security incidents like falling for phishing attacks due to confusion with new layouts.",
-      "image": null,
-      "processedAt": "2026-08-21T18:18:39.355312+00:00"
     }
   ]
 }
