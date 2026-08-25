@@ -1,7 +1,209 @@
 {
-  "lastUpdated": "2026-08-25T06:56:06.867726+00:00",
+  "lastUpdated": "2026-08-25T18:20:15.129536+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-d136fdb3",
+      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+      "summary": "Oasis Security discovered a vulnerability in NVIDIA NemoClaw that allows attackers to compromise local AI models running on Ollama without requiring authentication. A malicious webpage could exploit this weakness to inject hidden instructions directly into an AI model, potentially manipulating its behavior and outputs. NVIDIA's security team was notified of this critical flaw before public disclosure.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "nvidia-nemoclaw",
+        "local-model-poisoning",
+        "vulnerability",
+        "ollama",
+        "model-injection"
+      ],
+      "whyItMatters": "This vulnerability highlights how AI infrastructure can be compromised through seemingly harmless web interactions, affecting organizations deploying local AI agents. Model poisoning attacks are particularly dangerous because they silently corrupt the decision-making process of AI systems, making detection difficult and enabling long-term manipulation. As businesses increasingly rely on local AI m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMaJs9yp_YLYc3dgsmzjU4_ma-6DC3KNpG4d3KhKtoIuhtpbYSnK0Wed5_8a0Jm6epc_RdLE9PVMO0FnkH7DFwRAI7lBZBXImFEu1emv-OarT-LPYE-QymTXPMkmDsYBXsz1TB3gASsiAEgZ4Jvt1YzQM3KHYpV0HMck686hTcXB7pn7uqLu2uTLVgPyE/s1600/nvidia.jpg",
+      "processedAt": "2026-08-25T18:19:51.425973+00:00"
+    },
+    {
+      "id": "art-66da8ae9",
+      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+      "summary": "Meta has announced that WhatsApp now supports multiple passkeys per account, allowing users on both iOS and Android to sign in using a phishing-resistant authentication method. This enhancement builds on passkey support that was first introduced for Android users in October 2023. With over 1 billion people already using passkeys on WhatsApp, this feature helps protect user accounts from phishing attacks and credential theft.",
+      "category": "Security Awareness",
+      "severity": "Low",
+      "tags": [
+        "passkeys",
+        "phishing-resistant",
+        "authentication",
+        "account-security",
+        "whatsapp"
+      ],
+      "whyItMatters": "Passkeys eliminate the need for passwords and are inherently resistant to phishing attacks, making them a significant security upgrade for messaging platforms with billions of users. By enabling multiple passkeys per account across different devices, WhatsApp makes it easier for users to adopt stronger authentication without sacrificing convenience. This shift toward passwordless authentication re",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyjfLJEnp8xcmcz9iVBOKykdcxx36J8KgONSwImU9YSYuvWD_uzKDaGkJre9D_8P1XLdE8vPHqNyBUKOvjYPLJj_oZ1T-pfUxdOm-bZTtaz4LC2eVcuFloJTtEE7IWVnOaVJIEtFUoPKfOn9xeBASQG7e7X2-wA7P-hwGIzqP7G_-Ot2BOpj-OSO0tUBh/s1600/whatsapp.jpg",
+      "processedAt": "2026-08-25T18:19:53.952795+00:00"
+    },
+    {
+      "id": "art-b593dfde",
+      "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+      "summary": "Marimo, a notebook software platform, has patched a serious security vulnerability that allowed attackers to execute malicious commands hidden in specially crafted notebooks. When users opened these compromised notebooks in edit mode, the embedded commands would run automatically as local processes before the notebook cells were executed. This flaw demonstrates how development tools can become attack vectors if they don't properly validate user-supplied code.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "marimo-notebook",
+        "code-execution",
+        "mcp-protocol",
+        "edit-mode-exploit",
+        "patching-required",
+        "development-tools"
+      ],
+      "whyItMatters": "Developers frequently use notebook software to share and collaborate on code, making this vulnerability particularly dangerous because malicious notebooks could silently execute commands before users realize what's happening. The ability to execute commands before normal cell execution means traditional code inspection might not catch the threat, potentially compromising developer machines and sys",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpC_dsMXsEscdzMT8fjZ3uZ86XgjBqYcYWA7ZodJJUvbK6vnmafx_dANiNsjoAeqYwDxzqeTerWaWEIMIZSmp7CqfynzhkfKEnuGIoizK5vihRhSJIeOVn4cK3CdIFjnURkvQvI1VX-Gm11mqNmxOQPVK5loEBRZ2ELFzLc1Y8C_z_ajrA5beUowEfwg0/s1600/marimo.jpg",
+      "processedAt": "2026-08-25T18:19:57.253783+00:00"
+    },
+    {
+      "id": "art-64f479c6",
+      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+      "summary": "A phishing campaign called Mirage2FA has targeted over 4,500 companies in the US and EU since 2024, using a commercial toolkit that tricks users into entering credentials on fake Microsoft 365 login pages and bypassing two-factor authentication. Nearly half of the targeted email addresses were potentially compromised. The attack exploits legitimate login processes, making it harder for users to spot the threat.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "phishing-as-a-service",
+        "microsoft-365",
+        "2fa-bypass",
+        "credential-theft",
+        "cloud-security"
+      ],
+      "whyItMatters": "This widespread campaign demonstrates how attackers can abuse legitimate authentication flows to bypass standard security controls like 2FA, affecting thousands of real organizations. Companies need to implement advanced email security, user training, and conditional access policies to defend against phishing-as-a-service threats targeting their cloud infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSPS7eK6wOjr-bcJ7RjMVB4C03l21IHeGkyUQNGJANpvXsE90ssTzIlECk6HcpnLkw5_4PYTQ7ZP9k8pj2GBmvLnIfFkv6e-0NkLC4ouAf8Hn24SrQY2egjmzprIkgcvfLRHrYrzPYtx6mXKb59jjGazFjHe_7ttNqB-7AX0OB8ZvTI_QpgCA_NCEZY8Q/s1600/usa.jpg",
+      "processedAt": "2026-08-25T18:19:59.648494+00:00"
+    },
+    {
+      "id": "art-43deb110",
+      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+      "summary": "Researchers discovered a coordinated campaign using 24 npm packages to redirect users to fake Cloudflare CAPTCHA pages designed to steal credentials. Rather than targeting developers who install these packages, the threat actors exploit the npm repository as a delivery mechanism for phishing infrastructure. The malicious packages leverage unpkg mirrors to host deceptive HTML pages that mimic legitimate security prompts.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "npm-packages",
+        "supply-chain-attack",
+        "credential-theft",
+        "fake-captcha",
+        "clickfix"
+      ],
+      "whyItMatters": "This attack demonstrates how legitimate software repositories can be weaponized for large-scale phishing campaigns, potentially affecting thousands of unsuspecting users. The abuse of npm's infrastructure shows attackers are evolving their tactics to use trusted platforms as delivery mechanisms, making it critical for users to verify legitimate login pages and for platforms to monitor suspicious p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6XLRNvnqL3SBGR1Hrv9eIrUlQ8Tr6RhA2dwxYZYKiNoh7qZwgA8aGATBHsDqQCD6ilgXGlLdMIs54WZ5jEW4G_TjJiFyQ6u5acpyUE5vdHa-0E-SZwIliX9sTQqcOw6pNG0TlGm-lUQrvdEEKdSOnB-Mep1U7GVVW-qOQiD1PEDItN-lDv3mOjexfo29x/s1600/cf-phishing.jpg",
+      "processedAt": "2026-08-25T18:20:02.379650+00:00"
+    },
+    {
+      "id": "art-9d3190cd",
+      "title": "Massive DDoS attack disrupts Norway’s government digital services",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+      "summary": "Norway's government digital services experienced significant disruption due to a large-scale DDoS attack targeting shared public sector infrastructure. This attack, which began on Monday, prevented citizens and government employees from accessing essential online services. DDoS attacks like this demonstrate how critical infrastructure can be temporarily crippled by attackers flooding systems with traffic.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "ddos-attack",
+        "government-infrastructure",
+        "service-disruption",
+        "network-security",
+        "public-sector"
+      ],
+      "whyItMatters": "This incident highlights the vulnerability of government digital infrastructure to DDoS attacks and the real-world consequences when essential public services go offline. Organizations managing critical infrastructure must implement robust DDoS mitigation strategies and redundancy plans to maintain service availability during attacks.",
+      "image": null,
+      "processedAt": "2026-08-25T18:20:04.515209+00:00"
+    },
+    {
+      "id": "art-a5197174",
+      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+      "summary": "Nutex Health, a hospital operator and healthcare services provider, discovered that unauthorized attackers gained access to their servers and stole sensitive data. The company is currently investigating the scope and nature of the breach to understand what information was compromised. This incident highlights how healthcare organizations remain attractive targets for cybercriminals seeking valuable patient and operational data.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "healthcare-breach",
+        "data-exfiltration",
+        "hospital-security",
+        "patient-data",
+        "incident-response"
+      ],
+      "whyItMatters": "Healthcare data breaches directly threaten patient privacy and can lead to identity theft, financial fraud, and compromised medical records. Hospital operators like Nutex handle highly sensitive personal and medical information, making them high-value targets for cybercriminals. Organizations in this sector must strengthen their security posture to protect critical infrastructure and maintain publ",
+      "image": null,
+      "processedAt": "2026-08-25T18:20:07.245962+00:00"
+    },
+    {
+      "id": "art-1fbf99a2",
+      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+      "summary": "Cybercriminals are shifting their tactics away from directly attacking login systems and instead targeting the identity verification and account recovery processes that organizations use. By exploiting these verification methods, attackers can impersonate legitimate workers or gain unauthorized access to accounts through social engineering. Implementing stronger identity verification measures is essential for organizations to block these fraudulent access attempts.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "identity-verification",
+        "social-engineering",
+        "account-recovery",
+        "fake-workers",
+        "access-control"
+      ],
+      "whyItMatters": "Organizations often focus security efforts on login protection but neglect identity verification and recovery processes, creating a critical gap that attackers actively exploit. Attackers gaining legitimate access through these weak points can operate undetected inside networks, making this threat particularly dangerous for preventing insider-level compromise.",
+      "image": null,
+      "processedAt": "2026-08-25T18:20:09.656040+00:00"
+    },
+    {
+      "id": "art-be07a524",
+      "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
+      "summary": "Microsoft has released a new feature called Window Hopper as part of its Windows PowerToys toolkit that enables users to quickly switch between multiple windows of the same application using an Alt+Tab-style interface. This utility enhances productivity by allowing faster navigation within applications that have many open windows, similar to how users already switch between different apps. The tool aims to streamline workflow for power users who regularly manage multiple windows from a single program.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "productivity-tool",
+        "windows-powertoys",
+        "user-experience",
+        "software-update"
+      ],
+      "whyItMatters": "While not a direct security threat, productivity tools that improve user workflows can indirectly support cybersecurity by reducing user frustration and mistakes that often lead to security incidents. Understanding the legitimate tools available to users helps security teams distinguish between normal behavior and suspicious activity during investigations.",
+      "image": null,
+      "processedAt": "2026-08-25T18:20:12.412051+00:00"
+    },
+    {
+      "id": "art-9f15deb8",
+      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+      "summary": "WhatsApp is deploying enhanced security features to protect user accounts, including the ability to use multiple passkeys for authentication and improved two-step verification mechanisms. These updates aim to reduce the risk of unauthorized account access and make it harder for attackers to compromise user accounts. The rollout represents a shift toward stronger passwordless authentication methods that are more resistant to phishing and credential theft.",
+      "category": "Privacy",
+      "severity": "Low",
+      "tags": [
+        "account-security",
+        "passkeys",
+        "two-factor-authentication",
+        "passwordless-auth",
+        "authentication-security"
+      ],
+      "whyItMatters": "These improvements help users protect their accounts against common attack vectors like phishing and credential compromise, which are leading causes of account takeover. By supporting multiple passkeys and stronger verification, WhatsApp reduces users' reliance on passwords and SMS-based authentication, both known security weaknesses. This represents a positive security trend that directly benefit",
+      "image": null,
+      "processedAt": "2026-08-25T18:20:15.129363+00:00"
+    },
     {
       "id": "art-1f7ec7d2",
       "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
@@ -825,210 +1027,6 @@
       "whyItMatters": "Operational technology systems control physical infrastructure in power grids, manufacturing, and utilities. Vulnerabilities in emerging protocols like TSN pose a direct threat to system availability and safety if exploited before protections are implemented. Organizations deploying these technologies need immediate awareness and remediation strategies to prevent real-world attacks on critical pro",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1efd0fa99d504896/66db40230f75ddd226316a68/ICS_PopTika_shutterstock.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-08-23T18:11:41.842183+00:00"
-    },
-    {
-      "id": "art-8f5aeca6",
-      "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-20",
-      "originalUrl": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-      "summary": "A critical vulnerability has been discovered in the popular Elementor Pro WordPress plugin that allows attackers without authentication to upload malicious PHP files and execute code on affected websites. Tracked as CVE-2026-32475 with a CVSS score of 9.0, the flaw exists in the Forms module's file upload feature and poses an immediate threat to countless WordPress sites using this plugin. Website owners using Elementor Pro should prioritize applying security patches to prevent unauthorized access and potential server compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "elementor-pro",
-        "wordpress-plugin",
-        "remote-code-execution",
-        "file-upload",
-        "patch-now",
-        "cve-2026-32475"
-      ],
-      "whyItMatters": "This vulnerability directly threatens WordPress sites worldwide since Elementor Pro is widely used, and unauthenticated attackers can exploit it without needing login credentials. Successful exploitation could give attackers complete control over affected web servers, leading to data theft, malware distribution, and site defacement. Immediate patching and monitoring are essential for any organizat",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitKWjeNJOL_DEahUmMAYpH9qh94s2iFi8igtfSlAzOVWiUBU-EIM0MWMsFYPmA5NDL6Rs9E-w9vvCmw3Cc6Og0q-TDt87Q2hwYIePNAQ0xQ3OJYHzgCizDFm-YK9SxW4ncWnuVLaOzgb3SPO7Qpx17zHMaFzBQfYllgz5IP-p1jMALgWlasRkj1nV3Tq3G/s1600/wordpress.jpg",
-      "processedAt": "2026-08-23T06:48:45.669022+00:00"
-    },
-    {
-      "id": "art-cbd089fb",
-      "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-      "summary": "Security researchers discovered a Spectre-based attack targeting Cloudflare Workers that can steal authentication tokens from co-located applications at 12 bits per second—significantly faster than previous attacks. By exploiting hardware vulnerabilities, attackers can extract sensitive data like JSON Web Tokens from neighboring worker instances running on the same infrastructure. This vulnerability demonstrates that shared cloud environments remain susceptible to sophisticated side-channel attacks despite previous security improvements.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "spectre-attack",
-        "cloudflare-workers",
-        "side-channel",
-        "jwt-theft",
-        "cloud-vulnerability",
-        "shared-infrastructure"
-      ],
-      "whyItMatters": "This attack reveals that multi-tenant cloud platforms like Cloudflare Workers can leak sensitive authentication credentials through hardware-level exploits, affecting any organization relying on co-located services. The improved attack speed demonstrates that Spectre remains a practical threat in production environments, not just theoretical research. Companies using serverless platforms must unde",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi50HcHSWt796lc8zQ8Anp_fHUqgV-BM0xiS1NxJW8zRDgBRJ9ovZOECiIhdQt0aVTUdhduJYP1o5wTa5RpDoCwhihq8rKqWmh73E9E8UzafyDcq1n1khCEIDCikK2L6NEt1mbIuMRm6F36bap74JtZawFqqCPvWF72SAm25BzREVerWYaRIDEo1O89V4k/s1600/jwt.jpg",
-      "processedAt": "2026-08-23T06:48:49.336193+00:00"
-    },
-    {
-      "id": "art-e41e0bda",
-      "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
-      "summary": "OpenAI has temporarily halted reinforcement learning training for its most advanced AI models to strengthen safety defenses and expand monitoring capabilities. The company is taking preventive action to avoid security incidents similar to a previous Hugging Face breach. As AI systems become more powerful, the risks of misuse or unsafe behavior during development increase, prompting OpenAI to implement additional safeguards.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "reinforcement-learning",
-        "model-safety",
-        "defensive-measures",
-        "unsafe-behavior-prevention"
-      ],
-      "whyItMatters": "This demonstrates that even leading AI developers recognize significant security risks in advanced model training and must pause operations to implement better controls. The proactive approach highlights how AI safety is becoming a critical cybersecurity concern as systems grow more capable and potentially dangerous if misused.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6Ar7QFukiqBWatGeVdffG393l7GwFmzYBSWvv6Um7gPNIzeL8p3gfO_2C1rvVGPSUh00KWZAB8wFs9Xdz6h7uWDd7MYyWuuzLciO6NX1Y4mln1LqxK-skWP7VEdFD3BOhP1msTaM7F1ZgBeGyDUuLUaNlXAroEXHH6aYPgWluliMNUrozkKKeGK9kf-Ri/s1600/open.jpg",
-      "processedAt": "2026-08-23T06:48:51.882327+00:00"
-    },
-    {
-      "id": "art-a25c2c57",
-      "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-      "summary": "Traditional email security defenses are becoming obsolete as phishing attacks evolve from simple malicious payloads to sophisticated attempts based on deceptive intent, with the latest threat being AI-powered attacks launched by automated agents rather than humans. The article outlines the progression of phishing tactics and argues that defensive strategies designed a decade ago no longer effectively protect against these advanced, AI-driven threats. As attackers increasingly use artificial intelligence to craft and deliver phishing campaigns, the cybersecurity landscape is shifting toward an ",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-evolution",
-        "ai-attacks",
-        "email-security",
-        "threat-intelligence",
-        "agent-based-threats"
-      ],
-      "whyItMatters": "Organizations relying on legacy email filtering and threat detection systems face a critical gap in defense against AI-powered phishing campaigns that exploit intent and social engineering rather than malicious code. Understanding this evolution is essential for security teams to update detection strategies and implement AI-based defenses that can match the sophistication of agent-driven attacks, ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQNc2xSAgLu-A9p7sNrEqSu_NjH29MY18RsTwxzLEGW1a1qUJIMSu5RlZg1V8tPxQg55hqA94wYqBiD74lF3l6XXYB43oM_xalMLq8_uRR1xAuSX6dop3Cdmg3lwljU1Nl4aqsKHHDr1Ju4n5Q6j_0LqbGqX8coexq7DaRU9IzRZDHKbDqQoNYD1CRcNg/s1600/iron.jpg",
-      "processedAt": "2026-08-23T06:48:55.319585+00:00"
-    },
-    {
-      "id": "art-c76d4f65",
-      "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-19",
-      "originalUrl": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
-      "summary": "Cybercriminals are running a large-scale operation called StopAndProtect that hijacks approximately 2,000 WordPress websites to distribute malware and steal sensitive data. The attackers use these compromised sites as infrastructure to store stolen documents, screenshots, and activity logs while controlling infected computers. Rather than relying on a single malware tool, the criminals use a complete toolkit of different malicious software to carry out their attacks.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "wordpress-security",
-        "malware-distribution",
-        "hacked-websites",
-        "data-theft",
-        "botnet-infrastructure"
-      ],
-      "whyItMatters": "This operation demonstrates how attackers abuse legitimate web platforms to scale their criminal activities and evade detection by distributing attacks across thousands of sites. Website owners and administrators need to prioritize WordPress security through regular updates and monitoring, as compromised sites can unknowingly become part of large criminal networks. For organizations, this highligh",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHtWFBMa_xYpIkK39I2gvAJrksqJBAkRSnEZ-WjwpQtbV9mgfPRzWp3qtdhk_v1yOG67pAZ5H3DAFRVv7rEzbns9IuAa4_DV-MUBDIb6fuWzLyRvFXyC1fOaTUPbwxdoY4cykbPy3wXEn3HvlnbjbqH37vkLKMSJA799pVeD50RqMGlJJztFJZcFzR2xTf/s1600/wordpress-hacks.jpg",
-      "processedAt": "2026-08-23T06:48:58.006341+00:00"
-    },
-    {
-      "id": "art-74470242",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-08",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "summary": "A cybersecurity startup that pays millions for zero-day vulnerabilities is operated by convicted felons and far-right conspiracy theorists with histories of running fraudulent intelligence companies and fake AI lobbying platforms. The operators have used false identities to conceal their criminal backgrounds while conducting their vulnerability acquisition business. This raises serious concerns about the legitimacy and trustworthiness of the organization handling critical security information.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "zero-day-market",
-        "vulnerability-trading",
-        "fraud",
-        "criminal-operators",
-        "supply-chain-risk"
-      ],
-      "whyItMatters": "This exposes dangerous gaps in the zero-day vulnerability market where criminals can operate without proper vetting, potentially diverting critical security exploits to malicious actors instead of legitimate researchers or vendors. Organizations selling or considering partnerships with vulnerability brokers need assurance that they're dealing with trustworthy intermediaries, not criminal enterpris",
-      "image": null,
-      "processedAt": "2026-08-23T06:49:01.698270+00:00"
-    },
-    {
-      "id": "art-0ef19305",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-02",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "summary": "The FBI shut down hundreds of domains belonging to NetNut, a residential proxy service run by Israeli company Alarum Technologies, after security researchers linked it to the Popa botnet. The Popa botnet had compromised at least two million devices without users' knowledge or permission. This coordinated law enforcement action demonstrates efforts to dismantle infrastructure used to control and exploit massive numbers of infected computers.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "botnet",
-        "proxy-service",
-        "malware",
-        "law-enforcement",
-        "infrastructure-takedown",
-        "residential-proxies"
-      ],
-      "whyItMatters": "This seizure highlights how legitimate-appearing services can be weaponized to control millions of compromised devices, and shows coordinated international enforcement can disrupt major botnet operations. Understanding these takedowns helps organizations recognize proxy abuse and the scale of botnet threats affecting everyday users' devices.",
-      "image": null,
-      "processedAt": "2026-08-23T06:49:04.422338+00:00"
-    },
-    {
-      "id": "art-092176ae",
-      "title": "Scattered Spider Hackers Plead Guilty on Day 1 of Trial",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-06-23",
-      "originalUrl": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial/",
-      "summary": "Two members of the Scattered Spider cybercrime group pleaded guilty in the UK for their roles in an August 2024 cyberattack that disrupted London's public transport system. The guilty pleas occurred on the first day of trial, significantly shortening what was expected to be a lengthy legal proceeding. This case demonstrates law enforcement's growing ability to identify and prosecute members of sophisticated cybercrime organizations.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "scattered-spider",
-        "cybercrime",
-        "ransomware",
-        "critical-infrastructure",
-        "law-enforcement",
-        "guilty-plea"
-      ],
-      "whyItMatters": "This prosecution shows that even members of highly organized cybercrime groups face real legal consequences, which may deter future attacks on critical infrastructure like transportation networks. The case highlights how coordinated international law enforcement efforts can successfully identify and apprehend sophisticated threat actors, reinforcing that cybercriminals are increasingly being held ",
-      "image": null,
-      "processedAt": "2026-08-23T06:49:08.024717+00:00"
-    },
-    {
-      "id": "art-d76c1bd3",
-      "title": "OWASP Flags Top AI Skill Risks in New Security Blueprint",
-      "source": "Dark Reading",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.darkreading.com/application-security/owasp-flags-top-ai-skill-risks-security-blueprint",
-      "summary": "OWASP has released an updated top 10 security list designed for current threats and introduced a Universal Skill Format to standardize and strengthen security practices for AI integrations. This new framework addresses the growing risks associated with artificial intelligence tools and their vulnerabilities in modern applications. The update reflects OWASP's commitment to helping developers and security professionals stay ahead of emerging threats in an AI-driven landscape.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "owasp-top-10",
-        "skill-framework",
-        "security-standards",
-        "ai-vulnerabilities"
-      ],
-      "whyItMatters": "As AI becomes increasingly embedded in applications, establishing standardized security practices through frameworks like OWASP's Universal Skill Format is critical to preventing widespread vulnerabilities. Organizations need clear, consistent guidance to properly secure AI implementations and reduce the risk of exploitation. This blueprint helps security teams and developers understand and mitiga",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0778b75e05f471bd/6a8857b7c856a513e1627c23/purple-skills-flowchart-air-lemos.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-08-23T06:49:11.181580+00:00"
-    },
-    {
-      "id": "art-29824c29",
-      "title": "Calling on Cyber Pros to Help Defend City Hall",
-      "source": "Dark Reading",
-      "publishedDate": "2026-08-21",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/cyber-pros-help-city-hall",
-      "summary": "Government agencies, particularly city governments with limited budgets, face significant cybersecurity challenges and need assistance from cybersecurity professionals. The article encourages skilled security experts to volunteer their knowledge and resources to help protect municipal infrastructure. This call-to-action highlights the resource gap between well-funded organizations and smaller government bodies that struggle to defend against cyber threats.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "government-security",
-        "budget-constraints",
-        "municipal-defense",
-        "cyber-volunteering",
-        "public-sector-threats"
-      ],
-      "whyItMatters": "Underfunded government agencies are frequent targets for cyberattacks because they lack adequate security resources, putting critical public services and citizen data at risk. Supporting these organizations through professional expertise is essential for protecting essential infrastructure. The article underscores the broader cybersecurity skills gap and the importance of community-driven security",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt8bf82558cb508927/6a874c7440ec6f0ef030335e/city_hall-sshepard-getty-184661001.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-08-23T06:49:13.596789+00:00"
     }
   ]
 }
