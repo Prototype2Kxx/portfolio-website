@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-08-28T01:49:58.581500+00:00",
+  "lastUpdated": "2026-08-28T18:25:48.394119+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-8db0c174",
+      "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+      "summary": "Attackers have found a way to chain two security vulnerabilities in PaperCut NG and MF software to run malicious code without needing to log in. PaperCut released an emergency security update to patch the flaw and add extra protections. This vulnerability is particularly dangerous because it gives unauthenticated attackers the ability to take control of the application and execute arbitrary Java code.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "papercut",
+        "code-execution",
+        "authentication-bypass",
+        "emergency-patch",
+        "remote-code-execution",
+        "vulnerability-chain"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to organizations using PaperCut because attackers can gain complete control of the system without credentials, potentially leading to data theft, system compromise, or deployment of ransomware. The fact that this involves chaining multiple flaws demonstrates sophisticated attack techniques and emphasizes the importance of applying emergency patches imme",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdtPabCvuR_F2UFdCw8LS5eoXtD-jOpbuCy8WZYRycSP2vu_6yQK45qTehHimhoS-eXFPMTwg5jNM3m_X7ma5ELVz60Rjt3rlQhrqE4iTz8ggysLCt388GyaBVQbT28sGDv9a6drKNZooBiQNy0L3v8Gc3vxB9JILUD-eTtj5LZAlBbA3EyLlp5SkgIKPG/s1600/1000103914.jpg",
+      "processedAt": "2026-08-28T18:25:21.595648+00:00"
+    },
+    {
+      "id": "art-ed185bcf",
+      "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+      "summary": "Google has introduced Encrypted Client Hello (ECH) support across Android 17 to enhance network privacy and protect users from eavesdropping by internet service providers and network operators. This new feature prevents networks from seeing which websites users visit while also addressing cellular vulnerabilities and securing home network connections. ECH is a privacy standard that encrypts the initial handshake of HTTPS connections, making it harder for intermediaries to monitor browsing activity.",
+      "category": "Privacy",
+      "severity": "Low",
+      "tags": [
+        "encrypted-client-hello",
+        "ech",
+        "android-17",
+        "network-privacy",
+        "privacy-protection"
+      ],
+      "whyItMatters": "ECH implementation at the OS level significantly improves user privacy against network-level eavesdropping by ISPs and other intermediaries, reducing the effectiveness of passive surveillance on browsing habits. This represents a meaningful shift toward privacy-by-default in mobile devices and sets a precedent for platform-wide security features that don't require individual app adoption.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHdeGqGafTZXNtGvV_-qR7K3QId_-DpEfOzetKbhVQvNdNyTMAy-6gLXVFlkMHsGDN2wKK8v1ZMeOKe9_3XVYAY5TVkqH2heesi0c_QmJzLpDX1M-XfOtI_W4Qe8OM8Yhin40QWvN0XHvU9cqDlZH3eeZY_18euIxiBdcbhWMVnXct-x84k2gvchQYSiuN/s1600/1000103901.jpg",
+      "processedAt": "2026-08-28T18:25:24.636758+00:00"
+    },
+    {
+      "id": "art-b84a682a",
+      "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+      "summary": "A critical vulnerability in ownCloud (CVE-2023-49105) has been added to CISA's list of actively exploited flaws after attackers used it to breach a nuclear research facility in the Philippines. The flaw, which carries a very high severity score of 9.8, was weaponized by a Chinese-speaking threat actor to steal sensitive nuclear records. This incident highlights how unpatched vulnerabilities in widely-used software can lead to serious breaches affecting critical infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "owncloud",
+        "cve-2023-49105",
+        "critical-vulnerability",
+        "data-breach",
+        "nuclear-research",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This attack demonstrates that critical vulnerabilities in popular cloud storage solutions like ownCloud pose real threats to sensitive organizations, especially those handling nuclear research. When CISA adds a flaw to its KEV catalog, it signals that the vulnerability is being actively exploited in the wild, making immediate patching essential for any organization using the affected software. The",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZPm0X6hW-nz0AFZIB6eOBMEssN6dF5qeh2EOIBm1-ftaBEqcvJC5M0r_g3j-6Sp9x4sUnxVeOToWN_bFbr6T9flaScRcze4DRga0nqNe3LeQSvZaNPTiZC2C8GUeWWxMmIF1mybwuDaq5ZZummYiynDkf_1evTLKPicf4f2UUUb2d-0MMG6Ix-00ImwFN/s1600/1000103895.jpg",
+      "processedAt": "2026-08-28T18:25:27.660048+00:00"
+    },
+    {
+      "id": "art-724dd9a3",
+      "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+      "summary": "Security researchers discovered 19 malicious browser extensions across Google Chrome and Microsoft Edge that were designed to steal cryptocurrency wallet secrets and drain digital assets. The extensions were distributed over a six-month period and shared similar code patterns, suggesting they were part of a coordinated attack campaign. This discovery highlights how attackers are exploiting trusted browser add-ons to gain access to users' financial information and cryptocurrency holdings.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "malware",
+        "browser-extensions",
+        "cryptocurrency-theft",
+        "wallet-stealing",
+        "supply-chain-attack"
+      ],
+      "whyItMatters": "Browser extensions have direct access to sensitive user data and activities, making them an effective vector for stealing cryptocurrency credentials and draining digital wallets. Users often trust extensions from official app stores without realizing the security risks, putting millions of potential targets at immediate financial risk. This incident underscores the importance of vetting browser ex",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_QtvF-9M9imh55UP7qeyFUNhKknBwEcmcbIa34vndzIHinEk754vasbvTqILRNrtp6BDpuR8VzAyk0_Wt1tJB4hjUlgaO5Rb6Wru-WoXlrCPIXLr0I_oBhA7BwQDoO3MH82uloaG-qXyHAloI7r2zuWNfygFNeiSYAZeWyDn8_smuzrgvsvk0eQEX5klW/s1600/1000103889.jpg",
+      "processedAt": "2026-08-28T18:25:30.215165+00:00"
+    },
+    {
+      "id": "art-3addc7fd",
+      "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+      "summary": "A security researcher discovered two separate root remote code execution vulnerabilities in the Unitree G1 EDU humanoid robot that allow attackers to take complete control of the device. One vulnerability exploits a Bluetooth Low Energy connection to directly access the robot's main computer, while the other uses network-based methods through specific software components. These flaws represent serious security risks for any organization or individual using this robot model.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce",
+        "humanoid-robot",
+        "bluetooth-vulnerability",
+        "cve-2026-76639",
+        "cve-2026-76640",
+        "root-access"
+      ],
+      "whyItMatters": "Humanoid robots are increasingly deployed in real-world environments, and root-level compromises could enable attackers to physically manipulate the device or use it as an entry point to compromise connected networks. The Bluetooth attack path is particularly concerning because it requires minimal proximity, making remote exploitation practical without network access. Organizations using Unitree G",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKqNVrCXSaUDXfrGPJkoRoXBPQW4qwhdYqm2SMVaunZNwBrQ4FbURK-gtVawzaje20fK_m9q2dKepfj-dxmkvfKL4se3ZQ1YAI3iogqCft1UjVadJa_uBoQxFuoBpWfx2Dh3S4-jQLa7c4E9OOyQfVAT5BVKVShPykiPWEuYcchIPHFC4e5GduyW4iBio/s1600/Humanoid.jpg",
+      "processedAt": "2026-08-28T18:25:33.749468+00:00"
+    },
+    {
+      "id": "art-04ac3d7c",
+      "title": "GiveWP WordPress donation plugin flaw lets hackers execute server commands",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/givewp-wordpress-donation-plugin-flaw-lets-hackers-execute-server-commands/",
+      "summary": "A critical vulnerability has been discovered in the GiveWP WordPress plugin that allows attackers without any authentication to run arbitrary commands directly on web servers. This flaw poses an immediate threat to any WordPress site using this donation plugin, potentially compromising the entire server and its data. Attackers can exploit this weakness to take control of affected websites and steal sensitive information.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress-plugin",
+        "remote-code-execution",
+        "unauthenticated-attack",
+        "givewp",
+        "server-compromise",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability is critical because it requires no user credentials to exploit and allows complete server takeover, putting thousands of WordPress sites at immediate risk. Organizations using GiveWP must patch or disable the plugin immediately to prevent active exploitation and potential data theft or ransomware deployment.",
+      "image": null,
+      "processedAt": "2026-08-28T18:25:36.148677+00:00"
+    },
+    {
+      "id": "art-d86b49a2",
+      "title": "68-year-old imprisoned after making $1.3 million by pirating IPTV services",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/68-year-old-imprisoned-after-making-13-million-by-pirating-iptv-services/",
+      "summary": "A 68-year-old in the U.K. was sentenced to over six years in prison for running an illegal IPTV service that made approximately £980,812 ($1.3 million) over three years. This case demonstrates how streaming piracy operations can generate substantial profits and result in significant criminal penalties. Law enforcement successfully prosecuted the offender, showing that authorities are actively targeting large-scale content piracy networks.",
+      "category": "Cybercrime",
+      "severity": "Medium",
+      "tags": [
+        "iptv-piracy",
+        "content-piracy",
+        "cybercrime",
+        "illegal-streaming",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This case illustrates that large-scale piracy operations face serious legal consequences and prison time, reinforcing the importance of legitimate streaming alternatives for consumers. It also highlights how law enforcement agencies prioritize prosecuting profitable piracy networks that harm intellectual property rights and streaming service providers. Organizations offering digital content should",
+      "image": null,
+      "processedAt": "2026-08-28T18:25:39.145285+00:00"
+    },
+    {
+      "id": "art-dd470527",
+      "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+      "summary": "Artificial intelligence is dramatically speeding up the discovery of software vulnerabilities, creating a significant challenge for security teams whose processes and tools were designed to handle vulnerabilities at a much slower pace. Organizations now face pressure to improve how they collect and prioritize vulnerability intelligence and accelerate their remediation timelines. Security teams must integrate multiple data sources and convert vulnerability findings into faster action to keep pace with the accelerating threat landscape.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ai-vulnerability-discovery",
+        "patch-management",
+        "vulnerability-remediation",
+        "security-operations",
+        "threat-prioritization"
+      ],
+      "whyItMatters": "As AI tools identify vulnerabilities faster than ever before, defenders who rely on outdated or slow remediation processes risk leaving systems exposed to exploitation for longer periods. Organizations that fail to adapt their vulnerability management workflows and correlate multiple intelligence sources will increasingly fall behind attackers, making this shift in vulnerability discovery speed a ",
+      "image": null,
+      "processedAt": "2026-08-28T18:25:42.472906+00:00"
+    },
+    {
+      "id": "art-09a2bd1c",
+      "title": "Over 8,300 Gitea servers vulnerable to code execution attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/over-8-300-gitea-servers-vulnerable-to-code-execution-attacks/",
+      "summary": "More than 8,300 Gitea servers accessible on the internet remain vulnerable to a critical flaw that attackers are actively exploiting to run malicious code remotely. Despite the known security issue, many system administrators have not applied available patches to protect their installations. This widespread lack of updates leaves numerous organizations at risk of having their code repositories compromised.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gitea",
+        "code-execution",
+        "remote-code-execution",
+        "patch-management",
+        "unpatched-systems",
+        "active-exploitation"
+      ],
+      "whyItMatters": "Active exploitation of unpatched vulnerabilities in development infrastructure like Gitea poses an extreme risk because attackers can gain direct access to source code, inject malware, and compromise the software supply chain. Organizations that fail to patch leave themselves exposed to immediate takeover and potential compromise of all projects hosted on those servers.",
+      "image": null,
+      "processedAt": "2026-08-28T18:25:45.443558+00:00"
+    },
+    {
+      "id": "art-fed8884b",
+      "title": "Toy-making giant Hasbro disclose data breach affecting employees",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/toy-making-giant-hasbro-disclose-data-breach-affecting-employees/",
+      "summary": "Hasbro, a major toy and entertainment company, experienced a data breach that exposed personal and financial information belonging to its employees. The company has notified affected workers about the incident, though the exact number of impacted individuals has not been disclosed. This incident highlights how large corporations remain targets for cyberattacks seeking sensitive employee data.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "employee-data",
+        "personal-information",
+        "financial-data",
+        "corporate-security"
+      ],
+      "whyItMatters": "Employee data breaches at major corporations demonstrate the ongoing risk of identity theft and financial fraud, affecting workers' personal security. For organizations, this incident underscores the importance of robust access controls and encryption for sensitive employee information, as breaches can result in legal liability and reputational damage. Security teams must prioritize protecting int",
+      "image": null,
+      "processedAt": "2026-08-28T18:25:48.393960+00:00"
+    },
     {
       "id": "art-d14a6116",
       "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
@@ -827,208 +1032,6 @@
       "whyItMatters": "This operation demonstrates that international law enforcement is actively targeting organized cybercrime networks, which may deter criminal activity and disrupt ongoing attacks. Understanding how these networks operate and are dismantled helps organizations better prepare defenses against coordinated cyber threats. The scale of this crackdown signals that cybercriminals face increasing legal cons",
       "image": null,
       "processedAt": "2026-08-26T06:56:51.075914+00:00"
-    },
-    {
-      "id": "art-d136fdb3",
-      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-      "summary": "Oasis Security discovered a vulnerability in NVIDIA NemoClaw that allows attackers to compromise local AI models running on Ollama without requiring authentication. A malicious webpage could exploit this weakness to inject hidden instructions directly into an AI model, potentially manipulating its behavior and outputs. NVIDIA's security team was notified of this critical flaw before public disclosure.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "nvidia-nemoclaw",
-        "local-model-poisoning",
-        "vulnerability",
-        "ollama",
-        "model-injection"
-      ],
-      "whyItMatters": "This vulnerability highlights how AI infrastructure can be compromised through seemingly harmless web interactions, affecting organizations deploying local AI agents. Model poisoning attacks are particularly dangerous because they silently corrupt the decision-making process of AI systems, making detection difficult and enabling long-term manipulation. As businesses increasingly rely on local AI m",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMaJs9yp_YLYc3dgsmzjU4_ma-6DC3KNpG4d3KhKtoIuhtpbYSnK0Wed5_8a0Jm6epc_RdLE9PVMO0FnkH7DFwRAI7lBZBXImFEu1emv-OarT-LPYE-QymTXPMkmDsYBXsz1TB3gASsiAEgZ4Jvt1YzQM3KHYpV0HMck686hTcXB7pn7uqLu2uTLVgPyE/s1600/nvidia.jpg",
-      "processedAt": "2026-08-25T18:19:51.425973+00:00"
-    },
-    {
-      "id": "art-66da8ae9",
-      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-      "summary": "Meta has announced that WhatsApp now supports multiple passkeys per account, allowing users on both iOS and Android to sign in using a phishing-resistant authentication method. This enhancement builds on passkey support that was first introduced for Android users in October 2023. With over 1 billion people already using passkeys on WhatsApp, this feature helps protect user accounts from phishing attacks and credential theft.",
-      "category": "Security Awareness",
-      "severity": "Low",
-      "tags": [
-        "passkeys",
-        "phishing-resistant",
-        "authentication",
-        "account-security",
-        "whatsapp"
-      ],
-      "whyItMatters": "Passkeys eliminate the need for passwords and are inherently resistant to phishing attacks, making them a significant security upgrade for messaging platforms with billions of users. By enabling multiple passkeys per account across different devices, WhatsApp makes it easier for users to adopt stronger authentication without sacrificing convenience. This shift toward passwordless authentication re",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqyjfLJEnp8xcmcz9iVBOKykdcxx36J8KgONSwImU9YSYuvWD_uzKDaGkJre9D_8P1XLdE8vPHqNyBUKOvjYPLJj_oZ1T-pfUxdOm-bZTtaz4LC2eVcuFloJTtEE7IWVnOaVJIEtFUoPKfOn9xeBASQG7e7X2-wA7P-hwGIzqP7G_-Ot2BOpj-OSO0tUBh/s1600/whatsapp.jpg",
-      "processedAt": "2026-08-25T18:19:53.952795+00:00"
-    },
-    {
-      "id": "art-b593dfde",
-      "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-      "summary": "Marimo, a notebook software platform, has patched a serious security vulnerability that allowed attackers to execute malicious commands hidden in specially crafted notebooks. When users opened these compromised notebooks in edit mode, the embedded commands would run automatically as local processes before the notebook cells were executed. This flaw demonstrates how development tools can become attack vectors if they don't properly validate user-supplied code.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "marimo-notebook",
-        "code-execution",
-        "mcp-protocol",
-        "edit-mode-exploit",
-        "patching-required",
-        "development-tools"
-      ],
-      "whyItMatters": "Developers frequently use notebook software to share and collaborate on code, making this vulnerability particularly dangerous because malicious notebooks could silently execute commands before users realize what's happening. The ability to execute commands before normal cell execution means traditional code inspection might not catch the threat, potentially compromising developer machines and sys",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpC_dsMXsEscdzMT8fjZ3uZ86XgjBqYcYWA7ZodJJUvbK6vnmafx_dANiNsjoAeqYwDxzqeTerWaWEIMIZSmp7CqfynzhkfKEnuGIoizK5vihRhSJIeOVn4cK3CdIFjnURkvQvI1VX-Gm11mqNmxOQPVK5loEBRZ2ELFzLc1Y8C_z_ajrA5beUowEfwg0/s1600/marimo.jpg",
-      "processedAt": "2026-08-25T18:19:57.253783+00:00"
-    },
-    {
-      "id": "art-64f479c6",
-      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-      "summary": "A phishing campaign called Mirage2FA has targeted over 4,500 companies in the US and EU since 2024, using a commercial toolkit that tricks users into entering credentials on fake Microsoft 365 login pages and bypassing two-factor authentication. Nearly half of the targeted email addresses were potentially compromised. The attack exploits legitimate login processes, making it harder for users to spot the threat.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing-as-a-service",
-        "microsoft-365",
-        "2fa-bypass",
-        "credential-theft",
-        "cloud-security"
-      ],
-      "whyItMatters": "This widespread campaign demonstrates how attackers can abuse legitimate authentication flows to bypass standard security controls like 2FA, affecting thousands of real organizations. Companies need to implement advanced email security, user training, and conditional access policies to defend against phishing-as-a-service threats targeting their cloud infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjSPS7eK6wOjr-bcJ7RjMVB4C03l21IHeGkyUQNGJANpvXsE90ssTzIlECk6HcpnLkw5_4PYTQ7ZP9k8pj2GBmvLnIfFkv6e-0NkLC4ouAf8Hn24SrQY2egjmzprIkgcvfLRHrYrzPYtx6mXKb59jjGazFjHe_7ttNqB-7AX0OB8ZvTI_QpgCA_NCEZY8Q/s1600/usa.jpg",
-      "processedAt": "2026-08-25T18:19:59.648494+00:00"
-    },
-    {
-      "id": "art-43deb110",
-      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
-      "summary": "Researchers discovered a coordinated campaign using 24 npm packages to redirect users to fake Cloudflare CAPTCHA pages designed to steal credentials. Rather than targeting developers who install these packages, the threat actors exploit the npm repository as a delivery mechanism for phishing infrastructure. The malicious packages leverage unpkg mirrors to host deceptive HTML pages that mimic legitimate security prompts.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "npm-packages",
-        "supply-chain-attack",
-        "credential-theft",
-        "fake-captcha",
-        "clickfix"
-      ],
-      "whyItMatters": "This attack demonstrates how legitimate software repositories can be weaponized for large-scale phishing campaigns, potentially affecting thousands of unsuspecting users. The abuse of npm's infrastructure shows attackers are evolving their tactics to use trusted platforms as delivery mechanisms, making it critical for users to verify legitimate login pages and for platforms to monitor suspicious p",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6XLRNvnqL3SBGR1Hrv9eIrUlQ8Tr6RhA2dwxYZYKiNoh7qZwgA8aGATBHsDqQCD6ilgXGlLdMIs54WZ5jEW4G_TjJiFyQ6u5acpyUE5vdHa-0E-SZwIliX9sTQqcOw6pNG0TlGm-lUQrvdEEKdSOnB-Mep1U7GVVW-qOQiD1PEDItN-lDv3mOjexfo29x/s1600/cf-phishing.jpg",
-      "processedAt": "2026-08-25T18:20:02.379650+00:00"
-    },
-    {
-      "id": "art-9d3190cd",
-      "title": "Massive DDoS attack disrupts Norway’s government digital services",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
-      "summary": "Norway's government digital services experienced significant disruption due to a large-scale DDoS attack targeting shared public sector infrastructure. This attack, which began on Monday, prevented citizens and government employees from accessing essential online services. DDoS attacks like this demonstrate how critical infrastructure can be temporarily crippled by attackers flooding systems with traffic.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "ddos-attack",
-        "government-infrastructure",
-        "service-disruption",
-        "network-security",
-        "public-sector"
-      ],
-      "whyItMatters": "This incident highlights the vulnerability of government digital infrastructure to DDoS attacks and the real-world consequences when essential public services go offline. Organizations managing critical infrastructure must implement robust DDoS mitigation strategies and redundancy plans to maintain service availability during attacks.",
-      "image": null,
-      "processedAt": "2026-08-25T18:20:04.515209+00:00"
-    },
-    {
-      "id": "art-a5197174",
-      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
-      "summary": "Nutex Health, a hospital operator and healthcare services provider, discovered that unauthorized attackers gained access to their servers and stole sensitive data. The company is currently investigating the scope and nature of the breach to understand what information was compromised. This incident highlights how healthcare organizations remain attractive targets for cybercriminals seeking valuable patient and operational data.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "healthcare-breach",
-        "data-exfiltration",
-        "hospital-security",
-        "patient-data",
-        "incident-response"
-      ],
-      "whyItMatters": "Healthcare data breaches directly threaten patient privacy and can lead to identity theft, financial fraud, and compromised medical records. Hospital operators like Nutex handle highly sensitive personal and medical information, making them high-value targets for cybercriminals. Organizations in this sector must strengthen their security posture to protect critical infrastructure and maintain publ",
-      "image": null,
-      "processedAt": "2026-08-25T18:20:07.245962+00:00"
-    },
-    {
-      "id": "art-1fbf99a2",
-      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
-      "summary": "Cybercriminals are shifting their tactics away from directly attacking login systems and instead targeting the identity verification and account recovery processes that organizations use. By exploiting these verification methods, attackers can impersonate legitimate workers or gain unauthorized access to accounts through social engineering. Implementing stronger identity verification measures is essential for organizations to block these fraudulent access attempts.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "identity-verification",
-        "social-engineering",
-        "account-recovery",
-        "fake-workers",
-        "access-control"
-      ],
-      "whyItMatters": "Organizations often focus security efforts on login protection but neglect identity verification and recovery processes, creating a critical gap that attackers actively exploit. Attackers gaining legitimate access through these weak points can operate undetected inside networks, making this threat particularly dangerous for preventing insider-level compromise.",
-      "image": null,
-      "processedAt": "2026-08-25T18:20:09.656040+00:00"
-    },
-    {
-      "id": "art-be07a524",
-      "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
-      "summary": "Microsoft has released a new feature called Window Hopper as part of its Windows PowerToys toolkit that enables users to quickly switch between multiple windows of the same application using an Alt+Tab-style interface. This utility enhances productivity by allowing faster navigation within applications that have many open windows, similar to how users already switch between different apps. The tool aims to streamline workflow for power users who regularly manage multiple windows from a single program.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "productivity-tool",
-        "windows-powertoys",
-        "user-experience",
-        "software-update"
-      ],
-      "whyItMatters": "While not a direct security threat, productivity tools that improve user workflows can indirectly support cybersecurity by reducing user frustration and mistakes that often lead to security incidents. Understanding the legitimate tools available to users helps security teams distinguish between normal behavior and suspicious activity during investigations.",
-      "image": null,
-      "processedAt": "2026-08-25T18:20:12.412051+00:00"
-    },
-    {
-      "id": "art-9f15deb8",
-      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-25",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
-      "summary": "WhatsApp is deploying enhanced security features to protect user accounts, including the ability to use multiple passkeys for authentication and improved two-step verification mechanisms. These updates aim to reduce the risk of unauthorized account access and make it harder for attackers to compromise user accounts. The rollout represents a shift toward stronger passwordless authentication methods that are more resistant to phishing and credential theft.",
-      "category": "Privacy",
-      "severity": "Low",
-      "tags": [
-        "account-security",
-        "passkeys",
-        "two-factor-authentication",
-        "passwordless-auth",
-        "authentication-security"
-      ],
-      "whyItMatters": "These improvements help users protect their accounts against common attack vectors like phishing and credential compromise, which are leading causes of account takeover. By supporting multiple passkeys and stronger verification, WhatsApp reduces users' reliance on passwords and SMS-based authentication, both known security weaknesses. This represents a positive security trend that directly benefit",
-      "image": null,
-      "processedAt": "2026-08-25T18:20:15.129363+00:00"
     }
   ]
 }
