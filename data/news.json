@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-08-29T01:13:40.124074+00:00",
+  "lastUpdated": "2026-08-29T12:32:23.766635+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-bcca3785",
+      "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+      "summary": "cPanel has released security patches for a critical vulnerability (CVE-2026-65643) affecting domain parking and addon domain features in cPanel and WebHost Manager. This flaw could allow one hosting customer to execute code with root privileges, potentially compromising an entire server and all other hosted customers. The vulnerability impacts all supported versions of the platform and requires immediate patching.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cpanel",
+        "root-access",
+        "privilege-escalation",
+        "hosting-security",
+        "patch-required",
+        "shared-hosting-risk"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows privilege escalation from a regular user to root level, meaning a single compromised hosting account could result in complete server compromise affecting all customers. Given that cPanel is widely used by hosting providers worldwide, this poses a massive risk to the entire shared hosting ecosystem and requires urgent patching to prevent active explo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtKp2lGcxPfp8ymA88FIBXB0Bn9fcUSaU_UIl1pfAjDSC2usRwUE73vhQEeP6jar9U9k10yotgyYl_tIk6dQA-MFIr2bJ3LN_azGt9kDU6hpW448HgmBuJbc6TWSo1vfpmhoK0J3_5rhF6VIpWd7NYf0G1YSYHdqKubWgQwa1yU6KRAL-bnDGd8HmCmPk/s1600/cpanel-root.jpg",
+      "processedAt": "2026-08-29T12:31:56.848029+00:00"
+    },
+    {
+      "id": "art-0d6a1c6b",
+      "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+      "summary": "PaperCut has discovered a zero-day vulnerability affecting all versions of its NG and MF print management software that is currently being exploited by attackers. The company has released emergency patches for versions 25 and 26 and confirmed that multiple customers have already been impacted by active attacks. Organizations using PaperCut software need to apply these patches immediately to protect their systems.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "papercut",
+        "patch-now",
+        "active-exploitation",
+        "print-management",
+        "ng-mf"
+      ],
+      "whyItMatters": "This zero-day is actively being exploited in the wild against real customers, making it an immediate threat requiring urgent patching. Print management systems often have network-wide access and handle sensitive document data, so compromising them can lead to significant data loss or lateral movement within an organization. Organizations running affected PaperCut versions must prioritize deploying",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3avAnoYOOKqF8JpZv9Lng1lKE0AqmHOqM-Mq2T297NQrtDBM90yMYIzzVMHgzqytcCvFz7LuBXoPp-d9mRh0_dywBaM8NxZaiKPG0gDuYbSt2oRJdxSkHG5tWjxAMKvWUYZe6YINf_-7i5zUS7xGrDcaXulRvT5jVihWDJzAHSlaXQ6UYlHa6cPMpxbDC/s1600/papercut.jpg",
+      "processedAt": "2026-08-29T12:32:00.562285+00:00"
+    },
+    {
+      "id": "art-6407fa17",
+      "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-28",
+      "originalUrl": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+      "summary": "A newly discovered backdoor called HOOKEDGE, linked to the APT28 hacking group, has been used in targeted attacks against government and diplomatic organizations in Romania, Spain, and Türkiye from September 2025 through April 2026. The malware is a lightweight Windows batch script that provides attackers with remote access to compromised systems. This campaign represents a significant threat to critical infrastructure and sensitive government communications in European nations.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "apt28",
+        "backdoor",
+        "government-targets",
+        "hookedge",
+        "diplomatic-espionage",
+        "european-threat"
+      ],
+      "whyItMatters": "This attack demonstrates that state-sponsored groups continue to develop and deploy sophisticated backdoors targeting high-value government and diplomatic institutions, making it critical for organizations to strengthen detection capabilities and incident response protocols. The targeting of multiple European nations suggests a coordinated espionage campaign that could compromise sensitive policy ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhjJnzm1UIfq8P7glIadtS8dGFvdsASot4sviMtZtFwpKL5B_2upZBcjMdYEBDcSnGmxpKP5LPUQ4XTpao-qCCbe6hQYF9qQBF7bhcPcZJkaz8KY9CCaKBRe-iu3ovbkZWjjtWEs_XJ9hl7D9ZRdKK9LqJynEh9XQ_7o8HZGi572pfnKyt3Yznk1QA311_/s1600/eu-meeting.jpg",
+      "processedAt": "2026-08-29T12:32:03.021845+00:00"
+    },
+    {
+      "id": "art-219dfe62",
+      "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-27",
+      "originalUrl": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+      "summary": "CISA has added six newly exploited vulnerabilities to its Known Exploited Vulnerabilities catalog, including a high-severity flaw affecting Citrix NetScaler ADC and NetScaler Gateway products. These flaws are actively being exploited in the wild, making them an immediate priority for organizations using these systems. The additions highlight the growing number of critical vulnerabilities that require urgent patching across enterprise infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisa-kev",
+        "citrix-netscaler",
+        "active-exploitation",
+        "patch-urgent",
+        "critical-flaw"
+      ],
+      "whyItMatters": "Active exploitation of these vulnerabilities means attackers are already using them against real targets, making immediate patching essential. Organizations running NetScaler and other affected products face direct risk and should prioritize these updates to prevent compromise of critical infrastructure and data systems.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsOm0ydTRNpwfiKMNN7TGZyoellV9LHrcra7ES8hU8PvT6haNsS-QQ5IlystrzP1eq5jiIRfyykIZyB5JKrya5K4ryBRp9gKAmsoVW7OMis-YT4T6jnpbN11M8mUnPn-2yY-caG31-iXmDAhJ9CTbRg8r1UPWWqCob_S8St7McsKCM-4I36jD_xqE8D3BS/s1600/cisa-flaws.jpg",
+      "processedAt": "2026-08-29T12:32:05.357441+00:00"
+    },
+    {
+      "id": "art-f6393012",
+      "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+      "source": "The Hacker News",
+      "publishedDate": "2026-08-26",
+      "originalUrl": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+      "summary": "Traditional Security Operations Centers (SOCs) struggle with overwhelming alert volumes that prevent human analysts from reviewing most security warnings, creating a dangerous backlog. The article discusses how security teams can shift from a manual alert-processing model to an AI-driven system that prioritizes and investigates alerts more intelligently. This transformation aims to move SOCs from being reactive queue-management systems to proactive threat hypothesis engines.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "soc-operations",
+        "alert-fatigue",
+        "ai-driven-security",
+        "threat-detection",
+        "analyst-workflow",
+        "automation"
+      ],
+      "whyItMatters": "Alert fatigue and overwhelming backlogs are critical operational problems that leave organizations vulnerable because genuine threats go unreviewed. Implementing AI-based prioritization and automation can dramatically improve SOC efficiency and threat response times, directly reducing the window of opportunity for attackers. This represents a necessary evolution in how security teams can maintain ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZq8QFTxW4LuCB6uU-05X_ZcT88PxrCrq4S8Tlt-ntdFViEUD7XTOuFp0Ep2oNd61UEYcnfV0dFYW7E1jzogc2t4fm3R2CU7I45rc9bF2fAPi85MeDbxGio5jRIK_8jmMeI9A6hU_laVDVcU5yvODt55syFnI0F4cHX0N1Wul8IGg9A_PbkM_sOHoSFds/s1600/Corelight.jpg",
+      "processedAt": "2026-08-29T12:32:08.280604+00:00"
+    },
+    {
+      "id": "art-99fc90d8",
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "summary": "A new free tool called DecryptAds helps users discover which companies are tracking them through ads and data collection across websites and mobile apps. The service compiles previously scattered advertising technology data into an easy-to-understand format, giving people visibility into the hidden ecosystem of data brokers and ad networks monitoring their online behavior.",
+      "category": "Privacy",
+      "severity": "Low",
+      "tags": [
+        "online-tracking",
+        "ad-tech",
+        "data-transparency",
+        "privacy-awareness",
+        "user-tools"
+      ],
+      "whyItMatters": "Understanding who collects your data is fundamental to protecting your privacy and making informed decisions about your digital footprint. This tool empowers users to take concrete steps toward privacy protection by revealing the often-invisible tracking infrastructure that operates across the internet. Awareness of tracking entities enables better privacy hygiene and informed choices about which ",
+      "image": null,
+      "processedAt": "2026-08-29T12:32:11.709729+00:00"
+    },
+    {
+      "id": "art-1d8df03e",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "summary": "Microsoft released security updates addressing nearly 400 vulnerabilities across its Windows operating systems and other supported software. The update is particularly urgent because at least one of these weaknesses is already being exploited by attackers in the wild, and two additional vulnerabilities were publicly disclosed before the patch release. Users should prioritize installing these updates to protect their systems from active threats.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "microsoft-patch",
+        "windows-vulnerability",
+        "active-exploitation",
+        "security-update",
+        "urgent-patching"
+      ],
+      "whyItMatters": "Active exploitation of known vulnerabilities represents an immediate threat to unpatched systems, making this update critical for organizations and individual users. The large number of vulnerabilities addressed in a single release underscores the importance of timely patching as a foundational cybersecurity practice to prevent compromise.",
+      "image": null,
+      "processedAt": "2026-08-29T12:32:14.366492+00:00"
+    },
+    {
+      "id": "art-48dc9aac",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-06",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "summary": "A 26-year-old Canadian cybercriminal named Connor Riley Moucka pleaded guilty to hacking and extorting over 165 organizations that used Snowflake's cloud storage service. He also admitted to stealing call and text records from more than 100 million AT&T customers. This case highlights the serious risks faced by major cloud providers and telecommunications companies when targeted by skilled threat actors.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "extortion",
+        "data-breach",
+        "snowflake",
+        "organized-cybercrime",
+        "identity-theft"
+      ],
+      "whyItMatters": "This case demonstrates that even large, well-known cloud providers and telecom companies are vulnerable to targeted extortion attacks that can expose massive amounts of customer data. Organizations relying on cloud storage need to strengthen access controls and monitoring, and individuals affected should remain vigilant about potential identity theft and fraud stemming from the stolen AT&T records",
+      "image": null,
+      "processedAt": "2026-08-29T12:32:17.366984+00:00"
+    },
+    {
+      "id": "art-e66c56c9",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-30",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "Generic TV streaming devices that offer cheap unlimited content are actually malicious, performing multiple harmful activities beyond just stealing users' internet bandwidth. These devices disguise themselves as mobile phones to click fraudulent ads on fake websites, allowing attackers to defraud merchants and advertising networks. The discovery reveals a sophisticated criminal operation hiding behind consumer electronics that appear legitimate on the surface.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "malicious-hardware",
+        "ad-fraud",
+        "botnet",
+        "consumer-devices",
+        "internet-exploitation",
+        "identity-spoofing"
+      ],
+      "whyItMatters": "This highlights a critical consumer security blind spot where cheap, seemingly attractive products become vectors for large-scale fraud that harms both individual users and legitimate businesses. Understanding these threats is essential for security awareness, as consumers must learn to recognize suspicious deals and the hidden costs of unvetted devices. The sophisticated nature of this operation ",
+      "image": null,
+      "processedAt": "2026-08-29T12:32:20.284820+00:00"
+    },
+    {
+      "id": "art-1b317fe3",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-22",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "summary": "LG Electronics USA is taking action to block smart TV apps that secretly use televisions as residential proxy nodes, allowing third parties to route internet traffic through users' devices without permission. A recent security study revealed that over 42% of apps in LG's webOS app store contained this capability, putting millions of users at risk. By suspending these problematic apps, LG aims to protect consumers from having their devices exploited for unauthorized network activity.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "residential-proxy",
+        "smart-tv-security",
+        "privacy-violation",
+        "app-store-security",
+        "iot-exploitation",
+        "unauthorized-traffic"
+      ],
+      "whyItMatters": "This incident demonstrates how IoT devices like smart TVs can be weaponized without user knowledge to support cybercriminal activities, making device manufacturers' security vetting critical. The widespread nature of the vulnerability (affecting 42% of apps) shows that privacy protections in app ecosystems need stronger enforcement. Users should be aware that connected devices can be misused for m",
+      "image": null,
+      "processedAt": "2026-08-29T12:32:23.766473+00:00"
+    },
     {
       "id": "art-17c9a093",
       "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
@@ -827,213 +1034,6 @@
       "whyItMatters": "Supply chain attacks are among the most dangerous cybersecurity threats because they compromise trusted software at the source, affecting potentially thousands of downstream users and organizations. Successful law enforcement action against active hacking groups sends a strong deterrent message and helps disrupt ongoing attack campaigns. This case highlights the importance of secure development pr",
       "image": null,
       "processedAt": "2026-08-27T17:30:26.132582+00:00"
-    },
-    {
-      "id": "art-53d1e7b7",
-      "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
-      "summary": "The U.S. Department of Justice successfully shut down two hacking platforms called QScan and QTRouter that were being used by Chinese state-sponsored hackers to break into American critical infrastructure and sensitive networks. These tools were operated by a group known as QTFY, which is connected to a Chinese company called Nanjing Xinjiuwei Network Technology Company. This disruption represents a significant action against foreign cyber threats targeting important U.S. systems.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored",
-        "infrastructure-targeting",
-        "china-linked",
-        "platform-disruption",
-        "critical-infrastructure",
-        "data-theft"
-      ],
-      "whyItMatters": "This takedown demonstrates that foreign state-sponsored groups actively target U.S. critical infrastructure and sensitive organizations, making it essential for cybersecurity professionals to understand emerging threat actors and their tools. The disruption of these platforms shows both the sophistication of state-level cyber operations and the importance of international law enforcement cooperati",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjXW8RS8eKAVsCBovWfkRO7QMTfrgvWcTQtLccJCxq6wXC4OhegU26JXGqEKA0zS951ogEjKmNugfT1jDKlC8Kff6m-LZm-AFQe8Y57c1H_d44_bJPayRw-HpXwbb_MmN3pds3BdBUziNNBlAA_nHqX-BTb6nQLQWrKgJYnpqikUzENaV68VpD9LHsQlX/s1600/chinese.jpg",
-      "processedAt": "2026-08-26T19:27:14.084972+00:00"
-    },
-    {
-      "id": "art-7ea5d539",
-      "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
-      "summary": "Researchers discovered that Nimbus Manticore, an Iranian state-sponsored hacking group connected to the IRGC, has expanded its malware arsenal with new tools including a TWOSTROKE-like backdoor and an SSH tunneler. Group-IB identified additional infrastructure linked to the group, confirming it remains one of the most active Iranian APT groups in 2026. The discovery highlights the group's ongoing evolution and persistent cyber espionage capabilities.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "apt",
-        "iran-sponsored",
-        "backdoor",
-        "state-sponsored",
-        "cyber-espionage",
-        "infrastructure"
-      ],
-      "whyItMatters": "Understanding the evolving toolset of state-sponsored groups like Nimbus Manticore helps organizations recognize and defend against sophisticated persistent threats. The discovery of new malware variants and infrastructure enables security teams to improve detection and threat hunting capabilities. This intelligence is critical for defending against active, well-resourced adversaries targeting sen",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWDtkssu1a2OfGXtU3IlV8MARDVh3XpsurXStcVxASTKf_ACkwIhG6XVbR6fqqWFEFcOEOzLWpy1GGKHgTogw1hQL1O5CtLrLweaGx9GLnM-6CXDApf6VcpFzWFe0FaYgPi1TdhOotRrJ9xU39dk4efUJsMejezEs8t0v8oLyafMuVZrzgkeP-AEhls-x8/s1600/nimbus.png",
-      "processedAt": "2026-08-26T19:27:16.526742+00:00"
-    },
-    {
-      "id": "art-ea8db53a",
-      "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-      "summary": "Researchers discovered NovaCookies, a subscription-based phishing toolkit that acts as a proxy to intercept Microsoft 365 sign-ins and steal authenticated user sessions. The attackers abuse legitimate DocuSign notifications to trick users into visiting malicious pages where their credentials are captured. This service is sold for $320 per month, making it an accessible tool for cybercriminals targeting cloud-based email systems.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "microsoft-365",
-        "adversary-in-the-middle",
-        "credential-theft",
-        "cloud-security"
-      ],
-      "whyItMatters": "This attack is particularly dangerous because it exploits trusted services (DocuSign) to appear legitimate and targets widely-used Microsoft 365 accounts, which often contain sensitive business data and access to organizational resources. The availability of affordable phishing kits lowers the barrier for attackers and increases the likelihood of widespread campaigns against businesses of all size",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiz4GD3giiT1DIPT5Q13XvCZcwC8-STaGCZ3KbqUzQ5Q9oniGfA0Odbqfmwva6B-xSSTD2QG1wdqu5fFOleaBVFSA-t3ZfeqpcrYOEomdygWsZOONJXYcpxhRdT-EbTS_DZ0zYLrH_-1YN7TjXCsDuIj0I2G53mFT0df1HC3tjUdUQ5MCdHdEo27rDE2QEm/s1600/docusign.jpg",
-      "processedAt": "2026-08-26T19:27:19.038835+00:00"
-    },
-    {
-      "id": "art-35b33014",
-      "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
-      "summary": "CISA conducted red team exercises against two critical infrastructure organizations using identical attack methods, but the results differed dramatically—both companies suffered complete domain-level compromises, yet one organization detected the attack while the other did not. This stark contrast reveals significant gaps in defensive capabilities and incident detection across the critical infrastructure sector. The assessment highlights how organizations with similar attack surfaces can have vastly different security outcomes based on their monitoring and response capabilities.",
-      "category": "Digital Forensics",
-      "severity": "Critical",
-      "tags": [
-        "red-team",
-        "critical-infrastructure",
-        "detection-failure",
-        "domain-compromise",
-        "incident-response"
-      ],
-      "whyItMatters": "This assessment demonstrates that critical infrastructure organizations face a serious risk: attackers can achieve full domain control while evading detection entirely. The fact that one organization failed to detect a sophisticated breach reveals dangerous blind spots in security operations that could leave essential services vulnerable to real-world attacks. Organizations must urgently evaluate ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhW3w9bF-wcalV_4xeymOZiHzRSkeBfz8Vh1B58JkthAgonYo-DGr3kWwNQ8ia760jX1kfC7NTkitD9rWxJNSNzMZWTAVWqrmJQXL7-1rOHbmC7mKSmfArdBAp5s4phuF3SlKr20agmwKrpI56a9SijzuYLnhYlb3R4l7uhb4S0Na0d3_OplvHmbC1EDCk/s1600/cisa-hack.jpg",
-      "processedAt": "2026-08-26T19:27:22.484312+00:00"
-    },
-    {
-      "id": "art-206e8b2a",
-      "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
-      "source": "The Hacker News",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-      "summary": "Kaltura's mwEmbed video player library contains two unpatched security flaws that attackers can exploit without authentication. These vulnerabilities stem from unsafe deserialization in the mwEmbedLoader.php endpoint and could allow attackers to read sensitive files or execute arbitrary code on affected servers. Organizations using this library are at immediate risk until patches are released.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "kaltura",
-        "unpatched-vulnerability",
-        "remote-code-execution",
-        "arbitrary-file-read",
-        "unsafe-deserialization",
-        "zero-day"
-      ],
-      "whyItMatters": "These flaws affect a widely-used video player library and can be exploited remotely without authentication, making them extremely dangerous for any organization hosting Kaltura deployments. The combination of file reading and code execution capabilities gives attackers complete control over compromised servers, potentially leading to data theft, lateral movement, or infrastructure takeover. Organi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4vWsyC0OylljN3m8OwCHpDKLPXe9Sw7VI5ddPEuRswkrrsHlTyfbfkXAKOTX7jemZjktTQh1IlD1hjeWsOJwZm2aSe4OtppGdqTBMUCxgFAPIfI2RY-jAdZD5hfHsj7KpRexnN4SbfUJ8nsLB8w6P_me_L8xM00ZjskYgpyEbMkDBC5hSt5FAuLbFaK0/s1600/kaltura.jpg",
-      "processedAt": "2026-08-26T19:27:25.006015+00:00"
-    },
-    {
-      "id": "art-b77daaa4",
-      "title": "New GPUThor attack defeats NVIDIA ECC protection for root access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-gputhor-attack-defeats-nvidia-ecc-protection-for-root-access/",
-      "summary": "Researchers have discovered GPUThor, a new Rowhammer attack that exploits weaknesses in NVIDIA GPU memory protection systems. By bypassing error-correcting code (ECC) defenses, attackers can crash systems or gain administrative control over GPU hardware. This vulnerability demonstrates that even protected hardware can be compromised through sophisticated memory manipulation techniques.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "rowhammer",
-        "gpu-security",
-        "nvidia",
-        "ecc-bypass",
-        "privilege-escalation",
-        "denial-of-service"
-      ],
-      "whyItMatters": "This attack threatens the security of data centers and AI infrastructure that rely on NVIDIA GPUs, as it allows attackers to bypass security protections designed to prevent unauthorized access. Organizations using GPUs for sensitive computation or processing must evaluate their exposure and consider implementing additional security controls beyond hardware-level protections.",
-      "image": null,
-      "processedAt": "2026-08-26T19:27:27.597629+00:00"
-    },
-    {
-      "id": "art-f56ea2e1",
-      "title": "Meta agrees to $18 billion settlement over teen social media harms",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/technology/meta-agrees-to-18-billion-settlement-over-teen-social-media-harms/",
-      "summary": "Meta has agreed to pay approximately $18 billion to settle claims from 52 state attorneys general that Facebook and Instagram were intentionally designed to addict children and teenagers. The settlement addresses allegations that the platforms used manipulative features to encourage compulsive use among young users. This represents one of the largest settlements involving a tech company over consumer protection and youth safety concerns.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "privacy",
-        "youth-safety",
-        "social-media",
-        "data-protection",
-        "regulatory-compliance",
-        "settlement"
-      ],
-      "whyItMatters": "This settlement highlights the growing legal and regulatory pressure on tech companies to prioritize user safety, particularly for minors, and demonstrates that platforms can face massive financial consequences for design practices that exploit vulnerable populations. It sets a precedent for how companies must balance engagement metrics with user wellbeing and privacy protections. Organizations ha",
-      "image": null,
-      "processedAt": "2026-08-26T19:27:30.260521+00:00"
-    },
-    {
-      "id": "art-1ed1c15d",
-      "title": "Boston Scientific says cyberattack disrupted operations globally",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/boston-scientific-says-cyberattack-disrupted-operations-globally/",
-      "summary": "Boston Scientific, a major medical technology company, experienced a cyberattack that compromised its IT systems and caused operational disruptions worldwide. The attack affected the company's ability to function normally across multiple locations and services. This incident highlights how critical infrastructure and healthcare-related organizations remain prime targets for cybercriminals.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "medical-device",
-        "critical-infrastructure",
-        "operational-disruption",
-        "boston-scientific",
-        "global-impact",
-        "healthcare-security"
-      ],
-      "whyItMatters": "Attacks on medical technology companies like Boston Scientific pose direct risks to patient safety and healthcare system continuity. When IT systems supporting medical devices and patient care are disrupted, it can delay treatments, surgeries, and critical care, making this a serious threat beyond typical corporate incidents. Organizations must prioritize securing healthcare infrastructure and hav",
-      "image": null,
-      "processedAt": "2026-08-26T19:27:32.576858+00:00"
-    },
-    {
-      "id": "art-ca1583a2",
-      "title": "Hackers target Microsoft SharePoint RCE chain with PoC exploit",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-microsoft-sharepoint-rce-chain-with-poc-exploit/",
-      "summary": "Cybercriminals are actively exploiting a combination of two Microsoft SharePoint vulnerabilities that allow them to run malicious code on unprotected systems. Security researchers at Defused have identified proof-of-concept exploits being used in real attacks against these flaws. Organizations running outdated versions of SharePoint without security patches are at immediate risk.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sharepoint",
-        "rce",
-        "microsoft",
-        "active-exploitation",
-        "patch-urgent",
-        "vulnerability-chain"
-      ],
-      "whyItMatters": "Active exploitation of known vulnerabilities with public PoC code represents an immediate threat to organizations. SharePoint is widely deployed in enterprises, making this vulnerability chain a high-priority target for attackers seeking to gain system access. Immediate patching is essential to prevent compromise of sensitive business data and systems.",
-      "image": null,
-      "processedAt": "2026-08-26T19:27:35.058505+00:00"
-    },
-    {
-      "id": "art-502a73b9",
-      "title": "FBI disrupts proxy network enabling Chinese espionage operations",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-08-26",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-proxy-network-enabling-chinese-espionage-operations/",
-      "summary": "The FBI successfully shut down a network infrastructure that was helping Chinese cyber spies conduct espionage operations. This infrastructure, run by a technical coordinator, provided tools for spying, managing proxy servers, and routing malicious traffic. The disruption targets a key support system that enabled unauthorized access and information gathering against U.S. targets.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "chinese-espionage",
-        "proxy-network",
-        "fbi-disruption",
-        "cyber-operations",
-        "nation-state-threat"
-      ],
-      "whyItMatters": "This demonstrates active disruption of state-sponsored cyber infrastructure targeting U.S. interests, showing that law enforcement can identify and neutralize key operational nodes used by foreign intelligence agencies. Understanding how these networks function helps organizations better protect against sophisticated espionage tactics commonly deployed by nation-states.",
-      "image": null,
-      "processedAt": "2026-08-26T19:27:37.503421+00:00"
     }
   ]
 }
