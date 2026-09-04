@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-09-04T10:57:46.543979+00:00",
+  "lastUpdated": "2026-09-04T19:58:06.762374+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-ed0d2571",
+      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+      "summary": "Microsoft has identified a large-scale phishing campaign that uses invisible Unicode characters to bypass email security filters. Attackers split financial keywords like 'funding' with these hidden characters to prevent filters from detecting malicious content. This technique demonstrates how attackers are exploiting Unicode properties to evade traditional email defenses.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "email-security",
+        "unicode-evasion",
+        "bypass-techniques",
+        "filter-evasion"
+      ],
+      "whyItMatters": "This attack shows how adversaries are evolving their tactics to circumvent existing email security controls, putting millions of users at risk. Organizations need to update their filtering systems to detect invisible Unicode characters and other evasion techniques, making this a critical security awareness issue for IT teams and email administrators.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoD4eMYuhLT8HvcHbYe8A4hkhmDH1f4pIWTIm5AXKueqdpY1NS8yNiTtlzS4mdIS8PLY8_zM1uQDNpO1U49HCUoJT8nn2Bpb6krpcYpOSQ3H3Z6fUsm-UkoFvj8fk8oShK0eUhO6px8hox_ZzlnX8tu0pJKpJ3UAF2Vcb3XyBXjCt_8uD8OOkMMgUjv8Pc/s1600/emails.jpg",
+      "processedAt": "2026-09-04T19:57:42.221934+00:00"
+    },
+    {
+      "id": "art-556db496",
+      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+      "summary": "PostgreSQL released security updates to fix a 12-year-old vulnerability in its logical decoding feature that could allow attackers with replication privileges to execute arbitrary code on the database server. The flaw, identified as CVE-2026-6471 with a CVSS score of 7.2, has existed since PostgreSQL 9.4 was released in 2014. Database administrators need to update to patched versions (18.6, 17.11, 16.15, 15.19, or 14.24 and later) to protect their systems from potential code execution attacks.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "postgresql",
+        "logical-decoding",
+        "code-execution",
+        "database-security",
+        "patch-required",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "Long-standing vulnerabilities in critical database systems like PostgreSQL pose significant risks because many organizations may still be running unpatched versions, making them vulnerable to insider attacks or compromised accounts with replication privileges. The ability to execute arbitrary code at the OS level could lead to complete database server compromise and lateral movement within enterpr",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2Gb4Wd-HSxdrPbdtUFxmldzzEkPEZcW1NkT7tV9-EfTAjDENSExJBWmOey_IJ5UKjszQfCNGkVoBtuxya00rFMrh_lJUAuS66Gr3kvU8GgFjMr7DF-7Ux1rUqwz-aDhum8HkVjxNKQTc6DXHG203CPXwg9sOMcA7nfsq6A81C9cJhb3HUu9GZDIj7FZY/s1600/PostgreSQL.jpg",
+      "processedAt": "2026-09-04T19:57:45.172290+00:00"
+    },
+    {
+      "id": "art-af3c8d52",
+      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+      "summary": "A hidden Linux malware called 'ted' was discovered embedded directly into HAProxy load balancers used by two South Korean organizations. This backdoor allowed attackers to intercept and modify web traffic, altering pages displayed to specific users. The implant required initial code execution on the target systems and exploited no HAProxy vulnerability itself.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "backdoor",
+        "linux-malware",
+        "supply-chain",
+        "web-traffic-interception",
+        "haproxy"
+      ],
+      "whyItMatters": "This attack demonstrates a sophisticated supply-chain compromise where attackers built malware directly into legitimate software builds, making detection difficult and enabling persistent man-in-the-middle capabilities. Organizations using load balancers must verify their binaries and implement integrity checks, as this threat model bypasses traditional network security controls.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzLyhHupZwRy1pOQzT93Qhs5waZ8gqtlgDJUKgt1f37dz3KqIDDZY8uNo8QguZNccBHivdA_ecnY8cQUyhZQAvLH4APu3imxP-rwo2dYLZtKnJ92IkRPFmwepmJgRk9GrLrJiN_IbInwvNXaW7N5761YfEB1IIK4uDdNBTy6Koz8uXgOSXaQWixXM1Wts/s1600/HAProxy.jpg",
+      "processedAt": "2026-09-04T19:57:47.574275+00:00"
+    },
+    {
+      "id": "art-13f073fc",
+      "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-03",
+      "originalUrl": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+      "summary": "Security researchers discovered that the Shai-Hulud infostealer malware has become significantly more dangerous, expanding its credential-hunting capabilities from 189 to 469 different locations. This upgraded variant now targets a much wider range of sensitive areas including developer tools, CI/CD systems, cloud services, and AI platforms. The rapid evolution of this threat shows attackers are actively improving their methods to steal credentials from more places.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "infostealer",
+        "credential-theft",
+        "malware-evolution",
+        "ci-cd-security",
+        "cloud-security",
+        "developer-tools"
+      ],
+      "whyItMatters": "This escalation represents a critical threat to organizations because credential theft from CI/CD pipelines and cloud configurations can lead to complete infrastructure compromise and supply chain attacks. The worm's expanded scope means attackers can now harvest sensitive access tokens and API keys from many more locations, making it essential for developers and DevOps teams to immediately review",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfx0JCqLgANXGkgF5NMg__RxJg5IJ8HgQcvr_2zxEM6HSYzesKdLjKbrqmtAegyIpBmLxnryF5CeJlRh4J09q3e1kOo8dEzGXjhQpunnmGoL6wzEW_6R7lsN4zE5IybADP50VCjGGrBercYm6OIMCYsSgbHJ6sN9AYY3v6kCqPof8TWzR2O_ybViE1aYo/s1600/Shai-Hulud.gif",
+      "processedAt": "2026-09-04T19:57:50.460656+00:00"
+    },
+    {
+      "id": "art-a4e24d9f",
+      "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-02",
+      "originalUrl": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+      "summary": "SonicWall has released patches for two zero-day vulnerabilities affecting its SMA 1000 VPN appliances that attackers are actively exploiting. One of the flaws, CVE-2026-83548, is a pre-authentication server-side request forgery (SSRF) issue with a perfect 10.0 CVSS score, indicating severe risk. These vulnerabilities may work together in coordinated attacks to compromise secure remote access systems.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "sonicwall",
+        "vpn",
+        "ssrf",
+        "patch-now",
+        "pre-authentication"
+      ],
+      "whyItMatters": "VPN appliances like SonicWall SMA 1000 are critical entry points to corporate networks, making zero-day exploits against them particularly dangerous for organizations relying on secure remote access. The perfect CVSS score combined with active exploitation means attackers can bypass authentication and potentially pivot deeper into networks without credentials. Organizations using affected devices ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHkRZMEpG9dgsbvSzYfaPZC5u0gmzUw-5NHDTcsQ-MQtxr6pqNrngG2LsyMJ0KKxA364L3Lq4xhGAxCTRQ3C8szlo9aLJeWXw37C6hsAD5YbYCJF8KuQyuWMIPNCNDXX8-1HN76xxYhxffeenDDyWobOpA4AXC76hFcdh1vnqpjI_pLF2YuxiAwu87cHwC/s1600/sonicwall.jpg",
+      "processedAt": "2026-09-04T19:57:53.277644+00:00"
+    },
+    {
+      "id": "art-43404ac1",
+      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
+      "summary": "IDScan, an identity verification company, experienced a significant data breach that exposed the personal information of over 153 million drivers. Hackers gained unauthorized access to the service and are attempting to sell the stolen driver's license data. The incident has triggered multiple lawsuits against the company for failing to adequately protect sensitive personal information.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "identity-theft",
+        "driver-data",
+        "privacy-violation",
+        "cybercrime"
+      ],
+      "whyItMatters": "This breach exposes the vulnerability of identity verification services that hold massive amounts of sensitive personal data, affecting millions of individuals at risk of identity theft and fraud. Organizations handling identity verification must implement stronger security measures, as breaches of this scale demonstrate how critical infrastructure protecting personal identity information can be c",
+      "image": null,
+      "processedAt": "2026-09-04T19:57:55.868522+00:00"
+    },
+    {
+      "id": "art-bf255eaf",
+      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
+      "summary": "A critical authentication bypass vulnerability in Citrix NetScaler (CVE-2026-19490) is now being actively exploited by attackers in real-world attacks. Security researchers at Previdian discovered that malicious actors have begun targeting this flaw to gain unauthorized access to systems. This vulnerability allows attackers to bypass login protections, potentially compromising sensitive corporate infrastructure and data.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "citrix-netscaler",
+        "authentication-bypass",
+        "active-exploitation",
+        "cve-2026-19490",
+        "critical-vulnerability",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Citrix NetScaler is widely used in enterprise environments as a critical access point, making this actively exploited authentication bypass an immediate threat to organizations worldwide. Without prompt patching, attackers can gain direct access to internal networks and sensitive systems, potentially leading to data theft, lateral movement, and complete infrastructure compromise. Organizations usi",
+      "image": null,
+      "processedAt": "2026-09-04T19:57:58.927724+00:00"
+    },
+    {
+      "id": "art-84539e6d",
+      "title": "Microsoft says some users can’t open the Teams desktop client",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
+      "summary": "Microsoft is addressing a technical problem that prevents some Windows users from launching the Teams desktop application. The issue causes either delays in opening the program or complete failure to start. Microsoft is actively working on a fix for this known issue affecting their communication platform.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "microsoft-teams",
+        "desktop-client",
+        "windows",
+        "service-disruption",
+        "technical-issue"
+      ],
+      "whyItMatters": "While not a security vulnerability, this outage impacts productivity and business communication for millions of Teams users, demonstrating how even non-malicious technical failures can have significant organizational consequences. It highlights the importance of monitoring official vendor communications and having fallback communication methods when critical platforms experience disruptions.",
+      "image": null,
+      "processedAt": "2026-09-04T19:58:01.549817+00:00"
+    },
+    {
+      "id": "art-69ead3a7",
+      "title": "39 New Methods That Compromise Passkey Authentication",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
+      "summary": "Researchers have discovered 39 different methods that attackers can use to compromise passkey-based authentication systems, even though passkeys are generally more secure than passwords. These attacks exploit weaknesses in how passkeys are managed, recovered, and enrolled rather than breaking the underlying FIDO2 cryptography. The findings reveal that trust boundaries around authentication prompts and synced credentials can be abused by attackers to gain unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "passkey-security",
+        "authentication-bypass",
+        "fido2",
+        "identity-management",
+        "attack-methods"
+      ],
+      "whyItMatters": "As organizations increasingly adopt passkeys as a more secure alternative to passwords, understanding these 39 compromise methods is critical for implementing proper security controls and protecting users from sophisticated attacks. This research highlights that even modern authentication technologies require careful implementation and complementary security measures to remain effective against de",
+      "image": null,
+      "processedAt": "2026-09-04T19:58:04.256104+00:00"
+    },
+    {
+      "id": "art-084e918b",
+      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
+      "summary": "A security researcher known as 'Nightmare Eclipse' publicly disclosed a zero-day vulnerability in CrowdStrike Falcon called 'FalconFlank' that allows attackers to gain SYSTEM-level privileges on fully updated Windows computers. This exploit bypasses normal security protections and gives attackers the highest level of access to compromised systems. The vulnerability represents a critical threat because it can be exploited on systems that have the latest security patches installed.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "crowdstrike-falcon",
+        "privilege-escalation",
+        "windows",
+        "exploit",
+        "system-access"
+      ],
+      "whyItMatters": "This zero-day exploit is critical because it affects a widely-used endpoint detection and response (EDR) tool, meaning thousands of organizations using CrowdStrike Falcon are at immediate risk. Attackers can exploit this to gain complete system control on up-to-date Windows machines, enabling them to deploy ransomware, steal data, or maintain persistent access. Organizations relying on CrowdStrike",
+      "image": null,
+      "processedAt": "2026-09-04T19:58:06.762201+00:00"
+    },
     {
       "id": "art-aeee4d94",
       "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
@@ -828,213 +1033,6 @@
       "whyItMatters": "Email systems are critical infrastructure for most organizations, and an authentication bypass affecting 22,000 public-facing servers creates an enormous attack surface for threat actors to compromise sensitive communications and data. The large number of unpatched systems indicates many organizations may not have deployed security updates, making this a widespread and immediately exploitable risk",
       "image": null,
       "processedAt": "2026-09-02T20:11:22.052789+00:00"
-    },
-    {
-      "id": "art-abdcd11d",
-      "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
-      "summary": "Two security vulnerabilities in GeoNetwork, an open-source geospatial catalog system used by government agencies worldwide, can be combined to allow attackers to execute code remotely without needing any credentials. The developers released patches in versions 4.4.12 and 4.2.17 in early July 2026 to fix these issues. Since many government geoportals depend on GeoNetwork, this vulnerability chain poses a significant risk to critical infrastructure systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "rce-vulnerability",
-        "unauthenticated-access",
-        "government-infrastructure",
-        "geonetwork",
-        "patch-available",
-        "chain-exploit"
-      ],
-      "whyItMatters": "Unauthenticated RCE vulnerabilities affecting government geoportal backends represent a critical risk to national infrastructure and public data systems. The ability to chain multiple vulnerabilities for code execution without authentication makes this particularly dangerous, as attackers can potentially compromise sensitive geospatial data or disrupt essential services. Organizations running vuln",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWjRcj8Bn8kWovv1-oDjSP61hMxx5U8u28qVJSPdP7mRBCNbs5EJjjDrWWk7SFC2FraZe_j3T-oouRqSRtoTr-YMPGGuOphIGNRj4-Fx0eVgMahD3-L62vWUxYLg7TpH7plqVqnAb1e3k0-G8Vertd-WUyt994d-nJKA8bcY9QozeWJ6ad4ozwVOf0fnE/s1600/geone.gif",
-      "processedAt": "2026-09-02T10:58:11.701882+00:00"
-    },
-    {
-      "id": "art-f8c9c614",
-      "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
-      "summary": "A Russian national has been extradited and charged by U.S. authorities for orchestrating a large-scale malware campaign between 2016 and 2017. The suspect allegedly created hundreds of fake accounts on a freelance platform to distribute Excel files containing malware to approximately 80,000 users. This case highlights how cybercriminals exploit trusted platforms and social engineering to deliver malicious payloads at scale.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "malware-distribution",
-        "phishing-campaign",
-        "social-engineering",
-        "extradition",
-        "freelance-platform-abuse",
-        "cybercriminal-prosecution"
-      ],
-      "whyItMatters": "This prosecution demonstrates the real-world consequences of large-scale malware campaigns and shows that international law enforcement can pursue attackers across borders. The case illustrates how attackers abuse legitimate freelance platforms to gain trust and deliver malware, making it a critical reminder for users to verify file sources and implement email security controls.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjT6gZEQ09i7WPG39V2zwJLuC6M3N7mvjMQC0aVmtON24RfDshYfzqKyGKWXrTMC_bGPyNn43NPLWaufMe0MSlanyUCeZENy6XXmYCC8NzcHpCiK8rv-bpke7sKMpmfkWFVv6GB9WUO46KXMzNRlmCm8x_WYaNZelDk5BBrVCnUswpWJzA_IZMQj86wFI/s1600/russian-hacker.jpg",
-      "processedAt": "2026-09-02T10:58:14.429164+00:00"
-    },
-    {
-      "id": "art-51fd9c01",
-      "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
-      "summary": "Researchers from Forescout's Vedere Labs demonstrated how AI tools like Claude can be used to adapt existing exploits across different industrial control systems. They successfully leveraged Claude to port a pre-authentication remote code execution vulnerability from one WAGO PLC model to another, proving that attackers could run arbitrary code on critical infrastructure devices. This highlights how AI is lowering the barrier for exploiting known vulnerabilities in industrial environments.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "plc-security",
-        "industrial-control-systems",
-        "rce",
-        "ai-assisted-exploitation",
-        "cve-2021-31886",
-        "buffer-overflow"
-      ],
-      "whyItMatters": "This research demonstrates a concerning trend where AI systems can accelerate exploit development against industrial control systems that operate critical infrastructure. The ability to quickly port exploits across device variants significantly amplifies the risk to organizations managing legacy PLCs, as attackers now have tools to rapidly adapt known vulnerabilities to new targets without deep te",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlWf4d2lnMsRXbG_XpDaQ8uxTM9SD8QBArFea3LdD93t2xnpO4Bw2K_iBewRfrscbj2Kfe6DSkFozbxWnHwMeR5p1cx2XksAyZD5_avLwxqx5L6tvTf_Z807niMu_uqzbslMMgMx8M1IVY9y20gbuDwbWAco96weFLycq2JCQMQ2hpcTnd2yanypqsj4k/s1600/claude.jpg",
-      "processedAt": "2026-09-02T10:58:17.743409+00:00"
-    },
-    {
-      "id": "art-efde44a6",
-      "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
-      "summary": "Attackers are actively exploiting a critical vulnerability in Sangoma Switchvox, a business VoIP platform, to gain unauthorized access and execute malicious code without needing valid credentials. The flaw, tracked as CVE-2026-9586 with a CVSS score of 9.3, is an SQL injection weakness affecting Switchvox SMB Edition 8.3 that allows remote code execution. This poses an immediate threat to organizations using affected versions of the software.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "voip-security",
-        "sql-injection",
-        "remote-code-execution",
-        "unauthenticated-access",
-        "sangoma-switchvox",
-        "cve-2026-9586"
-      ],
-      "whyItMatters": "VoIP systems are critical infrastructure for business communications, and an unauthenticated remote code execution vulnerability allows attackers to compromise entire enterprise communication networks without needing valid credentials. The active exploitation of this flaw means organizations must patch immediately to prevent unauthorized access, data theft, or deployment of persistent threats like",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgb9lLZ-CHEFECU3vn2ObupuzweLn7l23dnUcs2Qd1H5hsxut3nQKqe6W3lbh_cSyVF4PDgdfuSauhpeMKmW6wZGYW3kpVdhTfWhfpISTtfRzw25VOSvJNR8dnh_WWKwyZ0VnWe8nndwwfnWN-gPSdqmLBhJW2vkqjCkfMo8Eo-sucoSIr6JMT-7HxHnsCw/s1600/admin.jpg",
-      "processedAt": "2026-09-02T10:58:20.596912+00:00"
-    },
-    {
-      "id": "art-a8888ad7",
-      "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
-      "summary": "U.S. and international law enforcement agencies successfully shut down the Sality peer-to-peer botnet on August 31, 2026, working alongside CrowdStrike and Shadowserver Foundation. This operation disrupted a long-running malicious network that was being used to distribute malware payloads to compromised computers. By taking control of the botnet's infrastructure, authorities prevented criminals from delivering new malware attacks through this channel.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "botnet-takedown",
-        "p2p-malware",
-        "law-enforcement",
-        "sality",
-        "malware-distribution",
-        "international-cooperation"
-      ],
-      "whyItMatters": "This takedown demonstrates how law enforcement can leverage infrastructure control to disrupt active malware operations and prevent future attacks. Understanding how botnets work and how they can be neutralized helps organizations better defend against similar peer-to-peer threats. The success of this coordinated international operation shows the value of cross-border cybercrime enforcement in pro",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDpXbKu79XC2ObZuqgBEMG9E1VR-SyLdDwhylzbIupomfXEbDe_gUT29NNntDVz9NtiGLhnHJdrq1GyC5RbPHozyzmCVov6JJIg2sCiCb5Jp8SHEInYNR5PRE06TrBh4Oqy8WT7GbTtGOZisMrKuCWaUWn5vaJkbHPmhTEb7O0voiiBDdYHcxc02YhLBb1/s1600/botnet-malware.jpg",
-      "processedAt": "2026-09-02T10:58:23.349292+00:00"
-    },
-    {
-      "id": "art-7c9d127b",
-      "title": "Microsoft Defender flags legitimate Google search links as malicious",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-defender-flags-legitimate-google-search-links-as-malicious/",
-      "summary": "Microsoft's Defender for Office 365 has been incorrectly flagging legitimate Google search results as malicious links, preventing users from accessing them. The company is actively investigating the issue to understand why the security software is generating false positives. This problem affects users who rely on Google searches while using Microsoft's email and productivity security tools.",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "false-positive",
-        "microsoft-defender",
-        "security-tool",
-        "email-security",
-        "google-search"
-      ],
-      "whyItMatters": "False positives in security software can severely damage user trust and productivity by blocking legitimate resources, potentially causing organizations to question their security solutions. This incident highlights the importance of proper security tool tuning and demonstrates how overly aggressive threat detection can inadvertently harm users. Understanding and resolving such issues helps preven",
-      "image": null,
-      "processedAt": "2026-09-02T10:58:25.779953+00:00"
-    },
-    {
-      "id": "art-5111c4f8",
-      "title": "US charges Russian for infecting 80,000 freelancers with malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-charges-russian-for-infecting-80-000-freelancers-with-malware/",
-      "summary": "A Russian national has been charged by a US federal grand jury for orchestrating a phishing campaign that compromised approximately 80,000 freelancers by infecting their devices with TVRAT and DarkVNC malware. These tools allowed attackers to gain remote access and control over victims' computers, posing serious risks to both personal and professional data. The case highlights how cybercriminals target gig economy workers who may have weaker security practices than traditional employees.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "malware",
-        "remote-access",
-        "freelancer-targeting",
-        "tvrat",
-        "darkvnc"
-      ],
-      "whyItMatters": "This case demonstrates the real-world consequences of large-scale phishing attacks targeting vulnerable populations like freelancers, and shows that law enforcement is actively pursuing international cybercriminals. Understanding how malware like TVRAT and DarkVNC operate helps organizations and individuals recognize similar threats and strengthen their defenses against remote access trojans.",
-      "image": null,
-      "processedAt": "2026-09-02T10:58:28.562555+00:00"
-    },
-    {
-      "id": "art-02f9b13f",
-      "title": "Sality botnet infrastructure dismantled in joint global takedown",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sality-botnet-infrastructure-dismantled-in-joint-global-takedown/",
-      "summary": "Law enforcement agencies and cybersecurity companies have successfully shut down the infrastructure supporting the Sality botnet, a long-standing peer-to-peer malware network. This coordinated international takedown effort aims to prevent the malware from being used to infect computers and carry out malicious activities. The operation represents a significant victory in disrupting one of the internet's most persistent botnet threats.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "botnet-takedown",
-        "malware-disruption",
-        "law-enforcement",
-        "p2p-botnet",
-        "infrastructure-seizure"
-      ],
-      "whyItMatters": "Botnet takedowns directly reduce the attack surface available to cybercriminals and protect millions of potentially infected machines from further exploitation. Sality's long operational history made it a significant threat for distributing ransomware, stealing data, and launching attacks, so dismantling its infrastructure improves overall internet security. This demonstrates the importance of int",
-      "image": null,
-      "processedAt": "2026-09-02T10:58:31.469853+00:00"
-    },
-    {
-      "id": "art-49769b57",
-      "title": "SonicWall warns of actively exploited SMA1000 zero-day flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-actively-exploited-sma1000-zero-day-flaws/",
-      "summary": "SonicWall has alerted customers about two previously unknown zero-day vulnerabilities in its SMA1000 appliances that are currently being exploited by attackers. These flaws are being used together in coordinated attacks to achieve remote code execution, allowing threat actors to gain unauthorized control over affected systems. Organizations using SMA1000 devices need to take immediate action to protect their network infrastructure.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "sonicwall",
-        "sma1000",
-        "remote-code-execution",
-        "active-exploitation",
-        "network-security"
-      ],
-      "whyItMatters": "Active exploitation of zero-day vulnerabilities in widely-deployed network appliances like SonicWall SMA1000 poses an immediate threat to enterprise security, as attackers can bypass defenses before patches are available. Organizations relying on these devices face urgent risk of network compromise and data theft. Prompt awareness and swift vendor guidance are essential to help customers mitigate ",
-      "image": null,
-      "processedAt": "2026-09-02T10:58:34.189196+00:00"
-    },
-    {
-      "id": "art-3652a58e",
-      "title": "Hackers abuse Faronics Deploy admin tool to install ScreenConnect",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-faronics-deploy-admin-tool-to-install-screenconnect/",
-      "summary": "Attackers are using phishing tactics to trick users into running the legitimate Faronics Deploy tool, which they then abuse to gain admin-level access to computers. Once they have control, the hackers install ScreenConnect remote support software to maintain persistent access to victim systems. This attack combines social engineering with legitimate software to bypass security defenses.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "endpoint-management",
-        "remote-access",
-        "malicious-tool-abuse",
-        "admin-compromise"
-      ],
-      "whyItMatters": "This attack demonstrates how legitimate administrative tools can be weaponized through phishing, making it harder for organizations to distinguish between authorized and unauthorized access. The compromise of admin-level credentials puts entire networks at risk of data theft, ransomware deployment, and persistent backdoor access. Organizations must implement strict credential controls and monitor ",
-      "image": null,
-      "processedAt": "2026-09-02T10:58:37.130752+00:00"
     }
   ]
 }
