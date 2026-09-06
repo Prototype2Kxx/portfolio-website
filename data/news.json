@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-09-05T19:38:05.802268+00:00",
+  "lastUpdated": "2026-09-06T10:38:16.767046+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-539119f8",
+      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-06",
+      "originalUrl": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "summary": "MikroTik routers exposed to the internet with SSH services enabled are being targeted by attackers who can gain complete administrative access without needing valid credentials. The exploitation campaign began at least on September 2, according to a warning from CERT Polska. This represents a critical security risk for any organization or individual running MikroTik devices with publicly accessible SSH ports.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "mikrotik",
+        "ssh-exploitation",
+        "authentication-bypass",
+        "network-access",
+        "active-attacks",
+        "router-security"
+      ],
+      "whyItMatters": "Routers are critical network infrastructure controlling all incoming and outgoing traffic; unauthenticated admin access allows attackers to intercept data, establish persistent backdoors, redirect traffic, or launch attacks on internal networks. Organizations must immediately audit their MikroTik deployments for internet-facing SSH services and implement proper access controls to prevent compromis",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiSiBDO5j21gorWS-UjrLlDl0RzniibBPjfO4xfPBBLbH1yTQIB88G-hUBRtYNufYwkPpVjWWLu0GXk1TB7pv_x8KbQCbfsL5Ft8JlZLa6iZfvuHU-vKSPNq5Li-e9DtoOvZIOXPYmibx9uc_imnug4ZJUog31KwlA3YKmY8ghOpROVQR8mwPj9qb-1kA/s1600/micro.jpg",
+      "processedAt": "2026-09-06T10:37:49.756204+00:00"
+    },
+    {
+      "id": "art-2dbce190",
+      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-06",
+      "originalUrl": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "summary": "Security researchers at Elastic Security Labs discovered four new malicious programs connected to REVSTEALER, a Windows information stealer that persists on infected systems even after the main malware removes itself. One of these programs, called WinUpdate, specifically disables Windows Update and Microsoft Defender security features to allow a cryptocurrency miner to run unchecked. These persistent modules represent a multi-stage attack where cybercriminals first steal data, then install long-term threats to exploit the victim's computer resources.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "revstealer",
+        "information-stealer",
+        "crypto-miner",
+        "windows-defender",
+        "persistence",
+        "malware-modules"
+      ],
+      "whyItMatters": "This attack demonstrates how modern malware uses multi-stage persistence techniques to maximize damage after initial infection, making detection and removal more difficult for typical users. By disabling critical Windows security features, attackers can freely exploit victim machines for cryptocurrency mining, which degrades performance and increases electricity costs while remaining hidden. Organ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpRcdfXd6kYnqLLWSFdzGKICUzSr90MsV2f3PXtw8VDVcT-xOP2w4HwnVzrRI4bdJqhboQMFIm9BZ393b89IOqgYx-VVmb_B8-XJCsZ9SAIymdlBpEf5ARizHvn32t8Mr9stzV6nMVcn3utUYI1xSRxhaC29QZjS-C3haNSRPfQI_eBYzXCrwn5rl18Nw/s1600/rev.jpg",
+      "processedAt": "2026-09-06T10:37:53.333801+00:00"
+    },
+    {
+      "id": "art-2600c74b",
+      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-05",
+      "originalUrl": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+      "summary": "A previously unknown vulnerability called StyleSmuggler has been discovered in Magento Open Source and Adobe Commerce that allows attackers to inject and execute malicious code on online stores without requiring login credentials. Security firm Sansec identified the flaw and reported that active attacks began on September 4, 2026. This zero-day vulnerability poses an immediate threat to e-commerce businesses using these platforms until patches are released.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "magento",
+        "adobe-commerce",
+        "unpatched",
+        "backdoor",
+        "e-commerce"
+      ],
+      "whyItMatters": "This actively exploited zero-day affecting major e-commerce platforms creates an immediate risk for thousands of online stores to be compromised and backdoored without any authentication. Attackers can gain persistent access to customer data, payment information, and store operations, making rapid patching and security monitoring essential for affected businesses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjghsT_skiIfdOHK2B0WWDfWnSK0G5Ih7BqsX98tKrY4TH7I77oLEmnldtVHuUMEQaIiZZBSPJGI2t8Me7h9kDtE4YGZ9-5NypnAu2-yFFrXsWYkR6OJPlbqkZDEHBAXCmRjWm6Mk4h0Ni48JT0nrDWMYygztjoi4HuHPbe2y-2jreFVkzrxO8r4IhHIEU/s1600/adobe-exploit.jpg",
+      "processedAt": "2026-09-06T10:37:56.065804+00:00"
+    },
+    {
+      "id": "art-111127b0",
+      "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-03",
+      "originalUrl": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+      "summary": "Researchers from Citizen Lab discovered that a member of Serbia's student protest movement had their iPhone infected with Pegasus spyware through a sophisticated zero-click exploit delivered via iMessage. This attack demonstrates how NSO Group's surveillance tools are being weaponized against political activists and demonstrates the serious risks posed by zero-click vulnerabilities in popular messaging applications.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "pegasus-spyware",
+        "zero-click-exploit",
+        "imessage",
+        "nso-group",
+        "political-targeting",
+        "ios-vulnerability"
+      ],
+      "whyItMatters": "This incident reveals that zero-click exploits targeting encrypted messaging platforms pose a critical threat to activists and political figures, as they bypass user awareness entirely. It highlights how state-sponsored spyware is actively exploited against vulnerable populations, making it essential for organizations and individuals involved in activism to understand these advanced threats and im",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaEvtAyNP-TiY3M6wMUFNKymiK_BeQH_MEIzeFf79X0fNFV0gyV3MiegzULqTG6bC-20nprEpTHySkf3Hf0N72sLy-oVN6_ndqU4OwSm37Cx0OYrr2MbzpiII3ly4tEv891mjYhbSV18Eg94BBSitXG8XnON3QjpRqGkErk15L1FoeYT94R8WGlK8xUuJt/s1600/iphone-exploit.jpg",
+      "processedAt": "2026-09-06T10:37:59.155235+00:00"
+    },
+    {
+      "id": "art-090de999",
+      "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-03",
+      "originalUrl": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+      "summary": "A researcher has discovered and released a proof-of-concept for FalconFlank, a zero-day vulnerability in CrowdStrike Falcon Sensor that allows attackers to escalate their privileges. The flaw exploits a weakness in how the security software handles malicious macro remediation, potentially giving attackers higher-level access to affected systems. This disclosure highlights a critical gap in a widely-used endpoint protection platform that many organizations rely on for security.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "privilege-escalation",
+        "crowdstrike-falcon",
+        "endpoint-security",
+        "poc-released"
+      ],
+      "whyItMatters": "CrowdStrike Falcon is deployed across thousands of enterprises globally, making this privilege escalation vulnerability an immediate threat to organizational security. The public release of a working proof-of-concept accelerates the risk of active exploitation by malicious actors. Organizations using Falcon must prioritize patching and monitoring for signs of exploitation to prevent unauthorized a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmg6caSDWQVOPIIl9NAXS4ofXmOdWz1eIGPMKMLCbHXc_uWiv11QNh2k-f43JAoVVQNMQj54d2yqJ_iO9vzwIO8nvQIyxr7N6GDCKsYDmSJEpyjiUBsY-zhMcmfEsWcEqDrKvrEkXxQC1LPldFXkqbJHO81V7oHnsRtuyjMZKzubBjwrK_yQ2xT2om89Ja/s1600/windows-exploit.jpg",
+      "processedAt": "2026-09-06T10:38:02.368515+00:00"
+    },
+    {
+      "id": "art-39b9647d",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-01",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "A dark web service has begun selling digital copies of over 153 million drivers licenses belonging to people in the United States and Canada. The stolen images appear to have come from an identity verification company based in Louisiana. The FBI's New Orleans office has opened an official investigation into how the personal documents were obtained and leaked.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "identity-theft",
+        "dark-web",
+        "drivers-license",
+        "personal-data",
+        "fbi-investigation"
+      ],
+      "whyItMatters": "This breach exposes massive numbers of individuals to identity theft and fraud risks, as drivers licenses contain highly sensitive personal information used for verification purposes. The involvement of a legitimate identity verification company suggests a significant security failure in systems trusted by organizations across multiple industries. This incident highlights how compromised personal ",
+      "image": null,
+      "processedAt": "2026-09-06T10:38:05.239535+00:00"
+    },
+    {
+      "id": "art-61ee0fbc",
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "summary": "DecryptAds is a new free service that helps users understand who is tracking them online by analyzing advertising technology data. The tool aggregates information that was previously difficult to access and presents it in an easy-to-understand format. This allows individuals to see which companies and platforms are harvesting their personal data through ads and mobile apps.",
+      "category": "Privacy",
+      "severity": "Medium",
+      "tags": [
+        "privacy",
+        "data-tracking",
+        "adtech",
+        "transparency",
+        "online-surveillance"
+      ],
+      "whyItMatters": "Understanding who tracks your online activity is essential for protecting your privacy and making informed decisions about your digital footprint. DecryptAds democratizes access to previously hidden advertising ecosystem information, empowering users to identify potential data collection risks. This awareness is critical for individuals concerned about targeted advertising, data misuse, and unauth",
+      "image": null,
+      "processedAt": "2026-09-06T10:38:07.806065+00:00"
+    },
+    {
+      "id": "art-cbf00453",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-11",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "summary": "Microsoft released security updates addressing nearly 400 vulnerabilities across Windows and related software. The update is particularly urgent because at least one vulnerability is already being exploited by attackers in the wild, and two others have been publicly disclosed before the patch was available. Users should prioritize installing these updates quickly to protect their systems from active threats.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "microsoft-patch",
+        "windows-security",
+        "active-exploitation",
+        "vulnerability-fix",
+        "security-update"
+      ],
+      "whyItMatters": "When Microsoft releases updates for actively exploited vulnerabilities, attackers are already using them to compromise systems, making rapid patching essential to avoid infection. The large number of vulnerabilities fixed (nearly 400) represents a significant security maintenance cycle that organizations must prioritize to reduce their attack surface. Public disclosure of vulnerabilities before pa",
+      "image": null,
+      "processedAt": "2026-09-06T10:38:10.704018+00:00"
+    },
+    {
+      "id": "art-eec61575",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-07-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "summary": "A cybersecurity startup offering large payments for zero-day vulnerabilities is reportedly operated by convicted felons and conspiracy theorists with histories of fraudulent ventures. The operators have previously run fake intelligence companies and deceptive AI platforms under false identities. This revelation raises serious concerns about who controls access to critical security exploits and the legitimacy of vulnerability acquisition operations.",
+      "category": "Zero-Day Exploits",
+      "severity": "High",
+      "tags": [
+        "zero-day",
+        "vulnerability-trading",
+        "cybercrime",
+        "fraud",
+        "exploit-market",
+        "threat-actors"
+      ],
+      "whyItMatters": "This exposes a dangerous gap in the vulnerability acquisition ecosystem where criminal actors can operate platforms that incentivize the discovery and sale of zero-days to unknown buyers, potentially enabling widespread exploitation of software used by millions. Organizations must be cautious about which vulnerability disclosure programs they trust and understand that the vendors buying exploits m",
+      "image": null,
+      "processedAt": "2026-09-06T10:38:13.923681+00:00"
+    },
+    {
+      "id": "art-6f0284bf",
+      "title": "Companies Have 6 Months to Prepare for Automated Attacks",
+      "source": "Dark Reading",
+      "publishedDate": "2026-09-04",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
+      "summary": "Advanced AI models are becoming capable of executing complete cyber attacks independently, sometimes without intentional direction from attackers. Organizations need to prepare their defenses within the next six months as this autonomous attack capability poses an escalating threat. The technology is evolving rapidly, making proactive security measures increasingly urgent.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-attacks",
+        "autonomous-threats",
+        "frontier-ai",
+        "incident-preparation",
+        "defensive-readiness"
+      ],
+      "whyItMatters": "Autonomous AI-driven attacks represent a fundamental shift in cybersecurity threats—attackers may no longer need human expertise to conduct sophisticated end-to-end compromises. Organizations that fail to adapt their defenses in the critical six-month window face exponentially higher risks of successful intrusions that traditional security measures may not detect or stop in time.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb3e4339597b3813d/6a9acd56e908194ecaf2c87b/AI-human-blue-overlay-metamorworks-shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-09-06T10:38:16.766888+00:00"
+    },
     {
       "id": "art-e772fcf2",
       "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
@@ -825,213 +1031,6 @@
       "whyItMatters": "Unpatched vulnerabilities in widely-used media server software like Plex can expose millions of users to exploitation, potentially leading to unauthorized access, data theft, or system compromise. Timely patching is essential to prevent attackers from leveraging known security flaws before users can defend themselves.",
       "image": null,
       "processedAt": "2026-09-04T10:57:46.543819+00:00"
-    },
-    {
-      "id": "art-5a813b86",
-      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
-      "summary": "This article highlights how modern cyberattacks exploit social engineering by mimicking legitimate communications and trusted tools, making them difficult to detect. Attackers use phishing kits targeting executives, compromised cloud accounts, and fake login pages to trick users into granting access or revealing credentials. The threats work because they appear normal and trustworthy, requiring minimal technical sophistication to succeed.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "social-engineering",
-        "credential-theft",
-        "oauth-abuse",
-        "executive-targeting",
-        "account-compromise"
-      ],
-      "whyItMatters": "These attack vectors demonstrate that the weakest link in cybersecurity is often human judgment rather than technical defenses. Organizations need robust security awareness training and verification procedures because attackers can bypass technical controls by using legitimate-looking communications and trusted platforms. Understanding these tactics helps both individuals and enterprises recognize",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUcEnh-e0_L2Oz7JQcSCFBd90F29Z7_wHbJYiWOxWeZTeLLHbRZYK6vt1PrcUOgSFei7fxLMnP2lp0QyEOW2rzfcsnBFhayNHtKLPtHJFsu55w_GxuA3XLkZf-kleynMxXjc8zELZt7FBZFdqCAtesj3Fj148fwlGitAxZxu6t1wZDb7wgZQ1MR-Vmc4FL/s1600/threats-main.jpg",
-      "processedAt": "2026-09-03T20:12:32.009636+00:00"
-    },
-    {
-      "id": "art-4e020f96",
-      "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-      "summary": "Cisco has released security patches for a critical vulnerability in Nexus 9000 switches that allows unauthenticated attackers to gain root-level access remotely. The flaw, identified as CVE-2026-20212 with a CVSS score of 9.8, affects 10 Silicon One-based models. Additionally, Cisco released an IOS XR hardening update addressing 7 vulnerabilities, including 2 rated 9.8, with no available workarounds for affected versions.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-nexus",
-        "remote-code-execution",
-        "unauthenticated-attack",
-        "root-access",
-        "critical-vulnerability",
-        "patch-required"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to organizations using Cisco Nexus 9000 switches, as attackers need no credentials to exploit it and gain complete system control. The lack of workarounds for IOS XR versions makes prompt patching essential to prevent potential network compromise and data theft. Organizations must prioritize applying these patches to maintain network integrity and preve",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj9su2Wd6Yb88IvMpg5v1P8IyPg4KWKTeBXjerFgxz0U5WLKO2U50jymR-fKujsKeMFZ3q1VEupMRFZUz5gD47JRzVceagYJJ3bCTT8t532rY63po54kanBCPX4_hmKsxe-1b52IGrYc__TH5Y2F13G6L32HNKPQxL34iqzEPuBGynDCu6xFdKHplXvdY/s1600/cisco-flaws.jpg",
-      "processedAt": "2026-09-03T20:12:34.706600+00:00"
-    },
-    {
-      "id": "art-9e9d1ac3",
-      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-      "summary": "BraZetsu is a sophisticated malware framework written in Python that infects Windows computers and sells access to compromised systems on underground marketplaces. Rather than simply stealing information like typical malware, BraZetsu transforms victim computers into valuable commercial products that criminals can buy and sell. This toolkit gives Initial Access Brokers a powerful tool to monetize hacked systems at scale.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "windows-threat",
-        "cybercrime",
-        "initial-access-broker",
-        "python-malware",
-        "marketplace"
-      ],
-      "whyItMatters": "BraZetsu represents a dangerous evolution in cybercrime where compromised systems become tradeable commodities, lowering barriers for attackers to launch follow-on attacks like ransomware or data theft. Organizations need to understand this threat model because their networks could become part of criminal inventory without immediate detection. This malware facilitates the entire attack pipeline fr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9vYkFCrVzaEl0WQj4XBILj6pIxDJ92eWgVrkOa_pdvJJoKF95JCX7VmQzY0HPZkhg5IMvjfCu15YCs5AMJ22NM6SBX7j7sCgpfiaUZZAL4Uc5vP0-q9VKN4LNSY4a701mmRCgLJQxCjnmnsSAxD7gFnyf9-dRaSxPZuGqLuOIQ415vCOjH-DZRtYSBHA/s1600/access-for-sale.jpg",
-      "processedAt": "2026-09-03T20:12:37.816699+00:00"
-    },
-    {
-      "id": "art-e6dcfc70",
-      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-      "summary": "Thomson Reuters' West Publishing Corporation discovered that hackers accessed files from C-Track, a court case management system used across 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada. The breach occurred in March 2026 but wasn't detected until June 30, 2026, meaning sensitive court records including personal information like Social Security numbers may have been exposed for months. This incident highlights how critical infrastructure used by the judicial system can be vulnerable to cyber attacks with serious privacy implications.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "court-systems",
-        "pii-exposure",
-        "ssn-compromise",
-        "judicial-infrastructure",
-        "delayed-detection"
-      ],
-      "whyItMatters": "Breaches affecting court management systems expose highly sensitive judicial records and personal identification data across multiple jurisdictions, potentially affecting thousands of individuals and compromising case integrity. The four-month detection gap demonstrates that critical government infrastructure operators may lack adequate monitoring capabilities, allowing attackers prolonged access ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX1nx19KbhbT0_rYFjMzqgJuG35q7QvJiMrikolTZV9sWztkSoSFUr95E-h-9vHv-GBGmRHAyh5Du0DDMYMr1m0VbD5YgYO6dVoY7p8d6Z5BbORiBOGgJfZjg4euf9uwUkGO4ZX8QZXUpuU0CFUwNV46UozcdMJ9SyZ4T4cy4pAI9ho7xYQ8cDJaFdfKM/s1600/reuters.jpg",
-      "processedAt": "2026-09-03T20:12:41.449588+00:00"
-    },
-    {
-      "id": "art-4d00aa3a",
-      "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-      "summary": "A sophisticated phishing campaign initially thought to target only Canada has been revealed to span 46 countries, with the United States accounting for nearly half of all observed attacks. The campaign uses fake Canadian tax agency forms to trick victims into clicking malicious links or downloading harmful files. Researchers identified over 600 cases connected to this operation, making it a significant global threat affecting individuals and organizations across multiple nations.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-campaign",
-        "rmm-attacks",
-        "tax-fraud-lure",
-        "social-engineering",
-        "multi-country-threat"
-      ],
-      "whyItMatters": "This widespread phishing campaign demonstrates how attackers use trusted government entities to deceive victims at scale, with the US being heavily targeted. Organizations and individuals need to recognize that phishing threats can appear legitimate by impersonating tax authorities, making security awareness and email filtering critical defenses. The global scope indicates that this type of attack",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_OZ4yHwsQM1Z9se2g-uJPuSkiSNpmyWCCi_a9dKpH9jnTuFYyts16e2gdkB45YknrA-nuzp6-mbEi-1adV92N-7aBjfYL69ECPlWOV7a5xb5rG6kqsMzc3WJ0-lXLBMO86aB3WTJ6MFLR0N0YbC8TElIg0-Jh6SIDe8mc3nCyzoE6zugVDFHFfjPEGkI/s1600/targets.jpg",
-      "processedAt": "2026-09-03T20:12:44.786398+00:00"
-    },
-    {
-      "id": "art-a5b5ad00",
-      "title": "Coder's registry infrastructure compromised to push malicious modules",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-      "summary": "Attackers gained unauthorized access to Coder's Cloudflare infrastructure and used it to set up fake registry servers that distributed malicious Terraform modules. These compromised modules contained credential-stealing code designed to harvest sensitive information from developers and organizations. This attack demonstrates how attackers can exploit trusted infrastructure to distribute malware through software supply chains.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware",
-        "cloud-security",
-        "infrastructure-compromise",
-        "credential-theft",
-        "terraform"
-      ],
-      "whyItMatters": "This attack targets developers at the infrastructure level, meaning organizations using legitimate-looking Terraform modules could unknowingly install credential-stealing malware into their systems. Supply chain compromises like this are particularly dangerous because they bypass traditional security defenses and affect multiple downstream users. The use of trusted platforms like Cloudflare highli",
-      "image": null,
-      "processedAt": "2026-09-03T20:12:47.776678+00:00"
-    },
-    {
-      "id": "art-0b7feeed",
-      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-      "summary": "Hewlett Packard Enterprise released a security patch for a critical vulnerability in ArubaOS-CX, a widely-used network operating system. The flaw could allow attackers to execute malicious code remotely on affected systems without authentication. Organizations running ArubaOS-CX should apply the patch immediately to protect their network infrastructure from potential compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "network-security",
-        "remote-code-execution",
-        "patch-now",
-        "hpe",
-        "arubaos-cx",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "ArubaOS-CX powers critical network infrastructure in many organizations, making this remote code execution vulnerability an immediate threat to business operations and data security. Attackers can exploit this flaw to gain unauthorized access to networks, potentially leading to data theft, system compromise, or further lateral movement within an organization.",
-      "image": null,
-      "processedAt": "2026-09-03T20:12:50.486022+00:00"
-    },
-    {
-      "id": "art-219ee9fa",
-      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-      "summary": "Microsoft has identified a bug in the KB5120998 August 2026 preview update that causes mouse settings to reset on affected systems. The issue has been narrowed down to impact only non-English versions of Windows 11, meaning English-language systems are unaffected by this problem. This discovery helps users determine whether they need to apply workarounds or wait for a patch based on their Windows language configuration.",
-      "category": "Patching and Updates",
-      "severity": "Low",
-      "tags": [
-        "patch-bug",
-        "windows-11",
-        "kb5120998",
-        "mouse-settings",
-        "non-english-systems",
-        "update-issue"
-      ],
-      "whyItMatters": "Understanding patch-related bugs and their scope helps IT administrators and users decide whether to deploy updates and plan mitigation strategies accordingly. Knowing that only non-English systems are affected allows organizations to prioritize testing and rollout decisions based on their user base composition.",
-      "image": null,
-      "processedAt": "2026-09-03T20:12:53.444278+00:00"
-    },
-    {
-      "id": "art-6b6aaa50",
-      "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
-      "summary": "OpenAI's ChatGPT and Codex services experienced a widespread outage, affecting multiple core features and preventing users from accessing the platform. The company confirmed the disruption was occurring as they prepared to launch a new AI model called 'Astra'. This incident highlights how service interruptions in widely-used AI tools can impact productivity for millions of users globally.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-outage",
-        "service-disruption",
-        "availability",
-        "openai",
-        "ai-infrastructure"
-      ],
-      "whyItMatters": "Large-scale outages of critical AI services demonstrate the importance of robust infrastructure resilience and disaster recovery planning. When essential tools become unavailable, organizations relying on these services face operational disruptions, making service uptime and incident response critical cybersecurity considerations for both providers and users.",
-      "image": null,
-      "processedAt": "2026-09-03T20:12:56.322586+00:00"
-    },
-    {
-      "id": "art-e8f2ba70",
-      "title": "Anthropic confirms Claude is down, multiple models affected",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-multiple-models-affected/",
-      "summary": "Anthropic's Claude AI service experienced a widespread outage affecting multiple models, with users reporting increased error rates when attempting to use the platform. The incident demonstrates how disruptions to cloud-based AI services can impact businesses and individuals relying on these tools for productivity and critical operations.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-outage",
-        "service-disruption",
-        "ai-security",
-        "claude",
-        "availability"
-      ],
-      "whyItMatters": "This outage highlights the dependency organizations have on third-party AI services and the importance of understanding service reliability, fallback plans, and potential security implications of widespread platform failures. Such incidents can expose weaknesses in infrastructure resilience and reinforce the need for incident response planning when cloud services are unavailable.",
-      "image": null,
-      "processedAt": "2026-09-03T20:12:58.625124+00:00"
     }
   ]
 }
