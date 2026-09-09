@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-09-08T20:23:36.967868+00:00",
+  "lastUpdated": "2026-09-09T11:02:27.767066+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-79474c6e",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "summary": "Google released patches for 230 security vulnerabilities in Chrome, including a medium-severity zero-day flaw in the V8 JavaScript engine that attackers are actively exploiting. The vulnerability is an out-of-bounds write bug that allows code execution within Chrome's sandbox environment. This flaw demonstrates how even browser security layers can be compromised through engine-level bugs. Users should update Chrome immediately to protect against active attacks.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "chrome",
+        "v8-engine",
+        "code-execution",
+        "active-exploitation",
+        "patch-now"
+      ],
+      "whyItMatters": "Active exploitation of this vulnerability means attackers are currently using it in real-world attacks, making immediate patching essential for all Chrome users. The ability to execute code inside Chrome's sandbox bypasses a critical security boundary, potentially allowing attackers to escape browser isolation and access system resources. This highlights the importance of keeping browsers updated ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZvl2DE9GFM-4rdFgtQOOp1Dk3Xgp7xWysUv5zKTFwxqWYTurcgXgE-PDMn3_2AAIihh4YeiRvmwpb6GVDB1-8kxqasUWwX-FFa4mA41kXpFbzdt9hOvzW4xcyKBFttqIzbFSl-1SSSO0P_URv3Sy9QamkQZ55qzX5Y9Kmv5NdBCBHXCcUziiO6mfrqURE/s1600/chrome-zeroday.jpg",
+      "processedAt": "2026-09-09T11:01:59.212085+00:00"
+    },
+    {
+      "id": "art-2932d795",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "summary": "cPanel released a security patch for a critical vulnerability affecting all supported versions of its software. The flaw allows hosting account users with mail privileges to upload arbitrary files through the EmailTrack feature and execute code with root-level permissions, giving them complete control over the server. This means a single compromised or malicious hosting account could potentially take over an entire server and all accounts hosted on it.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cpanel",
+        "privilege-escalation",
+        "authentication-bypass",
+        "patch-now",
+        "hosting-security",
+        "root-access"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects a widely-used hosting control panel and allows authenticated users to escalate privileges to root level, potentially compromising all hosted websites and data on a shared server. Organizations using cPanel must apply the patch immediately to prevent attackers from gaining complete server control through mail-enabled hosting accounts.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM_YdNiqGpEWkDm5hEkF-RhZ94vv84sJmONomdRsksJ65GwI388Va-uVIzXWhwZtHmBTF3oze2l4Sscj2zpTsn6lqdPWPKAeL1iP6SSyzvNBOA4dLAKxfSmfThhmQgIc_1AYGWG9dbrCLFg_dk4m8pCHxFcJBRnThru8PtB7UJqUy3VjW15-vQlRvuwpc/s1600/cpanel-bug.jpg",
+      "processedAt": "2026-09-09T11:02:02.209794+00:00"
+    },
+    {
+      "id": "art-b1565158",
+      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "summary": "Malware targeting F5 BIG-IP Access Policy Manager devices uses a sophisticated technique to hide a PHP web shell in memory rather than on disk, allowing it to evade traditional security scans. When Apache processes the appliance's own PHP scripts, the malware injects the shell into the running memory copy, leaving the actual files untouched and appearing clean. This memory-based hiding method makes detection significantly harder for administrators relying on disk-based file integrity checks.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "f5-big-ip",
+        "web-shell",
+        "memory-injection",
+        "evasion",
+        "apache",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This attack demonstrates advanced evasion techniques that bypass standard disk-based security scans, making it harder for defenders to detect compromised systems. F5 BIG-IP APM devices are critical network infrastructure components, so their compromise poses a serious risk to organizational security. Understanding this memory-injection method is essential for organizations to implement more sophis",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIA552mINL2oyFm7mf9nHTwjJGJUVAtfYnMXbqYsowSEsDMzVsAgHG8MHKn5_EmwZ9bgRmhEndE20FhQAN4rvOLv5ESSAu0kHTV4QyygvUePYCJ1fvda0bU0Mzi5B9J8LHhULDeRRI9HGC84dntx8jaLu6WFLOz6OOhEwKNnSf6zzFRyAtlLKDQzHvygg/s1600/f5-malware.jpg",
+      "processedAt": "2026-09-09T11:02:05.139395+00:00"
+    },
+    {
+      "id": "art-46a08c40",
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "summary": "A security researcher named Chaotic Eclipse has released a proof-of-concept exploit for a new vulnerability in Microsoft Defender called ShieldCrash, which bypasses the patch for a previously reported flaw (CVE-2026-69414, rated 7.8 CVSS). This indicates that Microsoft's initial fix for the ShieldBreak vulnerability was incomplete, leaving systems still exposed to attack. The disclosure highlights ongoing security gaps in one of the world's most widely used antivirus solutions.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "patch-bypass",
+        "cve-2026-69414",
+        "vulnerability-disclosure"
+      ],
+      "whyItMatters": "Microsoft Defender protects millions of devices globally, so a bypass that circumvents its security patches represents a widespread and urgent threat. Organizations cannot rely on Microsoft's initial patch for ShieldBreak and must await a proper fix while their systems remain vulnerable to exploitation. This incident underscores the importance of defense-in-depth strategies and not relying solely ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZtPq88H-iuD1vEn_DT-1UgFvWXy-P5eKMUm280xVsPt3_Dja1q22icfvF49OduVCGmazXmVmi51Oj58t-2H6JMA4e89X_-obRVRVORjeAZoQzNnw3Io6ad_LofQ1kfum9XeiHC9cijCgAiRL-RsRYjECDVPD_ZT3w61CFj1lkwe2sSZ_1_eSn6Oruh9MJ/s1600/windows-poc.jpg",
+      "processedAt": "2026-09-09T11:02:08.527609+00:00"
+    },
+    {
+      "id": "art-01013eee",
+      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+      "summary": "SAP has released security patches for a critical vulnerability in SAP Extended Passport (EPP) Processing that allows attackers to execute code remotely without authentication. The flaw, identified as CVE-2026-44756 with a perfect CVSS score of 10.0, stems from memory corruption issues and poses severe risks to system confidentiality, integrity, and availability. This is one of the most dangerous types of vulnerabilities because it requires no user interaction or credentials to exploit.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "memory-corruption",
+        "remote-code-execution",
+        "unauthenticated-access",
+        "sap-systems",
+        "patch-immediately",
+        "cvss-10"
+      ],
+      "whyItMatters": "A CVSS 10.0 vulnerability with unauthenticated remote code execution capability represents an existential threat to any organization running affected SAP systems. Organizations must prioritize patching immediately, as this vulnerability likely requires no special access or user interaction, making it trivial for attackers to exploit at scale. Delay in applying these patches could result in complet",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwUnFS6EAvkjYM7AC_3-k8C6QSAmpatuThkiXaa1WxvtiZU7M-n384kpPN4-VSAQfwL8PCTPUVd3iYeTDn_V5ZoZGEfuizJSZghdAw4Ldq_wFg7rxWyKBbwdMctiiBaykAmL40L6wappUeeyIr58u8SFFSszCP-rszf5ioHsaz0dtKilEpkw1LTEmtaCtZ/s1600/sap-flaws.jpg",
+      "processedAt": "2026-09-09T11:02:11.758870+00:00"
+    },
+    {
+      "id": "art-6986787b",
+      "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
+      "summary": "A significant number of Plex Media servers—over 36,000 instances—are publicly accessible on the internet but have not been updated to fix known security vulnerabilities. These unpatched servers represent an open opportunity for attackers to exploit the flaws and gain unauthorized access to user data and systems. Organizations and individuals running Plex need to apply patches immediately to protect their infrastructure.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "plex-media-server",
+        "unpatched-vulnerabilities",
+        "exposed-servers",
+        "patch-management",
+        "internet-facing-risk"
+      ],
+      "whyItMatters": "This highlights a critical gap between vulnerability disclosure and real-world patching—thousands of exposed systems remain at risk despite fixes being available. Unpatched media servers can serve as entry points for attackers to access sensitive files, user credentials, and potentially lateral movement into broader networks. This situation underscores the importance of timely patch deployment and",
+      "image": null,
+      "processedAt": "2026-09-09T11:02:14.989796+00:00"
+    },
+    {
+      "id": "art-e26c7e90",
+      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
+      "summary": "An Ohio man was sentenced to 15 years in prison for using AI-generated sexually explicit videos to extort and cyberstalk multiple women. This case highlights a dangerous emerging crime where offenders leverage artificial intelligence to create fake intimate content for blackmail and harassment purposes. The severe punishment demonstrates law enforcement's commitment to prosecuting these cybercrimes and protecting victims from AI-enabled abuse.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "sextortion",
+        "ai-generated-content",
+        "cyberstalking",
+        "sexual-exploitation",
+        "extortion"
+      ],
+      "whyItMatters": "This case demonstrates how AI technology is being weaponized for serious crimes against real people, showing that legal consequences exist but also revealing the urgent need for better detection tools and victim protection. Organizations and individuals must recognize AI-generated content as a legitimate security threat and understand the psychological and legal impact of such attacks. The convict",
+      "image": null,
+      "processedAt": "2026-09-09T11:02:18.114507+00:00"
+    },
+    {
+      "id": "art-2fbc56e9",
+      "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
+      "summary": "A researcher named Nightmare Eclipse has discovered and released a zero-day vulnerability in Microsoft Defender called 'ShieldCrash' that allows attackers to gain SYSTEM-level access to compromised computers. This exploit was released shortly after Microsoft's September 2026 Patch Tuesday updates, meaning the vulnerability was not yet patched. The flaw represents a critical weakness in one of the world's most widely used security tools.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "privilege-escalation",
+        "system-access",
+        "patch-tuesday",
+        "shieldcrash"
+      ],
+      "whyItMatters": "Since Microsoft Defender is deployed on millions of Windows systems globally, a zero-day granting SYSTEM access poses an immediate and widespread threat to enterprise and consumer security. Attackers can exploit this vulnerability to completely compromise affected systems before a patch is available. Organizations must prioritize monitoring for exploitation attempts and prepare emergency mitigatio",
+      "image": null,
+      "processedAt": "2026-09-09T11:02:21.421596+00:00"
+    },
+    {
+      "id": "art-85036ae7",
+      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
+      "summary": "Google released security patches for 230 vulnerabilities in Chrome, including a seventh zero-day bug that attackers are actively exploiting in real-world attacks. This marks a significant security update addressing multiple critical flaws in one of the world's most widely used web browsers. The rapid succession of zero-day exploits highlights ongoing threats targeting Chrome users globally.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "chrome",
+        "active-exploitation",
+        "patch-urgent",
+        "google-security",
+        "vulnerability-patch"
+      ],
+      "whyItMatters": "Active exploitation of zero-day vulnerabilities means attackers are already using these flaws against real users before patches are available, making immediate updates essential. With seven zero-days patched in one year, Chrome users face an elevated risk requiring prompt action to apply security updates. Organizations and individuals relying on Chrome must prioritize installing these patches to p",
+      "image": null,
+      "processedAt": "2026-09-09T11:02:24.412793+00:00"
+    },
+    {
+      "id": "art-f2d0678d",
+      "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
+      "summary": "Microsoft is introducing new age-awareness APIs for Windows 11 that enable applications to identify whether users are children, teenagers, or adults without requiring apps to access or store actual birth dates. This technology aims to protect younger users by allowing developers to implement age-appropriate content restrictions and safety features more effectively. The approach prioritizes privacy by obscuring personal identifying information while still enabling important safeguarding mechanisms.",
+      "category": "Privacy",
+      "severity": "Medium",
+      "tags": [
+        "age-verification",
+        "privacy-protection",
+        "windows-11",
+        "api-security",
+        "child-safety"
+      ],
+      "whyItMatters": "This development balances user protection with privacy concerns by allowing age-appropriate content filtering without exposing sensitive personal data like birth dates. Organizations and developers need to understand these new APIs to implement compliant age verification systems while minimizing privacy risks and data exposure. Proper implementation can reduce regulatory compliance violations rela",
+      "image": null,
+      "processedAt": "2026-09-09T11:02:27.766932+00:00"
+    },
     {
       "id": "art-287bb751",
       "title": "Slim Spider Steals Crypto Custody Secrets From Brazilian Financial Institution",
@@ -830,212 +1036,6 @@
       "whyItMatters": "As AI models become more powerful and widely deployed, understanding access controls and deployment strategies helps organizations assess AI security risks and plan adoption strategies. This rollout highlights how advanced AI capabilities are being distributed and the potential security implications of tiered access to powerful language models.",
       "image": null,
       "processedAt": "2026-09-07T12:04:24.927286+00:00"
-    },
-    {
-      "id": "art-1eb89f82",
-      "title": "ThreatsDay: CEO Phishing Kits, 5K Dropbox Account Hacks, OAuth Traps + 17 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/threatsday-ceo-phishing-kits-5k-dropbox.html",
-      "summary": "This article highlights a collection of sophisticated social engineering and phishing attacks that exploit human trust rather than technical vulnerabilities. Attackers use legitimate-looking communications, fake login pages, and compromised OAuth applications to trick users into granting access or revealing credentials. The threats include CEO phishing campaigns, mass account compromises, and malicious downloads disguised as legitimate software.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "social-engineering",
-        "oauth-attacks",
-        "credential-theft",
-        "security-awareness",
-        "account-compromise"
-      ],
-      "whyItMatters": "These attacks succeed because they impersonate trusted sources and legitimate processes that employees encounter daily, making them difficult to detect through technical controls alone. Organizations need robust user education and multi-factor authentication to defend against these human-focused attack vectors that bypass traditional security infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUcEnh-e0_L2Oz7JQcSCFBd90F29Z7_wHbJYiWOxWeZTeLLHbRZYK6vt1PrcUOgSFei7fxLMnP2lp0QyEOW2rzfcsnBFhayNHtKLPtHJFsu55w_GxuA3XLkZf-kleynMxXjc8zELZt7FBZFdqCAtesj3Fj148fwlGitAxZxu6t1wZDb7wgZQ1MR-Vmc4FL/s1600/threats-main.jpg",
-      "processedAt": "2026-09-06T19:39:48.870070+00:00"
-    },
-    {
-      "id": "art-539f5d8b",
-      "title": "Critical Cisco Nexus 9000 Flaw Lets Unauthenticated Remote Attackers Run Code as Root",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/critical-cisco-nexus-9000-flaw-lets.html",
-      "summary": "Cisco released security patches for a critical vulnerability in Nexus 9000 switches that allows remote attackers without authentication to gain root-level code execution. The flaw, CVE-2026-20212 with a CVSS score of 9.8, affects 10 Silicon One-based models. Additionally, Cisco released an IOS XR update addressing 7 vulnerabilities, including two rated 9.8, with no available workarounds for existing versions.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-nexus",
-        "remote-code-execution",
-        "unauthenticated-access",
-        "cvss-9.8",
-        "patch-required",
-        "network-infrastructure"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to organizations running Cisco Nexus switches, as attackers can gain complete system control without needing credentials or authentication. The lack of workarounds for IOS XR versions makes immediate patching essential to prevent potential network compromise and lateral movement within enterprise environments.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj9su2Wd6Yb88IvMpg5v1P8IyPg4KWKTeBXjerFgxz0U5WLKO2U50jymR-fKujsKeMFZ3q1VEupMRFZUz5gD47JRzVceagYJJ3bCTT8t532rY63po54kanBCPX4_hmKsxe-1b52IGrYc__TH5Y2F13G6L32HNKPQxL34iqzEPuBGynDCu6xFdKHplXvdY/s1600/cisco-flaws.jpg",
-      "processedAt": "2026-09-06T19:39:51.854321+00:00"
-    },
-    {
-      "id": "art-2d535cf8",
-      "title": "BraZetsu Malware Turns Compromised Windows Hosts Into Criminal Marketplace Inventory",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/brazetsu-malware-turns-compromised.html",
-      "summary": "Researchers have identified BraZetsu, a dangerous Python-based malware that infects Windows computers and sells access to them on underground criminal marketplaces. Unlike typical info-stealing malware, BraZetsu functions as a complete toolkit that helps Initial Access Brokers commercialize compromised systems as valuable inventory. This malware represents a significant evolution in how cybercriminals monetize network intrusions.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "windows-malware",
-        "python-based",
-        "initial-access-broker",
-        "cybercrime-marketplace",
-        "system-compromise",
-        "underground-market"
-      ],
-      "whyItMatters": "BraZetsu demonstrates how malware is evolving beyond simple data theft into infrastructure for organized cybercrime operations that directly threaten enterprise security. Organizations need to understand this threat because compromised systems can be bought and sold to other attackers, creating cascading security risks. This highlights the need for robust endpoint detection, network monitoring, an",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9vYkFCrVzaEl0WQj4XBILj6pIxDJ92eWgVrkOa_pdvJJoKF95JCX7VmQzY0HPZkhg5IMvjfCu15YCs5AMJ22NM6SBX7j7sCgpfiaUZZAL4Uc5vP0-q9VKN4LNSY4a701mmRCgLJQxCjnmnsSAxD7gFnyf9-dRaSxPZuGqLuOIQ415vCOjH-DZRtYSBHA/s1600/access-for-sale.jpg",
-      "processedAt": "2026-09-06T19:39:55.198424+00:00"
-    },
-    {
-      "id": "art-142d1df0",
-      "title": "Thomson Reuters Court Software Breach May Have Exposed SSNs and Sealed Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/thomson-reuters-court-software-breach.html",
-      "summary": "Thomson Reuters' West Publishing Corporation disclosed a data breach affecting its C-Track court case management platform, where an unauthorized party accessed files in March 2026 but wasn't discovered until June 2026. The breach impacted courts across 11 U.S. states, the U.S. Virgin Islands, and Ontario, Canada, and may have exposed sensitive personal information including Social Security numbers and sealed court records. This incident highlights the vulnerability of critical judicial infrastructure to cyber attacks and the risks posed to individuals whose private legal matters were compromis",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "sensitive-data-exposure",
-        "court-records",
-        "ssn-compromise",
-        "critical-infrastructure"
-      ],
-      "whyItMatters": "This breach affects a core judicial system used across multiple states and jurisdictions, putting sensitive personal data and confidential court proceedings at risk. The three-month delay between the actual breach and discovery demonstrates the dangers of delayed breach detection in mission-critical systems. Organizations managing sensitive government and legal data must prioritize robust monitori",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiX1nx19KbhbT0_rYFjMzqgJuG35q7QvJiMrikolTZV9sWztkSoSFUr95E-h-9vHv-GBGmRHAyh5Du0DDMYMr1m0VbD5YgYO6dVoY7p8d6Z5BbORiBOGgJfZjg4euf9uwUkGO4ZX8QZXUpuU0CFUwNV46UozcdMJ9SyZ4T4cy4pAI9ho7xYQ8cDJaFdfKM/s1600/reuters.jpg",
-      "processedAt": "2026-09-06T19:39:58.581634+00:00"
-    },
-    {
-      "id": "art-57af63eb",
-      "title": "US Becomes Top Target in RMM Phishing Campaign Spanning 46 Countries",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://thehackernews.com/2026/09/us-becomes-top-target-in-rmm-phishing.html",
-      "summary": "Cybersecurity researchers discovered that a phishing campaign initially thought to target only Canada has actually spread across 46 countries, with the United States being the primary focus, accounting for 45% of attacks. The campaign uses fake Canadian tax forms from the Canada Revenue Agency as bait to trick victims into clicking malicious links. Researchers documented over 600 cases connected to this widespread operation, revealing a much larger threat than initially believed.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-campaign",
-        "rmm-attacks",
-        "social-engineering",
-        "geographic-targeting",
-        "multi-country"
-      ],
-      "whyItMatters": "This global phishing campaign demonstrates how attackers adapt lures to specific regions while maintaining infrastructure across dozens of countries, making it a significant threat to organizations worldwide. The scale (600+ cases across 46 countries) and targeting sophistication indicate this is an organized, well-resourced threat group that security teams need to actively defend against. Underst",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_OZ4yHwsQM1Z9se2g-uJPuSkiSNpmyWCCi_a9dKpH9jnTuFYyts16e2gdkB45YknrA-nuzp6-mbEi-1adV92N-7aBjfYL69ECPlWOV7a5xb5rG6kqsMzc3WJ0-lXLBMO86aB3WTJ6MFLR0N0YbC8TElIg0-Jh6SIDe8mc3nCyzoE6zugVDFHFfjPEGkI/s1600/targets.jpg",
-      "processedAt": "2026-09-06T19:40:01.913217+00:00"
-    },
-    {
-      "id": "art-a3a37643",
-      "title": "Attackers conceal phishing lures using invisible Unicode characters",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
-      "summary": "Cybercriminals are using a technique called ASCII smuggling, which involves hiding invisible Unicode characters, to make phishing emails bypass security filters. This method allows attackers to craft deceptive messages that appear legitimate to both email systems and users. By exploiting how different systems interpret invisible characters, threat actors can increase the success rate of their phishing attacks.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "unicode-exploit",
-        "email-security",
-        "ascii-smuggling",
-        "evasion-technique"
-      ],
-      "whyItMatters": "This technique directly undermines email security filters that organizations rely on to protect users, making phishing attacks harder to detect and block. As attackers adopt these evasion methods, security teams must update their filtering rules and users need heightened awareness to recognize sophisticated phishing attempts that technical defenses might miss.",
-      "image": null,
-      "processedAt": "2026-09-06T19:40:04.680053+00:00"
-    },
-    {
-      "id": "art-e154b79f",
-      "title": "Coder's registry infrastructure compromised to push malicious modules",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/",
-      "summary": "Attackers compromised Coder's Cloudflare infrastructure to inject malicious Terraform modules into their registry. These compromised modules contained credential-stealing code designed to harvest sensitive authentication information from users. This attack demonstrates how supply chain infrastructure can be weaponized to distribute malware to developers who trust popular registries.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware-distribution",
-        "cloud-infrastructure",
-        "terraform",
-        "credential-theft",
-        "registry-compromise"
-      ],
-      "whyItMatters": "This attack directly impacts developers and organizations relying on Coder's infrastructure, potentially compromising sensitive credentials across multiple systems. Supply chain attacks like this are particularly dangerous because they exploit trust in legitimate platforms, making it difficult for users to distinguish malicious from legitimate modules. Organizations must immediately audit their in",
-      "image": null,
-      "processedAt": "2026-09-06T19:40:07.786307+00:00"
-    },
-    {
-      "id": "art-b6dfe987",
-      "title": "HPE patches critical ArubaOS-CX remote code execution flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hpe-patches-critical-arubaos-cx-remote-code-execution-flaw/",
-      "summary": "HPE has released a security patch for a critical vulnerability in ArubaOS-CX that allows attackers to execute code remotely on affected network systems. This flaw poses a serious risk to organizations using HPE's network operating system in their infrastructure. Administrators should apply the patch immediately to prevent potential unauthorized access and system compromise.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "arubaos-cx",
-        "remote-code-execution",
-        "hpe",
-        "network-security",
-        "patch-available",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "Remote code execution vulnerabilities in network operating systems are extremely dangerous because they can give attackers complete control over critical network infrastructure. Organizations running ArubaOS-CX must patch immediately to prevent exploitation, as unpatched systems could be targeted by threat actors to compromise entire networks and sensitive data. This highlights why timely patching",
-      "image": null,
-      "processedAt": "2026-09-06T19:40:10.744983+00:00"
-    },
-    {
-      "id": "art-8afa14b2",
-      "title": "Microsoft: KB5120998 mouse reset bug affects only non-English PCs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-kb5120998-mouse-reset-bug-affects-only-non-english-pcs/",
-      "summary": "Microsoft has identified a bug in the KB5120998 August 2026 preview update that causes mouse settings to reset after installation, but the issue only impacts non-English versions of Windows 11. Users with English-language Windows installations are unaffected by this particular problem. This discovery highlights how software bugs can have unexpected language-specific impacts across different system configurations.",
-      "category": "Patching and Updates",
-      "severity": "Low",
-      "tags": [
-        "patch-bug",
-        "windows-11",
-        "kb5120998",
-        "mouse-settings",
-        "language-specific",
-        "preview-update"
-      ],
-      "whyItMatters": "This bug demonstrates the importance of thorough testing across multiple language versions before releasing patches, as it impacts non-English users who may experience unexpected configuration changes. Organizations deploying Windows updates internationally need to be aware of language-specific issues that could affect user experience and productivity.",
-      "image": null,
-      "processedAt": "2026-09-06T19:40:13.624585+00:00"
-    },
-    {
-      "id": "art-a45a6b6f",
-      "title": "OpenAI confirms ChatGPT is down ahead of 'Astra' model launch",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-03",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-ahead-of-astra-model-launch/",
-      "summary": "OpenAI's ChatGPT and Codex services experienced a widespread outage affecting multiple features, occurring around the time of an announced 'Astra' model launch. Users encountered errors when attempting to access the platform's core functionalities. The incident highlights the importance of service reliability for AI platforms that many organizations now depend on for daily operations.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "service-outage",
-        "ai-security",
-        "cloud-availability",
-        "chatgpt",
-        "operational-resilience"
-      ],
-      "whyItMatters": "Major AI service outages can disrupt business operations for millions of users and organizations relying on these tools for productivity and decision-making. This incident demonstrates vulnerabilities in critical cloud infrastructure and the need for robust redundancy and incident response planning when deploying AI services at scale.",
-      "image": null,
-      "processedAt": "2026-09-06T19:40:16.314613+00:00"
     }
   ]
 }
