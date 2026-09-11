@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-09-11T10:57:09.728705+00:00",
+  "lastUpdated": "2026-09-11T20:08:17.056351+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-453483a8",
+      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+      "summary": "GitLab has released security patches addressing multiple vulnerabilities, including a critical flaw (CVE-2026-85706) with a perfect CVSS score of 10.0. This path traversal bug in the repository commits API allows attackers without authentication to read sensitive files directly from GitLab servers. The vulnerability has already been actively exploited in the wild within hours of becoming public, making immediate patching essential for organizations using GitLab.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "path-traversal",
+        "gitlab",
+        "unauthenticated-access",
+        "file-read",
+        "patch-urgent",
+        "zero-day-exploitation"
+      ],
+      "whyItMatters": "This maximum-severity flaw poses an immediate threat because it requires no authentication, affects a widely-used development platform, and is already being actively exploited. Organizations running GitLab must apply patches immediately to prevent unauthorized access to sensitive source code, credentials, and configuration files stored in their repositories.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s1600/gitlab-wild.jpg",
+      "processedAt": "2026-09-11T20:07:49.736959+00:00"
+    },
+    {
+      "id": "art-0f1967ea",
+      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+      "summary": "Anthropic discovered and stopped illegal attacks where seven Chinese AI laboratories, including major companies like Alibaba and DeepSeek, were using industrial-scale techniques to steal and copy Claude's AI model through a method called knowledge distillation. While knowledge distillation is normally a legitimate way to train AI systems, these attackers were misusing it to create unauthorized copies of Anthropic's proprietary technology without permission.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "model-theft",
+        "intellectual-property",
+        "distillation-attacks",
+        "china-based-threat"
+      ],
+      "whyItMatters": "This incident demonstrates how valuable AI models have become as targets for theft and unauthorized replication at scale. Organizations developing advanced AI systems now face organized, industrial-level attacks designed to steal their technology, requiring stronger defenses and monitoring of model usage. The incident highlights emerging cybersecurity risks in the AI space where traditional securi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIEiaJBfFrHCrYlSFKWGSRYD6CW_EeKfmYWCZw4jm5c9hyphenhyphenDVbaSIhyphenhyphenXwFB0ncQOoB10crmwgJV9nsvhQzJNuVMsDh6jPVt2ep23r0A2PB7ZhLfTroa0Ff__kyjjX2MjP4ok4DtBwFEF1VZC7b5OOCkibJBbwECsR0Y_9S1-NpdEIw04J5FtY9OloB084t_/s1600/claude-china.jpg",
+      "processedAt": "2026-09-11T20:07:52.571255+00:00"
+    },
+    {
+      "id": "art-c02babd9",
+      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+      "summary": "Anthropic has disclosed that cybercriminals and state-sponsored actors are exploiting Claude AI models to conduct cyberattacks, design weapons, spread propaganda, and execute mass surveillance operations. Between December 2025 and August 2026, various threat groups classified as Generative Threat Groups (GTGs)—including nation-states and financially motivated criminals—have weaponized the AI platform for malicious purposes. This marks a significant shift in how advanced AI tools are being abused for large-scale cyber operations.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "claude-abuse",
+        "generative-threat-groups",
+        "cybercrime",
+        "state-sponsored-attacks",
+        "ai-exploitation"
+      ],
+      "whyItMatters": "This demonstrates that advanced AI models are now active attack vectors being weaponized by sophisticated threat actors, necessitating urgent controls around AI tool access and monitoring. Organizations relying on AI services must implement strict governance, audit trails, and detection mechanisms to prevent their AI tools from being co-opted for exploitation campaigns. The involvement of state-sp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0iCBQ4Eqxn0QOtvYZSysksPzr5fT0m8aLqNTa0a7Gcz3A5ikRt1oAenJwzo8rxcLERq54SNLtRvkYXKMTo0nMOmV8pWh4It3T0vP7q4J5Z23tdDkbBf3j7v317S7sQbBBbN6j6MuHusofo3qcbm2Y3DWT76gHp4Z1_En2QnJMCyEpvCo1sCcXoRZVw5-/s1600/claudeai.jpg",
+      "processedAt": "2026-09-11T20:07:55.933978+00:00"
+    },
+    {
+      "id": "art-9230de6c",
+      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+      "summary": "Anthropic discovered that Russian state-sponsored hackers, identified as GTG-20006, were using Claude AI to develop malware and stay ahead of security detection systems. This group used an AI-assisted workflow to quickly rebuild and modify malicious code after it was discovered by security researchers. The incident highlights how threat actors are leveraging advanced AI tools to accelerate their cyber operations and evade traditional defense mechanisms.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "state-sponsored",
+        "malware-development",
+        "russian-hackers",
+        "detection-evasion",
+        "generative-ai-abuse"
+      ],
+      "whyItMatters": "This represents an active, sophisticated exploitation of AI systems by state actors to enhance malware capabilities and detection evasion, posing an immediate threat to global cybersecurity. Organizations must now consider AI tools themselves as potential attack vectors and reassess how they monitor for misuse of generative AI platforms. This signals an escalating arms race where adversaries are w",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtfzeoSe_6tXrJiKsyJfN4vYk6suLsJPF3-SOJWE8LAaZ6_WixrsJVjZ0T8O6jdtB1d08IR8swK6H0B4S_m7-0YfIiJlVPHuL7guxwC-4ANLXUyNsEWfIusPzvOMPOKSBmFcBT1NBBVWIglIRlT8fs6O9Uc6ZRBRgWZNPbvgAVIj8gIXfusRwZh0tndhni/s1600/claude-malware.jpg",
+      "processedAt": "2026-09-11T20:07:59.280121+00:00"
+    },
+    {
+      "id": "art-438dea1b",
+      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
+      "summary": "Security teams are skilled at identifying vulnerabilities, but not all critical-rated vulnerabilities pose actual exploitation risks. The article argues that organizations should focus on whether vulnerabilities can realistically be exploited based on defensive controls like segmentation and identity management, rather than treating every critical vulnerability with equal urgency.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "vulnerability-prioritization",
+        "risk-assessment",
+        "defense-in-depth",
+        "network-segmentation",
+        "threat-modeling"
+      ],
+      "whyItMatters": "This perspective helps security teams allocate limited resources more effectively by distinguishing between vulnerabilities that pose genuine exploitation risk and those mitigated by existing defenses. Proper risk prioritization reduces alert fatigue, improves response efficiency, and prevents organizations from wasting time patching low-impact issues while ignoring more exploitable weaknesses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPPe_ve3Cylrq2fJ8HTFPebWF7lR7tvzMvL3mwFcGZNF2KWesOGc66BfO7NbiPxmsiao8jcItyikguKNqsEGfpJEcAvacbP7rflAaAT-e0Y1IbsNCNvdqvXMbwERLlPpV0PMhk9c5esoEjCE97wglh8rU9xZ7eGz2N4BOpzFYTb9-Ln3FaBRQiscqzK7U/s1600/breachlock.jpg",
+      "processedAt": "2026-09-11T20:08:02.093497+00:00"
+    },
+    {
+      "id": "art-c617806c",
+      "title": "Florida confirms DMV database breached via stolen police account",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
+      "summary": "Florida's Department of Highway Safety and Motor Vehicles confirmed that hackers breached its DAVID driver database by using stolen login credentials from a police department employee. The attackers were able to access sensitive driver information through this compromised law enforcement account. This incident highlights how criminals can exploit stolen credentials from trusted officials to access critical government databases.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "credential-theft",
+        "government-database",
+        "law-enforcement",
+        "insider-access",
+        "identity-theft-risk"
+      ],
+      "whyItMatters": "This breach demonstrates a critical vulnerability in government infrastructure where compromised law enforcement credentials can grant attackers direct access to sensitive databases affecting millions of citizens. The incident underscores the importance of multi-factor authentication, credential monitoring, and access controls in protecting government systems that store personal driver information",
+      "image": null,
+      "processedAt": "2026-09-11T20:08:04.576124+00:00"
+    },
+    {
+      "id": "art-c4ea8e59",
+      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
+      "summary": "Cybercriminals from groups like ShinyHunters and Helix are tricking people into giving up their Microsoft 365 account credentials by pretending to offer passkey and single sign-on services. These attackers are using social engineering tactics to gain unauthorized access to corporate Microsoft accounts and steal sensitive data stored in cloud services. This type of attack is particularly effective because passkeys are becoming more popular as a security feature, making the deception more convincing.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "phishing",
+        "microsoft-365",
+        "social-engineering",
+        "account-compromise",
+        "data-theft",
+        "cloud-security"
+      ],
+      "whyItMatters": "This threat is critical because it targets a widely-used enterprise platform and exploits user trust in modern security features, making employees vulnerable despite organizations' security investments. Compromised Microsoft 365 accounts give attackers direct access to email, files, and collaboration tools containing sensitive business data, potentially affecting entire organizations. Understandin",
+      "image": null,
+      "processedAt": "2026-09-11T20:08:07.933590+00:00"
+    },
+    {
+      "id": "art-fee2d914",
+      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
+      "summary": "Hackers are actively exploiting multiple security flaws in JFrog Artifactory, a widely-used software repository platform, to break past authentication protections and gain full administrative control. Once inside vulnerable systems, attackers install a sophisticated Rust-based backdoor that allows them to maintain unauthorized access to self-hosted servers. This coordinated attack chain demonstrates how chaining multiple vulnerabilities together can lead to complete system compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "artifactory",
+        "vulnerability-exploitation",
+        "backdoor-malware",
+        "authentication-bypass",
+        "privilege-escalation",
+        "rust-malware"
+      ],
+      "whyItMatters": "Artifactory is a critical infrastructure component for many organizations, storing software builds and dependencies. Active exploitation of these vulnerabilities puts thousands of companies at immediate risk of having their supply chains compromised, allowing attackers to inject malicious code into software that reaches end users. Organizations running self-hosted Artifactory instances need to pat",
+      "image": null,
+      "processedAt": "2026-09-11T20:08:11.105156+00:00"
+    },
+    {
+      "id": "art-6395eb57",
+      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
+      "summary": "Cybercriminals are exploiting popular AI platforms like Claude to distribute malware and deceive users by embedding malicious content in AI artifacts and shared conversations. These attackers use tactics such as poisoning search results, creating fake sponsored ads, and employing social engineering tricks similar to ClickFix schemes to trick people into installing malware. This emerging threat demonstrates how trusted tools can become vectors for attack when users let their guard down.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "malware-distribution",
+        "phishing",
+        "social-engineering",
+        "trusted-platforms",
+        "security-awareness"
+      ],
+      "whyItMatters": "As users increasingly rely on AI platforms for legitimate work, attackers are weaponizing that trust to spread malware at scale. Organizations need to educate employees that AI platforms are not immune to abuse, and users must remain vigilant about verifying content sources even within trusted applications.",
+      "image": null,
+      "processedAt": "2026-09-11T20:08:14.196758+00:00"
+    },
+    {
+      "id": "art-b084d9ed",
+      "title": "GitLab urges users to patch max severity path traversal flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
+      "summary": "GitLab has identified a critical path traversal vulnerability (CVE-2026-85706) that allows attackers to access files and directories outside intended boundaries on affected servers. Users are being urged to apply patches immediately to prevent potential unauthorized access to sensitive data. This flaw poses a maximum severity risk and requires urgent action from all GitLab installations.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "gitlab",
+        "path-traversal",
+        "cve-2026-85706",
+        "patch-now",
+        "vulnerability",
+        "maximum-severity"
+      ],
+      "whyItMatters": "Path traversal vulnerabilities can give attackers direct access to sensitive files and system configuration data on GitLab servers, potentially leading to source code theft, credential exposure, or system compromise. The maximum severity rating and urgent patching call indicate active exploitation risk or widespread vulnerability, making immediate updates essential to protect infrastructure and in",
+      "image": null,
+      "processedAt": "2026-09-11T20:08:17.056159+00:00"
+    },
     {
       "id": "art-921e95e9",
       "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
@@ -831,212 +1039,6 @@
       "whyItMatters": "The EU CRA's 24-hour reporting window creates urgent operational pressure on software vendors to have robust vulnerability tracking systems in place. Non-compliance could result in significant penalties, making it critical for organizations to understand their supply chain and maintain accurate version control and vulnerability discovery timelines. This regulation fundamentally changes how quickly",
       "image": null,
       "processedAt": "2026-09-09T20:07:25.695851+00:00"
-    },
-    {
-      "id": "art-79474c6e",
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-      "summary": "Google released patches for 230 security vulnerabilities in Chrome, including a medium-severity zero-day flaw in the V8 JavaScript engine that attackers are actively exploiting. The vulnerability is an out-of-bounds write bug that allows code execution within Chrome's sandbox environment. This flaw demonstrates how even browser security layers can be compromised through engine-level bugs. Users should update Chrome immediately to protect against active attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "chrome",
-        "v8-engine",
-        "code-execution",
-        "active-exploitation",
-        "patch-now"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability means attackers are currently using it in real-world attacks, making immediate patching essential for all Chrome users. The ability to execute code inside Chrome's sandbox bypasses a critical security boundary, potentially allowing attackers to escape browser isolation and access system resources. This highlights the importance of keeping browsers updated ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZvl2DE9GFM-4rdFgtQOOp1Dk3Xgp7xWysUv5zKTFwxqWYTurcgXgE-PDMn3_2AAIihh4YeiRvmwpb6GVDB1-8kxqasUWwX-FFa4mA41kXpFbzdt9hOvzW4xcyKBFttqIzbFSl-1SSSO0P_URv3Sy9QamkQZ55qzX5Y9Kmv5NdBCBHXCcUziiO6mfrqURE/s1600/chrome-zeroday.jpg",
-      "processedAt": "2026-09-09T11:01:59.212085+00:00"
-    },
-    {
-      "id": "art-2932d795",
-      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "summary": "cPanel released a security patch for a critical vulnerability affecting all supported versions of its software. The flaw allows hosting account users with mail privileges to upload arbitrary files through the EmailTrack feature and execute code with root-level permissions, giving them complete control over the server. This means a single compromised or malicious hosting account could potentially take over an entire server and all accounts hosted on it.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cpanel",
-        "privilege-escalation",
-        "authentication-bypass",
-        "patch-now",
-        "hosting-security",
-        "root-access"
-      ],
-      "whyItMatters": "This vulnerability is critical because it affects a widely-used hosting control panel and allows authenticated users to escalate privileges to root level, potentially compromising all hosted websites and data on a shared server. Organizations using cPanel must apply the patch immediately to prevent attackers from gaining complete server control through mail-enabled hosting accounts.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM_YdNiqGpEWkDm5hEkF-RhZ94vv84sJmONomdRsksJ65GwI388Va-uVIzXWhwZtHmBTF3oze2l4Sscj2zpTsn6lqdPWPKAeL1iP6SSyzvNBOA4dLAKxfSmfThhmQgIc_1AYGWG9dbrCLFg_dk4m8pCHxFcJBRnThru8PtB7UJqUy3VjW15-vQlRvuwpc/s1600/cpanel-bug.jpg",
-      "processedAt": "2026-09-09T11:02:02.209794+00:00"
-    },
-    {
-      "id": "art-b1565158",
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-      "summary": "Malware targeting F5 BIG-IP Access Policy Manager devices uses a sophisticated technique to hide a PHP web shell in memory rather than on disk, allowing it to evade traditional security scans. When Apache processes the appliance's own PHP scripts, the malware injects the shell into the running memory copy, leaving the actual files untouched and appearing clean. This memory-based hiding method makes detection significantly harder for administrators relying on disk-based file integrity checks.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "f5-big-ip",
-        "web-shell",
-        "memory-injection",
-        "evasion",
-        "apache",
-        "active-exploitation"
-      ],
-      "whyItMatters": "This attack demonstrates advanced evasion techniques that bypass standard disk-based security scans, making it harder for defenders to detect compromised systems. F5 BIG-IP APM devices are critical network infrastructure components, so their compromise poses a serious risk to organizational security. Understanding this memory-injection method is essential for organizations to implement more sophis",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIA552mINL2oyFm7mf9nHTwjJGJUVAtfYnMXbqYsowSEsDMzVsAgHG8MHKn5_EmwZ9bgRmhEndE20FhQAN4rvOLv5ESSAu0kHTV4QyygvUePYCJ1fvda0bU0Mzi5B9J8LHhULDeRRI9HGC84dntx8jaLu6WFLOz6OOhEwKNnSf6zzFRyAtlLKDQzHvygg/s1600/f5-malware.jpg",
-      "processedAt": "2026-09-09T11:02:05.139395+00:00"
-    },
-    {
-      "id": "art-46a08c40",
-      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-      "summary": "A security researcher named Chaotic Eclipse has released a proof-of-concept exploit for a new vulnerability in Microsoft Defender called ShieldCrash, which bypasses the patch for a previously reported flaw (CVE-2026-69414, rated 7.8 CVSS). This indicates that Microsoft's initial fix for the ShieldBreak vulnerability was incomplete, leaving systems still exposed to attack. The disclosure highlights ongoing security gaps in one of the world's most widely used antivirus solutions.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "microsoft-defender",
-        "patch-bypass",
-        "cve-2026-69414",
-        "vulnerability-disclosure"
-      ],
-      "whyItMatters": "Microsoft Defender protects millions of devices globally, so a bypass that circumvents its security patches represents a widespread and urgent threat. Organizations cannot rely on Microsoft's initial patch for ShieldBreak and must await a proper fix while their systems remain vulnerable to exploitation. This incident underscores the importance of defense-in-depth strategies and not relying solely ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZtPq88H-iuD1vEn_DT-1UgFvWXy-P5eKMUm280xVsPt3_Dja1q22icfvF49OduVCGmazXmVmi51Oj58t-2H6JMA4e89X_-obRVRVORjeAZoQzNnw3Io6ad_LofQ1kfum9XeiHC9cijCgAiRL-RsRYjECDVPD_ZT3w61CFj1lkwe2sSZ_1_eSn6Oruh9MJ/s1600/windows-poc.jpg",
-      "processedAt": "2026-09-09T11:02:08.527609+00:00"
-    },
-    {
-      "id": "art-01013eee",
-      "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
-      "summary": "SAP has released security patches for a critical vulnerability in SAP Extended Passport (EPP) Processing that allows attackers to execute code remotely without authentication. The flaw, identified as CVE-2026-44756 with a perfect CVSS score of 10.0, stems from memory corruption issues and poses severe risks to system confidentiality, integrity, and availability. This is one of the most dangerous types of vulnerabilities because it requires no user interaction or credentials to exploit.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "memory-corruption",
-        "remote-code-execution",
-        "unauthenticated-access",
-        "sap-systems",
-        "patch-immediately",
-        "cvss-10"
-      ],
-      "whyItMatters": "A CVSS 10.0 vulnerability with unauthenticated remote code execution capability represents an existential threat to any organization running affected SAP systems. Organizations must prioritize patching immediately, as this vulnerability likely requires no special access or user interaction, making it trivial for attackers to exploit at scale. Delay in applying these patches could result in complet",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwUnFS6EAvkjYM7AC_3-k8C6QSAmpatuThkiXaa1WxvtiZU7M-n384kpPN4-VSAQfwL8PCTPUVd3iYeTDn_V5ZoZGEfuizJSZghdAw4Ldq_wFg7rxWyKBbwdMctiiBaykAmL40L6wappUeeyIr58u8SFFSszCP-rszf5ioHsaz0dtKilEpkw1LTEmtaCtZ/s1600/sap-flaws.jpg",
-      "processedAt": "2026-09-09T11:02:11.758870+00:00"
-    },
-    {
-      "id": "art-6986787b",
-      "title": "Over 36,000 exposed Plex servers vulnerable to recent flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/over-36-000-plex-servers-unpatched-against-recently-disclosed-flaws/",
-      "summary": "A significant number of Plex Media servers—over 36,000 instances—are publicly accessible on the internet but have not been updated to fix known security vulnerabilities. These unpatched servers represent an open opportunity for attackers to exploit the flaws and gain unauthorized access to user data and systems. Organizations and individuals running Plex need to apply patches immediately to protect their infrastructure.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "plex-media-server",
-        "unpatched-vulnerabilities",
-        "exposed-servers",
-        "patch-management",
-        "internet-facing-risk"
-      ],
-      "whyItMatters": "This highlights a critical gap between vulnerability disclosure and real-world patching—thousands of exposed systems remain at risk despite fixes being available. Unpatched media servers can serve as entry points for attackers to access sensitive files, user credentials, and potentially lateral movement into broader networks. This situation underscores the importance of timely patch deployment and",
-      "image": null,
-      "processedAt": "2026-09-09T11:02:14.989796+00:00"
-    },
-    {
-      "id": "art-e26c7e90",
-      "title": "Man gets 15 years for extorting women with AI-generated porn videos",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/man-gets-15-years-in-prison-for-cyberstalking-and-sextortion/",
-      "summary": "An Ohio man was sentenced to 15 years in prison for using AI-generated sexually explicit videos to extort and cyberstalk multiple women. This case highlights a dangerous emerging crime where offenders leverage artificial intelligence to create fake intimate content for blackmail and harassment purposes. The severe punishment demonstrates law enforcement's commitment to prosecuting these cybercrimes and protecting victims from AI-enabled abuse.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "sextortion",
-        "ai-generated-content",
-        "cyberstalking",
-        "sexual-exploitation",
-        "extortion"
-      ],
-      "whyItMatters": "This case demonstrates how AI technology is being weaponized for serious crimes against real people, showing that legal consequences exist but also revealing the urgent need for better detection tools and victim protection. Organizations and individuals must recognize AI-generated content as a legitimate security threat and understand the psychological and legal impact of such attacks. The convict",
-      "image": null,
-      "processedAt": "2026-09-09T11:02:18.114507+00:00"
-    },
-    {
-      "id": "art-2fbc56e9",
-      "title": "New Microsoft Defender 'ShieldCrash' zero-day grants SYSTEM access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-microsoft-defender-shieldcrash-zero-day-grants-system-access/",
-      "summary": "A researcher named Nightmare Eclipse has discovered and released a zero-day vulnerability in Microsoft Defender called 'ShieldCrash' that allows attackers to gain SYSTEM-level access to compromised computers. This exploit was released shortly after Microsoft's September 2026 Patch Tuesday updates, meaning the vulnerability was not yet patched. The flaw represents a critical weakness in one of the world's most widely used security tools.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "microsoft-defender",
-        "privilege-escalation",
-        "system-access",
-        "patch-tuesday",
-        "shieldcrash"
-      ],
-      "whyItMatters": "Since Microsoft Defender is deployed on millions of Windows systems globally, a zero-day granting SYSTEM access poses an immediate and widespread threat to enterprise and consumer security. Attackers can exploit this vulnerability to completely compromise affected systems before a patch is available. Organizations must prioritize monitoring for exploitation attempts and prepare emergency mitigatio",
-      "image": null,
-      "processedAt": "2026-09-09T11:02:21.421596+00:00"
-    },
-    {
-      "id": "art-85036ae7",
-      "title": "Google warns of new Chrome zero-day bug exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-patches-seventh-chrome-zero-day-exploited-in-attacks-this-year/",
-      "summary": "Google released security patches for 230 vulnerabilities in Chrome, including a seventh zero-day bug that attackers are actively exploiting in real-world attacks. This marks a significant security update addressing multiple critical flaws in one of the world's most widely used web browsers. The rapid succession of zero-day exploits highlights ongoing threats targeting Chrome users globally.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "chrome",
-        "active-exploitation",
-        "patch-urgent",
-        "google-security",
-        "vulnerability-patch"
-      ],
-      "whyItMatters": "Active exploitation of zero-day vulnerabilities means attackers are already using these flaws against real users before patches are available, making immediate updates essential. With seven zero-days patched in one year, Chrome users face an elevated risk requiring prompt action to apply security updates. Organizations and individuals relying on Chrome must prioritize installing these patches to p",
-      "image": null,
-      "processedAt": "2026-09-09T11:02:24.412793+00:00"
-    },
-    {
-      "id": "art-f2d0678d",
-      "title": "Microsoft adds age-awareness APIs that can tell if users are children, teens, or adults",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-adds-age-awareness-apis-that-can-tell-if-users-are-children-teens-or-adults/",
-      "summary": "Microsoft is introducing new age-awareness APIs for Windows 11 that enable applications to identify whether users are children, teenagers, or adults without requiring apps to access or store actual birth dates. This technology aims to protect younger users by allowing developers to implement age-appropriate content restrictions and safety features more effectively. The approach prioritizes privacy by obscuring personal identifying information while still enabling important safeguarding mechanisms.",
-      "category": "Privacy",
-      "severity": "Medium",
-      "tags": [
-        "age-verification",
-        "privacy-protection",
-        "windows-11",
-        "api-security",
-        "child-safety"
-      ],
-      "whyItMatters": "This development balances user protection with privacy concerns by allowing age-appropriate content filtering without exposing sensitive personal data like birth dates. Organizations and developers need to understand these new APIs to implement compliant age verification systems while minimizing privacy risks and data exposure. Proper implementation can reduce regulatory compliance violations rela",
-      "image": null,
-      "processedAt": "2026-09-09T11:02:27.766932+00:00"
     }
   ]
 }
