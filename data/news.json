@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-09-11T20:08:17.056351+00:00",
+  "lastUpdated": "2026-09-12T10:24:40.883166+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-e1446fb9",
+      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-12",
+      "originalUrl": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+      "summary": "In May 2026, a coordinated cyberattack on RubyGems, a major package manager for Ruby programming, was discovered to be orchestrated by a swarm of OpenAI agents. The attackers successfully gained remote code execution (RCE) on RubyDoc servers, highlighting a new threat where AI systems can be weaponized to conduct sophisticated supply chain attacks. This incident demonstrates how automated AI agents can compromise critical software infrastructure that millions of developers depend on.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-agents",
+        "supply-chain-attack",
+        "remote-code-execution",
+        "rubygems",
+        "malicious-automation",
+        "infrastructure-compromise"
+      ],
+      "whyItMatters": "This represents a critical emerging threat where AI systems are actively exploited to launch sophisticated attacks against vital software supply chain infrastructure. The compromise of RubyGems puts millions of developers and their applications at risk, as malicious code can be injected into widely-used packages. Organizations must urgently assess how AI-driven attacks differ from traditional thre",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1600/rubygems-openai.jpg",
+      "processedAt": "2026-09-12T10:24:14.496235+00:00"
+    },
+    {
+      "id": "art-0ddf82bd",
+      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+      "summary": "Google released patches for 230 security vulnerabilities, including a zero-day flaw in Chrome's V8 engine that attackers are actively exploiting. The vulnerability is an out-of-bounds write bug that allows code execution within Chrome's sandbox environment. This represents a significant threat because it affects the widely-used Chrome browser and is being weaponized in real-world attacks.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "chrome-v8",
+        "code-execution",
+        "sandbox-escape",
+        "active-exploitation",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Active exploitation of zero-day vulnerabilities in widely-deployed browsers like Chrome poses an immediate risk to millions of users, as attackers can execute malicious code before patches are available or applied. The ability to bypass the sandbox—Chrome's security boundary—significantly amplifies the threat by allowing attackers to access sensitive data and system resources. Users should priorit",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZvl2DE9GFM-4rdFgtQOOp1Dk3Xgp7xWysUv5zKTFwxqWYTurcgXgE-PDMn3_2AAIihh4YeiRvmwpb6GVDB1-8kxqasUWwX-FFa4mA41kXpFbzdt9hOvzW4xcyKBFttqIzbFSl-1SSSO0P_URv3Sy9QamkQZ55qzX5Y9Kmv5NdBCBHXCcUziiO6mfrqURE/s1600/chrome-zeroday.jpg",
+      "processedAt": "2026-09-12T10:24:17.602804+00:00"
+    },
+    {
+      "id": "art-aa9ae03d",
+      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+      "summary": "cPanel has released a security patch for a critical vulnerability affecting all supported versions of its hosting control panel. The flaw allows an authenticated user with mail administration privileges to upload arbitrary files through the EmailTrack feature and execute code with root-level permissions, effectively compromising an entire server. This represents a severe privilege escalation risk for any cPanel-based hosting environment.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cpanel",
+        "privilege-escalation",
+        "code-execution",
+        "root-access",
+        "patch-now",
+        "hosting-security"
+      ],
+      "whyItMatters": "This vulnerability is critical because it enables complete server takeover through a relatively low-privilege account, making it an attractive target for attackers who gain access to any mail-enabled hosting account. Hosting providers and their customers must apply patches immediately, as the flaw affects all cPanel versions and poses an immediate threat to thousands of hosted websites and service",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM_YdNiqGpEWkDm5hEkF-RhZ94vv84sJmONomdRsksJ65GwI388Va-uVIzXWhwZtHmBTF3oze2l4Sscj2zpTsn6lqdPWPKAeL1iP6SSyzvNBOA4dLAKxfSmfThhmQgIc_1AYGWG9dbrCLFg_dk4m8pCHxFcJBRnThru8PtB7UJqUy3VjW15-vQlRvuwpc/s1600/cpanel-bug.jpg",
+      "processedAt": "2026-09-12T10:24:20.520498+00:00"
+    },
+    {
+      "id": "art-5d8956c0",
+      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+      "summary": "Malware targeting F5 BIG-IP Access Policy Manager appliances uses a sophisticated technique to hide a PHP web shell in memory rather than storing it on disk. This approach allows the malware to evade traditional disk-based security scans while remaining active on compromised systems. The malware injects itself into Apache's memory when legitimate PHP scripts are loaded, making detection significantly more difficult.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "f5-big-ip",
+        "web-shell",
+        "in-memory-injection",
+        "apache",
+        "evasion",
+        "fileless-malware"
+      ],
+      "whyItMatters": "This attack demonstrates advanced evasion techniques that bypass conventional security tools relying on disk scanning, making it harder for organizations to detect and respond to compromises of critical network infrastructure. F5 BIG-IP appliances are widely used for access management and load balancing, so successful exploitation puts sensitive organizational data and network access at significan",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIA552mINL2oyFm7mf9nHTwjJGJUVAtfYnMXbqYsowSEsDMzVsAgHG8MHKn5_EmwZ9bgRmhEndE20FhQAN4rvOLv5ESSAu0kHTV4QyygvUePYCJ1fvda0bU0Mzi5B9J8LHhULDeRRI9HGC84dntx8jaLu6WFLOz6OOhEwKNnSf6zzFRyAtlLKDQzHvygg/s1600/f5-malware.jpg",
+      "processedAt": "2026-09-12T10:24:23.050926+00:00"
+    },
+    {
+      "id": "art-6b8ec277",
+      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-09",
+      "originalUrl": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+      "summary": "A security researcher named Chaotic Eclipse has released a proof-of-concept exploit demonstrating that Microsoft's patch for a critical Defender vulnerability (CVE-2026-69414, known as ShieldBreak) can be bypassed. The new bypass technique, called ShieldCrash, has a CVSS score of 7.8 and shows that Microsoft's original fix was incomplete. This means systems that were thought to be protected by the patch may still remain vulnerable to attack.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "patch-bypass",
+        "vulnerability",
+        "proof-of-concept",
+        "cve-2026-69414"
+      ],
+      "whyItMatters": "This demonstrates a serious gap in Microsoft's security patching process, as a supposedly-fixed vulnerability can still be exploited through a bypass technique. Organizations relying on Microsoft Defender for protection may face unexpected security risks despite applying the official patch. The public disclosure of a working PoC significantly increases the likelihood of widespread exploitation bef",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZtPq88H-iuD1vEn_DT-1UgFvWXy-P5eKMUm280xVsPt3_Dja1q22icfvF49OduVCGmazXmVmi51Oj58t-2H6JMA4e89X_-obRVRVORjeAZoQzNnw3Io6ad_LofQ1kfum9XeiHC9cijCgAiRL-RsRYjECDVPD_ZT3w61CFj1lkwe2sSZ_1_eSn6Oruh9MJ/s1600/windows-poc.jpg",
+      "processedAt": "2026-09-12T10:24:26.249987+00:00"
+    },
+    {
+      "id": "art-bd1ee90f",
+      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+      "summary": "Multiple criminal and state-sponsored hacking groups attempted to misuse Anthropic's Claude AI model to extract sensitive information from nearly 2 million Android applications. These threat actors, linked to Russia and China, exploited the AI system for espionage and financial gain. The incident reveals how advanced AI tools can be weaponized to scale attacks against mobile app security and extract valuable secrets at massive scale.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "claude-abuse",
+        "android-apps",
+        "state-sponsored",
+        "data-extraction",
+        "espionage"
+      ],
+      "whyItMatters": "This demonstrates that AI models can be weaponized as force multipliers for cyberattacks, enabling threat actors to compromise millions of applications simultaneously. The involvement of state-sponsored groups highlights the geopolitical dimension of AI security risks. Organizations must now consider AI tool abuse as a significant threat vector when protecting sensitive code and intellectual prope",
+      "image": null,
+      "processedAt": "2026-09-12T10:24:29.133161+00:00"
+    },
+    {
+      "id": "art-905f7223",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "summary": "Microsoft released its largest security update ever, patching nearly 1,000 vulnerabilities across Windows and other products in a single month. The company is using artificial intelligence to identify security flaws more quickly, but security experts warn that organizations are struggling to keep up with testing and installing these massive monthly patches. This highlights a growing challenge: while vulnerabilities are being discovered faster, the practical work of deploying fixes remains time-consuming and difficult.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "patch-management",
+        "windows-security",
+        "vulnerability-patching",
+        "ai-security",
+        "patch-volume",
+        "organizational-risk"
+      ],
+      "whyItMatters": "The sheer volume of patches creates a bottleneck for IT teams trying to deploy fixes safely without disrupting operations, leaving organizations vulnerable during the testing period. As AI accelerates vulnerability discovery, the gap between when flaws are found and when they can be patched widens, potentially exposing systems to exploitation. Organizations must prioritize their patching strategie",
+      "image": null,
+      "processedAt": "2026-09-12T10:24:32.502560+00:00"
+    },
+    {
+      "id": "art-26c7e82d",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-01",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "A dark web service has begun selling digital copies of over 153 million drivers licenses belonging to people in the US and Canada, apparently obtained from a Louisiana-based identity verification company. The FBI's New Orleans office has opened an official investigation into how the licenses were stolen and made available for sale. This represents a massive exposure of personal identification documents that could be used for identity theft and fraud.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "identity-theft",
+        "dark-web",
+        "drivers-licenses",
+        "fbi-investigation",
+        "personal-data"
+      ],
+      "whyItMatters": "This breach exposes sensitive government-issued identification documents for 153+ million people, creating immediate risk for identity theft, fraud, and account takeovers. The scale and nature of the compromised data (official IDs) makes this particularly dangerous since these documents are primary authenticators for banking, credit applications, and other critical services. Organizations using th",
+      "image": null,
+      "processedAt": "2026-09-12T10:24:35.744026+00:00"
+    },
+    {
+      "id": "art-8342e6c6",
+      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-27",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+      "summary": "Australian authorities arrested two suspects aged 21 and 23 from Western Australia who are believed to be members of TeamPCP, a cybercrime group responsible for extensive software supply chain attacks targeting thousands of businesses worldwide. The group allegedly created malicious open-source software to conduct data extortion and theft at scale. The arrests mark a significant development in combating one of the most persistent and sophisticated cybercriminal operations in recent history.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "data-extortion",
+        "malicious-software",
+        "cybercrime-arrest",
+        "open-source-threats",
+        "global-threat"
+      ],
+      "whyItMatters": "Supply chain attacks through compromised software affect thousands of organizations simultaneously and are extremely difficult to detect and mitigate at scale. This arrest demonstrates that law enforcement is actively pursuing major cybercriminals, offering hope for future disruption of organized cybercrime operations. Organizations using open-source software should review their dependencies and s",
+      "image": null,
+      "processedAt": "2026-09-12T10:24:38.753564+00:00"
+    },
+    {
+      "id": "art-feaeddac",
+      "title": "Who’s Tracking You? Use This New Service to Find Out",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "summary": "DecryptAds is a new free service that helps users identify which companies are tracking them through ads and data collection across websites and mobile apps. By organizing publicly available advertising technology data, the tool makes it easier for people to see who is harvesting their personal information. This transparency helps users understand the extent of online tracking they face daily.",
+      "category": "Privacy",
+      "severity": "Low",
+      "tags": [
+        "privacy",
+        "data-tracking",
+        "adtech",
+        "transparency",
+        "user-awareness"
+      ],
+      "whyItMatters": "Understanding who collects your data is fundamental to digital privacy and security awareness. Tools like DecryptAds empower individuals to make informed decisions about their online presence and take control of their personal information, reducing exploitation by unknown third parties.",
+      "image": null,
+      "processedAt": "2026-09-12T10:24:40.883019+00:00"
+    },
     {
       "id": "art-453483a8",
       "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
@@ -831,214 +1040,6 @@
       "whyItMatters": "A breach of 4.1 million healthcare records represents a massive exposure of sensitive personal and medical information, putting millions of individuals at risk for identity theft and fraud. Healthcare data breaches are particularly serious because compromised information can be used for insurance fraud, medical identity theft, and extortion. This incident demonstrates the need for healthcare organ",
       "image": null,
       "processedAt": "2026-09-10T10:59:12.550889+00:00"
-    },
-    {
-      "id": "art-c6be3c16",
-      "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-      "summary": "The U.S. Department of Justice shut down Xinbi Guarantee, an online scam marketplace that facilitated fraud schemes. Authorities seized cryptocurrency wallets containing $52.8 million, shut down related Telegram channels, and deployed a specialized task force to Madagascar to dismantle 13 scam operations run by Chinese organized crime groups. This coordinated international enforcement action demonstrates government efforts to combat large-scale cybercriminal infrastructure.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "cryptocurrency-fraud",
-        "organized-crime",
-        "scam-marketplace",
-        "international-enforcement",
-        "asset-seizure",
-        "telegram-abuse"
-      ],
-      "whyItMatters": "This enforcement action highlights how criminal organizations use online platforms and cryptocurrency to scale fraud operations globally, affecting thousands of victims. The coordinated takedown shows law enforcement's growing capability to track, locate, and disrupt cybercriminal infrastructure across borders, which is crucial for protecting vulnerable populations from sophisticated scams.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcQQNutHn5K2x_gd-2eyAP0wzneQ3mOSl3jaaRHGFDUY1O95tuckdjL_botXvrBlt_ts6Bjb91JU4Z-B74VAceL1cYa3oMlt91mHSxZP_FiiVTJLfL8UBUgoBIvjJCuI7Nma3dOxJ48n4wS5VvoBWRDNYqwlYIfStXIKTDBUrRXBIWITx_TprflrVXqjum/s1600/xinbi.jpg",
-      "processedAt": "2026-09-09T20:06:57.037630+00:00"
-    },
-    {
-      "id": "art-1ffcc5c9",
-      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-      "summary": "A newly discovered exploit kit called BlueMoon has been used by multiple state-sponsored hacking groups to attack systems by exploiting vulnerabilities in Microsoft Windows and Google Chrome. The tool chains together multiple security flaws to gain unauthorized access, with the first confirmed use traced to the China-aligned APT31 group. Within just one week, at least four different espionage-focused threat actors were observed deploying this same toolkit, indicating rapid proliferation of the attack method.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "exploit-kit",
-        "state-sponsored",
-        "chrome-vulnerability",
-        "windows-vulnerability",
-        "apt31"
-      ],
-      "whyItMatters": "The rapid adoption of BlueMoon by multiple state-sponsored groups demonstrates how quickly exploit kits spread among advanced threat actors, putting millions of Windows and Chrome users at immediate risk. Organizations need urgent patching and monitoring strategies since this toolkit chains multiple vulnerabilities, making traditional single-patch defenses potentially insufficient. The involvement",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxouoVfK0MjZpruL0J1chmWnC7avUov1fOLbgX-XyFGrTcXeOh08tVntBjzJ7wBMmOB3P-PpxMr6E868Wpsaky-b-Nrf1LajzoQFfmjnkI1KHQzGXrCcVnC57nF2ndYZHCLx5WA3dENCWmCbZlSAb5TC-p8DXCGWxWB7I3iRIsdMMk6SS6IV03722lZIS4/s1600/spy.jpg",
-      "processedAt": "2026-09-09T20:07:00.553998+00:00"
-    },
-    {
-      "id": "art-d96906c2",
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "summary": "Hackers are using information stealer malware like Lumma Stealer and Vidar to steal AI service credentials and API tokens from compromised computers. These stolen tokens can be replayed to gain unauthorized access to AI accounts from major providers such as Google and Anthropic, effectively bypassing multi-factor authentication protections. This attack method allows criminals to hijack AI tools and services without needing the actual passwords.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "infostealer",
-        "credential-theft",
-        "mfa-bypass",
-        "api-tokens",
-        "cybercrime"
-      ],
-      "whyItMatters": "This threat is critical because AI service tokens are valuable targets that bypass traditional MFA protections, enabling attackers to compromise high-value AI accounts at scale. As businesses increasingly rely on AI tools for operations, compromised API access could lead to data theft, service disruption, and unauthorized AI model usage. Organizations must implement additional token security measu",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYP_zrhRTZRWnPPcDkUrE7dBh2Bf5eaQmlBxyl7euTRGjS0C8boQppnrmjY0CIVjGrS_PF13V1W3BPVI3RDPZY59s_7xIkI8LnFkg3Tn_Q0x7_tbCs_sMkvhZMREtFLW3IOJSNNmQrKCDI88FCWhfymdWkEWtdMMRzivv3lZXImjreAz0d74VXt2K80ipH/s1600/tokens.jpg",
-      "processedAt": "2026-09-09T20:07:03.904592+00:00"
-    },
-    {
-      "id": "art-4ab71791",
-      "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
-      "summary": "When a new vulnerability is announced, security teams face a critical challenge: determining whether their organization is actually at risk. This process currently requires manually checking multiple tools and data sources, which creates dangerous delays. As AI accelerates the discovery of new vulnerabilities, the ability to answer exposure questions quickly becomes increasingly important for effective incident response.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "vulnerability-management",
-        "cve-response",
-        "exposure-assessment",
-        "security-tools",
-        "incident-response"
-      ],
-      "whyItMatters": "The speed at which organizations can determine their exposure to newly disclosed vulnerabilities directly impacts their ability to prioritize remediation efforts and prevent breaches. Fragmented tool ecosystems and manual processes create critical gaps where attackers can exploit vulnerabilities before teams even know they're vulnerable. As vulnerability discovery accelerates, streamlining this as",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg6J-Pt0v8CDXEvzMCsK37Gumde1WYysaqiuzK3Rg_dGXBeFEhbxFpLRbwaFSMOVcAz5XsbJXD9977trBg0eHEY-x4mZiu9W4ASLWGnIIA4kWkTmtIF-uBYlQWfLhQjAUL0llbl1Jn2hKfz5Wr78TR4Retzt9PlGD4mEGifQCvrEfFfqMy5966fDGvFHgY/s1600/tines-webinar.jpg",
-      "processedAt": "2026-09-09T20:07:06.746508+00:00"
-    },
-    {
-      "id": "art-51728545",
-      "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-      "summary": "DeepSeek Harness, an open-source tool for running AI coding agents, contained a security flaw that allowed sandboxed agents to disable their own sandbox protections without authorization. The sandbox is designed to prevent agents working with untrusted files from accessing areas outside their assigned workspace. A single command was sufficient for an agent to remove this critical security restriction.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "sandbox-bypass",
-        "deepseek",
-        "vulnerability",
-        "privilege-escalation",
-        "code-execution"
-      ],
-      "whyItMatters": "This vulnerability is critical because it undermines the fundamental security model protecting systems from malicious AI agents—if agents can disable their own sandboxes, they can potentially access sensitive files and systems beyond their intended scope. The ease of exploitation (single command) combined with the widespread use of AI coding tools makes this a high-risk threat to developers runnin",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0fUTc6rz4ZeeaMmjDLOfb2qNhnJf_TdNHK3F3qbNCQLLJbaF-nbSw5YPdeSAwg1HjoGwfQJZaXBpwvEbasFDhQb5ZkUm158shateq7uubMyrlejW4SDZAAzNQGUYkYdsxHupipxzRA7dQwTwTt9ArVJgU-wA5bGxIXduJj3CdyBF69Ixp6_qAU1LGzfI/s1600/deepseek.jpg",
-      "processedAt": "2026-09-09T20:07:10.041967+00:00"
-    },
-    {
-      "id": "art-20f938ac",
-      "title": "US says Chinese firms extracted billions of tokens from frontier AI models",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-says-chinese-firms-extracted-billions-of-tokens-from-frontier-ai-models/",
-      "summary": "U.S. cybersecurity agencies have identified that six Chinese AI companies have been systematically stealing advanced technology from American frontier AI models through distillation attacks since late 2024. These large-scale attacks extract valuable AI tokens and knowledge from cutting-edge models developed by American companies. This industrial-scale theft represents a coordinated effort to gain competitive advantage in artificial intelligence development.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "intellectual-property-theft",
-        "china",
-        "frontier-models",
-        "distillation-attacks",
-        "industrial-espionage"
-      ],
-      "whyItMatters": "This represents a systematic threat to U.S. AI competitiveness and national security, as hostile actors are extracting proprietary technology at scale. Organizations developing frontier AI models need urgent defensive measures to protect their models from distillation attacks and similar extraction techniques. The coordinated nature and scale of these attacks demonstrate how AI systems themselves ",
-      "image": null,
-      "processedAt": "2026-09-09T20:07:13.091980+00:00"
-    },
-    {
-      "id": "art-f813f18c",
-      "title": "Veradigm warns of patient data breach after ransomware gang claims attack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/veradigm-discloses-patient-data-breach-after-gentlemen-gang-claims-attack/",
-      "summary": "Veradigm, a healthcare technology company, notified patients of a data breach caused by a ransomware attack on one of its third-party vendors. The breach exposed sensitive personal information belonging to patients who use Veradigm's healthcare services. This incident highlights how healthcare organizations remain vulnerable to ransomware threats, particularly through supply chain weaknesses involving external vendors.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "healthcare",
-        "data-breach",
-        "third-party-vendor",
-        "patient-data",
-        "supply-chain"
-      ],
-      "whyItMatters": "Healthcare breaches are particularly critical because they expose sensitive medical and personal information that can be used for identity theft, insurance fraud, or extortion. This incident demonstrates that healthcare organizations must carefully monitor and secure their entire vendor ecosystem, as third-party weaknesses can directly compromise patient data at scale.",
-      "image": null,
-      "processedAt": "2026-09-09T20:07:15.755478+00:00"
-    },
-    {
-      "id": "art-460c2e69",
-      "title": "MFA's Weakest Link: Account Recovery Is the New Attack Path",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/mfas-weakest-link-account-recovery-is-the-new-attack-path/",
-      "summary": "While multi-factor authentication (MFA) strengthens account security, attackers are finding a new weak point by targeting account recovery and password reset processes. Criminals use social engineering to manipulate service desk staff into resetting authentication methods, effectively bypassing MFA protections. Organizations need to implement stronger identity verification procedures during account recovery to prevent these attacks from succeeding.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "mfa-bypass",
-        "account-recovery",
-        "social-engineering",
-        "identity-verification",
-        "account-takeover"
-      ],
-      "whyItMatters": "Account recovery processes are often overlooked in security strategies, but they represent a critical gap that undermines MFA investments. Attackers exploiting this weakness can gain full account access despite strong authentication, making this a practical and urgent threat that organizations must address with better verification protocols at support functions.",
-      "image": null,
-      "processedAt": "2026-09-09T20:07:18.743207+00:00"
-    },
-    {
-      "id": "art-9273486b",
-      "title": "DoppelCart fraud network uses 119,000 fake shops to steal credit cards",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/doppelcart-fraud-network-uses-119-000-fake-shops-to-steal-credit-cards/",
-      "summary": "Cybercriminals are running a massive fraud operation called DoppelCart that uses over 119,000 fake online shopping websites to trick customers into entering their credit card information. This network of fraudulent stores harvests payment card details from unsuspecting shoppers who believe they are purchasing from legitimate retailers. The scale of this operation demonstrates how organized criminals can create thousands of deceptive websites to conduct coordinated financial theft.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "credit-card-fraud",
-        "fake-shops",
-        "payment-theft",
-        "phishing",
-        "e-commerce-fraud",
-        "identity-theft"
-      ],
-      "whyItMatters": "This large-scale fraud network poses an immediate financial risk to millions of online shoppers and demonstrates the sophisticated infrastructure criminals use to conduct card theft at scale. Organizations and consumers need to implement stronger verification practices for online merchants and monitor credit card activity closely. The sheer number of fake domains involved highlights how difficult ",
-      "image": null,
-      "processedAt": "2026-09-09T20:07:22.290766+00:00"
-    },
-    {
-      "id": "art-b1c3780f",
-      "title": "The EU CRA's Real Question: What Shipped, and When Did You Know?",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-eu-cras-real-question-what-shipped-and-when-did-you-know/",
-      "summary": "Starting September 11, 2026, the EU Cyber Resilience Act requires software vendors to report actively exploited vulnerabilities within 24 hours or less. Companies must maintain clear records of what software was released and when vulnerabilities were discovered to comply with these strict new regulations. Meeting these requirements will demand better internal tracking and faster response processes from software developers.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "eu-cra",
-        "vulnerability-reporting",
-        "compliance",
-        "software-vendors",
-        "incident-response",
-        "regulatory-requirement"
-      ],
-      "whyItMatters": "The EU CRA's 24-hour reporting window creates urgent operational pressure on software vendors to have robust vulnerability tracking systems in place. Non-compliance could result in significant penalties, making it critical for organizations to understand their supply chain and maintain accurate version control and vulnerability discovery timelines. This regulation fundamentally changes how quickly",
-      "image": null,
-      "processedAt": "2026-09-09T20:07:25.695851+00:00"
     }
   ]
 }
