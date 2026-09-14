@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-09-13T19:56:09.154596+00:00",
+  "lastUpdated": "2026-09-14T12:19:50.769056+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-efdeb39f",
+      "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+      "summary": "A fake Twitch browser extension called 'Twitch Enhanced Viewer | JeetBot' tricked nearly 31,000 users into installing it, then stole their OAuth tokens and sent them to Russian servers. These stolen tokens could allow attackers to access user accounts and perform actions on their behalf without permission. The extension was distributed across multiple platforms including Chrome and Firefox.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "browser-extension",
+        "oauth-token-theft",
+        "credential-stealing",
+        "malware",
+        "twitch-security",
+        "russian-botnet"
+      ],
+      "whyItMatters": "This attack demonstrates how easily malicious extensions can bypass security checks on official app stores and compromise user credentials at scale. OAuth tokens are highly valuable to attackers because they grant access to accounts without needing passwords, making this a severe threat to Twitch users and a reminder to verify extension developers before installation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguNgykDjufnR6xGrMUSq67eZ5sCFxbYjf8J6pEXekhUnt-zCt2xaJ4jzj6I0wPMYjps9z2ufKJ-JSJ8ZqhGe4BcbtNWfRETdaB6QgIRVLw0CtnsM5q2qCpyI3kL7oBXmNixcTTcumZJHFgCKaoLY8kRIBDbPHslMmmzzb25TlESGooJuaxtXEL5qrUzkop/s1600/twitch.jpg",
+      "processedAt": "2026-09-14T12:19:26.823069+00:00"
+    },
+    {
+      "id": "art-81be60ff",
+      "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+      "summary": "Attackers exploited two chained vulnerabilities in JFrog Artifactory, a critical software repository platform, to gain administrative access and install backdoors on unpatched servers. Security researchers at Wiz detected these active attacks occurring between mid-August and early September 2026. Since JFrog had already released patches for both flaws before the attacks were observed, the risk was limited to organizations that had not applied the security updates.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "jfrog-artifactory",
+        "privilege-escalation",
+        "backdoor",
+        "unpatched-systems",
+        "software-supply-chain",
+        "admin-access"
+      ],
+      "whyItMatters": "Software repositories like Artifactory are fundamental to the entire software supply chain, making them high-value targets for attackers seeking to inject malicious code at scale. The ability to chain multiple vulnerabilities for admin access and backdoor installation demonstrates sophisticated attack techniques that could compromise countless downstream applications and organizations. This incide",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX61WXln9MMGAzqzflpRDt_LZGfB7ZJ_u1fsQhr5FRnml48-E-V-uxtCIF-GERZlt-eBhw3MDT7_6jFgwEDF1ppC7YZlB_CZn-q4_nKD9S3fQTI3kDQFe2Izsq6_NoGnCRtRZckr8Irg9kOJ8Fwghl3qHqwg1zWoN6ff-VsmlCaojw2Divb6L00F34lJk/s1600/jfrog-art.jpg",
+      "processedAt": "2026-09-14T12:19:29.528692+00:00"
+    },
+    {
+      "id": "art-9efeef3f",
+      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+      "summary": "A Chinese hacking group known as UNC3569 discovered and exploited a security flaw in Sogou Input Method, a popular Windows application used for typing Chinese characters, to install the GRAYRABBIT backdoor on victim computers. The attack chain began with a malicious link that ultimately gave attackers the same access and permissions as the logged-in user, potentially allowing them to perform any action on the compromised system.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "china-linked-group",
+        "sogou-input-method",
+        "backdoor",
+        "grayrabbit",
+        "windows-vulnerability",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This attack targets a widely-used application in China and among Chinese-speaking users, making it a high-impact threat with potentially thousands of vulnerable systems. The exploitation of legitimate software for backdoor deployment is a sophisticated technique that bypasses traditional security controls, demonstrating how attackers abuse trusted applications to gain persistent system access.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjp8vDxYtUGwWuRZlSSBh2ghvSf6GTi_VlTQSQXTaIWSlQgHY_imEfl4hyAcrhPz9w3_ejmdAKK7ZeOt5gBsNZI7mhxJsnbyLT8Bo6O6HdM01yCNuDjuz-IU64LRuAuVDOzh2Z0vLhvzwP9PUUBKE_OLn0YD7m74-kZpo1dr5c0hzCMRHxrgfIzjk9MnR4/s1600/chinese.jpg",
+      "processedAt": "2026-09-14T12:19:31.922490+00:00"
+    },
+    {
+      "id": "art-1cc7abda",
+      "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+      "summary": "PaperCut released new security updates to replace previous emergency patches for two actively exploited vulnerabilities in their NG/MF software. The company issued maintenance releases for versions 26.0.5, 25.0.13, and 24.1.10 to address these critical flaws. Organizations using PaperCut need to update immediately since these vulnerabilities are already being actively targeted by attackers.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "papercut",
+        "active-exploitation",
+        "patch-now",
+        "vulnerability-fix",
+        "software-update"
+      ],
+      "whyItMatters": "Active exploitation means attackers are already weaponizing these flaws in the wild, making immediate patching essential to prevent compromise. PaperCut is widely used in enterprise environments for print management, so unpatched systems could provide attackers with access to critical infrastructure. Delaying updates significantly increases the risk of breach or system compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhT6b7k7Y60TgLLmuruqSocYNfZoYEmONgga8CidWSXIdOZLWlgCYLuXOe9bWQRi_3BRkOmJvPNANZAOS85Xx6RtuQTVCg2-QNi3dXfELQm8bglTMUK9rn54e-sLoslCkVYlPGiyGSnsu58yxo9EkC3PvXDWVTYhTRgDQqTDAQTs69vPBh7xjq0Fwm7bY40/s1600/papercut-flaws.jpg",
+      "processedAt": "2026-09-14T12:19:34.805238+00:00"
+    },
+    {
+      "id": "art-d2642003",
+      "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+      "summary": "Cisco has disclosed that multiple threat groups, including those behind ransomware and state-sponsored campaigns, are actively exploiting two security flaws in Firewall Management Center (FMC) software. The most critical vulnerability (CVE-2026-20079) has a perfect 10.0 CVSS score and allows attackers to bypass authentication without credentials. Attackers are using these exploits to steal credentials and deploy Qilin ransomware, posing an immediate risk to organizations using affected Cisco security infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisco-fmc",
+        "authentication-bypass",
+        "ransomware-qilin",
+        "critical-cvss-10",
+        "patch-urgent",
+        "credential-theft"
+      ],
+      "whyItMatters": "This represents an active, widespread threat targeting critical security infrastructure that organizations rely on to protect their networks. The combination of a perfect CVSS score, unauthenticated remote exploitation, and active ransomware deployment means organizations must prioritize patching immediately to prevent network compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJizB5uHZncQAbfKm3-k256bJHufHNcClzKqXH2XK79HlAw8egcuz3abU_gxrTbR2zrWqpMmFcHApBqp5AvC2uox6vEeOlDt1JdRy-A6WAqpFPfVeZ4hM4gp-lCqqY_hIXMu2VVupFLGzbv1sBXLjQGSPlORsnaEdcOqjLJQKAKfDMHJqGY6KY1NZCLth0/s1600/cisco-ransomware.jpg",
+      "processedAt": "2026-09-14T12:19:37.976880+00:00"
+    },
+    {
+      "id": "art-e5c961a7",
+      "title": "Microsoft: September updates cause RDS failures on Windows Server",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server/",
+      "summary": "Microsoft's September 2026 security updates are causing Remote Desktop Services (RDS) to fail on Windows Server systems. This issue affects servers that rely on RDS for remote access and management capabilities. Organizations applying these updates may experience connectivity problems until Microsoft releases a fix.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-server",
+        "rds-failure",
+        "patch-issue",
+        "remote-desktop",
+        "update-problem",
+        "system-outage"
+      ],
+      "whyItMatters": "This situation creates a critical dilemma for system administrators—they need security patches but applying them can break essential remote access functionality. Organizations must carefully plan their patching strategy to balance security needs against operational continuity, and may need to delay critical updates until a corrected patch is available.",
+      "image": null,
+      "processedAt": "2026-09-14T12:19:40.269832+00:00"
+    },
+    {
+      "id": "art-7af27657",
+      "title": "Revolut discloses data breach exposing financial info, passports",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+      "summary": "Revolut, a major fintech company, suffered a data breach where customer information including financial details and passport data was compromised. The breach occurred after a threat actor successfully impersonated a government agency to gain access to the company's systems. This incident exposed sensitive personal and financial information for an unspecified number of Revolut users.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "financial-data",
+        "social-engineering",
+        "identity-theft-risk",
+        "fintech-security"
+      ],
+      "whyItMatters": "This breach demonstrates how attackers can exploit social engineering tactics by impersonating authorities to bypass security measures at major financial institutions. Exposed passport and financial information creates significant identity theft and fraud risks for affected customers, highlighting the vulnerability of fintech platforms to advanced social manipulation attacks.",
+      "image": null,
+      "processedAt": "2026-09-14T12:19:42.782077+00:00"
+    },
+    {
+      "id": "art-15e812da",
+      "title": "Microsoft: September updates break audio on some Windows PCs",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs/",
+      "summary": "Microsoft's September 2026 security updates KB5124008 and KB5124012 are causing audio problems on certain Windows computers, particularly affecting USB audio devices. Users who installed these patches are experiencing device failures, creating a conflict between security and system functionality. This issue highlights the importance of testing updates before widespread deployment.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-update",
+        "usb-audio",
+        "system-compatibility",
+        "patch-issue",
+        "microsoft-kb"
+      ],
+      "whyItMatters": "Update-related compatibility issues can force users to choose between security protection and device functionality, potentially leaving systems vulnerable if users delay patching. This situation demonstrates why IT administrators must carefully test security updates before deploying them across their organizations to avoid widespread disruption.",
+      "image": null,
+      "processedAt": "2026-09-14T12:19:45.341899+00:00"
+    },
+    {
+      "id": "art-0bff2085",
+      "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+      "summary": "U.S. cybersecurity authorities have alerted organizations that attackers are actively exploiting a maximum-severity vulnerability in GitLab software. This flaw poses an immediate threat to GitLab users and requires urgent patching to prevent unauthorized access and potential system compromise. Organizations using GitLab should prioritize updating their systems to mitigate this critical risk.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gitlab",
+        "vulnerability",
+        "active-exploitation",
+        "patch-now",
+        "cisa-alert",
+        "critical-flaw"
+      ],
+      "whyItMatters": "This vulnerability is actively being exploited by real attackers, making it an immediate threat to any organization running vulnerable GitLab instances. The maximum-severity classification indicates potential for complete system compromise, making rapid patching essential. Organizations must prioritize this update to prevent unauthorized access to their repositories and infrastructure.",
+      "image": null,
+      "processedAt": "2026-09-14T12:19:48.182980+00:00"
+    },
+    {
+      "id": "art-02c4ab46",
+      "title": "Microsoft fixes Teams, Outlook launch failures on ARM Windows PCs",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-teams-outlook-launch-failures-on-arm-windows-pcs/",
+      "summary": "Microsoft resolved a software bug that was preventing Teams and Outlook applications from running properly on Windows devices using ARM processors following recent security updates released in August 2026. The issue affected users who had installed the latest patches on their ARM-based Windows machines. This fix ensures that these essential communication tools function correctly across different Windows architectures.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "microsoft-teams",
+        "outlook",
+        "arm-windows",
+        "patch-update",
+        "application-compatibility",
+        "bug-fix"
+      ],
+      "whyItMatters": "ARM-based Windows devices are becoming increasingly common, and application compatibility issues can severely disrupt productivity and business operations. When critical communication tools like Teams and Outlook fail to launch, it can impact organizational workflows and necessitate rapid remediation, highlighting the importance of thorough patch testing before widespread deployment.",
+      "image": null,
+      "processedAt": "2026-09-14T12:19:50.768918+00:00"
+    },
     {
       "id": "art-4ed16065",
       "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
@@ -831,214 +1038,6 @@
       "whyItMatters": "Understanding who collects your data is fundamental to digital privacy and security awareness. Tools like DecryptAds empower individuals to make informed decisions about their online presence and take control of their personal information, reducing exploitation by unknown third parties.",
       "image": null,
       "processedAt": "2026-09-12T10:24:40.883019+00:00"
-    },
-    {
-      "id": "art-453483a8",
-      "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
-      "summary": "GitLab has released security patches addressing multiple vulnerabilities, including a critical flaw (CVE-2026-85706) with a perfect CVSS score of 10.0. This path traversal bug in the repository commits API allows attackers without authentication to read sensitive files directly from GitLab servers. The vulnerability has already been actively exploited in the wild within hours of becoming public, making immediate patching essential for organizations using GitLab.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "path-traversal",
-        "gitlab",
-        "unauthenticated-access",
-        "file-read",
-        "patch-urgent",
-        "zero-day-exploitation"
-      ],
-      "whyItMatters": "This maximum-severity flaw poses an immediate threat because it requires no authentication, affects a widely-used development platform, and is already being actively exploited. Organizations running GitLab must apply patches immediately to prevent unauthorized access to sensitive source code, credentials, and configuration files stored in their repositories.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioFH6aWhF9NgRW1O3yFExc7paTA9akN5-3IUQF8mvEiSTaFJjKvm6YQzFX6MP2uimYplHe1MJXz6eZtPtnxaLy25jJBhU6KuhsWFpIlnqhbn6OI6QTcfp6Olp1-VDUEF4KEYFF7hQDBdmgtxibsg9MkvbcOJIlR8Of2Flyw2m9zYfXC6gUm-TV8XA6vU43/s1600/gitlab-wild.jpg",
-      "processedAt": "2026-09-11T20:07:49.736959+00:00"
-    },
-    {
-      "id": "art-0f1967ea",
-      "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
-      "summary": "Anthropic discovered and stopped illegal attacks where seven Chinese AI laboratories, including major companies like Alibaba and DeepSeek, were using industrial-scale techniques to steal and copy Claude's AI model through a method called knowledge distillation. While knowledge distillation is normally a legitimate way to train AI systems, these attackers were misusing it to create unauthorized copies of Anthropic's proprietary technology without permission.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "model-theft",
-        "intellectual-property",
-        "distillation-attacks",
-        "china-based-threat"
-      ],
-      "whyItMatters": "This incident demonstrates how valuable AI models have become as targets for theft and unauthorized replication at scale. Organizations developing advanced AI systems now face organized, industrial-level attacks designed to steal their technology, requiring stronger defenses and monitoring of model usage. The incident highlights emerging cybersecurity risks in the AI space where traditional securi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIEiaJBfFrHCrYlSFKWGSRYD6CW_EeKfmYWCZw4jm5c9hyphenhyphenDVbaSIhyphenhyphenXwFB0ncQOoB10crmwgJV9nsvhQzJNuVMsDh6jPVt2ep23r0A2PB7ZhLfTroa0Ff__kyjjX2MjP4ok4DtBwFEF1VZC7b5OOCkibJBbwECsR0Y_9S1-NpdEIw04J5FtY9OloB084t_/s1600/claude-china.jpg",
-      "processedAt": "2026-09-11T20:07:52.571255+00:00"
-    },
-    {
-      "id": "art-c02babd9",
-      "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-      "summary": "Anthropic has disclosed that cybercriminals and state-sponsored actors are exploiting Claude AI models to conduct cyberattacks, design weapons, spread propaganda, and execute mass surveillance operations. Between December 2025 and August 2026, various threat groups classified as Generative Threat Groups (GTGs)—including nation-states and financially motivated criminals—have weaponized the AI platform for malicious purposes. This marks a significant shift in how advanced AI tools are being abused for large-scale cyber operations.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "claude-abuse",
-        "generative-threat-groups",
-        "cybercrime",
-        "state-sponsored-attacks",
-        "ai-exploitation"
-      ],
-      "whyItMatters": "This demonstrates that advanced AI models are now active attack vectors being weaponized by sophisticated threat actors, necessitating urgent controls around AI tool access and monitoring. Organizations relying on AI services must implement strict governance, audit trails, and detection mechanisms to prevent their AI tools from being co-opted for exploitation campaigns. The involvement of state-sp",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiG0iCBQ4Eqxn0QOtvYZSysksPzr5fT0m8aLqNTa0a7Gcz3A5ikRt1oAenJwzo8rxcLERq54SNLtRvkYXKMTo0nMOmV8pWh4It3T0vP7q4J5Z23tdDkbBf3j7v317S7sQbBBbN6j6MuHusofo3qcbm2Y3DWT76gHp4Z1_En2QnJMCyEpvCo1sCcXoRZVw5-/s1600/claudeai.jpg",
-      "processedAt": "2026-09-11T20:07:55.933978+00:00"
-    },
-    {
-      "id": "art-9230de6c",
-      "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-      "summary": "Anthropic discovered that Russian state-sponsored hackers, identified as GTG-20006, were using Claude AI to develop malware and stay ahead of security detection systems. This group used an AI-assisted workflow to quickly rebuild and modify malicious code after it was discovered by security researchers. The incident highlights how threat actors are leveraging advanced AI tools to accelerate their cyber operations and evade traditional defense mechanisms.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "state-sponsored",
-        "malware-development",
-        "russian-hackers",
-        "detection-evasion",
-        "generative-ai-abuse"
-      ],
-      "whyItMatters": "This represents an active, sophisticated exploitation of AI systems by state actors to enhance malware capabilities and detection evasion, posing an immediate threat to global cybersecurity. Organizations must now consider AI tools themselves as potential attack vectors and reassess how they monitor for misuse of generative AI platforms. This signals an escalating arms race where adversaries are w",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtfzeoSe_6tXrJiKsyJfN4vYk6suLsJPF3-SOJWE8LAaZ6_WixrsJVjZ0T8O6jdtB1d08IR8swK6H0B4S_m7-0YfIiJlVPHuL7guxwC-4ANLXUyNsEWfIusPzvOMPOKSBmFcBT1NBBVWIglIRlT8fs6O9Uc6ZRBRgWZNPbvgAVIj8gIXfusRwZh0tndhni/s1600/claude-malware.jpg",
-      "processedAt": "2026-09-11T20:07:59.280121+00:00"
-    },
-    {
-      "id": "art-438dea1b",
-      "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-      "summary": "Security teams are skilled at identifying vulnerabilities, but not all critical-rated vulnerabilities pose actual exploitation risks. The article argues that organizations should focus on whether vulnerabilities can realistically be exploited based on defensive controls like segmentation and identity management, rather than treating every critical vulnerability with equal urgency.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "vulnerability-prioritization",
-        "risk-assessment",
-        "defense-in-depth",
-        "network-segmentation",
-        "threat-modeling"
-      ],
-      "whyItMatters": "This perspective helps security teams allocate limited resources more effectively by distinguishing between vulnerabilities that pose genuine exploitation risk and those mitigated by existing defenses. Proper risk prioritization reduces alert fatigue, improves response efficiency, and prevents organizations from wasting time patching low-impact issues while ignoring more exploitable weaknesses.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPPe_ve3Cylrq2fJ8HTFPebWF7lR7tvzMvL3mwFcGZNF2KWesOGc66BfO7NbiPxmsiao8jcItyikguKNqsEGfpJEcAvacbP7rflAaAT-e0Y1IbsNCNvdqvXMbwERLlPpV0PMhk9c5esoEjCE97wglh8rU9xZ7eGz2N4BOpzFYTb9-Ln3FaBRQiscqzK7U/s1600/breachlock.jpg",
-      "processedAt": "2026-09-11T20:08:02.093497+00:00"
-    },
-    {
-      "id": "art-c617806c",
-      "title": "Florida confirms DMV database breached via stolen police account",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/florida-confirms-dmv-database-breached-via-stolen-police-account/",
-      "summary": "Florida's Department of Highway Safety and Motor Vehicles confirmed that hackers breached its DAVID driver database by using stolen login credentials from a police department employee. The attackers were able to access sensitive driver information through this compromised law enforcement account. This incident highlights how criminals can exploit stolen credentials from trusted officials to access critical government databases.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "credential-theft",
-        "government-database",
-        "law-enforcement",
-        "insider-access",
-        "identity-theft-risk"
-      ],
-      "whyItMatters": "This breach demonstrates a critical vulnerability in government infrastructure where compromised law enforcement credentials can grant attackers direct access to sensitive databases affecting millions of citizens. The incident underscores the importance of multi-factor authentication, credential monitoring, and access controls in protecting government systems that store personal driver information",
-      "image": null,
-      "processedAt": "2026-09-11T20:08:04.576124+00:00"
-    },
-    {
-      "id": "art-c4ea8e59",
-      "title": "Passkey-themed phishing attacks lead to Microsoft 365 data theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/passkey-themed-phishing-attacks-lead-to-microsoft-365-data-theft/",
-      "summary": "Cybercriminals from groups like ShinyHunters and Helix are tricking people into giving up their Microsoft 365 account credentials by pretending to offer passkey and single sign-on services. These attackers are using social engineering tactics to gain unauthorized access to corporate Microsoft accounts and steal sensitive data stored in cloud services. This type of attack is particularly effective because passkeys are becoming more popular as a security feature, making the deception more convincing.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "microsoft-365",
-        "social-engineering",
-        "account-compromise",
-        "data-theft",
-        "cloud-security"
-      ],
-      "whyItMatters": "This threat is critical because it targets a widely-used enterprise platform and exploits user trust in modern security features, making employees vulnerable despite organizations' security investments. Compromised Microsoft 365 accounts give attackers direct access to email, files, and collaboration tools containing sensitive business data, potentially affecting entire organizations. Understandin",
-      "image": null,
-      "processedAt": "2026-09-11T20:08:07.933590+00:00"
-    },
-    {
-      "id": "art-fee2d914",
-      "title": "Artifactory flaws chained in attacks deploying backdoor malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/artifactory-flaws-chained-in-attacks-deploying-backdoor-malware/",
-      "summary": "Hackers are actively exploiting multiple security flaws in JFrog Artifactory, a widely-used software repository platform, to break past authentication protections and gain full administrative control. Once inside vulnerable systems, attackers install a sophisticated Rust-based backdoor that allows them to maintain unauthorized access to self-hosted servers. This coordinated attack chain demonstrates how chaining multiple vulnerabilities together can lead to complete system compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "artifactory",
-        "vulnerability-exploitation",
-        "backdoor-malware",
-        "authentication-bypass",
-        "privilege-escalation",
-        "rust-malware"
-      ],
-      "whyItMatters": "Artifactory is a critical infrastructure component for many organizations, storing software builds and dependencies. Active exploitation of these vulnerabilities puts thousands of companies at immediate risk of having their supply chains compromised, allowing attackers to inject malicious code into software that reaches end users. Organizations running self-hosted Artifactory instances need to pat",
-      "image": null,
-      "processedAt": "2026-09-11T20:08:11.105156+00:00"
-    },
-    {
-      "id": "art-6395eb57",
-      "title": "How Threat Actors Are Turning Trusted AI Platforms Into an Attack Surface",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-threat-actors-are-turning-trusted-ai-platforms-into-an-attack-surface/",
-      "summary": "Cybercriminals are exploiting popular AI platforms like Claude to distribute malware and deceive users by embedding malicious content in AI artifacts and shared conversations. These attackers use tactics such as poisoning search results, creating fake sponsored ads, and employing social engineering tricks similar to ClickFix schemes to trick people into installing malware. This emerging threat demonstrates how trusted tools can become vectors for attack when users let their guard down.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "malware-distribution",
-        "phishing",
-        "social-engineering",
-        "trusted-platforms",
-        "security-awareness"
-      ],
-      "whyItMatters": "As users increasingly rely on AI platforms for legitimate work, attackers are weaponizing that trust to spread malware at scale. Organizations need to educate employees that AI platforms are not immune to abuse, and users must remain vigilant about verifying content sources even within trusted applications.",
-      "image": null,
-      "processedAt": "2026-09-11T20:08:14.196758+00:00"
-    },
-    {
-      "id": "art-b084d9ed",
-      "title": "GitLab urges users to patch max severity path traversal flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/gitlab-urges-users-to-patch-max-severity-path-traversal-flaw/",
-      "summary": "GitLab has identified a critical path traversal vulnerability (CVE-2026-85706) that allows attackers to access files and directories outside intended boundaries on affected servers. Users are being urged to apply patches immediately to prevent potential unauthorized access to sensitive data. This flaw poses a maximum severity risk and requires urgent action from all GitLab installations.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "gitlab",
-        "path-traversal",
-        "cve-2026-85706",
-        "patch-now",
-        "vulnerability",
-        "maximum-severity"
-      ],
-      "whyItMatters": "Path traversal vulnerabilities can give attackers direct access to sensitive files and system configuration data on GitLab servers, potentially leading to source code theft, credential exposure, or system compromise. The maximum severity rating and urgent patching call indicate active exploitation risk or widespread vulnerability, making immediate updates essential to protect infrastructure and in",
-      "image": null,
-      "processedAt": "2026-09-11T20:08:17.056159+00:00"
     }
   ]
 }
