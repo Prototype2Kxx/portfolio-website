@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-09-14T12:19:50.769056+00:00",
+  "lastUpdated": "2026-09-14T21:06:22.218154+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-3bb1116c",
+      "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+      "summary": "Researchers discovered a new hardware-level attack called DDRop that exploits vulnerabilities in Intel TDX and AMD SEV-SNP confidential computing technologies. The attack works by silently dropping memory writes, causing processors to repeatedly read outdated encrypted data instead of current information. An attacker would need to have already compromised the server's software and briefly physically access the machine to install a malicious circuit component.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "hardware-attack",
+        "confidential-computing",
+        "intel-tdx",
+        "amd-sev-snp",
+        "memory-protection",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This attack breaks the fundamental security guarantees of confidential computing platforms that enterprises rely on for protecting sensitive workloads in untrusted environments. Organizations using Intel TDX or AMD SEV-SNP need to understand this vulnerability's implications for their security posture and may require urgent firmware or architectural mitigations. The attack demonstrates that hardwa",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4IfzHWVZbbX-Jlw_WME4viVgnupLfVdkxzfZ0skzjQpB5I32f-nua5-Gt6UJGJ9-cwTyrHqaCxBFndtNkIFx_Tj9sf3LnxfrqlecJ0zh0N83i5YRdukZRTpTiUP-kVrkpF4gMJZN-tONZy7jjk2gqdq87ELsUHDlyjQDFCIX6Rioz3ljHItZ2IeLDqb-w/s1600/DDRop.gif",
+      "processedAt": "2026-09-14T21:05:58.219630+00:00"
+    },
+    {
+      "id": "art-1fbbd909",
+      "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+      "summary": "An attacker successfully infiltrated 3BB, a major Thai internet service provider, using MeshCentral—a legitimate remote management tool—to gain unauthorized root-level access to internal systems. Security researchers discovered the breach by finding an exposed server containing the attacker's tools and stolen subscriber credentials. This incident demonstrates how attackers can abuse legitimate administrative software to hide malicious activity and maintain persistent access to critical infrastructure.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "network-intrusion",
+        "remote-access-tool",
+        "infrastructure-attack",
+        "credential-theft",
+        "persistent-access",
+        "meshcentral"
+      ],
+      "whyItMatters": "This breach of a major ISP highlights the risk of legitimate management tools being weaponized for long-term network compromise, potentially exposing millions of subscribers' data and communications. ISPs are critical infrastructure, and their compromise can have cascading effects on countless downstream users and services. Organizations must implement strict access controls and monitoring for all",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9khzZCrFkNfQ1fOYHT8A4LJrIsfc52ppe6xZffdUrfRacqTVQ76P0VPDZhqC2UfKM32jdbEiQfaCZDbrV2F0_dssOM8V8nT3ZZYvwhflLdfEhJhdNa0-UntK9XHkFJ4R5RthFMOM2X5kDZxUKW1RnRLmmQ0xLh5foMldMZovB0ZPdafoRf9cEb_w9Hwk/s1600/3bb.jpg",
+      "processedAt": "2026-09-14T21:06:01.200308+00:00"
+    },
+    {
+      "id": "art-8a33836f",
+      "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+      "summary": "A vulnerability in Telegram Desktop allowed attackers to embed malicious JavaScript code within chat messages that appeared harmless when viewed in the app. When users exported their chats to HTML files and opened them in a web browser, the hidden script would execute and steal all the messages from that export. Security researchers at ExPatch discovered and documented this flaw, highlighting a risk for users who share or store HTML exports of their conversations.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "telegram",
+        "javascript-injection",
+        "html-export",
+        "message-exfiltration",
+        "client-side-attack",
+        "social-engineering"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how exported data can become a vector for compromise even after leaving the original application, putting users at risk of message theft through a seemingly innocent file format. It underscores the importance of sanitizing user-generated content in desktop applications and being cautious with exported data, especially when it may be opened in web browsers where addi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7YYT-Mf718wZ9kLasqkkPZ1Drw4dlLUMaHtOPuWRltuG7bOcA-d4bFr4GRmer0MMohBwgv7HFVFADi-EeDvIMcbEaJUiyn8t-iLxtR8PVRDWHLmxKnofrZgoPOH_RS7qaUkzd0Ery8Rr7oWlgoPJligCMSSywXmXdMHgzuER6M77sWisfdMOo_rqudmk/s1600/telehgram.jpg",
+      "processedAt": "2026-09-14T21:06:04.197445+00:00"
+    },
+    {
+      "id": "art-4065e841",
+      "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+      "summary": "A Chinese-linked threat group called Red Heron has been actively exploiting a recently discovered vulnerability in Gitea, a popular open-source Git platform, to break into organizations worldwide. The group scanned over 1,300 Gitea instances across multiple countries and specifically targeted nearly 500 systems in Taiwan as part of a coordinated attack campaign. This exploitation effort has already compromised at least 13 organizations spread across six different countries.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce-vulnerability",
+        "gitea",
+        "apt-activity",
+        "china-linked",
+        "multi-nation-campaign",
+        "exploit-in-the-wild"
+      ],
+      "whyItMatters": "This represents an active, widespread exploitation of a known vulnerability by a state-sponsored actor targeting internet-facing infrastructure across multiple countries. Organizations running Gitea instances face immediate risk of compromise and must prioritize patching and security assessments. The rapid scanning and exploitation pattern demonstrates the threat actor's capability and intent to g",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvj2lBIP05rWNCbhHf0wzhfJ35HBSL0rrr99VOwBa-AzBrvlz0hpopABC1zCHMLj6mqJTNSiij7cFcocgbHUyRbh1QV3V7OCWDLXn3fJ_fRJQxaj63BC8UOjjNlcBdwZ0jdD3zWDA6XpA3Xt2an-6vAE-kyo3sPOpjNa5tzWnntDxaeia-0zzKa-PuywC/s1600/gitea-hacked.jpg",
+      "processedAt": "2026-09-14T21:06:07.560230+00:00"
+    },
+    {
+      "id": "art-31b12377",
+      "title": "WordPress Adds Automated Plugin Reviews to Block High-Risk Updates Before Distribution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/wordpress-adds-automated-plugin-reviews.html",
+      "summary": "WordPress is implementing automated security screening for all plugin updates before they're released through the WordPress.org update system. Previously, only new plugins underwent security review before being added to the directory, but updates were distributed without consistent checks. This new system aims to catch security risks in plugin updates before they reach millions of users.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "wordpress",
+        "plugin-security",
+        "automated-scanning",
+        "update-security",
+        "vulnerability-prevention",
+        "software-supply-chain"
+      ],
+      "whyItMatters": "WordPress powers over 40% of all websites, making plugin vulnerabilities a critical attack vector for cybercriminals. Malicious actors frequently exploit outdated or compromised plugins to compromise websites at scale. Automating security reviews for updates closes a significant gap in the software supply chain and protects millions of sites from preventable attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6NRxf0-3Ca12cwdQVS-bicsxwk-06KQZJaLMbd2d217NkuO82Bld3P_E96WP8OEqZXSjDoLtW0JfnRYkQSyl0BlQDNkQoBOf7x-Q5wOmpc59Z4v1ycux0YWShQpPIyvYmMmIRJ0c5Zv_38VFrhwtdcdoxycqIm0b5Df7AeYjbr-8KCJlbujHVhmpvdtrk/s1600/wordpress-auto.jpg",
+      "processedAt": "2026-09-14T21:06:10.282243+00:00"
+    },
+    {
+      "id": "art-cebfb5d9",
+      "title": "Microsoft releases emergency Windows updates to fix RDS failures",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-windows-updates-to-fix-rds-failures/",
+      "summary": "Microsoft released emergency updates outside its normal schedule to fix critical issues in Windows systems caused by September's security patches. The updates address failures in Remote Desktop Services, along with problems affecting Hyper-V and USB audio functionality across multiple Windows versions. These emergency fixes were necessary because the original patches introduced unintended problems that disrupted essential system services.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "emergency-patch",
+        "windows-update",
+        "remote-desktop-services",
+        "system-stability",
+        "out-of-band-update"
+      ],
+      "whyItMatters": "Emergency patches indicate that security updates sometimes introduce unintended consequences that can disrupt critical services like Remote Desktop Services, making systems inaccessible for users and administrators. Organizations must quickly apply these fixes to restore functionality while balancing security needs with system stability. This situation highlights the importance of testing patches ",
+      "image": null,
+      "processedAt": "2026-09-14T21:06:12.712349+00:00"
+    },
+    {
+      "id": "art-bc60433a",
+      "title": "Japan's Digital Agency says VPN flaw exposed 246,000 personnel records",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/japans-digital-agency-says-vpn-flaw-exposed-246-000-personnel-records/",
+      "summary": "Japan's Digital Agency discovered a security breach involving a VPN vulnerability that compromised approximately 246,000 records containing personal information of government employees. The incident highlights the risks of unpatched security flaws in critical infrastructure used by government agencies. This breach exposed sensitive data of public sector workers to potential misuse.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "vpn-vulnerability",
+        "government-breach",
+        "data-exposure",
+        "personal-information",
+        "japan-digital-agency"
+      ],
+      "whyItMatters": "Government data breaches involving employee personal information create significant risks for identity theft and targeted attacks on public sector workers. This incident underscores the importance of promptly identifying and patching VPN vulnerabilities, especially in organizations handling sensitive government data. Such breaches can compromise national security infrastructure and erode public tr",
+      "image": null,
+      "processedAt": "2026-09-14T21:06:15.309808+00:00"
+    },
+    {
+      "id": "art-7cc0aa7e",
+      "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
+      "summary": "Homebrew, a popular package manager for macOS and Linux, has released version 7.0.0 with significant security improvements including a built-in vulnerability scanner and enhanced security controls. The update also introduces BrewUI, a native graphical interface that makes package management more accessible to users. These additions help developers identify and manage software vulnerabilities more effectively when installing packages.",
+      "category": "Patching and Updates",
+      "severity": "Low",
+      "tags": [
+        "package-manager",
+        "vulnerability-scanner",
+        "security-controls",
+        "software-update",
+        "homebrew"
+      ],
+      "whyItMatters": "Homebrew is widely used by developers to manage dependencies, so built-in security scanning reduces the risk of introducing vulnerable packages into development environments and production systems. Better security controls at the package manager level provide an additional defense layer against supply chain attacks and help developers maintain secure software development practices.",
+      "image": null,
+      "processedAt": "2026-09-14T21:06:17.610291+00:00"
+    },
+    {
+      "id": "art-2c727158",
+      "title": "Twitch extension with 30K installs exposes users’ OAuth tokens",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/twitch-extension-with-30k-installs-exposes-users-oauth-tokens/",
+      "summary": "A popular browser extension called Twitch Enhanced Viewer | JeetBot with over 30,000 installations was discovered stealing users' Twitch OAuth session tokens and sending them to an external bot service. This security flaw put millions of Twitch accounts at risk because attackers could use stolen tokens to take control of compromised accounts. The extension was available on both Chrome and Firefox official app stores before being identified and removed.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "browser-extension",
+        "oauth-tokens",
+        "account-takeover",
+        "credential-theft",
+        "supply-chain-attack"
+      ],
+      "whyItMatters": "This incident demonstrates how malicious code can hide in legitimate-looking extensions on official app stores, affecting tens of thousands of users simultaneously. Stolen OAuth tokens provide direct access to user accounts without needing passwords, making this a particularly dangerous form of credential compromise that users cannot easily detect or mitigate themselves.",
+      "image": null,
+      "processedAt": "2026-09-14T21:06:19.913843+00:00"
+    },
+    {
+      "id": "art-f0fa3c58",
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/",
+      "summary": "Attackers gained unauthorized access to HBO Max's official Reddit account and used it to distribute fake advertisements containing ClickFix malware. The malicious ads targeted both Windows and macOS users, infecting their devices with information-stealing malware. This attack exploited the trust users have in verified corporate accounts on social media platforms.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "account-compromise",
+        "malware-distribution",
+        "clickfix",
+        "social-media-attack",
+        "information-stealer",
+        "credential-theft"
+      ],
+      "whyItMatters": "This incident demonstrates how attackers can weaponize compromised high-profile corporate accounts to distribute malware at scale, bypassing traditional security filters. Users are more likely to click malicious links from verified accounts they recognize, making social media an effective distribution vector for information-stealing malware that can compromise sensitive data and financial informat",
+      "image": null,
+      "processedAt": "2026-09-14T21:06:22.218003+00:00"
+    },
     {
       "id": "art-efdeb39f",
       "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
@@ -829,215 +1035,6 @@
       "whyItMatters": "Smart TVs in millions of homes were being weaponized as unwitting nodes in proxy networks, exposing users to legal liability, bandwidth theft, and potential involvement in cybercriminal activities. LG's action highlights the critical need for stronger app store vetting and demonstrates how consumer IoT devices can be abused at scale when security controls are inadequate. This incident underscores ",
       "image": null,
       "processedAt": "2026-09-12T19:45:23.345921+00:00"
-    },
-    {
-      "id": "art-e1446fb9",
-      "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-12",
-      "originalUrl": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
-      "summary": "In May 2026, a coordinated cyberattack on RubyGems, a major package manager for Ruby programming, was discovered to be orchestrated by a swarm of OpenAI agents. The attackers successfully gained remote code execution (RCE) on RubyDoc servers, highlighting a new threat where AI systems can be weaponized to conduct sophisticated supply chain attacks. This incident demonstrates how automated AI agents can compromise critical software infrastructure that millions of developers depend on.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-agents",
-        "supply-chain-attack",
-        "remote-code-execution",
-        "rubygems",
-        "malicious-automation",
-        "infrastructure-compromise"
-      ],
-      "whyItMatters": "This represents a critical emerging threat where AI systems are actively exploited to launch sophisticated attacks against vital software supply chain infrastructure. The compromise of RubyGems puts millions of developers and their applications at risk, as malicious code can be injected into widely-used packages. Organizations must urgently assess how AI-driven attacks differ from traditional thre",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSyR4P1ZPtVeXKeb60Ut1xdO4OhRvHWFmoYNgM7SI3NEwfwcTi3Ut60xwcqIfP56OzGFtixKW4Aeo14cVZNE6TPmpC-x8qFgofgMToETQ82bp1aMIMBuaOER2Rq6PkhONMhZPGLFSKFfxVjY4_zDNJOXYHPbQaorfgr74o2PimTPeCf1hgZQ0spe-nJoiU/s1600/rubygems-openai.jpg",
-      "processedAt": "2026-09-12T10:24:14.496235+00:00"
-    },
-    {
-      "id": "art-0ddf82bd",
-      "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
-      "summary": "Google released patches for 230 security vulnerabilities, including a zero-day flaw in Chrome's V8 engine that attackers are actively exploiting. The vulnerability is an out-of-bounds write bug that allows code execution within Chrome's sandbox environment. This represents a significant threat because it affects the widely-used Chrome browser and is being weaponized in real-world attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "chrome-v8",
-        "code-execution",
-        "sandbox-escape",
-        "active-exploitation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Active exploitation of zero-day vulnerabilities in widely-deployed browsers like Chrome poses an immediate risk to millions of users, as attackers can execute malicious code before patches are available or applied. The ability to bypass the sandbox—Chrome's security boundary—significantly amplifies the threat by allowing attackers to access sensitive data and system resources. Users should priorit",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZvl2DE9GFM-4rdFgtQOOp1Dk3Xgp7xWysUv5zKTFwxqWYTurcgXgE-PDMn3_2AAIihh4YeiRvmwpb6GVDB1-8kxqasUWwX-FFa4mA41kXpFbzdt9hOvzW4xcyKBFttqIzbFSl-1SSSO0P_URv3Sy9QamkQZ55qzX5Y9Kmv5NdBCBHXCcUziiO6mfrqURE/s1600/chrome-zeroday.jpg",
-      "processedAt": "2026-09-12T10:24:17.602804+00:00"
-    },
-    {
-      "id": "art-aa9ae03d",
-      "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
-      "summary": "cPanel has released a security patch for a critical vulnerability affecting all supported versions of its hosting control panel. The flaw allows an authenticated user with mail administration privileges to upload arbitrary files through the EmailTrack feature and execute code with root-level permissions, effectively compromising an entire server. This represents a severe privilege escalation risk for any cPanel-based hosting environment.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cpanel",
-        "privilege-escalation",
-        "code-execution",
-        "root-access",
-        "patch-now",
-        "hosting-security"
-      ],
-      "whyItMatters": "This vulnerability is critical because it enables complete server takeover through a relatively low-privilege account, making it an attractive target for attackers who gain access to any mail-enabled hosting account. Hosting providers and their customers must apply patches immediately, as the flaw affects all cPanel versions and poses an immediate threat to thousands of hosted websites and service",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgM_YdNiqGpEWkDm5hEkF-RhZ94vv84sJmONomdRsksJ65GwI388Va-uVIzXWhwZtHmBTF3oze2l4Sscj2zpTsn6lqdPWPKAeL1iP6SSyzvNBOA4dLAKxfSmfThhmQgIc_1AYGWG9dbrCLFg_dk4m8pCHxFcJBRnThru8PtB7UJqUy3VjW15-vQlRvuwpc/s1600/cpanel-bug.jpg",
-      "processedAt": "2026-09-12T10:24:20.520498+00:00"
-    },
-    {
-      "id": "art-5d8956c0",
-      "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
-      "summary": "Malware targeting F5 BIG-IP Access Policy Manager appliances uses a sophisticated technique to hide a PHP web shell in memory rather than storing it on disk. This approach allows the malware to evade traditional disk-based security scans while remaining active on compromised systems. The malware injects itself into Apache's memory when legitimate PHP scripts are loaded, making detection significantly more difficult.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "f5-big-ip",
-        "web-shell",
-        "in-memory-injection",
-        "apache",
-        "evasion",
-        "fileless-malware"
-      ],
-      "whyItMatters": "This attack demonstrates advanced evasion techniques that bypass conventional security tools relying on disk scanning, making it harder for organizations to detect and respond to compromises of critical network infrastructure. F5 BIG-IP appliances are widely used for access management and load balancing, so successful exploitation puts sensitive organizational data and network access at significan",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIA552mINL2oyFm7mf9nHTwjJGJUVAtfYnMXbqYsowSEsDMzVsAgHG8MHKn5_EmwZ9bgRmhEndE20FhQAN4rvOLv5ESSAu0kHTV4QyygvUePYCJ1fvda0bU0Mzi5B9J8LHhULDeRRI9HGC84dntx8jaLu6WFLOz6OOhEwKNnSf6zzFRyAtlLKDQzHvygg/s1600/f5-malware.jpg",
-      "processedAt": "2026-09-12T10:24:23.050926+00:00"
-    },
-    {
-      "id": "art-6b8ec277",
-      "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
-      "summary": "A security researcher named Chaotic Eclipse has released a proof-of-concept exploit demonstrating that Microsoft's patch for a critical Defender vulnerability (CVE-2026-69414, known as ShieldBreak) can be bypassed. The new bypass technique, called ShieldCrash, has a CVSS score of 7.8 and shows that Microsoft's original fix was incomplete. This means systems that were thought to be protected by the patch may still remain vulnerable to attack.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "microsoft-defender",
-        "patch-bypass",
-        "vulnerability",
-        "proof-of-concept",
-        "cve-2026-69414"
-      ],
-      "whyItMatters": "This demonstrates a serious gap in Microsoft's security patching process, as a supposedly-fixed vulnerability can still be exploited through a bypass technique. Organizations relying on Microsoft Defender for protection may face unexpected security risks despite applying the official patch. The public disclosure of a working PoC significantly increases the likelihood of widespread exploitation bef",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZtPq88H-iuD1vEn_DT-1UgFvWXy-P5eKMUm280xVsPt3_Dja1q22icfvF49OduVCGmazXmVmi51Oj58t-2H6JMA4e89X_-obRVRVORjeAZoQzNnw3Io6ad_LofQ1kfum9XeiHC9cijCgAiRL-RsRYjECDVPD_ZT3w61CFj1lkwe2sSZ_1_eSn6Oruh9MJ/s1600/windows-poc.jpg",
-      "processedAt": "2026-09-12T10:24:26.249987+00:00"
-    },
-    {
-      "id": "art-bd1ee90f",
-      "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
-      "summary": "Multiple criminal and state-sponsored hacking groups attempted to misuse Anthropic's Claude AI model to extract sensitive information from nearly 2 million Android applications. These threat actors, linked to Russia and China, exploited the AI system for espionage and financial gain. The incident reveals how advanced AI tools can be weaponized to scale attacks against mobile app security and extract valuable secrets at massive scale.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "claude-abuse",
-        "android-apps",
-        "state-sponsored",
-        "data-extraction",
-        "espionage"
-      ],
-      "whyItMatters": "This demonstrates that AI models can be weaponized as force multipliers for cyberattacks, enabling threat actors to compromise millions of applications simultaneously. The involvement of state-sponsored groups highlights the geopolitical dimension of AI security risks. Organizations must now consider AI tool abuse as a significant threat vector when protecting sensitive code and intellectual prope",
-      "image": null,
-      "processedAt": "2026-09-12T10:24:29.133161+00:00"
-    },
-    {
-      "id": "art-905f7223",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-08",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "summary": "Microsoft released its largest security update ever, patching nearly 1,000 vulnerabilities across Windows and other products in a single month. The company is using artificial intelligence to identify security flaws more quickly, but security experts warn that organizations are struggling to keep up with testing and installing these massive monthly patches. This highlights a growing challenge: while vulnerabilities are being discovered faster, the practical work of deploying fixes remains time-consuming and difficult.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "patch-management",
-        "windows-security",
-        "vulnerability-patching",
-        "ai-security",
-        "patch-volume",
-        "organizational-risk"
-      ],
-      "whyItMatters": "The sheer volume of patches creates a bottleneck for IT teams trying to deploy fixes safely without disrupting operations, leaving organizations vulnerable during the testing period. As AI accelerates vulnerability discovery, the gap between when flaws are found and when they can be patched widens, potentially exposing systems to exploitation. Organizations must prioritize their patching strategie",
-      "image": null,
-      "processedAt": "2026-09-12T10:24:32.502560+00:00"
-    },
-    {
-      "id": "art-26c7e82d",
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-01",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "summary": "A dark web service has begun selling digital copies of over 153 million drivers licenses belonging to people in the US and Canada, apparently obtained from a Louisiana-based identity verification company. The FBI's New Orleans office has opened an official investigation into how the licenses were stolen and made available for sale. This represents a massive exposure of personal identification documents that could be used for identity theft and fraud.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "identity-theft",
-        "dark-web",
-        "drivers-licenses",
-        "fbi-investigation",
-        "personal-data"
-      ],
-      "whyItMatters": "This breach exposes sensitive government-issued identification documents for 153+ million people, creating immediate risk for identity theft, fraud, and account takeovers. The scale and nature of the compromised data (official IDs) makes this particularly dangerous since these documents are primary authenticators for banking, credit applications, and other critical services. Organizations using th",
-      "image": null,
-      "processedAt": "2026-09-12T10:24:35.744026+00:00"
-    },
-    {
-      "id": "art-8342e6c6",
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-27",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "summary": "Australian authorities arrested two suspects aged 21 and 23 from Western Australia who are believed to be members of TeamPCP, a cybercrime group responsible for extensive software supply chain attacks targeting thousands of businesses worldwide. The group allegedly created malicious open-source software to conduct data extortion and theft at scale. The arrests mark a significant development in combating one of the most persistent and sophisticated cybercriminal operations in recent history.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "data-extortion",
-        "malicious-software",
-        "cybercrime-arrest",
-        "open-source-threats",
-        "global-threat"
-      ],
-      "whyItMatters": "Supply chain attacks through compromised software affect thousands of organizations simultaneously and are extremely difficult to detect and mitigate at scale. This arrest demonstrates that law enforcement is actively pursuing major cybercriminals, offering hope for future disruption of organized cybercrime operations. Organizations using open-source software should review their dependencies and s",
-      "image": null,
-      "processedAt": "2026-09-12T10:24:38.753564+00:00"
-    },
-    {
-      "id": "art-feaeddac",
-      "title": "Who’s Tracking You? Use This New Service to Find Out",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "summary": "DecryptAds is a new free service that helps users identify which companies are tracking them through ads and data collection across websites and mobile apps. By organizing publicly available advertising technology data, the tool makes it easier for people to see who is harvesting their personal information. This transparency helps users understand the extent of online tracking they face daily.",
-      "category": "Privacy",
-      "severity": "Low",
-      "tags": [
-        "privacy",
-        "data-tracking",
-        "adtech",
-        "transparency",
-        "user-awareness"
-      ],
-      "whyItMatters": "Understanding who collects your data is fundamental to digital privacy and security awareness. Tools like DecryptAds empower individuals to make informed decisions about their online presence and take control of their personal information, reducing exploitation by unknown third parties.",
-      "image": null,
-      "processedAt": "2026-09-12T10:24:40.883019+00:00"
     }
   ]
 }
