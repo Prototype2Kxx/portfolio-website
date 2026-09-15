@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-09-14T21:06:22.218154+00:00",
+  "lastUpdated": "2026-09-15T11:26:37.692336+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-9d9abac5",
+      "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-15",
+      "originalUrl": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+      "summary": "A critical vulnerability in LiteSpeed Web Server Enterprise allows attackers with low-privilege access to one website hosting account to escalate their privileges and gain root access on shared servers. This flaw poses a severe risk in shared hosting environments where multiple customers' websites run on a single machine, potentially enabling attackers to compromise other sites and the entire server infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "litespeed",
+        "privilege-escalation",
+        "shared-hosting",
+        "root-access",
+        "web-server",
+        "cpanel"
+      ],
+      "whyItMatters": "This vulnerability is critical for shared hosting providers and their customers because it allows relatively low-privileged attackers to compromise an entire server and access sensitive data belonging to other customers. The flaw demonstrates how a single unpatched vulnerability in widely-used server software can create widespread risk across multiple organizations, making immediate patching and m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRVzSne-2lfRX57xj9CbnkpX1fjEWXYoPN0tDsXwgBwaE_LVqYBKtWbO1nudNLKp89aR90EeszJUqsNvZN4ZLzU1i7hm89ihV-lK1mIKiNXl6GWAWkn6uz7WlRVfIdJrS7Nfn6x-1Cclf6oTs3RxVNWxQSVBsvhzDjMBnmU3l3oERVu3b5hqag5mSeKoU/s1600/litespeed.jpg",
+      "processedAt": "2026-09-15T11:26:12.489055+00:00"
+    },
+    {
+      "id": "art-871335a3",
+      "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-15",
+      "originalUrl": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+      "summary": "Cisco has discovered a critical vulnerability (CVE-2026-76461) in AsyncOS Software for Secure Email Gateway that allows attackers to execute commands with root privileges without needing to authenticate first. The flaw, which stems from weak validation in email parsing, has a CVSS score of 9.8 and is already being actively exploited by attackers in real-world attacks. This poses an immediate and severe threat to organizations relying on Cisco's email security infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisco",
+        "email-gateway",
+        "remote-code-execution",
+        "critical-vulnerability",
+        "active-exploitation",
+        "patch-urgently"
+      ],
+      "whyItMatters": "Email gateways are critical infrastructure that protect organizations from threats; a remote code execution vulnerability being actively exploited means attackers can already compromise systems and gain full control. Organizations using Cisco Secure Email Gateway must prioritize patching immediately to prevent unauthorized access, data theft, and further network compromise. The lack of authenticat",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhu8z5yuk0NLq0i2IvKx9dibCdw5at8BanYNBhjn665PLV0EanY_s0UV0D4D0wcPijyd5r8sS4eCMDwKdsVQ9GktnqcPRympe7ZqI7Bh8ZSBukLsxFSQ3-SFRb10ylKsDPl7tU2-M3w_E0eNSe_ytrRE-JZ62fvAExuQCawQJZFjYwArFC550Ri8mOQ1q1s/s1600/cisco-email.jpg",
+      "processedAt": "2026-09-15T11:26:15.179870+00:00"
+    },
+    {
+      "id": "art-11a98a8e",
+      "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-15",
+      "originalUrl": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+      "summary": "A Chinese-linked hacking group targeted non-governmental organizations with a coordinated spear-phishing attack that exploited unpatched security flaws in both Google Chrome and Microsoft Windows. The attackers used this vulnerability chain to install GRIMWEDGE, a malicious JavaScript backdoor that gives them remote access to compromised systems. Security researchers at Volexity identified the threat group as UTA0560 and tracked the campaign back to September 1, 2026.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "chrome-vulnerability",
+        "windows-vulnerability",
+        "spear-phishing",
+        "javascript-backdoor",
+        "ngos-targeted"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors chain multiple zero-day vulnerabilities together to bypass security defenses and establish persistent access to high-value targets like NGOs. Organizations must prioritize urgent patching of both Chrome and Windows systems, and security teams should monitor for GRIMWEDGE indicators of compromise. The targeting of NGOs suggests potential espionage or data ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5aJxmkQeaEoRUyxjlnH4uMELX24ICkHN1UpJaF3kM181M-V32GMskTo1YCRAf-8m4rsHw0nEYM53AC1CAZekv6yOEfBkj1ZNxL3lWatq_F5Bpuwsvw7snHIiIz62EA1pX-bPaawFgIwbvtUH020WdVwEupWi_CkYJVDog_w0LVEnMMvRYo0D7giAdtuGK/s1600/chrome-windows.jpg",
+      "processedAt": "2026-09-15T11:26:17.826913+00:00"
+    },
+    {
+      "id": "art-70d3dd4e",
+      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+      "summary": "This weekly recap highlights emerging cybersecurity threats where artificial intelligence is being weaponized by attackers to accelerate exploits, test system defenses, and automate attack workflows. The article also covers traditional threats including unpatched vulnerabilities, new exploit chains, exposed systems with weak configurations, and rootkit attacks. The convergence of AI-driven attacks with conventional exploitation methods represents an evolving threat landscape that organizations must monitor and defend against.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-threats",
+        "malware",
+        "rootkits",
+        "exploit-chains",
+        "vulnerabilities",
+        "attack-automation"
+      ],
+      "whyItMatters": "AI-assisted attacks significantly reduce the time and skill required for threat actors to compromise systems, making cyber threats more scalable and dangerous across all organization sizes. Understanding how attackers are integrating AI with traditional exploitation techniques helps security teams prioritize defenses and anticipate evolving attack patterns. The combination of automated AI tools wi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgubijVX34VFFHDXzT2j2iTTWrHaElVXjylLKHKAjeSU59q3jTZvRM_O35zw5QOCnrT8ejrYHTG-kjYyt0-R127H_2qEgIWJNuKynEL1FcM9JLyPbsJPY5OZW9rrkJpRprrxpWP8oAGZA2ARZ3xg_0DvBw1I2wbIoXKItcVEjNXQH-CXCMRyuqp1u53ALj7/s1600/recap-cyber.jpg",
+      "processedAt": "2026-09-15T11:26:20.619417+00:00"
+    },
+    {
+      "id": "art-e7bedaee",
+      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+      "summary": "The rapid advancement of AI has dramatically accelerated vulnerability discovery, with nearly 50% more CVEs published in the first half of 2026 compared to the previous year. However, security teams are struggling to keep pace with this massive influx of findings and determine which vulnerabilities actually pose a real threat that requires immediate attention. The core challenge is shifting from simply finding vulnerabilities to effectively validating and prioritizing them.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "vulnerability-management",
+        "vulnerability-validation",
+        "ai-security",
+        "cve-increase",
+        "prioritization",
+        "exposure-management"
+      ],
+      "whyItMatters": "With AI accelerating vulnerability discovery at an unprecedented rate, security teams risk being overwhelmed by noise and missing critical threats. Organizations must develop better validation and prioritization strategies to distinguish between vulnerabilities that require urgent action and those that pose minimal risk, making this a fundamental shift in how defenders approach vulnerability manag",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid_ratIPK3F0IGyzyDTTPaV26Nnh4gQoFjS0ejR49J_tbGb92GgukT-Mnr9xv9mK7h0QSdeXujxiEtD0AqVKNmrKoG9BMEuut7CB1368iyt3Gr6Xu5mAdkDsUQC86K9GZ-Uw6qfPvYYr9BUvHzn014_rzQeMS5dCVXEwkRLs3eViylo5ChmZs6QQygxE4/s1600/picus-main.jpg",
+      "processedAt": "2026-09-15T11:26:23.637336+00:00"
+    },
+    {
+      "id": "art-9e2400db",
+      "title": "Suspected Black Axe gang leaders face cybercrime charges in the US",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/black-axe-gang-members-extradited-to-us-face-cybercrime-charges/",
+      "summary": "Five suspected leaders of the Black Axe cybercrime gang have been extradited to the United States to face charges related to wire fraud and money laundering. The Black Axe syndicate is known for conducting large-scale cyber-enabled financial fraud operations globally. This extradition represents a significant law enforcement victory against organized cybercriminal activity.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cybercrime",
+        "extradition",
+        "wire-fraud",
+        "money-laundering",
+        "organized-crime",
+        "financial-fraud"
+      ],
+      "whyItMatters": "This case demonstrates that law enforcement agencies worldwide are actively pursuing and successfully prosecuting major cybercriminal leadership, which serves as a deterrent to organized cybercrime groups. Understanding how criminal syndicates operate and get dismantled helps organizations strengthen their defenses against the fraud tactics these groups employ. The successful extradition shows the",
+      "image": null,
+      "processedAt": "2026-09-15T11:26:26.317880+00:00"
+    },
+    {
+      "id": "art-b25c2b03",
+      "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-kb5002914-security-update-breaks-excel-copy-and-paste/",
+      "summary": "Microsoft has identified a bug in the September 2026 KB5002914 security update that causes copy and paste functionality to fail silently in Excel for affected users. This issue emerged after the update was deployed, causing disruption to normal workflow operations. Users may experience data transfer problems without receiving clear error messages, making the problem difficult to diagnose initially.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "microsoft-update",
+        "excel-bug",
+        "kb5002914",
+        "copy-paste-failure",
+        "patch-issue"
+      ],
+      "whyItMatters": "This demonstrates how security updates can introduce unintended side effects that disrupt critical business functions, even when intended to improve security. Organizations must balance the need for timely patching against the risk of functionality-breaking updates, requiring careful testing and staged rollout strategies. Silent failures like this can lead to data loss or corruption if users don't",
+      "image": null,
+      "processedAt": "2026-09-15T11:26:29.046165+00:00"
+    },
+    {
+      "id": "art-0da384e6",
+      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-cisco-secure-email-zero-day-exploited-to-execute-commands-as-root/",
+      "summary": "Cisco has released a security patch for a critical zero-day vulnerability in its Secure Email Gateway product that attackers have actively been exploiting. This flaw allows threat actors to compromise email security systems, which are critical infrastructure for most organizations. Organizations using this product need to apply the patch immediately to prevent potential unauthorized access and data theft through their email systems.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "cisco",
+        "zero-day",
+        "secure-email-gateway",
+        "patch-now",
+        "active-exploitation",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "Email gateways are a primary defense against phishing and malware, making this zero-day particularly dangerous since attackers are already exploiting it. Organizations must prioritize patching immediately to prevent attackers from bypassing email security controls and accessing sensitive communications or deploying malware across their networks.",
+      "image": null,
+      "processedAt": "2026-09-15T11:26:31.763455+00:00"
+    },
+    {
+      "id": "art-3d86f9f0",
+      "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+      "summary": "Hackers are scanning the internet for Vite development servers that are publicly exposed and using them to steal sensitive cloud credentials and configuration data from AWS and Azure accounts. This attack targets a common misconfiguration where developers accidentally leave their development environments accessible online instead of keeping them private. The stolen credentials could allow attackers to gain unauthorized access to cloud infrastructure and resources.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-credentials",
+        "vite-servers",
+        "aws-azure",
+        "exposed-dev-servers",
+        "credential-theft",
+        "misconfiguration"
+      ],
+      "whyItMatters": "This represents an active, widespread exploitation campaign targeting a common developer mistake—exposing dev servers publicly—which can grant attackers direct access to production cloud environments. Organizations using Vite must immediately audit their network exposure and implement access controls, as compromised cloud credentials pose an existential risk to entire infrastructure and data store",
+      "image": null,
+      "processedAt": "2026-09-15T11:26:34.626469+00:00"
+    },
+    {
+      "id": "art-14f600b3",
+      "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/",
+      "summary": "While automated patching helps IT teams manage the increasing volume of software updates, rushing deployments can allow faulty updates to spread widely and cause system failures. The article discusses how organizations can implement safeguards like update rings, success metrics, and human review to balance speed with reliability in their patching processes. Proper controls ensure that automation improves security without introducing new risks from problematic updates.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "patch-automation",
+        "update-management",
+        "controlled-deployment",
+        "it-operations",
+        "system-reliability"
+      ],
+      "whyItMatters": "Organizations often rush to deploy patches for security reasons, but inadequate testing and oversight can cause widespread outages or system instability. Understanding how to implement guardrails in automated patching helps security and IT teams reduce vulnerabilities while maintaining operational stability and avoiding unnecessary business disruption.",
+      "image": null,
+      "processedAt": "2026-09-15T11:26:37.692165+00:00"
+    },
     {
       "id": "art-3bb1116c",
       "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
@@ -828,213 +1036,6 @@
       "whyItMatters": "As AI models become more advanced, they pose an escalating threat to users who may not recognize AI-generated manipulation tactics. Understanding how AI can exploit human psychology is critical for developing better defenses and educating users about emerging scam techniques before they become widespread.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt6d66507ff638e8a0/6aa431c763177a6fe1776c1a/fredheiding.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-09-13T11:27:15.984779+00:00"
-    },
-    {
-      "id": "art-4f6cccdd",
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-12",
-      "originalUrl": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "summary": "CISA has identified five actively exploited security vulnerabilities affecting popular software platforms including JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS, and added them to its Known Exploited Vulnerabilities catalog. One of these flaws, CVE-2026-42016, has a high CVSS score of 8.1 and involves an incorrect authorization issue. Because these vulnerabilities are already being exploited by attackers in real-world attacks, organizations using these products need to prioritize patching immediately.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "actively-exploited",
-        "cisa-kev",
-        "artifactory",
-        "screenconnect",
-        "routeros",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Active exploitation means attackers are already using these flaws to compromise systems, making immediate patching essential rather than optional. Organizations running Artifactory, ScreenConnect, or RouterOS face urgent risk and should treat these vulnerabilities as top priority to prevent breaches and operational disruption.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1600/jj.jpg",
-      "processedAt": "2026-09-12T19:44:57.062101+00:00"
-    },
-    {
-      "id": "art-85901f51",
-      "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-12",
-      "originalUrl": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
-      "summary": "As companies increasingly deploy AI tools and agents across their organizations, security operations centers are being overwhelmed with a new wave of alerts generated by legitimate AI usage rather than actual attacks. Developers using coding assistants and employees accessing consumer AI platforms are creating security noise that makes it harder for defenders to spot real threats. This trend highlights a critical gap between how organizations are adopting AI and how their security teams can effectively monitor and manage the expanded attack surface.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-adoption",
-        "soc-operations",
-        "alert-fatigue",
-        "insider-risk",
-        "enterprise-security"
-      ],
-      "whyItMatters": "Alert fatigue from legitimate AI activities can cause security teams to miss genuine attacks while wasting resources investigating false positives, directly undermining SOC effectiveness. Organizations need new monitoring strategies and policies to distinguish between benign AI tool usage and actual security threats as AI becomes embedded in daily business operations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx03NP3tJYBFro8_pZ2g6irfvMJFy0HGYqvUu9kkRJZBnMJ-BcA9aWGZZ1vS4a71YOgpB5qLBDkoNnMyOBJXGhfsyQQMK0IgaGunMOUTLnFUSFddG_5NwlnXsUCWJpGh3bGOcWLHpxXTAqv0i4QAYyRZPXcm0Rcp5K9Yfc7o7SEeLZXNtGp3NZVMzlv1M/s1600/in.jpg",
-      "processedAt": "2026-09-12T19:44:59.947986+00:00"
-    },
-    {
-      "id": "art-e8b78ae7",
-      "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
-      "summary": "The U.S. Department of Justice took coordinated action against Xinbi Guarantee, an online marketplace that facilitated scam operations, by seizing associated Telegram channels and freezing $52.8 million in cryptocurrency across two wallets. Law enforcement deployed a specialized task force to Madagascar to dismantle 13 scam operations linked to Chinese organized crime groups. This operation demonstrates the growing international effort to combat cybercrime infrastructure and criminal use of cryptocurrency.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "cryptocurrency-fraud",
-        "organized-crime",
-        "law-enforcement",
-        "scam-marketplace",
-        "asset-seizure",
-        "international-cooperation"
-      ],
-      "whyItMatters": "This case highlights how cybercriminals leverage cryptocurrency and messaging platforms to operate large-scale scam networks, while showing that international law enforcement can successfully disrupt these operations and recover stolen assets. Organizations and individuals need to remain vigilant about scam services and understand that crypto transactions can be traced and seized, deterring some c",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcQQNutHn5K2x_gd-2eyAP0wzneQ3mOSl3jaaRHGFDUY1O95tuckdjL_botXvrBlt_ts6Bjb91JU4Z-B74VAceL1cYa3oMlt91mHSxZP_FiiVTJLfL8UBUgoBIvjJCuI7Nma3dOxJ48n4wS5VvoBWRDNYqwlYIfStXIKTDBUrRXBIWITx_TprflrVXqjum/s1600/xinbi.jpg",
-      "processedAt": "2026-09-12T19:45:03.046094+00:00"
-    },
-    {
-      "id": "art-090c3cff",
-      "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-      "summary": "A newly discovered exploit kit called BlueMoon has been identified being used by multiple state-sponsored hacking groups to attack Windows and Chrome vulnerabilities. The tool chains together multiple security flaws to compromise systems, with initial deployment traced to the Chinese APT group known as APT31. This represents a significant escalation in espionage capabilities as multiple threat actors have adopted the same toolkit within just one week.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "exploit-kit",
-        "state-sponsored",
-        "windows-vulnerability",
-        "chrome-vulnerability",
-        "apt31"
-      ],
-      "whyItMatters": "When state-sponsored groups deploy shared exploit kits targeting major platforms like Windows and Chrome, it signals an elevated risk to all users globally. The rapid adoption by multiple espionage groups demonstrates the exploit's effectiveness and suggests organizations need immediate patching and monitoring strategies. This type of coordinated exploitation campaign typically precedes large-scal",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxouoVfK0MjZpruL0J1chmWnC7avUov1fOLbgX-XyFGrTcXeOh08tVntBjzJ7wBMmOB3P-PpxMr6E868Wpsaky-b-Nrf1LajzoQFfmjnkI1KHQzGXrCcVnC57nF2ndYZHCLx5WA3dENCWmCbZlSAb5TC-p8DXCGWxWB7I3iRIsdMMk6SS6IV03722lZIS4/s1600/spy.jpg",
-      "processedAt": "2026-09-12T19:45:06.207927+00:00"
-    },
-    {
-      "id": "art-295d6701",
-      "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-09",
-      "originalUrl": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-      "summary": "Cybercriminals are using information stealer malware like Lumma and Vidar to steal API tokens and session credentials from compromised computers, then exploiting these stolen tokens to gain unauthorized access to AI services from providers like Google and Anthropic. These harvested tokens can bypass multi-factor authentication (MFA) protections, allowing attackers to hijack AI accounts and use them for malicious purposes. This attack vector represents a growing threat as AI tools become more valuable targets for criminals seeking to exploit or monetize stolen access.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "infostealer",
-        "api-tokens",
-        "mfa-bypass",
-        "ai-security",
-        "credential-theft",
-        "account-hijacking"
-      ],
-      "whyItMatters": "This threat is critical because it demonstrates how traditional malware techniques are evolving to target high-value AI infrastructure, and stolen API tokens can bypass MFA—a security control many organizations rely on. Organizations using AI services must implement additional protections beyond MFA, such as token rotation, IP whitelisting, and endpoint security, to prevent attackers from weaponiz",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYP_zrhRTZRWnPPcDkUrE7dBh2Bf5eaQmlBxyl7euTRGjS0C8boQppnrmjY0CIVjGrS_PF13V1W3BPVI3RDPZY59s_7xIkI8LnFkg3Tn_Q0x7_tbCs_sMkvhZMREtFLW3IOJSNNmQrKCDI88FCWhfymdWkEWtdMMRzivv3lZXImjreAz0d74VXt2K80ipH/s1600/tokens.jpg",
-      "processedAt": "2026-09-12T19:45:09.530996+00:00"
-    },
-    {
-      "id": "art-a24a55fd",
-      "title": "Dutch NCSC: Critical Check Point VPN flaws exploitation is imminent",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent/",
-      "summary": "The Dutch National Cyber Security Center has issued a warning about two critical vulnerabilities in Check Point VPN products (CVE-2026-85102 and CVE-2026-85103) that are expected to be exploited soon. These flaws pose an immediate threat to organizations using Check Point VPN solutions for remote access and network security. Users should prioritize patching these vulnerabilities to prevent potential unauthorized access to their networks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "check-point-vpn",
-        "critical-vulnerability",
-        "imminent-exploitation",
-        "network-security",
-        "patch-urgent",
-        "cve-2026-85102"
-      ],
-      "whyItMatters": "VPN solutions are critical infrastructure for secure remote access, and active exploitation of these flaws could allow attackers to bypass authentication and gain unauthorized access to sensitive corporate networks. Organizations using affected Check Point VPN systems face immediate risk and must apply patches without delay to prevent compromise of their entire network infrastructure.",
-      "image": null,
-      "processedAt": "2026-09-12T19:45:12.739698+00:00"
-    },
-    {
-      "id": "art-d6487b3f",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "summary": "Microsoft released patches for approximately 398 security vulnerabilities across its Windows operating systems and related software. The update is particularly urgent because at least one vulnerability is already being actively exploited by attackers, and two others have been publicly disclosed. Organizations need to prioritize applying these patches to protect their systems from immediate threats.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-patch",
-        "windows-vulnerability",
-        "active-exploitation",
-        "security-update",
-        "urgent-patching"
-      ],
-      "whyItMatters": "A large volume of vulnerabilities with active exploitation represents an immediate threat to millions of Windows users worldwide. Delayed patching leaves systems exposed to attacks that adversaries are already leveraging in the wild, making this update critically important for cybersecurity hygiene and risk management.",
-      "image": null,
-      "processedAt": "2026-09-12T19:45:14.754832+00:00"
-    },
-    {
-      "id": "art-a12d8ea1",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "summary": "A 26-year-old Canadian cybercriminal named Connor Riley Moucka pleaded guilty to hacking and extorting over 165 organizations using Snowflake cloud storage, as well as stealing communications data from more than 100 million AT&T customers. This case represents a major law enforcement victory against one of 2024's most significant cybercrime threat actors. The guilty plea demonstrates accountability for large-scale extortion campaigns targeting critical cloud infrastructure and telecommunications companies.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "extortion",
-        "cloud-security",
-        "data-breach",
-        "snowflake",
-        "cybercrime",
-        "law-enforcement"
-      ],
-      "whyItMatters": "This case highlights the serious risks organizations face when cloud providers are compromised and shows that even high-profile cybercriminals can be prosecuted and held accountable. The scale of the breach affecting 100+ million AT&T customers demonstrates how a single attacker can impact millions of consumers, making this a watershed moment for cloud security awareness and law enforcement capabi",
-      "image": null,
-      "processedAt": "2026-09-12T19:45:17.459570+00:00"
-    },
-    {
-      "id": "art-58d6050c",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "summary": "Cheap TV streaming devices that promise unlimited content for a low price are more dangerous than previously thought. These devices not only illegally share users' internet connections with strangers, but also disguise themselves as mobile phones to click on fake ads and steal from online stores and advertising companies. Consumers should be cautious when purchasing these devices, as they actively participate in fraud schemes.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "iot-security",
-        "fraud",
-        "device-exploitation",
-        "malware",
-        "consumer-risk",
-        "internet-abuse"
-      ],
-      "whyItMatters": "This research reveals that widely available consumer devices are actively participating in coordinated fraud schemes, putting both users and legitimate businesses at risk. Consumers need to understand that cheap streaming devices can turn their home networks into tools for criminal activity, making this a critical awareness issue for device purchasing decisions.",
-      "image": null,
-      "processedAt": "2026-09-12T19:45:20.442149+00:00"
-    },
-    {
-      "id": "art-8efb3346",
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "summary": "LG Electronics USA announced plans to ban apps from its webOS smart TV store that secretly turn televisions into residential proxy nodes for routing third-party internet traffic. Research discovered that over 42% of games and apps available on LG's platform allow unknown parties to use users' TVs as proxy servers without their knowledge. This security measure aims to protect consumers from having their home devices exploited for potentially malicious network activities.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "residential-proxy",
-        "smart-tv-security",
-        "unauthorized-access",
-        "privacy-violation",
-        "iot-abuse"
-      ],
-      "whyItMatters": "Smart TVs in millions of homes were being weaponized as unwitting nodes in proxy networks, exposing users to legal liability, bandwidth theft, and potential involvement in cybercriminal activities. LG's action highlights the critical need for stronger app store vetting and demonstrates how consumer IoT devices can be abused at scale when security controls are inadequate. This incident underscores ",
-      "image": null,
-      "processedAt": "2026-09-12T19:45:23.345921+00:00"
     }
   ]
 }
