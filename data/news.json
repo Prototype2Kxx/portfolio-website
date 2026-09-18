@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-09-17T20:38:41.566828+00:00",
+  "lastUpdated": "2026-09-18T10:55:05.160159+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-4245c01c",
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "summary": "Researchers discovered 13 malicious npm packages containing WeaselBiscuit, a JavaScript stealer designed to target Chrome extension storage and harvest sensitive data. This newly identified malware shows similarities to previous threats linked to North Korean hacking groups, suggesting a coordinated campaign. The malware's distribution through legitimate package repositories highlights how supply chain attacks can reach developers and applications at scale.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "malware",
+        "supply-chain-attack",
+        "npm-packages",
+        "javascript-stealer",
+        "dprk",
+        "chrome-extensions"
+      ],
+      "whyItMatters": "This attack directly threatens developers and end-users by compromising a trusted package manager, potentially affecting millions of applications and their users' sensitive data. The connection to state-sponsored actors and the use of multiple malicious packages indicate a sophisticated, persistent threat that requires immediate awareness and defensive action from the development community.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZypkEn_5V1qllBxmH8UMxTPyA9qoXxQtKpBpJlFq2rtHgMM1wnknkyq4Vmmy0NiCHn2IjS0nyvtmiZpJ-vYOd6VxMFBexh_p6GXuq3Cjda-YfjDOUE5u5V5HfBBAQzEm5DLX3jg_ZrIfEBFlpcBod65T3Q0pXVR7vERfitlS6cBHYVG2K7ek5ivweYTRq/s1600/npm-chrome.jpg",
+      "processedAt": "2026-09-18T10:54:43.123120+00:00"
+    },
+    {
+      "id": "art-a24eec3b",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "summary": "A threat actor distributed malicious code through the npm package registry using a stealer called PhantomRaven that targets JavaScript environments. Security researchers determined with high confidence that an LLM was used to create the malware, based on distinctive patterns like verbose comments and placeholder code. This incident highlights how attackers are increasingly leveraging AI tools to generate and distribute supply chain attacks more easily.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "npm-supply-chain",
+        "information-stealer",
+        "llm-generated-malware",
+        "javascript-malware",
+        "package-registry-attack",
+        "threat-actor"
+      ],
+      "whyItMatters": "This attack demonstrates that LLMs are lowering the barrier to entry for malware development, making it easier for less-skilled attackers to create sophisticated threats distributed via trusted package repositories. Organizations relying on npm packages need enhanced vetting processes and dependency monitoring to detect compromised libraries before they enter production environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyW8DcUYeyW1LOG-Gc3uqyV8_5rO4iwyEIM6FbRFwuvilvbfC7RSTjueJ4lEELpGvXX-22zzWuNCusN2qdODymiKNOQSz_8f1Q4u59bH7HCEZFT5PVsyBjj2NhWtlYiwvhXzXbwG_n3P_DCloZvMdajsc93hvqbJo6HCJy5wjNevUyN46ODFo7AlYsj499/s1600/npm-cicd.jpg",
+      "processedAt": "2026-09-18T10:54:45.682012+00:00"
+    },
+    {
+      "id": "art-29c0482b",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "summary": "A new Android malware called RatHat, linked to Chinese threat actors, uses AI-powered technology to control compromised devices and maintain persistent access even after uninstallation by abusing Android Debug Bridge (ADB). The malware spreads through deceptive text message phishing and fake app download websites that trick users into installing it.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "android-malware",
+        "persistence-mechanism",
+        "adb-abuse",
+        "smishing",
+        "ai-powered-threat",
+        "china-based-actors"
+      ],
+      "whyItMatters": "RatHat's ability to maintain shell access after uninstallation using ADB makes it exceptionally difficult to remove, posing a serious risk to Android users. The combination of AI-driven automation and widespread smishing distribution channels means this threat can scale quickly and adapt to user behavior, requiring organizations to implement stronger mobile security controls and user awareness tra",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Psm8tS3JWb6ev7nZoz7YQDPIgoHj9gwbNjgjxbokxICdzRIUb5YJI-XfDx0NQgm8afhayc-Zd51hjuxqi7Sk_XxCNXoTNt7nIZWpxCBcDMLjSm3uW38HRciOu3WNtaUT0a-2NSsOX91GbXpCScryNirImMMC4lkuVysHku58maTbm9XvAwJ0-X6O_wDE/s1600/1000109602.jpg",
+      "processedAt": "2026-09-18T10:54:48.228620+00:00"
+    },
+    {
+      "id": "art-7b7b8fc2",
+      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-17",
+      "originalUrl": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+      "summary": "Check Point's Security Management and Log Servers contain a critical vulnerability that allows attackers without valid credentials to execute code with root privileges remotely. This flaw directly impacts the systems responsible for managing firewall policies and administrator access. The vendor has released a fix through LivePatch updates, though there are currently no confirmed reports of active exploitation in the wild.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "check-point",
+        "remote-code-execution",
+        "authentication-bypass",
+        "security-management",
+        "patch-available",
+        "root-access"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects core infrastructure management systems that control firewall policies and administrative access—compromising these servers could give attackers control over an entire organization's network security posture. An unauthenticated attack vector means no valid credentials are needed to exploit it, dramatically expanding the pool of potential attackers. ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuFSb4LQQ7e_Iz1RS0JfQEDY9G9LcQZ23RM0h6ladr56GJ6nN3kPwVoZPpNVJUyJEBmLVEyMaIxytF2XqyQs8fGjIdd_ymPjwaZA8Q8R7JiXC-srMFj0_YBd-a94juv46HZm4ie72j7PTj45veyTgOBaeuN53HvktSH3JTgasvV_Mo-RwjsTPnRLlHFVk/s1600/cp-main.jpg",
+      "processedAt": "2026-09-18T10:54:50.840774+00:00"
+    },
+    {
+      "id": "art-e186bda5",
+      "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-17",
+      "originalUrl": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+      "summary": "This week's cybersecurity threats involve attackers exploiting multiple vulnerability types across AI tools, misconfigured services, unpatched bugs, weak authentication systems, and software-as-a-service platforms. The article highlights that while attackers continue developing new exploitation techniques, many successful attacks still rely on reusing existing vulnerabilities and attack methods. The threat landscape continues to expand rather than improve, with defenders struggling to keep pace with the variety of attack vectors.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "patch-management",
+        "misconfiguration",
+        "authentication-weakness",
+        "saas-risks",
+        "vulnerability-management"
+      ],
+      "whyItMatters": "Understanding the diversity of attack vectors—from AI tools to weak credentials to unpatched systems—helps organizations prioritize security efforts across multiple fronts rather than focusing on single threat types. This article demonstrates that effective defense requires addressing both emerging attack techniques and persistent basic security hygiene, making comprehensive vulnerability manageme",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizRobrCcZcWNzLjEmyk91HaJj5g2vkMbOgX_lP1vNQqfvh8krm4975WJ5zi9VFY1FsF44ZTJ5znBY5sBuKYiN-riJQspK3iLLnvhW5crViG9fJMPF_SCEN3dKPk-ypSjFQfD_gN1zA-KbryzexASNOVcKRHf4hf3iZ1XBuvYG9WKWhBdVWbs1dzJS9BUIQ/s1600/threatsday-main.jpg",
+      "processedAt": "2026-09-18T10:54:53.612597+00:00"
+    },
+    {
+      "id": "art-1e9622cb",
+      "title": "New Check Point flaw lets hackers execute code with root privileges",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+      "summary": "Check Point Software discovered a critical vulnerability in their management systems that allows attackers to execute code with root-level privileges. The company has released security updates to address this flaw. This type of vulnerability is particularly dangerous because it gives attackers complete control over affected systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "check-point",
+        "root-privilege-execution",
+        "patch-now",
+        "management-systems",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "Root-level code execution vulnerabilities are among the most severe threats in cybersecurity because they grant attackers complete control over systems. Organizations using Check Point management systems need to apply patches immediately to prevent potential compromise of their entire security infrastructure.",
+      "image": null,
+      "processedAt": "2026-09-18T10:54:55.379807+00:00"
+    },
+    {
+      "id": "art-eca51c10",
+      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+      "summary": "Microsoft released a fix for a bug in Excel 2016 that prevented users from copying and pasting data after installing the September 2026 security update KB5002914. The issue affected some users' ability to perform basic spreadsheet operations. Microsoft addressed this problem to restore normal functionality for affected Excel users.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "microsoft-excel",
+        "patch-management",
+        "software-bug",
+        "kb5002914",
+        "user-functionality"
+      ],
+      "whyItMatters": "This highlights how security patches can sometimes introduce unintended side effects that disrupt critical business workflows, emphasizing the importance of testing updates before widespread deployment. Organizations relying on Excel 2016 need awareness of patch-related issues to plan timely updates and minimize productivity disruptions.",
+      "image": null,
+      "processedAt": "2026-09-18T10:54:57.670984+00:00"
+    },
+    {
+      "id": "art-8a01032d",
+      "title": "New RatHat Android malware uses AI to automate device control",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
+      "summary": "RatHat is a newly discovered Android malware that uses artificial intelligence to help attackers remotely control compromised mobile devices. The malware's AI-powered system automates the process of navigating and manipulating infected phones, making attacks more efficient and scalable. This represents an emerging threat where cybercriminals leverage AI technology to enhance their attack capabilities against Android users.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "android-malware",
+        "ai-powered-attacks",
+        "remote-access",
+        "mobile-security",
+        "rat-malware"
+      ],
+      "whyItMatters": "This threat demonstrates how attackers are integrating AI into malware to automate and scale device compromise, making infections harder to detect and defend against manually. Android users need enhanced awareness of this risk, and security vendors must develop AI-aware detection methods to counter these sophisticated attacks.",
+      "image": null,
+      "processedAt": "2026-09-18T10:55:00.032996+00:00"
+    },
+    {
+      "id": "art-fdd4caf7",
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-16",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "summary": "Radaris, a data broker known for ignoring privacy removal requests, faced legal consequences after violating New Jersey's privacy law by publishing personal information about state law enforcement officials. A judge ordered the company to transfer radaris.com and over a dozen other data broker domains to the plaintiffs due to the company's repeated legal stonewalling. This case demonstrates that data brokers can face serious penalties when they fail to respect privacy rights and comply with state regulations.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "data-broker",
+        "privacy-violation",
+        "personal-information",
+        "legal-enforcement",
+        "data-privacy"
+      ],
+      "whyItMatters": "This case shows that data brokers can face significant legal and operational consequences for ignoring privacy laws and removal requests, which incentivizes better privacy practices across the industry. It also demonstrates that courts are willing to impose strong remedies like domain seizure against companies that deliberately disregard consumer privacy rights, setting an important precedent for ",
+      "image": null,
+      "processedAt": "2026-09-18T10:55:02.435877+00:00"
+    },
+    {
+      "id": "art-fb9b782c",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-01",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "A dark web marketplace has begun selling digital copies of over 153 million drivers licenses belonging to people in the United States and Canada. The stolen documents appear to have come from an identity verification company based in Louisiana that collected the scans. The FBI's New Orleans office has opened an investigation into how such a massive amount of sensitive identity documents ended up being sold illegally online.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "identity-theft",
+        "dark-web",
+        "drivers-licenses",
+        "fbi-investigation",
+        "credential-theft"
+      ],
+      "whyItMatters": "This represents one of the largest identity document breaches affecting North Americans, exposing millions to identity theft, fraud, and social engineering attacks. The compromise of an identity verification company indicates a serious vulnerability in trusted third-party services that handle sensitive personal data. Affected individuals face long-term risk of misuse of their identity documents fo",
+      "image": null,
+      "processedAt": "2026-09-18T10:55:05.160010+00:00"
+    },
     {
       "id": "art-a4e94d20",
       "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
@@ -827,212 +1033,6 @@
       "whyItMatters": "The sheer volume of patches creates a critical challenge for organizations trying to maintain security without disrupting operations—delays in deployment leave systems exposed to known exploits. This situation highlights the growing tension between accelerated vulnerability discovery and the practical limits of IT teams' ability to test and deploy fixes at scale.",
       "image": null,
       "processedAt": "2026-09-16T11:12:40.179235+00:00"
-    },
-    {
-      "id": "art-8a55804d",
-      "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-      "summary": "A previously unknown Brazilian banking malware called KREMLIN has been targeting Chrome and Edge browsers since May 2025 by posing as legitimate Brazilian banks. The malware installs malicious browser extensions designed to steal user credentials and session tokens. Security researchers at Elastic Security Labs are tracking this operation under the threat actor designation REF9334.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "banking-malware",
-        "browser-hijacking",
-        "credential-theft",
-        "session-token-theft",
-        "brazil-targeted"
-      ],
-      "whyItMatters": "This malware directly compromises financial accounts by stealing banking credentials and session tokens through trusted browsers, enabling direct unauthorized access to victim bank accounts. Organizations and individuals in Brazil using Chrome or Edge need immediate awareness to avoid falling for banking impersonation lures and installing malicious extensions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPTs6qupSdjinGg233zkoldOvlD4cva51loWufV3l9GrlDopNRIKsV9yluCDjbGELBAAvVGx_h4R-sjx4jvDp290Znzhv6j546sq5JB0NJUShGVV3w0gKU7nu4dBVCosaPeKW-Pr1_WHn4FV26aEJRgEo7oSJsgUE5_ZGCMKWPPBdZ7NMh5XRr04Cs6qTh/s1600/browser-malware.jpg",
-      "processedAt": "2026-09-15T20:31:13.377503+00:00"
-    },
-    {
-      "id": "art-d7cc532b",
-      "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-      "summary": "Government cybersecurity agencies from the US, UK, and Netherlands have identified Windows malware allegedly controlled by Iran's intelligence service to surveil dissidents, journalists, and activists globally. The malware operates through Telegram and can steal emails and messages, capture screenshots, and secretly record audio through a target's microphone. This coordinated disclosure highlights the ongoing threat of state-sponsored surveillance tools targeting vulnerable populations.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored",
-        "malware",
-        "surveillance",
-        "telegram",
-        "iran",
-        "activism"
-      ],
-      "whyItMatters": "This represents an active, sophisticated nation-state cyber espionage campaign targeting vulnerable populations including journalists and political activists. Understanding the tactics and indicators of compromise helps organizations and individuals recognize and defend against surveillance malware. The use of common messaging platforms like Telegram for command-and-control demonstrates how advers",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZTZstgI7jZKSq2kVj82ewI26neoU-YsSa1z0LIJdjqdsCSk8zS3VYdvhFyfE0rq75UOlst77oTDBZ-mVzRDaqljLl-jJrvxWzLBmj74k8kWFjld5o2uTB59tskHlBqM0JTuf5yuTMsWMBuE-Y_2LtkIfKT-l9C-h5Y5rvkAJKlIGD5rQLbUuWRNx8y5k/s1600/iran-malware.jpg",
-      "processedAt": "2026-09-15T20:31:16.166903+00:00"
-    },
-    {
-      "id": "art-0ead5fa4",
-      "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-      "summary": "Security researchers have discovered BambooToken, a malware family that has been active since early 2023 and targets both Windows and Linux computers. This malware uses the MQTT protocol (a communication method commonly used in IoT devices) to remotely control infected systems. The attacks have primarily focused on organizations in Asia and South America, raising concerns about a coordinated multi-platform threat.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "bambootoken",
-        "multi-platform-malware",
-        "mqtt-protocol",
-        "remote-control",
-        "asia-south-america"
-      ],
-      "whyItMatters": "BambooToken demonstrates how attackers are leveraging unconventional protocols like MQTT to evade traditional security detection systems. Organizations need to monitor for unusual MQTT traffic and secure both Windows and Linux endpoints, as this malware's cross-platform nature means no operating system is safe from this particular threat.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7hFIl_GRAlPuegwLGZ2PzXVsPEUTEevpEYhkU2Va9isB7aC8a0jJCLVszVOUc_CAIb4IkIkmRjkvyaTIadUizNNEhHTxvzlPX0EUN6UQutjyrauyi35fzRtBjFudyOW4HlAnTRNC9XDj39uNBMKUWHUV2g0Rt8o3aSADZAeAIYgLN-dT0q8gIH9cWUDBF/s1600/windows-linux.jpg",
-      "processedAt": "2026-09-15T20:31:19.003210+00:00"
-    },
-    {
-      "id": "art-c292d62f",
-      "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-      "summary": "A human attacker successfully exploited a vulnerability in Marimo, a notebook application, and gained access to an SSH bastion server in just eight seconds. The incident demonstrates that despite AI accelerating cyber attacks, experienced threat actors can move equally fast during the post-exploitation phase. Research from Sysdig shows how quickly attackers can pivot from initial compromise to reaching critical infrastructure.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "rce-vulnerability",
-        "marimo",
-        "privilege-escalation",
-        "lateral-movement",
-        "ssh-bastion",
-        "cloud-infrastructure"
-      ],
-      "whyItMatters": "This incident highlights a critical threat window: even with rapid vulnerability discovery and exploitation, human attackers can compromise sensitive infrastructure within seconds of gaining initial access. Organizations must implement aggressive detection and response mechanisms, network segmentation, and assume-breach strategies to prevent attackers from reaching critical systems like SSH bastio",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzWVpv5OsfVGAYPz4or_uMgVNDXTSzyXpTB8XLtCFHdzk9IliH8Aydez_Zo9hDGSj7__A0cFwnjKUpRWn5nn4CSd5wlaIJ1-BpU29tUyeh3pC63H_kXIn9ANQna1FBENp-td6TCC6z50ZEcAeNjAZMA-tIA9_x9nYrlHqbnJOijQpbeHsQmW5tKMczy4ek/s1600/marimo%20%281%29.jpg",
-      "processedAt": "2026-09-15T20:31:22.123556+00:00"
-    },
-    {
-      "id": "art-f237e7bf",
-      "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-      "summary": "Security teams often test their defenses against individual attack techniques in isolation, but this approach fails to account for how attackers chain multiple techniques together to achieve their goals. The article argues that validating against isolated techniques—like whether an EDR agent blocks a specific payload or a SIEM rule detects a particular behavior—misses the bigger picture of how real attacks unfold. Organizations need to shift their testing strategy from evaluating individual defensive capabilities to assessing how well they can detect and stop complete attack chains.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "attack-chains",
-        "detection-gaps",
-        "security-testing",
-        "threat-modeling",
-        "incident-response",
-        "defense-strategy"
-      ],
-      "whyItMatters": "Organizations that only test individual security controls may develop false confidence in their defenses while remaining vulnerable to sophisticated multi-step attacks. Understanding attack chains reveals critical gaps where attackers can transition between techniques undetected, making this perspective essential for building effective, layered security strategies that actually protect against rea",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQ5FtIC97mlzzBT1tKZW7igSSWnJsEI-gEDuUjX-_smFr3Q-loPw-bYG2rEqPBOFPOm0SeL3Go5NvyiJo_DbqnF7ECWdg1EA0DaUML5koDFnXi_lTpJ_Vuow5bsBeQvqLTN25x3O0seE7Qxv5o3S9KoIKuQAVIu7FTPPoZm6ly5XtS97tng5LAaw3tCCY/s1600/live.jpg",
-      "processedAt": "2026-09-15T20:31:25.265857+00:00"
-    },
-    {
-      "id": "art-c772363e",
-      "title": "CenterPoint Energy confirms customer data stolen in cyberattack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/centerpoint-energy-confirms-customer-data-stolen-in-cyberattack/",
-      "summary": "CenterPoint Energy, a major utility company, confirmed that attackers stole customer personal information in a cyberattack. An unknown attacker then leaked the stolen data publicly, compromising the privacy of affected customers. This incident highlights how even critical infrastructure providers can fall victim to data theft.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "customer-data",
-        "critical-infrastructure",
-        "data-leak",
-        "utility-company"
-      ],
-      "whyItMatters": "Breaches at critical infrastructure providers like utilities directly affect large populations and can expose sensitive personal information used for identity theft. This incident demonstrates that attackers are actively targeting essential services, and customers should monitor accounts for suspicious activity. Companies managing critical infrastructure must prioritize security to protect both da",
-      "image": null,
-      "processedAt": "2026-09-15T20:31:27.945749+00:00"
-    },
-    {
-      "id": "art-9ba9d21e",
-      "title": "BambooToken malware controls Windows and Linux systems via MQTT",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/bambootoken-malware-controls-windows-and-linux-systems-via-mqtt/",
-      "summary": "BambooToken is a malware framework that has been active since at least 2023 and targets both Windows and Linux systems. The malware uses the MQTT protocol, a lightweight messaging system typically used for IoT devices, to communicate with infected computers and receive commands. This cross-platform capability and unconventional communication method make it a sophisticated threat that could be difficult to detect using traditional security tools.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware-framework",
-        "cross-platform-threat",
-        "mqtt-protocol",
-        "windows-linux",
-        "command-control"
-      ],
-      "whyItMatters": "BambooToken's use of MQTT for command-and-control communication represents an evasion technique that may bypass standard network monitoring, since MQTT traffic is often overlooked in security defenses. Its ability to compromise both Windows and Linux systems simultaneously expands its potential impact across diverse IT environments and requires organizations to monitor unconventional protocols and",
-      "image": null,
-      "processedAt": "2026-09-15T20:31:30.538570+00:00"
-    },
-    {
-      "id": "art-cceceaac",
-      "title": "Hackers target WordPress sites via third-party WooCommerce plugin",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-via-third-party-woocommerce-plugin/",
-      "summary": "Attackers are actively exploiting a critical vulnerability in a WooCommerce plugin called Wholesale Lead Capture to install PHP backdoors on WordPress websites. This attack allows hackers to gain unauthorized access to compromised sites, potentially leading to data theft or further malicious activities. WordPress site owners using this premium plugin are at immediate risk and need to take urgent action.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress",
-        "woocommerce",
-        "plugin-vulnerability",
-        "php-backdoor",
-        "active-exploitation",
-        "patch-required"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to thousands of e-commerce sites running WordPress and WooCommerce, as attackers are already exploiting it in the wild. Website owners need to quickly patch or disable the vulnerable plugin to prevent unauthorized access and potential data breaches. Understanding third-party plugin risks is essential for maintaining secure WordPress deployments.",
-      "image": null,
-      "processedAt": "2026-09-15T20:31:33.444447+00:00"
-    },
-    {
-      "id": "art-b2c3f268",
-      "title": "What Zero-Day Response Should Be in the Post-Mythos Era",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/what-zero-day-response-should-be-in-the-post-mythos-era/",
-      "summary": "Artificial intelligence is accelerating the speed at which vulnerabilities are discovered and exploited, shrinking the window defenders have to respond with patches. Security teams can no longer rely solely on waiting for fixes or public exploits to appear. Instead, organizations should use exploitability validation, security control testing, and autonomous penetration testing to identify and remediate exposure gaps before attackers can strike.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "ai-driven-attacks",
-        "vulnerability-disclosure",
-        "patch-management",
-        "penetration-testing",
-        "threat-response"
-      ],
-      "whyItMatters": "As AI tools make it faster for attackers to find and weaponize vulnerabilities, the traditional patch-and-wait defense strategy is becoming obsolete. Organizations that don't adopt proactive vulnerability testing and validation will face significantly increased risk of compromise before vendors release patches, making this a critical shift in how security teams must operate.",
-      "image": null,
-      "processedAt": "2026-09-15T20:31:35.990857+00:00"
-    },
-    {
-      "id": "art-50a1c62d",
-      "title": "CISA: Critical VMware RCE flaw now exploited by ransomware gangs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-critical-vmware-vcenter-rce-flaw-now-exploited-by-ransomware-gangs/",
-      "summary": "A critical vulnerability in VMware vCenter that was patched in July is now being actively exploited by ransomware groups, according to a warning from CISA. This means that attackers have moved beyond initial reconnaissance and are using the flaw to deploy ransomware attacks against organizations. Security teams need to ensure they have applied the July patch immediately, as the threat is no longer theoretical but actively happening.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "vmware-vulnerability",
-        "ransomware-exploitation",
-        "cisa-alert",
-        "rce-flaw",
-        "patch-urgent",
-        "critical-infrastructure"
-      ],
-      "whyItMatters": "Active ransomware exploitation of a known vulnerability represents an immediate, widespread threat to organizations using VMware vCenter. Unpatched systems are now at direct risk of compromise and data theft or encryption. This underscores the critical importance of timely patching and monitoring for signs of exploitation attempts.",
-      "image": null,
-      "processedAt": "2026-09-15T20:31:39.028088+00:00"
     }
   ]
 }
