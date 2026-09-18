@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-09-18T10:55:05.160159+00:00",
+  "lastUpdated": "2026-09-18T20:03:51.575103+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-21f1cec4",
+      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+      "summary": "WordPress released security patches to address vulnerabilities in its core software, including a flaw called Click2Shell that allows attackers to trick logged-in administrators into installing malicious themes through a crafted link without explicit user interaction. The vulnerability, discovered by security researchers at pwn.ai, can potentially lead to code execution on affected websites. This attack chain demonstrates how seemingly minor flaws can be chained together to create serious security risks for WordPress installations.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress",
+        "click2shell",
+        "theme-installation",
+        "code-execution",
+        "administrator-exploit",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability affects millions of WordPress sites worldwide and can be exploited against administrators without requiring additional user interaction beyond opening a link. The ability to chain the flaw to arbitrary code execution makes it a critical threat that could lead to complete website compromise, data theft, or malware distribution.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRmEdVvBEJZEaIzJ4GYHX3cDjJq5YaLQby6GeVwDl-uVl_qIR_tkRSx6aKpzoYhGVvp0E3NDIe9aum5f5N_lI-RPz6eDNGHC7vpKMa0UrlT1J1_bRJrJ8Wk0htpyFoR3ezoqh-BCJePJU914UFlL7gS45RXbWoVi3Lp49iNSkUt7eLrJyQTAEIGE-VRgY/s1600/click2shell.gif",
+      "processedAt": "2026-09-18T20:03:30.025805+00:00"
+    },
+    {
+      "id": "art-fa2a4c04",
+      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+      "summary": "A Pakistan-linked hacking group called Transparent Tribe has launched attacks against government and defense targets in India and Afghanistan using new malware tools. The group deployed previously unknown backdoors named RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH, along with a novel technique using private GitHub repositories for command-and-control communications. This represents an escalation in the group's capabilities and tactics.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "apt36",
+        "transparent-tribe",
+        "rust-backdoor",
+        "government-targeting",
+        "c2-command-control",
+        "github-exploitation"
+      ],
+      "whyItMatters": "This attack demonstrates an active, sophisticated threat to critical infrastructure with new malware variants and innovative C2 methods using legitimate platforms, making detection harder. Organizations in government and defense sectors face immediate risk and need to update security tools and monitoring strategies to identify these emerging threats.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhBM0nXgCLpwEyXmAdxLO_GatYww1Cem0yuGGqhmMwCB5N8w-TeoMm7jV4SbH4hjfYmxctUjyPiSlR3Caj2cSu7L_1nxTzg5xtfJrxhq5y0elL7yh8J2S5lakpnTbck3XhMVB1iG3obibSh64E8z877YcECkeJBs_rrZARXefKDeYQJ9Nf2u8pnxD0gEnx/s1600/rust-malware.jpg",
+      "processedAt": "2026-09-18T20:03:32.551411+00:00"
+    },
+    {
+      "id": "art-f33af335",
+      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "summary": "Microsoft has patched a critical security flaw in Azure AI Foundry that could allow attackers to gain unauthorized access and escalate their privileges. The vulnerability, identified as CVE-2026-85889, received a maximum severity score of 10.0 because it lacks proper authentication checks on important system functions. Users are not required to take action since Microsoft has already released the fix.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "azure",
+        "privilege-escalation",
+        "authentication-bypass",
+        "cloud-security",
+        "patch-released",
+        "ai-security"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and severe risk to organizations using Azure AI Foundry because attackers could exploit it to gain elevated privileges without needing valid credentials. The perfect CVSS score of 10.0 reflects the ease of exploitation and widespread impact, making this a top priority for security teams to verify patching across their infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiML2C2l_2QmIUPPt9Gs6K9nVdVk9WZWhJaeBQjf92a7R0O0ghnhNznkqPHwG1quCmfadrkibl0WJhLioNmbATDXGxPcy6EHuDVvUrcDF_q0m23IQD1CxL0DsMZT2ZnXCtOyGADMztIcBmgQzaAvNQR39JWnvbG085s4q4W01UQnH4g-Yj15_ZKrJXDaOpQ/s1600/ms-azure.jpg",
+      "processedAt": "2026-09-18T20:03:34.621263+00:00"
+    },
+    {
+      "id": "art-edef1bab",
+      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+      "summary": "A cybersecurity risk has emerged after someone registered an expired domain that formerly belonged to a content delivery network. Thousands of websites still have hardcoded references to this domain in their code and documentation, meaning they continue trying to load resources from it. Now that a new owner controls the domain, they could potentially serve malicious content to all those websites and their users.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "domain-hijacking",
+        "supply-chain-risk",
+        "cdn-vulnerability",
+        "hardcoded-references",
+        "infrastructure-risk"
+      ],
+      "whyItMatters": "This situation demonstrates how legacy infrastructure dependencies can create widespread security risks long after services are discontinued. Thousands of sites remain vulnerable to compromise through a single re-registered domain, highlighting the importance of auditing hardcoded dependencies and maintaining domain ownership even after services end.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4A312zOZ7ftKXmWapCccs7ZW6g3d61vCPFzToGj6Y9nRb2cXUHcQ9__5Taotig6y1W_tljoo5ih74cJCTxZzfz5Ii0MMoLcBuUZS6fQCgn_L4zmq92Zamf2FJM-oT3ptyyzPM-2c1oyZSZSn3eYiUp0QidqC2N2tYT9GFrqAYitjrco1cmrDJRCm6HEk/s1600/report-uri.jpg",
+      "processedAt": "2026-09-18T20:03:36.889219+00:00"
+    },
+    {
+      "id": "art-56014f1f",
+      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+      "summary": "A vulnerability called Plugin4Shell affects four popular AI coding agents, allowing malicious actors who control a plugin repository to replace legitimate plugin code with harmful versions, bypassing version-locking protections. Anthropic and OpenAI have released patches for Claude Code and Codex, though the article indicates GitHub Copilot's status is incomplete. This flaw undermines the security model that developers rely on when using AI assistants to write code.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "plugin-vulnerability",
+        "supply-chain-attack",
+        "code-injection",
+        "patching-required",
+        "ai-coding-agents"
+      ],
+      "whyItMatters": "This vulnerability threatens the software supply chain by enabling attackers to inject malicious code into development environments at scale, affecting any developer using these AI coding agents. Since developers often trust pinned versions of plugins as safe, this attack bypasses a critical control and could lead to widespread compromises of codebases before detection. Organizations using these A",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNK9maRYTbrRVwr9_9b7Sm_IizPdRJh0AbH1GtKU1BNPrcxJydnUdRQxRxauE5p1ejpfk4ihANpP7HAoXbRCDD1Pu-ZZD1dnfzLFjysOSJm7gGRKYrkUjxVF-tX-0neJMQtN87iyk1DRD70hKKtFU_J6idWK4aoZr3k4DAz4q8pkjTfKTX10Vttaiwag/s1600/coding-agents.jpg",
+      "processedAt": "2026-09-18T20:03:40.141465+00:00"
+    },
+    {
+      "id": "art-492a4e7a",
+      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
+      "summary": "Gyazo, a popular image-sharing platform, experienced a significant data breach after attackers exploited a server vulnerability to gain unauthorized access. The breach resulted in the theft of approximately 23.6 million user records, exposing a large user base to potential misuse of their personal information. This incident highlights the risks of unpatched security flaws in widely-used web services.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "server-vulnerability",
+        "exploitation",
+        "user-data-exposure",
+        "patch-management"
+      ],
+      "whyItMatters": "This breach affects millions of users and demonstrates how unpatched server vulnerabilities can lead to massive data theft. Organizations and users must prioritize vulnerability patching and implement robust access controls to prevent similar incidents.",
+      "image": null,
+      "processedAt": "2026-09-18T20:03:42.112881+00:00"
+    },
+    {
+      "id": "art-314acef3",
+      "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
+      "summary": "Cybercriminals are creating fake GitHub repositories that impersonate legitimate software companies like LastPass to distribute a new information-stealing malware called Rapuncel. The attackers use search engine optimization techniques to make these malicious repositories appear in search results, tricking users into downloading the malware. This campaign targets developers and users seeking authentication tools, putting their credentials and sensitive data at risk.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "github",
+        "infostealer",
+        "social-engineering",
+        "supply-chain-risk",
+        "credential-theft"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit trusted platforms like GitHub and social engineering to bypass traditional security measures, making it a significant risk for developers who may unknowingly download malicious code. The targeting of authentication tools means attackers can gain access to multiple accounts and systems if users install the fake software. Organizations need to educa",
+      "image": null,
+      "processedAt": "2026-09-18T20:03:45.020710+00:00"
+    },
+    {
+      "id": "art-30320dfb",
+      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
+      "summary": "Microsoft 365 makes file sharing simple, but organizations often struggle to manage who has access to sensitive data after sharing is no longer needed. The article discusses how centralized access governance and regular owner-driven reviews can help companies identify and remove unnecessary permissions, reducing security risks. By implementing these practices, organizations gain better visibility and control over their shared data.",
+      "category": "Cloud Security",
+      "severity": "Medium",
+      "tags": [
+        "access-control",
+        "cloud-security",
+        "microsoft-365",
+        "data-governance",
+        "permission-management",
+        "access-reviews"
+      ],
+      "whyItMatters": "Unmanaged access to sensitive files in cloud platforms is a common attack vector and compliance risk; regular access reviews prevent unauthorized users from retaining permissions they no longer need. This directly reduces the attack surface and helps organizations meet regulatory requirements for data protection and access governance.",
+      "image": null,
+      "processedAt": "2026-09-18T20:03:47.138207+00:00"
+    },
+    {
+      "id": "art-4a52745b",
+      "title": "Microsoft Teams will let admins block custom file extensions",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
+      "summary": "Microsoft Teams is introducing a new feature that allows system administrators to customize which file extensions are blocked or allowed within their organization. This gives companies the ability to adjust Teams' security policies to match their specific security needs and threat profiles. Rather than using a one-size-fits-all approach, organizations can now define their own rules for potentially dangerous file types.",
+      "category": "Cloud Security",
+      "severity": "Low",
+      "tags": [
+        "cloud-security",
+        "microsoft-teams",
+        "file-extension-control",
+        "admin-controls",
+        "threat-prevention"
+      ],
+      "whyItMatters": "This feature empowers organizations to implement defense-in-depth strategies by controlling file transfer risks in a widely-used collaboration platform. By allowing custom extension blocking, companies can reduce their attack surface against malware and phishing threats that commonly exploit file-based vulnerabilities in Teams communications.",
+      "image": null,
+      "processedAt": "2026-09-18T20:03:49.424640+00:00"
+    },
+    {
+      "id": "art-e3bcab70",
+      "title": "Webinar: Which Google Workspace security controls actually matter?",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
+      "summary": "This webinar focuses on identifying which security controls for Google Workspace are truly important versus those that may be less critical. The session analyzes real breaches to help growing companies understand where lean security teams should prioritize their efforts and resources. Rather than implementing every recommended control, participants learn to distinguish between high-impact and overrated security measures.",
+      "category": "Cloud Security",
+      "severity": "Medium",
+      "tags": [
+        "google-workspace",
+        "security-controls",
+        "cloud-security",
+        "breach-analysis",
+        "security-priorities"
+      ],
+      "whyItMatters": "Many organizations waste resources implementing unnecessary security controls while potentially overlooking critical ones. Understanding which Google Workspace security measures provide the most value helps lean teams allocate limited budgets and personnel more effectively to reduce actual breach risk.",
+      "image": null,
+      "processedAt": "2026-09-18T20:03:51.574970+00:00"
+    },
     {
       "id": "art-4245c01c",
       "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
@@ -826,213 +1032,6 @@
       "whyItMatters": "While not a direct security threat, this issue affects user productivity and trust in Microsoft's service reliability. Feature gaps or bugs in widely-used software can create user frustration and potentially lead to workarounds that might introduce security risks if users seek alternative solutions.",
       "image": null,
       "processedAt": "2026-09-16T20:31:24.851607+00:00"
-    },
-    {
-      "id": "art-201e28bd",
-      "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-16",
-      "originalUrl": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-      "summary": "Attackers are exploiting a critical vulnerability in the WooCommerce Wholesale Lead Capture WordPress plugin, which is used by over 6,000 websites. The flaw allows unauthenticated attackers to upload malicious PHP files and execute code remotely on affected servers. Wordfence has already blocked thousands of attack attempts targeting this vulnerability.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress-plugin",
-        "remote-code-execution",
-        "file-upload",
-        "php-backdoor",
-        "active-exploitation",
-        "woocommerce"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to thousands of e-commerce sites since it requires no authentication and leads to complete server compromise. Website owners using this plugin need to patch urgently to prevent their systems from being used for malware distribution or data theft. The active exploitation reported by Wordfence indicates attackers are actively scanning for and compromising",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaDJy8WPrkf8CE0D66EluNlAxZjtSyl-SeLt9BmCzqINPxm9H08ACj6o1nZWYQxcR5FYK-RrzDRXe014EEAMDH1wBa-SSXV1HNXJyLZsOWzNxU533Err9iI0Z_PQwy2Z6pY3LkGMSB2xKwQPIJe5mXgCJFeeUGj8qDKSmA9I9RS0MNl7jtlUhqkVPOkIfL/s1600/wordpress-shell.jpg",
-      "processedAt": "2026-09-16T11:12:14.874570+00:00"
-    },
-    {
-      "id": "art-cadb3e24",
-      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-16",
-      "originalUrl": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-      "summary": "A critical flaw in WSO2 API Manager is being actively exploited by attackers to bypass JWT authentication and create forged admin tokens. The vulnerability, identified as CVE-2026-5430, stems from improper verification of cryptographic signatures, allowing unauthorized account takeover. This threat poses an immediate risk to organizations running vulnerable versions of the software.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "jwt-bypass",
-        "authentication-flaw",
-        "active-exploitation",
-        "api-manager",
-        "cryptographic-signature",
-        "account-takeover"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability means attackers are already leveraging it in real-world attacks, making immediate patching essential for WSO2 API Manager users. The ability to forge admin tokens grants attackers complete control over API infrastructure, potentially leading to data theft, service disruption, and lateral movement within networks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjenXPNzZ8-fnZOSWlAtRwfZVCV0iy-vnK86gK4vmTGsWSjSS7x9a3k80NLsiEZUym2AjBaYj7pLtxyQju7Hiyl6ttQPyXEPMy7Gwn_bQTTTaUOB-8HbhJfYxl54Z3WE5yqKEoW1vvkCBukKwea-6DlpBiO6i08Zo0GhBoqgRsGGXadsOYy8COPUPQ7rn2w/s1600/jwt-api.jpg",
-      "processedAt": "2026-09-16T11:12:17.680163+00:00"
-    },
-    {
-      "id": "art-d6b7b792",
-      "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-      "summary": "Attackers are scanning the internet for exposed Vite development servers and stealing sensitive cloud credentials and configuration files from AWS and Microsoft Azure. This automated campaign targets developers who accidentally leave their development environments accessible online. The stolen data includes infrastructure state files and authentication credentials that could allow hackers to compromise cloud accounts and resources.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "vite-vulnerability",
-        "cloud-credentials",
-        "aws-azure",
-        "exposed-servers",
-        "mass-scanning",
-        "credential-theft"
-      ],
-      "whyItMatters": "This attack demonstrates a critical real-world threat where misconfigured development servers become entry points for attackers to steal cloud credentials and gain unauthorized access to entire cloud infrastructures. Organizations must secure their development environments and implement proper access controls, as these servers often contain the keys to production systems. The automated nature of t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDvoBVfJIN7YwGuf64F0CQWt9GrAVzaxDWGJetCrAGM_QgGEfpZm_I7f3FTkWBydY7v_iV4n8RWPAr4jfp7ZhN9DVbVZGDryBYlZiL6dn5RuYzLd811NH_sARdjbwWIpf9kOj-jtXfLzb7BTuy-iMpHbsgB9n8J5T7Hx0qp0D1_XeJR-ANcGQ5p88YH3fE/s1600/vite.jpg",
-      "processedAt": "2026-09-16T11:12:20.524102+00:00"
-    },
-    {
-      "id": "art-6942b2c2",
-      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-13",
-      "originalUrl": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
-      "summary": "Microsoft revealed that attackers conducted large-scale phishing campaigns by impersonating company executives and sending over a million fraudulent emails using third-party email services. The threat actors then used social engineering tactics centered around passkeys to trick users into compromising their Microsoft cloud accounts, leading to unauthorized data access. This attack demonstrates how criminals combine email fraud with credential theft techniques to breach cloud environments at scale.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "cloud-security",
-        "social-engineering",
-        "passkey-attacks",
-        "account-hijacking",
-        "data-exfiltration"
-      ],
-      "whyItMatters": "This attack is critical because it shows attackers successfully exploited passkey authentication—a security feature meant to be more secure than passwords—through social engineering at a massive scale. Organizations must recognize that even modern authentication methods can be compromised if users are manipulated, making security awareness training and email filtering essential defenses for protec",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ2E2hmYwxfZ25xw5iPhCHaSDENcuEyEIaha9e_rIJCf68srth31FtjIiIlnOcEiSQDDuk2Vg-dQdNLfR753ePSoDntP3BS-MGbEH2DS8Ch5ihzhpiDZZm5UIzKCbL1vNJSwSABCYst8oG6Oa-7iBWaSF6WSTEkCJBAi9YEEwAmVEdGYvu-JWZnxwEX9ni/s1600/ms-outlook.jpg",
-      "processedAt": "2026-09-16T11:12:23.603780+00:00"
-    },
-    {
-      "id": "art-29a9a17c",
-      "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-12",
-      "originalUrl": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
-      "summary": "CISA has identified five security vulnerabilities affecting popular software platforms—JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS—that are currently being exploited by attackers in real-world situations. These flaws have been officially added to CISA's Known Exploited Vulnerabilities catalog, meaning they pose an immediate threat to organizations using these tools. One notable vulnerability, CVE-2026-42016, has a high severity score of 8.1 and involves improper authorization controls.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "actively-exploited",
-        "patch-now",
-        "cisa-kev",
-        "authorization-flaw",
-        "critical-vulnerability",
-        "software-platforms"
-      ],
-      "whyItMatters": "Active exploitation of these vulnerabilities means attackers are already weaponizing these flaws, making immediate patching essential for organizations using these tools. Artifactory, ScreenConnect, and RouterOS are widely deployed in enterprise environments, so widespread compromise could affect many organizations. CISA's KEV listing signals that security teams must prioritize these patches as pa",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhva55LDIsAmtR2cRnUJw2XZ3Rvo4YhdJe39cfng8EZ1oHjLevxwRcYoFdg-ydI2I7fdt9OxGj7aMcaHMekZmy9hwSlopIZ4_KQgRnmiSy0OfGh8zO26StiEeOsHaQ4fYed0dbEUCUcz4gJM9Lu6Wt7m-ppDmI7iMl52-cRfQfsu9d90Sp2ncuvbVpAPupe/s1600/jj.jpg",
-      "processedAt": "2026-09-16T11:12:27.103907+00:00"
-    },
-    {
-      "id": "art-5190aede",
-      "title": "Windows Server 2022 reaches end of mainstream support next month",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-next-month/",
-      "summary": "Microsoft has announced that Windows Server 2022 will exit mainstream support next month, transitioning to extended support until October 2031. This change means organizations will no longer receive regular security updates and feature improvements, making timely migration to newer versions critical. Companies still running Windows Server 2022 need to plan their upgrade strategy to maintain security and compliance.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "windows-server",
-        "end-of-support",
-        "patch-management",
-        "system-upgrades",
-        "lifecycle-management"
-      ],
-      "whyItMatters": "End-of-support announcements are crucial because systems no longer receiving mainstream updates become increasingly vulnerable to newly discovered threats. Organizations must proactively plan migrations to avoid operating unsupported infrastructure that could expose their networks to exploitation and compliance violations.",
-      "image": null,
-      "processedAt": "2026-09-16T11:12:29.343698+00:00"
-    },
-    {
-      "id": "art-20d605be",
-      "title": "Google fixes actively exploited Android zero-day on Pixel devices",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
-      "summary": "Google released security patches for September 2026 addressing 110 vulnerabilities in Pixel devices, including a zero-day flaw that attackers are actively exploiting in targeted attacks. This update is critical for Pixel users who may already be at risk from ongoing exploitation. The patch aims to close the active security gap before wider-scale attacks can occur.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "android",
-        "pixel-devices",
-        "active-exploitation",
-        "security-patch",
-        "urgent"
-      ],
-      "whyItMatters": "Active zero-day exploitation means attackers are currently using this vulnerability to compromise devices in real-world attacks, making immediate patching essential for Pixel users. Delaying this update increases the risk of targeted compromise, data theft, or malware installation. Understanding the urgency of zero-day patches helps users prioritize security updates over convenience.",
-      "image": null,
-      "processedAt": "2026-09-16T11:12:32.168837+00:00"
-    },
-    {
-      "id": "art-9019f7b6",
-      "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/",
-      "summary": "Acronis has discovered a serious vulnerability in its backup plugin used with cPanel, WHM, and Plesk that allows attackers to gain elevated privileges on Linux systems. This flaw is already being actively exploited by threat actors in real-world attacks. Server administrators using these popular hosting control panels need to apply security updates immediately to protect their systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "privilege-escalation",
-        "cpanel",
-        "actively-exploited",
-        "linux",
-        "backup-plugin",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability means attackers are already targeting servers using Acronis backup plugins on popular hosting platforms, making immediate patching essential. Privilege escalation flaws are particularly dangerous because they allow attackers to gain complete control over affected systems and potentially compromise hosted customer data. Hosting providers and businesses rely",
-      "image": null,
-      "processedAt": "2026-09-16T11:12:35.116379+00:00"
-    },
-    {
-      "id": "art-c80b46a8",
-      "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/",
-      "summary": "A threat actor compromised the website of Admin Menu Editor Pro, a popular WordPress plugin, and distributed malicious updates to over 200 customers. The backdoored versions created hidden user accounts, giving attackers unauthorized access to affected WordPress sites. This supply chain attack demonstrates how plugin repositories can be weaponized to compromise thousands of websites simultaneously.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "wordpress-plugin",
-        "supply-chain-attack",
-        "backdoor",
-        "malicious-update",
-        "admin-compromise"
-      ],
-      "whyItMatters": "This attack highlights the vulnerability of WordPress plugin ecosystems and how compromising a single plugin maintainer can affect hundreds of websites at once. Organizations using this plugin need to immediately audit their sites for unauthorized accounts and update to patched versions to prevent ongoing unauthorized access.",
-      "image": null,
-      "processedAt": "2026-09-16T11:12:37.491896+00:00"
-    },
-    {
-      "id": "art-d4e4291b",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-08",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "summary": "Microsoft released nearly 1,000 security patches in a single month, marking its largest update batch ever. The company is using artificial intelligence to identify vulnerabilities more quickly, but security experts worry that many organizations lack the resources to test and install such massive numbers of fixes promptly.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "microsoft-patches",
-        "vulnerability-management",
-        "patch-deployment",
-        "windows-security",
-        "ai-vulnerability-detection"
-      ],
-      "whyItMatters": "The sheer volume of patches creates a critical challenge for organizations trying to maintain security without disrupting operations—delays in deployment leave systems exposed to known exploits. This situation highlights the growing tension between accelerated vulnerability discovery and the practical limits of IT teams' ability to test and deploy fixes at scale.",
-      "image": null,
-      "processedAt": "2026-09-16T11:12:40.179235+00:00"
     }
   ]
 }
