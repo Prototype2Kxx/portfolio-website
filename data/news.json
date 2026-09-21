@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-09-20T19:53:30.608424+00:00",
+  "lastUpdated": "2026-09-21T12:27:17.688356+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-f09c77e5",
+      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-21",
+      "originalUrl": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+      "summary": "Cybercriminals are using fake software update alerts (ClickFix lures) to trick people into downloading ChainScript, a newly discovered remote access trojan that gives attackers complete control over infected computers. The malware disguises itself as popular applications like Spotify, Zoom, and Microsoft Teams while using blockchain technology to hide its command-and-control servers. Security researchers have identified multiple versions of this malware operating under different names, indicating an organized and active threat campaign.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "rat-malware",
+        "clickfix-lures",
+        "social-engineering",
+        "c2-infrastructure",
+        "blockchain-evasion",
+        "remote-access-trojan"
+      ],
+      "whyItMatters": "This threat demonstrates how attackers are combining social engineering (fake update prompts) with advanced evasion techniques (blockchain-based infrastructure rotation) to evade detection and maintain persistent access to victim systems. The use of trusted brand names as disguises makes this particularly dangerous for everyday users who may not recognize the deception, creating widespread risk ac",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-cgmwQRZh142Z19A3s7K7tpaXtsyy6Imy9cYGM7nFP1DAZoSK9gDw8T0dGXlkFWOGDFShJWMNjC7jbwoSvLokr1pX27u2B1SABpBL-aWtaXj2hYYrqVwTE7LpEDn_iIbRYCro8sH2hzAEsjHLGkpFqTjEKlFHi2o2pgacFJQvYkPDCKVEhkJgW8OWhpZA/s1600/poly.jpg",
+      "processedAt": "2026-09-21T12:26:54.512771+00:00"
+    },
+    {
+      "id": "art-495b3a70",
+      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-21",
+      "originalUrl": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+      "summary": "A North Korean hacking group called Jade Sleet successfully breached an Indian IT services company using custom backdoor tools named FLATROOF and ROOFDECK. This attack demonstrates the group's continued strategy of targeting developers and IT workers to gain access to their clients' networks. Security researchers from SentinelOne discovered the compromise and shared details about the malware and attack methods used.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "north-korea",
+        "jade-sleet",
+        "backdoor",
+        "it-supply-chain",
+        "malware",
+        "india"
+      ],
+      "whyItMatters": "Supply chain attacks through IT service providers pose a major risk because compromising one company can lead to breaches of many client organizations. This incident shows that state-sponsored actors actively target developers and IT staff as entry points into larger networks, making security awareness critical for this sector. Organizations must understand that attackers view IT providers as valu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-xFiujwBJLdl6_4wZSMCWdeyCgev2EqszOLkIJ5I9Kbanu6YNmQ36nM615XmLQ-sq2aqldOHfl47jaMNRtDd80RT8k5f6I7eQuszf7wsIg49sEdMW36hsEKUtVUkZabRlGvvDxn7H7COmRCV8qP2pzQm9LNo5QKRnnptxmxTlJ8BMcPxuiqdaMjn-are0/s1600/it-services.jpg",
+      "processedAt": "2026-09-21T12:26:57.390283+00:00"
+    },
+    {
+      "id": "art-3b46ee93",
+      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+      "summary": "A malicious JavaScript stealer called WeaselBiscuit has been discovered spreading through 13 compromised npm packages, targeting data stored in Chrome extensions. Researchers found the malware shares similar characteristics with known malware from North Korea's Contagious Interview campaign. This attack demonstrates how supply chain vulnerabilities in popular software repositories can be exploited to distribute stealing tools to developers and their systems.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "malware",
+        "supply-chain",
+        "npm-packages",
+        "data-theft",
+        "chrome-extension",
+        "javascript-stealer"
+      ],
+      "whyItMatters": "This attack directly compromises the software supply chain that developers rely on, meaning thousands of applications and systems could be affected if developers installed these malicious packages. Organizations need immediate visibility into their dependencies and must audit npm packages in their projects to prevent credential and sensitive data theft. The connection to state-sponsored actors ele",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZypkEn_5V1qllBxmH8UMxTPyA9qoXxQtKpBpJlFq2rtHgMM1wnknkyq4Vmmy0NiCHn2IjS0nyvtmiZpJ-vYOd6VxMFBexh_p6GXuq3Cjda-YfjDOUE5u5V5HfBBAQzEm5DLX3jg_ZrIfEBFlpcBod65T3Q0pXVR7vERfitlS6cBHYVG2K7ek5ivweYTRq/s1600/npm-chrome.jpg",
+      "processedAt": "2026-09-21T12:27:00.251633+00:00"
+    },
+    {
+      "id": "art-5ef3725c",
+      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+      "summary": "A threat actor distributed a malicious JavaScript stealer called PhantomRaven through the npm package registry to steal sensitive information from developers. Cybersecurity researchers determined that the attacker likely used an AI language model to write the malware, based on patterns like verbose comments and placeholder code. This incident highlights how attackers are increasingly leveraging AI tools to create and distribute malware more efficiently.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "npm-malware",
+        "information-stealer",
+        "llm-generated-malware",
+        "javascript",
+        "supply-chain-attack",
+        "package-registry"
+      ],
+      "whyItMatters": "npm package registry is a critical dependency for millions of developers worldwide, making it an attractive target for supply-chain attacks. The use of LLM-generated malware represents an emerging threat where attackers can produce convincing code at scale with less technical expertise. Organizations need to strengthen dependency verification practices and monitor for similar AI-generated malware ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyW8DcUYeyW1LOG-Gc3uqyV8_5rO4iwyEIM6FbRFwuvilvbfC7RSTjueJ4lEELpGvXX-22zzWuNCusN2qdODymiKNOQSz_8f1Q4u59bH7HCEZFT5PVsyBjj2NhWtlYiwvhXzXbwG_n3P_DCloZvMdajsc93hvqbJo6HCJy5wjNevUyN46ODFo7AlYsj499/s1600/npm-cicd.jpg",
+      "processedAt": "2026-09-21T12:27:02.819274+00:00"
+    },
+    {
+      "id": "art-c20fe555",
+      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+      "summary": "RatHat is a new Android malware linked to Chinese threat actors that uses AI to control infected devices and maintain persistent access even after uninstallation by abusing Android Debug Bridge (ADB). The malware spreads through deceptive text messages and fake app download sites, making it a significant threat to mobile users who may unknowingly download it.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "android-malware",
+        "adb-abuse",
+        "persistence-mechanism",
+        "smishing",
+        "ai-powered-threat",
+        "mobile-security"
+      ],
+      "whyItMatters": "This malware demonstrates an evolving threat where attackers combine social engineering with technical sophistication to bypass standard removal methods, meaning users cannot simply uninstall the app to regain control of their devices. The use of AI for device control and the persistence mechanism through ADB represents a significant advancement in Android malware capabilities that security teams ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Psm8tS3JWb6ev7nZoz7YQDPIgoHj9gwbNjgjxbokxICdzRIUb5YJI-XfDx0NQgm8afhayc-Zd51hjuxqi7Sk_XxCNXoTNt7nIZWpxCBcDMLjSm3uW38HRciOu3WNtaUT0a-2NSsOX91GbXpCScryNirImMMC4lkuVysHku58maTbm9XvAwJ0-X6O_wDE/s1600/1000109602.jpg",
+      "processedAt": "2026-09-21T12:27:05.492555+00:00"
+    },
+    {
+      "id": "art-c7b8fef6",
+      "title": "Microsoft: September updates break File History backup feature",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
+      "summary": "Microsoft has identified a problem where the File History backup feature in Windows may fail to function properly on certain systems after installing September 2026 security updates. This issue affects users who rely on the built-in backup tool to protect their important files. Users experiencing this problem may find their automatic backups are not working as expected.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-update",
+        "file-history",
+        "backup-failure",
+        "patch-issue",
+        "data-protection"
+      ],
+      "whyItMatters": "This is critical because backup failures put user data at risk of permanent loss without recovery options, and the issue stems from official security updates that users are encouraged to install. Organizations and individuals relying on File History for data protection need immediate awareness and workaround strategies to prevent data loss.",
+      "image": null,
+      "processedAt": "2026-09-21T12:27:07.756252+00:00"
+    },
+    {
+      "id": "art-1c6420aa",
+      "title": "New Check Point flaw lets hackers execute code with root privileges",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
+      "summary": "Check Point Software discovered a critical vulnerability in their management systems that allows attackers to run malicious code with root-level access. The company has released security patches to address this flaw. This type of vulnerability is particularly dangerous because root access gives attackers complete control over the affected systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "check-point",
+        "root-access",
+        "code-execution",
+        "patch-now",
+        "management-systems",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "Management systems are central control points in enterprise networks, so a root-level code execution vulnerability puts thousands of organizations at immediate risk. Attackers exploiting this flaw could compromise entire network infrastructures, making swift patching essential. This highlights why security teams must prioritize updates for management and administrative tools above all other system",
+      "image": null,
+      "processedAt": "2026-09-21T12:27:10.038184+00:00"
+    },
+    {
+      "id": "art-2badbd4b",
+      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
+      "summary": "Microsoft released a fix for a bug in Excel 2016 that broke copy-and-paste functionality after users installed the September 2026 security update KB5002914. The company identified and resolved the issue that was preventing some Excel users from performing basic operations. This fix ensures that users can continue working normally without experiencing disruptions to their workflow.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "excel-2016",
+        "patch",
+        "microsoft-update",
+        "bug-fix",
+        "kb5002914"
+      ],
+      "whyItMatters": "Security patches are critical for protecting systems, but when they introduce new problems, users may hesitate to install future updates, creating security gaps. This incident highlights the importance of thorough testing before releasing patches and demonstrates how even routine updates can impact productivity if not properly validated.",
+      "image": null,
+      "processedAt": "2026-09-21T12:27:12.321942+00:00"
+    },
+    {
+      "id": "art-437b4165",
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-16",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "summary": "Radaris, a data broker company known for ignoring privacy removal requests, faced legal consequences when a New Jersey court ruled that the company violated state privacy laws protecting law enforcement officials' personal information. Due to the company's repeated failure to comply with court orders, a judge ordered the transfer of Radaris.com and over a dozen related domains to the plaintiffs. This case demonstrates how legal enforcement can hold data brokers accountable for privacy violations.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "data-broker",
+        "privacy-violation",
+        "personal-information",
+        "legal-enforcement",
+        "data-removal"
+      ],
+      "whyItMatters": "This case establishes important legal precedent for holding data brokers accountable when they violate privacy laws and ignore removal requests. It shows that courts are willing to take aggressive action—including domain seizure—against companies that repeatedly disregard privacy protections, which may encourage other data brokers to improve their compliance practices. For individuals, it demonstr",
+      "image": null,
+      "processedAt": "2026-09-21T12:27:15.139099+00:00"
+    },
+    {
+      "id": "art-dd1883f3",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-01",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "An identity theft service on the dark web is selling digital copies of over 153 million drivers licenses from the United States and Canada. The stolen data appears to come from an identity verification company in Louisiana, and the FBI has opened an official investigation into how the licenses were obtained. This massive breach exposes millions of people to potential identity theft and fraud.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "identity-theft",
+        "data-breach",
+        "drivers-licenses",
+        "dark-web",
+        "fbi-investigation",
+        "personal-data"
+      ],
+      "whyItMatters": "This breach affects 153 million people's sensitive identity documents, creating an enormous risk for identity theft, fraud, and criminal misuse. The compromise of identity verification systems undermines trust in critical infrastructure used for KYC (Know Your Customer) processes across financial and governmental sectors. Individuals whose licenses are exposed need immediate awareness to monitor f",
+      "image": null,
+      "processedAt": "2026-09-21T12:27:17.688199+00:00"
+    },
     {
       "id": "art-c4056c08",
       "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
@@ -827,212 +1034,6 @@
       "whyItMatters": "Active exploitation of vulnerabilities before patches are widely deployed poses immediate risk to millions of Windows users and organizations. Large-scale patch releases like this require prioritization of which updates to deploy first, and delays in patching can leave systems exposed to real-world attacks. Users and IT teams must prioritize installing these critical updates quickly to prevent com",
       "image": null,
       "processedAt": "2026-09-19T10:37:51.025236+00:00"
-    },
-    {
-      "id": "art-21f1cec4",
-      "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
-      "summary": "WordPress released security patches to address vulnerabilities in its core software, including a flaw called Click2Shell that allows attackers to trick logged-in administrators into installing malicious themes through a crafted link without explicit user interaction. The vulnerability, discovered by security researchers at pwn.ai, can potentially lead to code execution on affected websites. This attack chain demonstrates how seemingly minor flaws can be chained together to create serious security risks for WordPress installations.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress",
-        "click2shell",
-        "theme-installation",
-        "code-execution",
-        "administrator-exploit",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability affects millions of WordPress sites worldwide and can be exploited against administrators without requiring additional user interaction beyond opening a link. The ability to chain the flaw to arbitrary code execution makes it a critical threat that could lead to complete website compromise, data theft, or malware distribution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRmEdVvBEJZEaIzJ4GYHX3cDjJq5YaLQby6GeVwDl-uVl_qIR_tkRSx6aKpzoYhGVvp0E3NDIe9aum5f5N_lI-RPz6eDNGHC7vpKMa0UrlT1J1_bRJrJ8Wk0htpyFoR3ezoqh-BCJePJU914UFlL7gS45RXbWoVi3Lp49iNSkUt7eLrJyQTAEIGE-VRgY/s1600/click2shell.gif",
-      "processedAt": "2026-09-18T20:03:30.025805+00:00"
-    },
-    {
-      "id": "art-fa2a4c04",
-      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-      "summary": "A Pakistan-linked hacking group called Transparent Tribe has launched attacks against government and defense targets in India and Afghanistan using new malware tools. The group deployed previously unknown backdoors named RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH, along with a novel technique using private GitHub repositories for command-and-control communications. This represents an escalation in the group's capabilities and tactics.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "apt36",
-        "transparent-tribe",
-        "rust-backdoor",
-        "government-targeting",
-        "c2-command-control",
-        "github-exploitation"
-      ],
-      "whyItMatters": "This attack demonstrates an active, sophisticated threat to critical infrastructure with new malware variants and innovative C2 methods using legitimate platforms, making detection harder. Organizations in government and defense sectors face immediate risk and need to update security tools and monitoring strategies to identify these emerging threats.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhBM0nXgCLpwEyXmAdxLO_GatYww1Cem0yuGGqhmMwCB5N8w-TeoMm7jV4SbH4hjfYmxctUjyPiSlR3Caj2cSu7L_1nxTzg5xtfJrxhq5y0elL7yh8J2S5lakpnTbck3XhMVB1iG3obibSh64E8z877YcECkeJBs_rrZARXefKDeYQJ9Nf2u8pnxD0gEnx/s1600/rust-malware.jpg",
-      "processedAt": "2026-09-18T20:03:32.551411+00:00"
-    },
-    {
-      "id": "art-f33af335",
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "summary": "Microsoft has patched a critical security flaw in Azure AI Foundry that could allow attackers to gain unauthorized access and escalate their privileges. The vulnerability, identified as CVE-2026-85889, received a maximum severity score of 10.0 because it lacks proper authentication checks on important system functions. Users are not required to take action since Microsoft has already released the fix.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "azure",
-        "privilege-escalation",
-        "authentication-bypass",
-        "cloud-security",
-        "patch-released",
-        "ai-security"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe risk to organizations using Azure AI Foundry because attackers could exploit it to gain elevated privileges without needing valid credentials. The perfect CVSS score of 10.0 reflects the ease of exploitation and widespread impact, making this a top priority for security teams to verify patching across their infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiML2C2l_2QmIUPPt9Gs6K9nVdVk9WZWhJaeBQjf92a7R0O0ghnhNznkqPHwG1quCmfadrkibl0WJhLioNmbATDXGxPcy6EHuDVvUrcDF_q0m23IQD1CxL0DsMZT2ZnXCtOyGADMztIcBmgQzaAvNQR39JWnvbG085s4q4W01UQnH4g-Yj15_ZKrJXDaOpQ/s1600/ms-azure.jpg",
-      "processedAt": "2026-09-18T20:03:34.621263+00:00"
-    },
-    {
-      "id": "art-edef1bab",
-      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-      "summary": "A cybersecurity risk has emerged after someone registered an expired domain that formerly belonged to a content delivery network. Thousands of websites still have hardcoded references to this domain in their code and documentation, meaning they continue trying to load resources from it. Now that a new owner controls the domain, they could potentially serve malicious content to all those websites and their users.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "domain-hijacking",
-        "supply-chain-risk",
-        "cdn-vulnerability",
-        "hardcoded-references",
-        "infrastructure-risk"
-      ],
-      "whyItMatters": "This situation demonstrates how legacy infrastructure dependencies can create widespread security risks long after services are discontinued. Thousands of sites remain vulnerable to compromise through a single re-registered domain, highlighting the importance of auditing hardcoded dependencies and maintaining domain ownership even after services end.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4A312zOZ7ftKXmWapCccs7ZW6g3d61vCPFzToGj6Y9nRb2cXUHcQ9__5Taotig6y1W_tljoo5ih74cJCTxZzfz5Ii0MMoLcBuUZS6fQCgn_L4zmq92Zamf2FJM-oT3ptyyzPM-2c1oyZSZSn3eYiUp0QidqC2N2tYT9GFrqAYitjrco1cmrDJRCm6HEk/s1600/report-uri.jpg",
-      "processedAt": "2026-09-18T20:03:36.889219+00:00"
-    },
-    {
-      "id": "art-56014f1f",
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-      "summary": "A vulnerability called Plugin4Shell affects four popular AI coding agents, allowing malicious actors who control a plugin repository to replace legitimate plugin code with harmful versions, bypassing version-locking protections. Anthropic and OpenAI have released patches for Claude Code and Codex, though the article indicates GitHub Copilot's status is incomplete. This flaw undermines the security model that developers rely on when using AI assistants to write code.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "plugin-vulnerability",
-        "supply-chain-attack",
-        "code-injection",
-        "patching-required",
-        "ai-coding-agents"
-      ],
-      "whyItMatters": "This vulnerability threatens the software supply chain by enabling attackers to inject malicious code into development environments at scale, affecting any developer using these AI coding agents. Since developers often trust pinned versions of plugins as safe, this attack bypasses a critical control and could lead to widespread compromises of codebases before detection. Organizations using these A",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizNK9maRYTbrRVwr9_9b7Sm_IizPdRJh0AbH1GtKU1BNPrcxJydnUdRQxRxauE5p1ejpfk4ihANpP7HAoXbRCDD1Pu-ZZD1dnfzLFjysOSJm7gGRKYrkUjxVF-tX-0neJMQtN87iyk1DRD70hKKtFU_J6idWK4aoZr3k4DAz4q8pkjTfKTX10Vttaiwag/s1600/coding-agents.jpg",
-      "processedAt": "2026-09-18T20:03:40.141465+00:00"
-    },
-    {
-      "id": "art-492a4e7a",
-      "title": "Gyazo server flaw exploited to steal 23.6 million user records",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/gyazo-server-flaw-exploited-to-steal-236-million-user-records/",
-      "summary": "Gyazo, a popular image-sharing platform, experienced a significant data breach after attackers exploited a server vulnerability to gain unauthorized access. The breach resulted in the theft of approximately 23.6 million user records, exposing a large user base to potential misuse of their personal information. This incident highlights the risks of unpatched security flaws in widely-used web services.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "server-vulnerability",
-        "exploitation",
-        "user-data-exposure",
-        "patch-management"
-      ],
-      "whyItMatters": "This breach affects millions of users and demonstrates how unpatched server vulnerabilities can lead to massive data theft. Organizations and users must prioritize vulnerability patching and implement robust access controls to prevent similar incidents.",
-      "image": null,
-      "processedAt": "2026-09-18T20:03:42.112881+00:00"
-    },
-    {
-      "id": "art-314acef3",
-      "title": "Fake LastPass Authenticator GitHub repos push new Rapuncel infostealer",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-lastpass-authenticator-github-repos-push-new-rapuncel-infostealer/",
-      "summary": "Cybercriminals are creating fake GitHub repositories that impersonate legitimate software companies like LastPass to distribute a new information-stealing malware called Rapuncel. The attackers use search engine optimization techniques to make these malicious repositories appear in search results, tricking users into downloading the malware. This campaign targets developers and users seeking authentication tools, putting their credentials and sensitive data at risk.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware",
-        "github",
-        "infostealer",
-        "social-engineering",
-        "supply-chain-risk",
-        "credential-theft"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors exploit trusted platforms like GitHub and social engineering to bypass traditional security measures, making it a significant risk for developers who may unknowingly download malicious code. The targeting of authentication tools means attackers can gain access to multiple accounts and systems if users install the fake software. Organizations need to educa",
-      "image": null,
-      "processedAt": "2026-09-18T20:03:45.020710+00:00"
-    },
-    {
-      "id": "art-30320dfb",
-      "title": "Secure enterprise sharing with access reviews for Microsoft 365",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/secure-enterprise-sharing-with-access-reviews-for-microsoft-365/",
-      "summary": "Microsoft 365 makes file sharing simple, but organizations often struggle to manage who has access to sensitive data after sharing is no longer needed. The article discusses how centralized access governance and regular owner-driven reviews can help companies identify and remove unnecessary permissions, reducing security risks. By implementing these practices, organizations gain better visibility and control over their shared data.",
-      "category": "Cloud Security",
-      "severity": "Medium",
-      "tags": [
-        "access-control",
-        "cloud-security",
-        "microsoft-365",
-        "data-governance",
-        "permission-management",
-        "access-reviews"
-      ],
-      "whyItMatters": "Unmanaged access to sensitive files in cloud platforms is a common attack vector and compliance risk; regular access reviews prevent unauthorized users from retaining permissions they no longer need. This directly reduces the attack surface and helps organizations meet regulatory requirements for data protection and access governance.",
-      "image": null,
-      "processedAt": "2026-09-18T20:03:47.138207+00:00"
-    },
-    {
-      "id": "art-4a52745b",
-      "title": "Microsoft Teams will let admins block custom file extensions",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-teams-will-let-admins-block-custom-file-extensions/",
-      "summary": "Microsoft Teams is introducing a new feature that allows system administrators to customize which file extensions are blocked or allowed within their organization. This gives companies the ability to adjust Teams' security policies to match their specific security needs and threat profiles. Rather than using a one-size-fits-all approach, organizations can now define their own rules for potentially dangerous file types.",
-      "category": "Cloud Security",
-      "severity": "Low",
-      "tags": [
-        "cloud-security",
-        "microsoft-teams",
-        "file-extension-control",
-        "admin-controls",
-        "threat-prevention"
-      ],
-      "whyItMatters": "This feature empowers organizations to implement defense-in-depth strategies by controlling file transfer risks in a widely-used collaboration platform. By allowing custom extension blocking, companies can reduce their attack surface against malware and phishing threats that commonly exploit file-based vulnerabilities in Teams communications.",
-      "image": null,
-      "processedAt": "2026-09-18T20:03:49.424640+00:00"
-    },
-    {
-      "id": "art-e3bcab70",
-      "title": "Webinar: Which Google Workspace security controls actually matter?",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
-      "summary": "This webinar focuses on identifying which security controls for Google Workspace are truly important versus those that may be less critical. The session analyzes real breaches to help growing companies understand where lean security teams should prioritize their efforts and resources. Rather than implementing every recommended control, participants learn to distinguish between high-impact and overrated security measures.",
-      "category": "Cloud Security",
-      "severity": "Medium",
-      "tags": [
-        "google-workspace",
-        "security-controls",
-        "cloud-security",
-        "breach-analysis",
-        "security-priorities"
-      ],
-      "whyItMatters": "Many organizations waste resources implementing unnecessary security controls while potentially overlooking critical ones. Understanding which Google Workspace security measures provide the most value helps lean teams allocate limited budgets and personnel more effectively to reduce actual breach risk.",
-      "image": null,
-      "processedAt": "2026-09-18T20:03:51.574970+00:00"
     }
   ]
 }
