@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-09-21T21:17:44.814771+00:00",
+  "lastUpdated": "2026-09-22T11:17:14.187027+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-73bb7b19",
+      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+      "summary": "A fake npm package called 'indexed-btree' was discovered spreading malware by disguising itself as a legitimate software library. Instead of using traditional installation scripts, the attackers embedded malicious code directly into the application's runtime, making it harder to detect. This represents a new tactic where hackers are adapting their methods to bypass security tools that monitor package installation.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "npm-package",
+        "supply-chain-attack",
+        "malware-distribution",
+        "code-obfuscation",
+        "runtime-injection"
+      ],
+      "whyItMatters": "This attack highlights how threat actors are evolving their techniques to evade detection systems that focus on installation scripts. Developers who download packages from npm need to be vigilant about verifying package legitimacy, as malicious code hidden in runtime behavior is significantly harder to spot during code review and poses a serious supply chain risk to any project that depends on com",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaN7aXt0PoPdZQ_VG77wkwdIyNugcdkFD6MnMvlj5LN_byw2ZrX8-gtpDld4CviuW1MOhHiElsvFtIkO9IfhBr4af-sJwM1zvR-RFICRll4G5jG4JNPX1vx4sup3omlw8uTJgro9UUfzecLMI1Whls3ihqZ9OXYJliIBjhpoodf4WI9j1lA6EUjms7x1pG/s1600/rth.jpg",
+      "processedAt": "2026-09-22T11:16:50.628821+00:00"
+    },
+    {
+      "id": "art-1127da2c",
+      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+      "summary": "SideCopy, a known threat group, has expanded its targeting strategy to include academic institutions in India, moving beyond their previous focus on government agencies. The group uses spear-phishing emails combined with malicious scripts executed through mshta.exe to bypass security defenses and deploy ReverseRAT malware. This campaign demonstrates how attackers are diversifying their targets and refining their technical methods to compromise educational organizations.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "spear-phishing",
+        "sidecopy",
+        "reverserat",
+        "india",
+        "academia",
+        "mshta-abuse"
+      ],
+      "whyItMatters": "Educational institutions often have weaker security postures than government agencies, making them attractive targets for data theft and network compromise. Understanding SideCopy's evolving tactics and expanded targeting helps organizations recognize and defend against similar phishing campaigns that exploit institutional email systems. This threat highlights the need for security awareness train",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVXTuBFDgZyaNFTznwdu5HXSKuVHU5xpM7JDvXP_Ra-68CsYd68bb6xMWPXbjmsM5oO211hZgzIN0NENk_cMBZZpL88LMsIaNkfSEpIWRRzyjRt7Ke6ZMeUXvIKcH3ncgDouKN8FGuunAFQFMolel0GgTBm1lzdVDH28WpWFUCI4Fvl9ju0q4Vv0S55PVx/s1600/word-school.jpg",
+      "processedAt": "2026-09-22T11:16:53.162188+00:00"
+    },
+    {
+      "id": "art-ba3f05a1",
+      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+      "summary": "Security researcher Patrick Wardle discovered a vulnerability in Meta's Muse AI assistant that allows malware already running on a Mac to hijack the application. By modifying a hidden setting, attackers can intercept voice commands meant for Meta's assistant and redirect them for their own use. This exploit leverages the broad system permissions that users grant to the Muse app, turning it into a potential backdoor for unauthorized access.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "mac-vulnerability",
+        "malware",
+        "voice-interception",
+        "privilege-abuse"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how AI assistants with broad system permissions can become attack vectors when malware is present on a device. Attackers can exploit hidden settings to intercept sensitive voice commands and data, emphasizing the need for better permission controls and security auditing in AI applications. Users and organizations must understand that granting expansive access to AI ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjZLVTtI-AEbGRQqJ7aGa0tbXedD5L6P7VCEKIOGXOBZe7S3mhA-PnoHVEoZf3LBMzhcZSIX5sCTveGyZ-8qAqyAVaMXfEoxPL70OIESq-Iolqjkv8GuDjcVs1Jgh3k3SoOOGPDWFr6Lmk83avLqG1whcaiDclv5waXYhCuEqXk569wfwV8Ilrmvv3IKE/s1600/muse.jpg",
+      "processedAt": "2026-09-22T11:16:55.953351+00:00"
+    },
+    {
+      "id": "art-b304d6a0",
+      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+      "summary": "A critical vulnerability in WordPress called Comment2Shell allows attackers to inject malicious scripts through anonymous comments that can execute arbitrary code when administrators view the page. This flaw combines cross-site scripting (XSS) with remote code execution (RCE), giving attackers full server control without needing legitimate access. WordPress released a patch in version 7.1.1 on September 17, 2026, and strongly urged all users to update immediately.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress",
+        "cve-2026-93485",
+        "xss-to-rce",
+        "remote-code-execution",
+        "patch-now",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This vulnerability is critical because it exploits the trust relationship between anonymous visitors and site administrators—any attacker can compromise a WordPress site by posting a comment, making it an easy attack vector for widespread exploitation. The ability to convert a simple XSS flaw into full server access puts millions of WordPress sites at immediate risk if they don't apply the patch q",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPBWV1XNsTGB5ImLNRGJTygk0-82k7xTHmuOr7lTivRRDcF83ddu4jLOpdkQYMq7VB3j5SMpA9zBRvM3-SUkDLBhN5-j-Z6UltcTnVfXOxHDzfBYWiw_fRiRefAYa1XSiFu5JMzb06dwqV4PhKaZkPt3vKZFHQjdVFUgbr2B3nOEoFs_qHe6zwGayHM2I/s1600/wordpress-comment.jpg",
+      "processedAt": "2026-09-22T11:16:58.732049+00:00"
+    },
+    {
+      "id": "art-d4b9d24d",
+      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+      "summary": "CISA has added a critical buffer overflow vulnerability affecting Zyxel GS1900 series switches to its catalog of actively exploited flaws. The vulnerability, identified as CVE-2026-7273 with a high CVSS score of 8.8, allows attackers to gain command and system-level access to vulnerable network devices. Organizations using these switches need to apply patches immediately as threat actors are already exploiting this weakness.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "buffer-overflow",
+        "network-devices",
+        "active-exploitation",
+        "patch-required",
+        "zyxel",
+        "cisa-kev"
+      ],
+      "whyItMatters": "This vulnerability is already being actively exploited by attackers to compromise network infrastructure, making it an urgent threat requiring immediate patching. Since Zyxel switches are commonly deployed in enterprise and small business networks, widespread exploitation could lead to unauthorized system access and network compromise across multiple organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9eouOxeSvnYBzl5A8tWvEQ4w_CCx94YcFmpBAXXqHWNqvFBWj4vOgeZdHYAf0MU-chY63biCpHDnzRC0pwR7s3pTdQAWwPAVI-olRZuBwG0ilgAxnIY_1KofE3cpuA8lKOE01U26EFHYE_nLrXYXOWl47G1KaoFTZ5UOO81Cw0Kb20pFSfAc1b9i9E_K/s1600/veeam.jpg",
+      "processedAt": "2026-09-22T11:17:01.383303+00:00"
+    },
+    {
+      "id": "art-beaaab50",
+      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
+      "summary": "A security researcher released a zero-day vulnerability affecting Microsoft Defender that prevents the antivirus software from receiving critical security updates. This exploit allows attackers to keep Defender outdated and unable to protect against new threats. The flaw represents a significant gap in Windows security since users cannot manually patch their antivirus protection while the zero-day remains unpatched.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "microsoft-defender",
+        "antivirus",
+        "update-blocking",
+        "windows-security",
+        "vulnerability"
+      ],
+      "whyItMatters": "This vulnerability is critical because it directly undermines one of Windows' primary security defenses by preventing antivirus updates, leaving millions of users exposed to known threats. Attackers can exploit this to maintain undetected infections on compromised systems. Organizations and individuals relying on Defender face an urgent need to monitor for patches while implementing alternative se",
+      "image": null,
+      "processedAt": "2026-09-22T11:17:03.920485+00:00"
+    },
+    {
+      "id": "art-8de335b8",
+      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
+      "summary": "A serious security vulnerability in Zyxel GS1900 series network switches is being actively exploited by attackers to steal data. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent directive requiring federal agencies to apply patches to fix this flaw. This vulnerability poses an immediate threat to organizations using these switches in their network infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "zyxel-switch",
+        "patch-urgent",
+        "active-exploitation",
+        "data-theft",
+        "network-security",
+        "federal-mandate"
+      ],
+      "whyItMatters": "Active exploitation of this vulnerability means attackers are already using it to compromise networks and steal data, making immediate patching essential for any organization using Zyxel switches. Federal agencies have been mandated to patch, signaling the threat level is serious enough to require rapid remediation. Organizations that delay patching expose themselves to data theft and potential ne",
+      "image": null,
+      "processedAt": "2026-09-22T11:17:06.652633+00:00"
+    },
+    {
+      "id": "art-d9f17b7b",
+      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
+      "summary": "BigCommerce notified its merchants about a data breach involving compromised credentials for third-party Ribon applications. Attackers used these stolen credentials to gain unauthorized access and inject malicious scripts into online stores. This incident highlights the risks of relying on third-party integrations without proper security controls.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "third-party-risk",
+        "credential-compromise",
+        "malicious-script-injection",
+        "ecommerce-security"
+      ],
+      "whyItMatters": "This breach demonstrates how attackers exploit weak points in third-party integrations to compromise multiple businesses simultaneously. Merchants relying on BigCommerce and similar platforms must monitor their integrated applications closely and implement credential security practices to prevent cascading attacks across their supply chains.",
+      "image": null,
+      "processedAt": "2026-09-22T11:17:08.721763+00:00"
+    },
+    {
+      "id": "art-5936c563",
+      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
+      "summary": "The FBI has released CJIS Security Policy v6.1, which tightens security requirements for law enforcement and criminal justice agencies, particularly around encryption standards and regular vulnerability assessments. The update emphasizes continuous security monitoring rather than periodic reviews and introduces stricter controls for passwords, multi-factor authentication, and identity management. Agencies using FBI systems must prepare to meet these enhanced standards during compliance audits.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "cjis-compliance",
+        "encryption-requirements",
+        "vulnerability-scanning",
+        "mfa-authentication",
+        "policy-update",
+        "identity-management"
+      ],
+      "whyItMatters": "This policy update affects all law enforcement and criminal justice agencies that handle FBI data, making compliance mandatory for continued system access. Organizations must quickly assess their current security posture against v6.1 requirements to avoid audit failures and potential loss of federal system privileges. The shift toward continuous security assessment represents a significant operati",
+      "image": null,
+      "processedAt": "2026-09-22T11:17:11.554141+00:00"
+    },
+    {
+      "id": "art-c1a6b5bd",
+      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
+      "summary": "Microsoft is urging administrators to transition Entra ID users away from SMS-based authentication to more secure, phishing-resistant methods like passkeys before February 2027. The company is retiring SMS as a first-factor sign-in option, meaning organizations that don't migrate users beforehand may experience login disruptions. This move strengthens security by eliminating a vulnerable authentication method that is frequently targeted by attackers.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "passkeys",
+        "authentication",
+        "entra-id",
+        "phishing-resistant",
+        "migration",
+        "sms-retirement"
+      ],
+      "whyItMatters": "Organizations need to begin planning their authentication migration immediately to prevent widespread sign-in outages affecting employees and services. SMS-based authentication remains a common attack vector, so this retirement encourages adoption of stronger, phishing-resistant alternatives that significantly reduce account compromise risks. Delayed migration could result in operational disruptio",
+      "image": null,
+      "processedAt": "2026-09-22T11:17:14.186817+00:00"
+    },
     {
       "id": "art-a6915777",
       "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
@@ -825,215 +1032,6 @@
       "whyItMatters": "This vulnerability is critical because identity management systems like Cisco ISE are foundational security infrastructure—compromising them could grant attackers access to entire enterprise networks and sensitive user credentials. Organizations using ISE must prioritize immediate patching or mitigation to prevent potential large-scale breaches and unauthorized system access.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b9202e55102d483/6aad857c8cb60c3268956114/api-saifulasmee_chede-Getty-2203607940.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-09-20T11:00:44.998842+00:00"
-    },
-    {
-      "id": "art-253fd40a",
-      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-19",
-      "originalUrl": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-      "summary": "Identity visibility is the foundation of modern identity security, as stolen and misused credentials are among the most common ways attackers gain initial access to systems. The article explains what identity visibility means within identity and access management (IAM) and why cloud and multicloud environments make it harder to achieve. Understanding and implementing strong identity visibility is essential for detecting and preventing unauthorized access.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "identity-visibility",
-        "iam",
-        "cloud-security",
-        "credential-theft",
-        "access-control",
-        "multicloud"
-      ],
-      "whyItMatters": "Stolen credentials remain a primary attack vector in real-world breaches, making identity visibility critical for early threat detection. Organizations operating across cloud and multicloud environments face increased complexity in managing and monitoring identities, directly impacting their ability to prevent unauthorized access and data breaches.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTFTNQKV-yV8FRZZRLBPRxZDhk6E7s3v8SpP5xW_aeDyMz-xMvi-xAVUmvDvMC-CnU1kddKpVGN9BBzeoH4xeq8zE3OAqUq5441sYhC4tfYcyU1-3_yPkVphC-20dCQX_e5kN_G-Ji42wbYuxavkjczHwYn9QP0WRXnN16KUA33kizHwh38yQl7clZAA0/s1600/ORCHID-1.jpg",
-      "processedAt": "2026-09-19T19:40:06.054757+00:00"
-    },
-    {
-      "id": "art-7c8c9221",
-      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-19",
-      "originalUrl": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-      "summary": "Researchers at Hacktron used Claude Opus 5 to chain together two security vulnerabilities in OpenAI's systems, allowing them to gain unauthorized access to employee accounts and internal code repositories. The attack exploited a bug in OpenAI's help forum software combined with weaknesses in their login system. This demonstrates how AI tools can be leveraged to identify and exploit multiple connected security flaws in real-world systems.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "vulnerability-chaining",
-        "account-takeover",
-        "access-control",
-        "authorized-research",
-        "supply-chain-risk"
-      ],
-      "whyItMatters": "This incident reveals that advanced AI models can systematically identify and chain multiple vulnerabilities to achieve high-impact breaches of major tech companies' infrastructure. It highlights the urgent need for organizations to secure their authentication systems and patch vulnerabilities quickly, as even chained flaws can be rapidly discovered and exploited by determined attackers with AI as",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAElV4rXwWf_kTjj5e0UJFsEG-a0B7MUsCFqhFLYEA76kk2A7UeXbaG0DfRt-Syf7dxx4bHUanr0lVvwIUFyFgtPIfhyphenhyphenx61ccuo3oDZr6-wKROoEAVWjrAcKWuZ5WdlvL_pmKC91i9juBrsnI3FiLTGGgjnnJRAnjTgAxAbMjcbCTxZSWybZPPtG8HN1E/s1600/claude-openai.jpg",
-      "processedAt": "2026-09-19T19:40:08.670453+00:00"
-    },
-    {
-      "id": "art-9fc25105",
-      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-19",
-      "originalUrl": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-      "summary": "SolarWinds released patches for a serious vulnerability in Access Rights Manager (ARM) that allows attackers to execute code remotely without needing login credentials. Tracked as CVE-2026-28326 with a CVSS score of 8.8, this flaw affects ARM version 2026.2 and earlier versions. The vulnerability is considered high-severity and poses a significant risk to organizations using this access management tool.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "solarwinds",
-        "cve-2026-28326",
-        "remote-code-execution",
-        "unauthenticated-access",
-        "access-rights-manager",
-        "patch-available"
-      ],
-      "whyItMatters": "This vulnerability is critical because it enables unauthenticated remote code execution, meaning attackers don't need valid credentials to exploit it, making it an attractive target for large-scale attacks. Organizations running vulnerable versions of ARM should prioritize applying these patches immediately to prevent unauthorized system access and potential data theft or system compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXW-SaTg898BaxxlrDjSCrcm6ZYDgxoeuYCBY4QNWs6Nt5RhyphenhyphenCf4iSIyodz-7jk8rTqUT8hjlMT74dIf6ZjL_pD5NmiNbAHhsZwzw2rakJUDaU1tVeEvKw7Az3tMf34Xwh3ffToJeI1tpTQ8rAR8AvVn2XTupFgfhehb9sHClHDDGeDd4Y9z4oUf5CYPoS/s1600/solar.jpg",
-      "processedAt": "2026-09-19T19:40:11.043023+00:00"
-    },
-    {
-      "id": "art-482c8d43",
-      "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-17",
-      "originalUrl": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
-      "summary": "A critical vulnerability in Docker Sandboxes for macOS allows malicious code running inside a virtual machine to escape its intended sandbox and access or modify files anywhere on the host system. The flaw, tracked as CVE-2026-77179 and rated Critical, executes with the privileges of the user running the virtual machine. This represents a serious containment failure that could allow attackers to compromise an entire system through compromised container images or malicious processes.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "docker",
-        "sandbox-escape",
-        "macos",
-        "cve-2026-77179",
-        "container-security",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This vulnerability is critical because it breaks the fundamental security boundary between containers and host systems, meaning developers using Docker Sandboxes on macOS cannot safely assume their containers are isolated. Any untrusted or compromised container could potentially compromise the entire host system and all user files. Immediate patching is essential for anyone running Docker on macOS",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJbYvRH1MRTGK43JYSWe2X3djxWAuNa3_r94FvOPBjt9sWrkRiEQi7D0DPksj3NH9vDPjm7MGSGY9UEc7JqePjd4aA-c4zuMzLZXH0Y5NWKWGnzNgbFe0tYlEFSFLrJFWVRuRKs_PQN8IKkdzYYNn8T7YWuUkZC4_2skq3deXYAw7i0aqWdx6G0FQwVzs/s1600/docker-macos.jpg",
-      "processedAt": "2026-09-19T19:40:13.564683+00:00"
-    },
-    {
-      "id": "art-541945a9",
-      "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-17",
-      "originalUrl": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
-      "summary": "Security researchers have connected the Iran-linked hacking group Handala Hack to a dangerous Telegram backdoor called HEAVYGRAM that can secretly steal passwords and sensitive data from infected computers. HEAVYGRAM combines surveillance capabilities like remote command execution, screenshot capture, and session file theft with a companion tool called CRUDEEXCLUDE to maximize its destructive potential. This discovery reveals a sophisticated attack infrastructure designed for espionage and data theft targeting multiple victims.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "telegram-backdoor",
-        "iran-linked",
-        "password-theft",
-        "espionage",
-        "remote-access-trojan",
-        "data-exfiltration"
-      ],
-      "whyItMatters": "This threat is critical because HEAVYGRAM represents an active, well-resourced surveillance tool deployed by a state-linked group with demonstrated capability to exfiltrate sensitive data and maintain persistent system access. Organizations and individuals need immediate awareness of this backdoor's capabilities to detect infections and prevent credential compromise. The use of Telegram as a comma",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdqFZ07lueoUFevcbuCOBavlR6CaAxmFqFs7hLpyqw-maKbLcISxW0Q-y7JwvoRrhDumRNaJo_Z4T6QRrGLUTDEE8yYqFfoRLmkoc_J4omdeCAmew1_5k-NwnNWJyYawal5nni-TVZu8M4aDsGNhbwlpp1Y7wLUSjsFR-olY89Mls9hD4CiL9jq0roUpzA/s1600/telegram-handala.jpg",
-      "processedAt": "2026-09-19T19:40:16.754143+00:00"
-    },
-    {
-      "id": "art-5e95d1fd",
-      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
-      "summary": "BragJack is a proof-of-concept attack developed by security researcher Gal Weizman that uses a malicious browser extension to hijack AI assistants across multiple platforms including Chrome, Edge, Opera Neon, Perplexity Comet, and Claude. The attack uses a technique called Prompt Forcing to compromise these AI tools, and the research has earned significant recognition with over $20,000 in bug bounties and two CVE designations.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "browser-extension",
-        "malicious-extension",
-        "prompt-injection",
-        "chrome-vulnerability",
-        "ai-assistant-attack"
-      ],
-      "whyItMatters": "This attack demonstrates a critical vulnerability in how browser-based AI assistants can be compromised through seemingly innocent extensions, affecting millions of users across popular browsers and AI platforms. Organizations and users need to be cautious about extension permissions and browser security, as compromised AI assistants could lead to unauthorized access to sensitive conversations, da",
-      "image": null,
-      "processedAt": "2026-09-19T19:40:19.320173+00:00"
-    },
-    {
-      "id": "art-4ec1da71",
-      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
-      "summary": "North Korean hackers known as WaterPlum compromised approximately 30,000 devices globally between December 2025 and July 2026, successfully stealing over $10.7 million in cryptocurrency. Law enforcement agencies from multiple countries issued a joint advisory to alert the public and organizations about this widespread attack campaign. This incident demonstrates the scale and financial motivation behind state-sponsored cyber operations targeting cryptocurrency and digital assets worldwide.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "north-korea",
-        "cryptocurrency-theft",
-        "waterplum",
-        "state-sponsored",
-        "botnet",
-        "financial-crime"
-      ],
-      "whyItMatters": "This attack highlights the serious threat posed by state-sponsored hackers targeting financial assets at massive scale, affecting tens of thousands of victims globally. Organizations and individuals need to implement robust security controls, monitor for unauthorized access, and secure cryptocurrency holdings against sophisticated threat actors with significant resources. The $10.7 million theft d",
-      "image": null,
-      "processedAt": "2026-09-19T19:40:22.437239+00:00"
-    },
-    {
-      "id": "art-41aec6d4",
-      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
-      "summary": "The ShinyHunters extortion gang successfully breached the Clop ransomware group's dark web leak site, defacing it and stealing sensitive data including private encryption keys. This attack represents a significant disruption to one of the most notorious ransomware operations, exposing vulnerabilities even in criminal infrastructure. The incident demonstrates that threat actors are increasingly targeting each other, creating a cascading effect of compromises.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "extortion",
-        "data-breach",
-        "threat-actor",
-        "dark-web",
-        "criminal-infrastructure"
-      ],
-      "whyItMatters": "This attack highlights that even sophisticated criminal organizations are vulnerable to compromise, which could disrupt their operations and potentially lead to leaked victim data or operational secrets. The theft of private encryption keys could compromise the security of Clop's infrastructure and ongoing extortion activities. Understanding inter-criminal conflicts helps defenders anticipate seco",
-      "image": null,
-      "processedAt": "2026-09-19T19:40:25.151400+00:00"
-    },
-    {
-      "id": "art-8ec90969",
-      "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
-      "summary": "An AI-powered video call service featuring a viral AI actress collects biometric data from callers through mandatory face-scanning for age verification and mood detection during calls. The service raises significant privacy concerns due to its collection and processing of facial recognition data without clear transparency about data storage, usage, or retention policies.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "facial-recognition",
-        "biometric-data",
-        "privacy-concerns",
-        "ai-security",
-        "age-verification"
-      ],
-      "whyItMatters": "This incident demonstrates how emerging AI services can normalize invasive biometric collection under the guise of legitimate functionality (age verification), creating privacy risks for users who may not fully understand what data is being captured or how it's stored. The lack of transparent data handling practices combined with mood-sensing capabilities raises serious questions about consent, da",
-      "image": null,
-      "processedAt": "2026-09-19T19:40:27.593817+00:00"
-    },
-    {
-      "id": "art-dc393a07",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-06",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "summary": "A 26-year-old Canadian cybercriminal named Connor Riley Moucka pleaded guilty to hacking and extorting over 165 organizations using Snowflake's cloud storage platform. He also admitted to stealing communication records from more than 100 million AT&T customers. This case represents one of the most significant cybercrime operations from 2024 and demonstrates the real-world consequences of large-scale data theft and extortion campaigns.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "cloud-security",
-        "data-breach",
-        "extortion",
-        "snowflake",
-        "cybercriminal",
-        "mass-theft"
-      ],
-      "whyItMatters": "This case highlights the severe risks cloud service providers face from sophisticated threat actors and demonstrates that major extortion campaigns targeting hundreds of organizations can result in criminal prosecution. Organizations using cloud platforms like Snowflake should review their access controls and security postures, while the guilty plea underscores that law enforcement can successfull",
-      "image": null,
-      "processedAt": "2026-09-19T19:40:30.486694+00:00"
     }
   ]
 }
