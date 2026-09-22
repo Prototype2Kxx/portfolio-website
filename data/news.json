@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-09-22T11:17:14.187027+00:00",
+  "lastUpdated": "2026-09-22T20:33:35.982344+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-e1489b5b",
+      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+      "summary": "Check Point discovered a previously unknown vulnerability in its Security Management Server that attackers exploited in targeted attacks on July 23, 2026. The flaw (CVE-2026-93616) allows attackers to execute scripts without authentication if they can access the server's web service. Check Point released a security patch on September 22 to fix this critical issue affecting systems that manage firewall policies.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "check-point",
+        "management-server",
+        "remote-code-execution",
+        "patch-available",
+        "targeted-attacks"
+      ],
+      "whyItMatters": "Security Management Servers are high-value targets that control firewall policies across entire networks, making this vulnerability particularly dangerous for enterprise environments. Active exploitation in targeted attacks before a patch was available demonstrates real-world risk, and organizations running affected versions need to prioritize immediate patching to prevent unauthorized access and ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipTjrp93lIMdPVKigtkoXjbsk75AIXEvqJuXoYMQLAmvzQfqSy3V1XhBTLXY1SAWp92vTbajtnxBgHYvDr2e3EZOi9Yf8KgT8EzQOp61PjmPsI55nERsYckaL-pfmQDDzRTiCWXegVWrJ0Fu_9I8GUi5O0M0103r218S3dC67Zmr9BZ3quLBRBm9T6Xqo/s1600/cp-upload.jpg",
+      "processedAt": "2026-09-22T20:33:12.200852+00:00"
+    },
+    {
+      "id": "art-b360f1d9",
+      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+      "summary": "WordPress released a critical security patch on September 22, 2026, to fix a flaw that allows unauthenticated attackers to load PHP files from outside standard theme directories. On certain server configurations, this vulnerability could enable remote code execution, giving attackers the ability to run malicious commands. The fix was made available across all supported WordPress versions, dating back to version 4.7.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress",
+        "code-execution",
+        "critical-vulnerability",
+        "patch-available",
+        "remote-code-execution",
+        "php-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate risk to millions of WordPress installations worldwide, as it requires no authentication and can result in complete server compromise through code execution. Site owners must update immediately to prevent exploitation, and this highlights why keeping core software patched is essential for maintaining basic security defenses.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcFso-nJC2Re_gThOMTjPhyphenhyphenaOti1Mpn2_nb6NYGitzjVHTtvHN_q4oKg_FGa4IrTt81BAuA4qWzeJJZkxdV7F0-iSBR3ZwSUmqfBhvBX2ArxLTZqYjbtCPhu2Gw7PLSmOS5kOGQ9f0I46xPwhp5VCflFSN8YEm-z8VXdk1XRJwCvbqbljSZqorD4MpbQc/s1600/wp-update.jpg",
+      "processedAt": "2026-09-22T20:33:14.555160+00:00"
+    },
+    {
+      "id": "art-d0b636af",
+      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+      "summary": "A fake npm package called 'tw-pkgprobe-7731' was designed to trick developers into thinking it was a legitimate Twilio security tool, but it actually steals sensitive credentials and data. The malicious package was uploaded to npm in August 2026 under a deceptive account name that mimics official Twilio branding. This attack highlights how supply chain threats can target developers through trusted package repositories.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "supply-chain-attack",
+        "npm-malware",
+        "credential-theft",
+        "malicious-package",
+        "developer-targeting"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit developer trust in package managers to distribute malware at scale. Since npm packages are widely installed across thousands of projects, a single malicious package can compromise multiple organizations and their applications, making package repository security a critical defense layer.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikMlDL6W0FZvq8_gscr2M3UZIVnCYorB-Ip2G6To6-eZ04gFyOMsf-mvbqtMkYv484O3XnKhzySe0-UQjCOMm99fUhzrpkMD-QaZkn2UIUozJ5hLwrm7kXgLkODdkUUJk4GFXEkgrg7MlXKzcQ7kKtug2RmT80RROQfVRbQQm3HdeHBzAzhAjQ9bUf5eaT/s1600/twilio.jpg",
+      "processedAt": "2026-09-22T20:33:17.008243+00:00"
+    },
+    {
+      "id": "art-ef3c2ce4",
+      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+      "summary": "Microsoft successfully shut down EvilTokens, a phishing service that used artificial intelligence throughout its attack process to compromise approximately 12,000 email inboxes. The takedown was authorized by a U.S. court and involved cooperation from multiple organizations including Health-ISAC, Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, and The Shadowserver. This action demonstrates coordinated efforts to disrupt sophisticated AI-powered credential theft operations.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "device-code-attack",
+        "ai-powered-attack",
+        "credential-theft",
+        "botnet-takedown",
+        "account-compromise"
+      ],
+      "whyItMatters": "This takedown highlights how attackers increasingly weaponize AI to automate and scale phishing campaigns, making them more effective and harder to detect. The compromise of 12,000 inboxes shows the real-world impact of such services and underscores the importance of device-code authentication security awareness among users. Understanding these evolving threats helps organizations better protect t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyLwFD0zZ8OEPo1dkZ0Tz87aOYoCklNQODjV4MMj90RNo6hRh9rGuJmFQBx5igj0gT1CabBEkSERWh7w_VdfZWpfs6BaJmEMc0KN9nIJXtxpYUINf1alSW9K2whcD9MXF4CaCWAKLJRJQlI51aqGtdpbpbdiX7WjpjTUxDvNgb0gc4qtmuZLat8-lGSFhu/s1600/ms-eviltokens.jpg",
+      "processedAt": "2026-09-22T20:33:19.942629+00:00"
+    },
+    {
+      "id": "art-053d3049",
+      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+      "summary": "Bifrost, an open-source AI gateway supporting over 20 LLM providers, has a critical vulnerability (CVE-2026-90898) that allows attackers to execute arbitrary commands on servers without needing valid credentials. This flaw affects all versions before 2.1.0 and can be exploited through a single HTTP request. Users of Bifrost should immediately update to version 2.1.0 or later to prevent unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "remote-code-execution",
+        "authentication-bypass",
+        "patch-now",
+        "open-source",
+        "gateway-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects a widely-used AI gateway infrastructure component and allows unauthenticated remote code execution with minimal effort, potentially compromising all connected LLM services and backend systems. Organizations relying on Bifrost face immediate risk of complete system compromise and must prioritize patching to version 2.1.0 as an emergency measure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieRvfWKvxkIOajVIJ1qC7l54ZBCtHMwZTfUHGqSZ_35vGzAl23py6GfaqrxYkcfWZ_K75t9BGC6btqJQiS9jwaV7O4kJsCSIIQxmn9VnZrBbdjxSN4AzQ05K9G-ES82qV1G6IUcsBetsb0mVO5e5IHTr2FyAA3gtCN8Vne5N1H5Swgd2FLLlwi0GXFQ0o/s1600/bifrost.jpg",
+      "processedAt": "2026-09-22T20:33:22.670853+00:00"
+    },
+    {
+      "id": "art-aaaea6b3",
+      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
+      "summary": "A cybercriminal group called ShinyHunters claims to have successfully breached FBI systems by exploiting a previously unknown vulnerability in Oracle PeopleSoft software. During this attack, the group allegedly stole sensitive information including employee records and data about job applicants. This incident highlights how zero-day vulnerabilities in widely-used enterprise software can expose even high-security government agencies to serious data theft.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "fbi-breach",
+        "peoplesoft",
+        "oracle",
+        "data-theft",
+        "cybercrime"
+      ],
+      "whyItMatters": "This attack demonstrates that zero-day vulnerabilities in major enterprise platforms pose an immediate threat to organizations of all sizes, including federal agencies with significant security resources. The breach exposes the risk that attackers can exploit unknown software flaws faster than vendors can identify and patch them, making proactive vulnerability management and threat hunting essenti",
+      "image": null,
+      "processedAt": "2026-09-22T20:33:25.431225+00:00"
+    },
+    {
+      "id": "art-123fb5df",
+      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+      "summary": "A newly discovered Windows malware called ClosedQuorum leverages multiple AI models including Google Gemini, DeepSeek, Qwen, and Mistral to automatically make decisions about what actions to perform after gaining initial access to a system. This represents a significant shift in malware tactics, as the malware uses AI to adapt its behavior rather than relying on pre-programmed instructions. The autonomous nature of these AI-driven decisions makes the malware harder to predict and defend against using traditional security methods.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "ai-malware",
+        "windows-malware",
+        "autonomous-attacks",
+        "closedquorum",
+        "post-compromise",
+        "ai-security"
+      ],
+      "whyItMatters": "This threat demonstrates how attackers are weaponizing AI to automate and adapt their post-compromise behavior, making detection and response significantly more difficult for defenders. Organizations need to understand that traditional signature-based and rule-based security controls may be ineffective against AI-driven malware that can dynamically adjust its tactics. The use of legitimate AI APIs",
+      "image": null,
+      "processedAt": "2026-09-22T20:33:28.550987+00:00"
+    },
+    {
+      "id": "art-40b58e3d",
+      "title": "Reducing shadow IT visibility gaps with Wazuh",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
+      "summary": "Shadow IT—unapproved devices and software operating outside official monitoring—creates dangerous blind spots in corporate security. Organizations can address these gaps by using tools like Wazuh to gain better visibility through endpoint inventory tracking, agentless monitoring, and centralized analysis. This approach helps security teams identify and manage hidden assets that pose potential risks.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "shadow-it",
+        "endpoint-monitoring",
+        "visibility-gaps",
+        "asset-management",
+        "agentless-monitoring"
+      ],
+      "whyItMatters": "Shadow IT represents a critical security blind spot that adversaries can exploit to infiltrate networks undetected. Without visibility into all endpoints and software, organizations cannot properly assess risk, detect breaches, or enforce security policies. Implementing comprehensive monitoring solutions helps close these gaps and reduces the attack surface significantly.",
+      "image": null,
+      "processedAt": "2026-09-22T20:33:30.517074+00:00"
+    },
+    {
+      "id": "art-60881919",
+      "title": "Check Point warns of Management Server zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
+      "summary": "Check Point Software released urgent hotfixes for a critical vulnerability in its Security Management Server that attackers are actively exploiting. This flaw allows malicious actors to execute arbitrary scripts on affected systems, potentially compromising the security infrastructure that organizations rely on to protect their networks. The zero-day nature of this vulnerability means it was being attacked before a patch was available, making immediate updates essential for all affected users.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "check-point",
+        "management-server",
+        "arbitrary-code-execution",
+        "active-exploitation",
+        "emergency-patch"
+      ],
+      "whyItMatters": "Security management servers are central to protecting enterprise networks, so a vulnerability here directly threatens multiple organizations simultaneously. Active exploitation in the wild means attackers are likely already targeting unpatched systems, making this a race-against-time situation for IT teams. Rapid patching is critical because compromised management servers can give attackers broad ",
+      "image": null,
+      "processedAt": "2026-09-22T20:33:33.325370+00:00"
+    },
+    {
+      "id": "art-45b15eeb",
+      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
+      "summary": "Microsoft's Digital Crimes Unit successfully shut down the EvilTokens platform, a malicious service that had stolen authentication credentials from over 12,000 Microsoft accounts across more than 10,000 organizations. This PhaaS (Platform-as-a-Service) operation was being used by attackers to gain unauthorized access to corporate environments. The disruption represents a significant win in combating account compromise schemes that threaten enterprise security at scale.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "account-compromise",
+        "phishing-as-a-service",
+        "microsoft-accounts",
+        "credential-theft",
+        "enterprise-security"
+      ],
+      "whyItMatters": "This breach affected thousands of organizations simultaneously, demonstrating how industrialized cybercrime platforms can distribute compromised credentials at scale to enable broader attacks. Understanding the disruption of such services helps organizations recognize the importance of monitoring for account compromise and implementing multi-factor authentication to prevent attackers from leveragi",
+      "image": null,
+      "processedAt": "2026-09-22T20:33:35.982206+00:00"
+    },
     {
       "id": "art-73bb7b19",
       "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
@@ -826,212 +1033,6 @@
       "whyItMatters": "This attack signals a critical shift in the threat landscape where AI agents enable attackers to conduct more sophisticated, scalable, and autonomous breaches with minimal human intervention. Organizations must reassess their defenses to account for AI-driven threats that operate faster and more intelligently than traditional attack methods. The normalization of AI agents in cyberattacks means cyb",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltd2c0cfe5f9c4744c/6aac3ea5108059d6dac02186/Digital_trap-Moor_Studio-Getty.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-09-20T19:53:30.608276+00:00"
-    },
-    {
-      "id": "art-597afd3b",
-      "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-17",
-      "originalUrl": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
-      "summary": "The Internet Systems Consortium released security updates for BIND 9 DNS server software to address fourteen vulnerabilities discovered on September 16, 2026. One critical flaw allows attackers without credentials to crash DNS servers that support DNS-over-HTTPS by sending a single malformed request. Organizations running affected BIND versions must apply these patches immediately to prevent service disruption.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "bind-9",
-        "dns-vulnerability",
-        "dos-attack",
-        "dns-over-https",
-        "unauthenticated-crash",
-        "patch-required"
-      ],
-      "whyItMatters": "This vulnerability enables denial-of-service attacks against DNS infrastructure with no authentication required, threatening the availability of critical internet services. The widespread use of BIND in DNS servers globally means unpatched systems face immediate risk of exploitation and downtime.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEd6WLqBvkSx9Y2P6HrNL-VApj7Xb05Wlhnw4pPW6-X9NwGiAeAm_Hf4KYj_1hEy6uITGe8kh3xgYeTAha8nR5inx0snMzfWGP2Qd8kRuiOp0h4O49J-33kPpA1cuGhClV2qAvPyhyr2BqSYj9ZIvI6c-wncUNGESpGK-3tivnS-HIrOj9ZdSJALq_8Ts/s1600/bind9.jpg",
-      "processedAt": "2026-09-20T11:00:21.184081+00:00"
-    },
-    {
-      "id": "art-957655f7",
-      "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-17",
-      "originalUrl": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
-      "summary": "Gyazo, an image-sharing service owned by Helpfeel, suffered a significant data breach that exposed approximately 23.62 million user records containing email addresses and password hashes. The breach also compromised around 490 million image metadata records, primarily from images uploaded before January 2019, including the unique identifiers used to access Gyazo image links. This incident highlights the risks of storing sensitive user information and metadata on cloud-based services.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "user-credentials",
-        "password-hashes",
-        "metadata-exposure",
-        "image-sharing-service"
-      ],
-      "whyItMatters": "This breach affects millions of users whose email addresses and password hashes are now at risk of being used in credential-stuffing attacks or further exploitation. The exposure of image metadata and unique identifiers could enable attackers to access or enumerate shared images, potentially compromising user privacy. Organizations and individuals using Gyazo need to change their passwords immedia",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjo_VMcM5A8FocwrVqXOjmk-BvMd3D_JA6RIur9wT4Gca5jQjiLLinldpcu3u2hWmJQeJZg5nhVRBwxHe2y0BHg1TZEd046RkPLatyX5JN-7_WtuRyPMX3VnMCAs7tfCYOSghFuBCUT6HFyCBH-bLeAPWlAj9TPtAn1sitCktd2vp_pJr6VtzHd2_EFDpo/s1600/gyazo.jpg",
-      "processedAt": "2026-09-20T11:00:23.831390+00:00"
-    },
-    {
-      "id": "art-c6edafe5",
-      "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-17",
-      "originalUrl": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-      "summary": "Cisco has discovered a critical security flaw in its Identity Services Engine (ISE) product that allows attackers to bypass authentication without needing login credentials. Tracked as CVE-2026-76460 with a perfect CVSS score of 10.0, this vulnerability stems from weak security controls on an API endpoint. The flaw is already being actively exploited by attackers in real-world attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "authentication-bypass",
-        "cisco-ise",
-        "active-exploitation",
-        "cvss-10",
-        "api-vulnerability"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat because it allows complete bypass of authentication on a widely-used network identity platform, giving attackers potential access to critical infrastructure without credentials. The active exploitation and perfect CVSS score mean organizations using Cisco ISE need to patch immediately to prevent unauthorized network access. This is a textbook example of",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKC3hrw_VedPPLj2lAD6qhUn-7eJuJ8dqSBMAOwTEjUdYxlwnOla9dFF4pwOBNr-QsjzJPuXEtkA6orbkLHUqHI3RbWMBR0VeNaYvZqSnkNnM5HH-T9ofLeBzrZcOXn5nbZyNC2YeQjANmTzBAhaAwhDoGoXLJOeB1nFbIr-TJuFTHM8y0TAzj6Hxd0MYM/s1600/cisco-0-day.jpg",
-      "processedAt": "2026-09-20T11:00:26.524032+00:00"
-    },
-    {
-      "id": "art-37f3f97c",
-      "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-17",
-      "originalUrl": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-      "summary": "U.S. authorities seized domains belonging to NightmareStresser, a DDoS-for-hire service that facilitated hundreds of thousands of cyberattacks. The operation targeted nightmare-stresser.com and nightmarestresser.org, replacing them with seizure banners to disrupt the service. This takedown represents a significant enforcement action against criminal infrastructure enabling distributed denial-of-service attacks.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ddos-attack",
-        "law-enforcement",
-        "domain-seizure",
-        "cybercrime",
-        "infrastructure-disruption"
-      ],
-      "whyItMatters": "This seizure demonstrates active law enforcement against DDoS-for-hire services that lower barriers to entry for attackers. Removing these platforms directly reduces the volume of attacks targeting critical systems and organizations. The action shows that cybercriminals operating attack services face real legal consequences, deterring future criminal infrastructure development.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiizrhUTj3tjdgb7IhljezkW3bnwYpTrYnUKKPyx7s7RWalycDu2JiqKhRZDgnpZdafbKxkyBrx4kjkpGTNSNXYZ-nL2wFQ_kKcRBVo14lJ5Da5SF2sq2-eOzHeRXxuJ3skSWSn5AC0XA4NjwQrhTWFOuFxvSRsmOC63AIKBxV-9bfmABkLGW4BgyfV3CSM/s1600/domain.jpg",
-      "processedAt": "2026-09-20T11:00:28.950741+00:00"
-    },
-    {
-      "id": "art-e0606acf",
-      "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-16",
-      "originalUrl": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-      "summary": "A critical vulnerability in the Issabel Framework, used for open-source unified communications PBX software, is being actively exploited to allow attackers to execute arbitrary operating system commands without needing to authenticate. The flaw, tracked as CVE-2026-89026 with a near-maximum CVSS score, stems from hard-coded credentials or similar misconfigurations that expose systems to remote command execution attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cve-2026-89026",
-        "unauthenticated-rce",
-        "issabel-framework",
-        "command-execution",
-        "active-exploitation",
-        "pbx-security"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability means attackers are already targeting systems in the wild, making immediate patching essential for any organization running Issabel Framework. The ability to execute arbitrary OS commands without authentication gives attackers complete control over vulnerable systems, potentially compromising entire unified communications infrastructure and the sensitive d",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5aXi8Vt3MH8e38-ViNXz-m4hRPrbqDMGcpbMtOc3b-cDLIyEZEjqGvSscW6mR34ZrmPM4lSnv6C9XFTHlgq3UyGLA24gySGqcCzdKr-hIY2QZO8VSXnC-KAsdEz6vTkgdRnVxAZVM7NyrhgpL2xDWR8lcvPInEwgvj0pTgHkC7KStUFglwcLext7eb3w5/s1600/issa.jpg",
-      "processedAt": "2026-09-20T11:00:31.449465+00:00"
-    },
-    {
-      "id": "art-59dcb69d",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "summary": "Cheap TV streaming devices marketed as unlimited content solutions pose serious security risks beyond previously known threats. Research reveals these devices not only hijack users' internet bandwidth to rent to others, but also impersonate mobile phones to commit ad fraud and exploit online merchants and advertising networks. This discovery shows how consumer electronics can be weaponized for large-scale financial fraud while compromising home network security.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "iot-security",
-        "device-compromise",
-        "ad-fraud",
-        "malware",
-        "consumer-devices",
-        "bandwidth-theft"
-      ],
-      "whyItMatters": "This article highlights how seemingly innocuous consumer products can become vectors for multiple attacks simultaneously—from infrastructure abuse to financial fraud—putting both individual users and broader online ecosystems at risk. Understanding these threats is critical for consumers making purchasing decisions and organizations protecting their advertising and payment systems from exploitatio",
-      "image": null,
-      "processedAt": "2026-09-20T11:00:34.396729+00:00"
-    },
-    {
-      "id": "art-1f91d9ad",
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "summary": "LG Electronics USA announced plans to ban apps from its webOS smart TV store that use televisions as residential proxy nodes for routing internet traffic. A recent security study revealed that over 42% of games and apps available on LG's platform were allowing unknown third parties to exploit users' TVs in this way. This action represents an effort to protect consumers from unknowingly having their devices abused for potentially malicious network activities.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "residential-proxies",
-        "smart-tv-security",
-        "iot-abuse",
-        "app-store-security",
-        "device-exploitation"
-      ],
-      "whyItMatters": "This incident highlights how IoT devices like smart TVs can be weaponized without user knowledge to support cybercriminal infrastructure. The high prevalence of exploitative apps (42%) demonstrates a widespread vulnerability in app store vetting processes, making this a systemic risk that affects millions of households. Addressing this threat requires both platform-level enforcement and user aware",
-      "image": null,
-      "processedAt": "2026-09-20T11:00:37.446324+00:00"
-    },
-    {
-      "id": "art-03b07ffc",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "summary": "Microsoft released patches for 570 security vulnerabilities across its Windows operating systems and other software, nearly triple the number from the previous month's record release. The company credited artificial intelligence tools with helping identify this unprecedented volume of security flaws. This massive patch release highlights both the growing sophistication of vulnerability discovery methods and the critical importance of applying updates quickly.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-patches",
-        "windows-security",
-        "vulnerability-disclosure",
-        "patch-tuesday",
-        "ai-security",
-        "urgent-updates"
-      ],
-      "whyItMatters": "The sheer volume of vulnerabilities—570 in a single release—represents a significant security risk across millions of Windows users and organizations globally. Delays in applying these patches could leave systems exposed to active exploitation, making rapid deployment essential for maintaining cybersecurity posture. This also demonstrates how AI is becoming integral to vulnerability discovery, cha",
-      "image": null,
-      "processedAt": "2026-09-20T11:00:40.080771+00:00"
-    },
-    {
-      "id": "art-5ddf1301",
-      "title": "Vectra AI Launches Ascent to Help Address New Era of AI-Driven Attacks",
-      "source": "Dark Reading",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/vectra-ai-launches-ascent-new-era-ai-driven-attacks",
-      "summary": "Vectra AI has introduced Ascent, a new program designed to help organizations defend against increasingly sophisticated attacks powered by artificial intelligence. As security environments grow more complex and AI becomes more prevalent in both attacks and defenses, the company is expanding its partner network to offer broader expertise and services. This initiative reflects the growing need for specialized tools and knowledge to combat AI-driven threats.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "threat-detection",
-        "partner-strategy",
-        "ai-driven-attacks",
-        "defense-tools"
-      ],
-      "whyItMatters": "As attackers increasingly leverage AI to automate and enhance their campaigns, organizations need advanced detection and response capabilities beyond traditional security measures. Vectra AI's expanded partner program signals industry recognition that AI-driven threats require specialized expertise and coordinated defense strategies that individual organizations may struggle to develop alone.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-09-20T11:00:42.669710+00:00"
-    },
-    {
-      "id": "art-e3ea54e7",
-      "title": "Cisco Zero-Day Highlights API Endpoint Authentication Issues",
-      "source": "Dark Reading",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.darkreading.com/vulnerabilities-threats/cisco-zero-day-api-endpoint-authentication-issues",
-      "summary": "Cisco discovered a critical authentication bypass vulnerability (CVE-2026-76460) in its Identity Services Engine (ISE) product that could allow attackers to bypass security controls through API endpoints. The flaw received the highest possible CVSS score of 10.0, indicating it poses an immediate and severe risk to organizations using this widely-deployed identity management system.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "authentication-bypass",
-        "cisco-ise",
-        "api-vulnerability",
-        "cvss-10",
-        "identity-services-engine"
-      ],
-      "whyItMatters": "This vulnerability is critical because identity management systems like Cisco ISE are foundational security infrastructure—compromising them could grant attackers access to entire enterprise networks and sensitive user credentials. Organizations using ISE must prioritize immediate patching or mitigation to prevent potential large-scale breaches and unauthorized system access.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9b9202e55102d483/6aad857c8cb60c3268956114/api-saifulasmee_chede-Getty-2203607940.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-09-20T11:00:44.998842+00:00"
     }
   ]
 }
