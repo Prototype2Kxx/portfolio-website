@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-09-23T11:10:17.504206+00:00",
+  "lastUpdated": "2026-09-23T20:45:24.658842+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-4b77a6f0",
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "summary": "Cybersecurity researchers discovered Go-based malware being distributed through legitimate-looking packages on HashiCorp's Terraform registry and Go Modules repository. This marks the first time attackers have successfully used HashiCorp's centralized platform as a malware delivery mechanism. The malicious Terraform providers and Go modules had already been downloaded hundreds of times before being identified, creating risk for developers who use these tools.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware-distribution",
+        "supply-chain-attack",
+        "terraform",
+        "go-modules",
+        "hashicorp",
+        "developer-threat"
+      ],
+      "whyItMatters": "This attack exploits the trust developers place in official package repositories, making it a serious supply-chain risk that can compromise infrastructure at scale. Organizations relying on Terraform and Go modules need to audit their dependencies immediately to detect if they've installed any malicious packages. This demonstrates how attackers are increasingly targeting development tools and cent",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8VNxKl5_NBWXcUoDi3VxoksbOSAixGFGd8EmIaZmKRQpsGhOj6SLg8fmHktJbtvR7wofZNG1AFIzSGnVFq8OJHgq27dhqNtc0cz457ZqqQQ6INHwnExfLu3xKERaNt0GmOpxJ6WR6oxp5FZTT-q3Q5YWAnVawXYfY51GRl09ovsDkhM3U8tRUTR4ClSfj/s1600/terraform.jpg",
+      "processedAt": "2026-09-23T20:44:58.733107+00:00"
+    },
+    {
+      "id": "art-4fd6cc8d",
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "summary": "GitLab's private email feature for filing issues contains a critical flaw where the email address acts as a credential that can be exploited. If someone obtains this address, they can push unauthorized code changes to any branch, including the main branch, and execute CI/CD jobs under the legitimate user's identity. This vulnerability allows attackers to inject malicious code or automate attacks without needing the actual account password.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gitlab",
+        "credential-exposure",
+        "code-injection",
+        "ci-cd-security",
+        "privilege-escalation",
+        "email-based-attack"
+      ],
+      "whyItMatters": "This vulnerability is critical because leaked or intercepted email addresses can be weaponized to compromise entire software projects and deployment pipelines. Attackers can inject malware into production code or sabotage CI/CD workflows, affecting all users and systems that depend on the compromised repository. Organizations using GitLab must immediately audit email address exposure and rotate or",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaHKzSxkk0R4wjlziQHsR5vS1s1mTJovZkES9XL9nn5VLYiM55XuJoiGP9cugwNUOBMEMG3NrW3iBL9cVOqfp0F-9roYS7K7R5w8t3_NJr61_2_XgRNltvjXBFoGLfQPQFhUk0ju_mMCRCqJHjr76BrbngafAtElKkD-LZWZ7uUcY82i8PAMKh0ljHJQI/s1600/gitlab-email.jpg",
+      "processedAt": "2026-09-23T20:45:02.096312+00:00"
+    },
+    {
+      "id": "art-f50a7fda",
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "summary": "Researchers discovered a dangerous combination of two MikroTik RouterOS vulnerabilities called MikroTrick that allows attackers to gain complete control of internet-facing routers without needing passwords or SSH keys. By exploiting an SSH state-machine flaw paired with an argument-injection bug in the login process, attackers can bypass all authentication barriers. This vulnerability chain has already been observed in active attacks against RouterOS systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "mikrotik-routeros",
+        "ssh-vulnerability",
+        "authentication-bypass",
+        "privilege-escalation",
+        "chain-exploit",
+        "internet-exposed-devices"
+      ],
+      "whyItMatters": "This vulnerability is critical because MikroTik routers are widely deployed in small businesses, ISPs, and enterprises as edge network devices, making them high-value targets for attackers. The ability to completely bypass authentication without credentials means attackers can take full control of network infrastructure, intercept traffic, and pivot deeper into networks. Organizations running expo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjudzrtqX93WzCbZQoGI06WzKFtFpQsZaQB7GUao4yzBncGN3nxn0GzmYNybpL9SeKFttznMsVCZpQEQ_fD5kP_0nJRL4ZN6ZgHrXR2c33bpZN33gEyIkk6aBtx0k7znzalUe6epmrCO5VSCCH6beY_chvz9Pl0t5BbBtCLntTnNMwi3cFPXFd0p09FxA4/s1600/microtik.jpg",
+      "processedAt": "2026-09-23T20:45:04.882183+00:00"
+    },
+    {
+      "id": "art-333b9b2f",
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "summary": "Security researchers at Cisco Talos discovered a Windows malware called CLOSEDQUORUM that uses an unusual artificial intelligence-based approach to make decisions about its attacks. Instead of receiving commands from a traditional attacker-controlled server, the malware allows up to four AI models to vote on which malicious actions to perform, such as stealing passwords and cryptocurrency wallet information. Although the researchers haven't observed this system fully operational in the wild and the current public version doesn't function as intended, it represents a novel attack methodology.",
+      "category": "Malware",
+      "severity": "Medium",
+      "tags": [
+        "ai-malware",
+        "windows-malware",
+        "credential-theft",
+        "malware-innovation",
+        "closedquorum"
+      ],
+      "whyItMatters": "This malware demonstrates an emerging threat where adversaries are experimenting with AI-driven command and control mechanisms, potentially making detection and attribution more difficult than traditional server-based attacks. Understanding these experimental approaches helps defenders anticipate future malware evolution and develop countermeasures before such techniques become widespread.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZdSpi6aqUlY2q-T-3eJ4YCn7G3jYa9Exo6BMffjdRLuqg9Gdn4ImZXKjcYX8s5Swz3W_WhxMZ_Z7qbu0Z60KrCk8EUhRV8bJ7l1mXOoDCo-XAXyq69_rtFDoVhvAiuJP1rCdSf9KixTqgAA52iwqWsqB5T0uJaRGFz1hpBcpfQuvPMYd17UcrfrnUV0c/s1600/closed.jpg",
+      "processedAt": "2026-09-23T20:45:07.616553+00:00"
+    },
+    {
+      "id": "art-aa6cad22",
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "summary": "Attackers compromised legitimate MemTensor packages on npm and PyPI repositories to distribute sckit, a malicious credential-stealing tool built with Go that targets Windows, Linux, and macOS systems. This supply chain attack leveraged trusted package managers to spread malware to developers who downloaded these packages. Multiple security firms including Aikido, SafeDep, Socket, and StepSecurity detected and reported the compromise.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-distribution",
+        "npm-pypi-compromise",
+        "credential-stealer",
+        "platform-agnostic"
+      ],
+      "whyItMatters": "Supply chain attacks through compromised package repositories pose a widespread risk because developers routinely trust and automatically update dependencies without manual inspection. This attack demonstrates how threat actors can use legitimate distribution channels to infect thousands of systems across multiple platforms simultaneously, making it difficult for organizations to detect and remedi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFThFSFsti-2SIka75bNuMKpyJHtOW2ZPrZtcSjbjFQ64GCNn0WtdssYuWlVTbhaLB5cAJ0vu8FgyNmNsDa8g0Ijy-D1zP4FW7ihVfAjk9xWMYDMMdfZPICGyVdjeDwH3-jyKLHOUnjfaXBJIMxGn_3ngeXFsbb4CLnOibRd4fbwXHYpBkMQTcBQAf0edq/s1600/npm-pypi.jpg",
+      "processedAt": "2026-09-23T20:45:10.607741+00:00"
+    },
+    {
+      "id": "art-5d57a7c3",
+      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "summary": "Check Point has discovered that hackers are actively exploiting CVE-2026-85102, a critical vulnerability in its Security Gateway VPN product that allows attackers to execute code without authentication. This flaw affects the VPN certificate-handling system, meaning attackers can potentially gain unauthorized access to systems protected by this gateway. Organizations using Check Point Security Gateway need to patch immediately to prevent compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "check-point",
+        "vpn-security",
+        "rce-vulnerability",
+        "active-exploitation",
+        "patch-urgent",
+        "security-gateway"
+      ],
+      "whyItMatters": "Active exploitation of this pre-authentication RCE vulnerability means attackers are already weaponizing it in the wild, making this an immediate threat to any organization using Check Point Security Gateway. VPN solutions are critical network entry points, so compromise here can lead to complete network infiltration. Organizations must prioritize patching to prevent unauthorized access and potent",
+      "image": null,
+      "processedAt": "2026-09-23T20:45:13.223724+00:00"
+    },
+    {
+      "id": "art-7867e6e6",
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "summary": "Hackers have begun actively exploiting a critical WordPress vulnerability (CVE-2026-87902) to upload malicious files to vulnerable websites. Once these files are in place, attackers can execute arbitrary shell commands on the compromised server. This represents a dangerous escalation from passive reconnaissance to active, weaponized attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress",
+        "code-execution",
+        "cve-2026-87902",
+        "active-exploitation",
+        "patch-urgent"
+      ],
+      "whyItMatters": "WordPress powers millions of websites globally, making this vulnerability a widespread threat. Active exploitation means attackers are already targeting sites in the wild, and shell command execution enables full server compromise, data theft, and malware deployment. Website owners must patch immediately to prevent infection.",
+      "image": null,
+      "processedAt": "2026-09-23T20:45:15.726617+00:00"
+    },
+    {
+      "id": "art-c0481535",
+      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+      "summary": "Cybercriminals are using AI agent frameworks to automatically attack and compromise over 100 online retail websites, installing payment card skimmers that have stolen approximately 600,000 credit card records. This attack demonstrates how threat actors are leveraging automation and AI tools to scale malicious operations against e-commerce targets. The attackers are using legitimate open-source AI frameworks in unintended ways to conduct large-scale theft operations.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "credit-card-theft",
+        "skimmer-malware",
+        "e-commerce-attacks",
+        "automated-attacks",
+        "payment-fraud"
+      ],
+      "whyItMatters": "This incident reveals a dangerous trend where attackers are weaponizing AI automation tools to compromise hundreds of sites simultaneously, making traditional defenses harder to maintain. Organizations need to understand that AI frameworks can be misused at scale, and e-commerce businesses must implement robust payment security and threat detection to prevent similar large-scale compromises. The t",
+      "image": null,
+      "processedAt": "2026-09-23T20:45:19.289745+00:00"
+    },
+    {
+      "id": "art-1dce07fd",
+      "title": "InfraTrust report warns network management systems under attack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+      "summary": "Hackers are actively targeting network management systems that control enterprise infrastructure, exploiting critical vulnerabilities either before or shortly after vendors release patches. This coordinated attack pattern suggests sophisticated threat actors are systematically compromising the central tools that organizations rely on to operate their networks. The timing of these exploits indicates attackers may have advance knowledge of vulnerabilities, making it a significant threat to enterprise security.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "network-management",
+        "infrastructure-attack",
+        "zero-day",
+        "critical-vulnerabilities",
+        "patch-timing",
+        "enterprise-risk"
+      ],
+      "whyItMatters": "Network management systems are high-value targets because compromising them gives attackers control over entire enterprise infrastructures rather than individual systems. Organizations need to prioritize securing these systems and apply patches immediately, as the active exploitation window appears to be extremely narrow. Understanding this threat pattern helps security teams implement enhanced mo",
+      "image": null,
+      "processedAt": "2026-09-23T20:45:22.390737+00:00"
+    },
+    {
+      "id": "art-f61e0f9b",
+      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+      "summary": "A Kubernetes user with limited permissions can exploit Google Kubernetes Config Connector to escalate privileges and gain control over an entire Google Cloud organization. This security issue, known as a confused deputy problem, demonstrates how a single misconfigured YAML file can become a gateway to organization-wide compromise. The vulnerability highlights risks in how cloud infrastructure tools can inadvertently grant excessive permissions.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "kubernetes",
+        "gcp",
+        "privilege-escalation",
+        "cloud-security",
+        "confused-deputy",
+        "config-connector"
+      ],
+      "whyItMatters": "This vulnerability exposes a critical risk in Kubernetes and Google Cloud environments where limited-permission users can bypass access controls and take over entire organizations. Security teams managing GCP infrastructure must urgently review their Kubernetes Config Connector configurations and permission models to prevent unauthorized privilege escalation attacks.",
+      "image": null,
+      "processedAt": "2026-09-23T20:45:24.658697+00:00"
+    },
     {
       "id": "art-d51fc576",
       "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
@@ -827,213 +1034,6 @@
       "whyItMatters": "While this is a functionality issue rather than a security threat, it demonstrates how security patches can inadvertently introduce operational problems affecting millions of users. Understanding and monitoring patch-related issues helps IT teams plan deployments carefully and maintain business continuity while balancing security requirements.",
       "image": null,
       "processedAt": "2026-09-21T21:17:44.814615+00:00"
-    },
-    {
-      "id": "art-f09c77e5",
-      "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-21",
-      "originalUrl": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
-      "summary": "Cybercriminals are using fake software update alerts (ClickFix lures) to trick people into downloading ChainScript, a newly discovered remote access trojan that gives attackers complete control over infected computers. The malware disguises itself as popular applications like Spotify, Zoom, and Microsoft Teams while using blockchain technology to hide its command-and-control servers. Security researchers have identified multiple versions of this malware operating under different names, indicating an organized and active threat campaign.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "rat-malware",
-        "clickfix-lures",
-        "social-engineering",
-        "c2-infrastructure",
-        "blockchain-evasion",
-        "remote-access-trojan"
-      ],
-      "whyItMatters": "This threat demonstrates how attackers are combining social engineering (fake update prompts) with advanced evasion techniques (blockchain-based infrastructure rotation) to evade detection and maintain persistent access to victim systems. The use of trusted brand names as disguises makes this particularly dangerous for everyday users who may not recognize the deception, creating widespread risk ac",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-cgmwQRZh142Z19A3s7K7tpaXtsyy6Imy9cYGM7nFP1DAZoSK9gDw8T0dGXlkFWOGDFShJWMNjC7jbwoSvLokr1pX27u2B1SABpBL-aWtaXj2hYYrqVwTE7LpEDn_iIbRYCro8sH2hzAEsjHLGkpFqTjEKlFHi2o2pgacFJQvYkPDCKVEhkJgW8OWhpZA/s1600/poly.jpg",
-      "processedAt": "2026-09-21T12:26:54.512771+00:00"
-    },
-    {
-      "id": "art-495b3a70",
-      "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-21",
-      "originalUrl": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
-      "summary": "A North Korean hacking group called Jade Sleet successfully breached an Indian IT services company using custom backdoor tools named FLATROOF and ROOFDECK. This attack demonstrates the group's continued strategy of targeting developers and IT workers to gain access to their clients' networks. Security researchers from SentinelOne discovered the compromise and shared details about the malware and attack methods used.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "north-korea",
-        "jade-sleet",
-        "backdoor",
-        "it-supply-chain",
-        "malware",
-        "india"
-      ],
-      "whyItMatters": "Supply chain attacks through IT service providers pose a major risk because compromising one company can lead to breaches of many client organizations. This incident shows that state-sponsored actors actively target developers and IT staff as entry points into larger networks, making security awareness critical for this sector. Organizations must understand that attackers view IT providers as valu",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-xFiujwBJLdl6_4wZSMCWdeyCgev2EqszOLkIJ5I9Kbanu6YNmQ36nM615XmLQ-sq2aqldOHfl47jaMNRtDd80RT8k5f6I7eQuszf7wsIg49sEdMW36hsEKUtVUkZabRlGvvDxn7H7COmRCV8qP2pzQm9LNo5QKRnnptxmxTlJ8BMcPxuiqdaMjn-are0/s1600/it-services.jpg",
-      "processedAt": "2026-09-21T12:26:57.390283+00:00"
-    },
-    {
-      "id": "art-3b46ee93",
-      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-      "summary": "A malicious JavaScript stealer called WeaselBiscuit has been discovered spreading through 13 compromised npm packages, targeting data stored in Chrome extensions. Researchers found the malware shares similar characteristics with known malware from North Korea's Contagious Interview campaign. This attack demonstrates how supply chain vulnerabilities in popular software repositories can be exploited to distribute stealing tools to developers and their systems.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "supply-chain",
-        "npm-packages",
-        "data-theft",
-        "chrome-extension",
-        "javascript-stealer"
-      ],
-      "whyItMatters": "This attack directly compromises the software supply chain that developers rely on, meaning thousands of applications and systems could be affected if developers installed these malicious packages. Organizations need immediate visibility into their dependencies and must audit npm packages in their projects to prevent credential and sensitive data theft. The connection to state-sponsored actors ele",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZypkEn_5V1qllBxmH8UMxTPyA9qoXxQtKpBpJlFq2rtHgMM1wnknkyq4Vmmy0NiCHn2IjS0nyvtmiZpJ-vYOd6VxMFBexh_p6GXuq3Cjda-YfjDOUE5u5V5HfBBAQzEm5DLX3jg_ZrIfEBFlpcBod65T3Q0pXVR7vERfitlS6cBHYVG2K7ek5ivweYTRq/s1600/npm-chrome.jpg",
-      "processedAt": "2026-09-21T12:27:00.251633+00:00"
-    },
-    {
-      "id": "art-5ef3725c",
-      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-      "summary": "A threat actor distributed a malicious JavaScript stealer called PhantomRaven through the npm package registry to steal sensitive information from developers. Cybersecurity researchers determined that the attacker likely used an AI language model to write the malware, based on patterns like verbose comments and placeholder code. This incident highlights how attackers are increasingly leveraging AI tools to create and distribute malware more efficiently.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "npm-malware",
-        "information-stealer",
-        "llm-generated-malware",
-        "javascript",
-        "supply-chain-attack",
-        "package-registry"
-      ],
-      "whyItMatters": "npm package registry is a critical dependency for millions of developers worldwide, making it an attractive target for supply-chain attacks. The use of LLM-generated malware represents an emerging threat where attackers can produce convincing code at scale with less technical expertise. Organizations need to strengthen dependency verification practices and monitor for similar AI-generated malware ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyW8DcUYeyW1LOG-Gc3uqyV8_5rO4iwyEIM6FbRFwuvilvbfC7RSTjueJ4lEELpGvXX-22zzWuNCusN2qdODymiKNOQSz_8f1Q4u59bH7HCEZFT5PVsyBjj2NhWtlYiwvhXzXbwG_n3P_DCloZvMdajsc93hvqbJo6HCJy5wjNevUyN46ODFo7AlYsj499/s1600/npm-cicd.jpg",
-      "processedAt": "2026-09-21T12:27:02.819274+00:00"
-    },
-    {
-      "id": "art-c20fe555",
-      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-      "summary": "RatHat is a new Android malware linked to Chinese threat actors that uses AI to control infected devices and maintain persistent access even after uninstallation by abusing Android Debug Bridge (ADB). The malware spreads through deceptive text messages and fake app download sites, making it a significant threat to mobile users who may unknowingly download it.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "adb-abuse",
-        "persistence-mechanism",
-        "smishing",
-        "ai-powered-threat",
-        "mobile-security"
-      ],
-      "whyItMatters": "This malware demonstrates an evolving threat where attackers combine social engineering with technical sophistication to bypass standard removal methods, meaning users cannot simply uninstall the app to regain control of their devices. The use of AI for device control and the persistence mechanism through ADB represents a significant advancement in Android malware capabilities that security teams ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5Psm8tS3JWb6ev7nZoz7YQDPIgoHj9gwbNjgjxbokxICdzRIUb5YJI-XfDx0NQgm8afhayc-Zd51hjuxqi7Sk_XxCNXoTNt7nIZWpxCBcDMLjSm3uW38HRciOu3WNtaUT0a-2NSsOX91GbXpCScryNirImMMC4lkuVysHku58maTbm9XvAwJ0-X6O_wDE/s1600/1000109602.jpg",
-      "processedAt": "2026-09-21T12:27:05.492555+00:00"
-    },
-    {
-      "id": "art-c7b8fef6",
-      "title": "Microsoft: September updates break File History backup feature",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-file-history-backup-feature/",
-      "summary": "Microsoft has identified a problem where the File History backup feature in Windows may fail to function properly on certain systems after installing September 2026 security updates. This issue affects users who rely on the built-in backup tool to protect their important files. Users experiencing this problem may find their automatic backups are not working as expected.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "windows-update",
-        "file-history",
-        "backup-failure",
-        "patch-issue",
-        "data-protection"
-      ],
-      "whyItMatters": "This is critical because backup failures put user data at risk of permanent loss without recovery options, and the issue stems from official security updates that users are encouraged to install. Organizations and individuals relying on File History for data protection need immediate awareness and workaround strategies to prevent data loss.",
-      "image": null,
-      "processedAt": "2026-09-21T12:27:07.756252+00:00"
-    },
-    {
-      "id": "art-1c6420aa",
-      "title": "New Check Point flaw lets hackers execute code with root privileges",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
-      "summary": "Check Point Software discovered a critical vulnerability in their management systems that allows attackers to run malicious code with root-level access. The company has released security patches to address this flaw. This type of vulnerability is particularly dangerous because root access gives attackers complete control over the affected systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "check-point",
-        "root-access",
-        "code-execution",
-        "patch-now",
-        "management-systems",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "Management systems are central control points in enterprise networks, so a root-level code execution vulnerability puts thousands of organizations at immediate risk. Attackers exploiting this flaw could compromise entire network infrastructures, making swift patching essential. This highlights why security teams must prioritize updates for management and administrative tools above all other system",
-      "image": null,
-      "processedAt": "2026-09-21T12:27:10.038184+00:00"
-    },
-    {
-      "id": "art-2badbd4b",
-      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
-      "summary": "Microsoft released a fix for a bug in Excel 2016 that broke copy-and-paste functionality after users installed the September 2026 security update KB5002914. The company identified and resolved the issue that was preventing some Excel users from performing basic operations. This fix ensures that users can continue working normally without experiencing disruptions to their workflow.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "excel-2016",
-        "patch",
-        "microsoft-update",
-        "bug-fix",
-        "kb5002914"
-      ],
-      "whyItMatters": "Security patches are critical for protecting systems, but when they introduce new problems, users may hesitate to install future updates, creating security gaps. This incident highlights the importance of thorough testing before releasing patches and demonstrates how even routine updates can impact productivity if not properly validated.",
-      "image": null,
-      "processedAt": "2026-09-21T12:27:12.321942+00:00"
-    },
-    {
-      "id": "art-437b4165",
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-16",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "summary": "Radaris, a data broker company known for ignoring privacy removal requests, faced legal consequences when a New Jersey court ruled that the company violated state privacy laws protecting law enforcement officials' personal information. Due to the company's repeated failure to comply with court orders, a judge ordered the transfer of Radaris.com and over a dozen related domains to the plaintiffs. This case demonstrates how legal enforcement can hold data brokers accountable for privacy violations.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "data-broker",
-        "privacy-violation",
-        "personal-information",
-        "legal-enforcement",
-        "data-removal"
-      ],
-      "whyItMatters": "This case establishes important legal precedent for holding data brokers accountable when they violate privacy laws and ignore removal requests. It shows that courts are willing to take aggressive action—including domain seizure—against companies that repeatedly disregard privacy protections, which may encourage other data brokers to improve their compliance practices. For individuals, it demonstr",
-      "image": null,
-      "processedAt": "2026-09-21T12:27:15.139099+00:00"
-    },
-    {
-      "id": "art-dd1883f3",
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-01",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "summary": "An identity theft service on the dark web is selling digital copies of over 153 million drivers licenses from the United States and Canada. The stolen data appears to come from an identity verification company in Louisiana, and the FBI has opened an official investigation into how the licenses were obtained. This massive breach exposes millions of people to potential identity theft and fraud.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "identity-theft",
-        "data-breach",
-        "drivers-licenses",
-        "dark-web",
-        "fbi-investigation",
-        "personal-data"
-      ],
-      "whyItMatters": "This breach affects 153 million people's sensitive identity documents, creating an enormous risk for identity theft, fraud, and criminal misuse. The compromise of identity verification systems undermines trust in critical infrastructure used for KYC (Know Your Customer) processes across financial and governmental sectors. Individuals whose licenses are exposed need immediate awareness to monitor f",
-      "image": null,
-      "processedAt": "2026-09-21T12:27:17.688199+00:00"
     }
   ]
 }
