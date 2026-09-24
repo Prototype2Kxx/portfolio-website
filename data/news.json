@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-09-24T11:26:31.855215+00:00",
+  "lastUpdated": "2026-09-24T20:51:31.185966+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-72840411",
+      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+      "summary": "A researcher discovered two unpatched flaws in OnePlus 15 and OxygenOS that allow malicious apps to gain root access without requiring special permissions from the user. By chaining these vulnerabilities together, an attacker can achieve complete control over the device. OnePlus confirmed these same flaws also affect multiple other OnePlus and OPPO devices.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "unpatched-vulnerability",
+        "privilege-escalation",
+        "android-security",
+        "oneplus",
+        "root-access",
+        "mobile-malware"
+      ],
+      "whyItMatters": "This vulnerability is critical because any installed app can silently gain root control without user knowledge or consent, enabling complete device compromise, data theft, and malware installation. The widespread impact across multiple OnePlus and OPPO devices affects millions of users who may be at immediate risk until patches are released. Users have no defense against this attack since the mali",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiGu2guziH88Cs_LnFsPkCJ4zuxqgSX7q3SRrBXdSAEeJPhmYnpNp-c0WCNCqoOoyCv6NcnmCKm20rhqSb2rjw7KZ6Kh6UssR2fZG5SZX9Pjhb_fjONdBfgpxqpWNABPDvSmD9Hp913nErgH4PQm1ehlyspJt5RXASYckP6jHE3G0V2ou5fwkG7JOZyBY/s1600/oneplus.jpg",
+      "processedAt": "2026-09-24T20:51:04.626570+00:00"
+    },
+    {
+      "id": "art-8459bd3c",
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+      "summary": "Multiple cybersecurity threats are being delivered through seemingly trustworthy channels like software updates, login prompts, and search results, exploiting user trust in familiar interfaces. AI tools are exposing more sensitive data than expected, while attackers are repurposing old vulnerabilities and crafting convincing fake prompts to bypass security. The article highlights how attackers require minimal exploits when they can manipulate trusted paths and user behavior instead.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "search-poisoning",
+        "code-injection",
+        "supply-chain-risk",
+        "social-engineering",
+        "data-exposure"
+      ],
+      "whyItMatters": "This article reveals that attackers are successfully poisoning trusted entry points—updates, logins, and AI tools—that users interact with daily, making detection harder and compromise easier. Organizations and individuals must recognize that cybersecurity threats are increasingly hidden in routine interactions, not just obvious malicious links, requiring heightened vigilance across all digital to",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQeh1uEFjgxcgPPJkrXkAnJxZRxA9_ZolFQXNONWmfMGLViusszn4KTiJ9-8_r-AV94NS5BQlZ5eOrFnTvinPXcJB_G4o_BEZdv7xXMdAqfvZPfiUzKjlE70q2V6C9ze8H58pqYh-suKm_Yu1q3LoevignMd7nfjbjV7qx_vEad6BEFKUHwV5UlTFW1-dh/s1600/threatsday-sep.jpg",
+      "processedAt": "2026-09-24T20:51:07.555232+00:00"
+    },
+    {
+      "id": "art-bde984d4",
+      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+      "summary": "A domain called 'third-party[.]com' that has been widely used as a placeholder in technical documentation across thousands of repositories has been compromised and is now delivering malicious ClickFix attacks to Windows users. The attackers are using a technique that serves harmful content to Windows browsers while showing innocent content to others, making detection harder. This represents a significant supply chain risk because developers unknowingly copied this placeholder domain into their code, creating a large attack surface.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "supply-chain-attack",
+        "clickfix",
+        "phishing-lure",
+        "third-party-risk"
+      ],
+      "whyItMatters": "This attack exploits developers' trust in commonly used documentation examples, turning an innocent placeholder into a widespread attack vector affecting potentially thousands of applications and users. The selective delivery of malicious content based on browser type demonstrates sophisticated evasion tactics that could bypass basic security detection. Organizations need to audit their codebases ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy4aXDWSC5cKzOZO8lRbk8o5I1fHPlCGbfxxYL6tyJxauEL-8EVj7-AypDhYt_Wg6bDLqlj0UK4LrGJdeI4ChsksaB6tTZxo8ikCLdwC0wjRfJPE_Z1qM_CVUg7s1ORdmWW2XTDtlPPDcI8JvelrbmJhcjVthnqYWQrZ7ySnIMMPRZfa_VzgaBCWyWc_JJ/s1600/third.jpg",
+      "processedAt": "2026-09-24T20:51:10.954705+00:00"
+    },
+    {
+      "id": "art-06a7814d",
+      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+      "summary": "Attackers have compromised legitimate Ukrainian business websites to host fake Cloudflare verification pages that trick visitors into downloading a new malware called Psychedelic. When users interact with the malicious page, the malware copies a Windows installer command to their clipboard and prompts them to run it, potentially giving attackers access to sensitive information. This campaign demonstrates how hackers can weaponize trusted-looking security prompts to distribute information-stealing malware.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "clickfix",
+        "phishing-lure",
+        "information-stealer",
+        "malware-distribution",
+        "compromised-websites",
+        "social-engineering"
+      ],
+      "whyItMatters": "This attack shows how cybercriminals abuse trusted brand names like Cloudflare to bypass user skepticism and distribute malware at scale through legitimate websites. The Psychedelic stealer is previously undocumented, meaning security tools may not yet detect it, making this campaign particularly dangerous for users who believe they're interacting with legitimate security verification pages.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1xvw3iNKwWUngfdShXBAPKrbRDMZSCQ3_FdiHNKvwrLkip9fUiikko0FKN-cfgzBIgkLvKDR9xIlnfEZVQgHgOW2qTz8Pd4Ur0-DCYdUssgN_9vglgxRU6u5ZRK_FlQYmgV_sbv8pfA1YnSJcojUOhWC-7lkPbA07An_X-vNHmZ8xT2Okq9HiRfTBVt1h/s1600/UK-CLICK.jpg",
+      "processedAt": "2026-09-24T20:51:14.033552+00:00"
+    },
+    {
+      "id": "art-cd442e97",
+      "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
+      "summary": "Cybercriminals are using fake Google Play Store pages impersonating logistics companies CEVA and TKW Logistics to distribute Android spyware called Corp MDM. The malicious app disguises itself as a system service and can steal SMS messages and redirect incoming calls. This campaign specifically targets the logistics industry, putting employee and company data at significant risk.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "android-malware",
+        "spyware",
+        "logistics-sector",
+        "fake-apps",
+        "supply-chain-attack",
+        "sms-theft"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit trusted brand names and app distribution channels to compromise mobile devices in critical infrastructure sectors like logistics. Organizations in this space need robust mobile security policies and employee training to detect suspicious apps, as stolen communications and call redirection can lead to further social engineering attacks and operatio",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhitRqKj3-JlcQ69xxlsxJs80aq7MNxgAc_VrV-TCrHGTVEwdWKIdvAiwB4szXMT3cRKpkzCRVObZxAO47CLl3JWLRerxVSITKy9xorsP-XY212M07JzDkZ7VXOA-r0maycB0jMv0r5Kl3q0VgrxpoeYfHJ_gkeXbzXLKz_3gAhDGy1ML06lfta_5w8u_Xo/s1600/1000110893.jpg",
+      "processedAt": "2026-09-24T20:51:16.613632+00:00"
+    },
+    {
+      "id": "art-58ad4ab7",
+      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+      "summary": "A new botnet malware named Carbonato is actively targeting Docker hosts that lack proper security controls. Once it gains access to these exposed Docker daemons, the malware installs the Hermes Agent AI framework to gain control of the compromised systems. This attack demonstrates how threat actors are leveraging AI tools to automate and enhance their ability to hijack infrastructure.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "docker-security",
+        "ai-malware",
+        "cloud-security",
+        "exposed-services"
+      ],
+      "whyItMatters": "Docker is widely used in containerized environments and cloud deployments, making this threat particularly dangerous if systems lack proper access controls. The integration of AI agents into malware represents an evolving threat landscape where attackers use advanced techniques to maintain persistence and control. Organizations running Docker must immediately review their daemon exposure and imple",
+      "image": null,
+      "processedAt": "2026-09-24T20:51:19.250655+00:00"
+    },
+    {
+      "id": "art-7a97db1a",
+      "title": "Exposed GitLab project email addresses let attackers push code",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+      "summary": "GitLab projects are inadvertently exposing private email addresses in public documentation like README files and contribution guides. These email addresses are designed to allow developers to submit issues and tasks to projects, but attackers can exploit them to push unauthorized code. This misconfiguration creates a security risk by combining exposed contact information with project access vectors.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "gitlab",
+        "exposed-credentials",
+        "code-injection",
+        "configuration-error",
+        "cloud-security",
+        "access-control"
+      ],
+      "whyItMatters": "Exposed project email addresses lower the barrier for attackers to gain code submission privileges, potentially allowing malicious code injection into widely-used repositories. This represents a supply chain risk since compromised projects could distribute malware to dependent systems. Organizations need to audit their public documentation to prevent unintended credential exposure.",
+      "image": null,
+      "processedAt": "2026-09-24T20:51:21.909596+00:00"
+    },
+    {
+      "id": "art-b54c1726",
+      "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
+      "summary": "FedRAMP has introduced new Vulnerability Detection and Reporting (VDR) and Vulnerability Evaluation and Remediation (VER) requirements that shift security practices toward continuous monitoring instead of periodic assessments. These updated standards mandate faster vulnerability scanning, quicker remediation timelines, and more rigorous documentation of compliance efforts. The December 7 deadline marks the beginning of an ongoing transformation requiring organizations to adopt automated, real-time vulnerability management rather than relying on traditional annual or quarterly security reviews.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "fedramp",
+        "vulnerability-management",
+        "continuous-compliance",
+        "cloud-security",
+        "patch-management",
+        "compliance-deadline"
+      ],
+      "whyItMatters": "FedRAMP compliance affects government contractors and cloud service providers handling federal data, making this requirement shift critical for a large segment of the enterprise sector. Organizations must rapidly modernize their vulnerability management infrastructure to meet tighter deadlines and evidence requirements, or face non-compliance penalties. This trend signals a broader industry moveme",
+      "image": null,
+      "processedAt": "2026-09-24T20:51:25.308969+00:00"
+    },
+    {
+      "id": "art-0f725fe9",
+      "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
+      "summary": "Hackers are actively exploiting a critical vulnerability in Roundcube Webmail that was patched back in May 2026. The flaw allows attackers to inject malicious code into the email system. Canadian cybersecurity authorities have warned organizations that this vulnerability is now being targeted in real-world attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "roundcube",
+        "code-injection",
+        "active-exploitation",
+        "patch-now",
+        "webmail-security",
+        "vulnerability"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat because attackers are already weaponizing it despite a patch being available for months. Organizations running unpatched Roundcube instances risk unauthorized access, data theft, and system compromise. Prompt patching is essential to prevent successful attacks against email infrastructure.",
+      "image": null,
+      "processedAt": "2026-09-24T20:51:27.977728+00:00"
+    },
+    {
+      "id": "art-67d78965",
+      "title": "Windows 11 KB5124010 update released with 46 changes and fixes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/",
+      "summary": "Microsoft released a non-security preview update (KB5124010) for Windows 11 in September 2026, introducing 46 improvements across both 24H2 and 25H2 versions. The update focuses on enhancing user experience through Bluetooth functionality improvements and adding customization features like remapping the Copilot key. This preview release allows users to test upcoming changes before they become standard in official security updates.",
+      "category": "Patching and Updates",
+      "severity": "Low",
+      "tags": [
+        "windows-11",
+        "patch-release",
+        "system-update",
+        "bluetooth-improvement",
+        "copilot-key"
+      ],
+      "whyItMatters": "Regular patching and preview updates are essential for maintaining system security and stability, as they address functionality issues and prepare users for upcoming changes. Testing non-security updates helps identify compatibility problems before they reach broader audiences, reducing operational disruptions. Staying current with Microsoft updates ensures devices benefit from the latest improvem",
+      "image": null,
+      "processedAt": "2026-09-24T20:51:31.185782+00:00"
+    },
     {
       "id": "art-9c21ecb9",
       "title": "17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360",
@@ -830,213 +1037,6 @@
       "whyItMatters": "This breach affected thousands of organizations simultaneously, demonstrating how industrialized cybercrime platforms can distribute compromised credentials at scale to enable broader attacks. Understanding the disruption of such services helps organizations recognize the importance of monitoring for account compromise and implementing multi-factor authentication to prevent attackers from leveragi",
       "image": null,
       "processedAt": "2026-09-22T20:33:35.982206+00:00"
-    },
-    {
-      "id": "art-73bb7b19",
-      "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-      "summary": "A fake npm package called 'indexed-btree' was discovered spreading malware by disguising itself as a legitimate software library. Instead of using traditional installation scripts, the attackers embedded malicious code directly into the application's runtime, making it harder to detect. This represents a new tactic where hackers are adapting their methods to bypass security tools that monitor package installation.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "npm-package",
-        "supply-chain-attack",
-        "malware-distribution",
-        "code-obfuscation",
-        "runtime-injection"
-      ],
-      "whyItMatters": "This attack highlights how threat actors are evolving their techniques to evade detection systems that focus on installation scripts. Developers who download packages from npm need to be vigilant about verifying package legitimacy, as malicious code hidden in runtime behavior is significantly harder to spot during code review and poses a serious supply chain risk to any project that depends on com",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaN7aXt0PoPdZQ_VG77wkwdIyNugcdkFD6MnMvlj5LN_byw2ZrX8-gtpDld4CviuW1MOhHiElsvFtIkO9IfhBr4af-sJwM1zvR-RFICRll4G5jG4JNPX1vx4sup3omlw8uTJgro9UUfzecLMI1Whls3ihqZ9OXYJliIBjhpoodf4WI9j1lA6EUjms7x1pG/s1600/rth.jpg",
-      "processedAt": "2026-09-22T11:16:50.628821+00:00"
-    },
-    {
-      "id": "art-1127da2c",
-      "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-      "summary": "SideCopy, a known threat group, has expanded its targeting strategy to include academic institutions in India, moving beyond their previous focus on government agencies. The group uses spear-phishing emails combined with malicious scripts executed through mshta.exe to bypass security defenses and deploy ReverseRAT malware. This campaign demonstrates how attackers are diversifying their targets and refining their technical methods to compromise educational organizations.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "spear-phishing",
-        "sidecopy",
-        "reverserat",
-        "india",
-        "academia",
-        "mshta-abuse"
-      ],
-      "whyItMatters": "Educational institutions often have weaker security postures than government agencies, making them attractive targets for data theft and network compromise. Understanding SideCopy's evolving tactics and expanded targeting helps organizations recognize and defend against similar phishing campaigns that exploit institutional email systems. This threat highlights the need for security awareness train",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVXTuBFDgZyaNFTznwdu5HXSKuVHU5xpM7JDvXP_Ra-68CsYd68bb6xMWPXbjmsM5oO211hZgzIN0NENk_cMBZZpL88LMsIaNkfSEpIWRRzyjRt7Ke6ZMeUXvIKcH3ncgDouKN8FGuunAFQFMolel0GgTBm1lzdVDH28WpWFUCI4Fvl9ju0q4Vv0S55PVx/s1600/word-school.jpg",
-      "processedAt": "2026-09-22T11:16:53.162188+00:00"
-    },
-    {
-      "id": "art-ba3f05a1",
-      "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-      "summary": "Security researcher Patrick Wardle discovered a vulnerability in Meta's Muse AI assistant that allows malware already running on a Mac to hijack the application. By modifying a hidden setting, attackers can intercept voice commands meant for Meta's assistant and redirect them for their own use. This exploit leverages the broad system permissions that users grant to the Muse app, turning it into a potential backdoor for unauthorized access.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "mac-vulnerability",
-        "malware",
-        "voice-interception",
-        "privilege-abuse"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how AI assistants with broad system permissions can become attack vectors when malware is present on a device. Attackers can exploit hidden settings to intercept sensitive voice commands and data, emphasizing the need for better permission controls and security auditing in AI applications. Users and organizations must understand that granting expansive access to AI ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjZLVTtI-AEbGRQqJ7aGa0tbXedD5L6P7VCEKIOGXOBZe7S3mhA-PnoHVEoZf3LBMzhcZSIX5sCTveGyZ-8qAqyAVaMXfEoxPL70OIESq-Iolqjkv8GuDjcVs1Jgh3k3SoOOGPDWFr6Lmk83avLqG1whcaiDclv5waXYhCuEqXk569wfwV8Ilrmvv3IKE/s1600/muse.jpg",
-      "processedAt": "2026-09-22T11:16:55.953351+00:00"
-    },
-    {
-      "id": "art-b304d6a0",
-      "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-      "summary": "A critical vulnerability in WordPress called Comment2Shell allows attackers to inject malicious scripts through anonymous comments that can execute arbitrary code when administrators view the page. This flaw combines cross-site scripting (XSS) with remote code execution (RCE), giving attackers full server control without needing legitimate access. WordPress released a patch in version 7.1.1 on September 17, 2026, and strongly urged all users to update immediately.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress",
-        "cve-2026-93485",
-        "xss-to-rce",
-        "remote-code-execution",
-        "patch-now",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This vulnerability is critical because it exploits the trust relationship between anonymous visitors and site administrators—any attacker can compromise a WordPress site by posting a comment, making it an easy attack vector for widespread exploitation. The ability to convert a simple XSS flaw into full server access puts millions of WordPress sites at immediate risk if they don't apply the patch q",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPBWV1XNsTGB5ImLNRGJTygk0-82k7xTHmuOr7lTivRRDcF83ddu4jLOpdkQYMq7VB3j5SMpA9zBRvM3-SUkDLBhN5-j-Z6UltcTnVfXOxHDzfBYWiw_fRiRefAYa1XSiFu5JMzb06dwqV4PhKaZkPt3vKZFHQjdVFUgbr2B3nOEoFs_qHe6zwGayHM2I/s1600/wordpress-comment.jpg",
-      "processedAt": "2026-09-22T11:16:58.732049+00:00"
-    },
-    {
-      "id": "art-d4b9d24d",
-      "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-      "summary": "CISA has added a critical buffer overflow vulnerability affecting Zyxel GS1900 series switches to its catalog of actively exploited flaws. The vulnerability, identified as CVE-2026-7273 with a high CVSS score of 8.8, allows attackers to gain command and system-level access to vulnerable network devices. Organizations using these switches need to apply patches immediately as threat actors are already exploiting this weakness.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "buffer-overflow",
-        "network-devices",
-        "active-exploitation",
-        "patch-required",
-        "zyxel",
-        "cisa-kev"
-      ],
-      "whyItMatters": "This vulnerability is already being actively exploited by attackers to compromise network infrastructure, making it an urgent threat requiring immediate patching. Since Zyxel switches are commonly deployed in enterprise and small business networks, widespread exploitation could lead to unauthorized system access and network compromise across multiple organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj9eouOxeSvnYBzl5A8tWvEQ4w_CCx94YcFmpBAXXqHWNqvFBWj4vOgeZdHYAf0MU-chY63biCpHDnzRC0pwR7s3pTdQAWwPAVI-olRZuBwG0ilgAxnIY_1KofE3cpuA8lKOE01U26EFHYE_nLrXYXOWl47G1KaoFTZ5UOO81Cw0Kb20pFSfAc1b9i9E_K/s1600/veeam.jpg",
-      "processedAt": "2026-09-22T11:17:01.383303+00:00"
-    },
-    {
-      "id": "art-beaaab50",
-      "title": "New Windows Defender zero-day blocks Microsoft antivirus updates",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-windows-defender-zero-day-blocks-microsoft-antivirus-updates/",
-      "summary": "A security researcher released a zero-day vulnerability affecting Microsoft Defender that prevents the antivirus software from receiving critical security updates. This exploit allows attackers to keep Defender outdated and unable to protect against new threats. The flaw represents a significant gap in Windows security since users cannot manually patch their antivirus protection while the zero-day remains unpatched.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "microsoft-defender",
-        "antivirus",
-        "update-blocking",
-        "windows-security",
-        "vulnerability"
-      ],
-      "whyItMatters": "This vulnerability is critical because it directly undermines one of Windows' primary security defenses by preventing antivirus updates, leaving millions of users exposed to known threats. Attackers can exploit this to maintain undetected infections on compromised systems. Organizations and individuals relying on Defender face an urgent need to monitor for patches while implementing alternative se",
-      "image": null,
-      "processedAt": "2026-09-22T11:17:03.920485+00:00"
-    },
-    {
-      "id": "art-8de335b8",
-      "title": "CISA orders feds to patch Zyxel flaw exploited for data theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-zyxel-flaw-by-thursday/",
-      "summary": "A serious security vulnerability in Zyxel GS1900 series network switches is being actively exploited by attackers to steal data. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued an urgent directive requiring federal agencies to apply patches to fix this flaw. This vulnerability poses an immediate threat to organizations using these switches in their network infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "zyxel-switch",
-        "patch-urgent",
-        "active-exploitation",
-        "data-theft",
-        "network-security",
-        "federal-mandate"
-      ],
-      "whyItMatters": "Active exploitation of this vulnerability means attackers are already using it to compromise networks and steal data, making immediate patching essential for any organization using Zyxel switches. Federal agencies have been mandated to patch, signaling the threat level is serious enough to require rapid remediation. Organizations that delay patching expose themselves to data theft and potential ne",
-      "image": null,
-      "processedAt": "2026-09-22T11:17:06.652633+00:00"
-    },
-    {
-      "id": "art-d9f17b7b",
-      "title": "BigCommerce alerts merchants of data breach linked to Ribon apps",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/bigcommerce-alerts-merchants-of-data-breach-linked-to-ribon-apps/",
-      "summary": "BigCommerce notified its merchants about a data breach involving compromised credentials for third-party Ribon applications. Attackers used these stolen credentials to gain unauthorized access and inject malicious scripts into online stores. This incident highlights the risks of relying on third-party integrations without proper security controls.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "credential-compromise",
-        "malicious-script-injection",
-        "ecommerce-security"
-      ],
-      "whyItMatters": "This breach demonstrates how attackers exploit weak points in third-party integrations to compromise multiple businesses simultaneously. Merchants relying on BigCommerce and similar platforms must monitor their integrated applications closely and implement credential security practices to prevent cascading attacks across their supply chains.",
-      "image": null,
-      "processedAt": "2026-09-22T11:17:08.721763+00:00"
-    },
-    {
-      "id": "art-5936c563",
-      "title": "FBI's CJIS v6.1: What Security Teams Need to Know.",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbis-cjis-v61-what-security-teams-need-to-know/",
-      "summary": "The FBI has released CJIS Security Policy v6.1, which tightens security requirements for law enforcement and criminal justice agencies, particularly around encryption standards and regular vulnerability assessments. The update emphasizes continuous security monitoring rather than periodic reviews and introduces stricter controls for passwords, multi-factor authentication, and identity management. Agencies using FBI systems must prepare to meet these enhanced standards during compliance audits.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "cjis-compliance",
-        "encryption-requirements",
-        "vulnerability-scanning",
-        "mfa-authentication",
-        "policy-update",
-        "identity-management"
-      ],
-      "whyItMatters": "This policy update affects all law enforcement and criminal justice agencies that handle FBI data, making compliance mandatory for continued system access. Organizations must quickly assess their current security posture against v6.1 requirements to avoid audit failures and potential loss of federal system privileges. The shift toward continuous security assessment represents a significant operati",
-      "image": null,
-      "processedAt": "2026-09-22T11:17:11.554141+00:00"
-    },
-    {
-      "id": "art-c1a6b5bd",
-      "title": "Microsoft reminds admins to migrate Entra ID users to passkeys",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/",
-      "summary": "Microsoft is urging administrators to transition Entra ID users away from SMS-based authentication to more secure, phishing-resistant methods like passkeys before February 2027. The company is retiring SMS as a first-factor sign-in option, meaning organizations that don't migrate users beforehand may experience login disruptions. This move strengthens security by eliminating a vulnerable authentication method that is frequently targeted by attackers.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "passkeys",
-        "authentication",
-        "entra-id",
-        "phishing-resistant",
-        "migration",
-        "sms-retirement"
-      ],
-      "whyItMatters": "Organizations need to begin planning their authentication migration immediately to prevent widespread sign-in outages affecting employees and services. SMS-based authentication remains a common attack vector, so this retirement encourages adoption of stronger, phishing-resistant alternatives that significantly reduce account compromise risks. Delayed migration could result in operational disruptio",
-      "image": null,
-      "processedAt": "2026-09-22T11:17:14.186817+00:00"
     }
   ]
 }
