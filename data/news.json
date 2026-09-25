@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-09-25T11:32:11.939849+00:00",
+  "lastUpdated": "2026-09-25T20:48:28.494648+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-865de4bc",
+      "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
+      "summary": "Two GitHub Actions repositories (issues-helper and maintain-one-comment) from actions-cool were compromised again and reactivated after being disabled months earlier following the May 2026 Mini Shai-Hulud malware campaign. The repositories became accessible once more and resumed executing malicious code before being disabled a second time. This incident highlights ongoing security risks in the GitHub Actions ecosystem and the persistence of threats targeting popular development tools.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "github-actions",
+        "malware",
+        "supply-chain-attack",
+        "compromised-repositories",
+        "mini-shai-hulud"
+      ],
+      "whyItMatters": "GitHub Actions are widely used in software development pipelines, meaning compromised actions can inject malware into thousands of projects and organizations that depend on them. The reactivation of previously disabled malicious repositories demonstrates attackers' persistence and the need for stronger account security measures and monitoring of open-source infrastructure. This poses a significant",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJFMIQ6v0uJDRoxyIhqsoqsYoXN00dcDH4IvkdQAkRBRj6ha5LIu2-2yzzvQk1OZTc-7tK1fjeqyIh8xvRNvz_CotOtGNsYnejlbHED7cI-bmZFP80JIdxk_0D9I6Zo10-6b4x4euCTaRtz8c6ncYKykDsW7Bt4oFEVYWTe3AHJdiUxM32R6hGP9C0Y0Xf/s1600/github-shai.jpg",
+      "processedAt": "2026-09-25T20:48:01.318715+00:00"
+    },
+    {
+      "id": "art-aa5b25be",
+      "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
+      "summary": "A new version of PamStealer malware targeting macOS has been discovered with enhanced security features, including server-side payload decryption that prevents attackers from easily extracting the main malicious code. The updated malware continues to use JavaScript for Automation as its delivery mechanism while employing more sophisticated methods to hide and protect its payload. These improvements make the malware harder to analyze and detect by security researchers.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "macos-malware",
+        "pam-stealer",
+        "payload-encryption",
+        "persistence",
+        "dropper"
+      ],
+      "whyItMatters": "This evolution in PamStealer demonstrates how threat actors continuously improve their tools to evade detection and analysis, making traditional reverse-engineering defenses less effective. Organizations running macOS systems need to be aware that this malware uses legitimate system automation tools, which makes it harder to distinguish from benign activity. The server-side decryption approach rep",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRZ3gQjU3cKnH6bHzlz8PjeaUqGcrVWnRx-bT-mgDBYv-G4CM2Iix8afTJe8sAXEghuPTiD5KszOYzA0peRhyoGKNW9YE1QtwLubBFuv9YZjXnANEGyMGwi7-oEdIqmtRBWPzUZV7S91WiUX4cI2YVMHVSQbByCmIwAX9oZxvzjb2ScVJmpmMCzpDKaKtN/s1600/macos.jpg",
+      "processedAt": "2026-09-25T20:48:04.629497+00:00"
+    },
+    {
+      "id": "art-510610cf",
+      "title": "The SOC Doesn't Need to Start Over with Every Alert",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://thehackernews.com/2026/09/the-soc-doesnt-need-to-start-over-with.html",
+      "summary": "Artificial intelligence is making it cheaper and faster for attackers to retry failed cyberattacks, particularly in cloud environments where privilege escalation attempts can be quickly repeated without significant cost. Rather than creating entirely new attack types, AI's real impact is enabling attackers to persist through trial-and-error tactics that previously would have been too time-consuming. Security teams must adapt their detection and response strategies to handle this new pattern of rapid, iterative attack attempts.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-attacks",
+        "cloud-security",
+        "privilege-escalation",
+        "attack-automation",
+        "soc-response"
+      ],
+      "whyItMatters": "As AI reduces the cost of retrying failed attacks, traditional SOC workflows that investigate each alert from scratch become unsustainable. Security teams need to implement smarter correlation and context-retention strategies to recognize repeated attack patterns, or risk alert fatigue and missed threats. This represents a fundamental shift in how attackers operate at scale, requiring defensive ad",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0sz5D5hiSWYuUfbRDYDloMNzbx5dpvVQjC5ZVoYzIgvWL_Tkyx8AjNHjZ27RAwaPbCIQXNWB6o_FYzxjimFYHY2pHfp6m6b97tARxhdhqSHBkp2lYpfekwVLvUIm63ruwsHR7RlQkR-2jfOPELG2hjZrrYr9JYr4ndSfVaYIajhTpmB6Ud0DIXz1D_uI/s1600/soc-1.jpg",
+      "processedAt": "2026-09-25T20:48:08.085541+00:00"
+    },
+    {
+      "id": "art-787956b1",
+      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+      "summary": "Autonomous security agents are becoming more capable at identifying software vulnerabilities, but there's currently no reliable way to measure their actual effectiveness. XRanges is introducing a new evaluation method tested by 545 hackers that verifies which security findings are genuine versus false positives. This standardized approach addresses a critical gap in assessing how well AI-powered security tools actually perform in real-world scenarios.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "security-testing",
+        "autonomous-agents",
+        "vulnerability-assessment",
+        "evaluation-metrics",
+        "agent-verification"
+      ],
+      "whyItMatters": "As organizations increasingly deploy autonomous security agents to find vulnerabilities, having a standardized, validated measurement system is essential to ensure these tools are trustworthy and effective. Without proper evaluation methods, teams cannot distinguish between genuine security findings and false positives, which undermines decision-making and resource allocation in security operation",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio2c14ELRJEhvTuDrxQmhUG4G9aGoVRrooBMMfuK7LyHPKW6HuJbI9PkKF-WG_5HlEz8NKcuj08XRmv1jNqfBtiDwXmC7e9P9lxoSHK5nUz023YCgoLQuo0BI_9hX4U9Vv97bGJejb4W0jvgv_3btkfj6BWnXwalfyI3k34wveC6n3k47ZdoGq2P0Yaw0/s1600/main.png",
+      "processedAt": "2026-09-25T20:48:10.917442+00:00"
+    },
+    {
+      "id": "art-12c452b2",
+      "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "summary": "Anthropic and OpenAI have released new AI models designed with improved safety features to prevent risky and restricted behaviors. Both companies are testing their models through automated safety audits to ensure the AI systems refuse harmful requests. These developments show the ongoing effort to make AI systems more aligned with human values and security standards.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-alignment",
+        "ai-safety",
+        "model-testing",
+        "behavioral-audit",
+        "restricted-actions",
+        "ai-security"
+      ],
+      "whyItMatters": "As AI systems become more powerful and widely deployed, ensuring they resist misuse is critical to preventing malicious actors from leveraging them for harmful purposes. Safety testing and alignment improvements directly impact whether these tools can be trusted in sensitive applications and whether they'll comply with security boundaries when pressured.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_ytuRh_WTu4R3TBnroGXO6IUgATMIi9vgx8DA7j0JJ0e_cTfAjlUIS6zAjb2q9EPdTI8gLwby7r2fijYkH83j2SwisKf-ANFKr6YTdwAHeds99dYrng0QN3nmkqDtIvSHoK8m47e_V0x01B0PuzIezcqtnc2VZlUCVYErOkaKQF7pbk0l35uLwmTl8Is1/s1600/CLAUDE-CHATGPT.jpg",
+      "processedAt": "2026-09-25T20:48:13.733847+00:00"
+    },
+    {
+      "id": "art-cfa67bef",
+      "title": "Elementor WordPress flaw lets attackers create admin accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+      "summary": "A security flaw in the popular Elementor WordPress plugin allows attackers without authentication to create administrator accounts through a cross-site request forgery attack. This vulnerability could give attackers complete control over a WordPress website, potentially leading to data theft, malware injection, or site defacement. Website owners using Elementor need to update immediately to patch this critical weakness.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "csrf",
+        "wordpress",
+        "elementor",
+        "privilege-escalation",
+        "plugin-vulnerability",
+        "patch-now"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and severe risk because it allows unauthenticated attackers to gain full administrative control over WordPress sites without needing valid credentials. With Elementor being widely used across thousands of websites, this flaw creates a mass exploitation risk that attackers can weaponize at scale. Organizations must prioritize patching to prevent account takeove",
+      "image": null,
+      "processedAt": "2026-09-25T20:48:16.699447+00:00"
+    },
+    {
+      "id": "art-b41cd5e2",
+      "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
+      "summary": "CISA has alerted organizations that attackers are actively exploiting a critical authentication bypass flaw (CVE-2026-5430) in WSO2 software, along with vulnerabilities in SharePoint and Adobe Commerce. This means hackers can bypass security controls designed to verify user identity, potentially gaining unauthorized access to sensitive systems. Organizations using these enterprise products need to apply security patches immediately to prevent breaches.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "authentication-bypass",
+        "cisa-alert",
+        "active-exploitation",
+        "wso2",
+        "patch-urgent",
+        "enterprise-risk"
+      ],
+      "whyItMatters": "Active exploitation of authentication bypass vulnerabilities in widely-used enterprise software creates an immediate threat to organizations, as attackers can bypass login protections without needing valid credentials. This affects multiple major products (WSO2, SharePoint, Adobe Commerce), meaning thousands of companies could be at risk simultaneously. Immediate patching is essential to prevent u",
+      "image": null,
+      "processedAt": "2026-09-25T20:48:19.477458+00:00"
+    },
+    {
+      "id": "art-743457f0",
+      "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
+      "summary": "Anthropic is expanding access to Claude Code by allowing users to run it through cloud sessions without requiring research preview enrollment. The company is providing up to $250 in free usage credits to encourage more people to test the service. This move makes advanced AI coding tools more accessible to a broader audience.",
+      "category": "AI Security",
+      "severity": "Low",
+      "tags": [
+        "ai-security",
+        "claude-code",
+        "cloud-sessions",
+        "free-credits",
+        "ai-tools"
+      ],
+      "whyItMatters": "As AI coding assistants become more widely available, understanding their security implications and proper usage is important for organizations. Increased accessibility to Claude Code means more users will interact with AI-generated code, raising awareness about the need for code review practices and potential risks of automated code generation in production environments.",
+      "image": null,
+      "processedAt": "2026-09-25T20:48:21.989542+00:00"
+    },
+    {
+      "id": "art-680d0bd9",
+      "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
+      "summary": "OpenAI is developing a premium ChatGPT subscription tier called ChatGPT Pro Max with a reported $500 monthly price tag and enhanced features including faster Codex capabilities. The exact launch timeline remains unclear, but the company is preparing this high-tier offering for users who need advanced AI processing power. This premium model suggests OpenAI is expanding its tiered pricing strategy to cater to enterprise and power users with demanding AI requirements.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "openai",
+        "chatgpt",
+        "ai-security",
+        "subscription-tiers",
+        "product-announcement"
+      ],
+      "whyItMatters": "While primarily a product announcement, this demonstrates how AI service providers are scaling their offerings, which has implications for access controls, enterprise security practices, and the competitive landscape of AI tools used in cybersecurity work. Understanding emerging AI services helps security professionals evaluate which tools to adopt and monitor for organizational use.",
+      "image": null,
+      "processedAt": "2026-09-25T20:48:25.297769+00:00"
+    },
+    {
+      "id": "art-a1c9e84c",
+      "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
+      "summary": "As artificial intelligence agents become more prevalent, they can use human credentials to perform actions that current SOC 2 compliance frameworks may not recognize as automated activity rather than legitimate human behavior. This creates a significant security gap because organizations cannot easily distinguish between normal user actions and potentially malicious AI agent activities. Token Security highlights the urgent need for SOC 2 standards to evolve and address the unique risks posed by AI agent identities.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-agents",
+        "soc-2-compliance",
+        "identity-management",
+        "agent-security",
+        "credential-abuse",
+        "compliance-gap"
+      ],
+      "whyItMatters": "As AI agents become operational tools in enterprises, they present a blind spot in existing security frameworks that were designed for human-centric threat detection. Organizations relying on SOC 2 compliance may face undetected unauthorized actions performed through AI agents using legitimate credentials, making this a critical issue for security operations and risk management.",
+      "image": null,
+      "processedAt": "2026-09-25T20:48:28.494480+00:00"
+    },
     {
       "id": "art-109a7dc1",
       "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
@@ -827,213 +1032,6 @@
       "whyItMatters": "This vulnerability exposes a critical risk in Kubernetes and Google Cloud environments where limited-permission users can bypass access controls and take over entire organizations. Security teams managing GCP infrastructure must urgently review their Kubernetes Config Connector configurations and permission models to prevent unauthorized privilege escalation attacks.",
       "image": null,
       "processedAt": "2026-09-23T20:45:24.658697+00:00"
-    },
-    {
-      "id": "art-d51fc576",
-      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
-      "summary": "F5 has discovered and patched a critical vulnerability in BIG-IP Access Policy Manager (APM) that allows attackers to execute code without authentication on systems configured as OAuth authorization servers. Identified as CVE-2026-94127, this zero-day flaw is actively being exploited in the wild. F5 released emergency hotfixes following disclosure on September 22, 2026.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "rce",
-        "unauthenticated-access",
-        "f5-big-ip",
-        "oauth-servers",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to organizations using F5 BIG-IP APM as OAuth servers, as attackers can gain full system control without credentials. The active exploitation combined with the critical nature of authentication infrastructure makes rapid patching essential to prevent unauthorized access to protected applications and services.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_ZqCwuuKS7TqNWQ7GpeE07JLzHNn4Jdb2O6iQAlY34SiP2it2VwgmeVm5OjAzoAEHFQRVJENdDNGQL94ibPy1AiB9qkpNxZ3ILA89tYlwqm2OO9tEOH_BZ9HZzObw0nrzszQoKnaCQ-Q8ez5DPsnrKjq40qhm2tu_DhMSFunkVRsHeEIc0IA2NL-yZ5g/s1600/f5-zero-day.jpg",
-      "processedAt": "2026-09-23T11:09:50.768733+00:00"
-    },
-    {
-      "id": "art-b39e4cf8",
-      "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
-      "summary": "A Chinese hacking group called UTA0565 has been actively exploiting previously unknown security flaws in Google Chrome and Microsoft Windows to break into computers and install malware called CLEANGULP. The attacks happened in early September 2026 using fake websites to trick users, and involved chaining multiple vulnerabilities together to gain full control of systems. This represents a sophisticated coordinated attack combining browser and operating system exploits that most users would be unable to defend against without immediate patches.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "chrome-vulnerability",
-        "windows-exploit",
-        "malware-deployment",
-        "chinese-threat-actor",
-        "exploit-chain"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors chain multiple zero-day vulnerabilities together to bypass security layers, making traditional defenses ineffective until patches are released. Users and organizations need to treat this as urgent because systems can be compromised simply by visiting a malicious website, and the deployed CLEANGULP malware could enable data theft, surveillance, or further ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikVEmuPJKZAlboodZWejG4dGZXXejOLThyXPoOnycqTY8lznAewTW5ovv8XFJzhyjPRMXT-njudYOVWFEYCLvmEPDyUrfDTZzAmp1S4KE4DuzsDFxt8R-biL2puZZBWG36_dkhfzvpeigcPb9WJNy31oIXo6Oh3zMUzL3JG6MEr4OaGE4Yi_k5JCpohVrZ/s1600/windows-china.jpg",
-      "processedAt": "2026-09-23T11:09:54.278694+00:00"
-    },
-    {
-      "id": "art-4e19d5f0",
-      "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
-      "summary": "A critical vulnerability was discovered in Next.js's ImageResponse feature, which generates social preview images like Open Graph thumbnails. Attackers can exploit this flaw by injecting malicious SVG code through user-controlled input, such as URL parameters, to execute arbitrary code on the server. Vercel released a patch on September 22 to fix the issue, but developers using vulnerable versions remain at risk.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "next-js",
-        "server-code-execution",
-        "svg-injection",
-        "imageresponse",
-        "patch-available",
-        "vercel"
-      ],
-      "whyItMatters": "This vulnerability allows remote code execution on servers running vulnerable Next.js versions, giving attackers complete control over affected systems. Since many web applications use Next.js for social media preview generation, this flaw poses an immediate and widespread risk that requires urgent patching. Organizations must update to the patched version immediately to prevent potential compromi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhBxfEfPNHZcocTp156lW-VbOENuCxmLM_7xUUY5QWEppPDsL04KhbN7yaT52b_XTCXW6ensPqjF8QBXuQWUgna8jerFExtxAfkCd4NqOGcQwUn8088DU87PMD7cgYhQ-dY2_xFdwPyaKU-kD9HBx_YcjAzvzwEQzLoKUu1cRRpOT5A1luhBCE6e6ChORw/s1600/next.jpg",
-      "processedAt": "2026-09-23T11:09:57.323169+00:00"
-    },
-    {
-      "id": "art-d633a1af",
-      "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-      "summary": "ShinyHunters, a cyber extortion group, claims to have successfully breached the FBI and stolen sensitive personal data on current and former FBI agents as well as job applicants. The group posted this claim on the dark web, asserting they have compromised information on nearly all FBI agents. This alleged breach represents a significant threat to national security personnel and the integrity of the FBI's internal systems.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "cybercrime",
-        "fbi",
-        "extortion",
-        "sensitive-data",
-        "threat-actor"
-      ],
-      "whyItMatters": "A breach of FBI employee and applicant data poses severe risks to national security, as adversaries could use personal information for blackmail, identity theft, or counterintelligence operations. This incident highlights that even high-security government agencies are vulnerable to sophisticated cyber attacks, underscoring the need for robust security measures across all critical infrastructure. ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBUSHHkVbK1vPy2WO_E9jEZ2NEd8UcPTpCFgCYTkbSPiSzDEpXRe6HRXan3z9Xg1huRk3-47hZbveFeG06vkRhAmGuL73zdPFjQEkVb6LISZIcHpPugYCMKQPtsEIihip_T7F1GWczJNWNTikwbM-SzC_UNeQsUjrg6AIeHYBwOnpOUlSOWyimHb07TzWz/s1600/shinyhunters.png",
-      "processedAt": "2026-09-23T11:09:59.983099+00:00"
-    },
-    {
-      "id": "art-63164030",
-      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-      "summary": "A researcher released a tool called BigDiskBuster that exploits a zero-day vulnerability to prevent Microsoft Defender from updating by consuming all available disk space on a system. The tool has no official patch, CVE number, or Microsoft advisory, and was created by a former Microsoft security researcher. This vulnerability could leave systems exposed to malware since Defender won't receive critical protection updates.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "microsoft-defender",
-        "proof-of-concept",
-        "update-blocking",
-        "disk-space-exploitation",
-        "vulnerability"
-      ],
-      "whyItMatters": "This zero-day directly undermines a primary defense mechanism by preventing security updates from installing, leaving systems vulnerable to known threats. Organizations relying on Defender need immediate awareness and alternative mitigation strategies since no official patch exists yet. The public release of working PoC code increases the risk of widespread exploitation by malicious actors.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf-fkqiHh6b0UEKMHUcsG54QVwJxghIbQLMNWeEG5LWKfUsicLMxisz4Mi8lXdfTdwVYDFpIrCFj5D7-JXXynq8lWhnNn1rJH2t8mgKUeZ4WMePwZktZRnIe2549JW3VXc2HYD9qpsvO8He0J0zCyAzsaRxWtiP46RSrd7jt4QnzKACJhfWnkmyWcFcQs/s1600/ms-def.jpg",
-      "processedAt": "2026-09-23T11:10:03.096829+00:00"
-    },
-    {
-      "id": "art-63967828",
-      "title": "Ryuk ransomware member sentenced to 24 months in prison",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
-      "summary": "An Armenian man involved in Ryuk ransomware attacks against U.S. companies has been convicted and sentenced to 24 months in prison, followed by 3 years of supervised release. This case demonstrates law enforcement's efforts to hold cybercriminals accountable for ransomware operations that encrypt victim systems and cause significant financial damage. The prosecution highlights the serious legal consequences for participating in organized ransomware campaigns.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "ryuk",
-        "cybercrime",
-        "law-enforcement",
-        "prosecution"
-      ],
-      "whyItMatters": "This case reinforces that ransomware operators face real criminal prosecution and imprisonment, which serves as a deterrent for would-be attackers. It also demonstrates ongoing international cooperation in cybercrime investigations, showing that threat actors cannot operate with impunity regardless of location. Understanding the legal ramifications helps organizations appreciate the importance of ",
-      "image": null,
-      "processedAt": "2026-09-23T11:10:05.849290+00:00"
-    },
-    {
-      "id": "art-8d5e283c",
-      "title": "F5 patches BIG-IP APM zero-day flaw exploited in RCE attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/f5-warns-of-big-ip-apm-remote-code-execution-zero-day-exploited-in-attacks/",
-      "summary": "F5 has released security updates for a critical zero-day vulnerability in BIG-IP APM that attackers are actively exploiting to execute remote code. This flaw poses an immediate threat to organizations using affected F5 systems. Users need to apply these patches urgently to prevent unauthorized access and potential system compromise.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "big-ip",
-        "remote-code-execution",
-        "f5",
-        "patch-urgent",
-        "active-exploitation"
-      ],
-      "whyItMatters": "Active exploitation of zero-day vulnerabilities means attackers are weaponizing this flaw in real-world attacks right now, making immediate patching essential for any organization running vulnerable F5 systems. BIG-IP APM is widely deployed in enterprise environments, so this vulnerability could affect a large number of critical infrastructure and business systems. Delaying patches significantly i",
-      "image": null,
-      "processedAt": "2026-09-23T11:10:08.796242+00:00"
-    },
-    {
-      "id": "art-c9ef37bb",
-      "title": "Rogue external MFA providers can steal passwords during logins",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-      "summary": "Researchers discovered a technique that allows attackers with elevated system privileges to set up a fake external MFA provider, which can capture user passwords during normal login processes. This attack exploits the trust placed in external authentication systems by intercepting credentials at a critical security checkpoint. The vulnerability highlights how compromised administrative access can be weaponized to undermine even multi-factor authentication defenses.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "mfa-bypass",
-        "authentication-attack",
-        "privilege-escalation",
-        "credential-theft",
-        "insider-threat"
-      ],
-      "whyItMatters": "MFA is considered a fundamental security control that protects against password compromise, so discovering it can be bypassed through rogue provider registration represents a critical weakness in authentication infrastructure. Organizations relying on external MFA providers must now consider insider threats and account compromise at the administrative level as serious risks. This finding emphasize",
-      "image": null,
-      "processedAt": "2026-09-23T11:10:11.876283+00:00"
-    },
-    {
-      "id": "art-9c689105",
-      "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-      "summary": "Sweden's data protection authority fined Miljödata, an IT systems provider, $183,000 for failing to implement adequate security controls that allowed a data breach in August 2025. The breach exposed personal information of approximately 2.2 million individuals, highlighting the serious consequences of poor security practices. This enforcement action demonstrates that regulatory bodies actively penalize organizations with inadequate data protection measures.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "privacy-violation",
-        "inadequate-security",
-        "regulatory-fine",
-        "data-protection"
-      ],
-      "whyItMatters": "This case illustrates how regulatory agencies hold organizations accountable for security failures, with substantial financial penalties for poor security hygiene. Companies handling large user datasets must implement robust security controls to avoid both reputational damage and significant fines under data protection regulations like GDPR.",
-      "image": null,
-      "processedAt": "2026-09-23T11:10:14.221730+00:00"
-    },
-    {
-      "id": "art-0a90c66e",
-      "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-      "summary": "A Chinese threat actor has been exploiting security flaws in ZyXEL network switches and WordPress to access and steal data from nearly 1,000 devices and over 18,500 database records from government organizations. The attackers took advantage of known vulnerabilities in these widely-used products to gain unauthorized access to sensitive information. This attack demonstrates how cybercriminals target common infrastructure to conduct large-scale data theft operations.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "government-targets",
-        "wordpress-vulnerability",
-        "zyxel-exploit",
-        "chinese-threat-actor",
-        "patch-management"
-      ],
-      "whyItMatters": "This incident highlights the critical need for organizations to promptly patch known vulnerabilities in network devices and web platforms, as attackers actively exploit unpatched systems to steal government data at scale. The targeting of 996 devices and extraction of 18,500+ records shows how vulnerable infrastructure can lead to massive breaches with serious national security implications. Timel",
-      "image": null,
-      "processedAt": "2026-09-23T11:10:17.504063+00:00"
     }
   ]
 }
