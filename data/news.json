@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-09-25T20:48:28.494648+00:00",
+  "lastUpdated": "2026-09-26T11:06:46.537958+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-19862fbc",
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-26",
+      "originalUrl": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "summary": "A serious security flaw has been discovered in the Elementor WordPress plugin that allows attackers to hijack websites without needing direct access. By tricking an administrator into clicking a malicious link, an attacker can create fake admin accounts and take complete control of the site. This cross-site request forgery (CSRF) vulnerability has a high severity score of 8.8 and currently affects multiple plugin versions.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "csrf-vulnerability",
+        "wordpress-plugin",
+        "elementor",
+        "account-takeover",
+        "patch-urgent",
+        "web-security"
+      ],
+      "whyItMatters": "Elementor is one of the most widely used WordPress plugins globally, making this vulnerability a substantial risk to thousands of websites. Since exploitation only requires tricking an admin into clicking a link, the attack surface is broad and the barrier to entry is low for attackers. Organizations using Elementor should prioritize immediate patching to prevent unauthorized site takeovers and da",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCsmpn_im_gimeko6yEdebgucFfzjRrTH0Hmvl1triNXT64w_JdoBIqCrFEApRZ9mmKBYfJQ1fqgfubPH3ZRaWW7SJ2HSr18mBsjSdFE6AwVl362SwcdzHp0EtlL2qoVuYARkSKmOqQaORUjjYVAM-PCT9Itvvkgb69lyVLttezAFtAuCw86RpPu3lAo4/s1600/wordpress-ele.jpg",
+      "processedAt": "2026-09-26T11:06:21.725964+00:00"
+    },
+    {
+      "id": "art-0511c17b",
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-26",
+      "originalUrl": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "summary": "CISA has added two actively exploited security vulnerabilities to its official KEV catalog, including a code injection flaw in Microsoft SharePoint with a high CVSS score of 8.8. These vulnerabilities are already being leveraged by attackers in real-world attacks, making them an immediate concern for organizations using these products. The inclusion on the KEV list signals that organizations need to prioritize patching these flaws to protect their systems from compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "actively-exploited",
+        "sharepoint-rce",
+        "mikrotik-routeros",
+        "cisa-kev",
+        "code-injection",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Active exploitation in the wild means attackers are already weaponizing these flaws against real targets, creating immediate risk for unpatched systems. Organizations using SharePoint and MikroTik RouterOS must treat this as a priority to prevent unauthorized access and system compromise. CISA's KEV listing reinforces that these vulnerabilities require urgent patching before adversaries can establ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHEPamtRBBEzltsUWnj-F8umrMf4eUUhTmGUJdhHlrvWZamHWpBtXcrpQKDArTziRiiIWv8psX4DTZyN9kLBtcAyLOPJma9_M7sYKgYz6WBISbOhJrRlfByfCKfTTMdBqaYUp-0nskrt2ndt3poUFLDGegEFJojS0EzEvwAqzaUNtvX26jZopYE4zA4S3K/s1600/share-kev.jpg",
+      "processedAt": "2026-09-26T11:06:24.468142+00:00"
+    },
+    {
+      "id": "art-12bceecf",
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-26",
+      "originalUrl": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "summary": "Kiteworks, a file transfer and secure communication platform formerly known as Accellion, is instructing customers to temporarily shut down their systems for nine hours as a precautionary measure. The company received credible threat intelligence from federal authorities warning of a potential imminent cyber attack targeting some of their systems. This proactive shutdown is intended to prevent attackers from exploiting vulnerabilities during the anticipated attack window.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "threat-intelligence",
+        "cyber-attack",
+        "system-shutdown",
+        "federal-alert",
+        "incident-response",
+        "preventive-measure"
+      ],
+      "whyItMatters": "This incident demonstrates how organizations can use threat intelligence to take immediate defensive action before an attack occurs, rather than responding after compromise. When federal authorities issue credible warnings about imminent attacks, companies must balance business continuity with security by implementing emergency protocols like coordinated shutdowns. This case highlights the importa",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv53vaJYNeZNicsGcrBICKzTEXfHanPN-VR6-pTFsSJEV2IGpJn2MainwfMgqV2k96VN_ocXYLbmykTSVpwTPZr16tauFV37hU3g-lA4X31aqJQFYIsdwlHwNUIhNn9euB8SddL8d7wRKa7Ira2vNi51WNHyJivZ2Z3kkRDcAZtCQfSyvZHNLrZbqbF7jr/s1600/kite.jpg",
+      "processedAt": "2026-09-26T11:06:27.631824+00:00"
+    },
+    {
+      "id": "art-261aeb89",
+      "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+      "summary": "A critical vulnerability in the Linux kernel's AF_UNIX socket system allows attackers to escape containerized environments and gain root access on the underlying host machine. The flaw, CVE-2026-80521, was patched upstream in August 2026 but remains unpatched in Ubuntu's current LTS versions. Security researchers at DepthFirst have released an exploit for this vulnerability, increasing the risk of active attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "container-escape",
+        "kernel-vulnerability",
+        "privilege-escalation",
+        "ubuntu-unpatched",
+        "cve-2026-80521",
+        "root-access"
+      ],
+      "whyItMatters": "This vulnerability is critical because it enables attackers to break out of containers and gain root privileges on host systems, undermining the security isolation that containerization provides. The fact that a working exploit is publicly available combined with major Ubuntu LTS versions remaining unpatched creates an urgent risk for organizations relying on containerized infrastructure. System a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZjw_aCdQxMfwTv_-KFLK5KRCd96MoivCQPTAZcAWJal5_84FgCny9Um8csMgDDqta40CUGMPDO14hdbUo9CRk-FMJwY70MsDfV25AC8VmL-8_yDO_UWHYXbmeJ9jZANptIeHqJX9axqzxxn68AHEj8zFhYbh8coIbxWAVC9XbtG9CjxMBpQqclG14QuM/s1600/linux.gif",
+      "processedAt": "2026-09-26T11:06:30.511709+00:00"
+    },
+    {
+      "id": "art-18d5dc4b",
+      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-23",
+      "originalUrl": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "summary": "F5 has discovered and patched a critical vulnerability (CVE-2026-94127) in BIG-IP Access Policy Manager that allows attackers to execute code without authentication on systems configured as OAuth authorization servers. This flaw is actively being exploited in the wild, and F5 has released emergency hotfixes to address the issue. Organizations using BIG-IP APM for OAuth token issuance are at immediate risk and should apply patches urgently.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "f5-bigip",
+        "rce",
+        "oauth",
+        "unauthenticated-access",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability is critical because attackers can gain unauthorized remote code execution on systems that manage OAuth authentication—a central trust point for many applications. Compromised OAuth servers can lead to widespread unauthorized access across multiple applications and services that rely on them for authentication. Organizations must prioritize patching immediately, as active exploit",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_ZqCwuuKS7TqNWQ7GpeE07JLzHNn4Jdb2O6iQAlY34SiP2it2VwgmeVm5OjAzoAEHFQRVJENdDNGQL94ibPy1AiB9qkpNxZ3ILA89tYlwqm2OO9tEOH_BZ9HZzObw0nrzszQoKnaCQ-Q8ez5DPsnrKjq40qhm2tu_DhMSFunkVRsHeEIc0IA2NL-yZ5g/s1600/f5-zero-day.jpg",
+      "processedAt": "2026-09-26T11:06:33.362636+00:00"
+    },
+    {
+      "id": "art-2c4c8b88",
+      "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+      "summary": "Kiteworks, a secure file-sharing software company, has instructed its customers worldwide to shut down their servers for six hours on Saturday due to credible threat intelligence indicating a potential zero-day vulnerability attack may be imminent. The company is taking preventive action to protect users from exploitation before a fix can be deployed. This advisory affects organizations relying on Kiteworks for secure file transfer operations.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "kiteworks",
+        "server-shutdown",
+        "threat-intelligence",
+        "preventive-action",
+        "vulnerability"
+      ],
+      "whyItMatters": "This case demonstrates how companies respond to unpatched zero-day threats by implementing defensive shutdowns rather than waiting for exploits to occur. Organizations using Kiteworks must understand the business continuity implications of such emergency measures and the critical importance of threat intelligence sharing in the cybersecurity community.",
+      "image": null,
+      "processedAt": "2026-09-26T11:06:36.305833+00:00"
+    },
+    {
+      "id": "art-4fccdd00",
+      "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+      "summary": "The Clop ransomware gang's data leak site was compromised and defaced by the ShinyHunters group, who exploited an unauthenticated path traversal vulnerability in the Grav CMS. The attackers were able to access the server without needing credentials, forcing Clop to migrate their leak site to a new Tor address. This incident highlights how even criminal infrastructure remains vulnerable to security flaws when systems are not properly patched.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "path-traversal",
+        "cms-vulnerability",
+        "grav-cms",
+        "ransomware-infrastructure",
+        "unpatched-flaw"
+      ],
+      "whyItMatters": "This demonstrates that unauthenticated path traversal vulnerabilities pose serious risks to any web application, including those operated by cybercriminals. Organizations using Grav CMS should immediately patch this flaw to prevent similar exploitation. The incident also shows how ransomware gangs' own infrastructure can be targeted, potentially disrupting their operations and leaking criminal dat",
+      "image": null,
+      "processedAt": "2026-09-26T11:06:39.038457+00:00"
+    },
+    {
+      "id": "art-2e23a198",
+      "title": "Microsoft plans to deprecate Windows Deployment Services",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
+      "summary": "Microsoft has announced plans to deprecate Windows Deployment Services (WDS), a server role used for deploying Windows operating systems across networks. This deprecation will begin with the next Windows Server release, meaning organizations will need to transition to alternative deployment solutions. WDS has been a standard tool for managing large-scale system deployments in enterprise environments for many years.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-server",
+        "deprecation",
+        "deployment-services",
+        "infrastructure-planning",
+        "legacy-systems"
+      ],
+      "whyItMatters": "Organizations relying on WDS for OS deployment must begin planning migration strategies now to avoid disruption when support ends. This deprecation affects IT teams managing large-scale Windows infrastructure and requires evaluation of modern alternatives like Windows Autopilot or MDT before the transition deadline.",
+      "image": null,
+      "processedAt": "2026-09-26T11:06:41.461708+00:00"
+    },
+    {
+      "id": "art-88750946",
+      "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
+      "summary": "A Kosovar national pleaded guilty to running Rydox, an illegal online marketplace that sold stolen personal data, login credentials, credit card information, and hacking tools. The admin now faces up to 22 years in prison for operating this platform that facilitated cybercrime. This case demonstrates law enforcement's ability to identify and prosecute those behind major illegal marketplaces.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "marketplace-takedown",
+        "stolen-credentials",
+        "data-trafficking",
+        "law-enforcement",
+        "cybercrime-prosecution"
+      ],
+      "whyItMatters": "This prosecution shows that operators of illegal marketplaces can be identified and held accountable, which serves as a deterrent to others. The case highlights how stolen credentials and personal data flow through underground markets, reinforcing the importance of secure password practices and monitoring for compromised accounts. Understanding these criminal ecosystems helps organizations better ",
+      "image": null,
+      "processedAt": "2026-09-26T11:06:43.990294+00:00"
+    },
+    {
+      "id": "art-d34ebb70",
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "summary": "A U.S. Army soldier was sentenced to nearly six years in prison for hacking into AT&T and Verizon systems and stealing call and text metadata affecting over 100 million customers. The soldier pleaded guilty to the telecommunications company breaches and was ordered to pay approximately $300,000 in restitution to victims. This case demonstrates that insider threats and large-scale data theft targeting major telecom providers can result in severe federal penalties.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "insider-threat",
+        "telecommunications",
+        "identity-theft",
+        "federal-crime",
+        "metadata-theft"
+      ],
+      "whyItMatters": "This case highlights the critical vulnerability of telecom infrastructure to insider attacks and shows that law enforcement actively prosecutes large-scale data theft affecting millions of customers. Organizations must implement strict access controls and monitoring for employees with privileged credentials to prevent similar breaches. The substantial prison sentence and restitution underscore the",
+      "image": null,
+      "processedAt": "2026-09-26T11:06:46.537816+00:00"
+    },
     {
       "id": "art-865de4bc",
       "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
@@ -825,213 +1032,6 @@
       "whyItMatters": "This threat demonstrates how cybercriminals are increasingly targeting mobile banking users through legitimate-looking advertisements, making it harder for average users to identify threats. The malware-as-a-service model means the tools can be rented and reused by multiple attackers, amplifying the reach and impact across Europe and Canada. Organizations and individuals need to implement stronger",
       "image": null,
       "processedAt": "2026-09-24T11:26:31.855081+00:00"
-    },
-    {
-      "id": "art-4b77a6f0",
-      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
-      "summary": "Cybersecurity researchers discovered Go-based malware being distributed through legitimate-looking packages on HashiCorp's Terraform registry and Go Modules repository. This marks the first time attackers have successfully used HashiCorp's centralized platform as a malware delivery mechanism. The malicious Terraform providers and Go modules had already been downloaded hundreds of times before being identified, creating risk for developers who use these tools.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware-distribution",
-        "supply-chain-attack",
-        "terraform",
-        "go-modules",
-        "hashicorp",
-        "developer-threat"
-      ],
-      "whyItMatters": "This attack exploits the trust developers place in official package repositories, making it a serious supply-chain risk that can compromise infrastructure at scale. Organizations relying on Terraform and Go modules need to audit their dependencies immediately to detect if they've installed any malicious packages. This demonstrates how attackers are increasingly targeting development tools and cent",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8VNxKl5_NBWXcUoDi3VxoksbOSAixGFGd8EmIaZmKRQpsGhOj6SLg8fmHktJbtvR7wofZNG1AFIzSGnVFq8OJHgq27dhqNtc0cz457ZqqQQ6INHwnExfLu3xKERaNt0GmOpxJ6WR6oxp5FZTT-q3Q5YWAnVawXYfY51GRl09ovsDkhM3U8tRUTR4ClSfj/s1600/terraform.jpg",
-      "processedAt": "2026-09-23T20:44:58.733107+00:00"
-    },
-    {
-      "id": "art-4fd6cc8d",
-      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
-      "summary": "GitLab's private email feature for filing issues contains a critical flaw where the email address acts as a credential that can be exploited. If someone obtains this address, they can push unauthorized code changes to any branch, including the main branch, and execute CI/CD jobs under the legitimate user's identity. This vulnerability allows attackers to inject malicious code or automate attacks without needing the actual account password.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "gitlab",
-        "credential-exposure",
-        "code-injection",
-        "ci-cd-security",
-        "privilege-escalation",
-        "email-based-attack"
-      ],
-      "whyItMatters": "This vulnerability is critical because leaked or intercepted email addresses can be weaponized to compromise entire software projects and deployment pipelines. Attackers can inject malware into production code or sabotage CI/CD workflows, affecting all users and systems that depend on the compromised repository. Organizations using GitLab must immediately audit email address exposure and rotate or",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaHKzSxkk0R4wjlziQHsR5vS1s1mTJovZkES9XL9nn5VLYiM55XuJoiGP9cugwNUOBMEMG3NrW3iBL9cVOqfp0F-9roYS7K7R5w8t3_NJr61_2_XgRNltvjXBFoGLfQPQFhUk0ju_mMCRCqJHjr76BrbngafAtElKkD-LZWZ7uUcY82i8PAMKh0ljHJQI/s1600/gitlab-email.jpg",
-      "processedAt": "2026-09-23T20:45:02.096312+00:00"
-    },
-    {
-      "id": "art-f50a7fda",
-      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
-      "summary": "Researchers discovered a dangerous combination of two MikroTik RouterOS vulnerabilities called MikroTrick that allows attackers to gain complete control of internet-facing routers without needing passwords or SSH keys. By exploiting an SSH state-machine flaw paired with an argument-injection bug in the login process, attackers can bypass all authentication barriers. This vulnerability chain has already been observed in active attacks against RouterOS systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "mikrotik-routeros",
-        "ssh-vulnerability",
-        "authentication-bypass",
-        "privilege-escalation",
-        "chain-exploit",
-        "internet-exposed-devices"
-      ],
-      "whyItMatters": "This vulnerability is critical because MikroTik routers are widely deployed in small businesses, ISPs, and enterprises as edge network devices, making them high-value targets for attackers. The ability to completely bypass authentication without credentials means attackers can take full control of network infrastructure, intercept traffic, and pivot deeper into networks. Organizations running expo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjudzrtqX93WzCbZQoGI06WzKFtFpQsZaQB7GUao4yzBncGN3nxn0GzmYNybpL9SeKFttznMsVCZpQEQ_fD5kP_0nJRL4ZN6ZgHrXR2c33bpZN33gEyIkk6aBtx0k7znzalUe6epmrCO5VSCCH6beY_chvz9Pl0t5BbBtCLntTnNMwi3cFPXFd0p09FxA4/s1600/microtik.jpg",
-      "processedAt": "2026-09-23T20:45:04.882183+00:00"
-    },
-    {
-      "id": "art-333b9b2f",
-      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
-      "summary": "Security researchers at Cisco Talos discovered a Windows malware called CLOSEDQUORUM that uses an unusual artificial intelligence-based approach to make decisions about its attacks. Instead of receiving commands from a traditional attacker-controlled server, the malware allows up to four AI models to vote on which malicious actions to perform, such as stealing passwords and cryptocurrency wallet information. Although the researchers haven't observed this system fully operational in the wild and the current public version doesn't function as intended, it represents a novel attack methodology.",
-      "category": "Malware",
-      "severity": "Medium",
-      "tags": [
-        "ai-malware",
-        "windows-malware",
-        "credential-theft",
-        "malware-innovation",
-        "closedquorum"
-      ],
-      "whyItMatters": "This malware demonstrates an emerging threat where adversaries are experimenting with AI-driven command and control mechanisms, potentially making detection and attribution more difficult than traditional server-based attacks. Understanding these experimental approaches helps defenders anticipate future malware evolution and develop countermeasures before such techniques become widespread.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZdSpi6aqUlY2q-T-3eJ4YCn7G3jYa9Exo6BMffjdRLuqg9Gdn4ImZXKjcYX8s5Swz3W_WhxMZ_Z7qbu0Z60KrCk8EUhRV8bJ7l1mXOoDCo-XAXyq69_rtFDoVhvAiuJP1rCdSf9KixTqgAA52iwqWsqB5T0uJaRGFz1hpBcpfQuvPMYd17UcrfrnUV0c/s1600/closed.jpg",
-      "processedAt": "2026-09-23T20:45:07.616553+00:00"
-    },
-    {
-      "id": "art-aa6cad22",
-      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
-      "summary": "Attackers compromised legitimate MemTensor packages on npm and PyPI repositories to distribute sckit, a malicious credential-stealing tool built with Go that targets Windows, Linux, and macOS systems. This supply chain attack leveraged trusted package managers to spread malware to developers who downloaded these packages. Multiple security firms including Aikido, SafeDep, Socket, and StepSecurity detected and reported the compromise.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware-distribution",
-        "npm-pypi-compromise",
-        "credential-stealer",
-        "platform-agnostic"
-      ],
-      "whyItMatters": "Supply chain attacks through compromised package repositories pose a widespread risk because developers routinely trust and automatically update dependencies without manual inspection. This attack demonstrates how threat actors can use legitimate distribution channels to infect thousands of systems across multiple platforms simultaneously, making it difficult for organizations to detect and remedi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFThFSFsti-2SIka75bNuMKpyJHtOW2ZPrZtcSjbjFQ64GCNn0WtdssYuWlVTbhaLB5cAJ0vu8FgyNmNsDa8g0Ijy-D1zP4FW7ihVfAjk9xWMYDMMdfZPICGyVdjeDwH3-jyKLHOUnjfaXBJIMxGn_3ngeXFsbb4CLnOibRd4fbwXHYpBkMQTcBQAf0edq/s1600/npm-pypi.jpg",
-      "processedAt": "2026-09-23T20:45:10.607741+00:00"
-    },
-    {
-      "id": "art-5d57a7c3",
-      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
-      "summary": "Check Point has discovered that hackers are actively exploiting CVE-2026-85102, a critical vulnerability in its Security Gateway VPN product that allows attackers to execute code without authentication. This flaw affects the VPN certificate-handling system, meaning attackers can potentially gain unauthorized access to systems protected by this gateway. Organizations using Check Point Security Gateway need to patch immediately to prevent compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "check-point",
-        "vpn-security",
-        "rce-vulnerability",
-        "active-exploitation",
-        "patch-urgent",
-        "security-gateway"
-      ],
-      "whyItMatters": "Active exploitation of this pre-authentication RCE vulnerability means attackers are already weaponizing it in the wild, making this an immediate threat to any organization using Check Point Security Gateway. VPN solutions are critical network entry points, so compromise here can lead to complete network infiltration. Organizations must prioritize patching to prevent unauthorized access and potent",
-      "image": null,
-      "processedAt": "2026-09-23T20:45:13.223724+00:00"
-    },
-    {
-      "id": "art-7867e6e6",
-      "title": "Hackers start exploiting critical WordPress flaw for code execution",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
-      "summary": "Hackers have begun actively exploiting a critical WordPress vulnerability (CVE-2026-87902) to upload malicious files to vulnerable websites. Once these files are in place, attackers can execute arbitrary shell commands on the compromised server. This represents a dangerous escalation from passive reconnaissance to active, weaponized attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "wordpress",
-        "code-execution",
-        "cve-2026-87902",
-        "active-exploitation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "WordPress powers millions of websites globally, making this vulnerability a widespread threat. Active exploitation means attackers are already targeting sites in the wild, and shell command execution enables full server compromise, data theft, and malware deployment. Website owners must patch immediately to prevent infection.",
-      "image": null,
-      "processedAt": "2026-09-23T20:45:15.726617+00:00"
-    },
-    {
-      "id": "art-c0481535",
-      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
-      "summary": "Cybercriminals are using AI agent frameworks to automatically attack and compromise over 100 online retail websites, installing payment card skimmers that have stolen approximately 600,000 credit card records. This attack demonstrates how threat actors are leveraging automation and AI tools to scale malicious operations against e-commerce targets. The attackers are using legitimate open-source AI frameworks in unintended ways to conduct large-scale theft operations.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "credit-card-theft",
-        "skimmer-malware",
-        "e-commerce-attacks",
-        "automated-attacks",
-        "payment-fraud"
-      ],
-      "whyItMatters": "This incident reveals a dangerous trend where attackers are weaponizing AI automation tools to compromise hundreds of sites simultaneously, making traditional defenses harder to maintain. Organizations need to understand that AI frameworks can be misused at scale, and e-commerce businesses must implement robust payment security and threat detection to prevent similar large-scale compromises. The t",
-      "image": null,
-      "processedAt": "2026-09-23T20:45:19.289745+00:00"
-    },
-    {
-      "id": "art-1dce07fd",
-      "title": "InfraTrust report warns network management systems under attack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
-      "summary": "Hackers are actively targeting network management systems that control enterprise infrastructure, exploiting critical vulnerabilities either before or shortly after vendors release patches. This coordinated attack pattern suggests sophisticated threat actors are systematically compromising the central tools that organizations rely on to operate their networks. The timing of these exploits indicates attackers may have advance knowledge of vulnerabilities, making it a significant threat to enterprise security.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "network-management",
-        "infrastructure-attack",
-        "zero-day",
-        "critical-vulnerabilities",
-        "patch-timing",
-        "enterprise-risk"
-      ],
-      "whyItMatters": "Network management systems are high-value targets because compromising them gives attackers control over entire enterprise infrastructures rather than individual systems. Organizations need to prioritize securing these systems and apply patches immediately, as the active exploitation window appears to be extremely narrow. Understanding this threat pattern helps security teams implement enhanced mo",
-      "image": null,
-      "processedAt": "2026-09-23T20:45:22.390737+00:00"
-    },
-    {
-      "id": "art-f61e0f9b",
-      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
-      "summary": "A Kubernetes user with limited permissions can exploit Google Kubernetes Config Connector to escalate privileges and gain control over an entire Google Cloud organization. This security issue, known as a confused deputy problem, demonstrates how a single misconfigured YAML file can become a gateway to organization-wide compromise. The vulnerability highlights risks in how cloud infrastructure tools can inadvertently grant excessive permissions.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "kubernetes",
-        "gcp",
-        "privilege-escalation",
-        "cloud-security",
-        "confused-deputy",
-        "config-connector"
-      ],
-      "whyItMatters": "This vulnerability exposes a critical risk in Kubernetes and Google Cloud environments where limited-permission users can bypass access controls and take over entire organizations. Security teams managing GCP infrastructure must urgently review their Kubernetes Config Connector configurations and permission models to prevent unauthorized privilege escalation attacks.",
-      "image": null,
-      "processedAt": "2026-09-23T20:45:24.658697+00:00"
     }
   ]
 }
