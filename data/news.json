@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-09-29T21:34:44.769436+00:00",
+  "lastUpdated": "2026-09-30T12:14:43.967942+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-eae6dca2",
+      "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-30",
+      "originalUrl": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+      "summary": "AI coding agents were used to share code screenshots for review, but inadvertently uploaded over 13,000 internal company images to public GitHub repositories. These exposed images included sensitive materials like customer billing records and unreleased product features from more than 300 organizations. In most cases, the images were stored under individual developers' personal accounts rather than protected company repositories.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "data-exposure",
+        "github-security",
+        "insider-risk",
+        "unintended-disclosure"
+      ],
+      "whyItMatters": "This incident demonstrates how AI tools can create new attack surfaces and data exposure risks that developers may not fully understand or anticipate. Organizations need to implement guardrails around AI agent permissions and educate developers on the risks of using AI assistants for sensitive code review tasks. The exposure of billing records and unreleased features poses immediate financial and ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqbuWmNSxYv66udOpYi9NRKukBSDiTroF54tDrBaVYBBTfDC7PMMr26tRoFatdmmRPsPy3MCdoUNLr8YN9mC2ni3pvDWfBNsoKz12evoNrZggcUI4izEc7-hEAr_2wFv4IInBnon19PcEPSXlJU-AMahLHFNAk_5FiVbV7EhfdiLKHcUc8Tiso63xca2c/s1600/git-images.jpg",
+      "processedAt": "2026-09-30T12:14:20.713318+00:00"
+    },
+    {
+      "id": "art-3e738cf6",
+      "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-30",
+      "originalUrl": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+      "summary": "Researchers discovered a sophisticated phishing campaign targeting US-based executives that steals Microsoft 365 session credentials and deploys remote access tools for persistent system compromise. The attack affected over 350 analyzed cases, with technology, manufacturing, government, and consulting sectors being most vulnerable. By combining credential theft with remote management software installation, attackers can escalate a single phishing incident into full account takeover and fraud.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "phishing",
+        "microsoft-365",
+        "credential-theft",
+        "rmm-tools",
+        "account-compromise",
+        "executive-targeting"
+      ],
+      "whyItMatters": "This attack demonstrates how phishing can serve as an entry point for persistent remote access, enabling attackers to bypass traditional security controls and maintain long-term presence in critical business systems. Organizations in high-value sectors face immediate risk of financial fraud, data exfiltration, and operational disruption from this coordinated threat. Security teams must implement m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5fq_zpvT8d0bG8IIotVRgIHIXCNOTPBhfIBUIWxLlg1X4bDmzf0PRgt_0UaHhvTIznPU4nOCCuLJ6JbJ3Tx22FPY2Ox93L_HNhA7XjQEvOcsXfw3NIixeGcy9DywlAx_SuEhCM6DRjgP3NBQrdHnJrFOCEFHFR8bFyF4YFWYtYEuPbG7kvWrgAsotLWI/s1600/rmm.jpg",
+      "processedAt": "2026-09-30T12:14:23.406707+00:00"
+    },
+    {
+      "id": "art-2f617f29",
+      "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-30",
+      "originalUrl": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+      "summary": "Threat actors have begun exploiting a newly discovered vulnerability in Citrix NetScaler ADC and Gateway appliances to gain root-level access to networks across North America and Europe. The attackers deployed malware tools called WHIPSHOT and SLAPSHOT to compromise organizations in government, finance, technology, education, and legal sectors. Security researchers from Mandiant and Google identified this active exploitation campaign in September 2026.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "citrix-netscaler",
+        "zero-day-exploitation",
+        "root-access",
+        "malware-deployment",
+        "critical-infrastructure",
+        "patch-immediately"
+      ],
+      "whyItMatters": "NetScaler appliances are critical infrastructure components used by many organizations for network access and security. Active exploitation with root access capability poses an immediate and severe risk to affected organizations, requiring urgent patching and threat hunting. The targeting of government and financial sectors indicates this is a high-priority threat requiring immediate defensive act",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgjeU_A9ijIuOqFirHL74nU4k_HktRhcj5hx3goc6SfQKIeG9XA_GpZaZQVpCdUYbho_gZT4LoB-MjNJO0FZrV3q6MxXoUzg8bdbHmr2r-8rKxP1_XCMUVKq3IntFoR4aFFSdDPyBQI4Z1-jn8uNaWn4c4ohpPflBYx8M0GPFnAVziUo3Mtap0fzBBU9f_/s1600/citrix-shell.jpg",
+      "processedAt": "2026-09-30T12:14:26.081288+00:00"
+    },
+    {
+      "id": "art-2ea324bc",
+      "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-30",
+      "originalUrl": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+      "summary": "OpenSSL released security fixes for a high-severity vulnerability in DTLS (the UDP version of TLS) that can expose sensitive heap memory unencrypted or cause applications to crash. The flaw occurs when the protocol resends a handshake message while a larger message is still being processed, creating a window for memory leakage. Organizations using DTLS for real-time communications should prioritize applying these patches to prevent data exposure.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "openssl",
+        "dtls",
+        "memory-leak",
+        "patch-now",
+        "tls-variant",
+        "heap-memory"
+      ],
+      "whyItMatters": "This vulnerability affects widely-used cryptographic libraries and could allow attackers to extract unencrypted sensitive data from memory in DTLS-protected communications. Rapid patching is essential because DTLS is commonly used in time-sensitive applications like video conferencing, VoIP, and gaming where real-time UDP traffic is critical.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj0Po53IuyRAhsYzbs5KKPp_UBpklONBiOzoLWgXrklvrgDn5xnpjuRjU8UYoyLuImSmiPtOHQK3ExgQk5zhxlqsAcUmTLRFowkQXzan2RD955Gw-sumsvmwzLBTViUBRhyphenhyphenHCnETV23Qbt01RwaovTe1ogMeMYDSGxmF5n84NKZOB3EiWz6VAHUlfDm5YE/s1600/openssl-memory.jpg",
+      "processedAt": "2026-09-30T12:14:28.458390+00:00"
+    },
+    {
+      "id": "art-6c9ec523",
+      "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-09-30",
+      "originalUrl": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+      "summary": "A critical vulnerability in Citrix NetScaler ADC and Gateway has been exploited by attackers in the wild. The flaw, identified as CVE-2026-88772 with a high CVSS score of 9.5, is a memory overflow bug in the DTLS protocol handling that allows attackers to execute malicious code without authentication. Security researchers have now released technical details about how the vulnerability can be exploited.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "citrix-netscaler",
+        "memory-overflow",
+        "pre-auth-exploit",
+        "active-exploitation",
+        "dtls-protocol",
+        "code-execution"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat because it is actively being exploited in the wild and requires no authentication, meaning attackers can compromise vulnerable NetScaler systems remotely without credentials. Organizations running affected Citrix infrastructure must apply patches urgently to prevent unauthorized access and potential system compromise. The disclosure of technical exploit",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjcFl1djJdJQkamdMtV0xibSpzc4ahUKNoVKtVoDSeKFJAYUkH2SnmxalYIJpaVZ9cywBJqyUflBrXWbhTIzpwL51iIyfINyH7z7YUHqDl3IbAJJmpCANlw8YvFFtmLa3T2es4rdE70Jd9tEUYAbuWFuXVBsx6Ar2radG2ZhgkqjBA5ZErCm0xVhNPv6d3F/s1600/watch-exploit.jpg",
+      "processedAt": "2026-09-30T12:14:31.026214+00:00"
+    },
+    {
+      "id": "art-a3ea0ee5",
+      "title": "Bitget hacked via zero-day in third-party security products",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/",
+      "summary": "Bitget, a major cryptocurrency exchange, suffered a massive breach resulting in the theft of $387.5 million. The attackers exploited a zero-day vulnerability in third-party security software used by the company rather than directly targeting Bitget's own systems. This incident highlights how security tools meant to protect organizations can become attack vectors if they contain unpatched flaws.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "cryptocurrency-breach",
+        "third-party-vulnerability",
+        "supply-chain-attack",
+        "financial-loss"
+      ],
+      "whyItMatters": "This attack demonstrates that organizations are vulnerable not only through their own infrastructure but also through flaws in trusted third-party security products, creating a dangerous supply-chain risk. The massive financial theft and active exploitation of an unpatched zero-day represent an immediate threat to other organizations using similar security tools. Companies must implement vendor ri",
+      "image": null,
+      "processedAt": "2026-09-30T12:14:33.728632+00:00"
+    },
+    {
+      "id": "art-f769796c",
+      "title": "Microsoft is rolling out Linux container support to WSL",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-is-rolling-out-linux-container-support-to-wsl/",
+      "summary": "Microsoft has made WSL Containers generally available, expanding the Windows Subsystem for Linux beyond just running Linux distributions. This new feature allows developers to run containerized applications directly within WSL, bridging Windows and Linux container ecosystems. The development enhances the integration between Windows and Linux environments for modern application development and deployment.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "wsl",
+        "containers",
+        "linux",
+        "microsoft",
+        "development-tools",
+        "windows-subsystem-linux"
+      ],
+      "whyItMatters": "While not a direct security threat, this expansion of WSL capabilities affects the security landscape by enabling more developers to run containerized workloads on Windows systems, requiring organizations to understand container security implications in mixed Windows-Linux environments. IT security teams should be aware of new attack surfaces introduced by container support and ensure proper conta",
+      "image": null,
+      "processedAt": "2026-09-30T12:14:36.259348+00:00"
+    },
+    {
+      "id": "art-4470242b",
+      "title": "Windows 11 2026 Update released, here's everything you need to know",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-29",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-2026-update-released-heres-everything-you-need-to-know/",
+      "summary": "Microsoft has released Windows 11 26H2, the major annual feature update for 2026. Despite being positioned as a significant update, users may not immediately notice substantial changes after installation. This release represents Microsoft's continued commitment to rolling out periodic updates to the Windows 11 operating system.",
+      "category": "Patching and Updates",
+      "severity": "Low",
+      "tags": [
+        "windows-11",
+        "operating-system-update",
+        "security-patching",
+        "feature-release"
+      ],
+      "whyItMatters": "Regular operating system updates are fundamental to maintaining a secure computing environment by addressing vulnerabilities and implementing security patches. Staying informed about major OS releases helps users understand update schedules and plan deployment strategies to minimize operational disruption while maintaining security posture.",
+      "image": null,
+      "processedAt": "2026-09-30T12:14:38.187942+00:00"
+    },
+    {
+      "id": "art-6f2e06f0",
+      "title": "New Spectre v2 attack variant leaks Linux root password hash in minutes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-29",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-spectre-v2-attack-variant-leaks-linux-root-password-hash-in-minutes/",
+      "summary": "Researchers have discovered a new attack called Branch Target Reuse (BTR) that exploits Spectre v2 vulnerabilities to steal root password hashes from Linux systems running on Intel processors in just 3-5 minutes. This attack takes advantage of how processors handle branch prediction to extract sensitive authentication credentials without requiring traditional malware or direct system access. The speed and effectiveness of this attack demonstrates a critical weakness in how Intel-based systems protect their most important passwords.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "spectre-v2",
+        "branch-target-reuse",
+        "intel-processors",
+        "linux-security",
+        "password-hash-theft",
+        "hardware-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows attackers to rapidly extract root credentials—the highest privilege level on Linux systems—without detection, giving them complete control over compromised machines. Intel-based systems are ubiquitous in servers and workstations, making this a widespread risk that affects countless organizations. The speed of exploitation (minutes) and the high valu",
+      "image": null,
+      "processedAt": "2026-09-30T12:14:41.387168+00:00"
+    },
+    {
+      "id": "art-643d6a27",
+      "title": "Automated AI agent used to breach cybersecurity nonprofit DIVD",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-09-29",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/automated-ai-agent-used-to-breach-cybersecurity-nonprofit-divd/",
+      "summary": "The Dutch Institute for Vulnerability Disclosure (DIVD), a respected cybersecurity organization, was targeted by an automated AI-powered cyberattack that caused significant disruption. The attackers used artificial intelligence to orchestrate what DIVD described as a 'loud and very messy' breach, demonstrating how AI tools are being weaponized for cybercriminal purposes. This incident highlights that even organizations dedicated to improving cybersecurity are vulnerable to sophisticated, AI-driven attacks.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-driven-attack",
+        "automated-exploitation",
+        "divd-breach",
+        "ai-security",
+        "vulnerability-disclosure",
+        "cybercrime"
+      ],
+      "whyItMatters": "This attack demonstrates that AI-powered automated agents are increasingly being used for real-world cybercrimes against high-profile targets, even those working to improve cybersecurity defenses. Organizations need to understand that AI-driven attacks operate at scale and speed that traditional security measures may struggle to counter, making this a critical wake-up call for the industry.",
+      "image": null,
+      "processedAt": "2026-09-30T12:14:43.967794+00:00"
+    },
     {
       "id": "art-51daa37f",
       "title": "French Tax Data Theft Using Stolen Staff Passwords Went Undetected for Seven Weeks",
@@ -827,212 +1033,6 @@
       "whyItMatters": "This case establishes legal precedent that data brokers face real consequences for ignoring privacy requests and misusing personal information, potentially encouraging better privacy practices across the industry. It highlights the importance of privacy laws at the state level in protecting sensitive data, particularly for vulnerable populations like law enforcement officials whose safety could be",
       "image": null,
       "processedAt": "2026-09-28T13:25:19.805794+00:00"
-    },
-    {
-      "id": "art-acd1bc3a",
-      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-24",
-      "originalUrl": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "summary": "Security researcher Rasmus Moorats discovered two unpatched flaws in OnePlus devices that allow malicious apps to gain root access without requesting any special permissions from the user. By chaining these vulnerabilities together, an attacker can achieve complete control over an OnePlus 15 phone running the latest OxygenOS. OnePlus confirmed the same flaws impact numerous other OnePlus and OPPO devices, though patches have not yet been released.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "oneplus",
-        "unpatched-vulnerability",
-        "privilege-escalation",
-        "root-access",
-        "android-security",
-        "oxygenos"
-      ],
-      "whyItMatters": "These vulnerabilities pose an immediate and severe risk because any installed app can exploit them to gain root privileges without user knowledge or permission, enabling complete device compromise. The widespread nature across multiple OnePlus and OPPO devices amplifies the threat, and the lack of patches means millions of users remain actively vulnerable. This demonstrates how device manufacturer",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiGu2guziH88Cs_LnFsPkCJ4zuxqgSX7q3SRrBXdSAEeJPhmYnpNp-c0WCNCqoOoyCv6NcnmCKm20rhqSb2rjw7KZ6Kh6UssR2fZG5SZX9Pjhb_fjONdBfgpxqpWNABPDvSmD9Hp913nErgH4PQm1ehlyspJt5RXASYckP6jHE3G0V2ou5fwkG7JOZyBY/s1600/oneplus.jpg",
-      "processedAt": "2026-09-27T20:30:51.278633+00:00"
-    },
-    {
-      "id": "art-6364c020",
-      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-24",
-      "originalUrl": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-      "summary": "This week's cybersecurity threats demonstrate how attackers are exploiting trusted systems and tools to distribute malware and steal data. The article highlights multiple attack vectors including AI-powered search poisoning, credential theft through fake login interfaces, code repositories being exposed through compromised AI tools, and one-click code execution vulnerabilities. Rather than relying solely on technical exploits, many of these attacks succeed by impersonating legitimate updates, services, and platforms that users interact with regularly.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "search-poisoning",
-        "code-execution",
-        "ai-tools",
-        "supply-chain",
-        "threat-intelligence"
-      ],
-      "whyItMatters": "These threats demonstrate that attackers are weaponizing AI tools and trusted infrastructure channels to bypass traditional security defenses, putting both organizations and individuals at risk. The use of legitimate platforms as attack vectors makes detection harder and increases the likelihood of successful compromise. Understanding these emerging attack patterns is essential for security teams ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQeh1uEFjgxcgPPJkrXkAnJxZRxA9_ZolFQXNONWmfMGLViusszn4KTiJ9-8_r-AV94NS5BQlZ5eOrFnTvinPXcJB_G4o_BEZdv7xXMdAqfvZPfiUzKjlE70q2V6C9ze8H58pqYh-suKm_Yu1q3LoevignMd7nfjbjV7qx_vEad6BEFKUHwV5UlTFW1-dh/s1600/threatsday-sep.jpg",
-      "processedAt": "2026-09-27T20:30:54.439282+00:00"
-    },
-    {
-      "id": "art-8cfec835",
-      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-24",
-      "originalUrl": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-      "summary": "A commonly used placeholder domain called 'third-party[.]com' that appears in over 1,700 code repositories has been compromised and now serves malicious ClickFix malware to Windows users. The attackers use a deceptive strategy by showing harmless content to other browsers while targeting Windows specifically with malware lures. This poses a significant risk to developers and organizations that may have inadvertently referenced this domain in their documentation or code.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware",
-        "supply-chain",
-        "clickfix",
-        "third-party-domain",
-        "malicious-content",
-        "security-awareness"
-      ],
-      "whyItMatters": "This attack demonstrates a sophisticated supply chain compromise targeting developers at scale through a trusted documentation placeholder used across thousands of repositories. Organizations need to audit their codebases for references to this domain and update their code to prevent users from being exposed to malware. The incident highlights how attackers can weaponize commonly trusted resources",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy4aXDWSC5cKzOZO8lRbk8o5I1fHPlCGbfxxYL6tyJxauEL-8EVj7-AypDhYt_Wg6bDLqlj0UK4LrGJdeI4ChsksaB6tTZxo8ikCLdwC0wjRfJPE_Z1qM_CVUg7s1ORdmWW2XTDtlPPDcI8JvelrbmJhcjVthnqYWQrZ7ySnIMMPRZfa_VzgaBCWyWc_JJ/s1600/third.jpg",
-      "processedAt": "2026-09-27T20:30:57.768548+00:00"
-    },
-    {
-      "id": "art-e7061d85",
-      "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-24",
-      "originalUrl": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-      "summary": "Attackers have compromised legitimate Ukrainian business websites to display fake Cloudflare verification pages designed to trick visitors into downloading a new malware called Psychedelic. When users interact with these malicious pages, a Windows installation command is automatically copied to their clipboard, which they're instructed to paste into their system to download the information stealer. This campaign demonstrates how hackers exploit trusted brand names and compromised legitimate websites to distribute malware to unsuspecting users.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "clickfix",
-        "phishing-lure",
-        "information-stealer",
-        "website-compromise",
-        "social-engineering",
-        "psychedelic-malware"
-      ],
-      "whyItMatters": "This attack is significant because it combines website compromise with sophisticated social engineering using trusted brand impersonation, making it difficult for users to identify the threat. The Psychedelic stealer is previously undocumented, meaning existing security tools may not yet detect it effectively. Organizations and users need to verify Cloudflare pages independently and avoid copy-pas",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1xvw3iNKwWUngfdShXBAPKrbRDMZSCQ3_FdiHNKvwrLkip9fUiikko0FKN-cfgzBIgkLvKDR9xIlnfEZVQgHgOW2qTz8Pd4Ur0-DCYdUssgN_9vglgxRU6u5ZRK_FlQYmgV_sbv8pfA1YnSJcojUOhWC-7lkPbA07An_X-vNHmZ8xT2Okq9HiRfTBVt1h/s1600/UK-CLICK.jpg",
-      "processedAt": "2026-09-27T20:31:01.074492+00:00"
-    },
-    {
-      "id": "art-b689fcc8",
-      "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
-      "source": "The Hacker News",
-      "publishedDate": "2026-09-24",
-      "originalUrl": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
-      "summary": "Cybercriminals are using fake Google Play store pages impersonating logistics companies CEVA and TKW Logistics to distribute a malicious Android app called Corp MDM. The spyware disguises itself as a system service and can intercept SMS messages and redirect phone calls. This campaign specifically targets workers in the logistics industry, putting sensitive business communications at risk.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "spyware",
-        "supply-chain",
-        "logistics-sector",
-        "sms-interception",
-        "mobile-security"
-      ],
-      "whyItMatters": "This attack demonstrates how criminals exploit industry-specific targeting and trusted brand names to bypass user defenses, making it particularly dangerous for critical infrastructure sectors like logistics. The ability to intercept SMS and redirect calls gives attackers access to two-factor authentication codes and business communications, potentially enabling account takeovers and fraud. Mobile",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhitRqKj3-JlcQ69xxlsxJs80aq7MNxgAc_VrV-TCrHGTVEwdWKIdvAiwB4szXMT3cRKpkzCRVObZxAO47CLl3JWLRerxVSITKy9xorsP-XY212M07JzDkZ7VXOA-r0maycB0jMv0r5Kl3q0VgrxpoeYfHJ_gkeXbzXLKz_3gAhDGy1ML06lfta_5w8u_Xo/s1600/1000110893.jpg",
-      "processedAt": "2026-09-27T20:31:04.098757+00:00"
-    },
-    {
-      "id": "art-40001ec2",
-      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-27",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
-      "summary": "Citrix has confirmed that attackers are actively exploiting two critical vulnerabilities in NetScaler products, identified as CVE-2026-88771 and CVE-2026-88772, which allow remote code execution. The company has released security updates to address these flaws and protect users from ongoing attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "remote-code-execution",
-        "netscaler",
-        "citrix",
-        "patch-now",
-        "active-exploitation"
-      ],
-      "whyItMatters": "Actively exploited zero-day vulnerabilities in enterprise infrastructure like NetScaler pose an immediate threat to organizations worldwide, as attackers can gain complete system control before patches are applied. Businesses must prioritize applying Citrix's security updates urgently to prevent unauthorized access and potential data theft or system compromise.",
-      "image": null,
-      "processedAt": "2026-09-27T20:31:06.216394+00:00"
-    },
-    {
-      "id": "art-a1b321f4",
-      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-27",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
-      "summary": "Cloudflare discovered and patched a vulnerability in its Containers and Sandboxes services that could allow paid Workers account customers to access leftover data from other customers' containers running on the same physical server. This cross-tenant flaw represented a significant isolation breach in a shared hosting environment. The vulnerability has been fixed, but it highlighted the importance of proper data cleanup between different users in cloud infrastructure.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "data-isolation",
-        "container-vulnerability",
-        "multi-tenant-risk",
-        "patch-applied"
-      ],
-      "whyItMatters": "This vulnerability demonstrates the real risks of multi-tenant cloud environments where improper data isolation can expose sensitive customer information across account boundaries. Organizations relying on cloud container services need to understand that even reputable providers can have isolation flaws, making regular security audits and vendor communication critical. The fix underscores why prom",
-      "image": null,
-      "processedAt": "2026-09-27T20:31:09.038345+00:00"
-    },
-    {
-      "id": "art-b346d33d",
-      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-09-27",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
-      "summary": "Anthropic has launched a Claude Marketplace that consolidates over 2,000 AI tools, plugins, and connectors in a single platform. This marketplace allows users to access various AI-related integrations and agents designed to extend Claude's capabilities. The expansion represents a significant step in making AI tools more accessible and interconnected for users.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "third-party-integrations",
-        "risk-management",
-        "supply-chain-security"
-      ],
-      "whyItMatters": "Expanding marketplace ecosystems with thousands of third-party plugins and connectors introduce supply chain security risks, as malicious or vulnerable integrations could compromise user data or systems. Organizations need to assess plugin vetting processes and security controls to prevent exploitation through trusted but compromised AI extensions.",
-      "image": null,
-      "processedAt": "2026-09-27T20:31:11.595833+00:00"
-    },
-    {
-      "id": "art-f1fd2225",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-30",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "summary": "Generic TV streaming devices marketed as affordable unlimited content solutions pose significant security risks beyond just hijacking internet connections. These devices engage in fraudulent activities by impersonating mobile phones to click ads on fake websites, facilitating scams against online merchants and advertising networks. Consumers purchasing these devices unknowingly become part of malicious operations that compromise both their internet and the broader digital ecosystem.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "streaming-device-fraud",
-        "malware",
-        "iot-security",
-        "ad-fraud",
-        "consumer-risk",
-        "internet-hijacking"
-      ],
-      "whyItMatters": "This demonstrates how consumer-grade IoT devices can be weaponized for multiple attack vectors simultaneously, making them dangerous not just to individual users but to entire online ecosystems. Understanding these risks helps consumers make informed purchasing decisions and highlights the importance of device authentication and network monitoring in home security.",
-      "image": null,
-      "processedAt": "2026-09-27T20:31:14.205990+00:00"
-    },
-    {
-      "id": "art-b220bfcf",
-      "title": "LG to Ban Residential Proxies from Smart TV Apps",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-07-22",
-      "originalUrl": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
-      "summary": "LG Electronics USA announced plans to ban apps from its webOS smart TV store that secretly use televisions as residential proxy nodes for routing internet traffic. Recent research revealed that over 42% of games and apps available on LG's platform were allowing unknown third parties to abuse users' TVs in this way. This action aims to protect consumers from having their devices exploited without their knowledge or consent.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "residential-proxies",
-        "iot-security",
-        "smart-tv-abuse",
-        "privacy-violation",
-        "app-store-security"
-      ],
-      "whyItMatters": "This demonstrates a significant privacy and security risk in IoT devices where manufacturers' app stores lack adequate vetting of application behavior. Compromised smart TVs can be weaponized for illegal activities like DDoS attacks or bypassing geographic restrictions, impacting both users and network infrastructure. Manufacturers taking corrective action is important, but it highlights the broad",
-      "image": null,
-      "processedAt": "2026-09-27T20:31:17.152111+00:00"
     }
   ]
 }
