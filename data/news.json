@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-10-10T12:12:37.243519+00:00",
+  "lastUpdated": "2026-10-10T20:47:09.853050+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-3f13ea28",
+      "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-07",
+      "originalUrl": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+      "summary": "Attackers successfully compromised the domain registries for three country-code top-level domains (.gh, .sl, and .as) and used this access to fraudulently obtain HTTPS certificates for Google domains. Although Google's systems were not directly breached, this attack allowed threat actors to create fake encrypted websites impersonating legitimate Google services. This incident highlights how vulnerabilities in domain infrastructure can put millions of users at risk, regardless of the security of individual companies.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "certificate-fraud",
+        "domain-hijacking",
+        "registry-compromise",
+        "https-spoofing",
+        "infrastructure-attack"
+      ],
+      "whyItMatters": "This attack demonstrates how compromising domain registries can bypass certificate validation systems and enable large-scale phishing and impersonation attacks affecting users worldwide. The ability to obtain valid HTTPS certificates for Google domains means users cannot rely solely on browser security indicators to verify legitimacy, making this a fundamental threat to internet trust infrastructu",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlqu6e-ijwp1hAEuYyfUUL9hV5kwu0cIe1cMibzayov0GdV2FkSpwvF10YKcxLyw1AUNdKF54RV9o3bfeshwWIWdda1AvgNm4iu6t9F16pb1jOVDQRXBoRjw2uueD4Ov7oEzjPJV7pXgK1U-MzkkqRKgHqP207GG2pqtkRQ09IVZ94HvSlBVArvu7tkNE/s1600/google-tls.jpg",
+      "processedAt": "2026-10-10T20:46:44.804046+00:00"
+    },
+    {
+      "id": "art-e749c0ba",
+      "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-07",
+      "originalUrl": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+      "summary": "A threat actor known as MALFEX has been distributing malicious packages through npm (a popular JavaScript package repository) since August 2023, with eight packages downloaded over 40,000 times combined. These fake packages contain malware designed to steal information and give attackers remote control over infected computers. This campaign demonstrates how attackers can exploit the software supply chain to distribute malware at scale to developers and applications worldwide.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "npm-supply-chain",
+        "malware-distribution",
+        "rat-trojan",
+        "information-stealer",
+        "software-supply-chain"
+      ],
+      "whyItMatters": "Supply chain attacks through package repositories like npm affect thousands of developers and end-users simultaneously, making them particularly dangerous for widespread compromise. Organizations relying on npm packages must verify dependencies and implement controls to detect malicious code, as popular repositories are frequent targets for attackers seeking mass distribution. This incident highli",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgopANe3MXyNNOXog__x1pF53wYoQxinI47tN9gLrZSzJfumz-Dg05ZfyjiGsqF47Pugj71iZ1buX7OEiupWYa09xVQdu7DKOMX5NO-uGKCF0UjNila0x5fNiYw5NWEX1TUQTPidjT5NnGmPwM_6mGfKcOxqcjZuPAZLdzRX5u_TXJM76GQ6mQOkikw_kxo/s1600/npm-malware.jpg",
+      "processedAt": "2026-10-10T20:46:47.918286+00:00"
+    },
+    {
+      "id": "art-946bb50b",
+      "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-07",
+      "originalUrl": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+      "summary": "SonicWall has released security patches for four vulnerabilities discovered in its SMA1000 remote access appliances. The most critical flaw has a CVSS score of 10.0 and allows attackers to bypass authentication entirely, sending malicious requests through the appliance to access internal network functions. Currently, there is no evidence of active exploitation in the wild.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ssrf-vulnerability",
+        "pre-authentication",
+        "network-appliance",
+        "patch-required",
+        "remote-access",
+        "cvss-10"
+      ],
+      "whyItMatters": "SMA1000 appliances are critical gateway devices that protect remote worker access to corporate networks, making this pre-authentication SSRF flaw an immediate threat to enterprise security. A CVSS 10.0 rating with no authentication required means attackers could compromise an organization's internal systems without any credentials. Rapid patching is essential since this vulnerability exposes a pri",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg93cv3mDcrVCz0IYIpCH3eRNzbDYkM2Z_N2acg9D6bCFGvE3cr3eJ1uGJblGasKplvyvuO6pSuMCxamTwHJSP2ztJ7WBswe1igBdzoadRJPZSDfs5K2og83_iMDMZYuh-LpFdA4qb4Pv7SyJ1A4EQtO_gi6nuxV5ioid32rXABiS0Il9t8boUATp2lTes/s1600/sonicwall.png",
+      "processedAt": "2026-10-10T20:46:50.709802+00:00"
+    },
+    {
+      "id": "art-aeb4f103",
+      "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-07",
+      "originalUrl": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+      "summary": "LMCache, an open-source tool that optimizes large language model servers, contains a critical security flaw that allows attackers to execute code remotely without any authentication. The vulnerability exists in LMCache's multiprocess mode where the cache operates as a standalone server accessible over ZeroMQ messaging. Currently, no patched version is available to fix this issue.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "lmcache",
+        "unauthenticated-rce",
+        "llm-security",
+        "zero-day",
+        "unpatched",
+        "remote-code-execution"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and severe risk to any organization running LMCache in production environments since attackers can gain complete control of cache servers without credentials and no fix is currently available. The lack of authentication combined with remote code execution capability means systems are exposed to potential data theft, service disruption, and infrastructure compr",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyMSiFF8XNm1OpF4uWou7e4nt4fqsuPc0IXyUXhHky9w8ydKkauWm_j0yxdpMsRFlDx-5PHhtAxYNg3Z-rYqvexgILhokXO8tARRTtDHn2P83GOlUhiD6jN7rtkf3Ul1-Hp7O4VyvwV6EGNUgjmcC-B_o_P-xQy9eD7RaTnO_RoDpDwgjTePDvkjC9xso/s1600/lm.jpg",
+      "processedAt": "2026-10-10T20:46:53.288527+00:00"
+    },
+    {
+      "id": "art-48b0f780",
+      "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-07",
+      "originalUrl": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+      "summary": "A new malware family called Canto Incognito has infected over 3,400 servers by targeting exposed AI and large language model infrastructure. The malware deploys cryptocurrency miners to expand a botnet for financial gain. This campaign demonstrates how attackers are increasingly targeting AI infrastructure as a vector for launching attacks.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "crypto-mining",
+        "ai-infrastructure",
+        "malware",
+        "llm-targeting"
+      ],
+      "whyItMatters": "Organizations running AI and LLM services need to prioritize securing their infrastructure, as these systems are becoming attractive targets for cybercriminals. The infection of thousands of servers shows this threat is actively spreading at scale and could compromise computational resources, increase operational costs, and potentially expose sensitive data. Patching exposed AI systems and monitor",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDjQ8O0UFcl1dpOxEJoAM0s1mXXZHJNpJF4uJV_4jg7UPhHlDEvGHVxHKtyZQpnFC4HC3stGB-jJOSYUB5vdayfwx_eWPq-0F_l_ViYZNcA768t1N95JWhhbhUzY8anGOjVSL06QtsKVv_mz4lKgGrBMNBckAtFPxaW-KuG3mbWuUJrsyJP2vdWVbq8r9P/s1600/crypto.jpg",
+      "processedAt": "2026-10-10T20:46:55.761212+00:00"
+    },
+    {
+      "id": "art-488336d0",
+      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "summary": "A Canadian cybersecurity executive named Edward Dubrovsky was arrested in Pennsylvania for his alleged involvement in extortion activities connected to the ShinyHunters hacking group. The arrest is part of an ongoing FBI investigation into the criminal organization responsible for multiple high-profile data breaches and extortion schemes. This case highlights how individuals with cybersecurity expertise may be complicit in or facilitate major hacking operations.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "shinyhunters",
+        "extortion",
+        "hacking-group",
+        "arrest",
+        "fbi-investigation",
+        "cybercrime"
+      ],
+      "whyItMatters": "This case demonstrates that law enforcement is actively pursuing members of major hacking groups and their associates, which is critical for deterring cybercriminal activity. It also reveals potential insider threats—that individuals within the cybersecurity industry may collude with criminal organizations, making vetting and oversight of security professionals increasingly important for organizat",
+      "image": null,
+      "processedAt": "2026-10-10T20:46:58.478098+00:00"
+    },
+    {
+      "id": "art-4a7ac183",
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "summary": "A Chinese hacker targeted South Korean banks using the ARTEX AI penetration testing suite combined with Claude AI agents to conduct coordinated cyberattacks. This incident highlights how sophisticated attackers are leveraging advanced AI tools and automated penetration testing platforms to compromise financial institutions. The attacks demonstrate a significant evolution in cybercriminal tactics, moving beyond traditional methods to employ cutting-edge AI technology for reconnaissance and exploitation.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-threats",
+        "banking-security",
+        "chinese-threat-actor",
+        "automated-attacks",
+        "financial-sector",
+        "penetration-testing-abuse"
+      ],
+      "whyItMatters": "This incident reveals that AI tools designed for legitimate security testing are being weaponized by sophisticated threat actors to compromise critical financial infrastructure at scale. Organizations must urgently reassess their defenses against AI-augmented attacks and implement controls to detect automated exploitation attempts, as traditional security measures may be insufficient against these",
+      "image": null,
+      "processedAt": "2026-10-10T20:47:01.279939+00:00"
+    },
+    {
+      "id": "art-721b265d",
+      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "summary": "Criminal IP has launched AITEM, an AI-driven tool that goes beyond simply finding exposed assets by combining discovery with investigation, risk ranking, and automated response capabilities. Traditional attack surface management tools only show organizations what vulnerabilities exist, but AITEM aims to help teams actually prioritize and fix the most dangerous exposures first. This represents a shift from passive visibility to active threat management.",
+      "category": "Network Security",
+      "severity": "Medium",
+      "tags": [
+        "attack-surface-management",
+        "ai-security",
+        "vulnerability-prioritization",
+        "threat-investigation",
+        "exposure-discovery"
+      ],
+      "whyItMatters": "Organizations face overwhelming numbers of potential security weaknesses, and knowing what exists is meaningless without the ability to prioritize and respond efficiently. AITEM's approach addresses a critical gap in cybersecurity workflows by automating the investigation and prioritization process, allowing security teams to focus resources on the most impactful threats rather than treating all e",
+      "image": null,
+      "processedAt": "2026-10-10T20:47:03.971436+00:00"
+    },
+    {
+      "id": "art-4d0d56cf",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-08",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "summary": "Microsoft released a record-breaking update addressing nearly 1,000 security vulnerabilities across its Windows operating systems and other products. The company is using artificial intelligence to identify these flaws more quickly, but security experts caution that many organizations lack the resources to properly test and install such massive monthly patch batches in a timely manner.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-patches",
+        "windows-security",
+        "vulnerability-management",
+        "patch-deployment",
+        "ai-security-scanning"
+      ],
+      "whyItMatters": "The sheer volume of patches—nearly 1,000 in one batch—creates a significant operational challenge for IT teams who must validate and deploy fixes without introducing system instability or downtime. Organizations that fall behind on patching this scale face compounded security risk, as unpatched vulnerabilities remain exploitable entry points for attackers until deployed. This highlights the critic",
+      "image": null,
+      "processedAt": "2026-10-10T20:47:07.090879+00:00"
+    },
+    {
+      "id": "art-4d4a99c4",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-01",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "A dark web service has begun selling digital copies of over 153 million drivers licenses belonging to people in the United States and Canada. The stolen images appear to have come from an identity verification company in Louisiana that was exploited or compromised. The FBI has opened an official investigation into how this massive personal identification database was accessed and leaked.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "identity-theft",
+        "dark-web",
+        "personal-data",
+        "fbi-investigation",
+        "mass-exposure"
+      ],
+      "whyItMatters": "This breach exposes the identity documents of millions of people to criminals who can use them for fraud, account takeovers, and other identity crimes. The compromise of an identity verification service—a company trusted to protect sensitive data—reveals a critical weak point in the authentication infrastructure that many organizations rely on. Individuals affected face significant long-term risks",
+      "image": null,
+      "processedAt": "2026-10-10T20:47:09.852934+00:00"
+    },
     {
       "id": "art-b2d3d0cc",
       "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
@@ -832,212 +1037,6 @@
       "whyItMatters": "Nexus switches are critical infrastructure in data center networks, and root-level compromise could allow attackers to intercept, manipulate, or disrupt all network traffic flowing through these devices. Organizations relying on Cisco infrastructure must prioritize patching to prevent potential network takeovers that could impact business operations and data security.",
       "image": null,
       "processedAt": "2026-10-08T22:33:18.126261+00:00"
-    },
-    {
-      "id": "art-2a968b36",
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-      "summary": "Wazza is a sophisticated phishing kit that has been discovered targeting organizations in banking, manufacturing, and government sectors across the US, Europe, and Australia. Unlike basic phishing attacks, Wazza includes advanced features like filtering, session management, and traffic controls built directly into its infrastructure. This represents an evolution in phishing attacks where cybercriminals are creating more complex toolkits to improve their success rates and evade detection.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-kit",
-        "banking-targets",
-        "government-targets",
-        "manufacturing-sector",
-        "credential-theft",
-        "session-management"
-      ],
-      "whyItMatters": "Organizations need to understand that modern phishing attacks are now highly sophisticated with built-in evasion capabilities, making them harder to detect and block through traditional email filters alone. This threat affects critical sectors globally, requiring enhanced employee training, advanced email security, and monitoring for suspicious session behavior. The infrastructure-level controls e",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnlTrJzuyuM3FgdyTkx-JLieOXeR9fK_hENZFrdItZ09E4ZFhk8UYOPslpbGGidTUGCDgcTHqY7wvYrThg-Hwl24MQhL63GIfmRsBLy9MJ7iDXn1XbbX1W_EgGFw9eRyT4LOJq0aoyWhmOHF3O5a9L5LcKNS1IJxQqs_UBwmOnPRmx3fXwUPpKeYdARVE/s1600/anyrun.jpg",
-      "processedAt": "2026-10-08T13:07:34.817673+00:00"
-    },
-    {
-      "id": "art-5069183c",
-      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-      "summary": "Researchers discovered 16 malicious Firefox extensions disguised as popular cryptocurrency wallets like Rabby and OKX that secretly capture users' recovery phrases and private keys during wallet setup. These fake browser tools are designed to intercept sensitive wallet information and transmit it to attacker-controlled servers, putting cryptocurrency assets at serious risk. Users who installed these extensions believing they were legitimate wallet tools could have their entire digital asset portfolios compromised.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malicious-extensions",
-        "cryptocurrency-theft",
-        "wallet-security",
-        "browser-malware",
-        "credential-stealing",
-        "supply-chain-attack"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors exploit trust in legitimate financial tools by creating convincing counterfeits in app stores, putting users' life savings at risk. The ability to steal recovery phrases gives attackers permanent control over cryptocurrency wallets, making this a critical threat to anyone managing digital assets. Users must verify extension authenticity and understand tha",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh25slDP7PhWH155CxM4JUNITLHKzjfSXpuF4WWZJmkycx5UQUIjLJd5Jg_mEDQi62FwRkfpLV14DBpVu2pybVwacKkHpc2MABge_OjMCn3ISyUTsh_JS0fM3wgzv4hbR1du-9fp7cmd0vvB33xeCv7RD7-o4A66gCoKtuCQxmmQL2jM2ljZOMyude3uhOb/s1600/firefox-plugins.jpg",
-      "processedAt": "2026-10-08T13:07:38.027851+00:00"
-    },
-    {
-      "id": "art-59e41dfa",
-      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-      "summary": "The U.S. State Department is offering a $10 million reward for information that helps identify or locate Zhang Yu, a Chinese national accused of involvement in the 2021 HAFNIUM attacks on Microsoft Exchange Server. This bounty represents a significant effort by U.S. authorities to pursue individuals responsible for one of the most significant cybersecurity incidents in recent years. The reward aims to incentivize anyone with knowledge of Zhang Yu's whereabouts to come forward with actionable intelligence.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "hafnium",
-        "microsoft-exchange",
-        "nation-state-threat",
-        "cybercrime",
-        "apt-actor",
-        "chinese-threat-actor"
-      ],
-      "whyItMatters": "This news highlights how governments pursue accountability for major cyberattacks attributed to state-sponsored actors, reinforcing that significant cyber operations carry real-world consequences and international investigation efforts. The HAFNIUM attacks affected thousands of organizations worldwide, making the pursuit of responsible actors crucial for deterrence and justice. Understanding these",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgFF6VpR3wVqISJUhvijTLl00h_uH1hImVFzJiqEyaGpgFqwRMQxT1VEbay1QbGWehkEmZXIa5rAvkjA5K326ZRtVY7OKq9luzZo1gRXX6jUPX3ajFp6gLfpFf6tQg6D5wBgsctILhw7Ma_dpUgswrwXUYTphyphenhyphenj2rT9nfz3zURxMwvma9EZvKYEzkqlIk/s1600/reward.jpg",
-      "processedAt": "2026-10-08T13:07:41.132164+00:00"
-    },
-    {
-      "id": "art-13eb2087",
-      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
-      "summary": "A 50-year-old U.S. and Israeli national has been charged with defrauding ransomware victims by secretly paying attackers to obtain decryption keys while falsely claiming to recover data using proprietary tools. The scheme allegedly generated over $19 million in fraudulent billing. This case highlights how criminals exploit victims' desperation during ransomware incidents by posing as recovery services while funneling money to attackers.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ransomware-fraud",
-        "wire-fraud",
-        "recovery-scam",
-        "victim-exploitation",
-        "doj-enforcement"
-      ],
-      "whyItMatters": "This case demonstrates a critical vulnerability in ransomware incident response: victims may turn to third-party recovery services without proper vetting, making them susceptible to fraud. It underscores the importance of working with verified, legitimate security firms and law enforcement rather than unverified recovery services, and shows that DOJ enforcement is actively pursuing financial crime",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Hxj4Ir77Q0O6Rp9Sl0KYLSls340zQ9WBZYebBilMmz0l_V2uLs76lrTrFnLxVfjx_FhV6wGm9rRxUTxCE-f3aZwo-DTYvYoSEd4AuW0qFFKOmrHFO44mToyUy7yzpvSnAmaUUUs4yEg_91GBxijxbPxhYcB22TX7c4WdmekZaddHxvs_V89WUdgM3dte/s1600/rasnomware-fees.jpg",
-      "processedAt": "2026-10-08T13:07:43.905687+00:00"
-    },
-    {
-      "id": "art-ff986e30",
-      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-      "summary": "A popular npm package called tensorlake was compromised in a supply chain attack, with malicious version 0.5.144 containing hidden malware designed to steal credentials and secrets from developers' systems. The compromised package can establish persistent access and execute remote commands, putting any developer who installed this version at risk. This attack demonstrates how attackers target widely-used software libraries to compromise many victims at once.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-package",
-        "credential-theft",
-        "malware",
-        "persistence",
-        "remote-code-execution"
-      ],
-      "whyItMatters": "Supply chain attacks like this are particularly dangerous because they exploit developer trust in legitimate packages, potentially compromising thousands of applications and organizations at scale. Developers who use affected versions may have credentials and secrets stolen without their knowledge, leading to unauthorized access to sensitive systems and data. This incident highlights the critical ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1ZJrw-vCazDC3YJlfmY9WewJ170my9lYex6Ccg7VTa8UQCrXWoCiy_F9w_LoP-GDEarC_RoYnx63fAa_i_RmR5564MS6tgcoqi77wlcqPzX7kambOt4Gga7rsMlWWBwyHKZtCb1lAowiE4bf5up8aIJuwoVsZSKTq15TTynJ-uNPirAGnY8uwMMGqBsgU/s1600/npm-hack.jpg",
-      "processedAt": "2026-10-08T13:07:46.859404+00:00"
-    },
-    {
-      "id": "art-e2509114",
-      "title": "Microsoft Teams to get support for third-party deepfake detection tools",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/",
-      "summary": "Microsoft Teams is adding built-in support for third-party deepfake detection and impersonation protection tools in video meetings. This feature will help organizations identify and defend against AI-generated fake videos and fraudulent impersonation attempts during Teams communications. The integration aims to make it easier for businesses to combat identity fraud and synthetic media threats without requiring separate security solutions.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "deepfake-detection",
-        "ai-security",
-        "impersonation-protection",
-        "teams-security",
-        "synthetic-media"
-      ],
-      "whyItMatters": "Deepfakes and impersonation attacks are increasingly used in social engineering and fraud schemes, making detection capabilities critical for enterprise security. By integrating third-party detection tools directly into Teams, Microsoft is addressing a real threat vector where attackers exploit video communications to deceive employees and bypass security controls. This proactive approach helps or",
-      "image": null,
-      "processedAt": "2026-10-08T13:07:49.537263+00:00"
-    },
-    {
-      "id": "art-32f6f476",
-      "title": "ASOS links data breach to social engineering attack, credential theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/asos-links-data-breach-to-social-engineering-attack-credential-theft/",
-      "summary": "ASOS, a major online fashion retailer, experienced a data breach that the company has now linked to social engineering and credential theft attacks. Hackers successfully gained unauthorized access to customer personal data through compromised employee credentials. The company is notifying affected customers about the incident and the types of data that were exposed.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "social-engineering",
-        "credential-theft",
-        "customer-data",
-        "asos"
-      ],
-      "whyItMatters": "This incident demonstrates how attackers can bypass technical security controls by targeting human vulnerabilities through social engineering, making employee security awareness critical for protecting customer data. Large retail breaches expose millions of personal records and can lead to identity theft, fraud, and regulatory penalties. Organizations must implement multi-factor authentication and",
-      "image": null,
-      "processedAt": "2026-10-08T13:07:51.993960+00:00"
-    },
-    {
-      "id": "art-9d82bc7e",
-      "title": "Owner of Empire cybercrime market gets 40 years in prison",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/owner-of-empire-cybercrime-market-gets-40-years-in-prison/",
-      "summary": "A co-founder of Empire Market, a major dark web marketplace, has been sentenced to 40 years in prison for operating an illegal platform that processed approximately $430 million in criminal transactions between 2018 and 2020. This case demonstrates law enforcement's growing ability to track and prosecute operators of underground marketplaces that facilitate cybercrime. The conviction sends a strong message that even those running large-scale illegal operations can face serious consequences.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "dark-web-marketplace",
-        "cybercrime-enforcement",
-        "illegal-transactions",
-        "law-enforcement",
-        "dark-web-shutdown"
-      ],
-      "whyItMatters": "This prosecution demonstrates that law enforcement agencies are successfully identifying and prosecuting major cybercrime facilitators, which raises operational risks for criminal actors using underground marketplaces. Organizations should understand that cybercriminals face real legal consequences, making marketplaces inherently unstable and unreliable partners for threat actors seeking stolen da",
-      "image": null,
-      "processedAt": "2026-10-08T13:07:55.119834+00:00"
-    },
-    {
-      "id": "art-b4486638",
-      "title": "Samsung Galaxy S26 hacked three more times at Pwn2Own Ireland",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/samsung-galaxy-s26-hacked-three-more-times-at-pwn2own-ireland/",
-      "summary": "Security researchers at Pwn2Own Ireland 2026 successfully exploited Samsung Galaxy S26 devices multiple times on the second day of the competition, discovering 45 unique zero-day vulnerabilities and earning $232,500 in cash awards. This event demonstrates that even the latest flagship devices contain serious security flaws that attackers could potentially discover and exploit before manufacturers can patch them.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "samsung-galaxy",
-        "pwn2own",
-        "vulnerability-research",
-        "mobile-security",
-        "exploit"
-      ],
-      "whyItMatters": "Zero-day vulnerabilities discovered at security conferences like Pwn2Own represent real threats that could be weaponized by malicious actors before vendors release patches. The discovery of 45 flaws in a current-generation device highlights that security researchers continuously find critical weaknesses in widely-used phones that millions of users depend on for sensitive tasks. Understanding these",
-      "image": null,
-      "processedAt": "2026-10-08T13:07:58.160169+00:00"
-    },
-    {
-      "id": "art-0889e453",
-      "title": "Ransomware recovery CEO charged over secret ransom payments",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-07",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/",
-      "summary": "The CEO of MonsterCloud, a company that claims to help victims recover from ransomware attacks, has been charged with fraud for secretly paying ransomware attackers to obtain decryptors instead of using legitimate recovery methods. The company misled clients by falsely presenting these paid decryptors as results from proprietary technology. This case exposes how some \"recovery\" services may actually be complicit with cybercriminals rather than genuinely helping victims.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "fraud",
-        "ransomware-recovery",
-        "victim-exploitation",
-        "cybercrime",
-        "misconduct"
-      ],
-      "whyItMatters": "This case highlights a critical trust issue in the cybersecurity industry: victims seeking help from recovery services may unknowingly fund criminal operations while paying recovery companies that claim to use legitimate techniques. It underscores the importance of vetting cybersecurity service providers and understanding their actual recovery methods, as fraudulent actors can exploit victims' des",
-      "image": null,
-      "processedAt": "2026-10-08T13:08:01.188039+00:00"
     }
   ]
 }
