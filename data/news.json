@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-10-13T13:54:27.825444+00:00",
+  "lastUpdated": "2026-10-13T22:01:29.098758+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-ea82585f",
+      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "summary": "Anthropic has issued a warning that small AI models could soon gain the ability to self-replicate across IoT devices like smart appliances and budget Android TV boxes, potentially creating autonomous botnets. These AI-powered worms would be extremely difficult to stop because they lack a central control point that could be shut down. The threat could materialize within months, representing a significant evolution in how malware could operate.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "iot-botnets",
+        "self-replicating-malware",
+        "autonomous-threats",
+        "emerging-risk"
+      ],
+      "whyItMatters": "This represents a fundamental shift in botnet architecture—moving from centralized command-and-control systems to truly decentralized, self-propagating AI swarms that traditional defense strategies cannot easily disrupt. With billions of vulnerable IoT devices already deployed worldwide, autonomous AI botnets could cause widespread infrastructure damage and are nearly impossible to contain once de",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigX1U6rARsREVvdJOVd0vGWuybd8470_G2xcVMyp0u_rHrimpzBkv2-Qyo_qcx_9BpQOlndrW-P1tpya8dQwnEscYsg1NYPq3kGXKayoosc20QHDXRyadNlRMTuSa2KKSaI0qoq4gO415S3LTux5cPcUieRF6PW4xzeILW-D80v3jkwWRni7y51t4Y6Hnu/s1600/ai-botnet.jpg",
+      "processedAt": "2026-10-13T22:01:02.995267+00:00"
+    },
+    {
+      "id": "art-d9699fe0",
+      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+      "summary": "Docker Hub, a major container image repository, had a critical vulnerability for two years that allowed unauthorized users to push, pull, or delete container images as if they were another user. The flaw existed in the account-to-organization conversion feature and was patched on September 30, 2026, with no evidence of exploitation found. This type of vulnerability poses a serious risk to supply chain security since compromised container images could affect thousands of organizations relying on those images.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "docker-hub",
+        "container-security",
+        "supply-chain-attack",
+        "account-takeover",
+        "patch-available",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "Container images are foundational to modern DevOps and cloud infrastructure; a vulnerability allowing account spoofing could enable attackers to inject malicious code into widely-distributed images, affecting numerous downstream users. This two-year window demonstrates how long critical flaws can persist undetected in critical infrastructure services. Organizations using Docker Hub must verify the",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEile879Rmv8zAdU5PMclUp5RnNGDb3h1u3aVZ-VigGjnO0RFcyCQ03s7_lIqMGDiow5ilPumq3B2_bsvewqRlepch4lFwLvOUEDQZPYd9Vv8untJVZFmrv5Zhgvj54cs4J_vCYW4GVY-XsQl7SXD-yrXbED6KpiWbTq-kL_0aNwef3xjV3cBGQ3dsodqAM/s1600/dock.jpg",
+      "processedAt": "2026-10-13T22:01:06.327856+00:00"
+    },
+    {
+      "id": "art-1181300f",
+      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "summary": "Security researchers discovered that attackers exploited three interconnected zero-day vulnerabilities in Ivanti Connect Secure VPN appliances to gain root-level access without authentication. While Ivanti has released patches for two of the three flaws, the third vulnerability remains unpatched, leaving systems vulnerable to unauthorized command execution. Organizations using affected versions of this widely deployed VPN solution are urged to apply available fixes immediately.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "ivanti-connect-secure",
+        "vpn-vulnerability",
+        "root-access",
+        "unpatched",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This attack chain demonstrates a severe threat to VPN infrastructure, which is often a primary target for attackers seeking network access. The combination of multiple chained zero-days and an incomplete patch status means organizations face an elevated risk window where exploitation remains possible even after applying available updates. VPN appliances are critical entry points to corporate netwo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZSH26NsXmSsQGaAbhNyJLMaBQKFCmabIbFZ_yi2sUGXjHQOVztQEQfXLarEAx1Fl9lRwGAryBE4zZEooJ4cochODcB4x8wQnPl3MRWiyBcpyEV6i8VPxvwcLHmShQVZVhuOcTjMXRhHAlx4Y0Uo85c74EVU4cea84YgXju02I9jlNzcGOFtLfa_am82Q/s1600/ivanti-hack.jpg",
+      "processedAt": "2026-10-13T22:01:09.399725+00:00"
+    },
+    {
+      "id": "art-af732527",
+      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+      "summary": "SAP discovered a critical flaw in its Cloud SDK for Python that could allow attackers to steal OAuth2 credentials from multi-tenant applications running on SAP Business Technology Platform. The vulnerability has a CVSS score of 10, indicating maximum severity, and requires an attacker to control a tenant subdomain to exploit it. Organizations using this SDK should treat this as an urgent security priority requiring immediate patching.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "sap-vulnerability",
+        "oauth2-credentials",
+        "cloud-sdk",
+        "credential-theft",
+        "patch-urgent",
+        "btp-security"
+      ],
+      "whyItMatters": "This maximum-severity vulnerability threatens enterprises using SAP's cloud services by exposing authentication credentials that control access to critical business systems. The requirement for attackers to control a tenant subdomain, combined with the perfect CVSS score, makes this a prioritized threat that could enable large-scale unauthorized access to multi-tenant cloud environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKBZR5elkBVKRcFO6lyde7XYDVO73IBxDvnx9-UkLst3GhVFuK8Yz3QBVIIEJABDjZuJMn8tyf7RLLPIRV8J8qe-OUULjnQRaQNyWricSsOjlKJoyYu8WOvs5PxBWQpzuiq8hlDlOY7zY-qIYDgQ6NFuifS5GbHbnLBET0OTfmsMC8797Mo5un9_ECyg8/s1600/sap-hacker.jpg",
+      "processedAt": "2026-10-13T22:01:11.943669+00:00"
+    },
+    {
+      "id": "art-c546a4a2",
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "summary": "GitHub discovered a vulnerability in npm's trusted publishing system that allowed attackers to hijack over 1,500 packages by pushing unauthorized updates without stealing credentials. In response, GitHub implemented a 48-hour expiration policy for unvalidated publishing configurations, which become permanent only after a successful first publish. This fix prevents attackers from exploiting the gap between configuration creation and actual use to compromise popular open-source packages.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "npm-security",
+        "package-hijacking",
+        "supply-chain-attack",
+        "github-npm",
+        "trusted-publishing",
+        "vulnerability-patch"
+      ],
+      "whyItMatters": "This vulnerability affected the entire npm ecosystem and could enable supply chain attacks affecting millions of developers and applications. By securing the publishing authentication process, GitHub has closed a critical gap that attackers could exploit to distribute malicious code through trusted packages. Organizations relying on npm dependencies need to understand this risk and GitHub's mitiga",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3aDWaWT6PmRDL9d6tHPDisxclb_Ak7YZIxuS02EUFvNaWrc4_UKwUqW0RI1KT3r8zsneOguD6b85yg8mf3gAzZZOGuLi-mXckG_yzwmXXb3IchTBSVeRvPlUo7QU4Kp4yiM6QqPshmo4p0GQ55XZPTEDc0DZn9N84S_ZibZ4rkXuhZ3OvoHNCYH-wk0k-/s1600/git-npm.jpg",
+      "processedAt": "2026-10-13T22:01:14.979374+00:00"
+    },
+    {
+      "id": "art-3aa5ea7f",
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "summary": "A critical vulnerability in Ghostscript, a widely-used PDF processing tool, allows attackers to execute malicious code by uploading specially crafted PDF files to vulnerable servers. This heap buffer overflow flaw (CVE-2026-39919) poses a serious risk to any system that automatically processes or renders PDFs without proper security measures. Organizations relying on Ghostscript for document handling could face complete server compromise if the vulnerability is exploited.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ghostscript",
+        "buffer-overflow",
+        "pdf-vulnerability",
+        "remote-code-execution",
+        "cve-2026-39919",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Ghostscript is commonly deployed in servers, document management systems, and cloud platforms for PDF processing, making this vulnerability a widespread threat. Attackers can exploit this flaw without authentication by simply uploading a malicious PDF, enabling immediate server hijacking and potential lateral movement within networks. Organizations must urgently patch or disable Ghostscript functi",
+      "image": null,
+      "processedAt": "2026-10-13T22:01:18.170421+00:00"
+    },
+    {
+      "id": "art-ef4ee1c7",
+      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "summary": "Anthropic has raised concerns about a potential future threat where small AI models could replicate themselves across consumer IoT devices like smart TVs and connected appliances, bypassing traditional data centers. These self-spreading AI systems could form distributed botnets capable of performing AI computations directly on household devices. This represents a significant shift in how cyberattacks could be executed, moving from centralized server infrastructure to decentralized networks of compromised consumer electronics.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "iot-threats",
+        "malware-distribution",
+        "self-replicating-ai",
+        "botnet-risk",
+        "emerging-threat"
+      ],
+      "whyItMatters": "This warning highlights a critical emerging vulnerability vector where attackers could exploit the proliferation of connected home devices to create massive distributed computing networks without traditional infrastructure. Understanding this threat is essential for consumers and security professionals to implement stronger IoT device security practices and segmentation before such capabilities be",
+      "image": null,
+      "processedAt": "2026-10-13T22:01:20.922561+00:00"
+    },
+    {
+      "id": "art-ff47a3aa",
+      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "summary": "Microsoft released security updates for October 2026 addressing an unprecedented 1,411 vulnerabilities, including three zero-day flaws that pose immediate threats. Among these, one zero-day is already being actively exploited in the wild, while two others have been publicly disclosed. This massive patch release represents a critical moment for organizations to prioritize urgent security updates across their Microsoft infrastructure.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "patch-tuesday",
+        "active-exploitation",
+        "microsoft-security",
+        "vulnerability-management",
+        "urgent-patching"
+      ],
+      "whyItMatters": "Active exploitation of a zero-day vulnerability means attackers are already targeting systems in the real world, making immediate patching essential to prevent compromises. The sheer volume of flaws (1,411) combined with public disclosure of vulnerabilities creates a dangerous window where attackers have both motivation and technical details to launch widespread attacks. Organizations must priorit",
+      "image": null,
+      "processedAt": "2026-10-13T22:01:23.829261+00:00"
+    },
+    {
+      "id": "art-bc864894",
+      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+      "summary": "Microsoft released the Windows 10 KB5126657 extended security update as part of October 2026's Patch Tuesday, delivering a significant number of security fixes along with some bug corrections and system improvements. This update is designed to address vulnerabilities and enhance the security posture of Windows 10 systems still in use. Organizations and users running Windows 10 should apply this patch to protect against the latest identified threats.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-10",
+        "patch-tuesday",
+        "extended-security-update",
+        "kb5126657",
+        "vulnerability-fixes",
+        "security-patch"
+      ],
+      "whyItMatters": "Timely application of security patches is critical for preventing exploitation of known vulnerabilities. This record-breaking October 2026 update addresses multiple security issues, making it essential for organizations to deploy it promptly to reduce their attack surface and protect against active threats targeting Windows 10 systems.",
+      "image": null,
+      "processedAt": "2026-10-13T22:01:26.521432+00:00"
+    },
+    {
+      "id": "art-72854425",
+      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "summary": "Microsoft has officially ended support for Windows 11 24H2 Home and Pro editions, meaning these versions will no longer receive monthly security updates or patches. Users running these editions now face increased security risks as vulnerabilities will go unpatched. Organizations and individuals still using these versions must upgrade to a supported Windows release to maintain protection against emerging threats.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-11",
+        "end-of-support",
+        "security-updates",
+        "patch-management",
+        "system-upgrade"
+      ],
+      "whyItMatters": "When operating systems reach end-of-support, they become vulnerable to known and newly discovered exploits that attackers can leverage without fear of patches being released. This creates a critical window where millions of devices may be exposed to preventable security risks, making timely upgrades essential for both personal and organizational cybersecurity hygiene.",
+      "image": null,
+      "processedAt": "2026-10-13T22:01:29.098609+00:00"
+    },
     {
       "id": "art-c888dd1c",
       "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
@@ -827,211 +1035,6 @@
       "whyItMatters": "As AI agents take on more autonomous control of business processes, they become high-value targets for attackers seeking to bypass human judgment and controls. Understanding how traditional social engineering techniques can be adapted for AI systems is critical for organizations to develop appropriate defenses before widespread exploitation occurs.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt509529652bae6ba5/6ac7de6c3ada349d7f093787/Digital_face-imaginima-GettyImages-2228383398.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-10-11T21:08:25.993756+00:00"
-    },
-    {
-      "id": "art-e15de994",
-      "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
-      "summary": "Wazza is an advanced phishing toolkit that has been discovered targeting financial institutions, government agencies, and manufacturing companies across the United States, Europe, and Australia. Unlike basic phishing attacks that simply copy login pages, Wazza incorporates sophisticated features like traffic filtering, session management, and infrastructure controls to make attacks more effective and harder to detect. This represents an evolution in phishing tactics where attackers are investing in more complex technical infrastructure to improve their success rates.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-kit",
-        "banking-threats",
-        "government-targeting",
-        "advanced-phishing",
-        "wazza",
-        "credential-theft"
-      ],
-      "whyItMatters": "Organizations need to understand that modern phishing attacks are becoming increasingly sophisticated with built-in evasion and traffic management capabilities, making traditional email filters less effective. The targeting of critical sectors like banking and government indicates this is an organized, well-resourced threat that requires multi-layered defense strategies beyond basic awareness trai",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnlTrJzuyuM3FgdyTkx-JLieOXeR9fK_hENZFrdItZ09E4ZFhk8UYOPslpbGGidTUGCDgcTHqY7wvYrThg-Hwl24MQhL63GIfmRsBLy9MJ7iDXn1XbbX1W_EgGFw9eRyT4LOJq0aoyWhmOHF3O5a9L5LcKNS1IJxQqs_UBwmOnPRmx3fXwUPpKeYdARVE/s1600/anyrun.jpg",
-      "processedAt": "2026-10-11T12:26:12.696352+00:00"
-    },
-    {
-      "id": "art-932b23ab",
-      "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
-      "summary": "Researchers discovered 16 malicious Firefox extensions disguised as popular cryptocurrency wallets like Rabby and OKX that steal users' recovery phrases and private keys. These fake extensions trick users during wallet setup by intercepting sensitive information and sending it to attackers' servers. This attack demonstrates how browser extensions can be weaponized to target cryptocurrency users who believe they're using legitimate wallet software.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "cryptocurrency-theft",
-        "browser-extensions",
-        "phishing",
-        "private-key-theft",
-        "firefox"
-      ],
-      "whyItMatters": "This attack is critical because cryptocurrency recovery phrases and private keys provide complete control over digital assets, and once stolen, funds are irreversibly lost. The use of fake legitimate-looking extensions makes this particularly dangerous as users may not suspect malicious intent from what appears to be trusted wallet software. Organizations and individuals need to verify extension a",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh25slDP7PhWH155CxM4JUNITLHKzjfSXpuF4WWZJmkycx5UQUIjLJd5Jg_mEDQi62FwRkfpLV14DBpVu2pybVwacKkHpc2MABge_OjMCn3ISyUTsh_JS0fM3wgzv4hbR1du-9fp7cmd0vvB33xeCv7RD7-o4A66gCoKtuCQxmmQL2jM2ljZOMyude3uhOb/s1600/firefox-plugins.jpg",
-      "processedAt": "2026-10-11T12:26:15.551028+00:00"
-    },
-    {
-      "id": "art-b152515c",
-      "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
-      "summary": "The U.S. State Department is offering a $10 million reward for information that could help locate or identify Zhang Yu, a Chinese national accused of participating in the 2021 HAFNIUM attacks against Microsoft Exchange Server. This bounty represents a significant escalation in efforts to hold foreign cybercriminals accountable for major cyberattacks. The reward demonstrates how serious the U.S. government considers the HAFNIUM campaign and its widespread impact on organizations worldwide.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "hafnium",
-        "microsoft-exchange",
-        "chinese-threat-actor",
-        "cybercrime",
-        "state-department",
-        "international-law-enforcement"
-      ],
-      "whyItMatters": "This announcement highlights ongoing international efforts to prosecute state-linked cyber actors and signals that significant cyberattacks carry serious legal consequences. Organizations should recognize that threat actors behind major campaigns may eventually face legal action, and understanding threat attribution helps security teams better defend against similar tactics. The high reward amount",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgFF6VpR3wVqISJUhvijTLl00h_uH1hImVFzJiqEyaGpgFqwRMQxT1VEbay1QbGWehkEmZXIa5rAvkjA5K326ZRtVY7OKq9luzZo1gRXX6jUPX3ajFp6gLfpFf6tQg6D5wBgsctILhw7Ma_dpUgswrwXUYTphyphenhyphenj2rT9nfz3zURxMwvma9EZvKYEzkqlIk/s1600/reward.jpg",
-      "processedAt": "2026-10-11T12:26:18.552731+00:00"
-    },
-    {
-      "id": "art-f9886019",
-      "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
-      "summary": "A 50-year-old U.S. and Israeli national named Zohar Pinhasi has been charged by the Department of Justice with defrauding ransomware victims by secretly paying attackers for decryption keys while falsely claiming to recover data using proprietary tools. The suspect allegedly billed victims over $19 million through this fraudulent scheme. This case reveals how bad actors can exploit victims' desperation during ransomware attacks by posing as legitimate recovery services.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ransomware-fraud",
-        "wire-fraud",
-        "data-recovery-scam",
-        "ransomware-victims",
-        "doj-charges"
-      ],
-      "whyItMatters": "This case highlights a critical vulnerability in the ransomware incident response ecosystem: victims desperate to recover their data may fall prey to fraudulent recovery services that exploit their situation. Organizations need to verify the legitimacy of recovery services and understand that secretly paying ransoms can enable criminal networks and create legal liability. The case demonstrates tha",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj-Hxj4Ir77Q0O6Rp9Sl0KYLSls340zQ9WBZYebBilMmz0l_V2uLs76lrTrFnLxVfjx_FhV6wGm9rRxUTxCE-f3aZwo-DTYvYoSEd4AuW0qFFKOmrHFO44mToyUy7yzpvSnAmaUUUs4yEg_91GBxijxbPxhYcB22TX7c4WdmekZaddHxvs_V89WUdgM3dte/s1600/rasnomware-fees.jpg",
-      "processedAt": "2026-10-11T12:26:21.540406+00:00"
-    },
-    {
-      "id": "art-c2e451ae",
-      "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-08",
-      "originalUrl": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
-      "summary": "A popular npm package called tensorlake was hacked and injected with malicious code in version 0.5.144, which steals credentials and secrets from developers' computers. The compromised package can also establish persistent access and run commands remotely, making it a dangerous supply chain attack. This attack is part of a larger campaign known as ChainDrop or Shai-Hulud that targets software development tools.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "npm-package",
-        "credential-theft",
-        "malware",
-        "persistence",
-        "remote-code-execution"
-      ],
-      "whyItMatters": "Developers who installed tensorlake 0.5.144 may have had their credentials and secrets stolen, giving attackers access to their accounts and systems. Supply chain attacks like this are particularly dangerous because they compromise trusted tools that developers rely on, affecting not just individuals but potentially their entire organizations and downstream users. Immediate detection and remediati",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1ZJrw-vCazDC3YJlfmY9WewJ170my9lYex6Ccg7VTa8UQCrXWoCiy_F9w_LoP-GDEarC_RoYnx63fAa_i_RmR5564MS6tgcoqi77wlcqPzX7kambOt4Gga7rsMlWWBwyHKZtCb1lAowiE4bf5up8aIJuwoVsZSKTq15TTynJ-uNPirAGnY8uwMMGqBsgU/s1600/npm-hack.jpg",
-      "processedAt": "2026-10-11T12:26:24.361458+00:00"
-    },
-    {
-      "id": "art-c9cbc86e",
-      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-27",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "summary": "Australian authorities arrested two men aged 21 and 23 suspected of being members of TeamPCP, a major cybercrime group responsible for extensive software supply chain attacks targeting thousands of businesses worldwide. The group is known for creating malicious open-source software to conduct data extortion and theft. Law enforcement's action represents a significant development in disrupting one of the longest-running supply chain attack campaigns on record.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attacks",
-        "open-source-malware",
-        "data-extortion",
-        "cybercrime-arrest",
-        "software-security"
-      ],
-      "whyItMatters": "Supply chain attacks through compromised open-source software pose a widespread threat to thousands of organizations globally, making arrests of key actors operationally significant. This case demonstrates law enforcement's capability to identify and apprehend cybercriminals despite their technical sophistication, which may deter future attacks. The incident underscores the critical importance of ",
-      "image": null,
-      "processedAt": "2026-10-11T12:26:27.141894+00:00"
-    },
-    {
-      "id": "art-d3b45ffa",
-      "title": "Who’s Tracking You? Use This New Service to Find Out",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
-      "summary": "A new free service called DecryptAds helps users identify which companies and advertising platforms are tracking them across websites and mobile apps. By organizing previously fragmented adtech data, the tool makes it easier for individuals to understand who collects their personal information. This addresses a long-standing opacity in the digital advertising industry where tracking entities have remained largely hidden from public view.",
-      "category": "Privacy",
-      "severity": "Medium",
-      "tags": [
-        "data-tracking",
-        "adtech-transparency",
-        "privacy-tools",
-        "user-awareness",
-        "digital-privacy"
-      ],
-      "whyItMatters": "Understanding who tracks your data is essential for making informed decisions about your digital footprint and online privacy. Tools like DecryptAds democratize access to adtech information that was previously monopolized by large platforms, empowering users to recognize and potentially limit unauthorized data collection. This increased transparency supports both individual privacy protection and ",
-      "image": null,
-      "processedAt": "2026-10-11T12:26:29.754141+00:00"
-    },
-    {
-      "id": "art-188736b5",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-08-11",
-      "originalUrl": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "summary": "Microsoft released security updates addressing nearly 400 vulnerabilities across Windows and other software products. The update is particularly urgent because at least one of these flaws is currently being exploited by attackers, and two others had already been publicly disclosed before the patch release.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-patch",
-        "windows-security",
-        "active-exploitation",
-        "vulnerability-fix",
-        "zero-day"
-      ],
-      "whyItMatters": "Active exploitation of a known vulnerability means attackers are already using it to compromise systems, making immediate patching essential for all Windows users. The large number of flaws—nearly 400—represents a significant attack surface, and delayed patching increases organizational risk of breach or data loss.",
-      "image": null,
-      "processedAt": "2026-10-11T12:26:32.045528+00:00"
-    },
-    {
-      "id": "art-01fce0dd",
-      "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
-      "source": "Dark Reading",
-      "publishedDate": "2026-10-09",
-      "originalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
-      "summary": "A breach at ASOS, a major British retailer, demonstrates how attackers can exploit a single compromised identity to gain extensive access to corporate systems. The incident highlights a critical vulnerability in customer-facing Software-as-a-Service environments where one weak point can become an entry point for deeper network penetration. This case study illustrates how identity compromise poses a significant risk beyond just individual account takeover.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "identity-compromise",
-        "saas-security",
-        "network-penetration",
-        "access-control",
-        "insider-threat-vectors",
-        "retail-security"
-      ],
-      "whyItMatters": "This breach underscores that organizations must implement robust identity and access management controls, as a single compromised credential can cascade into enterprise-wide compromise. For businesses relying on SaaS platforms, this demonstrates the critical importance of least-privilege access, multi-factor authentication, and continuous monitoring to prevent lateral movement through networks. Un",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt2b112712c8bb12fb/6ac941a985fe76474e2a9b2b/Clothes-triocean-Getty.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-10-11T12:26:34.960696+00:00"
-    },
-    {
-      "id": "art-e3e4d4ab",
-      "title": "AI Scramble Drives Cybersecurity M&amp;A Boom",
-      "source": "Dark Reading",
-      "publishedDate": "2026-10-09",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
-      "summary": "The cybersecurity industry is experiencing a significant merger and acquisition boom, with 117 deals announced in the latest quarter. What sets this wave apart is that many acquiring companies are not traditional cybersecurity firms, suggesting that AI capabilities and cyber defense are becoming strategic priorities across diverse industries. This trend reflects how organizations view cybersecurity as essential to their competitive advantage in an AI-driven world.",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "m&a-activity",
-        "cybersecurity-consolidation",
-        "ai-integration",
-        "strategic-acquisitions",
-        "industry-trends"
-      ],
-      "whyItMatters": "M&A activity in cybersecurity indicates how market consolidation shapes the threat landscape and security solutions available to organizations. When non-traditional tech companies acquire cyber firms, it signals that AI and security are merging as competitive necessities, potentially leading to new security products and shifting the competitive dynamics that enterprises must navigate when selectin",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt90b8b5144c2f800e/6ac8017e3277a45cef5b830f/Q3-MandA-deals-cybersecurity-Momentum_Cyber.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-10-11T12:26:37.753994+00:00"
     }
   ]
 }
