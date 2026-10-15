@@ -1,7 +1,217 @@
 {
-  "lastUpdated": "2026-10-15T11:09:08.833739+00:00",
+  "lastUpdated": "2026-10-15T20:36:15.677693+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-7cded651",
+      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "summary": "A critical Linux kernel flaw called PwnEscape (CVE-2026-99999) has been discovered that allows virtual machines to access the host computer's memory, potentially exposing sensitive data. A security researcher successfully demonstrated this vulnerability against Vercel's cloud sandboxes, and the company has confirmed the issue. Since the vulnerability exists in the kernel's networking code rather than in individual cloud provider configurations, it affects a wide range of systems running affected Linux versions.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "virtual-machine-escape",
+        "memory-leak",
+        "cloud-security",
+        "cve-2026-99999",
+        "pwnscape"
+      ],
+      "whyItMatters": "This vulnerability is critical because it breaks the fundamental security boundary between virtual machines and their host systems, allowing attackers to read sensitive data from the host. Since it's a kernel-level flaw rather than a provider-specific issue, it affects multiple cloud platforms and requires urgent patching across the industry. Organizations using Linux-based cloud infrastructure ne",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s1600/pwnescape-main.jpg",
+      "processedAt": "2026-10-15T20:35:50.763066+00:00"
+    },
+    {
+      "id": "art-297f3889",
+      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+      "summary": "This week's cybersecurity threats include multiple critical vulnerabilities and attacks: Adobe RCE, DNS wallet theft targeting cryptocurrency users, NVIDIA container escape allowing unauthorized access, and a self-healing backdoor that persists through remediation attempts. The article highlights how attackers exploit small permission gaps, abuse trusted authentication methods, and repurpose legitimate tools for malicious purposes.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "adobe-rce",
+        "dns-attack",
+        "nvidia-container-escape",
+        "self-healing-backdoor",
+        "privilege-escalation",
+        "authentication-abuse"
+      ],
+      "whyItMatters": "This collection of threats demonstrates active exploitation across multiple attack vectors—from remote code execution to supply chain vulnerabilities and persistent backdoors—requiring immediate patching and defense updates. Organizations must prioritize both system hardening and behavioral monitoring to detect attacks that bypass traditional remediation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jHVMYXIjddaTrqHbBuPm3mQ6G_g8qlALwitmiIRM9OplZpPxLPDFet7ySOV0OVxPj6cW1oz0K6rydDvGYQGalR1jSt10bz8kti4dWnM0d3NnUBjuymD77_cReujy6AXmFgJgQQvl2qeICur3VHf5vYyOrxz8OFM-bEunzmK9PGDzCzzTVFVEdQyswYho/s1600/threatsday-oct.jpg",
+      "processedAt": "2026-10-15T20:35:53.182881+00:00"
+    },
+    {
+      "id": "art-4c385424",
+      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+      "summary": "Candiru, an Israeli spyware vendor, infected devices at Al Jazeera through malicious code hidden in online advertisements that executed automatically without requiring user interaction. The attack leveraged zero-click exploitation, where ads loaded invisibly in the background and deployed malicious payloads the moment they appeared on screen. Researchers at Citizen Lab discovered and traced these sophisticated targeting attacks against the news organization.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "zero-click-exploit",
+        "spyware",
+        "candiru",
+        "malvertising",
+        "targeted-attack",
+        "al-jazeera"
+      ],
+      "whyItMatters": "This attack demonstrates a critical threat vector where legitimate advertising networks become weaponized delivery mechanisms for government-grade spyware without requiring user clicks or awareness. Organizations and individuals cannot adequately defend themselves when malicious code executes silently through standard web content, making this a systemic risk to media outlets, journalists, and any ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE0PuxlZklu67SsXNfh_vZefiytkMx159npHL_6Ln3dNT0yxzyYE55zZU5SMOFGk39ZqhfWzXpYQfXdoZB0gGYdkoPu3cNactAPL9ZuCWdb_v4Hp4ZkoBLtEnzBovntpudGiQZvIwTucBgDRwNzfVR5SNybyZvTANvdqsDPjHVoUQcV3hrBNm0-YMvZK0/s1600/spyware-ads.jpg",
+      "processedAt": "2026-10-15T20:35:56.275571+00:00"
+    },
+    {
+      "id": "art-6d88fa88",
+      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+      "summary": "A threat actor group called Silent Lynx has been conducting coordinated attacks against government agencies in CIS countries using multiple infection methods. The campaign, active since mid-2025, leverages weaponized documents, malicious downloaders, and specially crafted WinRAR files to deliver reverse shells for unauthorized system access. This multi-vector approach demonstrates sophisticated tactics designed to infiltrate critical government infrastructure.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "winrar-exploitation",
+        "reverse-shell",
+        "government-targeting",
+        "multi-stage-malware",
+        "cis-region",
+        "macro-exploit"
+      ],
+      "whyItMatters": "This attack demonstrates active exploitation of known vulnerabilities against high-value targets with potential impact on national security and critical infrastructure. Organizations must urgently patch WinRAR systems and implement controls against macro-enabled documents and suspicious PowerShell execution to prevent similar compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX-Vi04Qyk2-RKyXrnolcZ8TTBRKY43kIB_B7l-1Na3Xta_ed00DJtXclvIdp65s6Sdf3ksabzWKXmYTmKwx9xAlROi6eas704naXFtyx93xru04krAQ9kViM9rjKSgKhdMR0weIs4xOd7htm_gI_7CLg-N16wjCKt59vAoC-3UpMFJf8QawlMkfpRh745/s1600/winrar-hacker.jpg",
+      "processedAt": "2026-10-15T20:35:59.000769+00:00"
+    },
+    {
+      "id": "art-ebe896e1",
+      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+      "summary": "A Traffic Distribution System called Help TDS has been linked to a Russian affiliate program named Hotejka, which distributes tech support scams across over 20,000 compromised Cloudflare Pages domains. The system has been operating since at least 2017, using PHP templates installed on hacked websites to redirect victims toward fraudulent support services. This operation appears to be a rebranding of an earlier monetization scheme called ROI777.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "traffic-distribution-system",
+        "tech-support-scam",
+        "compromised-domains",
+        "cloudflare-abuse",
+        "affiliate-fraud",
+        "russian-cybercrime"
+      ],
+      "whyItMatters": "This widespread TDS operation demonstrates how attackers leverage legitimate cloud platforms at scale to conduct financial fraud affecting thousands of websites and potentially millions of users. Organizations need to monitor for compromised websites and implement detection strategies for malicious redirects, while users should recognize that legitimate tech support rarely redirects through suspic",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp2enQeK-5xZuEo_rLQje9W_odynVLALJCEvTyaMSolIfwVonZGMceQWA8yq9xPMD-C_RkIp-V03EqEBVTM5yMq9IHWRRfSHxWWDS6kCJVcVAsmlFXt5wD2pK7Bk-A6iBIDFS2o811n8e48B1Psni_qvrkJ0HMXtJlhaLwx7jkxEG-e0XDgtcAMUMLiNFV/s1600/hot.jpg",
+      "processedAt": "2026-10-15T20:36:01.838409+00:00"
+    },
+    {
+      "id": "art-cce3f6e1",
+      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+      "summary": "Attackers are actively exploiting a critical vulnerability (CVE-2026-110447) in the Collabora Online app used with Nextcloud servers to gain unauthorized command execution and install backdoors. This flaw allows threat actors to take control of affected Nextcloud instances and maintain persistent access to compromised systems. Organizations running vulnerable versions of the richdocumentscode app are at immediate risk of compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "remote-code-execution",
+        "nextcloud",
+        "collabora",
+        "backdoor",
+        "active-exploitation",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This represents an active, widespread threat to Nextcloud deployments with demonstrated exploitation in the wild. Critical RCE vulnerabilities that enable backdoor installation require immediate patching, as attackers can achieve full server compromise and maintain unauthorized access for data theft or further attacks.",
+      "image": null,
+      "processedAt": "2026-10-15T20:36:04.431927+00:00"
+    },
+    {
+      "id": "art-cefffe99",
+      "title": "Android gets AI defenses against messaging scams, fake calls",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+      "summary": "Google has introduced artificial intelligence-powered security features for Android devices to protect users from scam messages and fraudulent calls. These new defenses use machine learning to identify and block malicious communications before they reach users. The protective tools are being gradually deployed to eligible Android devices to help reduce the impact of messaging and call-based fraud.",
+      "category": "Security Awareness",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "android",
+        "phishing-prevention",
+        "scam-protection",
+        "call-fraud",
+        "mobile-security"
+      ],
+      "whyItMatters": "Messaging scams and spoofed calls are among the most common attack vectors targeting mobile users, often leading to financial loss or credential theft. By implementing AI-based defenses at the OS level, Google reduces the burden on individual users to identify threats themselves. This proactive approach helps protect millions of Android users from evolving social engineering tactics that tradition",
+      "image": null,
+      "processedAt": "2026-10-15T20:36:06.987850+00:00"
+    },
+    {
+      "id": "art-5335f06c",
+      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+      "summary": "Hackers have compromised D-Link and Ubiquiti devices across 34 countries in a proxyjacking campaign that steals users' internet bandwidth and resells it through commercial proxy networks. The attackers gain unauthorized access to these networking devices and exploit them as intermediaries to route traffic, effectively monetizing victims' connections without their knowledge. This type of attack transforms personal and business devices into unwilling participants in illegal proxy services.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "proxyjacking",
+        "iot-security",
+        "network-compromise",
+        "bandwidth-theft",
+        "device-hijacking",
+        "residential-proxy"
+      ],
+      "whyItMatters": "This attack directly impacts network performance and security for thousands of users while exposing them to legal liability if their hijacked connections are used for malicious activities. Organizations and individuals relying on D-Link and Ubiquiti equipment need immediate awareness and patching strategies to prevent unauthorized device access. The campaign demonstrates how IoT and networking dev",
+      "image": null,
+      "processedAt": "2026-10-15T20:36:10.098939+00:00"
+    },
+    {
+      "id": "art-d723bae2",
+      "title": "Fake Arch Linux packages push malware with root privileges",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+      "summary": "Attackers uploaded fake versions of popular Arch Linux package management tools (yay and paru) to the Arch User Repository, tricking users into installing malware with root-level access. These counterfeit packages mimicked legitimate tools that many Arch Linux users rely on for package management. Once installed, the malicious packages could execute commands with the highest system privileges, potentially giving attackers complete control over affected systems.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "malware",
+        "supply-chain-attack",
+        "linux-security",
+        "package-repository",
+        "privilege-escalation",
+        "social-engineering"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit trust in open-source repositories and community-driven platforms to distribute malware at scale. Linux users who blindly trust AUR packages are at serious risk, and this highlights the importance of verifying package authenticity and understanding the dangers of unofficial repositories. The ability to gain root access makes this particularly dange",
+      "image": null,
+      "processedAt": "2026-10-15T20:36:13.154749+00:00"
+    },
+    {
+      "id": "art-af20d3a0",
+      "title": "Is AI pentesting as good as a human pentester?",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+      "summary": "Artificial intelligence can find some vulnerabilities that human penetration testers might miss, but AI tools have significant weaknesses in areas like consistency, judging risk levels, and understanding a company's specific business needs. The article compares the advantages and disadvantages of using AI versus human experts for security testing and discusses how AI agents could become more effective at protecting systems.",
+      "category": "Vulnerabilities",
+      "severity": "Medium",
+      "tags": [
+        "ai-pentesting",
+        "vulnerability-assessment",
+        "penetration-testing",
+        "ai-security",
+        "human-vs-ai",
+        "security-testing"
+      ],
+      "whyItMatters": "Organizations considering AI pentesting tools need to understand that while AI can complement security testing efforts by finding certain vulnerabilities efficiently, it cannot fully replace human judgment in risk prioritization and business context evaluation. This helps security teams make informed decisions about how to best combine automated and manual testing approaches for comprehensive vuln",
+      "image": null,
+      "processedAt": "2026-10-15T20:36:15.677540+00:00"
+    },
     {
       "id": "art-78c30326",
       "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
@@ -828,212 +1038,6 @@
       "whyItMatters": "When operating systems reach end-of-support, they become vulnerable to known and newly discovered exploits that attackers can leverage without fear of patches being released. This creates a critical window where millions of devices may be exposed to preventable security risks, making timely upgrades essential for both personal and organizational cybersecurity hygiene.",
       "image": null,
       "processedAt": "2026-10-13T22:01:29.098609+00:00"
-    },
-    {
-      "id": "art-c888dd1c",
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
-      "summary": "This webinar discusses how AI is enabling attackers to move faster through systems by automating reconnaissance and privilege escalation attacks. The key danger isn't just the initial account compromise, but what attackers can do after gaining access, as they can escalate privileges and move laterally before security teams detect the threat. The session focuses on using runtime identity controls as a defense strategy to prevent attackers from abusing stolen credentials.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "privilege-escalation",
-        "ai-driven-attacks",
-        "identity-controls",
-        "threat-detection",
-        "account-compromise"
-      ],
-      "whyItMatters": "As AI accelerates attack cycles, traditional security detection methods struggle to keep pace with how quickly attackers can escalate privileges and move through systems. Understanding runtime identity controls is critical for modern security teams to defend against sophisticated, AI-powered privilege escalation before attackers can cause widespread damage.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiIhyphenhyphenHu3P6G99-W2G5NryBVw_aHrwdzZeMvGjoMkyUiKFOtwD_fqUvdytUAQuhg9gPZzpsWSFatNS2LcMylaW4jsMmRR-tmAXkZxokH4WcEqnXTlFnBFgg8-20j4LsTCQMaKRJY-ysNuH8uXg_D3Zb626eqIdGeTkkmvyh95PERJ_mnaPNnnv2maV0q4F2-/s1600/silverfort.jpg",
-      "processedAt": "2026-10-13T13:54:02.388386+00:00"
-    },
-    {
-      "id": "art-54a2e59c",
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
-      "summary": "Security researchers discovered three interconnected vulnerabilities in LG webOS that allow attackers on the same local network to gain root access to certain smart TV models without requiring a PIN or user interaction. The vulnerabilities affect specific LG TV models running webOS 7.5.7-25, and LG has already released a security patch to address the issue. This demonstrates how smart home devices can be compromised through local network access, potentially exposing personal data and device control to attackers.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "smart-tv",
-        "local-network-attack",
-        "root-access",
-        "webos",
-        "pre-authentication",
-        "patch-available"
-      ],
-      "whyItMatters": "This vulnerability chain is significant because it affects consumer devices in millions of homes, and attackers only need network access rather than physical interaction to compromise them. Smart TVs often connect to home networks alongside other sensitive devices, making them a potential entry point for lateral attacks. Users should promptly apply available security patches to protect their devic",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgs2Z0M9u8vYqE8SBNBzfOGoc4Crog-_PBWeZNY8IprfYaa08ZyZ_PTfMhosBFrQNS_f1JecVbl_HEq7sutExV_92yaZWVIA51YD59JOFa_fKZQyEvpZNUxai8pgDrQX_Kp_wQqJoEFFQIFEwa2c3vhyphenhyphenQtU0U9w5XDwjSAij3BPz_qRs7-t0eu8ZssOZuE/s1600/lg-tv.jpg",
-      "processedAt": "2026-10-13T13:54:05.320234+00:00"
-    },
-    {
-      "id": "art-8e49157c",
-      "title": "Product Walkthrough: Bitdefender AI Visibility and Control",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://thehackernews.com/2026/10/product-walkthrough-bitdefender-ai.html",
-      "summary": "Bitdefender's AI Visibility and Control tool addresses emerging security challenges posed by AI applications that operate without traditional installation footprints. The product focuses on detecting and monitoring AI tools—such as browser-based chat assistants, editor extensions, and local model runtimes—that users deploy while bypassing standard security controls. This approach helps organizations maintain visibility and control over AI usage while preventing unauthorized data exposure to external services.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "visibility-control",
-        "data-protection",
-        "insider-risk",
-        "shadow-it"
-      ],
-      "whyItMatters": "As AI tools proliferate in enterprise environments, many bypass traditional security monitoring because they leave minimal installation traces. Organizations need solutions to track and control these invisible threats to prevent accidental data leaks and maintain compliance with data governance policies. This represents a critical gap in modern endpoint security that directly impacts how companies",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkLz0n_kNY4YMLYNTi1KElj3dkaig5LqA6Koy92X4ndKfwBO8ctC5bNVyII81TUHljc7MGrpMZBsUX5j4126sBd3Sk5fX_DGjIo-yz5qGrRsHgi2qiLNUUbfCSvOHcE-KoYqGzNLBvTVzwEKDt2hZ4dvGK8YYOTeA-f6FHX49GA0myiau9Mqgc_LT7D1k/s1600/bit.jpg",
-      "processedAt": "2026-10-13T13:54:08.182319+00:00"
-    },
-    {
-      "id": "art-1285f7b5",
-      "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-      "summary": "Hackers remotely compromised refrigeration controllers made by Danfoss at hundreds of French supermarkets, deliberately raising temperatures to 50°C and destroying perishable inventory. The attackers gained access through maintenance interfaces that remote technicians typically use to manage the systems. This incident demonstrates how critical infrastructure in retail environments can be weaponized to cause significant economic damage without stealing data.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "iot-security",
-        "critical-infrastructure",
-        "remote-access",
-        "supply-chain",
-        "industrial-control"
-      ],
-      "whyItMatters": "This attack highlights the vulnerability of Internet-connected industrial control systems in everyday commercial settings and shows that cybercriminals can inflict major economic harm by compromising devices designed for remote management. Organizations must recognize that maintenance interfaces and third-party access points are attractive attack targets that require strong authentication and moni",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64tQNgn3aqDhyphenhyphengoK8NxQG3DPvWWi0fP185meJUr14eUmcX18mKJdkUz6QsMU6bTxmwAtHrd8I0J5FQjvTENA1-N1F60zsR1x2iDzaJNhPbg_6iGYTELpBOwiTbBiaMWLmWQ4naaMfCLCcThNEfC302zF-YCjlev6138DvUrXfr5noGCpZaT9JnGd7hUw/s1600/supermarket.jpg",
-      "processedAt": "2026-10-13T13:54:11.194847+00:00"
-    },
-    {
-      "id": "art-030551b8",
-      "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-      "summary": "Progress Software disclosed 31 vulnerabilities in MarkLogic Server, with five rated critical. Two of these flaws could allow users with limited management permissions to escalate their privileges and gain full administrator control. Patches have been available since September 10 through MarkLogic versions 11.3.7 and 12.1.0.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "privilege-escalation",
-        "marklogic",
-        "database-security",
-        "patch-available",
-        "access-control",
-        "progress-software"
-      ],
-      "whyItMatters": "Privilege escalation vulnerabilities in database systems pose an extreme risk because they allow attackers or malicious insiders to bypass access controls and gain unauthorized administrative access. Organizations running affected MarkLogic versions must apply patches immediately to prevent unauthorized data access, modification, or complete system compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvGRzVYOU1S12WE6ja5ZSrhInOGaNdwCGGwWch1oJn_SDtoy90ycGVjd-JeDjwSSH8XDzKlkoKsu_vlND1iW0aWJgEqf3Ti18goDI0yXeaLbF2DHrokj8Qdvm1kHEi8wqdm6_axRi17PVBqtlgFWLpZnv6Eufx_bFMkpWcnz6ymbQI4IDB7lgYi3QrZ7w/s1600/amrk.jpg",
-      "processedAt": "2026-10-13T13:54:13.713347+00:00"
-    },
-    {
-      "id": "art-a2aacf9d",
-      "title": "SAP warns of maximum severity OAuth2 SSRF security flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-oauth2-ssrf-security-flaw/",
-      "summary": "SAP released security updates in October 2026 addressing 20 vulnerabilities across its product line, with particular concern on a critical OAuth2 Server-Side Request Forgery (SSRF) flaw in the Cloud SDK for Python. This maximum-severity vulnerability poses a significant risk to organizations using SAP's cloud services. Prompt patching is essential to prevent potential exploitation and unauthorized access.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sap",
-        "oauth2",
-        "ssrf",
-        "cloud-sdk",
-        "patch-critical",
-        "authentication-bypass"
-      ],
-      "whyItMatters": "OAuth2 and SSRF vulnerabilities in widely-used enterprise SDKs like SAP's can enable attackers to bypass authentication mechanisms and gain unauthorized access to internal systems and resources. Organizations relying on SAP Cloud SDK for Python must prioritize patching immediately to prevent exploitation, especially since cloud infrastructure vulnerabilities often affect multiple customers simulta",
-      "image": null,
-      "processedAt": "2026-10-13T13:54:16.438295+00:00"
-    },
-    {
-      "id": "art-a03aa0ef",
-      "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
-      "summary": "Cybercriminals are exploiting legitimate Bing search redirects within Google Ads to trick users into downloading fake Claude installers. These malicious installers deliver ClickFix attacks, a type of malware that compromises user systems. The attack chain abuses trusted platforms to make malicious links appear legitimate, increasing the likelihood that unsuspecting users will fall for the scheme.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware-distribution",
-        "malicious-ads",
-        "social-engineering",
-        "clickfix",
-        "search-abuse",
-        "fake-installers"
-      ],
-      "whyItMatters": "This attack demonstrates how criminals chain multiple trusted services (Google Ads, Bing) to bypass security awareness and deliver malware at scale. Users relying on search engines for software downloads face elevated risk, and organizations need to educate employees about verifying download sources and recognizing sophisticated redirect-based phishing tactics.",
-      "image": null,
-      "processedAt": "2026-10-13T13:54:19.277557+00:00"
-    },
-    {
-      "id": "art-a5256b91",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "The FBI arrested a co-founder of a Canadian cybersecurity firm as part of an investigation into the ShinyHunters hacking group, which stole sensitive data belonging to thousands of FBI agents. This arrest highlights how criminal organizations target law enforcement agencies and how even security professionals may be connected to cybercriminal activities. The incident underscores the serious threat that organized hacking groups pose to government institutions.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "ransomware-negotiation",
-        "shinyhunters",
-        "fbi-breach",
-        "law-enforcement-target",
-        "data-theft",
-        "cybercrime-arrest"
-      ],
-      "whyItMatters": "This case demonstrates that sophisticated hacking groups can successfully compromise sensitive government systems and that insider connections may facilitate or enable major breaches. The arrest of a cybersecurity executive involved with criminal activity raises concerns about trust within the industry and the need for rigorous vetting of security professionals. When threat actors obtain FBI agent",
-      "image": null,
-      "processedAt": "2026-10-13T13:54:22.519200+00:00"
-    },
-    {
-      "id": "art-3fbfa007",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-07",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "summary": "A teenager from Amman, Jordan who led the ShinyHunters data theft and extortion group has been arrested and is cooperating with the FBI to identify other gang members. At the time of his detention, ShinyHunters was actively extorting a Boeing business unit that had recently been sold off. The case highlights how international cybercriminals target major corporations and their supply chains.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "data-extortion",
-        "international-cybercrime",
-        "shiny-hunters",
-        "boeing",
-        "organized-hacking"
-      ],
-      "whyItMatters": "This case demonstrates that even major aerospace and defense companies remain targets for extortion schemes, and shows how international law enforcement collaboration can disrupt prolific hacking groups. The arrest of a group leader who is now cooperating with authorities may lead to broader dismantling of the ShinyHunters network and protection of other potential victims.",
-      "image": null,
-      "processedAt": "2026-10-13T13:54:25.018554+00:00"
-    },
-    {
-      "id": "art-c295ccfb",
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-28",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "summary": "Dutch police arrested a 23-year-old former hacker suspected of helping the ShinyHunters group carry out data thefts and extortion schemes. Following the arrest, the remaining ShinyHunters members responded by escalating their criminal activities, including stealing sensitive data from the FBI and extorting the Russian ransomware group Cl0p. This case demonstrates how taking action against individual cybercriminals can paradoxically trigger more aggressive attacks from their associates.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "extortion",
-        "shiny-hunters",
-        "fbi-attack",
-        "ransomware-group",
-        "cybercrime"
-      ],
-      "whyItMatters": "This incident illustrates the dual-edged nature of law enforcement actions against hacker groups—while arrests are necessary, they can prompt remaining members to conduct high-profile attacks against government agencies and other criminal organizations. Understanding this escalation pattern helps security teams anticipate increased threats following major arrests and adjust their defenses accordin",
-      "image": null,
-      "processedAt": "2026-10-13T13:54:27.825265+00:00"
     }
   ]
 }
