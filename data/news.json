@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-10-17T19:45:45.004527+00:00",
+  "lastUpdated": "2026-10-18T10:42:35.004531+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-dd998753",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-18",
+      "originalUrl": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "summary": "ConnectWise discovered that attackers gained unauthorized access to application identities and used them to compromise customer Microsoft 365 tenants. In response, the company disabled seven affected application identities, including ConnectWise Cloud Backup, to prevent further unauthorized access. This incident highlights how compromised service credentials can be weaponized to breach downstream customer environments at scale.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-compromise",
+        "microsoft-365",
+        "credential-theft",
+        "supply-chain-risk",
+        "identity-compromise",
+        "incident-response"
+      ],
+      "whyItMatters": "This attack demonstrates a critical supply chain vulnerability where a trusted vendor's compromised credentials directly expose thousands of downstream customers' cloud environments. Organizations relying on ConnectWise services need immediate visibility into their Microsoft 365 access logs and should enforce additional authentication controls to detect and contain lateral movement by attackers us",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxTJ5xsWsmrBmF1q18Gi5uaokNeC6-M0VbSf0T5X3KMQH7QGMhC7mz4XB6TUJuE7P9tjknMAqaGQ-Iz_7UuQ-NdKKXJTgqLhHMipRcd57VUOpwfJ2xxO8Hq_PX8hotdp_KZddNDzfQFw3bLHbYYLasThNbqGlidzhZ485ApBIKh2KUgn4g6PeBbhMwhc0T/s1600/ms-connect.jpg",
+      "processedAt": "2026-10-18T10:42:10.630676+00:00"
+    },
+    {
+      "id": "art-702f2faa",
+      "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+      "summary": "Palo Alto Networks released security patches for CVE-2026-0322, a high-severity remote code execution vulnerability affecting PAN-OS management interfaces with a CVSS score of 8.6. The flaw is particularly dangerous because it's already being actively exploited in the wild, allowing attackers to execute code on affected systems. Organizations running vulnerable versions of PAN-OS need to apply patches immediately to protect their network infrastructure.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "palo-alto-networks",
+        "rce-vulnerability",
+        "active-exploitation",
+        "patch-urgent",
+        "pan-os",
+        "cve-2026-0322"
+      ],
+      "whyItMatters": "Active exploitation of this vulnerability means attackers are already using it to compromise systems, making immediate patching essential for any organization using PAN-OS. The management interface access granted by this RCE flaw gives attackers direct control over critical network security appliances, potentially allowing lateral movement and complete network compromise. Delays in patching create",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4G5JAIF-hCnKf9QyWLzWIWxTrUIjqshujDHf0-_9m84O9f4S0Z-IQ4Jg-T11Ph_rwZvzsFU8Z-pI3uRsnvPSE-FK_VtrUx0pNZgHKf3PuMJCQmwopiE5hyMRSObeV7_VSrF7WC_iiG9T8wMNivOOBC12F7bLK8WI-MNjCffolAJnnhk-X-v1ecxwYtrQz/s1600/palo.jpg",
+      "processedAt": "2026-10-18T10:42:13.295822+00:00"
+    },
+    {
+      "id": "art-96741c5d",
+      "title": "India Mandates Registered Caller Name Display on 4G and Newer Networks From November 1",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/india-mandates-registered-caller-name.html",
+      "summary": "India's government has mandated that telecom providers display callers' registered names along with phone numbers for incoming calls on 4G networks and newer starting November 1, 2026. This requirement aims to help users identify legitimate callers and reduce exposure to spam and fraudulent calls. The measure is part of broader efforts to improve communication security and protect citizens from phone-based scams.",
+      "category": "Security Awareness",
+      "severity": "Low",
+      "tags": [
+        "caller-identification",
+        "fraud-prevention",
+        "telecom-security",
+        "regulatory-requirement"
+      ],
+      "whyItMatters": "This policy helps users identify legitimate callers versus potential fraudsters, reducing the effectiveness of social engineering attacks and phone-based scams. Enhanced caller identification is a practical defense layer that complements technical security measures and increases user awareness of communication authenticity.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjyJOEj0MfpVvrP-qAXhuoM2BBSjZ6TwPYR-nMG_g-tBvu7Er2cMlvMoVkJOUP1qE2sleu3a21YjvdCQ9u80FSBTx7NNP3cZNfradprnGu-EnIURCxZK4sA0cXbROZpdW8CJxZcxRfhJyhbIXa_Au_sha3mh5pFe-7k5EIimZQlUGIs_mGGKHGKArej6il7/s1600/4g.jpg",
+      "processedAt": "2026-10-18T10:42:15.375653+00:00"
+    },
+    {
+      "id": "art-40acb6fb",
+      "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+      "summary": "A credential-theft campaign called GhostAction compromised approximately 1,900 GitHub accounts in early October 2026, giving attackers access to over 30,000 repositories. The attackers attempted to steal sensitive secrets and credentials from public repositories' continuous integration systems across thousands of users and organizations. This large-scale attack demonstrates how compromised developer accounts can pose significant risks to software supply chains.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "github-accounts",
+        "credential-theft",
+        "supply-chain-risk",
+        "ghostaction",
+        "secrets-extraction",
+        "account-compromise"
+      ],
+      "whyItMatters": "Compromised developer accounts create direct threats to software supply chains, as attackers can inject malicious code, steal sensitive credentials, and access private projects affecting thousands of downstream users. This attack highlights the importance of securing developer credentials and implementing strong authentication for code repositories, which are critical infrastructure for modern sof",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiddFchlm_nV3vywI0BM2-8IaZb-wHXwE8DplGqZYkRmcYkeXiSLfVmnVAU-jM4yikWW7SWokanh_S4hq88cVHjAnaWDGkl3VVAtPdv9SHWp0MNb0CIOAA-I73EuwwUSE-wNMnXEzbIdDYorJn2hIuBZQ5Jh_5I2IntiXuUYZz3sKax-wfRoaxy_pD9kGx0/s1600/ghost-git.jpg",
+      "processedAt": "2026-10-18T10:42:17.941154+00:00"
+    },
+    {
+      "id": "art-a735e2b8",
+      "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-15",
+      "originalUrl": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+      "summary": "Langflow, an open-source AI platform owned by IBM, is being actively exploited for a critical vulnerability (CVE-2026-105740) that allows authenticated remote code execution. Security researchers at Previdian detected over 1,400 honeypot exploit attempts targeting this flaw, indicating widespread malicious activity. The vulnerability has a CVSS score of 9.9, making it one of the most severe security issues discovered.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "langflow",
+        "rce",
+        "authenticated-exploit",
+        "ai-security",
+        "active-exploitation",
+        "critical-patch"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to organizations using Langflow for AI applications, as active exploitation attempts are already underway at scale. The high CVSS score and authenticated RCE capability mean attackers can gain full system control once inside, making rapid patching essential for any deployed instances.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1tlAL_zc7Hg-gD5PRFa08hoOp2KRDu9kNSJk8nhZ91us8q-K7qGfnoasa6gONBjZoEtGJqPEZY3rKMy4Uqozk89X-L7IQBV8IrDqnJYdtAsCC4d08mmQUI4r_zACmvDVdey82w7FC4lTIoYfqdwYYu2Bp_Ql0AwOB54KRYrHk9ixjo27rKLWEK0dwsfw3/s1600/langflow.jpg",
+      "processedAt": "2026-10-18T10:42:20.459091+00:00"
+    },
+    {
+      "id": "art-a4474894",
+      "title": "Two Alleged ‘TeamPCP’ Hackers Arrested in Australia",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-08-27",
+      "originalUrl": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
+      "summary": "Australian authorities arrested two suspected members of TeamPCP, a cybercriminal group known for orchestrating the longest-running supply chain attack campaign. The suspects, aged 21 and 23 from Western Australia, are accused of developing malicious open-source software to compromise thousands of businesses globally. Security journalist Brian Krebs had been in contact with the younger suspect and contributed reporting that helped expose the group's operations.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malicious-software",
+        "open-source",
+        "data-extortion",
+        "organized-cybercrime",
+        "arrest"
+      ],
+      "whyItMatters": "Supply chain attacks represent one of the most dangerous cybersecurity threats because compromising trusted open-source software can affect thousands of organizations simultaneously and downstream users. The arrest of alleged TeamPCP members demonstrates law enforcement's growing capability to identify and apprehend sophisticated cybercriminals, but also highlights how long such operations can per",
+      "image": null,
+      "processedAt": "2026-10-18T10:42:23.505034+00:00"
+    },
+    {
+      "id": "art-10fe2142",
+      "title": "BeyondTrust Remote Support Zero-Day Continues Trend of Exploited Edge Bugs",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-16",
+      "originalUrl": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
+      "summary": "BeyondTrust Remote Support has been found vulnerable to a zero-day exploit, joining other major technology companies like Ivanti, Cisco, and Palo Alto Networks that recently experienced security breaches in their edge devices. Edge devices—the connection points between networks and the internet—have become a prime target for attackers this week. This trend suggests that security teams need to pay close attention to vulnerabilities in remote access tools and network perimeter devices.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "beyondtrust",
+        "edge-device",
+        "remote-support",
+        "active-exploitation",
+        "network-security"
+      ],
+      "whyItMatters": "Remote support tools like BeyondTrust are frequently used by IT teams for essential maintenance tasks, making zero-day exploits in these products particularly dangerous—attackers gain direct access to sensitive systems. The coordinated targeting of edge devices across multiple vendors suggests an organized threat campaign that could affect thousands of organizations simultaneously. Security teams ",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4a126b2e0eae913e/6ad27ebc7cb22e18dd04a52b/Locusts-ZU_09-Getty.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-18T10:42:26.629792+00:00"
+    },
+    {
+      "id": "art-094171bc",
+      "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-16",
+      "originalUrl": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
+      "summary": "Attackers are creating fake versions of popular AI tools like Claude and ChatGPT to trick employees at companies into downloading malware. These scams use deceptive tactics similar to ClickFix attacks, which convince people they need to take quick action. This emerging threat puts developers and enterprise workers at significant risk of compromising their systems and data.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "phishing",
+        "social-engineering",
+        "malware-distribution",
+        "enterprise-threat",
+        "clickfix"
+      ],
+      "whyItMatters": "As AI tools become mainstream in enterprise development, attackers are exploiting their popularity to impersonate trusted platforms and bypass user skepticism. Organizations need to educate employees about these impersonation tactics and implement security controls to prevent malware installation from fake AI service downloads. This threat is particularly dangerous because developers may be target",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt1652c5132de5d8e6/6ad27799ee37e003e0d27496/airesults-Ekaterina_Goncharova-Getty-2173055307.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-18T10:42:29.612044+00:00"
+    },
+    {
+      "id": "art-e641a63f",
+      "title": "Biomemory Launches DNA Shield, First Commercial Product Built on Its Molecular IT Platform",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-16",
+      "originalUrl": "https://www.darkreading.com/data-privacy/biomemory-launches-dna-shield",
+      "summary": "Biomemory has introduced DNA Shield, a commercial data storage product that uses molecular DNA technology instead of traditional digital systems. This launch represents a significant innovation in data protection, following the company's acquisition of catalog assets and the appointment of new leadership. DNA-based storage offers potential advantages for long-term data preservation and security due to its physical and biological nature.",
+      "category": "Other",
+      "severity": "Low",
+      "tags": [
+        "dna-storage",
+        "data-protection",
+        "emerging-technology",
+        "molecular-it"
+      ],
+      "whyItMatters": "While DNA storage is an emerging technology rather than an immediate security threat or vulnerability, it represents a paradigm shift in how organizations might approach long-term data archival and protection. Understanding alternative storage technologies helps cybersecurity professionals stay informed about evolving defenses and potential future security models beyond conventional digital infras",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-18T10:42:31.967112+00:00"
+    },
+    {
+      "id": "art-025d1d2e",
+      "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-16",
+      "originalUrl": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
+      "summary": "As companies move beyond simply implementing AI systems, they are now facing significant security challenges in managing and securing their AI deployments. Organizations are discovering that the real difficulty lies not in adopting AI technology, but in safely operating it at scale while managing associated risks. This shift marks a critical transition from viewing AI as a new capability to recognizing it as a security responsibility that requires careful risk management.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "risk-management",
+        "enterprise-ai",
+        "security-concerns",
+        "ai-governance"
+      ],
+      "whyItMatters": "As enterprises deploy AI systems across critical operations, inadequate security practices during the execution phase could expose sensitive data, enable malicious actors to manipulate AI systems, or create cascading failures. Organizations need to establish robust security frameworks for AI before widespread deployment to prevent costly breaches and compliance violations. This represents a pivota",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt850556f866500627/654a5a8e05eb4d040a046894/325351_DR23_Graphics_General_Large_Text_v1.png?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-18T10:42:35.004379+00:00"
+    },
     {
       "id": "art-6b6f9e22",
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
@@ -828,216 +1033,6 @@
       "whyItMatters": "This case demonstrates the scale and international nature of cybercrime requiring coordinated global law enforcement response. Organizations handling online communications must implement robust content moderation and abuse reporting systems to prevent platform misuse. The operation underscores the importance of digital forensics capabilities and international cooperation in investigating serious c",
       "image": null,
       "processedAt": "2026-10-16T11:03:56.553407+00:00"
-    },
-    {
-      "id": "art-7cded651",
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "summary": "A critical Linux kernel flaw called PwnEscape (CVE-2026-99999) has been discovered that allows virtual machines to access the host computer's memory, potentially exposing sensitive data. A security researcher successfully demonstrated this vulnerability against Vercel's cloud sandboxes, and the company has confirmed the issue. Since the vulnerability exists in the kernel's networking code rather than in individual cloud provider configurations, it affects a wide range of systems running affected Linux versions.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "linux-kernel",
-        "virtual-machine-escape",
-        "memory-leak",
-        "cloud-security",
-        "cve-2026-99999",
-        "pwnscape"
-      ],
-      "whyItMatters": "This vulnerability is critical because it breaks the fundamental security boundary between virtual machines and their host systems, allowing attackers to read sensitive data from the host. Since it's a kernel-level flaw rather than a provider-specific issue, it affects multiple cloud platforms and requires urgent patching across the industry. Organizations using Linux-based cloud infrastructure ne",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0Y0ZP5acV4vjjJV9at7yMnz0frJTAeLd3nGmqMIcifTwGoe2NsB7pDInUjGa6aocyqoM3o-NyXKpsfyy1LRdkH5UG67UVYC_lNZDYArvg-hkmtifcalWo67Mkl3A4_2qwXomi7iJURUjoiSlBdEWtJL5N63jfuMDjI7ewZHLlTZBXlkc4zqwyxKox7eE/s1600/pwnescape-main.jpg",
-      "processedAt": "2026-10-15T20:35:50.763066+00:00"
-    },
-    {
-      "id": "art-297f3889",
-      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-      "summary": "This week's cybersecurity threats include multiple critical vulnerabilities and attacks: Adobe RCE, DNS wallet theft targeting cryptocurrency users, NVIDIA container escape allowing unauthorized access, and a self-healing backdoor that persists through remediation attempts. The article highlights how attackers exploit small permission gaps, abuse trusted authentication methods, and repurpose legitimate tools for malicious purposes.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "adobe-rce",
-        "dns-attack",
-        "nvidia-container-escape",
-        "self-healing-backdoor",
-        "privilege-escalation",
-        "authentication-abuse"
-      ],
-      "whyItMatters": "This collection of threats demonstrates active exploitation across multiple attack vectors—from remote code execution to supply chain vulnerabilities and persistent backdoors—requiring immediate patching and defense updates. Organizations must prioritize both system hardening and behavioral monitoring to detect attacks that bypass traditional remediation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8jHVMYXIjddaTrqHbBuPm3mQ6G_g8qlALwitmiIRM9OplZpPxLPDFet7ySOV0OVxPj6cW1oz0K6rydDvGYQGalR1jSt10bz8kti4dWnM0d3NnUBjuymD77_cReujy6AXmFgJgQQvl2qeICur3VHf5vYyOrxz8OFM-bEunzmK9PGDzCzzTVFVEdQyswYho/s1600/threatsday-oct.jpg",
-      "processedAt": "2026-10-15T20:35:53.182881+00:00"
-    },
-    {
-      "id": "art-4c385424",
-      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
-      "summary": "Candiru, an Israeli spyware vendor, infected devices at Al Jazeera through malicious code hidden in online advertisements that executed automatically without requiring user interaction. The attack leveraged zero-click exploitation, where ads loaded invisibly in the background and deployed malicious payloads the moment they appeared on screen. Researchers at Citizen Lab discovered and traced these sophisticated targeting attacks against the news organization.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "zero-click-exploit",
-        "spyware",
-        "candiru",
-        "malvertising",
-        "targeted-attack",
-        "al-jazeera"
-      ],
-      "whyItMatters": "This attack demonstrates a critical threat vector where legitimate advertising networks become weaponized delivery mechanisms for government-grade spyware without requiring user clicks or awareness. Organizations and individuals cannot adequately defend themselves when malicious code executes silently through standard web content, making this a systemic risk to media outlets, journalists, and any ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgE0PuxlZklu67SsXNfh_vZefiytkMx159npHL_6Ln3dNT0yxzyYE55zZU5SMOFGk39ZqhfWzXpYQfXdoZB0gGYdkoPu3cNactAPL9ZuCWdb_v4Hp4ZkoBLtEnzBovntpudGiQZvIwTucBgDRwNzfVR5SNybyZvTANvdqsDPjHVoUQcV3hrBNm0-YMvZK0/s1600/spyware-ads.jpg",
-      "processedAt": "2026-10-15T20:35:56.275571+00:00"
-    },
-    {
-      "id": "art-6d88fa88",
-      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
-      "summary": "A threat actor group called Silent Lynx has been conducting coordinated attacks against government agencies in CIS countries using multiple infection methods. The campaign, active since mid-2025, leverages weaponized documents, malicious downloaders, and specially crafted WinRAR files to deliver reverse shells for unauthorized system access. This multi-vector approach demonstrates sophisticated tactics designed to infiltrate critical government infrastructure.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "winrar-exploitation",
-        "reverse-shell",
-        "government-targeting",
-        "multi-stage-malware",
-        "cis-region",
-        "macro-exploit"
-      ],
-      "whyItMatters": "This attack demonstrates active exploitation of known vulnerabilities against high-value targets with potential impact on national security and critical infrastructure. Organizations must urgently patch WinRAR systems and implement controls against macro-enabled documents and suspicious PowerShell execution to prevent similar compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjX-Vi04Qyk2-RKyXrnolcZ8TTBRKY43kIB_B7l-1Na3Xta_ed00DJtXclvIdp65s6Sdf3ksabzWKXmYTmKwx9xAlROi6eas704naXFtyx93xru04krAQ9kViM9rjKSgKhdMR0weIs4xOd7htm_gI_7CLg-N16wjCKt59vAoC-3UpMFJf8QawlMkfpRh745/s1600/winrar-hacker.jpg",
-      "processedAt": "2026-10-15T20:35:59.000769+00:00"
-    },
-    {
-      "id": "art-ebe896e1",
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
-      "summary": "A Traffic Distribution System called Help TDS has been linked to a Russian affiliate program named Hotejka, which distributes tech support scams across over 20,000 compromised Cloudflare Pages domains. The system has been operating since at least 2017, using PHP templates installed on hacked websites to redirect victims toward fraudulent support services. This operation appears to be a rebranding of an earlier monetization scheme called ROI777.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "traffic-distribution-system",
-        "tech-support-scam",
-        "compromised-domains",
-        "cloudflare-abuse",
-        "affiliate-fraud",
-        "russian-cybercrime"
-      ],
-      "whyItMatters": "This widespread TDS operation demonstrates how attackers leverage legitimate cloud platforms at scale to conduct financial fraud affecting thousands of websites and potentially millions of users. Organizations need to monitor for compromised websites and implement detection strategies for malicious redirects, while users should recognize that legitimate tech support rarely redirects through suspic",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgp2enQeK-5xZuEo_rLQje9W_odynVLALJCEvTyaMSolIfwVonZGMceQWA8yq9xPMD-C_RkIp-V03EqEBVTM5yMq9IHWRRfSHxWWDS6kCJVcVAsmlFXt5wD2pK7Bk-A6iBIDFS2o811n8e48B1Psni_qvrkJ0HMXtJlhaLwx7jkxEG-e0XDgtcAMUMLiNFV/s1600/hot.jpg",
-      "processedAt": "2026-10-15T20:36:01.838409+00:00"
-    },
-    {
-      "id": "art-cce3f6e1",
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "summary": "Attackers are actively exploiting a critical vulnerability (CVE-2026-110447) in the Collabora Online app used with Nextcloud servers to gain unauthorized command execution and install backdoors. This flaw allows threat actors to take control of affected Nextcloud instances and maintain persistent access to compromised systems. Organizations running vulnerable versions of the richdocumentscode app are at immediate risk of compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "remote-code-execution",
-        "nextcloud",
-        "collabora",
-        "backdoor",
-        "active-exploitation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This represents an active, widespread threat to Nextcloud deployments with demonstrated exploitation in the wild. Critical RCE vulnerabilities that enable backdoor installation require immediate patching, as attackers can achieve full server compromise and maintain unauthorized access for data theft or further attacks.",
-      "image": null,
-      "processedAt": "2026-10-15T20:36:04.431927+00:00"
-    },
-    {
-      "id": "art-cefffe99",
-      "title": "Android gets AI defenses against messaging scams, fake calls",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
-      "summary": "Google has introduced artificial intelligence-powered security features for Android devices to protect users from scam messages and fraudulent calls. These new defenses use machine learning to identify and block malicious communications before they reach users. The protective tools are being gradually deployed to eligible Android devices to help reduce the impact of messaging and call-based fraud.",
-      "category": "Security Awareness",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "android",
-        "phishing-prevention",
-        "scam-protection",
-        "call-fraud",
-        "mobile-security"
-      ],
-      "whyItMatters": "Messaging scams and spoofed calls are among the most common attack vectors targeting mobile users, often leading to financial loss or credential theft. By implementing AI-based defenses at the OS level, Google reduces the burden on individual users to identify threats themselves. This proactive approach helps protect millions of Android users from evolving social engineering tactics that tradition",
-      "image": null,
-      "processedAt": "2026-10-15T20:36:06.987850+00:00"
-    },
-    {
-      "id": "art-5335f06c",
-      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
-      "summary": "Hackers have compromised D-Link and Ubiquiti devices across 34 countries in a proxyjacking campaign that steals users' internet bandwidth and resells it through commercial proxy networks. The attackers gain unauthorized access to these networking devices and exploit them as intermediaries to route traffic, effectively monetizing victims' connections without their knowledge. This type of attack transforms personal and business devices into unwilling participants in illegal proxy services.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "proxyjacking",
-        "iot-security",
-        "network-compromise",
-        "bandwidth-theft",
-        "device-hijacking",
-        "residential-proxy"
-      ],
-      "whyItMatters": "This attack directly impacts network performance and security for thousands of users while exposing them to legal liability if their hijacked connections are used for malicious activities. Organizations and individuals relying on D-Link and Ubiquiti equipment need immediate awareness and patching strategies to prevent unauthorized device access. The campaign demonstrates how IoT and networking dev",
-      "image": null,
-      "processedAt": "2026-10-15T20:36:10.098939+00:00"
-    },
-    {
-      "id": "art-d723bae2",
-      "title": "Fake Arch Linux packages push malware with root privileges",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
-      "summary": "Attackers uploaded fake versions of popular Arch Linux package management tools (yay and paru) to the Arch User Repository, tricking users into installing malware with root-level access. These counterfeit packages mimicked legitimate tools that many Arch Linux users rely on for package management. Once installed, the malicious packages could execute commands with the highest system privileges, potentially giving attackers complete control over affected systems.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "supply-chain-attack",
-        "linux-security",
-        "package-repository",
-        "privilege-escalation",
-        "social-engineering"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors exploit trust in open-source repositories and community-driven platforms to distribute malware at scale. Linux users who blindly trust AUR packages are at serious risk, and this highlights the importance of verifying package authenticity and understanding the dangers of unofficial repositories. The ability to gain root access makes this particularly dange",
-      "image": null,
-      "processedAt": "2026-10-15T20:36:13.154749+00:00"
-    },
-    {
-      "id": "art-af20d3a0",
-      "title": "Is AI pentesting as good as a human pentester?",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-15",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
-      "summary": "Artificial intelligence can find some vulnerabilities that human penetration testers might miss, but AI tools have significant weaknesses in areas like consistency, judging risk levels, and understanding a company's specific business needs. The article compares the advantages and disadvantages of using AI versus human experts for security testing and discusses how AI agents could become more effective at protecting systems.",
-      "category": "Vulnerabilities",
-      "severity": "Medium",
-      "tags": [
-        "ai-pentesting",
-        "vulnerability-assessment",
-        "penetration-testing",
-        "ai-security",
-        "human-vs-ai",
-        "security-testing"
-      ],
-      "whyItMatters": "Organizations considering AI pentesting tools need to understand that while AI can complement security testing efforts by finding certain vulnerabilities efficiently, it cannot fully replace human judgment in risk prioritization and business context evaluation. This helps security teams make informed decisions about how to best combine automated and manual testing approaches for comprehensive vuln",
-      "image": null,
-      "processedAt": "2026-10-15T20:36:15.677540+00:00"
     }
   ]
 }
