@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-10-25T11:02:11.291581+00:00",
+  "lastUpdated": "2026-10-25T20:04:22.903709+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-ffdb8398",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-25",
+      "originalUrl": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "summary": "Tailscale SSH contains unpatched vulnerabilities that could allow an attacker who has compromised a single device on a network to escalate privileges and gain root access to other connected servers. The attack exploits Tailscale SSH's port forwarding feature combined with the network's access control rules, meaning any device already authorized to communicate with a target could become a pivot point for attackers. This highlights the risk of lateral movement within VPN-based networks when security controls aren't properly configured.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "tailscale",
+        "privilege-escalation",
+        "ssh-vulnerability",
+        "lateral-movement",
+        "network-security",
+        "unpatched"
+      ],
+      "whyItMatters": "This vulnerability is practically significant because Tailscale is widely used for secure remote access and zero-trust networking in enterprises. A single compromised device can become a gateway to critical infrastructure, making privilege escalation risks a major concern for organizations relying on Tailscale for access control. Organizations need to review their Tailscale SSH configurations and ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbGR63RmXInXPwCVFZlGJSiGv5WQfLTWymToOPIYbKXfXniB7X4YDbTVK-28G4r3WfdelCr_2TRzhoYrIogcG_C9WjXEHaLhURIh_v5RyO5sBY8UKwQWbKUBrv_H5n5K7N4mz2WG3d5dldw_re-M5CgDDbVi_EhTqvB9P87fZJlODojj8ivvj-RwLUhpg/s1600/tailscale.jpg",
+      "processedAt": "2026-10-25T20:03:56.708575+00:00"
+    },
+    {
+      "id": "art-52769d39",
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-25",
+      "originalUrl": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "summary": "Hackers are exploiting two PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) to break into systems, and they're using AI tools to speed up their attacks after gaining initial access. In one attack on a European government agency, attackers obtained password hashes and multi-factor authentication details within just two hours of breaking in. This represents a dangerous combination of known security flaws and advanced AI-powered techniques that make post-breach activities faster and more effective.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "cve-2026-109618",
+        "cve-2026-109619",
+        "ai-assisted-attacks",
+        "government-targeting",
+        "post-exploitation"
+      ],
+      "whyItMatters": "This incident demonstrates that attackers are actively combining known vulnerabilities with AI automation to conduct faster, more sophisticated breaches against high-value targets like government entities. Organizations need to patch these PHP vulnerabilities immediately and monitor for signs of AI-assisted lateral movement and credential theft. The speed of compromise (two hours) highlights how c",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzK2qokKedMIUzd876s0EWaLDb7qw-DMzlFWKvmfgCzMKZ2KVvdpZ-298SoEm1_PP6aoEBc6q1LAydnANGur1FbFNmXmhlo6zHtRFvgRcbx-LOoDoM_-JI-_7XkkM4r5q3LQH1SdfirarXTGeiu16d5YMDSeYs8tfJn5ITfRQ4DThbqkq66b4WdDQcOJqf/s1600/php2shell-exploit.jpg",
+      "processedAt": "2026-10-25T20:03:59.797748+00:00"
+    },
+    {
+      "id": "art-7e9df212",
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "summary": "AI agents deployed on corporate networks often operate with minimal oversight, storing sensitive credentials and accessing internal systems without proper governance or accountability. Organizations are treating these autonomous tools as harmless productivity software despite them posing the same risks as an unmonitored employee with extensive system access. This blind spot represents a significant gap in insider threat detection and control that most companies have not yet addressed.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "insider-threat",
+        "access-control",
+        "governance",
+        "credential-management",
+        "zero-oversight"
+      ],
+      "whyItMatters": "As AI agents become embedded in enterprise workflows, organizations face a critical blind spot where these tools operate with broad system access and credential storage but receive no security reviews or ownership accountability. This creates a new class of insider threat that traditional monitoring and access controls do not adequately capture, leaving organizations vulnerable to both malicious m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyT7lik0MCxUa_ALE00qK-x8qCQiM7doEPBK3sl90Y0J4N6zpBNzLI5ixKwtXItAzgHOIz9t-YerpeISJ7WcT7VJLyfWphEU4cHrm3CHpIwnsIcKT64fwNVkACsm7GxDnXqzqR4M5QXkLuUkUWxPEI5PhAI65_sXtcb2jW-0OhuVHC3n5vQnPVBrT_D5g/s1600/bit.jpg",
+      "processedAt": "2026-10-25T20:04:02.729392+00:00"
+    },
+    {
+      "id": "art-42f2b8da",
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "summary": "Arista discovered a critical SQL injection vulnerability in VeloCloud Orchestrator that allows attackers with read-only customer accounts to escalate their privileges to operator level, gaining complete control over SD-WAN networks. This zero-day flaw is actively being exploited in real-world attacks. The vulnerability poses a severe risk to organizations using VeloCloud for managing their network infrastructure.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "sql-injection",
+        "privilege-escalation",
+        "sd-wan",
+        "velo-cloud",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This vulnerability enables attackers to bypass access controls and gain full administrative control over enterprise SD-WAN networks using only low-level credentials, potentially allowing them to intercept traffic, modify network configurations, or deploy malware across connected infrastructure. Organizations relying on VeloCloud need to apply patches immediately as this flaw is currently being exp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5jLAiZnSHOwYGjf-F6s4HR4ileDOwAkHiX9NyW30mGUqSzgdwGVdTzCTYkgmeoGtTRaSVm-h2IBwvJ9xd84OU2t3YXd8hf5PwlGdjh6VlcYZoCNkx6Yt0FY_JlVcM3AtXI4LQyidnOE86NMVwOGcztaFtV2Qq21X1pRQi6jxiITnQIoO14XLiOWaufI/s1600/velo.jpg",
+      "processedAt": "2026-10-25T20:04:05.383138+00:00"
+    },
+    {
+      "id": "art-699ff61e",
+      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "summary": "eMudhra, an Indian certificate authority, is exiting the global SSL/TLS certificate business after researchers discovered that eight of its intermediate CA private keys were easily guessable and recoverable. The company decided to withdraw from this business segment and will replace affected customers' certificates with free alternatives from partner organizations. This incident highlights critical weaknesses in key generation and management practices at a trusted certificate authority.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "certificate-authority",
+        "ssl-tls",
+        "private-key-compromise",
+        "infrastructure-security",
+        "key-generation-failure",
+        "trusted-ca-breach"
+      ],
+      "whyItMatters": "Certificate authorities are foundational to internet trust infrastructure; compromised CA keys can be used to forge legitimate SSL/TLS certificates for any domain, enabling man-in-the-middle attacks at scale. This incident demonstrates that even trusted CAs can have catastrophic security failures in cryptographic key management, potentially affecting all customers who relied on eMudhra's certifica",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg",
+      "processedAt": "2026-10-25T20:04:08.530702+00:00"
+    },
+    {
+      "id": "art-c63373cc",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "summary": "Researchers discovered a sophisticated attack where a malicious markdown file named AGENTS.md, planted in a user's Downloads folder, was used to manipulate an AI coding agent into installing a harmful npm package. This attack demonstrates how threat actors can exploit the trust placed in AI development tools by embedding malicious instructions in seemingly innocent configuration files. The vulnerability exposes a new attack vector targeting the growing use of AI-powered coding assistants in software development workflows.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "supply-chain-attack",
+        "malware",
+        "social-engineering",
+        "npm-package",
+        "prompt-injection"
+      ],
+      "whyItMatters": "As AI coding agents become integral to modern software development, attackers are developing new techniques to compromise them through file-based manipulation rather than traditional code vulnerabilities. This attack highlights a critical gap in AI agent security where local files can be weaponized to bypass safety measures, potentially leading to widespread supply chain compromises if malicious p",
+      "image": null,
+      "processedAt": "2026-10-25T20:04:11.751433+00:00"
+    },
+    {
+      "id": "art-e14c4291",
+      "title": "Capcom confirms data breach affecting 11.7 million accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "summary": "Capcom, a major video game publisher, suffered a data breach that exposed personal information for over 11.7 million users of its CAPCOM ID membership service. Hackers gained unauthorized access to customer email addresses and associated account details. This incident highlights how even large, established companies can fall victim to cyberattacks that compromise millions of user records.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "capcom",
+        "customer-data",
+        "account-exposure",
+        "privacy-incident"
+      ],
+      "whyItMatters": "This breach demonstrates the widespread risk posed by compromised email addresses and account credentials, which can be used for phishing, identity theft, and further attacks. Users of CAPCOM ID services should change passwords and monitor accounts for suspicious activity, while organizations must recognize that scale and reputation do not guarantee security. The exposure of 11.7 million records u",
+      "image": null,
+      "processedAt": "2026-10-25T20:04:14.619107+00:00"
+    },
+    {
+      "id": "art-de9c4f5d",
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "summary": "Attackers successfully compromised the LiteLLM project on PyPI and distributed malicious Docker images containing credential-stealing malware. The malicious packages were designed to extract sensitive information including credentials, secrets, and environment variables from infected systems. This attack highlights the risk of supply chain attacks targeting popular open-source projects that developers rely on.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware",
+        "pypi-compromise",
+        "docker-images",
+        "credential-stealer",
+        "open-source-security"
+      ],
+      "whyItMatters": "Supply chain compromises like this are particularly dangerous because they affect not just one organization but potentially thousands of developers and applications that depend on the compromised package. The theft of credentials and secrets can lead to lateral movement within victim organizations and broader infrastructure compromise. This incident underscores the importance of verifying package ",
+      "image": null,
+      "processedAt": "2026-10-25T20:04:17.115380+00:00"
+    },
+    {
+      "id": "art-58c0fe14",
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "summary": "Arista Networks has released security patches for an actively exploited zero-day vulnerability in VeloCloud Orchestrator (VCO) On-Prem deployments. This vulnerability is already being used in real-world attacks, making immediate patching essential for affected organizations. The flaw impacts network infrastructure management systems that many enterprises rely on for cloud connectivity and SD-WAN services.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "arista-networks",
+        "velocloud",
+        "active-exploitation",
+        "patch-now",
+        "network-infrastructure"
+      ],
+      "whyItMatters": "Active exploitation of zero-day vulnerabilities means attackers are already targeting systems in the wild, making this an urgent priority for any organization using VeloCloud Orchestrator On-Prem. Delayed patching could expose critical network infrastructure to compromise, potentially leading to data theft, service disruption, or lateral movement within enterprise networks. This highlights the imp",
+      "image": null,
+      "processedAt": "2026-10-25T20:04:19.852408+00:00"
+    },
+    {
+      "id": "art-5db20855",
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "summary": "Microsoft has provided guidance for IT administrators to re-enable the deprecated Exchange Web Services (EWS) API in Exchange Online so that applications relying on this technology can resume functioning. The company retired EWS, causing existing applications to stop working, and this update offers a workaround for organizations affected by the change. This allows businesses to maintain compatibility with legacy applications while they transition to newer alternatives.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "exchange-online",
+        "api-deprecation",
+        "application-compatibility",
+        "cloud-security",
+        "microsoft-guidance",
+        "legacy-systems"
+      ],
+      "whyItMatters": "Many organizations depend on EWS-based applications for critical business functions, and sudden API retirement can disrupt operations and create security gaps if applications are left non-functional or improperly updated. Understanding how to safely re-enable deprecated services helps IT teams maintain business continuity while planning their migration to supported alternatives. Improper handling ",
+      "image": null,
+      "processedAt": "2026-10-25T20:04:22.903570+00:00"
+    },
     {
       "id": "art-f365c7f1",
       "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
@@ -827,213 +1036,6 @@
       "whyItMatters": "As AI agents become more prevalent in enterprise environments, they represent a new attack surface that can bypass traditional security controls by leveraging their legitimate permissions. Understanding and implementing protections like skill verification and runtime monitoring is essential for organizations deploying autonomous systems, as compromised agents can cause widespread damage while appe",
       "image": null,
       "processedAt": "2026-10-23T20:42:55.065327+00:00"
-    },
-    {
-      "id": "art-4ed05c34",
-      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
-      "summary": "A critical vulnerability (CVE-2026-112900) has been discovered in Pillow, Python's widely-used image processing library. The flaw allows attackers to execute arbitrary operating system commands by crafting a malicious image file, specifically an EPS image whose filename is passed unsanitized to Ghostscript. Since Pillow is extremely popular across web applications and data processing systems, this vulnerability poses an immediate threat to countless deployments.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "pillow-library",
-        "code-execution",
-        "cve-2026-112900",
-        "eps-images",
-        "patch-now",
-        "rce"
-      ],
-      "whyItMatters": "Pillow's widespread adoption means this vulnerability affects numerous production systems, from web servers to data analytics platforms. Attackers can exploit this flaw remotely by uploading a crafted image file, making it a high-priority threat requiring immediate patching. Organizations using Pillow need to update immediately to prevent potential compromise of their servers and sensitive data.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgGp9s38cCmrESabSZezAPkJaYoavpBM8Ehckei0ZrhKfBSoSXMyrWkzooakGExz1GBYVgi0izvW8wyKH2CEX7vpzLExRkK7uNW8wDdMzJ_k7NR8u6q-WA9e8Aoc19LNfJbFKgB6GkbAKbXW69_lOdM4sz4t5fmpKsLxHWKJPOugq5g_45Q5_WmCm_vA6U/s1600/python-image.jpg",
-      "processedAt": "2026-10-23T11:18:24.743693+00:00"
-    },
-    {
-      "id": "art-341877a8",
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
-      "summary": "Security researchers at Imperva discovered a critical vulnerability in Node.js that allows attackers to execute arbitrary code by sending specially crafted Brotli compression data to applications. The vulnerability, tracked as CVE-2026-111497, was successfully exploited on the official Node.js 24.22.0 build for Linux arm64 without requiring any special configuration or debugger access. This flaw demonstrates that popular server applications using Node.js could be compromised through a common data compression format.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "node.js",
-        "rce-remote-code-execution",
-        "brotli-vulnerability",
-        "cve-2026-111497",
-        "code-execution",
-        "server-compromise"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to millions of Node.js applications in production environments, as attackers can achieve remote code execution through a widely-used compression library without exploiting custom configurations. Organizations running affected Node.js versions must prioritize patching immediately to prevent potential server takeovers and data theft. The ease of exploitat",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDudJHAM27KiE-F4E5vX1WOgITTdawUaZrFoXUIrf7lscEHIl7fgGQY5Qo60bRxr-o7UKloYK1sp23i5cvWPpc6XXttZa8GFvYxqSV7pp0B6vdBTp0sIBCX8r8oC5CAXO1mdJfshaIpLFyrFDCm9HPiYyBZMECEcSHKzbVzOk_VpGL2kEQDjB1rNk21Y8/s1600/node2shell.gif",
-      "processedAt": "2026-10-23T11:18:28.028788+00:00"
-    },
-    {
-      "id": "art-2ceb566e",
-      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html",
-      "summary": "A critical vulnerability in x402 SDKs allowed malicious APIs to drain entire token balances from AI agents making automated payments. The flaw existed in the default client configuration, which didn't enforce spending limits on transactions until a fix was released in August 2026. This posed a significant risk to AI applications that automatically authorized payments without proper safeguards.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "sdk-vulnerability",
-        "token-theft",
-        "payment-security",
-        "malicious-api",
-        "spending-limits"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how design flaws in payment systems can expose AI agents to complete financial loss, especially when applications lack proper spending controls. As AI agents increasingly handle autonomous transactions, this highlights the urgent need for secure-by-default configurations and transaction verification mechanisms to prevent unauthorized fund drainage.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi1nl6HARmLzzb4BlklarhKxB1F2U6dwKebASj9-Ow-WI6otLzFoATEY-icF7OCAgwHqRzwNhs9jHY2S7e4ZGRHykrIzedvLxQlAyen6jQsOoY_L80gd0Lrjy3-3xzlHavaxahxsI1o13_r2MRRDwbQrtslkXfbITBGcp_736F1sPVq7dR8Rnq_JSVQP3A/s1600/ai-wallet.jpg",
-      "processedAt": "2026-10-23T11:18:30.566082+00:00"
-    },
-    {
-      "id": "art-fd30dee2",
-      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
-      "summary": "Attackers are attempting to exploit two newly discovered PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) to infect systems with a Mirai botnet variant called Potassium. Although millions of attacks have been launched, the exploitation attempts have largely failed, suggesting these flaws are more difficult to weaponize than initially expected. The vulnerabilities carry high CVSS scores of 9.2, indicating they could allow unauthenticated remote access if successfully exploited.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "php-vulnerability",
-        "botnet",
-        "mirai-variant",
-        "remote-code-execution",
-        "active-exploitation",
-        "cve-2026-109618"
-      ],
-      "whyItMatters": "This incident demonstrates that even high-severity vulnerabilities with widespread attack campaigns may have implementation barriers that limit real-world impact, but organizations still need rapid patching strategies. The targeting of PHP infrastructure shows attackers continue focusing on commonly deployed server technologies, making timely updates critical for web application security. Understa",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3SkRCDhjMsUS2FZ9ES40x39o7u2jdwMQDcq4NC75CsC2Xjji94ZZt_0Jgzdxmbf92n3razC07QvKJ-VT65axzIbXWoYrHytaQhNRBdYEMgmb1Fki-gR2NKY1TXuhpb9lcCemaPSqu8E0Q6KVczRNa97_7tj5Vyt0wngICj6GnWEHphW8fpaSybzKAa-pV/s1600/phpshell.jpg",
-      "processedAt": "2026-10-23T11:18:33.935834+00:00"
-    },
-    {
-      "id": "art-78ddb6ad",
-      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
-      "summary": "Meta has been ordered by a New Mexico court to pay $25 billion in penalties for privacy violations affecting 43 million users, stemming from the 2018 Cambridge Analytica scandal. The massive fine represents one of the largest privacy-related judgments against a tech company and highlights the long-term legal and financial consequences of data mishandling. This case demonstrates how historical data privacy breaches can result in substantial penalties years after the initial incident.",
-      "category": "Privacy",
-      "severity": "Critical",
-      "tags": [
-        "data-privacy",
-        "meta-facebook",
-        "cambridge-analytica",
-        "regulatory-penalties",
-        "user-data-protection"
-      ],
-      "whyItMatters": "This landmark judgment signals that major technology companies face severe financial consequences for privacy violations, potentially influencing how all companies handle user data going forward. The case demonstrates that regulators and courts are holding big tech accountable for historical breaches, making privacy compliance and data protection a critical business priority rather than just a tec",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj49OFtokFF7N2TVBrjY_XC7E-OBiaU7QI0bBuS8sRk2RCrhj7g_hQWeTxWJjF_fFyMXXSd6ZhiZc2M_K6Wq9-LSRnNzrWiL8eV0IXlA-iTrkt-UbQ8K6DMLYAjEqy1fOgxJkHiGerU_cRfBVIwhLLWGRiWUdp1Kc0cKZaGxRXz27_vWwuaQrDHppXS_N1Y/s1600/mark.jpg",
-      "processedAt": "2026-10-23T11:18:36.649101+00:00"
-    },
-    {
-      "id": "art-28910c4d",
-      "title": "Railway warns devs to rotate secrets after potential breach",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
-      "summary": "Railway, a cloud platform, detected suspicious activity in its systems and discovered that customer environment variables may have been compromised. The company issued an urgent notice asking all users to rotate their secrets immediately to prevent unauthorized access. This incident highlights the risks of storing sensitive configuration data in cloud environments.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "data-breach",
-        "credential-rotation",
-        "environment-variables",
-        "incident-response"
-      ],
-      "whyItMatters": "Environment variables often contain API keys, database credentials, and other secrets that attackers can use to access downstream systems and services. When a cloud platform storing these secrets is compromised, developers must act quickly to rotate credentials across their entire infrastructure to prevent lateral movement and further exploitation by threat actors.",
-      "image": null,
-      "processedAt": "2026-10-23T11:18:38.728399+00:00"
-    },
-    {
-      "id": "art-371d39c2",
-      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-      "summary": "Amazon's security team discovered that attackers began exploiting PHP2Shell vulnerabilities four days before official patches were released. This early exploitation indicates that cybercriminals had advance knowledge of the flaws and started launching attacks preemptively. The findings highlight the critical window of vulnerability that exists between when vulnerabilities are discovered and when patches become available to the public.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "php2shell",
-        "zero-day",
-        "vulnerability-exploitation",
-        "patch-delay",
-        "active-attacks",
-        "threat-intelligence"
-      ],
-      "whyItMatters": "This case demonstrates that attackers often have access to vulnerability information before official patches are released, creating a dangerous pre-patch exploitation window. Organizations running affected systems were vulnerable without knowing it, making rapid patching and threat monitoring essential. Understanding the timeline of exploitation helps security teams prioritize patch deployment and",
-      "image": null,
-      "processedAt": "2026-10-23T11:18:41.440312+00:00"
-    },
-    {
-      "id": "art-8c75ec79",
-      "title": "GitLab warns of new max severity code execution vulnerability",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-      "summary": "GitLab has released security patches to fix a critical vulnerability in its Regular Expression Compiler that could allow attackers to execute arbitrary code remotely on affected servers. This maximum-severity flaw poses an immediate risk to organizations using vulnerable versions of GitLab. Users are strongly advised to apply the patches without delay to prevent potential system compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "gitlab",
-        "code-execution",
-        "remote-attack",
-        "patch-now",
-        "critical-vulnerability",
-        "regex-compiler"
-      ],
-      "whyItMatters": "This vulnerability represents an urgent threat because it allows unauthenticated remote code execution, meaning attackers can take full control of GitLab servers without needing valid credentials. Organizations relying on GitLab for code repositories and CI/CD pipelines face potential data theft, service disruption, and supply chain attacks if systems remain unpatched. Immediate patching is essent",
-      "image": null,
-      "processedAt": "2026-10-23T11:18:43.705794+00:00"
-    },
-    {
-      "id": "art-73c913f5",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-19",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "summary": "Federal investigators have discovered that executives at ransomware negotiation firms may have been secretly working with the ShinyHunters hacking group, which recently stole sensitive FBI data. One U.S.-based executive allegedly helped operate a website used to extort victims and pressure them into paying ransoms. This investigation reveals potential corruption within firms that are supposed to help victims negotiate with cybercriminals.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "shiny-hunters",
-        "fbi-breach",
-        "extortion",
-        "insider-threat",
-        "law-enforcement"
-      ],
-      "whyItMatters": "This case exposes a serious conflict of interest where negotiation intermediaries may be colluding with threat actors, undermining victim protection and law enforcement efforts. When trusted intermediaries are compromised, victims lose confidence in negotiation processes and organizations face increased risks of exploitation. The involvement of FBI data theft elevates this to a national security c",
-      "image": null,
-      "processedAt": "2026-10-23T11:18:46.400648+00:00"
-    },
-    {
-      "id": "art-04bae830",
-      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "summary": "The United Kingdom has sanctioned Cryptomus, a cryptocurrency platform used to launder money for cybercriminals and help Russia evade financial penalties. The platform allegedly facilitates payments for ransomware attacks, drug trafficking, darknet markets, and other illegal cyber activities. These sanctions aim to disrupt the financial infrastructure that enables international cybercrime and helps hostile nations circumvent economic restrictions.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "cryptocurrency-laundering",
-        "ransomware-payments",
-        "financial-sanctions",
-        "cybercrime-infrastructure",
-        "russia-evasion"
-      ],
-      "whyItMatters": "Cryptomus represents a critical vulnerability in the global financial system that cybercriminals exploit to monetize attacks and remain anonymous, making it harder for law enforcement to track and stop ransomware operations. Understanding how these payment platforms operate is essential for organizations to recognize when their data may be at risk of extortion. Government sanctions against such se",
-      "image": null,
-      "processedAt": "2026-10-23T11:18:49.471488+00:00"
     }
   ]
 }
