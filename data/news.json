@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-10-24T19:53:50.421667+00:00",
+  "lastUpdated": "2026-10-25T11:02:11.291581+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-f365c7f1",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-25",
+      "originalUrl": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "summary": "OpenAI is implementing a security measure to train its most advanced AI models without live internet access to reduce risks during reinforcement learning processes. This decision reflects concerns about AI system safety and the potential for advanced models to behave unpredictably when connected to external networks. The move represents a precautionary approach to frontier AI development, prioritizing containment and monitoring over real-time internet connectivity during critical training phases.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "model-training",
+        "sandbox-isolation",
+        "frontier-ai",
+        "security-containment",
+        "reinforcement-learning"
+      ],
+      "whyItMatters": "This demonstrates that leading AI organizations recognize serious risks in training advanced models, including potential VM escapes and unauthorized cross-sandbox communication that could compromise security infrastructure. Organizations deploying or relying on AI systems need to understand that even frontier model developers consider air-gapped training necessary, highlighting the emerging threat",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSwuCxStjU_WIIOJ5dEqVxFVQeLfJevQdmLoYLBiXsduAvosK7VfzyduIRRmiOcpl2lQlSdEoInwRkfOnR4devMGT6oI_Limrjcx8yLFsTRau7CBK76cGIMXxC916OKHtwALlELG-nPljBDVIPl2aPDOZTYqkTr6AyZMyFQ6hwUFdfx5Tr2cz8KpDSlb9j/s1600/ai-agents.jpg",
+      "processedAt": "2026-10-25T11:01:45.783150+00:00"
+    },
+    {
+      "id": "art-f155e5d1",
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "summary": "Railway, a Platform-as-a-Service provider, discovered unauthorized access to systems containing customer environment variables, which store sensitive configuration data. An intruder potentially obtained both encrypted and decrypted versions of these secrets for some users. The company is urging affected customers to rotate their credentials immediately to prevent misuse.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "cloud-security",
+        "credential-compromise",
+        "environment-variables",
+        "paas-security",
+        "incident-response"
+      ],
+      "whyItMatters": "Environment variables often contain API keys, database credentials, and authentication tokens that attackers can use to gain deeper access to customer applications and infrastructure. This breach highlights the critical importance of securing secrets management in cloud platforms and the need for rapid credential rotation to limit exposure window. Organizations relying on PaaS providers must under",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLi5yuPoipCkAL6joBpDL5htNkHWi_rU5i5dAyspyjSrdDORYgV_LRNO4pVG_c1P0S7bnZFWHft8recxLiFRSiLsPxx3ZL-v8fzlYRuzxxG_P_ocKdJbGWzXFtoEjPszyKNUOS86HCylk0LPV1YZS7U9qZcfonBVeLEuRKioCXVbbzUySEvWGI0IaBJ8U/s1600/rail.jpg",
+      "processedAt": "2026-10-25T11:01:48.566068+00:00"
+    },
+    {
+      "id": "art-dc7b22fd",
+      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
+      "summary": "OpenCode, an AI coding agent, contained a vulnerability that allowed malicious or compromised MCP (Model Context Protocol) servers to execute code on developers' Windows or WSL systems during sign-in with the developer's own permissions. This flaw could enable attackers to gain unauthorized access to a developer's machine through a compromised third-party tool connection. Anomaly released a patch in version 1.18.33 to fix this security issue.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "opencode",
+        "mcp-server",
+        "code-execution",
+        "windows-security",
+        "privilege-escalation",
+        "patch-available"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how AI coding tools that integrate with external services can become attack vectors if their connection security is weak, potentially compromising developer environments that typically have access to sensitive source code and credentials. Developers relying on OpenCode need to update immediately to prevent attackers from gaining control of their machines during auth",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUmn80CiQx35trhXNaAwJka_Z3T-PKQrz__dlAW1GDDVwfrk2WHit1W6GZBaaAT-a9SrmqqauUhw0raYLEOS3Vv-LNxdu0a2bmJebJWVj5mBadfgxN1N1yVREXflCcV7cPmShswRE8PC0qspFY82MDEKe8MJImYVqJCBYLwTLpCHM1IzjDX7KsOAYs7tc/s1600/opencode-mcp.jpg",
+      "processedAt": "2026-10-25T11:01:51.685614+00:00"
+    },
+    {
+      "id": "art-63da70ee",
+      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
+      "summary": "LiteLLM, an AI gateway platform, discovered that attackers compromised its release pipeline and published a malicious Python package (version 1.107.0) containing malware to both PyPI and Docker Hub. The breach appeared to involve a leaked GitHub token found in system logs, allowing threat actors to bypass multiple security controls. This incident highlights how supply chain attacks can compromise widely-used development tools and impact numerous downstream users.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-distribution",
+        "credential-theft",
+        "backdoor",
+        "pypi-compromise",
+        "github-token-leak"
+      ],
+      "whyItMatters": "This attack demonstrates a critical supply chain vulnerability where attackers can inject malicious code into popular package repositories used by thousands of developers. Compromised credentials in logs bypassing security controls underscore the importance of proper secret management and access control in CI/CD pipelines. Organizations relying on LiteLLM or similar packages need to audit their de",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiEKKMESHBCMBHXA8Yf_clmAeFQXSdaKTEz0t_6RDzj1zXcwiPxA4gy2MPmftM6vyCkoG7OsCZJ2a8t7xJe1qbn3tEWRZfVgStzQVJy0ZfwEkjhg6-A34iT3XnQG7nYku04cWbIaHwkQmuDVghCeJBx5xJcbtozsyD3Genw4wyxFtgWIVD-rRGRLMBKoq2/s1600/litellm-breach.jpg",
+      "processedAt": "2026-10-25T11:01:54.731295+00:00"
+    },
+    {
+      "id": "art-abacd585",
+      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-22",
+      "originalUrl": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
+      "summary": "Node.js released security patches on October 21 addressing 10 vulnerabilities across its three supported versions (22.x, 24.x, and 26.x). The most critical flaw is a bug in the bundled Brotli decompression code that could allow attackers to execute arbitrary code remotely on vulnerable systems. Users running any of the supported Node.js versions should apply these updates immediately to prevent potential exploitation.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "node.js",
+        "remote-code-execution",
+        "brotli-decoder",
+        "patch-now",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability affects all currently supported Node.js versions and allows remote code execution, meaning attackers could potentially compromise systems without user interaction. Organizations running Node.js applications need to prioritize patching immediately to prevent active exploitation, as the attack vector (decompression) is commonly used in web communications.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFwR_FE94PTthun36oXfrSIiYx7N-Hb3Ww1w2gFs6x6qs0mML2v_TmYZmgqYKxB6VlMBzmIQksNdHldgX-UxykDBNwnszmBuB7IZWyWJhxei65NJlOImUWde5tYzB7D94dmieFBGhFNVAt3bL4qlhXkl4o3uw362QKgJpk37xutyRmM5bB3sHR8XMC3bc/s1600/nodejs-rce.jpg",
+      "processedAt": "2026-10-25T11:01:57.186484+00:00"
+    },
+    {
+      "id": "art-1c68fcf8",
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "summary": "A critical pair of vulnerabilities in PHP software is affecting approximately 70 percent of websites worldwide, potentially causing widespread service outages and website errors today. Attackers can exploit these flaws to gain complete control of vulnerable servers, and security experts have confirmed that working exploits are already being actively used in real-world attacks. Website administrators need to apply urgent updates to their core PHP software to prevent their sites from being compromised.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "patch-now",
+        "server-compromise",
+        "active-exploitation",
+        "widespread-impact"
+      ],
+      "whyItMatters": "This represents an immediate and widespread threat affecting the majority of websites on the internet, with confirmed active exploitation meaning attackers are already targeting vulnerable systems. Organizations must prioritize patching immediately to prevent complete server takeover and service disruption. The scale of impact—affecting 70% of websites—makes this one of the most critical vulnerabi",
+      "image": null,
+      "processedAt": "2026-10-25T11:02:00.154424+00:00"
+    },
+    {
+      "id": "art-29b5f476",
+      "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-23",
+      "originalUrl": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+      "summary": "Cybercriminals are increasingly using social engineering tactics combined with artificial intelligence to trick help desk staff into granting unauthorized access, rather than relying on traditional malware attacks. By impersonating legitimate users and leveraging AI to sound convincing, threat actors are exploiting the human trust factor that organizations depend on for their security operations. This shift demonstrates that physical breaches and data theft no longer require sophisticated technical exploits when psychological manipulation proves more effective.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "social-engineering",
+        "help-desk-attacks",
+        "ai-assisted-fraud",
+        "trust-exploitation",
+        "access-control"
+      ],
+      "whyItMatters": "This represents a significant shift in attack methodology that bypasses technical security controls entirely, making it harder to detect with traditional security tools. Organizations must recognize that human-centered defenses like verification protocols and staff training are now as critical as firewalls and intrusion detection systems.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-25T11:02:03.028751+00:00"
+    },
+    {
+      "id": "art-3831e0f5",
+      "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-23",
+      "originalUrl": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
+      "summary": "Critical vulnerabilities in PHP have been discovered that can allow attackers to execute malicious code on affected systems. Unlike standard software updates, fixing these PHP flaws requires careful assessment and planning rather than simple automatic patching. Security experts recommend organizations evaluate their exposure to these vulnerabilities and implement protective measures tailored to their infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "patch-management",
+        "code-execution",
+        "server-security",
+        "critical-flaw"
+      ],
+      "whyItMatters": "PHP powers a significant portion of web infrastructure, so unpatched critical flaws pose widespread risk across many organizations. The complexity of patching these vulnerabilities means administrators cannot rely on automatic updates and must take deliberate action to protect their systems. Understanding the specific risks and remediation steps is essential for preventing remote code execution at",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte307a3bd1a7bcb35/6adb9c8d2d5b887cc408cb52/Globe_bandages-zennie-Getty.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-25T11:02:05.613001+00:00"
+    },
+    {
+      "id": "art-363a0e6b",
+      "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-23",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+      "summary": "Attackers are leveraging publicly available AI models to launch large-scale cyberattacks with minimal financial investment. One campaign targeted over 100 websites using open-source AI tools, while another gained complete control of a domain for just $12. This trend signals that cyber defense strategies need to evolve to counter AI-enabled threats that are becoming faster and cheaper to execute.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-powered-attacks",
+        "open-weight-models",
+        "domain-compromise",
+        "cost-effective-exploitation",
+        "threat-escalation"
+      ],
+      "whyItMatters": "The democratization of AI tools means attackers with minimal resources can now orchestrate sophisticated, large-scale campaigns that were previously only accessible to well-funded threat actors. Organizations must immediately reassess their defense posture and implement AI-aware security strategies to counter this emerging threat landscape.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7023e63db2b06bb/6adb780c560f54c5dbf647e8/economics-cybersecurity-Ton_Wanniwat-shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-25T11:02:08.162669+00:00"
+    },
+    {
+      "id": "art-ffd86367",
+      "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+      "source": "Dark Reading",
+      "publishedDate": "2026-10-23",
+      "originalUrl": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+      "summary": "The Caribbean region is experiencing a growing cybersecurity crisis where cyber threats are spreading faster than security solutions can be deployed and patched. This gap between exploit development and defensive measures is creating a ripple effect that puts businesses and systems far beyond the Caribbean at risk. The article highlights how regional vulnerabilities can quickly become global security problems when attackers find unprotected entry points.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "caribbean-cyber-risk",
+        "vulnerability-management",
+        "exploit-acceleration",
+        "patch-lag",
+        "global-impact",
+        "regional-security"
+      ],
+      "whyItMatters": "This demonstrates how cybersecurity is interconnected globally—weaknesses in one region create attack vectors that threaten worldwide infrastructure and systems. Organizations need to understand that regional security gaps can expose their own networks to compromise, making it essential to monitor and support security practices beyond their immediate geography. The article underscores the critical",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9c2c56022ab6d6c2/6ada53fbcca51d530a712e5f/Caribbean-FrankRamspott-Getty-1627410191.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-10-25T11:02:11.291457+00:00"
+    },
     {
       "id": "art-d69d9de2",
       "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
@@ -829,213 +1034,6 @@
       "whyItMatters": "Cryptomus represents a critical vulnerability in the global financial system that cybercriminals exploit to monetize attacks and remain anonymous, making it harder for law enforcement to track and stop ransomware operations. Understanding how these payment platforms operate is essential for organizations to recognize when their data may be at risk of extortion. Government sanctions against such se",
       "image": null,
       "processedAt": "2026-10-23T11:18:49.471488+00:00"
-    },
-    {
-      "id": "art-2a45f385",
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
-      "summary": "Organizations are deploying AI agents on their networks that operate with minimal oversight, storing sensitive credentials and accessing internal systems without proper authorization controls. These unmonitored tools pose significant security risks because they function similarly to privileged insider accounts but receive far less scrutiny. The article raises concerns about treating productivity tools with dangerous access levels differently than human employees with equivalent permissions.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-agents",
-        "insider-threat",
-        "access-control",
-        "credential-management",
-        "ai-security",
-        "oversight"
-      ],
-      "whyItMatters": "Unmanaged AI agents represent a blind spot in enterprise security posture—they can exfiltrate data, move laterally across networks, and access sensitive systems without detection or accountability. This emerging threat requires organizations to rethink how they govern AI tools and implement controls equivalent to those used for human privileged access. Without proper oversight frameworks, business",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgyT7lik0MCxUa_ALE00qK-x8qCQiM7doEPBK3sl90Y0J4N6zpBNzLI5ixKwtXItAzgHOIz9t-YerpeISJ7WcT7VJLyfWphEU4cHrm3CHpIwnsIcKT64fwNVkACsm7GxDnXqzqR4M5QXkLuUkUWxPEI5PhAI65_sXtcb2jW-0OhuVHC3n5vQnPVBrT_D5g/s1600/bit.jpg",
-      "processedAt": "2026-10-22T20:54:25.426528+00:00"
-    },
-    {
-      "id": "art-0c789bee",
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "summary": "Arista has disclosed a critical zero-day SQL injection vulnerability in VeloCloud Orchestrator, the central management platform for SD-WAN networks. Attackers are actively exploiting this flaw to escalate privileges from read-only customer accounts to full operator control. This vulnerability poses a significant risk to organizations using VeloCloud for network management, as compromised accounts could lead to unauthorized network access and control.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "sql-injection",
-        "velocloud",
-        "privilege-escalation",
-        "sd-wan",
-        "active-exploitation"
-      ],
-      "whyItMatters": "This vulnerability directly impacts network infrastructure security since VeloCloud Orchestrator is a critical management system for SD-WAN deployments. Active exploitation means attackers are already weaponizing this flaw, making immediate patching essential for organizations using Arista VeloCloud to prevent network compromise and unauthorized access to sensitive network operations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEio5jLAiZnSHOwYGjf-F6s4HR4ileDOwAkHiX9NyW30mGUqSzgdwGVdTzCTYkgmeoGtTRaSVm-h2IBwvJ9xd84OU2t3YXd8hf5PwlGdjh6VlcYZoCNkx6Yt0FY_JlVcM3AtXI4LQyidnOE86NMVwOGcztaFtV2Qq21X1pRQi6jxiITnQIoO14XLiOWaufI/s1600/velo.jpg",
-      "processedAt": "2026-10-22T20:54:27.992794+00:00"
-    },
-    {
-      "id": "art-aa34abca",
-      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
-      "summary": "eMudhra, an Indian certificate authority, is exiting the global SSL/TLS certificate business after researchers discovered that eight of its intermediate CA private keys were easily guessable and could be recovered. The company's board made this decision within days of the security incident being reported. eMudhra plans to replace affected certificates for customers at no cost through partner certificate authorities.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "certificate-authority",
-        "ssl-tls",
-        "private-key-compromise",
-        "ca-security",
-        "cryptographic-weakness"
-      ],
-      "whyItMatters": "Compromised intermediate CA keys undermine the entire trust infrastructure of the internet's SSL/TLS ecosystem, allowing attackers to forge valid certificates for any domain and intercept encrypted communications without detection. This incident highlights how weaknesses in certificate authority security directly threaten the security of millions of websites and users relying on those certificates",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5DGeZCzWnHOoA87UbpfzGUlpU9xBK1x5tJsYlWOoKtyEkTRjaN4cW_lMOKdtiSXVPhVMd6JhOMRhvFOxvn853LcLaCBSNK-_m4CDIDGt048SdHQQqu63ZSZ09Ymc3UhqD_TZoLaCM6eIJL6TSYbBVINceAi4paPvjxJ4i9uN3CKZQ2s5bT4Dc_jAcv8I/s1600/ssl.jpg",
-      "processedAt": "2026-10-22T20:54:30.990203+00:00"
-    },
-    {
-      "id": "art-a2922689",
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "summary": "Multiple critical security incidents have emerged this week affecting widely-used software and infrastructure, including remote code execution vulnerabilities in PHP and GitLab, serious Linux security bugs, compromised digital certificates from eMudhra, and a Node.js vulnerability. Additionally, a hacked LiteLLM release, stolen passwords, and hundreds of hijacked Tor relays have compromised user security across various platforms. The combination of these diverse threats demonstrates how multiple attack vectors are simultaneously threatening both developers and end users.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "rce-vulnerability",
-        "critical-patches",
-        "infrastructure-threat",
-        "multiple-exploits",
-        "supply-chain-risk"
-      ],
-      "whyItMatters": "This week's cascade of critical vulnerabilities spanning PHP, GitLab, Linux, and Node.js represents an active, widespread threat requiring immediate patching across organizational infrastructure. The compromised certificates and hijacked infrastructure suggest attackers are exploiting multiple attack vectors simultaneously, making this a high-priority week for security teams to prioritize remediat",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjt9NuQgzmDAqircHtb2OEO9jXuNXIfpmc6cywt44gLVoKRSyrTtwqh2DaQkZ_BCrux5hLbZ9-uU9fR7Q6oFE7cjYOJB6aF1zqIJrrgT9A5RVRZguNYHZCk7-LBEAY7GxyR9KoCwwdPF9UowRvnZBvSN4X24RJXEQBRg3F1Mi5ktvXfNWWsUXlVnHLUmYd6/s1600/threatsday-oct-main.jpg",
-      "processedAt": "2026-10-22T20:54:33.824196+00:00"
-    },
-    {
-      "id": "art-712252ba",
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-      "summary": "Two critical remote code execution vulnerabilities have been discovered in Linux's KSMBD kernel SMB server, both rated 9.0 in severity by security researchers. One flaw can be exploited before authentication is even required, making it especially dangerous. Kernel developers have not yet released fixes for these issues, leaving Linux servers running KSMBD vulnerable to attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "ksmbd",
-        "rce",
-        "linux-kernel",
-        "zero-day",
-        "smb-server",
-        "unpatched"
-      ],
-      "whyItMatters": "These vulnerabilities pose an immediate and severe threat to Linux servers because they enable unauthenticated remote code execution and have already been disclosed publicly without patches available. Organizations running KSMBD need to take urgent defensive action, as attackers now have detailed information about exploitable flaws that could compromise entire systems. The lack of mainline kernel ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdNNyKzD2udgIl0X434MI2ucEwGFB_B-QqyjMnMuvTfwZv7clEo3n0ASA_aEQtUmQ7wqPSREwq1Cvi3iQLtubfUkK7p017Q6SrliTkwHiJyhfDIzahdof71Mxs4LXqJWoLkAnwikxy2KmZ1pkMg5Qto-RwPnvQx71Ol4G7sO20eeVNr_pfstT2WbDg3Nk/s1600/linux-rce.jpg",
-      "processedAt": "2026-10-22T20:54:36.985270+00:00"
-    },
-    {
-      "id": "art-57f42447",
-      "title": "Capcom confirms data breach affecting 11.7 million accounts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-      "summary": "Capcom, a major video game company, experienced a significant security breach that compromised its CAPCOM ID membership service. Hackers gained unauthorized access to the accounts of over 11.7 million customers, stealing email addresses and other personal information. This incident highlights how even large, well-known companies can fall victim to cyberattacks targeting their customer databases.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "customer-data",
-        "account-compromise",
-        "gaming-industry",
-        "membership-service"
-      ],
-      "whyItMatters": "This breach affects millions of gamers and demonstrates the critical importance of securing customer databases, as compromised email addresses can be used for targeted phishing attacks or sold on the dark web. Organizations must implement strong access controls and monitoring to detect and prevent unauthorized access to sensitive customer information at scale.",
-      "image": null,
-      "processedAt": "2026-10-22T20:54:39.291087+00:00"
-    },
-    {
-      "id": "art-d2e6f26a",
-      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
-      "summary": "Attackers compromised the LiteLLM project's package repository on PyPI and released malicious Docker images containing malware designed to steal sensitive data. The malicious payload targets credentials, secrets, and environment variables from affected systems. This attack demonstrates how popular open-source projects can be hijacked to distribute information-stealing malware to thousands of developers.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware",
-        "pypi-compromise",
-        "docker-images",
-        "credential-theft",
-        "open-source-security"
-      ],
-      "whyItMatters": "This attack highlights the critical vulnerability of software supply chains—compromising a trusted package repository can instantly distribute malware to hundreds or thousands of developers and applications relying on that package. The theft of credentials and environment variables could grant attackers access to additional systems, databases, and cloud infrastructure, creating cascading security ",
-      "image": null,
-      "processedAt": "2026-10-22T20:54:41.829433+00:00"
-    },
-    {
-      "id": "art-c5b261b9",
-      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "summary": "Arista Networks has released security patches to address a zero-day vulnerability in VeloCloud Orchestrator (VCO) On-Prem that is actively being exploited by attackers. This flaw affects organizations using Arista's on-premises VeloCloud deployment and poses an immediate risk to network infrastructure. Companies using this software should apply the available updates urgently to protect their systems from ongoing attacks.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "arista",
-        "velocloud",
-        "patch-now",
-        "active-exploitation",
-        "network-infrastructure"
-      ],
-      "whyItMatters": "Active exploitation of zero-day vulnerabilities means attackers are already using this flaw against real organizations, making immediate patching essential to prevent compromise. VeloCloud Orchestrator is commonly used for network management and SD-WAN deployments, so this vulnerability could give attackers access to critical network infrastructure and sensitive data. Organizations must prioritize",
-      "image": null,
-      "processedAt": "2026-10-22T20:54:44.655832+00:00"
-    },
-    {
-      "id": "art-9cd69f3b",
-      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-      "summary": "Microsoft has provided guidance for IT administrators to re-enable the previously discontinued Exchange Web Services (EWS) API in Exchange Online. This allows organizations to restore functionality for applications that depend on EWS but have stopped working due to the API's retirement. The guidance helps businesses maintain compatibility with legacy and third-party tools that rely on this integration.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "exchange-online",
-        "ews-api",
-        "microsoft",
-        "api-deprecation",
-        "it-administration",
-        "application-compatibility"
-      ],
-      "whyItMatters": "EWS is critical for many enterprise applications and integrations, so its retirement can disrupt business operations if not properly managed. Providing re-enablement guidance helps organizations avoid service interruptions and maintain business continuity during API transitions. This addresses a practical challenge IT teams face when managing deprecated Microsoft services.",
-      "image": null,
-      "processedAt": "2026-10-22T20:54:47.130326+00:00"
-    },
-    {
-      "id": "art-f3b7c970",
-      "title": "Machine speed attacks require machine speed detection and response",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-      "summary": "Modern cyberattacks happen so quickly that attackers can steal credentials and begin stealing data within minutes, often before security teams even realize an attack is underway. The article highlights real-world examples like stolen GitHub tokens, fake AI installers, and multi-factor authentication phishing attacks that demonstrate how attackers move at machine speed. To keep up, organizations need automated detection systems and fast containment strategies rather than relying on manual human responses.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "credential-theft",
-        "automated-response",
-        "mfa-phishing",
-        "data-exfiltration",
-        "detection-speed",
-        "incident-response"
-      ],
-      "whyItMatters": "As attacks accelerate beyond human response times, organizations must shift from reactive to proactive security with automated detection and containment. Understanding the speed and methods of real-world attacks (like token theft and MFA bypass) helps security teams prioritize investment in faster tools and processes. Without machine-speed defenses, even well-resourced teams cannot prevent data lo",
-      "image": null,
-      "processedAt": "2026-10-22T20:54:50.157005+00:00"
     }
   ]
 }
