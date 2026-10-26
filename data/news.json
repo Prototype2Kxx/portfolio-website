@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-10-26T12:35:36.564609+00:00",
+  "lastUpdated": "2026-10-26T21:58:45.325080+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-6a8e0425",
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+      "summary": "Hackers have compromised 953 online stores, primarily running Magento, by injecting malicious JavaScript code into store pages since July 2025. This scanner-evading code runs invisibly in users' browsers when they visit infected sites, making it difficult for security tools to detect. The attack demonstrates how attackers can manipulate e-commerce platforms to distribute malware at scale without being easily caught.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "magento",
+        "javascript-injection",
+        "e-commerce",
+        "malware-loader",
+        "scanner-evasion",
+        "supply-chain"
+      ],
+      "whyItMatters": "This attack affects hundreds of legitimate businesses and their customers, putting payment card data and personal information at risk on a large scale. The scanner-evading techniques used demonstrate sophisticated evasion methods that traditional security tools may miss, making it harder for defenders to protect their systems. Organizations running Magento and similar platforms need to audit their",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdh3aURB79okzf_mo3sPzJy6vKRiWdPc4gyrE93xmMW-MRgYHrOuJ5yya0TpovJvi-2ol3GubNo5ir76ui-2jBo1jUvOd45Z8f98YeGVAECGcwgpRetuyxFxGWY8bBOB4a0G1H5YiYoYJ3Kd8YauFJGUIVTKYVHsLrvDElRe8sOuD4Y8CKMrAtCA6eJazr/s1600/m-code.jpg",
+      "processedAt": "2026-10-26T21:58:21.894835+00:00"
+    },
+    {
+      "id": "art-01e07960",
+      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+      "summary": "PHP released its second security update in five days to address CVE-2026-111497, a critical flaw in the Brotli compression library bundled with Windows packages for PHP 8.2 through 8.5. This vulnerability allows attackers to corrupt memory and potentially execute arbitrary code, particularly when the cURL extension automatically decompresses HTTP responses. Although automatic decompression is disabled by default, the flaw still poses a significant risk to systems that have enabled this feature.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "brotli-vulnerability",
+        "php-security",
+        "code-execution",
+        "windows-packages",
+        "cve-2026-111497",
+        "memory-corruption"
+      ],
+      "whyItMatters": "This vulnerability represents an active threat to PHP deployments on Windows, especially those using cURL with decompression enabled, making rapid patching essential. The fast succession of security updates indicates ongoing threats in widely-used web infrastructure, requiring system administrators to stay vigilant and apply patches promptly. Exploitation could lead to complete system compromise t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWGYEqFaRxRywsWzBt-2T2G_Jpdp4zy3iV7qI1alNGRaBf_8TMdzRQQb335GhASkVoXD3q9mGkiLjAog4ez9d7DHhl88lkNVvuhI74KiKZP0zZpb2O8yyqyDw12WoYTiGaq1AVfG9TfGcdNhP-DmRwuKJ4Pj4mr9rEo-TVLYxYSpmUogJUSFZFL_VaduQ/s1600/php-windows.jpg",
+      "processedAt": "2026-10-26T21:58:24.937004+00:00"
+    },
+    {
+      "id": "art-7f772153",
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+      "summary": "Hackers are exploiting Microsoft Teams' external chat feature to impersonate IT support staff and trick users into downloading malware or ransomware. Security researchers have identified a repeating pattern where attackers use temporary accounts and fake IT support personas to conduct these scams across hundreds of incidents. This social engineering approach takes advantage of users' trust in legitimate communication platforms.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "microsoft-teams",
+        "social-engineering",
+        "malware-delivery",
+        "ransomware",
+        "impersonation",
+        "it-support-scams"
+      ],
+      "whyItMatters": "This attack method is particularly dangerous because it exploits a widely-used business communication platform and relies on human psychology rather than software vulnerabilities, making it harder to detect with technical controls alone. Organizations need to educate employees about verifying IT support requests through official channels and implement policies restricting external Teams communicat",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGj3R5UeJnb_pAG2XH5cEGUzKbzeRHLNAES48EgHC8ssOnuDbDOqJA9ydPHJqmxYONu2lCeu42YOv_e_XA2RtX5jVGsMkQY0QAGrzoqmY4qU6NnWrPTfX0V-U68B9Z80KHLJvZDtUeSm4dvkp06oJ9JmgJvr7CDYZ-48fwAOENt31Lrcpr4M6O_4x6ovLZ/s1600/support.jpg",
+      "processedAt": "2026-10-26T21:58:27.375632+00:00"
+    },
+    {
+      "id": "art-45c37ac5",
+      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+      "summary": "Multiple critical remote code execution vulnerabilities have been discovered across various systems, with attackers actively scanning for and exploiting these flaws. A software supply chain compromise involving a leaked key has compounded the security crisis, leaving security teams overwhelmed with urgent patching demands. The widespread nature of these vulnerabilities demonstrates how quickly exploitation can spread when multiple critical bugs emerge simultaneously.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "remote-code-execution",
+        "rce",
+        "supply-chain",
+        "critical-vulnerabilities",
+        "active-exploitation",
+        "patching-urgency"
+      ],
+      "whyItMatters": "When multiple critical RCE vulnerabilities appear simultaneously alongside supply chain compromise, organizations face immediate and widespread risk of breach. Security teams must prioritize patching efforts strategically while dealing with active exploitation, making incident response coordination essential to preventing mass compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjztmxBbaYZEAd_HSv1heMQm8UuLym1h7XcN8NrgWjJmaoghOIR2O1rHwQzunUd9jlQn4R_8ft4Y0K9xLQOhs2xM8vVh1eHoEsZIFonHd7K6TA1cd0aIJ6jK-K2RNVBCwMfQwq7WWpuFtB8inWvubRjIEw_9fetsRFllw-fsAAnjCnpMCqFIL28ovMhJwbd/s1600/recap2monday.jpg",
+      "processedAt": "2026-10-26T21:58:29.854577+00:00"
+    },
+    {
+      "id": "art-19a3a507",
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+      "summary": "Wasmtime, a widely-used WebAssembly runtime, contains two critical security flaws that could allow attackers to break out of the sandbox that normally contains untrusted code. To exploit these vulnerabilities, an attacker would need to control a malicious WebAssembly module and have it compiled on a vulnerable Wasmtime version, with one flaw specifically targeting ARM64 processors. The maintainers have released patched versions to address these issues.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wasmtime",
+        "sandbox-escape",
+        "webassembly",
+        "arm64",
+        "patch-now",
+        "runtime-vulnerability"
+      ],
+      "whyItMatters": "Wasmtime is embedded in many applications and systems, so these sandbox-escape vulnerabilities could have widespread impact if exploited before patching. Organizations using Wasmtime need to immediately update to fixed versions to prevent attackers from breaking out of security boundaries and executing arbitrary code. This is particularly critical for systems processing untrusted WebAssembly code.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5xq9w5oCep_lu7UpdVExPO7yRQ1tMz0YkxljYR_LmwG3WKowZ2CtLPh4F6kASJ7Xu0xJKy4uVzlwj7fPEO3fgKUELS4BqUtDZvGh1P-iqRslXNCLdkcJMCBGSKvJeqrrkeZdfPO9Wmv_v2VqdYEZVavTHw-QHUhli9QYGVhASuSRt3DETy8JMBz1D-kE/s1600/wasm.jpg",
+      "processedAt": "2026-10-26T21:58:32.696997+00:00"
+    },
+    {
+      "id": "art-96cb663d",
+      "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+      "summary": "South Korean authorities arrested seven suspects involved in a major cybercrime ring that targeted over 90 organizations. The attackers used ARTEX AI, a pentesting framework, to carry out most of their attacks and stole approximately 8.2 million data records. This case highlights how legitimate security testing tools can be weaponized by criminals for large-scale data theft operations.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "ai-misuse",
+        "pentesting-tools",
+        "south-korea",
+        "organized-cybercrime",
+        "insider-threat"
+      ],
+      "whyItMatters": "This incident demonstrates that authorized penetration testing tools can become serious threats when misused by insiders or criminals, affecting organizational security strategies. The scale—90+ breached organizations and 8.2 million records—shows how coordinated cybercrime operations can cause widespread damage, making it essential for businesses to monitor tool usage and implement strict access ",
+      "image": null,
+      "processedAt": "2026-10-26T21:58:35.348517+00:00"
+    },
+    {
+      "id": "art-6a90c7d4",
+      "title": "OpenAI launches GPT-6.1 Terra with 3x faster AI agents, 50% lower pricing",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
+      "summary": "OpenAI has released GPT-6.1 Terra, a new artificial intelligence model designed to handle computer tasks, visual analysis, and coding work. The model operates three times faster than previous versions and costs approximately 50% less, making advanced AI capabilities more accessible to organizations. This development represents a significant shift in AI pricing and performance, which has implications for how businesses deploy AI-powered security tools and automation.",
+      "category": "AI Security",
+      "severity": "Low",
+      "tags": [
+        "ai-models",
+        "machine-learning",
+        "ai-deployment",
+        "pricing-changes"
+      ],
+      "whyItMatters": "As AI models become faster and more affordable, organizations must understand how these tools could be leveraged—both defensively for security automation and offensively by threat actors. The widespread adoption of capable, low-cost AI systems increases the need for security teams to evaluate AI-based risks in their infrastructure and plan defensive strategies accordingly.",
+      "image": null,
+      "processedAt": "2026-10-26T21:58:38.072321+00:00"
+    },
+    {
+      "id": "art-795b261c",
+      "title": "DreamHost forces password resets in ongoing \"incident\"",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/dreamhost-forces-email-ftp-sftp-password-resets-in-ongoing-incident/",
+      "summary": "DreamHost, a major web hosting provider, has forced password resets for email and FTP/SFTP users following a security incident that disrupted access to their File Manager interface. The company took this precautionary measure to protect user accounts from potential unauthorized access. While details remain limited, the incident highlights the importance of quick response protocols when hosting infrastructure is compromised.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "password-reset",
+        "account-security",
+        "hosting-provider",
+        "credential-compromise",
+        "access-disruption"
+      ],
+      "whyItMatters": "Hosting provider compromises directly impact thousands of websites and services that depend on their infrastructure, making this a significant supply-chain security concern. Forced password resets indicate potential credential exposure, requiring users to take immediate action to protect their accounts. This incident demonstrates why users should enable multi-factor authentication and monitor thei",
+      "image": null,
+      "processedAt": "2026-10-26T21:58:40.605650+00:00"
+    },
+    {
+      "id": "art-af93c514",
+      "title": "Critical 'HTTP2Shell' Brotli vulnerability triggers emergency patches",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-http2shell-brotli-vulnerability-triggers-emergency-patches/",
+      "summary": "A critical vulnerability called 'HTTP2Shell' has been discovered in Brotli, a compression library that is built into Node.js. This flaw could let attackers corrupt memory and steal sensitive information from affected systems. Emergency patches have been released to fix the issue and protect users from potential attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "http2shell",
+        "brotli",
+        "node-js",
+        "memory-corruption",
+        "patch-now",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "Since Brotli is embedded in Node.js, which powers countless web applications and servers, this vulnerability poses an immediate widespread risk to many systems. Attackers could potentially compromise applications and steal sensitive data if patches are not applied quickly. Organizations running Node.js environments need to prioritize updates to prevent exploitation.",
+      "image": null,
+      "processedAt": "2026-10-26T21:58:42.913594+00:00"
+    },
+    {
+      "id": "art-d2378b58",
+      "title": "Microsoft releases emergency .NET patches for critical Brotli flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-emergency-net-patches-for-critical-brotli-flaw/",
+      "summary": "Microsoft released emergency security updates for .NET to fix a critical vulnerability in the Brotli compression library, tracked under multiple names including Broccoli2Shell. This flaw poses a serious risk to systems using affected .NET versions and requires immediate patching to prevent exploitation.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "dotnet-vulnerability",
+        "brotli-flaw",
+        "emergency-patch",
+        "critical-update",
+        "compression-library"
+      ],
+      "whyItMatters": "Emergency patches indicate active threat potential and widespread affected systems, making this a priority for IT teams to deploy quickly. Unpatched .NET environments could be exploited by attackers, potentially leading to code execution or system compromise across many organizations relying on the framework.",
+      "image": null,
+      "processedAt": "2026-10-26T21:58:45.324920+00:00"
+    },
     {
       "id": "art-45b925e6",
       "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
@@ -831,213 +1037,6 @@
       "whyItMatters": "A massive patch release creates both opportunity and risk: while it closes critical security gaps, organizations face a real challenge in deploying updates quickly without breaking systems or applications. Delayed patching leaves companies vulnerable to attackers who exploit known but unpatched flaws, making efficient patch management a critical operational priority.",
       "image": null,
       "processedAt": "2026-10-24T19:53:50.421502+00:00"
-    },
-    {
-      "id": "art-6e057d4b",
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-24",
-      "originalUrl": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
-      "summary": "Between November 2025 and March 2026, Dutch security firm Eye Security deployed over 2 million updates to disable a dangerous background updater in Time4Popcorn, an abandoned Popcorn Time clone used for streaming pirated content. The updater posed a serious security risk because it could have been hijacked by attackers to remotely take control of infected computers and potentially build a botnet. This coordinated effort to remotely patch vulnerable systems without user consent demonstrates both the severity of the threat and the lengths security researchers will go to protect public infrastruc",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "botnet-prevention",
-        "remote-patching",
-        "malware-mitigation",
-        "abandoned-software",
-        "updater-vulnerability",
-        "mass-deployment"
-      ],
-      "whyItMatters": "This case illustrates how abandoned or pirated software can become a vector for large-scale botnet recruitment if left unpatched, and shows that security firms may take extraordinary measures to protect systems at scale. It highlights the critical importance of keeping software updated and avoiding unofficial or abandoned applications that no longer receive security support.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuy-T7iQPeiRqkJd7yhxd2WVQzxURRnLyHG9yz5fUXxIhjUW-bv_yAAt13dnTE1ecuh1w6cRjenRXL3In2b55rL22lXnBhpKrVvS9c5Qb6Bv0TeQPLeAXYoafNYnqYxYQwWnZBCO3e8ZW-HS8Y2GMbQuGz58-_wG7gT6Pcok3j53J4iiZ7jw6kLoGGtWU/s1600/popcorn.jpg",
-      "processedAt": "2026-10-24T10:38:18.246532+00:00"
-    },
-    {
-      "id": "art-1a04a056",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-24",
-      "originalUrl": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
-      "summary": "A critical memory-corruption vulnerability (CVE-2026-111497) has been discovered in Google's Brotli decoder, a compression tool used by numerous popular software including Bun, Python packages, and Envoy proxies. Attackers can exploit this flaw by sending specially crafted compressed data that overflows a buffer and corrupts program memory, potentially leading to remote code execution. This vulnerability affects a wide range of widely-used applications across different programming ecosystems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "brotli-decoder",
-        "memory-corruption",
-        "rce",
-        "buffer-overflow",
-        "cve-2026-111497",
-        "widespread-impact"
-      ],
-      "whyItMatters": "This vulnerability is critical because it affects fundamental compression libraries used across multiple ecosystems (Python, Node.js, Bun, Envoy), meaning a single unpatched flaw could compromise numerous applications simultaneously. The ability to achieve remote code execution through crafted input makes this an urgent threat requiring immediate patching across all affected software and systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxIIerJT3LOMCGn3nXAnmhaHzJlJnVJCso1COluq8t3WuF4IpNARa_Asl5nEhRUDTEcR89kwzo5vGmP5IyNbj1ncdaCpkhqcHUODHAd3khanaE-7N8Vb0NyEJkmPmNkhSpJtLCLgi9srDRhZLtM5n8UDI58F797ZJaVzC7JzjPLfca4NpxZr_7tCX8RIk/s1600/br-nodejs.jpg",
-      "processedAt": "2026-10-24T10:38:20.860628+00:00"
-    },
-    {
-      "id": "art-dc7512a4",
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-24",
-      "originalUrl": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
-      "summary": "CISA has identified two critical vulnerabilities affecting Collabora Online and Arista VeloCloud that are currently being exploited by attackers in real-world attacks. These flaws have been added to CISA's list of known exploited vulnerabilities, signaling an immediate threat to organizations using these products. Users of these platforms should prioritize patching to prevent unauthorized access and potential system compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "actively-exploited",
-        "critical-vulnerability",
-        "patch-urgently",
-        "cisa-kev",
-        "cloud-infrastructure"
-      ],
-      "whyItMatters": "Active exploitation of critical vulnerabilities means attackers are actively leveraging these flaws to compromise systems right now, making immediate patching essential for affected organizations. Vulnerabilities in collaboration and network orchestration tools can provide attackers with broad access to enterprise infrastructure and sensitive data, amplifying the potential damage of an attack.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmm0pKX3kbfMC2GKemUiMT8PH1uDJIHn4AcmoiQ5nUK4TWZl0Ni_-k6kjpAFUrFzEWSSq_G307YJXTXmn9FZ7q6oOr5OEMASP9mrXOXrk9lSOGzqPCAbkQqpHsMxFe1q5CnyDZnqeDq_FiiC7jEzp0ie1r_nnQOSKcbPcKBdoXI-ycAjCZA9AuxemUhE5k/s1600/arista-cisa.jpg",
-      "processedAt": "2026-10-24T10:38:23.524636+00:00"
-    },
-    {
-      "id": "art-00784b8a",
-      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
-      "summary": "Russian state-sponsored hackers from Sandworm and the group UAC-0099 collaborated to attack a Ukrainian logistics company in July 2025 using a new mesh network backdoor delivered through spear-phishing emails. The attack was destructive in nature, aimed at wiping systems rather than stealing data. This incident highlights how advanced threat actors are combining forces and developing novel backdoor techniques to target critical infrastructure.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored",
-        "backdoor",
-        "mesh-network",
-        "destructive-attack",
-        "spear-phishing",
-        "ukraine"
-      ],
-      "whyItMatters": "This attack demonstrates that sophisticated state-sponsored groups are collaborating and deploying new backdoor technologies specifically designed to evade detection through mesh networking. Organizations must strengthen email security and incident response capabilities, as these coordinated attacks on critical infrastructure like logistics can have cascading effects on supply chains and national ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxH9YdfH7FHfSBJt7wrnd1P2hTQG6_2rpkp3YBqp2Yd49nYy4-a0zmvk5mqKlXH4DWfRO4Q4MmzLG4_t19me5rErcvoEpGJ5Q8LYty_GXXys63QC8HlO3G2jRC9f5vJd1BDiOp4APzxV4rSbFOZY80zIUmxvJ8V6isB-eDy9e9tVWaLR53fpPO80mzn_BH/s1600/uk-russia.jpg",
-      "processedAt": "2026-10-24T10:38:26.167456+00:00"
-    },
-    {
-      "id": "art-5f43d230",
-      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
-      "summary": "INTERPOL coordinated a massive international law enforcement operation called Operation Serengeti III that resulted in the arrest of 1,462 cybercriminals across 21 countries and dismantled 10,909 malicious networks. The three-month campaign, which ran from June to August 2026, successfully recovered over $105 million in stolen funds. This coordinated global effort demonstrates how law enforcement agencies can work together to combat organized cybercrime at scale.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "law-enforcement",
-        "cybercrime-network",
-        "international-operation",
-        "criminal-arrests",
-        "fraud-recovery"
-      ],
-      "whyItMatters": "This operation highlights the growing effectiveness of international law enforcement cooperation in combating cybercrime networks and recovering stolen assets, which sends a message that cybercriminals face real consequences across borders. Understanding how authorities disrupt criminal infrastructure helps organizations recognize and report suspicious activities. The recovery of $105 million demo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgztarCkWkHIW3EBCYV1Uaoz1pLURW3sA5E381ALhft79JhEp71NrhOngLJTWtoT1EL-mI7G6sz0geVq0clphhNqFhyphenhyphen6zPdTK1KYcNAPR43HvdicTavSv5eFTsMTVh36gi570aIN265ZJnbfwvMcWSIriWeU_28JWsofVj-9k1qQdKddXoDeh6dNeWy2ViE/s1600/interpol-1.jpg",
-      "processedAt": "2026-10-24T10:38:29.111515+00:00"
-    },
-    {
-      "id": "art-e9bb4d98",
-      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
-      "summary": "Security researchers discovered a critical remote code execution vulnerability in the abandoned Time4Popcorn app, a modified version of the Popcorn Time torrent client. The flaw existed in the app's updater mechanism, which could have allowed attackers to execute malicious code with elevated privileges on millions of infected devices. Researchers proactively disabled the vulnerable updater to prevent exploitation before the flaw could be weaponized.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "rce-vulnerability",
-        "abandoned-software",
-        "remote-code-execution",
-        "privilege-escalation",
-        "updater-flaw",
-        "patch-management"
-      ],
-      "whyItMatters": "This case demonstrates the significant security risks posed by abandoned or unmaintained software that millions of users continue to rely on. The proactive intervention by researchers prevented what could have been a large-scale compromise, highlighting the importance of monitoring legacy applications and the dangers of using outdated software without official security updates.",
-      "image": null,
-      "processedAt": "2026-10-24T10:38:31.729681+00:00"
-    },
-    {
-      "id": "art-4c4e80dd",
-      "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
-      "summary": "Hewlett Packard Enterprise has released security patches addressing 72 vulnerabilities in Aruba Operating System (ArubaOS), with eight of these classified as maximum severity. These critical flaws involve authentication bypass and remote code execution issues that could allow attackers to gain unauthorized access and control over affected systems. Organizations running ArubaOS should prioritize installing these updates immediately to prevent potential exploitation.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "arubaos",
-        "rce",
-        "authentication-bypass",
-        "hpe",
-        "patch-critical",
-        "network-infrastructure"
-      ],
-      "whyItMatters": "Remote code execution and authentication bypass vulnerabilities in network operating systems like ArubaOS pose an immediate threat to enterprise infrastructure, as attackers can gain complete system control without credentials. With eight maximum-severity flaws identified, this patch release represents a critical security event requiring urgent action across affected organizations to prevent breac",
-      "image": null,
-      "processedAt": "2026-10-24T10:38:34.547748+00:00"
-    },
-    {
-      "id": "art-73189a22",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "summary": "Microsoft released security patches for over 1,400 vulnerabilities across its Windows and software products, more than double the previous month's record-breaking 1,000 fixes. This massive update significantly exceeds Microsoft's typical monthly patch volume, indicating an unusually large number of security flaws requiring immediate attention. Organizations using Microsoft products need to prioritize applying these updates to protect their systems from potential exploitation.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "microsoft-patch",
-        "windows-security",
-        "vulnerability-fix",
-        "software-updates",
-        "large-patch-release"
-      ],
-      "whyItMatters": "When vendors release patch batches this large, it signals a serious accumulation of exploitable vulnerabilities that attackers may target. Organizations must act quickly to deploy these updates to prevent widespread compromise, making timely patching critical for maintaining security posture across enterprise environments using Microsoft products.",
-      "image": null,
-      "processedAt": "2026-10-24T10:38:37.164586+00:00"
-    },
-    {
-      "id": "art-3c19ce98",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "The FBI arrested a co-founder of a Canadian cybersecurity firm as part of an investigation into the ShinyHunters hacking group, which had stolen sensitive data belonging to thousands of FBI agents. This arrest highlights how criminals can infiltrate legitimate security companies to conduct cyberattacks. The incident demonstrates the serious consequences for individuals involved in major data breaches targeting government agencies.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "cybercrime",
-        "fbi",
-        "shiny-hunters",
-        "government-breach",
-        "ransomware-negotiation"
-      ],
-      "whyItMatters": "This case reveals that threat actors may use legitimate cybersecurity firms as cover for criminal activities, creating a significant trust problem in the industry. The theft of FBI agent data represents a critical national security concern with potential operational risks. It underscores the importance of vetting employees and partners in security-sensitive organizations and demonstrates that even",
-      "image": null,
-      "processedAt": "2026-10-24T10:38:39.935022+00:00"
-    },
-    {
-      "id": "art-b6ab10d7",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-07",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "summary": "A teenager from Jordan who led the ShinyHunters hacking group has been arrested and is cooperating with the FBI to identify other gang members. The group was actively extorting a Boeing business unit at the time of the arrest, demonstrating how criminal hacking operations target major corporations and their supply chains. This case highlights the international nature of cybercrime and how law enforcement is working to dismantle organized data theft rings.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "data-extortion",
-        "shiny-hunters",
-        "cybercrime-group",
-        "fbi-investigation",
-        "international-hacking",
-        "corporate-extortion"
-      ],
-      "whyItMatters": "This arrest demonstrates law enforcement's ability to identify and apprehend leaders of sophisticated extortion groups, while also exposing vulnerabilities in major defense contractors' security. The case underscores how organized cybercrime groups operate across borders and target high-value victims, making it relevant for organizations to strengthen their incident response and threat intelligenc",
-      "image": null,
-      "processedAt": "2026-10-24T10:38:42.713401+00:00"
     }
   ]
 }
