@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-10-27T11:52:44.051984+00:00",
+  "lastUpdated": "2026-10-27T21:31:42.176880+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-08967e9e",
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+      "summary": "Cybersecurity researchers discovered that threat actors used 44 AI agents to orchestrate sophisticated cyber attacks against Japanese organizations. The attacks leveraged AI technology both autonomously and under human control, representing a new frontier in how attackers are automating and scaling malicious operations. This marks a significant shift from traditional hacking methods, as the threat actors maintained multiple exposed server environments to conduct these coordinated campaigns.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-driven-attacks",
+        "automated-hacking",
+        "japan-targeted",
+        "ai-agents",
+        "threat-actors",
+        "cyber-operations"
+      ],
+      "whyItMatters": "This demonstrates that AI is being weaponized at scale to automate hacking operations, dramatically increasing attack speed and complexity while reducing human effort required for breaches. Organizations must urgently reassess their defenses against AI-assisted threats, as traditional security measures may be insufficient against automated AI-driven campaigns. The use of multiple coordinated AI ag",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiniSfVwM2b4RVouLhc_nIvm2CdQCg9jtQDBVQP6BjvEC2NBaLFqU0A8RyC_GA3PkI4jF87W3h0GJ4xzycp6LAd4I3eRh3JnhnM9yi7CZ9dX2Pfe3MdDaaUSyrDUy1ksA-fdq0bUVzWcFRmS-JWOy3z7xiWB70DzgXLst_YspRqbGIAyv85_D4H9sPT7Sq3/s1600/cyberstrikeai.jpg",
+      "processedAt": "2026-10-27T21:31:16.583897+00:00"
+    },
+    {
+      "id": "art-fa041e8b",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+      "summary": "GoAhead embedded web server has a critical flaw where it loads certificate revocation lists but fails to actually enable revocation checking in its OpenSSL backend. This means revoked client certificates are still accepted as valid during mutual-TLS authentication, potentially allowing unauthorized access. Additionally, the vulnerability enables attackers to decrypt TLS sessions on affected systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "tls-vulnerability",
+        "certificate-revocation",
+        "goahead-server",
+        "mutual-tls",
+        "openssl",
+        "session-decryption"
+      ],
+      "whyItMatters": "This vulnerability directly undermines authentication and encryption mechanisms that organizations rely on to secure embedded web servers. Systems using mutual-TLS for access control can be bypassed by attackers using revoked credentials, and session decryption enables attackers to read supposedly protected communications, creating an urgent need for immediate patching across deployed GoAhead inst",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6ae8TupuVJ4B0uHZJxwQnaqstuuA42Jwt_Zh7m9RwCBp_IrCYuChUaac6fUphOhpalVEC8tfhGsYGxt1lmswBobM-r-ds6t0uEMSV9HZKT_dYcigHPxGJQo7dcJte96ymjxwSREmiGulG6xPIX4Hx3visDSuyaX2DJ3HRcctAz0Jw1T9ALkCEwZUlMsQ/s1600/goahead.jpg",
+      "processedAt": "2026-10-27T21:31:19.300508+00:00"
+    },
+    {
+      "id": "art-5a705508",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+      "summary": "Apple released security patches for CVE-2026-86950, a serious flaw in CoreGraphics that attackers were actively exploiting in real-world attacks. This vulnerability could allow hackers to run malicious code on iPhones and iPads by tricking users into opening specially crafted files. Apple extended the fix to older devices to protect a wider range of users from this threat.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "apple-security",
+        "cve-2026-86950",
+        "coresraphics-vulnerability",
+        "active-exploitation",
+        "remote-code-execution",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability is critical because it was actively being exploited by attackers before patches were released, making it a real and immediate threat to millions of Apple users. Backporting the fix to older devices ensures that even users who haven't upgraded to the latest iOS or iPadOS versions can protect themselves, which is essential for reducing the attack surface across Apple's ecosystem.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqZx9ghfLBFufN5Q4s1dq2U1rXwenlfzU7UsqQfLWn3AEUe5CX3krGuvC6DM4mF2T9MmscvntBNxmgU7UjNOnfJQteKvuAs-4Nq0vJ3TnTkuFy1TRO3ibdh2Ekqi_WqiInvPkXjYlnvrCuYb5mb8neOOqBbmf_034wh8MPOLPKW2Nvvezpb2LFNXPbeUa6/s1600/apple-patch.jpg",
+      "processedAt": "2026-10-27T21:31:22.059383+00:00"
+    },
+    {
+      "id": "art-0c1fd06d",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+      "summary": "Microsoft discovered and patched a security vulnerability in its Authenticator app for Android that allowed malicious apps to bypass permission restrictions and steal work account tokens by impersonating trusted Microsoft applications like Teams. The flaw, tracked as CVE-2026-80097, was fixed in version 6.2606.4246, and users are advised to update immediately to protect their work accounts from unauthorized access. This vulnerability is particularly dangerous because it required no special permissions from attackers to compromise sensitive authentication credentials.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "android-vulnerability",
+        "authentication-bypass",
+        "token-theft",
+        "microsoft-authenticator",
+        "patch-now",
+        "work-account-security"
+      ],
+      "whyItMatters": "This vulnerability directly threatens enterprise security by allowing attackers to steal work account tokens without user awareness or app permissions, potentially enabling unauthorized access to corporate systems and sensitive data. Organizations relying on Microsoft Authenticator for multi-factor authentication must prioritize immediate patching to prevent credential compromise at scale.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqk63DF3MJCMgQqpg91UsWY7mjACbBgPl50GfKwDPi7v3md6sP5l8a2BUqHABjgMN_6BzgcMx4vVKW4hR9B9pz8_XHqp5ctKqQQLw-RJwuKmVWm2MaSzEMkHIsV-Yi0V6Mq_gUYYuzTpi-BzV2-8dRVYBjtuW4nb9TbobkPwvOGTkIFTpr334JB_LZIkw/s1600/msms.jpg",
+      "processedAt": "2026-10-27T21:31:24.889985+00:00"
+    },
+    {
+      "id": "art-8130da74",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+      "summary": "Hackers breached Keystone's website and stole a critical verification key used to authenticate their hardware wallets. With this key, attackers could create counterfeit wallets that would appear legitimate to users checking device authenticity online. Keystone is destroying 18,835 affected wallets to prevent fraud and protect customers from potential cryptocurrency theft.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "hardware-wallet",
+        "supply-chain-attack",
+        "authentication-bypass",
+        "cryptocurrency-security",
+        "device-verification",
+        "counterfeit-prevention"
+      ],
+      "whyItMatters": "This breach demonstrates how compromising a single authentication mechanism can undermine trust in an entire product line and expose users to sophisticated fraud. Hardware wallets are critical security tools for crypto storage, so the ability to create convincing counterfeits poses an existential threat to customer assets. The incident highlights why companies must protect cryptographic keys with ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkvGXPUhZZjWBsYYBAx8KeJ8WilsBMLE-JhqfNAEyCOPuxs6-4VIF1e77IHR5zVdGfRsjJkSOfUVE1JaEmKe0mSAVM-ha4SeROxEGAdkLY5n5rBqx1LBSm6UVxA167sJYZEJTRra7BSipFtdlw2S-kFCUOSa9n70NbfSka3zRNVHd0D69qbVpSGIOnuAU/s1600/keystone.jpg",
+      "processedAt": "2026-10-27T21:31:27.946620+00:00"
+    },
+    {
+      "id": "art-0c7190a7",
+      "title": "Hackers hijack Convertr analytics script to steal payment card data",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-hijack-convertr-analytics-script-to-steal-payment-card-data/",
+      "summary": "Attackers compromised an analytics script used by the Convertr e-commerce platform to inject malicious code that steals payment card information from customers during checkout. This supply chain attack targeted a trusted third-party script, allowing criminals to harvest sensitive financial data at scale. The incident highlights how attackers can abuse shared services and analytics tools to reach multiple merchants simultaneously.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "payment-card-skimming",
+        "supply-chain-attack",
+        "e-commerce",
+        "malicious-script",
+        "data-theft",
+        "checkout-compromise"
+      ],
+      "whyItMatters": "This attack demonstrates a serious vulnerability in third-party script dependencies that many e-commerce sites rely on—compromising one shared service affects all merchants using it. Customers and businesses using Convertr faced direct financial risk, and the incident underscores the need for stronger script monitoring, integrity verification, and vendor security practices. Organizations must impl",
+      "image": null,
+      "processedAt": "2026-10-27T21:31:31.200943+00:00"
+    },
+    {
+      "id": "art-4c80aa10",
+      "title": "Microsoft releases Windows OOB updates to distrust eMudhra certificates",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-oob-updates-to-distrust-emudhra-certificates/",
+      "summary": "Microsoft released emergency out-of-band updates to remove trust in certificates issued by eMudhra, a certificate authority whose keys were compromised. These updates protect Windows systems that may not automatically receive certificate trust revocations, preventing attackers from using fraudulent eMudhra-signed certificates to impersonate legitimate websites or services. This proactive patch addresses a significant trust infrastructure vulnerability.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "certificate-authority",
+        "emudhra",
+        "oob-update",
+        "trust-revocation",
+        "windows-security",
+        "incident-response"
+      ],
+      "whyItMatters": "Compromised certificate authority keys represent a critical threat to internet security because they can be used to issue fraudulent certificates for any domain, enabling man-in-the-middle attacks and impersonation at scale. Microsoft's emergency update ensures that systems relying on eMudhra certificates are protected even if they don't receive regular updates, reducing the window of vulnerabilit",
+      "image": null,
+      "processedAt": "2026-10-27T21:31:33.954752+00:00"
+    },
+    {
+      "id": "art-4725dbda",
+      "title": "Warp discloses breach exposing AI agent logs, user telemetry data",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/",
+      "summary": "Warp, an AI development environment, experienced a data breach through a compromised third-party vendor that had access to its infrastructure. The breach exposed sensitive information including AI agent decision logs and user telemetry data from Warp users. This incident highlights how security vulnerabilities in third-party vendors can create significant risks for their clients' data and operations.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "third-party-risk",
+        "ai-security",
+        "telemetry-exposure",
+        "supply-chain-security"
+      ],
+      "whyItMatters": "Third-party vendor compromises are a critical attack vector that organizations often underestimate in their security strategies. Exposure of AI agent logs and telemetry data could reveal sensitive business logic, user behavior patterns, and proprietary development practices. This case demonstrates why companies must implement rigorous vendor security assessments and network segmentation to limit t",
+      "image": null,
+      "processedAt": "2026-10-27T21:31:36.661712+00:00"
+    },
+    {
+      "id": "art-ff674e14",
+      "title": "Tailscale warns of SSH flaws allowing root privilege escalation",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/tailscale-warns-of-serious-ssh-flaws-allowing-root-privilege-escalation/",
+      "summary": "Tailscale has discovered nearly a dozen security vulnerabilities in its SSH implementation that could allow attackers to escalate their privileges to root level, steal credentials, and disrupt server operations. The company is actively working on patches to address these flaws before they can be widely exploited. These vulnerabilities represent a significant risk to users relying on Tailscale for secure remote access and network connectivity.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ssh-vulnerabilities",
+        "privilege-escalation",
+        "root-access",
+        "tailscale",
+        "patch-urgent",
+        "network-security"
+      ],
+      "whyItMatters": "Root privilege escalation vulnerabilities in widely-used remote access tools like Tailscale pose an immediate and severe threat to organizations' infrastructure security. Attackers could gain complete system control, making prompt patching essential to prevent exploitation before fixes are deployed across user bases. This highlights the critical importance of monitoring security updates for infras",
+      "image": null,
+      "processedAt": "2026-10-27T21:31:39.598825+00:00"
+    },
+    {
+      "id": "art-ac5579c7",
+      "title": "The Huntress Tragic Quadrant: Ranking Threats Hitting Businesses Hardest",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-27",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/the-huntress-tragic-quadrant-ranking-threats-hitting-businesses-hardest/",
+      "summary": "Huntress Labs has published research ranking the most dangerous threats currently targeting businesses, revealing that attackers are exploiting legitimate tools like Microsoft 365 and standard IT applications to bypass traditional security defenses. The report identifies which attack techniques pose the greatest immediate risk to organizations and which remain emerging concerns. This ranking helps security teams prioritize their defensive efforts against the most impactful threats.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "threat-ranking",
+        "legitimate-tool-abuse",
+        "microsoft-365",
+        "defense-evasion",
+        "business-security"
+      ],
+      "whyItMatters": "Understanding which attack techniques are hitting organizations hardest allows security teams to allocate resources effectively and prioritize defenses against real-world threats. The abuse of legitimate tools to evade traditional defenses represents a significant challenge because these activities are harder to detect, making this ranking critical for developing stronger detection and response st",
+      "image": null,
+      "processedAt": "2026-10-27T21:31:42.176727+00:00"
+    },
     {
       "id": "art-a879ef9f",
       "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
@@ -831,211 +1039,6 @@
       "whyItMatters": "Many organizations depend on EWS-based applications for critical business functions, and sudden API retirement can disrupt operations and create security gaps if applications are left non-functional or improperly updated. Understanding how to safely re-enable deprecated services helps IT teams maintain business continuity while planning their migration to supported alternatives. Improper handling ",
       "image": null,
       "processedAt": "2026-10-25T20:04:22.903570+00:00"
-    },
-    {
-      "id": "art-f365c7f1",
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-25",
-      "originalUrl": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
-      "summary": "OpenAI is implementing a security measure to train its most advanced AI models without live internet access to reduce risks during reinforcement learning processes. This decision reflects concerns about AI system safety and the potential for advanced models to behave unpredictably when connected to external networks. The move represents a precautionary approach to frontier AI development, prioritizing containment and monitoring over real-time internet connectivity during critical training phases.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "model-training",
-        "sandbox-isolation",
-        "frontier-ai",
-        "security-containment",
-        "reinforcement-learning"
-      ],
-      "whyItMatters": "This demonstrates that leading AI organizations recognize serious risks in training advanced models, including potential VM escapes and unauthorized cross-sandbox communication that could compromise security infrastructure. Organizations deploying or relying on AI systems need to understand that even frontier model developers consider air-gapped training necessary, highlighting the emerging threat",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSwuCxStjU_WIIOJ5dEqVxFVQeLfJevQdmLoYLBiXsduAvosK7VfzyduIRRmiOcpl2lQlSdEoInwRkfOnR4devMGT6oI_Limrjcx8yLFsTRau7CBK76cGIMXxC916OKHtwALlELG-nPljBDVIPl2aPDOZTYqkTr6AyZMyFQ6hwUFdfx5Tr2cz8KpDSlb9j/s1600/ai-agents.jpg",
-      "processedAt": "2026-10-25T11:01:45.783150+00:00"
-    },
-    {
-      "id": "art-f155e5d1",
-      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
-      "summary": "Railway, a Platform-as-a-Service provider, discovered unauthorized access to systems containing customer environment variables, which store sensitive configuration data. An intruder potentially obtained both encrypted and decrypted versions of these secrets for some users. The company is urging affected customers to rotate their credentials immediately to prevent misuse.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "cloud-security",
-        "credential-compromise",
-        "environment-variables",
-        "paas-security",
-        "incident-response"
-      ],
-      "whyItMatters": "Environment variables often contain API keys, database credentials, and authentication tokens that attackers can use to gain deeper access to customer applications and infrastructure. This breach highlights the critical importance of securing secrets management in cloud platforms and the need for rapid credential rotation to limit exposure window. Organizations relying on PaaS providers must under",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLi5yuPoipCkAL6joBpDL5htNkHWi_rU5i5dAyspyjSrdDORYgV_LRNO4pVG_c1P0S7bnZFWHft8recxLiFRSiLsPxx3ZL-v8fzlYRuzxxG_P_ocKdJbGWzXFtoEjPszyKNUOS86HCylk0LPV1YZS7U9qZcfonBVeLEuRKioCXVbbzUySEvWGI0IaBJ8U/s1600/rail.jpg",
-      "processedAt": "2026-10-25T11:01:48.566068+00:00"
-    },
-    {
-      "id": "art-dc7b22fd",
-      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
-      "summary": "OpenCode, an AI coding agent, contained a vulnerability that allowed malicious or compromised MCP (Model Context Protocol) servers to execute code on developers' Windows or WSL systems during sign-in with the developer's own permissions. This flaw could enable attackers to gain unauthorized access to a developer's machine through a compromised third-party tool connection. Anomaly released a patch in version 1.18.33 to fix this security issue.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "opencode",
-        "mcp-server",
-        "code-execution",
-        "windows-security",
-        "privilege-escalation",
-        "patch-available"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how AI coding tools that integrate with external services can become attack vectors if their connection security is weak, potentially compromising developer environments that typically have access to sensitive source code and credentials. Developers relying on OpenCode need to update immediately to prevent attackers from gaining control of their machines during auth",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUmn80CiQx35trhXNaAwJka_Z3T-PKQrz__dlAW1GDDVwfrk2WHit1W6GZBaaAT-a9SrmqqauUhw0raYLEOS3Vv-LNxdu0a2bmJebJWVj5mBadfgxN1N1yVREXflCcV7cPmShswRE8PC0qspFY82MDEKe8MJImYVqJCBYLwTLpCHM1IzjDX7KsOAYs7tc/s1600/opencode-mcp.jpg",
-      "processedAt": "2026-10-25T11:01:51.685614+00:00"
-    },
-    {
-      "id": "art-63da70ee",
-      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-      "summary": "LiteLLM, an AI gateway platform, discovered that attackers compromised its release pipeline and published a malicious Python package (version 1.107.0) containing malware to both PyPI and Docker Hub. The breach appeared to involve a leaked GitHub token found in system logs, allowing threat actors to bypass multiple security controls. This incident highlights how supply chain attacks can compromise widely-used development tools and impact numerous downstream users.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware-distribution",
-        "credential-theft",
-        "backdoor",
-        "pypi-compromise",
-        "github-token-leak"
-      ],
-      "whyItMatters": "This attack demonstrates a critical supply chain vulnerability where attackers can inject malicious code into popular package repositories used by thousands of developers. Compromised credentials in logs bypassing security controls underscore the importance of proper secret management and access control in CI/CD pipelines. Organizations relying on LiteLLM or similar packages need to audit their de",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgiEKKMESHBCMBHXA8Yf_clmAeFQXSdaKTEz0t_6RDzj1zXcwiPxA4gy2MPmftM6vyCkoG7OsCZJ2a8t7xJe1qbn3tEWRZfVgStzQVJy0ZfwEkjhg6-A34iT3XnQG7nYku04cWbIaHwkQmuDVghCeJBx5xJcbtozsyD3Genw4wyxFtgWIVD-rRGRLMBKoq2/s1600/litellm-breach.jpg",
-      "processedAt": "2026-10-25T11:01:54.731295+00:00"
-    },
-    {
-      "id": "art-abacd585",
-      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-22",
-      "originalUrl": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-      "summary": "Node.js released security patches on October 21 addressing 10 vulnerabilities across its three supported versions (22.x, 24.x, and 26.x). The most critical flaw is a bug in the bundled Brotli decompression code that could allow attackers to execute arbitrary code remotely on vulnerable systems. Users running any of the supported Node.js versions should apply these updates immediately to prevent potential exploitation.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "node.js",
-        "remote-code-execution",
-        "brotli-decoder",
-        "patch-now",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "This vulnerability affects all currently supported Node.js versions and allows remote code execution, meaning attackers could potentially compromise systems without user interaction. Organizations running Node.js applications need to prioritize patching immediately to prevent active exploitation, as the attack vector (decompression) is commonly used in web communications.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFwR_FE94PTthun36oXfrSIiYx7N-Hb3Ww1w2gFs6x6qs0mML2v_TmYZmgqYKxB6VlMBzmIQksNdHldgX-UxykDBNwnszmBuB7IZWyWJhxei65NJlOImUWde5tYzB7D94dmieFBGhFNVAt3bL4qlhXkl4o3uw362QKgJpk37xutyRmM5bB3sHR8XMC3bc/s1600/nodejs-rce.jpg",
-      "processedAt": "2026-10-25T11:01:57.186484+00:00"
-    },
-    {
-      "id": "art-1c68fcf8",
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-21",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "summary": "A critical pair of vulnerabilities in PHP software is affecting approximately 70 percent of websites worldwide, potentially causing widespread service outages and website errors today. Attackers can exploit these flaws to gain complete control of vulnerable servers, and security experts have confirmed that working exploits are already being actively used in real-world attacks. Website administrators need to apply urgent updates to their core PHP software to prevent their sites from being compromised.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "php-vulnerability",
-        "patch-now",
-        "server-compromise",
-        "active-exploitation",
-        "widespread-impact"
-      ],
-      "whyItMatters": "This represents an immediate and widespread threat affecting the majority of websites on the internet, with confirmed active exploitation meaning attackers are already targeting vulnerable systems. Organizations must prioritize patching immediately to prevent complete server takeover and service disruption. The scale of impact—affecting 70% of websites—makes this one of the most critical vulnerabi",
-      "image": null,
-      "processedAt": "2026-10-25T11:02:00.154424+00:00"
-    },
-    {
-      "id": "art-29b5f476",
-      "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
-      "source": "Dark Reading",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
-      "summary": "Cybercriminals are increasingly using social engineering tactics combined with artificial intelligence to trick help desk staff into granting unauthorized access, rather than relying on traditional malware attacks. By impersonating legitimate users and leveraging AI to sound convincing, threat actors are exploiting the human trust factor that organizations depend on for their security operations. This shift demonstrates that physical breaches and data theft no longer require sophisticated technical exploits when psychological manipulation proves more effective.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "social-engineering",
-        "help-desk-attacks",
-        "ai-assisted-fraud",
-        "trust-exploitation",
-        "access-control"
-      ],
-      "whyItMatters": "This represents a significant shift in attack methodology that bypasses technical security controls entirely, making it harder to detect with traditional security tools. Organizations must recognize that human-centered defenses like verification protocols and staff training are now as critical as firewalls and intrusion detection systems.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt34579512de050396/6a5a6336b09056633bee9fe7/trust_dial-NicoElNino-getty-2079838824.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-10-25T11:02:03.028751+00:00"
-    },
-    {
-      "id": "art-3831e0f5",
-      "title": "Exposed to PHP2Shell? Cyber Experts Weigh in With Advice",
-      "source": "Dark Reading",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://www.darkreading.com/application-security/exposed-php2shell-cyber-experts-advice",
-      "summary": "Critical vulnerabilities in PHP have been discovered that can allow attackers to execute malicious code on affected systems. Unlike standard software updates, fixing these PHP flaws requires careful assessment and planning rather than simple automatic patching. Security experts recommend organizations evaluate their exposure to these vulnerabilities and implement protective measures tailored to their infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "php-vulnerability",
-        "patch-management",
-        "code-execution",
-        "server-security",
-        "critical-flaw"
-      ],
-      "whyItMatters": "PHP powers a significant portion of web infrastructure, so unpatched critical flaws pose widespread risk across many organizations. The complexity of patching these vulnerabilities means administrators cannot rely on automatic updates and must take deliberate action to protect their systems. Understanding the specific risks and remediation steps is essential for preventing remote code execution at",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte307a3bd1a7bcb35/6adb9c8d2d5b887cc408cb52/Globe_bandages-zennie-Getty.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-10-25T11:02:05.613001+00:00"
-    },
-    {
-      "id": "art-363a0e6b",
-      "title": "AI Tools Are Generating Massive Attacks for Little Cost",
-      "source": "Dark Reading",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
-      "summary": "Attackers are leveraging publicly available AI models to launch large-scale cyberattacks with minimal financial investment. One campaign targeted over 100 websites using open-source AI tools, while another gained complete control of a domain for just $12. This trend signals that cyber defense strategies need to evolve to counter AI-enabled threats that are becoming faster and cheaper to execute.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-powered-attacks",
-        "open-weight-models",
-        "domain-compromise",
-        "cost-effective-exploitation",
-        "threat-escalation"
-      ],
-      "whyItMatters": "The democratization of AI tools means attackers with minimal resources can now orchestrate sophisticated, large-scale campaigns that were previously only accessible to well-funded threat actors. Organizations must immediately reassess their defense posture and implement AI-aware security strategies to counter this emerging threat landscape.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7023e63db2b06bb/6adb780c560f54c5dbf647e8/economics-cybersecurity-Ton_Wanniwat-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-10-25T11:02:08.162669+00:00"
-    },
-    {
-      "id": "art-ffd86367",
-      "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-      "source": "Dark Reading",
-      "publishedDate": "2026-10-23",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
-      "summary": "The Caribbean region is experiencing a growing cybersecurity crisis where cyber threats are spreading faster than security solutions can be deployed and patched. This gap between exploit development and defensive measures is creating a ripple effect that puts businesses and systems far beyond the Caribbean at risk. The article highlights how regional vulnerabilities can quickly become global security problems when attackers find unprotected entry points.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "caribbean-cyber-risk",
-        "vulnerability-management",
-        "exploit-acceleration",
-        "patch-lag",
-        "global-impact",
-        "regional-security"
-      ],
-      "whyItMatters": "This demonstrates how cybersecurity is interconnected globally—weaknesses in one region create attack vectors that threaten worldwide infrastructure and systems. Organizations need to understand that regional security gaps can expose their own networks to compromise, making it essential to monitor and support security practices beyond their immediate geography. The article underscores the critical",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt9c2c56022ab6d6c2/6ada53fbcca51d530a712e5f/Caribbean-FrankRamspott-Getty-1627410191.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-10-25T11:02:11.291457+00:00"
     }
   ]
 }
