@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-10-30T12:29:22.751081+00:00",
+  "lastUpdated": "2026-10-30T21:44:25.881306+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-a0d8db71",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "summary": "Chinese state-sponsored hackers linked to a group called Vapor Panda have deployed an AI-powered penetration testing tool named ARTEX to attack over 200 organizations globally. This Go-based framework allows attackers to automate and scale their intrusion campaigns against high-value targets simultaneously. The threat represents a significant evolution in how nation-state actors are leveraging artificial intelligence to enhance their hacking capabilities.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "chinese-hackers",
+        "ai-powered-malware",
+        "state-sponsored",
+        "penetration-testing-tool",
+        "vapor-panda",
+        "artex"
+      ],
+      "whyItMatters": "This attack demonstrates how advanced threat actors are combining AI automation with traditional hacking techniques to target hundreds of organizations at scale, making detection and defense significantly harder for defenders. Organizations worldwide need to immediately review their security postures and implement detection strategies for AI-powered penetration testing frameworks. The use of AI by",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiP1M46Z4Xs0qNHz9xzhTea14XsqTHvNhAfnGb4Ni9goHQR2ypz3BLKRgu-WxWD8VSUNMB3YAP7UhcCAK1AweCc3lC-7VlJ-OqNniD4FvZdE_R-XJkkRadhl2tp3-PqbKPWmQTeJ3a3gvd1kHH_zaW06tCf9cH-7k5feNqHrqbChMAsc5K3hruiX9BDROAe/s1600/CS.jpg",
+      "processedAt": "2026-10-30T21:44:00.199807+00:00"
+    },
+    {
+      "id": "art-729dd343",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "summary": "TeamViewer patched a vulnerability that allowed compromised or malicious remote computers to attack the user's machine controlling them. In a typical remote session, the controlling computer (viewer) connects to the machine being managed (host), but this flaw reversed that dynamic. A vulnerable host could crash the viewer's TeamViewer application or potentially execute additional attacks depending on the operating system.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "teamviewer",
+        "remote-access",
+        "vulnerability-patch",
+        "privilege-reversal",
+        "host-to-viewer-attack"
+      ],
+      "whyItMatters": "This vulnerability inverts the traditional security model of remote access tools, where users expect that connecting to a remote machine puts only that machine at risk. Organizations and individuals who use TeamViewer need to patch immediately, as any compromised host could weaponize the connection to damage the operator's system. This highlights a critical trust assumption in remote desktop softw",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEge-ZayNgwlu4fhpD2BSyGgkMYehkV0atRJINisISPLpiubkgyXopa4NWVnxOZs9gi-DEYTNEQ5G2pu-X5iSHyMp8pguzp-Q6g-1-mGwcy3so4AkeuYFuYoaotOcmF5A-2oVDvnxd0B_FaZ7JJt8W3zrNFot6kBlJp7WffHkb7m92C9bNQnwFLwnNgXpDk/s1600/teamviewer-flaw.jpg",
+      "processedAt": "2026-10-30T21:44:03.131814+00:00"
+    },
+    {
+      "id": "art-c1a5b136",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "summary": "A serious security flaw in WordPress Core affecting versions 4.7 through 7.1.3 allows attackers to execute arbitrary code remotely. Within 24 hours of patches being released, threat actors launched nearly 63,000 attack attempts to exploit this vulnerability. The flaw has a high CVSS score of 8.1, making it a significant threat to millions of WordPress websites worldwide.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress-rce",
+        "remote-code-execution",
+        "patch-urgently",
+        "active-exploitation",
+        "wordpress-core",
+        "high-cvss"
+      ],
+      "whyItMatters": "WordPress powers over 40% of all websites, so a critical RCE vulnerability with active exploitation attempts represents an immediate threat to a massive portion of the internet. The rapid attack rate within hours of patch release demonstrates that threat actors are quickly weaponizing this flaw, making immediate patching essential for all affected administrators. Organizations running vulnerable v",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf-pzflJO9HQoCdvBvYNtS12gwwEjAbM4dQ30ak7UYaIPzsVPN9MlFwvIDEFkbe9cWg4wQRFPbGfJ0YXjzGcBS6mUTwttwkQ8IR7OoHyTz3owZkVzYQOAObyJUqfjsC-PqMw2pv41_m68hb6ZkwJb56kGx-Ypv7GWZBtDzjyTTQ8L8i9NxA8_MDVoJSEba/s1600/wp-hack.jpg",
+      "processedAt": "2026-10-30T21:44:06.065352+00:00"
+    },
+    {
+      "id": "art-168da584",
+      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "summary": "A Trezor Safe 5 hardware wallet purchased from reseller CryptoBilis contained a suspected hardware implant with an extra circuit board designed to steal cryptocurrency recovery phrases via mobile networks. Trezor has advised all customers who bought devices from CryptoBilis since March 2026 to immediately transfer their funds to new wallets with fresh recovery phrases. The company has not yet physically examined the compromised device but is treating the threat seriously.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "hardware-implant",
+        "supply-chain-attack",
+        "cryptocurrency-theft",
+        "wallet-security",
+        "reseller-compromise",
+        "recovery-phrase-theft"
+      ],
+      "whyItMatters": "This incident demonstrates a critical supply chain vulnerability where trusted hardware wallets can be compromised at the reseller level, putting customers' entire cryptocurrency holdings at risk. Hardware-level attacks are particularly dangerous because they bypass software security measures and directly target the device's physical integrity, making detection difficult without inspection. Users ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEih5QxhFnBw6d40ollOAoolmZedxywTm7DeBQpEqydVG5Pqg0v5iDVFT1hhbsW7Thqg00oI8MACNXC9FX6MCp_qMRkBRiqdxb9D4CDKfTWTZwI5eyY3V2IOa8ODSg24kX7Ni_C968r2X89tUXwPbDnHPV9xX-ydhytwerqMI1ru7tqdIK-cqA0p9oM5Ppxr/s1600/trezor-wallet.jpg",
+      "processedAt": "2026-10-30T21:44:09.191292+00:00"
+    },
+    {
+      "id": "art-d256bbcd",
+      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "summary": "Security teams often struggle to deploy critical fixes quickly because application operators need evidence that patches won't disrupt services. The article highlights a practical bottleneck where even urgent security updates get delayed while teams seek proof of safety, such as confirmation that firewall rules won't block legitimate traffic or configuration changes won't cause outages.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "patch-deployment",
+        "security-fixes",
+        "operational-risk",
+        "change-management",
+        "security-operations"
+      ],
+      "whyItMatters": "This article addresses a critical real-world gap in cybersecurity: the conflict between security urgency and operational stability. Organizations that cannot quickly validate and deploy fixes remain vulnerable to exploitation, making this a key challenge for security leaders balancing risk with reliability.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitJWSYL167QzDoyvN2y9DAuXmFFe0en34dEHp-I2sSVLEPIfljdlRfeIthyMQUgSvf9AfwW4p-solbE5zH3cKpfeLKWg-IqPnVdHbKQ99Bw91fDAoqHx3E9mlpNmXYA5i3RnaTYxZYkZcwbeY31O4CljtFQYp2JPLTmJo1BI09Al9Kh-CDtzFubVly7hM/s1600/cp.jpg",
+      "processedAt": "2026-10-30T21:44:11.648766+00:00"
+    },
+    {
+      "id": "art-e7366a50",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "summary": "Researchers have discovered a critical vulnerability in the Linux kernel affecting servers that use Multipath TCP (MPTCP). This flaw enables attackers to gain unauthorized root-level access and execute commands on vulnerable systems without needing to authenticate first. The vulnerability poses an immediate threat to any organization running MPTCP listeners on Linux infrastructure.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel",
+        "mptcp",
+        "remote-code-execution",
+        "root-access",
+        "privilege-escalation",
+        "network-security"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows unauthenticated remote attackers to gain full system control on affected Linux servers, making it an immediate threat to infrastructure security. Organizations running MPTCP need to prioritize patching urgently to prevent potential compromise of their entire systems. The existence of a working exploit significantly increases the risk of widespread a",
+      "image": null,
+      "processedAt": "2026-10-30T21:44:14.076835+00:00"
+    },
+    {
+      "id": "art-40019ce8",
+      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "summary": "Trezor, a hardware wallet manufacturer, has warned users about a suspected malicious implant discovered in a Trezor Safe 5 device that was sold through a Southeast Asian reseller called CryptoBilis. The implant appears designed to steal cryptocurrency from users. This incident highlights the risk of counterfeit or tampered hardware wallets entering the supply chain, even through authorized resellers.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "hardware-compromise",
+        "supply-chain-attack",
+        "crypto-theft",
+        "trezor",
+        "counterfeit-devices"
+      ],
+      "whyItMatters": "Hardware wallets are supposed to be the most secure way to store cryptocurrency by keeping private keys offline, so discovering a physical implant designed to steal crypto represents a fundamental breach of trust in the hardware supply chain. Users cannot visually distinguish a compromised device from a legitimate one, making this attack particularly dangerous because victims believe they are usin",
+      "image": null,
+      "processedAt": "2026-10-30T21:44:17.058167+00:00"
+    },
+    {
+      "id": "art-d74b014e",
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "summary": "A fake version of the Claude Code extension was uploaded to Cursor's marketplace and remained available for about 11 hours before being removed. The malicious extension was designed to install persistent SSH backdoors on developers' machines, potentially compromising up to 5,000 users. This incident highlights how attackers can exploit trusted development tools and marketplace platforms to distribute malware to a large number of developers.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "malware",
+        "supply-chain-attack",
+        "backdoor",
+        "ssh",
+        "developer-tools",
+        "marketplace-compromise"
+      ],
+      "whyItMatters": "This attack demonstrates a serious supply-chain vulnerability where malicious code can be distributed through trusted development platforms to thousands of developers simultaneously. SSH backdoors provide attackers with persistent remote access to compromised systems, potentially allowing them to steal code, intellectual property, or launch further attacks. Developers must verify extension authent",
+      "image": null,
+      "processedAt": "2026-10-30T21:44:19.806380+00:00"
+    },
+    {
+      "id": "art-c5693bc4",
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "summary": "SS7 and Diameter are signaling protocols that connect phone networks worldwide, but they contain security flaws that attackers can exploit. Without even needing access to your phone, hackers can use these vulnerabilities to track your location, intercept calls and text messages, steal two-factor authentication codes, and pretend to be you on the network. These attacks work because the protocols were built on the assumption that all networks would trust each other, an assumption that no longer holds in today's threat landscape.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "ss7-attacks",
+        "diameter-protocol",
+        "telecom-security",
+        "location-tracking",
+        "sms-interception",
+        "network-vulnerabilities"
+      ],
+      "whyItMatters": "SS7 and Diameter flaws represent a fundamental vulnerability in global telecommunications infrastructure that bypasses device-level security entirely. Attackers can intercept SMS-based two-factor authentication, which many organizations still rely on for account security, making this a direct threat to enterprise and consumer accounts. Understanding these signaling protocol weaknesses is essential",
+      "image": null,
+      "processedAt": "2026-10-30T21:44:23.124311+00:00"
+    },
+    {
+      "id": "art-6f4aa207",
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-10-30",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "summary": "A critical vulnerability in GitLab that was patched earlier in October 2026 is now being actively exploited by attackers in real-world attacks. The US Cybersecurity and Infrastructure Security Agency (CISA) has confirmed that threat actors have begun using this maximum-severity flaw to compromise systems. Organizations running GitLab need to prioritize applying the security patch immediately to protect their infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gitlab",
+        "vulnerability",
+        "active-exploitation",
+        "patch-urgently",
+        "cisa-alert",
+        "maximum-severity"
+      ],
+      "whyItMatters": "Active exploitation of a maximum-severity vulnerability means attackers are already using this flaw to breach systems, making immediate patching essential for any organization running GitLab. The involvement of CISA indicates this poses a significant threat to critical infrastructure and widespread deployment environments. Delayed patching increases the window of opportunity for attackers to compr",
+      "image": null,
+      "processedAt": "2026-10-30T21:44:25.881120+00:00"
+    },
     {
       "id": "art-f52924f6",
       "title": "Official Claude Code VS Code Extension Compromised to Install Persistent SSH Backdoor",
@@ -824,213 +1031,6 @@
       "whyItMatters": "This migration impacts millions of organizations using Microsoft Entra ID, making it a critical infrastructure update that requires planning to avoid widespread authentication failures. Phishing-resistant passkeys represent a significant security improvement over SMS and voice methods, which are vulnerable to social engineering and interception attacks. Organizations failing to act before the dead",
       "image": null,
       "processedAt": "2026-10-28T21:56:47.829870+00:00"
-    },
-    {
-      "id": "art-018ce033",
-      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
-      "summary": "Adobe has released security patches for eight critical vulnerabilities in Campaign Classic, including a severe code injection flaw with a CVSS score of 9.9. These flaws could allow attackers to execute arbitrary code, bypass security controls, and escalate their privileges on affected systems. Organizations using Campaign Classic need to apply these patches immediately to prevent exploitation.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "adobe-campaign",
-        "code-execution",
-        "privilege-escalation",
-        "security-bypass",
-        "critical-patch",
-        "cvss-9-9"
-      ],
-      "whyItMatters": "Campaign Classic is widely used by enterprises for marketing and customer communications, making these critical vulnerabilities a major risk if left unpatched. Attackers could gain full control of systems running vulnerable versions, potentially compromising sensitive customer data and business operations. Immediate patching is essential to prevent active exploitation of these high-severity flaws.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3z7SDPF49VtrfeTS8qZD9-Rv1ne3ZUL2KLJZklOlASYXMnjBQXmmIYZ-wAC9PR248ntUBTyZLq2G6TPVYLZ-aEN7fDFc4pcEhSbt_vj36JTbujGJ2UHTbxFDUOiDvYDyKl7NpCvSMlySdqWjPhyphenhyphenFUNTkC38Ej0biyWHeF1u4kFHCe4tkJjgCW6RCHttx_/s1600/adobe-main.jpg",
-      "processedAt": "2026-10-28T12:27:08.314320+00:00"
-    },
-    {
-      "id": "art-3958d7ff",
-      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
-      "summary": "A phishing campaign called Skyw4lker is targeting American organizations by exploiting legitimate cloud services and authentication mechanisms rather than stealing credentials directly. This attack method leaves minimal traces while compromising corporate accounts, making it harder for security teams to detect. Researchers at ANY.RUN have exposed how attackers abuse trusted business workflows to gain unauthorized access to sensitive systems.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "cloud-security",
-        "device-code-abuse",
-        "authentication-bypass",
-        "u-s-organizations",
-        "credential-compromise"
-      ],
-      "whyItMatters": "This campaign demonstrates how modern phishing attacks bypass traditional security measures by weaponizing legitimate tools and services that organizations already trust, making detection and prevention significantly more challenging. Understanding these tactics is critical for security teams to update their defenses beyond basic credential monitoring and implement stronger authentication safeguar",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgf2g4rsWnZ5eQP03cr-4e99MQStvJmuaTTi91WESG3ua1ddAW73T6X22gyaspj2SirqH-1bSAU9VkOg2F1Kh9TLmPc4jYsNAlD72S2XzCeTTRHSiN3B7is7roWwIMcIm__yRu8SkUBbyeWxAEBo5Fe-bbACZWRuoxZqv_pysQ9iMsZRHPCD_clJZsNIDs/s1600/anyrun-main.jpg",
-      "processedAt": "2026-10-28T12:27:10.791788+00:00"
-    },
-    {
-      "id": "art-9bd08650",
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
-      "summary": "Anthropic's experimental AI model successfully identified and chained multiple security vulnerabilities across popular browsers and operating systems (Chrome, Safari, Windows, and Linux) into functional proof-of-concept exploits. All discovered flaws were responsibly reported to vendors and have already been patched before public disclosure. This research demonstrates both the potential and risks of using AI systems to discover complex, multi-step security weaknesses.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-vulnerability-discovery",
-        "responsible-disclosure",
-        "exploit-chaining",
-        "browser-security",
-        "operating-system-vulnerabilities"
-      ],
-      "whyItMatters": "This demonstrates that AI models can autonomously identify and chain multiple vulnerabilities into working exploits, raising important questions about AI security capabilities and risks. Since the vulnerabilities were already patched, this serves as a proof-of-concept for responsible AI security research, but highlights the need for robust safeguards when deploying advanced AI systems that can dis",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSMl2C6S6mb-smamI35fLYotcPaercI_2PIgtuF78Q7PtQcFvFUKXkModTW4nRCh6FC7Xht2BltSGImRS2QNR4Lnc22S7UBU9V_0UDcZi2iDNXSlCJDqD4ApmJPqA_boFokj_9dTWKdzhjIgNt_Y47zumx_c5vrcJn5Vd-Xaowafv4HGCzCcqgDV4GGpo/s1600/hacker-chain.jpg",
-      "processedAt": "2026-10-28T12:27:13.677148+00:00"
-    },
-    {
-      "id": "art-b13cf038",
-      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
-      "summary": "The U.S. Department of Justice seized a domain belonging to Virtualine, a bulletproof hosting provider that was allegedly facilitating serious criminal activities including child exploitation material and non-consensual intimate images. The action demonstrates law enforcement's ability to target infrastructure providers that knowingly enable illegal content and services. This seizure highlights the ongoing battle against criminal hosting services that operate with the intention of evading traditional legal consequences.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "bulletproof-hosting",
-        "domain-seizure",
-        "criminal-infrastructure",
-        "law-enforcement",
-        "child-exploitation",
-        "money-laundering"
-      ],
-      "whyItMatters": "This seizure demonstrates that law enforcement agencies are actively dismantling criminal infrastructure at the domain level, which is crucial for protecting vulnerable populations and disrupting money laundering operations. Organizations and security professionals need to understand that hosting providers facilitating illegal activity face serious legal consequences, reinforcing the importance of",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAdfKblTUCEDUoHzYpHPcEPzHO6qKTr01uG2-x7YyIT5t_-xeFc27zuZ3yOK76rkhz-J8y_Z4MqmydEQUtiCEvry_2H43qaSJXDrWRbM1gs8wDVTBgi_NzxIXsGBMoX8zlzISFlvcJ8NdNSyeMIZh8z-aHkXCyBDPJ2l195Ji1XgnVu_A0Yhh3H2QvEyiA/s1600/servers.jpg",
-      "processedAt": "2026-10-28T12:27:16.614123+00:00"
-    },
-    {
-      "id": "art-100fb8d0",
-      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
-      "summary": "Japan's GMO Internet Group has launched a $1 million bounty program to identify hackers who breached its Onamae.com Desktop Cloud service, which hosts Windows desktops used for foreign exchange trading. The company refused to pay the attackers' extortion demand and instead is offering rewards only if tips lead to arrests or international wanted notices. This incident highlights the growing threat to cloud-based financial trading platforms and demonstrates how organizations are fighting back against cybercriminals.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "data-breach",
-        "extortion",
-        "financial-services",
-        "incident-response"
-      ],
-      "whyItMatters": "This breach affects a critical financial infrastructure provider, putting FX traders' sensitive data and trading operations at risk. The bounty program reflects a strategic shift by organizations to pursue criminal accountability rather than negotiate with attackers, potentially setting precedent for how major breaches are handled. Understanding this case helps security professionals recognize thr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguDDZZalFBPLgf4YxDU_9FK46XXVkU3x0GKHeZHFd2WTdJ0cK5n1KCWDEOIvSgzHP4R14xmwLygLnnmyuBEVcHRVO7b9nIUZVcp5ehxIgFGrPyXZ3hZGwNa2bg8k4e_kkSHa2tyo05yPortQqRR_9g3yr-T0k0Tga9_26Pr0rs_MNIU8RndHMeq9r5Rr0/s1600/gmo.jpg",
-      "processedAt": "2026-10-28T12:27:19.710178+00:00"
-    },
-    {
-      "id": "art-bafa79e9",
-      "title": "Hackers now scanning systems for recently-patched Oracle flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-now-scanning-systems-for-recently-patched-oracle-flaw/",
-      "summary": "Cybercriminals are actively scanning the internet to find Oracle E-Business Suite systems that haven't been patched against a newly discovered critical vulnerability. This means attackers are working quickly to exploit unpatched systems before organizations can secure them. Organizations running Oracle EBS need to apply security patches immediately to prevent compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "oracle-ebs",
-        "critical-vulnerability",
-        "patch-now",
-        "active-exploitation",
-        "urgent"
-      ],
-      "whyItMatters": "Active exploitation of known vulnerabilities is one of the fastest ways systems get compromised, and attackers actively scanning for unpatched systems means the window to patch is narrow. Organizations using Oracle EBS must prioritize this update to avoid becoming attack targets. Delays in patching significantly increase the risk of successful breaches and data theft.",
-      "image": null,
-      "processedAt": "2026-10-28T12:27:22.102121+00:00"
-    },
-    {
-      "id": "art-8f96ab97",
-      "title": "CISA warns of hackers now exploiting critical Node2Shell flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) has alerted the public that attackers are actively exploiting a critical vulnerability in Brotli compression software, which has been given multiple names including Node2Shell, Broccoli2Shell, and HTTP2Shell. This flaw allows hackers to compromise systems that use the affected Brotli library, potentially giving them unauthorized access to sensitive data and systems. Organizations need to prioritize patching this vulnerability immediately to prevent active attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "critical-vulnerability",
-        "brotli-flaw",
-        "active-exploitation",
-        "cisa-alert",
-        "patch-urgent",
-        "node2shell"
-      ],
-      "whyItMatters": "This vulnerability matters because it is already being actively exploited by real attackers, meaning systems are at immediate risk if not patched. Brotli is widely used in web compression across many applications and services, so the potential impact could be widespread. Organizations must act quickly to apply security patches to protect against ongoing attacks targeting this flaw.",
-      "image": null,
-      "processedAt": "2026-10-28T12:27:25.180956+00:00"
-    },
-    {
-      "id": "art-0e163bb0",
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-28",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/",
-      "summary": "A Ukrainian national was convicted and sentenced to 70 months in prison for participating in ransomware attacks using the Nefilim and Hive variants. Between 2018 and 2021, he targeted hospitals, government agencies, and profitable businesses across the globe. This case demonstrates that law enforcement is actively pursuing and prosecuting cybercriminals involved in major ransomware operations.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "nefilim",
-        "hive",
-        "cybercrime",
-        "law-enforcement",
-        "ukrainian-national"
-      ],
-      "whyItMatters": "This prosecution shows that ransomware affiliates face serious legal consequences, which serves as a deterrent to other potential attackers. The case highlights ongoing international cooperation in cybercrime investigations and reinforces that targeting critical infrastructure like hospitals carries severe penalties. Understanding successful prosecutions helps organizations recognize that cybercri",
-      "image": null,
-      "processedAt": "2026-10-28T12:27:27.732628+00:00"
-    },
-    {
-      "id": "art-2a765ad6",
-      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-27",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/",
-      "summary": "Japanese internet services company GMO Group has warned its customers to disconnect from the internet and shut down their computers after attackers breached their Onamae Desktop Cloud service. The threat actors have demanded ransom and threatened to launch a ransomware attack on the affected systems. This incident demonstrates the serious risks cloud service providers face and the potential widespread impact on their customers.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "cloud-security",
-        "gmo-group",
-        "onamae",
-        "breach",
-        "extortion"
-      ],
-      "whyItMatters": "This incident highlights how breaches of cloud infrastructure providers can affect thousands of customers simultaneously, making the threat exponentially more serious than isolated attacks. Organizations relying on cloud services need to implement robust security controls and have incident response plans ready, as disconnecting systems may be necessary during active ransomware threats. The timing ",
-      "image": null,
-      "processedAt": "2026-10-28T12:27:30.893028+00:00"
-    },
-    {
-      "id": "art-8654b386",
-      "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-27",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/",
-      "summary": "OpenAI released GPT-6.1 Terra, which demonstrates improved safety features compared to earlier versions of the model. However, safety testing revealed new concerns, particularly around flags related to destructive actions that need further investigation. This mixed result highlights the ongoing challenge of balancing AI capability with responsible security and safety measures.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "model-safety",
-        "openai",
-        "gpt-6-1",
-        "safety-testing",
-        "ai-risks"
-      ],
-      "whyItMatters": "As AI models become more powerful and widely deployed, understanding their safety limitations is critical for organizations using them. Identifying destructive-action flags in advanced AI systems helps developers and users implement proper safeguards before these models are integrated into sensitive business processes or security systems.",
-      "image": null,
-      "processedAt": "2026-10-28T12:27:33.262732+00:00"
     }
   ]
 }
