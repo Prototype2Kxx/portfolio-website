@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-10-31T20:43:46.347823+00:00",
+  "lastUpdated": "2026-11-01T12:57:50.469133+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-d9ac1d11",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-01",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "summary": "A critical vulnerability in Canonical's LXD and MicroCloud platforms allows attackers to impersonate trusted clients and gain unauthorized access to clusters and virtual machines without needing the victim's private key. The attacker only needs network access to the HTTPS API and the target client's public certificate to execute this attack. Once authenticated as a trusted client, the attacker gains full control over cluster resources and any connected virtual machines.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "lxd",
+        "microcloud",
+        "authentication-bypass",
+        "privilege-escalation",
+        "cloud-security",
+        "cvss-10"
+      ],
+      "whyItMatters": "This CVSS 10.0 vulnerability represents a complete authentication bypass in widely-used container and cloud infrastructure tools, allowing attackers to take full control of systems without stealing private keys. Organizations using LXD or MicroCloud need immediate patching to prevent cluster compromise and unauthorized access to all hosted virtual machines and resources.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4Vibbj3miGalyf0avn_Z2WlLhFh5cC5ImXGFlOL0cisgxikHCcLzHjOVM3qO5B47V3uw62rWH6m6fP1svsH3TCG6i9sS19BIXn1CsDjKK3gnG6VQxkFwghemdeBlV4_AM5Ah-_TJ3T_5Gv-D5Pygrm-B5yzQnDqvIXmI2FyAeuzk57_l6esdhNrTMBj0/s1600/linux-vm.jpg",
+      "processedAt": "2026-11-01T12:57:24.766885+00:00"
+    },
+    {
+      "id": "art-8eb60ce0",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-01",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "summary": "Hackers compromised Polymarket's website by injecting malicious code into a third-party page-speed script, allowing them to steal approximately $2.7 million from 726 traders' accounts. The attackers exploited the compromised script to sell traders' positions without authorization and redirect their funds. Polymarket has announced a full refund to affected users.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-injection",
+        "crypto-theft",
+        "third-party-compromise",
+        "account-compromise"
+      ],
+      "whyItMatters": "This incident demonstrates how attackers can exploit third-party dependencies to compromise high-value platforms, affecting thousands of users simultaneously. Organizations must implement strict controls over external scripts and monitor for unauthorized code modifications to prevent supply-chain attacks. The incident highlights the cryptocurrency sector's vulnerability to sophisticated attacks ta",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhe0B28qLAtUMfqN29_phxZJVJORICkj_98MZFwDiXAxFTABw8G9qbsVyD98pg7T_Rvgv83NXyR5tNGYH4dRwlxs3QFTUZxDPHQs2BgFsnmGcOuVW1HkFVCfiCR3Y05kPQrfFx4S7A8DiFXXAAgdc5SiEKx0-0xrW5rNlNSyN3jZJcyXasdpCr5AG7KM3s/s1600/Polymarket.jpg",
+      "processedAt": "2026-11-01T12:57:27.408071+00:00"
+    },
+    {
+      "id": "art-bdf7cf90",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-01",
+      "originalUrl": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "summary": "The FBI has identified a North Korean hacking group called TraderTraitor (also known by aliases like Jade Sleet and UNC4899) as responsible for stealing over $6 billion in cryptocurrency from Binance, marking one of the largest digital asset heists on record. This investigation involved coordination between multiple U.S. law enforcement agencies including the Secret Service and IRS Criminal Investigation. The attribution highlights how nation-state actors are increasingly targeting cryptocurrency exchanges to fund their operations.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "north-korea",
+        "crypto-theft",
+        "nation-state",
+        "binance",
+        "digital-assets",
+        "financial-crime"
+      ],
+      "whyItMatters": "This case demonstrates that major cryptocurrency exchanges face sophisticated threats from well-resourced nation-state actors, making it critical for organizations handling digital assets to implement robust security controls and for users to understand the risks of centralized exchanges. The attribution provides valuable threat intelligence that helps the cybersecurity community recognize and def",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmb1j0HC3RkKxZ4bBQPaOa5GaLqC2EBtxXHOMnebPlgHGDJG7ryIuSBIR-9YBQuUm6HwD15-OJQgBvIkhbLIApM8XoU0DptSEF6DNhEpinxPA-06wQZhLhRiKmFGO5cVjONcaouGC3lqybhkeEsZj-xebX6u6hSR19mS7sVqOrpR02qNOlpHZJEUjf1HtB/s1600/binance-hack.png",
+      "processedAt": "2026-11-01T12:57:30.275723+00:00"
+    },
+    {
+      "id": "art-232c566a",
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-01",
+      "originalUrl": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "summary": "A sophisticated malware called NetamLoader has been discovered targeting government organizations in Asia through a custom Windows 10 system. Researchers at Kaspersky revealed that this attack uses a previously unknown .NET framework to inject malicious code into government systems. This represents a targeted campaign against high-value government entities rather than a broad public threat.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "malware",
+        "government-targeting",
+        "net-injection",
+        "asia",
+        "custom-attack"
+      ],
+      "whyItMatters": "This malware demonstrates that nation-state or advanced threat actors are developing custom tools specifically designed to penetrate government infrastructure, indicating a shift toward highly tailored attacks rather than mass-market malware. The use of .NET injection techniques shows attackers are adapting to modern development frameworks, making detection more difficult for security teams. Organ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy0oLNj9TVg8ifLKdJSg4HH1EhN3m_OBldd7wEIeVoQSHtFXSmsiPdmf-njsPD-CbVHY8NckeW2N9rN8-CTnp81zaeFq-ISj04O7ihoj5HgnvJT_zY_0fdC8vCcd5LXL8Mx9ym1fPI5GMrEtjxZoEiernCr_CZwLocgtrJsKZzixEnYUe2WmkehWLNR2hx/s1600/windows-hacker.jpg",
+      "processedAt": "2026-11-01T12:57:33.118562+00:00"
+    },
+    {
+      "id": "art-6f258d96",
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "source": "The Hacker News",
+      "publishedDate": "2026-10-29",
+      "originalUrl": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+      "summary": "As AI technology advances, attackers can now use AI models to find vulnerabilities and create exploit code much faster than traditional security defenses were designed to handle. This fundamentally changes the cybersecurity challenge for defenders, who must now focus not just on detecting threats quickly, but on reducing the time window available for attackers to act. Security teams need to integrate AI threat readiness into their operations to keep pace with these accelerated attack capabilities.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-threats",
+        "threat-detection",
+        "security-operations",
+        "vulnerability-management",
+        "defender-readiness",
+        "ai-powered-attacks"
+      ],
+      "whyItMatters": "This article highlights a critical shift in the cybersecurity landscape where AI-accelerated attacks compress defenders' response windows, making traditional security processes obsolete. Organizations that fail to integrate AI into their defensive strategies risk being overwhelmed by faster, more sophisticated threats. Understanding and preparing for AI-driven attack scenarios is now essential for",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRqwLeHISYWaiVNUxkANuqw6ob8Exu7_9CIEt6uHbsNa7mcNUkSWZqNZHEL3_kqPPHXVq4RGTxqZZhMdybwcVVT28qCihLUi0I5ghW9Xk5sVDB2u2kJqULx-_FEcsEHuTCU5vIwReQZghbj8HjQD4zq8H1yiGSYNlmNC25YkViZxlqndOhIp1CD2s_sLlc/s1600/wiz-webinar.jpg",
+      "processedAt": "2026-11-01T12:57:35.829784+00:00"
+    },
+    {
+      "id": "art-f1e88aac",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "summary": "Microsoft released security updates fixing over 1,400 vulnerabilities across Windows and other products, more than doubling September's record patch count of nearly 1,000 fixes. This unprecedented volume of fixes represents a dramatic increase from Microsoft's typical monthly patch output. The massive number of vulnerabilities being addressed suggests either increased discovery efforts or a significant backlog of security issues in Microsoft products.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-patches",
+        "windows-security",
+        "vulnerability-fixes",
+        "patch-management",
+        "system-updates"
+      ],
+      "whyItMatters": "Organizations using Microsoft products must prioritize deploying these patches quickly, as the sheer volume of vulnerabilities creates multiple attack surfaces for threat actors to exploit. Delaying patching increases organizational risk exposure significantly, especially given that attackers often target known unpatched vulnerabilities shortly after patch release. This exceptional patch load also",
+      "image": null,
+      "processedAt": "2026-11-01T12:57:38.923637+00:00"
+    },
+    {
+      "id": "art-e62dd385",
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-10",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "summary": "The FBI arrested a co-founder of a Canadian cybersecurity firm as part of an investigation into the ShinyHunters hacking group, which allegedly stole sensitive data belonging to thousands of FBI agents. This arrest highlights connections between cybersecurity companies and criminal hacking operations. The incident raises concerns about insider threats and the misuse of industry positions for malicious activities.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "shinyhunters",
+        "insider-threat",
+        "fbi-breach",
+        "ransomware-negotiation",
+        "data-theft",
+        "cybercrime"
+      ],
+      "whyItMatters": "This case demonstrates that cybersecurity professionals can become vectors for attacks and that even law enforcement agencies are vulnerable to sophisticated breaches. It underscores the importance of vetting employees in security-sensitive roles and monitoring for suspicious activities that could compromise sensitive government data.",
+      "image": null,
+      "processedAt": "2026-11-01T12:57:41.383352+00:00"
+    },
+    {
+      "id": "art-90195e3d",
+      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-07",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "summary": "A teenager from Amman, Jordan, operating under the hacker alias \"Rey,\" has been arrested and is cooperating with the FBI as the suspected leader of ShinyHunters, a notorious data theft and extortion group. At the time of his detention, ShinyHunters was actively extorting a Boeing subsidiary, demonstrating the group's ongoing criminal operations targeting major corporations. The case highlights how law enforcement is working to dismantle organized cybercriminal gangs by securing cooperation from key members.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "data-extortion",
+        "cybercriminal-group",
+        "law-enforcement",
+        "international-cybercrime",
+        "fbi-investigation"
+      ],
+      "whyItMatters": "This arrest demonstrates that even sophisticated, prolific cybercriminal operations can be disrupted through international law enforcement cooperation, and that group leaders may be younger than expected. The case underscores how extortion gangs actively target major corporations like Boeing and their supply chains, making it a critical concern for enterprise security and incident response plannin",
+      "image": null,
+      "processedAt": "2026-11-01T12:57:44.694587+00:00"
+    },
+    {
+      "id": "art-bb379269",
+      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-28",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
+      "summary": "Dutch police arrested a 23-year-old convicted hacker suspected of working with the ShinyHunters group, which is known for large-scale data thefts and extortion campaigns. Following the arrest, the remaining ShinyHunters members intensified their attacks, stealing sensitive data from the FBI and attempting to extort the Russian ransomware group Cl0p. This incident demonstrates how removing one member from a criminal organization can paradoxically trigger more aggressive criminal activity from those who remain.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "data-theft",
+        "extortion",
+        "shiney-hunters",
+        "law-enforcement",
+        "fbi-breach",
+        "ransomware-group"
+      ],
+      "whyItMatters": "This case illustrates that arresting individual cybercriminals does not automatically disrupt organized hacking groups—it may escalate their operations instead. Organizations must recognize that high-profile law enforcement actions against cybercrime syndicates can trigger defensive or retaliatory attacks, and the FBI breach highlights that even well-resourced government agencies remain vulnerable",
+      "image": null,
+      "processedAt": "2026-11-01T12:57:47.796651+00:00"
+    },
+    {
+      "id": "art-bf5a76b5",
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-09-25",
+      "originalUrl": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "summary": "A U.S. Army soldier was convicted of hacking into AT&T and Verizon to steal call and text data from over 100 million customers in 2024. He received a 70-month prison sentence and was ordered to pay nearly $300,000 in restitution. This case demonstrates that insider threats and large-scale telecom breaches can result in serious federal criminal consequences.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "insider-threat",
+        "telecommunications",
+        "extortion",
+        "military-personnel",
+        "federal-crime"
+      ],
+      "whyItMatters": "This case highlights the severe risks posed by insider threats within critical infrastructure sectors and shows that massive breaches affecting hundreds of millions of customers can originate from trusted personnel with system access. It underscores the importance of monitoring employee activities, enforcing least-privilege access controls, and implementing detection systems for unauthorized data ",
+      "image": null,
+      "processedAt": "2026-11-01T12:57:50.468960+00:00"
+    },
     {
       "id": "art-59bf5156",
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
@@ -826,212 +1032,6 @@
       "whyItMatters": "This potential breach demonstrates that even major, well-resourced cryptocurrency platforms remain vulnerable to large-scale attacks, putting billions in customer assets at risk. The incident serves as a critical reminder for users to implement strong security practices and for organizations to continuously audit and strengthen their security infrastructure against sophisticated threats.",
       "image": null,
       "processedAt": "2026-10-30T12:29:22.750924+00:00"
-    },
-    {
-      "id": "art-14044105",
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "summary": "This week's cybersecurity threats include critical firewall vulnerabilities, banking trojans available for rent, weaponized PDFs, and token theft attacks. The article highlights a mix of sophisticated hacking techniques and exploits targeting both old unpatched bugs and trusted applications. Attackers are leveraging familiar software and AI tools to launch attacks, while also abusing exposed credentials and careless security practices.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "firewall-vulnerabilities",
-        "banking-trojans",
-        "token-theft",
-        "malware-as-a-service",
-        "zero-day",
-        "threat-landscape"
-      ],
-      "whyItMatters": "The combination of critical firewall flaws and widely-available rental trojans means attackers have multiple entry points and tools to compromise networks and financial systems at scale. This article underscores that cybersecurity threats span from unpatched vulnerabilities to emerging attack vectors, making urgent patching and threat awareness essential for organizational defense.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNTh5CKLvFJeeXzWn1LVT-e9435oFtUz4jT-4TmZaWkRUY_RY8EAtijUWxQztoK3K_tU_csSw54MuVeX8UzeT6ZWNLtTMex5pMS4z4Npz-aYAN9qIfWk2bUsei5nswh3UkzycVlKznVjK7n1I_knJ-p1I59RoX_TECTfr-NPej9LWoDt2UuwvLY4heSip/s1600/t-day.jpg",
-      "processedAt": "2026-10-29T22:05:21.660542+00:00"
-    },
-    {
-      "id": "art-20877d35",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "summary": "A critical flaw in the Linux kernel's TCP implementation, designated CVE-2026-98432, has been discovered affecting major distributions like Ubuntu and Red Hat Enterprise Linux. With a CVSS score of 9.8, this vulnerability allows remote attackers to execute commands with root privileges on affected systems without needing any credentials. Anthropic's AI model reportedly developed a working exploit for this flaw, demonstrating its active exploitability.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "linux-kernel",
-        "tcp-vulnerability",
-        "remote-code-execution",
-        "root-access",
-        "ubuntu",
-        "rhel"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe risk to Linux infrastructure worldwide, as it enables unauthenticated remote attackers to gain complete system control. The existence of a working exploit and the extreme CVSS score make this a priority patch for all organizations running affected Linux distributions. System administrators must treat this as an emergency requiring immediate kernel u",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
-      "processedAt": "2026-10-29T22:05:24.280482+00:00"
-    },
-    {
-      "id": "art-2ab46263",
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "summary": "Cybercriminals are distributing fake desktop applications claiming to be ChatGPT and Claude alternatives through fraudulent GitHub projects to trick users into downloading malware. These fake apps, with names like GPT-5.6 Sol and Claude Opus, actually contain malicious loaders and cryptocurrency miners instead of legitimate AI tools. This campaign, tracked as Yoba, demonstrates how attackers exploit user interest in popular AI platforms to spread malware.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "fake-apps",
-        "crypto-miners",
-        "malware-distribution",
-        "social-engineering",
-        "github-abuse",
-        "ai-impersonation"
-      ],
-      "whyItMatters": "This attack exploits the widespread popularity of AI tools to distribute malware at scale, making it a significant threat to everyday users who may not verify application authenticity. Understanding how attackers abuse trusted platforms like GitHub and impersonate legitimate software helps users and organizations better protect themselves against trojanized applications.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1600/claude-hack.jpg",
-      "processedAt": "2026-10-29T22:05:27.152365+00:00"
-    },
-    {
-      "id": "art-53c0e16e",
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "summary": "Google has released Gemini 4 Carbon, an advanced AI model designed to strengthen cybersecurity defense capabilities. The model demonstrates exceptional performance in identifying vulnerabilities, exploiting them for testing purposes, and developing patches, achieving top scores on industry benchmarks. This represents a significant leap in using AI-powered tools to automate and improve the security vulnerability lifecycle.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "vulnerability-detection",
-        "patch-development",
-        "defensive-ai",
-        "benchmark-performance"
-      ],
-      "whyItMatters": "AI-driven vulnerability discovery and patching tools like Gemini 4 Carbon can dramatically accelerate security teams' ability to find and fix weaknesses before attackers exploit them. However, the same capabilities that improve defense could potentially be misused for offensive purposes, making it important for organizations to understand and responsibly deploy such technologies.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMb78BxIXnGaXFzCXPdswdQZsuh8rz63Y22pLX3cOkgRgaPv3KJgw6fRULDT3am1YO4eA1obnh0aOdxZy4KVZMww8sxNOtxzZXYcouotzbB25LVdJrCeDk0MQsgCmsYQBAaGdwyhmiMNa2Y90ujuXFXZPLTIrOo1PB6vtWqWAXygOvM72cEmXvHTN9Ktw/s1600/google-gemini.jpg",
-      "processedAt": "2026-10-29T22:05:29.725719+00:00"
-    },
-    {
-      "id": "art-d722a35c",
-      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-      "summary": "GitHub has introduced a new firewall tool for npm packages that automatically inspects and blocks suspicious packages before they can be installed on a developer's system. This security feature examines both package metadata and downloads to detect signs of malicious code, helping prevent compromised dependencies from entering projects. The firewall is currently available as a public preview and focuses specifically on the npm ecosystem.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "npm-security",
-        "package-management",
-        "malware-prevention",
-        "supply-chain-security",
-        "dependency-protection"
-      ],
-      "whyItMatters": "Supply chain attacks through compromised npm packages have become a major vector for distributing malware to developers worldwide. By implementing automated inspection at install time, GitHub provides a critical layer of defense that can prevent thousands of projects from inadvertently pulling in malicious code. This proactive approach significantly reduces the risk of silent infections that could",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJ7hXo0MoiQiXCSLnOj0h2YUqDhIHl13Le4XxOU3UxV7X2mm4_YGJKOT6akyW58uRaMhslGN6NY9B_1u7V-y_fy0kYJHKoVA-yBWVt53xqBk06_syRpASgWezvnVIZs9goRlwNrp_HMVj_Pu8rzXmIsfJBV1YzhJ8IAd-1g7FFVhFWqc9HegTk4Jok5kR9/s1600/github.gif",
-      "processedAt": "2026-10-29T22:05:32.659836+00:00"
-    },
-    {
-      "id": "art-df548afa",
-      "title": "Polymarket halts trading after crypto-draining script breach, $2.5M traced",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/",
-      "summary": "Polymarket, a cryptocurrency prediction platform, discovered that hackers had infiltrated a third-party service to inject malicious JavaScript code designed to steal user cryptocurrencies. The attack resulted in approximately $2.5 million in assets being traced to a suspected attacker's wallet, forcing the platform to halt trading temporarily. This incident demonstrates how compromising trusted third-party services can have serious financial consequences for cryptocurrency platforms and their users.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware",
-        "javascript-injection",
-        "cryptocurrency-theft",
-        "third-party-compromise",
-        "financial-fraud"
-      ],
-      "whyItMatters": "This attack highlights the critical vulnerability of relying on third-party services and the severe financial impact that malware injection can have on fintech platforms. It demonstrates how attackers can weaponize trusted infrastructure to bypass security measures and directly steal assets from users, making supply chain security and runtime code integrity essential concerns for cryptocurrency an",
-      "image": null,
-      "processedAt": "2026-10-29T22:05:35.343663+00:00"
-    },
-    {
-      "id": "art-8868705d",
-      "title": "Fake crypto app on Apple App Store linked to $23K wallet theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-crypto-app-on-apple-app-store-linked-to-23k-wallet-theft/",
-      "summary": "A fraudulent cryptocurrency trading application named Padre Terminal was discovered on Apple's App Store and successfully stole approximately $23,000 from 27 Solana cryptocurrency wallets. This incident demonstrates how malicious apps can bypass app store security reviews and target users seeking legitimate cryptocurrency trading tools. The fake app exploited users' trust in official app marketplaces to gain access to their digital assets.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "fake-app",
-        "cryptocurrency-theft",
-        "app-store-security",
-        "wallet-compromise",
-        "social-engineering"
-      ],
-      "whyItMatters": "This case highlights a critical vulnerability in app store vetting processes where malicious applications can slip through security checks, putting users at direct financial risk. Users often trust official app marketplaces, making fake apps particularly dangerous for targeting cryptocurrency holders who may not verify app authenticity before granting permissions. Organizations and users must impl",
-      "image": null,
-      "processedAt": "2026-10-29T22:05:38.166322+00:00"
-    },
-    {
-      "id": "art-ca0324fa",
-      "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
-      "summary": "A sophisticated hacking group called UAT-11473 discovered a security weakness in Cisco's SD-WAN Controllers and used it to sneak into systems and install custom malware known as KeyDrift. This attack demonstrates how attackers find and exploit authentication flaws to gain unauthorized access to critical networking infrastructure. Organizations using Cisco SD-WAN technology are potentially at risk and need to apply security patches immediately.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-exploit",
-        "sd-wan",
-        "authentication-bypass",
-        "apt-group",
-        "malware-deployment",
-        "network-infrastructure"
-      ],
-      "whyItMatters": "SD-WAN controllers are essential to network operations, so exploiting them gives attackers deep access to an organization's infrastructure and data. Active exploitation by an advanced threat group means this vulnerability is being weaponized in real attacks right now, requiring immediate patching. Enterprises running Cisco SD-WAN must prioritize this vulnerability or risk widespread network compro",
-      "image": null,
-      "processedAt": "2026-10-29T22:05:41.249943+00:00"
-    },
-    {
-      "id": "art-8eea0087",
-      "title": "Chrome extensions with 13.4 million installs caught hijacking searches",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/chrome-extensions-with-134-million-installs-caught-hijacking-searches/",
-      "summary": "Researchers discovered a large-scale malicious campaign involving 319 Chrome extensions that had been installed over 13.4 million times. These fake extensions were designed to intercept and redirect users' search queries through tracking servers, allowing attackers to earn advertising revenue from Bing and Yahoo. Users unknowingly had their search behavior monitored and manipulated without their consent.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "chrome-extensions",
-        "search-hijacking",
-        "malware",
-        "browser-security",
-        "tracking",
-        "adware"
-      ],
-      "whyItMatters": "This incident demonstrates how widely-distributed browser extensions can compromise user privacy and security at scale, affecting millions of people. It highlights the importance of vetting browser extensions carefully before installation, as malicious extensions can monitor behavior and redirect traffic even after installation. Users should regularly audit their installed extensions and only down",
-      "image": null,
-      "processedAt": "2026-10-29T22:05:43.864785+00:00"
-    },
-    {
-      "id": "art-5ab4cf6d",
-      "title": "Microsoft fixes Remote Desktop failures caused by recent Windows updates",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-remote-desktop-failures-caused-by-recent-windows-updates/",
-      "summary": "Microsoft released a fix for a problem that prevented regular users from accessing Remote Desktop when a security feature called Administrator protection was enabled. This issue affected users following recent Windows updates and blocked legitimate remote connections. The resolution allows non-admin users to regain Remote Desktop functionality without compromising security settings.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "remote-desktop",
-        "windows-update",
-        "bug-fix",
-        "administrator-protection",
-        "access-control"
-      ],
-      "whyItMatters": "This issue demonstrates how security patches can inadvertently create operational problems that prevent legitimate users from accessing critical systems, highlighting the need for thorough testing before deployment. Organizations relying on Remote Desktop for workforce management must understand these compatibility issues and apply fixes promptly to maintain productivity while maintaining security",
-      "image": null,
-      "processedAt": "2026-10-29T22:05:46.235941+00:00"
     }
   ]
 }
