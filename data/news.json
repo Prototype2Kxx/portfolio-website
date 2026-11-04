@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-11-04T14:04:34.130262+00:00",
+  "lastUpdated": "2026-11-04T22:57:12.198428+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-6d74f6b6",
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "summary": "A vulnerability in APT, the package manager used by Debian and Ubuntu systems, allows attackers performing man-in-the-middle attacks to replace legitimate software packages with malicious ones that execute with root privileges. The flaw exploits APT's default retry mechanism for failed downloads, enabling code execution at the highest system level. This vulnerability affects multiple Linux distributions and was disclosed by developers on November 4, 2026.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "apt-vulnerability",
+        "debian",
+        "ubuntu",
+        "mitm-attack",
+        "privilege-escalation",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects millions of Debian and Ubuntu users across personal computers, servers, and cloud infrastructure, allowing attackers on the same network to gain complete system control. The default nature of the vulnerable retry mechanism means most systems are affected without any special configuration, making this a widespread and immediate threat requiring urge",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg",
+      "processedAt": "2026-11-04T22:56:46.172201+00:00"
+    },
+    {
+      "id": "art-552d78ab",
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "summary": "SonicWall has announced that two security vulnerabilities affecting its end-of-life Global Management System (GMS) versions 9.5.2 and earlier will not receive patches. One of these flaws, rated 9.1 on the CVSS scale, allows unauthenticated attackers to read sensitive internal files from affected systems. Organizations still using these older GMS versions face elevated risk since no official fixes will be provided.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sonicwall",
+        "gms",
+        "unpatched-vulnerability",
+        "end-of-life",
+        "file-read",
+        "network-security"
+      ],
+      "whyItMatters": "This situation creates a dangerous scenario where organizations cannot remediate critical vulnerabilities through official patches, forcing them to either accept significant security risk or migrate away from supported products. The high CVSS score and unauthenticated nature of the exploit means attackers can remotely access sensitive data without credentials, making this a serious threat to any o",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgME1T4MkjI8UEzzSmlLgbPG6a__VNQNoKkhuxiaW5zF5fnHLPmsTdkGoIL06JTeER1jcOMH-WLuNYyva_sSW_8DnZojbMC8ikgNME3ZPUAdkij-9nVm8joHHdaZRoLNbVgcSVLNSc6Tt7UJ3YPhQmea3OtQwg-H2UzUPIgWq7nFwoEQcMsGCKf-0fImEvd/s1600/sonic.jpg",
+      "processedAt": "2026-11-04T22:56:49.164289+00:00"
+    },
+    {
+      "id": "art-17393662",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "summary": "Researchers discovered a jailbreak toolkit called Haiou that exploits OpenAI's Codex to inject unwanted advertisements into AI systems by modifying their core instructions. This type of attack, termed \"prompt adware\" by Check Point Research, hijacks trusted AI configurations to promote third-party services. The discovery highlights how AI models can be manipulated to behave outside their intended purposes through crafted prompts.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "prompt-injection",
+        "jailbreak",
+        "codex",
+        "adversarial-prompt",
+        "ai-abuse"
+      ],
+      "whyItMatters": "This attack demonstrates a new class of threats targeting AI systems where malicious actors can redirect AI behavior for profit or harm without traditional code execution. Organizations relying on OpenAI's Codex and similar models need to understand that prompt-based attacks can compromise system integrity and trustworthiness. As AI integration accelerates across industries, understanding and defe",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO7-xs-0dO1uqFLbfphgPbe8T7cbCLkrab6XhAjlNPVo-bLQOFw4mkcArqglQOvhuIYif4ohTAub-TNWlket6iguifshMRo3zBrYvM4G_IwFTtbh8ifIqh1Vuf8GuNmqDg_PB2Roy7yzYuTFhRrFM8wxOo8HVwfG9Y2eqJnq82LGYHnAKI5S6TuvZ_Q95A/s1600/ai-adware.jpg",
+      "processedAt": "2026-11-04T22:56:52.257354+00:00"
+    },
+    {
+      "id": "art-e295099f",
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "summary": "APT29, a Russia-linked hacking group, conducted a large-scale watering hole attack targeting mobile users by compromising websites and injecting malicious JavaScript code through a Ukrainian web analytics service called Plerdy SEO Tracker. The attack collected sensitive browser and device information from both iOS and Android users, demonstrating how attackers can exploit legitimate third-party services to reach large numbers of victims. This supply chain compromise shows how trusted web services can be weaponized to distribute mobile exploits at scale.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "apt29",
+        "watering-hole",
+        "supply-chain-attack",
+        "mobile-exploit",
+        "javascript-injection",
+        "ios-android"
+      ],
+      "whyItMatters": "This attack reveals how sophisticated threat actors can compromise widely-used legitimate services to gain access to thousands of users without detection, making it difficult for organizations to protect users simply by monitoring direct threats. The targeting of mobile platforms alongside web infrastructure shows attackers are expanding beyond traditional endpoints. Organizations and users need t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg",
+      "processedAt": "2026-11-04T22:56:55.544450+00:00"
+    },
+    {
+      "id": "art-3bded5fc",
+      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+      "summary": "Google discovered a critical vulnerability in Android versions 14 through 17 that could let attackers run malicious code on phones without requiring any user action or interaction. The flaw, tracked as CVE-2026-58868, has been addressed in Google's November security update, though the availability of the patch depends on individual phone manufacturers and carriers. Users should prioritize installing the security patch level 2026-11-01 or later to protect their devices from potential remote code execution attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "android-vulnerability",
+        "remote-code-execution",
+        "patch-now",
+        "cve-2026-58868",
+        "critical-flaw"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and widespread risk because it allows attackers to compromise Android devices remotely without user interaction, making it especially dangerous. Organizations and individuals relying on Android devices need to prioritize applying security patches as soon as they become available from their device manufacturers. The lack of user action requirement means even vi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg",
+      "processedAt": "2026-11-04T22:56:58.398168+00:00"
+    },
+    {
+      "id": "art-3a63b242",
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "summary": "Vercel is deploying Device Bound Session Credentials (DBSC) to protect users against attacks where hackers steal session cookies through malware. This new security feature ties session credentials to specific devices, making stolen cookies useless if accessed from a different machine. The rollout is happening gradually across Vercel's platform as part of their defense strategy against information stealer malware.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "session-security",
+        "cookie-protection",
+        "malware-defense",
+        "cloud-security",
+        "credential-theft"
+      ],
+      "whyItMatters": "Session cookie theft is a common attack vector used by information stealers to gain unauthorized access to user accounts and data without needing passwords. DBSC significantly reduces this risk by making stolen credentials location-specific and harder to exploit, raising the security bar for cloud platform users. This represents a proactive security improvement that can prevent widespread account ",
+      "image": null,
+      "processedAt": "2026-11-04T22:57:01.337081+00:00"
+    },
+    {
+      "id": "art-2ca08248",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "summary": "Zyxel discovered and patched a zero-day vulnerability in its GS1900 series network switches that attackers actively exploited to compromise nearly 1,000 devices globally. The attackers used this flaw to gain unauthorized access and steal sensitive information including configuration files and login credentials from affected switches. This incident demonstrates the real-world risks posed by unpatched network infrastructure vulnerabilities.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "network-security",
+        "zyxel",
+        "patch-urgent",
+        "credential-theft",
+        "active-exploitation"
+      ],
+      "whyItMatters": "This zero-day was actively being exploited at scale against nearly 1,000 devices before a patch was released, making it an urgent threat to any organization using Zyxel GS1900 switches. Compromised network switch credentials can give attackers persistent access to entire network infrastructure, enabling lateral movement and long-term data theft. Organizations must prioritize applying this patch im",
+      "image": null,
+      "processedAt": "2026-11-04T22:57:04.232099+00:00"
+    },
+    {
+      "id": "art-2da2d8c5",
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "summary": "DreamHost, a popular web hosting provider, suffered a data breach that allowed attackers to access its File Manager platform for approximately two months. During this time, the attackers stole customers' FTP and SFTP login credentials along with webmail session information. The company is now warning affected customers to change their passwords and take steps to secure their accounts.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "ftp-credentials",
+        "hosting-provider",
+        "account-security",
+        "webmail-compromise"
+      ],
+      "whyItMatters": "FTP and SFTP credentials provide direct access to website files and hosting infrastructure, putting customer websites and data at serious risk of unauthorized modification or theft. A two-month window of exposed access means attackers had extended time to compromise multiple customer accounts. This breach highlights the importance of hosting provider security and the need for customers to regularl",
+      "image": null,
+      "processedAt": "2026-11-04T22:57:06.787271+00:00"
+    },
+    {
+      "id": "art-18b61194",
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "summary": "Hackers attacked a refrigeration equipment provider used by France's national blood service, causing temperature and defrost settings to malfunction at three facilities. This cyberattack put stored blood products at risk by raising temperatures in critical storage systems. The incident highlights how attacks on third-party suppliers can threaten essential medical infrastructure and patient safety.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "critical-infrastructure",
+        "supply-chain-attack",
+        "iot-security",
+        "healthcare-threat",
+        "blood-service"
+      ],
+      "whyItMatters": "This attack demonstrates how cybercriminals can target vulnerable points in medical supply chains to disrupt lifesaving services. When blood storage systems fail due to cyberattacks, it directly endangers patients who depend on transfusions and reveals gaps in protecting IoT and industrial control systems in healthcare.",
+      "image": null,
+      "processedAt": "2026-11-04T22:57:09.402332+00:00"
+    },
+    {
+      "id": "art-43731f7e",
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "summary": "Hackers compromised the PC launcher for Goddess of Victory: NIKKE, a popular game, and injected malware into it as part of a supply-chain attack. The malware was designed to steal sensitive information like user credentials and cryptocurrency wallet data from players who downloaded the infected launcher. This incident demonstrates how attackers can target widely-used software distribution channels to reach large numbers of victims at once.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "supply-chain-attack",
+        "malware-distribution",
+        "credential-theft",
+        "cryptocurrency-theft",
+        "game-security"
+      ],
+      "whyItMatters": "Supply-chain attacks through popular applications are particularly dangerous because they bypass user skepticism—players trust official launchers. This attack shows that even entertainment software can be weaponized to steal financial and personal data, making it critical for users to verify software integrity and for companies to secure their distribution pipelines.",
+      "image": null,
+      "processedAt": "2026-11-04T22:57:12.198266+00:00"
+    },
     {
       "id": "art-1c8139e9",
       "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
@@ -829,212 +1034,6 @@
       "whyItMatters": "Active zero-day exploits targeting widely-deployed remote access solutions pose immediate risk to organizations—attackers are actively using these flaws before patches are applied. Chained vulnerabilities are particularly dangerous because they allow attackers to escalate privileges or bypass security controls more effectively than individual exploits. Organizations running Ivanti Connect Secure m",
       "image": null,
       "processedAt": "2026-11-03T00:07:01.075538+00:00"
-    },
-    {
-      "id": "art-2be46e63",
-      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
-      "summary": "An Iran-aligned threat group called DarkBlinders conducted a cyber espionage campaign between August and October 2026 targeting Israel and the Kurdistan Region of Iraq. The attackers successfully compromised a high-profile Israeli individual and infiltrated government cloud infrastructure in the Iraqi Kurdish region. This campaign demonstrates the ongoing threat of state-sponsored actors targeting sensitive government and personal accounts in the Middle East.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "cyber-espionage",
-        "state-sponsored",
-        "cloud-compromise",
-        "government-targets",
-        "middle-east"
-      ],
-      "whyItMatters": "This incident highlights how nation-state actors continue to exploit cloud environments and target critical government infrastructure, posing direct threats to national security and sensitive data. Organizations managing government and high-profile accounts must reassess their cloud security posture and implement stronger authentication and monitoring controls to detect similar intrusions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7nIwDn7LIoF8OUZdj0NRjq4ZMu-xjzcOPQJDwouwkwqwVe618e77am9iyAIez63Q8jVqZi7OtU43gJlhbZT-_4l_4pUq3tYpDUe4ErouPlkNi8YTNZiPQ6KmX2Ci028oT24DRcPtCdKv_zZ33_ZHOodARrbmcwxYWCAx4r45Qc0qVOQNmCCoWZmAWJnzt/s1600/shelby-hacker.png",
-      "processedAt": "2026-11-02T15:15:48.148845+00:00"
-    },
-    {
-      "id": "art-77038428",
-      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
-      "summary": "Langflow, an open-source platform for building AI agents and workflows, contains two critical security flaws that allow attackers without credentials to bypass authentication and execute arbitrary code on affected servers. All versions from 1.0.0 through 1.12.8 are vulnerable, with users required to upgrade to version 1.13.0 to receive protection. IBM disclosed these vulnerabilities, which pose an immediate threat to organizations deploying Langflow in production environments.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "langflow",
-        "authentication-bypass",
-        "remote-code-execution",
-        "ai-security",
-        "patch-now",
-        "unauthenticated-access"
-      ],
-      "whyItMatters": "These vulnerabilities are critical because they allow remote attackers to gain complete control of Langflow servers without needing valid credentials, potentially compromising AI workflows and sensitive data. Organizations using affected versions face immediate exploitation risk and must urgently update to version 1.13.0 to prevent unauthorized access and code execution.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_FF2_yXQrxnB1ymo-GsohY6t0INslV7mps2DVMnYa_dD_RpZu7uz9HwNrux1gxieMF4hnc_84KMpOyhroj0EDx0Vwv0QljdhTehvJINIsr-Sjyw4CaMiLO3fFWGl-8LhLWgOtC4DRU2X5e46s3Rxghu3KLUMsyHfpxFyKogIs34Q2fm2RYpAMI_Jt_9A/s1600/langflow-rce.jpg",
-      "processedAt": "2026-11-02T15:15:50.925412+00:00"
-    },
-    {
-      "id": "art-0e1d661a",
-      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
-      "summary": "The majority of security teams are now actively using or testing AI in their operations, with only a small fraction avoiding it entirely. Security operations centers (SOCs) must evaluate their readiness to deploy AI agents effectively, which requires assessing both technical capabilities and organizational maturity. This survey highlights that AI adoption in security is becoming standard practice rather than an experimental initiative.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-agents",
-        "soc-readiness",
-        "security-operations",
-        "ai-adoption",
-        "maturity-assessment"
-      ],
-      "whyItMatters": "As AI becomes embedded in SOC operations, teams need to understand their current readiness level to avoid deploying AI tools that exceed their infrastructure or skill capabilities, which could create new security risks. Organizations rushing to adopt AI without proper assessment may experience integration failures, false positives, or miss critical security incidents that AI systems aren't properl",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZbG_0dst_8ctvKrGx37rAninLXS6SIcKT4YjziNbu7bPmTPAsYvWo-Jkwj0UqT493VwmYVtvkthnEGLqTusFvJFo9fPth_VWjI2XNev9SKY-sePLY12rM5yWoQOzrvEXG0DWOWBb7N8GcdHNPqv6skeqGx2r2zGVlDeWkPnt5drMe_R2yh8TB8-kOCug/s1600/pro.jpg",
-      "processedAt": "2026-11-02T15:15:53.608674+00:00"
-    },
-    {
-      "id": "art-d5515dc3",
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
-      "summary": "Attackers impersonated IT support personnel on Microsoft Teams to gain remote access to employee computers. Once inside, they exploited weak Active Directory Certificate Services (AD CS) configurations to obtain login certificates for privileged accounts, including domain controller access. Microsoft investigated two confirmed incidents as part of this attack campaign.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "social-engineering",
-        "active-directory",
-        "privilege-escalation",
-        "microsoft-teams",
-        "ad-cs",
-        "domain-controller"
-      ],
-      "whyItMatters": "This attack demonstrates a dangerous combination of social engineering and technical exploitation that can lead to complete domain compromise. Organizations must validate IT support requests through alternate channels and immediately audit AD CS permissions, as weak certificate service configurations create pathways for attackers to escalate privileges and maintain persistent access to critical in",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLv88EM1ZSjaeI7bH9DVpg2mGdkwXWUuir0S_p9IfiWG49_TgRalFdK4oQ6e7UE_JYOnNH70Z6wcftnjhcYHRY-Xc0o8GYp9r1uNzxdC_1bnXZgvon74cXkWgKpHZtwJg3IKLsqGC2HS2tcMfQS8BZu7kfrW1vAaaIA316LRzgCOn8zeGZ1WvALgJmyM4/s1600/ms-ad.jpg",
-      "processedAt": "2026-11-02T15:15:55.865978+00:00"
-    },
-    {
-      "id": "art-4ca62715",
-      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
-      "summary": "A cyber espionage campaign called CL-UNK-1211 has been targeting Linux servers used by government agencies and state infrastructure since October 2025. Security researchers from Palo Alto Networks discovered the attackers are using a custom malware called SysGoRAT alongside scripts that may have been generated using AI technology. This ongoing threat demonstrates sophisticated methods to infiltrate critical government systems and steal sensitive information.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "sysgorat",
-        "linux-malware",
-        "government-targeting",
-        "cyber-espionage",
-        "ai-generated-tools",
-        "state-infrastructure"
-      ],
-      "whyItMatters": "This attack targets government infrastructure using advanced malware and AI-generated tools, representing a critical threat to national security and sensitive data. The use of custom SysGoRAT malware and AI-assisted attack scripts indicates sophisticated threat actors capable of adapting their methods to evade detection. Organizations managing government or state-affiliated systems must immediatel",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYHKbP_7yOsvpwAldBMCL3QkCJ9SbUVrJz1Tr_RB6m3O99Gj73H0fX20hIbzKujRWB-1qkBCWv1UEJEbrTe1NFYpPkTm0OoNqJe7OdJoZa1HcZDT2On3mUT0igQeCOsMnWw_ZfT-HsLx6B8R84XYHHg4mUI2hPzM15ggddQCFAAmzChzC5Of90LInW8RB8/s1600/artex.jpg",
-      "processedAt": "2026-11-02T15:15:58.947505+00:00"
-    },
-    {
-      "id": "art-2fbbed78",
-      "title": "BTCPay Server warns of hot wallet thefts targeting outdated instances",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
-      "summary": "BTCPay Server maintainers have alerted users that hackers are actively stealing cryptocurrency from hot wallets on outdated server installations. The attacks specifically target instances running older versions of the software, exploiting unpatched vulnerabilities. Users are being urged to upgrade to the latest version immediately to protect their digital assets.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "cryptocurrency-theft",
-        "hot-wallet-attacks",
-        "outdated-software",
-        "patch-urgently",
-        "btcpay-server",
-        "active-exploitation"
-      ],
-      "whyItMatters": "This represents active, real-world theft targeting financial systems, making immediate patching essential for anyone running BTCPay Server. The targeting of older versions demonstrates how failure to update creates direct financial risk, not just theoretical security issues. Organizations handling cryptocurrency payments face immediate and quantifiable losses without prompt remediation.",
-      "image": null,
-      "processedAt": "2026-11-02T15:16:01.593034+00:00"
-    },
-    {
-      "id": "art-a86655ee",
-      "title": "Your Mobile Carrier Stores Your Call Logs for Years",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
-      "summary": "Mobile carriers store detailed records of customers' calls and text messages for extended periods, creating a significant privacy risk if that data is compromised. This metadata can reveal sensitive information about personal relationships, locations, and daily habits. Some mobile services are now addressing this concern by automatically deleting call records to reduce exposure to potential breaches.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "data-retention",
-        "mobile-privacy",
-        "metadata-exposure",
-        "telecom-security",
-        "customer-data-protection"
-      ],
-      "whyItMatters": "This highlights a critical infrastructure vulnerability where carriers routinely collect and store sensitive behavioral data that extends far beyond communications content. If carrier systems are breached, attackers gain access to comprehensive location and relationship intelligence on millions of users, making this a high-impact privacy and security concern that affects the general population.",
-      "image": null,
-      "processedAt": "2026-11-02T15:16:04.135440+00:00"
-    },
-    {
-      "id": "art-9f319b31",
-      "title": "Hackers disrupt refrigeration systems at European supermarkets",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-      "summary": "Hackers launched a cyberattack targeting refrigeration systems across multiple European supermarket chains, remotely accessing and altering temperature settings on freezers and cooling units. This attack disrupted normal store operations and potentially caused food spoilage and financial losses. The incident highlights how critical infrastructure in the retail sector can be compromised through remote access vulnerabilities.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "iot-security",
-        "critical-infrastructure",
-        "remote-access",
-        "operational-technology",
-        "supply-chain",
-        "physical-impact"
-      ],
-      "whyItMatters": "This attack demonstrates that hackers are targeting operational technology (OT) systems beyond traditional IT networks, causing real-world physical consequences like food waste and business disruption. It underscores the importance of securing IoT and industrial control systems in retail environments, as these systems often lack robust cybersecurity protections compared to traditional IT infrastru",
-      "image": null,
-      "processedAt": "2026-11-02T15:16:06.665515+00:00"
-    },
-    {
-      "id": "art-8aacc589",
-      "title": "Microsoft fixes Smart App Control broken by October Windows update",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
-      "summary": "Microsoft fixed a bug in its October 2026 Windows 11 security update that was blocking users from enabling Smart App Control, an important built-in security feature. The issue affected multiple users after they installed the KB5127648 patch. With this resolution, users can now properly activate this protective security tool without encountering errors.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "windows-update",
-        "smart-app-control",
-        "security-feature",
-        "bug-fix",
-        "kb5127648"
-      ],
-      "whyItMatters": "Smart App Control is a critical Windows security feature that helps prevent unauthorized applications from running, making this bug fix essential for users to maintain proper system protection. When security features become disabled or inaccessible due to updates, it creates temporary vulnerabilities that attackers could exploit. Ensuring users can activate security tools without complications is ",
-      "image": null,
-      "processedAt": "2026-11-02T15:16:09.520887+00:00"
-    },
-    {
-      "id": "art-5261f842",
-      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-02",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-      "summary": "More than 1,000 GitLab servers accessible on the internet have not been updated to fix a critical vulnerability that allows attackers to take complete control of the systems. Hackers are actively exploiting this flaw to execute malicious code remotely on unpatched servers. Organizations running vulnerable versions of GitLab face immediate risk of compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "gitlab",
-        "rce-attacks",
-        "unpatched-servers",
-        "remote-code-execution",
-        "patch-urgent",
-        "active-exploitation"
-      ],
-      "whyItMatters": "This represents an active, widespread threat affecting thousands of exposed systems with readily available exploits in the wild. The combination of internet exposure, active exploitation, and maximum-severity rating means organizations must prioritize patching immediately or risk complete system compromise. Delayed remediation significantly increases the likelihood of data theft, infrastructure da",
-      "image": null,
-      "processedAt": "2026-11-02T15:16:12.309240+00:00"
     }
   ]
 }
