@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-11-03T22:39:13.405774+00:00",
+  "lastUpdated": "2026-11-04T14:04:34.130262+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-1c8139e9",
+      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "summary": "A critical vulnerability in Ruby on Rails' Active Storage component allows attackers to upload specially crafted files that can write arbitrary files to a server without authentication. The flaw specifically affects applications that use ImageMagick to process uploaded files. Rails developers were urged to update to patched versions 8.1.4.1 and 8.0.5.2 immediately.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ruby-on-rails",
+        "file-upload",
+        "active-storage",
+        "imagemagick",
+        "arbitrary-file-write",
+        "patch-required"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to Rails applications handling file uploads, as unauthenticated attackers can exploit it to write malicious files directly to servers without needing valid credentials. The ability to write arbitrary files could lead to complete server compromise, making this a high-priority patch for any organization running affected Rails versions. Organizations using",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg",
+      "processedAt": "2026-11-04T14:04:10.126202+00:00"
+    },
+    {
+      "id": "art-e5d7271d",
+      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "summary": "Two security flaws in the Xen hypervisor enable a malicious virtual machine to access and modify the memory of other VMs running on the same physical host, potentially compromising the main management system (dom0). The Xen Project has released patches for these vulnerabilities, which affect all versions from 4.6 onward, though no temporary workarounds are currently available.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "xen-hypervisor",
+        "virtual-machine-escape",
+        "memory-access",
+        "dom0-compromise",
+        "patch-urgent",
+        "cloud-infrastructure"
+      ],
+      "whyItMatters": "This vulnerability represents a fundamental isolation failure in virtualized environments, allowing complete compromise of neighboring VMs and the hypervisor control layer—a critical risk for cloud providers, data centers, and any organization relying on Xen-based infrastructure. Immediate patching is essential since the flaw enables lateral movement and data theft across isolated workloads.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg",
+      "processedAt": "2026-11-04T14:04:12.794416+00:00"
+    },
+    {
+      "id": "art-2aaa1bd2",
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "summary": "Many agent security solutions claim they can stop malicious actions in real time, but this protection only works when agent traffic flows through an enterprise-controlled gateway. Since most AI agents operate outside these gateways, significant security gaps exist. The article highlights a practical example where an employee's request to an AI assistant to trigger mass-email automation demonstrates how current agent security layers fail to provide adequate protection.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-agent-security",
+        "runtime-protection",
+        "gateway-security",
+        "automation-risks",
+        "ai-safety"
+      ],
+      "whyItMatters": "Organizations deploying AI agents often assume real-time security protections are in place, but this article reveals a critical blind spot: most agents operate outside monitored environments where protections can actually function. Understanding this gap is essential for enterprises to implement layered security controls and prevent unauthorized agent actions that could cause significant operation",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQqFIm3V3DsL6rHtjhkN8qVT2sU-caHUEuPgeepdZ6lLsIJ-09GFg_HVVBgeHP36W0abqUeCuaNuAOIheSGYB9hxmHbQGcgREBBxStEFLijgx-Cd8C8Z8wLuxgFFu75O8hAAOcdjAxgCZ-iYoBvYS09AcITdqMnmLZOn2JdGaEp04SPrgYkgQ14dl1S0JS/s1600/reco.gif",
+      "processedAt": "2026-11-04T14:04:15.505536+00:00"
+    },
+    {
+      "id": "art-7f371db5",
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "summary": "A China-linked hacking group called SlippyNunchucks exploited a weakness in Sogou Input Method for Windows by hijacking DNS requests to secretly install a backdoor called DarkVigil. Starting in July 2026, the attackers targeted organizations in what appears to be a surveillance operation using insecure communication methods. This attack demonstrates how legitimate software on computers can be weaponized to gain unauthorized access to systems.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "dns-hijacking",
+        "backdoor",
+        "china-aligned-threat",
+        "sogou-input-method",
+        "surveillance",
+        "supply-chain-attack"
+      ],
+      "whyItMatters": "This attack is critical because it shows how widely-used legitimate software can be compromised to deploy surveillance tools, affecting potentially thousands of organizations. The DNS hijacking technique exploits basic security weaknesses and demonstrates that attackers are targeting input methods—programs with deep system access—making detection and remediation particularly challenging. Organizat",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMawvNNOvRYRm-k7ii9yDdw214v4kwQ7h5fAfOaUVkvMetNwArral8qumlObtaftjOcBsibL9vkqM1UT0-9l9jYPjj3M3C9NcPfg5pdIuENUfdKlK7lyseCS30AVhgLLs6a-2fdXlSDymSVeyIziO7IC13HFCaOf1v4sjbgmkeKfewWNsbTJCJ0WR2zLBZ/s1600/key.jpg",
+      "processedAt": "2026-11-04T14:04:18.434983+00:00"
+    },
+    {
+      "id": "art-6845cfd0",
+      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "summary": "Russian law enforcement arrested three members of the VasyGrek hacking group, also known as Fluffy Wolf, and shut down their criminal operations. This threat actor had been targeting Russian and international companies since 2016 with various cybercrimes. The dismantling of their infrastructure represents a significant disruption to an active cybercriminal organization.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cybercrime",
+        "threat-actor",
+        "law-enforcement",
+        "infrastructure-disruption",
+        "russian-hackers",
+        "organized-cybercrime"
+      ],
+      "whyItMatters": "This takedown demonstrates that persistent cybercriminal groups can be successfully identified and dismantled through law enforcement coordination, which disrupts ongoing threats to businesses. For organizations previously targeted by VasyGrek, this action reduces immediate risk but highlights the importance of forensic investigation to identify any remaining compromised systems or data. Understan",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvVXRk9XWLvV5V7-gF-fqxa3YEEGpquE2Q8rML0rLK7ieZAbLJLqsHS6Sk012cwUslyYApJRP4b8SvmPCyATY2SbWpuhWILK0MRglNFqH5l5rVhTjSaJunpjWvbt8O9_UUnZnuxMJ26k5S4aQNj6pMBJLhY0gfn4zIY0Ot6m-gkntqxJiU4qgoAL3641pw/s1600/russia-hackerss.jpg",
+      "processedAt": "2026-11-04T14:04:21.177857+00:00"
+    },
+    {
+      "id": "art-16befaca",
+      "title": "US charges two Canadians accused of hacking US universities",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-charges-two-canadians-accused-of-hacking-us-universities/",
+      "summary": "Two Canadian nationals have been indicted by a US federal grand jury for allegedly hacking into multiple American universities and exploiting the compromised systems to conduct cryptocurrency mining operations. This case highlights how attackers target educational institutions to gain computing resources for illicit financial gain. The charges demonstrate law enforcement's continued efforts to prosecute international cybercriminals who abuse institutional networks.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cybercrime",
+        "university-hacking",
+        "cryptocurrency-mining",
+        "network-compromise",
+        "international-prosecution"
+      ],
+      "whyItMatters": "This case illustrates how educational institutions remain attractive targets for cybercriminals seeking to monetize stolen computational resources, and shows that international cooperation in cybercrime prosecution is actively pursued. Universities often have substantial computing power and may have less sophisticated security than commercial enterprises, making them vulnerable to resource-intensi",
+      "image": null,
+      "processedAt": "2026-11-04T14:04:23.765197+00:00"
+    },
+    {
+      "id": "art-d119e07c",
+      "title": "CISA flags WordPress RCE flaw as actively exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-wordpress-rce-flaw-as-actively-exploited-in-attacks/",
+      "summary": "CISA has alerted federal agencies that hackers are actively exploiting a serious WordPress vulnerability that was recently patched. This remote code execution flaw allows attackers to take control of affected WordPress websites. Organizations using WordPress need to apply security updates immediately to protect their systems from ongoing attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "wordpress",
+        "rce",
+        "active-exploitation",
+        "patch-critical",
+        "federal-alert",
+        "web-application"
+      ],
+      "whyItMatters": "Active exploitation of a widely-used platform like WordPress poses immediate risk to countless websites and organizations. CISA's direct warning to federal agencies emphasizes the urgency and scale of this threat, making rapid patching essential to prevent unauthorized access and data compromise. Delays in applying fixes could result in system takeover and wider network breaches.",
+      "image": null,
+      "processedAt": "2026-11-04T14:04:26.050311+00:00"
+    },
+    {
+      "id": "art-6e84114d",
+      "title": "Hackers use n-day exploits in zero-click attacks on iOS, Android devices",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-n-day-exploits-in-zero-click-attacks-on-ios-android-devices/",
+      "summary": "Russian hackers launched a widespread watering hole attack targeting iPhone and Android users by compromising legitimate websites or creating fake versions of popular portals. The attackers exploited n-day vulnerabilities to perform zero-click attacks, meaning users didn't need to take any action to be compromised. This sophisticated campaign demonstrates how mobile devices remain vulnerable even when users visit what appear to be trustworthy sites.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "watering-hole",
+        "zero-click-attack",
+        "ios-android",
+        "mobile-security",
+        "n-day-exploits",
+        "russian-hackers"
+      ],
+      "whyItMatters": "Zero-click attacks on mobile devices represent a severe threat because users cannot defend themselves through normal security practices like avoiding suspicious links. This large-scale campaign shows that attackers are actively exploiting n-day vulnerabilities at scale, making it critical for users to keep devices updated and for organizations to monitor for compromised websites in their networks.",
+      "image": null,
+      "processedAt": "2026-11-04T14:04:28.830607+00:00"
+    },
+    {
+      "id": "art-6ed550d9",
+      "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+      "summary": "Gartner forecasts that by 2028, security operations centers will employ significantly more engineers than analysts, driven by AI agents automating routine alert handling tasks. This shift reflects how artificial intelligence is fundamentally transforming SOC workflows, including alert triage, detection engineering, threat hunting, and exposure management. Organizations will need to rethink their staffing models and invest in engineering talent to manage AI-driven security infrastructure.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-agents",
+        "soc-transformation",
+        "workforce-shift",
+        "alert-automation",
+        "detection-engineering",
+        "future-of-work"
+      ],
+      "whyItMatters": "This trend signals a fundamental reshaping of cybersecurity careers and team structures that organizations must prepare for now. Security leaders need to adjust hiring strategies, training programs, and role definitions to remain competitive as AI takes over repetitive tasks, while engineers become critical to building and maintaining AI-driven security systems.",
+      "image": null,
+      "processedAt": "2026-11-04T14:04:31.565755+00:00"
+    },
+    {
+      "id": "art-9f8138a2",
+      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-03",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "summary": "A UK school network fell victim to a 3AM ransomware attack that successfully encrypted about 37 out of nearly 50 computers that were accessible from an unmanaged device on the network. The attack is suspected to have used AI assistance to increase its effectiveness. This incident highlights how educational institutions remain attractive targets for cybercriminals seeking to disrupt services and potentially extract ransom payments.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "3am-ransomware",
+        "ai-assisted-attack",
+        "education-sector",
+        "encryption",
+        "unmanaged-hosts"
+      ],
+      "whyItMatters": "This attack demonstrates that schools are vulnerable to sophisticated ransomware operations, especially when unmanaged devices exist on their networks, and shows how AI may be increasingly leveraged to enhance attack effectiveness. Educational institutions disrupted by ransomware face serious operational challenges that can affect student learning, administrative functions, and sensitive data secu",
+      "image": null,
+      "processedAt": "2026-11-04T14:04:34.130119+00:00"
+    },
     {
       "id": "art-544e6b80",
       "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
@@ -827,213 +1035,6 @@
       "whyItMatters": "This represents an active, widespread threat affecting thousands of exposed systems with readily available exploits in the wild. The combination of internet exposure, active exploitation, and maximum-severity rating means organizations must prioritize patching immediately or risk complete system compromise. Delayed remediation significantly increases the likelihood of data theft, infrastructure da",
       "image": null,
       "processedAt": "2026-11-02T15:16:12.309240+00:00"
-    },
-    {
-      "id": "art-ef30bf0b",
-      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-      "summary": "This week's cybersecurity roundup covers multiple serious threats including critical firewall vulnerabilities, banking trojans available for rent, weaponized PDFs, and token theft attacks. The article highlights how attackers combine sophisticated techniques with exploiting basic security mistakes like exposed passwords and unpatched systems. Hackers are increasingly abusing trusted applications and AI tools to make their attacks more effective and harder to detect.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "firewall-vulnerability",
-        "banking-trojans",
-        "token-theft",
-        "weaponized-pdf",
-        "credential-exposure",
-        "patch-management"
-      ],
-      "whyItMatters": "This collection of active threats demonstrates that organizations face multiple simultaneous attack vectors from both sophisticated adversaries and opportunistic criminals renting malware-as-a-service tools. Understanding the breadth of these threats—from zero-day firewall flaws to accessible banking trojans—is essential for prioritizing defense strategies and ensuring security teams address both ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoNTh5CKLvFJeeXzWn1LVT-e9435oFtUz4jT-4TmZaWkRUY_RY8EAtijUWxQztoK3K_tU_csSw54MuVeX8UzeT6ZWNLtTMex5pMS4z4Npz-aYAN9qIfWk2bUsei5nswh3UkzycVlKznVjK7n1I_knJ-p1I59RoX_TECTfr-NPej9LWoDt2UuwvLY4heSip/s1600/t-day.jpg",
-      "processedAt": "2026-11-01T21:24:50.094378+00:00"
-    },
-    {
-      "id": "art-d9a67a5f",
-      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
-      "summary": "A critical vulnerability in the Linux kernel's TCP code, identified as CVE-2026-98432 with a CVSS score of 9.8, impacts major distributions including Ubuntu and Red Hat Enterprise Linux. An AI model developed by Anthropic demonstrated an exploit that allows remote attackers to execute commands with root privileges on vulnerable Linux servers without requiring any credentials.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "linux-kernel",
-        "tcp-vulnerability",
-        "remote-code-execution",
-        "privilege-escalation",
-        "cve-2026-98432",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe threat to Linux infrastructure worldwide, as it enables unauthenticated remote attackers to gain complete system control. The existence of a working exploit and its high CVSS rating make this one of the most dangerous vulnerabilities affecting widely-used server platforms, requiring immediate patching across all affected systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfCJ0ttE8v4hkDjJRqbTvxlxFcoNtFJhbYCQ-o8NtaiyFLImEyA8aSO967eeZG9fRebhc8oVA-OloE9X9KVVAxM-H3wKvUlh8XmN6bGlEz2IJwMgcssmA7yIRi7YNOwVQYD6nhQCaWUg6fPy-QXVjfw6rV55LueKlLvZLazjKjTL94KJMMUZ2uZ3R019Km/s1600/linux-flaw.jpg",
-      "processedAt": "2026-11-01T21:24:52.275743+00:00"
-    },
-    {
-      "id": "art-a5dbea1d",
-      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-      "summary": "Cybercriminals are distributing fake desktop applications for popular AI tools like ChatGPT and Claude through deceptive GitHub projects to trick users into downloading malware. These counterfeit apps actually contain malicious loaders and cryptocurrency miners rather than the legitimate AI software users expect. This campaign, called Yoba, exploits people's desire to use popular AI tools by disguising harmful software as trusted applications.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware",
-        "crypto-miner",
-        "fake-apps",
-        "social-engineering",
-        "github-abuse",
-        "ai-impersonation"
-      ],
-      "whyItMatters": "This attack demonstrates how criminals exploit the popularity of AI tools and user trust in GitHub to distribute malware at scale, making it critical for users to verify software sources before downloading. The use of signed executables and legitimate platform abuse makes detection harder for traditional security tools. Understanding these tactics helps users and organizations recognize fraudulent",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1ij0gwe-L1jDZxdoUPZ6hpSJnJgMHh2bG8bFF2y8y-dJA9nY0Fr2JOU2i4NaCetGqvTZOtvaRXbZONR6d8ajjMR6DNm_X7OwaVCiH7dPycEN9xGI0psNvPYbwDhpGmUQ4Qyhp5x9fqQ_sgzjcReslK-a-gRS3kFr5_JOns1kkuC6UheDHVb2yaV8EAhIF/s1600/claude-hack.jpg",
-      "processedAt": "2026-11-01T21:24:55.241275+00:00"
-    },
-    {
-      "id": "art-d68dcfd6",
-      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-      "summary": "Google released Gemini 4 Carbon, an advanced AI model designed to excel at cybersecurity tasks. The model achieved top scores in finding vulnerabilities (88.2% on SEC-bench Pro), identifying exploitation methods (54.8% on ExploitGym), and likely patching capabilities. This demonstrates how AI is becoming increasingly capable at both attacking and defending against security threats.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "vulnerability-detection",
-        "machine-learning",
-        "automated-defense",
-        "exploit-analysis"
-      ],
-      "whyItMatters": "AI models that can automatically find and exploit vulnerabilities raise both opportunities and risks—defenders can use them to identify weaknesses faster, but attackers could leverage similar tools maliciously. Organizations need to understand that AI-assisted vulnerability discovery is becoming mainstream, making proactive security posture critical.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBMb78BxIXnGaXFzCXPdswdQZsuh8rz63Y22pLX3cOkgRgaPv3KJgw6fRULDT3am1YO4eA1obnh0aOdxZy4KVZMww8sxNOtxzZXYcouotzbB25LVdJrCeDk0MQsgCmsYQBAaGdwyhmiMNa2Y90ujuXFXZPLTIrOo1PB6vtWqWAXygOvM72cEmXvHTN9Ktw/s1600/google-gemini.jpg",
-      "processedAt": "2026-11-01T21:24:57.554384+00:00"
-    },
-    {
-      "id": "art-7c477a1a",
-      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-      "source": "The Hacker News",
-      "publishedDate": "2026-10-29",
-      "originalUrl": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-      "summary": "Telegram for Android contained a vulnerability that could be exploited through an incoming voice call to execute malicious code on a user's device. When combined with two additional security flaws, attackers could potentially gain complete control of a victim's phone, requiring only a basic Telegram account to launch the attack. The company patched this issue in version 12.10.4 released in September 2026, with public disclosure following in late October.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "telegram",
-        "android",
-        "code-execution",
-        "voice-call-exploit",
-        "remote-control",
-        "patch-available"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how seemingly innocent app features like voice calls can be weaponized to gain unauthorized device access through minimal attacker effort. The chaining of multiple bugs to achieve complete phone compromise highlights the importance of applying security updates promptly, and users should ensure they're running Telegram 12.10.4 or later to mitigate this critical risk.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEguzUg6G-A4KdRvBuhj9LZ93cFfXfvMNkg3dJO0H9sfNJ3MTlecsgLEMIk5TnIrdl2N6UGB8D9rlqLduGEZVm7X-XrWZr6Xh5ZrVp38x5uTd1vHyHGcjRR2N3gctNen-CBSz8JihnNL57galBoeOVKwG5w3qsOZnqmGYdkxzjurrI3QWolmS1Qfz_E_Wog/s1600/telegram.jpg",
-      "processedAt": "2026-11-01T21:25:00.403588+00:00"
-    },
-    {
-      "id": "art-62c91c2d",
-      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
-      "summary": "The FBI has identified North Korean state-sponsored hackers called TraderTraitor as responsible for stealing $6.3 billion from Binance, marking the largest cryptocurrency theft in history. This major attack demonstrates how advanced cyber adversaries are targeting high-value financial platforms to fund their operations. The incident highlights the significant security risks facing cryptocurrency exchanges and major financial institutions worldwide.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "north-korea",
-        "state-sponsored",
-        "crypto-theft",
-        "binance",
-        "financial-crime",
-        "tradertraitor"
-      ],
-      "whyItMatters": "This attack represents an unprecedented scale of financial loss and demonstrates that state-sponsored actors actively target cryptocurrency platforms as high-value targets. Organizations in the financial and crypto sectors must urgently reassess their security defenses and implement advanced threat detection to prevent similar breaches. The incident underscores the geopolitical dimension of cybers",
-      "image": null,
-      "processedAt": "2026-11-01T21:25:02.901741+00:00"
-    },
-    {
-      "id": "art-1a22b717",
-      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
-      "summary": "Alpine Linux discovered that hackers attempted to exploit a critical vulnerability in GitLab to gain unauthorized access to their development infrastructure in late October. In response to the potential security breach, the project took precautionary measures by completely rebuilding their GitLab server and resetting all user passwords. This incident highlights how even open-source projects with significant security awareness can become targets for sophisticated attacks.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "gitlab-vulnerability",
-        "rce-attack",
-        "infrastructure-security",
-        "open-source-security",
-        "incident-response",
-        "access-control"
-      ],
-      "whyItMatters": "This attack demonstrates that critical vulnerabilities in widely-used development platforms like GitLab pose serious risks to software supply chains, potentially affecting thousands of projects and users downstream. The proactive response by Alpine Linux shows the importance of rapid detection and remediation, but also underscores how attackers actively target infrastructure used by major open-sou",
-      "image": null,
-      "processedAt": "2026-11-01T21:25:05.589852+00:00"
-    },
-    {
-      "id": "art-f4ad3d76",
-      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-01",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
-      "summary": "OpenAI is expanding ChatGPT Pro by merging usage allowances between ChatGPT and Codex while doubling usage limits. The company is also integrating Work features directly into the standard Chat interface, making enterprise capabilities more accessible to regular users. This consolidation streamlines the platform's offerings and changes how users interact with different AI tools.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "ai-security",
-        "privacy",
-        "user-access",
-        "platform-changes",
-        "feature-expansion"
-      ],
-      "whyItMatters": "While primarily a product update, this consolidation of AI tools and features has security implications for how organizations manage access controls, data handling, and usage monitoring across merged services. Users should review their account settings and data sharing policies as features transition between platforms.",
-      "image": null,
-      "processedAt": "2026-11-01T21:25:08.122832+00:00"
-    },
-    {
-      "id": "art-c0e3ae2a",
-      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-16",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
-      "summary": "Radaris, a data broker company, has lost control of its main domain and over a dozen related websites following a court order in a lawsuit. The company was accused of violating New Jersey privacy laws by publishing personal information about state law enforcement officials and ignoring removal requests. A judge ruled against Radaris due to the company's repeated failure to comply with legal obligations, resulting in domain transfer to the plaintiffs.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "data-broker",
-        "privacy-violation",
-        "legal-enforcement",
-        "personal-data",
-        "compliance-failure"
-      ],
-      "whyItMatters": "This case demonstrates that courts can enforce privacy laws against companies that mishandle personal data and ignore removal requests, setting precedent for holding data brokers accountable. It shows that regulatory action can have serious consequences like losing control of business assets, which incentivizes other data brokers to respect privacy rights and comply with state laws.",
-      "image": null,
-      "processedAt": "2026-11-01T21:25:10.865538+00:00"
-    },
-    {
-      "id": "art-ea6162c2",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-08",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "summary": "Microsoft released nearly 1,000 security patches in a single update, marking its largest patch release ever. The company is using artificial intelligence to identify vulnerabilities more quickly, but IT teams are struggling to keep up with testing and deploying these fixes. Organizations face challenges in prioritizing which patches to apply first due to the sheer volume of updates.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "microsoft-patches",
-        "vulnerability-management",
-        "patch-deployment",
-        "ai-security",
-        "windows-updates",
-        "patch-backlog"
-      ],
-      "whyItMatters": "The massive scale of this patch release creates a critical operational challenge for IT teams who must balance security with system stability and testing capacity. Delays in deploying patches leave systems vulnerable to exploitation, while rushing deployments risks introducing compatibility issues. This situation highlights the growing gap between vulnerability discovery speed and the human resour",
-      "image": null,
-      "processedAt": "2026-11-01T21:25:13.322134+00:00"
     }
   ]
 }
