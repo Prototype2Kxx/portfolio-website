@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-07T12:44:16.988887+00:00",
+  "lastUpdated": "2026-11-07T21:08:43.731113+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-b2e90b66",
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "summary": "A vulnerability in APT, the package manager used by Debian and Ubuntu systems, allows attackers positioned to intercept network traffic to replace legitimate software packages with malicious ones that execute with root privileges. The flaw is particularly dangerous because APT automatically retries failed downloads by default on Debian 12 and later versions, creating an opportunity for attackers to inject their own code during these retry attempts. Developers from Debian, Ubuntu, and APT have released advisories addressing this critical issue.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "apt-vulnerability",
+        "package-manager-flaw",
+        "man-in-the-middle",
+        "privilege-escalation",
+        "debian-ubuntu",
+        "root-access"
+      ],
+      "whyItMatters": "This vulnerability directly threatens the integrity of software supply chains for millions of Debian and Ubuntu users worldwide, as compromised packages can execute with root-level permissions. System administrators must immediately apply available patches to prevent attackers from injecting malicious code into critical infrastructure, development environments, and personal systems through routine",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg",
+      "processedAt": "2026-11-07T21:08:18.171455+00:00"
+    },
+    {
+      "id": "art-2cc1edb7",
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "summary": "SonicWall has identified two security vulnerabilities in its end-of-life Global Management System (GMS) versions 9.5.2 and earlier that will not receive patches. One of these flaws, with a high CVSS score of 9.1, allows unauthenticated attackers to read sensitive internal files from affected systems. Organizations still using these outdated GMS versions face significant risk of unauthorized data exposure and potential database manipulation.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sonicwall",
+        "unpatched-vulnerability",
+        "end-of-life",
+        "network-security",
+        "file-exposure",
+        "authentication-bypass"
+      ],
+      "whyItMatters": "This situation is particularly dangerous because SonicWall refuses to patch these flaws in legacy systems, leaving organizations with no official remediation path. Companies still relying on GMS 9.5.2 or earlier must either accept the security risk or migrate to newer versions, creating an urgent modernization pressure that many businesses may not be prepared for.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgME1T4MkjI8UEzzSmlLgbPG6a__VNQNoKkhuxiaW5zF5fnHLPmsTdkGoIL06JTeER1jcOMH-WLuNYyva_sSW_8DnZojbMC8ikgNME3ZPUAdkij-9nVm8joHHdaZRoLNbVgcSVLNSc6Tt7UJ3YPhQmea3OtQwg-H2UzUPIgWq7nFwoEQcMsGCKf-0fImEvd/s1600/sonic.jpg",
+      "processedAt": "2026-11-07T21:08:21.090447+00:00"
+    },
+    {
+      "id": "art-0ed58c89",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "summary": "Researchers at Check Point have discovered a jailbreak toolkit called Haiou that hijacks OpenAI Codex by modifying its core instructions to inject unwanted advertisements for third-party AI services. This type of attack, termed \"prompt adware,\" exploits vulnerabilities in AI systems to compromise their integrity and trustworthiness. The toolkit demonstrates how attackers can manipulate AI agents to serve malicious objectives while appearing legitimate.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "prompt-injection",
+        "jailbreak",
+        "ai-manipulation",
+        "malicious-ads"
+      ],
+      "whyItMatters": "This discovery reveals a significant threat vector against widely-used AI tools, showing that attackers can compromise AI systems at the instruction level to inject unwanted content or behaviors. Organizations relying on OpenAI Codex and similar tools need to be aware that security threats extend beyond traditional malware to include prompt-level attacks that can silently modify AI behavior in pro",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO7-xs-0dO1uqFLbfphgPbe8T7cbCLkrab6XhAjlNPVo-bLQOFw4mkcArqglQOvhuIYif4ohTAub-TNWlket6iguifshMRo3zBrYvM4G_IwFTtbh8ifIqh1Vuf8GuNmqDg_PB2Roy7yzYuTFhRrFM8wxOo8HVwfG9Y2eqJnq82LGYHnAKI5S6TuvZ_Q95A/s1600/ai-adware.jpg",
+      "processedAt": "2026-11-07T21:08:23.868688+00:00"
+    },
+    {
+      "id": "art-c35342de",
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "summary": "APT29, a Russia-linked hacking group, conducted a large-scale attack on mobile users by compromising websites and injecting malicious code into a popular Ukrainian web analytics tool called Plerdy SEO Tracker. The attackers used this supply chain compromise to deliver exploits targeting both iOS and Android devices, collecting sensitive browser and device information from victims. This watering hole campaign demonstrates how attackers can weaponize legitimate third-party services to reach thousands of users across multiple platforms.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "apt29",
+        "supply-chain-attack",
+        "watering-hole",
+        "mobile-malware",
+        "ios-android",
+        "javascript-injection"
+      ],
+      "whyItMatters": "This attack highlights a critical vulnerability in web supply chains where legitimate analytics services can be compromised to distribute malware at scale to mobile users. Organizations and users relying on third-party web services face significant risk, requiring careful vendor security assessments and monitoring. The multi-platform nature and connection to a state-sponsored actor (APT29) makes t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg",
+      "processedAt": "2026-11-07T21:08:26.821056+00:00"
+    },
+    {
+      "id": "art-56bac3be",
+      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+      "summary": "Russian law enforcement arrested three members of VasyGrek, also known as Fluffy Wolf, a hacking group that has targeted businesses since 2016. The authorities successfully shut down the criminal network's infrastructure used for fraudulent activities. This operation demonstrates how international cybercrime networks can be dismantled through coordinated law enforcement efforts.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cybercrime",
+        "threat-actor",
+        "law-enforcement",
+        "criminal-network",
+        "vasygrek",
+        "fluffy-wolf"
+      ],
+      "whyItMatters": "This takedown shows that even established threat groups operating for years can face prosecution and infrastructure seizure, which deters cybercriminals and protects potential victims. Organizations should review their security posture against known VasyGrek tactics and remain vigilant for any remaining associated malware or infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgvVXRk9XWLvV5V7-gF-fqxa3YEEGpquE2Q8rML0rLK7ieZAbLJLqsHS6Sk012cwUslyYApJRP4b8SvmPCyATY2SbWpuhWILK0MRglNFqH5l5rVhTjSaJunpjWvbt8O9_UUnZnuxMJ26k5S4aQNj6pMBJLhY0gfn4zIY0Ot6m-gkntqxJiU4qgoAL3641pw/s1600/russia-hackerss.jpg",
+      "processedAt": "2026-11-07T21:08:29.210612+00:00"
+    },
+    {
+      "id": "art-ef9fae41",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "summary": "Hackers successfully compromised Crédit Mutuel Arkéa, a French cooperative bank, through a vulnerability in a third-party service provider, resulting in fraudulent transactions totaling up to $133 million. The attackers exploited this supply chain weakness to gain unauthorized access and conduct financial theft. The bank was forced to suspend certain systems in response to the incident.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "banking-fraud",
+        "third-party-compromise",
+        "financial-theft",
+        "critical-infrastructure"
+      ],
+      "whyItMatters": "This incident demonstrates how attackers increasingly target financial institutions through weaker supply chain partners rather than direct defenses, putting billions in customer assets at risk. Organizations must implement strict vendor security assessments and network segmentation to prevent attackers from pivoting through third-party access into critical systems. The scale of fraud ($133 millio",
+      "image": null,
+      "processedAt": "2026-11-07T21:08:31.887207+00:00"
+    },
+    {
+      "id": "art-113c8f13",
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
+      "summary": "Scammers are running fake gift card giveaway campaigns that impersonate well-known brands and celebrities to trick people into sharing personal information and signing up for unwanted paid subscriptions. CTM360's research shows how these fraudsters use fake verification processes and affiliate marketing networks to profit without ever delivering the promised gift cards. This type of social engineering attack exploits consumer trust in recognizable brand names to generate revenue through deception.",
+      "category": "Cybercrime",
+      "severity": "Medium",
+      "tags": [
+        "gift-card-scams",
+        "social-engineering",
+        "brand-impersonation",
+        "phishing",
+        "consumer-fraud",
+        "unwanted-subscriptions"
+      ],
+      "whyItMatters": "These scams directly target everyday consumers by exploiting their trust in familiar brands, making them a widespread threat beyond traditional corporate cybersecurity. Understanding how attackers use verification tricks and affiliate networks helps individuals recognize and avoid falling victim to these deceptive campaigns. Organizations should educate employees and customers about these tactics ",
+      "image": null,
+      "processedAt": "2026-11-07T21:08:34.797188+00:00"
+    },
+    {
+      "id": "art-da03f35c",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-19",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "summary": "Federal investigators have identified executives from ransomware negotiation firms who allegedly worked with the ShinyHunters hacking group, which stole sensitive FBI data. One U.S.-based executive is suspected of helping ShinyHunters operate an extortion website designed to pressure victims into paying ransoms. This discovery reveals potential corruption within the ransom negotiation industry itself.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "extortion",
+        "shiny-hunters",
+        "fbi-breach",
+        "insider-threat",
+        "ransom-negotiation"
+      ],
+      "whyItMatters": "This case exposes a serious vulnerability in the ransom negotiation ecosystem—the very firms hired to protect organizations may have insiders colluding with attackers. It demonstrates how criminal operations can infiltrate legitimate security services, making it harder for victims to know who to trust when responding to breaches. Organizations need to carefully vet any third-party negotiators and ",
+      "image": null,
+      "processedAt": "2026-11-07T21:08:37.621514+00:00"
+    },
+    {
+      "id": "art-6c9979d8",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "summary": "The United Kingdom has imposed economic sanctions on Cryptomus, a cryptocurrency platform used to facilitate illegal payments for ransomware attacks, drug trafficking, and other cybercriminal activities. This action targets a key financial infrastructure that helps criminals and hostile nations evade existing financial restrictions. By sanctioning this platform, the U.K. aims to disrupt the financial networks enabling cybercrime and supporting Russia's ability to circumvent international financial controls.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "cryptocurrency-laundering",
+        "ransomware-payments",
+        "sanctions",
+        "financial-crime",
+        "russia",
+        "darknet-markets"
+      ],
+      "whyItMatters": "Cryptocurrency platforms like Cryptomus are critical infrastructure for ransomware gangs and cybercriminals to monetize attacks and move illicit funds globally. Sanctioning such platforms disrupts the financial incentives that fuel large-scale ransomware campaigns and cybercriminal operations. Understanding these enforcement actions helps organizations recognize that payment channels targeting the",
+      "image": null,
+      "processedAt": "2026-11-07T21:08:40.752904+00:00"
+    },
+    {
+      "id": "art-59915556",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "summary": "Microsoft released security updates addressing more than 1,400 vulnerabilities across Windows and other software products in October 2026, significantly exceeding the previous month's record of nearly 1,000 fixes. This massive patch deployment represents a dramatic increase compared to Microsoft's typical monthly update volume. The unusually large number of fixes suggests either a concentrated security vulnerability discovery or an urgent response to widespread threats.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-patches",
+        "windows-security",
+        "vulnerability-fixes",
+        "patch-management",
+        "software-updates"
+      ],
+      "whyItMatters": "Organizations using Microsoft products must prioritize deploying these 1,400+ patches quickly to reduce exposure to potential attacks, as the sheer volume indicates widespread vulnerable systems in the wild. The record-breaking patch frequency signals that administrators need robust patch management processes to keep pace with security demands. Delayed or missed patches could leave systems exposed",
+      "image": null,
+      "processedAt": "2026-11-07T21:08:43.730947+00:00"
+    },
     {
       "id": "art-81fd91c7",
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
@@ -829,212 +1036,6 @@
       "whyItMatters": "This attack demonstrates a supply-chain compromise targeting a widely-used Linux server management tool, potentially affecting numerous hosted environments and data centers. Organizations running CWP must verify their installations immediately and ensure they're using legitimate, uncompromised versions to prevent unauthorized backdoor access to their infrastructure.",
       "image": null,
       "processedAt": "2026-11-05T22:58:09.408024+00:00"
-    },
-    {
-      "id": "art-dea3fb3c",
-      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-      "summary": "Even when security tools identify vulnerabilities and create tickets for remediation, organizations can remain exposed if critical context is missing from the findings. Essential information like system ownership, network accessibility, existing protections, and business impact must accompany vulnerability reports to enable effective patching. Without these details, security teams cannot prioritize or properly address risks, leaving gaps in an organization's defensive posture.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "exposure-management",
-        "vulnerability-management",
-        "risk-prioritization",
-        "security-tools",
-        "remediation-gaps"
-      ],
-      "whyItMatters": "This article highlights a critical blind spot in vulnerability management: tools can detect issues but fail to provide actionable intelligence needed for remediation. Organizations relying on incomplete vulnerability data risk misdirecting resources and leaving exploitable gaps, making this a practical concern for any security team managing multiple systems and tools.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTqhUSejDKMWiBuqakycpFyce33qmRAlEPU4FbfKnzSRZmIlOQia8YXyU8bdvYFN6ldGMqz2vxPZn-s9524oTPZithSzMiO5ejngh_UMdp8jEbSG8znPLj-0husv1pxRF0dW2qES9dz4oR56dk67YJ8zePlgnVFSbHSIKHAU_7VqK0-pwSVeYEsOYM7u8/s1600/exposure.png",
-      "processedAt": "2026-11-05T14:23:48.542154+00:00"
-    },
-    {
-      "id": "art-e4110030",
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "summary": "OpenAI has developed an AI-powered pipeline that automatically discovered, validated, and created fixes for nearly 1,000 Linux kernel vulnerabilities in just 30 hours. The system analyzed over 2,300 potential vulnerabilities and successfully reproduced almost 1,724 of them, demonstrating how artificial intelligence can dramatically accelerate the vulnerability discovery and patching process at scale.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "linux-security",
-        "privilege-escalation",
-        "ai-security",
-        "vulnerability-management",
-        "kernel-exploits",
-        "patch-automation"
-      ],
-      "whyItMatters": "This development shows that AI can now identify and validate security flaws much faster than traditional methods, which has dual implications: it enables defenders to patch systems more quickly, but also raises concerns about how adversaries could weaponize similar AI tools. Organizations must understand that the vulnerability landscape is rapidly changing and automated discovery means patches and",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4ZiJMrWCzkoOXuOcWQkB02TmQLM81NWPvzQ8yw9iComqPyLIP0_TAzy8AHMkNfzyXw2Fw-8kBhWIohuXc_dGl39AI4Kw_n4Tll0DImNrRfcPrk1eZNQCP9QtOich_dhNW-ly5DIuZSzmWspWsWXU9QiGwnS5W7qzVDiIBVc4oggC__f6tsL1AOIP8opc/s1600/linux-lpe.jpg",
-      "processedAt": "2026-11-05T14:23:51.450128+00:00"
-    },
-    {
-      "id": "art-2046253b",
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-      "summary": "In October 2026, US businesses faced multiple coordinated cyber threats that exploited trusted platforms and legitimate authentication methods to infiltrate enterprise networks. Attackers targeted everyday business workflows and processes, creating risks that extended beyond isolated incidents to threaten financial stability, sensitive data, and operational continuity. The article highlights how these sophisticated campaigns exploited common vulnerabilities in how organizations use trusted tools, making them a widespread concern for enterprises.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "enterprise-threats",
-        "authentication-exploitation",
-        "business-workflow-attacks",
-        "data-breach-risk",
-        "operational-disruption"
-      ],
-      "whyItMatters": "Understanding these active threat vectors helps enterprise security teams recognize that attackers increasingly target legitimate processes and trusted platforms rather than just technical vulnerabilities, requiring a shift toward behavioral monitoring and authentication hardening. Organizations need to prioritize defense-in-depth strategies that protect workflows and user authentication to mitiga",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZC8n70grf1uGE8ms7f_4uuZv5h_YLLS1M8CGyqXzMyfCTbNbBCwOC4IF715IzuXyE7dY2Sslf1v77Ka15CPZvgY15pcZrZPZRK5xk5pFnyotvxHAXeyD39vG7JedceJz97Z1y0LCwaWgRLVnO6Uo-YbgJJ3o1n_Hh7k1rJWaQ-X7FTTMxr0U-LFuwx0M/s1600/cyberattacks.jpg",
-      "processedAt": "2026-11-05T14:23:54.378570+00:00"
-    },
-    {
-      "id": "art-8f8f4470",
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "summary": "Apple is implementing content scanning for publicly shared iCloud links starting with iOS 27.3 and related operating systems. When users share iCloud Photos or Files via 'Anyone with the link' access, Apple will scan this content for harmful material. This move aims to add an extra layer of security for content that is intentionally made publicly accessible.",
-      "category": "Cloud Security",
-      "severity": "Medium",
-      "tags": [
-        "cloud-security",
-        "privacy",
-        "content-scanning",
-        "icloud",
-        "apple-security"
-      ],
-      "whyItMatters": "This development is significant because it highlights the ongoing tension between security and privacy in cloud services—Apple is expanding automated scanning capabilities, which users need to understand when sharing content. Organizations and individuals should be aware of these scanning mechanisms when handling sensitive data through cloud platforms, as it affects what content can be safely shar",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCN85K3W5zv5BioRQjCRpIAYT4K8MjZxx0bP0wNETp_eeBQ8Rj_iScHZ0PVnak7dJnJB_tZs06nxCn3YB70aQrULSZVbcn_gLqAsRoN08bSj__9UGZ38PzHTeSqe1IdqZEvdY8fogrjg3xPvg4Kohb2lFGdIveD4jIZQYKugtN5dIc0nTDjlVZJeQBzASx/s1600/icloud.jpg",
-      "processedAt": "2026-11-05T14:23:56.770645+00:00"
-    },
-    {
-      "id": "art-9ba86080",
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-      "summary": "A hacker group called Crafty Falcon is using AI-powered tools to attack banks and financial companies in India, according to the country's cybersecurity response team. The attackers are leveraging publicly available AI security tools to conduct ongoing attacks that pose a serious threat to the banking and insurance sectors. This represents a new trend where criminals are using artificial intelligence to make their attacks smarter and more effective.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-driven-attacks",
-        "bfsi-sector",
-        "threat-actor",
-        "india",
-        "banking",
-        "crafty-falcon"
-      ],
-      "whyItMatters": "This incident demonstrates that attackers are actively weaponizing AI tools to target critical financial infrastructure, making traditional defenses less effective. Organizations in banking and finance need to understand that AI-assisted attacks are now a real operational threat, not just a theoretical concern. The use of public AI tools means the threat is accessible to many actors, requiring urg",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA5xlxteigxw9PDEVogRmGjD3vyPuJRyKCuIAOmURy0CY-OLXfYOjC93BPb_gvifLUiVoUk9JcjmxtsGpkT-cYhlrTwXS6yodTv-WwHnPUKvahU67tc5R841Sb_hkIIsUkzNzne5Fzo0h6BUpzEW1770YFBayYksyjSc9pKOV3VsHfoHcPfu3mYAFOQW4K/s1600/docker-ai.jpg",
-      "processedAt": "2026-11-05T14:23:59.480222+00:00"
-    },
-    {
-      "id": "art-8a9163d8",
-      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-      "summary": "A vulnerability in Android called GhostMap allows attackers to create malicious apps that can trap devices in endless restart cycles without requiring any special permissions. Once installed, the app can render a device essentially unusable by repeatedly forcing it to boot. This flaw highlights how dangerous seemingly simple apps can be if they exploit fundamental system weaknesses.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "android-vulnerability",
-        "boot-loop",
-        "malware",
-        "ghostmap",
-        "device-sabotage",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This vulnerability is significant because it requires no special permissions to exploit, making it easy for attackers to distribute through app stores or social engineering, and the resulting denial of service could affect millions of users. Organizations managing Android devices need to understand this risk and ensure devices are updated to patched versions to prevent widespread device failures.",
-      "image": null,
-      "processedAt": "2026-11-05T14:24:02.193836+00:00"
-    },
-    {
-      "id": "art-a898a29f",
-      "title": "mSecure password manager hack prompts password reset warnings",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
-      "summary": "mSecure password manager suffered a cyberattack that compromised an encrypted customer database. The company is urging users to change their passwords, reset two-factor authentication, and remove passkeys as a precautionary measure. This incident highlights the risks users face when trusted security tools themselves become targets of hackers.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "password-manager",
-        "data-breach",
-        "customer-notification",
-        "authentication-reset",
-        "encrypted-database"
-      ],
-      "whyItMatters": "Password managers store sensitive login credentials for multiple accounts, so a breach can potentially compromise all passwords a user has stored. Users must act quickly to reset their credentials and 2FA to prevent attackers from gaining access to other services. This demonstrates that even security-focused companies can be targeted, making regular security audits and user vigilance essential.",
-      "image": null,
-      "processedAt": "2026-11-05T14:24:04.482250+00:00"
-    },
-    {
-      "id": "art-9d80bbe3",
-      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
-      "summary": "Attackers launched a sophisticated phishing campaign called Operation CloudFire that used Google Calendar invitations and fake login pages to steal corporate Google credentials and circumvent multi-factor authentication protections. The campaign leveraged trusted redirects to appear legitimate while harvesting session tokens from thousands of employees. Security researchers identified and helped shut down nearly 900 malicious domains involved in the attack.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "mfa-bypass",
-        "google-workspace",
-        "social-engineering",
-        "session-hijacking",
-        "credential-theft"
-      ],
-      "whyItMatters": "This attack demonstrates that sophisticated threat actors can bypass MFA through social engineering and trusted communication channels like Google Calendar, which most employees consider safe. Organizations must implement additional layers of protection beyond MFA and train employees to recognize phishing attempts even when they appear to come from legitimate platforms.",
-      "image": null,
-      "processedAt": "2026-11-05T14:24:06.805198+00:00"
-    },
-    {
-      "id": "art-f16c84b8",
-      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
-      "summary": "SonicWall has discovered two security vulnerabilities in its Global Management System (GMS) software that is no longer supported. The company has announced that these flaws will not receive patches since the product has reached end-of-life status. Organizations still using legacy GMS systems are left exposed to potential exploitation without an official fix.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "unpatched-vulnerability",
-        "end-of-life",
-        "sonicwall",
-        "gms",
-        "legacy-systems",
-        "network-security"
-      ],
-      "whyItMatters": "End-of-life systems with unpatched vulnerabilities create persistent security gaps that attackers can exploit indefinitely, as no official remediation will be released. Organizations relying on legacy GMS software must urgently develop alternative mitigation strategies or migrate to supported solutions to protect their network management infrastructure.",
-      "image": null,
-      "processedAt": "2026-11-05T14:24:09.408119+00:00"
-    },
-    {
-      "id": "art-0dde5eeb",
-      "title": "Want to Rent an Internet Address at the White House?",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-      "summary": "White House staff members are using computers and devices with residential proxy services that allow others to rent their internet addresses, creating a security risk. One of these proxy services is operated by a Russian company whose web hosting business was previously linked to cyberattacks on election systems in Arizona and Illinois during 2016. This situation exposes government infrastructure to potential misuse and abuse through compromised network identities.",
-      "category": "Network Security",
-      "severity": "Critical",
-      "tags": [
-        "proxy-services",
-        "network-compromise",
-        "government-security",
-        "russian-company",
-        "election-infrastructure",
-        "insider-risk"
-      ],
-      "whyItMatters": "This represents a direct compromise of U.S. government network infrastructure by potentially hostile foreign actors, creating opportunities for unauthorized access, data exfiltration, and attacks on sensitive systems. The involvement of a Russian company with a history of targeting election systems escalates concerns about both national security and election integrity. Residential proxies that can",
-      "image": null,
-      "processedAt": "2026-11-05T14:24:12.168159+00:00"
     }
   ]
 }
