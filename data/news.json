@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-11-06T22:28:02.836881+00:00",
+  "lastUpdated": "2026-11-07T12:44:16.988887+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-81fd91c7",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-07",
+      "originalUrl": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "summary": "Anthropic's Claude Code AI assistant has a security flaw where developers' passwords and API keys can be saved to public GitHub repositories when they select the \"don't ask again\" option. Over 1,122 public copies of these settings files containing sensitive credentials have been discovered, exposing them to anyone who searches GitHub. This happened because the tool stored complete command lines verbatim, including any secrets developers typed, in project configuration files.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "api-keys-exposed",
+        "github-secrets",
+        "ai-security",
+        "credential-exposure",
+        "claude-code",
+        "data-breach"
+      ],
+      "whyItMatters": "This represents a widespread, active exposure of real developer credentials that attackers can immediately exploit to gain unauthorized access to systems, services, and infrastructure. The \"don't ask again\" feature normalizes storing secrets insecurely, affecting potentially thousands of developers and their associated systems. Organizations must audit their GitHub repositories urgently and rotate",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZH3vYLZb9lP7mDLqy2h-upzdComeWIfjDX5siFUO3FM2HlUs03OTwirA1R2uzOZq_clptIVBsoaJNXIuf8LlTbXHFvzBJLRl1l3mqGVesHjgdmD86S_c-k2JY_t56xZqI0bnN6jXRDr92KlMw6X5BHzm5hqogpWflsERi9zrsMHSS_abAcvZMcUGovd8/s1600/claude-code.jpg",
+      "processedAt": "2026-11-07T12:43:52.329872+00:00"
+    },
+    {
+      "id": "art-040cb38f",
+      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "summary": "A critical vulnerability in Ruby on Rails' Active Storage component allows attackers to upload malicious files that can write arbitrary data to a server, bypassing normal security controls. The flaw specifically affects applications that use ImageMagick to process uploaded images. Rails developers must immediately update to versions 8.1.4.1 or 8.0.5.2 to protect their applications from this serious threat.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rails-vulnerability",
+        "file-upload-exploit",
+        "active-storage",
+        "imagemagick",
+        "arbitrary-file-write",
+        "patch-now"
+      ],
+      "whyItMatters": "This vulnerability is critical because it allows unauthenticated attackers to gain control over server file systems without needing valid credentials, potentially leading to complete application compromise. Any Rails application using Active Storage with ImageMagick is at immediate risk, making rapid patching essential for organizations running affected versions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiaJWnScdkMx0R5_Zt00NtYVNjNavBR7IMrLzJM_tZGMTpZtAvV7uNWt6BQbBrlUzH-aBoj_ZmMEOG__aTA8VmfTeiHUR9gfqNe2eYf9fSM-sYQkmCOg10qZ3ZaKyM_RS1QUQhm8s5NMw-xnYaWMDgDakmFyp9tbJgQ4hOZTf0cxe9E6x7uWt3JeN6bS3k/s1600/ruby-rails.jpg",
+      "processedAt": "2026-11-07T12:43:55.103489+00:00"
+    },
+    {
+      "id": "art-cc2939a2",
+      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "summary": "Two critical vulnerabilities in the Xen hypervisor allow a malicious virtual machine to access and modify the memory of other VMs running on the same physical host, potentially compromising the dom0 control system. The Xen Project released patches on November 3, 2026, noting that all versions from 4.6 onward are affected and no temporary workarounds currently exist. This flaw is particularly dangerous because it breaks the isolation that hypervisors depend on to keep different VMs secure from one another.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "xen-hypervisor",
+        "virtual-machine-escape",
+        "memory-access",
+        "cloud-infrastructure",
+        "patch-urgent",
+        "dom0-compromise"
+      ],
+      "whyItMatters": "This vulnerability threatens the foundational security of virtualized environments used by cloud providers and data centers worldwide. A malicious VM can break out of its isolation boundary and compromise the host system and all other VMs, making this a critical risk for organizations relying on Xen-based infrastructure. The lack of known mitigations makes immediate patching essential to prevent p",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAVPXiuTBfhBnpwaZHMfSDWymKJrXbS88kOEO1Xuh5t11qAnwSKeFTHGQy6ZG9Sr2N-wRYrJg58x3lKFbybvU9p1a85lxaCHfBa61vO1DfjEhUi5Yzf6bQS1eN7Mu-s_sUwkE-JGc-UznJ1p0qfmwMDusXFzWawXKXMt6jj-vENxyQG12uAUDUe0p0gtg/s1600/xen.jpg",
+      "processedAt": "2026-11-07T12:43:57.920858+00:00"
+    },
+    {
+      "id": "art-5682c443",
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "summary": "Most AI agent security tools claim to stop malicious actions in real time, but this protection only works for agents whose traffic flows through enterprise-controlled gateways—a minority of deployments. The article highlights a real-world case where an employee used an AI assistant to trigger a mass-email automation, exposing a critical blind spot in current security approaches. Since most agents operate without passing through monitored gateways, existing security layers fail to detect or prevent harmful actions, leaving organizations vulnerable to agent-based attacks.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-agent-security",
+        "runtime-protection",
+        "gateway-bypass",
+        "detection-gap",
+        "enterprise-risk"
+      ],
+      "whyItMatters": "Organizations deploying AI agents are relying on security solutions with fundamental architectural blind spots that leave most agents unmonitored and uncontrolled. Without understanding where traffic flows and what security layers actually protect, enterprises may face unauthorized actions—like mass email campaigns—that bypass their security infrastructure entirely.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQqFIm3V3DsL6rHtjhkN8qVT2sU-caHUEuPgeepdZ6lLsIJ-09GFg_HVVBgeHP36W0abqUeCuaNuAOIheSGYB9hxmHbQGcgREBBxStEFLijgx-Cd8C8Z8wLuxgFFu75O8hAAOcdjAxgCZ-iYoBvYS09AcITdqMnmLZOn2JdGaEp04SPrgYkgQ14dl1S0JS/s1600/reco.gif",
+      "processedAt": "2026-11-07T12:44:00.912340+00:00"
+    },
+    {
+      "id": "art-0609304c",
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-04",
+      "originalUrl": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "summary": "A Chinese-linked hacking group called SlippyNunchucks exploited a security weakness in Sogou Input Method by intercepting unencrypted DNS communications to secretly install a backdoor called DarkVigil on Windows systems. This surveillance campaign began in July 2026 and targeted multiple organizations by taking advantage of the input method software's insecure network connections. The attack demonstrates how everyday software can become a vehicle for installing powerful spyware if it doesn't properly secure its communications.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "dns-hijacking",
+        "backdoor",
+        "malware-deployment",
+        "windows-systems",
+        "advanced-persistent-threat",
+        "supply-chain-attack"
+      ],
+      "whyItMatters": "This attack is critical because it exploits a trusted, commonly-used software to deploy persistent surveillance backdoors, meaning attackers can monitor victims long-term without detection. Organizations using Sogou Input Method face immediate risk of compromise, and the attack highlights how poor encryption in software updates can create serious security gaps. Users and enterprises need to unders",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMawvNNOvRYRm-k7ii9yDdw214v4kwQ7h5fAfOaUVkvMetNwArral8qumlObtaftjOcBsibL9vkqM1UT0-9l9jYPjj3M3C9NcPfg5pdIuENUfdKlK7lyseCS30AVhgLLs6a-2fdXlSDymSVeyIziO7IC13HFCaOf1v4sjbgmkeKfewWNsbTJCJ0WR2zLBZ/s1600/key.jpg",
+      "processedAt": "2026-11-07T12:44:04.288173+00:00"
+    },
+    {
+      "id": "art-a03e3b2a",
+      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-07",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "summary": "SonicWall has released security patches to address seven vulnerabilities in its SonicOS firewalls, with one critical flaw allowing attackers to bypass SSL-VPN multi-factor authentication (MFA). This vulnerability is already being actively exploited by threat actors in real-world attacks. Organizations using SonicWall firewalls need to apply these updates immediately to prevent unauthorized access to their networks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ssl-vpn",
+        "mfa-bypass",
+        "authentication-bypass",
+        "sonicwall",
+        "patch-now",
+        "active-exploitation"
+      ],
+      "whyItMatters": "MFA bypass vulnerabilities are particularly dangerous because they undermine a critical layer of security designed to protect remote access points. Since this flaw is already being actively exploited, organizations face immediate risk of unauthorized network access and potential lateral movement within their infrastructure. Prompt patching is essential to prevent compromise of sensitive data and s",
+      "image": null,
+      "processedAt": "2026-11-07T12:44:06.698034+00:00"
+    },
+    {
+      "id": "art-289c4f61",
+      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+      "summary": "Your phone broadcasts two key identifiers to networks: IMSI (which identifies your SIM card and carrier) and IMEI (which identifies your physical device). Attackers can intercept these identifiers to track your location and movements, but regularly rotating your IMSI can make this tracking much harder. Understanding the difference between these identifiers helps you recognize potential privacy risks from mobile networks.",
+      "category": "Privacy",
+      "severity": "Medium",
+      "tags": [
+        "mobile-privacy",
+        "imsi-imei",
+        "location-tracking",
+        "network-security",
+        "device-identification"
+      ],
+      "whyItMatters": "IMSI and IMEI exposure enables attackers to track your physical movements and identity without your knowledge, making this a practical privacy concern for everyday users. Learning about these identifiers and mitigation strategies like IMSI rotation empowers people to better protect their mobile privacy against persistent surveillance threats.",
+      "image": null,
+      "processedAt": "2026-11-07T12:44:09.245704+00:00"
+    },
+    {
+      "id": "art-7bd261ed",
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-06",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "summary": "Chainalysis, a major blockchain intelligence company, experienced a security breach that compromised sensitive customer credentials and active authentication tokens. The attack exposed access credentials across their entire customer base, potentially allowing unauthorized access to customer accounts and systems. This incident demonstrates that even security-focused companies handling critical financial data are vulnerable to sophisticated attacks.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "credential-exposure",
+        "authentication-tokens",
+        "supply-chain-risk",
+        "blockchain-security",
+        "customer-data-breach",
+        "incident-response"
+      ],
+      "whyItMatters": "When a blockchain intelligence firm—trusted to secure financial and compliance data—suffers a breach exposing all customer credentials and live tokens, it creates cascading risk across their entire client ecosystem. Organizations using Chainalysis must immediately rotate credentials and audit account access, while this incident highlights that credential compromise at trusted third-party vendors c",
+      "image": null,
+      "processedAt": "2026-11-07T12:44:12.293517+00:00"
+    },
+    {
+      "id": "art-4ab7bde0",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-03",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "summary": "Google and industry partners successfully shut down a botnet that had infected over 1.3 million Android TV set-top boxes with malicious software. These compromised devices were secretly being used to rent out users' internet connections to third parties and commit advertising fraud. The takedown is expected to disrupt access to more than 10 million additional compromised IoT devices, including healthcare equipment and other Android-based systems.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "iot-security",
+        "android-malware",
+        "proxy-abuse",
+        "advertising-fraud",
+        "set-top-box"
+      ],
+      "whyItMatters": "This demonstrates how malware embedded in consumer IoT devices can create large-scale botnets that exploit users' resources without their knowledge. The scale of the operation—affecting millions of devices across multiple product categories—highlights the critical need for stronger security in IoT manufacturing and firmware updates. Such incidents underscore why users should verify the security pr",
+      "image": null,
+      "processedAt": "2026-11-07T12:44:14.879566+00:00"
+    },
+    {
+      "id": "art-ba4120ce",
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "summary": "A critical PHP vulnerability affecting nearly 70% of websites worldwide has been discovered, allowing attackers to completely compromise affected servers. Security experts confirm that working exploits already exist and are being actively used in real-world attacks. Websites are expected to experience significant outages today as administrators rush to patch their systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "critical-patch",
+        "active-exploitation",
+        "server-compromise",
+        "widespread-impact",
+        "zero-day"
+      ],
+      "whyItMatters": "This vulnerability represents an urgent threat to the majority of web infrastructure globally, with active exploitation already underway. Organizations must immediately patch their systems to prevent complete server takeover, making this one of the most time-sensitive cybersecurity incidents requiring immediate action.",
+      "image": null,
+      "processedAt": "2026-11-07T12:44:16.988740+00:00"
+    },
     {
       "id": "art-17baf017",
       "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
@@ -827,211 +1035,6 @@
       "whyItMatters": "This represents a direct compromise of U.S. government network infrastructure by potentially hostile foreign actors, creating opportunities for unauthorized access, data exfiltration, and attacks on sensitive systems. The involvement of a Russian company with a history of targeting election systems escalates concerns about both national security and election integrity. Residential proxies that can",
       "image": null,
       "processedAt": "2026-11-05T14:24:12.168159+00:00"
-    },
-    {
-      "id": "art-6d74f6b6",
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-      "summary": "A vulnerability in APT, the package manager used by Debian and Ubuntu systems, allows attackers performing man-in-the-middle attacks to replace legitimate software packages with malicious ones that execute with root privileges. The flaw exploits APT's default retry mechanism for failed downloads, enabling code execution at the highest system level. This vulnerability affects multiple Linux distributions and was disclosed by developers on November 4, 2026.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "apt-vulnerability",
-        "debian",
-        "ubuntu",
-        "mitm-attack",
-        "privilege-escalation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability is critical because it affects millions of Debian and Ubuntu users across personal computers, servers, and cloud infrastructure, allowing attackers on the same network to gain complete system control. The default nature of the vulnerable retry mechanism means most systems are affected without any special configuration, making this a widespread and immediate threat requiring urge",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgUPaNgRQEg3TU6-9BBgKse77CGVpbBFbn48cBnN1aanKvaMzk_mT74RxyWZA3_NbcrYe0UnRAQlELRYKGiGNrLUDcBMSKXFgRNxaND7RoaVFOs1Q7rkFFtlpoAzYQ7C8i6RAY4bNNTarEMUI-iFR4A_IfjIkFE9vpyQjG-0QFngy5cRE8f2GhGfTltkaI/s1600/linux-apt.jpg",
-      "processedAt": "2026-11-04T22:56:46.172201+00:00"
-    },
-    {
-      "id": "art-552d78ab",
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-      "summary": "SonicWall has announced that two security vulnerabilities affecting its end-of-life Global Management System (GMS) versions 9.5.2 and earlier will not receive patches. One of these flaws, rated 9.1 on the CVSS scale, allows unauthenticated attackers to read sensitive internal files from affected systems. Organizations still using these older GMS versions face elevated risk since no official fixes will be provided.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sonicwall",
-        "gms",
-        "unpatched-vulnerability",
-        "end-of-life",
-        "file-read",
-        "network-security"
-      ],
-      "whyItMatters": "This situation creates a dangerous scenario where organizations cannot remediate critical vulnerabilities through official patches, forcing them to either accept significant security risk or migrate away from supported products. The high CVSS score and unauthenticated nature of the exploit means attackers can remotely access sensitive data without credentials, making this a serious threat to any o",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgME1T4MkjI8UEzzSmlLgbPG6a__VNQNoKkhuxiaW5zF5fnHLPmsTdkGoIL06JTeER1jcOMH-WLuNYyva_sSW_8DnZojbMC8ikgNME3ZPUAdkij-9nVm8joHHdaZRoLNbVgcSVLNSc6Tt7UJ3YPhQmea3OtQwg-H2UzUPIgWq7nFwoEQcMsGCKf-0fImEvd/s1600/sonic.jpg",
-      "processedAt": "2026-11-04T22:56:49.164289+00:00"
-    },
-    {
-      "id": "art-17393662",
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-      "summary": "Researchers discovered a jailbreak toolkit called Haiou that exploits OpenAI's Codex to inject unwanted advertisements into AI systems by modifying their core instructions. This type of attack, termed \"prompt adware\" by Check Point Research, hijacks trusted AI configurations to promote third-party services. The discovery highlights how AI models can be manipulated to behave outside their intended purposes through crafted prompts.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "prompt-injection",
-        "jailbreak",
-        "codex",
-        "adversarial-prompt",
-        "ai-abuse"
-      ],
-      "whyItMatters": "This attack demonstrates a new class of threats targeting AI systems where malicious actors can redirect AI behavior for profit or harm without traditional code execution. Organizations relying on OpenAI's Codex and similar models need to understand that prompt-based attacks can compromise system integrity and trustworthiness. As AI integration accelerates across industries, understanding and defe",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiO7-xs-0dO1uqFLbfphgPbe8T7cbCLkrab6XhAjlNPVo-bLQOFw4mkcArqglQOvhuIYif4ohTAub-TNWlket6iguifshMRo3zBrYvM4G_IwFTtbh8ifIqh1Vuf8GuNmqDg_PB2Roy7yzYuTFhRrFM8wxOo8HVwfG9Y2eqJnq82LGYHnAKI5S6TuvZ_Q95A/s1600/ai-adware.jpg",
-      "processedAt": "2026-11-04T22:56:52.257354+00:00"
-    },
-    {
-      "id": "art-e295099f",
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-      "summary": "APT29, a Russia-linked hacking group, conducted a large-scale watering hole attack targeting mobile users by compromising websites and injecting malicious JavaScript code through a Ukrainian web analytics service called Plerdy SEO Tracker. The attack collected sensitive browser and device information from both iOS and Android users, demonstrating how attackers can exploit legitimate third-party services to reach large numbers of victims. This supply chain compromise shows how trusted web services can be weaponized to distribute mobile exploits at scale.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "apt29",
-        "watering-hole",
-        "supply-chain-attack",
-        "mobile-exploit",
-        "javascript-injection",
-        "ios-android"
-      ],
-      "whyItMatters": "This attack reveals how sophisticated threat actors can compromise widely-used legitimate services to gain access to thousands of users without detection, making it difficult for organizations to protect users simply by monitoring direct threats. The targeting of mobile platforms alongside web infrastructure shows attackers are expanding beyond traditional endpoints. Organizations and users need t",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx1cus2o8fkYGLhQu9BfPgGtAUwnmTAMucLagfAodBuRoYnyxGIJKgpqtKFyCSV-WSG3pDqmPujhj-iwoOZB-zF8JjbQMrLzDHYtdTPA3hD3Kc3rqYQM4CQwkICwZkh8K6O8ZSt-WAA_PBoUA6lHwh_55dbDlKizsjzcTN847c9BSHsWHmrAP42JHRHIYS/s1600/ios-exploit.jpg",
-      "processedAt": "2026-11-04T22:56:55.544450+00:00"
-    },
-    {
-      "id": "art-3bded5fc",
-      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
-      "summary": "Google discovered a critical vulnerability in Android versions 14 through 17 that could let attackers run malicious code on phones without requiring any user action or interaction. The flaw, tracked as CVE-2026-58868, has been addressed in Google's November security update, though the availability of the patch depends on individual phone manufacturers and carriers. Users should prioritize installing the security patch level 2026-11-01 or later to protect their devices from potential remote code execution attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "android-vulnerability",
-        "remote-code-execution",
-        "patch-now",
-        "cve-2026-58868",
-        "critical-flaw"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and widespread risk because it allows attackers to compromise Android devices remotely without user interaction, making it especially dangerous. Organizations and individuals relying on Android devices need to prioritize applying security patches as soon as they become available from their device manufacturers. The lack of user action requirement means even vi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgm9fDI_lHL64S1r-eoB5-99WagZJBIjKDF-bEJ9egJw_EiLUomXSakGnV0vdq9Fqu2j6KVWM4upLmOwweDCKQ32f21W8CTsQHnoGMhFm-ISPNQEg1Jq5WbDujqLHVkGSEsox0Xd3Yc5Dd-v4-6rdzU4akd97y7cBhRYFO2ofmxpf3HYspJ6MkJs2RtfC4/s1600/android-patch.jpg",
-      "processedAt": "2026-11-04T22:56:58.398168+00:00"
-    },
-    {
-      "id": "art-3a63b242",
-      "title": "Vercel rolls out new protection against stolen session cookie attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-      "summary": "Vercel is deploying Device Bound Session Credentials (DBSC) to protect users against attacks where hackers steal session cookies through malware. This new security feature ties session credentials to specific devices, making stolen cookies useless if accessed from a different machine. The rollout is happening gradually across Vercel's platform as part of their defense strategy against information stealer malware.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "session-security",
-        "cookie-protection",
-        "malware-defense",
-        "cloud-security",
-        "credential-theft"
-      ],
-      "whyItMatters": "Session cookie theft is a common attack vector used by information stealers to gain unauthorized access to user accounts and data without needing passwords. DBSC significantly reduces this risk by making stolen credentials location-specific and harder to exploit, raising the security bar for cloud platform users. This represents a proactive security improvement that can prevent widespread account ",
-      "image": null,
-      "processedAt": "2026-11-04T22:57:01.337081+00:00"
-    },
-    {
-      "id": "art-2ca08248",
-      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "summary": "Zyxel discovered and patched a zero-day vulnerability in its GS1900 series network switches that attackers actively exploited to compromise nearly 1,000 devices globally. The attackers used this flaw to gain unauthorized access and steal sensitive information including configuration files and login credentials from affected switches. This incident demonstrates the real-world risks posed by unpatched network infrastructure vulnerabilities.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "network-security",
-        "zyxel",
-        "patch-urgent",
-        "credential-theft",
-        "active-exploitation"
-      ],
-      "whyItMatters": "This zero-day was actively being exploited at scale against nearly 1,000 devices before a patch was released, making it an urgent threat to any organization using Zyxel GS1900 switches. Compromised network switch credentials can give attackers persistent access to entire network infrastructure, enabling lateral movement and long-term data theft. Organizations must prioritize applying this patch im",
-      "image": null,
-      "processedAt": "2026-11-04T22:57:04.232099+00:00"
-    },
-    {
-      "id": "art-2da2d8c5",
-      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-      "summary": "DreamHost, a popular web hosting provider, suffered a data breach that allowed attackers to access its File Manager platform for approximately two months. During this time, the attackers stole customers' FTP and SFTP login credentials along with webmail session information. The company is now warning affected customers to change their passwords and take steps to secure their accounts.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "ftp-credentials",
-        "hosting-provider",
-        "account-security",
-        "webmail-compromise"
-      ],
-      "whyItMatters": "FTP and SFTP credentials provide direct access to website files and hosting infrastructure, putting customer websites and data at serious risk of unauthorized modification or theft. A two-month window of exposed access means attackers had extended time to compromise multiple customer accounts. This breach highlights the importance of hosting provider security and the need for customers to regularl",
-      "image": null,
-      "processedAt": "2026-11-04T22:57:06.787271+00:00"
-    },
-    {
-      "id": "art-18b61194",
-      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-      "summary": "Hackers attacked a refrigeration equipment provider used by France's national blood service, causing temperature and defrost settings to malfunction at three facilities. This cyberattack put stored blood products at risk by raising temperatures in critical storage systems. The incident highlights how attacks on third-party suppliers can threaten essential medical infrastructure and patient safety.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "critical-infrastructure",
-        "supply-chain-attack",
-        "iot-security",
-        "healthcare-threat",
-        "blood-service"
-      ],
-      "whyItMatters": "This attack demonstrates how cybercriminals can target vulnerable points in medical supply chains to disrupt lifesaving services. When blood storage systems fail due to cyberattacks, it directly endangers patients who depend on transfusions and reveals gaps in protecting IoT and industrial control systems in healthcare.",
-      "image": null,
-      "processedAt": "2026-11-04T22:57:09.402332+00:00"
-    },
-    {
-      "id": "art-43731f7e",
-      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-04",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-      "summary": "Hackers compromised the PC launcher for Goddess of Victory: NIKKE, a popular game, and injected malware into it as part of a supply-chain attack. The malware was designed to steal sensitive information like user credentials and cryptocurrency wallet data from players who downloaded the infected launcher. This incident demonstrates how attackers can target widely-used software distribution channels to reach large numbers of victims at once.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "supply-chain-attack",
-        "malware-distribution",
-        "credential-theft",
-        "cryptocurrency-theft",
-        "game-security"
-      ],
-      "whyItMatters": "Supply-chain attacks through popular applications are particularly dangerous because they bypass user skepticism—players trust official launchers. This attack shows that even entertainment software can be weaponized to steal financial and personal data, making it critical for users to verify software integrity and for companies to secure their distribution pipelines.",
-      "image": null,
-      "processedAt": "2026-11-04T22:57:12.198266+00:00"
     }
   ]
 }
