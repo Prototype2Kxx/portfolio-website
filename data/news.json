@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-11-08T13:01:43.247933+00:00",
+  "lastUpdated": "2026-11-08T21:25:09.386224+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-a4caf39b",
+      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html",
+      "summary": "A critical vulnerability in OpenSSH allows attackers to bypass authentication on Alpine Linux systems by using unusually long passwords (257-1,024 bytes) to log into accounts that normally don't accept passwords, such as SSH key-only accounts. OpenSSH released version 10.6p2 as an emergency fix, and Alpine Linux has published patched packages to address the flaw. This flaw affects servers with network access and requires only knowledge of a valid account name.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "openssh",
+        "alpine-linux",
+        "authentication-bypass",
+        "ssh-vulnerability",
+        "patch-emergency",
+        "password-bypass"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to Alpine Linux systems running vulnerable OpenSSH versions, as attackers can gain unauthorized access to supposedly secure SSH key-only accounts without valid credentials. Organizations running these systems must apply patches urgently to prevent account compromise. The attack requires minimal information and network access, making it a practical and e",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieaHvS5baW_XG1eAsBsoSp9qRzV179f0WwXoj9k6rUeX4Qa4sxpi3hvpGkgkYNMPzZQH0mvvVAoTooEAgl1G3SyFksmhqNEbDEIEWM83RH47u8qvNyIYclA7z7GUdPJGx8WfJd556iCvvtvsitAYp9M-T46OvuwkaSWwnyhlynEpYax2qyTCACsPbtQLw/s1600/ssh-linux.jpg",
+      "processedAt": "2026-11-08T21:24:44.810291+00:00"
+    },
+    {
+      "id": "art-6fd6bfba",
+      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html",
+      "summary": "Researchers discovered a vulnerability in OpenAI's ChatGPT that allowed attackers to bypass Lockdown Mode, a security feature designed to prevent unauthorized data theft through prompt injection attacks. The flaw could have enabled silent exfiltration of chat conversations and potential phishing attacks without the user's knowledge. OpenAI has since patched the vulnerability, but the discovery highlights weaknesses in AI safety mechanisms.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "chatgpt",
+        "lockdown-mode",
+        "prompt-injection",
+        "data-exfiltration",
+        "vulnerability-patched"
+      ],
+      "whyItMatters": "This vulnerability demonstrates that even security features specifically designed to protect AI systems can be circumvented by determined attackers, putting user data at risk. Organizations relying on ChatGPT for sensitive information need to understand these risks and ensure they're running patched versions. The incident underscores the importance of prompt security awareness as AI tools become m",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrZkGDnavpYu1VmQZCorYSw9PnFNh3tGXQ7YWWrZ3g6sURYj4RiS7za99akV3poXhW7GLoJw3j-baYvwyor0f_8iI3t5zk3NeXj1V1eVDMFUklqlYz629h88oYzxk3aIQPPwQF3xaw10DZTE-lEKyaojqzlLHC_DGtF91AVhXkaFNfY6Mh-qVqn86LCfQz/s1600/chat.gif",
+      "processedAt": "2026-11-08T21:24:47.612635+00:00"
+    },
+    {
+      "id": "art-34003d5d",
+      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html",
+      "summary": "This cybersecurity roundup covers multiple critical threats including an Apache OFBiz remote code execution vulnerability, a DreamHost breach, and a DeFi website hijacking, among 17 other stories. The article highlights how attackers exploit stolen credentials and trusted settings to gain unauthorized access across multiple systems, while demonstrating that critical infrastructure often faces significant delays in receiving security patches. The collection of incidents underscores the real-world impact of vulnerabilities and breaches that can affect businesses and users for extended periods.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "apache-ofbiz",
+        "rce-vulnerability",
+        "data-breach",
+        "defi-security",
+        "patch-delays",
+        "stolen-credentials"
+      ],
+      "whyItMatters": "The article demonstrates how multiple attack vectors—from unpatched vulnerabilities to compromised credentials—create cascading risks across interconnected systems. Organizations need to prioritize both rapid vulnerability patching and credential security to prevent the widespread damage that attackers can inflict when exploiting these gaps.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj37A8QMI4tUKrluDLCSgawVjQQeZ6c6NrfWLMLUjrI6vRhpt8Tlw4PNnfF49ZlOTtW28Cfb035jo-j22auCrWauuE-JpHfKMFSVfIQtUZjn1eETLFhQEev0FFafFlGz8W6r-96FPmTWlFGTR3RhV869PbcYkO4YPi5nD-zQVGHSZ8d39OmhecF693dj4-x/s1600/tds.jpg",
+      "processedAt": "2026-11-08T21:24:50.398221+00:00"
+    },
+    {
+      "id": "art-2d125989",
+      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+      "summary": "Zyxel's GS1900 network switches remain vulnerable to a zero-day exploit even after the vendor released an initial patch, according to researchers at Binarly. The flaw allows attackers to execute commands on the switches without authentication through the web management interface. Zyxel has since released updated firmware for 10 GS1900 models to address the issue properly.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "zyxel",
+        "network-security",
+        "command-execution",
+        "patch-bypass",
+        "authentication-bypass"
+      ],
+      "whyItMatters": "This incident demonstrates that initial patches can fail to fully remediate critical vulnerabilities, leaving systems exposed to active exploitation. Organizations using Zyxel GS1900 switches must prioritize updating to the new firmware immediately, as unauthenticated remote command execution poses a severe risk to network infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhaF7lULSp8hpZx_WSDcDsJxD9TzTOH5Oo5dkFteUVQqQMOXc7ZyytOxbNgL01vkV43Kx0V0sDzJvKGrZvPwjos_-g9djk8jVAqSN04CIhGoiWWUMLdyKQH32ES8ghi-6ilZbnbGi_WIRi8hvzik6ztrin-MZEK1QI2CKR3Lk1sUg3yVYuhGvsX0pC85Qg/s1600/zyxel-hacker.jpg",
+      "processedAt": "2026-11-08T21:24:52.939848+00:00"
+    },
+    {
+      "id": "art-e518f605",
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+      "summary": "CISA has added CVE-2024-27834, a medium-severity authentication flaw affecting multiple Apple operating systems, to its list of known exploited vulnerabilities. Attackers are actively exploiting this patched vulnerability to deliver malware designed to steal sensitive information. The flaw demonstrates that even after patches are released, some users remain at risk if they fail to update their devices promptly.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "apple-vulnerability",
+        "active-exploitation",
+        "malware-delivery",
+        "authentication-flaw",
+        "patching-critical"
+      ],
+      "whyItMatters": "This threat is significant because attackers are actively exploiting a known vulnerability despite patches being available, indicating that many Apple users likely haven't updated their systems. The use of this flaw to deliver info-stealing malware puts personal and organizational data at direct risk, making prompt patching essential for all Apple device users.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgkv0B0acGnMDLnCJQYXNCkpzSeKKr_1m4-a10Q2Iy6DZOorGLb35YDD9vw3iQQA9fZTi7QGIZYlSsvTSmxc8w0UbgN_Xtl-QPyTngA9qhOuoryee3Z8X8CZRnHiUAY3wuIXG_UIO1DyDnjnfS5cOilt3WPzRnYYqFDZ1NHbXS0OVAsrVYHSeFuc7zglZw5/s1600/apple-0day.jpg",
+      "processedAt": "2026-11-08T21:24:55.477865+00:00"
+    },
+    {
+      "id": "art-221d5679",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-08",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "summary": "Iris Ohyama, a major Japanese manufacturer and operator of the Iris Plaza e-commerce platform, experienced a significant data breach affecting approximately 7.7 million customers. The breach occurred through unauthorized access to a third-party cloud service that the company relied on for data storage. This incident demonstrates how security vulnerabilities in external cloud providers can directly compromise the personal information of millions of end users.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "cloud-security",
+        "third-party-risk",
+        "customer-data",
+        "unauthorized-access",
+        "privacy-incident"
+      ],
+      "whyItMatters": "This breach highlights the critical importance of supply chain and third-party risk management in cybersecurity. Organizations must implement strict security controls and monitoring over cloud service providers, as a single vulnerability in an external vendor can expose millions of customer records and trigger significant regulatory, financial, and reputational consequences.",
+      "image": null,
+      "processedAt": "2026-11-08T21:24:58.002085+00:00"
+    },
+    {
+      "id": "art-79b1a289",
+      "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
+      "summary": "Cybercriminals are impersonating well-known tech companies by sending fake event invitations for OpenAI, SpaceX, and Anthropic to trick employees into clicking malicious links. These phishing attacks use specialized phishing-as-a-service platforms to harvest Microsoft and Google credentials and steal active authentication sessions from victims. By targeting major tech company employees, attackers gain access to sensitive corporate accounts and systems.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "credential-theft",
+        "social-engineering",
+        "tech-companies",
+        "account-takeover",
+        "phishing-as-a-service"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors exploit brand trust and industry relevance to bypass security awareness training and successfully compromise high-value targets at major tech firms. Stolen credentials and active sessions can grant attackers immediate access to corporate resources without requiring further authentication, making this a particularly effective attack vector against security",
+      "image": null,
+      "processedAt": "2026-11-08T21:25:00.673026+00:00"
+    },
+    {
+      "id": "art-9e9de82c",
+      "title": "UK Wades Into Tech Sovereignty Amid AI Policy Changes",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-06",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/uk-tech-sovereignty-ai-policy",
+      "summary": "The UK government is increasing investment in domestic artificial intelligence and cybersecurity capabilities to decrease dependence on American technology companies. However, cybersecurity experts are concerned that the funding efforts are scattered across multiple initiatives and may arrive too late to meaningfully reduce the country's technological reliance. This policy shift reflects broader concerns about tech sovereignty and supply chain security in an increasingly complex digital landscape.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "tech-sovereignty",
+        "ai-policy",
+        "uk-cybersecurity",
+        "supply-chain-security",
+        "domestic-investment"
+      ],
+      "whyItMatters": "Tech sovereignty and reducing dependency on foreign technology providers has direct implications for national cybersecurity resilience and the ability to respond to threats independently. Organizations and governments must understand how these policy shifts affect their security posture, technology choices, and vendor relationships. Fragmented funding approaches can undermine security goals, makin",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt657a1273b2714e2a/6aee1af430222a6f81ad8ea8/ukmap-da-kuk-Getty-1368022904.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-08T21:25:03.617733+00:00"
+    },
+    {
+      "id": "art-c9969036",
+      "title": "AI Gave Your Incident Archive a Second Job",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-06",
+      "originalUrl": "https://www.darkreading.com/cyber-risk/ai-gave-your-incident-archive-second-job",
+      "summary": "Companies are storing security incident records that vendors are now using to train artificial intelligence models, which introduces fresh privacy and security concerns for enterprises. This practice exposes sensitive incident data to third parties without explicit control over how that information is used. Organizations need to understand the risks associated with their historical security logs being leveraged for AI model development.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "data-privacy",
+        "incident-records",
+        "vendor-risk",
+        "ai-training-data"
+      ],
+      "whyItMatters": "Security incident archives often contain sensitive operational details, attack methodologies, and potentially vulnerable system configurations. Allowing vendors to use this data for AI training without proper controls could expose competitive intelligence, compliance violations, or create new attack vectors. Organizations must implement strict data governance policies to control what security info",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltfb0f3465591962e4/6aee1cd77073b469ffb052f4/archive_-3alexd-Getty-95769788.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-08T21:25:06.468872+00:00"
+    },
+    {
+      "id": "art-d6805779",
+      "title": "Why Europe's Freezer Hacks Spread So Far, So Fast",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-06",
+      "originalUrl": "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
+      "summary": "Cybercriminals exploited security weaknesses in European supermarket freezer systems, causing the attack to spread rapidly across the retail industry and disrupting supply chains on a large scale. The incident demonstrates how a single vulnerability in interconnected systems can cascade through an entire sector, affecting multiple organizations simultaneously. This type of attack highlights the risks that come with digitized infrastructure in critical industries like food retail.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "supply-chain-attack",
+        "industrial-systems",
+        "cascading-failure",
+        "retail-security",
+        "infrastructure-vulnerability"
+      ],
+      "whyItMatters": "This incident shows how vulnerabilities in seemingly non-critical systems like freezer controls can have widespread real-world consequences when exploited at scale. Organizations must understand that interconnected systems create systemic risk, and a breach in one company can rapidly propagate across an entire industry, making coordinated defense and rapid patching essential.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt888d802e435faf7a/6aecff1baf87734cefe9fe4c/Supermarket_freezer_aise-bernardbodo-GettyImages-1393629140.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-08T21:25:09.386080+00:00"
+    },
     {
       "id": "art-2cd3392b",
       "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
@@ -830,210 +1036,6 @@
       "whyItMatters": "Organizations using Veeam Software Appliance on AMD EPYC infrastructure face potential operational disruption if their backup systems fail to boot, compromising disaster recovery capabilities. This issue demonstrates how hardware-software compatibility problems can have cascading effects on critical infrastructure, making it essential for IT teams to monitor vendor advisories and test configuratio",
       "image": null,
       "processedAt": "2026-11-06T22:28:02.836688+00:00"
-    },
-    {
-      "id": "art-11c4a250",
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "summary": "Microsoft has released a fix for CVE-2026-83844, a remote code execution vulnerability in Windows Paint that allows attackers to execute code remotely through an out-of-bounds read flaw. The patched version (11.2609.401.0) is available exclusively through the Microsoft Store, not through standard Windows Update channels. Users must manually update Paint from the Store to receive this security fix.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "windows-paint",
-        "remote-code-execution",
-        "cve-2026-83844",
-        "microsoft-store-update",
-        "out-of-bounds-read"
-      ],
-      "whyItMatters": "This vulnerability is critical because Paint is a built-in Windows application many users have installed, and the RCE flaw allows remote code execution—a severe threat. The unusual distribution method (Microsoft Store only, not Windows Update) means users may not automatically receive the patch and must take manual action, increasing the window of exposure. Organizations need to educate users abou",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFEFFUv1MUNRoFx03Jcw0k5NZCU0EOf5qEpbvAEQoTSTzoxHWPk1rc7XgQeG1USPP9vVB0ePI_lzQLqBU5bHdQ7-YrwEXFo8gJwayqwCvCtcDrw1JYMxKYxieV3bcQeCRAJAxt8CRfifzMzL22_ab0Z0OxwWrNckC36gPEOnubZnzagv6DkV7iY4AQJfA/s1600/paint-rce.jpg",
-      "processedAt": "2026-11-06T13:59:31.059436+00:00"
-    },
-    {
-      "id": "art-21d33a69",
-      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "summary": "Researchers discovered that malicious browser extensions could exploit Claude's Dispatch feature to execute arbitrary code on Claude Desktop users' computers. The attack works by running scripts on claude.ai that leverage Dispatch functionality to send commands from a phone to the desktop application. This vulnerability remains exploitable and poses a direct threat to users who have both a compromised browser extension and Claude Desktop installed.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "browser-extension",
-        "claude-ai",
-        "code-execution",
-        "ai-security",
-        "dispatch-vulnerability"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how AI assistant integrations can become attack vectors when browser extensions are compromised, potentially giving attackers direct code execution on victim machines. Users relying on Claude Desktop need to be cautious about which extensions they install, as a single malicious extension could compromise their entire system through the Dispatch feature.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil2RWGFxPYdzFDr1Tl0G6604dLCacXJDMaR-i0nSdrR7vBGgK-lUkZbE5eZYMbWO0Geqw_rDbN2qUkWpEadukl6gccv-xuUWJfEOx2_FWFiZxjVs4uNPiRK3JYOBo0QI1Lx08xd9Iz3-8TFN_kf-njbCQ-AFDcLNNRy6JcwsZyoM12qLt99OzNQNhmaGs/s1600/claude-dispatch.jpg",
-      "processedAt": "2026-11-06T13:59:33.492092+00:00"
-    },
-    {
-      "id": "art-283fd8cd",
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "summary": "The article discusses Dario Amodei's thoughts on pacing AI development and highlights a growing gap between what advanced AI models can accomplish and society's readiness to handle the implications. The author has spent time analyzing AI capabilities and warns of significant challenges ahead as these powerful systems become more widely accessible. The piece suggests that cybersecurity infrastructure and preparedness may struggle to keep pace with rapidly advancing AI technologies.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "emerging-threats",
-        "preparedness",
-        "infrastructure-readiness",
-        "ai-capabilities"
-      ],
-      "whyItMatters": "As AI models become more powerful and accessible, the cybersecurity industry faces a critical window where defenses may lag behind potential threats. Organizations need to understand and prepare for security challenges that advanced AI could introduce, from sophisticated attacks to new vulnerability vectors that existing security measures may not address.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhhRlCxdfW4sb5-1zEBHpFyJfxetSva89fr67wc8zSfvidW5W4KQKckoTrRxOAUbjM94U2ydFjiXybLJPrp6pm1V-WUuC4IpkJjhIT56OG8go8E_8fR8cK-llV0UtXdRIxZS5XxuVwEbRj1G_zAErMjpkMHVdzkGBQrB46VErPyE7MBaW6sj0N64pRd3_A/s1600/FLOOD.jpg",
-      "processedAt": "2026-11-06T13:59:36.046627+00:00"
-    },
-    {
-      "id": "art-d1ea085e",
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "summary": "Chainalysis, a major blockchain analysis firm, suffered a cyberattack that exposed sensitive user information including names, usernames, password hashes, and active authentication tokens. In response to the breach, the company temporarily shut down access to its Reactor and Data Solutions platforms as part of its investigation. While the company has not found evidence that investigation data was accessed, the exposure of user credentials poses a significant risk to affected users.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "credential-exposure",
-        "authentication-tokens",
-        "blockchain-security",
-        "incident-response"
-      ],
-      "whyItMatters": "This breach exposes credentials and live authentication tokens for all users of a major blockchain analysis platform, creating immediate risks for account takeover and unauthorized access. The exposure threatens not only individual users but also organizations relying on Chainalysis for compliance and investigation purposes, demonstrating that even security-focused companies are vulnerable to soph",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoSpb8lu1ytakNne4rJ58nWfLFrYtdR7MCyZ2prSaLKiAb2Bt_upvfAHl-slDTt_3h7zxFdhbPcLwzAkcHDjnvu2TNcVp6JsgJU6GI5GMvZrrmzZTUZDyeOhS0GnFV-YtazzzcgMFnUvkqKmpSr9FBrCXQhlyPZM9E8c7LPSxACwPhfJ4nFzIANqdaVXUd/s1600/chain-breach.jpg",
-      "processedAt": "2026-11-06T13:59:38.943149+00:00"
-    },
-    {
-      "id": "art-bb6260ab",
-      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "summary": "Researchers discovered a backdoor embedded in the web server software used by Control Web Panel (CWP), a popular Linux hosting management tool. This backdoor allows attackers to run hidden commands on compromised servers without leaving any trace in access logs. Since the backdoor requires root-level access to install, attackers must have already gained control of the target server before deploying it.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "linux-backdoor",
-        "web-server-compromise",
-        "command-execution",
-        "logging-evasion",
-        "cwp-security",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "This attack highlights how adversaries weaponize legitimate server management tools to maintain persistent, undetectable access to compromised systems. For hosting providers and server administrators using CWP, this demonstrates the critical importance of securing initial server access and monitoring for suspicious modifications to core system components. The log-evading capability makes detection",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsAMxBevh2cmz1buKWukyP6JgUHrIPcr9zrJjAs1OwDoP1wMjn_s_WKHeUAdSwVzTImUsDE0C3SLGEpciaLk9H8CGvqiYugQWASsflB1a5zA9Wyr4RbroT3Z3JlOeak1AEinAy7Brf9N0BRDuGFWdZC23nCrOq4VuSMQQuDFYBYC6YCEm2ncPhHOv3KXs/s1600/cwp.jpg",
-      "processedAt": "2026-11-06T13:59:41.662573+00:00"
-    },
-    {
-      "id": "art-a06d6032",
-      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
-      "summary": "D-Link has identified multiple unpatched security vulnerabilities in its DGS-3130 Series managed switches and released mitigation guidance while patches are being developed. These zero-day flaws pose a risk to organizations using these network devices, as attackers could potentially exploit them to compromise network infrastructure. The company is working on fixes but has not yet released complete patches for all affected systems.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "d-link",
-        "zero-day",
-        "network-switches",
-        "unpatched",
-        "dgs-3130",
-        "mitigation"
-      ],
-      "whyItMatters": "Network switches are critical infrastructure components, and unpatched zero-days in these devices create significant risk since they handle all organizational traffic and are difficult to replace quickly. Organizations using DGS-3130 switches need to implement interim protections immediately to avoid potential network compromise, data theft, or operational disruption while waiting for official pat",
-      "image": null,
-      "processedAt": "2026-11-06T13:59:44.151468+00:00"
-    },
-    {
-      "id": "art-459b7cb7",
-      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
-      "summary": "MetaMask, a popular cryptocurrency wallet provider, experienced a recent security incident but confirmed that user wallets and the wallet's core infrastructure were not compromised. The company's announcement reassures users that their digital assets remain safe despite the security event. This incident highlights the importance of robust security measures in cryptocurrency platforms that handle sensitive financial assets.",
-      "category": "Other",
-      "severity": "Low",
-      "tags": [
-        "cryptocurrency-security",
-        "wallet-security",
-        "incident-response",
-        "user-protection"
-      ],
-      "whyItMatters": "While the incident did not directly compromise user wallets, this announcement demonstrates how cryptocurrency platforms communicate security incidents to users and the critical importance of maintaining trust in financial service providers. Users of MetaMask and similar platforms need to understand the distinction between attacks on service infrastructure versus actual wallet compromises, and thi",
-      "image": null,
-      "processedAt": "2026-11-06T13:59:46.550665+00:00"
-    },
-    {
-      "id": "art-c205685a",
-      "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-06",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
-      "summary": "The FBI and CISA have issued a joint warning about hackers actively targeting industrial refrigeration and cold-chain monitoring systems globally. These cyberattacks pose serious risks including food spoilage, equipment failure, and potential fire hazards. Organizations managing food storage and temperature-sensitive supply chains need to strengthen their defenses immediately.",
-      "category": "Network Security",
-      "severity": "Critical",
-      "tags": [
-        "industrial-control-systems",
-        "critical-infrastructure",
-        "supply-chain-attack",
-        "food-safety",
-        "ics-security",
-        "active-threat"
-      ],
-      "whyItMatters": "Attacks on refrigeration systems directly threaten public health and food supply chains, making this a critical infrastructure concern beyond typical data theft. The active exploitation targeting essential services requires immediate defensive action from organizations in the food industry and related sectors. This advisory highlights how cyberattacks can cause physical-world harm, not just digita",
-      "image": null,
-      "processedAt": "2026-11-06T13:59:49.023465+00:00"
-    },
-    {
-      "id": "art-5a01ae8e",
-      "title": "DigiCert data breach exposes customer information, identity documents",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
-      "summary": "DigiCert, a major certificate authority and digital security provider, experienced a data breach caused by a server migration error that accidentally exposed an internal system to the internet. The breach allowed attackers to access sensitive customer information and identity documents without authorization. This incident highlights how configuration mistakes during infrastructure changes can create serious security vulnerabilities, even at security-focused companies.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "server-misconfiguration",
-        "customer-data",
-        "identity-documents",
-        "incident-response",
-        "infrastructure-security"
-      ],
-      "whyItMatters": "DigiCert is a trusted certificate authority that secures internet communications for millions of organizations worldwide, making this breach particularly concerning for the entire digital ecosystem. Exposed identity documents and customer information can lead to identity theft, targeted phishing attacks, and compromised trust in certificate services. This incident demonstrates that even security-f",
-      "image": null,
-      "processedAt": "2026-11-06T13:59:51.729726+00:00"
-    },
-    {
-      "id": "art-d34f9f16",
-      "title": "Closing the Identity Gap at the Service Desk",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
-      "summary": "Cybercriminals are exploiting IT service desks by impersonating employees to trick staff into resetting passwords or registering new authentication devices, effectively bypassing multi-factor authentication (MFA). Traditional identity verification methods used at service desks are proving inadequate against these social engineering attacks. Organizations need stronger account recovery procedures to prevent unauthorized access through this common attack vector.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "social-engineering",
-        "mfa-bypass",
-        "service-desk-security",
-        "identity-verification",
-        "password-reset",
-        "account-recovery"
-      ],
-      "whyItMatters": "Service desks represent a critical weak point in security perimeters because attackers can bypass technical controls like MFA through human manipulation rather than technical exploitation. Organizations must implement stronger identity verification protocols at service desks to prevent account takeovers that could lead to data breaches, lateral movement, or ransomware deployment.",
-      "image": null,
-      "processedAt": "2026-11-06T13:59:54.216105+00:00"
     }
   ]
 }
