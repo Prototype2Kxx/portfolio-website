@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-10T14:37:57.134035+00:00",
+  "lastUpdated": "2026-11-10T22:36:42.611203+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-191411c5",
+      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "summary": "Git has released security patches addressing a critical vulnerability (CVE-2026-111760) that allows attackers to execute malicious code when users recursively clone repositories containing submodules. The flaw stems from an integer truncation error in Git's index handling. Patches are available across multiple Git versions, with version 2.56.1 being the latest stable release containing the fix.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "git-vulnerability",
+        "code-execution",
+        "recursive-clone",
+        "cve-2026-111760",
+        "patch-available",
+        "submodule-exploit"
+      ],
+      "whyItMatters": "This vulnerability affects developers worldwide who use Git for version control, as cloning repositories is a routine part of development workflows. Attackers can gain arbitrary code execution on developer machines, potentially compromising source code, credentials, and development environments. Immediate patching is essential given the ease of exploitation through normal Git operations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipoPlLYj_xfJ8bsfRTONwa3estE9I2un_9OBx2fVuxEp-zoiADgipn-gGOeU4TqqyjqjrCpoGXC4jmuF7o1e_PUMbr-QoHDdPZEDWavb4VbjtWbOxMfmz-E9fIPT2DHEXYCN53l2jtiJGVfEFjHsR8gaHeyF59Yii0oTnP73vaslLWPzuideEGxTy6S9U/s1600/gits.jpg",
+      "processedAt": "2026-11-10T22:36:18.095321+00:00"
+    },
+    {
+      "id": "art-413500e1",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "summary": "An attacker exploited a remote code execution vulnerability in SGLang, an open-source inference engine, to gain unauthorized access to one of NEAR AI's servers. The breach exposed data from approximately 18 AI agents and 100 users, with the attacker potentially viewing sensitive requests processed through confidential trusted execution environments. This incident highlights how vulnerabilities in widely-used open-source tools can cascade into major security incidents affecting multiple organizations and users.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "rce-exploit",
+        "open-source-vulnerability",
+        "ai-security",
+        "data-breach",
+        "inference-engine",
+        "urgent-patch"
+      ],
+      "whyItMatters": "This breach demonstrates that vulnerabilities in open-source AI infrastructure can lead to direct code execution and large-scale data exposure, even affecting systems using trusted execution environments. Organizations relying on SGLang or similar inference engines need immediate patching, and this incident underscores the critical importance of securing AI pipeline components in production enviro",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifQOwa1ngLZRATbbZyg_iud4SNx-9ugjo2iOG6crnJzatc_uS9FjGScBnNUy-uNIuOEE3Y6kJTpUVMVtOR1bW5sse_pRNJA1SQALCGjshDx6-CF1t8HXlUI2CCb6yp7Uepz6uk3ctMLUlSx4Q36Q7pZcx1nb9wPgbYAZqvd6CnSJ6WM6Kn_ZENtHpESoM/s1600/nearai.jpg",
+      "processedAt": "2026-11-10T22:36:21.028808+00:00"
+    },
+    {
+      "id": "art-d6363b34",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "summary": "Vates VMS has identified a critical authentication bypass vulnerability in Xen Orchestra that attackers are actively exploiting to gain unauthorized admin access. The flaw, tracked as VSA-2026-062, allows attackers to manipulate REST cookie parsing to bypass authentication checks. This vulnerability poses an immediate threat to organizations using Xen Orchestra for virtualization management.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "authentication-bypass",
+        "xen-orchestra",
+        "active-exploitation",
+        "admin-access",
+        "vsa-2026-062",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "Active exploitation of this flaw means attackers are already compromising Xen Orchestra systems to gain administrative control, potentially leading to complete infrastructure takeover. Organizations running vulnerable versions face immediate risk of unauthorized access to their virtualization infrastructure without a publicly available CVE to track patches. This type of authentication bypass is pa",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMH_u7t-U3KIejAItsfC_js20xJgxT2ITYLsR0DAxzfcwDvPrzBHkpZlDuALWPnACOoknX2IALwHIUxIzfhbA24M7e8cGWTZpBMWqpX-wn6xqe8_U3fAtnR-9RsRdFHMCjvNnBsMXrEUKhVYS5bbTGL3B50UMO0aydtHIomY89s2iDAQMq0jXJJ3vh4Nvi/s1600/XEN-attack.jpg",
+      "processedAt": "2026-11-10T22:36:23.837637+00:00"
+    },
+    {
+      "id": "art-0a8d370a",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "summary": "Security researchers at Check Point have discovered three interconnected cyber espionage groups operating from China that share malware code and infrastructure. These threat actors have been targeting critical sectors including telecommunications, government, military, and research institutions across multiple continents over the past year. The groups, tracked under names like SilentDelivery, appear to be part of a coordinated ecosystem using shared malware tools.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "china-nexus",
+        "espionage",
+        "malware-ecosystem",
+        "sparrow-malware",
+        "critical-infrastructure",
+        "nation-state"
+      ],
+      "whyItMatters": "This campaign represents a significant threat to national security and critical infrastructure globally, affecting telecommunications and government entities across multiple regions. Understanding the shared infrastructure and malware connections helps defenders identify and block related threats more effectively. Organizations in targeted sectors need immediate awareness to strengthen their defen",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJzh3KQXtsNe_Hb53sMmMSiGIRHL-ybly73FQY1F-RNeFR181cAeiYkvBDi80Upvlea0WqHLNW6ydto2DhfeD3PlISviNhaTUtVBdQMziXOtKybeWLKj7O3UmmeKP0vGX5ufVBkf1dbShyphenhyphenXgawm2sMttXPfbTTDtmYxbXo7Lw0jkGXtt-E-X7W7PtNxfD-/s1600/chinese-telecom.jpg",
+      "processedAt": "2026-11-10T22:36:26.601265+00:00"
+    },
+    {
+      "id": "art-c6b12111",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "summary": "Attackers exploited two vulnerabilities in AhsayCBS backup software to install a Python backdoor that can evade detection in sandboxes. By chaining CVE-2026-105133 and CVE-2026-105134, hackers bypassed authentication and gained the ability to run arbitrary commands on vulnerable systems. Huntress researchers discovered this attack campaign in October 2026, and patches have since been released for both flaws.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ahsaycbs",
+        "python-backdoor",
+        "cve-2026-105133",
+        "cve-2026-105134",
+        "exploit-chain",
+        "sandbox-evasion"
+      ],
+      "whyItMatters": "This attack demonstrates how chaining multiple vulnerabilities can create a powerful exploitation path that bypasses critical security controls like authentication. Organizations running AhsayCBS need to patch immediately, as active exploitation has been confirmed and the delivered backdoor uses sophisticated evasion techniques to avoid detection.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgT-Z8hFA8uMe4HXLf_4QRk4Z4VLuUCDRL89LcgpXfsj9YAwLsLHIZL46pn2SLz0BBhCKPUKBhChDRRsKYPSkZPwmsDIhozGQ-4YemxOSol0AiwBEgtGX9OSZ_L3SQZVoebBX1fWGkh8TQ_hNVYHho0eCrBQzLlhnjPhhymXqcWePyuhdQDCMb6KJi6pmIe/s1600/cbs.jpg",
+      "processedAt": "2026-11-10T22:36:29.199338+00:00"
+    },
+    {
+      "id": "art-1fe29f33",
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "summary": "Railway, a cloud hosting platform, suffered a security breach where attackers exploited infrastructure weaknesses to steal customer login credentials and launch fraudulent AI services, resulting in approximately $740,000 in unauthorized charges. The breach potentially affected up to 100,000 workspaces, exposing sensitive authentication information. This incident highlights how cloud providers are attractive targets for attackers seeking to abuse computing resources and steal valuable customer data.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-infrastructure",
+        "credential-theft",
+        "resource-abuse",
+        "authentication-compromise",
+        "financial-fraud"
+      ],
+      "whyItMatters": "This breach demonstrates the severe financial and operational consequences when cloud hosting providers are compromised—attackers can directly monetize stolen credentials through service abuse while exposing massive numbers of customer accounts. Organizations relying on Railway must immediately audit their accounts, rotate credentials, and review billing for suspicious activity, while the incident",
+      "image": null,
+      "processedAt": "2026-11-10T22:36:32.078727+00:00"
+    },
+    {
+      "id": "art-d7983830",
+      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "summary": "Nitori, a major Japanese furniture and home accessories retailer, experienced a significant data breach where hackers gained unauthorized access to a network system and potentially stole approximately 37.62 million customer records. This incident highlights the vulnerability of large retail organizations to cyber attacks and the substantial personal information at risk when security defenses are compromised. Customers affected by this breach may face identity theft and fraud risks.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "retail-security",
+        "customer-data",
+        "unauthorized-access",
+        "large-scale-incident"
+      ],
+      "whyItMatters": "Breaches of this scale involving tens of millions of customer records demonstrate that major corporations remain attractive targets for attackers and underscore the importance of robust access controls and network monitoring. Organizations must implement strong security practices to prevent unauthorized system access, and individuals should monitor their accounts for suspicious activity when their",
+      "image": null,
+      "processedAt": "2026-11-10T22:36:34.715586+00:00"
+    },
+    {
+      "id": "art-2ebebcc2",
+      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+      "summary": "Microsoft has released the KB5131096 extended security update for Windows 10, which delivers the November 2026 Patch Tuesday security fixes along with additional bug fixes and system improvements. This update addresses multiple vulnerabilities and helps protect Windows 10 systems from the latest known threats. Users are encouraged to install this update to maintain their system's security and stability.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-10",
+        "security-update",
+        "patch-tuesday",
+        "vulnerability-fix",
+        "kb5131096"
+      ],
+      "whyItMatters": "Regular security patches are critical for closing known vulnerabilities that attackers actively exploit. Delaying or skipping these updates leaves systems exposed to preventable attacks, making timely patching a fundamental defense strategy for both individual users and organizations.",
+      "image": null,
+      "processedAt": "2026-11-10T22:36:36.928028+00:00"
+    },
+    {
+      "id": "art-fe13587e",
+      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "summary": "A hacker gained access to a Qubole big data platform's AWS account by stealing identity and access management credentials, then used this foothold to breach and steal data from multiple customer cloud environments. This incident demonstrates how compromising one trusted platform can cascade into attacks against many downstream organizations. The attacker leveraged legitimate AWS credentials rather than exploiting software vulnerabilities, making detection and prevention particularly challenging.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "aws",
+        "iam-compromise",
+        "data-breach",
+        "supply-chain-attack",
+        "credential-theft"
+      ],
+      "whyItMatters": "This attack highlights a critical vulnerability in cloud supply chains: compromising one trusted service provider's credentials can grant attackers access to numerous customer environments simultaneously. Organizations must assume that stolen IAM credentials pose an immediate critical risk and implement strict credential rotation, multi-factor authentication, and least-privilege access policies to",
+      "image": null,
+      "processedAt": "2026-11-10T22:36:39.887161+00:00"
+    },
+    {
+      "id": "art-512315b0",
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "summary": "Microsoft released security updates for November 2026 addressing an unprecedented 1,235 vulnerabilities across its product portfolio. Among these fixes is a critical zero-day vulnerability in Microsoft Outlook that is already being actively exploited by attackers. Organizations need to prioritize applying these patches immediately to prevent potential compromise through the vulnerable Outlook software.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "outlook",
+        "patch-tuesday",
+        "active-exploitation",
+        "microsoft",
+        "vulnerability-management"
+      ],
+      "whyItMatters": "The combination of an actively exploited zero-day in a widely-used application like Outlook with a record number of vulnerabilities creates an urgent security situation where delays in patching could expose millions of users to immediate attack. This demonstrates why timely patch management is essential infrastructure security, as attackers actively target unpatched systems within hours of vulnera",
+      "image": null,
+      "processedAt": "2026-11-10T22:36:42.611064+00:00"
+    },
     {
       "id": "art-3ee560f5",
       "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
@@ -828,212 +1035,6 @@
       "whyItMatters": "This incident shows how vulnerabilities in seemingly non-critical systems like freezer controls can have widespread real-world consequences when exploited at scale. Organizations must understand that interconnected systems create systemic risk, and a breach in one company can rapidly propagate across an entire industry, making coordinated defense and rapid patching essential.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt888d802e435faf7a/6aecff1baf87734cefe9fe4c/Supermarket_freezer_aise-bernardbodo-GettyImages-1393629140.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-11-08T21:25:09.386080+00:00"
-    },
-    {
-      "id": "art-2cd3392b",
-      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
-      "summary": "Even when security tools identify vulnerabilities and create tickets, organizations can remain exposed if critical context is missing from the findings. Without knowing who owns affected systems, whether attackers can reach them, what protections exist, or business impact, security teams cannot effectively prioritize and remediate risks. Exposure management platforms must provide comprehensive information to close the gap between vulnerability detection and actual risk reduction.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "exposure-management",
-        "vulnerability-management",
-        "risk-assessment",
-        "security-tools",
-        "remediation"
-      ],
-      "whyItMatters": "Organizations often invest in security tools that identify vulnerabilities but fail to provide actionable context, leaving critical risks unaddressed despite detection. Without proper exposure management platforms that correlate threat data with business context, security teams waste resources on incomplete information and miss urgent remediation opportunities. This gap directly impacts an organiz",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTqhUSejDKMWiBuqakycpFyce33qmRAlEPU4FbfKnzSRZmIlOQia8YXyU8bdvYFN6ldGMqz2vxPZn-s9524oTPZithSzMiO5ejngh_UMdp8jEbSG8znPLj-0husv1pxRF0dW2qES9dz4oR56dk67YJ8zePlgnVFSbHSIKHAU_7VqK0-pwSVeYEsOYM7u8/s1600/exposure.png",
-      "processedAt": "2026-11-08T13:01:19.244223+00:00"
-    },
-    {
-      "id": "art-02f4b360",
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-      "summary": "OpenAI developed an AI-powered pipeline that automatically discovered, validated, and patched nearly 1,000 Linux kernel vulnerabilities in a single 30-hour run. The system analyzed over 2,300 potential security issues and successfully reproduced almost 1,700 of them, demonstrating how artificial intelligence can accelerate vulnerability research and patch development at scale. This breakthrough shows that AI models can now perform complex cybersecurity analysis tasks that traditionally required extensive manual effort from security researchers.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "linux-vulnerabilities",
-        "privilege-escalation",
-        "patch-automation",
-        "kernel-security"
-      ],
-      "whyItMatters": "This development has dual implications for cybersecurity: defenders gain powerful tools to identify and fix vulnerabilities faster, but adversaries could similarly use AI to discover exploits at unprecedented scale. Organizations running Linux systems need to monitor for patches addressing these 948 vulnerabilities and consider how AI-assisted vulnerability discovery will reshape their security st",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEje4ZiJMrWCzkoOXuOcWQkB02TmQLM81NWPvzQ8yw9iComqPyLIP0_TAzy8AHMkNfzyXw2Fw-8kBhWIohuXc_dGl39AI4Kw_n4Tll0DImNrRfcPrk1eZNQCP9QtOich_dhNW-ly5DIuZSzmWspWsWXU9QiGwnS5W7qzVDiIBVc4oggC__f6tsL1AOIP8opc/s1600/linux-lpe.jpg",
-      "processedAt": "2026-11-08T13:01:22.475754+00:00"
-    },
-    {
-      "id": "art-f7042ea5",
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-      "summary": "In October 2026, US enterprises faced multiple coordinated cyber threats that exploited trusted platforms and legitimate authentication methods to compromise business operations. These attacks went beyond isolated incidents, creating substantial risks including financial losses, data theft, and system downtime. The campaign highlights how attackers are increasingly targeting the tools and processes that organizations rely on daily.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "authentication-exploit",
-        "trusted-platforms",
-        "enterprise-targeting",
-        "operational-disruption",
-        "financial-risk"
-      ],
-      "whyItMatters": "Understanding active threat campaigns helps security teams recognize attack patterns and implement preventive measures before their organization becomes a victim. By learning how attackers exploit legitimate business workflows and authentication systems, enterprises can strengthen their defenses against sophisticated threats that bypass traditional security controls.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZC8n70grf1uGE8ms7f_4uuZv5h_YLLS1M8CGyqXzMyfCTbNbBCwOC4IF715IzuXyE7dY2Sslf1v77Ka15CPZvgY15pcZrZPZRK5xk5pFnyotvxHAXeyD39vG7JedceJz97Z1y0LCwaWgRLVnO6Uo-YbgJJ3o1n_Hh7k1rJWaQ-X7FTTMxr0U-LFuwx0M/s1600/cyberattacks.jpg",
-      "processedAt": "2026-11-08T13:01:24.572338+00:00"
-    },
-    {
-      "id": "art-476a515a",
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-      "summary": "Apple is implementing content scanning for publicly shared iCloud links starting with iOS 27.3 and related operating systems. This security measure will automatically check photos, files, and other content shared through 'Anyone with the link' iCloud sharing for harmful material. The feature represents Apple's effort to prevent malicious content distribution through its cloud services while users maintain control over their sharing settings.",
-      "category": "Cloud Security",
-      "severity": "Medium",
-      "tags": [
-        "cloud-security",
-        "content-scanning",
-        "icloud",
-        "privacy-tradeoff",
-        "apple-security"
-      ],
-      "whyItMatters": "This development highlights the growing tension between cloud service security and user privacy, as automated scanning of shared content raises questions about data monitoring and user consent. Organizations and individuals using iCloud need to understand how this scanning affects their workflows and what content policies Apple will enforce on shared links.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCN85K3W5zv5BioRQjCRpIAYT4K8MjZxx0bP0wNETp_eeBQ8Rj_iScHZ0PVnak7dJnJB_tZs06nxCn3YB70aQrULSZVbcn_gLqAsRoN08bSj__9UGZ38PzHTeSqe1IdqZEvdY8fogrjg3xPvg4Kohb2lFGdIveD4jIZQYKugtN5dIc0nTDjlVZJeQBzASx/s1600/icloud.jpg",
-      "processedAt": "2026-11-08T13:01:27.189094+00:00"
-    },
-    {
-      "id": "art-44b716f3",
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-      "summary": "A threat group called Crafty Falcon is using AI-powered hacking tools to attack banks and financial companies in India, according to an alert from CERT-In. This ongoing campaign highlights how attackers are combining artificial intelligence with publicly-available security tools to target critical sectors. The threat demonstrates a new trend where cybercriminals are leveraging automation to enhance their attack capabilities.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-driven-attacks",
-        "threat-actor",
-        "bfsi-sector",
-        "india",
-        "cert-in-alert",
-        "offensive-security-tools"
-      ],
-      "whyItMatters": "This incident illustrates how attackers are evolving beyond traditional methods by weaponizing AI tools, making attacks faster and harder to detect. Financial institutions worldwide should recognize that AI-enhanced threats pose significant risks to their security posture, requiring upgraded defense strategies beyond conventional threat detection. Organizations need to understand that publicly-ava",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiA5xlxteigxw9PDEVogRmGjD3vyPuJRyKCuIAOmURy0CY-OLXfYOjC93BPb_gvifLUiVoUk9JcjmxtsGpkT-cYhlrTwXS6yodTv-WwHnPUKvahU67tc5R841Sb_hkIIsUkzNzne5Fzo0h6BUpzEW1770YFBayYksyjSc9pKOV3VsHfoHcPfu3mYAFOQW4K/s1600/docker-ai.jpg",
-      "processedAt": "2026-11-08T13:01:30.316232+00:00"
-    },
-    {
-      "id": "art-b424284b",
-      "title": "Want to Rent an Internet Address at the White House?",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-11-05",
-      "originalUrl": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
-      "summary": "White House staff members are reportedly using residential proxy services that expose their internet addresses for rental to unknown parties, creating potential security risks. One of these proxy services is operated by a Russian company with a history of involvement in cyberattacks on U.S. election infrastructure, raising serious concerns about foreign access to sensitive government networks.",
-      "category": "Network Security",
-      "severity": "Critical",
-      "tags": [
-        "proxy-service",
-        "white-house",
-        "network-compromise",
-        "foreign-threat",
-        "election-security",
-        "insider-risk"
-      ],
-      "whyItMatters": "When government officials use residential proxies, they unknowingly make their network identities available for abuse by malicious actors, potentially allowing unauthorized access to critical infrastructure and sensitive communications. The involvement of a Russian company with prior election-targeting capabilities amplifies the risk of state-sponsored surveillance or attacks on U.S. government sy",
-      "image": null,
-      "processedAt": "2026-11-08T13:01:32.778372+00:00"
-    },
-    {
-      "id": "art-92c5ba28",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "The FBI arrested a co-founder of a Canadian cybersecurity firm as part of an investigation into the ShinyHunters hacking group, which allegedly stole sensitive data belonging to thousands of FBI agents. This arrest highlights potential connections between legitimate cybersecurity businesses and criminal hacking operations. The incident demonstrates vulnerabilities within federal agencies and the risks posed by insider threats or compromised third parties.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "shinyhunters",
-        "data-breach",
-        "fbi",
-        "insider-threat",
-        "cybercrime",
-        "ransomware-negotiation"
-      ],
-      "whyItMatters": "This case reveals that criminal hackers may be operating through seemingly legitimate cybersecurity firms, making threat detection harder and compromising critical infrastructure. The theft of FBI agent data creates immediate national security concerns and demonstrates that even law enforcement agencies remain vulnerable to sophisticated attacks. Organizations must now scrutinize third-party cyber",
-      "image": null,
-      "processedAt": "2026-11-08T13:01:35.533117+00:00"
-    },
-    {
-      "id": "art-effb0083",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-07",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "summary": "A teenager from Jordan using the hacker handle 'Rey' has been arrested and is cooperating with the FBI to help identify members of the ShinyHunters cybercrime group. ShinyHunters was actively extorting a Boeing spin-off company at the time of the arrest. The case highlights how international law enforcement is targeting prolific data theft and extortion operations.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "data-theft",
-        "extortion",
-        "international-cybercrime",
-        "shiny-hunters",
-        "fbi-investigation",
-        "arrested-hacker"
-      ],
-      "whyItMatters": "This arrest demonstrates that major cybercriminal organizations can be disrupted through international cooperation and that even leaders of prolific hacking groups face eventual law enforcement action. The case illustrates how extortion gangs target large corporations and highlights the FBI's capability to pursue cybercriminals across borders, which may deter similar criminal activity.",
-      "image": null,
-      "processedAt": "2026-11-08T13:01:38.064231+00:00"
-    },
-    {
-      "id": "art-2038eed0",
-      "title": "Dutch Police Arrest ‘Reformed’ Hacker in Shiny Hunters Investigation",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-28",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/dutch-police-arrest-reformed-hacker-in-shiny-hunters-investigation/",
-      "summary": "Dutch police arrested a 23-year-old former cybercriminal suspected of working with the ShinyHunters hacking group on data thefts and extortion schemes. Following the arrest, the remaining ShinyHunters members intensified their operations, successfully stealing sensitive FBI data and targeting the Russian ransomware group Cl0p. This case highlights how law enforcement intervention can paradoxically trigger more aggressive attacks by remaining threat actors seeking to prove their capabilities.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "shinyhunters",
-        "data-theft",
-        "extortion",
-        "law-enforcement",
-        "fbi-breach",
-        "ransomware-group"
-      ],
-      "whyItMatters": "This incident demonstrates that disrupting hacker groups through arrests can provoke escalation rather than deterrence, with attackers stealing FBI data to establish credibility. Organizations need to understand that law enforcement actions may temporarily increase cyber threats as criminal groups seek to maintain their reputation and operational capability.",
-      "image": null,
-      "processedAt": "2026-11-08T13:01:40.767895+00:00"
-    },
-    {
-      "id": "art-28f677de",
-      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-09-25",
-      "originalUrl": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
-      "summary": "A U.S. Army soldier was sentenced to 70 months in prison after pleading guilty to hacking into AT&T and Verizon to steal call and text data affecting over 100 million customers. The soldier used his unauthorized access to extort money from the telecommunications companies in 2024. He was also ordered to pay nearly $300,000 in restitution as part of his conviction.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "insider-threat",
-        "telecom-attack",
-        "extortion",
-        "metadata-theft",
-        "telecommunications"
-      ],
-      "whyItMatters": "This case demonstrates how insider threats from government employees can compromise massive customer datasets and critical infrastructure, affecting over 100 million people. It highlights the serious consequences of unauthorized access to telecom systems and shows that law enforcement actively prosecutes and heavily sentences those who steal sensitive data for extortion purposes.",
-      "image": null,
-      "processedAt": "2026-11-08T13:01:43.247779+00:00"
     }
   ]
 }
