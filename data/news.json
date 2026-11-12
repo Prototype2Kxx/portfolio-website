@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-11-11T23:46:06.921316+00:00",
+  "lastUpdated": "2026-11-12T14:54:53.630032+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-09e3f7c1",
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "summary": "Google Cloud discovered three CPU side-channel vulnerabilities in AMD Turin processors that could allow attackers to steal data from other processes running on the same VM core. While Google has already protected against attacks between different VMs and between VMs and hosts, users must apply guest OS patches and restart their VMs to defend against threats from malicious code within the same virtual machine. These flaws exploit weaknesses in the processor's architecture rather than software bugs.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "amd-turin",
+        "side-channel-attack",
+        "cpu-vulnerability",
+        "cloud-security",
+        "patch-required",
+        "vm-isolation"
+      ],
+      "whyItMatters": "This vulnerability affects cloud infrastructure at scale and requires immediate patching by affected users, as it bypasses traditional VM isolation boundaries. Side-channel CPU flaws are particularly dangerous because they exploit the processor itself rather than software, making them difficult to defend against without hardware or OS-level fixes. Organizations running sensitive workloads on Googl",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikEkIc_eg4_tE5XE6CQrLFl74Gk0QwxcqaGXBnDAlitVIbzreq8faf57QtAqFh8rEn7HgTJzvGUZl2yNBhWVKOKo9KqnJHfduQfoT_HqUTlKhE-FzshzDrpIskiMQ3_Lz2hImNMbt9VdCj0O725_WyZsDXDB91phFceXh6Y_qzHgv1nJPMNjv8a7AU52c/s1600/amd.jpg",
+      "processedAt": "2026-11-12T14:54:29.562055+00:00"
+    },
+    {
+      "id": "art-588227fb",
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "summary": "Security teams struggle to quickly identify who or what is behind suspicious activities, even with numerous monitoring tools and alerts. The article discusses how identity-related blind spots—such as difficulty distinguishing between employee logins, machine accounts, and AI agents—can create security gaps. A webinar explores how organizations can better understand and close these identity visibility gaps to strengthen their security operations.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "identity-management",
+        "soc-operations",
+        "visibility-gaps",
+        "access-control",
+        "threat-detection",
+        "security-monitoring"
+      ],
+      "whyItMatters": "Organizations cannot effectively respond to threats if they cannot quickly identify what entity is performing suspicious activities or what resources it can access. Closing identity blind spots is critical for reducing response times, preventing unauthorized access, and improving the overall effectiveness of security operations centers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj765JyAl658UR5d1raKFLJmZpxXuof0-wBCobeJwnWjWZROTa4wtMyPvTTjBr4-ccE0cmKpIyGT1BetlqUPkPS_omcKVWz7RcCv6sUl2h6KxXrem_X26kzrp7kwq8bSezUsYMa6h2JNh-rPglsuNnRzt6i3IdzBjkLFNBNy5-Y0jId2B6Zhyir_jdm8O4/s1600/sails.jpg",
+      "processedAt": "2026-11-12T14:54:32.125062+00:00"
+    },
+    {
+      "id": "art-35fe9c8f",
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "summary": "N-able discovered new vulnerabilities in N-central versions 2026.4.1 HF2 that can be exploited to achieve remote code execution and system-level access, even on patched servers. The vulnerabilities require the Legacy API to be enabled and exposed to the internet, which is a non-default configuration. This disclosure highlights that additional security issues may exist beyond what has been patched, putting organizations using N-central at risk if they have this legacy feature enabled.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "n-central",
+        "remote-code-execution",
+        "privilege-escalation",
+        "legacy-api",
+        "patch-bypass",
+        "on-premise"
+      ],
+      "whyItMatters": "Organizations running N-central may believe their systems are secure after applying patches, but these new exploits demonstrate that additional vulnerabilities can still be leveraged, particularly when legacy features are exposed. This underscores the importance of disabling unnecessary legacy services and regularly reviewing security configurations beyond just applying patches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4KdRS0v77uQIdhC0i5aopa8XIAZIRnTzVCVqto7dEdfUH2QyWgrAy1EKu-hARXS4pxNGQQEFroRHOtwSq_9Q8b92tmgw_97JMJoBfC72sl8pOcUYM9nU6YCJht4yD7ALWfERwhUwLsN8wo9t8YnKyIWzHhEAux5ox5WV4wvxe6l1cUmf58P1md2Ekziy/s1600/nable.jpg",
+      "processedAt": "2026-11-12T14:54:34.986230+00:00"
+    },
+    {
+      "id": "art-52c6d5d6",
+      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
+      "summary": "A phishing campaign called Operation CloudFire has been targeting corporate users since mid-August 2026 by stealing active Google sessions through malicious calendar invites and live proxies. The attackers deliberately crafted their links to bypass standard security checks that defenders typically rely on, making detection unusually difficult. Material Security's Threat Research team identified the campaign and successfully took down hundreds of attacker-controlled domains involved in the operation.",
+      "category": "Phishing",
+      "severity": "Critical",
+      "tags": [
+        "phishing",
+        "session-hijacking",
+        "google-accounts",
+        "corporate-targeting",
+        "live-proxies",
+        "operation-cloudfire"
+      ],
+      "whyItMatters": "This campaign demonstrates an evolving threat where attackers deliberately evade traditional link-scanning defenses, meaning organizations cannot rely solely on automated security tools to catch these phishing attempts. Session hijacking grants attackers complete access to legitimate corporate accounts without requiring password compromise, posing an immediate risk to sensitive business data and s",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf8YVgw9hIWEYN0_qgaD6MVIZad0fOCu_J5Z4Cn2CDuMzcV7HOQ9Xt4E08l1nOo7uMjAyYqYP-bUy5zHisRW8cfeSVmJcCKYgCTI2y1MpRUwsM1I2cs0MsuoAy7VSGLyTPzonhKITzWPU1hTADZnFt5VTZhlt4eJohVas2tzhl47AOV3Cp53LC_uhlpVY/s1600/mt.jpg",
+      "processedAt": "2026-11-12T14:54:37.945351+00:00"
+    },
+    {
+      "id": "art-d7a25d4b",
+      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
+      "summary": "PTC has released security patches for a critical vulnerability affecting Windchill and FlexPLM software that could allow attackers to execute code remotely. The flaw, identified as CVE-2026-126325 with a high CVSS score of 9.2, stems from improper handling of untrusted data during deserialization. Organizations using these products need to apply patches immediately to prevent potential system compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "critical-vulnerability",
+        "remote-code-execution",
+        "patch-now",
+        "windchill",
+        "flexplm",
+        "cve-2026-126325"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and severe risk to enterprises relying on PTC's widely-used product lifecycle management software, as successful exploitation could grant attackers complete system control. The high CVSS score and availability of patches make this a top priority for IT teams to address quickly before malicious actors develop active exploits. Delayed patching exposes organizati",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi01pvi78xYUtyxbtWQ4L5ddMr1yT2-WBSbAnp3wKXa-bpagXqtyQdxPqA43I1NxJGNLk4He30PS-GYUcd1sOaErtMAtNWL-qQUGfD0Y7wSxAzeYJXRf2lA5yFuznu8m2zRgf2llXMiR3w1H6YOOte5qs_DvRxcv0aPeOxWeIDybl1n58VlpuZPUJ0icWDL/s1600/ptc-flaw.jpg",
+      "processedAt": "2026-11-12T14:54:40.601476+00:00"
+    },
+    {
+      "id": "art-4ddf7f54",
+      "title": "Apify rotates API tokens, prompts 2FA resets after breach",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
+      "summary": "Apify discovered that attackers gained unauthorized access to its internal systems, prompting the company to rotate API tokens and revoke third-party OAuth connections as containment measures. Users are being urged to reset their two-factor authentication to prevent further compromise. This incident highlights the importance of securing API credentials and monitoring for signs of unauthorized system access.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "api-security",
+        "data-breach",
+        "credential-rotation",
+        "oauth",
+        "incident-response"
+      ],
+      "whyItMatters": "Compromised API tokens and internal secrets can allow attackers to impersonate legitimate users and access sensitive data or services, making credential rotation and 2FA resets critical defensive actions. This incident demonstrates why organizations must implement continuous monitoring, rapid breach detection, and have incident response procedures ready to minimize the window of exposure.",
+      "image": null,
+      "processedAt": "2026-11-12T14:54:43.257151+00:00"
+    },
+    {
+      "id": "art-18cdb452",
+      "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
+      "summary": "Microsoft has identified that Windows updates released after October 2026 Patch Tuesday are negatively affecting SQL Server performance and stability. Organizations running SQL Server on affected Windows systems may experience degraded database performance and potential service disruptions. This issue highlights the importance of testing updates in non-production environments before deployment.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-updates",
+        "sql-server",
+        "performance-issues",
+        "patch-management",
+        "system-stability"
+      ],
+      "whyItMatters": "This issue directly impacts database-dependent organizations and can cause operational disruptions if updates are deployed without testing. Understanding patch-related side effects is critical for IT teams to balance security with system stability and plan appropriate remediation strategies.",
+      "image": null,
+      "processedAt": "2026-11-12T14:54:45.710610+00:00"
+    },
+    {
+      "id": "art-04898635",
+      "title": "Microsoft confirms Windows security updates installation issues",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
+      "summary": "Microsoft has acknowledged a problem where November 2026 security updates are failing to install on Windows 11 devices that have the October preview update already applied. This installation failure prevents systems from receiving critical security patches, leaving them potentially vulnerable to attacks. Users experiencing this issue need to resolve the conflict between the preview and security updates to protect their systems.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "windows-update",
+        "patch-failure",
+        "security-updates",
+        "windows-11",
+        "installation-issue"
+      ],
+      "whyItMatters": "Failed security updates leave systems exposed to known vulnerabilities that attackers can exploit. When patches fail to install, organizations and users cannot close security gaps, making this a significant operational and security risk that requires immediate attention and resolution.",
+      "image": null,
+      "processedAt": "2026-11-12T14:54:48.068466+00:00"
+    },
+    {
+      "id": "art-99bb3c6f",
+      "title": "Hackers plant GSocket on Linux servers for persistent access",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
+      "summary": "Hackers are exploiting GSocket, a legitimate open-source remote access tool, to maintain persistent access to Linux servers after compromising them through vulnerabilities. By using this legitimate tool, attackers can hide their presence even after security patches are applied to the initial vulnerabilities. This technique allows threat actors to retain control of compromised systems for long-term unauthorized access.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "linux-security",
+        "persistent-access",
+        "legitimate-tool-abuse",
+        "server-compromise",
+        "post-exploitation"
+      ],
+      "whyItMatters": "This highlights a critical gap in security posture where patching vulnerabilities alone is insufficient if attackers have already established persistent access using legitimate tools. Organizations must implement comprehensive monitoring and detection systems beyond vulnerability management to identify suspicious legitimate tool usage and unauthorized remote access attempts.",
+      "image": null,
+      "processedAt": "2026-11-12T14:54:50.382959+00:00"
+    },
+    {
+      "id": "art-7323b735",
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "summary": "Cybercriminals are exploiting Alibaba Cloud infrastructure to deploy AntiFox, a publicly available penetration testing tool, to conduct targeted attacks against web services and Amazon Web Services (AWS) environments. By hosting their own instances of this open-source platform, attackers are using legitimate security tools for malicious purposes to steal AWS credentials and gain unauthorized access to cloud systems. This demonstrates how attackers repurpose defensive security frameworks to compromise cloud infrastructure at scale.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "cloud-security",
+        "aws-attacks",
+        "credential-theft",
+        "ai-agents",
+        "alibaba-cloud",
+        "penetration-testing-abuse"
+      ],
+      "whyItMatters": "This attack pattern highlights a critical vulnerability in cloud security: legitimate penetration testing tools are being weaponized by attackers to target AWS environments, making it harder for defenders to distinguish between authorized testing and malicious activity. Organizations using cloud services must implement stronger access controls and monitoring to detect credential theft attempts, as",
+      "image": null,
+      "processedAt": "2026-11-12T14:54:53.629867+00:00"
+    },
     {
       "id": "art-2edaafba",
       "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
@@ -827,214 +1033,6 @@
       "whyItMatters": "This breach demonstrates the critical importance of supply chain security and the cascading risks when third-party cloud providers are compromised. Organizations must implement strict access controls, network segmentation, and continuous monitoring of their cloud environments to prevent attackers from using external breaches as entry points into their systems.",
       "image": null,
       "processedAt": "2026-11-10T14:37:57.133874+00:00"
-    },
-    {
-      "id": "art-2317ba70",
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-      "summary": "Hackers compromised multiple Qubole customer AWS accounts between mid-October and late October by using stolen credentials for a privileged AWS account that Qubole uses to access those environments. The attackers were able to extract stored secrets and customer data before being discovered. The method by which the attacker obtained Qubole's credentials remains undisclosed.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "aws-breach",
-        "cloud-security",
-        "credential-compromise",
-        "data-theft",
-        "supply-chain-attack",
-        "privileged-access"
-      ],
-      "whyItMatters": "This breach demonstrates how compromised credentials for trusted third-party platforms can cascade into multiple customer breaches, making it a supply-chain security incident with widespread impact. Organizations relying on cloud platforms like Qubole must recognize that their security depends not only on their own defenses but also on the security posture of their vendors with privileged AWS acce",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjj3p_1P-Ko_l_HuUr2Doq9kJOQa3Y5dCrkiVWqjJXzvQfYgKvgJXyvdBqLH2hp7s_ZY2kk-hhaCQhjf_v9SdjSbNpaDV2Eohk6-NEFUZp_ROjMJf_Q1xUSKcrqNj-Dd5ZrfjV6uP1blo579IaZ6hgHxOFAUhyJVgdGop-KVIWCjWQIYOKku3iN1N1EIUk/s1600/aws-hacked.jpg",
-      "processedAt": "2026-11-10T00:54:46.394086+00:00"
-    },
-    {
-      "id": "art-535f1eaa",
-      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
-      "summary": "Attackers compromised Ethersphere's release automation to distribute malicious versions of bee-js and Swarm Desktop, which contain wallet-stealing malware. The compromised software is designed to extract cryptocurrency wallet keys and passwords from Swarm Desktop nodes and install a persistent backdoor. This attack demonstrates how hackers can weaponize legitimate software distribution channels to target users at scale.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "malware",
-        "supply-chain-attack",
-        "wallet-theft",
-        "cryptocurrency",
-        "backdoor",
-        "compromised-software"
-      ],
-      "whyItMatters": "This attack shows how compromising a project's release infrastructure can distribute malware to thousands of users expecting legitimate software updates. For cryptocurrency users and node operators, this represents a direct financial threat through wallet key theft. Organizations need to implement code signing verification, dependency scanning, and multi-factor authentication on release systems to",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4ZFiesBwDTk8fRRfKfNIw0lLkhqF6ZAExRxuuRtfRCWrxs6Rg7M5UdSIcJqH2zstViFreL30JMmdebYTlMOKvg4D6GvaS70XPdembzyIZoX2KBj_S3kxKWmBjJll4exWUYXrap9IDW_ugXHOux5jZXk44_v5xac1mxFouywezDcsGeMdLrGd1sJStMoo/s1600/bees.jpg",
-      "processedAt": "2026-11-10T00:54:48.819325+00:00"
-    },
-    {
-      "id": "art-dbbb61b5",
-      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
-      "summary": "A single attacker from Taiwan used artificial intelligence agents to breach Taipei's emergency dispatch systems and gain unauthorized access to sensitive fire department data. The attacker successfully extracted emergency records from seven districts and exposed patient information including ECG readings and ambulance footage that had been stored without password protection since 2018. This incident demonstrates how AI-powered tools can be weaponized to automate attacks and bypass security defenses at critical infrastructure facilities.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "data-breach",
-        "critical-infrastructure",
-        "emergency-services",
-        "unauthorized-access",
-        "patient-data"
-      ],
-      "whyItMatters": "This attack targets emergency response systems that are essential for public safety, meaning compromised dispatch records could endanger lives and disrupt emergency services. The incident reveals how AI agents can be used to automate large-scale breaches with minimal human involvement, setting a concerning precedent for future attacks. Organizations managing critical infrastructure must urgently r",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhd53Ql49F0iuQEtdvfoxOLNTuQnYM5oGQkqnQ3ym4aIW-HVZuHtOqzyi0IdwUxpFj5qU_jbUEKzPXG4Wx7Uj7g2-UKDotvOh0_AlNlkEIpgLbEBDuQxDkuxDFlukNKKbWXXZv1xCeHEtoOQ_Z1XQUshkJmlBaOmGQzMbryg6KHbOdt8IR7MNQ5oADM-GM/s1600/CYBER-AI.jpg",
-      "processedAt": "2026-11-10T00:54:51.721202+00:00"
-    },
-    {
-      "id": "art-d40942a0",
-      "title": "Former OpenAI Engineer Pleads Not Guilty to Planting Covert Device in Executive Meeting Room",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://thehackernews.com/2026/11/former-openai-engineer-pleads-not.html",
-      "summary": "A former OpenAI engineer has pleaded not guilty to charges of placing a hidden audio recording device in the company's executive meeting room. The Saudi national, Abdulrahman Alfozan, appeared in San Francisco federal court and entered his plea, with his next hearing scheduled for mid-November 2026. The case highlights serious concerns about insider threats and physical security breaches at major technology companies.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "insider-threat",
-        "physical-security",
-        "corporate-espionage",
-        "audio-surveillance",
-        "workplace-security"
-      ],
-      "whyItMatters": "This case demonstrates that cybersecurity threats extend beyond digital networks to include physical infiltration and insider threats at high-profile tech companies. Organizations must implement comprehensive security measures including employee vetting, physical access controls, and monitoring systems to detect malicious insiders before they can compromise sensitive executive discussions and conf",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9MuMJQQRaLilGnzYMqgighbIcm726E965P9JqACVPbah4ID7WePGRjwdlaYG3BUIUPB3vkX9Xzs7sXIEuU9ZoEcPo-2N__SwxcCk_IhbrH-9IhJjeW0Go2d9TGw2ZJcqMLquHLOfQVn0JCQhDrKsZujSFFsenYB28oTBnFyUWBQNmS_DVmjaxUWxXxgjT/s1600/openai.jpg",
-      "processedAt": "2026-11-10T00:54:54.066522+00:00"
-    },
-    {
-      "id": "art-c82f6740",
-      "title": "U.S. Agencies Warn Refrigeration Controller Attacks Could Cause Fires and Inventory Losses",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://thehackernews.com/2026/11/us-agencies-warn-refrigeration.html",
-      "summary": "U.S. government agencies have alerted the public that hackers are actively attacking industrial refrigeration and cold-chain systems worldwide by exploiting unpatched vulnerabilities and internet-accessible controllers. These attackers can remotely manipulate system settings to force continuous heating, which creates fire hazards, causes equipment damage, and leads to significant inventory losses. This threat demonstrates how vulnerabilities in industrial control systems can have serious real-world consequences beyond traditional IT infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "industrial-control-systems",
-        "refrigeration-systems",
-        "unpatched-vulnerabilities",
-        "remote-exploitation",
-        "critical-infrastructure",
-        "iot-security"
-      ],
-      "whyItMatters": "This threat is critical because it targets essential infrastructure systems that directly impact public safety and supply chains; attackers can cause fires and destroy perishable goods through remote exploitation. Organizations operating refrigeration and cold-chain systems must immediately prioritize patching, network segmentation, and access controls to prevent costly operational disruptions and",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKryTkTZPSm_Pvf-PEvYRFle3Bp0jQaXScE21oOsMfwir63sr355bqHInvPRm5zynq2sYfLswRNEeywDHo7p2snw5sQmlIrWIONBq4AoYFEGXvdgy5gNLMESgjL5zwnhbqYIwdKLRaolb18pKz1sqFynmSjWn2IT_BxlEb-0av9vDfp-oEzp23_cwOIoik/s1600/ref.jpg",
-      "processedAt": "2026-11-10T00:54:57.354226+00:00"
-    },
-    {
-      "id": "art-987a6b75",
-      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
-      "summary": "Vanderbilt University fell victim to a ransomware attack by the BYOD ransomware gang, who claims to have encrypted the university's databases and stolen sensitive information belonging to students, employees, and researchers. The attackers are threatening to release the stolen data unless their demands are met. This incident highlights how educational institutions, which hold large amounts of personal and research data, are attractive targets for cybercriminals.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "data-theft",
-        "byod-gang",
-        "educational-institution",
-        "database-encryption",
-        "extortion"
-      ],
-      "whyItMatters": "Universities store vast amounts of sensitive personal, financial, and research data, making them high-value targets for ransomware gangs. This attack demonstrates that even large, well-resourced institutions can be compromised, and the dual threat of encryption and data theft means organizations must prepare for both operational disruption and potential regulatory fines related to data protection ",
-      "image": null,
-      "processedAt": "2026-11-10T00:54:59.957902+00:00"
-    },
-    {
-      "id": "art-5e734393",
-      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
-      "summary": "SEGA suffered a data breach through a third-party newsletter service called ARARA, resulting in the exposure of 2.2 million email addresses belonging to newsletter subscribers. The incident demonstrates how security risks can extend beyond a company's own systems to affect customers through external service providers. This breach highlights the importance of vetting and monitoring third-party vendors for security vulnerabilities.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "email-exposure",
-        "vendor-security",
-        "sega"
-      ],
-      "whyItMatters": "This breach underscores a critical cybersecurity principle: organizations are responsible for the security practices of their third-party vendors, as breaches can directly compromise customer data. The exposure of 2.2 million email addresses creates a significant phishing and social engineering risk for affected subscribers. Companies must implement vendor security assessments and monitoring to mi",
-      "image": null,
-      "processedAt": "2026-11-10T00:55:02.496395+00:00"
-    },
-    {
-      "id": "art-b4af95e1",
-      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
-      "summary": "N-able shut down its cloud platform and advised on-premises customers to take systems offline after a security researcher disclosed over 30 zero-day vulnerabilities. These flaws could potentially allow attackers to gain complete control of affected systems. The company's rapid response highlights the critical nature of the discovered exploits.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "cloud-security",
-        "n-able",
-        "vulnerability-disclosure",
-        "system-takeover",
-        "emergency-response"
-      ],
-      "whyItMatters": "This incident demonstrates the catastrophic impact of multiple zero-day vulnerabilities in widely-used enterprise software and the urgent need for organizations to have incident response procedures ready. When security researchers publicly disclose exploits before patches exist, organizations face immediate risk of compromise and must act quickly to protect their infrastructure.",
-      "image": null,
-      "processedAt": "2026-11-10T00:55:04.922764+00:00"
-    },
-    {
-      "id": "art-941c2158",
-      "title": "York University breach exposed personal information dating to 2007",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
-      "summary": "York University experienced a data breach where attackers gained unauthorized access to personal information submitted through the university's online forms, with some data dating back nearly two decades to 2007. The incident highlights how educational institutions can be vulnerable to cyberattacks and how long personal data can remain at risk if proper security measures aren't in place. Students and staff who submitted information through these forms during the affected time period may have had their personal details exposed to threat actors.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "personal-information",
-        "educational-institution",
-        "legacy-data",
-        "online-forms",
-        "unauthorized-access"
-      ],
-      "whyItMatters": "This breach demonstrates the significant security risks posed to large organizations handling sensitive personal data, particularly when legacy systems and old data repositories are not adequately protected. The exposure of information spanning nearly 20 years suggests potential failures in data retention policies and security practices, which is critical for institutions to address to prevent sim",
-      "image": null,
-      "processedAt": "2026-11-10T00:55:07.706254+00:00"
-    },
-    {
-      "id": "art-5b8e1fd4",
-      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-09",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
-      "summary": "French authorities have attributed cyberattacks in October to Iranian state-backed hackers that targeted refrigeration systems across over 700 supermarkets and retail stores. The attacks disrupted food storage, caused significant product losses, and resulted in at least 15 fires, demonstrating how critical infrastructure vulnerabilities can have dangerous real-world consequences beyond typical data theft.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "state-sponsored",
-        "critical-infrastructure",
-        "industrial-control-systems",
-        "iran",
-        "physical-harm",
-        "cyber-warfare"
-      ],
-      "whyItMatters": "This attack shows how cyberattacks on operational technology and critical systems can cause physical harm and public safety risks, not just data loss. Nation-state actors targeting essential services like food storage highlights the escalating threat of state-sponsored cyber operations against civilian infrastructure with real-world consequences.",
-      "image": null,
-      "processedAt": "2026-11-10T00:55:10.128157+00:00"
     }
   ]
 }
