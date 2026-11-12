@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-11-12T14:54:53.630032+00:00",
+  "lastUpdated": "2026-11-12T22:55:56.284207+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-b4d930c1",
+      "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "summary": "This week's cybersecurity threats involve attackers exploiting common vulnerabilities like fake websites, stolen credentials, and compromised trusted tools to gain unauthorized access. The article highlights emerging dangers including 59 Linux kernel bugs, the Falcon spyware, and GSocket backdoors, demonstrating how attackers are using AI to accelerate attack development. Organizations face mounting risks as adversaries combine multiple attack vectors—social engineering, account compromise, and legitimate software exploitation—to bypass security defenses.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "linux-kernel-bugs",
+        "spyware",
+        "backdoors",
+        "credential-theft",
+        "ai-powered-attacks",
+        "zero-day"
+      ],
+      "whyItMatters": "The combination of 59 Linux kernel vulnerabilities, active spyware campaigns, and backdoor threats represents an immediate and widespread risk to infrastructure and user security. Understanding how attackers chain multiple attack methods—fake sites, stolen access, and trusted tool abuse—helps organizations recognize that security breaches often start with simple, overlooked tactics. This article u",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHFMwpmKB3Mn6eMpEHMAX_8gqnyi4xwTCuYj7NTrCcTMWAsSZtaUsHYUa1kvi3jQf92A5pR_Qz7kzgTarHmo6q6YsXVeVSJEkkx0JkioCXa6GbKJzG9eZz0dkotf9QEpdcRMy94hoYhGfIoEk7pPOFUSgTY5ciU7_wkSOJc7kgXcS1GS3qGC-Ql7kMrks/s1600/thd.jpg",
+      "processedAt": "2026-11-12T22:55:31.885541+00:00"
+    },
+    {
+      "id": "art-3fd91c6d",
+      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "summary": "A new zero-day exploit called SignDrop has been discovered that allows local Windows users to escalate their privileges to SYSTEM level by exploiting a security feature in the Windows Common Log File System driver. The vulnerability abuses how the clfs.sys driver handles companion files when privileged processes open prepared logs, using path redirection techniques to gain unauthorized access. Public exploit code for this vulnerability has already been released, making it immediately actionable for attackers.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "privilege-escalation",
+        "windows",
+        "clfs-driver",
+        "system-access",
+        "exploit-code-public"
+      ],
+      "whyItMatters": "This vulnerability is critical because it enables any local user to gain complete system-level control on Windows machines, allowing attackers to install malware, steal data, or compromise entire systems. The public release of exploit code significantly increases the risk of rapid and widespread exploitation across organizations. Immediate patching is essential for all affected Windows systems, as",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg",
+      "processedAt": "2026-11-12T22:55:34.799778+00:00"
+    },
+    {
+      "id": "art-7dd4ec8c",
+      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+      "summary": "Red Hat Quay contains a critical vulnerability that allows attackers to access, read, and modify private container images across all repositories in a registry. Since Quay enables anonymous access by default, attackers can exploit this flaw without credentials, and even when anonymous access is disabled, any authenticated user can still abuse the vulnerability. Red Hat has released patched versions to address this serious security gap.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "container-security",
+        "red-hat-quay",
+        "image-tampering",
+        "registry-breach",
+        "privilege-escalation",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability directly threatens the integrity of container supply chains, as attackers can inject malicious code into private images that organizations rely on for deployment. Organizations using Red Hat Quay must apply patches immediately to prevent unauthorized access to sensitive container artifacts and potential widespread compromise of their infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtLHm05FB2LmoHZMLAD5nDmfo_G2tdIqO4URdUwukuooBCVwIJhKC2rUDbDNtsGB8_lwium1MEUD1CxYcix4WMVpCoS58DJivMBSmb9LcIGswQu0nKUNE_sbfH8EsgFfhPrKEgEY7MJHWKyhFqX61ne-AOFKnTNuqIkWez1bec-kq-3Cz8BFbPLrgiV8k/s1600/redhat.jpg",
+      "processedAt": "2026-11-12T22:55:37.277034+00:00"
+    },
+    {
+      "id": "art-73964903",
+      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "summary": "Citrix has released security patches for 12 vulnerabilities affecting NetScaler ADC, NetScaler Gateway, and NetScaler Console products. These flaws include a critical memory overflow vulnerability (CVE-2026-120868 with CVSS 9.3) that could allow attackers to bypass authentication or cause service disruptions. Organizations using these widely-deployed network access solutions need to apply these patches urgently to prevent exploitation.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "citrix-netscaler",
+        "authentication-bypass",
+        "memory-overflow",
+        "dos-vulnerability",
+        "patch-urgent",
+        "cvss-9-3"
+      ],
+      "whyItMatters": "NetScaler products are critical infrastructure used by many enterprises for network access and gateway functions, making these authentication bypass and DoS vulnerabilities particularly dangerous. The high CVSS score and active patch release indicate these flaws pose immediate exploitation risk. Organizations must prioritize deploying these patches to prevent unauthorized access and service outage",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDDv_B4B-cVtvwKyLiGQsL804yGC7_xHF7y3yD5_C284fRXBVRAn5Ashy2apgJr-jaoBHRa3ujgXv1jskM53EvP_pFt41CTazYqFT-tQdcukNBeOTzVIpZXVDsdgtup4MJOEdNNZP9SP0FAdIpG1Cnfgo0YgBXzmI_boLV4qSAsVrmYn5wA3GxnPuj21JO/s1600/citrix.jpg",
+      "processedAt": "2026-11-12T22:55:39.997940+00:00"
+    },
+    {
+      "id": "art-b2a2460e",
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "summary": "Researchers discovered 186 fake domains pretending to be legitimate AI tools that trick users into downloading malware and browser hijackers. These sites use a technique called TypoPrompting to redirect visitors to ClickFix scams, malicious extensions, and search-hijacking software. The campaign exploits users' familiarity with popular AI platforms by using deceptive domain names that closely resemble the real thing.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "malware",
+        "browser-hijacker",
+        "typosquatting",
+        "social-engineering",
+        "clickfix"
+      ],
+      "whyItMatters": "This attack demonstrates how cybercriminals leverage the popularity of AI tools to distribute malware at scale through a simple but effective typosquatting strategy. Users who accidentally visit these lookalike domains face immediate risk of compromising their browsers and personal data, making this a practical threat that affects non-technical users who rely on AI applications daily.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirJnc36Fxj4oKOmKhcPvspB_xQpv3VgpXjYnu29SOv8NbVJHeaGNKT26851QIPQbHozxeF5vmq5otdRbJBKEaN9557MtuxLwp5fxX-pQVDVKwvZJtPR9ayT2Njx83svW7TVsVkVpFUOt5JHqhdSkSI7uV0d4dxlf5pWAmHISttTHWjURyOpuuy0CzVCSmK/s1600/lauce.jpg",
+      "processedAt": "2026-11-12T22:55:42.756483+00:00"
+    },
+    {
+      "id": "art-982f2357",
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "summary": "Researchers discovered SCKit, a new worm-like malware used in recent attacks against ScreenConnect, a remote access tool commonly used by managed service providers (MSPs). This malware is designed to spread from infected customer devices to MSP technician computers, allowing attackers to compromise multiple managed networks in a chain reaction. The threat is particularly dangerous because MSPs manage networks for many businesses, making them high-value targets for attackers seeking broad access.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "screenconnect",
+        "msp-attacks",
+        "worm-malware",
+        "supply-chain-risk",
+        "remote-access-tools",
+        "lateral-movement"
+      ],
+      "whyItMatters": "This attack demonstrates a sophisticated supply-chain threat where attackers use MSP infrastructure as a pivot point to compromise multiple downstream clients. Organizations relying on MSPs must strengthen security controls and monitor for signs of compromise, while MSPs need enhanced endpoint protection and network segmentation to prevent this type of lateral movement.",
+      "image": null,
+      "processedAt": "2026-11-12T22:55:45.666032+00:00"
+    },
+    {
+      "id": "art-76408239",
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "summary": "Attackers successfully compromised nearly 4,800 GitHub accounts in a campaign called 'wfx-loot' to gain unauthorized access to repositories and steal sensitive cloud credentials. The threat actors used these hijacked accounts to push malicious code and open pull requests across tens of thousands of repositories. This incident highlights how developer platforms are being exploited to distribute credential-stealing malware at scale.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "github-compromise",
+        "credential-theft",
+        "malware-distribution",
+        "account-takeover",
+        "cloud-security",
+        "supply-chain-risk"
+      ],
+      "whyItMatters": "This attack targets the development pipeline itself, potentially compromising thousands of organizations through infected repositories and stolen cloud credentials. Developers and companies relying on GitHub must immediately audit their accounts and review unexpected pull requests, as cloud infrastructure access is now directly threatened. The scale and method suggest attackers can inject maliciou",
+      "image": null,
+      "processedAt": "2026-11-12T22:55:48.752694+00:00"
+    },
+    {
+      "id": "art-1ebf12ad",
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "summary": "Microsoft 365 services including Outlook, Teams, and Copilot experienced a widespread global outage, leaving users unable to access these critical business tools. The company is actively investigating the incident to restore normal operations. This disruption highlights how cloud service failures can impact millions of users and organizations simultaneously.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "microsoft-365-outage",
+        "cloud-services",
+        "business-continuity",
+        "service-disruption",
+        "outlook-teams"
+      ],
+      "whyItMatters": "Large-scale cloud outages demonstrate the critical dependency organizations have on third-party services and the cascading impact when they fail. Understanding outage causes and mitigation strategies is essential for disaster recovery planning and identifying whether infrastructure vulnerabilities or security incidents are responsible.",
+      "image": null,
+      "processedAt": "2026-11-12T22:55:50.909848+00:00"
+    },
+    {
+      "id": "art-e27f5267",
+      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+      "summary": "A newly discovered zero-day vulnerability in N-able N-central is being actively exploited by attackers to install cryptocurrency mining software on compromised servers. Researchers have identified at least 21 affected systems, notably including 19 that were already running the company's latest security updates. This rapid exploitation demonstrates how quickly threat actors can weaponize newly disclosed vulnerabilities before patches become widely available.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "n-able",
+        "active-exploitation",
+        "cryptocurrency-miner",
+        "server-compromise",
+        "poc-exploit"
+      ],
+      "whyItMatters": "This incident highlights the critical window of vulnerability between public disclosure and patch deployment, especially for widely-used management tools like N-central that affect multiple enterprise systems. The fact that updated systems were still compromised suggests attackers may have had prior knowledge or zero-day information before public disclosure. Organizations using N-able N-central sh",
+      "image": null,
+      "processedAt": "2026-11-12T22:55:53.855169+00:00"
+    },
+    {
+      "id": "art-bdc5adba",
+      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+      "summary": "Apache HTTP Server contains a critical vulnerability in its HTTP/2 module that allows attackers without authentication to execute arbitrary code on affected systems. This flaw poses an immediate threat to web servers running vulnerable versions of Apache. The vulnerability requires urgent patching to prevent potential compromise of web infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "apache-http-server",
+        "http-2",
+        "remote-code-execution",
+        "patch-urgent",
+        "web-server",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability directly threatens the security of web infrastructure worldwide, as Apache HTTP Server powers a significant portion of internet-facing servers. Attackers can exploit this flaw without credentials to gain complete control over affected systems, making immediate patching essential. Organizations running Apache must prioritize this update to prevent potential data theft, service di",
+      "image": null,
+      "processedAt": "2026-11-12T22:55:56.284041+00:00"
+    },
     {
       "id": "art-09e3f7c1",
       "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
@@ -826,213 +1035,6 @@
       "whyItMatters": "The combination of an actively exploited zero-day in a widely-used application like Outlook with a record number of vulnerabilities creates an urgent security situation where delays in patching could expose millions of users to immediate attack. This demonstrates why timely patch management is essential infrastructure security, as attackers actively target unpatched systems within hours of vulnera",
       "image": null,
       "processedAt": "2026-11-10T22:36:42.611064+00:00"
-    },
-    {
-      "id": "art-3ee560f5",
-      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-      "summary": "A security researcher released an iOS sandbox escape vulnerability called worse_query that allows malicious apps to access files from other applications on iPhones running iOS 26 and 27, potentially exposing sensitive cryptocurrency wallet data like seed phrases and private keys. Binance has warned users about this threat, and Apple's latest security updates have not yet addressed the flaw. This vulnerability puts crypto holders and any iPhone users with sensitive stored information at significant risk.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "ios-sandbox-escape",
-        "cryptocurrency-theft",
-        "private-key-exposure",
-        "zero-day",
-        "apple-security",
-        "mobile-malware"
-      ],
-      "whyItMatters": "This vulnerability directly threatens users' cryptocurrency assets and sensitive credentials by allowing unauthorized file access on a widely-used platform, with no confirmed patch available from Apple yet. For crypto holders especially, this represents an immediate and severe risk of financial loss through wallet compromise. Organizations and individuals must understand this threat landscape to i",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikVWFDhEAWo-q-_JsRneE91hAsf7Ho4XXGI51_q0V6XaCrBl7COWgs81b8KLYtdO0XaRMjP5JbJs80iC103U16Mr7GU05znwtx3CvvMnJMR1ywArpKJj4AdVd9HaLv0U65k59BBY706XjRtU8bx9q-fnLlozVb63XJ43QDKm3FbJUmrSwcB9TvwJpyP64/s1600/ios-jail.jpg",
-      "processedAt": "2026-11-10T14:37:32.534308+00:00"
-    },
-    {
-      "id": "art-3be788f7",
-      "title": "Beyond the Alert: The Case for Rich Network Data",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-      "summary": "The article argues that perfect security is impossible, so organizations must shift from prevention-focused strategies to detection and response approaches. Rather than just reacting to alerts, security teams need access to rich network data to understand what threats actually penetrated defenses and how to stop them. This perspective emphasizes that effective cybersecurity depends on finding and disrupting threats that have already gotten inside, not just preventing them from entering.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "detection-response",
-        "threat-hunting",
-        "network-visibility",
-        "incident-response",
-        "security-strategy"
-      ],
-      "whyItMatters": "This article challenges the common misconception that prevention alone is sufficient and highlights the critical importance of detection and response capabilities backed by comprehensive network data. Organizations that adopt this mindset and invest in visibility tools are better positioned to minimize damage when breaches inevitably occur, making the difference between a minor incident and a cata",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2keP-LKMaj66fcb6TF9mNwdN01ndHv16r6WcnXbXwTwCNvUJXDxuyG_WacuYRt2DNFA7Fy_Hb4cyDvXeRsWrUWrql4RyMK4dD9s2adlVOnPWyR04wDmPu5jUlZL3-kGiDgPY2NU8yptKV1o21Wsuyu6IOSxico18zjLqDNLoA1bkl_DheKZevChrO6ZE/s1600/Corelights.jpg",
-      "processedAt": "2026-11-10T14:37:35.290898+00:00"
-    },
-    {
-      "id": "art-c207f0e9",
-      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-      "summary": "Apple released security updates to fix two critical iMessage vulnerabilities that could allow unauthorized access to group chats. The first flaw could enable remote attackers to join group conversations and read messages, while the second flaw allowed newly added members to view messages sent before they joined the chat. These patches address privacy risks affecting iPhone XS, XS Max, XR, iPad (7th generation), and other Apple devices.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "imessage",
-        "privacy-vulnerability",
-        "group-chat-security",
-        "apple-patch",
-        "message-access"
-      ],
-      "whyItMatters": "These vulnerabilities directly threaten user privacy by allowing unauthorized access to private group conversations, a core communication tool for millions of Apple users. Prompt patching is essential because attackers could exploit these flaws to intercept sensitive information or surveillance conversations without detection. This highlights the importance of applying security updates immediately",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUM6RGvSNUqube0TIXYpzHhs7uSvT0k28f2Q8s-GVOexnCI4T5mzFMUs3Lz4_aS6gNuS71DSTvtfOO-tfVFXvVu82pBmj5gO5_jO5g1ndVQQX8xjBY8A_IDAVNkO7oE1s5FRyEsxXQ_HEM_5_KI4g9VWN8BLgCmQTS1DaFt6lRlfgEJMsxyC5bxQW1qhM/s1600/apple-patch.jpg",
-      "processedAt": "2026-11-10T14:37:38.021737+00:00"
-    },
-    {
-      "id": "art-53b1b73b",
-      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-      "summary": "Russian state-sponsored hackers from Turla have deployed a new malware tool called Cereal that specifically targets Microsoft Exchange servers to secretly steal emails from government organizations. This sophisticated, modular malware represents an advancement in espionage capabilities used by one of Russia's most notorious cyber threat groups. The tool's design focuses on stealth and persistence, allowing attackers to collect sensitive communications without detection.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "turla",
-        "malware",
-        "exchange-servers",
-        "espionage",
-        "state-sponsored",
-        "email-theft"
-      ],
-      "whyItMatters": "This threat is critical because Turla is a known advanced persistent threat (APT) group targeting government entities, and a new, undocumented malware means existing defenses may not detect it. Exchange servers are high-value targets containing sensitive communications, making this attack vector a major risk to national security and classified information. Organizations must immediately audit thei",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5658vTd_mkm0NXhB4ueRe7z7purQPsvIa5Ik8qqEMo0dN5DU5bTpprIJeXFEj7XKLIOP3ykE4ZlNnixosysJ8YmGXzuRqEA1YoDvaQUFUgdXGfX2gj4f3hgUzop1wizxyv9olPYRDIb6CBW09bFVYAVqvpJk1zRqp3N5QCDBdfXTeoJuGCRkgy227_TgN/s1600/russian-emails.jpg",
-      "processedAt": "2026-11-10T14:37:40.817451+00:00"
-    },
-    {
-      "id": "art-b5f17d1f",
-      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-      "summary": "SAP released security patches for four critical vulnerabilities, all rated with the maximum CVSS score of 10.0. These flaws affect SAP NetWeaver and Web Dispatcher, allowing attackers to execute malicious code remotely without needing to log in. The vulnerabilities pose an immediate threat to organizations running SAP systems since they can be exploited from the internet with no authentication required.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "sap-vulnerabilities",
-        "remote-code-execution",
-        "cvss-10",
-        "patch-critical",
-        "netweaver",
-        "web-dispatcher"
-      ],
-      "whyItMatters": "SAP systems handle critical business operations for many enterprises worldwide, making these maximum-severity vulnerabilities an urgent threat requiring immediate patching. Unauthenticated remote code execution flaws in internet-facing components like Web Dispatcher create an easy attack vector for cybercriminals to compromise entire SAP environments. Organizations must prioritize deploying these ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo4snqwJ4uD_sRDyI8zs23mcfFTWfZoSrn9n1hbUrsHbyWy-1VFL8amxqQnLb7LSTPkuSwnsPofUJT6anObg-nU4Q5e01WBb3IixN_PdL-1MJ2nOip4qSTEoVDmePRlOgjSVjvtbH8vFlQgxtGuKuqmuHWLyzIavw2Sj4VtZBlTYhUqeySbQcDMEr4Wns/s1600/sap-flaws.jpg",
-      "processedAt": "2026-11-10T14:37:43.500401+00:00"
-    },
-    {
-      "id": "art-6a92febd",
-      "title": "SAP patches ICM2SHELL and PROXYGATE maximum severity flaws",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/sap-patches-four-maximum-severity-security-vulnerabilities/",
-      "summary": "SAP released security updates addressing 35 vulnerabilities, with four of them classified as maximum severity and affecting critical enterprise software like NetWeaver, Web Dispatcher, and Gateway. These flaws could potentially allow attackers to compromise widely-used SAP systems if left unpatched. Organizations running SAP infrastructure need to prioritize applying these updates immediately to prevent exploitation.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "sap-vulnerabilities",
-        "maximum-severity",
-        "enterprise-systems",
-        "patch-urgent",
-        "netweaver",
-        "web-dispatcher"
-      ],
-      "whyItMatters": "SAP systems are foundational to business operations for thousands of enterprises globally, making maximum-severity flaws in NetWeaver and Web Dispatcher an immediate threat to critical infrastructure. Unpatched systems are vulnerable to active exploitation that could lead to data theft, system compromise, or operational disruption. Organizations must prioritize deploying these patches to prevent b",
-      "image": null,
-      "processedAt": "2026-11-10T14:37:46.365852+00:00"
-    },
-    {
-      "id": "art-4b85df9c",
-      "title": "Hackers now exploit critical Barracuda ESG flaws to gain root access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-barracuda-email-security-gateway-flaws-to-get-root-access/",
-      "summary": "Barracuda Networks has reported that attackers are actively exploiting two recently fixed vulnerabilities in their Email Security Gateway (ESG) product to gain root-level access to systems. These critical flaws allow unauthorized users to execute commands with the highest level of system privileges, potentially compromising email security infrastructure. Organizations using affected Barracuda ESG systems need to apply patches immediately to prevent unauthorized access.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "barracuda-esg",
-        "root-access",
-        "active-exploitation",
-        "patch-urgent",
-        "email-security",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "Active exploitation of these vulnerabilities poses an immediate threat to organizations relying on Barracuda ESG for email security, as root access enables attackers to completely compromise email systems and potentially access sensitive communications. The fact that patches already exist but attackers are still exploiting them underscores the critical importance of rapid patching and monitoring f",
-      "image": null,
-      "processedAt": "2026-11-10T14:37:49.181176+00:00"
-    },
-    {
-      "id": "art-73472f09",
-      "title": "Turla hackers use new Cereal malware to spy on govt Exchange servers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/turla-hackers-use-new-ceral-malware-to-spy-on-govt-exchange-servers/",
-      "summary": "Russian state-backed hackers from the Turla group have deployed a new malware called Cereal to target Microsoft Exchange servers at government agencies. This malware is designed to intercept and steal emails and sensitive communications from compromised servers. The attack highlights how advanced nation-state actors continue to develop specialized tools to penetrate critical government infrastructure.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "turla",
-        "state-sponsored",
-        "exchange-servers",
-        "email-interception",
-        "government-targets",
-        "cereal-malware"
-      ],
-      "whyItMatters": "Government email systems are high-value targets for espionage, and compromised Exchange servers can expose classified communications, policy decisions, and sensitive intelligence. This active threat from a sophisticated nation-state actor requires immediate detection and response from affected organizations. The emergence of new, specialized malware tools underscores the evolving tactics used by a",
-      "image": null,
-      "processedAt": "2026-11-10T14:37:51.899187+00:00"
-    },
-    {
-      "id": "art-6f55236f",
-      "title": "Google patches eighth Chrome zero-day exploited in attacks this year",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-patches-eighth-chrome-zero-day-exploited-in-attacks-this-year/",
-      "summary": "Google has released an emergency security update for Chrome to fix a new vulnerability that attackers are already exploiting in real-world attacks. This is the eighth zero-day flaw discovered and patched in Chrome this year, showing an alarming trend of security issues being discovered and weaponized by threat actors. Users need to update their browsers immediately to protect themselves from active exploitation.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "chrome",
-        "vulnerability",
-        "patch-now",
-        "active-exploitation",
-        "browser-security"
-      ],
-      "whyItMatters": "Chrome zero-days are particularly dangerous because billions of users rely on the browser daily for work, banking, and personal activities. Active exploitation means attackers are already using this flaw against real targets, making immediate patching essential to avoid compromise. The frequency of zero-days this year signals either increased attacker sophistication or more intensive vulnerability",
-      "image": null,
-      "processedAt": "2026-11-10T14:37:54.774341+00:00"
-    },
-    {
-      "id": "art-47666e9e",
-      "title": "Fireworks AI discloses new breach after cloud provider hack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
-      "summary": "Fireworks AI, an artificial intelligence infrastructure company, has revealed a security breach where attackers gained access to its development systems through a compromised third-party cloud provider. This incident highlights how security vulnerabilities at external service providers can directly impact their customers' systems. The breach demonstrates the risk of relying on third-party cloud services without proper security controls and monitoring.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "third-party-breach",
-        "supply-chain-risk",
-        "development-systems",
-        "ai-infrastructure"
-      ],
-      "whyItMatters": "This breach demonstrates the critical importance of supply chain security and the cascading risks when third-party cloud providers are compromised. Organizations must implement strict access controls, network segmentation, and continuous monitoring of their cloud environments to prevent attackers from using external breaches as entry points into their systems.",
-      "image": null,
-      "processedAt": "2026-11-10T14:37:57.133874+00:00"
     }
   ]
 }
