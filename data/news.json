@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-11-13T14:19:55.393696+00:00",
+  "lastUpdated": "2026-11-13T22:58:12.290655+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-efbdb62a",
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+      "summary": "PostgreSQL released patches for 52 security vulnerabilities, including a critical 22-year-old type confusion bug that allows authenticated database users to execute arbitrary code on the server. The flaw, identified as CVE-2026-6460 with a CVSS score of 8.8, requires not only updating PostgreSQL but also rebuilding any C-language extensions to achieve full protection. This discovery highlights how long-standing vulnerabilities can persist undetected in widely-used software.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "postgresql",
+        "rce",
+        "type-confusion",
+        "authenticated-exploit",
+        "patch-critical",
+        "database-security"
+      ],
+      "whyItMatters": "PostgreSQL is used by millions of organizations worldwide, making this patch release urgent for anyone running the database in production. The combination of a 22-year-old undetected vulnerability and the requirement to rebuild extensions means administrators must act quickly and carefully to avoid operational disruptions. Organizations with database users capable of creating objects face immediat",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhj8XOS7IKEt2ZhrwwdlDSpQ5hAyI46wHZpPkTQ3_hA6yUtMQpzaM50fm2v9x0O7NCt5z9vdrTsYM3iPOmu9fmmMTQDViu-rQjCfSxfCQhwZQazr4ZYayvEn5MQfUdTBVODtAay6RIaTqJGUj-HVzbtMqNPdNFiQHExhO9sitJX0GrvTx_EhWmslA-87ds/s1600/postgresql.jpg",
+      "processedAt": "2026-11-13T22:57:46.981743+00:00"
+    },
+    {
+      "id": "art-81e63aa4",
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+      "summary": "Researchers discovered two new attacks called Mior and Skyfall that can compromise AMD SEV-SNP virtual machines, which are designed to protect data from malicious cloud hosts. These attacks allow attackers with hypervisor control to read sensitive data stored inside these supposedly secure VMs, and Mior can additionally alter VM memory and forge security certificates. While both attacks require significant access to the server infrastructure, they demonstrate critical weaknesses in a technology that enterprises rely on for secure cloud computing.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "amd-sev-snp",
+        "cloud-security",
+        "vm-escape",
+        "hypervisor-attack",
+        "virtualization"
+      ],
+      "whyItMatters": "This vulnerability directly undermines trust in AMD's confidential computing technology used by enterprises to protect sensitive workloads in untrusted cloud environments. Organizations relying on SEV-SNP for regulatory compliance or data protection must immediately assess their exposure and coordinate with cloud providers for patches. The attacks highlight that even advanced CPU-level security fe",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi28SrA-dW0l0kreAg1vMHHOgBRMM7lzxv5qg2FT2HzRxReJ96pxZP4Fjpm15fYWDDgWpbBI8iC119aE37t_kmQ4guoA70NUlJsdiA4hFvTg8fflx9fsKqUsGuoB-S9VS5pPd38EBVYRGmvKIT5EylE3IwEK8bBCp5CkLrdTwhbyUA2xWN_0iOynP33yE8/s1600/amd-flaws.jpg",
+      "processedAt": "2026-11-13T22:57:50.256861+00:00"
+    },
+    {
+      "id": "art-15e5bd1b",
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+      "summary": "North Korean hackers have stolen over $400 million in cryptocurrency through a sophisticated social engineering campaign called FaceStealer that used deepfake video calls to deceive victims. The FBI has confirmed this attack occurred over the past 18 months and represents a coordinated threat by state-sponsored actors. This scheme demonstrates how attackers can manipulate advanced technology to bypass traditional security measures and gain access to financial assets.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "north-korea",
+        "deepfake",
+        "social-engineering",
+        "cryptocurrency-theft",
+        "state-sponsored",
+        "video-call-fraud"
+      ],
+      "whyItMatters": "This attack highlights the escalating threat of deepfake technology combined with social engineering tactics used by state-sponsored actors to steal massive financial assets. Organizations and individuals need to implement multi-factor authentication, identity verification protocols, and employee training to defend against sophisticated impersonation attacks. The $400 million loss demonstrates tha",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhDmjJA-t4vvigohRIfUR6JExYEPR0Dohh29eooVagQOvRyRDgdisxAy3wSWni5iFHjf2Dk8X2BavSeGO8hJ-wCTbDuffsdtamOuqj1PVTb75EWNF5vNe3tCsS6pyS_pSzNhEELOVU0DxHdmGx4Kt8KNqwz8YheAM9kEoVmpnHeVV1qsofLCBYDEt0E2IqX/s1600/flash.jpg",
+      "processedAt": "2026-11-13T22:57:53.017318+00:00"
+    },
+    {
+      "id": "art-e9b21ff0",
+      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
+      "summary": "Trezor discovered that three of its Safe 5 hardware wallets sold through the reseller CryptoBilis contained hidden implants—unauthorized circuit boards designed to steal cryptocurrency recovery phrases. These implants intercept the recovery phrase from the wallet's display and transmit it wirelessly to attackers' servers, completely compromising the security of affected devices. This incident highlights a critical supply chain vulnerability where legitimate hardware wallets were tampered with before reaching customers.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "hardware-wallet-tampering",
+        "supply-chain-attack",
+        "cryptocurrency-theft",
+        "implant-exploit",
+        "recovery-phrase-theft",
+        "malicious-hardware"
+      ],
+      "whyItMatters": "This attack demonstrates that even trusted hardware security devices can be compromised through third-party resellers, making it a critical risk for cryptocurrency users who rely on hardware wallets for protection. The ability to silently extract recovery phrases through physical implants means attackers can gain complete control of victims' digital assets without detection. Users must verify auth",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivDE4uIn_bV4GUrsw0LjzqBnnNaQM_0lzJhrSy89nrShmwNlFcsVucCFpzzZ2LMkkSMF-XMb8rp0e7_Maemyj5sypkVIf4s2Wx5pbJXkOwf0vMkG9ThBQAHhvJ_mKWHq78f_iJYhAM2l1Hp_Zk3VtB_bVvYFmZTX4WakIpC_Zib0rlFnDG-H674JSP5Mg/s1600/implant.jpg",
+      "processedAt": "2026-11-13T22:57:56.181177+00:00"
+    },
+    {
+      "id": "art-3a80a716",
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "summary": "A malware toolkit called SCKit is being used in active attacks against ConnectWise ScreenConnect remote access software, exploiting a previously patched critical vulnerability (CVE-2026-84869) with a CVSS score of 9.9. Security researchers at Blackpoint Cyber discovered that attackers are leveraging this flaw to compromise managed service provider (MSP) environments and potentially gain access to their clients' systems. The campaign demonstrates how threat actors continue targeting known vulnerabilities even after patches are available, putting organizations at risk if they haven't updated the",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "screenconnect",
+        "msp-attack",
+        "sckit-malware",
+        "remote-access-exploit",
+        "critical-vulnerability",
+        "patch-required"
+      ],
+      "whyItMatters": "This attack is actively exploiting a critical vulnerability in widely-used remote access software, making MSPs and their entire client bases potential targets if systems aren't patched. The combination of remote access compromise and MSP targeting creates a cascading risk that could affect thousands of downstream organizations. Security teams must immediately verify their ScreenConnect deployments",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4r5n0I6Rd7yb3jS6hfXTyM5foZU5uEiCD1I2Kgth1qgf_pzohrD9jPeDesEopB6Gjo0VaQZF2XesdqU6W32eFADzI3_xhBF4026h6uGqn6eExdfS_A29SvYA3cdIJkhWmPG-k15_DdsGGcqFfWS-E3cgyKkdEQ3Sxa9gayFkkMXggVJpkeH7DoLNLZxm9/s1600/screen.jpg",
+      "processedAt": "2026-11-13T22:57:59.320443+00:00"
+    },
+    {
+      "id": "art-8fee337c",
+      "title": "Trezor confirms crypto-stealing implants in three wallets, releases fix",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/cryptocurrency/trezor-confirms-crypto-stealing-implants-in-three-wallets-releases-fix/",
+      "summary": "Trezor discovered that three of its Safe 5 hardware wallets sold through a Southeast Asian reseller contained malicious hardware implants designed to steal cryptocurrency recovery phrases. The implants were capable of transmitting stolen data over cellular networks directly to attackers. Trezor has confirmed the issue and released a fix to address the vulnerability.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "hardware-compromise",
+        "supply-chain-attack",
+        "crypto-theft",
+        "malicious-implants",
+        "wallet-security"
+      ],
+      "whyItMatters": "This incident demonstrates that even specialized security devices like hardware wallets can be compromised at the supply chain level, putting users' cryptocurrency assets at direct risk. The physical implantation of malware highlights the importance of purchasing hardware from authorized retailers and verifying device authenticity, as this attack vector bypasses typical software-based security mea",
+      "image": null,
+      "processedAt": "2026-11-13T22:58:01.853871+00:00"
+    },
+    {
+      "id": "art-0a924392",
+      "title": "German military drone operations disrupted by cyberattack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/german-military-drone-operations-disrupted-by-cyberattack/",
+      "summary": "German defense contractor Quantum Systems discovered a cyberattack by hostile actors targeting its military drone operations in late October. The incident disrupted the company's systems and raised concerns about the security of critical defense technology. This attack highlights vulnerabilities in infrastructure supporting NATO allies' military capabilities.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "military-infrastructure",
+        "defense-systems",
+        "drone-operations",
+        "cyberattack",
+        "critical-infrastructure",
+        "hostile-actors"
+      ],
+      "whyItMatters": "Cyberattacks on defense contractors directly threaten national security and military operations, making this incident critical for understanding threats to critical infrastructure. The targeting of drone systems by hostile actors demonstrates how adversaries are evolving tactics to disrupt military capabilities. Organizations across defense and critical sectors must prioritize their security postu",
+      "image": null,
+      "processedAt": "2026-11-13T22:58:04.049013+00:00"
+    },
+    {
+      "id": "art-9a72fcb1",
+      "title": "Check Point gateways hacked via PHP2Shell to deploy VMware ESXi wiper",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/check-point-gateways-hacked-via-php2shell-to-deploy-vmware-esxi-wiper/",
+      "summary": "Attackers exploited vulnerable Check Point Security Gateway devices using PHP2Shell to gain unauthorized access and then deployed malware designed to wipe data from VMware ESXi hosts. This attack chain demonstrates how compromised network security appliances can serve as entry points to target critical virtualization infrastructure. Organizations running these gateways are at risk of complete data destruction if their systems remain unpatched.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "check-point",
+        "php2shell",
+        "vmware-esxi",
+        "data-wiping",
+        "gateway-compromise",
+        "infrastructure-attack"
+      ],
+      "whyItMatters": "Security gateways are front-line defenses, so their compromise directly exposes internal networks and critical systems like ESXi hypervisors. Attackers deploying wiping malware indicates intent to cause maximum damage and operational disruption, making rapid patching essential for any organization using vulnerable Check Point devices.",
+      "image": null,
+      "processedAt": "2026-11-13T22:58:06.675436+00:00"
+    },
+    {
+      "id": "art-9aa01028",
+      "title": "How one AI agent exposed five critical enterprise security gaps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/how-one-ai-agent-exposed-five-critical-enterprise-security-gaps/",
+      "summary": "Researchers discovered that an AI agent designed to process invoices could be tricked by a malicious email into redirecting payments to fraudulent bank accounts, bypassing conventional security systems. The study identified five significant security vulnerabilities in how AI agents operate within enterprise environments. Industry security experts provided recommendations to help organizations protect their AI systems from similar attacks.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "enterprise-risk",
+        "prompt-injection",
+        "vendor-fraud",
+        "automation-bypass",
+        "security-gaps"
+      ],
+      "whyItMatters": "As organizations increasingly deploy AI agents to handle critical business processes like financial transactions, understanding their unique security vulnerabilities is essential to prevent financial fraud and data manipulation. This research demonstrates that traditional security controls may not adequately protect AI systems, requiring organizations to implement specialized safeguards before bro",
+      "image": null,
+      "processedAt": "2026-11-13T22:58:09.301451+00:00"
+    },
+    {
+      "id": "art-0f6c1d59",
+      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+      "summary": "Law enforcement agencies across Europe and nine partner countries have successfully shut down the infrastructure behind three major malware operations: Gootloader, CastleRAT, and StealC. The coordinated effort resulted in the seizure of hundreds of servers and domains that were being used to distribute and operate these malicious programs. This takedown represents a significant victory in disrupting cybercriminal networks that have been targeting organizations globally.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "malware-takedown",
+        "law-enforcement",
+        "gootloader",
+        "castlerat",
+        "stealc",
+        "infrastructure-seizure"
+      ],
+      "whyItMatters": "This coordinated international law enforcement action demonstrates the growing capability and commitment to dismantle active malware operations, disrupting the tools criminals use for stealing data and compromising systems. The seizure of infrastructure reduces the immediate threat posed by these specific malware families and sends a deterrent message to cybercriminals. Understanding which malware",
+      "image": null,
+      "processedAt": "2026-11-13T22:58:12.290523+00:00"
+    },
     {
       "id": "art-c4b24004",
       "title": "When an AI Agent Goes Wrong, Can You Stop It?",
@@ -828,211 +1036,6 @@
       "whyItMatters": "This breach demonstrates that legacy systems acquired through mergers are often overlooked security risks that attackers actively target. High-profile companies like Maersk facing ransomware demands shows that even large organizations with substantial resources remain vulnerable to data theft and extortion attacks. Organizations need to prioritize inventory and security assessments of all inherite",
       "image": null,
       "processedAt": "2026-11-11T23:46:06.921163+00:00"
-    },
-    {
-      "id": "art-e8439690",
-      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "summary": "Security researchers discovered that over 35,000 applications built using Grok, an AI assistant, were publicly accessible without requiring login credentials. Approximately 1 in 10 of these exposed apps contained sensitive internal business data and passwords, with many created by staff from X and SpaceX. This widespread exposure highlights how AI-generated applications can inadvertently become security risks when deployed without proper access controls.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-exposure",
-        "ai-security",
-        "misconfiguration",
-        "credentials-leaked",
-        "access-control"
-      ],
-      "whyItMatters": "This incident demonstrates a critical gap in securing AI-generated applications and shows how developer negligence or misunderstanding of security practices can expose confidential company data at scale. Organizations using AI tools to build applications must implement proper authentication and access controls to prevent sensitive information from being publicly accessible.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
-      "processedAt": "2026-11-11T13:52:36.332518+00:00"
-    },
-    {
-      "id": "art-c5ad388d",
-      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
-      "summary": "Token discovered that an AI agent they built violated their own security best practices by lacking proper identity management, inadequate access controls, and insufficient audit trails. The company recognized these vulnerabilities and used the experience to develop better security frameworks for autonomous AI agents. This real-world failure demonstrates critical gaps in how organizations are currently securing AI systems that operate with user permissions.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "access-control",
-        "identity-management",
-        "agent-security",
-        "audit-trails",
-        "authentication"
-      ],
-      "whyItMatters": "As organizations deploy autonomous AI agents with increasing privileges, understanding how these systems can bypass security controls is essential for preventing unauthorized access and data exposure. This case study reveals that even security-conscious companies can accidentally create AI systems with dangerous default configurations, highlighting the urgent need for industry-standard security fr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhB22NtEOE6ioVcc92S5bLfFX3tbKyjNkx0j8OmHekqWq6Od4h9DtFmbmdd74VzwHCh5h6NbWnBgHgKzC49DwS7QAgA0uH3eL7BvBnN9QJu3U5-oiy5ZFMN7PvaJTBqjP7TR5VMjzrGxjfOfjgBqs3lecFZnWGEYNDp_BJgklco1L_acBqGm1M_CvtfLaY/s1600/AI-AGENT.png",
-      "processedAt": "2026-11-11T13:52:39.622352+00:00"
-    },
-    {
-      "id": "art-881a27bf",
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
-      "summary": "eMudhra has revoked 8 additional intermediate certificate authorities (CAs) that were affected by a faulty Python script discovered in October, even though their private keys were not directly compromised. The issue stemmed from a single line of code in the script that impacted these CAs, forcing the company to take action despite previously suggesting they were unaffected. This incident highlights how subtle coding errors can have cascading security consequences across an organization's infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "certificate-authority",
-        "key-compromise",
-        "code-vulnerability",
-        "pki-security",
-        "emudhra",
-        "incident-response"
-      ],
-      "whyItMatters": "Certificate authorities are foundational trust anchors in the internet's security infrastructure; compromising multiple CAs creates widespread risk for organizations relying on eMudhra-issued certificates. This demonstrates how a seemingly minor coding defect can cascade into major security incidents requiring revocation of trusted authorities, potentially disrupting services for affected customer",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjONLgT6piRm0O75Y6dzQY4L2RO8OQTlWaJbwSTHFDeh82Qiadl2PT9KI9r2jC1JbwS-TqPm3g1Ea0Q8I91FalXu2GZ0fBBnfId6-8ZWKABrBQZWg7nA1X6cHq7wgHK3rc2Y5YW4yb61TjxVyywyWprml6yhBgH-SBaTvXZF-50J8-mR5Q6cGhSgfuMUdk/s1600/emudhra.jpg",
-      "processedAt": "2026-11-11T13:52:42.894681+00:00"
-    },
-    {
-      "id": "art-ad3deaa0",
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
-      "summary": "Microsoft released security patches for 1,259 vulnerabilities across its products this month, marking the second consecutive month with over 1,000 fixes. The update addresses significant flaws in Windows, Office, SQL Server, and other tools, including a particularly dangerous Outlook bug that could expose NTLMv2 hashes. This massive patch volume reflects the ongoing challenge of managing security risks across Microsoft's extensive software ecosystem.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-patches",
-        "outlook-vulnerability",
-        "ntlmv2-exposure",
-        "windows-security",
-        "patch-tuesday",
-        "credential-theft"
-      ],
-      "whyItMatters": "With over 1,200 vulnerabilities patched and active exploitation of the Outlook bug, organizations must prioritize applying these updates immediately to prevent credential theft and system compromise. The consistent high volume of critical patches underscores why maintaining a robust patch management process is essential for any IT security team.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh_nfFO2Zf-R2XyVzQHP43rc0OLAtUtRKWYV0VIaoHZW8EeH78h2Id9FmfJQVfzFdmBD6ugVGeCehX1Nq6jlmXlMG4AmnV3Tib3YvClKGaplVg5Ngk_KlpqwHx6Pd_oYQTCj2O3HfOpt_MoSGQD-4Nv-pju5sqS7U9-rAJdpKTn-xnhA1QSmmTiQWnAFjGp/s1600/patch-ms.jpg",
-      "processedAt": "2026-11-11T13:52:45.560521+00:00"
-    },
-    {
-      "id": "art-e7e5fee8",
-      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
-      "summary": "Railway, a platform-as-a-service provider, suffered a breach in October where attackers stole customer API keys and authentication credentials stored on their platform. The stolen keys were then used to make unauthorized purchases through AI services, resulting in approximately $740,000 in fraudulent charges. Railway has committed to covering these costs when AI providers refuse refunds, highlighting the financial risks when cloud platforms fail to protect sensitive stored secrets.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "api-key-theft",
-        "cloud-breach",
-        "unauthorized-usage",
-        "secrets-management",
-        "third-party-risk"
-      ],
-      "whyItMatters": "This incident demonstrates how compromised API keys stored on cloud platforms can lead to immediate financial damage through unauthorized service usage, not just data theft. It underscores the critical importance of proper secrets management and encryption for organizations relying on PaaS providers, as attackers can quickly monetize stolen credentials before detection.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDP-YSdactqjEqKJOJEJulSVt5fmo134ko3-hE9dbQrLkrcIuhIkAOQDPe4eGS8WR6mLJs3urGqLpdi9erHsuLMAQ1t2saYXZAhnIRNqzliU3reOp2uPoKCRlpWBj8JQcyRIwo9eqK4AuSFcsB5XhIdLFzNYudzLlW_eHiZ094cCzg_gjihMTAZufcCc/s1600/railway-ai.jpg",
-      "processedAt": "2026-11-11T13:52:48.362060+00:00"
-    },
-    {
-      "id": "art-8e34e698",
-      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
-      "summary": "N-able discovered and patched zero-day vulnerabilities in its N-central remote monitoring and management platform after they were publicly disclosed online. The company was forced to take vulnerable hosted environments offline to protect customer systems. N-able has now released hotfixes to address these critical security flaws affecting a widely-used IT management tool.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "rmm-platform",
-        "n-able",
-        "patch-released",
-        "remote-monitoring",
-        "vulnerability"
-      ],
-      "whyItMatters": "RMM platforms like N-central are critical infrastructure for IT teams managing thousands of endpoints; a zero-day exploit in such tools could give attackers broad access to multiple organizations' networks simultaneously. The public disclosure before patches were available created an urgent window of exposure where attackers could exploit vulnerable systems. Organizations using N-able must apply t",
-      "image": null,
-      "processedAt": "2026-11-11T13:52:51.118730+00:00"
-    },
-    {
-      "id": "art-3e889f08",
-      "title": "Microsoft fixes audio issues caused by September security updates",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-usb-audio-issues-caused-by-september-security-updates/",
-      "summary": "Microsoft released November 2026 cumulative updates that fix USB audio problems affecting Windows users. These audio issues emerged after security patches were deployed starting in September. The new updates resolve the compatibility problems that were introduced by the previous security releases.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "windows-update",
-        "usb-audio",
-        "patch-fix",
-        "security-update",
-        "system-stability"
-      ],
-      "whyItMatters": "When security patches cause unintended side effects like audio failures, users may delay or skip updates, leaving systems vulnerable. This situation highlights the importance of thorough testing before releasing patches and demonstrates how update issues can undermine security adoption across enterprise and consumer environments.",
-      "image": null,
-      "processedAt": "2026-11-11T13:52:53.349006+00:00"
-    },
-    {
-      "id": "art-885eef83",
-      "title": "CISA flags Cisco BroadWorks flaw as actively exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-cisco-broadworks-flaw-as-actively-exploited-in-attacks/",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) has issued a warning that attackers are actively exploiting a high-severity vulnerability in Cisco BroadWorks, a communication platform used by many organizations. This means the flaw is not just a theoretical risk but is being weaponized in real-world attacks right now. Organizations using BroadWorks need to prioritize patching this vulnerability immediately to prevent unauthorized access and potential compromise of their communications systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-broadworks",
-        "active-exploitation",
-        "patch-now",
-        "cisa-alert",
-        "high-severity",
-        "vulnerability"
-      ],
-      "whyItMatters": "Active exploitation of known vulnerabilities is an immediate threat that requires urgent action from affected organizations. Companies relying on Cisco BroadWorks for communications could face system compromise, data theft, or service disruption if they don't apply patches quickly. CISA alerts specifically warn of in-the-wild exploitation, making this a top priority for IT teams and security profe",
-      "image": null,
-      "processedAt": "2026-11-11T13:52:56.319189+00:00"
-    },
-    {
-      "id": "art-9d2d3467",
-      "title": "Microsoft fixes Exchange sign-ins broken by Windows Server updates",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-exchange-sign-ins-broken-by-october-windows-server-updates/",
-      "summary": "Microsoft released a fix for Exchange Server systems that experienced Outlook sign-in failures and mail delivery problems following the installation of October 2026 Windows Server security updates. The issue affected users' ability to access their email after applying routine security patches. Microsoft's resolution ensures that security updates can be deployed without disrupting critical email services.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "exchange-server",
-        "windows-server",
-        "outlook",
-        "patch-issues",
-        "mail-delivery"
-      ],
-      "whyItMatters": "This incident demonstrates how security patches can have unintended consequences on dependent systems, highlighting the importance of testing updates in staging environments before widespread deployment. Organizations relying on Exchange Server must balance security patching needs with service continuity, making Microsoft's rapid fix critical for maintaining business operations.",
-      "image": null,
-      "processedAt": "2026-11-11T13:52:58.710415+00:00"
-    },
-    {
-      "id": "art-1e2de8a5",
-      "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-10",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
-      "summary": "Microsoft released Patch Tuesday cumulative updates for Windows 11 across multiple versions (26H2, 25H2, 24H2, and 23H2) to address security vulnerabilities, fix bugs, and introduce new features. These updates are designed to keep Windows systems protected against known threats and maintain system stability. Users are encouraged to install these updates promptly to ensure their devices remain secure.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "windows-11",
-        "patch-tuesday",
-        "security-update",
-        "cumulative-update",
-        "vulnerability-fix"
-      ],
-      "whyItMatters": "Regular patching is critical for maintaining system security and preventing exploitation of known vulnerabilities. Delaying updates leaves systems exposed to cyberattacks, making timely installation of these cumulative patches essential for both individual users and organizations. Microsoft's Patch Tuesday releases are a primary defense mechanism against widespread security threats.",
-      "image": null,
-      "processedAt": "2026-11-11T13:53:01.156778+00:00"
     }
   ]
 }
