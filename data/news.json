@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-11-14T13:15:43.476332+00:00",
+  "lastUpdated": "2026-11-14T21:44:22.733292+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-a66db759",
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
+      "summary": "ConnectWise discovered unauthorized access attempts targeting ScreenConnect software across at least 288 endpoints in 48 different organizations using fake client connections. The company disabled five third-party extensions as a precaution and stated that the incident does not appear to stem from a software vulnerability or infrastructure compromise. This attack highlights how threat actors can exploit legitimate remote access tools to infiltrate multiple organizations simultaneously.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "remote-access-tools",
+        "unauthorized-access",
+        "supply-chain-risk",
+        "third-party-extensions",
+        "incident-response"
+      ],
+      "whyItMatters": "ScreenConnect is widely used by managed service providers and enterprises for remote support, making compromised instances a significant supply chain risk affecting dozens of organizations at once. The attack demonstrates how attackers can abuse legitimate software through rogue client connections rather than exploiting code vulnerabilities, requiring defenders to focus on access controls and beha",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEfz7InYm8UO-p35K6B4j009BxA-MO7DdZ2x1d-xhyphenhyphenPxNnVs848IlgAGelmuW-sPbEZbE8-L9_KWEYNH_M5HaTMy14MFd87A7YkqHAzDKaamKOdpZKR9owL3nK3gbqAngvWa6A4NC1KK1l0ie9FK731LfKPI0lguiGQ1b71sHIZj2kR2H3I-GJjSPY4kJU/s1600/screenconnect-hack.jpg",
+      "processedAt": "2026-11-14T21:43:58.208889+00:00"
+    },
+    {
+      "id": "art-18ac62f6",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "summary": "Zoom has released security updates to fix two vulnerabilities in Zoom Workplace for Windows, with one being a critical flaw. The most severe issue (CVE-2026-108186, CVSS 9.6) is an input validation weakness that allows unauthenticated attackers to escalate their privileges on vulnerable systems. Users should apply these updates promptly to protect their systems from potential exploitation.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "zoom-workplace",
+        "privilege-escalation",
+        "input-validation",
+        "patch-now",
+        "windows",
+        "cve-2026-108186"
+      ],
+      "whyItMatters": "This critical vulnerability poses an immediate risk because unauthenticated attackers can gain elevated privileges without valid credentials, potentially leading to complete system compromise. Organizations using Zoom Workplace for Windows must prioritize patching to prevent exploitation, as the high CVSS score indicates severe exploitability and impact.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s1600/zoom-prv.jpg",
+      "processedAt": "2026-11-14T21:44:00.672287+00:00"
+    },
+    {
+      "id": "art-590fa669",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "summary": "Researchers discovered that AntiFox, an AI-powered penetration testing platform, has been misused in cyberattacks to steal AWS credentials and gain unauthorized access to cloud environments. The malicious actors leveraged Alibaba Cloud systems hosting AntiFox interfaces to conduct lateral movement within compromised networks. This incident highlights how legitimate security tools can be weaponized by attackers to compromise cloud infrastructure.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "aws-compromise",
+        "cloud-security",
+        "credential-theft",
+        "lateral-movement",
+        "ai-security",
+        "agentic-ai-abuse"
+      ],
+      "whyItMatters": "This attack demonstrates a critical vulnerability in how cloud-hosted security tools can be abused to compromise production AWS environments, directly threatening organizations' most sensitive systems and data. Understanding this threat vector is essential for security teams managing cloud infrastructure and evaluating third-party penetration testing platforms. Organizations must implement strict ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s1600/aws-secrets.jpg",
+      "processedAt": "2026-11-14T21:44:03.483160+00:00"
+    },
+    {
+      "id": "art-846f2337",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "summary": "In October 2026, hackers attempted to compromise Qlik Sense servers across multiple European organizations by deploying PowerShell reverse shell commands, though the attacks were ultimately unsuccessful. Security researchers from Cynet's CyOps team detected the coordinated activity within a brief three-minute window, suggesting a targeted campaign. The attackers also staged exploits for ActiveMQ and Veeam, indicating preparation for potential follow-up attacks on critical infrastructure.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "reverse-shell",
+        "qlik-sense",
+        "activemq",
+        "veeam",
+        "powershell",
+        "targeted-attack"
+      ],
+      "whyItMatters": "This attack demonstrates how threat actors actively probe business intelligence and backup solutions for vulnerabilities, and the presence of staged exploits for ActiveMQ and Veeam indicates attackers are preparing for multi-stage compromise of critical business systems. Organizations running these applications need immediate awareness and should review logs for similar reconnaissance activity, as",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1600/qliksense.jpg",
+      "processedAt": "2026-11-14T21:44:06.375687+00:00"
+    },
+    {
+      "id": "art-c23e9710",
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "summary": "Security researchers discovered that over 35,000 applications built using Grok, an AI assistant, were publicly accessible without requiring user authentication. Among these exposed apps, approximately one in ten contained sensitive internal business information and passwords. The findings included applications developed by staff at X and SpaceX, revealing significant security oversights in how developers deployed AI-generated applications.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "data-breach",
+        "misconfiguration",
+        "exposed-credentials",
+        "cloud-exposure",
+        "ai-apps"
+      ],
+      "whyItMatters": "This incident highlights how AI development platforms can become vectors for widespread data exposure when security best practices are overlooked. Organizations and developers must implement proper authentication controls and conduct security reviews before deploying AI-built applications to production environments, as misconfigurations can expose thousands of apps simultaneously with minimal effo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
+      "processedAt": "2026-11-14T21:44:09.134720+00:00"
+    },
+    {
+      "id": "art-76415a3c",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "summary": "Cursor, a popular AI code editor, experienced a security breach that allowed attackers to distribute a malicious Claude Code extension through its marketplace. The breach occurred after hackers obtained credentials from Fireworks AI, an infrastructure provider that Cursor relied on. This incident highlights how compromised third-party services can be weaponized to distribute malware to end users.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "marketplace-compromise",
+        "credential-theft",
+        "malicious-extension",
+        "ai-security",
+        "third-party-risk"
+      ],
+      "whyItMatters": "This breach demonstrates a dangerous supply chain attack where attackers infiltrated a trusted software marketplace to distribute malware to developers. When third-party credentials are compromised, the blast radius extends to all users of dependent services, making this a critical risk for anyone using Cursor or similar extension marketplaces. Organizations must implement strict credential manage",
+      "image": null,
+      "processedAt": "2026-11-14T21:44:11.992144+00:00"
+    },
+    {
+      "id": "art-de3d89ac",
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-14",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "summary": "The U.S. government successfully disrupted a North Korean social engineering operation called 'FaceStealer' that had stolen over $400 million in cryptocurrency. The campaign used deceptive tactics to trick victims into revealing sensitive information or downloading malicious software. This takedown demonstrates coordinated international efforts to combat state-sponsored cybercrime targeting digital assets.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "north-korea",
+        "social-engineering",
+        "crypto-theft",
+        "facestealer",
+        "state-sponsored",
+        "disruption"
+      ],
+      "whyItMatters": "This case highlights how nation-states use sophisticated social engineering to target cryptocurrency holdings, resulting in massive financial losses. The successful disruption shows that governments are actively countering state-sponsored cybercrime, but the scale of theft demonstrates the ongoing vulnerability of digital asset holders to targeted attacks. Understanding these tactics is essential ",
+      "image": null,
+      "processedAt": "2026-11-14T21:44:14.234809+00:00"
+    },
+    {
+      "id": "art-0b8060d7",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-19",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "summary": "Federal investigators have identified executives at ransomware negotiation firms who allegedly had suspicious connections to the ShinyHunters hacking group, which recently stole sensitive FBI data. One U.S.-based executive is suspected of helping ShinyHunters run an extortion website designed to force victims into paying ransoms. This discovery reveals potential insider collaboration between legitimate negotiation firms and criminal hacking operations.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "extortion",
+        "insider-threat",
+        "shiny-hunters",
+        "fbi-data-breach",
+        "law-enforcement"
+      ],
+      "whyItMatters": "This case demonstrates a dangerous intersection of cybercrime and legitimate business, showing how trusted intermediaries could potentially be compromised to facilitate ransomware operations. When negotiation firms—entities designed to help victims—are infiltrated by criminals, it undermines the entire ransomware response ecosystem and puts organizations at greater risk. Understanding these connec",
+      "image": null,
+      "processedAt": "2026-11-14T21:44:17.015280+00:00"
+    },
+    {
+      "id": "art-dfad1c00",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "summary": "The United Kingdom has imposed economic sanctions on Cryptomus, a cryptocurrency platform accused of facilitating illegal financial activities including ransomware payments, drug trafficking, and darknet market transactions. This action targets the platform's role in helping Russia evade international financial restrictions and supporting various cybercrime operations. The sanctions demonstrate governments' efforts to disrupt the financial infrastructure that enables cybercriminals to profit from their activities.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cryptocurrency-laundering",
+        "sanctions",
+        "ransomware-payments",
+        "russia",
+        "financial-crime",
+        "darknet"
+      ],
+      "whyItMatters": "Disrupting cryptocurrency platforms used for ransomware payments and cybercrime financing directly impacts threat actors' ability to monetize attacks and operate. Understanding which platforms face sanctions helps organizations and security professionals identify where criminal money flows, informing better incident response and threat intelligence strategies. This action signals increased governm",
+      "image": null,
+      "processedAt": "2026-11-14T21:44:20.080860+00:00"
+    },
+    {
+      "id": "art-c5028fee",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "summary": "Microsoft released security patches for over 1,400 vulnerabilities across its Windows operating systems and other products, more than double the previous record set just one month earlier. This massive surge in fixes suggests a significant increase in security threats or discovered flaws that require urgent attention. The volume represents a dramatic increase compared to Microsoft's typical monthly patch releases.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-patches",
+        "windows-security",
+        "vulnerability-fixes",
+        "patch-management",
+        "software-updates"
+      ],
+      "whyItMatters": "Organizations relying on Microsoft products face an unusually large number of vulnerabilities that could be exploited if not patched quickly. The unprecedented volume of fixes indicates a heightened threat landscape and demands that IT teams prioritize applying these updates to prevent potential security breaches. Delayed patching during such high-volume release cycles significantly increases orga",
+      "image": null,
+      "processedAt": "2026-11-14T21:44:22.733153+00:00"
+    },
     {
       "id": "art-439a53f9",
       "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
@@ -829,212 +1037,6 @@
       "whyItMatters": "This vulnerability directly threatens the security of web infrastructure worldwide, as Apache HTTP Server powers a significant portion of internet-facing servers. Attackers can exploit this flaw without credentials to gain complete control over affected systems, making immediate patching essential. Organizations running Apache must prioritize this update to prevent potential data theft, service di",
       "image": null,
       "processedAt": "2026-11-12T22:55:56.284041+00:00"
-    },
-    {
-      "id": "art-09e3f7c1",
-      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-      "summary": "Google Cloud discovered three CPU side-channel vulnerabilities in AMD Turin processors that could allow attackers to steal data from other processes running on the same VM core. While Google has already protected against attacks between different VMs and between VMs and hosts, users must apply guest OS patches and restart their VMs to defend against threats from malicious code within the same virtual machine. These flaws exploit weaknesses in the processor's architecture rather than software bugs.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "amd-turin",
-        "side-channel-attack",
-        "cpu-vulnerability",
-        "cloud-security",
-        "patch-required",
-        "vm-isolation"
-      ],
-      "whyItMatters": "This vulnerability affects cloud infrastructure at scale and requires immediate patching by affected users, as it bypasses traditional VM isolation boundaries. Side-channel CPU flaws are particularly dangerous because they exploit the processor itself rather than software, making them difficult to defend against without hardware or OS-level fixes. Organizations running sensitive workloads on Googl",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikEkIc_eg4_tE5XE6CQrLFl74Gk0QwxcqaGXBnDAlitVIbzreq8faf57QtAqFh8rEn7HgTJzvGUZl2yNBhWVKOKo9KqnJHfduQfoT_HqUTlKhE-FzshzDrpIskiMQ3_Lz2hImNMbt9VdCj0O725_WyZsDXDB91phFceXh6Y_qzHgv1nJPMNjv8a7AU52c/s1600/amd.jpg",
-      "processedAt": "2026-11-12T14:54:29.562055+00:00"
-    },
-    {
-      "id": "art-588227fb",
-      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-      "summary": "Security teams struggle to quickly identify who or what is behind suspicious activities, even with numerous monitoring tools and alerts. The article discusses how identity-related blind spots—such as difficulty distinguishing between employee logins, machine accounts, and AI agents—can create security gaps. A webinar explores how organizations can better understand and close these identity visibility gaps to strengthen their security operations.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "identity-management",
-        "soc-operations",
-        "visibility-gaps",
-        "access-control",
-        "threat-detection",
-        "security-monitoring"
-      ],
-      "whyItMatters": "Organizations cannot effectively respond to threats if they cannot quickly identify what entity is performing suspicious activities or what resources it can access. Closing identity blind spots is critical for reducing response times, preventing unauthorized access, and improving the overall effectiveness of security operations centers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj765JyAl658UR5d1raKFLJmZpxXuof0-wBCobeJwnWjWZROTa4wtMyPvTTjBr4-ccE0cmKpIyGT1BetlqUPkPS_omcKVWz7RcCv6sUl2h6KxXrem_X26kzrp7kwq8bSezUsYMa6h2JNh-rPglsuNnRzt6i3IdzBjkLFNBNy5-Y0jId2B6Zhyir_jdm8O4/s1600/sails.jpg",
-      "processedAt": "2026-11-12T14:54:32.125062+00:00"
-    },
-    {
-      "id": "art-35fe9c8f",
-      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-      "summary": "N-able discovered new vulnerabilities in N-central versions 2026.4.1 HF2 that can be exploited to achieve remote code execution and system-level access, even on patched servers. The vulnerabilities require the Legacy API to be enabled and exposed to the internet, which is a non-default configuration. This disclosure highlights that additional security issues may exist beyond what has been patched, putting organizations using N-central at risk if they have this legacy feature enabled.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "n-central",
-        "remote-code-execution",
-        "privilege-escalation",
-        "legacy-api",
-        "patch-bypass",
-        "on-premise"
-      ],
-      "whyItMatters": "Organizations running N-central may believe their systems are secure after applying patches, but these new exploits demonstrate that additional vulnerabilities can still be leveraged, particularly when legacy features are exposed. This underscores the importance of disabling unnecessary legacy services and regularly reviewing security configurations beyond just applying patches.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4KdRS0v77uQIdhC0i5aopa8XIAZIRnTzVCVqto7dEdfUH2QyWgrAy1EKu-hARXS4pxNGQQEFroRHOtwSq_9Q8b92tmgw_97JMJoBfC72sl8pOcUYM9nU6YCJht4yD7ALWfERwhUwLsN8wo9t8YnKyIWzHhEAux5ox5WV4wvxe6l1cUmf58P1md2Ekziy/s1600/nable.jpg",
-      "processedAt": "2026-11-12T14:54:34.986230+00:00"
-    },
-    {
-      "id": "art-52c6d5d6",
-      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html",
-      "summary": "A phishing campaign called Operation CloudFire has been targeting corporate users since mid-August 2026 by stealing active Google sessions through malicious calendar invites and live proxies. The attackers deliberately crafted their links to bypass standard security checks that defenders typically rely on, making detection unusually difficult. Material Security's Threat Research team identified the campaign and successfully took down hundreds of attacker-controlled domains involved in the operation.",
-      "category": "Phishing",
-      "severity": "Critical",
-      "tags": [
-        "phishing",
-        "session-hijacking",
-        "google-accounts",
-        "corporate-targeting",
-        "live-proxies",
-        "operation-cloudfire"
-      ],
-      "whyItMatters": "This campaign demonstrates an evolving threat where attackers deliberately evade traditional link-scanning defenses, meaning organizations cannot rely solely on automated security tools to catch these phishing attempts. Session hijacking grants attackers complete access to legitimate corporate accounts without requiring password compromise, posing an immediate risk to sensitive business data and s",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf8YVgw9hIWEYN0_qgaD6MVIZad0fOCu_J5Z4Cn2CDuMzcV7HOQ9Xt4E08l1nOo7uMjAyYqYP-bUy5zHisRW8cfeSVmJcCKYgCTI2y1MpRUwsM1I2cs0MsuoAy7VSGLyTPzonhKITzWPU1hTADZnFt5VTZhlt4eJohVas2tzhl47AOV3Cp53LC_uhlpVY/s1600/mt.jpg",
-      "processedAt": "2026-11-12T14:54:37.945351+00:00"
-    },
-    {
-      "id": "art-d7a25d4b",
-      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html",
-      "summary": "PTC has released security patches for a critical vulnerability affecting Windchill and FlexPLM software that could allow attackers to execute code remotely. The flaw, identified as CVE-2026-126325 with a high CVSS score of 9.2, stems from improper handling of untrusted data during deserialization. Organizations using these products need to apply patches immediately to prevent potential system compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "critical-vulnerability",
-        "remote-code-execution",
-        "patch-now",
-        "windchill",
-        "flexplm",
-        "cve-2026-126325"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and severe risk to enterprises relying on PTC's widely-used product lifecycle management software, as successful exploitation could grant attackers complete system control. The high CVSS score and availability of patches make this a top priority for IT teams to address quickly before malicious actors develop active exploits. Delayed patching exposes organizati",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi01pvi78xYUtyxbtWQ4L5ddMr1yT2-WBSbAnp3wKXa-bpagXqtyQdxPqA43I1NxJGNLk4He30PS-GYUcd1sOaErtMAtNWL-qQUGfD0Y7wSxAzeYJXRf2lA5yFuznu8m2zRgf2llXMiR3w1H6YOOte5qs_DvRxcv0aPeOxWeIDybl1n58VlpuZPUJ0icWDL/s1600/ptc-flaw.jpg",
-      "processedAt": "2026-11-12T14:54:40.601476+00:00"
-    },
-    {
-      "id": "art-4ddf7f54",
-      "title": "Apify rotates API tokens, prompts 2FA resets after breach",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/apify-rotates-api-tokens-prompts-2fa-resets-after-breach/",
-      "summary": "Apify discovered that attackers gained unauthorized access to its internal systems, prompting the company to rotate API tokens and revoke third-party OAuth connections as containment measures. Users are being urged to reset their two-factor authentication to prevent further compromise. This incident highlights the importance of securing API credentials and monitoring for signs of unauthorized system access.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "api-security",
-        "data-breach",
-        "credential-rotation",
-        "oauth",
-        "incident-response"
-      ],
-      "whyItMatters": "Compromised API tokens and internal secrets can allow attackers to impersonate legitimate users and access sensitive data or services, making credential rotation and 2FA resets critical defensive actions. This incident demonstrates why organizations must implement continuous monitoring, rapid breach detection, and have incident response procedures ready to minimize the window of exposure.",
-      "image": null,
-      "processedAt": "2026-11-12T14:54:43.257151+00:00"
-    },
-    {
-      "id": "art-18cdb452",
-      "title": "Microsoft: Recent Windows updates cause SQL Server performance issues",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-sql-server-performance-issues/",
-      "summary": "Microsoft has identified that Windows updates released after October 2026 Patch Tuesday are negatively affecting SQL Server performance and stability. Organizations running SQL Server on affected Windows systems may experience degraded database performance and potential service disruptions. This issue highlights the importance of testing updates in non-production environments before deployment.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "windows-updates",
-        "sql-server",
-        "performance-issues",
-        "patch-management",
-        "system-stability"
-      ],
-      "whyItMatters": "This issue directly impacts database-dependent organizations and can cause operational disruptions if updates are deployed without testing. Understanding patch-related side effects is critical for IT teams to balance security with system stability and plan appropriate remediation strategies.",
-      "image": null,
-      "processedAt": "2026-11-12T14:54:45.710610+00:00"
-    },
-    {
-      "id": "art-04898635",
-      "title": "Microsoft confirms Windows security updates installation issues",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5132061-installation-issues-0x80070306-0x800f0989-0x800f0993-errors/",
-      "summary": "Microsoft has acknowledged a problem where November 2026 security updates are failing to install on Windows 11 devices that have the October preview update already applied. This installation failure prevents systems from receiving critical security patches, leaving them potentially vulnerable to attacks. Users experiencing this issue need to resolve the conflict between the preview and security updates to protect their systems.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "windows-update",
-        "patch-failure",
-        "security-updates",
-        "windows-11",
-        "installation-issue"
-      ],
-      "whyItMatters": "Failed security updates leave systems exposed to known vulnerabilities that attackers can exploit. When patches fail to install, organizations and users cannot close security gaps, making this a significant operational and security risk that requires immediate attention and resolution.",
-      "image": null,
-      "processedAt": "2026-11-12T14:54:48.068466+00:00"
-    },
-    {
-      "id": "art-99bb3c6f",
-      "title": "Hackers plant GSocket on Linux servers for persistent access",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-plant-gsocket-on-linux-servers-for-persistent-access/",
-      "summary": "Hackers are exploiting GSocket, a legitimate open-source remote access tool, to maintain persistent access to Linux servers after compromising them through vulnerabilities. By using this legitimate tool, attackers can hide their presence even after security patches are applied to the initial vulnerabilities. This technique allows threat actors to retain control of compromised systems for long-term unauthorized access.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "linux-security",
-        "persistent-access",
-        "legitimate-tool-abuse",
-        "server-compromise",
-        "post-exploitation"
-      ],
-      "whyItMatters": "This highlights a critical gap in security posture where patching vulnerabilities alone is insufficient if attackers have already established persistent access using legitimate tools. Organizations must implement comprehensive monitoring and detection systems beyond vulnerability management to identify suspicious legitimate tool usage and unauthorized remote access attempts.",
-      "image": null,
-      "processedAt": "2026-11-12T14:54:50.382959+00:00"
-    },
-    {
-      "id": "art-7323b735",
-      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
-      "summary": "Cybercriminals are exploiting Alibaba Cloud infrastructure to deploy AntiFox, a publicly available penetration testing tool, to conduct targeted attacks against web services and Amazon Web Services (AWS) environments. By hosting their own instances of this open-source platform, attackers are using legitimate security tools for malicious purposes to steal AWS credentials and gain unauthorized access to cloud systems. This demonstrates how attackers repurpose defensive security frameworks to compromise cloud infrastructure at scale.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "aws-attacks",
-        "credential-theft",
-        "ai-agents",
-        "alibaba-cloud",
-        "penetration-testing-abuse"
-      ],
-      "whyItMatters": "This attack pattern highlights a critical vulnerability in cloud security: legitimate penetration testing tools are being weaponized by attackers to target AWS environments, making it harder for defenders to distinguish between authorized testing and malicious activity. Organizations using cloud services must implement stronger access controls and monitoring to detect credential theft attempts, as",
-      "image": null,
-      "processedAt": "2026-11-12T14:54:53.629867+00:00"
     }
   ]
 }
