@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-11-13T22:58:12.290655+00:00",
+  "lastUpdated": "2026-11-14T13:15:43.476332+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-439a53f9",
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-14",
+      "originalUrl": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "summary": "CISA has added a high-severity vulnerability (CVE-2026-114713) affecting UnrealIRCd, an open-source IRC server, to its list of actively exploited vulnerabilities. The flaw allows attackers to inject commands at the server level by improperly handling delimiters, with a CVSS score of 8.6 indicating significant risk. Organizations running UnrealIRCd should prioritize patching to prevent attackers from gaining control of their IRC infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "unrealircd",
+        "command-injection",
+        "active-exploitation",
+        "cisa-kev",
+        "server-vulnerability",
+        "patch-required"
+      ],
+      "whyItMatters": "This vulnerability is actively being exploited in the wild and enables complete server compromise through command injection, making it a critical threat to any organization running UnrealIRCd. The addition to CISA's KEV catalog signals urgent real-world danger and should trigger immediate patching responses. IRC servers, while sometimes overlooked, can be entry points to broader network infrastruc",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjuvSsWcsJ9736KXp_0s-6__-CiI5PD71VReembVHAB4cfnv3Qti8td9WR54UnRH96bz30dvbTQxwG3WbxDkWRq_eFJPYLgxbAzRD5k3MJSISbW2VDI-Fr7nlX4j8NyJkXqLHylMZMXpynEHVV8ovZ2YPC-WGCFCcrOZOeGc5Wsy-jRjjbcyYTzojI9Nudw/s1600/cisaa.jpg",
+      "processedAt": "2026-11-14T13:15:22.426295+00:00"
+    },
+    {
+      "id": "art-9931a799",
+      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html",
+      "summary": "MongoDB Server contains a critical vulnerability that allows attackers without authentication to crash database servers by sending two specially crafted requests. The crash is particularly dangerous during failover scenarios when an affected server is promoted to become the primary server while still missing recent data. MongoDB has already released patched versions to address this issue.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "mongodb",
+        "pre-auth-vulnerability",
+        "database-security",
+        "failover-risk",
+        "patch-required",
+        "cve-2026-118383"
+      ],
+      "whyItMatters": "This vulnerability is critical because it enables unauthenticated attackers to disrupt MongoDB deployments without needing valid credentials, and the failover mechanism amplifies the risk by potentially making the crash permanent when the server takes over as primary. Organizations running MongoDB replica sets need immediate patching to prevent service outages and potential data consistency issues",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj6RJLDSM13MwenwxG4xnZ-Td2_zmnya-Y39FLHlNk-7P3hZ5w1qGjG3XFqT-4gaeZIxSepWWNM53bKTIkZBNA-X_tVKsrgWbw8u81mjLzL6dXvTtvKfKeT-FkwSz4CsdMoHNza2NRFy0PJzzmaMROCr3D7e6AKT5UR3Lh4zFb_1w9HMmXXKKvATVWHU-E/s1600/mongo-poc.gif",
+      "processedAt": "2026-11-14T13:15:24.854488+00:00"
+    },
+    {
+      "id": "art-108a56f2",
+      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html",
+      "summary": "Node.js released security updates addressing 16 vulnerabilities, with two critical HTTP/2 flaws being particularly concerning. The first flaw allows unauthenticated attackers to crash servers running Node.js versions 24.x and 26.x, while the second vulnerability can leak sensitive data from server memory to clients, including responses intended for other users. Fixed versions 22.23.5, 24.22.3, and 26.13.1 are now available to address these issues.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "node-js",
+        "http2",
+        "denial-of-service",
+        "data-leak",
+        "memory-exposure",
+        "patch-now"
+      ],
+      "whyItMatters": "These vulnerabilities directly impact web servers using Node.js, making them susceptible to both availability attacks and data theft without authentication. Organizations running affected versions face immediate risks of service disruption and exposure of sensitive information, making rapid patching essential for production environments.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhD-9bYYTxb5WmvOmftwsTAe5hDcHyjm12YlQj320OhT6WqICBOe0D6nQf-PPslE-I0c0r8xvZdTAXfyPwGQxHWRiQ5HSIPEZGEiNrE15ygDNZCRzzVvGugdRlIq6IARQf38iJG-MN-uo7MvdXXcA0wXIGDm0-olouPSw_SbBm2-2CYGHb4uHgtREv2ycI/s1600/nodeks.jpg",
+      "processedAt": "2026-11-14T13:15:27.183730+00:00"
+    },
+    {
+      "id": "art-9277e648",
+      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html",
+      "summary": "An attacker compromised over 4,800 GitHub accounts and used them to inject malicious code into more than 1,800 repositories. The injected code was designed to steal sensitive credentials and secrets that CI/CD workflows can access. This attack demonstrates how compromised developer accounts can be weaponized at scale to target the software supply chain.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "github-compromise",
+        "supply-chain-attack",
+        "credential-theft",
+        "ci-cd-hijacking",
+        "mass-account-compromise"
+      ],
+      "whyItMatters": "This large-scale attack directly threatens the software supply chain by compromising credentials stored in CI/CD pipelines, potentially allowing attackers to access cloud infrastructure and sensitive systems across thousands of projects. Organizations need to implement stronger credential management, multi-factor authentication, and CI/CD pipeline security to prevent similar attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1-4OiOkGLcK3fAr2HdhALOfc_BqR21440TsjUIuCNzv4YL0lWRC3lvUjE1vu2RdVfjunxi80gMQyGpjvUdWzMRtthW8_-hFOJ79YhFzJrNGgoKDPYXm2OaWOsN8kgBELqOPs5s9QKL4qzQzu_3NEEqHygpfQzKYxDRIQeFgMHj24oyPyaslUemke-loU/s1600/github.jpg",
+      "processedAt": "2026-11-14T13:15:29.269382+00:00"
+    },
+    {
+      "id": "art-f262dd7d",
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html",
+      "summary": "Apache HTTP Server's HTTP/2 module contains a critical vulnerability (CVE-2026-119618) that allows remote attackers to execute code without authentication. The flaw affects versions 2.4.55 through 2.4.70, and a patch is available in version 2.4.71. Only servers with HTTP/2 enabled are at risk, particularly those running on Red Hat Enterprise Linux.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "apache",
+        "http2",
+        "remote-code-execution",
+        "cve-2026-119618",
+        "patch-available",
+        "mod_http2"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to web server infrastructure worldwide, as Apache HTTP Server is one of the most widely deployed web servers. Unauthenticated remote code execution allows attackers to compromise servers and gain complete control, making immediate patching to version 2.4.71 essential for any organization running affected versions.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjLpi_uN6PmG2Gn1agNMsOrsCp324eH-utKkDl_SPe32ggjcWFPjxZSyeA1KvAtvI9SQ4VAN_zssvdJLJ59IXE8_-MatPOyFXY-FcwtL7HtfKyW3MtsKwglIe2X62WBOcUkPMv-klM1h8T2EBMWFOWyPG89bfbAHS5byyfXATXN_lUUJWmUGWChekyWxTQ/s1600/apache-http.jpg",
+      "processedAt": "2026-11-14T13:15:31.473419+00:00"
+    },
+    {
+      "id": "art-9cd77b73",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "summary": "Qilin has become the most active ransomware affiliate program globally, with over 365 victims claimed in just three months. Security researchers have identified the group's administrator as a 36-year-old individual based in St. Petersburg, Russia, by analyzing operational security lapses made over the past decade. This discovery provides important insight into how even sophisticated cybercriminals can make mistakes that reveal their identities.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "qilin",
+        "cybercrime",
+        "affiliate-program",
+        "threat-actor-identification",
+        "russia"
+      ],
+      "whyItMatters": "Identifying key figures behind major ransomware operations helps law enforcement and security teams better understand and combat active threats. Understanding Qilin's structure and leadership is critical since it represents the most prolific ransomware affiliate program currently operating. Organizations need this intelligence to prioritize defenses against the group's tactics and coordinate respo",
+      "image": null,
+      "processedAt": "2026-11-14T13:15:33.988071+00:00"
+    },
+    {
+      "id": "art-eb82c44c",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "summary": "Microsoft released security updates addressing nearly 1,100 vulnerabilities across its Windows and software products during this month's Patch Tuesday. The update includes fixes for 63 critical flaws, with one being a previously unknown zero-day vulnerability in Microsoft Outlook. Other major software companies like Adobe, Apple, Google, and Mozilla also released concurrent security updates.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "patch-tuesday",
+        "zero-day",
+        "critical-vulnerabilities",
+        "outlook",
+        "windows-security"
+      ],
+      "whyItMatters": "The large number of critical vulnerabilities, especially an active zero-day in widely-used Outlook, makes this patch cycle urgent for organizations and users. Delaying these updates significantly increases the risk of exploitation by threat actors targeting unpatched systems. Coordinated patching across multiple major software vendors indicates a critical security period requiring immediate action",
+      "image": null,
+      "processedAt": "2026-11-14T13:15:36.383090+00:00"
+    },
+    {
+      "id": "art-60285308",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "summary": "White House staff members are using computers and devices with residential proxy services enabled, which allows their internet addresses to be rented out to others. Security researchers discovered that one of these proxy services is operated by a Russian company whose previous web hosting business was linked to cyberattacks on U.S. election systems. This situation creates significant security risks by potentially exposing government networks and sensitive operations to unauthorized access and monitoring.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "proxy-service",
+        "government-security",
+        "network-exposure",
+        "russian-threat-actor",
+        "election-infrastructure"
+      ],
+      "whyItMatters": "This represents a critical vulnerability in U.S. government security infrastructure, as White House staff inadvertently providing access to their IP addresses through residential proxies could enable foreign adversaries to infiltrate sensitive government systems. The involvement of a Russian company with a history of facilitating cyberattacks on election infrastructure elevates the threat to natio",
+      "image": null,
+      "processedAt": "2026-11-14T13:15:39.133576+00:00"
+    },
+    {
+      "id": "art-d8e67d57",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-03",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "summary": "Google and industry partners successfully shut down a botnet that infected over 1.3 million Android TV set-top boxes with malicious software. The compromised devices were being exploited to illegally rent out users' internet connections and commit advertising fraud. The takedown is expected to disrupt access to approximately 10 million additional infected IoT devices, including healthcare equipment and karaoke machines.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "iot-security",
+        "android-tv",
+        "malware-takedown",
+        "internet-proxies",
+        "advertising-fraud"
+      ],
+      "whyItMatters": "This incident demonstrates how consumer IoT devices shipped with pre-installed malware can be weaponized at scale to compromise millions of systems and user resources. The successful takedown highlights the importance of coordinated industry action against botnets, while also revealing critical supply chain vulnerabilities in consumer electronics that require stronger security practices from manuf",
+      "image": null,
+      "processedAt": "2026-11-14T13:15:41.457369+00:00"
+    },
+    {
+      "id": "art-1f611944",
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "summary": "A critical PHP vulnerability affecting nearly 70% of websites worldwide has been discovered and is already being actively exploited by attackers. The flaw allows threat actors to gain complete control over vulnerable servers. Website administrators need to apply security patches immediately to prevent potential outages and server compromises.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "critical-patch",
+        "server-compromise",
+        "active-exploitation",
+        "widespread-impact"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to a massive portion of the internet infrastructure, as attackers have working exploits already in use. Organizations must prioritize patching to prevent full server takeover, data theft, and service disruption. The widespread nature of affected systems makes this a foundational cybersecurity emergency requiring urgent response.",
+      "image": null,
+      "processedAt": "2026-11-14T13:15:43.476204+00:00"
+    },
     {
       "id": "art-efbdb62a",
       "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
@@ -829,213 +1035,6 @@
       "whyItMatters": "This attack pattern highlights a critical vulnerability in cloud security: legitimate penetration testing tools are being weaponized by attackers to target AWS environments, making it harder for defenders to distinguish between authorized testing and malicious activity. Organizations using cloud services must implement stronger access controls and monitoring to detect credential theft attempts, as",
       "image": null,
       "processedAt": "2026-11-12T14:54:53.629867+00:00"
-    },
-    {
-      "id": "art-2edaafba",
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "summary": "Zoom has released updates to fix two security flaws in Zoom Workplace for Windows, with one critical vulnerability (CVE-2026-108186, CVSS 9.6) allowing attackers without authentication to gain elevated privileges on affected systems through improper input validation. This flaw poses an immediate risk to organizations using Zoom Workplace as it could enable unauthorized system-level access. Users should apply the available patches urgently to prevent potential exploitation.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "zoom-workplace",
-        "privilege-escalation",
-        "input-validation",
-        "patch-urgent",
-        "windows-systems",
-        "unauthenticated-access"
-      ],
-      "whyItMatters": "A critical, unauthenticated privilege escalation vulnerability in widely-used Zoom Workplace software creates an immediate risk for organizations, as attackers could gain administrative access without valid credentials. Rapid patching is essential to prevent widespread exploitation, making this a top priority for IT teams managing Zoom deployments. This demonstrates why timely security updates are",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s1600/zoom-prv.jpg",
-      "processedAt": "2026-11-11T23:45:41.689808+00:00"
-    },
-    {
-      "id": "art-7e0a8a8b",
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "summary": "Researchers discovered that AntiFox, an AI-powered penetration testing platform, has been weaponized in cyberattacks to steal AWS credentials and gain unauthorized access to cloud environments. The malicious actors exploited Alibaba Cloud systems hosting AntiFox interfaces to compromise targets and move laterally through their networks. This incident highlights how legitimate security tools can be repurposed for malicious purposes when misused.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "aws-compromise",
-        "cloud-security",
-        "ai-security",
-        "credential-theft",
-        "lateral-movement",
-        "alibaba-cloud"
-      ],
-      "whyItMatters": "This attack demonstrates a critical supply-chain-style threat where legitimate penetration testing platforms can be exploited to breach production cloud environments and steal sensitive credentials. Organizations using or exposed to AntiFox need immediate visibility into whether their AWS accounts were targeted. The incident underscores the need for strict access controls, credential rotation poli",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s1600/aws-secrets.jpg",
-      "processedAt": "2026-11-11T23:45:44.649729+00:00"
-    },
-    {
-      "id": "art-4a8fcd88",
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-      "summary": "Hackers have been targeting Qlik Sense servers to deliver PowerShell reverse shells, with multiple unsuccessful attacks detected against European customers in October 2026. Security researchers from Cynet identified these suspicious activities within a very short timeframe, indicating a coordinated campaign. The attackers were also attempting to stage exploits for ActiveMQ and Veeam vulnerabilities alongside the initial attacks.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "qlik-sense",
-        "reverse-shell",
-        "powershell",
-        "activemq",
-        "veeam",
-        "targeted-attack"
-      ],
-      "whyItMatters": "This attack demonstrates a multi-stage exploitation strategy targeting enterprise business intelligence servers, which often contain sensitive data and have broad network access. Organizations using Qlik Sense need to urgently review their security controls and patch known ActiveMQ and Veeam vulnerabilities to prevent successful compromise. The coordinated nature and rapid timeframe of these attac",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1600/qliksense.jpg",
-      "processedAt": "2026-11-11T23:45:47.481526+00:00"
-    },
-    {
-      "id": "art-137fdf31",
-      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-      "summary": "Microsoft researchers discovered that AI models can be compromised by modifying fewer than 10 rarely-used neurons to create hidden backdoors without retraining the entire model. When a specific trigger is activated, the backdoored model executes commands with the permissions of any AI agent using it. This attack requires the attacker to have access to modify the model's weights, presenting a significant security risk for deployed AI systems.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "backdoor-attack",
-        "model-tampering",
-        "neural-network-vulnerability",
-        "ai-agent-risk"
-      ],
-      "whyItMatters": "This research reveals a practical vulnerability in deployed AI systems where minimal modifications to model parameters can enable undetected backdoors, posing an urgent threat to organizations relying on AI agents for critical operations. The ease and efficiency of this attack method means defenders must implement strict access controls on model weights and develop detection mechanisms to identify",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3GT7PJRzHrU1jqZ7Qt0MYIOeL97NYpY4E-aY-Jh9WrLRSLpjaLEIjeAdOagTcUfo7MU9yXmk7HPgPHuGKkEidZkw-2Ojtty9z1PX2Qmmj-h0Kk3X-3VsIg6Lggpoblf-1SE5GHU9LB-P6WeOrfNVgIl1e7q0FxS6obF07BEd8HVcXgSyd_7ZSV8hB01E/s1600/ms-ai-backdoor.jpg",
-      "processedAt": "2026-11-11T23:45:50.311142+00:00"
-    },
-    {
-      "id": "art-69c21ab6",
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has officially recognized two active security vulnerabilities in Cisco BroadWorks and Openwave Messaging systems that are currently being exploited by attackers. One of these flaws, CVE-2026-20320, involves improper XML external entity handling with a severity score of 7.5. Organizations using these systems need to prioritize applying available patches immediately to prevent ongoing attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-broadworks",
-        "openwave",
-        "active-exploitation",
-        "cve-2026-20320",
-        "patch-required",
-        "xml-vulnerability"
-      ],
-      "whyItMatters": "When vulnerabilities are actively exploited in the wild, attackers have proven techniques to compromise systems, making patching a matter of urgent priority rather than routine maintenance. CISA's inclusion in the KEV catalog signals that real-world attacks are happening now, not hypothetically, putting any unpatched systems at immediate risk of compromise. Organizations running these communicatio",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4aXykaOroazGO_7IuXugse9ynGpt1PkKJDM8lKL4by93ixX28cs23KAZZRF2dCN2cogu1ti8q5kmqfqSBLmOXWkVi7ZGWmwYMkeCOUXsOXwLoF07FbzmVnlr9DoeqtCboI_9LKWgohgWi2jIB1TzGO6uEkp5lsMnq5fSVqrN-NZGJjAQE2kIUyHsdkw6J/s1600/cisa-cisco.jpg",
-      "processedAt": "2026-11-11T23:45:53.482664+00:00"
-    },
-    {
-      "id": "art-dcfe9bef",
-      "title": "Baker Tilly notifies clients of data breach at third-party provider",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
-      "summary": "Baker Tilly Advisory Group has alerted its clients that their personal information and that of their dependents has been compromised in a data breach affecting a third-party provider. The breach exposed sensitive data that clients had entrusted to the organization through external service providers. This incident highlights the risks associated with relying on third-party vendors who may have weaker security controls than primary organizations.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "personal-information",
-        "vendor-security",
-        "client-notification"
-      ],
-      "whyItMatters": "Third-party data breaches pose significant organizational risk because companies often have less direct control over external providers' security practices, yet remain liable for data compromises. This incident demonstrates the importance of vendor security assessments and contractual requirements for data protection. Organizations must implement robust supply chain security measures and incident ",
-      "image": null,
-      "processedAt": "2026-11-11T23:45:56.078433+00:00"
-    },
-    {
-      "id": "art-a2c6310a",
-      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
-      "summary": "ConnectWise is investigating a malware campaign that targets managed service providers by compromising their ScreenConnect remote access tools. The attackers then use these compromised environments to install unauthorized remote-access clients on customer devices. This attack affects multiple organizations that rely on MSPs for IT support, creating a supply-chain security risk.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "msp-attacks",
-        "supply-chain-risk",
-        "screenconnect",
-        "remote-access-abuse",
-        "malware-deployment",
-        "active-exploitation"
-      ],
-      "whyItMatters": "MSPs are trusted intermediaries with broad access to customer networks, making compromised MSP tools a dangerous attack vector that can impact dozens of organizations at once. Attackers leveraging legitimate remote-access platforms like ScreenConnect to deploy malware bypasses many security controls and is extremely difficult to detect. Organizations using MSPs must immediately verify their remote",
-      "image": null,
-      "processedAt": "2026-11-11T23:45:58.950932+00:00"
-    },
-    {
-      "id": "art-5ec38fc1",
-      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
-      "summary": "eMudhra, a certificate authority, has revoked eight more intermediate CA certificates due to improper handling of private keys during their generation process. This follows a recent security incident where the company discovered flaws in how it manages sensitive cryptographic material. The incident highlights serious weaknesses in the certificate issuance process at a trusted security provider.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "certificate-authority",
-        "private-key-compromise",
-        "ca-security",
-        "cryptographic-failure",
-        "certificate-revocation"
-      ],
-      "whyItMatters": "Certificate authorities are trusted infrastructure that secure internet communications; compromised CA certificates can enable attackers to impersonate legitimate websites and intercept encrypted traffic. When a CA mishandles private keys, it undermines trust across the entire digital ecosystem and potentially affects millions of users relying on those certificates. Organizations must verify their",
-      "image": null,
-      "processedAt": "2026-11-11T23:46:01.409888+00:00"
-    },
-    {
-      "id": "art-19ed7e0a",
-      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
-      "summary": "Notion experienced a security breach through its third-party AI infrastructure provider, Fireworks AI, which resulted in the exposure of customer AI chat transcripts. The breach affected a limited number of Notion workspaces, compromising sensitive conversation data that users thought was secure. This incident highlights how security vulnerabilities at external service providers can directly impact the safety of user data stored on major platforms.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "ai-security",
-        "cloud-security",
-        "transcript-exposure",
-        "vendor-compromise"
-      ],
-      "whyItMatters": "This breach demonstrates a critical cybersecurity principle: organizations are only as secure as their weakest third-party vendors. Even if Notion's own security is robust, relying on external AI providers introduces supply-chain risks that can expose sensitive customer data. Users and businesses must understand that cloud-based services require vetting vendor security practices to protect their c",
-      "image": null,
-      "processedAt": "2026-11-11T23:46:04.342945+00:00"
-    },
-    {
-      "id": "art-c5493fdb",
-      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
-      "summary": "Maersk, a major shipping company, confirmed it suffered a data breach when attackers gained unauthorized access to a legacy system that came from a previous acquisition. The threat group WhiteArmor is demanding $5 million in ransom for the stolen data. This incident highlights how older inherited systems can become security weak points if not properly updated and monitored.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "data-breach",
-        "legacy-systems",
-        "maersk",
-        "whitearmor",
-        "extortion"
-      ],
-      "whyItMatters": "This breach demonstrates that legacy systems acquired through mergers are often overlooked security risks that attackers actively target. High-profile companies like Maersk facing ransomware demands shows that even large organizations with substantial resources remain vulnerable to data theft and extortion attacks. Organizations need to prioritize inventory and security assessments of all inherite",
-      "image": null,
-      "processedAt": "2026-11-11T23:46:06.921163+00:00"
     }
   ]
 }
