@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-11-14T21:44:22.733292+00:00",
+  "lastUpdated": "2026-11-15T13:43:54.489258+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-31a80b63",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-15",
+      "originalUrl": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "summary": "Meta received an €805 million fine from Italy's data protection authority for allowing Facebook's Android app to access users' photo galleries and metadata without explicit permission. The feature was enabled by default, allowing the app to suggest photos and videos for posting without users actively opting in. The company has been given 60 days to address the violation.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "privacy-violation",
+        "unauthorized-access",
+        "mobile-security",
+        "data-protection",
+        "regulatory-fine",
+        "consent-issue"
+      ],
+      "whyItMatters": "This case demonstrates how major tech companies can face significant financial penalties for defaulting users into data-sharing features without explicit consent, setting important precedent for privacy enforcement. It highlights the critical importance of implementing proper consent mechanisms in mobile applications and respecting user control over sensitive personal data like photos and metadata",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdTCjpbsG3Dp62JM1KZqfSvZpuBnxwaCxXsplW3dAt2b4Ym0KAWPfxkHf4DT-02VK3jJESLmgasdE6D36qGegWu7dk9YSLN4DZxRVsgrM9lIEXXHUvQ0VzaZ1_gFqpjtA4cP3rlt82g5WnK2sXNZHJd5F_rEk4VSTGnMKOuXziSM1R85Vqhway3lajwTA/s1600/facebook-fine.jpg",
+      "processedAt": "2026-11-15T13:43:30.217530+00:00"
+    },
+    {
+      "id": "art-f82ca3e5",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-15",
+      "originalUrl": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "summary": "An attacker stole an access key that Cursor had issued to Fireworks AI, which was then exposed during a security breach at Fireworks. Using this compromised key, the attacker gained unauthorized access to Cursor's systems and trojanized the official Claude Code extension on the Cursor marketplace. This incident demonstrates how security weaknesses at third-party services can create cascading risks for organizations that depend on them.",
+      "category": "AI Security",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "credential-theft",
+        "malicious-extension",
+        "ai-security",
+        "third-party-compromise",
+        "data-breach"
+      ],
+      "whyItMatters": "This attack shows how stolen credentials from one service can be weaponized to compromise popular developer tools trusted by thousands of users, putting their code security at risk. The trojanized extension could allow attackers to inject malicious code into user projects, making this a serious supply chain threat in the AI development ecosystem. Organizations must implement strict access control ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s1600/cursor.jpg",
+      "processedAt": "2026-11-15T13:43:33.360270+00:00"
+    },
+    {
+      "id": "art-04fe11d9",
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "summary": "Security teams struggle to quickly identify who or what is behind suspicious activities, even with extensive monitoring tools and alerts. The article highlights how identity blind spots—like not knowing if a login belongs to an employee, a machine account, or an AI agent—can leave organizations vulnerable to attacks. A webinar will explore how these gaps in identity visibility create security risks and what steps teams can take to close them.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "identity-management",
+        "security-operations",
+        "access-control",
+        "threat-detection",
+        "soc-operations"
+      ],
+      "whyItMatters": "Rapid identification of threat actors and their access level is critical for effective incident response; gaps in identity visibility can cause delays that allow attackers to expand their reach. Organizations that cannot quickly answer 'who is doing this and what can they access' face significantly higher risks of data exfiltration and lateral movement.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj765JyAl658UR5d1raKFLJmZpxXuof0-wBCobeJwnWjWZROTa4wtMyPvTTjBr4-ccE0cmKpIyGT1BetlqUPkPS_omcKVWz7RcCv6sUl2h6KxXrem_X26kzrp7kwq8bSezUsYMa6h2JNh-rPglsuNnRzt6i3IdzBjkLFNBNy5-Y0jId2B6Zhyir_jdm8O4/s1600/sails.jpg",
+      "processedAt": "2026-11-15T13:43:35.734992+00:00"
+    },
+    {
+      "id": "art-6429b0b7",
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "summary": "Google Cloud has identified three CPU side-channel vulnerabilities in AMD Turin processors that could allow attackers to steal sensitive data from other processes running on the same VM core. While Google has already implemented protections between VMs and between VMs and the host, users must apply guest OS patches and restart their systems to fully defend against insider threats within individual VMs. These flaws exploit processor architecture weaknesses to infer confidential information like kernel data without requiring elevated privileges.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "amd-turin",
+        "side-channel-attack",
+        "cloud-security",
+        "cpu-vulnerability",
+        "patch-required",
+        "vm-security"
+      ],
+      "whyItMatters": "This vulnerability affects a critical infrastructure component (cloud VMs) and requires immediate guest OS patching plus system restarts to mitigate insider threats. Organizations using Google Cloud on AMD Turin chips must act quickly to prevent local attackers from extracting sensitive kernel and process data. The requirement for both patches and operational downtime makes this a significant oper",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikEkIc_eg4_tE5XE6CQrLFl74Gk0QwxcqaGXBnDAlitVIbzreq8faf57QtAqFh8rEn7HgTJzvGUZl2yNBhWVKOKo9KqnJHfduQfoT_HqUTlKhE-FzshzDrpIskiMQ3_Lz2hImNMbt9VdCj0O725_WyZsDXDB91phFceXh6Y_qzHgv1nJPMNjv8a7AU52c/s1600/amd.jpg",
+      "processedAt": "2026-11-15T13:43:38.730009+00:00"
+    },
+    {
+      "id": "art-fa56c0f6",
+      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
+      "summary": "N-able discovered new vulnerabilities affecting N-central on-premise servers version 2026.4.1 HF2 that can allow attackers to gain root access and Windows SYSTEM-level privileges even on patched systems. The exploits work when the Legacy API is enabled and exposed to the internet, which is a non-default but potentially common configuration. This represents a significant risk for organizations using N-central for remote management and monitoring.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "n-central",
+        "rce-vulnerability",
+        "privilege-escalation",
+        "patch-bypass",
+        "remote-management",
+        "legacy-api"
+      ],
+      "whyItMatters": "Remote management tools like N-central are high-value targets because compromising them gives attackers broad access to an organization's IT infrastructure. The fact that these exploits work against patched versions and depend on a non-default but potentially widespread configuration means organizations need to audit their settings immediately, not just rely on patching.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4KdRS0v77uQIdhC0i5aopa8XIAZIRnTzVCVqto7dEdfUH2QyWgrAy1EKu-hARXS4pxNGQQEFroRHOtwSq_9Q8b92tmgw_97JMJoBfC72sl8pOcUYM9nU6YCJht4yD7ALWfERwhUwLsN8wo9t8YnKyIWzHhEAux5ox5WV4wvxe6l1cUmf58P1md2Ekziy/s1600/nable.jpg",
+      "processedAt": "2026-11-15T13:43:41.474414+00:00"
+    },
+    {
+      "id": "art-fdc1bfa8",
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-10",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "summary": "The FBI arrested a co-founder of a Canadian cybersecurity firm as part of an investigation into the ShinyHunters hacking group, which breached FBI systems and stole sensitive data on thousands of federal agents. This arrest highlights how criminals may exploit connections within the cybersecurity industry to gain access to valuable information. The case underscores vulnerabilities in how security firms themselves can become targets or unwitting participants in major cybercrimes.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "shinyhunters",
+        "fbi-breach",
+        "ransomware-negotiation",
+        "insider-threat",
+        "cybercrime-arrest"
+      ],
+      "whyItMatters": "This incident demonstrates that threats can originate from insiders within trusted cybersecurity firms, making insider threat detection and vetting critical for protecting sensitive government data. The breach of FBI systems shows that even law enforcement agencies face significant cyber risks, and the involvement of a security firm executive suggests attackers are strategically targeting the cybe",
+      "image": null,
+      "processedAt": "2026-11-15T13:43:44.166555+00:00"
+    },
+    {
+      "id": "art-1b18c5a4",
+      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-07",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "summary": "A teenager from Jordan using the hacker alias 'Rey' has been arrested and is cooperating with the FBI after leading ShinyHunters, a major data theft and extortion group. The group was actively extorting a business unit that Boeing had recently sold off when the suspect was detained. This case highlights how even prolific cybercriminal organizations can be dismantled through international law enforcement cooperation and how attackers may target companies with personal connections to their own families.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "extortion",
+        "data-theft",
+        "shiny-hunters",
+        "international-law-enforcement",
+        "arrest",
+        "fbi-cooperation"
+      ],
+      "whyItMatters": "This arrest demonstrates that even sophisticated cybercriminal groups can be successfully targeted through international cooperation, providing hope for law enforcement efforts against organized cybercrime. The case also reveals how attackers may choose victims based on personal connections, suggesting that organizations should consider insider knowledge as a potential attack vector when assessing",
+      "image": null,
+      "processedAt": "2026-11-15T13:43:46.922544+00:00"
+    },
+    {
+      "id": "art-43522447",
+      "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
+      "summary": "A cybercrime group called ArcticRAT has upgraded their Android malware to do more than just steal cryptocurrency. The attackers now have full control over infected devices and use artificial intelligence to analyze the financial information they steal from victims. This evolution shows how cybercriminals are combining multiple attack capabilities to maximize their profits.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "android-malware",
+        "ai-abuse",
+        "financial-theft",
+        "device-control",
+        "arctic-rat"
+      ],
+      "whyItMatters": "This threat demonstrates how malware operators are adopting AI tools to enhance their attacks, making them more dangerous and harder to detect. Organizations and users need to understand that modern malware threats go beyond simple data theft and now include sophisticated financial profiling capabilities. This raises awareness about the importance of mobile device security and monitoring for unusu",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt876ae2249da592eb/6af77117471ce44823395b3f/smartphone_Ao_Zaa_Studio_shutterstock.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-15T13:43:49.223712+00:00"
+    },
+    {
+      "id": "art-8fb10ac6",
+      "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-13",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
+      "summary": "Attackers successfully exploited a known weakness in Binance's security infrastructure during a breach, taking advantage of gaps in the exchange's protective controls. The breach exposed how blockchain-specific complexities, particularly attacker-deployed sweeper tools, can circumvent traditional security measures designed to contain damage from exchange compromises. This incident highlights that even major cryptocurrency platforms can fall victim to attackers who understand and target their specific architectural vulnerabilities.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "binance-breach",
+        "cryptocurrency-security",
+        "blockchain-vulnerability",
+        "exchange-compromise",
+        "control-gaps",
+        "known-weakness"
+      ],
+      "whyItMatters": "This breach demonstrates that attackers can bypass established security controls at major cryptocurrency exchanges by exploiting known weaknesses and blockchain-specific attack vectors like sweepers. Organizations need to recognize that standard security measures may be insufficient against sophisticated threats targeting their unique architecture, requiring specialized defenses for blockchain and",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3c2322c93d29d2a7/6aed04e63037c1017f2823d8/binance-logo-on-black-bkgrd-Zulfugar_Graphics-shutterstockjpg.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-15T13:43:52.066900+00:00"
+    },
+    {
+      "id": "art-b0c3edda",
+      "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-12",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
+      "summary": "Many organizations lack a clear understanding of their current cryptographic systems and are unprepared to transition to post-quantum cryptography, which is essential for protecting against future quantum computing threats. The article emphasizes that before implementing PQC solutions, companies need to first inventory and assess their existing cryptographic infrastructure. This discovery phase is a critical first step that most businesses have yet to complete.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "post-quantum-cryptography",
+        "crypto-migration",
+        "encryption-inventory",
+        "quantum-threat",
+        "security-planning"
+      ],
+      "whyItMatters": "Post-quantum cryptography is essential for long-term data security, as quantum computers could break current encryption standards. Organizations that fail to assess and plan their cryptographic transitions now will face significant security risks and compliance challenges in the coming years. Understanding your cryptographic estate is the foundational step required to implement effective PQC defen",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f96ce16a435deca/6a3d55be62f12d27e415ed3c/quantum_computer-Peter_Hansen-getty-2214879776.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-15T13:43:54.489118+00:00"
+    },
     {
       "id": "art-a66db759",
       "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
@@ -828,215 +1034,6 @@
       "whyItMatters": "This zero-day exploit is critical because SYSTEM-level privileges grant complete control over a Windows computer, allowing attackers to install malware, steal data, or cause widespread damage. Public disclosure of this vulnerability means attackers can immediately begin exploiting unpatched systems, making rapid patching and mitigation essential for organizations and individual users.",
       "image": null,
       "processedAt": "2026-11-13T14:19:55.393554+00:00"
-    },
-    {
-      "id": "art-b4d930c1",
-      "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
-      "summary": "This week's cybersecurity threats involve attackers exploiting common vulnerabilities like fake websites, stolen credentials, and compromised trusted tools to gain unauthorized access. The article highlights emerging dangers including 59 Linux kernel bugs, the Falcon spyware, and GSocket backdoors, demonstrating how attackers are using AI to accelerate attack development. Organizations face mounting risks as adversaries combine multiple attack vectors—social engineering, account compromise, and legitimate software exploitation—to bypass security defenses.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "linux-kernel-bugs",
-        "spyware",
-        "backdoors",
-        "credential-theft",
-        "ai-powered-attacks",
-        "zero-day"
-      ],
-      "whyItMatters": "The combination of 59 Linux kernel vulnerabilities, active spyware campaigns, and backdoor threats represents an immediate and widespread risk to infrastructure and user security. Understanding how attackers chain multiple attack methods—fake sites, stolen access, and trusted tool abuse—helps organizations recognize that security breaches often start with simple, overlooked tactics. This article u",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpHFMwpmKB3Mn6eMpEHMAX_8gqnyi4xwTCuYj7NTrCcTMWAsSZtaUsHYUa1kvi3jQf92A5pR_Qz7kzgTarHmo6q6YsXVeVSJEkkx0JkioCXa6GbKJzG9eZz0dkotf9QEpdcRMy94hoYhGfIoEk7pPOFUSgTY5ciU7_wkSOJc7kgXcS1GS3qGC-Ql7kMrks/s1600/thd.jpg",
-      "processedAt": "2026-11-12T22:55:31.885541+00:00"
-    },
-    {
-      "id": "art-3fd91c6d",
-      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
-      "summary": "A new zero-day exploit called SignDrop has been discovered that allows local Windows users to escalate their privileges to SYSTEM level by exploiting a security feature in the Windows Common Log File System driver. The vulnerability abuses how the clfs.sys driver handles companion files when privileged processes open prepared logs, using path redirection techniques to gain unauthorized access. Public exploit code for this vulnerability has already been released, making it immediately actionable for attackers.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "privilege-escalation",
-        "windows",
-        "clfs-driver",
-        "system-access",
-        "exploit-code-public"
-      ],
-      "whyItMatters": "This vulnerability is critical because it enables any local user to gain complete system-level control on Windows machines, allowing attackers to install malware, steal data, or compromise entire systems. The public release of exploit code significantly increases the risk of rapid and widespread exploitation across organizations. Immediate patching is essential for all affected Windows systems, as",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-9BW-gpid0fJ4GJSsWoqjYl5qF_EdYchTcxeNjFfMV-MCcvSRTs-rAmiHKNX3M2dr66bJcfUelNR5CR9g-JLKPkMrROsqrM6hf563hIMklj5v08uYDtEp7pdYPcs5Y5TEGxgTWTHDG_Q-L8Tbq12yo57xp0GOlYk8g05nU3peuA_kedIXtggnakiiCGM/s1600/signdrop.jpg",
-      "processedAt": "2026-11-12T22:55:34.799778+00:00"
-    },
-    {
-      "id": "art-7dd4ec8c",
-      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
-      "summary": "Red Hat Quay contains a critical vulnerability that allows attackers to access, read, and modify private container images across all repositories in a registry. Since Quay enables anonymous access by default, attackers can exploit this flaw without credentials, and even when anonymous access is disabled, any authenticated user can still abuse the vulnerability. Red Hat has released patched versions to address this serious security gap.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "container-security",
-        "red-hat-quay",
-        "image-tampering",
-        "registry-breach",
-        "privilege-escalation",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability directly threatens the integrity of container supply chains, as attackers can inject malicious code into private images that organizations rely on for deployment. Organizations using Red Hat Quay must apply patches immediately to prevent unauthorized access to sensitive container artifacts and potential widespread compromise of their infrastructure.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtLHm05FB2LmoHZMLAD5nDmfo_G2tdIqO4URdUwukuooBCVwIJhKC2rUDbDNtsGB8_lwium1MEUD1CxYcix4WMVpCoS58DJivMBSmb9LcIGswQu0nKUNE_sbfH8EsgFfhPrKEgEY7MJHWKyhFqX61ne-AOFKnTNuqIkWez1bec-kq-3Cz8BFbPLrgiV8k/s1600/redhat.jpg",
-      "processedAt": "2026-11-12T22:55:37.277034+00:00"
-    },
-    {
-      "id": "art-73964903",
-      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
-      "summary": "Citrix has released security patches for 12 vulnerabilities affecting NetScaler ADC, NetScaler Gateway, and NetScaler Console products. These flaws include a critical memory overflow vulnerability (CVE-2026-120868 with CVSS 9.3) that could allow attackers to bypass authentication or cause service disruptions. Organizations using these widely-deployed network access solutions need to apply these patches urgently to prevent exploitation.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "citrix-netscaler",
-        "authentication-bypass",
-        "memory-overflow",
-        "dos-vulnerability",
-        "patch-urgent",
-        "cvss-9-3"
-      ],
-      "whyItMatters": "NetScaler products are critical infrastructure used by many enterprises for network access and gateway functions, making these authentication bypass and DoS vulnerabilities particularly dangerous. The high CVSS score and active patch release indicate these flaws pose immediate exploitation risk. Organizations must prioritize deploying these patches to prevent unauthorized access and service outage",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDDv_B4B-cVtvwKyLiGQsL804yGC7_xHF7y3yD5_C284fRXBVRAn5Ashy2apgJr-jaoBHRa3ujgXv1jskM53EvP_pFt41CTazYqFT-tQdcukNBeOTzVIpZXVDsdgtup4MJOEdNNZP9SP0FAdIpG1Cnfgo0YgBXzmI_boLV4qSAsVrmYn5wA3GxnPuj21JO/s1600/citrix.jpg",
-      "processedAt": "2026-11-12T22:55:39.997940+00:00"
-    },
-    {
-      "id": "art-b2a2460e",
-      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
-      "summary": "Researchers discovered 186 fake domains pretending to be legitimate AI tools that trick users into downloading malware and browser hijackers. These sites use a technique called TypoPrompting to redirect visitors to ClickFix scams, malicious extensions, and search-hijacking software. The campaign exploits users' familiarity with popular AI platforms by using deceptive domain names that closely resemble the real thing.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "malware",
-        "browser-hijacker",
-        "typosquatting",
-        "social-engineering",
-        "clickfix"
-      ],
-      "whyItMatters": "This attack demonstrates how cybercriminals leverage the popularity of AI tools to distribute malware at scale through a simple but effective typosquatting strategy. Users who accidentally visit these lookalike domains face immediate risk of compromising their browsers and personal data, making this a practical threat that affects non-technical users who rely on AI applications daily.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirJnc36Fxj4oKOmKhcPvspB_xQpv3VgpXjYnu29SOv8NbVJHeaGNKT26851QIPQbHozxeF5vmq5otdRbJBKEaN9557MtuxLwp5fxX-pQVDVKwvZJtPR9ayT2Njx83svW7TVsVkVpFUOt5JHqhdSkSI7uV0d4dxlf5pWAmHISttTHWjURyOpuuy0CzVCSmK/s1600/lauce.jpg",
-      "processedAt": "2026-11-12T22:55:42.756483+00:00"
-    },
-    {
-      "id": "art-982f2357",
-      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
-      "summary": "Researchers discovered SCKit, a new worm-like malware used in recent attacks against ScreenConnect, a remote access tool commonly used by managed service providers (MSPs). This malware is designed to spread from infected customer devices to MSP technician computers, allowing attackers to compromise multiple managed networks in a chain reaction. The threat is particularly dangerous because MSPs manage networks for many businesses, making them high-value targets for attackers seeking broad access.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "screenconnect",
-        "msp-attacks",
-        "worm-malware",
-        "supply-chain-risk",
-        "remote-access-tools",
-        "lateral-movement"
-      ],
-      "whyItMatters": "This attack demonstrates a sophisticated supply-chain threat where attackers use MSP infrastructure as a pivot point to compromise multiple downstream clients. Organizations relying on MSPs must strengthen security controls and monitor for signs of compromise, while MSPs need enhanced endpoint protection and network segmentation to prevent this type of lateral movement.",
-      "image": null,
-      "processedAt": "2026-11-12T22:55:45.666032+00:00"
-    },
-    {
-      "id": "art-76408239",
-      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
-      "summary": "Attackers successfully compromised nearly 4,800 GitHub accounts in a campaign called 'wfx-loot' to gain unauthorized access to repositories and steal sensitive cloud credentials. The threat actors used these hijacked accounts to push malicious code and open pull requests across tens of thousands of repositories. This incident highlights how developer platforms are being exploited to distribute credential-stealing malware at scale.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "github-compromise",
-        "credential-theft",
-        "malware-distribution",
-        "account-takeover",
-        "cloud-security",
-        "supply-chain-risk"
-      ],
-      "whyItMatters": "This attack targets the development pipeline itself, potentially compromising thousands of organizations through infected repositories and stolen cloud credentials. Developers and companies relying on GitHub must immediately audit their accounts and review unexpected pull requests, as cloud infrastructure access is now directly threatened. The scale and method suggest attackers can inject maliciou",
-      "image": null,
-      "processedAt": "2026-11-12T22:55:48.752694+00:00"
-    },
-    {
-      "id": "art-1ebf12ad",
-      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
-      "summary": "Microsoft 365 services including Outlook, Teams, and Copilot experienced a widespread global outage, leaving users unable to access these critical business tools. The company is actively investigating the incident to restore normal operations. This disruption highlights how cloud service failures can impact millions of users and organizations simultaneously.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "microsoft-365-outage",
-        "cloud-services",
-        "business-continuity",
-        "service-disruption",
-        "outlook-teams"
-      ],
-      "whyItMatters": "Large-scale cloud outages demonstrate the critical dependency organizations have on third-party services and the cascading impact when they fail. Understanding outage causes and mitigation strategies is essential for disaster recovery planning and identifying whether infrastructure vulnerabilities or security incidents are responsible.",
-      "image": null,
-      "processedAt": "2026-11-12T22:55:50.909848+00:00"
-    },
-    {
-      "id": "art-e27f5267",
-      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
-      "summary": "A newly discovered zero-day vulnerability in N-able N-central is being actively exploited by attackers to install cryptocurrency mining software on compromised servers. Researchers have identified at least 21 affected systems, notably including 19 that were already running the company's latest security updates. This rapid exploitation demonstrates how quickly threat actors can weaponize newly disclosed vulnerabilities before patches become widely available.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "n-able",
-        "active-exploitation",
-        "cryptocurrency-miner",
-        "server-compromise",
-        "poc-exploit"
-      ],
-      "whyItMatters": "This incident highlights the critical window of vulnerability between public disclosure and patch deployment, especially for widely-used management tools like N-central that affect multiple enterprise systems. The fact that updated systems were still compromised suggests attackers may have had prior knowledge or zero-day information before public disclosure. Organizations using N-able N-central sh",
-      "image": null,
-      "processedAt": "2026-11-12T22:55:53.855169+00:00"
-    },
-    {
-      "id": "art-bdc5adba",
-      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
-      "summary": "Apache HTTP Server contains a critical vulnerability in its HTTP/2 module that allows attackers without authentication to execute arbitrary code on affected systems. This flaw poses an immediate threat to web servers running vulnerable versions of Apache. The vulnerability requires urgent patching to prevent potential compromise of web infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "apache-http-server",
-        "http-2",
-        "remote-code-execution",
-        "patch-urgent",
-        "web-server",
-        "critical-vulnerability"
-      ],
-      "whyItMatters": "This vulnerability directly threatens the security of web infrastructure worldwide, as Apache HTTP Server powers a significant portion of internet-facing servers. Attackers can exploit this flaw without credentials to gain complete control over affected systems, making immediate patching essential. Organizations running Apache must prioritize this update to prevent potential data theft, service di",
-      "image": null,
-      "processedAt": "2026-11-12T22:55:56.284041+00:00"
     }
   ]
 }
