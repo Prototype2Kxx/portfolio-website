@@ -1,7 +1,210 @@
 {
-  "lastUpdated": "2026-11-17T01:10:58.242663+00:00",
+  "lastUpdated": "2026-11-17T15:45:14.231993+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-cdb4a453",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "summary": "Attackers have discovered methods to bypass SHA pinning, a widely-used security practice that pins GitHub Actions to specific code versions to prevent supply chain attacks. In March 2026, hackers compromised Trivy, a popular open-source security scanner, and inserted malicious code disguised as legitimate GitHub tools. This discovery reveals a critical gap in what security teams believed was a reliable defense mechanism.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "github-actions",
+        "sha-pinning",
+        "malicious-code",
+        "open-source-security"
+      ],
+      "whyItMatters": "Since SHA pinning is widely trusted as a primary defense against supply chain attacks, discovering bypasses puts countless organizations at risk who rely on this protection. Developers and security teams need to reassess their pinning strategies and implement additional verification layers beyond SHA hashing to validate code authenticity.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYUhfLA6wixTr6AiVmOSa8uxO2mHxPqG7rHalDaUtYlOaTwUSIzi3JAP78cfEUhwwaoijNe8vJ0ZFiBqDmfrG9LVOzItxMxCYcTCbEc4f7W8iWgKSvzR6DrT0XtK_cM4eTKQ2Edvz-QG5P8iXF_GV_-k6CXMN_-D_QAJags-LpeuXmJ5C6DDz7mDRSBMY/s1600/git-actions.jpg",
+      "processedAt": "2026-11-17T15:44:50.140362+00:00"
+    },
+    {
+      "id": "art-34acba46",
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "summary": "Researchers discovered a vulnerability in Apple's audio service that allowed iPhone and iPad apps to record audio even when users explicitly denied microphone permission. Apple released security updates to fix the flaw on August 17, and there is no evidence the vulnerability was exploited in real attacks. The technical details were published by Meta Red Team researchers after the patch was made available.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "ios-vulnerability",
+        "privacy-flaw",
+        "apple-security",
+        "microphone-permissions",
+        "patched-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability demonstrates how critical permission systems are on mobile devices and how flaws in core OS services can undermine user privacy protections. Users who denied microphone access could still have been recorded without knowledge, highlighting the importance of timely patching and regular security updates to protect personal information.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoRknesoqi26EwwYMrgBhBudDMiej0sO7-228OvrBIj2ivaPcOUo7GJgoIHAd9fI_VFlK4su0xn1L_BqUgFsldNJgAkQwE4wAvAZzUao-wHUHSoq8NQUo_UdyILYYFoshEgONLhibaGHRQ_cKFVo0Psl1kehyphenhyphenNjlCrkECk16huiU6WecKlpBr0YDN3nus/s1600/iphone-recording.jpg",
+      "processedAt": "2026-11-17T15:44:52.555139+00:00"
+    },
+    {
+      "id": "art-93a84fe6",
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "summary": "Cybercriminals have created two new backdoor malware called GitDoor and GraphDoor that abuse legitimate cloud services—GitHub and Microsoft SharePoint—to hide their command-and-control communications from security tools. The campaign, named Operation ShadowCloud by Kaspersky, has been actively targeting government organizations in Asia and Africa since early 2026. By using trusted platforms, attackers can slip past traditional defenses that focus on blocking suspicious external connections.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "backdoor",
+        "c2-communication",
+        "cloud-security",
+        "github",
+        "sharepoint",
+        "operation-shadowcloud"
+      ],
+      "whyItMatters": "This threat is critical because it demonstrates how attackers exploit the trust organizations place in legitimate cloud services to establish persistent access while evading detection. Government sectors are high-value targets, and this technique makes defense significantly harder since blocking GitHub or SharePoint is impractical for most organizations. Security teams must now monitor for suspici",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhGYnRRqAfAZ2q0dS56dC5lC86Kx69VT0moHy1Pxt67C0ic8RbLOL9LR68b4atQmvb7O6Gq3Btm1axv2aCRaNkhagPKbFHvThWlye3QPpK1xnEj4kovoJn8dsbTlCmAjXOIb8EHV3RJuhNQdVNKRxc4uwiuIfws_a63koiBaCQvs5jwbnTFG8EUwuA0RiA/s1600/git-share.jpg",
+      "processedAt": "2026-11-17T15:44:55.144117+00:00"
+    },
+    {
+      "id": "art-15b4c1a7",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "summary": "Apple is rolling out enhanced permission controls in macOS 27.3 beta 2 that give users more detailed control over what data applications can access. These new features focus on two key areas: Device Control and Data Access, plus Full Disk Access, with particular attention to protecting user data from AI-powered applications. The update aims to increase transparency so users can make informed decisions before granting apps extensive system access.",
+      "category": "Privacy",
+      "severity": "Medium",
+      "tags": [
+        "macos-security",
+        "data-privacy",
+        "ai-security",
+        "app-permissions",
+        "access-control"
+      ],
+      "whyItMatters": "As AI agents become more integrated into applications, they pose new privacy risks by potentially accessing sensitive user data at scale. Apple's granular permission model helps users maintain control over their information and reduces the attack surface for data exfiltration. This proactive approach demonstrates how operating systems can balance innovation with privacy protection in an increasing",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpfVz_pnzHGcrDTsga77xG6yDhi_sMihXsGCjULyapjweerWHdHByPuWqWYmWQsDAAV37EfmctWtSZgYCHJ-2FMGEE6K94YRDVFjHVO0i1jZxn-TIewKbDqIn3y-pNMH7pqJ9SA1X2Sk_r_vn_SfRdxbPB2kH9-hHkNrigumGuQKXaA6xlHqCdWu4ZDAFH/s1600/apple-macos.jpg",
+      "processedAt": "2026-11-17T15:44:58.094167+00:00"
+    },
+    {
+      "id": "art-252a9517",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "summary": "Attackers exploited a vulnerability in Optimizely Web Experimentation to inject malicious scripts that were served to visitors of major websites including CNN, BBC, and Zoom. The compromised scripts contained card-skimming malware and iOS exploit kits designed to steal payment information and compromise mobile devices. This supply-chain attack affected at least 178 organizations, demonstrating how trusted third-party services can be weaponized to reach massive audiences at scale.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware-injection",
+        "card-skimmer",
+        "third-party-compromise",
+        "exploit-kit",
+        "web-security"
+      ],
+      "whyItMatters": "This incident highlights the critical risk of compromised third-party services that inject code into legitimate websites—attackers only need to compromise one trusted vendor to reach hundreds of major organizations simultaneously. Users visiting well-known, trusted sites were unknowingly exposed to financial theft and device exploitation, demonstrating that even visitors to reputable platforms are",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCKDXT71QJSnAqaPKmcBticVRjN0Q1diDWoOGKhoZ-wL5WIgLAPHX6dmetOkddYjLcZGIfxDAfLLN1LwbOV4zHqzONN7i8cIyMJLR-rc2t6LF7MnTzJAAoN54aIPEYoWPBf01znenuq43oDLwcVksxZbvP5xPnFsC-G-sDSjpzDegalBNU87YIe7z0YcI/s1600/Optimizely-hacked.jpg",
+      "processedAt": "2026-11-17T15:45:01.339705+00:00"
+    },
+    {
+      "id": "art-8b47f77c",
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+      "summary": "Security researchers at Huntress have identified three sophisticated phishing kits—EvilTokens, Knight Office, and Kali365—that are specifically designed to steal and misuse Microsoft 365 session tokens. These tools allow attackers to capture authentication tokens and replay them to gain unauthorized access to M365 accounts without needing the original passwords. The report includes technical analysis of how these kits operate and provides defenders with practical detection and containment strategies.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing-kits",
+        "microsoft-365",
+        "token-theft",
+        "session-hijacking",
+        "cloud-security",
+        "credential-compromise"
+      ],
+      "whyItMatters": "M365 is widely used in enterprises, making token-stealing phishing kits a critical threat to organizational security. Understanding how these tools operate enables defenders to implement better detection rules and incident response procedures before attackers gain persistent access. Organizations using Microsoft 365 need to strengthen their email security and implement token-binding mechanisms to ",
+      "image": null,
+      "processedAt": "2026-11-17T15:45:03.755977+00:00"
+    },
+    {
+      "id": "art-dd98d72f",
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "summary": "Microsoft is developing a Remote Lock feature that allows IT administrators at organizations to lock Windows devices that have been lost or stolen, without erasing the data on them. This new security tool gives businesses a way to protect sensitive information on missing devices while preserving the possibility of data recovery. The feature is currently in testing phase and represents an improvement over existing solutions that often require complete device wipes.",
+      "category": "Network Security",
+      "severity": "Medium",
+      "tags": [
+        "device-security",
+        "remote-lock",
+        "lost-devices",
+        "enterprise-security",
+        "data-protection"
+      ],
+      "whyItMatters": "This feature addresses a significant real-world security challenge where stolen or lost enterprise devices pose risks of data theft and unauthorized access. By enabling remote locking without data destruction, organizations can balance immediate security needs with the ability to recover valuable information. This capability is especially important for companies managing large fleets of devices wi",
+      "image": null,
+      "processedAt": "2026-11-17T15:45:06.269103+00:00"
+    },
+    {
+      "id": "art-aadc1d47",
+      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
+      "summary": "Two brothers have been acquitted of charges related to a $25 million cryptocurrency theft that allegedly exploited a bug in the Ethereum blockchain. The theft was executed extremely quickly, taking only about 12 seconds to complete. A US District Judge has cleared them of all accusations in this high-profile crypto crime case.",
+      "category": "Cybercrime",
+      "severity": "Medium",
+      "tags": [
+        "cryptocurrency-theft",
+        "ethereum-exploit",
+        "blockchain-security",
+        "cyber-heist"
+      ],
+      "whyItMatters": "This case highlights vulnerabilities in blockchain systems and smart contract execution that can be exploited for large-scale theft in seconds, raising concerns about DeFi security. The acquittal underscores the importance of proper digital forensics and evidence handling in cryptocurrency crime cases. It demonstrates how blockchain bugs can be weaponized for financial crimes and the challenges la",
+      "image": null,
+      "processedAt": "2026-11-17T15:45:08.560851+00:00"
+    },
+    {
+      "id": "art-67fc696c",
+      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
+      "summary": "Uber has notified approximately 150,000 of its drivers that their personal information was compromised in a cyberattack targeting Fireworks, an AI infrastructure provider, in early October. The breach exposed driver data stored on the third-party platform, demonstrating how security incidents at service providers can directly impact end users. This incident highlights the risks companies face when relying on external vendors to handle sensitive employee and contractor information.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "third-party-risk",
+        "ai-security",
+        "vendor-compromise",
+        "driver-data"
+      ],
+      "whyItMatters": "This breach illustrates the critical importance of supply chain security and vendor risk management in cybersecurity. When large companies like Uber trust third-party providers with sensitive data, a single breach can affect hundreds of thousands of people, making vendor vetting and contractual security requirements essential for protecting end users. Organizations must implement strict controls a",
+      "image": null,
+      "processedAt": "2026-11-17T15:45:11.394113+00:00"
+    },
+    {
+      "id": "art-aeb68fbd",
+      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
+      "summary": "A suspect from Kazakhstan was extradited to the United States from Italy to face charges related to ransomware attacks targeting American schools, hospitals, and healthcare organizations. The individual, believed to be a ransomware affiliate, now faces up to 27 years in prison for their involvement in these cybercrimes. This case demonstrates international law enforcement cooperation in pursuing cybercriminals who attack critical infrastructure and essential services.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "extradition",
+        "healthcare-attacks",
+        "cybercrime",
+        "international-enforcement",
+        "critical-infrastructure"
+      ],
+      "whyItMatters": "This extradition signals that law enforcement agencies worldwide are actively pursuing ransomware affiliates, even across borders, which acts as a deterrent for cybercriminals. Attacks on hospitals and schools directly endanger public safety and disrupt essential services, making successful prosecutions crucial for protecting vulnerable institutions. The case reinforces that cybercriminals can be ",
+      "image": null,
+      "processedAt": "2026-11-17T15:45:14.231848+00:00"
+    },
     {
       "id": "art-5a6edc86",
       "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
@@ -824,214 +1027,6 @@
       "whyItMatters": "Post-quantum cryptography is essential for long-term data security, as quantum computers could break current encryption standards. Organizations that fail to assess and plan their cryptographic transitions now will face significant security risks and compliance challenges in the coming years. Understanding your cryptographic estate is the foundational step required to implement effective PQC defen",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f96ce16a435deca/6a3d55be62f12d27e415ed3c/quantum_computer-Peter_Hansen-getty-2214879776.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-11-15T13:43:54.489118+00:00"
-    },
-    {
-      "id": "art-a66db759",
-      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html",
-      "summary": "ConnectWise discovered unauthorized access attempts targeting ScreenConnect software across at least 288 endpoints in 48 different organizations using fake client connections. The company disabled five third-party extensions as a precaution and stated that the incident does not appear to stem from a software vulnerability or infrastructure compromise. This attack highlights how threat actors can exploit legitimate remote access tools to infiltrate multiple organizations simultaneously.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "remote-access-tools",
-        "unauthorized-access",
-        "supply-chain-risk",
-        "third-party-extensions",
-        "incident-response"
-      ],
-      "whyItMatters": "ScreenConnect is widely used by managed service providers and enterprises for remote support, making compromised instances a significant supply chain risk affecting dozens of organizations at once. The attack demonstrates how attackers can abuse legitimate software through rogue client connections rather than exploiting code vulnerabilities, requiring defenders to focus on access controls and beha",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEfz7InYm8UO-p35K6B4j009BxA-MO7DdZ2x1d-xhyphenhyphenPxNnVs848IlgAGelmuW-sPbEZbE8-L9_KWEYNH_M5HaTMy14MFd87A7YkqHAzDKaamKOdpZKR9owL3nK3gbqAngvWa6A4NC1KK1l0ie9FK731LfKPI0lguiGQ1b71sHIZj2kR2H3I-GJjSPY4kJU/s1600/screenconnect-hack.jpg",
-      "processedAt": "2026-11-14T21:43:58.208889+00:00"
-    },
-    {
-      "id": "art-18ac62f6",
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
-      "summary": "Zoom has released security updates to fix two vulnerabilities in Zoom Workplace for Windows, with one being a critical flaw. The most severe issue (CVE-2026-108186, CVSS 9.6) is an input validation weakness that allows unauthenticated attackers to escalate their privileges on vulnerable systems. Users should apply these updates promptly to protect their systems from potential exploitation.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "zoom-workplace",
-        "privilege-escalation",
-        "input-validation",
-        "patch-now",
-        "windows",
-        "cve-2026-108186"
-      ],
-      "whyItMatters": "This critical vulnerability poses an immediate risk because unauthenticated attackers can gain elevated privileges without valid credentials, potentially leading to complete system compromise. Organizations using Zoom Workplace for Windows must prioritize patching to prevent exploitation, as the high CVSS score indicates severe exploitability and impact.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhox0GUms6IXvet2jPVoQ5VlUIZ_V7C3iT4HI3qV-Pi7_KRybDyGKGlb2S0Z4uvih4ERjjnGOn9Prav0HpvqNNR3_HVs7W5o0wM0-XsTdp6ploM2Optp5ls97C0JU5DIqubY-lNcLvLia25Z2c__IZt8Ws1OjX0tGavbyvb_dXrltSKj-HJHijQJ9AdDxEB/s1600/zoom-prv.jpg",
-      "processedAt": "2026-11-14T21:44:00.672287+00:00"
-    },
-    {
-      "id": "art-590fa669",
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
-      "summary": "Researchers discovered that AntiFox, an AI-powered penetration testing platform, has been misused in cyberattacks to steal AWS credentials and gain unauthorized access to cloud environments. The malicious actors leveraged Alibaba Cloud systems hosting AntiFox interfaces to conduct lateral movement within compromised networks. This incident highlights how legitimate security tools can be weaponized by attackers to compromise cloud infrastructure.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "aws-compromise",
-        "cloud-security",
-        "credential-theft",
-        "lateral-movement",
-        "ai-security",
-        "agentic-ai-abuse"
-      ],
-      "whyItMatters": "This attack demonstrates a critical vulnerability in how cloud-hosted security tools can be abused to compromise production AWS environments, directly threatening organizations' most sensitive systems and data. Understanding this threat vector is essential for security teams managing cloud infrastructure and evaluating third-party penetration testing platforms. Organizations must implement strict ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi08pEbJ7-HNwC0kJf517wnB6y8HwgKhMU-vxbhnCEh9KpWk1kmIjp_bb71k7GYfiTZNep3bcejvN7RmriF9_0RJnGGe9T5WB_nihCgxiDYOMl8mgDmI0Pm6ZFmPzf8HulQUxHjX3TncwmvqJIDPLyZBoHZpOahcMl7fehtwvT-oCxLzPec-KRtiScHT7wk/s1600/aws-secrets.jpg",
-      "processedAt": "2026-11-14T21:44:03.483160+00:00"
-    },
-    {
-      "id": "art-846f2337",
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
-      "summary": "In October 2026, hackers attempted to compromise Qlik Sense servers across multiple European organizations by deploying PowerShell reverse shell commands, though the attacks were ultimately unsuccessful. Security researchers from Cynet's CyOps team detected the coordinated activity within a brief three-minute window, suggesting a targeted campaign. The attackers also staged exploits for ActiveMQ and Veeam, indicating preparation for potential follow-up attacks on critical infrastructure.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "reverse-shell",
-        "qlik-sense",
-        "activemq",
-        "veeam",
-        "powershell",
-        "targeted-attack"
-      ],
-      "whyItMatters": "This attack demonstrates how threat actors actively probe business intelligence and backup solutions for vulnerabilities, and the presence of staged exploits for ActiveMQ and Veeam indicates attackers are preparing for multi-stage compromise of critical business systems. Organizations running these applications need immediate awareness and should review logs for similar reconnaissance activity, as",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg5L1m-CqPOrgk9otByC4blBWuqDylovaSyHYhirRHQvzjjSUB0DBWbxnF_8cNIsONC6yoL3h-ydX61vmnsctKr_IbcnvmwRLAMqch16Ru5oMVuDWy1bilEt6EAgEerB7mUxICRgck1NkoJeA7Y2lvV0oqLkw12-f1xMhC7Dw5F1aK35NhVf3oZwj4WbfOT/s1600/qliksense.jpg",
-      "processedAt": "2026-11-14T21:44:06.375687+00:00"
-    },
-    {
-      "id": "art-c23e9710",
-      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-11",
-      "originalUrl": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
-      "summary": "Security researchers discovered that over 35,000 applications built using Grok, an AI assistant, were publicly accessible without requiring user authentication. Among these exposed apps, approximately one in ten contained sensitive internal business information and passwords. The findings included applications developed by staff at X and SpaceX, revealing significant security oversights in how developers deployed AI-generated applications.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "data-breach",
-        "misconfiguration",
-        "exposed-credentials",
-        "cloud-exposure",
-        "ai-apps"
-      ],
-      "whyItMatters": "This incident highlights how AI development platforms can become vectors for widespread data exposure when security best practices are overlooked. Organizations and developers must implement proper authentication controls and conduct security reviews before deploying AI-built applications to production environments, as misconfigurations can expose thousands of apps simultaneously with minimal effo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh54t26Pk-bNbcIXgu8KrKpT_zN1KxEov16xTFlJ8kiPJ3-btXjGUE1lb0ZpamQU5jUHwmxzxHpYLsAQfiaHQUu3gxCIUw2gsEYNwMjL6nRm_jWm6t_VdHJkz6xj3fAsmTZKP8Bbax1qdT98a_PY4ynv81njiDyPXvIIihl4dqXxxC9pMMf8-Mn9dziy_A/s1600/grokai.jpg",
-      "processedAt": "2026-11-14T21:44:09.134720+00:00"
-    },
-    {
-      "id": "art-76415a3c",
-      "title": "Cursor confirms security breach led to malicious Claude Code extension",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-14",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-      "summary": "Cursor, a popular AI code editor, experienced a security breach that allowed attackers to distribute a malicious Claude Code extension through its marketplace. The breach occurred after hackers obtained credentials from Fireworks AI, an infrastructure provider that Cursor relied on. This incident highlights how compromised third-party services can be weaponized to distribute malware to end users.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "marketplace-compromise",
-        "credential-theft",
-        "malicious-extension",
-        "ai-security",
-        "third-party-risk"
-      ],
-      "whyItMatters": "This breach demonstrates a dangerous supply chain attack where attackers infiltrated a trusted software marketplace to distribute malware to developers. When third-party credentials are compromised, the blast radius extends to all users of dependent services, making this a critical risk for anyone using Cursor or similar extension marketplaces. Organizations must implement strict credential manage",
-      "image": null,
-      "processedAt": "2026-11-14T21:44:11.992144+00:00"
-    },
-    {
-      "id": "art-de3d89ac",
-      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-14",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
-      "summary": "The U.S. government successfully disrupted a North Korean social engineering operation called 'FaceStealer' that had stolen over $400 million in cryptocurrency. The campaign used deceptive tactics to trick victims into revealing sensitive information or downloading malicious software. This takedown demonstrates coordinated international efforts to combat state-sponsored cybercrime targeting digital assets.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "north-korea",
-        "social-engineering",
-        "crypto-theft",
-        "facestealer",
-        "state-sponsored",
-        "disruption"
-      ],
-      "whyItMatters": "This case highlights how nation-states use sophisticated social engineering to target cryptocurrency holdings, resulting in massive financial losses. The successful disruption shows that governments are actively countering state-sponsored cybercrime, but the scale of theft demonstrates the ongoing vulnerability of digital asset holders to targeted attacks. Understanding these tactics is essential ",
-      "image": null,
-      "processedAt": "2026-11-14T21:44:14.234809+00:00"
-    },
-    {
-      "id": "art-0b8060d7",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-19",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "summary": "Federal investigators have identified executives at ransomware negotiation firms who allegedly had suspicious connections to the ShinyHunters hacking group, which recently stole sensitive FBI data. One U.S.-based executive is suspected of helping ShinyHunters run an extortion website designed to force victims into paying ransoms. This discovery reveals potential insider collaboration between legitimate negotiation firms and criminal hacking operations.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "extortion",
-        "insider-threat",
-        "shiny-hunters",
-        "fbi-data-breach",
-        "law-enforcement"
-      ],
-      "whyItMatters": "This case demonstrates a dangerous intersection of cybercrime and legitimate business, showing how trusted intermediaries could potentially be compromised to facilitate ransomware operations. When negotiation firms—entities designed to help victims—are infiltrated by criminals, it undermines the entire ransomware response ecosystem and puts organizations at greater risk. Understanding these connec",
-      "image": null,
-      "processedAt": "2026-11-14T21:44:17.015280+00:00"
-    },
-    {
-      "id": "art-dfad1c00",
-      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "summary": "The United Kingdom has imposed economic sanctions on Cryptomus, a cryptocurrency platform accused of facilitating illegal financial activities including ransomware payments, drug trafficking, and darknet market transactions. This action targets the platform's role in helping Russia evade international financial restrictions and supporting various cybercrime operations. The sanctions demonstrate governments' efforts to disrupt the financial infrastructure that enables cybercriminals to profit from their activities.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "cryptocurrency-laundering",
-        "sanctions",
-        "ransomware-payments",
-        "russia",
-        "financial-crime",
-        "darknet"
-      ],
-      "whyItMatters": "Disrupting cryptocurrency platforms used for ransomware payments and cybercrime financing directly impacts threat actors' ability to monetize attacks and operate. Understanding which platforms face sanctions helps organizations and security professionals identify where criminal money flows, informing better incident response and threat intelligence strategies. This action signals increased governm",
-      "image": null,
-      "processedAt": "2026-11-14T21:44:20.080860+00:00"
-    },
-    {
-      "id": "art-c5028fee",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "summary": "Microsoft released security patches for over 1,400 vulnerabilities across its Windows operating systems and other products, more than double the previous record set just one month earlier. This massive surge in fixes suggests a significant increase in security threats or discovered flaws that require urgent attention. The volume represents a dramatic increase compared to Microsoft's typical monthly patch releases.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "microsoft-patches",
-        "windows-security",
-        "vulnerability-fixes",
-        "patch-management",
-        "software-updates"
-      ],
-      "whyItMatters": "Organizations relying on Microsoft products face an unusually large number of vulnerabilities that could be exploited if not patched quickly. The unprecedented volume of fixes indicates a heightened threat landscape and demands that IT teams prioritize applying these updates to prevent potential security breaches. Delayed patching during such high-volume release cycles significantly increases orga",
-      "image": null,
-      "processedAt": "2026-11-14T21:44:22.733153+00:00"
     }
   ]
 }
