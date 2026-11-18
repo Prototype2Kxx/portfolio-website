@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-18T15:25:05.398653+00:00",
+  "lastUpdated": "2026-11-18T23:39:03.965068+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-d668f72f",
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "summary": "A critical vulnerability in NGINX's HTTP/2 implementation, present for over a decade since version 1.9.5, allows attackers to execute code on servers without authentication. The flaw, tracked as CVE-2026-123007 and nicknamed \"nginx2root,\" affects millions of web servers worldwide that have HTTP/2 enabled. F5 has released patched versions 1.31.9 and 1.30.7 to address this severe security issue.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "nginx-vulnerability",
+        "http2-flaw",
+        "remote-code-execution",
+        "unauthenticated-attack",
+        "patch-urgent",
+        "cve-2026-123007"
+      ],
+      "whyItMatters": "This vulnerability is critical because it affects a widely-used web server software with a 10-year window of exposure, meaning countless production systems are likely vulnerable. The ability to execute arbitrary code without authentication makes this an immediate and severe risk that could lead to complete server compromise. Organizations running NGINX with HTTP/2 enabled must apply patches immedi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7_qqPophooIauX16fMWm3KB24tzQ3Fd7rCuseCXfMkDPPGpIgmHqWvZjn_jffDqHwNWKu8Zf57QeKb4qsRFgdgisSAn0sMj59CscimR16RLXI1kspH0w7VYQgrsM_hPcePQOFL8QUyDC2p9W7AV0UjH3sW7oOvdWPWAZW6DITDvqIHaC_696e5kHTieY/s1600/nginx-rce.jpg",
+      "processedAt": "2026-11-18T23:38:41.349511+00:00"
+    },
+    {
+      "id": "art-807cf4b6",
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "summary": "F5 has discovered six critical vulnerabilities in its BIG-IP software that can crash the Traffic Management Microkernel without requiring authentication, potentially disrupting network traffic until the system restarts. These flaws only affect systems with specific configurations, such as certain iRule commands or APM policies with particular agents. The vulnerabilities pose a risk of denial-of-service attacks and may potentially allow remote code execution on affected systems.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "f5-big-ip",
+        "dos-attack",
+        "rce-risk",
+        "authentication-bypass",
+        "patch-required",
+        "traffic-disruption"
+      ],
+      "whyItMatters": "BIG-IP is widely deployed in enterprise networks for load balancing and traffic management, making these vulnerabilities a significant concern for organizations relying on this infrastructure. The ability to crash critical traffic handling components without authentication could enable attackers to cause widespread service disruptions or potentially gain system control. Organizations using affecte",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizE3X3tUSPpxIYnNyM91hyphenhyphenzZOS6jjdHnCLmubn4upOYKZn3MdjUqJQGEjIBGtZ2JHK6yggH6RxSQCANhtF7-zIWJ0EfGqA7iY2KQWM7vtoiCsc-_KeFZeHeDm-TOpM_oL_EVzOvPru_cMVzx3wJL8kaLEgXuzPzxm3iYnTiyu57quhgBgMY1Nb7V_sXG4/s1600/f5.png",
+      "processedAt": "2026-11-18T23:38:43.920587+00:00"
+    },
+    {
+      "id": "art-7f41b2d8",
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "summary": "Apache Roller, a Java-based blogging platform, has a critical vulnerability (CVE-2026-129448) that allows attackers to execute remote code without needing to log in. The flaw involves unsafe handling of untrusted data in the XML-RPC endpoint and is already being actively exploited by hackers in real-world attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "apache-roller",
+        "rce",
+        "unauthenticated",
+        "active-exploitation",
+        "deserialization",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate and widespread threat because it requires no authentication, has a maximum severity score (9.8), and is already under active attack. Organizations running Apache Roller need to patch immediately to prevent complete system compromise and unauthorized access to their servers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbiCYJD7nei_TBSnUlQG59idq9moCbsg97fnzsiXNi4KvQaphZYA4hHIzXv08t2OsvVZokzPIdhZPzxTkXoEgzTsFby-rBvQX6CY6yPo1Iv8DPnSmPeOeh3OQXF79Q60Hq3UI7kVdhmEKGL2bUwm42JO-8C_ClLHpTpGkWpnflAQMrDDgjIvMKq09DEskr/s1600/apache.jpg",
+      "processedAt": "2026-11-18T23:38:46.161098+00:00"
+    },
+    {
+      "id": "art-4bb2077a",
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
+      "summary": "A critical vulnerability (CVE-2026-115731) in Perforce Puppet, a widely-used enterprise configuration management tool, is being actively exploited by hackers in the wild. The flaw has a high CVSS score of 9.4 and was added to CISA's Known Exploited Vulnerabilities catalog, indicating immediate threat activity. Organizations using Puppet for infrastructure management need to treat this as an urgent priority.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "puppet-rce",
+        "critical-vulnerability",
+        "active-exploitation",
+        "enterprise-infrastructure",
+        "cisa-kev",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Puppet is used extensively in enterprise environments to manage IT infrastructure and configurations, making this RCE vulnerability a direct path for attackers to compromise entire organizations at scale. Active exploitation combined with CISA's KEV listing confirms this threat is real and immediate, requiring all affected organizations to prioritize patching to prevent potential system takeover a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s1600/puppet.jpg",
+      "processedAt": "2026-11-18T23:38:48.907848+00:00"
+    },
+    {
+      "id": "art-ba2ee289",
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+      "summary": "CISA has warned organizations about a critical vulnerability in Oracle Java (CVE-2026-114938) that allows attackers to execute remote code or cause system crashes through an out-of-bounds write flaw. With a CVSS score of 8.1, this memory-corruption bug poses a significant threat to systems running affected Java versions. Organizations are being urged to apply patches immediately to prevent exploitation.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "java-vulnerability",
+        "remote-code-execution",
+        "patch-now",
+        "memory-corruption",
+        "cisa-alert",
+        "cve-2026-114938"
+      ],
+      "whyItMatters": "Java is widely deployed across enterprise environments, making this vulnerability a high-priority threat with broad impact potential. The combination of remote code execution capability and urgent CISA guidance means organizations must prioritize patching to prevent active exploitation. Delayed remediation could expose critical systems to compromise across multiple sectors and organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivmrsz2fViEN49Su385gmuAShCPcxobsMF-FbR9t1sXw6aEbOMzFUT5YktViqASQUXP3bLT13HYMAE1wBQTN0ZRDGXWFJUy_EWOKhOjR7jSz-bhEK8jas_v9wWUYxevCAZt4PzOCaGNLLC96kDwFjtKBuXVW2O3K2BK9AO5nyZutFf_uCaZtvyaQ2qf8gK/s1600/cisa-java.jpg",
+      "processedAt": "2026-11-18T23:38:51.619111+00:00"
+    },
+    {
+      "id": "art-8587e5f5",
+      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "summary": "Ukrainian and FBI authorities have collaborated to arrest four members of an international ransomware gang that extorted over $40 million from dozens of companies globally. This coordinated law enforcement action demonstrates increased international cooperation in combating organized cybercrime networks. The operation disrupts a significant criminal organization responsible for attacks on at least 28 organizations worldwide.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "law-enforcement",
+        "international-cooperation",
+        "cybercrime",
+        "extortion"
+      ],
+      "whyItMatters": "This arrest highlights that ransomware operators face real consequences through international law enforcement collaboration, potentially deterring future attacks and disrupting criminal infrastructure. Organizations should recognize that law enforcement capabilities are improving and that ransomware gangs are increasingly vulnerable to prosecution, reinforcing the importance of proper incident rep",
+      "image": null,
+      "processedAt": "2026-11-18T23:38:53.897108+00:00"
+    },
+    {
+      "id": "art-03b89748",
+      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+      "summary": "Coinbase successfully stopped $4.7 million in cryptocurrency transfers targeting victims of a sophisticated scam that used an AI-generated deepfake of Elon Musk to promote a fake giveaway during a Tesla livestream. The fraudulent video attracted over 500,000 viewers who were deceived into sending funds to scammer wallets. This incident demonstrates how deepfake technology combined with social engineering can be weaponized at scale to defraud large audiences.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "deepfake-fraud",
+        "cryptocurrency-scam",
+        "ai-security",
+        "social-engineering",
+        "identity-impersonation"
+      ],
+      "whyItMatters": "This case highlights how AI-generated deepfakes are becoming a potent tool for large-scale financial fraud, with the ability to deceive hundreds of thousands of people simultaneously. It demonstrates the critical need for cryptocurrency exchanges to implement detection systems for fraudulent transfers and shows that even major tech platforms remain vulnerable to deepfake-based scams targeting high",
+      "image": null,
+      "processedAt": "2026-11-18T23:38:56.548906+00:00"
+    },
+    {
+      "id": "art-93764843",
+      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+      "summary": "An IT provider called Wellington IT experienced a cyberattack that compromised personal information of members across 50 credit unions, with the majority located in Ireland. This incident demonstrates how a single breach at a service provider can affect many organizations and their customers at once. Credit union members may face risks related to identity theft and financial fraud as a result of their data being exposed.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "third-party-compromise",
+        "financial-sector",
+        "credit-unions",
+        "ireland",
+        "it-provider-attack"
+      ],
+      "whyItMatters": "This breach highlights the critical vulnerability of relying on third-party service providers—a single compromised IT vendor can expose thousands of customers across multiple financial institutions. Organizations must implement strong vendor security assessments and monitoring to protect their data and their customers' information from supply chain attacks.",
+      "image": null,
+      "processedAt": "2026-11-18T23:38:59.242616+00:00"
+    },
+    {
+      "id": "art-db08b5bf",
+      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+      "summary": "Attackers successfully compromised Microsoft's Agent Framework package on PyPI, a popular Python repository, by releasing malicious versions designed to harvest cloud credentials and sensitive data from developers. This supply chain attack put any developer who installed the trojanized package at risk of credential theft. The incident highlights how widely-trusted software repositories can be weaponized to target developers at scale.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "malware",
+        "credential-theft",
+        "pypi",
+        "cloud-security",
+        "open-source"
+      ],
+      "whyItMatters": "This attack demonstrates a critical vulnerability in the software supply chain where even trusted repositories hosting official packages can be compromised. Developers who rely on PyPI for dependencies face significant risk of installing malicious code, potentially exposing cloud credentials, API keys, and other sensitive data at an organizational level. Organizations need robust dependency verifi",
+      "image": null,
+      "processedAt": "2026-11-18T23:39:01.997562+00:00"
+    },
+    {
+      "id": "art-9ed37198",
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+      "summary": "The Tor Project released an emergency security update to protect its network relay software from an ongoing distributed denial-of-service (DDoS) attack. This attack has been overwhelming relays and impacting most network operators. The update aims to strengthen defenses against this active threat targeting the Tor network's infrastructure.",
+      "category": "Network Security",
+      "severity": "High",
+      "tags": [
+        "tor-network",
+        "ddos-attack",
+        "emergency-update",
+        "relay-security",
+        "infrastructure-threat"
+      ],
+      "whyItMatters": "Tor is critical infrastructure used by journalists, activists, and privacy-conscious users worldwide to protect anonymity and avoid censorship. An active DDoS attack undermining relay operators directly threatens the availability and reliability of this essential privacy tool, making rapid patching essential for maintaining network resilience.",
+      "image": null,
+      "processedAt": "2026-11-18T23:39:03.964927+00:00"
+    },
     {
       "id": "art-7508f142",
       "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
@@ -827,208 +1034,6 @@
       "whyItMatters": "This incident demonstrates that critical infrastructure vulnerabilities can remain dormant for months before causing catastrophic failures, emphasizing the importance of robust code review, testing, and rapid patch deployment processes. Organizations relying on cloud services must understand that even major vendors can experience widespread outages, making business continuity planning and redundan",
       "image": null,
       "processedAt": "2026-11-17T01:10:58.242496+00:00"
-    },
-    {
-      "id": "art-c086f872",
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-      "summary": "Security researchers discovered six unpatched vulnerabilities in Danfoss AK-SM800A refrigeration controllers that could allow attackers to remotely take control without needing login credentials. The latest firmware version 5.4.0 does not address these flaws, leaving systems at risk. Government agencies in Belgium, Ireland, and Germany have already alerted operators about the threat.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "unpatched-vulnerabilities",
-        "remote-takeover",
-        "industrial-control-systems",
-        "refrigeration-equipment",
-        "zero-day",
-        "critical-infrastructure"
-      ],
-      "whyItMatters": "This vulnerability affects critical industrial refrigeration systems with no available patches, creating immediate risk for supply chain, food storage, and pharmaceutical operations. Attackers can gain complete remote control without authentication, potentially causing widespread damage, spoilage, or operational disruption across multiple sectors. The lack of a fix combined with government warning",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_1GngZ38pRRizZTrhUgdWx49U1Dk8N_Y1Wkfll2kXIjAeYMmX2R69d6OBvA9k-zb6rnYbNOZyouN9yj59QIlT8XxiTzmmhLTmwmEdU2bqiGc_XoSMlvKKN1qZtH3o73YN1miGEhR4vkDniji2WkWOHjSPPIn69ysWKPkFzr504FsViG2NQYxPDkD7sgw/s1600/flaws.jpg",
-      "processedAt": "2026-11-16T15:18:50.934237+00:00"
-    },
-    {
-      "id": "art-0e89f899",
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "summary": "Security researchers discovered a new variant of CoffeeLoader malware that uses an NSIS installer to deploy a modified 7z.dll file, which is executed through rundll32.exe to deliver additional malicious payloads. The malware is notably associated with the Retadup worm, which had been taken down seven years prior but has now resurfaced with this updated delivery mechanism. This development demonstrates how threat actors revive old malware families with new techniques to evade detection and infect systems.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "malware-distribution",
-        "retadup-worm",
-        "coffeeloader",
-        "payload-delivery",
-        "evasion-techniques"
-      ],
-      "whyItMatters": "The resurgence of Retadup after seven years shows that adversaries can resurrect dormant malware with modern variants to bypass existing security controls. CoffeeLoader's ability to deliver secondary payloads makes it a critical threat vector for further compromise, ransomware deployment, or data theft on infected systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxRuwbdQU-KyBsSrFlIZp4oczr_tJu53WrfB3nM6QYrO7kFgGAZO1NMSi7mziUOUaTrzq5C4KzCJqvYOf0Ry19ypJac-9mBYzYiqiTNl462i1uYo7DF9aAHxiVU_IOaByH3NtNlrF0hUhZtpItADKJauPVzWrz8r6YOQEHQrt_YiAmPba4CIOsSjZA2Wy_/s1600/hacker-code.jpg",
-      "processedAt": "2026-11-16T15:18:53.869568+00:00"
-    },
-    {
-      "id": "art-36d4b1be",
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "summary": "A cybercriminal group called REF3364 is using a malware toolkit named SANSAR to secretly mine cryptocurrency on Linux systems. The malware is designed to evade detection by tampering with GPU monitoring tools, making it difficult for system administrators to notice the unauthorized mining activity. SANSAR communicates through the TOR network to receive commands and control both CPU and GPU mining operations.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "cryptomining-malware",
-        "linux-threat",
-        "gpu-exploitation",
-        "evasion-techniques",
-        "tor-command-control"
-      ],
-      "whyItMatters": "This malware demonstrates how attackers are becoming more sophisticated in hiding unauthorized resource consumption, making it harder for organizations to detect compromised systems. Understanding these evasion techniques helps security teams strengthen their monitoring and detection capabilities to prevent financial losses from stolen computing resources.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmpR04waLSDZNCb2048kfy5iSlIXa_Ek3PI5qLRaBksxvyI9k_8Z6bwl6Og4Mc-AGqmHcpL7YlYVd48895FJtKlOoaqgi658-H3FZTxdjf_w32w5eJYzm_BUdXlH7M7Vb40uPUI73CDbXtQCdZAEkFruSBXvc0_B84hCQ-em0ZQk2uTIIHxRdGCxQ6bx1C/s1600/nv.jpg",
-      "processedAt": "2026-11-16T15:18:56.100195+00:00"
-    },
-    {
-      "id": "art-0296e9f1",
-      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-      "summary": "Automated AI agents have been systematically scanning internet-exposed AI applications like LiteLLM, One API, and Dify to steal API keys and authentication credentials. Amazon's security team detected this campaign using honeypot servers and found that attackers were using the stolen keys to power additional AI models in a self-sustaining attack cycle. This represents a novel threat where AI tools are weaponized to compromise other AI infrastructure.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-agents",
-        "api-key-theft",
-        "cloud-security",
-        "ai-infrastructure",
-        "automated-attacks"
-      ],
-      "whyItMatters": "This attack demonstrates how AI systems can be weaponized to autonomously hunt for and exploit vulnerabilities in other AI platforms, creating a scalable threat that grows without manual intervention. Organizations using LiteLLM, Dify, and similar platforms need to immediately audit their API key exposure and implement stronger access controls. The self-sustaining nature of this campaign—where sto",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigoyCtEKcD7TM_5vDkKiZYFdk_l4-js7HNuvMXzZbVqUbEgq1nnD2vEZgZ0kL9CdmOkITC0Rbd-ebTkSX-R4NPKwWZXzUD6zS0g9nEfnlXw3njm3oW2Se97qbT7lIfZEL56X3IIaZAildTni9-zQJu5sa4Lhvi_mVlbTeZFyFtezOMHJ_bDhJWfG7KQ8eh/s1600/amazon.jpg",
-      "processedAt": "2026-11-16T15:18:58.753982+00:00"
-    },
-    {
-      "id": "art-06577731",
-      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-      "summary": "A Russian software developer's network was compromised for months through exploitation of the Log4Shell vulnerability in VMware vCenter, allowing attackers to access their code-signing server. The threat actor BO Team (also known as Black Owl or Hoody Hyena) conducted this targeted attack, which was discovered by Kaspersky's ICS CERT team in June 2025. This breach demonstrates how attackers can weaponize known vulnerabilities to gain access to critical infrastructure and potentially tamper with software distribution channels.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "log4shell",
-        "vmware-vcenter",
-        "code-signing-compromise",
-        "supply-chain-risk",
-        "bo-team",
-        "infrastructure-compromise"
-      ],
-      "whyItMatters": "Compromising a code-signing server represents a severe supply chain attack risk, as attackers could inject malicious code into legitimate software updates distributed to end users. This incident highlights the critical importance of patching known vulnerabilities like Log4Shell promptly, as even months-old exploits remain highly effective against unpatched systems. Organizations must prioritize se",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgAvzoKykaMIpa6xx92YudipfUoEQnSkrE6p2CiWEVra5izr5GfuNQGOnfRuF0XV99v1IPRFe2Q6BF27UEq3BnWFS5onw97dt3hvszilQDANdtRdYi0_hTDOrKQvuwGn1mY_m-QTabV3jwWCNwXs_OizK2GLF3Eks5HJj5I7kbmA2IztruSBVjq5WOcxEM-/s1600/log4shell.jpg",
-      "processedAt": "2026-11-16T15:19:01.459003+00:00"
-    },
-    {
-      "id": "art-79eec3ff",
-      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-      "summary": "The FBI has updated its CJIS Security Policy to mandate stronger password controls and multi-factor authentication (MFA) for law enforcement agencies across all account types. The article provides seven actionable steps to help organizations meet these requirements, including blocking compromised passwords and implementing MFA strategies. These requirements are essential for protecting sensitive law enforcement data and maintaining compliance with federal standards.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "mfa",
-        "password-security",
-        "cjis-compliance",
-        "law-enforcement",
-        "access-control",
-        "authentication"
-      ],
-      "whyItMatters": "Law enforcement agencies handle highly sensitive criminal justice data, making them critical targets for cybercriminals and state actors. Mandatory MFA and strong password policies significantly reduce the risk of unauthorized access to classified information and criminal records. Organizations must understand and implement these requirements to avoid compliance violations and security breaches th",
-      "image": null,
-      "processedAt": "2026-11-16T15:19:03.513045+00:00"
-    },
-    {
-      "id": "art-b72439e7",
-      "title": "Google warns that fully-automated AI attacks are coming soon",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-      "summary": "Google has warned that cybercriminals are increasingly using AI-powered automated tools to discover and exploit vulnerabilities at machine speed, making attacks faster and more difficult to defend against. These agentic AI workflows can operate independently to identify security weaknesses and launch attacks without human intervention. This shift represents a significant escalation in cyber threats as traditional response times become inadequate against AI-accelerated attack methods.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "ai-powered-attacks",
-        "automated-exploitation",
-        "vulnerability-discovery",
-        "machine-speed-threats",
-        "ai-security"
-      ],
-      "whyItMatters": "As attackers deploy autonomous AI systems to find and exploit vulnerabilities faster than humans can respond, organizations face a fundamental shift in threat timelines and defense strategies. Traditional patch cycles and manual security monitoring may become obsolete against fully-automated attacks, requiring organizations to adopt AI-driven defensive measures and continuous monitoring to remain ",
-      "image": null,
-      "processedAt": "2026-11-16T15:19:05.967704+00:00"
-    },
-    {
-      "id": "art-72278dae",
-      "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-      "summary": "Microsoft is warning customers that Windows Server 2016 will reach end of support in approximately two months, after which the system will no longer receive security updates. Organizations still running this operating system need to plan upgrades immediately to avoid operating on unsupported infrastructure. Without security patches, these servers become increasingly vulnerable to attacks and exploitation.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "end-of-support",
-        "windows-server",
-        "security-updates",
-        "patch-management",
-        "legacy-systems"
-      ],
-      "whyItMatters": "Organizations continuing to use unsupported operating systems face exponentially higher risk of exploitation since vulnerabilities discovered after end-of-support will never receive patches. This creates a critical window where attackers can target known weaknesses in Windows Server 2016 without remediation available from Microsoft, potentially compromising entire network infrastructure and sensit",
-      "image": null,
-      "processedAt": "2026-11-16T15:19:08.129091+00:00"
-    },
-    {
-      "id": "art-08325b31",
-      "title": "Australian retail giant Coles investigates cybersecurity incident",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-      "summary": "Coles Group Limited, Australia's second-largest retailer, is currently investigating a cybersecurity incident that has been reported to authorities. While the company has stated that store operations have not been affected, the nature and scope of the incident remain under investigation.",
-      "category": "Other",
-      "severity": "Medium",
-      "tags": [
-        "coles-incident",
-        "retail-security",
-        "incident-response",
-        "australia"
-      ],
-      "whyItMatters": "Major retail organizations like Coles handle sensitive customer data and payment information, making them frequent cybersecurity targets. How companies respond to and disclose security incidents sets important precedents for transparency and customer protection in the retail sector.",
-      "image": null,
-      "processedAt": "2026-11-16T15:19:09.678941+00:00"
-    },
-    {
-      "id": "art-5d4aad80",
-      "title": "Anthropic’s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-16",
-      "originalUrl": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-      "summary": "Anthropic has released Claude Mythos 5.2 and Fable 5.2, which include improvements to coding and reasoning capabilities. However, the updates show concerning cybersecurity trade-offs: Fable 5.2 blocks fewer security-related tasks while Mythos 5.2 has enhanced capabilities for identifying bugs. These changes highlight the balance between AI utility and safety guardrails in security applications.",
-      "category": "AI Security",
-      "severity": "Medium",
-      "tags": [
-        "ai-security",
-        "claude-ai",
-        "security-guardrails",
-        "bug-detection",
-        "ai-safety"
-      ],
-      "whyItMatters": "As AI systems become more integrated into security workflows, changes to their blocking policies and bug-finding capabilities directly impact how developers and security teams rely on these tools. The reduction in security task blocking on Fable 5.2 could increase misuse risks, while improved bug detection in Mythos may create security tool dependencies that organizations need to understand and mo",
-      "image": null,
-      "processedAt": "2026-11-16T15:19:12.090088+00:00"
     }
   ]
 }
