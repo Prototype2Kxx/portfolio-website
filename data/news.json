@@ -1,7 +1,215 @@
 {
-  "lastUpdated": "2026-11-17T15:45:14.231993+00:00",
+  "lastUpdated": "2026-11-18T00:06:12.376847+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-58e614c4",
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "summary": "Security researchers at NebuSec discovered two remote code execution vulnerabilities in Telegram's Android app that can circumvent newly implemented security defenses. The flaws involve malicious widgets embedded in chat messages that can execute JavaScript code outside of Telegram's sandbox, potentially allowing attackers to run arbitrary code on user devices. These exploits were demonstrated on Telegram's test server and highlight weaknesses in the platform's recent security updates.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "telegram",
+        "android",
+        "rce",
+        "code-execution",
+        "mobile-security",
+        "widget-exploit"
+      ],
+      "whyItMatters": "This vulnerability is significant because Telegram is widely used globally for sensitive communications, and RCE exploits on mobile devices can lead to complete system compromise, data theft, and unauthorized surveillance. The fact that these bypasses target recently deployed security measures suggests that attackers can quickly adapt to platform defenses, requiring immediate patching and user awa",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpVlnQrxQ-QDawosxNpQdcPtITzUQKuYeqUtOk0gctwRhi-8P9Qi_9L72cSwkHRdGNS94HaIDHEkqeb0NTPw3mIZyFstN3ZM1FlUoMweKPNz4iTkAkxlxFSNdE92DAFlfLMFe0gTXWE78eOHROSbISVMgdmFOeVhm0SS2-1wXrNxPGknTVMGroQ0pRqYg/s1600/telegram-rce.jpg",
+      "processedAt": "2026-11-18T00:05:49.302771+00:00"
+    },
+    {
+      "id": "art-a9759a24",
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "summary": "Oracle is releasing patches for 11 vulnerabilities in Java SE that can be exploited remotely without requiring authentication. These flaws have a maximum CVSS score of 8.1, with reports also highlighting a critical remote code execution vulnerability in OpenJDK. Organizations using Java need to apply these updates promptly to protect their systems from potential attacks.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "java-vulnerability",
+        "rce-flaw",
+        "remote-code-execution",
+        "patch-release",
+        "openjdk",
+        "authentication-bypass"
+      ],
+      "whyItMatters": "Java is widely deployed across enterprise environments, making these unauthenticated remote code execution flaws an immediate threat to infrastructure security. The absence of authentication requirements means attackers can exploit these vulnerabilities without compromising credentials first, significantly lowering the barrier for attacks. Immediate patching is essential to prevent widespread comp",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s1600/java4shell.jpg",
+      "processedAt": "2026-11-18T00:05:51.696331+00:00"
+    },
+    {
+      "id": "art-427967ca",
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "summary": "A sophisticated campaign called Trigram is impersonating approximately 50 legitimate AI and blockchain companies to deceive developers into downloading and running malicious software that steals sensitive information. The attackers are targeting developers across Europe and the U.S., exploiting trust in well-known brands within the tech sector. This industrialized operation demonstrates how cybercriminals are increasingly focusing on the developer community as a high-value target.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing",
+        "infostealer",
+        "developer-targeting",
+        "brand-impersonation",
+        "ai-sector",
+        "blockchain-sector"
+      ],
+      "whyItMatters": "Developers have elevated access and control over critical systems, making them prime targets for credential theft; successful compromise could lead to supply chain attacks affecting many organizations. The scale of brand impersonation (50+ companies) suggests this campaign has significant resources and coordination, requiring immediate awareness across development teams. Organizations in AI, block",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXvywoP0qreCtUhDgAD1y24HevVHwAH9bGo904BuaQ7-amvdkk6Oi8gz8WjF-Hwiu3SinN266QM0KwUX6lDnayGOtMaSEff_b5vybBsdwvDhiai2uGsAlYfMgCdquPmKqaqM6eY54pG9HsMR7X5Sf7M4nkbIaHmWJMBG1uL3ggpJMMvfQR6FbMagqug2QG/s1600/target.jpg",
+      "processedAt": "2026-11-18T00:05:54.810841+00:00"
+    },
+    {
+      "id": "art-6f025beb",
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+      "summary": "ConnectWise completed its investigation into security breaches affecting ScreenConnect environments and is urging users to update to version 26.6.5 or later. The company reports that attackers continue targeting unpatched on-premises systems, particularly those with vulnerable third-party extensions still active. Organizations need to prioritize applying these updates to prevent further unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "screenconnect",
+        "patch-now",
+        "unpatched-systems",
+        "remote-access",
+        "third-party-extensions",
+        "connectwise"
+      ],
+      "whyItMatters": "ScreenConnect is widely used by IT service providers and enterprises for remote support, making active exploitation of this vulnerability a significant supply-chain risk. Attackers targeting unpatched systems can gain legitimate remote access credentials, potentially compromising thousands of downstream customers. Immediate patching is essential to prevent widespread compromise of managed service ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjErwt0frcFKiESffCoP1OtYh0j23goqdMN0nz-RT02biCz30WlLG4PD5gTyGgbumOWB3Zh1PJfENQoRtOwQVm3Nbg8VsiRhvNk662qVFNGqO8DQ4bFrroSzWgsvfCYGLWFzD1A-f6fcTu_E_dm4o1iUJz96scWy7skw49vzD9hfIfVEILTVPKsvbsEpGca/s1600/screenconnect-flaws.jpg",
+      "processedAt": "2026-11-18T00:05:57.209882+00:00"
+    },
+    {
+      "id": "art-67393f3e",
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+      "summary": "N-able released a critical security update for N-central, its remote monitoring and management platform, addressing 17 vulnerabilities. The update comes as attackers have already begun exploiting earlier flaws to deploy cryptocurrency miners on affected systems. This hotfix is designed to strengthen security across both RMM and UEM platforms used by many organizations.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "n-central",
+        "rmm-platform",
+        "crypto-miners",
+        "active-exploitation",
+        "critical-patch",
+        "vulnerability-fixes"
+      ],
+      "whyItMatters": "Organizations using N-central need to apply this update immediately since attackers are actively exploiting known vulnerabilities to compromise systems. Delayed patching exposes businesses to crypto mining attacks that can degrade performance, increase costs, and serve as a foothold for further attacks. This highlights the importance of prioritizing security patches for widely-used remote manageme",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Tz3JQedMRmE0NpjmQ9KXm4AlgJ2GfBbA8pbKm3UARfJrN_vRlTywt0Zg80C-fM4hmacqlZTHV_wh0E-yoga-UjcSvpt2FHczR2AtGze3mvk0fmqeET4vvee-4f_RJEMIF-HL79HkXg_GD2Lg-U8jAPPJaPaqYDJmKTsJHn7GO0lS84zEU5SFQWll-qwv/s1600/nn.jpg",
+      "processedAt": "2026-11-18T00:05:59.874541+00:00"
+    },
+    {
+      "id": "art-8e865bf1",
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "summary": "A critical vulnerability called Java4Shell has been discovered in OpenJDK that allows attackers to execute malicious code remotely on widely-used enterprise applications without needing to authenticate first. This flaw impacts popular tools like Jenkins, Jira, Confluence, and Keycloak, putting many organizations at serious risk. The vulnerability demonstrates how flaws in core programming language implementations can cascade across numerous dependent applications.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "java4shell",
+        "rce",
+        "openjdk",
+        "zero-day",
+        "enterprise-applications",
+        "patch-urgent"
+      ],
+      "whyItMatters": "This vulnerability affects foundational enterprise tools used by thousands of organizations, making it a widespread threat with immediate exploitation potential. Organizations relying on affected applications must prioritize patching immediately to prevent unauthorized access and system compromise. The flaw demonstrates the critical importance of monitoring security updates for core dependencies t",
+      "image": null,
+      "processedAt": "2026-11-18T00:06:02.478809+00:00"
+    },
+    {
+      "id": "art-2320f363",
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+      "summary": "Attackers are automatically scanning Docker Hub for exposed cloud credentials and secrets in public container images, then stealing and exploiting them within seconds of upload. This rapid exploitation window means that even brief accidental exposure of sensitive access keys can lead to immediate compromise. Organizations using Docker Hub need to be extremely careful about what credentials they include in their container images.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "docker-hub",
+        "credential-exposure",
+        "cloud-security",
+        "automated-attacks",
+        "container-security",
+        "secrets-management"
+      ],
+      "whyItMatters": "This demonstrates that attackers have automated tools constantly monitoring public repositories for leaked credentials, making accidental exposure nearly impossible to contain. Organizations must implement proper secrets management practices and assume any credential uploaded to a public registry will be compromised within seconds. This highlights the critical need for pre-deployment scanning and ",
+      "image": null,
+      "processedAt": "2026-11-18T00:06:05.239898+00:00"
+    },
+    {
+      "id": "art-2916d778",
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+      "summary": "Japan's Fugaku supercomputer, one of the world's most powerful computing systems, was forced offline after experiencing a security breach. The incident highlights vulnerabilities in critical infrastructure that supports scientific research and national interests. This shutdown demonstrates how cyberattacks can disrupt essential systems that countries depend on for computational research and development.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "critical-infrastructure",
+        "supercomputer",
+        "data-breach",
+        "japan",
+        "riken",
+        "cyberattack"
+      ],
+      "whyItMatters": "Attacks on supercomputers represent a serious threat to national scientific capabilities and research continuity. This incident underscores the importance of securing high-value computing resources and demonstrates that even advanced research institutions are vulnerable to cyberattacks, requiring robust defensive strategies for critical infrastructure.",
+      "image": null,
+      "processedAt": "2026-11-18T00:06:07.475944+00:00"
+    },
+    {
+      "id": "art-a2d8081d",
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+      "summary": "Apple experienced service outages affecting multiple critical platforms including iCloud Mail, account sign-in systems, Apple School Manager, and Schoolwork. These disruptions prevented users from accessing essential email and authentication services across Apple's ecosystem. The outages impacted both individual users and educational institutions relying on Apple's cloud infrastructure.",
+      "category": "Cloud Security",
+      "severity": "High",
+      "tags": [
+        "cloud-outage",
+        "service-disruption",
+        "icloud",
+        "apple-services",
+        "infrastructure-failure"
+      ],
+      "whyItMatters": "Service outages at major cloud providers like Apple demonstrate the critical dependency organizations and individuals have on these platforms for core functions like email and authentication. Understanding outage causes and impacts helps security teams develop resilience strategies, including failover plans and monitoring systems to quickly identify when essential services become unavailable.",
+      "image": null,
+      "processedAt": "2026-11-18T00:06:09.673794+00:00"
+    },
+    {
+      "id": "art-3a0f3318",
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-17",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+      "summary": "Researchers were able to take over a popular Hugging Face account that hosted Kokoro, a text-to-speech AI model widely used by major tech companies like Google, NVIDIA, AMD, Intel, and AWS. The takeover was possible because Hugging Face lacked proper ownership verification procedures. This incident highlights how inadequate security controls on AI model repositories can lead to unauthorized access of critical software components used across the tech industry.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "account-takeover",
+        "hugging-face",
+        "access-control",
+        "model-tampering"
+      ],
+      "whyItMatters": "This demonstrates a critical vulnerability in AI model distribution platforms that could allow attackers to modify or compromise models used by major corporations, potentially affecting millions of end users. Without proper ownership verification, malicious actors could inject code or malware into widely-adopted AI models before they reach production environments. Organizations relying on third-pa",
+      "image": null,
+      "processedAt": "2026-11-18T00:06:12.376691+00:00"
+    },
     {
       "id": "art-cdb4a453",
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
@@ -821,212 +1029,6 @@
       "whyItMatters": "This outage demonstrates the critical importance of cloud service reliability for modern organizations and the cascading impact when major platforms fail. Organizations must understand their dependency on third-party cloud providers and develop contingency plans for service disruptions. The incident underscores the need for robust disaster recovery strategies and multi-vendor solutions to minimize",
       "image": null,
       "processedAt": "2026-11-15T22:10:15.270533+00:00"
-    },
-    {
-      "id": "art-31a80b63",
-      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-15",
-      "originalUrl": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-      "summary": "Meta received an €805 million fine from Italy's data protection authority for allowing Facebook's Android app to access users' photo galleries and metadata without explicit permission. The feature was enabled by default, allowing the app to suggest photos and videos for posting without users actively opting in. The company has been given 60 days to address the violation.",
-      "category": "Privacy",
-      "severity": "High",
-      "tags": [
-        "privacy-violation",
-        "unauthorized-access",
-        "mobile-security",
-        "data-protection",
-        "regulatory-fine",
-        "consent-issue"
-      ],
-      "whyItMatters": "This case demonstrates how major tech companies can face significant financial penalties for defaulting users into data-sharing features without explicit consent, setting important precedent for privacy enforcement. It highlights the critical importance of implementing proper consent mechanisms in mobile applications and respecting user control over sensitive personal data like photos and metadata",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjdTCjpbsG3Dp62JM1KZqfSvZpuBnxwaCxXsplW3dAt2b4Ym0KAWPfxkHf4DT-02VK3jJESLmgasdE6D36qGegWu7dk9YSLN4DZxRVsgrM9lIEXXHUvQ0VzaZ1_gFqpjtA4cP3rlt82g5WnK2sXNZHJd5F_rEk4VSTGnMKOuXziSM1R85Vqhway3lajwTA/s1600/facebook-fine.jpg",
-      "processedAt": "2026-11-15T13:43:30.217530+00:00"
-    },
-    {
-      "id": "art-f82ca3e5",
-      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-15",
-      "originalUrl": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-      "summary": "An attacker stole an access key that Cursor had issued to Fireworks AI, which was then exposed during a security breach at Fireworks. Using this compromised key, the attacker gained unauthorized access to Cursor's systems and trojanized the official Claude Code extension on the Cursor marketplace. This incident demonstrates how security weaknesses at third-party services can create cascading risks for organizations that depend on them.",
-      "category": "AI Security",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "credential-theft",
-        "malicious-extension",
-        "ai-security",
-        "third-party-compromise",
-        "data-breach"
-      ],
-      "whyItMatters": "This attack shows how stolen credentials from one service can be weaponized to compromise popular developer tools trusted by thousands of users, putting their code security at risk. The trojanized extension could allow attackers to inject malicious code into user projects, making this a serious supply chain threat in the AI development ecosystem. Organizations must implement strict access control ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg16ACawbG7rP_kT-8Boo4xdTje3BeTWyFSnNXwHhr5cvy2-1X3Ljhrc1IuZlseWd55tN8E1yjQ9ldhTnjWTU-GJBpX_Zen36YiLQGsRSRAoteqHyxx7mn_w0QgLfMKDLItA4p_jpHajucbglLnCR_zWBY_t82YvFkLa9dQFBfjP1BrTlrNdYufsGMSZiGn/s1600/cursor.jpg",
-      "processedAt": "2026-11-15T13:43:33.360270+00:00"
-    },
-    {
-      "id": "art-04fe11d9",
-      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
-      "summary": "Security teams struggle to quickly identify who or what is behind suspicious activities, even with extensive monitoring tools and alerts. The article highlights how identity blind spots—like not knowing if a login belongs to an employee, a machine account, or an AI agent—can leave organizations vulnerable to attacks. A webinar will explore how these gaps in identity visibility create security risks and what steps teams can take to close them.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "identity-management",
-        "security-operations",
-        "access-control",
-        "threat-detection",
-        "soc-operations"
-      ],
-      "whyItMatters": "Rapid identification of threat actors and their access level is critical for effective incident response; gaps in identity visibility can cause delays that allow attackers to expand their reach. Organizations that cannot quickly answer 'who is doing this and what can they access' face significantly higher risks of data exfiltration and lateral movement.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj765JyAl658UR5d1raKFLJmZpxXuof0-wBCobeJwnWjWZROTa4wtMyPvTTjBr4-ccE0cmKpIyGT1BetlqUPkPS_omcKVWz7RcCv6sUl2h6KxXrem_X26kzrp7kwq8bSezUsYMa6h2JNh-rPglsuNnRzt6i3IdzBjkLFNBNy5-Y0jId2B6Zhyir_jdm8O4/s1600/sails.jpg",
-      "processedAt": "2026-11-15T13:43:35.734992+00:00"
-    },
-    {
-      "id": "art-6429b0b7",
-      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
-      "summary": "Google Cloud has identified three CPU side-channel vulnerabilities in AMD Turin processors that could allow attackers to steal sensitive data from other processes running on the same VM core. While Google has already implemented protections between VMs and between VMs and the host, users must apply guest OS patches and restart their systems to fully defend against insider threats within individual VMs. These flaws exploit processor architecture weaknesses to infer confidential information like kernel data without requiring elevated privileges.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "amd-turin",
-        "side-channel-attack",
-        "cloud-security",
-        "cpu-vulnerability",
-        "patch-required",
-        "vm-security"
-      ],
-      "whyItMatters": "This vulnerability affects a critical infrastructure component (cloud VMs) and requires immediate guest OS patching plus system restarts to mitigate insider threats. Organizations using Google Cloud on AMD Turin chips must act quickly to prevent local attackers from extracting sensitive kernel and process data. The requirement for both patches and operational downtime makes this a significant oper",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikEkIc_eg4_tE5XE6CQrLFl74Gk0QwxcqaGXBnDAlitVIbzreq8faf57QtAqFh8rEn7HgTJzvGUZl2yNBhWVKOKo9KqnJHfduQfoT_HqUTlKhE-FzshzDrpIskiMQ3_Lz2hImNMbt9VdCj0O725_WyZsDXDB91phFceXh6Y_qzHgv1nJPMNjv8a7AU52c/s1600/amd.jpg",
-      "processedAt": "2026-11-15T13:43:38.730009+00:00"
-    },
-    {
-      "id": "art-fa56c0f6",
-      "title": "New N-central Exploits Work Against Patched Servers, Enable Root RCE and Windows SYSTEM Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html",
-      "summary": "N-able discovered new vulnerabilities affecting N-central on-premise servers version 2026.4.1 HF2 that can allow attackers to gain root access and Windows SYSTEM-level privileges even on patched systems. The exploits work when the Legacy API is enabled and exposed to the internet, which is a non-default but potentially common configuration. This represents a significant risk for organizations using N-central for remote management and monitoring.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "n-central",
-        "rce-vulnerability",
-        "privilege-escalation",
-        "patch-bypass",
-        "remote-management",
-        "legacy-api"
-      ],
-      "whyItMatters": "Remote management tools like N-central are high-value targets because compromising them gives attackers broad access to an organization's IT infrastructure. The fact that these exploits work against patched versions and depend on a non-default but potentially widespread configuration means organizations need to audit their settings immediately, not just rely on patching.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhR4KdRS0v77uQIdhC0i5aopa8XIAZIRnTzVCVqto7dEdfUH2QyWgrAy1EKu-hARXS4pxNGQQEFroRHOtwSq_9Q8b92tmgw_97JMJoBfC72sl8pOcUYM9nU6YCJht4yD7ALWfERwhUwLsN8wo9t8YnKyIWzHhEAux5ox5WV4wvxe6l1cUmf58P1md2Ekziy/s1600/nable.jpg",
-      "processedAt": "2026-11-15T13:43:41.474414+00:00"
-    },
-    {
-      "id": "art-fdc1bfa8",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-10",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "The FBI arrested a co-founder of a Canadian cybersecurity firm as part of an investigation into the ShinyHunters hacking group, which breached FBI systems and stole sensitive data on thousands of federal agents. This arrest highlights how criminals may exploit connections within the cybersecurity industry to gain access to valuable information. The case underscores vulnerabilities in how security firms themselves can become targets or unwitting participants in major cybercrimes.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "shinyhunters",
-        "fbi-breach",
-        "ransomware-negotiation",
-        "insider-threat",
-        "cybercrime-arrest"
-      ],
-      "whyItMatters": "This incident demonstrates that threats can originate from insiders within trusted cybersecurity firms, making insider threat detection and vetting critical for protecting sensitive government data. The breach of FBI systems shows that even law enforcement agencies face significant cyber risks, and the involvement of a security firm executive suggests attackers are strategically targeting the cybe",
-      "image": null,
-      "processedAt": "2026-11-15T13:43:44.166555+00:00"
-    },
-    {
-      "id": "art-1b18c5a4",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-07",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "summary": "A teenager from Jordan using the hacker alias 'Rey' has been arrested and is cooperating with the FBI after leading ShinyHunters, a major data theft and extortion group. The group was actively extorting a business unit that Boeing had recently sold off when the suspect was detained. This case highlights how even prolific cybercriminal organizations can be dismantled through international law enforcement cooperation and how attackers may target companies with personal connections to their own families.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "extortion",
-        "data-theft",
-        "shiny-hunters",
-        "international-law-enforcement",
-        "arrest",
-        "fbi-cooperation"
-      ],
-      "whyItMatters": "This arrest demonstrates that even sophisticated cybercriminal groups can be successfully targeted through international cooperation, providing hope for law enforcement efforts against organized cybercrime. The case also reveals how attackers may choose victims based on personal connections, suggesting that organizations should consider insider knowledge as a potential attack vector when assessing",
-      "image": null,
-      "processedAt": "2026-11-15T13:43:46.922544+00:00"
-    },
-    {
-      "id": "art-43522447",
-      "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
-      "source": "Dark Reading",
-      "publishedDate": "2026-11-13",
-      "originalUrl": "https://www.darkreading.com/mobile-security/arcticrat-cybercrime-gang-profiles-victim-finances-ai",
-      "summary": "A cybercrime group called ArcticRAT has upgraded their Android malware to do more than just steal cryptocurrency. The attackers now have full control over infected devices and use artificial intelligence to analyze the financial information they steal from victims. This evolution shows how cybercriminals are combining multiple attack capabilities to maximize their profits.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "ai-abuse",
-        "financial-theft",
-        "device-control",
-        "arctic-rat"
-      ],
-      "whyItMatters": "This threat demonstrates how malware operators are adopting AI tools to enhance their attacks, making them more dangerous and harder to detect. Organizations and users need to understand that modern malware threats go beyond simple data theft and now include sophisticated financial profiling capabilities. This raises awareness about the importance of mobile device security and monitoring for unusu",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt876ae2249da592eb/6af77117471ce44823395b3f/smartphone_Ao_Zaa_Studio_shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-11-15T13:43:49.223712+00:00"
-    },
-    {
-      "id": "art-8fb10ac6",
-      "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
-      "source": "Dark Reading",
-      "publishedDate": "2026-11-13",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
-      "summary": "Attackers successfully exploited a known weakness in Binance's security infrastructure during a breach, taking advantage of gaps in the exchange's protective controls. The breach exposed how blockchain-specific complexities, particularly attacker-deployed sweeper tools, can circumvent traditional security measures designed to contain damage from exchange compromises. This incident highlights that even major cryptocurrency platforms can fall victim to attackers who understand and target their specific architectural vulnerabilities.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "binance-breach",
-        "cryptocurrency-security",
-        "blockchain-vulnerability",
-        "exchange-compromise",
-        "control-gaps",
-        "known-weakness"
-      ],
-      "whyItMatters": "This breach demonstrates that attackers can bypass established security controls at major cryptocurrency exchanges by exploiting known weaknesses and blockchain-specific attack vectors like sweepers. Organizations need to recognize that standard security measures may be insufficient against sophisticated threats targeting their unique architecture, requiring specialized defenses for blockchain and",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3c2322c93d29d2a7/6aed04e63037c1017f2823d8/binance-logo-on-black-bkgrd-Zulfugar_Graphics-shutterstockjpg.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-11-15T13:43:52.066900+00:00"
-    },
-    {
-      "id": "art-b0c3edda",
-      "title": "Getting Past the Post-Quantum Cryptography Discovery Phase",
-      "source": "Dark Reading",
-      "publishedDate": "2026-11-12",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/getting-past-post-quantum-cryptography-discovery",
-      "summary": "Many organizations lack a clear understanding of their current cryptographic systems and are unprepared to transition to post-quantum cryptography, which is essential for protecting against future quantum computing threats. The article emphasizes that before implementing PQC solutions, companies need to first inventory and assess their existing cryptographic infrastructure. This discovery phase is a critical first step that most businesses have yet to complete.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "post-quantum-cryptography",
-        "crypto-migration",
-        "encryption-inventory",
-        "quantum-threat",
-        "security-planning"
-      ],
-      "whyItMatters": "Post-quantum cryptography is essential for long-term data security, as quantum computers could break current encryption standards. Organizations that fail to assess and plan their cryptographic transitions now will face significant security risks and compliance challenges in the coming years. Understanding your cryptographic estate is the foundational step required to implement effective PQC defen",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt3f96ce16a435deca/6a3d55be62f12d27e415ed3c/quantum_computer-Peter_Hansen-getty-2214879776.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-11-15T13:43:54.489118+00:00"
     }
   ]
 }
