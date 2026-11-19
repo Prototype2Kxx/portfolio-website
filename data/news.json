@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-19T15:30:26.571220+00:00",
+  "lastUpdated": "2026-11-19T23:57:37.593140+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-83412bef",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "summary": "This week's cybersecurity roundup highlights how attackers are using everyday tactics like fake job offers, service outage notifications, and familiar applications to compromise systems and steal data. The article covers multiple threats including GPT-6.2 jailbreak vulnerabilities, BubbleLoader PNG malware, and ransom demands reaching $500 million. A significant trend noted is how artificial intelligence is being leveraged to make attacks more effective and easier to execute.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "ai-security",
+        "malware",
+        "ransomware",
+        "social-engineering",
+        "jailbreak",
+        "threat-landscape"
+      ],
+      "whyItMatters": "Understanding how attackers combine social engineering with emerging tools like AI jailbreaks helps organizations train employees to recognize sophisticated threats that exploit human psychology. The scale of ransom demands and variety of attack vectors demonstrate that multi-layered defenses and user awareness are critical to preventing costly breaches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgTqUIWPjGeycl6xafh8Hx8n2UN3UCUgjhTpxUul68DHi7Y_IoHVYBvjDd5DpFg15sKI767hVEq-8CbGhK69JNusMh0OBBXfVMwJlZiKT2gNnTPAL9DyvTY85SB68WkvBxFCMF2_rNS9rUgYkQN8sKssDMBS8gO6YpMudQohf_JWnPztX_h8TdbSX6Vtfi/s1600/td.jpg",
+      "processedAt": "2026-11-19T23:57:13.888151+00:00"
+    },
+    {
+      "id": "art-efc2d8f7",
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "summary": "A PHP vulnerability called phpAfterShell exploits the default session storage mechanism to inject malicious objects into sessions. When paired with other weaknesses in an application, attackers can leverage these objects to execute arbitrary code on web servers. The flaw has been patched in today's PHP releases.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "code-execution",
+        "session-hijacking",
+        "cve-2026-126714",
+        "patch-required",
+        "web-application-security"
+      ],
+      "whyItMatters": "This vulnerability represents a critical threat to PHP-based web applications worldwide, as it enables remote code execution through a common feature in PHP's core functionality. Organizations running PHP applications must urgently apply security patches to prevent attackers from gaining full server control. The exploit's reliance on combining multiple weaknesses makes it particularly dangerous fo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg",
+      "processedAt": "2026-11-19T23:57:16.549077+00:00"
+    },
+    {
+      "id": "art-88311328",
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "summary": "Ruby has released patches addressing seven memory-safety vulnerabilities found in its regular expression engine and string handling functions. Five of these flaws have working proof-of-concept exploits that demonstrate remote code execution capabilities, meaning attackers could potentially run malicious code on affected systems. The Ruby maintainers have confirmed awareness of these exploits and strongly recommend updating to the fixed versions.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ruby",
+        "remote-code-execution",
+        "rce",
+        "memory-safety",
+        "patch-now",
+        "regex-vulnerability"
+      ],
+      "whyItMatters": "Ruby is widely used in web applications and backend systems, so these RCE vulnerabilities pose an immediate threat to any organization using affected versions. With proof-of-concept exploits already available, attackers have clear roadmaps for exploitation, making immediate patching essential to prevent unauthorized access and system compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmcgZ7yffFsn_7SX4iQcfMhw1dgsxPFXXh6TUunbQ9VaxZh8O5-AFT2V3q0PE7Wx0rW9nLKuB73eluixYuM9N38Dvq_Gjs1nNOXVk3e71jjfhHoP7W97eeuc5AivI3CQNxIrwSaPR9IGV0f2NZ7900Ihtkdgiw1ZivTvgVrXWH2CrX2X5MZGjos6-bs/s1600/ruby.jpg",
+      "processedAt": "2026-11-19T23:57:19.070455+00:00"
+    },
+    {
+      "id": "art-9e370697",
+      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
+      "summary": "A researcher has revealed critical remote code execution vulnerabilities in PostgreSQL, MySQL, Oracle, and ClickHouse that allow attackers with low-privilege database accounts to execute arbitrary code on the database server. By exploiting memory corruption bugs in SQL engine code, attackers can bypass normal access restrictions that would normally prevent them from reading application tables. These proofs of concept demonstrate a significant security gap where limited database credentials provide unexpected pathways to full system compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "database-rce",
+        "memory-corruption",
+        "postgresql",
+        "mysql",
+        "oracle",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "Database servers are trusted infrastructure components, and the assumption that low-privilege accounts pose minimal risk is a common security model. This vulnerability chain demolishes that assumption, meaning organizations must immediately audit their database access controls and apply patches, as even restricted accounts could lead to complete system compromise. The multi-database impact (Postgr",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s1600/database-rce.jpg",
+      "processedAt": "2026-11-19T23:57:22.024296+00:00"
+    },
+    {
+      "id": "art-40f7c781",
+      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+      "summary": "CISA has identified and cataloged four actively exploited vulnerabilities affecting popular software including Synology DiskStation Manager, BerriAI LiteLLM, Apache Axis, and Vanderbilt's REDCap system. These flaws are being leveraged by attackers to conduct ransomware campaigns, cryptomining operations, and LLMjacking attacks. Organizations using these products need to prioritize patching to prevent compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisa-kev",
+        "active-exploitation",
+        "ransomware",
+        "cryptomining",
+        "llmjacking",
+        "patching-urgent"
+      ],
+      "whyItMatters": "These vulnerabilities are confirmed to be actively exploited in the wild, meaning attackers are already using them to compromise systems for financial gain and data theft. Organizations running these affected products face immediate risk and must patch urgently to avoid becoming victims of ransomware or other attacks.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJc2bWATWnk5-O72K0n3cYlHuhhox3nVPELPst8c1bui3mTiwBZFUjAUSem14OyqLB6CTECCs9fc-iyng9KmY3jelZ2cqrHg4FKvP2qOZui8piIbYTZy9WdZD0NqiY4fXcLud5GYzmNEXR6DRNuQpjkFzfPvW4fIcDtwaFg4SM9xW-eG09WxFuEcmuKx7U/s1600/cisa.jpg",
+      "processedAt": "2026-11-19T23:57:24.584031+00:00"
+    },
+    {
+      "id": "art-3b191c16",
+      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+      "summary": "SBC Medical Group disclosed two cybersecurity incidents that compromised sensitive information for approximately 1.6 million customers and employees. The company filed this breach notification with the SEC, revealing that personal and potentially medical data were exposed in the attacks. This incident highlights how healthcare organizations remain attractive targets for cybercriminals seeking valuable patient information.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "healthcare",
+        "1.6-million-records",
+        "personal-data",
+        "sec-filing"
+      ],
+      "whyItMatters": "Healthcare data breaches of this scale expose millions to identity theft and medical fraud risks, while also demonstrating regulatory requirements for companies to disclose breaches to authorities like the SEC. Such large-scale incidents against established medical groups signal that even organized healthcare entities face significant cybersecurity vulnerabilities that attackers actively exploit.",
+      "image": null,
+      "processedAt": "2026-11-19T23:57:27.181493+00:00"
+    },
+    {
+      "id": "art-bd6188e6",
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "summary": "ASUS released an updated version of Control Center Express (v1.7.29) to address three critical vulnerabilities, including a hard-coded key flaw that could allow attackers to bypass security controls. These flaws could enable remote attackers to gain administrative access to the management console and potentially compromise all devices managed through it. Users of ASUS Control Center Express need to update immediately to protect their systems from unauthorized access.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "asus",
+        "hard-coded-credentials",
+        "critical-vulnerability",
+        "patch-now",
+        "administrative-access",
+        "management-console"
+      ],
+      "whyItMatters": "Hard-coded credentials are a severe vulnerability because they cannot be changed and affect all installations equally, making systems universally vulnerable to attackers who discover them. Administrative access to management consoles can allow attackers to control multiple devices at once, amplifying the impact across entire IT infrastructure. This vulnerability demands immediate patching to preve",
+      "image": null,
+      "processedAt": "2026-11-19T23:57:30.163224+00:00"
+    },
+    {
+      "id": "art-d66fa948",
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "summary": "Transport for London suffered a data breach affecting approximately 265,000 Oyster photocard customers, exposing their account details. This incident highlights how public transportation systems, which handle millions of daily users, can become targets for cyber attacks. Organizations managing large populations of personal data need robust security measures to protect sensitive customer information.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "personal-data-exposure",
+        "oyster-card",
+        "transport-security",
+        "account-compromise"
+      ],
+      "whyItMatters": "This breach demonstrates the real-world consequences of inadequate data protection for critical infrastructure serving hundreds of thousands of users. Compromised payment card and personal information can lead to identity theft and financial fraud, making this incident relevant to both cybersecurity professionals and the general public relying on public transportation systems.",
+      "image": null,
+      "processedAt": "2026-11-19T23:57:32.577024+00:00"
+    },
+    {
+      "id": "art-278f6f3b",
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "summary": "PHP developers released security patches addressing 18 vulnerabilities, with several critical flaws that could allow attackers to execute code remotely without authentication. These fixes are essential for protecting web servers running PHP applications from immediate exploitation. Organizations using PHP should prioritize applying these updates to prevent potential system compromise.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "php-security",
+        "remote-code-execution",
+        "rce",
+        "patch-now",
+        "authentication-bypass",
+        "critical-vulnerabilities"
+      ],
+      "whyItMatters": "Critical RCE vulnerabilities in PHP pose an immediate threat to millions of web servers worldwide, as PHP powers a significant portion of internet applications. Unauthenticated remote code execution allows attackers to fully compromise systems without prior access, making these patches essential for preventing widespread breaches. Delayed patching significantly increases the risk of exploitation i",
+      "image": null,
+      "processedAt": "2026-11-19T23:57:35.127542+00:00"
+    },
+    {
+      "id": "art-c53d638c",
+      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
+      "summary": "NVIDIA is currently investigating a potential security breach after the Gentlemen ransomware group claimed to have stolen company data and posted it on their dark web site. The incident highlights how even major technology companies can fall victim to sophisticated ransomware attacks. This breach could expose sensitive information and potentially affect NVIDIA's customers and stakeholders.",
+      "category": "Ransomware",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "data-breach",
+        "nvidia",
+        "gentlemen-group",
+        "dark-web"
+      ],
+      "whyItMatters": "Major technology companies like NVIDIA are high-value targets for ransomware groups, and successful breaches can compromise sensitive intellectual property, customer data, and business operations. This incident demonstrates the evolving threat landscape where even well-resourced organizations must maintain robust security defenses. Organizations should use this as a reminder to strengthen their in",
+      "image": null,
+      "processedAt": "2026-11-19T23:57:37.592983+00:00"
+    },
     {
       "id": "art-fdebaa46",
       "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
@@ -828,209 +1035,6 @@
       "whyItMatters": "This demonstrates a critical vulnerability in AI model distribution platforms that could allow attackers to modify or compromise models used by major corporations, potentially affecting millions of end users. Without proper ownership verification, malicious actors could inject code or malware into widely-adopted AI models before they reach production environments. Organizations relying on third-pa",
       "image": null,
       "processedAt": "2026-11-18T00:06:12.376691+00:00"
-    },
-    {
-      "id": "art-cdb4a453",
-      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "summary": "Attackers have discovered methods to bypass SHA pinning, a widely-used security practice that pins GitHub Actions to specific code versions to prevent supply chain attacks. In March 2026, hackers compromised Trivy, a popular open-source security scanner, and inserted malicious code disguised as legitimate GitHub tools. This discovery reveals a critical gap in what security teams believed was a reliable defense mechanism.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "github-actions",
-        "sha-pinning",
-        "malicious-code",
-        "open-source-security"
-      ],
-      "whyItMatters": "Since SHA pinning is widely trusted as a primary defense against supply chain attacks, discovering bypasses puts countless organizations at risk who rely on this protection. Developers and security teams need to reassess their pinning strategies and implement additional verification layers beyond SHA hashing to validate code authenticity.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYUhfLA6wixTr6AiVmOSa8uxO2mHxPqG7rHalDaUtYlOaTwUSIzi3JAP78cfEUhwwaoijNe8vJ0ZFiBqDmfrG9LVOzItxMxCYcTCbEc4f7W8iWgKSvzR6DrT0XtK_cM4eTKQ2Edvz-QG5P8iXF_GV_-k6CXMN_-D_QAJags-LpeuXmJ5C6DDz7mDRSBMY/s1600/git-actions.jpg",
-      "processedAt": "2026-11-17T15:44:50.140362+00:00"
-    },
-    {
-      "id": "art-34acba46",
-      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-      "summary": "Researchers discovered a vulnerability in Apple's audio service that allowed iPhone and iPad apps to record audio even when users explicitly denied microphone permission. Apple released security updates to fix the flaw on August 17, and there is no evidence the vulnerability was exploited in real attacks. The technical details were published by Meta Red Team researchers after the patch was made available.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "ios-vulnerability",
-        "privacy-flaw",
-        "apple-security",
-        "microphone-permissions",
-        "patched-vulnerability"
-      ],
-      "whyItMatters": "This vulnerability demonstrates how critical permission systems are on mobile devices and how flaws in core OS services can undermine user privacy protections. Users who denied microphone access could still have been recorded without knowledge, highlighting the importance of timely patching and regular security updates to protect personal information.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoRknesoqi26EwwYMrgBhBudDMiej0sO7-228OvrBIj2ivaPcOUo7GJgoIHAd9fI_VFlK4su0xn1L_BqUgFsldNJgAkQwE4wAvAZzUao-wHUHSoq8NQUo_UdyILYYFoshEgONLhibaGHRQ_cKFVo0Psl1kehyphenhyphenNjlCrkECk16huiU6WecKlpBr0YDN3nus/s1600/iphone-recording.jpg",
-      "processedAt": "2026-11-17T15:44:52.555139+00:00"
-    },
-    {
-      "id": "art-93a84fe6",
-      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-      "summary": "Cybercriminals have created two new backdoor malware called GitDoor and GraphDoor that abuse legitimate cloud services—GitHub and Microsoft SharePoint—to hide their command-and-control communications from security tools. The campaign, named Operation ShadowCloud by Kaspersky, has been actively targeting government organizations in Asia and Africa since early 2026. By using trusted platforms, attackers can slip past traditional defenses that focus on blocking suspicious external connections.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "backdoor",
-        "c2-communication",
-        "cloud-security",
-        "github",
-        "sharepoint",
-        "operation-shadowcloud"
-      ],
-      "whyItMatters": "This threat is critical because it demonstrates how attackers exploit the trust organizations place in legitimate cloud services to establish persistent access while evading detection. Government sectors are high-value targets, and this technique makes defense significantly harder since blocking GitHub or SharePoint is impractical for most organizations. Security teams must now monitor for suspici",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjhGYnRRqAfAZ2q0dS56dC5lC86Kx69VT0moHy1Pxt67C0ic8RbLOL9LR68b4atQmvb7O6Gq3Btm1axv2aCRaNkhagPKbFHvThWlye3QPpK1xnEj4kovoJn8dsbTlCmAjXOIb8EHV3RJuhNQdVNKRxc4uwiuIfws_a63koiBaCQvs5jwbnTFG8EUwuA0RiA/s1600/git-share.jpg",
-      "processedAt": "2026-11-17T15:44:55.144117+00:00"
-    },
-    {
-      "id": "art-15b4c1a7",
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "summary": "Apple is rolling out enhanced permission controls in macOS 27.3 beta 2 that give users more detailed control over what data applications can access. These new features focus on two key areas: Device Control and Data Access, plus Full Disk Access, with particular attention to protecting user data from AI-powered applications. The update aims to increase transparency so users can make informed decisions before granting apps extensive system access.",
-      "category": "Privacy",
-      "severity": "Medium",
-      "tags": [
-        "macos-security",
-        "data-privacy",
-        "ai-security",
-        "app-permissions",
-        "access-control"
-      ],
-      "whyItMatters": "As AI agents become more integrated into applications, they pose new privacy risks by potentially accessing sensitive user data at scale. Apple's granular permission model helps users maintain control over their information and reduces the attack surface for data exfiltration. This proactive approach demonstrates how operating systems can balance innovation with privacy protection in an increasing",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjpfVz_pnzHGcrDTsga77xG6yDhi_sMihXsGCjULyapjweerWHdHByPuWqWYmWQsDAAV37EfmctWtSZgYCHJ-2FMGEE6K94YRDVFjHVO0i1jZxn-TIewKbDqIn3y-pNMH7pqJ9SA1X2Sk_r_vn_SfRdxbPB2kH9-hHkNrigumGuQKXaA6xlHqCdWu4ZDAFH/s1600/apple-macos.jpg",
-      "processedAt": "2026-11-17T15:44:58.094167+00:00"
-    },
-    {
-      "id": "art-252a9517",
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "summary": "Attackers exploited a vulnerability in Optimizely Web Experimentation to inject malicious scripts that were served to visitors of major websites including CNN, BBC, and Zoom. The compromised scripts contained card-skimming malware and iOS exploit kits designed to steal payment information and compromise mobile devices. This supply-chain attack affected at least 178 organizations, demonstrating how trusted third-party services can be weaponized to reach massive audiences at scale.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware-injection",
-        "card-skimmer",
-        "third-party-compromise",
-        "exploit-kit",
-        "web-security"
-      ],
-      "whyItMatters": "This incident highlights the critical risk of compromised third-party services that inject code into legitimate websites—attackers only need to compromise one trusted vendor to reach hundreds of major organizations simultaneously. Users visiting well-known, trusted sites were unknowingly exposed to financial theft and device exploitation, demonstrating that even visitors to reputable platforms are",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiCKDXT71QJSnAqaPKmcBticVRjN0Q1diDWoOGKhoZ-wL5WIgLAPHX6dmetOkddYjLcZGIfxDAfLLN1LwbOV4zHqzONN7i8cIyMJLR-rc2t6LF7MnTzJAAoN54aIPEYoWPBf01znenuq43oDLwcVksxZbvP5xPnFsC-G-sDSjpzDegalBNU87YIe7z0YcI/s1600/Optimizely-hacked.jpg",
-      "processedAt": "2026-11-17T15:45:01.339705+00:00"
-    },
-    {
-      "id": "art-8b47f77c",
-      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-      "summary": "Security researchers at Huntress have identified three sophisticated phishing kits—EvilTokens, Knight Office, and Kali365—that are specifically designed to steal and misuse Microsoft 365 session tokens. These tools allow attackers to capture authentication tokens and replay them to gain unauthorized access to M365 accounts without needing the original passwords. The report includes technical analysis of how these kits operate and provides defenders with practical detection and containment strategies.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing-kits",
-        "microsoft-365",
-        "token-theft",
-        "session-hijacking",
-        "cloud-security",
-        "credential-compromise"
-      ],
-      "whyItMatters": "M365 is widely used in enterprises, making token-stealing phishing kits a critical threat to organizational security. Understanding how these tools operate enables defenders to implement better detection rules and incident response procedures before attackers gain persistent access. Organizations using Microsoft 365 need to strengthen their email security and implement token-binding mechanisms to ",
-      "image": null,
-      "processedAt": "2026-11-17T15:45:03.755977+00:00"
-    },
-    {
-      "id": "art-dd98d72f",
-      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-      "summary": "Microsoft is developing a Remote Lock feature that allows IT administrators at organizations to lock Windows devices that have been lost or stolen, without erasing the data on them. This new security tool gives businesses a way to protect sensitive information on missing devices while preserving the possibility of data recovery. The feature is currently in testing phase and represents an improvement over existing solutions that often require complete device wipes.",
-      "category": "Network Security",
-      "severity": "Medium",
-      "tags": [
-        "device-security",
-        "remote-lock",
-        "lost-devices",
-        "enterprise-security",
-        "data-protection"
-      ],
-      "whyItMatters": "This feature addresses a significant real-world security challenge where stolen or lost enterprise devices pose risks of data theft and unauthorized access. By enabling remote locking without data destruction, organizations can balance immediate security needs with the ability to recover valuable information. This capability is especially important for companies managing large fleets of devices wi",
-      "image": null,
-      "processedAt": "2026-11-17T15:45:06.269103+00:00"
-    },
-    {
-      "id": "art-aadc1d47",
-      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-      "summary": "Two brothers have been acquitted of charges related to a $25 million cryptocurrency theft that allegedly exploited a bug in the Ethereum blockchain. The theft was executed extremely quickly, taking only about 12 seconds to complete. A US District Judge has cleared them of all accusations in this high-profile crypto crime case.",
-      "category": "Cybercrime",
-      "severity": "Medium",
-      "tags": [
-        "cryptocurrency-theft",
-        "ethereum-exploit",
-        "blockchain-security",
-        "cyber-heist"
-      ],
-      "whyItMatters": "This case highlights vulnerabilities in blockchain systems and smart contract execution that can be exploited for large-scale theft in seconds, raising concerns about DeFi security. The acquittal underscores the importance of proper digital forensics and evidence handling in cryptocurrency crime cases. It demonstrates how blockchain bugs can be weaponized for financial crimes and the challenges la",
-      "image": null,
-      "processedAt": "2026-11-17T15:45:08.560851+00:00"
-    },
-    {
-      "id": "art-67fc696c",
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-      "summary": "Uber has notified approximately 150,000 of its drivers that their personal information was compromised in a cyberattack targeting Fireworks, an AI infrastructure provider, in early October. The breach exposed driver data stored on the third-party platform, demonstrating how security incidents at service providers can directly impact end users. This incident highlights the risks companies face when relying on external vendors to handle sensitive employee and contractor information.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "third-party-risk",
-        "ai-security",
-        "vendor-compromise",
-        "driver-data"
-      ],
-      "whyItMatters": "This breach illustrates the critical importance of supply chain security and vendor risk management in cybersecurity. When large companies like Uber trust third-party providers with sensitive data, a single breach can affect hundreds of thousands of people, making vendor vetting and contractual security requirements essential for protecting end users. Organizations must implement strict controls a",
-      "image": null,
-      "processedAt": "2026-11-17T15:45:11.394113+00:00"
-    },
-    {
-      "id": "art-aeb68fbd",
-      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-      "summary": "A suspect from Kazakhstan was extradited to the United States from Italy to face charges related to ransomware attacks targeting American schools, hospitals, and healthcare organizations. The individual, believed to be a ransomware affiliate, now faces up to 27 years in prison for their involvement in these cybercrimes. This case demonstrates international law enforcement cooperation in pursuing cybercriminals who attack critical infrastructure and essential services.",
-      "category": "Ransomware",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "extradition",
-        "healthcare-attacks",
-        "cybercrime",
-        "international-enforcement",
-        "critical-infrastructure"
-      ],
-      "whyItMatters": "This extradition signals that law enforcement agencies worldwide are actively pursuing ransomware affiliates, even across borders, which acts as a deterrent for cybercriminals. Attacks on hospitals and schools directly endanger public safety and disrupt essential services, making successful prosecutions crucial for protecting vulnerable institutions. The case reinforces that cybercriminals can be ",
-      "image": null,
-      "processedAt": "2026-11-17T15:45:14.231848+00:00"
     }
   ]
 }
