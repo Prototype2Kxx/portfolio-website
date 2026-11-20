@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-11-19T23:57:37.593140+00:00",
+  "lastUpdated": "2026-11-20T15:08:53.167062+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-651e8f9e",
+      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
+      "summary": "A vulnerability in Linux KVM hypervisor (CVE-2026-99312) allows guest virtual machines to access up to 127 GB of host system memory, potentially exposing data from other customers' VMs on shared servers. The flaw specifically impacts AMD-based hosts with nested virtualization enabled. Linux kernel patches have already been released to address this critical security issue.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "kvm-hypervisor",
+        "amd-processors",
+        "cloud-security",
+        "memory-access",
+        "nested-virtualization",
+        "privilege-escalation"
+      ],
+      "whyItMatters": "This vulnerability directly threatens multi-tenant cloud environments where VMs from different customers share physical hardware, as attackers could extract sensitive data from other organizations' virtual machines. The ability to access 127 GB of memory represents a massive data exposure risk in production cloud infrastructure. Organizations using AMD-based cloud servers must urgently apply avail",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg-jisyf4SWwWYA_RUtOoVqBviv2uNAUl6vEeGjsuBA0aOhfLYw7yHitbRBxAoWcf5ZP0UcGovNmyk-u-320fLFYIyUz7jtR77GiveyLdqsZWJ0DohwBfEFyN0KlNAIpIcpS9B6jHEZJybmTu7nuKM-PhSNPco-Z1QmacaSfwWyOWLXzT2WqaEdbZ810M/s1600/vms.jpg",
+      "processedAt": "2026-11-20T15:08:30.182168+00:00"
+    },
+    {
+      "id": "art-2c76ea3a",
+      "title": "The Path to AI Autonomy in the SOC",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
+      "summary": "Security leaders are increasingly trusting AI agents to handle low-risk security tasks independently, with current adoption at 36% among large organizations expected to jump to 60% within a year. AI-powered Security Operations Centers (SOC) have emerged as the top priority initiative for 2027, signaling a major shift in how organizations automate their security response capabilities. This trend reflects growing confidence in AI systems to manage routine security operations while human teams focus on more complex threats.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-autonomy",
+        "soc-automation",
+        "ai-agents",
+        "security-operations",
+        "ciso-trends"
+      ],
+      "whyItMatters": "As organizations delegate more security decisions to AI systems, understanding the risks and benefits of autonomous AI agents becomes critical for maintaining effective threat detection and response. The rapid adoption timeline suggests cybersecurity professionals must urgently develop governance frameworks and safeguards for autonomous AI to prevent misconfigurations or malicious manipulation. Th",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn0ym0Vqfakc2h3h2W6AT6gf5qd6RPkfrgV-Z2UgwDErad91v-nJoIu3OYwEC3IvLQ6rVGm6FIQypMcoTahAgL5_62ipKE1aQsZvqGsdJzu_4ZGaiFlCYKEpg1N5z3FRSk7O5n4uRlfDuNz7i99Ls9z1Ysee3iV4OCMTxG2rF8YLgCtfTOL2KA-hSQXY/s1600/INT.png",
+      "processedAt": "2026-11-20T15:08:33.105298+00:00"
+    },
+    {
+      "id": "art-98c0c6ee",
+      "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
+      "summary": "SonicWall is warning customers to immediately retire Generation 6 firewalls because they will no longer receive security updates, leaving them vulnerable to attacks. The company notes that modern attackers are using AI and automated tools to quickly discover and exploit outdated, unpatched devices on the internet. Organizations continuing to use these firewalls face significant risk of compromise if they remain exposed online.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "end-of-life",
+        "firewall-security",
+        "patch-management",
+        "ai-assisted-attacks",
+        "network-edge",
+        "unsupported-devices"
+      ],
+      "whyItMatters": "This announcement directly impacts organizations still relying on aging SonicWall infrastructure; without security patches, Gen 6 firewalls become easy targets for automated AI-powered attacks that can rapidly identify and exploit known vulnerabilities. The practical takeaway is urgent: companies must inventory their edge devices, prioritize replacing Gen 6 firewalls, and ensure all network perime",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGn5oji8gd4l_d6wKemSflqTX-q-eiuu4CbbV2ROvzK6Gzpeq8zPsQyGb-UO80f_M8L2pDNNyNqF1ZIdyMPGReyW0KmPb7uuAuRu1M-ZVyNu-GJvx1CRaBsaEOVjV-asFG0P__0MK0Jp3WPJmcNxATiSd6NeBzcCmy-6dLvS5yvpen0cRrwLZvgVpYAvn0/s1600/sonicwall.jpg",
+      "processedAt": "2026-11-20T15:08:35.874578+00:00"
+    },
+    {
+      "id": "art-7f9c3fbb",
+      "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+      "summary": "Hackers have successfully exploited a critical vulnerability in Cisco Expressway devices to break into a Russian organization's network. The flaw, identified as CVE-2026-76466 with a severity score of 9.8, allows attackers without credentials to gain remote access. This attack happened shortly after a proof-of-concept exploit was publicly released, demonstrating how quickly threat actors can weaponize disclosed vulnerabilities.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "cisco-expressway",
+        "critical-vulnerability",
+        "remote-code-execution",
+        "active-exploitation",
+        "patch-urgently",
+        "network-access"
+      ],
+      "whyItMatters": "This incident shows the real-world danger of critical vulnerabilities becoming public, as attackers rapidly weaponize them to breach organizations. Companies using Cisco Expressway must patch immediately to prevent similar breaches, and this serves as a reminder that timely patching is essential security hygiene.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrMm7M_HyuVDt9NknngHSgyfGKu0DR8VTc_GYL-tr_hMhTmi3EAZnM8x5byJQRYEqcUAZlDTR_Xi4RcMm4lidmk9UR_iyTWpDa5Mn6xRBoNwAf3auen2u6guKxnvoIrcQOfq7Mm1clmsyBMYVcjaOqVFYiN4mXgYSyR5_DUSrmVOLDK5mQeAS8BBB3X5-5/s1600/cisco-cyberattacks.jpg",
+      "processedAt": "2026-11-20T15:08:37.935394+00:00"
+    },
+    {
+      "id": "art-86340902",
+      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+      "summary": "A Chinese-linked hacking group called Armory Castle exploited a critical flaw in VMware vCenter Server in September 2026 to bypass authentication and gain unauthorized admin access. The vulnerability, identified as CVE-2026-123890 with a high CVSS score of 9.8, affects the VMware Directory Service and allows attackers to steal sensitive data. This zero-day attack demonstrates how sophisticated threat actors target enterprise infrastructure to establish persistent access to organizational networks.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "vmware-vcenter",
+        "authentication-bypass",
+        "china-linked",
+        "data-breach",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "VMware vCenter is widely used for managing virtualized infrastructure across enterprises, making this vulnerability a major risk to countless organizations. Active exploitation by a state-sponsored group means attacks are already happening, requiring immediate patching and monitoring. Organizations running affected vCenter versions need urgent action to prevent unauthorized admin access and data t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTSAI-N-DRII1YA3I98ZVnKnG0SMgm97oEAqyiSXZB23DPwzvTk3figFLsTCKsMJRxRhjKEPFblxfcOuB_UXc_OAXJRiVI07Jxjn-CebJVHiRQ5sc43AifBpUPNfU5-LRD6QEGbX7Vnt_HAmJZiLojS32PtNWwIWeideJZnIpgjrstJ0Iy84lYd47bePk/s1600/chinese-vmware.jpg",
+      "processedAt": "2026-11-20T15:08:40.851661+00:00"
+    },
+    {
+      "id": "art-1b23ad15",
+      "title": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
+      "summary": "Many companies still rely on spreadsheets to store and share passwords, which creates serious security blind spots for IT teams. This practice allows weak, repeated, or compromised passwords to go unnoticed and increases the risk of unauthorized access. Centralized password management systems offer better visibility into credentials, help identify security risks, and enable safer password sharing practices.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "password-management",
+        "credential-security",
+        "best-practices",
+        "it-governance",
+        "data-protection"
+      ],
+      "whyItMatters": "Storing passwords in spreadsheets is a common but highly risky practice that leaves organizations vulnerable to credential compromise and unauthorized access. Proper password management systems are essential for maintaining visibility over company credentials and preventing breaches caused by weak or shared passwords. This directly impacts an organization's ability to protect sensitive data and ma",
+      "image": null,
+      "processedAt": "2026-11-20T15:08:43.399838+00:00"
+    },
+    {
+      "id": "art-ce097571",
+      "title": "N-able says recent security breach led to major service outage",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
+      "summary": "N-able experienced a significant security breach on one of its servers that disrupted its Mail Assure and SpamExperts Hosted Cloud services globally. Attackers gained unauthorized access and leveraged this compromise to trigger a major outage affecting customers worldwide. This incident highlights how a single compromised server can cascade into widespread service failures for organizations relying on cloud-based email security solutions.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "cloud-security",
+        "service-outage",
+        "email-security",
+        "incident-response",
+        "managed-services"
+      ],
+      "whyItMatters": "This breach demonstrates the cascading risks when managed service providers suffer security incidents—thousands of downstream customers lose critical email services simultaneously. The incident underscores the importance of monitoring third-party vendor security and implementing redundancy strategies to protect against supply-chain compromises that can disable essential business infrastructure.",
+      "image": null,
+      "processedAt": "2026-11-20T15:08:45.896345+00:00"
+    },
+    {
+      "id": "art-10a901fb",
+      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
+      "summary": "Microsoft is now automatically installing Windows 11 version 26H2 on personal devices that aren't managed by IT departments. This update process began this week and targets eligible devices across users' systems. The automatic installation means users may not have control over when their systems are updated to this new version.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-11",
+        "automatic-updates",
+        "patch-management",
+        "26h2-rollout",
+        "unmanaged-devices"
+      ],
+      "whyItMatters": "Automatic updates on unmanaged devices can disrupt user workflows and cause compatibility issues with legacy software or hardware, while also raising concerns about user control and consent. Organizations need to understand how this policy affects their employees' personal devices and develop strategies to manage potential downtime or support requests.",
+      "image": null,
+      "processedAt": "2026-11-20T15:08:48.377488+00:00"
+    },
+    {
+      "id": "art-d99c04b5",
+      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
+      "summary": "F5 has released urgent security patches for five critical vulnerabilities affecting its BIG-IP software that could allow attackers to cause system outages or execute malicious code remotely. These flaws pose a significant threat to organizations using BIG-IP as their network load balancer or security appliance. Companies need to apply these patches immediately to prevent potential exploitation.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "f5-big-ip",
+        "remote-code-execution",
+        "rce",
+        "critical-patch",
+        "network-security",
+        "vulnerability-management"
+      ],
+      "whyItMatters": "F5 BIG-IP is widely deployed in enterprise networks as a critical infrastructure component, making these RCE vulnerabilities an attractive target for attackers seeking to compromise sensitive systems. Delayed patching could lead to widespread breaches or service disruptions across multiple organizations. This emphasizes the importance of rapid vulnerability assessment and patch deployment in secur",
+      "image": null,
+      "processedAt": "2026-11-20T15:08:51.096087+00:00"
+    },
+    {
+      "id": "art-021eabed",
+      "title": "Windows 11 KB5132057 update released with 28 changes and fixes",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132057-update-released-with-28-changes-and-fixes/",
+      "summary": "Microsoft released KB5132057, a November preview update for Windows 11 that includes 28 fixes and enhancements across multiple system components. The update focuses on improving key features like Windows Search, Windows Hello authentication, and the Run dialog. These updates help ensure Windows systems remain secure and function optimally.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "windows-11",
+        "security-patch",
+        "kb5132057",
+        "system-update",
+        "vulnerability-fixes"
+      ],
+      "whyItMatters": "Regular patching is essential for closing security vulnerabilities that attackers exploit to compromise systems. By applying these updates promptly, users reduce their exposure to potential threats and maintain system stability and performance.",
+      "image": null,
+      "processedAt": "2026-11-20T15:08:53.166909+00:00"
+    },
     {
       "id": "art-83412bef",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
@@ -827,214 +1033,6 @@
       "whyItMatters": "This prosecution shows that even members of sophisticated cybercriminal groups face real legal consequences, which can deter future attacks and disrupt organized hacking operations. Organizations should use this case as a reminder that law enforcement is actively investigating major breaches, and that criminal actors may eventually face justice for their actions.",
       "image": null,
       "processedAt": "2026-11-18T15:25:05.398493+00:00"
-    },
-    {
-      "id": "art-58e614c4",
-      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-      "summary": "Security researchers at NebuSec discovered two remote code execution vulnerabilities in Telegram's Android app that can circumvent newly implemented security defenses. The flaws involve malicious widgets embedded in chat messages that can execute JavaScript code outside of Telegram's sandbox, potentially allowing attackers to run arbitrary code on user devices. These exploits were demonstrated on Telegram's test server and highlight weaknesses in the platform's recent security updates.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "telegram",
-        "android",
-        "rce",
-        "code-execution",
-        "mobile-security",
-        "widget-exploit"
-      ],
-      "whyItMatters": "This vulnerability is significant because Telegram is widely used globally for sensitive communications, and RCE exploits on mobile devices can lead to complete system compromise, data theft, and unauthorized surveillance. The fact that these bypasses target recently deployed security measures suggests that attackers can quickly adapt to platform defenses, requiring immediate patching and user awa",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpVlnQrxQ-QDawosxNpQdcPtITzUQKuYeqUtOk0gctwRhi-8P9Qi_9L72cSwkHRdGNS94HaIDHEkqeb0NTPw3mIZyFstN3ZM1FlUoMweKPNz4iTkAkxlxFSNdE92DAFlfLMFe0gTXWE78eOHROSbISVMgdmFOeVhm0SS2-1wXrNxPGknTVMGroQ0pRqYg/s1600/telegram-rce.jpg",
-      "processedAt": "2026-11-18T00:05:49.302771+00:00"
-    },
-    {
-      "id": "art-a9759a24",
-      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-      "summary": "Oracle is releasing patches for 11 vulnerabilities in Java SE that can be exploited remotely without requiring authentication. These flaws have a maximum CVSS score of 8.1, with reports also highlighting a critical remote code execution vulnerability in OpenJDK. Organizations using Java need to apply these updates promptly to protect their systems from potential attacks.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "java-vulnerability",
-        "rce-flaw",
-        "remote-code-execution",
-        "patch-release",
-        "openjdk",
-        "authentication-bypass"
-      ],
-      "whyItMatters": "Java is widely deployed across enterprise environments, making these unauthenticated remote code execution flaws an immediate threat to infrastructure security. The absence of authentication requirements means attackers can exploit these vulnerabilities without compromising credentials first, significantly lowering the barrier for attacks. Immediate patching is essential to prevent widespread comp",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiw1l9jYXUC-XLNjqqVjPvFicpQvkj-fwml16Gl43nsTc5TrBGGzijFoCzpxHpfninWaxrDxoCW4J6FKkgO1rPsnVFgFAcMbm9hl9YxeVO6fM4sBrs_tvUOXG8MnKPqDXRal3qNJ2VY7RzqAlj5vJzYI6xVFOxVGV7TyDliY-AIBqKm2bst1d6rCNl2qkhv/s1600/java4shell.jpg",
-      "processedAt": "2026-11-18T00:05:51.696331+00:00"
-    },
-    {
-      "id": "art-427967ca",
-      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-      "summary": "A sophisticated campaign called Trigram is impersonating approximately 50 legitimate AI and blockchain companies to deceive developers into downloading and running malicious software that steals sensitive information. The attackers are targeting developers across Europe and the U.S., exploiting trust in well-known brands within the tech sector. This industrialized operation demonstrates how cybercriminals are increasingly focusing on the developer community as a high-value target.",
-      "category": "Phishing",
-      "severity": "High",
-      "tags": [
-        "phishing",
-        "infostealer",
-        "developer-targeting",
-        "brand-impersonation",
-        "ai-sector",
-        "blockchain-sector"
-      ],
-      "whyItMatters": "Developers have elevated access and control over critical systems, making them prime targets for credential theft; successful compromise could lead to supply chain attacks affecting many organizations. The scale of brand impersonation (50+ companies) suggests this campaign has significant resources and coordination, requiring immediate awareness across development teams. Organizations in AI, block",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXvywoP0qreCtUhDgAD1y24HevVHwAH9bGo904BuaQ7-amvdkk6Oi8gz8WjF-Hwiu3SinN266QM0KwUX6lDnayGOtMaSEff_b5vybBsdwvDhiai2uGsAlYfMgCdquPmKqaqM6eY54pG9HsMR7X5Sf7M4nkbIaHmWJMBG1uL3ggpJMMvfQR6FbMagqug2QG/s1600/target.jpg",
-      "processedAt": "2026-11-18T00:05:54.810841+00:00"
-    },
-    {
-      "id": "art-6f025beb",
-      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-      "summary": "ConnectWise completed its investigation into security breaches affecting ScreenConnect environments and is urging users to update to version 26.6.5 or later. The company reports that attackers continue targeting unpatched on-premises systems, particularly those with vulnerable third-party extensions still active. Organizations need to prioritize applying these updates to prevent further unauthorized access.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "screenconnect",
-        "patch-now",
-        "unpatched-systems",
-        "remote-access",
-        "third-party-extensions",
-        "connectwise"
-      ],
-      "whyItMatters": "ScreenConnect is widely used by IT service providers and enterprises for remote support, making active exploitation of this vulnerability a significant supply-chain risk. Attackers targeting unpatched systems can gain legitimate remote access credentials, potentially compromising thousands of downstream customers. Immediate patching is essential to prevent widespread compromise of managed service ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjErwt0frcFKiESffCoP1OtYh0j23goqdMN0nz-RT02biCz30WlLG4PD5gTyGgbumOWB3Zh1PJfENQoRtOwQVm3Nbg8VsiRhvNk662qVFNGqO8DQ4bFrroSzWgsvfCYGLWFzD1A-f6fcTu_E_dm4o1iUJz96scWy7skw49vzD9hfIfVEILTVPKsvbsEpGca/s1600/screenconnect-flaws.jpg",
-      "processedAt": "2026-11-18T00:05:57.209882+00:00"
-    },
-    {
-      "id": "art-67393f3e",
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "summary": "N-able released a critical security update for N-central, its remote monitoring and management platform, addressing 17 vulnerabilities. The update comes as attackers have already begun exploiting earlier flaws to deploy cryptocurrency miners on affected systems. This hotfix is designed to strengthen security across both RMM and UEM platforms used by many organizations.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "n-central",
-        "rmm-platform",
-        "crypto-miners",
-        "active-exploitation",
-        "critical-patch",
-        "vulnerability-fixes"
-      ],
-      "whyItMatters": "Organizations using N-central need to apply this update immediately since attackers are actively exploiting known vulnerabilities to compromise systems. Delayed patching exposes businesses to crypto mining attacks that can degrade performance, increase costs, and serve as a foothold for further attacks. This highlights the importance of prioritizing security patches for widely-used remote manageme",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8Tz3JQedMRmE0NpjmQ9KXm4AlgJ2GfBbA8pbKm3UARfJrN_vRlTywt0Zg80C-fM4hmacqlZTHV_wh0E-yoga-UjcSvpt2FHczR2AtGze3mvk0fmqeET4vvee-4f_RJEMIF-HL79HkXg_GD2Lg-U8jAPPJaPaqYDJmKTsJHn7GO0lS84zEU5SFQWll-qwv/s1600/nn.jpg",
-      "processedAt": "2026-11-18T00:05:59.874541+00:00"
-    },
-    {
-      "id": "art-8e865bf1",
-      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-      "summary": "A critical vulnerability called Java4Shell has been discovered in OpenJDK that allows attackers to execute malicious code remotely on widely-used enterprise applications without needing to authenticate first. This flaw impacts popular tools like Jenkins, Jira, Confluence, and Keycloak, putting many organizations at serious risk. The vulnerability demonstrates how flaws in core programming language implementations can cascade across numerous dependent applications.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "java4shell",
-        "rce",
-        "openjdk",
-        "zero-day",
-        "enterprise-applications",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability affects foundational enterprise tools used by thousands of organizations, making it a widespread threat with immediate exploitation potential. Organizations relying on affected applications must prioritize patching immediately to prevent unauthorized access and system compromise. The flaw demonstrates the critical importance of monitoring security updates for core dependencies t",
-      "image": null,
-      "processedAt": "2026-11-18T00:06:02.478809+00:00"
-    },
-    {
-      "id": "art-2320f363",
-      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-      "summary": "Attackers are automatically scanning Docker Hub for exposed cloud credentials and secrets in public container images, then stealing and exploiting them within seconds of upload. This rapid exploitation window means that even brief accidental exposure of sensitive access keys can lead to immediate compromise. Organizations using Docker Hub need to be extremely careful about what credentials they include in their container images.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "docker-hub",
-        "credential-exposure",
-        "cloud-security",
-        "automated-attacks",
-        "container-security",
-        "secrets-management"
-      ],
-      "whyItMatters": "This demonstrates that attackers have automated tools constantly monitoring public repositories for leaked credentials, making accidental exposure nearly impossible to contain. Organizations must implement proper secrets management practices and assume any credential uploaded to a public registry will be compromised within seconds. This highlights the critical need for pre-deployment scanning and ",
-      "image": null,
-      "processedAt": "2026-11-18T00:06:05.239898+00:00"
-    },
-    {
-      "id": "art-2916d778",
-      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-      "summary": "Japan's Fugaku supercomputer, one of the world's most powerful computing systems, was forced offline after experiencing a security breach. The incident highlights vulnerabilities in critical infrastructure that supports scientific research and national interests. This shutdown demonstrates how cyberattacks can disrupt essential systems that countries depend on for computational research and development.",
-      "category": "Network Security",
-      "severity": "Critical",
-      "tags": [
-        "critical-infrastructure",
-        "supercomputer",
-        "data-breach",
-        "japan",
-        "riken",
-        "cyberattack"
-      ],
-      "whyItMatters": "Attacks on supercomputers represent a serious threat to national scientific capabilities and research continuity. This incident underscores the importance of securing high-value computing resources and demonstrates that even advanced research institutions are vulnerable to cyberattacks, requiring robust defensive strategies for critical infrastructure.",
-      "image": null,
-      "processedAt": "2026-11-18T00:06:07.475944+00:00"
-    },
-    {
-      "id": "art-a2d8081d",
-      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
-      "summary": "Apple experienced service outages affecting multiple critical platforms including iCloud Mail, account sign-in systems, Apple School Manager, and Schoolwork. These disruptions prevented users from accessing essential email and authentication services across Apple's ecosystem. The outages impacted both individual users and educational institutions relying on Apple's cloud infrastructure.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-outage",
-        "service-disruption",
-        "icloud",
-        "apple-services",
-        "infrastructure-failure"
-      ],
-      "whyItMatters": "Service outages at major cloud providers like Apple demonstrate the critical dependency organizations and individuals have on these platforms for core functions like email and authentication. Understanding outage causes and impacts helps security teams develop resilience strategies, including failover plans and monitoring systems to quickly identify when essential services become unavailable.",
-      "image": null,
-      "processedAt": "2026-11-18T00:06:09.673794+00:00"
-    },
-    {
-      "id": "art-3a0f3318",
-      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-      "summary": "Researchers were able to take over a popular Hugging Face account that hosted Kokoro, a text-to-speech AI model widely used by major tech companies like Google, NVIDIA, AMD, Intel, and AWS. The takeover was possible because Hugging Face lacked proper ownership verification procedures. This incident highlights how inadequate security controls on AI model repositories can lead to unauthorized access of critical software components used across the tech industry.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "account-takeover",
-        "hugging-face",
-        "access-control",
-        "model-tampering"
-      ],
-      "whyItMatters": "This demonstrates a critical vulnerability in AI model distribution platforms that could allow attackers to modify or compromise models used by major corporations, potentially affecting millions of end users. Without proper ownership verification, malicious actors could inject code or malware into widely-adopted AI models before they reach production environments. Organizations relying on third-pa",
-      "image": null,
-      "processedAt": "2026-11-18T00:06:12.376691+00:00"
     }
   ]
 }
