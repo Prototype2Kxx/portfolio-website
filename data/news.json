@@ -1,7 +1,217 @@
 {
-  "lastUpdated": "2026-11-21T14:27:23.304472+00:00",
+  "lastUpdated": "2026-11-21T22:30:38.908928+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-91baf940",
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "summary": "A critical vulnerability in NGINX's HTTP/2 implementation, known as CVE-2026-123007 or \"nginx2root,\" has been discovered after existing undetected for over a decade since version 1.9.5. This flaw allows attackers to execute arbitrary code on affected servers without any authentication required. F5 has released patched versions 1.31.9 and 1.30.7 to address this severe security issue.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "nginx",
+        "http2",
+        "remote-code-execution",
+        "unauthenticated-access",
+        "patch-now",
+        "cve-2026-123007"
+      ],
+      "whyItMatters": "This vulnerability is critical because NGINX powers a significant portion of the internet's web servers, and the flaw has been present for 10 years without detection, meaning countless servers are likely vulnerable. An unauthenticated attacker can execute code remotely on exposed servers, posing an immediate and severe threat to organizations running affected NGINX versions. Organizations must pri",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7_qqPophooIauX16fMWm3KB24tzQ3Fd7rCuseCXfMkDPPGpIgmHqWvZjn_jffDqHwNWKu8Zf57QeKb4qsRFgdgisSAn0sMj59CscimR16RLXI1kspH0w7VYQgrsM_hPcePQOFL8QUyDC2p9W7AV0UjH3sW7oOvdWPWAZW6DITDvqIHaC_696e5kHTieY/s1600/nginx-rce.jpg",
+      "processedAt": "2026-11-21T22:30:14.390464+00:00"
+    },
+    {
+      "id": "art-5ffce4d0",
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "summary": "F5 BIG-IP has six critical vulnerabilities that can crash the Traffic Management Microkernel without requiring login, potentially disrupting network traffic until the system restarts. These flaws only affect specific configurations where virtual servers use particular iRules commands or APM policies with specific agent types. The vulnerabilities pose a risk of denial of service and potentially remote code execution depending on the setup.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "f5-bigip",
+        "traffic-management",
+        "denial-of-service",
+        "rce-risk",
+        "critical-vulnerability",
+        "patching-required"
+      ],
+      "whyItMatters": "BIG-IP is widely deployed in enterprise networks to manage traffic and load balancing, making these vulnerabilities a significant threat to infrastructure availability. The ability to crash systems without authentication could allow attackers to disrupt critical services, and organizations using the specific configurations mentioned need immediate patching to prevent exploitation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizE3X3tUSPpxIYnNyM91hyphenhyphenzZOS6jjdHnCLmubn4upOYKZn3MdjUqJQGEjIBGtZ2JHK6yggH6RxSQCANhtF7-zIWJ0EfGqA7iY2KQWM7vtoiCsc-_KeFZeHeDm-TOpM_oL_EVzOvPru_cMVzx3wJL8kaLEgXuzPzxm3iYnTiyu57quhgBgMY1Nb7V_sXG4/s1600/f5.png",
+      "processedAt": "2026-11-21T22:30:16.902155+00:00"
+    },
+    {
+      "id": "art-00901146",
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "summary": "Apache Roller, a popular Java-based blogging platform, has a critical vulnerability that allows attackers to execute code on affected systems without needing to log in first. The flaw exploits unsafe deserialization in the XML-RPC endpoint and is already being actively attacked by cybercriminals in real-world scenarios. With a maximum severity score of 9.8, this poses an immediate and widespread threat to organizations using Apache Roller.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "apache-roller",
+        "rce",
+        "deserialization",
+        "unauthenticated-exploit",
+        "active-exploitation",
+        "patch-urgently"
+      ],
+      "whyItMatters": "This vulnerability requires no authentication, meaning any attacker on the internet can potentially compromise affected servers, making it an extremely dangerous threat. Active exploitation in the wild means attackers are already weaponizing this flaw, so organizations using Apache Roller must patch immediately to prevent data theft, system compromise, or malware installation. The high CVSS score ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbiCYJD7nei_TBSnUlQG59idq9moCbsg97fnzsiXNi4KvQaphZYA4hHIzXv08t2OsvVZokzPIdhZPzxTkXoEgzTsFby-rBvQX6CY6yPo1Iv8DPnSmPeOeh3OQXF79Q60Hq3UI7kVdhmEKGL2bUwm42JO-8C_ClLHpTpGkWpnflAQMrDDgjIvMKq09DEskr/s1600/apache.jpg",
+      "processedAt": "2026-11-21T22:30:20.026560+00:00"
+    },
+    {
+      "id": "art-412f88b4",
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "summary": "A Chinese APT group has updated its EggStreme malware toolkit to avoid detection while targeting Philippine government agencies. The attackers are using new file hashes and infrastructure to evade security tools, demonstrating how threat actors quickly adapt their tactics after being exposed. This represents an ongoing campaign against government organizations using sophisticated obfuscation techniques.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "apt",
+        "malware",
+        "government-targeting",
+        "evasion",
+        "chinese-threat-actor",
+        "philippines"
+      ],
+      "whyItMatters": "This demonstrates how advanced threat actors continuously evolve their malware to bypass security defenses, making detection more difficult for organizations. Government agencies must maintain updated threat intelligence and advanced detection capabilities to identify these sophisticated, adaptive threats. The targeting of government infrastructure highlights the need for critical sectors to prior",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYLKVaRRp02L2STeR4kakGeA1NJokTtxw2aLU4wBLS34vltviR8gV4eUjk0QJ9jDVbiS_2hSeDQCwIR_JoCzPzUt-FSNUNpaKNtHpKiMugkRAMwOIbl4FbcL5iE7KCe1hebNbJRTxqO5xQkEFBuDI6F8FnsnYfreljrQlHHXuKBEN0suJZeuIf8heda5wY/s1600/chinese.jpg",
+      "processedAt": "2026-11-21T22:30:22.623598+00:00"
+    },
+    {
+      "id": "art-d9e4d9aa",
+      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "summary": "Security researchers discovered that the TPM (Trusted Platform Module) lockout protection on AMD and some Intel computers can be bypassed by physically opening the PC case. This vulnerability allows attackers to guess short PINs for Windows Hello and BitLocker in days rather than years, as demonstrated when researchers cracked a 4-digit PIN on an AMD laptop and a 6-digit PIN on an Intel laptop.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "tpm-vulnerability",
+        "windows-hello",
+        "bitlocker",
+        "physical-access",
+        "pin-cracking",
+        "hardware-security"
+      ],
+      "whyItMatters": "This vulnerability is critical because it undermines the security of two major Windows authentication mechanisms by requiring only physical access to a device—a threat model many users don't adequately protect against. Organizations and users relying on TPM-based protection for sensitive data need to implement additional physical security controls and consider this risk when assessing overall devi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsv4GxAUbzCsIV1umrxZs6VxfD1eFwAeCgRHQQG_dNbP1fLiYe48hM-Wbd_8w5IxlacAwoidLqyQgBmG7YD7qKo0_XcqW2GhggfXshuK1uXz8BOma2H0Jjs8fabCO4IxHBfRopEUFDd0xHRRv43gMeog852Usv40sfcTwnO_9coyxtIMmteJxeJI_oPA/s1600/bitlocker.jpg",
+      "processedAt": "2026-11-21T22:30:25.393784+00:00"
+    },
+    {
+      "id": "art-21415821",
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "summary": "Microsoft discovered that attackers exploited a vulnerability in Entra Connect Health to breach its systems and steal sensitive information. The stolen data included administrator email addresses and details about tenant configurations, which are critical for managing cloud-based identity services. This incident demonstrates how vulnerabilities in identity management tools can expose organizations to significant security risks.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "data-breach",
+        "entra-connect",
+        "vulnerability-exploitation",
+        "identity-management",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Entra Connect Health is a core Microsoft identity management service trusted by organizations worldwide; compromising it exposes administrator credentials and tenant configurations that attackers can use to escalate privileges or access multiple customer environments. This breach highlights the urgent need for organizations to audit their Azure identity infrastructure and apply patches immediately",
+      "image": null,
+      "processedAt": "2026-11-21T22:30:27.911534+00:00"
+    },
+    {
+      "id": "art-2f2e19da",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "summary": "The BADBOX malware, which infects generic Android TV boxes, has resumed large-scale ad-fraud operations after being disrupted last year. The botnet is now generating a record-breaking 40 billion fraudulent ad requests daily, representing a significant resurgence of this threat. This demonstrates how malware can quickly recover and scale operations even after previous takedown efforts.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "ad-fraud",
+        "android-malware",
+        "badbox",
+        "iot-security",
+        "malware-resurgence"
+      ],
+      "whyItMatters": "This resurgence highlights the ongoing vulnerability of consumer IoT devices and the difficulty of permanently disrupting large-scale botnets. Organizations and users need to understand that ad-fraud botnets consume network resources, degrade device performance, and can serve as infrastructure for additional attacks, making device security updates and network monitoring essential.",
+      "image": null,
+      "processedAt": "2026-11-21T22:30:30.539200+00:00"
+    },
+    {
+      "id": "art-77fbcd84",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-03",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "summary": "Google and its industry partners successfully shut down a botnet that infected over 1.3 million Android TV set-top boxes with malicious software. These compromised devices were being used to illegally rent out users' internet connections to third parties and commit advertising fraud. The takedown is expected to disrupt access to approximately 10 million additional infected IoT devices, including healthcare equipment and entertainment systems.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "botnet",
+        "iot-security",
+        "malware",
+        "android-tv",
+        "advertising-fraud",
+        "internet-of-things"
+      ],
+      "whyItMatters": "This incident highlights how consumer IoT devices shipped with pre-installed malware can compromise millions of users simultaneously and enable large-scale cybercriminal operations. The takedown demonstrates the importance of manufacturer accountability and industry collaboration in combating botnet threats that exploit everyday devices. It also underscores how infected IoT devices extend beyond p",
+      "image": null,
+      "processedAt": "2026-11-21T22:30:33.248954+00:00"
+    },
+    {
+      "id": "art-9d367da8",
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "summary": "A critical PHP vulnerability affects nearly 70% of websites worldwide, allowing attackers to gain complete control over vulnerable servers. Working exploits are already being used in active attacks, and many sites are likely experiencing outages as users encounter 404 errors. Organizations need to urgently update their core PHP software to patch these two critical flaws and prevent further compromise.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "patch-urgent",
+        "active-exploitation",
+        "server-compromise",
+        "widespread-threat",
+        "critical-flaw"
+      ],
+      "whyItMatters": "This widespread vulnerability poses an immediate and severe risk to internet infrastructure, as attackers have functional exploits and are already exploiting these flaws in real-world attacks. The massive scale of affected websites (70% globally) means this could cause cascading outages and compromise sensitive data at scale. Organizations must prioritize emergency patching to prevent full server ",
+      "image": null,
+      "processedAt": "2026-11-21T22:30:35.828674+00:00"
+    },
+    {
+      "id": "art-f11b2ecb",
+      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-19",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
+      "summary": "U.S. federal investigators have discovered that executives working at ransomware negotiation firms may have had suspicious connections to the ShinyHunters hacking group, which recently stole sensitive FBI data. One executive in the United States allegedly helped ShinyHunters operate an extortion website designed to pressure victims into paying ransoms. This discovery suggests possible insider involvement and corruption within the cybercrime negotiation industry.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "extortion",
+        "shiny-hunters",
+        "insider-threat",
+        "fbi-breach",
+        "investigation"
+      ],
+      "whyItMatters": "This case reveals a serious vulnerability in the ransomware negotiation supply chain—trusted intermediaries meant to help victims may actually be collaborating with criminals. When insiders in legitimate security firms enable or facilitate ransomware operations, it undermines the entire ecosystem and makes it harder for victims to safely resolve attacks. Organizations need to be extremely cautious",
+      "image": null,
+      "processedAt": "2026-11-21T22:30:38.908784+00:00"
+    },
     {
       "id": "art-4625878d",
       "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
@@ -828,211 +1038,6 @@
       "whyItMatters": "Major technology companies like NVIDIA are high-value targets for ransomware groups, and successful breaches can compromise sensitive intellectual property, customer data, and business operations. This incident demonstrates the evolving threat landscape where even well-resourced organizations must maintain robust security defenses. Organizations should use this as a reminder to strengthen their in",
       "image": null,
       "processedAt": "2026-11-19T23:57:37.592983+00:00"
-    },
-    {
-      "id": "art-fdebaa46",
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "summary": "A serious vulnerability in VMware vCenter with a CVSS score of 9.8 allows attackers on the network to bypass authentication and gain unauthorized access to the system without needing valid credentials. Broadcom has released patches for all supported versions, but administrators must apply them urgently since no temporary workarounds are available. vCenter is a critical tool used to manage virtual machines and servers across organizations, making this flaw a significant risk to enterprise infrastructure.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "vmware",
-        "authentication-bypass",
-        "critical-vulnerability",
-        "patch-required",
-        "enterprise-risk",
-        "network-attack"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and widespread threat to organizations running VMware vCenter, as attackers can completely bypass security controls to gain system access without detection. The lack of available workarounds makes patching the only viable defense, requiring urgent action from IT teams managing virtual infrastructure. Any delay in applying fixes leaves organizations vulnerable ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1600/vmware.jpg",
-      "processedAt": "2026-11-19T15:30:02.877876+00:00"
-    },
-    {
-      "id": "art-db998aab",
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "summary": "The PHP Foundation released security patches to fix seven critical vulnerabilities, with CVE-2026-115560 being the most severe. This flaw has a CVSS score of 9.2 and could allow attackers to execute arbitrary code remotely on systems running vulnerable PHP versions. The vulnerabilities also enable file modification and other malicious activities, making immediate patching essential for anyone using PHP.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "php-security",
-        "remote-code-execution",
-        "critical-vulnerability",
-        "patch-urgent",
-        "cve-2026-115560"
-      ],
-      "whyItMatters": "PHP powers a significant portion of web applications and servers globally, so critical flaws in its core can affect millions of websites. Remote code execution vulnerabilities at this severity level (CVSS 9.2) are actively exploitable and could lead to complete system compromise. Administrators must prioritize applying these patches immediately to prevent potential attacks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD2D26Hu7r43uUrdDxmsmmbBe2oMxd-L3_DIVLqAPyDrOnSmdvXfkIq1_lNmWqr49gbrIZ0NeTmA2OYgyWgdUjRf_RTRfflyXn3Vgujkb9tiByOPfej1OqEszpQf2FeozeSqmK5L7aSj28GLwzKmzehIp9zJyeJqgRvbVOW91_pVEMhs3KY9_oXjwf5BE/s1600/php-flawss.jpg",
-      "processedAt": "2026-11-19T15:30:05.657479+00:00"
-    },
-    {
-      "id": "art-51b00e91",
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-      "summary": "A critical vulnerability in Drupal's installer allows attackers without credentials to potentially reinstall websites and gain complete control. This flaw can lead to site takeovers or remote code execution, though it only affects sites under specific configuration conditions. Drupal has released patches for all supported versions to address this security issue.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "drupal",
-        "installer-vulnerability",
-        "unauthenticated-access",
-        "remote-code-execution",
-        "patch-available",
-        "site-takeover"
-      ],
-      "whyItMatters": "This vulnerability is critical because it allows unauthorized attackers to completely compromise Drupal sites without needing valid login credentials, potentially affecting thousands of websites. The availability of patches makes immediate updating essential to prevent exploitation. Organizations running Drupal should prioritize applying these security updates to maintain website integrity and pre",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4kxIzi1B-GPdS7pbaOI823BHxteL-8FbODKnAoDkr8tGhhjGYuRU9KIEAvOQ6kBZFQPCly3BIhQo6vkjxJy13zL7CxlRXsez_G_otFVaja2H5ObmzNMMilbewaweqqO5Paa0H49yaZdWB09xAIqeo7YLG0uyd05qjdbh2aLIRZd73_jwVGH26YexA3l8/s1600/drupal-flaws.jpg",
-      "processedAt": "2026-11-19T15:30:08.358030+00:00"
-    },
-    {
-      "id": "art-e37f8ec1",
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "summary": "Attackers exploited two critical PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) in Palo Alto Networks PAN-OS management interfaces that were exposed to the internet. These flaws allowed unauthorized users to execute code on the web server without needing to log in. This demonstrates how modern network security devices, despite being firewalls, are still vulnerable when their web-based management consoles are publicly accessible.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "palo-alto-networks",
-        "php-vulnerabilities",
-        "firewall-compromise",
-        "unauthenticated-rce",
-        "pan-os",
-        "web-application-security"
-      ],
-      "whyItMatters": "Firewalls are critical infrastructure that protect entire networks, so compromising their management interfaces creates a single point of failure that attackers can leverage to bypass all downstream security controls. Organizations relying on exposed PAN-OS interfaces face immediate risk of network takeover and require urgent patching. This highlights the broader principle that any internet-facing",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC0roCfV92el2-gLSGwmumyjXgCjHookzwGjft2a6UWPZA1QvyrazDNLTvlZrF1F5iagg74JxnPEXbnK60OEeJuFNo2Fc2xcNSnJCeNw9BLu_y-lsRhrpO6s1End2gdDDlRU_r4wysTiiJS4ZKPDTmWK152psFdhxRizlSJZFCjnYr6nnamRsUciEJui4/s1600/php-app.jpg",
-      "processedAt": "2026-11-19T15:30:11.329440+00:00"
-    },
-    {
-      "id": "art-594b76c3",
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "summary": "N-able discovered that unauthorized attackers successfully breached one of their cloud servers hosting Mail Assure and Spam Experts services, forcing the company to disable management interfaces and APIs across three regions. The incident disrupted email security management for affected customers while N-able investigated the breach and implemented mitigation measures. The company is working to harden its services to prevent similar incidents from occurring in the future.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-breach",
-        "email-security",
-        "managed-services",
-        "infrastructure-compromise",
-        "api-disruption"
-      ],
-      "whyItMatters": "This breach affects a managed security service provider whose customers rely on their infrastructure for email protection, meaning the incident cascades impact to numerous downstream organizations. Compromised management interfaces and APIs could allow attackers to manipulate email security settings or gain deeper access to customer environments. The disruption highlights the critical importance o",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjPpZ9yL9D7JBQvp4_ZmnP8S_U6HKdq3rSM_FVv_uDgT9Iz8D56tO6GNDNE4rs29pejUiKQlxi1HpZ38KYbaSB01PmgPItVL8N-Y9G9vcuJlnadltKvmGhvUKYntAEIVCXFixjdBMyu6S9-zEUlIgGf7E5euvodJbn9LIYWTkRpxwH0g7nz2xp2v5PGMdq/s1600/n-able-hacked.jpg",
-      "processedAt": "2026-11-19T15:30:14.168438+00:00"
-    },
-    {
-      "id": "art-9939083c",
-      "title": "Five warning signs of ransomware breach before encryption or data theft",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
-      "summary": "Ransomware attackers typically spend significant time stealing credentials and moving laterally through networks before they encrypt files or steal data. By learning to recognize five early warning signs of these intrusions, security teams can detect and stop attacks much faster. This approach allows defenders to contain threats and protect backups before attackers can cause damage.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "early-detection",
-        "lateral-movement",
-        "credential-theft",
-        "incident-response"
-      ],
-      "whyItMatters": "Most ransomware campaigns include a reconnaissance and preparation phase before the final encryption stage, giving defenders a critical window to detect and respond. Understanding these pre-encryption warning signs enables security teams to identify compromises earlier, potentially preventing data theft and costly ransomware payments. This proactive detection strategy is more effective than waitin",
-      "image": null,
-      "processedAt": "2026-11-19T15:30:16.800366+00:00"
-    },
-    {
-      "id": "art-86f0fc09",
-      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
-      "summary": "Two critical vulnerabilities in NGINX, collectively called 'nginx2root,' enable attackers without authentication to remotely execute code on affected web servers. Researchers have shown that these flaws can be combined with a Linux kernel vulnerability to escalate privileges all the way to root access, fully compromising the server.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "nginx",
-        "remote-code-execution",
-        "privilege-escalation",
-        "linux-kernel",
-        "unauthenticated-attack",
-        "server-hijacking"
-      ],
-      "whyItMatters": "NGINX powers a significant portion of the internet's web infrastructure, making these vulnerabilities an immediate threat to countless servers worldwide. The ability to chain these flaws with kernel bugs to gain root access means attackers could achieve complete system compromise without needing valid credentials. Organizations running NGINX must prioritize patching immediately to prevent active e",
-      "image": null,
-      "processedAt": "2026-11-19T15:30:19.187564+00:00"
-    },
-    {
-      "id": "art-32798d3b",
-      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
-      "summary": "The Drupal Security Team released a patch for a critical remote code execution vulnerability that could allow attackers to gain full control of affected websites. This flaw poses an immediate threat to organizations running vulnerable versions of Drupal, as exploits are expected to emerge rapidly following the patch disclosure. Website administrators need to update their systems urgently to prevent potential compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "drupal",
-        "rce",
-        "patch-now",
-        "critical-vulnerability",
-        "web-application",
-        "exploit-likely"
-      ],
-      "whyItMatters": "RCE vulnerabilities in widely-used platforms like Drupal can affect thousands of websites simultaneously, making this a high-priority threat across the internet. The warning that exploits may surface quickly means attackers are likely already developing attack tools, requiring immediate patching to avoid compromise. Organizations running unpatched Drupal installations face imminent risk of complet",
-      "image": null,
-      "processedAt": "2026-11-19T15:30:21.642556+00:00"
-    },
-    {
-      "id": "art-2885f9db",
-      "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
-      "summary": "Microsoft is testing a new security feature called Edge Lockdown Mode that aims to reduce browser vulnerabilities by disabling graphics-related APIs including WebGL, WebGL2, and WebGPU. This feature helps minimize the attack surface that attackers could exploit through web-based graphics processing. By limiting access to these powerful APIs, Microsoft is providing users with an additional security option when browsing potentially risky websites.",
-      "category": "Vulnerabilities",
-      "severity": "Medium",
-      "tags": [
-        "browser-security",
-        "attack-surface-reduction",
-        "edge-lockdown",
-        "api-security",
-        "defense-in-depth"
-      ],
-      "whyItMatters": "Graphics APIs are frequently targeted by attackers to exploit browser vulnerabilities and deliver malicious code, so limiting access to these APIs can significantly reduce exploitation risks. This proactive approach demonstrates how browser vendors are implementing layered security controls to protect users without requiring individual security expertise.",
-      "image": null,
-      "processedAt": "2026-11-19T15:30:24.265377+00:00"
-    },
-    {
-      "id": "art-e6b39b30",
-      "title": "Microsoft confirms app installation, launch issues after hotpatch",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-app-installation-launch-issues-after-hotpatch/",
-      "summary": "Microsoft released a hotpatch for Windows 11 this month that inadvertently caused problems with installing and launching Office and other applications. The company has acknowledged the issue and provided users with a temporary workaround while they work on a permanent fix. This incident highlights how even security updates can sometimes create unexpected problems for end users.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "windows-11",
-        "hotpatch",
-        "application-issues",
-        "microsoft-update",
-        "system-stability"
-      ],
-      "whyItMatters": "This demonstrates the operational impact that system updates can have beyond their intended security benefits, potentially disrupting business workflows and productivity. Organizations need to test patches in controlled environments before broad deployment to avoid widespread application failures affecting their users.",
-      "image": null,
-      "processedAt": "2026-11-19T15:30:26.571060+00:00"
     }
   ]
 }
