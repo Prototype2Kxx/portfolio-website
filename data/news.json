@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-20T23:26:42.015375+00:00",
+  "lastUpdated": "2026-11-21T14:27:23.304472+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-4625878d",
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "summary": "Security researchers discovered a vulnerability in Meta Muse that allows a malicious webpage to steal a user's private conversations and stored memories without requiring any user approval. The same attack method could potentially be used to access login credentials for connected accounts. This was a controlled lab demonstration showing how the assistant's security mechanisms can be bypassed through a simple webpage.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "meta-muse",
+        "ai-security",
+        "privacy",
+        "vulnerability",
+        "web-based-attack",
+        "credential-theft"
+      ],
+      "whyItMatters": "This vulnerability demonstrates a serious flaw in how AI assistants handle user data and permissions, showing that sensitive information can be extracted without user knowledge or consent. As more people rely on AI assistants to store personal conversations and credentials, these types of weaknesses pose significant privacy risks and could affect millions of users. Organizations need to implement ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYiVrbfn3FWfI_uNyjj8q9SZ38d2mHKu2ehdtYYKPwyg-05yKJBYUAPEaVxJq5KDGwU11X2tmEKNUKPIHQY9s67e1K9w_8NRdEOxVCDJqqMbQ6F27kfOj3GKjcQ3-0WHFNg7uYT6QeIU90qX1YW_Zvyn7WhZwpV41i5Pj6watQsF7Ti8NN1GIQLxw-jPc/s1600/muse-ai.jpg",
+      "processedAt": "2026-11-21T14:26:57.600560+00:00"
+    },
+    {
+      "id": "art-34a13c8a",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "summary": "GnuPG has discovered a critical vulnerability in GPGME, a widely-used encryption library, that can be triggered by a specially crafted OpenPGP key with an extremely long user ID. This memory bug, tracked as CVE-2026-129975, could allow attackers to extract sensitive data from any application using GPGME versions before 2.3.0. The GnuPG team has released patches to fix the issue and urges users to update immediately.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "gpg-vulnerability",
+        "memory-bug",
+        "encryption-library",
+        "cve-2026-129975",
+        "patch-urgent",
+        "data-exposure"
+      ],
+      "whyItMatters": "GPGME is a foundational cryptographic library used by thousands of applications, making this vulnerability a widespread risk that could compromise sensitive data across multiple platforms. The fact that exploitation requires only a malicious key means attackers can easily deliver the exploit, and organizations must prioritize updates to prevent potential data theft. This demonstrates how vulnerabi",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiTmX4ayWzvM0EzPttZ610B2837FppeU5AEmQmztLH2lai78EDQtjrp4wVI_bubSe2c2NGBE5sqBT9Py1mKkHQKN2faBkOzU70d7FntrpYD7Et2eeBxLNy2gzByAo1i8Aaw_VMBZD62RnBMY2md3iNfegK9M_NR5qTRDBw8s0uwKy1w7JoTV0zkDS_17Lse/s1600/pgp.jpg",
+      "processedAt": "2026-11-21T14:27:00.638744+00:00"
+    },
+    {
+      "id": "art-6f160e30",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "summary": "Hackers linked to China deployed AI agents to automatically discover a previously unknown vulnerability in MONAI Label, an open-source medical imaging platform, and gained root access to a university server. The flaw allows unauthorized users to write files outside the intended storage directory on affected versions 0.8.5 and earlier. This incident demonstrates how attackers are using artificial intelligence to find and exploit security weaknesses in healthcare software.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "ai-agents",
+        "medical-imaging",
+        "root-access",
+        "open-source",
+        "china-linked"
+      ],
+      "whyItMatters": "This attack reveals a dangerous new threat vector where AI-powered tools automate the discovery of vulnerabilities faster than human researchers can patch them, particularly in critical healthcare infrastructure. The targeting of medical imaging systems poses direct risks to patient care and data integrity, making rapid patching and security updates essential for healthcare organizations.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEIG6Wgi3wGQXrsdGKEf4ORPFjHVGpRkoSUPraOJfKhGmB0vYFojLq2mCuOP3a71_XpNZusvn45ZDa1J3a7eQ0WE3XJY0FGunHVWB1yHBluJT5vSDCmzkhaFGiHjeKbnoah6noyZ3mNInS-mjJK1Gfcf7jT3A60ZYR_eknSgt_sEa6MNGM-DA5-aLXMbZ5/s1600/medical-ai.jpg",
+      "processedAt": "2026-11-21T14:27:03.376066+00:00"
+    },
+    {
+      "id": "art-a5f8b755",
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "summary": "Signal has implemented a new feature that blocks AI agents from accessing private messages through screenshots on Android and iOS devices. The messaging app will restrict screenshot capabilities by default when it detects AI assistants attempting to read conversations. However, Signal acknowledged that this protection method is not completely foolproof against all potential threats.",
+      "category": "AI Security",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "privacy",
+        "screenshot-protection",
+        "mobile-security",
+        "encrypted-messaging"
+      ],
+      "whyItMatters": "As AI agents become more sophisticated and integrated into mobile operating systems, the ability to automatically extract sensitive information from screenshots poses a significant privacy risk to users. This development highlights the growing tension between AI capabilities and user privacy, making it important for security-conscious individuals to understand emerging protections and their limita",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1cVX1DZUDMTkSc3kGcO8KsGd-MIBr6py39SuaRxG1wCxVVfKIQhiQaywRpjn95FQV4tMy0dWyNc49745cwqBBLpGzVK_eut-DGLBaidiiYCdIH65bXGtopuPJ7dofJzAJVJ6cWrKp2JJb5gNrODQuWtK7vZZp824ecrz4_DHWWJIaC5wS6aYfsMsKshg4/s1600/signal.jpg",
+      "processedAt": "2026-11-21T14:27:05.656901+00:00"
+    },
+    {
+      "id": "art-08ca6868",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "summary": "CISA has identified four critical vulnerabilities actively being exploited in the wild, affecting popular enterprise software including Apache Roller, Cisco Expressway, SAP NetWeaver, and VMware vCenter. One vulnerability in particular has a severe CVSS score of 9.8 and involves unsafe handling of untrusted data. Organizations using these systems are at immediate risk and should prioritize patching to prevent potential breaches and espionage attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "active-exploitation",
+        "cisa-kev",
+        "enterprise-software",
+        "patch-critical",
+        "deserialization-flaw",
+        "vmware-cisco-apache"
+      ],
+      "whyItMatters": "These vulnerabilities are actively being exploited by attackers, meaning the threat is not theoretical—it's happening now. Organizations running these widely-deployed enterprise systems must apply patches immediately to avoid compromise. The espionage angle suggests nation-state or advanced persistent threat actors may be targeting sensitive information through these flaws.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFnWnBDigw8RogBTSInXktn1vUISbzwjHm5GuAFBNX0_ClLBk83WOa2BYiHUbgtva76TY8Oz2kJvEZtvEjqZlFFCuvQ-u-l-4l5dzo2MXw7zHLEuklv_Gn1mB-f5TL9GP_3n1NxQkzkZ-fAX7UpcqfZqUefQiRQZm21sq6IZOzmyuQ1hYs4AFHWQAj83WX/s1600/vmware-cisco.jpg",
+      "processedAt": "2026-11-21T14:27:08.421422+00:00"
+    },
+    {
+      "id": "art-dce7cf2d",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "summary": "The FBI has experienced a second major security breach in two months, with attackers this time gaining access to the National Crime Information Center (NCIC) database. The NCIC is a critical system used by law enforcement agencies across local, state, and federal levels to share and access sensitive criminal information. This breach represents a serious threat to national security infrastructure and the integrity of information relied upon by police departments nationwide.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "government-systems",
+        "law-enforcement",
+        "national-security",
+        "database-compromise",
+        "repeated-attacks"
+      ],
+      "whyItMatters": "Compromised law enforcement databases can enable criminals to access sensitive information about investigations, witnesses, and informants, undermining public safety and criminal investigations. Repeated breaches of FBI systems indicate either persistent vulnerabilities or adversary sophistication that demands immediate remediation. This breach directly impacts the operational security of thousand",
+      "image": null,
+      "processedAt": "2026-11-21T14:27:11.332020+00:00"
+    },
+    {
+      "id": "art-ff1ba359",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "summary": "A Florida company called RansomwareHelp, which operated for six years claiming to decrypt ransomware-locked data using advanced tools, was exposed by the FBI for committing fraud. The CTO and co-founder was indicted after investigators discovered the company simply paid ransomware attackers for decryption keys and then charged victims inflated prices for essentially no work. This case highlights how some businesses exploit desperate ransomware victims by falsely advertising recovery services they don't actually provide.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ransomware",
+        "wire-fraud",
+        "fbi-investigation",
+        "victim-exploitation",
+        "data-recovery-scam"
+      ],
+      "whyItMatters": "This case demonstrates how criminal enterprises can abuse ransomware victims' desperation by posing as legitimate recovery services, making it critical for organizations to verify the legitimacy of any recovery assistance before paying. It also shows that law enforcement is actively pursuing fraudulent actors in the ransomware ecosystem, deterring similar scams. Understanding this threat helps sec",
+      "image": null,
+      "processedAt": "2026-11-21T14:27:14.596863+00:00"
+    },
+    {
+      "id": "art-e92f2f9f",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "summary": "The Qilin ransomware group has become the most prolific ransomware affiliate operation globally, targeting over 365 organizations in just three months. Through a series of operational security errors spanning the past decade, security researchers have identified the group's administrator as a 36-year-old individual based in St. Petersburg, Russia. This identification highlights how even sophisticated cybercriminals can leave traces that lead back to their true identities.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "qilin-ransomware",
+        "ransomware-gang",
+        "cybercrime",
+        "operational-security",
+        "threat-intelligence",
+        "russian-hackers"
+      ],
+      "whyItMatters": "Identifying the administrator behind Qilin is significant for law enforcement and cybersecurity professionals seeking to disrupt one of the world's most active ransomware operations. Understanding that even advanced threat actors make mistakes provides valuable insights for attribution methods and helps organizations better understand the human elements behind these attacks. This information can g",
+      "image": null,
+      "processedAt": "2026-11-21T14:27:17.748743+00:00"
+    },
+    {
+      "id": "art-08be813f",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-10",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "summary": "Microsoft released patches for nearly 1,100 security vulnerabilities across its Windows systems and software during November's Patch Tuesday, addressing 63 critical flaws including a zero-day flaw in Microsoft Outlook. This large-scale update comes as multiple major tech companies including Adobe, Apple, Google, and Mozilla also released their own security patches. Users and organizations need to prioritize installing these updates to protect against active threats.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "patch-tuesday",
+        "zero-day",
+        "microsoft-outlook",
+        "windows-security",
+        "critical-vulnerabilities",
+        "patch-now"
+      ],
+      "whyItMatters": "A four-digit vulnerability count with 63 critical flaws—especially including an unpatched zero-day in widely-used Outlook—represents an immediate and widespread risk to millions of Microsoft users globally. Organizations must prioritize these patches to prevent potential exploitation of actively targeted vulnerabilities. Coordinated patching across multiple vendors signals a heightened threat land",
+      "image": null,
+      "processedAt": "2026-11-21T14:27:20.708934+00:00"
+    },
+    {
+      "id": "art-d8f92b9a",
+      "title": "Want to Rent an Internet Address at the White House?",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-05",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
+      "summary": "White House staff members are using computers and devices with residential proxy services that allow their internet addresses to be rented out to others, creating a significant security risk. One of these proxy services is operated by a Russian company whose founder previously ran a web hosting business that was targeted in cyberattacks against election systems in 2016. This practice exposes government networks to potential unauthorized access and compromise.",
+      "category": "Network Security",
+      "severity": "Critical",
+      "tags": [
+        "residential-proxy",
+        "government-security",
+        "network-compromise",
+        "russian-threat-actor",
+        "election-infrastructure"
+      ],
+      "whyItMatters": "White House staff using rented proxy services creates direct pathways for adversaries to access government networks and sensitive information, particularly when linked to known threat actors. This represents a critical insider risk and operational security failure that could compromise national security and election integrity. The practice demonstrates how poor device security practices at the hig",
+      "image": null,
+      "processedAt": "2026-11-21T14:27:23.304323+00:00"
+    },
     {
       "id": "art-a585981d",
       "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
@@ -826,213 +1033,6 @@
       "whyItMatters": "This demonstrates the operational impact that system updates can have beyond their intended security benefits, potentially disrupting business workflows and productivity. Organizations need to test patches in controlled environments before broad deployment to avoid widespread application failures affecting their users.",
       "image": null,
       "processedAt": "2026-11-19T15:30:26.571060+00:00"
-    },
-    {
-      "id": "art-d668f72f",
-      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-      "summary": "A critical vulnerability in NGINX's HTTP/2 implementation, present for over a decade since version 1.9.5, allows attackers to execute code on servers without authentication. The flaw, tracked as CVE-2026-123007 and nicknamed \"nginx2root,\" affects millions of web servers worldwide that have HTTP/2 enabled. F5 has released patched versions 1.31.9 and 1.30.7 to address this severe security issue.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "nginx-vulnerability",
-        "http2-flaw",
-        "remote-code-execution",
-        "unauthenticated-attack",
-        "patch-urgent",
-        "cve-2026-123007"
-      ],
-      "whyItMatters": "This vulnerability is critical because it affects a widely-used web server software with a 10-year window of exposure, meaning countless production systems are likely vulnerable. The ability to execute arbitrary code without authentication makes this an immediate and severe risk that could lead to complete server compromise. Organizations running NGINX with HTTP/2 enabled must apply patches immedi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7_qqPophooIauX16fMWm3KB24tzQ3Fd7rCuseCXfMkDPPGpIgmHqWvZjn_jffDqHwNWKu8Zf57QeKb4qsRFgdgisSAn0sMj59CscimR16RLXI1kspH0w7VYQgrsM_hPcePQOFL8QUyDC2p9W7AV0UjH3sW7oOvdWPWAZW6DITDvqIHaC_696e5kHTieY/s1600/nginx-rce.jpg",
-      "processedAt": "2026-11-18T23:38:41.349511+00:00"
-    },
-    {
-      "id": "art-807cf4b6",
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "summary": "F5 has discovered six critical vulnerabilities in its BIG-IP software that can crash the Traffic Management Microkernel without requiring authentication, potentially disrupting network traffic until the system restarts. These flaws only affect systems with specific configurations, such as certain iRule commands or APM policies with particular agents. The vulnerabilities pose a risk of denial-of-service attacks and may potentially allow remote code execution on affected systems.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "f5-big-ip",
-        "dos-attack",
-        "rce-risk",
-        "authentication-bypass",
-        "patch-required",
-        "traffic-disruption"
-      ],
-      "whyItMatters": "BIG-IP is widely deployed in enterprise networks for load balancing and traffic management, making these vulnerabilities a significant concern for organizations relying on this infrastructure. The ability to crash critical traffic handling components without authentication could enable attackers to cause widespread service disruptions or potentially gain system control. Organizations using affecte",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizE3X3tUSPpxIYnNyM91hyphenhyphenzZOS6jjdHnCLmubn4upOYKZn3MdjUqJQGEjIBGtZ2JHK6yggH6RxSQCANhtF7-zIWJ0EfGqA7iY2KQWM7vtoiCsc-_KeFZeHeDm-TOpM_oL_EVzOvPru_cMVzx3wJL8kaLEgXuzPzxm3iYnTiyu57quhgBgMY1Nb7V_sXG4/s1600/f5.png",
-      "processedAt": "2026-11-18T23:38:43.920587+00:00"
-    },
-    {
-      "id": "art-7f41b2d8",
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "summary": "Apache Roller, a Java-based blogging platform, has a critical vulnerability (CVE-2026-129448) that allows attackers to execute remote code without needing to log in. The flaw involves unsafe handling of untrusted data in the XML-RPC endpoint and is already being actively exploited by hackers in real-world attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "apache-roller",
-        "rce",
-        "unauthenticated",
-        "active-exploitation",
-        "deserialization",
-        "patch-urgent"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate and widespread threat because it requires no authentication, has a maximum severity score (9.8), and is already under active attack. Organizations running Apache Roller need to patch immediately to prevent complete system compromise and unauthorized access to their servers.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbiCYJD7nei_TBSnUlQG59idq9moCbsg97fnzsiXNi4KvQaphZYA4hHIzXv08t2OsvVZokzPIdhZPzxTkXoEgzTsFby-rBvQX6CY6yPo1Iv8DPnSmPeOeh3OQXF79Q60Hq3UI7kVdhmEKGL2bUwm42JO-8C_ClLHpTpGkWpnflAQMrDDgjIvMKq09DEskr/s1600/apache.jpg",
-      "processedAt": "2026-11-18T23:38:46.161098+00:00"
-    },
-    {
-      "id": "art-4bb2077a",
-      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-      "summary": "A critical vulnerability (CVE-2026-115731) in Perforce Puppet, a widely-used enterprise configuration management tool, is being actively exploited by hackers in the wild. The flaw has a high CVSS score of 9.4 and was added to CISA's Known Exploited Vulnerabilities catalog, indicating immediate threat activity. Organizations using Puppet for infrastructure management need to treat this as an urgent priority.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "puppet-rce",
-        "critical-vulnerability",
-        "active-exploitation",
-        "enterprise-infrastructure",
-        "cisa-kev",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Puppet is used extensively in enterprise environments to manage IT infrastructure and configurations, making this RCE vulnerability a direct path for attackers to compromise entire organizations at scale. Active exploitation combined with CISA's KEV listing confirms this threat is real and immediate, requiring all affected organizations to prioritize patching to prevent potential system takeover a",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhoFKMFLPbzyM7RGi89XdpVFUfFqLH2C0QnAIyZfTSZIkvQNT8jhFEdMdW3D1qPXE0MjtV-q8fM1Alicz0wEuNJ6fnIjOs3BY8D7ABBRWNqPg6NGz9FjhbSQhapwUDZPDyg3kJEy9CZeUwbcmZ3N5nCU8bH6bkCo4BgLfhlE3R3AdDi9CvLVgjqlMW42Pm2/s1600/puppet.jpg",
-      "processedAt": "2026-11-18T23:38:48.907848+00:00"
-    },
-    {
-      "id": "art-ba2ee289",
-      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-      "summary": "CISA has warned organizations about a critical vulnerability in Oracle Java (CVE-2026-114938) that allows attackers to execute remote code or cause system crashes through an out-of-bounds write flaw. With a CVSS score of 8.1, this memory-corruption bug poses a significant threat to systems running affected Java versions. Organizations are being urged to apply patches immediately to prevent exploitation.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "java-vulnerability",
-        "remote-code-execution",
-        "patch-now",
-        "memory-corruption",
-        "cisa-alert",
-        "cve-2026-114938"
-      ],
-      "whyItMatters": "Java is widely deployed across enterprise environments, making this vulnerability a high-priority threat with broad impact potential. The combination of remote code execution capability and urgent CISA guidance means organizations must prioritize patching to prevent active exploitation. Delayed remediation could expose critical systems to compromise across multiple sectors and organizations.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivmrsz2fViEN49Su385gmuAShCPcxobsMF-FbR9t1sXw6aEbOMzFUT5YktViqASQUXP3bLT13HYMAE1wBQTN0ZRDGXWFJUy_EWOKhOjR7jSz-bhEK8jas_v9wWUYxevCAZt4PzOCaGNLLC96kDwFjtKBuXVW2O3K2BK9AO5nyZutFf_uCaZtvyaQ2qf8gK/s1600/cisa-java.jpg",
-      "processedAt": "2026-11-18T23:38:51.619111+00:00"
-    },
-    {
-      "id": "art-8587e5f5",
-      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
-      "summary": "Ukrainian and FBI authorities have collaborated to arrest four members of an international ransomware gang that extorted over $40 million from dozens of companies globally. This coordinated law enforcement action demonstrates increased international cooperation in combating organized cybercrime networks. The operation disrupts a significant criminal organization responsible for attacks on at least 28 organizations worldwide.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "law-enforcement",
-        "international-cooperation",
-        "cybercrime",
-        "extortion"
-      ],
-      "whyItMatters": "This arrest highlights that ransomware operators face real consequences through international law enforcement collaboration, potentially deterring future attacks and disrupting criminal infrastructure. Organizations should recognize that law enforcement capabilities are improving and that ransomware gangs are increasingly vulnerable to prosecution, reinforcing the importance of proper incident rep",
-      "image": null,
-      "processedAt": "2026-11-18T23:38:53.897108+00:00"
-    },
-    {
-      "id": "art-03b89748",
-      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
-      "summary": "Coinbase successfully stopped $4.7 million in cryptocurrency transfers targeting victims of a sophisticated scam that used an AI-generated deepfake of Elon Musk to promote a fake giveaway during a Tesla livestream. The fraudulent video attracted over 500,000 viewers who were deceived into sending funds to scammer wallets. This incident demonstrates how deepfake technology combined with social engineering can be weaponized at scale to defraud large audiences.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "deepfake-fraud",
-        "cryptocurrency-scam",
-        "ai-security",
-        "social-engineering",
-        "identity-impersonation"
-      ],
-      "whyItMatters": "This case highlights how AI-generated deepfakes are becoming a potent tool for large-scale financial fraud, with the ability to deceive hundreds of thousands of people simultaneously. It demonstrates the critical need for cryptocurrency exchanges to implement detection systems for fraudulent transfers and shows that even major tech platforms remain vulnerable to deepfake-based scams targeting high",
-      "image": null,
-      "processedAt": "2026-11-18T23:38:56.548906+00:00"
-    },
-    {
-      "id": "art-93764843",
-      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
-      "summary": "An IT provider called Wellington IT experienced a cyberattack that compromised personal information of members across 50 credit unions, with the majority located in Ireland. This incident demonstrates how a single breach at a service provider can affect many organizations and their customers at once. Credit union members may face risks related to identity theft and financial fraud as a result of their data being exposed.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "third-party-compromise",
-        "financial-sector",
-        "credit-unions",
-        "ireland",
-        "it-provider-attack"
-      ],
-      "whyItMatters": "This breach highlights the critical vulnerability of relying on third-party service providers—a single compromised IT vendor can expose thousands of customers across multiple financial institutions. Organizations must implement strong vendor security assessments and monitoring to protect their data and their customers' information from supply chain attacks.",
-      "image": null,
-      "processedAt": "2026-11-18T23:38:59.242616+00:00"
-    },
-    {
-      "id": "art-db08b5bf",
-      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-      "summary": "Attackers successfully compromised Microsoft's Agent Framework package on PyPI, a popular Python repository, by releasing malicious versions designed to harvest cloud credentials and sensitive data from developers. This supply chain attack put any developer who installed the trojanized package at risk of credential theft. The incident highlights how widely-trusted software repositories can be weaponized to target developers at scale.",
-      "category": "Malware",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "malware",
-        "credential-theft",
-        "pypi",
-        "cloud-security",
-        "open-source"
-      ],
-      "whyItMatters": "This attack demonstrates a critical vulnerability in the software supply chain where even trusted repositories hosting official packages can be compromised. Developers who rely on PyPI for dependencies face significant risk of installing malicious code, potentially exposing cloud credentials, API keys, and other sensitive data at an organizational level. Organizations need robust dependency verifi",
-      "image": null,
-      "processedAt": "2026-11-18T23:39:01.997562+00:00"
-    },
-    {
-      "id": "art-9ed37198",
-      "title": "Tor releases emergency update amid ongoing DDoS attack",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-17",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-      "summary": "The Tor Project released an emergency security update to protect its network relay software from an ongoing distributed denial-of-service (DDoS) attack. This attack has been overwhelming relays and impacting most network operators. The update aims to strengthen defenses against this active threat targeting the Tor network's infrastructure.",
-      "category": "Network Security",
-      "severity": "High",
-      "tags": [
-        "tor-network",
-        "ddos-attack",
-        "emergency-update",
-        "relay-security",
-        "infrastructure-threat"
-      ],
-      "whyItMatters": "Tor is critical infrastructure used by journalists, activists, and privacy-conscious users worldwide to protect anonymity and avoid censorship. An active DDoS attack undermining relay operators directly threatens the availability and reliability of this essential privacy tool, making rapid patching essential for maintaining network resilience.",
-      "image": null,
-      "processedAt": "2026-11-18T23:39:03.964927+00:00"
     }
   ]
 }
