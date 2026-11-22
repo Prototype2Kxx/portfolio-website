@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-21T22:30:38.908928+00:00",
+  "lastUpdated": "2026-11-22T14:22:09.784894+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-22eddd10",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-22",
+      "originalUrl": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "summary": "Researchers discovered that attackers had been stealing data from three AI inference providers for months without the companies detecting it. OpenRouter, an AI request routing service, dropped these providers after learning that some stolen prompts were marked as Zero Data Retention, meaning they should never have been stored or accessed. The breach highlights significant security gaps in AI hosting infrastructure that went unnoticed until external researchers brought it to light.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "ai-security",
+        "data-breach",
+        "prompt-theft",
+        "cloud-security",
+        "zero-data-retention",
+        "inference-providers"
+      ],
+      "whyItMatters": "This breach demonstrates that major AI service providers lack adequate detection capabilities for insider threats and data exfiltration, potentially affecting thousands of users whose sensitive prompts and data were compromised. The violation of Zero Data Retention settings shows that security controls designed to protect user privacy are not functioning as intended, undermining trust in AI platfo",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png",
+      "processedAt": "2026-11-22T14:21:45.951293+00:00"
+    },
+    {
+      "id": "art-6505e2e9",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-22",
+      "originalUrl": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "summary": "Researchers discovered a security flaw in Ghostscript, a widely-used tool that converts files like PDFs and images on Linux servers, which allows attackers to bypass its sandbox protections and execute arbitrary commands. By uploading a specially crafted file, an attacker could gain unauthorized control over the server processing it. The vulnerability has been patched, but many systems may still be running the vulnerable version.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ghostscript",
+        "sandbox-escape",
+        "rce",
+        "file-upload",
+        "patch-available",
+        "linux-servers"
+      ],
+      "whyItMatters": "This vulnerability is critical because Ghostscript runs on many production servers often without direct user awareness, making it a high-value target for attackers. A successful exploit grants complete remote code execution, potentially compromising entire systems and data. Organizations must urgently patch their Ghostscript installations to prevent active exploitation of this widely-deployed tool",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1600/ghostscript.jpg",
+      "processedAt": "2026-11-22T14:21:48.639201+00:00"
+    },
+    {
+      "id": "art-d425a8dc",
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "summary": "PHP Foundation released security patches to fix seven critical vulnerabilities affecting all supported PHP versions, with at least one flaw (CVE-2026-115560) capable of enabling remote code execution. These flaws pose serious risks to web servers and applications running vulnerable PHP installations. System administrators were given advance notice to prepare for the patching process.",
+      "category": "Patching and Updates",
+      "severity": "Critical",
+      "tags": [
+        "php-vulnerability",
+        "remote-code-execution",
+        "rce",
+        "critical-patch",
+        "php-security",
+        "patch-now"
+      ],
+      "whyItMatters": "PHP powers a significant portion of the web, making these critical vulnerabilities an urgent concern for website owners and hosting providers. Remote code execution flaws allow attackers to gain complete control of affected servers, potentially compromising sensitive data and enabling further attacks. Immediate patching is essential to prevent widespread exploitation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD2D26Hu7r43uUrdDxmsmmbBe2oMxd-L3_DIVLqAPyDrOnSmdvXfkIq1_lNmWqr49gbrIZ0NeTmA2OYgyWgdUjRf_RTRfflyXn3Vgujkb9tiByOPfej1OqEszpQf2FeozeSqmK5L7aSj28GLwzKmzehIp9zJyeJqgRvbVOW91_pVEMhs3KY9_oXjwf5BE/s1600/php-flawss.jpg",
+      "processedAt": "2026-11-22T14:21:51.000100+00:00"
+    },
+    {
+      "id": "art-892688f7",
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "summary": "VMware vCenter, the main management tool for virtual environments, has a critical security flaw that allows attackers on the network to skip authentication and gain full access to the system. Broadcom has released patches for all supported versions, but administrators must update immediately as there is no temporary workaround available.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "vmware-vcenter",
+        "authentication-bypass",
+        "network-access",
+        "patch-urgent",
+        "virtualization-security"
+      ],
+      "whyItMatters": "Since vCenter controls all virtual machines and infrastructure in an organization, this flaw could allow attackers to compromise an entire data center without needing any credentials. The lack of a workaround makes immediate patching essential for any organization running VMware to prevent catastrophic breaches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1600/vmware.jpg",
+      "processedAt": "2026-11-22T14:21:53.410914+00:00"
+    },
+    {
+      "id": "art-9e86ef6d",
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-19",
+      "originalUrl": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "summary": "Drupal has released patches for a critical vulnerability in its core installer that allows unauthenticated attackers to reinstall a website under certain conditions. This flaw could lead to complete site takeover or remote code execution on affected systems. While the vulnerable configurations are considered uncommon, the patch has already been distributed across all supported Drupal versions.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "drupal",
+        "installer-flaw",
+        "unauthenticated-access",
+        "remote-code-execution",
+        "patch-available",
+        "site-takeover"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to Drupal installations with specific configurations, as it allows attackers to gain complete control without needing valid credentials. Organizations running Drupal must prioritize applying the security patches to prevent potential exploitation and data compromise.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4kxIzi1B-GPdS7pbaOI823BHxteL-8FbODKnAoDkr8tGhhjGYuRU9KIEAvOQ6kBZFQPCly3BIhQo6vkjxJy13zL7CxlRXsez_G_otFVaja2H5ObmzNMMilbewaweqqO5Paa0H49yaZdWB09xAIqeo7YLG0uyd05qjdbh2aLIRZd73_jwVGH26YexA3l8/s1600/drupal-flaws.jpg",
+      "processedAt": "2026-11-22T14:21:55.918361+00:00"
+    },
+    {
+      "id": "art-1b30cb92",
+      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "summary": "Rackspace's Spot cloud platform was breached when attackers used compromised credentials to gain unauthorized access to customer environments. The hackers were able to deploy malicious workloads and steal sensitive Kubernetes secrets stored in customer clusters. This incident demonstrates how credential compromise can lead to serious cloud infrastructure attacks with direct access to sensitive orchestration data.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-breach",
+        "kubernetes",
+        "credential-compromise",
+        "unauthorized-access",
+        "secrets-exposure"
+      ],
+      "whyItMatters": "This breach highlights the critical importance of credential security in cloud platforms, as compromised access allowed attackers to infiltrate multiple customer environments simultaneously. Kubernetes secrets typically contain database passwords, API tokens, and other sensitive data, making their exposure a severe risk to downstream systems and applications. Organizations using Rackspace Spot mus",
+      "image": null,
+      "processedAt": "2026-11-22T14:21:58.591185+00:00"
+    },
+    {
+      "id": "art-4d68878f",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-14",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "summary": "The United Kingdom has imposed economic sanctions on Cryptomus, a cryptocurrency platform that facilitates illegal financial transactions across multiple cybercriminal activities including ransomware payments, drug trafficking, and darknet markets. This action targets a key financial infrastructure used by threat actors to launder money and evade existing restrictions aimed at Russia. The sanctions highlight how cryptocurrencies enable cybercriminals to operate across borders while funding various illegal enterprises.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "cryptocurrency-sanctions",
+        "money-laundering",
+        "ransomware-payments",
+        "russia-evasion",
+        "financial-crime"
+      ],
+      "whyItMatters": "Understanding how cybercriminals monetize attacks through platforms like Cryptomus is essential for organizations to recognize payment infrastructure threats and support international efforts to disrupt criminal finances. Sanctions on these platforms may force threat actors to shift tactics, potentially affecting how ransomware gangs collect payments and operate. This demonstrates the intersection",
+      "image": null,
+      "processedAt": "2026-11-22T14:22:01.783163+00:00"
+    },
+    {
+      "id": "art-0b8b101f",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-10-13",
+      "originalUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "summary": "Microsoft released patches for over 1,400 security vulnerabilities across Windows and other products, significantly surpassing the previous month's record of nearly 1,000 fixes. This unusually large number of patches highlights the scale of security issues in widely-used Microsoft software that could affect millions of users. Organizations need to prioritize installing these updates to protect their systems from potential attacks.",
+      "category": "Patching and Updates",
+      "severity": "High",
+      "tags": [
+        "microsoft-patches",
+        "windows-security",
+        "vulnerability-fixes",
+        "patch-tuesday",
+        "software-updates"
+      ],
+      "whyItMatters": "The sheer volume of vulnerabilities being patched indicates a significant security landscape requiring immediate attention from system administrators and organizations relying on Microsoft products. Delayed patching leaves systems exposed to exploitation, making timely deployment of these fixes critical to prevent widespread security incidents across enterprises and consumer devices.",
+      "image": null,
+      "processedAt": "2026-11-22T14:22:04.348531+00:00"
+    },
+    {
+      "id": "art-73b9ccf8",
+      "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
+      "summary": "A Chinese threat group known as 'Armory Castle' has reportedly developed a zero-day exploit targeting VMware vCenter, potentially preparing to strike after VMware's recent security updates. This suggests the group maintains advanced capabilities and is actively developing new vulnerabilities even as patches are released. Organizations using VMware infrastructure may face elevated risk from this emerging threat.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "vmware-vcenter",
+        "china-nexus",
+        "threat-actor",
+        "exploitation-risk",
+        "infrastructure-attack"
+      ],
+      "whyItMatters": "VMware vCenter is critical infrastructure used by thousands of enterprises for virtualization management, making any zero-day vulnerability an immediate threat to widespread systems. A sophisticated threat actor actively exploiting unpatched vulnerabilities could gain complete control over an organization's virtual infrastructure and sensitive data. This emphasizes the urgent need for security tea",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt911ff7b35a2a2c1d/6b009babdd63b308b3111bc2/Chinese_fortress-Lukas_Bischoff-Getty.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-22T14:22:07.308752+00:00"
+    },
+    {
+      "id": "art-17abb0b0",
+      "title": "In Security, Words Matter as Much as Tools, Maybe More",
+      "source": "Dark Reading",
+      "publishedDate": "2026-11-20",
+      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
+      "summary": "Security leaders are recognizing that effective communication and clear language are as critical as technical tools in defending enterprises against cyber threats. By improving how teams discuss cloud security, artificial intelligence, and other technical topics, organizations can build stronger security cultures and reduce vulnerabilities across the business. Disciplined communication helps ensure everyone understands security risks and responds appropriately.",
+      "category": "Security Awareness",
+      "severity": "Medium",
+      "tags": [
+        "security-awareness",
+        "communication",
+        "cloud-security",
+        "ai-security",
+        "enterprise-defense",
+        "cyber-culture"
+      ],
+      "whyItMatters": "Clear communication about cybersecurity directly impacts how well organizations can coordinate defenses, train employees, and implement security controls. When technical teams and business leaders cannot effectively communicate risks and solutions, security gaps widen and incident response becomes inefficient, making communication skills as essential as any security tool.",
+      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt36f1afcfa92ff2c5/6af766db3c02eaba0a4aae0d/cyber_talk_ATHVisions_Getty.jpg?width=720&quality=80&disable=upscale",
+      "processedAt": "2026-11-22T14:22:09.784724+00:00"
+    },
     {
       "id": "art-91baf940",
       "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
@@ -831,213 +1038,6 @@
       "whyItMatters": "Regular patching is essential for closing security vulnerabilities that attackers exploit to compromise systems. By applying these updates promptly, users reduce their exposure to potential threats and maintain system stability and performance.",
       "image": null,
       "processedAt": "2026-11-20T15:08:53.166909+00:00"
-    },
-    {
-      "id": "art-83412bef",
-      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-      "summary": "This week's cybersecurity roundup highlights how attackers are using everyday tactics like fake job offers, service outage notifications, and familiar applications to compromise systems and steal data. The article covers multiple threats including GPT-6.2 jailbreak vulnerabilities, BubbleLoader PNG malware, and ransom demands reaching $500 million. A significant trend noted is how artificial intelligence is being leveraged to make attacks more effective and easier to execute.",
-      "category": "Security Awareness",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "malware",
-        "ransomware",
-        "social-engineering",
-        "jailbreak",
-        "threat-landscape"
-      ],
-      "whyItMatters": "Understanding how attackers combine social engineering with emerging tools like AI jailbreaks helps organizations train employees to recognize sophisticated threats that exploit human psychology. The scale of ransom demands and variety of attack vectors demonstrate that multi-layered defenses and user awareness are critical to preventing costly breaches.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgTqUIWPjGeycl6xafh8Hx8n2UN3UCUgjhTpxUul68DHi7Y_IoHVYBvjDd5DpFg15sKI767hVEq-8CbGhK69JNusMh0OBBXfVMwJlZiKT2gNnTPAL9DyvTY85SB68WkvBxFCMF2_rNS9rUgYkQN8sKssDMBS8gO6YpMudQohf_JWnPztX_h8TdbSX6Vtfi/s1600/td.jpg",
-      "processedAt": "2026-11-19T23:57:13.888151+00:00"
-    },
-    {
-      "id": "art-efc2d8f7",
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-      "summary": "A PHP vulnerability called phpAfterShell exploits the default session storage mechanism to inject malicious objects into sessions. When paired with other weaknesses in an application, attackers can leverage these objects to execute arbitrary code on web servers. The flaw has been patched in today's PHP releases.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "php-vulnerability",
-        "code-execution",
-        "session-hijacking",
-        "cve-2026-126714",
-        "patch-required",
-        "web-application-security"
-      ],
-      "whyItMatters": "This vulnerability represents a critical threat to PHP-based web applications worldwide, as it enables remote code execution through a common feature in PHP's core functionality. Organizations running PHP applications must urgently apply security patches to prevent attackers from gaining full server control. The exploit's reliance on combining multiple weaknesses makes it particularly dangerous fo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg",
-      "processedAt": "2026-11-19T23:57:16.549077+00:00"
-    },
-    {
-      "id": "art-88311328",
-      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "summary": "Ruby has released patches addressing seven memory-safety vulnerabilities found in its regular expression engine and string handling functions. Five of these flaws have working proof-of-concept exploits that demonstrate remote code execution capabilities, meaning attackers could potentially run malicious code on affected systems. The Ruby maintainers have confirmed awareness of these exploits and strongly recommend updating to the fixed versions.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "ruby",
-        "remote-code-execution",
-        "rce",
-        "memory-safety",
-        "patch-now",
-        "regex-vulnerability"
-      ],
-      "whyItMatters": "Ruby is widely used in web applications and backend systems, so these RCE vulnerabilities pose an immediate threat to any organization using affected versions. With proof-of-concept exploits already available, attackers have clear roadmaps for exploitation, making immediate patching essential to prevent unauthorized access and system compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmcgZ7yffFsn_7SX4iQcfMhw1dgsxPFXXh6TUunbQ9VaxZh8O5-AFT2V3q0PE7Wx0rW9nLKuB73eluixYuM9N38Dvq_Gjs1nNOXVk3e71jjfhHoP7W97eeuc5AivI3CQNxIrwSaPR9IGV0f2NZ7900Ihtkdgiw1ZivTvgVrXWH2CrX2X5MZGjos6-bs/s1600/ruby.jpg",
-      "processedAt": "2026-11-19T23:57:19.070455+00:00"
-    },
-    {
-      "id": "art-9e370697",
-      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-      "summary": "A researcher has revealed critical remote code execution vulnerabilities in PostgreSQL, MySQL, Oracle, and ClickHouse that allow attackers with low-privilege database accounts to execute arbitrary code on the database server. By exploiting memory corruption bugs in SQL engine code, attackers can bypass normal access restrictions that would normally prevent them from reading application tables. These proofs of concept demonstrate a significant security gap where limited database credentials provide unexpected pathways to full system compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "database-rce",
-        "memory-corruption",
-        "postgresql",
-        "mysql",
-        "oracle",
-        "privilege-escalation"
-      ],
-      "whyItMatters": "Database servers are trusted infrastructure components, and the assumption that low-privilege accounts pose minimal risk is a common security model. This vulnerability chain demolishes that assumption, meaning organizations must immediately audit their database access controls and apply patches, as even restricted accounts could lead to complete system compromise. The multi-database impact (Postgr",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDE1pOkFxdtUcDqLptfhjaBnnEyzz2JfxUJICSOrW3vpcNlygN1XleKCdkv9CA3Zp901yQ884tOkPX9TmSYx5tpevenJw1CmW4oktkn2creXnB5-dvbiJB3crcILx4Kb8b6eVhiKjh-RRZTGnvWskqROJOjF3yaWFVK17fmh-tdT7WMas7MbdK-JsCBmw/s1600/database-rce.jpg",
-      "processedAt": "2026-11-19T23:57:22.024296+00:00"
-    },
-    {
-      "id": "art-40f7c781",
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-      "summary": "CISA has identified and cataloged four actively exploited vulnerabilities affecting popular software including Synology DiskStation Manager, BerriAI LiteLLM, Apache Axis, and Vanderbilt's REDCap system. These flaws are being leveraged by attackers to conduct ransomware campaigns, cryptomining operations, and LLMjacking attacks. Organizations using these products need to prioritize patching to prevent compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisa-kev",
-        "active-exploitation",
-        "ransomware",
-        "cryptomining",
-        "llmjacking",
-        "patching-urgent"
-      ],
-      "whyItMatters": "These vulnerabilities are confirmed to be actively exploited in the wild, meaning attackers are already using them to compromise systems for financial gain and data theft. Organizations running these affected products face immediate risk and must patch urgently to avoid becoming victims of ransomware or other attacks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJc2bWATWnk5-O72K0n3cYlHuhhox3nVPELPst8c1bui3mTiwBZFUjAUSem14OyqLB6CTECCs9fc-iyng9KmY3jelZ2cqrHg4FKvP2qOZui8piIbYTZy9WdZD0NqiY4fXcLud5GYzmNEXR6DRNuQpjkFzfPvW4fIcDtwaFg4SM9xW-eG09WxFuEcmuKx7U/s1600/cisa.jpg",
-      "processedAt": "2026-11-19T23:57:24.584031+00:00"
-    },
-    {
-      "id": "art-3b191c16",
-      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
-      "summary": "SBC Medical Group disclosed two cybersecurity incidents that compromised sensitive information for approximately 1.6 million customers and employees. The company filed this breach notification with the SEC, revealing that personal and potentially medical data were exposed in the attacks. This incident highlights how healthcare organizations remain attractive targets for cybercriminals seeking valuable patient information.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "healthcare",
-        "1.6-million-records",
-        "personal-data",
-        "sec-filing"
-      ],
-      "whyItMatters": "Healthcare data breaches of this scale expose millions to identity theft and medical fraud risks, while also demonstrating regulatory requirements for companies to disclose breaches to authorities like the SEC. Such large-scale incidents against established medical groups signal that even organized healthcare entities face significant cybersecurity vulnerabilities that attackers actively exploit.",
-      "image": null,
-      "processedAt": "2026-11-19T23:57:27.181493+00:00"
-    },
-    {
-      "id": "art-bd6188e6",
-      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-      "summary": "ASUS released an updated version of Control Center Express (v1.7.29) to address three critical vulnerabilities, including a hard-coded key flaw that could allow attackers to bypass security controls. These flaws could enable remote attackers to gain administrative access to the management console and potentially compromise all devices managed through it. Users of ASUS Control Center Express need to update immediately to protect their systems from unauthorized access.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "asus",
-        "hard-coded-credentials",
-        "critical-vulnerability",
-        "patch-now",
-        "administrative-access",
-        "management-console"
-      ],
-      "whyItMatters": "Hard-coded credentials are a severe vulnerability because they cannot be changed and affect all installations equally, making systems universally vulnerable to attackers who discover them. Administrative access to management consoles can allow attackers to control multiple devices at once, amplifying the impact across entire IT infrastructure. This vulnerability demands immediate patching to preve",
-      "image": null,
-      "processedAt": "2026-11-19T23:57:30.163224+00:00"
-    },
-    {
-      "id": "art-d66fa948",
-      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-      "summary": "Transport for London suffered a data breach affecting approximately 265,000 Oyster photocard customers, exposing their account details. This incident highlights how public transportation systems, which handle millions of daily users, can become targets for cyber attacks. Organizations managing large populations of personal data need robust security measures to protect sensitive customer information.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "personal-data-exposure",
-        "oyster-card",
-        "transport-security",
-        "account-compromise"
-      ],
-      "whyItMatters": "This breach demonstrates the real-world consequences of inadequate data protection for critical infrastructure serving hundreds of thousands of users. Compromised payment card and personal information can lead to identity theft and financial fraud, making this incident relevant to both cybersecurity professionals and the general public relying on public transportation systems.",
-      "image": null,
-      "processedAt": "2026-11-19T23:57:32.577024+00:00"
-    },
-    {
-      "id": "art-278f6f3b",
-      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-      "summary": "PHP developers released security patches addressing 18 vulnerabilities, with several critical flaws that could allow attackers to execute code remotely without authentication. These fixes are essential for protecting web servers running PHP applications from immediate exploitation. Organizations using PHP should prioritize applying these updates to prevent potential system compromise.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "php-security",
-        "remote-code-execution",
-        "rce",
-        "patch-now",
-        "authentication-bypass",
-        "critical-vulnerabilities"
-      ],
-      "whyItMatters": "Critical RCE vulnerabilities in PHP pose an immediate threat to millions of web servers worldwide, as PHP powers a significant portion of internet applications. Unauthenticated remote code execution allows attackers to fully compromise systems without prior access, making these patches essential for preventing widespread breaches. Delayed patching significantly increases the risk of exploitation i",
-      "image": null,
-      "processedAt": "2026-11-19T23:57:35.127542+00:00"
-    },
-    {
-      "id": "art-c53d638c",
-      "title": "NVIDIA investigating Gentlemen ransomware breach claims",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-      "summary": "NVIDIA is currently investigating a potential security breach after the Gentlemen ransomware group claimed to have stolen company data and posted it on their dark web site. The incident highlights how even major technology companies can fall victim to sophisticated ransomware attacks. This breach could expose sensitive information and potentially affect NVIDIA's customers and stakeholders.",
-      "category": "Ransomware",
-      "severity": "High",
-      "tags": [
-        "ransomware",
-        "data-breach",
-        "nvidia",
-        "gentlemen-group",
-        "dark-web"
-      ],
-      "whyItMatters": "Major technology companies like NVIDIA are high-value targets for ransomware groups, and successful breaches can compromise sensitive intellectual property, customer data, and business operations. This incident demonstrates the evolving threat landscape where even well-resourced organizations must maintain robust security defenses. Organizations should use this as a reminder to strengthen their in",
-      "image": null,
-      "processedAt": "2026-11-19T23:57:37.592983+00:00"
     }
   ]
 }
