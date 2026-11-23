@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-11-22T22:53:55.293182+00:00",
+  "lastUpdated": "2026-11-23T17:46:14.137925+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-951dd057",
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "summary": "This week's cybersecurity recap highlights multiple critical vulnerabilities including VMware 0-Day, Java4Shell, NGINX2Root, and Ruby2Shell that demonstrate how attackers exploit small security gaps to chain attacks together. The article emphasizes that attackers often don't need to break through defenses when they can use existing entry points like stolen keys or compromised update mechanisms. These interconnected vulnerabilities show how one breach can quickly cascade into larger compromises across multiple systems and tools.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day",
+        "vmware",
+        "java4shell",
+        "nginx",
+        "ruby",
+        "vulnerability-chaining"
+      ],
+      "whyItMatters": "Multiple zero-day vulnerabilities being actively exploited in the same week represent an urgent threat requiring immediate patching and monitoring. Understanding how attackers chain vulnerabilities together—moving from one compromised system to another—is essential for building defense strategies that address not just individual flaws but the relationships between them. Organizations need to prior",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBkXdg7nYK3nVTpBuC9FL7mGBvzvUxU0VxYplArVFYSTg2d_6tFITemHBYRAOD29pVBKzfo2aZ9Jsy8avRdACCMqrVdlEER0zn2xIWDBdswcH_nZpnJYkfORK6CEaWwX3f-B8AvkUqbR2TLNa7odUG4PFu1uTk_cwsUt8DPGJBSjjF2wd8VPIa5ATJ4fo3/s1600/crecap.jpg",
+      "processedAt": "2026-11-23T17:45:49.465225+00:00"
+    },
+    {
+      "id": "art-503bdec1",
+      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+      "summary": "A critical vulnerability in the binary-parser library allows attackers to inject and execute arbitrary JavaScript code if they can control the parser definitions used by an application. This flaw affects versions before 2.3.1 and has a high CVSS score of 9.2, making it a serious threat to any system using the vulnerable library. Organizations using binary-parser need to update immediately to protect against potential code execution attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "code-injection",
+        "binary-parser",
+        "cve-2026-134814",
+        "patch-now",
+        "arbitrary-code-execution",
+        "javascript-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate risk to developers and applications relying on binary-parser for data parsing tasks. Any attacker gaining control over parser definitions could execute malicious code with the privileges of the affected application, potentially compromising entire systems. Rapid patching to version 2.3.1 or later is essential to prevent active exploitation.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ_LYD1NyoPDf8MFXggODpgd2hvazxjShSZltgrLUVic7V-ZIQSjXIzFrkUx0FNoUjlxlIYocEd1AZwGx66uqGWEUyd1TMSlDmxUu8M_r6jdYkmWDZjbszL2WsK7LJzrwI-NgsI7EaLe9WkLwNLGKj8ww3tTOY4X4JPug3RWQqoypUiEpZjVXgBhhcLuZG/s1600/js-cve.jpg",
+      "processedAt": "2026-11-23T17:45:52.356476+00:00"
+    },
+    {
+      "id": "art-b8af9677",
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "summary": "Attackers are actively exploiting a critical flaw in ConnectWise ScreenConnect (CVE-2026-84869) to compromise technician computers at managed service provider companies. The vulnerability, which has a severity score of 9.9, allows malicious actors to inject and run harmful code on a technician's device when they connect through the platform. This represents a serious threat to MSPs and their clients since technician access is typically trusted and widely used.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "screenconnect",
+        "cve-2026-84869",
+        "msp-targeting",
+        "critical-patch",
+        "code-execution",
+        "active-exploitation"
+      ],
+      "whyItMatters": "MSPs are high-value targets because compromising their systems provides attackers access to numerous client networks simultaneously. This vulnerability enables attackers to bypass normal security controls by hijacking trusted technician sessions, making it urgent for organizations using ScreenConnect to patch immediately and verify their systems have not been compromised.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWAI03mMW-UNs2bdUuZEiugVBMZq3speEoo8tbQ7TZVITD4fnXiK4l657Tn4-G9fX2w8xLz2zkP9-RTrg3QZPtNMHL_Lg7YRoruCnp8TJA4tbA5bW1YsBZU8QR2FIqSb3_IpN1Le-Xoq2MQ82ZQyRNmYxr8q70PPzijzypDcIDKMIOjrzBweBUiKJ_nuJY/s1600/screens.jpg",
+      "processedAt": "2026-11-23T17:45:55.492127+00:00"
+    },
+    {
+      "id": "art-ab48af1d",
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "summary": "N-able discovered a critical security flaw in its Mail Assure email filtering service while investigating a breach of their hosted cloud platform. The vulnerability, identified as CVE-2026-134624, is a server-side request forgery (SSRF) flaw that could allow users with high-level API access to connect to internal systems they shouldn't be able to reach. This type of flaw is particularly dangerous because it can bypass security controls and expose sensitive internal infrastructure.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "ssrf-vulnerability",
+        "api-security",
+        "cloud-security",
+        "mail-assure",
+        "cve-2026-134624",
+        "breach-investigation"
+      ],
+      "whyItMatters": "This vulnerability affects a widely-used email filtering service trusted by managed service providers, meaning the breach could have impacted multiple organizations simultaneously. SSRF flaws are particularly dangerous because they can be weaponized to access internal systems and databases that should never be directly exposed to the internet. Organizations using Mail Assure and SpamExperts need t",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcXbCG8v5Kc2mTfNCFEiow0EHLJWtsrsrEodqvL8qF8awCnrDzw2TfxtPq7rYI3u78mviB8ekGNGL1Of8FZrSM6uZT1lhz2mfRHwHQyhQT8234u03WGZ9M4UZzmj2cYMs8qlsJ54PwNPvVMb2awEzinXAYL0Y25iOGjjikMvq4NQ-v03mqluZnI53PNdk/s1600/nables.jpg",
+      "processedAt": "2026-11-23T17:45:58.423554+00:00"
+    },
+    {
+      "id": "art-d7c0a6af",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "summary": "A critical vulnerability in the Idunno.AntiCsrf library, a tool designed to protect ASP.NET applications from cross-site request forgery attacks, has been discovered and is actively being exploited by attackers. The flaw, identified as CVE-2026-131914 with a severity score of 9.3, allows unauthorized users to execute code on affected systems without needing valid credentials. Security experts are recommending that organizations immediately stop using this legacy library and apply fixes to protect their applications.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "asp-net-vulnerability",
+        "rce-exploit",
+        "anti-csrf-library",
+        "active-exploitation",
+        "patch-required",
+        "legacy-software"
+      ],
+      "whyItMatters": "This vulnerability is actively being exploited in real-world attacks against systems relying on Idunno.AntiCsrf, making immediate patching or library replacement essential for organizations. The combination of a high CVSS score (9.3) and unauthenticated remote code execution capability represents a severe risk that could lead to complete system compromise. Any organization using this legacy ASP.NE",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWv3LP9w9Iv-ZmqonS5mwf1jDE-lTLUcDPxCOvYn3RF87-n2epMtdhqH5xXf-bsIIyKXq6U9qU5T1OQ6_Y3VeytS0CCA4TLJtFDcfcHR-I2EHY3t2e94UPvppaaXG9jDQPj4wNwt6CdwQCmXm5uK16BAp5Fn12DmxUk-Wu5ZwPT2kPQFo37oxSeqc6hX7X/s1600/asp.net.jpg",
+      "processedAt": "2026-11-23T17:46:01.836011+00:00"
+    },
+    {
+      "id": "art-e7757a32",
+      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+      "summary": "GlobeTopper, a B2B top-up solutions provider, fell victim to a cyberattack that disrupted its operations and caused approximately $2.5 million in lost revenue. As part of the attack, hackers stole and redeemed digital gift cards worth $70,000. This incident highlights how businesses that handle digital transactions and financial services remain attractive targets for cybercriminals.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "gift-card-fraud",
+        "b2b-attack",
+        "financial-loss",
+        "cyberattack",
+        "operational-disruption"
+      ],
+      "whyItMatters": "This attack demonstrates that financial service providers face significant risks from organized cybercriminals who can both disrupt operations and directly steal monetary value. Organizations handling digital gift cards and payment systems must implement robust access controls and fraud detection mechanisms to prevent similar large-scale theft and revenue loss.",
+      "image": null,
+      "processedAt": "2026-11-23T17:46:04.388071+00:00"
+    },
+    {
+      "id": "art-8332c406",
+      "title": "AI Agents Are Creating a Shared Responsibility Gap",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "summary": "AI agents that work across multiple platforms create security blind spots because individual vendors can only see and control their own portions of the system. This shared responsibility model leaves gaps where security incidents and unauthorized actions can go undetected or unmanaged. Organizations need better strategies to track agent identities, control their permissions, and maintain accountability across these distributed systems.",
+      "category": "AI Security",
+      "severity": "High",
+      "tags": [
+        "ai-agents",
+        "shared-responsibility",
+        "cloud-security",
+        "identity-management",
+        "access-control",
+        "accountability"
+      ],
+      "whyItMatters": "As AI agents become more prevalent in enterprise environments, the inability of any single vendor to monitor or control actions across platforms creates exploitable security gaps that could lead to unauthorized access, data theft, or malicious actions. Organizations must establish clear accountability frameworks and cross-platform visibility to prevent AI agents from becoming an unmonitored attack",
+      "image": null,
+      "processedAt": "2026-11-23T17:46:07.074802+00:00"
+    },
+    {
+      "id": "art-be1b8c33",
+      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+      "summary": "Microsoft is developing a fix for a persistent Windows 11 bug that degrades audio quality when using Bluetooth headphones. This issue has affected many users for a considerable time, impacting their experience with wireless audio devices. The company's efforts to resolve this problem will improve system stability and user satisfaction for Bluetooth audio users.",
+      "category": "Patching and Updates",
+      "severity": "Low",
+      "tags": [
+        "windows-11",
+        "bluetooth",
+        "audio-quality",
+        "bug-fix",
+        "system-update"
+      ],
+      "whyItMatters": "While not a direct security threat, fixing system vulnerabilities and quality issues strengthens overall Windows reliability and maintains user trust in the platform. Prompt patching of known issues prevents potential exploitation vectors and demonstrates Microsoft's commitment to addressing user-reported problems systematically.",
+      "image": null,
+      "processedAt": "2026-11-23T17:46:09.413281+00:00"
+    },
+    {
+      "id": "art-6e926307",
+      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+      "summary": "A Peruvian call center operator was sentenced to eight years in prison for his role in a government impersonation fraud scheme that victimized over 30,000 Spanish-speaking Americans and stole millions of dollars. This case highlights how scammers use social engineering and false authority to deceive vulnerable populations into sending money. The long prison sentence demonstrates law enforcement's commitment to prosecuting international cybercrime operations.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "call-center-fraud",
+        "government-impersonation",
+        "social-engineering",
+        "spanish-speaking-targets",
+        "international-cybercrime"
+      ],
+      "whyItMatters": "This case demonstrates the real-world consequences of organized fraud schemes targeting large populations and shows that law enforcement is actively pursuing international cybercriminals. Understanding how scammers impersonate government entities helps individuals recognize and avoid similar fraud attempts, particularly in non-English speaking communities. The extended prison sentence signals that",
+      "image": null,
+      "processedAt": "2026-11-23T17:46:11.995753+00:00"
+    },
+    {
+      "id": "art-5de4c4a7",
+      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-23",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "summary": "Microsoft identified printing problems on Windows 11 systems that have both Forcepoint DLP software and the KB5132043 November 2026 hotpatch installed. The compatibility issue between the security update and Forcepoint's data loss prevention tool is preventing users from printing normally. This situation highlights how security patches can sometimes create unexpected conflicts with third-party security software.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "patch-compatibility",
+        "windows-11",
+        "forcepoint-dlp",
+        "printing-issue",
+        "hotpatch"
+      ],
+      "whyItMatters": "Organizations relying on both Windows updates and Forcepoint DLP need to understand compatibility risks before deploying patches to prevent disrupting business operations. This demonstrates the importance of testing security updates in environments with multiple security tools to avoid unexpected conflicts that can impact productivity.",
+      "image": null,
+      "processedAt": "2026-11-23T17:46:14.137782+00:00"
+    },
     {
       "id": "art-d70985b0",
       "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
@@ -831,213 +1037,6 @@
       "whyItMatters": "White House staff using rented proxy services creates direct pathways for adversaries to access government networks and sensitive information, particularly when linked to known threat actors. This represents a critical insider risk and operational security failure that could compromise national security and election integrity. The practice demonstrates how poor device security practices at the hig",
       "image": null,
       "processedAt": "2026-11-21T14:27:23.304323+00:00"
-    },
-    {
-      "id": "art-a585981d",
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "summary": "WhatsApp has released patches for three security vulnerabilities, with one Android flaw (CVE-2026-23871) being particularly concerning due to suspected misuse in scam campaigns. The vulnerability stems from incomplete validation of external ad-reply URLs in WhatsApp and WhatsApp Business for Android versions prior to 2.26.17.4. Users should update their apps immediately to protect themselves from potential exploitation through malicious messages.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "whatsapp-vulnerability",
-        "android-security",
-        "url-validation-flaw",
-        "scam-exploitation",
-        "cve-2026-23871",
-        "patch-required"
-      ],
-      "whyItMatters": "This vulnerability affects billions of WhatsApp users globally and has already been suspected of active exploitation in scam campaigns, making timely patching critical for preventing fraud and social engineering attacks. The flaw's focus on ad-reply URL validation suggests attackers could manipulate links to redirect users to phishing or malicious sites, increasing the risk of credential theft or ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUSbYUJJkBlZsaH90SXIaxYAv5iJN7ZEus7Q24A_Z9fDNNlnOjFnNZ3SnA6er-iuMgQnE6k73nwVwAEPPk1AjRT12N9o8cJft3_dPqMZKeJbpq6QIcGbN1z1UbE_Q3fXTyp1c0XmqynQu2lJPeIYoraqXFcgM-wQH4b1rIBrOKF221CIKLldJIZVJ4g7cr/s1600/whatsapp.jpg",
-      "processedAt": "2026-11-20T23:26:17.635588+00:00"
-    },
-    {
-      "id": "art-d74a8f95",
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "summary": "Researchers discovered Bazuka, a new Android malware framework that uses fake screen overlays to steal login credentials and control infected devices. The malware incorporates artificial intelligence technology to manage victims at scale, making it a sophisticated threat compared to typical mobile malware. The discovery came during an investigation into banking-focused mobile trojans, suggesting this framework poses particular risk to financial app users.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "credential-theft",
-        "screen-overlay",
-        "ai-integration",
-        "banking-trojan",
-        "mobile-security"
-      ],
-      "whyItMatters": "Bazuka represents an evolving threat landscape where malware authors combine sophisticated techniques like fake overlays with AI-powered victim management, making detection and manual intervention more difficult. The framework's capability to target banking applications and control devices at scale poses direct financial and privacy risks to millions of Android users. Organizations and users need ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMs4vBdivbF3Y-4yd3PWqjSTuG2PPDvCemM211pzVl2Jhkus9d14_2MzRgdrlNhRxaHa_2rlIN34kUGHAlV_Y2dMnfmYGlUEzUcab0c_s3N8Zoe8P3rcJ-RJmo2luVci9bVqmwtFhpL4rfR2Uo-ZwvqfqFMwRb_3WwoOvFIaunPd7WMOJ4yW9rjbHEKDwf/s1600/android-malware.jpg",
-      "processedAt": "2026-11-20T23:26:20.392532+00:00"
-    },
-    {
-      "id": "art-5df1a317",
-      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-      "summary": "Cybercriminals are using a malware distribution platform called ROMULUS to deliver a dangerous remote access trojan (RAT) that can spy on users and take control of their computers. This RAT shares characteristics with other known malware like CNCMachineRMS, and ROMULUS acts as a delivery service that distributes multiple types of malware through various infection methods. The attack chain uses techniques like ClickFix and signed binary sideloading to avoid detection and appear legitimate.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "rat-malware",
-        "malware-delivery",
-        "binary-sideloading",
-        "clickfix",
-        "remote-access-trojan",
-        "cncmachincrms"
-      ],
-      "whyItMatters": "This threat is significant because ROMULUS operates as a professional malware-as-a-service platform, making advanced attacks accessible to multiple threat actors. The RAT's ability to spy on and control infected systems poses serious risks to individuals and organizations, while the use of legitimate-looking techniques makes detection difficult and increases the likelihood of successful infections",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjugg63OPJwZuh94vDIg7MkA4YoeLKr5sjiqI6CEgjvDjUvJ-pBJOfUrUBxPUTbartqVwdldczbKSYo6lpkcVic1EDQYIDyWq12zMdMONjpDtK4NKCgkppAWvnOJpXe7prfmRG8WNpH0RrQ0bhX2nZKGpRy33y0OMZraBjEPoDorp9h3kNJSa-IQrJC7Nl5/s1600/cf.jpg",
-      "processedAt": "2026-11-20T23:26:23.323999+00:00"
-    },
-    {
-      "id": "art-2e916857",
-      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-      "summary": "A newly discovered Windows zero-day vulnerability named FastUnlock allows anyone with physical access to a locked computer to run programs without entering a password. The exploit grants only limited user-level access rather than full administrative control. Security researchers MSNightmare and Nightmare Eclipse, along with ThreatLocker, publicly disclosed this unpatched vulnerability, raising immediate concerns for organizations with shared or publicly accessible devices.",
-      "category": "Zero-Day Exploits",
-      "severity": "High",
-      "tags": [
-        "zero-day",
-        "windows",
-        "physical-access",
-        "privilege-escalation",
-        "unpatched",
-        "local-access"
-      ],
-      "whyItMatters": "This vulnerability is practically significant because it bypasses Windows authentication on locked devices, making any computer with physical accessibility a potential attack vector for launching malicious programs or gathering sensitive information. Organizations must immediately implement physical security controls and monitor for exploitation until Microsoft releases a patch, as the unpatched n",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRnUdcazdCteyaE1EC_aLit8CioDaJ5yvsWnawFVWQrJvYFktNRJXlW9MOJLimG_-aS1IZChVHJbjPI4CXjIbNFLjn5W686xynepfC0oWyEG81NX5CxdS-9ayumfRljgy32e2bYXDD72T6VpIFFzeCcPKwG48RDKiZExwNdF-4XDFicISSaaRtT3W2dt0/s1600/windows-lockscreen.jpg",
-      "processedAt": "2026-11-20T23:26:26.129693+00:00"
-    },
-    {
-      "id": "art-84360668",
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html",
-      "summary": "PHP developers need to prepare for critical security patches releasing on November 19, 2026, as the language maintainers have announced fixes for serious vulnerabilities affecting all currently supported PHP versions. These updates are part of PHP's regular maintenance cycle and will address multiple security flaws that could impact web applications worldwide. Organizations running PHP-based systems should plan to apply these patches promptly to protect their infrastructure.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "php",
-        "critical-vulnerability",
-        "patch-release",
-        "web-application-security",
-        "urgent-update"
-      ],
-      "whyItMatters": "PHP powers a significant portion of web applications globally, making these critical vulnerabilities a widespread threat. Organizations must prioritize applying these patches immediately upon release to prevent exploitation of their systems. Delayed patching could leave millions of web applications exposed to active attacks targeting these known flaws.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj86YA0ZvPrdlouN6GvSZ5P_I5HCaYLm2PBs_JA74wUDgHl8anwcqEN5_Z0kTlAggf0906enJmrtUnN_6jn9kqD8KguG8nOeh1yGS6AAPo1-JHORLQ5nZcpmS5Ss7liuqghFsq8Bb4ooabK29UcCbZlwWGM6HtyRPs4Ty5zv5d4FC5So6tVFUOaEhUylIFU/s1600/php-flaws.jpg",
-      "processedAt": "2026-11-20T23:26:28.788254+00:00"
-    },
-    {
-      "id": "art-68c9504f",
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-      "summary": "Bell Canada experienced a security breach on November 17, 2026, where an 'agentic' threat actor gained unauthorized access to its systems and stole enterprise customer data. The stolen information included sensitive details from systems used to manage and set up telecommunications circuits. This incident highlights how sophisticated attackers are increasingly targeting major telecom providers to access valuable customer and infrastructure information.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "enterprise-customers",
-        "telecom-attack",
-        "agentic-threat",
-        "customer-data",
-        "infrastructure-impact"
-      ],
-      "whyItMatters": "Major telecom providers like Bell Canada are critical infrastructure targets whose breaches can expose sensitive enterprise customer data and disrupt telecommunications services. The involvement of an 'agentic' threat actor suggests advanced, autonomous attack capabilities that pose an escalating risk to large-scale infrastructure. Organizations relying on Bell Canada's services need to assess pot",
-      "image": null,
-      "processedAt": "2026-11-20T23:26:31.615455+00:00"
-    },
-    {
-      "id": "art-a9480c06",
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "summary": "Attackers used an open-source AI penetration testing tool called Cairn to identify a previously unknown zero-day vulnerability in a medical imaging application. By leveraging automated AI capabilities, threat actors were able to discover and exploit this flaw to gain unauthorized access to a server. This incident highlights how offensive AI tools can be weaponized to find security weaknesses that defenders haven't yet patched.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "ai-security",
-        "medical-imaging",
-        "autonomous-tools",
-        "server-compromise",
-        "vulnerability-discovery"
-      ],
-      "whyItMatters": "This demonstrates that adversaries can now use automated AI penetration-testing frameworks to discover exploitable vulnerabilities at scale, compressing the time between vulnerability discovery and active exploitation. For healthcare organizations specifically, compromised imaging systems pose direct risks to patient safety and data integrity. The incident underscores the urgent need for organizat",
-      "image": null,
-      "processedAt": "2026-11-20T23:26:34.341102+00:00"
-    },
-    {
-      "id": "art-d194e1b5",
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "summary": "A cyberattack on a third-party service provider led to a data breach affecting J.P. Morgan Chase, Visa, and Mastercard customers. Personal information and marketing data were exposed through the compromise of this vendor's systems. This incident highlights how security weaknesses at external service providers can directly impact major financial institutions and their customers.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "vendor-security",
-        "financial-institutions",
-        "customer-data",
-        "third-party-risk"
-      ],
-      "whyItMatters": "This breach demonstrates the critical importance of supply chain security in financial services—major banks depend on third-party vendors, and a single compromised vendor can expose millions of customers to identity theft and fraud. Organizations must implement strict vendor security assessments and monitoring to prevent attackers from using trusted partners as entry points into their systems.",
-      "image": null,
-      "processedAt": "2026-11-20T23:26:36.823570+00:00"
-    },
-    {
-      "id": "art-f8f1e358",
-      "title": "VMware patches vCenter zero-day exploited in attacks since September",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-      "summary": "Broadcom has released security patches for a critical vulnerability in VMware vCenter Server that allows attackers to bypass authentication. This zero-day flaw has been actively exploited by Chinese-linked hackers since September 2026. Organizations using vCenter Server need to apply these updates immediately to protect their virtual infrastructure from unauthorized access.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "vmware-vcenter",
-        "zero-day",
-        "authentication-bypass",
-        "broadcom",
-        "patch-urgent",
-        "chinese-hackers"
-      ],
-      "whyItMatters": "VMware vCenter Server is a central management platform for virtualized infrastructure used by thousands of organizations worldwide. An authentication bypass vulnerability that has been actively exploited for months represents a severe risk, as attackers can gain unauthorized administrative access to critical virtual environments. Organizations must prioritize patching to prevent potential data bre",
-      "image": null,
-      "processedAt": "2026-11-20T23:26:39.319278+00:00"
-    },
-    {
-      "id": "art-56bad60e",
-      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
-      "summary": "A vulnerability in Optimizely, a popular website customization tool, allowed attackers to inject malware into at least 178 major websites including BBC, CNN, Equifax, Ledger, and Zoom. Visitors to these compromised sites were exposed to data-stealing malicious software without knowing it. The attack highlighted a critical weakness: many major websites fail to properly control and monitor third-party content sources, making them vulnerable to supply chain attacks.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "supply-chain-attack",
-        "third-party-risk",
-        "malware-injection",
-        "web-vulnerability",
-        "data-theft"
-      ],
-      "whyItMatters": "This incident demonstrates how vulnerabilities in widely-used third-party services can compromise thousands of users simultaneously across multiple high-profile organizations. It underscores the importance of implementing strict content security policies and monitoring third-party dependencies, as attackers can leverage trusted services to bypass traditional security defenses at scale.",
-      "image": null,
-      "processedAt": "2026-11-20T23:26:42.015230+00:00"
     }
   ]
 }
