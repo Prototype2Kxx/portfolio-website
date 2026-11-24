@@ -1,7 +1,214 @@
 {
-  "lastUpdated": "2026-11-24T03:31:37.047048+00:00",
+  "lastUpdated": "2026-11-24T17:18:14.052403+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-118acc8b",
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "summary": "Broadcom has released patches for 23 vulnerabilities affecting VMware products including vCenter, ESX, Workstation, and Fusion. A critical flaw (CVE-2026-123903) with a 9.8 CVSS score in VMware Directory Service allows attackers to bypass authentication without proper credentials. This vulnerability has already been exploited in the wild, making immediate patching essential for organizations using these widely-deployed virtualization platforms.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "vmware",
+        "authentication-bypass",
+        "cve-2026-123903",
+        "zero-day-exploitation",
+        "patch-urgent",
+        "virtualization"
+      ],
+      "whyItMatters": "VMware vCenter and ESX are critical infrastructure components in most enterprise data centers, so an actively exploited authentication bypass represents an immediate risk to organizations' entire virtual environments. This vulnerability could allow attackers to gain unauthorized administrative access without credentials, potentially compromising thousands of virtual machines and sensitive data. Or",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0zpQTclLnhVQHphFdBZZ_hrxhsZvA5G50sGBz5qq1iOg2B1YLu8rE5e_HM1GZOE24SNpwexwst80NTKP7_Wwexq7EzIl-I7ykIXCtTGQjeZhBGVVuAgzxac5JwaquTQuMNRstBFo8JzMDyqgsNbM_KtxGF3wHPBIM9GfaclNu0OTPlpF5YhNvqoKKytAY/s1600/vmware-exploit.jpg",
+      "processedAt": "2026-11-24T17:17:50.650984+00:00"
+    },
+    {
+      "id": "art-0540d40d",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "summary": "Okta's Threat Intelligence team has linked a vishing group previously connected to ShinyHunters to a new data leak site called INCEPTION, suggesting the threat actor has rebranded and continues operations. The group, tracked as O-UNC-053, uses voice phishing attacks to manipulate targets into revealing credentials and approving unauthorized access. This represents an ongoing threat from a known extortion crew adapting its tactics and infrastructure to evade detection.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "vishing",
+        "credential-theft",
+        "social-engineering",
+        "extortion",
+        "threat-rebranding",
+        "data-leak"
+      ],
+      "whyItMatters": "Organizations need to recognize that known threat actors like ShinyHunters frequently rebrand and evolve their operations, making threat intelligence critical for staying ahead of attacks. Voice phishing attacks are particularly effective because they bypass technical controls and exploit human trust, requiring robust employee awareness training and credential security measures. Understanding thes",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjete6dy8Fmd7sbjqKI5GKSySXkcnz4NF__irfVMBHzgRIDUnpGHtvRIbCywZYYsoKsnMdPhvanoXcnXbYvZpMjL2lL6d_F9a4ErEaI5rH_boPedH_ru2Ush9wonb8tYhGNVM6M_01DTue1THY7uGMbuKBJKNgMbrACkxHCGJiJylHWoxkkpCXNr2Z_CIdf/s1600/leaks.jpg",
+      "processedAt": "2026-11-24T17:17:53.609194+00:00"
+    },
+    {
+      "id": "art-2feba093",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "summary": "GitHub Actions SHA pinning, a popular defense against supply chain attacks, has been bypassed by attackers who compromised the Trivy open-source security scanner in March 2026. The hackers inserted malicious code disguised as official GitHub tools, demonstrating that this widely-trusted protection method has significant gaps. This breach highlights the need for stronger security measures beyond SHA pinning to protect software development pipelines.",
+      "category": "Other",
+      "severity": "Critical",
+      "tags": [
+        "supply-chain-attack",
+        "github-actions",
+        "sha-pinning",
+        "malicious-code",
+        "open-source-compromise",
+        "software-security"
+      ],
+      "whyItMatters": "SHA pinning is relied upon by thousands of developers as a core defense against supply chain attacks, so discovering an effective bypass puts widespread infrastructure at immediate risk. Organizations need to reassess their dependency verification strategies and implement additional validation layers beyond SHA checks to prevent similar compromises in their build pipelines.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYUhfLA6wixTr6AiVmOSa8uxO2mHxPqG7rHalDaUtYlOaTwUSIzi3JAP78cfEUhwwaoijNe8vJ0ZFiBqDmfrG9LVOzItxMxCYcTCbEc4f7W8iWgKSvzR6DrT0XtK_cM4eTKQ2Edvz-QG5P8iXF_GV_-k6CXMN_-D_QAJags-LpeuXmJ5C6DDz7mDRSBMY/s1600/git-actions.jpg",
+      "processedAt": "2026-11-24T17:17:56.177877+00:00"
+    },
+    {
+      "id": "art-381e57f4",
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "summary": "A Google security researcher discovered that a small change in just one bit of a .NET Framework file could allow attackers to bypass Windows security protections designed to prevent unauthorized code execution. This vulnerability affects both Windows' built-in code integrity checks and Oracle VirtualBox's security hardening on Windows systems. The flaw exploits how the .NET Framework loads program files, creating a dangerous loophole that local attackers could potentially use to run malicious code.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "dot-net-framework",
+        "windows-security",
+        "code-integrity-bypass",
+        "local-privilege-escalation",
+        "virtualbox-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability is significant because it demonstrates how minor, single-bit changes in legitimate files can completely circumvent multiple layers of Windows security protections, putting both individual Windows systems and virtualized environments at risk. Organizations relying on code integrity checks and VirtualBox for security must urgently patch and monitor for exploitation of this weaknes",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiOJqhOn7t8wd3NeMCWVCg9xmusuRJmZuaePaCbKTif2XsPpPhu0fR1NwQncA4y-wAMmLOzylBZ3ebd9f4G8F6K54sUdnZ2cTn6yPq1RgAKrh4lSX3y1Ll8LIywXkDyVXItUuUGS4sy0BVUMhwXPvOZGdxhvwnd55_OvjOVnh2CfnAeURMVcmafuFgJlQ/s1600/windows.net.jpg",
+      "processedAt": "2026-11-24T17:17:58.619296+00:00"
+    },
+    {
+      "id": "art-d638c990",
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "summary": "Security Operations Centers (SOCs) are wasting significant analyst time on manual investigations and redundant alert checks, with estimates suggesting teams could recover 450 hours per 1,000 alerts through improved processes. Rather than simply increasing budgets, organizations should focus on optimizing how SOC teams work to reduce costs and strengthen cyber defenses. The article discusses five strategic priorities for 2027 that balance operational efficiency with effective threat detection and response.",
+      "category": "Other",
+      "severity": "Medium",
+      "tags": [
+        "soc-efficiency",
+        "analyst-productivity",
+        "threat-analysis",
+        "cost-optimization",
+        "alert-management",
+        "resource-planning"
+      ],
+      "whyItMatters": "SOC teams are a critical line of defense, and wasted analyst time directly reduces an organization's ability to detect and respond to threats quickly. By identifying inefficiencies in alert investigation workflows, companies can improve their security posture without necessarily spending more money, making threat response faster and more effective. This directly impacts incident response times and",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifgNbpx-KISiy12Rp8KNb5ElWQADJtyC7fLFuLFCc7WzbOjCP5CmU2dPyuwhq5kRSQP5lOuwwFhvZovILCzeMgaSes8APbVabNVpJB71EC56WrojqqLU-tjIr2MFDPK8fMHnu-dx35G-p6btlQb1xU16c8IPrY4cs0k8t1pufSHgp74Y5HtqiAVk4A1QI/s1600/2027.jpg",
+      "processedAt": "2026-11-24T17:18:01.476701+00:00"
+    },
+    {
+      "id": "art-ecde04c9",
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "summary": "The ShinyHunters extortion group claims to have resumed operations following recent FBI arrests of alleged gang members. The group posted on a new data leak site and used old PGP encryption keys as evidence to support their claims of continued activity. This resurgence suggests that law enforcement action against one group does not necessarily eliminate the threat they pose.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "data-extortion",
+        "shiny-hunters",
+        "law-enforcement",
+        "data-leak-site",
+        "organized-cybercrime"
+      ],
+      "whyItMatters": "This demonstrates that criminal groups can quickly reorganize and resume operations despite arrest efforts, posing continued risk to organizations. The use of cryptographic proof (PGP keys) shows criminals are sophisticated in validating their identity and maintaining credibility in underground markets, which may embolden other potential victims to pay extortion demands.",
+      "image": null,
+      "processedAt": "2026-11-24T17:18:03.972602+00:00"
+    },
+    {
+      "id": "art-5f8c8821",
+      "title": "European Commission confirms data theft in EU Academy breach",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "summary": "The European Commission disclosed that attackers successfully breached the EU Academy, an online learning platform, and accessed personal data belonging to an unspecified number of users. This incident highlights how educational and administrative platforms operated by major government institutions remain attractive targets for cybercriminals. The Commission has acknowledged the breach but has not yet disclosed details about the scope of stolen data or the attack methods used.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "eu-commission",
+        "personal-data",
+        "learning-platform",
+        "government-breach"
+      ],
+      "whyItMatters": "Breaches of EU institutional systems undermine trust in government digital infrastructure and demonstrate that even well-resourced organizations face sophisticated threats. This incident serves as a critical reminder that educational and administrative platforms require robust security controls, and organizations must implement rapid breach response and transparent user notification protocols.",
+      "image": null,
+      "processedAt": "2026-11-24T17:18:06.255691+00:00"
+    },
+    {
+      "id": "art-56743d52",
+      "title": "Hackers compromise Check Point Servers in 22 organizations",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "summary": "Attackers have successfully exploited security vulnerabilities to gain unauthorized access to Check Point Security management servers across 22 different organizations. This coordinated campaign demonstrates how threat actors are actively targeting critical security infrastructure that many businesses rely on for protection. The compromise of these servers could potentially allow attackers to access sensitive network data and security configurations across multiple victim organizations.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "check-point",
+        "server-compromise",
+        "vulnerability-exploitation",
+        "critical-infrastructure",
+        "multi-organization-attack",
+        "security-management"
+      ],
+      "whyItMatters": "Check Point security servers are central to network defense, so their compromise represents a critical threat to dozens of organizations simultaneously. When attackers control security management infrastructure, they can potentially disable protections, steal confidential data, and maintain persistent access across entire enterprise networks. Organizations using Check Point products need immediate",
+      "image": null,
+      "processedAt": "2026-11-24T17:18:09.032683+00:00"
+    },
+    {
+      "id": "art-78462082",
+      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+      "summary": "Law enforcement agencies from 11 countries successfully shut down 57 illegal streaming services that collectively operated hundreds of websites and attracted over 7.3 million annual visits. This coordinated international operation targeted a significant cybercrime infrastructure that was distributing copyrighted content illegally. The disruption demonstrates how authorities are increasingly collaborating across borders to combat large-scale digital piracy operations.",
+      "category": "Cybercrime",
+      "severity": "Medium",
+      "tags": [
+        "illegal-streaming",
+        "law-enforcement",
+        "cybercrime",
+        "piracy",
+        "international-cooperation",
+        "digital-forensics"
+      ],
+      "whyItMatters": "This action shows the real-world consequences of participating in or supporting illegal streaming services, which often carry malware risks and funding criminal networks. Organizations and individuals should understand that large-scale cybercrime operations face active law enforcement disruption, reinforcing the importance of using legitimate digital services and reporting illegal platforms.",
+      "image": null,
+      "processedAt": "2026-11-24T17:18:11.558196+00:00"
+    },
+    {
+      "id": "art-95cfda83",
+      "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+      "summary": "Modern AI-driven software development is creating increasingly complex supply chains that overwhelm security teams with numerous vulnerability alerts, many of which pose minimal actual risk. The article discusses how techniques like runtime visibility, container hardening, and automated remediation can help organizations filter out false alarms and focus on genuine threats. By addressing vulnerability noise, teams can build more resilient systems and allocate their limited resources more effectively.",
+      "category": "Vulnerabilities",
+      "severity": "Medium",
+      "tags": [
+        "vulnerability-management",
+        "ai-security",
+        "container-hardening",
+        "runtime-visibility",
+        "software-supply-chain",
+        "vulnerability-noise"
+      ],
+      "whyItMatters": "Security teams are drowning in vulnerability alerts due to AI-driven development complexity, making it difficult to prioritize real threats. Implementing better visibility and automated remediation strategies enables organizations to reduce alert fatigue and strengthen their actual security posture rather than chasing every reported vulnerability.",
+      "image": null,
+      "processedAt": "2026-11-24T17:18:14.052270+00:00"
+    },
     {
       "id": "art-e6e4084f",
       "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
@@ -827,216 +1034,6 @@
       "whyItMatters": "Clear communication about cybersecurity directly impacts how well organizations can coordinate defenses, train employees, and implement security controls. When technical teams and business leaders cannot effectively communicate risks and solutions, security gaps widen and incident response becomes inefficient, making communication skills as essential as any security tool.",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt36f1afcfa92ff2c5/6af766db3c02eaba0a4aae0d/cyber_talk_ATHVisions_Getty.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-11-22T14:22:09.784724+00:00"
-    },
-    {
-      "id": "art-91baf940",
-      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
-      "summary": "A critical vulnerability in NGINX's HTTP/2 implementation, known as CVE-2026-123007 or \"nginx2root,\" has been discovered after existing undetected for over a decade since version 1.9.5. This flaw allows attackers to execute arbitrary code on affected servers without any authentication required. F5 has released patched versions 1.31.9 and 1.30.7 to address this severe security issue.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "nginx",
-        "http2",
-        "remote-code-execution",
-        "unauthenticated-access",
-        "patch-now",
-        "cve-2026-123007"
-      ],
-      "whyItMatters": "This vulnerability is critical because NGINX powers a significant portion of the internet's web servers, and the flaw has been present for 10 years without detection, meaning countless servers are likely vulnerable. An unauthenticated attacker can execute code remotely on exposed servers, posing an immediate and severe threat to organizations running affected NGINX versions. Organizations must pri",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7_qqPophooIauX16fMWm3KB24tzQ3Fd7rCuseCXfMkDPPGpIgmHqWvZjn_jffDqHwNWKu8Zf57QeKb4qsRFgdgisSAn0sMj59CscimR16RLXI1kspH0w7VYQgrsM_hPcePQOFL8QUyDC2p9W7AV0UjH3sW7oOvdWPWAZW6DITDvqIHaC_696e5kHTieY/s1600/nginx-rce.jpg",
-      "processedAt": "2026-11-21T22:30:14.390464+00:00"
-    },
-    {
-      "id": "art-5ffce4d0",
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
-      "summary": "F5 BIG-IP has six critical vulnerabilities that can crash the Traffic Management Microkernel without requiring login, potentially disrupting network traffic until the system restarts. These flaws only affect specific configurations where virtual servers use particular iRules commands or APM policies with specific agent types. The vulnerabilities pose a risk of denial of service and potentially remote code execution depending on the setup.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "f5-bigip",
-        "traffic-management",
-        "denial-of-service",
-        "rce-risk",
-        "critical-vulnerability",
-        "patching-required"
-      ],
-      "whyItMatters": "BIG-IP is widely deployed in enterprise networks to manage traffic and load balancing, making these vulnerabilities a significant threat to infrastructure availability. The ability to crash systems without authentication could allow attackers to disrupt critical services, and organizations using the specific configurations mentioned need immediate patching to prevent exploitation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizE3X3tUSPpxIYnNyM91hyphenhyphenzZOS6jjdHnCLmubn4upOYKZn3MdjUqJQGEjIBGtZ2JHK6yggH6RxSQCANhtF7-zIWJ0EfGqA7iY2KQWM7vtoiCsc-_KeFZeHeDm-TOpM_oL_EVzOvPru_cMVzx3wJL8kaLEgXuzPzxm3iYnTiyu57quhgBgMY1Nb7V_sXG4/s1600/f5.png",
-      "processedAt": "2026-11-21T22:30:16.902155+00:00"
-    },
-    {
-      "id": "art-00901146",
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
-      "summary": "Apache Roller, a popular Java-based blogging platform, has a critical vulnerability that allows attackers to execute code on affected systems without needing to log in first. The flaw exploits unsafe deserialization in the XML-RPC endpoint and is already being actively attacked by cybercriminals in real-world scenarios. With a maximum severity score of 9.8, this poses an immediate and widespread threat to organizations using Apache Roller.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "apache-roller",
-        "rce",
-        "deserialization",
-        "unauthenticated-exploit",
-        "active-exploitation",
-        "patch-urgently"
-      ],
-      "whyItMatters": "This vulnerability requires no authentication, meaning any attacker on the internet can potentially compromise affected servers, making it an extremely dangerous threat. Active exploitation in the wild means attackers are already weaponizing this flaw, so organizations using Apache Roller must patch immediately to prevent data theft, system compromise, or malware installation. The high CVSS score ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbiCYJD7nei_TBSnUlQG59idq9moCbsg97fnzsiXNi4KvQaphZYA4hHIzXv08t2OsvVZokzPIdhZPzxTkXoEgzTsFby-rBvQX6CY6yPo1Iv8DPnSmPeOeh3OQXF79Q60Hq3UI7kVdhmEKGL2bUwm42JO-8C_ClLHpTpGkWpnflAQMrDDgjIvMKq09DEskr/s1600/apache.jpg",
-      "processedAt": "2026-11-21T22:30:20.026560+00:00"
-    },
-    {
-      "id": "art-412f88b4",
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "summary": "A Chinese APT group has updated its EggStreme malware toolkit to avoid detection while targeting Philippine government agencies. The attackers are using new file hashes and infrastructure to evade security tools, demonstrating how threat actors quickly adapt their tactics after being exposed. This represents an ongoing campaign against government organizations using sophisticated obfuscation techniques.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "apt",
-        "malware",
-        "government-targeting",
-        "evasion",
-        "chinese-threat-actor",
-        "philippines"
-      ],
-      "whyItMatters": "This demonstrates how advanced threat actors continuously evolve their malware to bypass security defenses, making detection more difficult for organizations. Government agencies must maintain updated threat intelligence and advanced detection capabilities to identify these sophisticated, adaptive threats. The targeting of government infrastructure highlights the need for critical sectors to prior",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYLKVaRRp02L2STeR4kakGeA1NJokTtxw2aLU4wBLS34vltviR8gV4eUjk0QJ9jDVbiS_2hSeDQCwIR_JoCzPzUt-FSNUNpaKNtHpKiMugkRAMwOIbl4FbcL5iE7KCe1hebNbJRTxqO5xQkEFBuDI6F8FnsnYfreljrQlHHXuKBEN0suJZeuIf8heda5wY/s1600/chinese.jpg",
-      "processedAt": "2026-11-21T22:30:22.623598+00:00"
-    },
-    {
-      "id": "art-d9e4d9aa",
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-18",
-      "originalUrl": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-      "summary": "Security researchers discovered that the TPM (Trusted Platform Module) lockout protection on AMD and some Intel computers can be bypassed by physically opening the PC case. This vulnerability allows attackers to guess short PINs for Windows Hello and BitLocker in days rather than years, as demonstrated when researchers cracked a 4-digit PIN on an AMD laptop and a 6-digit PIN on an Intel laptop.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "tpm-vulnerability",
-        "windows-hello",
-        "bitlocker",
-        "physical-access",
-        "pin-cracking",
-        "hardware-security"
-      ],
-      "whyItMatters": "This vulnerability is critical because it undermines the security of two major Windows authentication mechanisms by requiring only physical access to a device—a threat model many users don't adequately protect against. Organizations and users relying on TPM-based protection for sensitive data need to implement additional physical security controls and consider this risk when assessing overall devi",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsv4GxAUbzCsIV1umrxZs6VxfD1eFwAeCgRHQQG_dNbP1fLiYe48hM-Wbd_8w5IxlacAwoidLqyQgBmG7YD7qKo0_XcqW2GhggfXshuK1uXz8BOma2H0Jjs8fabCO4IxHBfRopEUFDd0xHRRv43gMeog852Usv40sfcTwnO_9coyxtIMmteJxeJI_oPA/s1600/bitlocker.jpg",
-      "processedAt": "2026-11-21T22:30:25.393784+00:00"
-    },
-    {
-      "id": "art-21415821",
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
-      "summary": "Microsoft discovered that attackers exploited a vulnerability in Entra Connect Health to breach its systems and steal sensitive information. The stolen data included administrator email addresses and details about tenant configurations, which are critical for managing cloud-based identity services. This incident demonstrates how vulnerabilities in identity management tools can expose organizations to significant security risks.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "cloud-security",
-        "data-breach",
-        "entra-connect",
-        "vulnerability-exploitation",
-        "identity-management",
-        "patch-urgent"
-      ],
-      "whyItMatters": "Entra Connect Health is a core Microsoft identity management service trusted by organizations worldwide; compromising it exposes administrator credentials and tenant configurations that attackers can use to escalate privileges or access multiple customer environments. This breach highlights the urgent need for organizations to audit their Azure identity infrastructure and apply patches immediately",
-      "image": null,
-      "processedAt": "2026-11-21T22:30:27.911534+00:00"
-    },
-    {
-      "id": "art-2f2e19da",
-      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
-      "summary": "The BADBOX malware, which infects generic Android TV boxes, has resumed large-scale ad-fraud operations after being disrupted last year. The botnet is now generating a record-breaking 40 billion fraudulent ad requests daily, representing a significant resurgence of this threat. This demonstrates how malware can quickly recover and scale operations even after previous takedown efforts.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "botnet",
-        "ad-fraud",
-        "android-malware",
-        "badbox",
-        "iot-security",
-        "malware-resurgence"
-      ],
-      "whyItMatters": "This resurgence highlights the ongoing vulnerability of consumer IoT devices and the difficulty of permanently disrupting large-scale botnets. Organizations and users need to understand that ad-fraud botnets consume network resources, degrade device performance, and can serve as infrastructure for additional attacks, making device security updates and network monitoring essential.",
-      "image": null,
-      "processedAt": "2026-11-21T22:30:30.539200+00:00"
-    },
-    {
-      "id": "art-77fbcd84",
-      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-11-03",
-      "originalUrl": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-      "summary": "Google and its industry partners successfully shut down a botnet that infected over 1.3 million Android TV set-top boxes with malicious software. These compromised devices were being used to illegally rent out users' internet connections to third parties and commit advertising fraud. The takedown is expected to disrupt access to approximately 10 million additional infected IoT devices, including healthcare equipment and entertainment systems.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "botnet",
-        "iot-security",
-        "malware",
-        "android-tv",
-        "advertising-fraud",
-        "internet-of-things"
-      ],
-      "whyItMatters": "This incident highlights how consumer IoT devices shipped with pre-installed malware can compromise millions of users simultaneously and enable large-scale cybercriminal operations. The takedown demonstrates the importance of manufacturer accountability and industry collaboration in combating botnet threats that exploit everyday devices. It also underscores how infected IoT devices extend beyond p",
-      "image": null,
-      "processedAt": "2026-11-21T22:30:33.248954+00:00"
-    },
-    {
-      "id": "art-9d367da8",
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-21",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "summary": "A critical PHP vulnerability affects nearly 70% of websites worldwide, allowing attackers to gain complete control over vulnerable servers. Working exploits are already being used in active attacks, and many sites are likely experiencing outages as users encounter 404 errors. Organizations need to urgently update their core PHP software to patch these two critical flaws and prevent further compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "php-vulnerability",
-        "patch-urgent",
-        "active-exploitation",
-        "server-compromise",
-        "widespread-threat",
-        "critical-flaw"
-      ],
-      "whyItMatters": "This widespread vulnerability poses an immediate and severe risk to internet infrastructure, as attackers have functional exploits and are already exploiting these flaws in real-world attacks. The massive scale of affected websites (70% globally) means this could cause cascading outages and compromise sensitive data at scale. Organizations must prioritize emergency patching to prevent full server ",
-      "image": null,
-      "processedAt": "2026-11-21T22:30:35.828674+00:00"
-    },
-    {
-      "id": "art-f11b2ecb",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-19",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "summary": "U.S. federal investigators have discovered that executives working at ransomware negotiation firms may have had suspicious connections to the ShinyHunters hacking group, which recently stole sensitive FBI data. One executive in the United States allegedly helped ShinyHunters operate an extortion website designed to pressure victims into paying ransoms. This discovery suggests possible insider involvement and corruption within the cybercrime negotiation industry.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "ransomware",
-        "extortion",
-        "shiny-hunters",
-        "insider-threat",
-        "fbi-breach",
-        "investigation"
-      ],
-      "whyItMatters": "This case reveals a serious vulnerability in the ransomware negotiation supply chain—trusted intermediaries meant to help victims may actually be collaborating with criminals. When insiders in legitimate security firms enable or facilitate ransomware operations, it undermines the entire ecosystem and makes it harder for victims to safely resolve attacks. Organizations need to be extremely cautious",
-      "image": null,
-      "processedAt": "2026-11-21T22:30:38.908784+00:00"
     }
   ]
 }
