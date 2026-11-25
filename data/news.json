@@ -1,7 +1,212 @@
 {
-  "lastUpdated": "2026-11-25T01:40:21.505209+00:00",
+  "lastUpdated": "2026-11-25T16:59:14.630964+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-c7b82b54",
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "summary": "Attackers are actively exploiting two recently patched security flaws in GeoServer, a popular mapping and geospatial data server. CVE-2026-120705 is an arbitrary file read vulnerability with a high CVSS score of 8.6 that could allow unauthorized access to local files processed by GeoServer. Organizations using GeoServer need to apply available patches immediately to prevent potential unauthorized data access and remote code execution attacks.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "geoserver",
+        "arbitrary-file-read",
+        "rce",
+        "active-exploitation",
+        "patch-required",
+        "cve-2026-120705"
+      ],
+      "whyItMatters": "Active exploitation of these vulnerabilities poses an immediate threat to organizations running GeoServer, as attackers can read sensitive files and potentially execute arbitrary code without authentication. Rapid patching is essential to prevent data theft and system compromise across affected infrastructure.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhi8jBS9UW1bUouUo2cLun5A5rtqPOFJoVQctV4ZsoX9uuMottAxM0HLjLZrvTVGU1GtrewszjOwVMBkvHgyFIBsOndc049nwMidNiVnnoKCOePOhy-XDsjiVjxFvubbxn-Z6ca8VJAxxgLmyQ9KGYBRMWV5GP2et02dmXzcG3jKJw1p_njPdaPuJAaxAz1/s1600/geoserver.png",
+      "processedAt": "2026-11-25T16:58:52.240653+00:00"
+    },
+    {
+      "id": "art-41cdc0ac",
+      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) experienced a cybersecurity breach that allowed attackers to gain unauthorized access to some of its systems. In response, the agency took affected systems offline as a precautionary measure to prevent further compromise. FinCEN is responsible for collecting sensitive financial reports from banks, making this incident a significant threat to national financial security infrastructure.",
+      "category": "Data Breaches",
+      "severity": "Critical",
+      "tags": [
+        "data-breach",
+        "government-systems",
+        "financial-infrastructure",
+        "unauthorized-access",
+        "incident-response"
+      ],
+      "whyItMatters": "A breach of FinCEN's systems poses an immediate risk to critical financial infrastructure and could compromise sensitive banking data used for anti-money laundering and counter-terrorism efforts. When government agencies responsible for financial oversight are compromised, it undermines the integrity of the entire financial monitoring system that protects national security. Organizations must reco",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJn89Gr-RFxS6UFEzrbUZ5Ys11fK1OwvmMYUPl29eJudnlmmp7Q34p8O0DqV8SvGu4whZke8tiysvZNQWeE4Tm3zRhJSpojYAagBXGUEVM5w6lAw2Z5C-lfRaC2IwOYrnwQSWxwso31woM4CSoluNEjA3N0gFe0RQpsV0r3MCobiKFArLMa1or-QTIBcQ/s1600/fincern.jpg",
+      "processedAt": "2026-11-25T16:58:54.757035+00:00"
+    },
+    {
+      "id": "art-8cb0066e",
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "summary": "A GitGuardian report reveals that most secrets (passwords, API keys, tokens) discovered in 2022 remained valid four years later in 2026 because organizations hesitate to revoke credentials without understanding what systems might break. The study shows that prioritizing credential remediation based only on validity misses 46% of critical secrets, emphasizing the need to assess both what access each credential grants and whether it was exposed publicly.",
+      "category": "Security Awareness",
+      "severity": "High",
+      "tags": [
+        "credential-management",
+        "secrets-sprawl",
+        "incident-response",
+        "access-control",
+        "risk-prioritization"
+      ],
+      "whyItMatters": "Organizations often delay revoking compromised credentials due to fear of service disruption, leaving systems vulnerable for years. This research highlights a critical gap in remediation practices: without proper impact assessment and dependency mapping, teams leave exploitable secrets active in their environments, significantly extending the window of exposure for attackers.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil06YVYkZZwt0a8nA97RyMZvYZEQIoZ7r9_YHMtjx5eWc7RNAB4ol6OWb7NIsJOpC0v4w11xynwGgR1SsTnArvWAF7yJseVMbQfoawpTPEKYDdmH6O5UrbIZgJ2Fz9MGBFC6kF95oLeubdwlrdVKaVTPz4kjrOCH0X1neixvpNSYHhotL5WuzdYM12tUo/s1600/GitGuardian.gif",
+      "processedAt": "2026-11-25T16:58:57.562956+00:00"
+    },
+    {
+      "id": "art-2c53a1b3",
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "summary": "A critical remote code execution flaw in Drupal core, known as Fail2Install (CVE-2026-132165), has been added to CISA's list of actively exploited vulnerabilities. The vulnerability has an extremely high severity score of 9.8 and poses an urgent threat to federal agencies, who must patch their systems by November 27, 2026. This flaw allows attackers to execute arbitrary code on affected Drupal installations.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "drupal",
+        "rce",
+        "cve-2026-132165",
+        "patch-urgent",
+        "active-exploitation",
+        "federal-agencies"
+      ],
+      "whyItMatters": "This vulnerability requires immediate action because it is already being exploited in the wild and impacts a widely-used content management system. Federal agencies face a strict compliance deadline, and organizations running Drupal must prioritize patching to prevent unauthorized access and data compromise. The high CVSS score and active exploitation status make this one of the most dangerous cur",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbChdPRqvJHt9cIG4Z1W9o12tl4thtxIDNNcntDjmIytSIC1PWvOytT0JjY0OJtnba6UVJcEmqNxgOMuWxX2pvNJzjQ70-CIeruqZEDdgaDG66Lv2T6lLMv8cEhrXRie1gcaLz6OoNw6f2822s2yz8jl958kok6WpHmZ7p_n3TRWTdEWSpr1le5T28kFQO/s1600/drupal.gif",
+      "processedAt": "2026-11-25T16:59:00.255071+00:00"
+    },
+    {
+      "id": "art-babaea2b",
+      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+      "summary": "A former OpenAI employee was arrested for allegedly placing a hidden recording device in the company's San Francisco offices. The 35-year-old Saudi national, Abdulrahman Alfozan, was granted a $1 million bail by a federal judge after his October 2026 arrest. This case highlights the physical security risks that tech companies face from insider threats and corporate espionage.",
+      "category": "Privacy",
+      "severity": "High",
+      "tags": [
+        "insider-threat",
+        "corporate-espionage",
+        "physical-security",
+        "surveillance",
+        "privacy-violation"
+      ],
+      "whyItMatters": "This incident demonstrates that cybersecurity threats extend beyond digital attacks to include physical surveillance by insiders with access to sensitive company facilities. Organizations must implement comprehensive security measures covering both digital and physical environments to protect proprietary information and employee privacy from malicious insiders.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDaKaEIQ9XIhyphenhyphen7wjO1dtGE_h6MwLEEd4or1U6Ud39Ce7BbZfU817kR-mLr4bT5n_dMzAujT3VzKACvto1wsiHVfLjOLyGFnYPsf4PH_DHuog0NWylpF1RXoFIYhb84sb8T7RHCx4qnBCCJnNDKTkjoMQ-KPDaKgHaLW7fII7cOhPzc9XKC0OGGOjjE-ygf/s1600/openai.jpg",
+      "processedAt": "2026-11-25T16:59:02.403479+00:00"
+    },
+    {
+      "id": "art-a5429d56",
+      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has issued a warning about a critical vulnerability affecting Danfoss AK-SM 8xxA Series controllers, which are widely used by food retailers to operate refrigeration, HVAC, and lighting systems. This unpatched flaw poses a significant risk to critical infrastructure because attackers could exploit it to disrupt essential services in the food supply chain. Organizations using these controllers need to take immediate action to protect their systems from potential exploitation.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "danfoss",
+        "refrigeration-systems",
+        "cisa-alert",
+        "critical-vulnerability",
+        "unpatched-flaw",
+        "infrastructure-risk"
+      ],
+      "whyItMatters": "This vulnerability threatens critical infrastructure that directly impacts food supply and storage, making it a serious public safety concern. The unpatched status means organizations cannot rely on vendor updates and must implement alternative defensive measures immediately. Early CISA warnings like this help organizations prioritize patching and risk mitigation before active exploitation occurs ",
+      "image": null,
+      "processedAt": "2026-11-25T16:59:05.071150+00:00"
+    },
+    {
+      "id": "art-8248cb4d",
+      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "summary": "Penetration testers often spend considerable time on administrative tasks like documentation and reporting rather than actual security testing. AI tools can automate these time-consuming activities, allowing security teams to conduct more penetration tests with the same workforce. PentestPad demonstrates how AI can enhance productivity while ensuring that sensitive client data remains secure within private infrastructure.",
+      "category": "AI Security",
+      "severity": "Low",
+      "tags": [
+        "ai-penetration-testing",
+        "security-automation",
+        "pentest-efficiency",
+        "data-privacy",
+        "ai-tools"
+      ],
+      "whyItMatters": "As organizations face growing security testing demands with limited staff, AI-assisted pentesting tools offer a practical solution to scale security assessments without hiring additional testers. This approach maintains data security standards while improving operational efficiency, making robust security testing more accessible to organizations of all sizes.",
+      "image": null,
+      "processedAt": "2026-11-25T16:59:07.026067+00:00"
+    },
+    {
+      "id": "art-d49b53f5",
+      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "summary": "Eclypsium's InfraTrust report reveals that most infrastructure security vulnerabilities being actively exploited are found in third-party software components bundled into network appliances, rather than in code developed by the vendors themselves. This highlights a critical blind spot in supply chain security where organizations focus on patching vendor code but overlook vulnerabilities in integrated dependencies. The findings suggest that infrastructure operators need to pay closer attention to the software components embedded within their network devices, not just the primary vendor software",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "supply-chain",
+        "network-appliances",
+        "third-party-vulnerabilities",
+        "infrastructure-security",
+        "patch-management",
+        "vendor-dependencies"
+      ],
+      "whyItMatters": "Organizations typically monitor and patch vulnerabilities in products from known vendors, but this report demonstrates that exploited flaws often hide in bundled third-party components that receive less attention. This creates a dangerous gap in security posture where attackers can exploit overlooked vulnerabilities in the software supply chain of otherwise 'secure' network infrastructure. Underst",
+      "image": null,
+      "processedAt": "2026-11-25T16:59:10.024788+00:00"
+    },
+    {
+      "id": "art-6a8896af",
+      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+      "summary": "Microsoft addressed a technical issue that temporarily prevented some Microsoft 365 users from opening and using Office applications. The company identified and resolved the problem earlier this week, restoring access for affected customers. This incident highlights how critical infrastructure bugs can disrupt productivity across millions of users.",
+      "category": "Patching and Updates",
+      "severity": "Medium",
+      "tags": [
+        "microsoft-365",
+        "office-apps",
+        "bug-fix",
+        "cloud-security",
+        "access-control",
+        "service-outage"
+      ],
+      "whyItMatters": "When widely-used productivity tools like Microsoft 365 experience access issues, it can paralyze business operations for thousands of organizations simultaneously. Understanding how quickly vendors identify and patch such issues is important for assessing service reliability and planning business continuity strategies.",
+      "image": null,
+      "processedAt": "2026-11-25T16:59:11.978238+00:00"
+    },
+    {
+      "id": "art-fbd12a14",
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-25",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "summary": "A critical vulnerability in Drupal is being actively exploited by hackers to take control of websites that haven't been updated with security patches. The Drupal security team confirmed that attacks have been happening since at least Thursday, putting unpatched sites at immediate risk. This flaw allows attackers to execute malicious code and hijack entire websites without authorization.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "drupal-rce",
+        "active-exploitation",
+        "patch-urgently",
+        "critical-vulnerability",
+        "website-hijacking"
+      ],
+      "whyItMatters": "This is a critical threat because attackers are actively exploiting the flaw right now, meaning every unpatched Drupal site is under immediate attack risk. Organizations running Drupal must patch immediately or face complete site compromise, data theft, and malware distribution. This demonstrates why timely security updates are essential to protect web infrastructure from real-world threats.",
+      "image": null,
+      "processedAt": "2026-11-25T16:59:14.630798+00:00"
+    },
     {
       "id": "art-d1231bfc",
       "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
@@ -830,212 +1035,6 @@
       "whyItMatters": "Organizations relying on both Windows updates and Forcepoint DLP need to understand compatibility risks before deploying patches to prevent disrupting business operations. This demonstrates the importance of testing security updates in environments with multiple security tools to avoid unexpected conflicts that can impact productivity.",
       "image": null,
       "processedAt": "2026-11-23T17:46:14.137782+00:00"
-    },
-    {
-      "id": "art-d70985b0",
-      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
-      "summary": "This week's cybersecurity roundup highlights how attackers are exploiting everyday communication methods like job offers and service alerts to distribute malware and steal data. The article covers multiple emerging threats including GPT-6.2 jailbreak vulnerabilities and BubbleLoader PNG malware, plus ransomware demands reaching $500 million. AI tools are increasingly being weaponized to make attacks more convincing and easier to execute.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "malware",
-        "ransomware",
-        "social-engineering",
-        "jailbreak",
-        "threat-analysis"
-      ],
-      "whyItMatters": "Understanding how attackers combine social engineering with AI and malware demonstrates that security awareness training must evolve beyond traditional phishing awareness. Organizations need to recognize that legitimate-seeming communications and familiar interfaces are prime attack vectors, and that AI advancement is lowering the barrier to entry for sophisticated cyber attacks.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgTqUIWPjGeycl6xafh8Hx8n2UN3UCUgjhTpxUul68DHi7Y_IoHVYBvjDd5DpFg15sKI767hVEq-8CbGhK69JNusMh0OBBXfVMwJlZiKT2gNnTPAL9DyvTY85SB68WkvBxFCMF2_rNS9rUgYkQN8sKssDMBS8gO6YpMudQohf_JWnPztX_h8TdbSX6Vtfi/s1600/td.jpg",
-      "processedAt": "2026-11-22T22:53:31.857034+00:00"
-    },
-    {
-      "id": "art-5e31a603",
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-      "summary": "PHP's default session storage system contains a vulnerability called phpAfterShell that attackers can exploit by interrupting a session write operation to inject malicious objects. When combined with other weaknesses in applications, such as vulnerable code patterns, these injected objects can be manipulated to execute arbitrary code on the server. PHP developers should update immediately to the latest releases to patch this flaw.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "php-vulnerability",
-        "session-storage",
-        "code-execution",
-        "cve-2026-126714",
-        "patch-urgent",
-        "object-injection"
-      ],
-      "whyItMatters": "This vulnerability affects a fundamental feature of PHP used by millions of web applications worldwide, and successful exploitation allows attackers to gain complete control over the server. The fact that it combines a session storage flaw with application-level gadget chains means attackers have multiple attack vectors, making it particularly dangerous for unpatched systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEEFyvreIQgAheXoKRJxLcNgyzFh0rlydmiMfaOBIlmM7zGPc_71mCSG6zWGlpFcRQg59gVUw6NbpmFiNKIcDB3AqVA5eKpjYExWhMu-uBD_W5xu1wiYRtX5MklAgxeuHOBJOI8H9LmaIoXv7IrvFMVHvVhor06lj_ljcIDjIDAPYJ8w01X-BTA51EpOU/s1600/php-after-shell.jpg",
-      "processedAt": "2026-11-22T22:53:34.550878+00:00"
-    },
-    {
-      "id": "art-14eb1854",
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "summary": "Palo Alto Networks discovered that attackers were actively exploiting two PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) in PAN-OS management interfaces exposed online. These flaws allowed unauthenticated attackers to execute arbitrary code directly on the web server. This represented a significant security risk because firewalls are critical infrastructure that should never be compromised, yet they were targeted through basic web application vulnerabilities.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "firewall-compromise",
-        "unauthenticated-rce",
-        "palo-alto-networks",
-        "web-application-vulnerability",
-        "active-exploitation",
-        "php-vulnerability"
-      ],
-      "whyItMatters": "Compromised firewalls can give attackers complete network access and the ability to bypass all downstream security controls, making this a catastrophic risk. The fact that critical infrastructure like firewalls are increasingly web-based creates a large attack surface that defenders must continuously monitor and patch. Organizations relying on exposed PAN-OS management interfaces faced immediate e",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiC0roCfV92el2-gLSGwmumyjXgCjHookzwGjft2a6UWPZA1QvyrazDNLTvlZrF1F5iagg74JxnPEXbnK60OEeJuFNo2Fc2xcNSnJCeNw9BLu_y-lsRhrpO6s1End2gdDDlRU_r4wysTiiJS4ZKPDTmWK152psFdhxRizlSJZFCjnYr6nnamRsUciEJui4/s1600/php-app.jpg",
-      "processedAt": "2026-11-22T22:53:37.543286+00:00"
-    },
-    {
-      "id": "art-e6a660cf",
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "summary": "N-able, a major cloud service provider, disclosed that attackers gained unauthorized access to servers hosting Mail Assure and Spam Experts, affecting email security management across three regions. The breach resulted in disabled management interfaces and APIs, disrupting normal operations. The company is investigating the incident and implementing mitigation measures to prevent future breaches.",
-      "category": "Cloud Security",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "data-breach",
-        "email-security",
-        "infrastructure-compromise",
-        "managed-services"
-      ],
-      "whyItMatters": "This breach demonstrates the critical risk to managed service providers whose infrastructure secures customer email systems; a compromise here cascades to protect thousands of businesses. Organizations relying on N-able's services must verify their email security posture and monitor for unauthorized access attempts. The disruption of management interfaces highlights how cloud infrastructure attack",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjPpZ9yL9D7JBQvp4_ZmnP8S_U6HKdq3rSM_FVv_uDgT9Iz8D56tO6GNDNE4rs29pejUiKQlxi1HpZ38KYbaSB01PmgPItVL8N-Y9G9vcuJlnadltKvmGhvUKYntAEIVCXFixjdBMyu6S9-zEUlIgGf7E5euvodJbn9LIYWTkRpxwH0g7nz2xp2v5PGMdq/s1600/n-able-hacked.jpg",
-      "processedAt": "2026-11-22T22:53:39.998950+00:00"
-    },
-    {
-      "id": "art-433cbcc3",
-      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
-      "summary": "Ruby programming language released patches for seven memory-safety vulnerabilities found in its regular expression engine and string case-conversion functions. Five of these flaws can be exploited to execute remote code on affected systems, with proof-of-concept exploits already demonstrated. The vulnerabilities pose a significant risk to default Rails applications and other Ruby-based systems that haven't yet applied the fixes.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "ruby",
-        "remote-code-execution",
-        "memory-safety",
-        "rails",
-        "patch-urgent",
-        "pre-auth-attack"
-      ],
-      "whyItMatters": "This is critical because Ruby and Rails power countless web applications worldwide, and these vulnerabilities allow unauthenticated attackers to execute arbitrary code on default installations. With proof-of-concept exploits already available, threat actors can quickly weaponize these flaws, making immediate patching essential for any organization running affected Ruby versions.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7rmcgZ7yffFsn_7SX4iQcfMhw1dgsxPFXXh6TUunbQ9VaxZh8O5-AFT2V3q0PE7Wx0rW9nLKuB73eluixYuM9N38Dvq_Gjs1nNOXVk3e71jjfhHoP7W97eeuc5AivI3CQNxIrwSaPR9IGV0f2NZ7900Ihtkdgiw1ZivTvgVrXWH2CrX2X5MZGjos6-bs/s1600/ruby.jpg",
-      "processedAt": "2026-11-22T22:53:42.612534+00:00"
-    },
-    {
-      "id": "art-bc52d26e",
-      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-      "summary": "GL.iNet discovered that attackers exploited a weakness in its cloud-based remote management service to compromise customer routers and KVM devices. The hackers installed malicious software that allowed them to gain unauthorized access through backdoors and reverse shells, giving them control over the infected equipment.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "cloud-vulnerability",
-        "router-compromise",
-        "malware-installation",
-        "remote-access",
-        "backdoor",
-        "kvm-devices"
-      ],
-      "whyItMatters": "This incident demonstrates how vulnerabilities in cloud management services can directly compromise network infrastructure at scale, putting thousands of users' devices and networks at immediate risk. Organizations relying on GL.iNet devices must urgently patch and audit their systems, as attackers with device access can pivot deeper into corporate networks, intercept traffic, and establish persis",
-      "image": null,
-      "processedAt": "2026-11-22T22:53:45.093856+00:00"
-    },
-    {
-      "id": "art-3720e110",
-      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-      "summary": "Cleverbridge, an e-commerce platform, suffered a data breach in which attackers gained unauthorized access to customer payment information. The stolen data includes sensitive details such as credit card numbers and CVV security codes. This incident highlights the ongoing risk that payment processing platforms face from cybercriminals targeting financial data.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "data-breach",
-        "payment-card-fraud",
-        "sensitive-data-theft",
-        "e-commerce-security",
-        "credit-card-exposure",
-        "cvv-compromise"
-      ],
-      "whyItMatters": "This breach directly threatens thousands of customers with identity theft and fraudulent transactions, requiring immediate action from affected users. Organizations handling payment data must recognize the severe consequences of inadequate security controls and the need for robust encryption and access monitoring. The exposure of CVV codes is particularly dangerous as it enables criminals to condu",
-      "image": null,
-      "processedAt": "2026-11-22T22:53:47.748504+00:00"
-    },
-    {
-      "id": "art-36a90686",
-      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-22",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-      "summary": "Signal is implementing new security features to protect user privacy by blocking screenshots on iOS 27 and preventing AI assistants like Siri and Gemini from accessing conversations on Android devices. These protections aim to stop unintended capture of sensitive chat content by device-level AI tools. The update represents Signal's proactive approach to maintaining end-to-end encryption and preventing unauthorized access to private messages.",
-      "category": "Privacy",
-      "severity": "Medium",
-      "tags": [
-        "privacy",
-        "ai-security",
-        "messaging-security",
-        "data-protection",
-        "user-privacy"
-      ],
-      "whyItMatters": "As AI assistants become more integrated into mobile operating systems, they pose new privacy risks by potentially accessing or processing sensitive conversations without user consent. Signal's protective measures address a growing concern where device-level AI tools could inadvertently capture or analyze encrypted messages, making this a practical security enhancement for users who rely on messagi",
-      "image": null,
-      "processedAt": "2026-11-22T22:53:50.253992+00:00"
-    },
-    {
-      "id": "art-0ab0283b",
-      "title": "What We Missed: Nvidia CEO Scandal Rocks AI Industry",
-      "source": "Dark Reading",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/what-we-missed-nvidia-ceo-scandal-rocks-ai-industry",
-      "summary": "Dark Reading editors highlighted significant industry news including Jensen Huang's resignation from Nvidia and Microsoft's major cloud outage. These events underscore critical leadership changes and infrastructure reliability challenges affecting the tech and AI sectors. The coverage emphasizes gaps in mainstream cybersecurity reporting on high-impact incidents.",
-      "category": "Other",
-      "severity": "High",
-      "tags": [
-        "cloud-outage",
-        "infrastructure-reliability",
-        "ai-industry",
-        "leadership-change",
-        "enterprise-impact"
-      ],
-      "whyItMatters": "Leadership transitions at major tech companies and widespread cloud outages have direct cybersecurity implications for organizations relying on these platforms, affecting incident response capabilities, data availability, and supply chain security. Understanding these macro-level industry events helps security teams anticipate service disruptions and assess vendor risk.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltafa9df51f75884e4/6b007fead61f59302a23c588/nvidia-Benjamin_Fanjoy_-Getty-2304259055.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-11-22T22:53:52.506810+00:00"
-    },
-    {
-      "id": "art-a1396d16",
-      "title": "Qwen Incidents Show Self-Hosted AI Models Need Stronger Steering",
-      "source": "Dark Reading",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://www.darkreading.com/cyber-risk/qwen-incidents-self-hosted-ai-models-stronger-steering",
-      "summary": "Organizations using self-hosted AI models like Qwen often believe they have full control over these systems, but recent incidents reveal significant gaps in their ability to direct and constrain AI behavior. The article highlights that companies need to implement stronger governance and steering mechanisms to prevent AI agents from acting outside intended parameters. Without proper safeguards, self-hosted AI deployments can pose unexpected security and operational risks.",
-      "category": "AI Security",
-      "severity": "High",
-      "tags": [
-        "ai-security",
-        "self-hosted-models",
-        "ai-governance",
-        "control-mechanisms",
-        "ai-agents"
-      ],
-      "whyItMatters": "As more organizations deploy AI agents internally, understanding the limitations of control over these systems is critical for preventing unintended behaviors that could lead to data exposure or operational disruption. The gap between perceived and actual control over AI systems represents a significant blind spot in enterprise security strategies that must be addressed through stronger steering a",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltdca0689384b67fb8/6aff731dfef3359545395d0a/old-ship-steering-wheel-DmitriiElj-shutterstock.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-11-22T22:53:55.293042+00:00"
     }
   ]
 }
