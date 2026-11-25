@@ -1,7 +1,216 @@
 {
-  "lastUpdated": "2026-11-24T17:18:14.052403+00:00",
+  "lastUpdated": "2026-11-25T01:40:21.505209+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-d1231bfc",
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "summary": "An Iran-linked hacking group named Volant Manticore has been discovered targeting critical sectors like telecommunications, airlines, and infrastructure in Cyprus using a custom backdoor called KuboShell. This backdoor is notable for using IPFS (InterPlanetary File System) for command-and-control communications, making it harder to detect through traditional network monitoring. The group also deploys a post-compromise tool called Homa to maintain access and extract sensitive data.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "iran-aligned",
+        "backdoor",
+        "ipfs-c2",
+        "critical-infrastructure",
+        "espionage",
+        "telecommunications"
+      ],
+      "whyItMatters": "This threat demonstrates how state-aligned adversaries are using unconventional communication channels like IPFS to evade detection, making traditional security monitoring less effective. Organizations in telecommunications, aviation, and infrastructure sectors need to update their detection capabilities to identify this emerging threat vector before widespread compromise occurs.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhqukTcR2pkDWiTqMzORa4j7zZRB0MDUGfBly50X7gPwPHqSeBmfReQWpMR9IdPOP_NbeuQSBdYPknSgxvutDll4VAZNSoGqcwmXzhZNEez-UoE-MwTnM9i9XxjoLYRdhY0iY6tD9BK9IDB0o8RUU7sNsOex5tVNtoNwRHCCAxM9ri66c4G2wPa9AqW9saA/s1600/iran-hackers.jpg",
+      "processedAt": "2026-11-25T01:39:57.948022+00:00"
+    },
+    {
+      "id": "art-b5b668db",
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "summary": "Microsoft's Azure API Management (APIM) Classic service contained a security vulnerability that exposed sensitive information like access tokens and secrets to attackers. Norwegian authorities discovered that unknown actors were actively exploiting this flaw to target multiple organizations, including major energy companies like Equinor and Skagerak Energi. Microsoft has since released a fix for the vulnerability, but the full scope of the attack remains unclear.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "azure-api-management",
+        "cloud-security",
+        "access-tokens",
+        "credential-theft",
+        "patch-now",
+        "critical-vulnerability"
+      ],
+      "whyItMatters": "This vulnerability directly threatens organizations relying on Azure infrastructure by exposing authentication credentials and secrets to active threat actors, particularly impacting critical infrastructure like energy companies. The active exploitation and involvement of government security authorities highlights the urgency for immediate patching to prevent unauthorized access and data breaches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSM2FAnf9UEb3Do4v-r8AEBpoI8byXOrHgng-eRjEyudSf0hiKMpymmDiK_NLTxYuzXdtrWvMrBzY9qmLqDo31r3JOpVefOQxLE77gdkoOAYMkCK__-Bc-AJoWg-8nEOEVjcY6SswkzLbCfYl6kK9clg6xXw3xginWqIwnMxBUaS6wgPKVVwXZNhZA5G85/s1600/azure-ms.jpg",
+      "processedAt": "2026-11-25T01:40:00.683895+00:00"
+    },
+    {
+      "id": "art-fab31be2",
+      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "summary": "WHMCS, a widely-used billing and hosting management platform, contains a critical SQL injection vulnerability that allows unauthenticated attackers to directly access sensitive database information. Attackers can retrieve customer records and administrator password hashes without requiring any login credentials. The company acknowledged this flaw along with two additional vulnerabilities that require user authentication.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "sql-injection",
+        "whmcs",
+        "unauthenticated-access",
+        "password-hash-exposure",
+        "database-compromise",
+        "zero-authentication"
+      ],
+      "whyItMatters": "This vulnerability poses an immediate threat to thousands of web hosting businesses that rely on WHMCS for operations, as attackers can steal customer data and admin credentials without authentication. The exposure of password hashes enables offline cracking attacks that could lead to full administrative takeover. Organizations using WHMCS must prioritize patching immediately to prevent widespread",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgK7wXAof6nH7PDC5-3qxXZJgJvZODTjQcrWFOjO8jeb9yGkK6bUkzm27MzMy5n0S_Xywsj0npu_F0FmQ4JcKxPXNEoezLrpKoSStaYK4Ww46QUuzySTeQnnzcIXs_NADunlqeyuMIl5Wm5PKWc3c0JyNmYPxfbInIWx2tfosieI_QS_e4PX-JILlLH-1U/s1600/hosting.jpg",
+      "processedAt": "2026-11-25T01:40:03.392269+00:00"
+    },
+    {
+      "id": "art-0f637264",
+      "title": "OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
+      "summary": "OpenAI and Cisco have created Shirudo, an open-source Linux security tool powered by AI that can automatically defend systems against exploits without requiring downtime. The tool uses dynamic eBPF controls to block attacks while security teams prepare and test official patches. This collaboration aims to give defenders a significant time advantage in protecting vulnerable systems.",
+      "category": "Vulnerabilities",
+      "severity": "Medium",
+      "tags": [
+        "ai-security",
+        "linux-security",
+        "exploit-prevention",
+        "patching-and-updates",
+        "open-source",
+        "ebpf"
+      ],
+      "whyItMatters": "This tool addresses a critical gap in security operations where systems remain vulnerable during the patch-testing and deployment window. By enabling AI-driven runtime protection, organizations can reduce their exposure to known exploits before official patches are rolled out, potentially preventing significant breaches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKBknwzOcmsT5P3Gnyn8-WGRNbttWLAtmWlHkVuS900lrH1Q7Wj_kBCJiASbBvhNUKWEsO8Xt5VKKokGA-M17y8Pj4EtH6564yafSWGebOVgMuTwxUUB5fV4oProNTbg8MeEhcaiy95WbMi6og3q0uSM4SxLCyzVwV3FbCfiSXrVoJtQUrYpJfyeW1AUFm/s1600/openai-linux.jpg",
+      "processedAt": "2026-11-25T01:40:05.793069+00:00"
+    },
+    {
+      "id": "art-86eba476",
+      "title": "Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has identified two actively exploited vulnerabilities affecting N-able MailAssure and MONAI Label software. These flaws, including a critical server-side request forgery vulnerability in N-able MailAssure's LDAP system with a CVSS score of 9.3, pose immediate risks to organizations using these platforms. The addition of these vulnerabilities to CISA's Known Exploited Vulnerabilities catalog signals that attackers are already leveraging these weaknesses in real-world attacks.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "zero-day-exploit",
+        "ssrf-vulnerability",
+        "cisa-kev-catalog",
+        "active-exploitation",
+        "mailassure",
+        "monai-label"
+      ],
+      "whyItMatters": "Organizations using N-able MailAssure and MONAI Label face immediate risk from active exploitation of these critical vulnerabilities. Rapid patching is essential as attackers are already weaponizing these flaws in the wild. This underscores the importance of monitoring CISA's KEV catalog and prioritizing urgent security updates to prevent potential breaches.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrPCPwSotVSX8IYSgpSrVceRAIYqba8YSZSlNwD5RjetEhPG6vLRhk_NKkatjg1h-fulZJDm4CucsLvQrEtCO6v0NtuJGo3nZD3mXSHyKpgPrUZMpq7YNpheStYC_AqyMWRfWIFiK9bcHJNAw6pwK9JqirhO8JESKdmsI5Pl8UgtsVsRivmMmMenQ01ClW/s1600/cisa-kev.jpg",
+      "processedAt": "2026-11-25T01:40:08.533968+00:00"
+    },
+    {
+      "id": "art-4879608f",
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "summary": "Rackspace has decided to shut down its Spot cloud platform following a security incident that compromised customer Kubernetes clusters and exposed sensitive secrets. The company is giving customers until December 8 to migrate their services and retrieve their data before the platform goes offline. This incident highlights the risks associated with cloud infrastructure and the importance of securing containerized environments.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "kubernetes",
+        "data-breach",
+        "spot-platform",
+        "infrastructure-compromise",
+        "secrets-exposure"
+      ],
+      "whyItMatters": "This breach demonstrates how vulnerabilities in cloud platforms can expose sensitive infrastructure components and authentication credentials across multiple customers simultaneously. Organizations relying on cloud services must understand that platform shutdowns due to security incidents can disrupt operations, making incident response planning and multi-cloud strategies essential for business co",
+      "image": null,
+      "processedAt": "2026-11-25T01:40:10.912593+00:00"
+    },
+    {
+      "id": "art-4fc82ce7",
+      "title": "New Inception extortion gang launches large-scale vishing campaign",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "summary": "A newly formed extortion group called 'Inception' has launched a widespread vishing campaign targeting single sign-on (SSO) credentials from multiple major companies around the world. Vishing attacks use social engineering and phone calls to trick employees into revealing their login information. This threat is particularly dangerous because compromised SSO credentials can give attackers access to multiple systems and sensitive data across an organization.",
+      "category": "Cybercrime",
+      "severity": "Critical",
+      "tags": [
+        "vishing",
+        "credential-theft",
+        "social-engineering",
+        "extortion",
+        "sso-attacks",
+        "data-extortion"
+      ],
+      "whyItMatters": "SSO credential compromise creates a critical vulnerability because a single set of stolen credentials can unlock access to numerous corporate systems and sensitive data. This type of large-scale campaign indicates an organized threat group with significant capability to cause widespread harm across multiple organizations. Organizations need to immediately strengthen multi-factor authentication, em",
+      "image": null,
+      "processedAt": "2026-11-25T01:40:13.655228+00:00"
+    },
+    {
+      "id": "art-29cb1fa1",
+      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "summary": "Turnitin, a widely-used academic integrity platform, disclosed that attackers gained unauthorized access to some of its customer-facing systems. The company's CEO announced the breach, which affected systems used by students and educators worldwide. This incident highlights how even established educational technology providers can become targets for cyberattacks.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "customer-systems",
+        "educational-technology",
+        "unauthorized-access",
+        "incident-disclosure"
+      ],
+      "whyItMatters": "Turnitin serves millions of students and institutions globally, so a breach of its systems could expose sensitive academic and personal data. Organizations relying on third-party platforms must monitor vendor security closely, as breaches in widely-adopted tools can have cascading impacts across entire educational ecosystems.",
+      "image": null,
+      "processedAt": "2026-11-25T01:40:15.807353+00:00"
+    },
+    {
+      "id": "art-5de22ff0",
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "summary": "Radware, a major cybersecurity firm, discovered that attackers exploited an unsecured internal API for its Cloud WAF service, gaining unauthorized access to customer account information and cloud access keys. The exposed management interface was left accessible online without proper security controls, allowing threat actors to compromise sensitive credentials. This breach highlights a critical failure in Radware's own security practices, putting its customers at significant risk of further attacks.",
+      "category": "Cloud Security",
+      "severity": "Critical",
+      "tags": [
+        "cloud-security",
+        "api-exposure",
+        "credential-breach",
+        "cloud-waf",
+        "data-breach",
+        "access-keys"
+      ],
+      "whyItMatters": "This breach is particularly serious because Radware is a trusted security vendor, and attackers now possess cloud access keys that could enable further compromise of customer environments. The exposure of an internal management API demonstrates that even security companies can fail to implement basic security controls, emphasizing the need for all organizations to audit their own APIs and internal",
+      "image": null,
+      "processedAt": "2026-11-25T01:40:18.598802+00:00"
+    },
+    {
+      "id": "art-0d49e2be",
+      "title": "McDonald's Japan data breach exposes customer location information",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-24",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+      "summary": "McDonald's Japan experienced a data breach that compromised customer information stored in their official mobile app database. Attackers gained unauthorized access to sensitive data, including user location information tied to app accounts. This incident highlights the risks associated with storing personal data in corporate applications and the importance of securing customer-facing platforms.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "mobile-app-security",
+        "customer-data",
+        "location-tracking",
+        "database-compromise",
+        "privacy-violation"
+      ],
+      "whyItMatters": "This breach demonstrates how attackers target popular mobile applications to access large volumes of personal data, including real-time location information that poses privacy and safety risks. For organizations, it underscores the need for robust database security controls, encryption, and monitoring of customer-facing apps. For users, it reinforces the importance of reviewing app permissions and",
+      "image": null,
+      "processedAt": "2026-11-25T01:40:21.505056+00:00"
+    },
     {
       "id": "art-118acc8b",
       "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
@@ -827,213 +1036,6 @@
       "whyItMatters": "As more organizations deploy AI agents internally, understanding the limitations of control over these systems is critical for preventing unintended behaviors that could lead to data exposure or operational disruption. The gap between perceived and actual control over AI systems represents a significant blind spot in enterprise security strategies that must be addressed through stronger steering a",
       "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltdca0689384b67fb8/6aff731dfef3359545395d0a/old-ship-steering-wheel-DmitriiElj-shutterstock.jpg?width=720&quality=80&disable=upscale",
       "processedAt": "2026-11-22T22:53:55.293042+00:00"
-    },
-    {
-      "id": "art-22eddd10",
-      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-22",
-      "originalUrl": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-      "summary": "Researchers discovered that attackers had been stealing data from three AI inference providers for months without the companies detecting it. OpenRouter, an AI request routing service, dropped these providers after learning that some stolen prompts were marked as Zero Data Retention, meaning they should never have been stored or accessed. The breach highlights significant security gaps in AI hosting infrastructure that went unnoticed until external researchers brought it to light.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "ai-security",
-        "data-breach",
-        "prompt-theft",
-        "cloud-security",
-        "zero-data-retention",
-        "inference-providers"
-      ],
-      "whyItMatters": "This breach demonstrates that major AI service providers lack adequate detection capabilities for insider threats and data exfiltration, potentially affecting thousands of users whose sensitive prompts and data were compromised. The violation of Zero Data Retention settings shows that security controls designed to protect user privacy are not functioning as intended, undermining trust in AI platfo",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjEGP3P_elvK4C-QnSx5onZ67viDXCIgPCUYqtTF_RDNcLJfyQ4QMbegUmn8AJy5nEmnXfN4ACr6hHztG_DdqXlj54S21toacPQaZgRx2rgqZltN3lvREpZR2xlvgXF_iZ7zW0XT0b91mMiRDVaEB6TUvMFlWwaSa3_C7gwpxdKcNhLtIq15KqwaZrR3VI/s1600/openrouter.png",
-      "processedAt": "2026-11-22T14:21:45.951293+00:00"
-    },
-    {
-      "id": "art-6505e2e9",
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-22",
-      "originalUrl": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-      "summary": "Researchers discovered a security flaw in Ghostscript, a widely-used tool that converts files like PDFs and images on Linux servers, which allows attackers to bypass its sandbox protections and execute arbitrary commands. By uploading a specially crafted file, an attacker could gain unauthorized control over the server processing it. The vulnerability has been patched, but many systems may still be running the vulnerable version.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "ghostscript",
-        "sandbox-escape",
-        "rce",
-        "file-upload",
-        "patch-available",
-        "linux-servers"
-      ],
-      "whyItMatters": "This vulnerability is critical because Ghostscript runs on many production servers often without direct user awareness, making it a high-value target for attackers. A successful exploit grants complete remote code execution, potentially compromising entire systems and data. Organizations must urgently patch their Ghostscript installations to prevent active exploitation of this widely-deployed tool",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg1BiCJUIrSJXNfKPZEkM46ynK6Rs7gba2xMaTUdoJ7yOK6Y8kcKMqJ_6PhbUIog_U1E8gRCpbj2HrkQ9UEpbPi1HOvkxdxCE5Afa5LbkNhUPvgU7Sa60IVHAWqSvgJaX1p6frMAN335QncL5UTZ3a4v1-agyb8ZXIlMGZTOtzsC0Gll2qRI0NJNMHTsf8/s1600/ghostscript.jpg",
-      "processedAt": "2026-11-22T14:21:48.639201+00:00"
-    },
-    {
-      "id": "art-d425a8dc",
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-      "summary": "PHP Foundation released security patches to fix seven critical vulnerabilities affecting all supported PHP versions, with at least one flaw (CVE-2026-115560) capable of enabling remote code execution. These flaws pose serious risks to web servers and applications running vulnerable PHP installations. System administrators were given advance notice to prepare for the patching process.",
-      "category": "Patching and Updates",
-      "severity": "Critical",
-      "tags": [
-        "php-vulnerability",
-        "remote-code-execution",
-        "rce",
-        "critical-patch",
-        "php-security",
-        "patch-now"
-      ],
-      "whyItMatters": "PHP powers a significant portion of the web, making these critical vulnerabilities an urgent concern for website owners and hosting providers. Remote code execution flaws allow attackers to gain complete control of affected servers, potentially compromising sensitive data and enabling further attacks. Immediate patching is essential to prevent widespread exploitation.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD2D26Hu7r43uUrdDxmsmmbBe2oMxd-L3_DIVLqAPyDrOnSmdvXfkIq1_lNmWqr49gbrIZ0NeTmA2OYgyWgdUjRf_RTRfflyXn3Vgujkb9tiByOPfej1OqEszpQf2FeozeSqmK5L7aSj28GLwzKmzehIp9zJyeJqgRvbVOW91_pVEMhs3KY9_oXjwf5BE/s1600/php-flawss.jpg",
-      "processedAt": "2026-11-22T14:21:51.000100+00:00"
-    },
-    {
-      "id": "art-892688f7",
-      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-      "summary": "VMware vCenter, the main management tool for virtual environments, has a critical security flaw that allows attackers on the network to skip authentication and gain full access to the system. Broadcom has released patches for all supported versions, but administrators must update immediately as there is no temporary workaround available.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "vmware-vcenter",
-        "authentication-bypass",
-        "network-access",
-        "patch-urgent",
-        "virtualization-security"
-      ],
-      "whyItMatters": "Since vCenter controls all virtual machines and infrastructure in an organization, this flaw could allow attackers to compromise an entire data center without needing any credentials. The lack of a workaround makes immediate patching essential for any organization running VMware to prevent catastrophic breaches.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZ5IDT81eb7KUE0LzwGJAzuAETft3pD5sOz2dJxnQin_-zR_hH8tDKFTsLNBNoe35KM4DhFJjP7K-0YwaMoVwz7xUhTiP2vKeNqmN3kenPgwflENu35qx-QlFj-rDFdyXx1HMz6ykegw6nlnPDXppYbotjoRj-ammlyUZ-Cr0JYLS5iyZXkJXkaIO5UAc/s1600/vmware.jpg",
-      "processedAt": "2026-11-22T14:21:53.410914+00:00"
-    },
-    {
-      "id": "art-9e86ef6d",
-      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-19",
-      "originalUrl": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-      "summary": "Drupal has released patches for a critical vulnerability in its core installer that allows unauthenticated attackers to reinstall a website under certain conditions. This flaw could lead to complete site takeover or remote code execution on affected systems. While the vulnerable configurations are considered uncommon, the patch has already been distributed across all supported Drupal versions.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "drupal",
-        "installer-flaw",
-        "unauthenticated-access",
-        "remote-code-execution",
-        "patch-available",
-        "site-takeover"
-      ],
-      "whyItMatters": "This vulnerability poses an immediate threat to Drupal installations with specific configurations, as it allows attackers to gain complete control without needing valid credentials. Organizations running Drupal must prioritize applying the security patches to prevent potential exploitation and data compromise.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi4kxIzi1B-GPdS7pbaOI823BHxteL-8FbODKnAoDkr8tGhhjGYuRU9KIEAvOQ6kBZFQPCly3BIhQo6vkjxJy13zL7CxlRXsez_G_otFVaja2H5ObmzNMMilbewaweqqO5Paa0H49yaZdWB09xAIqeo7YLG0uyd05qjdbh2aLIRZd73_jwVGH26YexA3l8/s1600/drupal-flaws.jpg",
-      "processedAt": "2026-11-22T14:21:55.918361+00:00"
-    },
-    {
-      "id": "art-1b30cb92",
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-21",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
-      "summary": "Rackspace's Spot cloud platform was breached when attackers used compromised credentials to gain unauthorized access to customer environments. The hackers were able to deploy malicious workloads and steal sensitive Kubernetes secrets stored in customer clusters. This incident demonstrates how credential compromise can lead to serious cloud infrastructure attacks with direct access to sensitive orchestration data.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "cloud-breach",
-        "kubernetes",
-        "credential-compromise",
-        "unauthorized-access",
-        "secrets-exposure"
-      ],
-      "whyItMatters": "This breach highlights the critical importance of credential security in cloud platforms, as compromised access allowed attackers to infiltrate multiple customer environments simultaneously. Kubernetes secrets typically contain database passwords, API tokens, and other sensitive data, making their exposure a severe risk to downstream systems and applications. Organizations using Rackspace Spot mus",
-      "image": null,
-      "processedAt": "2026-11-22T14:21:58.591185+00:00"
-    },
-    {
-      "id": "art-4d68878f",
-      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-14",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
-      "summary": "The United Kingdom has imposed economic sanctions on Cryptomus, a cryptocurrency platform that facilitates illegal financial transactions across multiple cybercriminal activities including ransomware payments, drug trafficking, and darknet markets. This action targets a key financial infrastructure used by threat actors to launder money and evade existing restrictions aimed at Russia. The sanctions highlight how cryptocurrencies enable cybercriminals to operate across borders while funding various illegal enterprises.",
-      "category": "Cybercrime",
-      "severity": "High",
-      "tags": [
-        "cryptocurrency-sanctions",
-        "money-laundering",
-        "ransomware-payments",
-        "russia-evasion",
-        "financial-crime"
-      ],
-      "whyItMatters": "Understanding how cybercriminals monetize attacks through platforms like Cryptomus is essential for organizations to recognize payment infrastructure threats and support international efforts to disrupt criminal finances. Sanctions on these platforms may force threat actors to shift tactics, potentially affecting how ransomware gangs collect payments and operate. This demonstrates the intersection",
-      "image": null,
-      "processedAt": "2026-11-22T14:22:01.783163+00:00"
-    },
-    {
-      "id": "art-0b8b101f",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "source": "Krebs on Security",
-      "publishedDate": "2026-10-13",
-      "originalUrl": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
-      "summary": "Microsoft released patches for over 1,400 security vulnerabilities across Windows and other products, significantly surpassing the previous month's record of nearly 1,000 fixes. This unusually large number of patches highlights the scale of security issues in widely-used Microsoft software that could affect millions of users. Organizations need to prioritize installing these updates to protect their systems from potential attacks.",
-      "category": "Patching and Updates",
-      "severity": "High",
-      "tags": [
-        "microsoft-patches",
-        "windows-security",
-        "vulnerability-fixes",
-        "patch-tuesday",
-        "software-updates"
-      ],
-      "whyItMatters": "The sheer volume of vulnerabilities being patched indicates a significant security landscape requiring immediate attention from system administrators and organizations relying on Microsoft products. Delayed patching leaves systems exposed to exploitation, making timely deployment of these fixes critical to prevent widespread security incidents across enterprises and consumer devices.",
-      "image": null,
-      "processedAt": "2026-11-22T14:22:04.348531+00:00"
-    },
-    {
-      "id": "art-73b9ccf8",
-      "title": "China's 'Armory Castle' Lays Siege to VMware vCenter Zero-Day",
-      "source": "Dark Reading",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://www.darkreading.com/cyberattacks-data-breaches/china-armory-castle-vmware-vcenter-zero-day",
-      "summary": "A Chinese threat group known as 'Armory Castle' has reportedly developed a zero-day exploit targeting VMware vCenter, potentially preparing to strike after VMware's recent security updates. This suggests the group maintains advanced capabilities and is actively developing new vulnerabilities even as patches are released. Organizations using VMware infrastructure may face elevated risk from this emerging threat.",
-      "category": "Zero-Day Exploits",
-      "severity": "Critical",
-      "tags": [
-        "zero-day",
-        "vmware-vcenter",
-        "china-nexus",
-        "threat-actor",
-        "exploitation-risk",
-        "infrastructure-attack"
-      ],
-      "whyItMatters": "VMware vCenter is critical infrastructure used by thousands of enterprises for virtualization management, making any zero-day vulnerability an immediate threat to widespread systems. A sophisticated threat actor actively exploiting unpatched vulnerabilities could gain complete control over an organization's virtual infrastructure and sensitive data. This emphasizes the urgent need for security tea",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt911ff7b35a2a2c1d/6b009babdd63b308b3111bc2/Chinese_fortress-Lukas_Bischoff-Getty.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-11-22T14:22:07.308752+00:00"
-    },
-    {
-      "id": "art-17abb0b0",
-      "title": "In Security, Words Matter as Much as Tools, Maybe More",
-      "source": "Dark Reading",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://www.darkreading.com/cybersecurity-operations/security-words-matter",
-      "summary": "Security leaders are recognizing that effective communication and clear language are as critical as technical tools in defending enterprises against cyber threats. By improving how teams discuss cloud security, artificial intelligence, and other technical topics, organizations can build stronger security cultures and reduce vulnerabilities across the business. Disciplined communication helps ensure everyone understands security risks and responds appropriately.",
-      "category": "Security Awareness",
-      "severity": "Medium",
-      "tags": [
-        "security-awareness",
-        "communication",
-        "cloud-security",
-        "ai-security",
-        "enterprise-defense",
-        "cyber-culture"
-      ],
-      "whyItMatters": "Clear communication about cybersecurity directly impacts how well organizations can coordinate defenses, train employees, and implement security controls. When technical teams and business leaders cannot effectively communicate risks and solutions, security gaps widen and incident response becomes inefficient, making communication skills as essential as any security tool.",
-      "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt36f1afcfa92ff2c5/6af766db3c02eaba0a4aae0d/cyber_talk_ATHVisions_Getty.jpg?width=720&quality=80&disable=upscale",
-      "processedAt": "2026-11-22T14:22:09.784724+00:00"
     }
   ]
 }
