@@ -1,7 +1,213 @@
 {
-  "lastUpdated": "2026-11-26T01:13:31.731157+00:00",
+  "lastUpdated": "2026-11-26T16:39:51.520997+00:00",
   "totalArticles": 50,
   "articles": [
+    {
+      "id": "art-f897006b",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-26",
+      "originalUrl": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "summary": "North Korea-linked threat actors have compromised over 7,600 GitHub repositories by injecting a malicious Python loader designed to distribute malware. The loader disguises itself within utility packages or configuration files, allowing it to execute harmful code when Python imports the files. This campaign appears to have been active since at least February 2025, posing a widespread risk to developers who unknowingly use these poisoned packages.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "north-korea",
+        "github",
+        "supply-chain-attack",
+        "python-malware",
+        "code-injection",
+        "developer-risk"
+      ],
+      "whyItMatters": "This attack demonstrates a sophisticated supply chain compromise affecting thousands of repositories, meaning developers worldwide could inadvertently download and execute malicious code in their projects. The scale and stealth of the PolinRider campaign highlight how vulnerable open-source ecosystems are to state-sponsored attacks, requiring developers to carefully vet dependencies and implement ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgquhPuqGJrSE3xNpn5ZUELVAv-Y7qXqkHgpw7nbVqCay4gyraYO5NNE12rAGzuqk_zhreNwcyzjZf3vZZB5C4teohyuppUP-JlP41PQiLu-hGEFCsqMZO0T6MoaVk-uY818yaTaiJaX-d2O0h0RER22knXbUQc7qnwIcVbleLQrEspMQ8btNa4Q9mFrmue/s1600/gitcat.jpg",
+      "processedAt": "2026-11-26T16:39:22.759605+00:00"
+    },
+    {
+      "id": "art-8ae89249",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-26",
+      "originalUrl": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "summary": "Security researchers at Push Security have identified phishing kits that successfully bypass email security, web filtering, and safe browsing protections at surprisingly high rates. The study measures these kits' effectiveness using a 'breakthrough rate' metric to determine which phishing attacks most commonly reach employees despite multiple security layers. Understanding these high-risk kits helps security teams prioritize defenses and improve their protection strategies.",
+      "category": "Phishing",
+      "severity": "High",
+      "tags": [
+        "phishing-kits",
+        "email-security",
+        "breakthrough-attacks",
+        "security-controls",
+        "threat-analysis"
+      ],
+      "whyItMatters": "Organizations invest heavily in email security and web filtering, but knowing which phishing kits consistently bypass these controls is critical for identifying gaps and upgrading defenses. This intelligence helps security teams understand the evolving threat landscape and allocate resources to combat the most dangerous attack vectors. Without awareness of high-breakthrough phishing campaigns, com",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgOYXUiExbrrmBGGBgTjOFcDJSrLYJuITQwZY-l1mOzzkes21-mR0My9ikeCM7cI6VDXuBIE9BZPnKazemiuZf7A4w_xeeMy_IUUlNVTKX3PmW-Xt7FA9UI8JoICZDPW4ZWSspztPv_Mo4Zf7G_fXEw_phMe4uc89O38ugIlQJJKmc6VD7QN3NzU0n0SQU/s1600/push-most.jpg",
+      "processedAt": "2026-11-26T16:39:25.541379+00:00"
+    },
+    {
+      "id": "art-f1309047",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-26",
+      "originalUrl": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "summary": "1Password, a widely-used password manager, experienced a security breach where attackers gained unauthorized access to backend systems and obtained some customer information. The company confirmed that customer password vaults and encrypted secrets remained secure and were not compromised. While the incident was contained, the breach highlights vulnerabilities in even trusted security tools and raises concerns about the protection of associated user data.",
+      "category": "Data Breaches",
+      "severity": "High",
+      "tags": [
+        "data-breach",
+        "password-manager",
+        "backend-systems",
+        "customer-data",
+        "source-code"
+      ],
+      "whyItMatters": "This breach is significant because 1Password is trusted by millions of users to protect sensitive credentials and secrets, making any compromise of their systems a serious concern for downstream user security. Even though encrypted vaults weren't accessed, exposed customer information and source code can enable further attacks and undermine confidence in security-focused companies. Organizations a",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbu9vulg5_P2PLmwCbF5nNRu8UujJDFNLLCGackgRWjz4lmkQcAom8TerCouyPh1pF8sgBAiJTwO7qAQN3kLVd-_0e7czxqhyphenhyphenUQuSG6WyCJvoNsI92X7tl1ukE6h8QDLmQBUBJaKBCyTYXjaGMUeaczy-sTIjMvDHdQjphWmWyCsUyIG4Y7WD4J2FoQfgY/s1600/1password.jpg",
+      "processedAt": "2026-11-26T16:39:28.631773+00:00"
+    },
+    {
+      "id": "art-1c2b9c57",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-26",
+      "originalUrl": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "summary": "Drupal has discovered a critical vulnerability in its core software that attackers are actively exploiting in the wild. The flaw, identified as CVE-2026-136716, involves improper validation of unusual conditions and relates to problematic installation states from a previous vulnerability. This vulnerability poses an immediate risk to Drupal installations and requires urgent attention from administrators.",
+      "category": "Zero-Day Exploits",
+      "severity": "Critical",
+      "tags": [
+        "drupal",
+        "site-takeover",
+        "active-exploitation",
+        "critical-vulnerability",
+        "cve-2026-136716",
+        "patch-urgent"
+      ],
+      "whyItMatters": "Since this vulnerability is actively being exploited in real-world attacks against Drupal sites, organizations running Drupal must prioritize immediate patching to prevent unauthorized access and complete site compromise. The takeover nature of this flaw makes it particularly dangerous, as attackers could gain full control of affected websites and their data.",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiy2EcytpsKiKLhUfvQEADKBG6Ht2NprR2VIhIXPJcNQMIGqKT20l0afBPUVhehKFhRzpkHvl3Qu_qaPjFL3L4UsLYH3L4C1DM63zqskhJV1UAjaPqONaEbNkBFsxVDX2jpPZrMym52WvBx2pHktUiRfdXOcp_23xjTdUOxxjxJtI906XLMmw258Bjah1J2/s1600/drupal-rce.png",
+      "processedAt": "2026-11-26T16:39:31.085534+00:00"
+    },
+    {
+      "id": "art-b52dd946",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "source": "The Hacker News",
+      "publishedDate": "2026-11-26",
+      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added 10 newly exploited vulnerabilities to its official tracking list, with five affecting Mitel MiCollab communication software. These flaws, including an arbitrary file upload vulnerability with a CVSS score of 5.3, represent active security threats that hackers are already exploiting in the wild. Organizations using Mitel, Juniper, Vates, and Danfoss products need to prioritize patching these vulnerabilities immediately.",
+      "category": "Vulnerabilities",
+      "severity": "High",
+      "tags": [
+        "mitel-micollab",
+        "actively-exploited",
+        "cisa-kev-catalog",
+        "file-upload",
+        "patch-urgent",
+        "multi-vendor"
+      ],
+      "whyItMatters": "When vulnerabilities are added to CISA's Known Exploited Vulnerabilities catalog, it signals that hackers are actively using these flaws in real attacks, making patching a critical priority for organizations. Exploitable vulnerabilities across multiple widely-used enterprise products like Mitel and Juniper pose an immediate risk to business communications and network infrastructure. Organizations ",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht82Zul6A6D_rTYZuOr0QQWkA4p8kQXRI-4qAYhdGBdTR0ZNzlHkHCiz3eSv5wm9Gq1rADX0CIEBUu08HBUbWd4fVKtL6f7UrWcaa_nVetYt0DyPj2-f_yM80HEIUbuy57mpftPYHHp1FKCNXvkDnFtsj-V5PWGUvWiNL38OKY3EIKUwKHuoKsIc4oSXeC/s1600/mitel.jpg",
+      "processedAt": "2026-11-26T16:39:34.397512+00:00"
+    },
+    {
+      "id": "art-f0a028b7",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "summary": "A malware called Remus is stealing Gmail messages by disguising itself as a fake Google Sheets extension in Chrome. The attackers behind Remus are claiming this is a zero-day vulnerability in Google's email system, though it appears to work through social engineering and malicious browser extensions rather than an actual security flaw. This demonstrates how attackers can abuse legitimate browser tools to access sensitive personal and business communications.",
+      "category": "Malware",
+      "severity": "High",
+      "tags": [
+        "infostealer",
+        "malware",
+        "chrome-extension",
+        "gmail-theft",
+        "social-engineering",
+        "email-security"
+      ],
+      "whyItMatters": "This attack is particularly dangerous because Gmail is one of the world's most widely used email services, and stealing email messages gives attackers access to sensitive personal data, passwords, and confidential business information. Users are often unaware that browser extensions can access their email, making this a realistic threat that could affect millions. The incident highlights the need ",
+      "image": null,
+      "processedAt": "2026-11-26T16:39:37.377269+00:00"
+    },
+    {
+      "id": "art-6c474a4b",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "source": "BleepingComputer",
+      "publishedDate": "2026-11-26",
+      "originalUrl": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "summary": "A new version of the SYS01 infostealer malware is being distributed through Meta advertisements and uses a deceptive technique to enroll user browsers into fake enterprise management systems. Once enrolled, the malware forces the installation of a malicious browser extension designed to steal sensitive information from email accounts like Gmail and Outlook. This attack combines social engineering with technical exploitation to gain unauthorized access to personal communications.",
+      "category": "Malware",
+      "severity": "Critical",
+      "tags": [
+        "infostealer",
+        "malware",
+        "browser-hijacking",
+        "email-theft",
+        "meta-ads",
+        "credential-theft"
+      ],
+      "whyItMatters": "This attack is particularly dangerous because it leverages trusted advertising platforms to distribute malware and exploits legitimate browser management features to bypass security protections. Email account compromise through this method could lead to identity theft, financial fraud, and unauthorized access to other accounts that use email recovery options, making it a widespread threat affectin",
+      "image": null,
+      "processedAt": "2026-11-26T16:39:40.154585+00:00"
+    },
+    {
+      "id": "art-c7f0e6b8",
+      "title": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-21",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/",
+      "summary": "A Florida company called RansomwareHelp, which claimed to decrypt data encrypted by ransomware attacks, has been exposed as a fraud scheme. The company's CTO and co-founder was indicted for wire fraud after an FBI investigation revealed they were simply paying ransomware attackers for decryption keys and then overcharging victims for this minimal work. This case demonstrates how criminals exploit desperate victims seeking help during ransomware attacks.",
+      "category": "Cybercrime",
+      "severity": "High",
+      "tags": [
+        "ransomware-fraud",
+        "wire-fraud",
+        "cybercrime",
+        "victim-exploitation",
+        "fbi-investigation"
+      ],
+      "whyItMatters": "This case highlights the importance of verifying that data recovery services are legitimate and trustworthy before engaging them during a crisis. It shows how attackers can pose as helpers to exploit ransomware victims who are already in distress, making it critical for organizations to have vetted recovery partners and incident response plans beforehand.",
+      "image": null,
+      "processedAt": "2026-11-26T16:39:43.114996+00:00"
+    },
+    {
+      "id": "art-3151b812",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-18",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "summary": "Hackers exploited a vulnerability in Optimizely, a third-party service used by hundreds of major websites, to inject malware into at least 178 popular sites including BBC, CNN, Equifax, Ledger, and Zoom. Visitors to these compromised sites were exposed to data-stealing malware without the websites knowing their content had been tampered with. The attack highlights how many major websites fail to properly monitor and restrict third-party content sources, creating a dangerous security gap.",
+      "category": "Vulnerabilities",
+      "severity": "Critical",
+      "tags": [
+        "third-party-compromise",
+        "malware-injection",
+        "supply-chain-attack",
+        "data-stealing",
+        "widespread-exploitation"
+      ],
+      "whyItMatters": "This incident demonstrates a critical supply-chain vulnerability where attackers can compromise hundreds of major websites simultaneously through a single third-party service, exposing millions of users to malware. Organizations must implement strict content security policies and monitor third-party integrations closely, as a single vulnerability can cascade across the entire web ecosystem. The sc",
+      "image": null,
+      "processedAt": "2026-11-26T16:39:48.632340+00:00"
+    },
+    {
+      "id": "art-c73fbfe2",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "source": "Krebs on Security",
+      "publishedDate": "2026-11-11",
+      "originalUrl": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "summary": "Qilin has become the most prolific ransomware affiliate program globally, with over 365 victims reported in just three months. Security researchers have identified the group's administrator as a 36-year-old individual based in St. Petersburg, Russia, through analyzing operational security mistakes made over the past decade. This attribution demonstrates how even sophisticated cybercriminals can leave digital traces that lead to their identification.",
+      "category": "Ransomware",
+      "severity": "Critical",
+      "tags": [
+        "ransomware",
+        "qilin",
+        "cybercrime",
+        "attribution",
+        "russian-hacker",
+        "affiliate-program"
+      ],
+      "whyItMatters": "Understanding who operates major ransomware groups helps law enforcement and cybersecurity teams develop targeted defense strategies and attribution methods. This case illustrates that even highly sophisticated threat actors make operational security mistakes that can expose their identities. Organizations need to know about active, prolific ransomware operators like Qilin to better prepare defens",
+      "image": null,
+      "processedAt": "2026-11-26T16:39:51.520846+00:00"
+    },
     {
       "id": "art-2b962126",
       "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
@@ -830,213 +1036,6 @@
       "whyItMatters": "Security teams are drowning in vulnerability alerts due to AI-driven development complexity, making it difficult to prioritize real threats. Implementing better visibility and automated remediation strategies enables organizations to reduce alert fatigue and strengthen their actual security posture rather than chasing every reported vulnerability.",
       "image": null,
       "processedAt": "2026-11-24T17:18:14.052270+00:00"
-    },
-    {
-      "id": "art-e6e4084f",
-      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-      "summary": "A Chinese threat group called Webworm has been discovered modifying SoftEther VPN, a legitimate open-source tool, to hide malicious activity and avoid detection by security systems. The customized version disguises itself as network monitoring software to secretly access compromised networks. This technique demonstrates how attackers can weaponize legitimate tools by altering them to evade security defenses.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "apt-group",
-        "custom-malware",
-        "vpn-abuse",
-        "evasion-techniques",
-        "remote-access",
-        "china-linked"
-      ],
-      "whyItMatters": "This attack highlights how threat actors repurpose legitimate, trusted software to bypass detection systems, making it harder for defenders to identify intrusions. Organizations need to monitor for suspicious modifications to common tools and implement behavioral analysis since traditional signature-based detection may fail against customized variants.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9_mXkFA2_QQWa_ajcGxgoc3rSAfxGJqP-uIREqPGAfJGM7D7-mLrjwSE_F1egX-pwVRvMRinRGs4QbcBE1yJrmHFw4Fa_ILg6ZuTIOy1bf86-wPQ-Zgsqa-6hqdBapRROk97rOeT-Vfa002vHuWF6fCSE1KPttjswyjUeBxjrJzrmVU9KY724e75Giq1T/s1600/chinese-malware.jpg",
-      "processedAt": "2026-11-24T03:31:12.943980+00:00"
-    },
-    {
-      "id": "art-a7090c27",
-      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
-      "summary": "GL.iNet's GoodCloud remote management service contained a security flaw that attackers exploited to install malware on customer routers and KVM devices. The company discovered the vulnerability on Friday, applied a fix, and blocked the attacker's access to prevent further infections. This incident highlights how vulnerabilities in cloud-based management platforms can compromise multiple connected devices simultaneously.",
-      "category": "Vulnerabilities",
-      "severity": "High",
-      "tags": [
-        "cloud-security",
-        "remote-management",
-        "router-security",
-        "malware-installation",
-        "vulnerability-patch",
-        "iot-devices"
-      ],
-      "whyItMatters": "This demonstrates how vulnerabilities in centralized cloud management services can create a single point of failure affecting numerous devices across an organization or user base. Businesses and individuals relying on GL.iNet devices need to ensure their systems are updated immediately, as network infrastructure compromises can lead to data theft, lateral movement into corporate networks, and pers",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6ctvKkiuJ-JViYFHxOV5w1CYjcopn7_YrQt2SnF6JC_SvdOugBSXLdVaMgnWhLCO1NfVgwru4ieWK8L3IeCP-OR75HltWOF5qNhOm9iH_VzJi3PSuUgCUtvhy0zkh_nZFv14tLCRsWly39aREkIphJtNMYUvsGS-CvIwunALU5KxtjFswov-lcS2iqzY/s1600/glinet.jpg",
-      "processedAt": "2026-11-24T03:31:15.126615+00:00"
-    },
-    {
-      "id": "art-31680104",
-      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
-      "summary": "India's CERT-In has issued a warning about hackers using artificial intelligence to launch coordinated cyber attacks against banks, fintech companies, and technology service providers. These AI-powered attacks have successfully resulted in unauthorized money transfers and financial losses at multiple Indian financial institutions. This represents a growing threat where criminals are leveraging advanced AI technology to compromise sensitive financial systems more effectively than traditional attack methods.",
-      "category": "Cybercrime",
-      "severity": "Critical",
-      "tags": [
-        "ai-assisted-attacks",
-        "unauthorized-payments",
-        "banking-sector",
-        "fintech-threats",
-        "india",
-        "financial-cybercrime"
-      ],
-      "whyItMatters": "This incident demonstrates that threat actors are actively weaponizing AI to bypass security controls at critical financial infrastructure, resulting in real financial losses. Organizations must urgently assess their defenses against AI-enhanced attack techniques and implement advanced detection systems. The involvement of multiple banks and fintech firms indicates a coordinated, sophisticated cam",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijDifo0ih-I06DQJbgdnt34Xg1qWdMibKByoJO-4vqa50M4yN0Lwu4fDe88GBtoiKHMJnRDYM0WXvYDEMyCWFHEbedl0wzwKI7juH9Q9xs3osQjZK0xPygeuGm0bm6jgpWPa7bca1EuZfTQiLxn-X3aNaAhbchhvemZrCqslieabzsGmz4ezqhrKuYhDyk/s1600/ai-india.jpg",
-      "processedAt": "2026-11-24T03:31:18.214200+00:00"
-    },
-    {
-      "id": "art-2c8fe5e6",
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "summary": "WhatsApp has released security patches addressing three vulnerabilities, including a flaw in its Android app that may have been used in scam campaigns. The main vulnerability involves improper validation of external ad-reply URLs in WhatsApp and WhatsApp Business for Android versions before 2.26.17.4. This flaw could potentially allow attackers to manipulate links in messages to deceive users.",
-      "category": "Patching and Updates",
-      "severity": "Medium",
-      "tags": [
-        "whatsapp",
-        "android",
-        "url-validation",
-        "scam-related",
-        "patch-available",
-        "mobile-security"
-      ],
-      "whyItMatters": "This vulnerability affects billions of WhatsApp users and has already been suspected of real-world exploitation in scams, making timely patching essential. The flaw demonstrates how validation weaknesses in messaging apps can be weaponized for social engineering attacks. Users need to update promptly to prevent becoming targets of URL-based scams.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUSbYUJJkBlZsaH90SXIaxYAv5iJN7ZEus7Q24A_Z9fDNNlnOjFnNZ3SnA6er-iuMgQnE6k73nwVwAEPPk1AjRT12N9o8cJft3_dPqMZKeJbpq6QIcGbN1z1UbE_Q3fXTyp1c0XmqynQu2lJPeIYoraqXFcgM-wQH4b1rIBrOKF221CIKLldJIZVJ4g7cr/s1600/whatsapp.jpg",
-      "processedAt": "2026-11-24T03:31:20.378114+00:00"
-    },
-    {
-      "id": "art-fd1ce7ff",
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "source": "The Hacker News",
-      "publishedDate": "2026-11-20",
-      "originalUrl": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "summary": "Researchers discovered Bazuka, a new Android malware framework that uses fake screen overlays to steal login credentials and control infected devices. The malware incorporates artificial intelligence technology to manage victims at scale, making it more sophisticated than typical mobile threats. ThreatFabric, a Dutch security company, found this malware while investigating banking trojans in October 2026.",
-      "category": "Malware",
-      "severity": "High",
-      "tags": [
-        "android-malware",
-        "credential-theft",
-        "ai-integration",
-        "banking-trojan",
-        "mobile-security",
-        "device-control"
-      ],
-      "whyItMatters": "Bazuka represents an escalating threat to Android users because it combines advanced techniques like fake overlays with AI-powered victim management, making detection and manual response difficult. The malware's ability to steal banking credentials and remotely control devices puts millions of mobile users at financial and privacy risk. Organizations and individuals need to understand this threat ",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMs4vBdivbF3Y-4yd3PWqjSTuG2PPDvCemM211pzVl2Jhkus9d14_2MzRgdrlNhRxaHa_2rlIN34kUGHAlV_Y2dMnfmYGlUEzUcab0c_s3N8Zoe8P3rcJ-RJmo2luVci9bVqmwtFhpL4rfR2Uo-ZwvqfqFMwRb_3WwoOvFIaunPd7WMOJ4yW9rjbHEKDwf/s1600/android-malware.jpg",
-      "processedAt": "2026-11-24T03:31:22.990346+00:00"
-    },
-    {
-      "id": "art-01460885",
-      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-      "summary": "A threat actor successfully infiltrated South Korea's major power utility KEPCO and compromised two internal systems, exposing sensitive personal and professional data belonging to approximately 1.5 million customers, employees, and contractors. This breach represents a significant security failure at critical infrastructure that millions of people depend on for essential services. The incident highlights how even large, well-resourced organizations can fall victim to sophisticated cyberattacks targeting their internal networks.",
-      "category": "Data Breaches",
-      "severity": "Critical",
-      "tags": [
-        "critical-infrastructure",
-        "data-breach",
-        "insider-threat",
-        "customer-data",
-        "south-korea"
-      ],
-      "whyItMatters": "Breaches at critical infrastructure providers like power utilities pose direct risks to public safety and national security, as compromised systems could potentially be leveraged for follow-up attacks on grid operations. The exposure of 1.5 million individuals' data creates widespread identity theft and fraud risks. This incident demonstrates that large organizations managing essential services re",
-      "image": null,
-      "processedAt": "2026-11-24T03:31:26.176066+00:00"
-    },
-    {
-      "id": "art-e4d4cb52",
-      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-      "summary": "OpenRouter removed three AI service providers from its platform after discovering they violated their data handling commitments and leaked sensitive information including prompts and secrets. This incident highlights how third-party integrations can compromise user data even when platforms have strict policies in place. The removal demonstrates the importance of verifying that service providers actually follow their stated security practices.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "ai-security",
-        "third-party-risk",
-        "credential-leak",
-        "vendor-accountability"
-      ],
-      "whyItMatters": "This incident shows that organizations relying on AI platform integrations face real risks from upstream providers who may not properly safeguard user data or secrets. It underscores the critical need for companies to audit their third-party vendors' actual security practices, not just their policies, to prevent exposure of sensitive prompts and credentials that could be exploited for further atta",
-      "image": null,
-      "processedAt": "2026-11-24T03:31:28.722902+00:00"
-    },
-    {
-      "id": "art-9be74b72",
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-      "summary": "Microsoft discovered a security flaw in Azure API Management Classic tier that attackers exploited to steal API credentials from customers. Norwegian authorities have connected this vulnerability to cyberattacks targeting energy sector companies. The incident highlights how cloud service vulnerabilities can expose sensitive authentication credentials to threat actors.",
-      "category": "Cloud Security",
-      "severity": "Critical",
-      "tags": [
-        "azure",
-        "api-credentials",
-        "cloud-vulnerability",
-        "active-exploitation",
-        "energy-sector",
-        "api-management"
-      ],
-      "whyItMatters": "API credentials are essential for secure service-to-service communication; their theft enables attackers to impersonate legitimate applications and access protected resources. Active exploitation of this flaw against critical infrastructure operators like energy companies poses immediate operational and national security risks. Organizations using Azure APIM Classic must urgently patch and audit t",
-      "image": null,
-      "processedAt": "2026-11-24T03:31:31.468909+00:00"
-    },
-    {
-      "id": "art-c2008b83",
-      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-      "summary": "LaLiga, Spain's premier football league, experienced a data breach that compromised personal information of its users and affiliated club members. Hackers gained unauthorized access to sensitive data stored by the organization, exposing details of soccer fans and potentially their associated accounts. The incident highlights how even large sports organizations are vulnerable to cyberattacks targeting their customer databases.",
-      "category": "Data Breaches",
-      "severity": "High",
-      "tags": [
-        "data-breach",
-        "personal-information",
-        "sports-organization",
-        "unauthorized-access",
-        "customer-data"
-      ],
-      "whyItMatters": "This breach demonstrates that major organizations serving millions of fans are attractive targets for attackers seeking to steal personal data for identity theft or fraud. Users of LaLiga services should monitor their accounts for suspicious activity and consider changing passwords, as stolen data can be exploited for phishing or financial crimes. The incident underscores the importance of robust ",
-      "image": null,
-      "processedAt": "2026-11-24T03:31:34.334672+00:00"
-    },
-    {
-      "id": "art-d741f7f2",
-      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
-      "source": "BleepingComputer",
-      "publishedDate": "2026-11-23",
-      "originalUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
-      "summary": "The US Cybersecurity and Infrastructure Security Agency (CISA) has alerted federal agencies that attackers are actively exploiting a recently fixed critical vulnerability in Cisco Expressway systems. This remote code execution flaw allows attackers to take control of affected systems, making it an urgent threat to organizations that have not yet applied the security patch. Federal agencies and other organizations using Cisco Expressway should prioritize patching immediately to prevent compromise.",
-      "category": "Vulnerabilities",
-      "severity": "Critical",
-      "tags": [
-        "cisco-expressway",
-        "rce-vulnerability",
-        "active-exploitation",
-        "critical-patch",
-        "federal-agencies",
-        "patch-urgently"
-      ],
-      "whyItMatters": "Active exploitation of a critical remote code execution vulnerability means attackers are already weaponizing this flaw in real attacks, making immediate patching essential. Federal agencies are priority targets, so this advisory signals the threat is widespread and sophisticated. Organizations delay patching at their own risk—unpatched systems can be completely compromised within hours.",
-      "image": null,
-      "processedAt": "2026-11-24T03:31:37.046907+00:00"
     }
   ]
 }
